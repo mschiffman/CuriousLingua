@@ -5,12 +5,14 @@
  "topic": "History",
  "type": "text",
  "register": "neutral-standard",
- "review": "English lines, IPA and word notes were written by Claude: check them.",
+ "review": "English lines, IPA and word notes were written by Claude: check them. Narration and glossary recorded with ElevenLabs (Fr-Adrien); sentence timings come from its character times. Nobody has listened to the takes yet.",
  "img": "img/Fr-read/hunter.jpg",
  "img_alt": "Hunter-gatherers by a river: a man shaping stone tools, a woman with a basket of berries, a child, and a hunter coming back",
  "support": [
   "en"
  ],
+ "audio_file": "lessons/read/hunter/audio.mp3",
+ "glossary_dir": "lessons/read/hunter/",
  "paragraphs": [
   [
    {
@@ -34,13 +36,21 @@
       "ancestors",
       "un ancêtre"
      ]
-    }
+    },
+    "t": [
+     0,
+     8.15
+    ]
    },
    {
     "text": "Elle était généreuse avec eux.",
     "tr": {
      "en": "It was generous with them."
-    }
+    },
+    "t": [
+     8.59,
+     10.31
+    ]
    }
   ],
   [
@@ -55,7 +65,11 @@
       "woke up",
       "se réveiller"
      ]
-    }
+    },
+    "t": [
+     10.8,
+     15.91
+    ]
    }
   ],
   [
@@ -70,7 +84,11 @@
       "spears",
       "une lance"
      ]
-    }
+    },
+    "t": [
+     16.41,
+     18.6
+    ]
    },
    {
     "text": "Ils suivaient les traces des animaux dans la forêt.",
@@ -83,7 +101,11 @@
       "tracks, footprints",
       "une trace"
      ]
-    }
+    },
+    "t": [
+     18.64,
+     21.58
+    ]
    },
    {
     "text": "Pour chasser, il fallait de la patience, du courage, et très bien connaître la nature.",
@@ -96,7 +118,11 @@
       "to hunt",
       "chasser / la chasse"
      ]
-    }
+    },
+    "t": [
+     21.63,
+     28.07
+    ]
    },
    {
     "text": "Si la chasse marchait bien, c’était la fête : un grand repas !",
@@ -109,7 +135,11 @@
       "hunt, hunting",
       "chasser / la chasse"
      ]
-    }
+    },
+    "t": [
+     28.29,
+     32.79
+    ]
    },
    {
     "text": "Sinon, ils rentraient les mains vides.",
@@ -122,7 +152,11 @@
       "came back empty-handed",
       "rentrer les mains vides"
      ]
-    }
+    },
+    "t": [
+     33.36,
+     35.59
+    ]
    }
   ],
   [
@@ -147,13 +181,21 @@
       "berries",
       "une baie"
      ]
-    }
+    },
+    "t": [
+     35.66,
+     42.39
+    ]
    },
    {
     "text": "Elles savaient énormément de choses.",
     "tr": {
      "en": "They knew a great many things."
-    }
+    },
+    "t": [
+     42.59,
+     45.11
+    ]
    },
    {
     "text": "Elles savaient quelles plantes nourrissent, quelles plantes soignent… et quelles plantes tuent.",
@@ -171,7 +213,11 @@
       "heal, treat",
       "soigner"
      ]
-    }
+    },
+    "t": [
+     45.63,
+     50.79
+    ]
    },
    {
     "text": "Souvent, la cueillette donnait plus de nourriture que la chasse, parce qu’elle était plus sûre.",
@@ -184,7 +230,11 @@
       "gathering (of plants or fruit)",
       "la cueillette"
      ]
-    }
+    },
+    "t": [
+     51.66,
+     57.18
+    ]
    }
   ],
   [
@@ -192,13 +242,21 @@
     "text": "Mais attention, ce n’étaient pas des règles fixes.",
     "tr": {
      "en": "But be careful, these were not fixed rules."
-    }
+    },
+    "t": [
+     57.23,
+     60.95
+    ]
    },
    {
     "text": "Parfois, les femmes chassaient et les hommes faisaient la cueillette.",
     "tr": {
      "en": "Sometimes the women hunted and the men did the gathering."
-    }
+    },
+    "t": [
+     61.48,
+     65.11
+    ]
    },
    {
     "text": "Chacun s’adaptait à la situation.",
@@ -211,7 +269,11 @@
       "adapted",
       "s’adapter"
      ]
-    }
+    },
+    "t": [
+     65.63,
+     67.59
+    ]
    }
   ],
   [
@@ -219,7 +281,11 @@
     "text": "Les grands-parents gardaient les enfants.",
     "tr": {
      "en": "The grandparents looked after the children."
-    }
+    },
+    "t": [
+     68.19,
+     70.61
+    ]
    },
    {
     "text": "Ils leur transmettaient leur sagesse.",
@@ -237,13 +303,21 @@
       "wisdom",
       "la sagesse"
      ]
-    }
+    },
+    "t": [
+     70.66,
+     73.03
+    ]
    },
    {
     "text": "Ils se souvenaient aussi où trouver de la nourriture quand les saisons changeaient.",
     "tr": {
      "en": "They also remembered where to find food when the seasons changed."
-    }
+    },
+    "t": [
+     73.18,
+     77.83
+    ]
    }
   ],
   [
@@ -251,7 +325,11 @@
     "text": "Le soir, tout le monde rentrait.",
     "tr": {
      "en": "In the evening, everyone came back."
-    }
+    },
+    "t": [
+     78.45,
+     80.95
+    ]
    },
    {
     "text": "Autour du feu, on partageait la nourriture, on racontait des histoires, et les enfants apprenaient les secrets pour survivre.",
@@ -264,7 +342,11 @@
       "to survive",
       "survivre (survécu)"
      ]
-    }
+    },
+    "t": [
+     81.02,
+     89.27
+    ]
    }
   ],
   [
@@ -279,7 +361,11 @@
       "maps",
       "une carte"
      ]
-    }
+    },
+    "t": [
+     89.87,
+     94.79
+    ]
    }
   ],
   [
@@ -294,7 +380,11 @@
       "mutual help, cooperation",
       "l’entraide (f.)"
      ]
-    }
+    },
+    "t": [
+     94.91,
+     103.11
+    ]
    }
   ],
   [
@@ -314,94 +404,119 @@
       "to bring, to contribute",
       "apporter"
      ]
-    }
+    },
+    "t": [
+     103.11,
+     110.71
+    ]
    }
   ]
  ],
  "glossary": [
   {
    "word": "un ancêtre",
-   "en": "an ancestor"
+   "en": "an ancestor",
+   "audio": "01.mp3"
   },
   {
    "word": "un royaume",
-   "en": "a kingdom"
+   "en": "a kingdom",
+   "audio": "02.mp3"
   },
   {
    "word": "un champ",
-   "en": "a field"
+   "en": "a field",
+   "audio": "03.mp3"
   },
   {
    "word": "se réveiller",
-   "en": "to wake up"
+   "en": "to wake up",
+   "audio": "04.mp3"
   },
   {
    "word": "une lance",
-   "en": "a spear"
+   "en": "a spear",
+   "audio": "05.mp3"
   },
   {
    "word": "une trace",
-   "en": "a track, a footprint"
+   "en": "a track, a footprint",
+   "audio": "06.mp3"
   },
   {
    "word": "chasser / la chasse",
-   "en": "to hunt / hunting"
+   "en": "to hunt / hunting",
+   "audio": "07.mp3"
   },
   {
    "word": "rentrer les mains vides",
-   "en": "to come back empty-handed"
+   "en": "to come back empty-handed",
+   "audio": "08.mp3"
   },
   {
    "word": "ramasser",
-   "en": "to pick up, to gather"
+   "en": "to pick up, to gather",
+   "audio": "09.mp3"
   },
   {
    "word": "une racine",
-   "en": "a root"
+   "en": "a root",
+   "audio": "10.mp3"
   },
   {
    "word": "une baie",
-   "en": "a berry"
+   "en": "a berry",
+   "audio": "11.mp3"
   },
   {
    "word": "la cueillette",
-   "en": "gathering (of plants or fruit)"
+   "en": "gathering (of plants or fruit)",
+   "audio": "12.mp3"
   },
   {
    "word": "nourrir",
-   "en": "to feed, to nourish"
+   "en": "to feed, to nourish",
+   "audio": "13.mp3"
   },
   {
    "word": "soigner",
-   "en": "to heal, to treat"
+   "en": "to heal, to treat",
+   "audio": "14.mp3"
   },
   {
    "word": "s’adapter",
-   "en": "to adapt"
+   "en": "to adapt",
+   "audio": "15.mp3"
   },
   {
    "word": "transmettre",
-   "en": "to pass down"
+   "en": "to pass down",
+   "audio": "16.mp3"
   },
   {
    "word": "la sagesse",
-   "en": "wisdom"
+   "en": "wisdom",
+   "audio": "17.mp3"
   },
   {
    "word": "survivre (survécu)",
-   "en": "to survive (survived)"
+   "en": "to survive (survived)",
+   "audio": "18.mp3"
   },
   {
    "word": "une carte",
-   "en": "a map"
+   "en": "a map",
+   "audio": "19.mp3"
   },
   {
    "word": "l’entraide (f.)",
-   "en": "mutual help, cooperation"
+   "en": "mutual help, cooperation",
+   "audio": "20.mp3"
   },
   {
    "word": "apporter",
-   "en": "to bring, to contribute"
+   "en": "to bring, to contribute",
+   "audio": "21.mp3"
   }
  ]
 }

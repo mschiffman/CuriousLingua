@@ -6,12 +6,14 @@
  "topic": "History",
  "type": "text",
  "register": "neutral-standard",
- "review": "English lines, IPA and word notes were written by Claude: check them. reading.md gives no level for this text: B1 is a guess.",
+ "review": "English lines, IPA and word notes were written by Claude: check them. reading.md gives no level for this text: B1 is a guess. Narration and glossary recorded with ElevenLabs (Fr-Adrien); sentence timings come from its character times. Nobody has listened to the takes yet.",
  "img": "img/Fr-read/viking.jpg",
  "img_alt": "A Viking longship with a red and white striped sail between tall cliffs",
  "support": [
   "en"
  ],
+ "audio_file": "lessons/read/viking/audio.mp3",
+ "glossary_dir": "lessons/read/viking/",
  "paragraphs": [
   [
    {
@@ -30,7 +32,11 @@
       "the unknown",
       "l’inconnu (m.)"
      ]
-    }
+    },
+    "t": [
+     0,
+     7.59
+    ]
    }
   ],
   [
@@ -38,7 +44,11 @@
     "text": "Ceux qui les construisaient étaient de vrais génies.",
     "tr": {
      "en": "Those who built them were true geniuses."
-    }
+    },
+    "t": [
+     8.13,
+     11.19
+    ]
    },
    {
     "text": "Avec des planches de chêne qui se chevauchaient, des coques courbées et élégantes et de grandes voiles carrées, ils ont créé des navires assez rapides pour traverser les océans, mais assez plats pour remonter les rivières.",
@@ -81,7 +91,11 @@
       "to sail up rivers",
       "remonter une rivière"
      ]
-    }
+    },
+    "t": [
+     11.73,
+     25.27
+    ]
    }
   ],
   [
@@ -101,7 +115,11 @@
       "sailors, seafarers",
       "un marin"
      ]
-    }
+    },
+    "t": [
+     25.6,
+     35.75
+    ]
    }
   ],
   [
@@ -116,7 +134,11 @@
       "raised",
       "élever (des animaux)"
      ]
-    }
+    },
+    "t": [
+     36.4,
+     43.51
+    ]
    },
    {
     "text": "Les femmes géraient la maison et les terres.",
@@ -129,7 +151,11 @@
       "managed",
       "gérer"
      ]
-    }
+    },
+    "t": [
+     43.66,
+     46.55
+    ]
    },
    {
     "text": "Les gens libres réglaient leurs conflits lors d’assemblées appelées les « Things ».",
@@ -142,13 +168,21 @@
       "settled their disputes",
       "régler un conflit"
      ]
-    }
+    },
+    "t": [
+     47.0,
+     51.72
+    ]
    },
    {
     "text": "Pendant les longues soirées d’hiver, on racontait des histoires de dieux, de géants et de héros.",
     "tr": {
      "en": "During the long winter evenings, people told stories of gods, giants and heroes."
-    }
+    },
+    "t": [
+     51.75,
+     58.15
+    ]
    }
   ],
   [
@@ -163,7 +197,11 @@
       "coasts, shores",
       "une côte"
      ]
-    }
+    },
+    "t": [
+     58.67,
+     63.03
+    ]
    }
   ],
   [
@@ -178,7 +216,11 @@
       "set out, ventured",
       "se lancer"
      ]
-    }
+    },
+    "t": [
+     63.15,
+     73.03
+    ]
    }
   ],
   [
@@ -193,7 +235,11 @@
       "settled",
       "s’installer"
      ]
-    }
+    },
+    "t": [
+     73.2,
+     77.01
+    ]
    },
    {
     "text": "Ils ont fait du commerce le long de rivières qui menaient jusqu’à Bagdad.",
@@ -206,13 +252,21 @@
       "traded",
       "faire du commerce"
      ]
-    }
+    },
+    "t": [
+     77.06,
+     81.27
+    ]
    },
    {
     "text": "Et ils sont allés jusqu’en Amérique du Nord… presque cinq siècles avant Christophe Colomb !",
     "tr": {
      "en": "And they went as far as North America… almost five centuries before Christopher Columbus!"
-    }
+    },
+    "t": [
+     81.68,
+     87.35
+    ]
    }
   ],
   [
@@ -220,13 +274,21 @@
     "text": "Imagine : tu es debout sur un petit bateau en bois.",
     "tr": {
      "en": "Imagine: you are standing on a small wooden boat."
-    }
+    },
+    "t": [
+     88.19,
+     91.99
+    ]
    },
    {
     "text": "Autour de toi, l’océan bouge sans arrêt, à l’infini.",
     "tr": {
      "en": "Around you, the ocean moves without stopping, endlessly."
-    }
+    },
+    "t": [
+     92.41,
+     96.47
+    ]
    },
    {
     "text": "Pas de boussole.",
@@ -239,13 +301,21 @@
       "compass",
       "une boussole"
      ]
-    }
+    },
+    "t": [
+     96.54,
+     98.15
+    ]
    },
    {
     "text": "Et aucune certitude de trouver une terre devant toi.",
     "tr": {
      "en": "And no certainty of finding land ahead of you."
-    }
+    },
+    "t": [
+     98.24,
+     101.59
+    ]
    }
   ],
   [
@@ -253,13 +323,21 @@
     "text": "Quel courage incroyable !",
     "tr": {
      "en": "What incredible courage!"
-    }
+    },
+    "t": [
+     102.19,
+     104.31
+    ]
    },
    {
     "text": "Quelle curiosité extraordinaire !",
     "tr": {
      "en": "What extraordinary curiosity!"
-    }
+    },
+    "t": [
+     104.4,
+     107.19
+    ]
    }
   ],
   [
@@ -267,7 +345,11 @@
     "text": "Les Vikings n’avaient ni instruments modernes, ni moteurs puissants.",
     "tr": {
      "en": "The Vikings had neither modern instruments nor powerful engines."
-    }
+    },
+    "t": [
+     107.42,
+     112.15
+    ]
    },
    {
     "text": "Pourtant, grâce à leurs connaissances, leur savoir-faire et leur audace, ils sont allés jusqu’aux limites du monde qu’ils connaissaient.",
@@ -285,94 +367,119 @@
       "daring, boldness",
       "l’audace (f.)"
      ]
-    }
+    },
+    "t": [
+     112.54,
+     120.63
+    ]
    }
   ]
  ],
  "glossary": [
   {
    "word": "brumeux / brumeuse",
-   "en": "misty"
+   "en": "misty",
+   "audio": "01.mp3"
   },
   {
    "word": "l’inconnu (m.)",
-   "en": "the unknown"
+   "en": "the unknown",
+   "audio": "02.mp3"
   },
   {
    "word": "une planche",
-   "en": "a plank, a board"
+   "en": "a plank, a board",
+   "audio": "03.mp3"
   },
   {
    "word": "le chêne",
-   "en": "oak"
+   "en": "oak",
+   "audio": "04.mp3"
   },
   {
    "word": "se chevaucher",
-   "en": "to overlap"
+   "en": "to overlap",
+   "audio": "05.mp3"
   },
   {
    "word": "une coque",
-   "en": "a hull"
+   "en": "a hull",
+   "audio": "06.mp3"
   },
   {
    "word": "une voile",
-   "en": "a sail"
+   "en": "a sail",
+   "audio": "07.mp3"
   },
   {
    "word": "un navire",
-   "en": "a ship, a vessel"
+   "en": "a ship, a vessel",
+   "audio": "08.mp3"
   },
   {
    "word": "remonter une rivière",
-   "en": "to sail up a river"
+   "en": "to sail up a river",
+   "audio": "09.mp3"
   },
   {
    "word": "un marin",
-   "en": "a sailor, a seafarer"
+   "en": "a sailor, a seafarer",
+   "audio": "10.mp3"
   },
   {
    "word": "un artisan",
-   "en": "a craftsman"
+   "en": "a craftsman",
+   "audio": "11.mp3"
   },
   {
    "word": "élever (des animaux)",
-   "en": "to raise (animals)"
+   "en": "to raise (animals)",
+   "audio": "12.mp3"
   },
   {
    "word": "gérer",
-   "en": "to manage"
+   "en": "to manage",
+   "audio": "13.mp3"
   },
   {
    "word": "régler un conflit",
-   "en": "to settle a dispute"
+   "en": "to settle a dispute",
+   "audio": "14.mp3"
   },
   {
    "word": "une côte",
-   "en": "a coast, a shore"
+   "en": "a coast, a shore",
+   "audio": "15.mp3"
   },
   {
    "word": "se lancer",
-   "en": "to set out, to venture"
+   "en": "to set out, to venture",
+   "audio": "16.mp3"
   },
   {
    "word": "s’installer",
-   "en": "to settle"
+   "en": "to settle",
+   "audio": "17.mp3"
   },
   {
    "word": "faire du commerce",
-   "en": "to trade"
+   "en": "to trade",
+   "audio": "18.mp3"
   },
   {
    "word": "une boussole",
-   "en": "a compass"
+   "en": "a compass",
+   "audio": "19.mp3"
   },
   {
    "word": "le savoir-faire",
-   "en": "know-how, craftsmanship"
+   "en": "know-how, craftsmanship",
+   "audio": "20.mp3"
   },
   {
    "word": "l’audace (f.)",
-   "en": "daring, boldness"
+   "en": "daring, boldness",
+   "audio": "21.mp3"
   }
  ]
 }
