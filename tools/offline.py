@@ -82,10 +82,11 @@ def one(L):
                 embed[f"{base}{n:02d}.{L.get('aud_ext', 'mp3')}"] = uri(f, None if full else small(f))
             else:
                 missing.append(n)
+    ver = "?v=" + L["audio_ver"] if L.get("audio_ver") else ""   # the page asks for the recording and glossary clips with this tag
     if L.get("audio_file"):
         f = lib.find("media/" + L["audio_file"])
         if f:
-            embed[C["media_base"] + L["audio_file"]] = uri(f)
+            embed[C["media_base"] + L["audio_file"] + ver] = uri(f)
         else:
             missing.append(L["audio_file"])
     for g in L.get("glossary", []):
@@ -93,7 +94,7 @@ def one(L):
         name = name if "." in name else name + ".mp3"
         f = lib.find("media/" + L.get("glossary_dir", "") + name)
         if f:
-            embed[C["media_base"] + L.get("glossary_dir", "") + name] = uri(f)
+            embed[C["media_base"] + L.get("glossary_dir", "") + name + ver] = uri(f)
         else:
             missing.append(name)
     noimg = 0

@@ -58,7 +58,7 @@ Copy an existing file in the same strand to start a new lesson.
 
 `aud_dir` is the folder on R2 **and** under `media\` (`"fr/speaking/boulangerie/"`). Clips are `01.mp3`, `02.mp3` … in reading order. While `aud_ext` is `"mp3?v=pending"` the Play buttons are grey. `2_audio.bat` makes the clips, uploads them and replaces `pending` with a dated tag.
 
-A `text` lesson can instead use one existing recording: `"audio_file": "lessons/read/amber.m4a"` plus `"t": [start, end]` (seconds) on each sentence. Nothing is cut or re-encoded. See `content\fr\reading\amber.json`. The page then shows a player (play, pause, stop, slider). Word clips named by word go in `"glossary_dir": "lessons/read/amber/"` with `"glossary": [{ "word": "ambre", "en": "amber" }]`; add `"audio": "goutte.m4a"` when the file name differs from the word or is not an .mp3.
+A `text` lesson can instead use one existing recording: `"audio_file": "lessons/read/amber.m4a"` plus `"t": [start, end]` (seconds) on each sentence. Nothing is cut or re-encoded. See `content\fr\reading\amber.json`. `python -E tools\audio.py upload <lesson>` sends the recording (and the lesson's numbered glossary clips) to R2 and stamps `"audio_ver"` in the lesson file: a new take keeps the name `audio.mp3` and gets a new tag, so nobody is served a saved copy of the old one. The page then shows a player (play, pause, stop, slider). Word clips named by word go in `"glossary_dir": "lessons/read/amber/"` with `"glossary": [{ "word": "ambre", "en": "amber" }]`; add `"audio": "goutte.m4a"` when the file name differs from the word or is not an .mp3.
 
 `"aud_shared": true` marks a lesson that reuses another lesson's clips (the first shadowing pages do); the audio tool leaves those alone.
 

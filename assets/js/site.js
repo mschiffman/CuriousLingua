@@ -11,7 +11,10 @@
   const media = (u) => (typeof EMBED !== "undefined" && EMBED[u]) || u;
   /* Alternative wire: one recording for the whole text. LESSON.audio_file is its path under MEDIA_BASE,
      and each sentence has "t": [start, end] in seconds. Nothing is cut or re-encoded. */
-  const FILE = L.audio_file ? media((/^https?:/.test(L.audio_file) ? "" : BASE) + L.audio_file) : "";
+  /* "audio_ver" is that recording's version tag (set by `audio.py upload`): a new take keeps its file name and
+     gets a new tag, so browsers and the CDN fetch it instead of replaying a saved copy. It covers the glossary clips too. */
+  const VER = L.audio_ver ? "?v=" + L.audio_ver : "";
+  const FILE = L.audio_file ? media((/^https?:/.test(L.audio_file) ? "" : BASE) + L.audio_file + VER) : "";
   const SEG = {};
   (L.paragraphs || []).flat().forEach((s) => { if (s.t) SEG[s.n] = s.t; });
   /* Shadowing chunks taken from a longer clip: a chunk with "clip" plays clip NN = that number (not its own),
@@ -21,7 +24,7 @@
   let fileEl = null, tick = null, wordEl = null;
   const getFile = () => fileEl || (fileEl = new Audio(FILE));
   /* glossary clips are named by word (ambre.mp3), in LESSON.glossary_dir */
-  const wordUrl = (name) => media(BASE + (L.glossary_dir || "") + (name.includes(".") ? name : name + ".mp3"));
+  const wordUrl = (name) => media(BASE + (L.glossary_dir || "") + (name.includes(".") ? name : name + ".mp3") + VER);
   function playWord(name) { stop(); if (wordEl) wordEl.pause(); wordEl = new Audio(wordUrl(name)); wordEl.play().catch(() => {}); }
   const pending = !FILE && (!L.aud_dir || /pending/.test(L.aud_ext || ""));
   const clipUrl = (n) => (/^https?:/.test(L.aud_dir) ? "" : BASE) + L.aud_dir + pad(n) + "." + (L.aud_ext || "mp3");

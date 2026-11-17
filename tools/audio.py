@@ -7,6 +7,7 @@
     python -E tools/audio.py make <lesson> --redo 6 12    new takes (old clip and raw take are moved aside, not deleted)
     python -E tools/audio.py check <lesson>          Whisper on every clip, compared with the text
     python -E tools/audio.py upload <lesson>         send new/changed clips to R2, set the ?v= tag, rebuild the page
+                                                     (a text lesson: its one recording and glossary clips; the tag is "audio_ver")
     python -E tools/audio.py balance                 ElevenLabs characters left
     python -E tools/audio.py shadow <dialogue>       draft a shadowing lesson from a dialogue: its sentences, as parts of the same clips
     python -E tools/audio.py chunks <shadow lesson>  find each chunk inside its clip and write its "t": [start, end]. Uses no characters
@@ -310,7 +311,67 @@ def shadow(L):
     print(f"Split or join chunks there if you like (keep each chunk's \"clip\"), then: python -E tools\\audio.py chunks {L['course']}/pronunciation/shadow_{L['slug']}")
 
 
+def r2():
+    import truststore
+    truststore.inject_into_ssl()   # use the Windows certificate store
+    import boto3
+    return boto3.client("s3", endpoint_url=f"https://{env('R2_ACCOUNT_ID')}.r2.cloudflarestorage.com", aws_access_key_id=env("R2_ACCESS_KEY_ID"),
+                        aws_secret_access_key=env("R2_SECRET_ACCESS_KEY"), region_name="auto")
+
+
+def upload_recording(L):
+    """A lesson with one recording for the whole text ("audio_file"): sends that file and the lesson's own numbered
+    glossary clips to R2, and stamps "audio_ver" in the lesson file when anything was new. The file keeps its name:
+    the tag is what makes browsers and the CDN fetch a new take."""
+    files = {}   # R2 key -> file on this computer
+    f = lib.find("media/" + L["audio_file"])
+    if not f:
+        sys.exit(f'{L["audio_file"]} is not in media/: nothing to upload')
+    files[L["audio_file"]] = f
+    gd = L.get("glossary_dir", "")
+    for g in L.get("glossary", []):
+        if gd and g.get("audio"):
+            p = lib.find("media/" + gd + g["audio"])
+            if not p:
+                sys.exit(f'glossary clip {gd}{g["audio"]} is not in media/: not uploading')
+            files[gd + g["audio"]] = p
+    md5 = lambda p: hashlib.md5(open(p, "rb").read()).hexdigest()
+    s3, online = r2(), {}
+    for prefix in sorted({k.rsplit("/", 1)[0] + "/" for k in files}):
+        for pg in s3.get_paginator("list_objects_v2").paginate(Bucket=BUCKET, Prefix=prefix):
+            online.update({o["Key"]: o["ETag"].strip('"') for o in pg.get("Contents", [])})
+    todo = [k for k, p in files.items() if online.get(k) != md5(p)]
+    for k in todo:
+        s3.upload_file(files[k], BUCKET, k, ExtraArgs={"ContentType": "audio/mp4" if k.endswith(".m4a") else "audio/mpeg"})
+    print(f"R2 {L['audio_file']}: {len(files) - len(todo)} already online, {len(todo)} uploaded")
+    ver = L.get("audio_ver", "")
+    if todo or not ver:
+        ver = datetime.datetime.now().strftime("%y%m%d%H%M")
+        src = open(L["file"], encoding="utf-8").read()
+        if '"audio_ver"' in src:
+            new = re.sub(r'"audio_ver":\s*"[^"]*"', f'"audio_ver": "{ver}"', src, count=1)
+        else:
+            new = re.sub(r'^(\s*)("audio_file":\s*"[^"]*",?)[ \t]*$', lambda m: f'{m.group(1)}{m.group(2).rstrip(",")},\n{m.group(1)}"audio_ver": "{ver}",', src, count=1, flags=re.M)
+        if new == src:
+            sys.exit(f'could not find "audio_file" in {L["file"]}: add "audio_ver": "{ver}" by hand')
+        json.loads(new)   # never leave a lesson file that does not parse
+        open(L["file"], "w", encoding="utf-8", newline="\n").write(new)
+        print(f"audio_ver set to {ver}")
+    wrong = []
+    for k, p in files.items():
+        got = subprocess.run(["curl", "-s", f"{C['media_base']}{k}?v={ver}"], capture_output=True).stdout
+        if hashlib.md5(got).hexdigest() != md5(p):
+            wrong.append(k)
+    print(f"CDN check: {len(files) - len(wrong)}/{len(files)} match" + (f", DIFFERENT: {wrong}" if wrong else ""))
+    import build
+    build.main()
+    if wrong:
+        sys.exit("the CDN is serving different files: upload again to get a new tag")
+
+
 def upload(L):
+    if L.get("audio_file"):
+        return upload_recording(L)
     media, _ = paths(L)
     tx = texts(L)
     gone = missing(L)
