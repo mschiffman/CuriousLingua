@@ -2306,7 +2306,7 @@
   "title": "Meeting someone",
   "clips": 6,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  },
  {
@@ -2321,7 +2321,7 @@
   "title": "Greetings and goodbyes",
   "clips": 12,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": true
  }
 ]

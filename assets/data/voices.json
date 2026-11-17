@@ -15,9 +15,9 @@
   "whisper": "en"
  },
  "jap": {
-  "name": "(choose a Japanese voice)",
-  "voice": "",
-  "model": "eleven_v3",
+  "name": "Jap-Soku",
+  "voice": "ilBjLtdEW3SkjRXakAkO",
+  "model": "eleven_v4",
   "lufs": -16,
   "whisper": "ja"
  }

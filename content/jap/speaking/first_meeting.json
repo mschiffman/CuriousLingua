@@ -5,13 +5,17 @@
  "topic": "Situations",
  "type": "dialogue",
  "order": 1,
- "review": "Burmese lines drafted by Claude. Check them before publishing. Japanese voice not chosen yet (assets/data/voices.json).",
+ "review": "Burmese lines drafted by Claude. Check them before publishing.",
  "intro": "Introduce yourself. Then take Min's part: press 'I am Min' and Play all.",
  "aud_dir": "jap/speaking/first_meeting/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611171504",
  "speakers": {
   "A": "Tanaka",
   "B": "Min"
+ },
+ "voice": {
+  "A": "r4qMc0xxpfgMQciUmPHW",
+  "B": "r4qMc0xxpfgMQciUmPHW"
  },
  "support": [
   "en",

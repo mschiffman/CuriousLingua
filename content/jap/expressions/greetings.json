@@ -5,10 +5,10 @@
  "topic": "Everyday expressions",
  "type": "dialogue",
  "order": 1,
- "review": "Burmese lines drafted by Claude. Check them before publishing. Japanese voice not chosen yet (assets/data/voices.json).",
+ "review": "Burmese lines drafted by Claude. Check them before publishing.",
  "intro": "The phrases you need on day one. Listen, repeat, and do not worry about the writing.",
  "aud_dir": "jap/expressions/greetings/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611171504",
  "support": [
   "en",
   "my"

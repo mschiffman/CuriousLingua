@@ -90,7 +90,7 @@ Things to know:
 - **The menu only lists lessons that are pending or have clips missing.** A lesson that already has a `?v=` tag and all its clips on disk does not appear: upload it by name.
 - **Two voices in a dialogue:** add `"voice": {"E": "<voice id>"}` to the lesson file, one entry per speaker who should not use the course voice. The course voice is in `assets\data\voices.json`.
 - **A reading text's narration** (one recording, `audio_file`) is uploaded with the same `upload` command. It stamps `"audio_ver"` in the lesson file, so a re-recorded `audio.mp3` keeps its name and is still fetched fresh. No cache purging, no `audio2.mp3`.
-- **Japanese** has no voice chosen yet, so `make` stops for Japanese lessons.
+- **Japanese** uses the Jap-Soku voice with `eleven_v4`; male speakers get Jap-yuyu (`"voice": {"A": "r4qMc0xxpfgMQciUmPHW"}` in the lesson file). Whisper does not compare Japanese automatically: read its "heard" column.
 
 ### Word lists and hotspot pictures
 
