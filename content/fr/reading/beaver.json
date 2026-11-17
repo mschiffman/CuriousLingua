@@ -1,0 +1,543 @@
+{
+ "title": "Les castors",
+ "subtitle": "Bâtisseurs de barrages",
+ "level": "b1",
+ "level_provisional": true,
+ "topic": "Nature",
+ "type": "text",
+ "register": "familiar-standard, warm (bosser, franchement)",
+ "legacy": "fr/reading/beaver.html",
+ "review": "Imported from the old beaver page. Sentence timings come from Whisper word timestamps, not from listening: tap each sentence once and adjust \"t\" where a start or end is off. The level is a guess. The glossary words have no audio.",
+ "img": "img/Fr-read/beaver.jpg",
+ "img_alt": "A beaver inside its lodge of sticks on a pond, and two beavers swimming to the underwater entrances",
+ "audio_file": "lessons/read/beaver.m4a",
+ "support": [
+  "en"
+ ],
+ "paragraphs": [
+  [
+   {
+    "text": "Les castors, franchement, ce sont de véritables petits génies de la nature.",
+    "tr": {
+     "en": "Beavers, honestly, are true little geniuses of nature."
+    },
+    "gloss": {
+     "castors": [
+      "/kastɔʀ/",
+      "beavers"
+     ],
+     "génies": [
+      "/ʒeni/",
+      "geniuses"
+     ]
+    },
+    "t": [
+     4.64,
+     9.97
+    ]
+   },
+   {
+    "text": "De vrais bosseurs, adorables et dévoués.",
+    "tr": {
+     "en": "Hard-working, adorable, and full of devotion."
+    },
+    "gloss": {
+     "bosseurs": [
+      "/bɔsœʀ/",
+      "hard workers"
+     ],
+     "dévoués": [
+      "/devwe/",
+      "devoted"
+     ]
+    },
+    "t": [
+     10.5,
+     13.75
+    ]
+   },
+   {
+    "text": "Avec leurs dents surpuissantes, ils coupent des arbres comme si ce n’était rien du tout et construisent des barrages tellement ingénieux qu’on dirait des architectes en mission secrète.",
+    "tr": {
+     "en": "With their super-powered teeth, they chop down trees like it’s nothing and build dams so clever you’d think they were secret-agent architects on a mission."
+    },
+    "gloss": {
+     "surpuissantes": [
+      "/syʀpɥisɑ̃t/",
+      "super powerful"
+     ],
+     "coupent": [
+      "/kup/",
+      "to cut",
+      "couper /kupe/"
+     ],
+     "construisent": [
+      "/kɔ̃stʀɥiz/",
+      "to build",
+      "construire /kɔ̃stʀɥiʀ/"
+     ],
+     "barrages": [
+      "/baʀaʒ/",
+      "dams"
+     ],
+     "ingénieux": [
+      "/ɛ̃ʒenjø/",
+      "ingenious"
+     ],
+     "architectes": [
+      "/aʀʃitɛkt/",
+      "architects"
+     ],
+     "mission": [
+      "/misjɔ̃/",
+      "mission"
+     ],
+     "secrète": [
+      "/səkʀɛt/",
+      "secret"
+     ]
+    },
+    "t": [
+     14.22,
+     26.38
+    ]
+   }
+  ],
+  [
+   {
+    "text": "Le résultat ?",
+    "tr": {
+     "en": "And the result?"
+    },
+    "gloss": {
+     "résultat": [
+      "/ʀezylta/",
+      "result"
+     ]
+    },
+    "t": [
+     26.38,
+     27.95
+    ]
+   },
+   {
+    "text": "Des étangs paisibles, tout doux, qui deviennent de véritables refuges pour tout le monde : poissons, grenouilles, oiseaux, insectes… un petit paradis pour la biodiversité.",
+    "tr": {
+     "en": "Peaceful, gentle ponds that turn into safe havens for everyone — fish, frogs, birds, insects… a little paradise bursting with life."
+    },
+    "gloss": {
+     "étangs": [
+      "/etɑ̃/",
+      "ponds"
+     ],
+     "paisibles": [
+      "/pezibl/",
+      "peaceful"
+     ],
+     "doux": [
+      "/du/",
+      "soft/gentle"
+     ],
+     "deviennent": [
+      "/dəvjɛn/",
+      "to become",
+      "devenir /dəv(ə)niʀ/"
+     ],
+     "refuges": [
+      "/ʀəfyʒ/",
+      "refuges"
+     ],
+     "poissons": [
+      "/pwasɔ̃/",
+      "fish"
+     ],
+     "grenouilles": [
+      "/gʀənuj/",
+      "frogs"
+     ],
+     "oiseaux": [
+      "/wazo/",
+      "birds"
+     ],
+     "insectes": [
+      "/ɛ̃sɛkt/",
+      "insects"
+     ],
+     "paradis": [
+      "/paʀadi/",
+      "paradise"
+     ],
+     "biodiversité": [
+      "/bjodivɛʀsite/",
+      "biodiversity"
+     ]
+    },
+    "t": [
+     28.34,
+     41.03
+    ]
+   }
+  ],
+  [
+   {
+    "text": "Et ce qui est magique, c’est que pendant qu’ils bossent, ces prodiges poilus purifient l’eau, réduisent les risques d’inondation et aident la nature à mieux respirer.",
+    "tr": {
+     "en": "And here’s the magical part: while they’re working away, these furry marvels purify water, reduce flood risks, and help nature breathe easier."
+    },
+    "gloss": {
+     "bossent": [
+      "/bɔs/",
+      "work",
+      "bosser /bɔse/"
+     ],
+     "prodiges": [
+      "/pʀɔdiʒ/",
+      "prodigies"
+     ],
+     "poilus": [
+      "/pwaly/",
+      "hairy/furry"
+     ],
+     "purifient": [
+      "/pyʀifi/",
+      "to purify",
+      "purifier /pyʀifje/"
+     ],
+     "réduisent": [
+      "/ʀedɥiz/",
+      "to reduce",
+      "réduire /ʀedɥiʀ/"
+     ],
+     "risques": [
+      "/ʀisk/",
+      "risks"
+     ],
+     "inondation": [
+      "/inɔ̃dasjɔ̃/",
+      "flooding"
+     ],
+     "aident": [
+      "/ɛd/",
+      "to help",
+      "aider /ede/"
+     ],
+     "respirer": [
+      "/ʀɛspiʀe/",
+      "to breathe"
+     ]
+    },
+    "t": [
+     41.68,
+     53.87
+    ]
+   },
+   {
+    "text": "Ils font tout ça avec une patience et une tendresse qui donnent envie de les applaudir.",
+    "tr": {
+     "en": "And they do it all with such patience and tenderness, you just want to give them a round of applause."
+    },
+    "gloss": {
+     "font": [
+      "/fɔ̃/",
+      "to make/do",
+      "faire /fɛʀ/"
+     ],
+     "patience": [
+      "/pasjɑ̃s/",
+      "patience"
+     ],
+     "tendresse": [
+      "/tɑ̃dʀɛs/",
+      "tenderness"
+     ],
+     "donnent": [
+      "/dɔn/",
+      "to give",
+      "donner /dɔne/"
+     ],
+     "applaudir": [
+      "/aplodiʀ/",
+      "to applaud"
+     ]
+    },
+    "t": [
+     53.94,
+     59.47
+    ]
+   }
+  ],
+  [
+   {
+    "text": "Et le plus beau ?",
+    "tr": {
+     "en": "And the best part?"
+    },
+    "t": [
+     59.62,
+     60.57
+    ]
+   },
+   {
+    "text": "Même quand le castor s’en va, son œuvre continue d’aider la vie autour de lui.",
+    "tr": {
+     "en": "Even after the beaver moves on, its work keeps helping life all around it."
+    },
+    "gloss": {
+     "œuvre": [
+      "/œvʀ/",
+      "work/masterpiece"
+     ],
+     "autour": [
+      "/otuʀ/",
+      "around"
+     ]
+    },
+    "t": [
+     60.68,
+     65.59
+    ]
+   },
+   {
+    "text": "Comme un cadeau laissé derrière, silencieux mais précieux.",
+    "tr": {
+     "en": "Like a gift it quietly leaves behind — silent, but precious."
+    },
+    "gloss": {
+     "derrière": [
+      "/dɛʀjɛʀ/",
+      "behind"
+     ],
+     "silencieux": [
+      "/silɑ̃sjø/",
+      "silent"
+     ],
+     "précieux": [
+      "/pʀesjø/",
+      "precious"
+     ]
+    },
+    "t": [
+     65.72,
+     69.87
+    ]
+   }
+  ],
+  [
+   {
+    "text": "Les castors nous rappellent que travailler avec la nature, ce n’est pas une corvée : c’est une longue histoire d’amour entre toutes les formes de vie.",
+    "tr": {
+     "en": "Beavers remind us that working with nature isn’t a chore — it’s a long, beautiful love story between all living things."
+    },
+    "gloss": {
+     "rappellent": [
+      "/ʀapɛl/",
+      "to remind",
+      "rappeler /ʀap(ə)le/"
+     ],
+     "corvée": [
+      "/kɔʀve/",
+      "chore"
+     ],
+     "longue": [
+      "/lɔ̃g/",
+      "long"
+     ],
+     "formes": [
+      "/fɔʀm/",
+      "forms"
+     ]
+    },
+    "t": [
+     69.96,
+     78.81
+    ]
+   }
+  ]
+ ],
+ "glossary": [
+  {
+   "word": "castor",
+   "en": "beaver"
+  },
+  {
+   "word": "génie",
+   "en": "genius"
+  },
+  {
+   "word": "bosseur",
+   "en": "hard worker"
+  },
+  {
+   "word": "dévoué",
+   "en": "devoted"
+  },
+  {
+   "word": "surpuissant",
+   "en": "super powerful"
+  },
+  {
+   "word": "couper",
+   "en": "to cut"
+  },
+  {
+   "word": "construire",
+   "en": "to build"
+  },
+  {
+   "word": "barrage",
+   "en": "dam"
+  },
+  {
+   "word": "ingénieux",
+   "en": "ingenious"
+  },
+  {
+   "word": "architecte",
+   "en": "architect"
+  },
+  {
+   "word": "mission",
+   "en": "mission"
+  },
+  {
+   "word": "secret",
+   "en": "secret"
+  },
+  {
+   "word": "résultat",
+   "en": "result"
+  },
+  {
+   "word": "étang",
+   "en": "pond"
+  },
+  {
+   "word": "paisible",
+   "en": "peaceful"
+  },
+  {
+   "word": "doux",
+   "en": "soft / gentle"
+  },
+  {
+   "word": "devenir",
+   "en": "to become"
+  },
+  {
+   "word": "refuge",
+   "en": "refuge"
+  },
+  {
+   "word": "poisson",
+   "en": "fish"
+  },
+  {
+   "word": "grenouille",
+   "en": "frog"
+  },
+  {
+   "word": "oiseau",
+   "en": "bird"
+  },
+  {
+   "word": "insecte",
+   "en": "insect"
+  },
+  {
+   "word": "paradis",
+   "en": "paradise"
+  },
+  {
+   "word": "biodiversité",
+   "en": "biodiversity"
+  },
+  {
+   "word": "bosser",
+   "en": "to work"
+  },
+  {
+   "word": "prodige",
+   "en": "prodigy"
+  },
+  {
+   "word": "poilu",
+   "en": "hairy"
+  },
+  {
+   "word": "réduire",
+   "en": "to reduce"
+  },
+  {
+   "word": "risque",
+   "en": "risk"
+  },
+  {
+   "word": "inondation",
+   "en": "flooding"
+  },
+  {
+   "word": "aider",
+   "en": "to help"
+  },
+  {
+   "word": "respirer",
+   "en": "to breathe"
+  },
+  {
+   "word": "faire",
+   "en": "to make / to do"
+  },
+  {
+   "word": "patience",
+   "en": "patience"
+  },
+  {
+   "word": "tendresse",
+   "en": "tenderness"
+  },
+  {
+   "word": "donner",
+   "en": "to give"
+  },
+  {
+   "word": "applaudir",
+   "en": "to applaud"
+  },
+  {
+   "word": "œuvre",
+   "en": "work / masterpiece"
+  },
+  {
+   "word": "autour",
+   "en": "around"
+  },
+  {
+   "word": "derrière",
+   "en": "behind"
+  },
+  {
+   "word": "silencieux",
+   "en": "silent"
+  },
+  {
+   "word": "précieux",
+   "en": "precious"
+  },
+  {
+   "word": "rappeler",
+   "en": "to remind"
+  },
+  {
+   "word": "corvée",
+   "en": "chore"
+  },
+  {
+   "word": "long",
+   "en": "long"
+  },
+  {
+   "word": "forme",
+   "en": "form"
+  }
+ ]
+}

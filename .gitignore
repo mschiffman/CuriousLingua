@@ -1,7 +1,9 @@
 # audio lives on R2; media/ is the local copy
 media/
 # generated offline copies and caches
-*/single/
+*/single/*
+# ...except the one-file ball game (4 MB), so its Download button on the Offline lessons page works
+!eng/single/grammar__wheres_the_ball.html
 .build_cache/
 __pycache__/
 # working folders

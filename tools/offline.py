@@ -7,8 +7,9 @@ pictures and audio inside. Open it on the tablet from the file manager ("Open wi
     python tools/offline.py eng/reading         a whole strand (or a whole course: eng)
 
 Output: <course>/single/<strand>__<slug>.html (not in git).
-A game page ("type": "game") is not copied: its clips go, small, into <course>/<strand>/<slug>_audio/
-beside the page, which plays them before the online ones.
+A game page ("type": "game") gets two things: its clips, small, in <course>/<strand>/<slug>_audio/ beside
+the page (which plays them before the online ones), and a one-file copy in <course>/single/ like every other
+lesson, with its scripts and clips inside.
 Audio comes from media/ (the local copy). English is shrunk to 96 kbps mono (cached in
 .build_cache/); French, Japanese and every shadowing page are embedded exactly as recorded.
 Clips that are not on disk are left out and reported: those buttons stay silent offline.
@@ -126,6 +127,10 @@ def game_dir(L):
     return os.path.join(ROOT, L["course"], L["strand"], L["slug"] + "_audio")
 
 
+def single_file(L):
+    return os.path.join(ROOT, L["course"], "single", f"{L['strand']}__{L['slug']}.html")
+
+
 def game(L):
     """A game page is hand-made, so nothing is embedded in it. Its clips are copied, small (96 kbps mono),
     into <slug>_audio beside the page, and the page plays those first: it then has its voice without internet."""
@@ -145,10 +150,31 @@ def game(L):
     size = sum(os.path.getsize(os.path.join(dest, x)) for x in want)
     print(f"  {L['id']:<46} {size / 1048576:5.1f} MB  {len(want)} clips beside the page, 96 kbps" + (f"   <<< {len(missing)} clip(s) not on disk" if missing else ""))
 
+    # The same game as ONE file, like the other offline lessons: the scripts it loads and its clips are written
+    # into the page. The link to Google Fonts is dropped (the device's own fonts are used) and so is the Back button.
+    page = os.path.join(ROOT, *L["url"].split("/"))
+    src = open(page, encoding="utf-8").read()
+
+    def script(m):
+        code = open(os.path.join(os.path.dirname(page), m.group(1)), encoding="utf-8").read()
+        return "<script>" + code.replace("</script", "<\\/script") + "</script>"
+    src = re.sub(r'<script src="([^":]+)"></script>', script, src)
+    src = re.sub(r'<link rel="stylesheet" href="https://fonts\.googleapis\.com[^>]*>\n?', "", src)
+    src = re.sub(r'\s*<a class="back".*?</a>', "", src, flags=re.S)
+    inside = {int(x[:-4]): uri(os.path.join(dest, x)) for x in sorted(want)}
+    src = src.replace("<body>", "<body data-offline>\n<script>window.GAME_CLIPS=" + json.dumps(inside) + ";</script>", 1)
+    out = single_file(L)
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    open(out, "w", encoding="utf-8", newline="\n").write(src)
+    print(f"  {L['id']:<46} {os.path.getsize(out) / 1048576:5.1f} MB  one file: {os.path.relpath(out, ROOT)}")
+
 
 def stale(L):
     if L.get("type") == "game":
         pairs = [(lib.clip_file(L, n), os.path.join(game_dir(L), f"{n:02d}.mp3")) for n, _ in lib.clips(L)]
+        one_file, page = single_file(L), os.path.join(ROOT, *L["url"].split("/"))
+        if not os.path.exists(one_file) or os.path.getmtime(page) > os.path.getmtime(one_file):
+            return True
         return any(f and os.path.exists(f) and (not os.path.exists(o) or os.path.getmtime(f) > os.path.getmtime(o)) for f, o in pairs)
     out = os.path.join(ROOT, L["course"], "single", f"{L['strand']}__{L['slug']}.html")
     if not os.path.exists(out):

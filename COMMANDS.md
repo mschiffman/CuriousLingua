@@ -125,7 +125,7 @@ python -E tools\offline.py eng/reading
 
 Each lesson becomes one `.html` with fonts, pictures and audio inside, in `<course>\single\`.
 
-A game is different: its page is not copied. Its clips are written, small, into a folder beside the page (`eng\grammar\wheres_the_ball_audio\`), and the page plays those first and the online ones only if the folder is missing. So the game has its voice without internet as long as the page, `three.min.js` and that folder stay together. After a new take of a game clip, run `python -E tools\offline.py eng/grammar/wheres_the_ball` (or `--changed`) to refresh the folder.
+A game gets a one-file copy too (`eng\single\grammar__wheres_the_ball.html`, about 4 MB, with the 3D library and all its clips inside), and one more thing: Its clips are written, small, into a folder beside the page (`eng\grammar\wheres_the_ball_audio\`), and the page plays those first and the online ones only if the folder is missing. So the game has its voice without internet as long as the page, `three.min.js` and that folder stay together. After a new take of a game clip, run `python -E tools\offline.py eng/grammar/wheres_the_ball` (or `--changed`) to refresh the folder.
 
 ## Publishing
 

@@ -521,7 +521,7 @@ button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
     (function next() {
       if (i >= list.length) { voice = null; return; }
       var n = list[i++], name = (n < 10 ? '0' : '') + n + '.' + CLIPS.ext, online = false;
-      var a = voice = new Audio(CLIPS.local + name);
+      var a = voice = new Audio((window.GAME_CLIPS && window.GAME_CLIPS[n]) || CLIPS.local + name);   // GAME_CLIPS: the one-file copy carries its clips inside
       a.onended = next;
       a.onerror = function () {
         if (voice !== a) return;
