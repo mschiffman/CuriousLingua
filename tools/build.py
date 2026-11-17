@@ -3,7 +3,7 @@
     python tools/build.py
 
 Writes index.html, <course>/index.html, <course>/level/<level>.html, <course>/<strand>/index.html,
-one page per lesson, offline/index.html and assets/data/catalog.json. Every page is generated:
+one page per lesson and assets/data/catalog.json. Every page is generated:
 edit the lesson files in content/, never the .html. Standard library only.
 """
 import html, json, os, sys
@@ -57,12 +57,10 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
     if course:
         menu += '<div class="rule my-2"></div>' + "".join(
             f'<a {item} href="{r}{course}/{s}/index.html">{e(C["strands"][s][0])}</a>' for s in C["courses"][course]["strands"])
-    menu += f'<div class="rule my-2"></div><a {item} href="{r}offline/index.html">Offline lessons</a>'
     header = f'''<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
 <div class="wrap flex h-12 items-center gap-2 sm:h-14">
 <a href="{r}index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">{e(C["site_name"])}</a>
 <nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses">{nav}</nav>
-<a href="{r}offline/index.html" class="ml-auto hidden rounded-lg px-2.5 py-1.5 text-sm text-muted hover:text-accent sm:block">Offline lessons</a>
 <details class="relative ml-auto sm:hidden">
 <summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
 <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
@@ -71,8 +69,7 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
 </div>{sub}</header>'''
     footer = f'''<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
 <span class="font-display text-base font-semibold text-ink">{e(C["site_name"])}</span>
-<span>Free for everyone. No account, no paywall.</span>
-<a class="hover:text-accent" href="{r}offline/index.html">Offline lessons</a></div></footer>'''
+<span>Free for everyone. No account, no paywall.</span></div></footer>'''
     if "site" not in cls.split():
         header = footer = ""
     if not foot:
@@ -374,7 +371,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
     pager += f'<a class="btn" href="{r}{prev["url"]}">&larr; {e(prev.get("title", ""))}</a>' if prev else ""
     pager += f'<a class="btn ml-auto" href="{r}{nxt["url"]}">{e(nxt.get("title", ""))} &rarr;</a>' if nxt else ""
     pager += "</div>"
-    off = f'<a class="btn" data-nav href="{r}{L["course"]}/single/{L["strand"]}__{L["slug"]}.html" download>Download for offline</a>' if has_offline else ""
+    off = ""   # offline copies are handed out on a Google Drive shared drive: the site offers no downloads
 
     if L.get("type") == "cards":   # the expression-page design, kept as it was
         aud = L.get("aud_dir") or ""
@@ -387,7 +384,6 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 <a {link} href="{r}index.html">{e(C["site_name"])}</a><span>/</span>
 <a {link} href="{r}{L["course"]}/index.html">{e(course["name"])}</a><span>/</span>
 <a {link} href="{r}{L["course"]}/{L["strand"]}/index.html">{e(strand)}</a>
-<span class="ml-auto"></span>{f'<a {link} href="{r}{L["course"]}/single/{L["strand"]}__{L["slug"]}.html" download>Offline copy</a>' if has_offline else ""}
 </div>
 <div class="relative z-10 w-full px-6 py-12">
 <div class="mb-14 text-center">
@@ -544,7 +540,7 @@ def home(all_lessons):
 <p class="mt-4 text-sm font-bold text-accent">{n} lesson{"" if n == 1 else "s"} &rarr;</p></a>'''
     body = f'''<main><section class="wrap py-14 sm:py-20">
 <h1 class="max-w-3xl text-5xl font-semibold tracking-tight sm:text-6xl">Learn a language by ear, by eye and out loud.</h1>
-<p class="mt-5 max-w-2xl text-xl text-muted">Free lessons with real audio. Read, listen, speak, and check what stuck. Every lesson also works offline.</p>
+<p class="mt-5 max-w-2xl text-xl text-muted">Free lessons with real audio. Read, listen, speak, and check what stuck.</p>
 <div class="mt-10 grid gap-5 md:grid-cols-3">{tiles}</div>
 </section></main>'''
     write("index.html", frame("index.html", C["site_name"], body))
@@ -597,7 +593,7 @@ def main():
                     write(L["url"], lesson_page(L, ls[i - 1] if i else None, ls[i + 1] if i + 1 < len(ls) else None, L["id"] in have, supplements=L.get("_supp", ())))
                 catalog.append({"id": L["id"], "url": L["url"], "course": k, "strand": s, "level": L.get("level"), "level_provisional": bool(L.get("level_provisional")),
                                 "topic": L.get("topic"), "type": L.get("type"), "title": L.get("title"), "clips": len(lib.clips(L)), "images": len(lib.images(L)),
-                                "audio": "pending" if lib.pending(L) else "wired", "quiz": bool(L.get("quiz") or L.get("questions")), "offline": L["id"] in have})
+                                "audio": "pending" if lib.pending(L) else "wired", "quiz": bool(L.get("quiz") or L.get("questions"))})
             strand_page(k, s, items)
         stray = [L["id"] for L in items if L["strand"] not in c["strands"]]
         if stray:
@@ -606,7 +602,10 @@ def main():
             level_page(k, code, items)
         course_home(k, items)
     home(all_lessons)
-    offline_index(all_lessons, have)
+    old = os.path.join(ROOT, "offline", "index.html")   # the site no longer has a downloads page (see lesson_page)
+    if os.path.exists(old):
+        os.remove(old)
+        print("  removed offline/index.html")
     write("assets/data/catalog.json", json.dumps(catalog, ensure_ascii=False, indent=1) + "\n")
     print(f"built {len(catalog)} lesson pages and {len(extras)} supplement pages, {len(have)} with an offline copy")
 

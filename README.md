@@ -21,7 +21,7 @@ Courses: `fr`, `eng`, `jap`. Strands, level names and course texts are in `site.
 | `preview.bat` | Rebuilds and opens the site at http://localhost:8000 |
 | `1_images.bat` | Same as your `all_downloads_to_ytstory.bat`: moves the numbered PNGs from Downloads to `G:\My Drive\_YOUTUBE\<folder>`, converts them at 80% size with Squoosh settings (MozJPEG, quality 75) into `img\ytstory\<name>` here |
 | `2_audio.bat` | Menu: ElevenLabs balance, lessons needing clips, make one or all, new takes, Whisper check, upload to R2 |
-| `3_offline.bat` | Builds the single-file offline lessons in `<course>\single\` |
+| `3_offline.bat` | Builds the single-file offline lessons in `<course>\single\`. They are shared on the Google Drive shared drive; the website offers no downloads |
 | `4_check.bat` | Status report: counts per level and strand, audio to record, missing pictures, things to review |
 | `5_publish.bat` | Rebuilds every page; commits and pushes when the folder is a git repository |
 

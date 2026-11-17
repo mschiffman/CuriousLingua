@@ -114,6 +114,8 @@ Finds every chunk inside its clip and writes its `"t": [start, end]`, then rebui
 
 ## Offline copies
 
+Offline copies are handed out through the Google Drive shared drive, never downloaded from the website: the site has no download buttons and no "Offline lessons" page, and `<course>\single\` is not in GitHub. After building them, copy the files you want to the shared drive.
+
 Double-click `3_offline.bat`, or:
 
 ```

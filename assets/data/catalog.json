@@ -12,8 +12,7 @@
   "clips": 0,
   "images": 1,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/reading/beaver",
@@ -28,8 +27,7 @@
   "clips": 0,
   "images": 1,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/reading/crispr",
@@ -44,8 +42,7 @@
   "clips": 0,
   "images": 1,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/reading/friendship",
@@ -60,8 +57,7 @@
   "clips": 0,
   "images": 1,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/reading/hunter",
@@ -76,8 +72,7 @@
   "clips": 23,
   "images": 1,
   "audio": "pending",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/reading/s2.4_sousTerre",
@@ -92,8 +87,7 @@
   "clips": 126,
   "images": 17,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/reading/viking",
@@ -108,8 +102,7 @@
   "clips": 21,
   "images": 1,
   "audio": "pending",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/listening/deux_amis",
@@ -124,8 +117,7 @@
   "clips": 9,
   "images": 0,
   "audio": "wired",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  },
  {
   "id": "fr/listening/home_pantry_shelves",
@@ -140,8 +132,7 @@
   "clips": 16,
   "images": 0,
   "audio": "wired",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  },
  {
   "id": "fr/listening/retour_au_bureau",
@@ -156,8 +147,7 @@
   "clips": 16,
   "images": 0,
   "audio": "wired",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  },
  {
   "id": "fr/speaking/boulangerie",
@@ -172,8 +162,7 @@
   "clips": 8,
   "images": 0,
   "audio": "wired",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  },
  {
   "id": "fr/expressions/admiration",
@@ -188,8 +177,7 @@
   "clips": 30,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/agree",
@@ -204,8 +192,7 @@
   "clips": 21,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/annoyance",
@@ -220,8 +207,7 @@
   "clips": 23,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/apology",
@@ -236,8 +222,7 @@
   "clips": 24,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/clarify",
@@ -252,8 +237,7 @@
   "clips": 23,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/compliment",
@@ -268,8 +252,7 @@
   "clips": 22,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/congrats",
@@ -284,8 +267,7 @@
   "clips": 23,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/connectors",
@@ -300,8 +282,7 @@
   "clips": 48,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/critique",
@@ -316,8 +297,7 @@
   "clips": 38,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/directions",
@@ -332,8 +312,7 @@
   "clips": 34,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/disagree",
@@ -348,8 +327,7 @@
   "clips": 20,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/disbelief",
@@ -364,8 +342,7 @@
   "clips": 34,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/dismissal",
@@ -380,8 +357,7 @@
   "clips": 41,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/doucement",
@@ -396,8 +372,7 @@
   "clips": 15,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/excitement",
@@ -412,8 +387,7 @@
   "clips": 20,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/exclamation",
@@ -428,8 +402,7 @@
   "clips": 30,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/fatigue",
@@ -444,8 +417,7 @@
   "clips": 18,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/feelings",
@@ -460,8 +432,7 @@
   "clips": 54,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/fillers",
@@ -476,8 +447,7 @@
   "clips": 18,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/greetings",
@@ -492,8 +462,7 @@
   "clips": 21,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/help",
@@ -508,8 +477,7 @@
   "clips": 31,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/idioms",
@@ -524,8 +492,7 @@
   "clips": 23,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/iMean",
@@ -540,8 +507,7 @@
   "clips": 21,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/likes_dislikes",
@@ -556,8 +522,7 @@
   "clips": 41,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/miscellaneous",
@@ -572,8 +537,7 @@
   "clips": 11,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/offers",
@@ -588,8 +552,7 @@
   "clips": 40,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/opinion",
@@ -604,8 +567,7 @@
   "clips": 24,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/permission",
@@ -620,8 +582,7 @@
   "clips": 23,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/quality",
@@ -636,8 +597,7 @@
   "clips": 21,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/reassurance",
@@ -652,8 +612,7 @@
   "clips": 32,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/refusal",
@@ -668,8 +627,7 @@
   "clips": 28,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/regret",
@@ -684,8 +642,7 @@
   "clips": 16,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/requests",
@@ -700,8 +657,7 @@
   "clips": 36,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/restaurant",
@@ -716,8 +672,7 @@
   "clips": 42,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/suggestion",
@@ -732,8 +687,7 @@
   "clips": 37,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/thank",
@@ -748,8 +702,7 @@
   "clips": 18,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/understand",
@@ -764,8 +717,7 @@
   "clips": 21,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/voila",
@@ -780,8 +732,7 @@
   "clips": 20,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/whatswrong",
@@ -796,8 +747,7 @@
   "clips": 29,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/expressions/wishes",
@@ -812,8 +762,7 @@
   "clips": 35,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/pronunciation/shadow_greetings",
@@ -828,8 +777,7 @@
   "clips": 12,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "fr/pronunciation/shadow_home_pantry_shelves",
@@ -844,8 +792,7 @@
   "clips": 16,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.2_words",
@@ -860,8 +807,7 @@
   "clips": 16,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.3_aORan",
@@ -876,8 +822,7 @@
   "clips": 10,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.4_what",
@@ -892,8 +837,7 @@
   "clips": 8,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.5_thisThat",
@@ -908,8 +852,7 @@
   "clips": 12,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.6_singularPlural",
@@ -924,8 +867,7 @@
   "clips": 20,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.7_they",
@@ -940,8 +882,7 @@
   "clips": 8,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.8_theseThose",
@@ -956,8 +897,7 @@
   "clips": 12,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.9_doYouHave",
@@ -972,8 +912,7 @@
   "clips": 16,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.10_iHave",
@@ -988,8 +927,7 @@
   "clips": 9,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.11_heSheHas",
@@ -1004,8 +942,7 @@
   "clips": 18,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/1.12_doesnt",
@@ -1020,8 +957,7 @@
   "clips": 17,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.1_busyMorning",
@@ -1036,8 +972,7 @@
   "clips": 22,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.2_whereShoes",
@@ -1052,8 +987,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.3_breakfast",
@@ -1068,8 +1002,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.4_getReady",
@@ -1084,8 +1017,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.5_late",
@@ -1100,8 +1032,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.6_afterSchool",
@@ -1116,8 +1047,7 @@
   "clips": 20,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.7_clean",
@@ -1132,8 +1062,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.8_do",
@@ -1148,8 +1077,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.9_tired",
@@ -1164,8 +1092,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.10_day",
@@ -1180,8 +1107,7 @@
   "clips": 21,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/2.11_zoo",
@@ -1196,8 +1122,7 @@
   "clips": 42,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/Aladdin_lamp",
@@ -1212,8 +1137,7 @@
   "clips": 72,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/ant_grasshopper",
@@ -1228,8 +1152,7 @@
   "clips": 57,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/boy_wolf",
@@ -1244,8 +1167,7 @@
   "clips": 61,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/bundle_sticks",
@@ -1260,8 +1182,7 @@
   "clips": 34,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/butterfly",
@@ -1276,8 +1197,7 @@
   "clips": 173,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/Clover_valley",
@@ -1292,8 +1212,7 @@
   "clips": 101,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/fox_grapes",
@@ -1308,8 +1227,7 @@
   "clips": 56,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/goose_golden_eggs",
@@ -1324,8 +1242,7 @@
   "clips": 56,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/Hansel_Gretel",
@@ -1340,8 +1257,7 @@
   "clips": 181,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/hare_tortoise",
@@ -1356,8 +1272,7 @@
   "clips": 49,
   "images": 4,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/hb1.1_heart",
@@ -1372,8 +1287,7 @@
   "clips": 58,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/Jack_beanstalk",
@@ -1388,8 +1302,7 @@
   "clips": 74,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/lion_mouse",
@@ -1404,8 +1317,7 @@
   "clips": 25,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/mushroom_house",
@@ -1420,8 +1332,7 @@
   "clips": 104,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/Mushroom_house_orchestra",
@@ -1436,8 +1347,7 @@
   "clips": 85,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.1_sky",
@@ -1452,8 +1362,7 @@
   "clips": 30,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.2_grass",
@@ -1468,8 +1377,7 @@
   "clips": 30,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.3_seeds",
@@ -1484,8 +1392,7 @@
   "clips": 58,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.4_plantFood",
@@ -1500,8 +1407,7 @@
   "clips": 49,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.5_dayNight",
@@ -1516,8 +1422,7 @@
   "clips": 44,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.6_beesHoney",
@@ -1532,8 +1437,7 @@
   "clips": 59,
   "images": 7,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.7_leafcutterAnt",
@@ -1548,8 +1452,7 @@
   "clips": 80,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.8_weaver",
@@ -1564,8 +1467,7 @@
   "clips": 66,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s1.9_beavers",
@@ -1580,8 +1482,7 @@
   "clips": 75,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s2.0_otters",
@@ -1596,8 +1497,7 @@
   "clips": 74,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s2.1_prairieDog",
@@ -1612,8 +1512,7 @@
   "clips": 81,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s2.2_rainbow",
@@ -1628,8 +1527,7 @@
   "clips": 98,
   "images": 12,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s2.3_pitcher",
@@ -1644,8 +1542,7 @@
   "clips": 87,
   "images": 17,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s2.4_underground",
@@ -1660,8 +1557,7 @@
   "clips": 96,
   "images": 17,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s2.5_amber",
@@ -1676,8 +1572,7 @@
   "clips": 98,
   "images": 18,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/s2.6_newton",
@@ -1692,8 +1587,7 @@
   "clips": 89,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/The_Dog_and_the_Shadow",
@@ -1708,8 +1602,7 @@
   "clips": 48,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/three_pigs",
@@ -1724,8 +1617,7 @@
   "clips": 56,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/time",
@@ -1740,8 +1632,7 @@
   "clips": 15,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/reading/Tinkerbell_light",
@@ -1756,8 +1647,7 @@
   "clips": 100,
   "images": 8,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/listening/clean_up",
@@ -1772,8 +1662,7 @@
   "clips": 21,
   "images": 0,
   "audio": "wired",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  },
  {
   "id": "eng/speaking/greet_goodbye",
@@ -1788,8 +1677,7 @@
   "clips": 29,
   "images": 0,
   "audio": "wired",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  },
  {
   "id": "eng/speaking/thank",
@@ -1804,8 +1692,7 @@
   "clips": 27,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/apology",
@@ -1820,8 +1707,7 @@
   "clips": 27,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/exclamation",
@@ -1836,8 +1722,7 @@
   "clips": 31,
   "images": 0,
   "audio": "wired",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  },
  {
   "id": "eng/speaking/not_understanding",
@@ -1852,8 +1737,7 @@
   "clips": 32,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/ask",
@@ -1868,8 +1752,7 @@
   "clips": 29,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/offer_accept",
@@ -1884,8 +1767,7 @@
   "clips": 31,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/polite_refusal",
@@ -1900,8 +1782,7 @@
   "clips": 26,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/likes_dislikes",
@@ -1916,8 +1797,7 @@
   "clips": 27,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/opinion",
@@ -1932,8 +1812,7 @@
   "clips": 32,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/agree_disagree",
@@ -1948,8 +1827,7 @@
   "clips": 33,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/small_talk",
@@ -1964,8 +1842,7 @@
   "clips": 33,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/wishes_celebrations",
@@ -1980,8 +1857,7 @@
   "clips": 28,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/invitations",
@@ -1996,8 +1872,7 @@
   "clips": 31,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/comfort",
@@ -2012,8 +1887,7 @@
   "clips": 26,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/compliments",
@@ -2028,8 +1902,7 @@
   "clips": 24,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/advice",
@@ -2044,8 +1917,7 @@
   "clips": 23,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/directions",
@@ -2060,8 +1932,7 @@
   "clips": 24,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/shopping",
@@ -2076,8 +1947,7 @@
   "clips": 25,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/restaurant",
@@ -2092,8 +1962,7 @@
   "clips": 22,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/phone",
@@ -2108,8 +1977,7 @@
   "clips": 24,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/health",
@@ -2124,8 +1992,7 @@
   "clips": 23,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/classroom",
@@ -2140,8 +2007,7 @@
   "clips": 25,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/speaking/emergency",
@@ -2156,8 +2022,7 @@
   "clips": 24,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/vocabulary/voc_animals_1",
@@ -2172,8 +2037,7 @@
   "clips": 31,
   "images": 15,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/vocabulary/voc_animals_2",
@@ -2188,8 +2052,7 @@
   "clips": 31,
   "images": 15,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/vocabulary/voc_atSchool",
@@ -2204,8 +2067,7 @@
   "clips": 45,
   "images": 22,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/vocabulary/voc_family",
@@ -2220,8 +2082,7 @@
   "clips": 42,
   "images": 18,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "eng/grammar/wheres_the_ball",
@@ -2236,8 +2097,7 @@
   "clips": 86,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": true
+  "quiz": false
  },
  {
   "id": "eng/pronunciation/shadow_busy_morning",
@@ -2252,8 +2112,7 @@
   "clips": 22,
   "images": 0,
   "audio": "wired",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "jap/speaking/first_meeting",
@@ -2268,8 +2127,7 @@
   "clips": 6,
   "images": 0,
   "audio": "pending",
-  "quiz": false,
-  "offline": false
+  "quiz": false
  },
  {
   "id": "jap/expressions/greetings",
@@ -2284,7 +2142,6 @@
   "clips": 12,
   "images": 0,
   "audio": "pending",
-  "quiz": true,
-  "offline": false
+  "quiz": true
  }
 ]

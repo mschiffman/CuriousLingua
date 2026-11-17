@@ -7,13 +7,14 @@
  "type": "text",
  "register": "familiar-standard, warm (bosser, franchement)",
  "legacy": "fr/reading/beaver.html",
- "review": "Imported from the old beaver page. Sentence timings come from Whisper word timestamps, not from listening: tap each sentence once and adjust \"t\" where a start or end is off. The level is a guess. The glossary words have no audio.",
+ "review": "Imported from the old beaver page. Sentence timings come from Whisper word timestamps, not from listening: tap each sentence once and adjust \"t\" where a start or end is off. The level is a guess.",
  "img": "img/Fr-read/beaver.jpg",
  "img_alt": "A beaver inside its lodge of sticks on a pond, and two beavers swimming to the underwater entrances",
  "audio_file": "lessons/read/beaver.m4a",
  "support": [
   "en"
  ],
+ "glossary_dir": "lessons/read/fc-beaver/",
  "paragraphs": [
   [
    {
@@ -357,187 +358,233 @@
  "glossary": [
   {
    "word": "castor",
-   "en": "beaver"
+   "en": "beaver",
+   "audio": "05.mp3"
   },
   {
    "word": "génie",
-   "en": "genius"
+   "en": "genius",
+   "audio": "09.mp3"
   },
   {
    "word": "bosseur",
-   "en": "hard worker"
+   "en": "hard worker",
+   "audio": "10.mp3"
   },
   {
    "word": "dévoué",
-   "en": "devoted"
+   "en": "devoted",
+   "audio": "11.mp3"
   },
   {
    "word": "surpuissant",
-   "en": "super powerful"
+   "en": "super powerful",
+   "audio": "12.mp3"
   },
   {
    "word": "couper",
-   "en": "to cut"
+   "en": "to cut",
+   "audio": "13.mp3"
   },
   {
    "word": "construire",
-   "en": "to build"
+   "en": "to build",
+   "audio": "14.mp3"
   },
   {
    "word": "barrage",
-   "en": "dam"
+   "en": "dam",
+   "audio": "08.mp3"
   },
   {
    "word": "ingénieux",
-   "en": "ingenious"
+   "en": "ingenious",
+   "audio": "15.mp3"
   },
   {
    "word": "architecte",
-   "en": "architect"
+   "en": "architect",
+   "audio": "16.mp3"
   },
   {
    "word": "mission",
-   "en": "mission"
+   "en": "mission",
+   "audio": "17.mp3"
   },
   {
    "word": "secret",
-   "en": "secret"
+   "en": "secret",
+   "audio": "18.mp3"
   },
   {
    "word": "résultat",
-   "en": "result"
+   "en": "result",
+   "audio": "19.mp3"
   },
   {
    "word": "étang",
-   "en": "pond"
+   "en": "pond",
+   "audio": "20.mp3"
   },
   {
    "word": "paisible",
-   "en": "peaceful"
+   "en": "peaceful",
+   "audio": "21.mp3"
   },
   {
    "word": "doux",
-   "en": "soft / gentle"
+   "en": "soft / gentle",
+   "audio": "22.mp3"
   },
   {
    "word": "devenir",
-   "en": "to become"
+   "en": "to become",
+   "audio": "23.mp3"
   },
   {
    "word": "refuge",
-   "en": "refuge"
+   "en": "refuge",
+   "audio": "24.mp3"
   },
   {
    "word": "poisson",
-   "en": "fish"
+   "en": "fish",
+   "audio": "01.mp3"
   },
   {
    "word": "grenouille",
-   "en": "frog"
+   "en": "frog",
+   "audio": "02.mp3"
   },
   {
    "word": "oiseau",
-   "en": "bird"
+   "en": "bird",
+   "audio": "03.mp3"
   },
   {
    "word": "insecte",
-   "en": "insect"
+   "en": "insect",
+   "audio": "04.mp3"
   },
   {
    "word": "paradis",
-   "en": "paradise"
+   "en": "paradise",
+   "audio": "25.mp3"
   },
   {
    "word": "biodiversité",
-   "en": "biodiversity"
+   "en": "biodiversity",
+   "audio": "26.mp3"
   },
   {
    "word": "bosser",
-   "en": "to work"
+   "en": "to work",
+   "audio": "27.mp3"
   },
   {
    "word": "prodige",
-   "en": "prodigy"
+   "en": "prodigy",
+   "audio": "28.mp3"
   },
   {
    "word": "poilu",
-   "en": "hairy"
+   "en": "hairy",
+   "audio": "29.mp3"
   },
   {
    "word": "réduire",
-   "en": "to reduce"
+   "en": "to reduce",
+   "audio": "31.mp3"
   },
   {
    "word": "risque",
-   "en": "risk"
+   "en": "risk",
+   "audio": "32.mp3"
   },
   {
    "word": "inondation",
-   "en": "flooding"
+   "en": "flooding",
+   "audio": "33.mp3"
   },
   {
    "word": "aider",
-   "en": "to help"
+   "en": "to help",
+   "audio": "34.mp3"
   },
   {
    "word": "respirer",
-   "en": "to breathe"
+   "en": "to breathe",
+   "audio": "35.mp3"
   },
   {
    "word": "faire",
-   "en": "to make / to do"
+   "en": "to make / to do",
+   "audio": "76.mp3"
   },
   {
    "word": "patience",
-   "en": "patience"
+   "en": "patience",
+   "audio": "36.mp3"
   },
   {
    "word": "tendresse",
-   "en": "tenderness"
+   "en": "tenderness",
+   "audio": "37.mp3"
   },
   {
    "word": "donner",
-   "en": "to give"
+   "en": "to give",
+   "audio": "38.mp3"
   },
   {
    "word": "applaudir",
-   "en": "to applaud"
+   "en": "to applaud",
+   "audio": "39.mp3"
   },
   {
    "word": "œuvre",
-   "en": "work / masterpiece"
+   "en": "work / masterpiece",
+   "audio": "40.mp3"
   },
   {
    "word": "autour",
-   "en": "around"
+   "en": "around",
+   "audio": "41.mp3"
   },
   {
    "word": "derrière",
-   "en": "behind"
+   "en": "behind",
+   "audio": "42.mp3"
   },
   {
    "word": "silencieux",
-   "en": "silent"
+   "en": "silent",
+   "audio": "43.mp3"
   },
   {
    "word": "précieux",
-   "en": "precious"
+   "en": "precious",
+   "audio": "73.mp3"
   },
   {
    "word": "rappeler",
-   "en": "to remind"
+   "en": "to remind",
+   "audio": "45.mp3"
   },
   {
    "word": "corvée",
-   "en": "chore"
+   "en": "chore",
+   "audio": "46.mp3"
   },
   {
    "word": "long",
-   "en": "long"
+   "en": "long",
+   "audio": "47.mp3"
   },
   {
    "word": "forme",
-   "en": "form"
+   "en": "form",
+   "audio": "48.mp3"
   }
  ]
 }
