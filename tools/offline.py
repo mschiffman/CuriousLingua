@@ -34,9 +34,11 @@ def small(path):
     cache = os.path.join(ROOT, ".build_cache")
     os.makedirs(cache, exist_ok=True)
     st = os.stat(path)
-    out = os.path.join(cache, hashlib.md5(f"{path}|{st.st_size}|{st.st_mtime_ns}".encode()).hexdigest() + ".mp3")
+    out = os.path.join(cache, hashlib.md5(f"v2|{path}|{st.st_size}|{st.st_mtime_ns}".encode()).hexdigest() + ".mp3")
     if not os.path.exists(out):
-        r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-ac", "1", "-b:a", "96k", out])
+        # The English clips are the same voice on both channels. A plain "-ac 1" adds the two together, which made
+        # the copy about 3 dB louder than the clip and clipped its peaks; averaging them keeps the level as recorded.
+        r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-af", "pan=mono|c0=0.5*c0+0.5*c1", "-b:a", "96k", out])
         if r.returncode:
             return open(path, "rb").read()
     data = open(out, "rb").read()
