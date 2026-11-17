@@ -1,0 +1,190 @@
+{
+ "title": "Long vowels",
+ "subtitle": "おばさん / おばあさん",
+ "level": "a1",
+ "topic": "Sounds of Japanese",
+ "order": 2,
+ "type": "words",
+ "review": "Written by Claude. The Japanese, the romaji and the recordings have not been checked by a Japanese speaker.",
+ "intro": "A long vowel lasts twice as long as a short one. The length alone can change the meaning. In romaji a line over the vowel shows it is long.",
+ "listen_pick": "fr",
+ "glossary_dir": "jap/sounds/long_vowels/",
+ "audio_ver": "2611171547",
+ "voices": [
+  "ilBjLtdEW3SkjRXakAkO",
+  "r4qMc0xxpfgMQciUmPHW"
+ ],
+ "groups": [
+  {
+   "title": "a and ā",
+   "notes": [
+    "Listen for the beat: o-ba-sa-n has four beats, o-ba-a-sa-n has five."
+   ],
+   "words": [
+    {
+     "fr": "obasan",
+     "ipa": "おばさん",
+     "en": "aunt",
+     "audio": "001.mp3",
+     "say": "おばさん"
+    },
+    {
+     "fr": "obāsan",
+     "ipa": "おばあさん",
+     "en": "grandmother",
+     "audio": "002.mp3",
+     "say": "おばあさん"
+    },
+    {
+     "fr": "kado",
+     "ipa": "かど",
+     "en": "corner",
+     "say": "かど",
+     "audio": "003.mp3"
+    },
+    {
+     "fr": "kādo",
+     "ipa": "カード",
+     "en": "card",
+     "audio": "004.mp3",
+     "say": "カード"
+    }
+   ]
+  },
+  {
+   "title": "i and ī",
+   "words": [
+    {
+     "fr": "ojisan",
+     "ipa": "おじさん",
+     "en": "uncle",
+     "audio": "005.mp3",
+     "say": "おじさん"
+    },
+    {
+     "fr": "ojīsan",
+     "ipa": "おじいさん",
+     "en": "grandfather",
+     "audio": "006.mp3",
+     "say": "おじいさん"
+    },
+    {
+     "fr": "biru",
+     "ipa": "ビル",
+     "en": "building",
+     "audio": "007.mp3",
+     "say": "ビル"
+    },
+    {
+     "fr": "bīru",
+     "ipa": "ビール",
+     "en": "beer",
+     "audio": "008.mp3",
+     "say": "ビール"
+    }
+   ]
+  },
+  {
+   "title": "u and ū",
+   "words": [
+    {
+     "fr": "yuki",
+     "ipa": "ゆき",
+     "en": "snow",
+     "say": "ゆき",
+     "audio": "009.mp3"
+    },
+    {
+     "fr": "yūki",
+     "ipa": "ゆうき",
+     "en": "courage",
+     "say": "勇気",
+     "audio": "010.mp3"
+    },
+    {
+     "fr": "kuki",
+     "ipa": "くき",
+     "en": "stem",
+     "say": "茎",
+     "audio": "011.mp3"
+    },
+    {
+     "fr": "kūki",
+     "ipa": "くうき",
+     "en": "air",
+     "say": "空気",
+     "audio": "012.mp3"
+    }
+   ]
+  },
+  {
+   "title": "e and ē",
+   "notes": [
+    "Written ei, said as a long e: seiki sounds like sēki."
+   ],
+   "words": [
+    {
+     "fr": "e",
+     "ipa": "え",
+     "en": "picture",
+     "say": "え",
+     "audio": "013.mp3"
+    },
+    {
+     "fr": "ē",
+     "ipa": "ええ",
+     "en": "yes (casual)",
+     "audio": "014.mp3",
+     "say": "ええ"
+    },
+    {
+     "fr": "seki",
+     "ipa": "せき",
+     "en": "seat",
+     "say": "せき",
+     "audio": "015.mp3"
+    },
+    {
+     "fr": "seiki",
+     "ipa": "せいき",
+     "en": "century",
+     "say": "世紀",
+     "audio": "016.mp3"
+    }
+   ]
+  },
+  {
+   "title": "o and ō",
+   "words": [
+    {
+     "fr": "koko",
+     "ipa": "ここ",
+     "en": "here",
+     "audio": "017.mp3",
+     "say": "ここ"
+    },
+    {
+     "fr": "kōkō",
+     "ipa": "こうこう",
+     "en": "high school",
+     "say": "高校",
+     "audio": "018.mp3"
+    },
+    {
+     "fr": "tori",
+     "ipa": "とり",
+     "en": "bird",
+     "say": "とり",
+     "audio": "019.mp3"
+    },
+    {
+     "fr": "tōri",
+     "ipa": "とおり",
+     "en": "street",
+     "say": "通り",
+     "audio": "020.mp3"
+    }
+   ]
+  }
+ ]
+}

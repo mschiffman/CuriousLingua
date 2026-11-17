@@ -341,16 +341,26 @@ def words(L, redo=()):
     os.makedirs(raw, exist_ok=True)
     doc = json.load(open(L["file"], encoding="utf-8"))
     made = {}
-    for w in named_words(doc):
-        say = lib.spoken(w["fr"]).replace(" / ", ", ")
-        name = w.get("audio") or word_file(w["fr"])
+    # "voices": a list of voice ids; each group of words is read by the next one in turn (a pair to compare stays in one voice)
+    turn = doc.get("voices") or []
+    todo = [(w, w.get("voice") or (turn[gi % len(turn)] if turn else v["voice"])) for gi, g in enumerate(doc.get("groups", [])) for w in g.get("words", [])]
+    todo += [(p, p.get("voice") or v["voice"]) for s in doc.get("slides", []) for p in s.get("spots", [])]
+    numbered = L["course"] == "jap" or doc.get("clip_names") == "number"   # romaji cannot name a file: obasan and obāsan would collide
+    taken = {w["audio"] for w, _ in todo if w.get("audio")}
+    for k, (w, voice) in enumerate(todo, 1):
+        say = lib.spoken(w.get("say") or w["fr"]).replace(" / ", ", ")   # "say": what the voice reads, when it is not the text shown
+        name = w.get("audio")
+        if not name and numbered:
+            name = next(f"{i:03d}.mp3" for i in range(k, 2000) if f"{i:03d}.mp3" not in taken)
+            taken.add(name)
+        name = name or word_file(w["fr"])
         dest = os.path.join(media, name)
         if name not in made and (not os.path.exists(dest) or name in redo):
             if os.path.exists(dest):   # a new take: the old clip is moved aside, not deleted
                 aside = os.path.join(raw, "_replaced_" + datetime.datetime.now().strftime("%y%m%d-%H%M%S"))
                 os.makedirs(aside, exist_ok=True)
                 shutil.move(dest, os.path.join(aside, name))
-            tts(say, v["voice"], v.get("word_model", "eleven_v4"), os.path.join(raw, name))
+            tts(say, voice, v.get("word_model", "eleven_v4"), os.path.join(raw, name))
             level(os.path.join(raw, name), dest, v["lufs"], stereo=L["course"] == "eng")
             made[name] = say
         w["audio"] = name
@@ -364,7 +374,9 @@ def words(L, redo=()):
                             "--output_dir", tmp, "--verbose", "False", "--fp16", "False"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
             for n, say in made.items():
                 heard = open(os.path.join(tmp, n[:-4] + ".txt"), encoding="utf-8").read().strip()
-                if plain(heard) != plain(say):
+                if v["whisper"] not in ("en", "fr"):   # Japanese comes back in other characters than it was written in: listed, not judged
+                    print(f"   {n}  {say}  | heard: {heard}")
+                elif plain(heard) != plain(say):
                     bad += 1
                     print(f"   check: {n}  '{say}'  heard as '{heard}'")
         print(f"Whisper: {bad} of {len(made)} clip(s) to listen to. New take: python -E tools\\audio.py words {L['id']} --redo <file.mp3>. Then: upload.")

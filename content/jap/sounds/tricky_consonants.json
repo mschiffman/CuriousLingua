@@ -1,0 +1,148 @@
+{
+ "title": "R, tsu and fu",
+ "subtitle": "らりるれろ ・ つ ・ ふ",
+ "level": "a1",
+ "topic": "Sounds of Japanese",
+ "order": 5,
+ "type": "words",
+ "review": "Written by Claude. The Japanese, the romaji and the recordings have not been checked by a Japanese speaker.",
+ "intro": "Three sounds that English does not have. Listen first, then copy the voice.",
+ "listen_pick": "fr",
+ "glossary_dir": "jap/sounds/tricky_consonants/",
+ "audio_ver": "2611171548",
+ "voices": [
+  "ilBjLtdEW3SkjRXakAkO",
+  "r4qMc0xxpfgMQciUmPHW"
+ ],
+ "groups": [
+  {
+   "title": "ra ri ru re ro",
+   "notes": [
+    "The Japanese r is one light tap of the tongue behind the top teeth, between an English r, l and d."
+   ],
+   "words": [
+    {
+     "fr": "ra",
+     "ipa": "ら",
+     "en": "",
+     "audio": "001.mp3",
+     "say": "ら"
+    },
+    {
+     "fr": "ri",
+     "ipa": "り",
+     "en": "",
+     "audio": "002.mp3",
+     "say": "り"
+    },
+    {
+     "fr": "ru",
+     "ipa": "る",
+     "en": "",
+     "audio": "003.mp3",
+     "say": "る"
+    },
+    {
+     "fr": "re",
+     "ipa": "れ",
+     "en": "",
+     "audio": "004.mp3",
+     "say": "れ"
+    },
+    {
+     "fr": "ro",
+     "ipa": "ろ",
+     "en": "",
+     "audio": "005.mp3",
+     "say": "ろ"
+    },
+    {
+     "fr": "ringo",
+     "ipa": "りんご",
+     "en": "apple",
+     "audio": "006.mp3",
+     "say": "りんご"
+    },
+    {
+     "fr": "sakura",
+     "ipa": "さくら",
+     "en": "cherry blossom",
+     "say": "さくら",
+     "audio": "007.mp3"
+    },
+    {
+     "fr": "rāmen",
+     "ipa": "ラーメン",
+     "en": "ramen",
+     "audio": "008.mp3",
+     "say": "ラーメン"
+    }
+   ]
+  },
+  {
+   "title": "tsu and su",
+   "notes": [
+    "tsu starts with a t, like the end of 'cats'."
+   ],
+   "words": [
+    {
+     "fr": "tsuki",
+     "ipa": "つき",
+     "en": "moon",
+     "say": "つき",
+     "audio": "009.mp3"
+    },
+    {
+     "fr": "suki",
+     "ipa": "すき",
+     "en": "to like",
+     "say": "すき",
+     "audio": "010.mp3"
+    },
+    {
+     "fr": "tsuna",
+     "ipa": "ツナ",
+     "en": "tuna",
+     "audio": "011.mp3",
+     "say": "ツナ"
+    },
+    {
+     "fr": "suna",
+     "ipa": "すな",
+     "en": "sand",
+     "say": "すな",
+     "audio": "012.mp3"
+    }
+   ]
+  },
+  {
+   "title": "fu",
+   "notes": [
+    "For fu, blow softly between both lips. The teeth do not touch the lip as in English f."
+   ],
+   "words": [
+    {
+     "fr": "fune",
+     "ipa": "ふね",
+     "en": "boat",
+     "say": "ふね",
+     "audio": "013.mp3"
+    },
+    {
+     "fr": "fuyu",
+     "ipa": "ふゆ",
+     "en": "winter",
+     "say": "ふゆ",
+     "audio": "014.mp3"
+    },
+    {
+     "fr": "futatsu",
+     "ipa": "ふたつ",
+     "en": "two (things)",
+     "say": "二つ",
+     "audio": "015.mp3"
+    }
+   ]
+  }
+ ]
+}

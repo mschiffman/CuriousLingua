@@ -101,6 +101,8 @@ python -E tools\audio.py words fr/vocabulary/house_hotspots
 
 Records every word that has no clip yet, as a named file in the lesson's `glossary_dir` (`maison.mp3`), and writes the file names into the lesson. A word list and its hotspot page share the folder, so a word is recorded once: run the list first, then the hotspots. Single words are made with `eleven_v4`, because the sentence model garbles them. For a new take: `--redo pelouse.mp3`. Then `python -E tools\audio.py upload <lesson>` for each of the two, as for any lesson.
 
+Japanese: the voice must be given Japanese script, never romaji (it spells romaji out as English letters). A word list's `say` is what it reads. Japanese transcripts are listed for you to read, not judged automatically.
+
 Whisper is a poor judge of single words (it hears "toit" as "Toi."), so treat its list as words to listen to, not as errors.
 
 ### Shadowing chunks without new recordings

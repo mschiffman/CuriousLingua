@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R, tsu and fu | Japanese</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<style>
+.wl-hero{display:block;width:100%;max-height:24rem;object-fit:contain;border:1px solid #E4DCCF;border-radius:1rem;background:#fff}
+.wl-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr))}
+.wl-row{display:flex;align-items:center;gap:.75rem;text-align:left;border:1px solid #E4DCCF;background:#fff;border-radius:1rem;padding:.6rem .8rem;transition:border-color .15s}
+.wl-row:hover,.wl-on{border-color:rgb(var(--accent))}
+.wl-fr{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:.15rem .5rem;font-size:1.15rem}
+.wl-g{font-size:.7rem;font-weight:700;text-transform:uppercase;line-height:1.5;color:rgb(var(--accent));border:1px solid rgb(var(--accent)/.3);background:rgb(var(--accent)/.1);border-radius:999px;padding:0 .45rem}
+.wl-ipa{font-size:.9rem;color:#5B6475}
+.wl-en{color:#5B6475;text-align:right;max-width:45%}
+.wl-note{margin-top:.6rem;border-left:3px solid rgb(var(--accent)/.5);background:rgb(var(--accent)/.06);border-radius:.5rem;padding:.5rem .75rem;font-size:.95rem}
+.wl-opts{display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr))}
+.wl-opts .btn{min-height:3.25rem;font-size:1rem;white-space:normal}
+.wl-wrong{border-color:#B3261E;color:#B3261E}
+.hs-stage{position:relative;border-radius:1rem;overflow:hidden;border:1px solid #E4DCCF;background:#fff;line-height:0}
+.hs-stage img{width:100%;height:auto;display:block}
+.hs-dot{position:absolute;width:2.25rem;height:2.25rem;margin:-1.125rem 0 0 -1.125rem;padding:0;border:0;border-radius:999px;background:rgb(255 255 255/.6);cursor:pointer;display:grid;place-items:center;transition:transform .15s,background .15s}
+.hs-dot::after{content:"";width:.7rem;height:.7rem;border-radius:999px;background:#D7372C;box-shadow:0 0 0 2px #fff}
+.hs-dot:hover{transform:scale(1.15)}
+.hs-on{background:rgb(var(--accent)/.4)}.hs-on::after{background:rgb(var(--accent))}
+.hs-good{background:rgb(27 117 80/.4)}.hs-good::after{background:#1B7550}
+.hs-bad{background:rgb(179 38 30/.5);animation:hs-shake .3s}
+@keyframes hs-shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.hs-thumbs{display:flex;gap:.5rem;overflow-x:auto;padding-bottom:.25rem}
+.hs-thumb{flex:none;width:5.5rem;padding:0;border:2px solid #E4DCCF;border-radius:.6rem;overflow:hidden;background:#fff;line-height:0;cursor:pointer}
+.hs-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.hs-thumb-on{border-color:rgb(var(--accent))}
+@media (max-width:480px){.hs-dot{width:1.75rem;height:1.75rem;margin:-.875rem 0 0 -.875rem}.wl-en{max-width:40%}}
+@media (prefers-reduced-motion:reduce){.hs-bad{animation:none}.hs-dot,.wl-row{transition:none}}
+</style>
+</head>
+<body class="site" data-course="jap">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">Japanese</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../jap/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../jap/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../jap/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../jap/sounds/index.html">Sounds</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../jap/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../jap/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../jap/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../jap/sounds/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Sounds</a></div></div></header>
+<main class="wrap py-6 sm:py-10">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../jap/index.html">Japanese</a><span>/</span><a class="hover:text-accent" href="../../jap/sounds/index.html">Sounds</a></nav>
+
+<div class="mt-4 flex flex-wrap items-center gap-2"><span class="chip chip-accent">A1</span><span class="chip">Sounds of Japanese</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">R, tsu and fu</h1>
+<p class="mt-2 text-xl text-muted">らりるれろ ・ つ ・ ふ</p>
+<p class="mt-3 max-w-2xl text-muted">Three sounds that English does not have. Listen first, then copy the voice.</p>
+
+<section x-data="words" class="mt-6">
+<img x-show="hero" x-cloak :src="hero" :alt="alt" class="wl-hero">
+<div class="mt-4 flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
+<button class="btn" x-show="!quiz" :class="hideEn && 'btn-on'" @click="hideEn = !hideEn" x-text="hideEn ? 'Show English' : 'Hide English'"></button>
+<button class="btn" x-show="!quiz" :class="hideFr && 'btn-on'" @click="hideFr = !hideFr" x-text="hideFr ? 'Show the words' : 'Hide the words'"></button>
+<button class="btn" x-show="pool().length > 3" :class="quiz && 'btn-on'" @click="quiz ? stopQuiz() : startQuiz()" x-text="quiz ? 'Back to the list' : 'Quiz'"></button>
+<span class="text-sm text-muted" x-show="!quiz">Tap a word to hear it.</span>
+</div>
+
+<div x-show="quiz" x-cloak class="mt-4 rounded-2xl border border-line bg-card p-4">
+<div x-show="q">
+<div class="flex flex-wrap items-center gap-3">
+<button class="play" @click="q && hear(q.w)" aria-label="Hear it again"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<p class="text-xl text-muted">Listen and choose.</p>
+<span class="ml-auto text-sm font-bold text-muted" x-text="asked + ' / ' + total"></span>
+</div>
+<div class="wl-opts mt-4"><template x-for="o in (q ? q.opts : [])" :key="o.n"><button class="btn" :class="optClass(o)" @click="choose(o)" x-text="label(o)" :lang="show === 'fr' ? 'ja' : null"></button></template></div>
+</div>
+<div x-show="!q" class="flex flex-wrap items-center gap-3">
+<p class="text-xl font-semibold" x-text="'Well done! ' + score + ' / ' + total"></p><span class="ml-auto"></span>
+<button class="btn btn-primary" @click="startQuiz()">Again</button><button class="btn" @click="stopQuiz()">Back to the list</button>
+</div>
+</div>
+
+<div x-show="!quiz">
+<template x-for="(g, gi) in groups" :key="gi"><section class="mt-8">
+<div class="flex flex-wrap items-center gap-3" x-show="g.title">
+<button x-show="g.audio" class="play small" @click="hearName(g.audio)" aria-label="Hear the heading"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<h2 class="text-2xl font-semibold" lang="ja" x-text="g.title"></h2><span class="wl-ipa" x-show="g.ipa" x-text="g.ipa"></span>
+</div>
+<p class="mt-1 text-muted" x-show="g.sub" x-text="g.sub"></p>
+<template x-for="(t, ti) in (g.notes || [])" :key="ti"><p class="wl-note" x-text="t"></p></template>
+<div class="wl-grid mt-3">
+<template x-for="w in g.words" :key="w.n"><button class="wl-row" :class="said === w.n && 'wl-on'" @click="hear(w)">
+<span class="play small pointer-events-none"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+<span class="wl-fr"><span class="font-bold" lang="ja" x-show="!hideFr" x-text="w.fr"></span><span x-show="hideFr" x-cloak class="text-muted">&bull; &bull; &bull;</span>
+<span x-show="w.g" class="wl-g" x-text="w.g"></span><span class="wl-ipa" x-show="w.ipa && !hideFr" x-text="w.ipa"></span></span>
+<span class="wl-en" x-show="w.en && !hideEn" x-text="w.en"></span><span x-show="w.en && hideEn" x-cloak class="wl-en">&bull; &bull; &bull;</span>
+</button></template>
+</div></section></template>
+</div>
+</section>
+
+
+<div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('jap/sounds/tricky_consonants')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn" href="../../jap/sounds/the_sound_n.html">&larr; The sound n</a><a class="btn ml-auto" href="../../jap/sounds/rhythm.html">Rhythm: counting beats &rarr;</a></div>
+</main>
+<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
+<span class="font-display text-base font-semibold text-ink">Languages</span>
+<span>Free for everyone. No account, no paywall.</span></div></footer>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"R, tsu and fu","subtitle":"らりるれろ ・ つ ・ ふ","level":"a1","topic":"Sounds of Japanese","order":5,"type":"words","review":"Written by Claude. The Japanese, the romaji and the recordings have not been checked by a Japanese speaker.","intro":"Three sounds that English does not have. Listen first, then copy the voice.","listen_pick":"fr","glossary_dir":"jap/sounds/tricky_consonants/","audio_ver":"2611171548","voices":["ilBjLtdEW3SkjRXakAkO","r4qMc0xxpfgMQciUmPHW"],"groups":[{"title":"ra ri ru re ro","notes":["The Japanese r is one light tap of the tongue behind the top teeth, between an English r, l and d."],"words":[{"fr":"ra","ipa":"ら","en":"","audio":"001.mp3","say":"ら","n":1},{"fr":"ri","ipa":"り","en":"","audio":"002.mp3","say":"り","n":2},{"fr":"ru","ipa":"る","en":"","audio":"003.mp3","say":"る","n":3},{"fr":"re","ipa":"れ","en":"","audio":"004.mp3","say":"れ","n":4},{"fr":"ro","ipa":"ろ","en":"","audio":"005.mp3","say":"ろ","n":5},{"fr":"ringo","ipa":"りんご","en":"apple","audio":"006.mp3","say":"りんご","n":6},{"fr":"sakura","ipa":"さくら","en":"cherry blossom","say":"さくら","audio":"007.mp3","n":7},{"fr":"rāmen","ipa":"ラーメン","en":"ramen","audio":"008.mp3","say":"ラーメン","n":8}]},{"title":"tsu and su","notes":["tsu starts with a t, like the end of 'cats'."],"words":[{"fr":"tsuki","ipa":"つき","en":"moon","say":"つき","audio":"009.mp3","n":9},{"fr":"suki","ipa":"すき","en":"to like","say":"すき","audio":"010.mp3","n":10},{"fr":"tsuna","ipa":"ツナ","en":"tuna","audio":"011.mp3","say":"ツナ","n":11},{"fr":"suna","ipa":"すな","en":"sand","say":"すな","audio":"012.mp3","n":12}]},{"title":"fu","notes":["For fu, blow softly between both lips. The teeth do not touch the lip as in English f."],"words":[{"fr":"fune","ipa":"ふね","en":"boat","say":"ふね","audio":"013.mp3","n":13},{"fr":"fuyu","ipa":"ふゆ","en":"winter","say":"ふゆ","audio":"014.mp3","n":14},{"fr":"futatsu","ipa":"ふたつ","en":"two (things)","say":"二つ","audio":"015.mp3","n":15}]}],"course":"jap","strand":"sounds","slug":"tricky_consonants"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+ "title": "The five vowels",
+ "subtitle": "あ い う え お",
+ "level": "a1",
+ "topic": "Sounds of Japanese",
+ "order": 1,
+ "type": "words",
+ "review": "Written by Claude. The Japanese, the romaji and the recordings have not been checked by a Japanese speaker.",
+ "intro": "Japanese has only five vowel sounds. Get these right and every word becomes easier to say and to hear.",
+ "listen_pick": "fr",
+ "glossary_dir": "jap/sounds/vowels/",
+ "audio_ver": "2611171547",
+ "voices": [
+  "ilBjLtdEW3SkjRXakAkO",
+  "r4qMc0xxpfgMQciUmPHW"
+ ],
+ "groups": [
+  {
+   "title": "The five vowels",
+   "notes": [
+    "Each vowel is short and steady. It does not slide into another sound, as English vowels often do."
+   ],
+   "words": [
+    {
+     "fr": "a",
+     "ipa": "あ",
+     "en": "as in father",
+     "audio": "001.mp3",
+     "say": "あ"
+    },
+    {
+     "fr": "i",
+     "ipa": "い",
+     "en": "as in machine",
+     "audio": "002.mp3",
+     "say": "い"
+    },
+    {
+     "fr": "u",
+     "ipa": "う",
+     "en": "as in food, with flat lips",
+     "audio": "003.mp3",
+     "say": "う"
+    },
+    {
+     "fr": "e",
+     "ipa": "え",
+     "en": "as in pet",
+     "audio": "004.mp3",
+     "say": "え"
+    },
+    {
+     "fr": "o",
+     "ipa": "お",
+     "en": "as in more, but short",
+     "audio": "005.mp3",
+     "say": "お"
+    }
+   ]
+  },
+  {
+   "title": "Vowels in words",
+   "notes": [
+    "When two vowels meet, say each one clearly: a-i, i-e, u-e."
+   ],
+   "words": [
+    {
+     "fr": "ai",
+     "ipa": "あい",
+     "en": "love",
+     "say": "あい",
+     "audio": "006.mp3"
+    },
+    {
+     "fr": "ie",
+     "ipa": "いえ",
+     "en": "house",
+     "say": "いえ",
+     "audio": "007.mp3"
+    },
+    {
+     "fr": "ue",
+     "ipa": "うえ",
+     "en": "above, on top",
+     "say": "うえ",
+     "audio": "008.mp3"
+    },
+    {
+     "fr": "aoi",
+     "ipa": "あおい",
+     "en": "blue",
+     "say": "青い",
+     "audio": "009.mp3"
+    },
+    {
+     "fr": "au",
+     "ipa": "あう",
+     "en": "to meet",
+     "say": "会う",
+     "audio": "010.mp3"
+    },
+    {
+     "fr": "iie",
+     "ipa": "いいえ",
+     "en": "no",
+     "audio": "011.mp3",
+     "say": "いいえ"
+    }
+   ]
+  }
+ ]
+}

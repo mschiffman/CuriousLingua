@@ -1,0 +1,114 @@
+{
+ "title": "Rhythm: counting beats",
+ "subtitle": "はく",
+ "level": "a1",
+ "topic": "Sounds of Japanese",
+ "order": 6,
+ "type": "words",
+ "review": "Written by Claude. The Japanese, the romaji and the recordings have not been checked by a Japanese speaker.",
+ "intro": "Japanese is spoken in even beats. Every beat takes the same time. Count them on your fingers as you listen.",
+ "listen_pick": "fr",
+ "glossary_dir": "jap/sounds/rhythm/",
+ "audio_ver": "2611171549",
+ "voices": [
+  "ilBjLtdEW3SkjRXakAkO",
+  "r4qMc0xxpfgMQciUmPHW"
+ ],
+ "groups": [
+  {
+   "title": "One beat for each kana",
+   "words": [
+    {
+     "fr": "te",
+     "ipa": "て",
+     "en": "hand: 1 beat",
+     "say": "て",
+     "audio": "001.mp3"
+    },
+    {
+     "fr": "neko",
+     "ipa": "ねこ",
+     "en": "cat: ne-ko, 2 beats",
+     "say": "ねこ",
+     "audio": "002.mp3"
+    },
+    {
+     "fr": "sakura",
+     "ipa": "さくら",
+     "en": "cherry blossom: sa-ku-ra, 3 beats",
+     "say": "さくら",
+     "audio": "003.mp3"
+    },
+    {
+     "fr": "tomodachi",
+     "ipa": "ともだち",
+     "en": "friend: to-mo-da-chi, 4 beats",
+     "say": "友達",
+     "audio": "004.mp3"
+    }
+   ]
+  },
+  {
+   "title": "Beats you cannot see in English spelling",
+   "notes": [
+    "A long vowel, a small っ and ん each take one full beat."
+   ],
+   "words": [
+    {
+     "fr": "Tōkyō",
+     "ipa": "とうきょう",
+     "en": "Tokyo: to-o-kyo-o, 4 beats",
+     "say": "東京",
+     "audio": "005.mp3"
+    },
+    {
+     "fr": "kippu",
+     "ipa": "きっぷ",
+     "en": "ticket: ki-(stop)-pu, 3 beats",
+     "say": "切符",
+     "audio": "006.mp3"
+    },
+    {
+     "fr": "shinbun",
+     "ipa": "しんぶん",
+     "en": "newspaper: shi-n-bu-n, 4 beats",
+     "say": "新聞",
+     "audio": "007.mp3"
+    },
+    {
+     "fr": "gakkō",
+     "ipa": "がっこう",
+     "en": "school: ga-(stop)-ko-o, 4 beats",
+     "say": "学校",
+     "audio": "008.mp3"
+    }
+   ]
+  },
+  {
+   "title": "Longer words",
+   "words": [
+    {
+     "fr": "konnichiwa",
+     "ipa": "こんにちは",
+     "en": "hello: ko-n-ni-chi-wa, 5 beats",
+     "audio": "009.mp3",
+     "say": "こんにちは"
+    },
+    {
+     "fr": "arigatō",
+     "ipa": "ありがとう",
+     "en": "thank you: a-ri-ga-to-o, 5 beats",
+     "audio": "010.mp3",
+     "say": "ありがとう"
+    },
+    {
+     "fr": "chokorēto",
+     "ipa": "チョコレート",
+     "en": "chocolate: cho-ko-re-e-to, 5 beats",
+     "audio": "011.mp3",
+     "say": "チョコレート"
+    }
+   ]
+  }
+ ]
+}

@@ -37,7 +37,7 @@ Every lesson file has `title`, `level` (`pre-a1` `a1` `a2` `b1` `b2` `c1`), `top
 | `shadow` | Shadowing practice | `chunks`: `{ "text": "...", "tr": "..." }`, or parts of another lesson's clips: `{ "text": "...", "clip": 3, "t": [start, end] }` (see Audio wire) |
 | `text` | Reading texts for adults (French) | `img`, `paragraphs`: lists of sentences `{ "text", "tr", "gloss": { "word": ["/IPA/", "meaning", "base form /IPA/"] } }`. See `content\fr\reading\amber.json` |
 | `practice` | Exercise pages and video | `blocks`, each with a `kind`: `truefalse`, `choice`, `cloze`, `open`, `order` or `video`. See `content\fr\reading\amber_exercises.json` |
-| `words` | Themed word lists (French vocabulary) | optional opening picture `img` + `img_alt`; a built-in Quiz (hear a word, choose it; `"listen_pick": "fr"` shows spellings instead of meanings); `groups`: `{ "title", optional "sub", "notes": [...], "audio" (a clip for the heading), "words": [ { "fr", "g": "m" or "f", "ipa", "en", "audio": "volcan.mp3" } ] }`. Each word's `audio` is a named file in `glossary_dir` (`maison.mp3`); `python -E tools\audio.py words <lesson>` records the ones that are missing and writes the names in. See `content\fr\vocabulary\landforms.json` |
+| `words` | Themed word lists (French vocabulary) | optional opening picture `img` + `img_alt`; a built-in Quiz (hear a word, choose it; `"listen_pick": "fr"` shows spellings instead of meanings); `groups`: `{ "title", optional "sub", "notes": [...], "audio" (a clip for the heading), "words": [ { "fr", "g": "m" or "f", "ipa", "en", "audio": "volcan.mp3" } ] }`. Each word's `audio` is a named file in `glossary_dir` (`maison.mp3`); `python -E tools\audio.py words <lesson>` records the ones that are missing and writes the names in. For Japanese sound lessons `fr` holds the romaji, `ipa` the kana, and `say` what the voice reads (kana, or kanji where a kana word was misread); clips are numbered (`001.mp3`), and `"voices": [id, id]` gives each group of words to the next voice in turn. See `content\fr\vocabulary\landforms.json` |
 | `hotspots` | Pictures with tappable dots, with a quiz mode | `slides`: `{ "img", "alt", "spots": [ { "x", "y" (percent from the left and top), "fr", "g", "ipa", "en", "audio" } ] }`. Usually a supplement of a word list. See `content\fr\vocabulary\landforms_hotspots.json` |
 | `link` | A supplement kept somewhere else, such as a mind map on Google Drive | `href`: the address. Its tile opens it in a new tab; no page is built |
 | `page` | A hand-made page shown as a supplement (the mind maps) | None. Like `game`: you keep `<course>\<strand>\<slug>.html` yourself and the build only links to it |
@@ -54,7 +54,7 @@ Any `reader`, `dialogue`, `shadow` or `text` lesson can end with a quiz:
 ```
 
 A dialogue line: `{ "who": "A", "text": "Bonjour !", "tr": { "en": "Hello!" }, "note": "..." }`.
-A Japanese line: `{ "who": "A", "romaji": "Konnichiwa.", "kana": "こんにちは。", "tr": { "en": "Hello.", "my": "မင်္ဂလာပါ။" } }`. The voice reads the kana.
+A Japanese line: `{ "who": "A", "romaji": "Konnichiwa.", "kana": "こんにちは。", "tr": { "en": "Hello.", "my": "မင်္ဂလာပါ။" } }`. The voice reads the kana, or `"say"` when the line has one: the same sentence written with kanji, which the voice reads and pitches more reliably than kana alone.
 
 Copy an existing file in the same strand to start a new lesson.
 

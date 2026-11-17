@@ -353,6 +353,9 @@ CARDS_BLOBS = '''<div class="pointer-events-none fixed left-0 top-0 z-0 h-full w
 <div class="absolute right-1/4 top-1/2 h-64 w-64 rounded-full" style="background:radial-gradient(circle,rgba(26,110,245,.08) 0%,transparent 70%)"></div></div>'''
 
 
+UI = {"fr": {"LISTEN": "&Eacute;coutez et choisissez.", "BRAVO": "Bravo !", "FIND": "Trouvez&nbsp;:", "FIRST": "du premier coup"},
+      "en": {"LISTEN": "Listen and choose.", "BRAVO": "Well done!", "FIND": "Find:", "FIRST": "on the first try"}}
+
 # A themed word list: tap a word to hear it; hide one language to test yourself.
 WORDS = """<section x-data="words" class="mt-6">
 <img x-show="hero" x-cloak :src="hero" :alt="alt" class="wl-hero">
@@ -367,13 +370,13 @@ WORDS = """<section x-data="words" class="mt-6">
 <div x-show="q">
 <div class="flex flex-wrap items-center gap-3">
 <button class="play" @click="q && hear(q.w)" aria-label="Hear it again">__PLAY__</button>
-<p class="text-xl text-muted">&Eacute;coutez et choisissez.</p>
+<p class="text-xl text-muted">__UI_LISTEN__</p>
 <span class="ml-auto text-sm font-bold text-muted" x-text="asked + ' / ' + total"></span>
 </div>
 <div class="wl-opts mt-4"><template x-for="o in (q ? q.opts : [])" :key="o.n"><button class="btn" :class="optClass(o)" @click="choose(o)" x-text="label(o)" :lang="show === 'fr' ? '__LANG__' : null"></button></template></div>
 </div>
 <div x-show="!q" class="flex flex-wrap items-center gap-3">
-<p class="text-xl font-semibold" x-text="'Bravo ! ' + score + ' / ' + total"></p><span class="ml-auto"></span>
+<p class="text-xl font-semibold" x-text="'__UI_BRAVO__ ' + score + ' / ' + total"></p><span class="ml-auto"></span>
 <button class="btn btn-primary" @click="startQuiz()">Again</button><button class="btn" @click="stopQuiz()">Back to the list</button>
 </div>
 </div>
@@ -412,12 +415,12 @@ HOTSPOTS = """<section x-data="hotspots" class="mt-6">
 <div x-show="mode === 'quiz'" x-cloak class="mt-4 rounded-2xl border border-line bg-card p-4" style="min-height:4.75rem">
 <div x-show="target" class="flex flex-wrap items-center gap-3">
 <button class="play small" @click="hear(target)" aria-label="Hear the word">__PLAY__</button>
-<p class="text-xl"><span class="text-muted">Trouvez&nbsp;:</span> <b lang="__LANG__" x-show="!listen" x-text="target && target.fr"></b><span x-show="listen" x-cloak class="text-muted">&bull; &bull; &bull;</span></p>
+<p class="text-xl"><span class="text-muted">__UI_FIND__</span> <b lang="__LANG__" x-show="!listen" x-text="target && target.fr"></b><span x-show="listen" x-cloak class="text-muted">&bull; &bull; &bull;</span></p>
 <span class="ml-auto text-sm font-bold text-muted" x-text="done.length + ' / ' + slide.spots.length"></span>
 <button class="btn py-1.5" :class="listen && 'btn-on'" @click="listen = !listen">Listen only</button>
 </div>
 <div x-show="!target" x-cloak class="flex flex-wrap items-center gap-3">
-<p class="text-xl font-semibold" x-text="'Bravo ! ' + first + ' / ' + slide.spots.length + ' du premier coup'"></p>
+<p class="text-xl font-semibold" x-text="'__UI_BRAVO__ ' + first + ' / ' + slide.spots.length + ' __UI_FIRST__'"></p>
 <span class="ml-auto"></span>
 <button class="btn" @click="startQuiz()">Again</button>
 <button class="btn btn-primary" x-show="i < slides.length - 1" @click="go(i + 1)">Next picture &rarr;</button>
@@ -549,6 +552,8 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
     shell = {"words": WORDS, "hotspots": HOTSPOTS}.get(L.get("type"), shell)
     if shell is None:
         shell = soon("This lesson is being written.")
+    for key, word in UI.get(course["lang"], UI["en"]).items():
+        shell = shell.replace("__UI_" + key + "__", word)
     shell = shell.replace("__PLAY__", ICON_PLAY).replace("__LOOP__", ICON_LOOP).replace("__IMG__", ICON_IMG).replace("__LANG__", course["lang"]).replace("__TR__", ICON_TR)
     chips = f'<span class="chip chip-accent">{lv(L.get("level") or (parent or {}).get("level"))}</span>'
     for k in ("topic", "register"):

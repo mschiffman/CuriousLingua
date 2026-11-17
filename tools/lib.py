@@ -84,7 +84,7 @@ def clips(L):
     if t == "reader":
         return sorted({(c[1], c[0]) for p in L.get("pages", []) for s in p["sentences"] for c in s})
     if t == "dialogue":
-        return [(l["n"], l.get("kana") or l.get("text") or l.get("romaji", "")) for sec in L["sections"] for l in sec["lines"]]
+        return [(l["n"], l.get("say") or l.get("kana") or l.get("text") or l.get("romaji", "")) for sec in L["sections"] for l in sec["lines"]]
     if t == "shadow":   # a chunk with "clip" is a part of that clip (another lesson's take): nothing to record for it
         out = {}
         for c in L.get("chunks", []):

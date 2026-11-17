@@ -1,0 +1,147 @@
+{
+ "title": "At the café",
+ "subtitle": "カフェで",
+ "level": "a1",
+ "topic": "Everyday conversations",
+ "type": "dialogue",
+ "order": 1,
+ "review": "Written by Claude. The Japanese, the romaji and the recordings have not been checked by a Japanese speaker. English support only: no Burmese lines were written.",
+ "intro": "A customer orders at a café. Listen for what he orders and how much it costs.",
+ "start_hidden": true,
+ "steps": [
+  "Press Play all with the text hidden. Who is speaking, and where are they?",
+  "Listen again, then answer the questions under the dialogue.",
+  "Tap the lines to show the text, and listen once more while reading.",
+  "Shadow it: play a line, press Pause (or the space bar), say it aloud, then Resume.",
+  "Take a role and say your lines in the pauses."
+ ],
+ "aud_dir": "jap/listening/cafe/",
+ "aud_ext": "mp3?v=2611171545",
+ "speakers": {
+  "A": "Staff",
+  "B": "Customer"
+ },
+ "voice": {
+  "A": "ilBjLtdEW3SkjRXakAkO",
+  "B": "r4qMc0xxpfgMQciUmPHW"
+ },
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "A",
+   "romaji": "Irasshaimase.",
+   "kana": "いらっしゃいませ。",
+   "tr": {
+    "en": "Welcome."
+   }
+  },
+  {
+   "who": "B",
+   "romaji": "Kōhī o hitotsu kudasai.",
+   "kana": "コーヒーをひとつください。",
+   "tr": {
+    "en": "One coffee, please."
+   },
+   "say": "コーヒーを一つください。"
+  },
+  {
+   "who": "A",
+   "romaji": "Hotto desu ka, aisu desu ka.",
+   "kana": "ホットですか、アイスですか。",
+   "tr": {
+    "en": "Hot or iced?"
+   }
+  },
+  {
+   "who": "B",
+   "romaji": "Hotto de onegaishimasu.",
+   "kana": "ホットでおねがいします。",
+   "tr": {
+    "en": "Hot, please."
+   },
+   "say": "ホットでお願いします。"
+  },
+  {
+   "who": "A",
+   "romaji": "Kēki wa ikaga desu ka.",
+   "kana": "ケーキはいかがですか。",
+   "tr": {
+    "en": "Would you like some cake?"
+   }
+  },
+  {
+   "who": "B",
+   "romaji": "Iie, kekkō desu.",
+   "kana": "いいえ、けっこうです。",
+   "tr": {
+    "en": "No, thank you."
+   },
+   "say": "いいえ、結構です。"
+  },
+  {
+   "who": "A",
+   "romaji": "Yonhyaku-en desu.",
+   "kana": "よんひゃくえんです。",
+   "tr": {
+    "en": "That's 400 yen."
+   },
+   "say": "四百円です。"
+  },
+  {
+   "who": "B",
+   "romaji": "Hai, dōzo.",
+   "kana": "はい、どうぞ。",
+   "tr": {
+    "en": "Here you are."
+   }
+  },
+  {
+   "who": "A",
+   "romaji": "Arigatō gozaimasu.",
+   "kana": "ありがとうございます。",
+   "tr": {
+    "en": "Thank you very much."
+   }
+  }
+ ],
+ "questions": [
+  {
+   "q": "What does the customer order?",
+   "options": [
+    "A hot coffee",
+    "An iced coffee",
+    "Tea"
+   ],
+   "answer": 0,
+   "why": "Kōhī o hitotsu kudasai... Hotto de onegaishimasu: one coffee, hot."
+  },
+  {
+   "q": "Does he want cake?",
+   "options": [
+    "Yes, one piece",
+    "No",
+    "He asks the price first"
+   ],
+   "answer": 1,
+   "why": "Iie, kekkō desu = No, thank you."
+  },
+  {
+   "q": "How much does he pay?",
+   "options": [
+    "300 yen",
+    "400 yen",
+    "500 yen"
+   ],
+   "answer": 1,
+   "why": "Yonhyaku-en desu = 400 yen."
+  }
+ ],
+ "notes": [
+  "[Thing] o kudasai = [thing], please.",
+  "... de onegaishimasu = I'd like it ..., please.",
+  "Iie, kekkō desu = No, thank you (polite).",
+  "hitotsu = one (thing). yonhyaku = 400."
+ ]
+}
