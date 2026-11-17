@@ -129,7 +129,7 @@ A game is different: its page is not copied. Its clips are written, small, into 
 
 ## Publishing
 
-Double-click `5_publish.bat`. It rebuilds every page and, when the folder is a git repository, commits and pushes. The folder is not a git repository yet: see "Publishing" in `README.md`.
+Double-click `5_publish.bat`. It rebuilds every page, then commits and pushes to the GitHub repository `mschiffman/CuriousLingua` (public). The site itself goes online once a Cloudflare Pages project is pointed at that repository: see "Publishing" in `README.md`.
 
 Audio is separate from publishing: clips go online with `audio.py upload`, pages go online with `5_publish.bat`.
 

@@ -1,0 +1,19 @@
+# Same format as .gitignore. These are not part of the website: they stay in GitHub but are not served.
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
+node_modules
+.wrangler
+
+# how the site is made
+tools/
+content/
+site.json
+*.bat
+*.md
+
+# working folders
+_archive/
+_inbox/
+_reports/

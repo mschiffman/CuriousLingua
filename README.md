@@ -83,7 +83,7 @@ Imported lessons carry `"level_provisional": true`: the level is a guess from th
 
 ## Publishing
 
-This folder is not a git repository yet. To publish: create a new GitHub repository, run `git init` here, add the remote, and point a new Cloudflare Pages project at it (no build command, output directory `/`). `media\`, the offline copies and the working folders are in `.gitignore`.
+This folder is a git repository; its remote is the public GitHub repository `mschiffman/CuriousLingua` (branch `main`). `5_publish.bat` rebuilds, commits and pushes. To put the site online, point a Cloudflare Pages project at that repository (no build command, output directory `/`). `media\`, the offline copies and the working folders are in `.gitignore`.
 
 ## Changing the design
 

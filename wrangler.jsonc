@@ -1,0 +1,9 @@
+// Cloudflare Worker "curiouslingua": serves this folder as a plain website. No code runs, no build step.
+// Files listed in .assetsignore stay in GitHub but are not put online.
+{
+  "name": "curiouslingua",
+  "compatibility_date": "2026-11-17",
+  "assets": {
+    "directory": "./"
+  }
+}
