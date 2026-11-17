@@ -1,0 +1,24 @@
+{
+ "_": "One voice per course; a lesson may override it with \"voice\": {\"<speaker>\": \"<ElevenLabs voice id>\"}. French and Japanese are never re-encoded after leveling.",
+ "fr": {
+  "name": "Fr-Adrien",
+  "voice": "OrVRsyqKB4siJQenyBu5",
+  "model": "eleven_v3",
+  "lufs": -16,
+  "whisper": "fr"
+ },
+ "eng": {
+  "name": "British Modern RP-Woman",
+  "voice": "MOAe6Ugu3k7GT4qGvdi6",
+  "model": "eleven_v4",
+  "lufs": -12,
+  "whisper": "en"
+ },
+ "jap": {
+  "name": "(choose a Japanese voice)",
+  "voice": "",
+  "model": "eleven_v3",
+  "lufs": -16,
+  "whisper": "ja"
+ }
+}

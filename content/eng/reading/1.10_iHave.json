@@ -1,0 +1,145 @@
+{
+ "title": "I have. I don't have.",
+ "level": "pre-a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 1 readers",
+ "type": "reader",
+ "legacy": "stories/1.10_iHave.html",
+ "img_dir": "img/ytstory/1.10_iHave/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/1.10_iHave/",
+ "aud_ext": "mp3?v=261007",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "I have.",
+      1
+     ]
+    ],
+    [
+     [
+      "I don't have.",
+      2
+     ]
+    ],
+    [
+     [
+      "Let's learn.",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "I have a pen.",
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "I have a book.",
+      5
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "I have a bag.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "I have an eraser.",
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "I have an umbrella.",
+      8
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "I don't have a cup.",
+      9
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "I have a pen.",
+      4
+     ]
+    ],
+    [
+     [
+      "I have a book.",
+      5
+     ]
+    ],
+    [
+     [
+      "I have a bag.",
+      6
+     ]
+    ],
+    [
+     [
+      "I have an eraser.",
+      7
+     ]
+    ],
+    [
+     [
+      "I have an umbrella.",
+      8
+     ]
+    ],
+    [
+     [
+      "I don't have a cup.",
+      9
+     ]
+    ]
+   ]
+  }
+ ]
+}

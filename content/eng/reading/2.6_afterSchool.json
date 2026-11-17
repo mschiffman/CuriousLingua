@@ -1,0 +1,175 @@
+{
+ "title": "After School",
+ "level": "a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 2 readers",
+ "type": "reader",
+ "legacy": "stories/2.6_afterSchool.html",
+ "img_dir": "img/ytstory/2.6_afterSchool/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/2.6_afterSchool/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "I’m home!",
+      1
+     ]
+    ],
+    [
+     [
+      "Hi! Welcome home!",
+      2
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "How was school?",
+      3
+     ]
+    ],
+    [
+     [
+      "It was good!",
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "I’m hungry.",
+      5
+     ]
+    ],
+    [
+     [
+      "Can I have a snack?",
+      6
+     ]
+    ],
+    [
+     [
+      "Of course!",
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "Here’s a banana and some milk.",
+      8
+     ]
+    ],
+    [
+     [
+      "Thank you, Mom!",
+      9
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "Yum!",
+      10
+     ]
+    ],
+    [
+     [
+      "This is good.",
+      11
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "Now it’s time for homework.",
+      12
+     ]
+    ],
+    [
+     [
+      "Okay!",
+      13
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "I read my book.",
+      14
+     ]
+    ],
+    [
+     [
+      "I write in my notebook.",
+      15
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "I’m finished!",
+      16
+     ]
+    ],
+    [
+     [
+      "Good job!",
+      17
+     ]
+    ],
+    [
+     [
+      "Can I play now?",
+      18
+     ]
+    ],
+    [
+     [
+      "Yes, you can!",
+      19
+     ]
+    ],
+    [
+     [
+      "Yay! Let’s play!",
+      20
+     ]
+    ]
+   ]
+  }
+ ]
+}

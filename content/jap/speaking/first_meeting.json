@@ -1,0 +1,82 @@
+{
+ "title": "Meeting someone",
+ "subtitle": "はじめまして",
+ "level": "a1",
+ "topic": "Situations",
+ "type": "dialogue",
+ "order": 1,
+ "review": "Burmese lines drafted by Claude. Check them before publishing. Japanese voice not chosen yet (assets/data/voices.json).",
+ "intro": "Introduce yourself. Then take Min's part: press 'I am Min' and Play all.",
+ "aud_dir": "jap/speaking/first_meeting/",
+ "aud_ext": "mp3?v=pending",
+ "speakers": {
+  "A": "Tanaka",
+  "B": "Min"
+ },
+ "support": [
+  "en",
+  "my"
+ ],
+ "lines": [
+  {
+   "romaji": "Hajimemashite. Tanaka desu.",
+   "kana": "はじめまして。たなかです。",
+   "tr": {
+    "en": "Nice to meet you. I'm Tanaka.",
+    "my": "တွေ့ရတာ ဝမ်းသာပါတယ်။ ကျွန်တော် တာနာကာပါ။"
+   },
+   "who": "A"
+  },
+  {
+   "romaji": "Hajimemashite. Min desu. Myanmā kara kimashita.",
+   "kana": "はじめまして。ミンです。ミャンマーからきました。",
+   "tr": {
+    "en": "Nice to meet you. I'm Min. I'm from Myanmar.",
+    "my": "တွေ့ရတာ ဝမ်းသာပါတယ်။ ကျွန်တော် မင်းပါ။ မြန်မာနိုင်ငံက လာပါတယ်။"
+   },
+   "who": "B"
+  },
+  {
+   "romaji": "Sō desu ka. Yoroshiku onegaishimasu.",
+   "kana": "そうですか。よろしくおねがいします。",
+   "tr": {
+    "en": "I see. Pleased to meet you.",
+    "my": "ဟုတ်လား။ ခင်ခင်မင်မင် ဆက်ဆံပေးပါ။"
+   },
+   "who": "A"
+  },
+  {
+   "romaji": "Kochira koso, yoroshiku onegaishimasu.",
+   "kana": "こちらこそ、よろしくおねがいします。",
+   "tr": {
+    "en": "Likewise, pleased to meet you.",
+    "my": "ကျွန်တော်ကလည်း ခင်ခင်မင်မင် ဆက်ဆံပေးပါ။"
+   },
+   "who": "B"
+  },
+  {
+   "romaji": "Nihongo ga jōzu desu ne.",
+   "kana": "にほんごがじょうずですね。",
+   "tr": {
+    "en": "Your Japanese is good.",
+    "my": "ဂျပန်စကား တော်တယ်နော်။"
+   },
+   "who": "A"
+  },
+  {
+   "romaji": "Iie, mada mada desu.",
+   "kana": "いいえ、まだまだです。",
+   "tr": {
+    "en": "No, not yet.",
+    "my": "မဟုတ်ပါဘူး၊ လိုပါသေးတယ်။"
+   },
+   "who": "B",
+   "note": "The modest answer to any compliment."
+  }
+ ],
+ "notes": [
+  "[Name] desu = I am [name].",
+  "[Place] kara kimashita = I come from [place].",
+  "Kochira koso = 'likewise', literally 'it is this side that should say so'."
+ ]
+}

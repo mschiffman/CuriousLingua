@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Where's the Ball?</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@600;700;800&display=swap">
+<style>
+/* Layout: one screen. A slim header, the playroom fills the middle,
+   and a prompt-and-answer tray sits at the bottom within thumb reach. */
+:root {
+  --bg: #E3F0F6;
+  --surface: #FFFFFF;
+  --ink: #16324A;
+  --muted: #4F6A83;
+  --line: #C2D6E2;
+  --ball: #E8472B;
+  --ball-ink: #FFFFFF;
+  --good: #17754B;
+  --good-bg: #DDF3E7;
+  --bad: #A8321C;
+  --bad-bg: #FBE3DC;
+  --font-display: "Baloo 2", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #102030; --surface: #1B3044; --ink: #EAF3F8; --muted: #A3BBCC;
+    --line: #2E4A61; --ball: #FF6A4D; --ball-ink: #1F0D08;
+    --good: #6FD9A4; --good-bg: #173D2E; --bad: #FFA28C; --bad-bg: #47221A;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #102030; --surface: #1B3044; --ink: #EAF3F8; --muted: #A3BBCC;
+  --line: #2E4A61; --ball: #FF6A4D; --ball-ink: #1F0D08;
+  --good: #6FD9A4; --good-bg: #173D2E; --bad: #FFA28C; --bad-bg: #47221A;
+  color-scheme: dark;
+}
+
+html, body { height: 100%; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  box-sizing: border-box;
+  overflow: hidden;
+}
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+}
+.back {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  color: inherit;
+  display: grid;
+  place-items: center;
+}
+.back svg { width: 20px; height: 20px; }
+.back:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.bar h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin: 0;
+  margin-right: auto;
+  text-wrap: balance;
+}
+.bar h1 span { color: var(--ball); }
+.modes {
+  display: flex;
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 3px;
+}
+.modes button {
+  border: 0;
+  background: transparent;
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-weight: 800;
+  color: var(--muted);
+}
+.modes button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.score {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.2rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.score .star { color: var(--ball); }
+.score small { font-family: var(--font-body); font-size: 0.85rem; color: var(--muted); font-weight: 700; margin-left: 8px; }
+
+.stage {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 200px;
+}
+.stage canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+  cursor: grab;
+}
+.stage canvas.grabbing { cursor: grabbing; }
+.turn {
+  position: absolute;
+  bottom: 6px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  display: grid;
+  place-items: center;
+}
+.turn svg { width: 26px; height: 26px; }
+#turn-left { left: 0; }
+#turn-right { right: 0; }
+.hint {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+  pointer-events: none;
+}
+.nogl { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; color: var(--muted); padding: 16px; }
+
+.tray {
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: 18px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.prompt-row { display: flex; align-items: center; gap: 12px; }
+#prompt {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.15;
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  text-wrap: balance;
+}
+#prompt b, .answer b, #feedback b { font-weight: 800; color: var(--ball); }
+#speak {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 2px solid var(--line);
+  background: transparent;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 800;
+}
+#speak svg { width: 20px; height: 20px; }
+.answers {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.answer {
+  min-height: 56px;
+  border: 2px solid var(--line);
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 8px 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.answer:hover:not(:disabled) { border-color: var(--ink); }
+.answer.wrong { background: var(--bad-bg); border-color: var(--bad); color: var(--bad); opacity: 0.75; cursor: default; }
+.answer.wrong b { color: inherit; }
+.answer.right { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+.answer.right b { color: inherit; }
+.answer:disabled { cursor: default; }
+.howto { margin: 0; color: var(--muted); font-weight: 700; }
+.result { display: flex; align-items: center; gap: 12px; min-height: 48px; }
+#feedback { margin: 0; flex: 1; min-width: 0; font-size: 1.1rem; font-weight: 700; }
+#feedback.good { color: var(--good); }
+#feedback.bad { color: var(--bad); }
+#feedback.good b, #feedback.bad b { color: inherit; }
+#next {
+  flex: none;
+  border: 0;
+  background: var(--ball);
+  color: var(--ball-ink);
+  border-radius: 999px;
+  padding: 10px 26px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+@media (max-width: 720px) {
+  .answers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #prompt { font-size: 1.25rem; }
+  .bar h1 { font-size: 1.35rem; }
+  .hint { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <a class="back" href="index.html" aria-label="Back to Grammar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+  </a>
+  <h1>Where's the <span>Ball</span>?</h1>
+  <div class="modes" role="group" aria-label="Game">
+    <button id="mode-find" type="button" aria-pressed="true">Find it</button>
+    <button id="mode-place" type="button" aria-pressed="false">Put it</button>
+  </div>
+  <div class="modes" id="levels" role="group" aria-label="Level" hidden>
+    <button id="level-1" type="button" aria-pressed="true">One ball</button>
+    <button id="level-2" type="button" aria-pressed="false">Two balls</button>
+    <button id="level-3" type="button" aria-pressed="false">Two steps</button>
+  </div>
+  <div class="score" aria-live="polite"><span class="star">★</span> <span id="stars">0</span><small><span id="round">1</span> of 8</small></div>
+</header>
+
+<main class="stage" id="stage">
+  <canvas id="room" aria-label="A playroom with a couch, a table, a box, a red ball and sometimes a blue ball"></canvas>
+  <button class="turn" id="turn-left" type="button" aria-label="Turn the room left">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button class="turn" id="turn-right" type="button" aria-label="Turn the room right">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <p class="hint">Drag the room to look around</p>
+</main>
+
+<section class="tray">
+  <div class="prompt-row">
+    <p id="prompt">Where is the ball?</p>
+    <button id="speak" type="button" aria-label="Hear the question">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 010 7"/><path d="M19 6a8.5 8.5 0 010 12"/></svg>
+      Hear it
+    </button>
+  </div>
+  <div class="answers" id="answers"></div>
+  <p class="howto" id="howto" hidden>Drag the ball to a spot, or tap one of the dots.</p>
+  <div class="result">
+    <p id="feedback" aria-live="polite"></p>
+    <button id="next" type="button" hidden>Next</button>
+  </div>
+</section>
+
+<script src="three.min.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  // ---------- Content. To add a language, translate the strings here. ----------
+  var R = 0.34; // ball radius
+  var ZONES = [
+    { id: 'on-couch',     prep: 'on',          obj: 'the couch',               pos: [-2.0, 0.55 + R, -0.5] },
+    { id: 'behind-couch', prep: 'behind',      obj: 'the couch',               pos: [-2.0, R, -1.9] },
+    { id: 'front-couch',  prep: 'in front of', obj: 'the couch',               pos: [-2.0, R, 1.0] },
+    { id: 'on-table',     prep: 'on',          obj: 'the table',               pos: [2.0, 1.05 + R, -0.7] },
+    { id: 'under-table',  prep: 'under',       obj: 'the table',               pos: [2.0, R, -0.7] },
+    { id: 'between',      prep: 'between',     obj: 'the couch and the table', pos: [0.2, R, -0.65] },
+    { id: 'in-box',       prep: 'in',          obj: 'the box',                 pos: [1.0, 0.06 + R, 2.1] },
+    { id: 'next-box',     prep: 'next to',     obj: 'the box',                 pos: [2.3, R, 2.1] }
+  ];
+  var TEXT = {
+    findPrompt: 'Where is the ball?',
+    ball: 'ball',
+    balls: { red: 'red ball', blue: 'blue ball' },
+    // one instruction, without capital or full stop, so two can be joined: "put the red ball under the table"
+    put: function (z, ball) { return 'put the ' + ball + ' <b>' + z.prep + '</b> ' + z.obj; },
+    then: ', then ',
+    right: function (z, ball) { return 'Yes! The ' + ball + ' is <b>' + z.prep + '</b> ' + z.obj + '.'; },
+    rightAll: 'Yes! Both balls are in the right place.',
+    wrongFind: 'Not there. Turn the room and look again.',
+    wrongPut: function (z) { return 'That is <b>' + z.prep + '</b> ' + z.obj + '. Try again.'; },
+    wrongBall: function (got, want) { return 'That is the ' + got + '. Move the ' + want + '.'; },
+    howtoOne: 'Drag the ball to a spot, or tap one of the dots.',
+    howtoTwo: 'Drag a ball to a spot. Or tap a ball, then tap a dot.',
+    done: function (n, total) { return 'All done! You got ' + n + ' of ' + total + ' on the first try.'; },
+    next: 'Next',
+    again: 'Play again'
+  };
+  var capital = function (s) { return s.charAt(0).toUpperCase() + s.slice(1); };
+  var plain = function (html) { return html.replace(/<[^>]+>/g, ''); };
+
+  // ---------- Elements ----------
+  var $ = function (id) { return document.getElementById(id); };
+  var stage = $('stage'), canvas = $('room');
+  var promptEl = $('prompt'), answersEl = $('answers'), howtoEl = $('howto');
+  var feedbackEl = $('feedback'), nextBtn = $('next');
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var THREE = window.THREE, renderer = null;
+  try {
+    if (THREE) renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+  } catch (e) { renderer = null; }
+  if (!renderer) {
+    var msg = document.createElement('p');
+    msg.className = 'nogl';
+    msg.textContent = THREE
+      ? 'This game needs 3D graphics (WebGL), which this browser or device has switched off.'
+      : 'The game could not load its 3D library. Check that three.min.js is in the same folder as this page.';
+    stage.appendChild(msg);
+    canvas.hidden = true;
+    return;
+  }
+
+  // ---------- Scene ----------
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setClearColor(0x000000, 0);
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
+  scene.add(new THREE.HemisphereLight(0xffffff, 0x8fa3b5, 0.64));
+  var sun = new THREE.DirectionalLight(0xffffff, 0.46);
+  sun.position.set(4, 9, 6);
+  sun.castShadow = true;
+  sun.shadow.mapSize.set(1024, 1024);
+  sun.shadow.camera.left = -7; sun.shadow.camera.right = 7;
+  sun.shadow.camera.top = 7; sun.shadow.camera.bottom = -7;
+  sun.shadow.camera.near = 1; sun.shadow.camera.far = 25;
+  sun.shadow.bias = -0.0015;
+  scene.add(sun);
+
+  function box(w, h, d, color, x, y, z, parent) {
+    var m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), new THREE.MeshLambertMaterial({ color: color }));
+    m.position.set(x, y, z);
+    m.castShadow = true;
+    m.receiveShadow = true;
+    (parent || scene).add(m);
+    return m;
+  }
+
+  // Floor, rug and a low back wall.
+  box(10, 0.2, 7.4, 0xE2C594, 0, -0.1, 0.2).castShadow = false;
+  var rug = new THREE.Mesh(new THREE.CircleGeometry(2.5, 48), new THREE.MeshLambertMaterial({ color: 0x8FC3D6 }));
+  rug.rotation.x = -Math.PI / 2;
+  rug.position.set(0, 0.012, 0.6);
+  rug.receiveShadow = true;
+  scene.add(rug);
+  box(10, 2.6, 0.2, 0xB9D5E3, 0, 1.3, -3.4);
+  box(2.4, 1.3, 0.06, 0xFFFFFF, 0.2, 1.55, -3.28).castShadow = false;
+  box(2.1, 1.0, 0.08, 0xDDF1FA, 0.2, 1.55, -3.27).castShadow = false;
+
+  // Couch: it faces the viewer, so "behind" and "in front of" are unambiguous.
+  box(2.6, 0.4, 1.1, 0x2B877C, -2.0, 0.2, -0.6);
+  box(2.1, 0.15, 0.95, 0x45AC9E, -2.0, 0.475, -0.52);
+  box(2.6, 1.3, 0.25, 0x2B877C, -2.0, 0.65, -1.03);
+  box(0.25, 0.85, 1.1, 0x23756B, -3.175, 0.425, -0.6);
+  box(0.25, 0.85, 1.1, 0x23756B, -0.825, 0.425, -0.6);
+
+  // Table.
+  box(1.8, 0.1, 1.1, 0xF2B33D, 2.0, 1.0, -0.7);
+  [[-0.8, -0.45], [0.8, -0.45], [-0.8, 0.45], [0.8, 0.45]].forEach(function (p) {
+    box(0.1, 0.95, 0.1, 0xCF8F26, 2.0 + p[0], 0.475, -0.7 + p[1]);
+  });
+
+  // Open box.
+  box(1.1, 0.06, 1.1, 0x7350B5, 1.0, 0.03, 2.1);
+  box(1.1, 0.8, 0.06, 0x8A63C9, 1.0, 0.4, 2.1 - 0.52);
+  box(1.1, 0.8, 0.06, 0x8A63C9, 1.0, 0.4, 2.1 + 0.52);
+  box(0.06, 0.8, 1.1, 0x7C58BC, 1.0 - 0.52, 0.4, 2.1);
+  box(0.06, 0.8, 1.1, 0x7C58BC, 1.0 + 0.52, 0.4, 2.1);
+
+  // Balls. The blue one joins in from level 2. It has dots where the red one has a stripe,
+  // so the two can be told apart without relying on colour.
+  function makeBall(color, dotted) {
+    var m = new THREE.Mesh(new THREE.SphereGeometry(R, 32, 24), new THREE.MeshLambertMaterial({ color: color }));
+    m.castShadow = true;
+    var white = new THREE.MeshLambertMaterial({ color: 0xFFFFFF });
+    if (dotted) {
+      for (var i = 0; i < 10; i++) {   // evenly spread over the sphere
+        var y = 1 - (i + 0.5) / 5, r = Math.sqrt(1 - y * y), a = i * 2.39996;
+        var dot = new THREE.Mesh(new THREE.SphereGeometry(0.075, 12, 8), white);
+        dot.position.set(Math.cos(a) * r * R * 0.95, y * R * 0.95, Math.sin(a) * r * R * 0.95);
+        m.add(dot);
+      }
+    } else {
+      var stripe = new THREE.Mesh(new THREE.TorusGeometry(R * 0.985, 0.035, 8, 40), white);
+      stripe.rotation.x = Math.PI / 2.6;
+      m.add(stripe);
+    }
+    scene.add(m);
+    return m;
+  }
+  var RED = { id: 'red', mesh: makeBall(0xE8472B, false), home: [-0.6, R, 2.9] };
+  var BLUE = { id: 'blue', mesh: makeBall(0x2D6CDF, true), home: [-1.7, R, 2.9] };
+  var BALLS = [RED, BLUE];
+
+  // Target dots for "Put it". Drawn through furniture so every spot can be reached.
+  var markers = ZONES.map(function (z) {
+    var m = new THREE.Mesh(
+      new THREE.SphereGeometry(0.2, 20, 14),
+      new THREE.MeshBasicMaterial({ color: 0x16324A, transparent: true, opacity: 0.4, depthTest: false })
+    );
+    var halo = new THREE.Mesh(
+      new THREE.SphereGeometry(0.27, 20, 14),
+      new THREE.MeshBasicMaterial({ color: 0xFFFFFF, transparent: true, opacity: 0.45, depthTest: false })
+    );
+    halo.renderOrder = 9; m.renderOrder = 10;
+    m.add(halo);
+    m.position.set(z.pos[0], z.pos[1], z.pos[2]);
+    m.visible = false;
+    scene.add(m);
+    return m;
+  });
+
+  // ---------- Camera: a limited orbit, so the couch always shows its front or side ----------
+  var DEG = Math.PI / 180;
+  var AZ_MAX = 85 * DEG, EL_MIN = 12 * DEG, EL_MAX = 68 * DEG, EL_HOME = 28 * DEG;
+  var az = 0, el = EL_HOME, azGoal = 0, elGoal = EL_HOME, radius = 12;
+  var target = new THREE.Vector3(0, 0.7, 0.2);
+  var width = 1, height = 1;
+
+  function clampGoals() {
+    azGoal = Math.max(-AZ_MAX, Math.min(AZ_MAX, azGoal));
+    elGoal = Math.max(EL_MIN, Math.min(EL_MAX, elGoal));
+  }
+  function placeCamera() {
+    camera.position.set(
+      target.x + radius * Math.cos(el) * Math.sin(az),
+      target.y + radius * Math.sin(el),
+      target.z + radius * Math.cos(el) * Math.cos(az)
+    );
+    camera.lookAt(target);
+  }
+  function resize() {
+    width = Math.max(1, stage.clientWidth);
+    height = Math.max(1, stage.clientHeight);
+    renderer.setSize(width, height, false);
+    camera.aspect = width / height;
+    var t = Math.tan(16 * DEG);
+    radius = Math.max(3.4 / t, 5.6 / (t * camera.aspect));
+    camera.updateProjectionMatrix();
+  }
+  if (window.ResizeObserver) new ResizeObserver(resize).observe(stage);
+  window.addEventListener('resize', resize);
+  resize();
+
+  // ---------- Game state ----------
+  // mode 'find': one ball is somewhere, the child names the place.
+  // mode 'place': level 1 = one ball, one instruction; level 2 = two balls, one instruction;
+  //               level 3 = two balls, two instructions (in either order).
+  var mode = 'find', level = 1;
+  var deck = [], index = 0, steps = [], stars = 0, tries = 0;   // steps: [{ ball, zone }] of the current round
+  var locked = false, busy = false, finished = false;
+  var soundOn = false, hot = -1, sel = null;                    // sel: the ball a tapped dot will move
+  var v3 = function (a) { return new THREE.Vector3(a[0], a[1], a[2]); };
+
+  function shuffle(list) {
+    var a = list.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  // Every sentence the game says is a recorded clip (British Modern RP-Woman). They are made and uploaded
+  // with tools\audio.py from the "clips" list in content\eng\grammar\wheres_the_ball.json, in this order:
+  //   1-16   "Put the <red|blue> ball <place>."       17-32  the same, starting "Then put"
+  //   33     "Where is the ball?"                     34-41  "Put the ball <place>."
+  //   42-49  "Yes! The ball is <place>."              50-57 / 58-65  the same for the red / the blue ball
+  //   66     "Yes! Both balls are in the right place."
+  //   67-74  "That is <place>. Try again."            75     "Not there. Turn the room and look again."
+  //   76-77  "That is the red|blue ball. Move the blue|red ball."
+  //   78-86  "All done! You got <zero-eight> of eight on the first try."
+  // After a new upload, copy the lesson's "aud_ext" here. Nothing is spoken until "Hear it" is pressed once.
+  // The clips are looked for beside this page first (wheres_the_ball_audio\, small copies written by
+  // tools\offline.py, so the game has its voice without internet), then at the media address.
+  var CLIPS = { local: 'wheres_the_ball_audio/', base: 'https://languages.rmlives.com/eng/grammar/wheres_the_ball/', ext: 'mp3?v=2611170848' };
+  var voice = null;
+  function hush() { if (voice) { voice.onended = null; voice.onerror = null; voice.pause(); voice = null; } }
+  function zi(zone) { return ZONES.indexOf(zone); }
+  function clipOf(step, then) { return (then ? 16 : 0) + (step.ball === BLUE ? 8 : 0) + zi(step.zone) + 1; }
+  function rightClip(zone, ball) { return (twoBalls() ? (ball === BLUE ? 58 : 50) : 42) + zi(zone); }
+  /* plays the clips one after the other; a clip found in neither place is skipped in silence */
+  function speak(list) {
+    hush();
+    if (!soundOn || /pending/.test(CLIPS.ext)) return;
+    var i = 0;
+    (function next() {
+      if (i >= list.length) { voice = null; return; }
+      var n = list[i++], name = (n < 10 ? '0' : '') + n + '.' + CLIPS.ext, online = false;
+      var a = voice = new Audio(CLIPS.local + name);
+      a.onended = next;
+      a.onerror = function () {
+        if (voice !== a) return;
+        if (online) { next(); return; }
+        online = true;
+        a.src = CLIPS.base + name;
+        a.play().catch(function () {});
+      };
+      a.play().catch(function () {});
+    })();
+  }
+  function sayPrompt() {
+    if (finished) speak([78 + stars]);
+    else if (mode === 'find') speak([33]);
+    else if (twoBalls()) speak(steps.map(function (s, i) { return clipOf(s, i > 0); }));
+    else speak([34 + zi(steps[0].zone)]);
+  }
+  function setFeedback(html, kind) {
+    feedbackEl.innerHTML = html;
+    feedbackEl.className = kind || '';
+  }
+  function showMarkers(on) { markers.forEach(function (m) { m.visible = on; }); }
+  function twoBalls() { return mode === 'place' && level > 1; }
+  function active() { return twoBalls() ? BALLS : [RED]; }
+  function nameOf(ball) { return twoBalls() ? TEXT.balls[ball.id] : TEXT.ball; }
+  function stepFor(ball) { for (var i = 0; i < steps.length; i++) if (steps[i].ball === ball) return steps[i]; return null; }
+  function waiting() { return active().filter(function (b) { return stepFor(b) && !b.placed; }); }
+
+  function hop(ball, to, ms, arc, done) {
+    if (reduceMotion) { ball.mesh.position.copy(to); ball.anim = null; if (done) done(); return; }
+    ball.anim = { from: ball.mesh.position.clone(), to: to.clone(), t0: performance.now(), ms: ms, arc: arc, done: done };
+  }
+
+  function buildDeck() {
+    var a = shuffle(ZONES);
+    if (!twoBalls()) return a.map(function (z) { return [{ ball: RED, zone: z }]; });
+    var who = shuffle([RED, BLUE, RED, BLUE, RED, BLUE, RED, BLUE]);
+    if (level === 2) return a.map(function (z, i) { return [{ ball: who[i], zone: z }]; });
+    var shift = 1 + Math.floor(Math.random() * (a.length - 1));   // the second place is never the first one
+    return a.map(function (z, i) {
+      return [{ ball: who[i], zone: z }, { ball: who[i] === RED ? BLUE : RED, zone: a[(i + shift) % a.length] }];
+    });
+  }
+
+  function startGame(newMode, newLevel) {
+    mode = newMode;
+    if (newLevel) level = newLevel;
+    $('mode-find').setAttribute('aria-pressed', String(mode === 'find'));
+    $('mode-place').setAttribute('aria-pressed', String(mode === 'place'));
+    $('levels').hidden = mode !== 'place';
+    [1, 2, 3].forEach(function (n) { $('level-' + n).setAttribute('aria-pressed', String(n === level)); });
+    deck = buildDeck();
+    index = 0; stars = 0; finished = false;
+    azGoal = 0; elGoal = EL_HOME;
+    nextRound(true);
+  }
+
+  function nextRound(fresh) {
+    busy = false; hot = -1; sel = null;
+    nextBtn.hidden = true;
+    setFeedback('');
+    $('stars').textContent = stars;
+    BALLS.forEach(function (b) { b.anim = null; b.cheer0 = 0; b.placed = false; b.mesh.scale.setScalar(1); });
+    BLUE.mesh.visible = twoBalls();
+    if (index >= deck.length) { finish(); return; }
+    steps = deck[index];
+    locked = false; tries = 0;
+    $('round').textContent = index + 1;
+    answersEl.hidden = mode !== 'find';
+    howtoEl.hidden = mode !== 'place';
+
+    if (mode === 'find') {
+      var here = steps[0].zone;
+      showMarkers(false);
+      RED.mesh.position.copy(v3(here.pos));
+      azGoal = 0; elGoal = EL_HOME;
+      promptEl.textContent = TEXT.findPrompt;
+      var others = shuffle(ZONES.filter(function (z) { return z !== here; })).slice(0, 3);
+      answersEl.innerHTML = '';
+      shuffle(others.concat([here])).forEach(function (z) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'answer';
+        b.id = 'answer-' + z.id;
+        b.innerHTML = '<b>' + z.prep + '</b> ' + z.obj;
+        b.addEventListener('click', function () { answerFind(z, b); });
+        answersEl.appendChild(b);
+      });
+    } else {
+      showMarkers(true);
+      howtoEl.textContent = twoBalls() ? TEXT.howtoTwo : TEXT.howtoOne;
+      promptEl.innerHTML = capital(steps.map(function (s) { return TEXT.put(s.zone, nameOf(s.ball)); }).join(TEXT.then)) + '.';
+      active().forEach(function (b) {
+        if (fresh) b.mesh.position.copy(v3(b.home)); else hop(b, v3(b.home), 450, 0.8);
+      });
+      if (!twoBalls()) sel = RED;   // only one ball: a tapped dot always means that ball
+    }
+    sayPrompt();
+  }
+
+  function answerFind(zone, button) {
+    if (locked) return;
+    if (zone === steps[0].zone) {
+      button.classList.add('right');
+      Array.prototype.forEach.call(answersEl.children, function (b) { b.disabled = true; });
+      RED.placed = true;
+      correct();
+    } else {
+      tries++;
+      button.disabled = true;
+      button.classList.add('wrong');
+      setFeedback(TEXT.wrongFind, 'bad');
+      speak([75]);
+    }
+  }
+
+  function placeAt(ball, i) {
+    if (locked || busy) return;
+    busy = true; hot = -1;
+    var zone = ZONES[i], step = stepFor(ball);
+    hop(ball, v3(zone.pos), 420, 0.9, function () {
+      if (step && step.zone === zone) {
+        busy = false;
+        ball.placed = true;
+        var left = waiting();
+        if (!left.length) { correct(); return; }
+        sel = left.length === 1 ? left[0] : null;
+        var ok = TEXT.right(zone, nameOf(ball));
+        setFeedback(ok, 'good');
+        speak([rightClip(zone, ball)]);
+        return;
+      }
+      tries++;
+      var html = step ? TEXT.wrongPut(zone) : TEXT.wrongBall(nameOf(ball), nameOf(steps[0].ball));
+      setFeedback(html, 'bad');
+      speak([step ? 67 + i : (ball === BLUE ? 77 : 76)]);
+      var round = index;
+      setTimeout(function () {
+        if (!busy || round !== index || locked) return;   // a new round or game started meanwhile
+        hop(ball, v3(ball.home), 450, 0.8, function () { busy = false; });
+      }, reduceMotion ? 1200 : 900);
+    });
+  }
+
+  function correct() {
+    locked = true; sel = null;
+    if (tries === 0) stars++;
+    $('stars').textContent = stars;
+    showMarkers(false);
+    var html = steps.length > 1 ? TEXT.rightAll : TEXT.right(steps[0].zone, nameOf(steps[0].ball));
+    setFeedback(html, 'good');
+    speak([steps.length > 1 ? 66 : rightClip(steps[0].zone, steps[0].ball)]);
+    nextBtn.textContent = TEXT.next;
+    nextBtn.hidden = false;
+    if (!reduceMotion) steps.forEach(function (s) { s.ball.cheer0 = performance.now(); s.ball.cheerBase = s.zone.pos[1]; });
+    index++;
+  }
+
+  function finish() {
+    finished = true; locked = true;
+    showMarkers(false);
+    answersEl.hidden = true; howtoEl.hidden = true;
+    var text = TEXT.done(stars, deck.length);
+    promptEl.textContent = text;
+    speak([78 + stars]);
+    nextBtn.textContent = TEXT.again;
+    nextBtn.hidden = false;
+  }
+
+  nextBtn.addEventListener('click', function () { if (finished) startGame(mode); else nextRound(false); });
+  $('mode-find').addEventListener('click', function () { startGame('find'); });
+  $('mode-place').addEventListener('click', function () { startGame('place'); });
+  [1, 2, 3].forEach(function (n) { $('level-' + n).addEventListener('click', function () { startGame('place', n); }); });
+  $('speak').addEventListener('click', function () { soundOn = true; sayPrompt(); });
+  $('turn-left').addEventListener('click', function () { azGoal -= 30 * DEG; clampGoals(); });
+  $('turn-right').addEventListener('click', function () { azGoal += 30 * DEG; clampGoals(); });
+
+  // ---------- Pointer: drag a ball, tap a ball then a dot, or drag the room ----------
+  var raycaster = new THREE.Raycaster();
+  var dragPlane = new THREE.Plane(new THREE.Vector3(0, 1, 0), -1.1);
+  var tmp = new THREE.Vector3(), ndc = new THREE.Vector2();
+  var ptr = null;
+
+  function local(e) {
+    var r = canvas.getBoundingClientRect();
+    return { x: e.clientX - r.left, y: e.clientY - r.top };
+  }
+  function aim(p) {
+    ndc.set((p.x / width) * 2 - 1, -(p.y / height) * 2 + 1);
+    raycaster.setFromCamera(ndc, camera);
+  }
+  function taken(zone) {   // a ball already sits there for good
+    return steps.some(function (s) { return s.ball.placed && s.zone === zone; });
+  }
+  function nearestZone(p, maxPx) {
+    var best = -1, bestD = maxPx;
+    for (var i = 0; i < ZONES.length; i++) {
+      if (taken(ZONES[i])) continue;
+      tmp.set(ZONES[i].pos[0], ZONES[i].pos[1], ZONES[i].pos[2]).project(camera);
+      var dx = (tmp.x + 1) / 2 * width - p.x, dy = (1 - tmp.y) / 2 * height - p.y;
+      var d = Math.sqrt(dx * dx + dy * dy);
+      if (d < bestD) { bestD = d; best = i; }
+    }
+    return best;
+  }
+  function ballUnder(p) {   // the free ball the pointer is on, if any
+    aim(p);
+    var best = null, bestD = 0.7;
+    active().forEach(function (b) {
+      if (b.placed || b.anim) return;
+      var d = raycaster.ray.distanceToPoint(b.mesh.position);
+      if (d < bestD) { bestD = d; best = b; }
+    });
+    return best;
+  }
+
+  canvas.addEventListener('pointerdown', function (e) {
+    if (ptr) return;
+    var p = local(e), ball = mode === 'place' && !locked && !busy ? ballUnder(p) : null;
+    ptr = { id: e.pointerId, x0: p.x, y0: p.y, x: p.x, y: p.y, ball: ball, moved: false };
+    try { canvas.setPointerCapture(e.pointerId); } catch (err) { /* not fatal */ }
+    canvas.classList.add('grabbing');
+  });
+  canvas.addEventListener('pointermove', function (e) {
+    if (!ptr || e.pointerId !== ptr.id) return;
+    var p = local(e), dx = p.x - ptr.x, dy = p.y - ptr.y;
+    ptr.x = p.x; ptr.y = p.y;
+    if (Math.abs(p.x - ptr.x0) + Math.abs(p.y - ptr.y0) > 8) ptr.moved = true;
+    if (!ptr.moved) return;
+    if (ptr.ball) {
+      aim(p);
+      if (raycaster.ray.intersectPlane(dragPlane, tmp)) {
+        ptr.ball.mesh.position.set(Math.max(-4.6, Math.min(4.6, tmp.x)), 1.1, Math.max(-3, Math.min(3.5, tmp.z)));
+      }
+      hot = nearestZone(p, 70);
+    } else {
+      azGoal -= dx * 0.008;
+      elGoal += dy * 0.006;
+      clampGoals();
+    }
+  });
+  function release(e) {
+    if (!ptr || e.pointerId !== ptr.id) return;
+    var p = { x: ptr.x, y: ptr.y }, was = ptr, cancelled = e.type === 'pointercancel';
+    ptr = null;
+    canvas.classList.remove('grabbing');
+    hot = -1;
+    if (was.ball && was.moved) {                       // dropped a ball
+      var i = cancelled ? -1 : nearestZone(p, 70);
+      if (i >= 0) placeAt(was.ball, i); else hop(was.ball, v3(was.ball.home), 350, 0.4);
+    } else if (was.ball) {                             // tapped a ball: it is the one the next dot moves
+      if (!cancelled) sel = was.ball;
+    } else if (!was.moved && !cancelled && mode === 'place' && !locked && !busy && sel) {
+      var j = nearestZone(p, 44);                      // tapped a dot
+      if (j >= 0) placeAt(sel, j);
+    }
+  }
+  canvas.addEventListener('pointerup', release);
+  canvas.addEventListener('pointercancel', release);
+
+  // ---------- Loop ----------
+  function tick(now) {
+    az += (azGoal - az) * (reduceMotion ? 1 : 0.18);
+    el += (elGoal - el) * (reduceMotion ? 1 : 0.18);
+    placeCamera();
+
+    BALLS.forEach(function (b) {
+      var pos = b.mesh.position;
+      if (b.anim) {
+        var k = Math.min(1, (now - b.anim.t0) / b.anim.ms);
+        var e = k * k * (3 - 2 * k);
+        pos.lerpVectors(b.anim.from, b.anim.to, e);
+        pos.y += Math.sin(Math.PI * k) * b.anim.arc;
+        if (k >= 1) { var done = b.anim.done; b.anim = null; if (done) done(); }
+      } else if (b.cheer0) {
+        var c = (now - b.cheer0) / 1000;
+        if (c >= 1) { b.cheer0 = 0; pos.y = b.cheerBase; }
+        else pos.y = b.cheerBase + Math.abs(Math.sin(c * Math.PI * 3)) * 0.55 * (1 - c);
+      }
+      // with two balls, the chosen one swells a little so the child sees which a dot will move
+      var chosen = twoBalls() && sel === b && !locked;
+      b.mesh.scale.setScalar(chosen ? (reduceMotion ? 1.15 : 1.12 + 0.06 * Math.sin(now / 140)) : 1);
+    });
+
+    for (var i = 0; i < markers.length; i++) {
+      markers[i].scale.setScalar(i === hot ? 1.6 : 1);
+      markers[i].material.opacity = i === hot ? 0.9 : 0.4;
+    }
+    renderer.render(scene, camera);
+    requestAnimationFrame(tick);
+  }
+
+  startGame('find');
+  requestAnimationFrame(tick);
+
+  // Small hook so the game can be checked from the console.
+  function screenOf(a) {
+    tmp.set(a[0], a[1], a[2]).project(camera);
+    var r = canvas.getBoundingClientRect();
+    return { x: Math.round(r.left + (tmp.x + 1) / 2 * width), y: Math.round(r.top + (1 - tmp.y) / 2 * height) };
+  }
+  window.__ballGame = {
+    state: function () {
+      var where = {};
+      BALLS.forEach(function (b) { where[b.id] = b.mesh.position.toArray().map(function (n) { return Math.round(n * 100) / 100; }); });
+      return { mode: mode, level: level, index: index, stars: stars, locked: locked, busy: busy, sel: sel && sel.id,
+               steps: steps.map(function (s) { return { ball: s.ball.id, zone: s.zone.id, placed: !!s.ball.placed }; }), balls: where };
+    },
+    zoneScreen: function (id) { return screenOf(ZONES.filter(function (q) { return q.id === id; })[0].pos); },
+    ballScreen: function (id) { return screenOf(BALLS.filter(function (b) { return b.id === id; })[0].mesh.position.toArray()); }
+  };
+})();
+</script>
+
+</body>
+</html>

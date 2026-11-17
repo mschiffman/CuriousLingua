@@ -1,0 +1,176 @@
+{
+ "title": "Where Are My Shoes?",
+ "level": "a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 2 readers",
+ "type": "reader",
+ "legacy": "stories/2.2_whereShoes.html",
+ "img_dir": "img/ytstory/2.2_whereShoes/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/2.2_whereShoes/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "I’m almost ready.",
+      1
+     ]
+    ],
+    [
+     [
+      "I have my bag.",
+      2
+     ]
+    ],
+    [
+     [
+      "But where are my shoes?",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "Where are my shoes?",
+      4
+     ]
+    ],
+    [
+     [
+      "I can’t find them.",
+      5
+     ]
+    ],
+    [
+     [
+      "I look everywhere.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "Are they under the bed?",
+      7
+     ]
+    ],
+    [
+     [
+      "I look under the bed.",
+      8
+     ]
+    ],
+    [
+     [
+      "No, they’re not.",
+      9
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "Are they in the closet?",
+      10
+     ]
+    ],
+    [
+     [
+      "I look in the closet.",
+      11
+     ]
+    ],
+    [
+     [
+      "No shoes!",
+      12
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "Mom, I can’t find my shoes!",
+      13
+     ]
+    ],
+    [
+     [
+      "Let’s look together.",
+      14
+     ]
+    ],
+    [
+     [
+      "Are they by the door?",
+      15
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "Look!",
+      16
+     ]
+    ],
+    [
+     [
+      "Here they are!",
+      17
+     ]
+    ],
+    [
+     [
+      "I found my shoes!",
+      18
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "I put on my shoes.",
+      19
+     ]
+    ],
+    [
+     [
+      "Now I’m ready!",
+      20
+     ]
+    ],
+    [
+     [
+      "Let’s go!",
+      21
+     ]
+    ]
+   ]
+  }
+ ]
+}

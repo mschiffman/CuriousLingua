@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Playful Otters of the River | English</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body class="site flex h-dvh flex-col overflow-hidden" data-course="eng">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a></nav>
+<a href="../../offline/index.html" class="ml-auto hidden rounded-lg px-2.5 py-1.5 text-sm text-muted hover:text-accent sm:block">Offline lessons</a>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../eng/reading/index.html">Reading</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../eng/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../eng/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../eng/vocabulary/index.html">Vocabulary</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../eng/grammar/index.html">Grammar</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../eng/pronunciation/index.html">Pronunciation</a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../offline/index.html">Offline lessons</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../eng/reading/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Reading</a><a href="../../eng/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../eng/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../eng/vocabulary/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Vocabulary</a><a href="../../eng/grammar/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Grammar</a><a href="../../eng/pronunciation/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Pronunciation</a></div></div></header>
+<main class="flex min-h-0 flex-1 flex-col" x-data="reader">
+<div class="wrap flex shrink-0 items-center gap-2 py-2">
+<a class="btn px-3 py-1.5" href="../../eng/reading/index.html" aria-label="Back to the list" data-nav>&larr;</a>
+<h1 class="min-w-0 flex-1 truncate text-lg font-semibold sm:text-2xl">The Playful Otters of the River</h1>
+<span class="chip chip-accent hidden sm:inline-flex">A2</span>
+<button class="btn px-3 py-1.5" :class="rate < 1 && 'btn-on'" @click="slow()">Slow</button>
+<button class="btn px-3 py-1.5" x-show="hasTr" :class="tr && 'btn-on'" @click="tr = !tr" :lang="trLang" x-text="trLabel"></button>
+<span class="chip" x-text="(i + 1) + ' / ' + pages.length"></span>
+</div>
+<div class="wrap flex min-h-0 flex-1 flex-col gap-3 pb-2 md:flex-row md:gap-6">
+<div class="shrink-0 md:w-1/2">
+<img x-show="!broken[i]" :src="img(page)" :alt="page.alt || ('Picture ' + (i + 1))" @error="broken[i] = true" class="mx-auto max-h-[40dvh] w-auto max-w-full rounded-2xl border border-line bg-card object-contain md:max-h-full">
+<div x-show="broken[i]" x-cloak class="ph mx-auto max-h-[40dvh] md:max-h-full"><svg viewBox="0 0 24 24" class="h-10 w-10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-8 8"/></svg><span x-text="page.alt || ('Picture ' + (i + 1) + ' goes here')"></span></div>
+</div>
+<div class="scrollpane min-h-0 flex-1 space-y-4 pr-3" x-ref="pane">
+<template x-for="(s, si) in page.sentences" :key="i + '-' + si"><div>
+<p class="text-2xl font-bold leading-snug sm:text-3xl"><template x-for="c in s" :key="c[1]"><button class="chunk mr-1 scroll-my-8" :class="playing === c[1] && 'playing'" @click="say(c[1])" x-text="c[0]"></button></template></p>
+<p x-show="tr && page.tr && page.tr[si]" :lang="trLang" class="mt-1 px-1.5 text-lg text-accent" x-text="page.tr ? page.tr[si] : ''"></p>
+</div></template>
+<p x-show="pending" x-cloak class="text-sm text-muted">The audio for this lesson is not recorded yet.</p>
+<div x-show="i === pages.length - 1" x-cloak class="space-y-4 pb-2 pt-4"><div class="flex flex-wrap items-center gap-3" x-data="progress('eng/reading/s2.0_otters')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '\u2713 Done' : 'Mark as done'"></button>
+<a class="btn" href="../../eng/reading/s2.1_prairieDog.html">Next: A Visit to Prairie Dog Town &rarr;</a></div></div>
+</div>
+</div>
+<div class="shrink-0 border-t border-line bg-paper py-2"><div class="wrap flex items-center justify-center gap-3">
+<button class="btn" @click="go(-1)" :disabled="i === 0" :class="i === 0 && 'opacity-40'" aria-label="Previous page">&larr;</button>
+<button class="btn btn-primary px-6" :class="pending && 'opacity-40'" :disabled="pending" @click="playPage()"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span x-text="busy ? 'Stop' : 'Play page'"></span></button>
+<button class="btn" :disabled="!(playing || busy)" :class="[P.held && 'btn-on', !(playing || busy) && 'opacity-40']" @click="togglePause()" x-text="P.held ? 'Resume' : 'Pause'"></button>
+<button class="btn" @click="go(1)" :disabled="i === pages.length - 1" :class="i === pages.length - 1 && 'opacity-40'" aria-label="Next page">&rarr;</button>
+</div></div>
+</main>
+
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"The Playful Otters of the River","level":"a2","level_provisional":true,"strand":"reading","topic":"Science and nature","type":"reader","img_dir":"img/ytstory/s2.0_otter/","img_ext":"jpg","aud_dir":"eng/yt/s2.0_otter/","aud_ext":"mp3","pages":[{"img":1,"sentences":[[["Splash! Splash!",1]],[["Look at those playful animals!",2]],[["They have long bodies,",3],["short legs,",4],["and thick brown fur.",5]],[["They are river otters!",6]],[["Otters love swimming,",7],["diving, and playing in the water.",8]],[["Let's discover their wonderful world!",9]]]},{"img":2,"sentences":[[["Watch that otter swim!",10]],[["It moves quickly through the water.",11]],[["Its webbed feet help it paddle.",12]],[["Its strong tail helps it swim and turn.",13]],[["It can even close",14],["its ears and nose underwater!",15]],[["What an amazing swimmer!",16]]]},{"img":3,"sentences":[[["The otter is getting hungry.",17]],[["What does it like to eat?",18]],[["Fish are one of its favorite foods!",19]],[["It can also eat frogs and crayfish.",20]],[["Its sensitive whiskers",21],["help it find food underwater.",22]],[["Look! It has caught a fish!",23]],[["Dinner is ready!",24]]]},{"img":4,"sentences":[[["Otters love to play!",25]],[["They chase one another",26],["through the water.",27]],[["They roll, splash, and wrestle.",28]],[["Sometimes,",29],["they slide down muddy riverbanks.",30]],[["Whoosh! Splash!",31]],[["Down they go,",32],["straight into the river!",33]],[["What a wonderful playground!",34]]]},{"img":5,"sentences":[[["Where do river otters sleep?",35]],[["They often rest in hidden places",36],["near the water.",37]],[["Some use hollow logs",38],["or holes in riverbanks.",39]],[["Others use old homes",40],["left by beavers!",41]],[["These safe places are called dens.",42]],[["Inside a den,",43],["an otter can rest",44],["and care for its babies.",45]]]},{"img":6,"sentences":[[["Baby otters are called pups.",46]],[["When they are born,",47],["their eyes are closed.",48]],[["Their mother keeps them warm and safe.",49]],[["As they grow,",50],["the pups begin exploring.",51]],[["Soon, it is time",52],["to learn how to swim!",53]],[["Their mother helps them",54],["become good swimmers.",55]]]},{"img":7,"sentences":[[["The young otters are growing bigger.",56]],[["They chase each other",57],["and dive underwater.",58]],[["They practice swimming",59],["and catching food.",60]],[["Playing helps them learn useful skills.",61]],[["One day,",62],["they will find food on their own.",63]],[["But for now,",64],["there is still time for another splash!",65]]]},{"img":8,"sentences":[[["Now we know why river otters are special!",66]],[["They are excellent swimmers.",67]],[["They use their whiskers to find food.",68]],[["They live near rivers,",69],["lakes, and wetlands.",70]],[["They care for their young",71],["and often play together.",72]],[["These clever, playful animals",73],["are full of surprises!",74]]]}],"course":"eng","slug":"s2.0_otters"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>

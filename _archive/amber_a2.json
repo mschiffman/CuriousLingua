@@ -1,0 +1,350 @@
+{
+ "title": "L’ambre (simplified)",
+ "subtitle": "Amber",
+ "level": "a2",
+ "topic": "Nature",
+ "type": "text",
+ "register": "neutral-standard",
+ "review": "A2 rewrite by Claude of fr/reading/amber.html. Check the text before recording audio.",
+ "intro": "A short science text in the present tense. Read it, listen to it, then check the new words.",
+ "img": "img/amber.jpg",
+ "img_alt": "A piece of golden amber",
+ "aud_dir": "fr/reading/amber_a2/",
+ "aud_ext": "mp3?v=pending",
+ "support": [
+  "en"
+ ],
+ "paragraphs": [
+  [
+   {
+    "text": "Qu'est-ce qui est doré comme le miel et qui brille comme du verre ?",
+    "tr": {
+     "en": "What is golden like honey and shines like glass?"
+    },
+    "gloss": {
+     "doré": [
+      "/dɔʀe/",
+      "golden"
+     ],
+     "miel": [
+      "/mjɛl/",
+      "honey"
+     ],
+     "brille": [
+      "/bʀij/",
+      "shines",
+      "briller /bʀije/"
+     ],
+     "verre": [
+      "/vɛʀ/",
+      "glass"
+     ]
+    }
+   },
+   {
+    "text": "C'est l'ambre !",
+    "tr": {
+     "en": "It's amber!"
+    },
+    "gloss": {
+     "ambre": [
+      "/ɑ̃bʀ/",
+      "amber"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Autrefois, les Grecs pensaient que l'ambre venait du soleil.",
+    "tr": {
+     "en": "Long ago, the Greeks thought that amber came from the sun."
+    },
+    "gloss": {
+     "Autrefois": [
+      "/otʀəfwa/",
+      "long ago, in the past"
+     ],
+     "pensaient": [
+      "/pɑ̃sɛ/",
+      "thought",
+      "penser /pɑ̃se/"
+     ],
+     "soleil": [
+      "/sɔlɛj/",
+      "sun"
+     ]
+    }
+   },
+   {
+    "text": "En réalité, l'ambre vient des arbres.",
+    "tr": {
+     "en": "In fact, amber comes from trees."
+    },
+    "gloss": {
+     "En réalité": [
+      "/ɑ̃ ʀealite/",
+      "in fact, actually"
+     ],
+     "arbres": [
+      "/aʀbʀ/",
+      "trees"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Quand l'écorce d'un pin est abîmée, un liquide sort de l'arbre.",
+    "tr": {
+     "en": "When the bark of a pine tree is damaged, a liquid comes out of the tree."
+    },
+    "gloss": {
+     "écorce": [
+      "/ekɔʀs/",
+      "bark"
+     ],
+     "pin": [
+      "/pɛ̃/",
+      "pine tree"
+     ],
+     "abîmée": [
+      "/abime/",
+      "damaged",
+      "abîmer /abime/"
+     ],
+     "liquide": [
+      "/likid/",
+      "liquid"
+     ],
+     "sort": [
+      "/sɔʀ/",
+      "comes out",
+      "sortir /sɔʀtiʀ/"
+     ]
+    }
+   },
+   {
+    "text": "Ce liquide est épais et collant.",
+    "tr": {
+     "en": "This liquid is thick and sticky."
+    },
+    "gloss": {
+     "épais": [
+      "/epɛ/",
+      "thick"
+     ],
+     "collant": [
+      "/kɔlɑ̃/",
+      "sticky"
+     ]
+    }
+   },
+   {
+    "text": "Il s'appelle la résine.",
+    "tr": {
+     "en": "It is called resin."
+    },
+    "gloss": {
+     "résine": [
+      "/ʀezin/",
+      "resin"
+     ]
+    }
+   },
+   {
+    "text": "La résine couvre la blessure de l'arbre.",
+    "tr": {
+     "en": "The resin covers the tree's wound."
+    },
+    "gloss": {
+     "couvre": [
+      "/kuvʀ/",
+      "covers",
+      "couvrir /kuvʀiʀ/"
+     ],
+     "blessure": [
+      "/blesyʀ/",
+      "wound, injury"
+     ]
+    }
+   },
+   {
+    "text": "Puis elle devient dure.",
+    "tr": {
+     "en": "Then it becomes hard."
+    },
+    "gloss": {
+     "devient": [
+      "/dəvjɛ̃/",
+      "becomes",
+      "devenir /dəv(ə)niʀ/"
+     ],
+     "dure": [
+      "/dyʀ/",
+      "hard"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Après des millions d'années, la résine devient de l'ambre.",
+    "tr": {
+     "en": "After millions of years, the resin becomes amber."
+    },
+    "gloss": {
+     "années": [
+      "/ane/",
+      "years"
+     ]
+    }
+   },
+   {
+    "text": "Parfois, un insecte ou une araignée marche sur la résine collante.",
+    "tr": {
+     "en": "Sometimes an insect or a spider walks on the sticky resin."
+    },
+    "gloss": {
+     "Parfois": [
+      "/paʀfwa/",
+      "sometimes"
+     ],
+     "insecte": [
+      "/ɛ̃sɛkt/",
+      "insect"
+     ],
+     "araignée": [
+      "/aʀeɲe/",
+      "spider"
+     ]
+    }
+   },
+   {
+    "text": "Il est piégé : il ne peut plus partir.",
+    "tr": {
+     "en": "It is trapped: it cannot get away any more."
+    },
+    "gloss": {
+     "piégé": [
+      "/pjeʒe/",
+      "trapped",
+      "piéger /pjeʒe/"
+     ],
+     "ne peut plus": [
+      "/nə pø ply/",
+      "can no longer",
+      "pouvoir /puvwaʀ/"
+     ]
+    }
+   },
+   {
+    "text": "Aujourd'hui, on peut voir ces petits animaux dans l'ambre.",
+    "tr": {
+     "en": "Today, we can see these little animals in amber."
+    },
+    "gloss": {
+     "Aujourd'hui": [
+      "/oʒuʀdɥi/",
+      "today"
+     ]
+    }
+   },
+   {
+    "text": "Ils ont des millions d'années !",
+    "tr": {
+     "en": "They are millions of years old!"
+    }
+   }
+  ],
+  [
+   {
+    "text": "Il existe aussi un ambre très rare.",
+    "tr": {
+     "en": "There is also a very rare amber."
+    },
+    "gloss": {
+     "Il existe": [
+      "/il ɛɡzist/",
+      "there is, there exists",
+      "exister /ɛɡziste/"
+     ],
+     "rare": [
+      "/ʀaʀ/",
+      "rare"
+     ]
+    }
+   },
+   {
+    "text": "Il est orange, mais au soleil, il devient bleu !",
+    "tr": {
+     "en": "It is orange, but in the sun it turns blue!"
+    },
+    "gloss": {
+     "au soleil": [
+      "/o sɔlɛj/",
+      "in the sun"
+     ]
+    }
+   }
+  ]
+ ],
+ "notes": [
+  "devenir + adjective = to become: elle devient dure, il devient bleu.",
+  "avoir + age: Ils ont des millions d'années = They are millions of years old. French uses avoir, not être.",
+  "ne … plus = no longer: il ne peut plus partir.",
+  "on peut = 'we can' or 'people can'. In everyday French, on is used far more than nous."
+ ],
+ "questions": [
+  {
+   "q": "D'où vient l'ambre ?",
+   "options": [
+    "Du soleil",
+    "Des arbres",
+    "De la mer"
+   ],
+   "answer": 1,
+   "why": "En réalité, l'ambre vient des arbres. The Greeks only thought it came from the sun."
+  },
+  {
+   "q": "Comment est la résine quand elle sort de l'arbre ?",
+   "options": [
+    "Dure et froide",
+    "Épaisse et collante",
+    "Bleue et légère"
+   ],
+   "answer": 1,
+   "why": "Ce liquide est épais et collant. It becomes hard later."
+  },
+  {
+   "q": "Pourquoi l'insecte reste-t-il dans la résine ?",
+   "options": [
+    "Il est piégé",
+    "Il mange la résine",
+    "Il dort"
+   ],
+   "answer": 0,
+   "why": "Il est piégé : il ne peut plus partir. The resin is sticky."
+  },
+  {
+   "q": "De quelle couleur devient l'ambre rare au soleil ?",
+   "options": [
+    "Orange",
+    "Doré",
+    "Bleu"
+   ],
+   "answer": 2,
+   "why": "Il est orange, mais au soleil, il devient bleu."
+  },
+  {
+   "q": "« Ils ont des millions d'années » means…",
+   "options": [
+    "They have millions of years left",
+    "They are millions of years old",
+    "They lived for millions of years"
+   ],
+   "answer": 1,
+   "why": "French gives age with avoir: J'ai 30 ans = I am 30."
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+{
+ "title": "The Fox and the Grapes",
+ "level": "a2",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Aesop's fables",
+ "type": "reader",
+ "legacy": "stories/fox_grapes.html",
+ "img_dir": "img/ytstory/grapes/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/grapes/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "The Fox and the Grapes",
+      1
+     ]
+    ],
+    [
+     [
+      "One sunny afternoon,",
+      2
+     ],
+     [
+      "a fox was walking",
+      3
+     ],
+     [
+      "through the countryside.",
+      4
+     ]
+    ],
+    [
+     [
+      "He was hot and hungry.",
+      5
+     ]
+    ],
+    [
+     [
+      "Then he saw something",
+      6
+     ],
+     [
+      "hanging from a vine.",
+      7
+     ]
+    ],
+    [
+     [
+      "A big bunch of",
+      8
+     ]
+    ],
+    [
+     [
+      "purple grapes!",
+      9
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "The grapes looked",
+      10
+     ]
+    ],
+    [
+     [
+      "sweet and juicy.",
+      11
+     ]
+    ],
+    [
+     [
+      "\"Oh, those grapes\"",
+      12
+     ],
+     [
+      "\"look delicious!\"",
+      13
+     ],
+     [
+      "said the fox.",
+      14
+     ]
+    ],
+    [
+     [
+      "He stood under the vine",
+      15
+     ],
+     [
+      "and looked up.",
+      16
+     ]
+    ],
+    [
+     [
+      "But the grapes were very high.",
+      17
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "The fox jumped.",
+      18
+     ]
+    ],
+    [
+     [
+      "He stretched his paws",
+      19
+     ],
+     [
+      "as high as he could.",
+      20
+     ]
+    ],
+    [
+     [
+      "But he could not",
+      21
+     ],
+     [
+      "reach the grapes.",
+      22
+     ]
+    ],
+    [
+     [
+      "\"Almost!\"",
+      23
+     ],
+     [
+      "he said.",
+      24
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "He stepped back",
+      25
+     ],
+     [
+      "and ran toward the vine.",
+      26
+     ]
+    ],
+    [
+     [
+      "Then he jumped again.",
+      27
+     ]
+    ],
+    [
+     [
+      "Higher and higher",
+      28
+     ],
+     [
+      "he jumped.",
+      29
+     ]
+    ],
+    [
+     [
+      "But the grapes were",
+      30
+     ],
+     [
+      "still out of reach.",
+      31
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "The fox tried again.",
+      32
+     ]
+    ],
+    [
+     [
+      "And again.",
+      33
+     ]
+    ],
+    [
+     [
+      "And again.",
+      34
+     ]
+    ],
+    [
+     [
+      "Soon, he was tired.",
+      35
+     ]
+    ],
+    [
+     [
+      "He sat down",
+      36
+     ],
+     [
+      "and looked at the grapes.",
+      37
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "\"I don't want\"",
+      38
+     ],
+     [
+      "\"those grapes anyway,\"",
+      39
+     ],
+     [
+      "he said.",
+      40
+     ]
+    ],
+    [
+     [
+      "\"They are probably sour.\"",
+      41
+     ]
+    ],
+    [
+     [
+      "The fox turned around",
+      42
+     ],
+     [
+      "and walked away.",
+      43
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "But the grapes were not sour.",
+      44
+     ]
+    ],
+    [
+     [
+      "The fox only said that",
+      45
+     ],
+     [
+      "because he could not reach them.",
+      46
+     ]
+    ],
+    [
+     [
+      "Sometimes we pretend",
+      47
+     ],
+     [
+      "we do not want something",
+      48
+     ],
+     [
+      "when we cannot have it.",
+      49
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "The fox disappeared",
+      50
+     ],
+     [
+      "down the path.",
+      51
+     ]
+    ],
+    [
+     [
+      "The grapes still hung from the vine,",
+      52
+     ],
+     [
+      "shining in the afternoon sun.",
+      53
+     ]
+    ],
+    [
+     [
+      "Moral:",
+      54
+     ],
+     [
+      "It is easy to dislike something",
+      55
+     ],
+     [
+      "when we cannot have it.",
+      56
+     ]
+    ]
+   ]
+  }
+ ]
+}

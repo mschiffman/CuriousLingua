@@ -1,0 +1,378 @@
+{
+ "title": "Les Vikings, explorateurs des mers",
+ "subtitle": "Partir vers l’inconnu, sans boussole",
+ "level": "b1",
+ "level_provisional": true,
+ "topic": "History",
+ "type": "text",
+ "register": "neutral-standard",
+ "review": "English lines, IPA and word notes were written by Claude: check them. reading.md gives no level for this text: B1 is a guess.",
+ "img": "img/Fr-read/viking.jpg",
+ "img_alt": "A Viking longship with a red and white striped sail between tall cliffs",
+ "support": [
+  "en"
+ ],
+ "paragraphs": [
+  [
+   {
+    "text": "Il y a mille ans, depuis les fjords brumeux de Scandinavie, des bateaux en bois incroyables partaient vers l’inconnu.",
+    "tr": {
+     "en": "A thousand years ago, from the misty fjords of Scandinavia, incredible wooden boats set off into the unknown."
+    },
+    "gloss": {
+     "brumeux": [
+      "/bʀymø/",
+      "misty",
+      "brumeux / brumeuse"
+     ],
+     "inconnu": [
+      "/ɛ̃kɔny/",
+      "the unknown",
+      "l’inconnu (m.)"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Ceux qui les construisaient étaient de vrais génies.",
+    "tr": {
+     "en": "Those who built them were true geniuses."
+    }
+   },
+   {
+    "text": "Avec des planches de chêne qui se chevauchaient, des coques courbées et élégantes et de grandes voiles carrées, ils ont créé des navires assez rapides pour traverser les océans, mais assez plats pour remonter les rivières.",
+    "tr": {
+     "en": "With overlapping oak planks, curved and elegant hulls and large square sails, they created ships fast enough to cross the oceans, but flat enough to sail up rivers."
+    },
+    "gloss": {
+     "planches": [
+      "/plɑ̃ʃ/",
+      "planks, boards",
+      "une planche"
+     ],
+     "chêne": [
+      "/ʃɛn/",
+      "oak",
+      "le chêne"
+     ],
+     "se chevauchaient": [
+      "/sə ʃəvoʃɛ/",
+      "overlapped",
+      "se chevaucher"
+     ],
+     "coques": [
+      "/kɔk/",
+      "hulls",
+      "une coque"
+     ],
+     "voiles": [
+      "/vwal/",
+      "sails",
+      "une voile"
+     ],
+     "navires": [
+      "/naviʀ/",
+      "ships, vessels",
+      "un navire"
+     ],
+     "remonter les rivières": [
+      "/ʀəmɔ̃te le ʀivjɛʀ/",
+      "to sail up rivers",
+      "remonter une rivière"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "C’étaient les Vikings : des agriculteurs, des marchands, des artisans, des poètes… et certains des marins les plus extraordinaires de l’histoire.",
+    "tr": {
+     "en": "They were the Vikings: farmers, merchants, craftsmen, poets… and some of the most extraordinary sailors in history."
+    },
+    "gloss": {
+     "artisans": [
+      "/aʀtizɑ̃/",
+      "craftsmen",
+      "un artisan"
+     ],
+     "marins": [
+      "/maʀɛ̃/",
+      "sailors, seafarers",
+      "un marin"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Chez eux, les familles cultivaient les champs, élevaient des animaux et se retrouvaient dans de longues maisons en bois.",
+    "tr": {
+     "en": "At home, families farmed the fields, raised animals and gathered in long wooden houses."
+    },
+    "gloss": {
+     "élevaient": [
+      "/elvɛ/",
+      "raised",
+      "élever (des animaux)"
+     ]
+    }
+   },
+   {
+    "text": "Les femmes géraient la maison et les terres.",
+    "tr": {
+     "en": "The women managed the house and the land."
+    },
+    "gloss": {
+     "géraient": [
+      "/ʒeʀɛ/",
+      "managed",
+      "gérer"
+     ]
+    }
+   },
+   {
+    "text": "Les gens libres réglaient leurs conflits lors d’assemblées appelées les « Things ».",
+    "tr": {
+     "en": "Free people settled their disputes at assemblies called “Things”."
+    },
+    "gloss": {
+     "réglaient leurs conflits": [
+      "/ʀeɡlɛ lœʀ kɔ̃fli/",
+      "settled their disputes",
+      "régler un conflit"
+     ]
+    }
+   },
+   {
+    "text": "Pendant les longues soirées d’hiver, on racontait des histoires de dieux, de géants et de héros.",
+    "tr": {
+     "en": "During the long winter evenings, people told stories of gods, giants and heroes."
+    }
+   }
+  ],
+  [
+   {
+    "text": "Mais au-delà de leurs côtes, il y avait un mystère irrésistible.",
+    "tr": {
+     "en": "But beyond their coasts, there was an irresistible mystery."
+    },
+    "gloss": {
+     "côtes": [
+      "/kot/",
+      "coasts, shores",
+      "une côte"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Guidés par le soleil, les étoiles, les vents et les oiseaux de mer, les navigateurs vikings se sont lancés sur des eaux immenses et inconnues.",
+    "tr": {
+     "en": "Guided by the sun, the stars, the winds and the seabirds, Viking navigators set out on vast and unknown waters."
+    },
+    "gloss": {
+     "se sont lancés": [
+      "/sə sɔ̃ lɑ̃se/",
+      "set out, ventured",
+      "se lancer"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Ils se sont installés en Islande et au Groenland.",
+    "tr": {
+     "en": "They settled in Iceland and Greenland."
+    },
+    "gloss": {
+     "se sont installés": [
+      "/sə sɔ̃t‿ɛ̃stale/",
+      "settled",
+      "s’installer"
+     ]
+    }
+   },
+   {
+    "text": "Ils ont fait du commerce le long de rivières qui menaient jusqu’à Bagdad.",
+    "tr": {
+     "en": "They traded along rivers that led all the way to Baghdad."
+    },
+    "gloss": {
+     "fait du commerce": [
+      "/fɛ dy kɔmɛʀs/",
+      "traded",
+      "faire du commerce"
+     ]
+    }
+   },
+   {
+    "text": "Et ils sont allés jusqu’en Amérique du Nord… presque cinq siècles avant Christophe Colomb !",
+    "tr": {
+     "en": "And they went as far as North America… almost five centuries before Christopher Columbus!"
+    }
+   }
+  ],
+  [
+   {
+    "text": "Imagine : tu es debout sur un petit bateau en bois.",
+    "tr": {
+     "en": "Imagine: you are standing on a small wooden boat."
+    }
+   },
+   {
+    "text": "Autour de toi, l’océan bouge sans arrêt, à l’infini.",
+    "tr": {
+     "en": "Around you, the ocean moves without stopping, endlessly."
+    }
+   },
+   {
+    "text": "Pas de boussole.",
+    "tr": {
+     "en": "No compass."
+    },
+    "gloss": {
+     "boussole": [
+      "/busɔl/",
+      "compass",
+      "une boussole"
+     ]
+    }
+   },
+   {
+    "text": "Et aucune certitude de trouver une terre devant toi.",
+    "tr": {
+     "en": "And no certainty of finding land ahead of you."
+    }
+   }
+  ],
+  [
+   {
+    "text": "Quel courage incroyable !",
+    "tr": {
+     "en": "What incredible courage!"
+    }
+   },
+   {
+    "text": "Quelle curiosité extraordinaire !",
+    "tr": {
+     "en": "What extraordinary curiosity!"
+    }
+   }
+  ],
+  [
+   {
+    "text": "Les Vikings n’avaient ni instruments modernes, ni moteurs puissants.",
+    "tr": {
+     "en": "The Vikings had neither modern instruments nor powerful engines."
+    }
+   },
+   {
+    "text": "Pourtant, grâce à leurs connaissances, leur savoir-faire et leur audace, ils sont allés jusqu’aux limites du monde qu’ils connaissaient.",
+    "tr": {
+     "en": "Yet, thanks to their knowledge, their know-how and their daring, they went to the limits of the world they knew."
+    },
+    "gloss": {
+     "savoir-faire": [
+      "/savwaʀ fɛʀ/",
+      "know-how, craftsmanship",
+      "le savoir-faire"
+     ],
+     "audace": [
+      "/odas/",
+      "daring, boldness",
+      "l’audace (f.)"
+     ]
+    }
+   }
+  ]
+ ],
+ "glossary": [
+  {
+   "word": "brumeux / brumeuse",
+   "en": "misty"
+  },
+  {
+   "word": "l’inconnu (m.)",
+   "en": "the unknown"
+  },
+  {
+   "word": "une planche",
+   "en": "a plank, a board"
+  },
+  {
+   "word": "le chêne",
+   "en": "oak"
+  },
+  {
+   "word": "se chevaucher",
+   "en": "to overlap"
+  },
+  {
+   "word": "une coque",
+   "en": "a hull"
+  },
+  {
+   "word": "une voile",
+   "en": "a sail"
+  },
+  {
+   "word": "un navire",
+   "en": "a ship, a vessel"
+  },
+  {
+   "word": "remonter une rivière",
+   "en": "to sail up a river"
+  },
+  {
+   "word": "un marin",
+   "en": "a sailor, a seafarer"
+  },
+  {
+   "word": "un artisan",
+   "en": "a craftsman"
+  },
+  {
+   "word": "élever (des animaux)",
+   "en": "to raise (animals)"
+  },
+  {
+   "word": "gérer",
+   "en": "to manage"
+  },
+  {
+   "word": "régler un conflit",
+   "en": "to settle a dispute"
+  },
+  {
+   "word": "une côte",
+   "en": "a coast, a shore"
+  },
+  {
+   "word": "se lancer",
+   "en": "to set out, to venture"
+  },
+  {
+   "word": "s’installer",
+   "en": "to settle"
+  },
+  {
+   "word": "faire du commerce",
+   "en": "to trade"
+  },
+  {
+   "word": "une boussole",
+   "en": "a compass"
+  },
+  {
+   "word": "le savoir-faire",
+   "en": "know-how, craftsmanship"
+  },
+  {
+   "word": "l’audace (f.)",
+   "en": "daring, boldness"
+  }
+ ]
+}

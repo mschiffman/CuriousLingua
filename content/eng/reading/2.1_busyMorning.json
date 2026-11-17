@@ -1,0 +1,222 @@
+{
+ "title": "A Busy Morning",
+ "level": "a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 2 readers",
+ "type": "reader",
+ "legacy": "stories/2.1_busyMorning.html",
+ "img_dir": "img/ytstory/2.1_busyMorning/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/2.1_busyMorning/",
+ "aud_ext": "mp3?v=261112b",
+ "translation": {
+  "lang": "my",
+  "label": "မြန်မာ"
+ },
+ "pages": [
+  {
+   "img": 1,
+   "tr": [
+    "အလုပ်ရှုပ်သော မနက်ခင်းတခု",
+    "မနက်ရောက်ပြီ။",
+    "တီတီ! တီတီ!",
+    "မီယာရေ၊ အိပ်ရာထတော့။"
+   ],
+   "sentences": [
+    [
+     [
+      "A Busy Morning",
+      1
+     ]
+    ],
+    [
+     [
+      "It is morning.",
+      2
+     ]
+    ],
+    [
+     [
+      "Ring! Ring!",
+      3
+     ]
+    ],
+    [
+     [
+      "Wake up, Mia!",
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "tr": [
+    "မင်္ဂလာနံနက်ခင်းပါ။",
+    "အိပ်ချင်သေးတယ်။",
+    "အိပ်ရာထတယ်။"
+   ],
+   "sentences": [
+    [
+     [
+      "Good morning.",
+      5
+     ]
+    ],
+    [
+     [
+      "I’m sleepy.",
+      6
+     ]
+    ],
+    [
+     [
+      "I get up.",
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "tr": [
+    "မျက်နှာသစ်တယ်။",
+    "ဆံပင်ဖြီးတယ်။",
+    "အဝတ်အစားလဲတယ်။"
+   ],
+   "sentences": [
+    [
+     [
+      "I wash my face.",
+      8
+     ]
+    ],
+    [
+     [
+      "I brush my hair.",
+      9
+     ]
+    ],
+    [
+     [
+      "I get dressed.",
+      10
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "tr": [
+    "ငါ့ခြေအိတ်တွေ ဘယ်မှာလဲ။",
+    "ဒီမှာပဲ!",
+    "ကျေးဇူးပါ မေမေ။"
+   ],
+   "sentences": [
+    [
+     [
+      "Where are my socks?",
+      23
+     ]
+    ],
+    [
+     [
+      "Here they are!",
+      12
+     ]
+    ],
+    [
+     [
+      "Thank you, Mom.",
+      13
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "tr": [
+    "ဗိုက်ဆာနေပြီ။",
+    "မနက်စာစားတယ်။",
+    "စားလို့ကောင်းလိုက်တာ!"
+   ],
+   "sentences": [
+    [
+     [
+      "I’m hungry.",
+      14
+     ]
+    ],
+    [
+     [
+      "I eat breakfast.",
+      15
+     ]
+    ],
+    [
+     [
+      "Yum!",
+      16
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "tr": [
+    "မီယာရေ၊ မြန်မြန်လုပ်!",
+    "အဆင်သင့်ဖြစ်ခါနီးပါပြီ။",
+    "ဖိနပ်စီးတယ်။"
+   ],
+   "sentences": [
+    [
+     [
+      "Hurry up, Mia!",
+      17
+     ]
+    ],
+    [
+     [
+      "I’m almost ready.",
+      18
+     ]
+    ],
+    [
+     [
+      "I put on my shoes.",
+      19
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "tr": [
+    "လွယ်အိတ်ယူထားပြီ။",
+    "အဆင်သင့်ဖြစ်ပြီ။",
+    "သွားကြစို့။"
+   ],
+   "sentences": [
+    [
+     [
+      "I have my bag.",
+      20
+     ]
+    ],
+    [
+     [
+      "I’m ready.",
+      21
+     ]
+    ],
+    [
+     [
+      "Let’s go!",
+      22
+     ]
+    ]
+   ]
+  }
+ ]
+}

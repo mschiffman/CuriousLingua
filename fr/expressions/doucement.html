@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doucement | French</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="stylesheet" href="../../assets/css/cards.css">
+<link rel="stylesheet" href="../../assets/css/expression-quiz.css">
+</head>
+<body class="bg-grid relative min-h-screen" data-course="fr">
+
+<div class="pointer-events-none fixed left-0 top-0 z-0 h-full w-full overflow-hidden">
+<div class="absolute left-[-80px] top-[-80px] h-96 w-96 rounded-full" style="background:radial-gradient(circle,rgba(26,110,245,.18) 0%,transparent 70%)"></div>
+<div class="absolute bottom-[-60px] right-[-60px] h-80 w-80 rounded-full" style="background:radial-gradient(circle,rgba(0,200,255,.14) 0%,transparent 70%)"></div>
+<div class="absolute right-1/4 top-1/2 h-64 w-64 rounded-full" style="background:radial-gradient(circle,rgba(26,110,245,.08) 0%,transparent 70%)"></div></div>
+<div class="relative z-10 flex flex-wrap items-center gap-2 px-6 pt-5 text-xs uppercase tracking-widest" style="font-family:'Space Mono',monospace;color:rgba(255,255,255,.4)" data-nav>
+<a style="color:rgba(255,255,255,.7)" class="hover:underline" href="../../index.html">Languages</a><span>/</span>
+<a style="color:rgba(255,255,255,.7)" class="hover:underline" href="../../fr/index.html">French</a><span>/</span>
+<a style="color:rgba(255,255,255,.7)" class="hover:underline" href="../../fr/expressions/index.html">Expressions</a>
+<span class="ml-auto"></span>
+</div>
+<div class="relative z-10 w-full px-6 py-12">
+<div class="mb-14 text-center">
+<div class="mb-3 flex items-center justify-center gap-4"><span class="badge">EXPRESSIONS</span><span class="badge">B1</span></div>
+<h1 class="header-glow mb-2 text-5xl font-bold tracking-tight sm:text-7xl" style="font-family:'Playfair Display',serif;font-style:italic;color:white;letter-spacing:-.02em">Doucement</h1>
+<p class="mb-4 text-2xl" style="color:var(--cyan);opacity:.85;font-family:'Playfair Display','Noto Sans Myanmar',serif">Ralentir, se poser, se calmer</p>
+<div class="header-line mx-auto w-64"></div>
+<p class="mt-4 text-sm uppercase tracking-widest" style="color:rgba(255,255,255,.4);font-family:'Roboto',sans-serif">Expression Flashcards</p>
+</div>
+<div id="cards"></div>
+<div class="mt-14 text-center"><div class="header-line mx-auto mb-5 w-48"></div>
+<p class="text-xs uppercase tracking-widest" style="color:rgba(255,255,255,.25);font-family:'Space Mono',monospace"><span id="count">15</span> expressions &middot; Doucement</p>
+<p class="mt-6 flex flex-wrap justify-center gap-6 text-xs uppercase tracking-widest" style="font-family:'Space Mono',monospace" data-nav>
+<a style="color:rgba(255,255,255,.7)" class="hover:underline" href="../../fr/expressions/dismissal.html">&larr; Dismissal</a>
+<a style="color:rgba(255,255,255,.7)" class="hover:underline" href="../../fr/expressions/excitement.html">Excitement &rarr;</a></p>
+</div></div>
+
+<script>const AUD_DIR="https://languages.rmlives.com/lessons/Expressions/doucement/";const AUD_EXT="mp3?v=261023";const categories=[{"en":"Easing off","fr":"Ralentir","desc":"About pace: go gently, don't rush, don't overdo it.","cards":[["Vas-y doucement.","Take it easy. / Go gently.","Slow down, be careful: with a task, a person, or food and drink. Formal or plural: allez-y doucement.","Vas-y doucement avec le vin, tu conduis.","Go easy on the wine, you're driving."],["Vas-y mollo.","Easy does it.","Very casual version of vas-y doucement. Mollo comes from mou (soft).","Vas-y mollo sur le sel, c'est déjà assez salé.","Easy on the salt, it's salty enough already."],["Doucement, doucement…","Easy, easy now…","Soothing, said slowly to a nervous person, a child or an animal. Also a warning: doucement ! (careful!)","Doucement, doucement… voilà, il ne va pas te mordre.","Easy, easy now… there you go, he won't bite you."],["Je vais y aller doucement.","I'll take it slowly.","About yourself: after an illness, a long break, or before a big meal. Also je vais faire doucement.","Je reprends le sport, mais je vais y aller doucement.","I'm getting back into sport, but I'll take it slowly."],["Pas si vite !","Not so fast!","Stops someone rushing ahead, in action or in reasoning.","Pas si vite ! On n'a pas encore signé le contrat.","Not so fast! We haven't signed the contract yet."],["Prends ton temps.","Take your time.","Reassures someone that there's no hurry. Formal: prenez votre temps. Also rien ne presse (there's no rush).","Prends ton temps, on n'est pas pressés.","Take your time, we're not in a hurry."]]},{"en":"Staying put","fr":"Se poser","desc":"About state: rest, keep still, have a quiet time.","cards":[["Reste tranquille.","Keep still. / Behave.","To a child: stop fidgeting, settle down. To an adult: don't worry about it, stay out of it.","Reste tranquille deux minutes, je finis de t'habiller.","Keep still for two minutes, I'm nearly done dressing you."],["Repose-toi bien.","Get some good rest.","A kind goodbye to someone tired or ill. Formal: reposez-vous bien.","Rentre chez toi et repose-toi bien. On se voit lundi.","Go home and get some good rest. See you on Monday."],["Je vais rester tranquille.","I'm going to have a quiet one.","No plans, no going out. Also je vais me poser (I'm going to chill).","Ce week-end, je vais rester tranquille à la maison.","This weekend I'm going to have a quiet one at home."],["Je me pose cinq minutes.","I'm sitting down for five minutes.","Se poser: to sit down and relax, to land. Casual and very common.","Je me pose cinq minutes et après je fais la vaisselle.","I'll sit down for five minutes and then do the washing-up."]]},{"en":"Calming down","fr":"Se calmer","desc":"About feelings: getting someone, or yourself, to cool down.","cards":[["Calme-toi.","Calm down.","Can backfire, just like in English. Formal or plural: calmez-vous. Softer and good for a group: du calme.","Calme-toi, on va trouver une solution.","Calm down, we'll find a solution."],["Calmos !","Chill!","Slangy and playful, from calme. Rhyming joke version: relax, Max !","Calmos, les gars, c'est qu'un match de foot !","Chill, guys, it's only a football match!"],["On se calme !","Let's all calm down!","On used for tu or vous: a firm, slightly ironic call to order, from parents, teachers or referees.","Ho, ho, on se calme ! Pas besoin de crier.","Whoa, whoa, let's all calm down! No need to shout."],["Ne t'énerve pas.","Don't get worked up.","S'énerver: to get annoyed or worked up. Spoken: t'énerve pas !","Ne t'énerve pas, il a dit ça pour rire.","Don't get worked up, he was only joking."],["Il faut que je me calme.","I need to calm down.","About yourself, often before you say something you'll regret. Spoken: faut que je me calme.","Attends, il faut que je me calme avant de lui répondre.","Hang on, I need to calm down before I answer him."]]}];</script>
+<script src="../../assets/js/expression-flash.js"></script>
+<script src="../../assets/js/site.js"></script>
+<script src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>

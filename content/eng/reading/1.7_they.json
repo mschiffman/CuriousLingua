@@ -1,0 +1,181 @@
+{
+ "title": "What are they?",
+ "level": "pre-a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 1 readers",
+ "type": "reader",
+ "legacy": "stories/1.7_they.html",
+ "img_dir": "img/ytstory/1.7_they/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/1.7_they/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "Let's learn.",
+      2
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "They are books.",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "They are pens.",
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "They are cups.",
+      5
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "They are bags.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "They are cats.",
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "They are dogs.",
+      8
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "What are they?",
+      1
+     ]
+    ],
+    [
+     [
+      "They are books.",
+      3
+     ]
+    ],
+    [
+     [
+      "They are pens.",
+      4
+     ]
+    ],
+    [
+     [
+      "They are cups.",
+      5
+     ]
+    ],
+    [
+     [
+      "They are bags.",
+      6
+     ]
+    ],
+    [
+     [
+      "They are cats.",
+      7
+     ]
+    ],
+    [
+     [
+      "They are dogs.",
+      8
+     ]
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "title": "We’re Late!",
+ "level": "a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 2 readers",
+ "type": "reader",
+ "legacy": "stories/2.5_late.html",
+ "img_dir": "img/ytstory/2.5_late/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/2.5_late/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "Good morning!",
+      1
+     ]
+    ],
+    [
+     [
+      "What time is it?",
+      2
+     ]
+    ],
+    [
+     [
+      "Oh no! We’re late!",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "Hurry up, Mia!",
+      4
+     ]
+    ],
+    [
+     [
+      "I’m getting dressed.",
+      5
+     ]
+    ],
+    [
+     [
+      "I’m almost ready.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "Wait!",
+      7
+     ]
+    ],
+    [
+     [
+      "Where is my bag?",
+      8
+     ]
+    ],
+    [
+     [
+      "Here it is!",
+      9
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "Put on your shoes.",
+      10
+     ]
+    ],
+    [
+     [
+      "I put on my shoes.",
+      11
+     ]
+    ],
+    [
+     [
+      "Now I’m ready.",
+      12
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "Hurry up, Mia!",
+      13
+     ]
+    ],
+    [
+     [
+      "I’m coming!",
+      14
+     ]
+    ],
+    [
+     [
+      "Please wait!",
+      15
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "I have my bag.",
+      16
+     ]
+    ],
+    [
+     [
+      "I’m almost ready.",
+      17
+     ]
+    ],
+    [
+     [
+      "Are you ready, Mom?",
+      18
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "Yes, I’m ready.",
+      19
+     ]
+    ],
+    [
+     [
+      "Now I’m ready too.",
+      20
+     ]
+    ],
+    [
+     [
+      "Let’s go!",
+      21
+     ]
+    ]
+   ]
+  }
+ ]
+}

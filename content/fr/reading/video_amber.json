@@ -1,0 +1,15 @@
+{
+ "title": "L’ambre : la vidéo",
+ "subtitle": "Amber: fossilized tree resin",
+ "label": "Video",
+ "type": "practice",
+ "supplement_of": "amber",
+ "legacy": "fr/reading/video-amber.html",
+ "blocks": [
+  {
+   "kind": "video",
+   "src": "lessons/read/video-amber.mp4",
+   "caption": "A look at how amber is formed."
+  }
+ ]
+}

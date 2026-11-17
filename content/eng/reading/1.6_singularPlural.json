@@ -1,0 +1,175 @@
+{
+ "title": "Singular and Plural",
+ "level": "pre-a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 1 readers",
+ "type": "reader",
+ "legacy": "stories/1.6_singularPlural.html",
+ "img_dir": "img/ytstory/1.6_singularPlural/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/1.6_singularPlural/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "One and more than one.",
+      1
+     ]
+    ],
+    [
+     [
+      "Let's learn.",
+      2
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "One book.",
+      3
+     ]
+    ],
+    [
+     [
+      "Two books.",
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "One pen.",
+      5
+     ]
+    ],
+    [
+     [
+      "Two pens.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "One cup.",
+      7
+     ]
+    ],
+    [
+     [
+      "Two cups.",
+      8
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "One bag.",
+      9
+     ]
+    ],
+    [
+     [
+      "Two bags.",
+      10
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "One cat.",
+      11
+     ]
+    ],
+    [
+     [
+      "Two cats.",
+      12
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "One dog.",
+      13
+     ]
+    ],
+    [
+     [
+      "Two dogs.",
+      14
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "One book. Two books.",
+      15
+     ]
+    ],
+    [
+     [
+      "One pen. Two pens.",
+      16
+     ]
+    ],
+    [
+     [
+      "One cup. Two cups.",
+      17
+     ]
+    ],
+    [
+     [
+      "One bag. Two bags.",
+      18
+     ]
+    ],
+    [
+     [
+      "One cat. Two cats.",
+      19
+     ]
+    ],
+    [
+     [
+      "One dog. Two dogs.",
+      20
+     ]
+    ]
+   ]
+  }
+ ]
+}

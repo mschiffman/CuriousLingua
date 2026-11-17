@@ -1,0 +1,181 @@
+{
+ "title": "What is it?",
+ "level": "pre-a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 1 readers",
+ "type": "reader",
+ "legacy": "stories/1.4_what.html",
+ "img_dir": "img/ytstory/1.4_what/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/1.4_what/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "Let's learn.",
+      2
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "It's a book.",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "It's a pen.",
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "It's a cup.",
+      5
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "It's a bag.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "It's an eraser.",
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "It's an umbrella.",
+      8
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "What is it?",
+      1
+     ]
+    ],
+    [
+     [
+      "It's a book.",
+      3
+     ]
+    ],
+    [
+     [
+      "It's a pen.",
+      4
+     ]
+    ],
+    [
+     [
+      "It's a cup.",
+      5
+     ]
+    ],
+    [
+     [
+      "It's a bag.",
+      6
+     ]
+    ],
+    [
+     [
+      "It's an eraser.",
+      7
+     ]
+    ],
+    [
+     [
+      "It's an umbrella.",
+      8
+     ]
+    ]
+   ]
+  }
+ ]
+}

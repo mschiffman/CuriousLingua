@@ -1,0 +1,276 @@
+{
+ "title": "Animals",
+ "level": "pre-a1",
+ "level_provisional": true,
+ "strand": "vocabulary",
+ "topic": "Picture words",
+ "type": "reader",
+ "legacy": "stories/voc_animals_1.html",
+ "img_dir": "img/ytstory/voc-animals/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/voc-animals/",
+ "aud_ext": "mp3?v=2610290758",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "Animals",
+      1
+     ]
+    ],
+    [
+     [
+      "dog",
+      2
+     ]
+    ],
+    [
+     [
+      "a dog",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "cat",
+      4
+     ]
+    ],
+    [
+     [
+      "a cat",
+      5
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "cow",
+      6
+     ]
+    ],
+    [
+     [
+      "a cow",
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "pig",
+      8
+     ]
+    ],
+    [
+     [
+      "a pig",
+      9
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "horse",
+      10
+     ]
+    ],
+    [
+     [
+      "a horse",
+      11
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "sheep",
+      12
+     ]
+    ],
+    [
+     [
+      "a sheep",
+      13
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "goat",
+      14
+     ]
+    ],
+    [
+     [
+      "a goat",
+      15
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "chicken",
+      16
+     ]
+    ],
+    [
+     [
+      "a chicken",
+      17
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 9,
+   "sentences": [
+    [
+     [
+      "duck",
+      18
+     ]
+    ],
+    [
+     [
+      "a duck",
+      19
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 10,
+   "sentences": [
+    [
+     [
+      "rabbit",
+      20
+     ]
+    ],
+    [
+     [
+      "a rabbit",
+      21
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 11,
+   "sentences": [
+    [
+     [
+      "lion",
+      22
+     ]
+    ],
+    [
+     [
+      "a lion",
+      23
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 12,
+   "sentences": [
+    [
+     [
+      "tiger",
+      24
+     ]
+    ],
+    [
+     [
+      "a tiger",
+      25
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 13,
+   "sentences": [
+    [
+     [
+      "elephant",
+      26
+     ]
+    ],
+    [
+     [
+      "an elephant",
+      27
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 14,
+   "sentences": [
+    [
+     [
+      "monkey",
+      28
+     ]
+    ],
+    [
+     [
+      "a monkey",
+      29
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 15,
+   "sentences": [
+    [
+     [
+      "giraffe",
+      30
+     ]
+    ],
+    [
+     [
+      "a giraffe",
+      31
+     ]
+    ]
+   ]
+  }
+ ]
+}

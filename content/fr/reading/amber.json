@@ -1,0 +1,448 @@
+{
+ "title": "L’ambre",
+ "subtitle": "Amber",
+ "level": "b1",
+ "topic": "Nature",
+ "type": "text",
+ "register": "neutral-standard",
+ "legacy": "fr/reading/amber.html",
+ "review": "Sentence timings were worked out from the pauses in the recording, not by listening. Tap each sentence once and adjust \"t\" where a start or end is off.",
+ "img": "img/Fr-read/amber.jpg",
+ "img_alt": "A piece of golden amber",
+ "audio_file": "lessons/read/amber.m4a",
+ "support": [
+  "en"
+ ],
+ "paragraphs": [
+  [
+   {
+    "text": "Qu’est-ce qui est doré comme le miel et brille comme du verre ?",
+    "tr": {
+     "en": "What is golden like honey and shines like glass?"
+    },
+    "t": [
+     0,
+     4.86
+    ],
+    "gloss": {
+     "doré": [
+      "/dɔʀe/",
+      "golden"
+     ],
+     "miel": [
+      "/mjɛl/",
+      "honey"
+     ],
+     "brille": [
+      "/bʀij/",
+      "shines",
+      "briller /bʀije/"
+     ],
+     "verre": [
+      "/vɛʀ/",
+      "glass"
+     ]
+    }
+   },
+   {
+    "text": "L’ambre !",
+    "tr": {
+     "en": "Amber!"
+    },
+    "t": [
+     5.13,
+     5.81
+    ]
+   }
+  ],
+  [
+   {
+    "text": "Les Grecs de l’Antiquité pensaient que c’était des gouttes de soleil solidifié.",
+    "tr": {
+     "en": "The ancient Greeks thought it was droplets of solid sunlight."
+    },
+    "t": [
+     6.71,
+     11.6
+    ],
+    "gloss": {
+     "Grecs": [
+      "/ɡʀɛk/",
+      "the Greeks"
+     ],
+     "Antiquité": [
+      "/ɑ̃tikite/",
+      "ancient"
+     ],
+     "pensaient": [
+      "/pɑ̃sɛ/",
+      "thought",
+      "penser /pɑ̃se/"
+     ],
+     "gouttes": [
+      "/ɡut/",
+      "drops"
+     ],
+     "soleil": [
+      "/sɔlɛj/",
+      "sun"
+     ],
+     "solidifié": [
+      "/sɔlidifje/",
+      "solidified",
+      "solidifier /sɔlidifje/"
+     ]
+    }
+   },
+   {
+    "text": "En réalité, l’ambre vient des arbres.",
+    "tr": {
+     "en": "In fact, it comes from trees."
+    },
+    "t": [
+     11.76,
+     14.39
+    ]
+   }
+  ],
+  [
+   {
+    "text": "Les pins et les sapins laissent s’écouler un liquide épais et collant appelé résine lorsque leur écorce est abîmée.",
+    "tr": {
+     "en": "Pine and fir trees ooze a thick, sticky liquid called resin if their bark is damaged."
+    },
+    "t": [
+     14.86,
+     22.28
+    ],
+    "gloss": {
+     "pins": [
+      "/pɛ̃/",
+      "pine trees"
+     ],
+     "sapins": [
+      "/sapɛ̃/",
+      "fir trees"
+     ],
+     "laissent": [
+      "/lɛs/",
+      "let / allow",
+      "laisser /lese/"
+     ],
+     "écouler": [
+      "/ekule/",
+      "to flow / run out",
+      "écouler /ekule/"
+     ],
+     "liquide": [
+      "/likid/",
+      "liquid"
+     ],
+     "épais": [
+      "/epɛ/",
+      "thick"
+     ],
+     "collant": [
+      "/kɔlɑ̃/",
+      "sticky"
+     ],
+     "appelé": [
+      "/ap(ə)le/",
+      "called",
+      "appeler /ap(ə)le/"
+     ],
+     "résine": [
+      "/ʀezin/",
+      "resin"
+     ],
+     "écorce": [
+      "/ekɔʀs/",
+      "bark"
+     ],
+     "abîmée": [
+      "/abime/",
+      "damaged",
+      "abîmer /abime/"
+     ]
+    }
+   },
+   {
+    "text": "La résine coule pour boucher les blessures, puis elle durcit.",
+    "tr": {
+     "en": "The resin drips out to plug any cuts, and then hardens."
+    },
+    "t": [
+     22.49,
+     26.49
+    ],
+    "gloss": {
+     "coule": [
+      "/kul/",
+      "flows",
+      "couler /kule/"
+     ],
+     "boucher": [
+      "/buʃe/",
+      "to block / fill",
+      "boucher /buʃe/"
+     ],
+     "blessures": [
+      "/blesyʀ/",
+      "wounds / injuries"
+     ],
+     "durcit": [
+      "/dyʀsi/",
+      "hardens",
+      "durcir /dyʀsiʀ/"
+     ]
+    }
+   },
+   {
+    "text": "Tout comme un os de dinosaure, la résine peut se fossiliser et se transformer en ambre.",
+    "tr": {
+     "en": "Just like a dinosaur bone, the resin can fossilize, transforming into amber."
+    },
+    "t": [
+     26.72,
+     32.74
+    ],
+    "gloss": {
+     "os": [
+      "/ɔs/",
+      "bone"
+     ],
+     "dinosaure": [
+      "/dinɔzɔʀ/",
+      "dinosaur"
+     ],
+     "fossiliser": [
+      "/fɔsilize/",
+      "to fossilize",
+      "fossiliser /fosilize/"
+     ],
+     "ambre": [
+      "/ɑ̃bʀ/",
+      "amber"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "L’ambre peut être une capsule temporelle du monde préhistorique.",
+    "tr": {
+     "en": "Amber can be a time capsule to the prehistoric world."
+    },
+    "t": [
+     32.96,
+     37.17
+    ],
+    "gloss": {
+     "capsule": [
+      "/kapsyl/",
+      "capsule"
+     ],
+     "temporelle": [
+      "/tɑ̃pɔʀɛl/",
+      "time (adj) / temporal"
+     ],
+     "préhistorique": [
+      "/pʀeistɔʀik/",
+      "prehistoric"
+     ]
+    }
+   },
+   {
+    "text": "Si une araignée ou un insecte marche sur cette substance dorée alors qu’elle est encore collante, il peut rester piégé.",
+    "tr": {
+     "en": "If a spider or insect walks across the golden goo when it is still sticky, it can get trapped."
+    },
+    "t": [
+     37.37,
+     45.52
+    ],
+    "gloss": {
+     "araignée": [
+      "/aʀeɲe/",
+      "spider"
+     ],
+     "substance": [
+      "/sypstɑ̃s/",
+      "substance"
+     ],
+     "dorée": [
+      "/dɔʀe/",
+      "golden"
+     ],
+     "piégé": [
+      "/pjeʒe/",
+      "trapped",
+      "piéger /pjeʒe/"
+     ]
+    }
+   },
+   {
+    "text": "Lorsque la résine se transforme en ambre, la petite créature est emprisonnée pour toujours, et nous pouvons la voir telle qu’elle était il y a des millions d’années.",
+    "tr": {
+     "en": "As the resin turns to amber, the creepy-crawly is trapped forever, and we can see it as it was millions of years ago."
+    },
+    "t": [
+     45.79,
+     56.12
+    ],
+    "gloss": {
+     "créature": [
+      "/kʀeatyʀ/",
+      "creature"
+     ],
+     "emprisonnée": [
+      "/ɑ̃pʀizɔne/",
+      "imprisoned",
+      "emprisonner /ɑ̃pʀizɔne/"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Un type rare d’ambre est orange jusqu’à ce qu’on le voie à la lumière du soleil… où il devient bleu !",
+    "tr": {
+     "en": "One rare type of amber is orange until seen in sunlight, when it turns blue!"
+    },
+    "t": [
+     56.95,
+     64.1
+    ],
+    "gloss": {
+     "devient": [
+      "/dəvjɛ̃/",
+      "becomes",
+      "devenir /dəv(ə)niʀ/"
+     ]
+    }
+   }
+  ]
+ ],
+ "glossary_dir": "lessons/read/amber/",
+ "glossary": [
+  {
+   "word": "ambre",
+   "en": "amber"
+  },
+  {
+   "word": "antiquité",
+   "en": "ancient"
+  },
+  {
+   "word": "goutte",
+   "en": "drop",
+   "audio": "goutte.m4a"
+  },
+  {
+   "word": "solidifier",
+   "en": "to solidify"
+  },
+  {
+   "word": "pin",
+   "en": "pine"
+  },
+  {
+   "word": "sapin",
+   "en": "fir tree"
+  },
+  {
+   "word": "écouler",
+   "en": "to flow / to run out",
+   "audio": "ecouler"
+  },
+  {
+   "word": "liquide",
+   "en": "liquid"
+  },
+  {
+   "word": "épais",
+   "en": "thick"
+  },
+  {
+   "word": "collant",
+   "en": "sticky"
+  },
+  {
+   "word": "résine",
+   "en": "resin"
+  },
+  {
+   "word": "écorce",
+   "en": "bark",
+   "audio": "ecorce"
+  },
+  {
+   "word": "abîmer",
+   "en": "to damage"
+  },
+  {
+   "word": "couler",
+   "en": "to flow"
+  },
+  {
+   "word": "boucher",
+   "en": "to block / to fill"
+  },
+  {
+   "word": "blessure",
+   "en": "wound / injury"
+  },
+  {
+   "word": "durcir",
+   "en": "to harden"
+  },
+  {
+   "word": "dinosaure",
+   "en": "dinosaur"
+  },
+  {
+   "word": "fossiliser",
+   "en": "to fossiliser"
+  },
+  {
+   "word": "capsule",
+   "en": "capsule"
+  },
+  {
+   "word": "temporel",
+   "en": "related to time"
+  },
+  {
+   "word": "préhistorique",
+   "en": "prehistoric"
+  },
+  {
+   "word": "araignée",
+   "en": "spider"
+  },
+  {
+   "word": "substance",
+   "en": "substance"
+  },
+  {
+   "word": "doré",
+   "en": "golden"
+  },
+  {
+   "word": "piéger",
+   "en": "to trap"
+  },
+  {
+   "word": "créature",
+   "en": "creature"
+  },
+  {
+   "word": "emprisonner",
+   "en": "to imprison"
+  },
+  {
+   "word": "devenir",
+   "en": "to become"
+  }
+ ]
+}

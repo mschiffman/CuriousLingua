@@ -1,0 +1,226 @@
+{
+ "title": "Retour au bureau",
+ "subtitle": "Back to the office",
+ "level": "b2",
+ "topic": "Work and admin",
+ "type": "dialogue",
+ "register": "casual (tu), colleagues",
+ "intro": "Two colleagues react to an email from management: four days a week in the office from January. Natural spoken French, at normal speed.",
+ "start_hidden": true,
+ "steps": [
+  "Press Play all with the text hidden. Listen for the gist only: what is the news, and how does each person feel about it?",
+  "Listen again, then answer the questions under the dialogue. The full quiz is in the Supplemental section at the bottom.",
+  "Tap the lines to show the text, or switch off Hide text. Listen once more while reading.",
+  "Shadow it: play a line, press Pause (or the space bar), repeat it aloud, then Resume.",
+  "Read the notes on spoken French, then take a role and say the lines in the pauses."
+ ],
+ "aud_dir": "lessons/everyday/B2/workDay/",
+ "aud_ext": "mp3",
+ "speakers": {
+  "C": "Camille",
+  "J": "Julien"
+ },
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "C",
+   "text": "Alors, t'as vu le mail de la direction ? Retour au bureau quatre jours par semaine à partir de janvier.",
+   "tr": {
+    "en": "So, did you see the email from management? Back in the office four days a week from January."
+   }
+  },
+  {
+   "who": "J",
+   "text": "Ouais, j'ai vu. Franchement, ça m'a un peu refroidi.",
+   "tr": {
+    "en": "Yeah, I saw it. Honestly, it put a bit of a damper on things for me."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ah bon ? Moi, je t'avoue que ça m'arrange plutôt. Chez moi, j'arrive pas à décrocher : je finis toujours par bosser jusqu'à vingt heures.",
+   "tr": {
+    "en": "Really? I have to admit it rather suits me. At home I can't switch off: I always end up working until eight."
+   }
+  },
+  {
+   "who": "J",
+   "text": "Je comprends, mais moi, c'est l'inverse. Depuis que je télétravaille, j'ai jamais été aussi efficace. Et puis je gagne deux heures de transport par jour, c'est pas rien.",
+   "tr": {
+    "en": "I get that, but for me it's the opposite. Since I started working from home I've never been so productive. And I save two hours of commuting a day, which is no small thing."
+   }
+  },
+  {
+   "who": "C",
+   "text": "C'est sûr que les transports, ça pèse. N'empêche que… tu trouves pas qu'on a perdu quelque chose ? Avant, on réglait plein de trucs à la machine à café.",
+   "tr": {
+    "en": "True, the commute weighs on you. All the same… don't you think we've lost something? We used to sort out loads of things at the coffee machine."
+   }
+  },
+  {
+   "who": "J",
+   "text": "Si, c'est vrai. En visio, tout prend trois fois plus de temps. Mais de là à imposer quatre jours à tout le monde…",
+   "tr": {
+    "en": "Yes, that's true. On video calls everything takes three times as long. But to go from that to forcing four days on everyone…"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ce qui me gêne, moi, c'est surtout la manière. On nous met devant le fait accompli, sans même nous demander notre avis.",
+   "tr": {
+    "en": "What bothers me most is the way it was done. We're presented with a done deal, without even being asked what we think."
+   }
+  },
+  {
+   "who": "J",
+   "text": "Exactement ! Ils auraient pu faire un sondage, au moins. Même si, entre nous, je doute que ça ait changé grand-chose.",
+   "tr": {
+    "en": "Exactly! They could at least have run a survey. Although, between you and me, I doubt it would have changed much."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Tu crois qu'il y en a qui vont partir ?",
+   "tr": {
+    "en": "Do you think some people will leave?"
+   }
+  },
+  {
+   "who": "J",
+   "text": "Ça m'étonnerait pas. Thomas m'a dit qu'il regardait déjà ailleurs. Lui, il a déménagé à Nantes pendant le confinement, alors quatre jours à Paris, c'est juste pas possible.",
+   "tr": {
+    "en": "I wouldn't be surprised. Thomas told me he's already looking elsewhere. He moved to Nantes during lockdown, so four days in Paris just isn't possible."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ah oui, quand même. Et toi, tu ferais quoi si on te laissait le choix ?",
+   "tr": {
+    "en": "Oh, right, that is a lot. And what would you do, if you were given the choice?"
+   }
+  },
+  {
+   "who": "J",
+   "text": "Moi ? Deux jours au bureau, trois à la maison. Histoire de voir du monde sans y laisser ma santé.",
+   "tr": {
+    "en": "Me? Two days in the office, three at home. Just enough to see people without wrecking my health."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ça se défend. Tu devrais le proposer à la réunion de jeudi, non ?",
+   "tr": {
+    "en": "That's a reasonable position. You should suggest it at Thursday's meeting, shouldn't you?"
+   }
+  },
+  {
+   "who": "J",
+   "text": "Tu parles ! Si je suis le seul à ouvrir la bouche, je vais passer pour le râleur de service.",
+   "tr": {
+    "en": "Yeah, right! If I'm the only one who opens his mouth, I'll come across as the office moaner."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Mais non. Si on est plusieurs à le dire, ils seront bien obligés d'en tenir compte. Je te soutiendrai, moi.",
+   "tr": {
+    "en": "Of course not. If several of us say it, they'll have to take it into account. I'll back you up."
+   }
+  },
+  {
+   "who": "J",
+   "text": "Bon, ça marche. Mais c'est toi qui commences !",
+   "tr": {
+    "en": "All right, deal. But you go first!"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "q": "De quoi Camille et Julien parlent-ils ?",
+   "options": [
+    "D'un collègue qui vient d'être licencié",
+    "D'une nouvelle règle de présence au bureau",
+    "De leurs projets de déménagement"
+   ],
+   "answer": 1,
+   "why": "La direction annonce le retour au bureau quatre jours par semaine à partir de janvier."
+  },
+  {
+   "q": "Pourquoi la nouvelle arrange-t-elle plutôt Camille ?",
+   "options": [
+    "Elle habite tout près du bureau",
+    "Elle s'ennuie quand elle est seule",
+    "Chez elle, elle n'arrive pas à s'arrêter de travailler"
+   ],
+   "answer": 2,
+   "why": "« J'arrive pas à décrocher : je finis toujours par bosser jusqu'à vingt heures. » Décrocher = s'arrêter, couper avec le travail."
+  },
+  {
+   "q": "Quand Julien dit « c'est pas rien », il veut dire que…",
+   "options": [
+    "c'est important",
+    "ce n'est pas grave",
+    "ça ne change rien"
+   ],
+   "answer": 0,
+   "why": "C'est une litote : on dit moins pour dire plus. « C'est pas rien » = c'est beaucoup, ça compte."
+  },
+  {
+   "q": "Qu'est-ce que Camille reproche surtout à la direction ?",
+   "options": [
+    "D'avoir choisi quatre jours plutôt que trois",
+    "D'avoir décidé sans consulter les salariés",
+    "De ne pas rembourser les transports"
+   ],
+   "answer": 1,
+   "why": "« C'est surtout la manière. On nous met devant le fait accompli, sans même nous demander notre avis. »"
+  },
+  {
+   "q": "Pourquoi Thomas cherche-t-il un autre travail ?",
+   "options": [
+    "Il habite maintenant à Nantes",
+    "Il ne s'entend pas avec la direction",
+    "Il veut un meilleur salaire"
+   ],
+   "answer": 0,
+   "why": "Il a déménagé à Nantes pendant le confinement : quatre jours par semaine à Paris, pour lui, c'est impossible."
+  },
+  {
+   "q": "Pourquoi Julien hésite-t-il à parler à la réunion ?",
+   "options": [
+    "Il pense que sa proposition est mauvaise",
+    "Il sera absent jeudi",
+    "Il a peur de passer pour quelqu'un qui se plaint tout le temps"
+   ],
+   "answer": 2,
+   "why": "« Je vais passer pour le râleur de service. » Râler = se plaindre ; « de service » = celui qui joue toujours ce rôle."
+  },
+  {
+   "q": "Comment la conversation se termine-t-elle ?",
+   "options": [
+    "Ils renoncent à intervenir",
+    "Ils décident de proposer ensemble deux jours au bureau",
+    "Julien décide de chercher un autre poste"
+   ],
+   "answer": 1,
+   "why": "Camille promet de soutenir Julien, et il accepte : « Bon, ça marche. Mais c'est toi qui commences ! »"
+  }
+ ],
+ "notes": [
+  "The ne disappears in speech: j'arrive pas, j'ai jamais été, c'est pas rien, tu trouves pas, ça m'étonnerait pas.",
+  "t'as = tu as. ouais = oui. bosser = travailler. plein de trucs = beaucoup de choses.",
+  "ça m'a refroidi: it cooled my enthusiasm. ça m'arrange: it suits me.",
+  "décrocher: literally 'to unhook'; here, to switch off from work.",
+  "n'empêche que…: 'all the same', 'even so'. It concedes the point, then pushes back.",
+  "de là à + infinitive: 'but to go as far as…'. Julien leaves the sentence open, which is very common in speech.",
+  "mettre quelqu'un devant le fait accompli: to present someone with a decision already made.",
+  "je doute que ça ait changé: douter que takes the subjunctive (here, the past subjunctive).",
+  "Si, c'est vrai: si, not oui, because Julien is answering a negative question (tu trouves pas… ?).",
+  "histoire de + infinitive: 'just so as to'. y laisser sa santé: to ruin your health over it.",
+  "ça se défend: 'that's a defensible view'. Tu parles !: ironic, 'yeah, right!'.",
+  "le râleur de service: the resident moaner. 'de service' marks someone who always plays the same part."
+ ]
+}

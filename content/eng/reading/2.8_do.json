@@ -1,0 +1,176 @@
+{
+ "title": "What Do You Want to Do?",
+ "level": "a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 2 readers",
+ "type": "reader",
+ "legacy": "stories/2.8_do.html",
+ "img_dir": "img/ytstory/2.8_do/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/2.8_do/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "What do you want to do?",
+      1
+     ]
+    ],
+    [
+     [
+      "Hmm...",
+      2
+     ]
+    ],
+    [
+     [
+      "Let me think.",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "Do you want to play?",
+      4
+     ]
+    ],
+    [
+     [
+      "Maybe later.",
+      5
+     ]
+    ],
+    [
+     [
+      "I want to do something else.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "Do you want to read?",
+      7
+     ]
+    ],
+    [
+     [
+      "I like books.",
+      8
+     ]
+    ],
+    [
+     [
+      "But not right now.",
+      9
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "How about drawing?",
+      10
+     ]
+    ],
+    [
+     [
+      "That sounds fun!",
+      11
+     ]
+    ],
+    [
+     [
+      "I like to draw.",
+      12
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "Do you want to watch something?",
+      13
+     ]
+    ],
+    [
+     [
+      "No, thank you.",
+      14
+     ]
+    ],
+    [
+     [
+      "I don’t want to watch TV.",
+      15
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "I know!",
+      16
+     ]
+    ],
+    [
+     [
+      "I want to go outside.",
+      17
+     ]
+    ],
+    [
+     [
+      "Can we go, Mom?",
+      18
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "Yes, we can.",
+      19
+     ]
+    ],
+    [
+     [
+      "That sounds fun!",
+      20
+     ]
+    ],
+    [
+     [
+      "Let’s go!",
+      21
+     ]
+    ]
+   ]
+  }
+ ]
+}

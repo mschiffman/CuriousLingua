@@ -1,0 +1,239 @@
+{
+ "title": "The Bundle of Sticks",
+ "level": "a2",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Aesop's fables",
+ "type": "reader",
+ "legacy": "stories/bundle_sticks.html",
+ "img_dir": "img/ytstory/bundle_sticks/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/bundle_sticks/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "The Bundle of Sticks",
+      1
+     ]
+    ],
+    [
+     [
+      "A father had three sons.",
+      2
+     ]
+    ],
+    [
+     [
+      "They argued every day.",
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "The father wanted to help them.",
+      4
+     ]
+    ],
+    [
+     [
+      "He tied some sticks together.",
+      5
+     ]
+    ],
+    [
+     [
+      "\"Come here, boys,\"",
+      6
+     ],
+     [
+      "he said.",
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "He gave the sticks",
+      8
+     ],
+     [
+      "to his oldest son.",
+      9
+     ]
+    ],
+    [
+     [
+      "\"Try to break them,\"",
+      10
+     ],
+     [
+      "he said.",
+      11
+     ]
+    ],
+    [
+     [
+      "The boy tried,",
+      12
+     ],
+     [
+      "but he could not.",
+      13
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "The other boys tried, too.",
+      14
+     ]
+    ],
+    [
+     [
+      "They pulled and bent the sticks.",
+      15
+     ]
+    ],
+    [
+     [
+      "But the sticks did not break.",
+      16
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "Then the father untied the sticks.",
+      17
+     ]
+    ],
+    [
+     [
+      "He gave each boy one stick.",
+      18
+     ]
+    ],
+    [
+     [
+      "\"Now try again,\"",
+      19
+     ],
+     [
+      "he said.",
+      20
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "Snap!",
+      21
+     ],
+     [
+      "Each boy broke his stick.",
+      22
+     ]
+    ],
+    [
+     [
+      "\"That was easy!\"",
+      23
+     ],
+     [
+      "they said.",
+      24
+     ]
+    ],
+    [
+     [
+      "Their father smiled.",
+      25
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "\"These sticks are like you,\"",
+      26
+     ],
+     [
+      "he said.",
+      27
+     ]
+    ],
+    [
+     [
+      "\"Together, you are strong.",
+      28
+     ]
+    ],
+    [
+     [
+      "Help each other every day.\"",
+      29
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "The boys stopped arguing.",
+      30
+     ]
+    ],
+    [
+     [
+      "They worked together",
+      31
+     ],
+     [
+      "and helped each other.",
+      32
+     ]
+    ],
+    [
+     [
+      "Moral:",
+      33
+     ],
+     [
+      "We are stronger together.",
+      34
+     ]
+    ]
+   ]
+  }
+ ]
+}

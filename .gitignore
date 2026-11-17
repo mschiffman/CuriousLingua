@@ -1,0 +1,12 @@
+# audio lives on R2; media/ is the local copy
+media/
+# generated offline copies and caches
+*/single/
+.build_cache/
+__pycache__/
+# working folders
+_reports/
+site.zip
+node_modules/
+# Claude session folders
+.claude/

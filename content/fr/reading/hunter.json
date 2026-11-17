@@ -1,0 +1,407 @@
+{
+ "title": "La vie de nos ancêtres",
+ "subtitle": "Chacun avait quelque chose à apporter",
+ "level": "a2",
+ "topic": "History",
+ "type": "text",
+ "register": "neutral-standard",
+ "review": "English lines, IPA and word notes were written by Claude: check them.",
+ "img": "img/Fr-read/hunter.jpg",
+ "img_alt": "Hunter-gatherers by a river: a man shaping stone tools, a woman with a basket of berries, a child, and a hunter coming back",
+ "support": [
+  "en"
+ ],
+ "paragraphs": [
+  [
+   {
+    "text": "Il y a très longtemps, avant les royaumes et les villes, avant les champs et les maisons, nos ancêtres vivaient grâce à la nature.",
+    "tr": {
+     "en": "A very long time ago, before kingdoms and cities, before fields and houses, our ancestors lived thanks to nature."
+    },
+    "gloss": {
+     "royaumes": [
+      "/ʀwajom/",
+      "kingdoms",
+      "un royaume"
+     ],
+     "champs": [
+      "/ʃɑ̃/",
+      "fields",
+      "un champ"
+     ],
+     "ancêtres": [
+      "/ɑ̃sɛtʀ/",
+      "ancestors",
+      "un ancêtre"
+     ]
+    }
+   },
+   {
+    "text": "Elle était généreuse avec eux.",
+    "tr": {
+     "en": "It was generous with them."
+    }
+   }
+  ],
+  [
+   {
+    "text": "Le matin, au lever du soleil, un petit groupe se réveillait sous les arbres.",
+    "tr": {
+     "en": "In the morning, at sunrise, a small group woke up under the trees."
+    },
+    "gloss": {
+     "se réveillait": [
+      "/sə ʀevɛjɛ/",
+      "woke up",
+      "se réveiller"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Des hommes partaient avec des lances.",
+    "tr": {
+     "en": "Some men set off with spears."
+    },
+    "gloss": {
+     "lances": [
+      "/lɑ̃s/",
+      "spears",
+      "une lance"
+     ]
+    }
+   },
+   {
+    "text": "Ils suivaient les traces des animaux dans la forêt.",
+    "tr": {
+     "en": "They followed the tracks of animals in the forest."
+    },
+    "gloss": {
+     "traces": [
+      "/tʀas/",
+      "tracks, footprints",
+      "une trace"
+     ]
+    }
+   },
+   {
+    "text": "Pour chasser, il fallait de la patience, du courage, et très bien connaître la nature.",
+    "tr": {
+     "en": "To hunt, you needed patience, courage, and to know nature very well."
+    },
+    "gloss": {
+     "chasser": [
+      "/ʃase/",
+      "to hunt",
+      "chasser / la chasse"
+     ]
+    }
+   },
+   {
+    "text": "Si la chasse marchait bien, c’était la fête : un grand repas !",
+    "tr": {
+     "en": "If the hunt went well, it was a celebration: a big meal!"
+    },
+    "gloss": {
+     "chasse": [
+      "/ʃas/",
+      "hunt, hunting",
+      "chasser / la chasse"
+     ]
+    }
+   },
+   {
+    "text": "Sinon, ils rentraient les mains vides.",
+    "tr": {
+     "en": "If not, they came back empty-handed."
+    },
+    "gloss": {
+     "rentraient les mains vides": [
+      "/ʀɑ̃tʀɛ le mɛ̃ vid/",
+      "came back empty-handed",
+      "rentrer les mains vides"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Pendant ce temps, les femmes ramassaient des racines, des baies, des noix et des feuilles qu’on peut manger.",
+    "tr": {
+     "en": "Meanwhile, the women gathered roots, berries, nuts and leaves that can be eaten."
+    },
+    "gloss": {
+     "ramassaient": [
+      "/ʀamasɛ/",
+      "picked up, gathered",
+      "ramasser"
+     ],
+     "racines": [
+      "/ʀasin/",
+      "roots",
+      "une racine"
+     ],
+     "baies": [
+      "/bɛ/",
+      "berries",
+      "une baie"
+     ]
+    }
+   },
+   {
+    "text": "Elles savaient énormément de choses.",
+    "tr": {
+     "en": "They knew a great many things."
+    }
+   },
+   {
+    "text": "Elles savaient quelles plantes nourrissent, quelles plantes soignent… et quelles plantes tuent.",
+    "tr": {
+     "en": "They knew which plants feed, which plants heal… and which plants kill."
+    },
+    "gloss": {
+     "nourrissent": [
+      "/nuʀis/",
+      "feed, nourish",
+      "nourrir"
+     ],
+     "soignent": [
+      "/swaɲ/",
+      "heal, treat",
+      "soigner"
+     ]
+    }
+   },
+   {
+    "text": "Souvent, la cueillette donnait plus de nourriture que la chasse, parce qu’elle était plus sûre.",
+    "tr": {
+     "en": "Often, gathering gave more food than hunting, because it was more reliable."
+    },
+    "gloss": {
+     "cueillette": [
+      "/kœjɛt/",
+      "gathering (of plants or fruit)",
+      "la cueillette"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Mais attention, ce n’étaient pas des règles fixes.",
+    "tr": {
+     "en": "But be careful, these were not fixed rules."
+    }
+   },
+   {
+    "text": "Parfois, les femmes chassaient et les hommes faisaient la cueillette.",
+    "tr": {
+     "en": "Sometimes the women hunted and the men did the gathering."
+    }
+   },
+   {
+    "text": "Chacun s’adaptait à la situation.",
+    "tr": {
+     "en": "Everyone adapted to the situation."
+    },
+    "gloss": {
+     "s’adaptait": [
+      "/sadaptɛ/",
+      "adapted",
+      "s’adapter"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Les grands-parents gardaient les enfants.",
+    "tr": {
+     "en": "The grandparents looked after the children."
+    }
+   },
+   {
+    "text": "Ils leur transmettaient leur sagesse.",
+    "tr": {
+     "en": "They passed their wisdom down to them."
+    },
+    "gloss": {
+     "transmettaient": [
+      "/tʀɑ̃smɛtɛ/",
+      "passed down",
+      "transmettre"
+     ],
+     "sagesse": [
+      "/saʒɛs/",
+      "wisdom",
+      "la sagesse"
+     ]
+    }
+   },
+   {
+    "text": "Ils se souvenaient aussi où trouver de la nourriture quand les saisons changeaient.",
+    "tr": {
+     "en": "They also remembered where to find food when the seasons changed."
+    }
+   }
+  ],
+  [
+   {
+    "text": "Le soir, tout le monde rentrait.",
+    "tr": {
+     "en": "In the evening, everyone came back."
+    }
+   },
+   {
+    "text": "Autour du feu, on partageait la nourriture, on racontait des histoires, et les enfants apprenaient les secrets pour survivre.",
+    "tr": {
+     "en": "Around the fire, they shared the food, told stories, and the children learned the secrets of survival."
+    },
+    "gloss": {
+     "survivre": [
+      "/syʀvivʀ/",
+      "to survive",
+      "survivre (survécu)"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Il n’y avait pas de supermarchés, pas d’instructions écrites, pas de cartes.",
+    "tr": {
+     "en": "There were no supermarkets, no written instructions, no maps."
+    },
+    "gloss": {
+     "cartes": [
+      "/kaʀt/",
+      "maps",
+      "une carte"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Seulement l’intelligence humaine, tout ce que les anciens savaient depuis des générations, et la force incroyable de l’entraide.",
+    "tr": {
+     "en": "Only human intelligence, everything the elders had known for generations, and the incredible strength of helping one another."
+    },
+    "gloss": {
+     "entraide": [
+      "/ɑ̃tʀɛd/",
+      "mutual help, cooperation",
+      "l’entraide (f.)"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "text": "Nos ancêtres ont survécu, pas parce que tout le monde faisait la même chose, mais parce que chacun avait quelque chose d’important à apporter.",
+    "tr": {
+     "en": "Our ancestors survived, not because everyone did the same thing, but because each one had something important to contribute."
+    },
+    "gloss": {
+     "survécu": [
+      "/syʀveky/",
+      "survived",
+      "survivre (survécu)"
+     ],
+     "apporter": [
+      "/apɔʀte/",
+      "to bring, to contribute",
+      "apporter"
+     ]
+    }
+   }
+  ]
+ ],
+ "glossary": [
+  {
+   "word": "un ancêtre",
+   "en": "an ancestor"
+  },
+  {
+   "word": "un royaume",
+   "en": "a kingdom"
+  },
+  {
+   "word": "un champ",
+   "en": "a field"
+  },
+  {
+   "word": "se réveiller",
+   "en": "to wake up"
+  },
+  {
+   "word": "une lance",
+   "en": "a spear"
+  },
+  {
+   "word": "une trace",
+   "en": "a track, a footprint"
+  },
+  {
+   "word": "chasser / la chasse",
+   "en": "to hunt / hunting"
+  },
+  {
+   "word": "rentrer les mains vides",
+   "en": "to come back empty-handed"
+  },
+  {
+   "word": "ramasser",
+   "en": "to pick up, to gather"
+  },
+  {
+   "word": "une racine",
+   "en": "a root"
+  },
+  {
+   "word": "une baie",
+   "en": "a berry"
+  },
+  {
+   "word": "la cueillette",
+   "en": "gathering (of plants or fruit)"
+  },
+  {
+   "word": "nourrir",
+   "en": "to feed, to nourish"
+  },
+  {
+   "word": "soigner",
+   "en": "to heal, to treat"
+  },
+  {
+   "word": "s’adapter",
+   "en": "to adapt"
+  },
+  {
+   "word": "transmettre",
+   "en": "to pass down"
+  },
+  {
+   "word": "la sagesse",
+   "en": "wisdom"
+  },
+  {
+   "word": "survivre (survécu)",
+   "en": "to survive (survived)"
+  },
+  {
+   "word": "une carte",
+   "en": "a map"
+  },
+  {
+   "word": "l’entraide (f.)",
+   "en": "mutual help, cooperation"
+  },
+  {
+   "word": "apporter",
+   "en": "to bring, to contribute"
+  }
+ ]
+}

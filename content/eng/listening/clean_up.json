@@ -1,0 +1,129 @@
+{
+ "title": "Clean Up, Please",
+ "subtitle": "Listen first, then read",
+ "level": "a1",
+ "topic": "Listen and answer",
+ "type": "dialogue",
+ "intro": "Press Hide text, then Play all. How much can you understand with your ears only?",
+ "aud_shared": true,
+ "aud_dir": "eng/yt/2.7_clean/",
+ "aud_ext": "mp3",
+ "lines": [
+  {
+   "n": 1,
+   "text": "Oh my!"
+  },
+  {
+   "n": 2,
+   "text": "Look at this room."
+  },
+  {
+   "n": 3,
+   "text": "Clean up, please."
+  },
+  {
+   "n": 4,
+   "text": "Pick up your toys."
+  },
+  {
+   "n": 5,
+   "text": "Okay, Mom."
+  },
+  {
+   "n": 6,
+   "text": "I pick up my toys."
+  },
+  {
+   "n": 7,
+   "text": "Put your books on the shelf."
+  },
+  {
+   "n": 8,
+   "text": "This book goes here."
+  },
+  {
+   "n": 9,
+   "text": "Now the shelf is tidy."
+  },
+  {
+   "n": 10,
+   "text": "Put the blocks in the box."
+  },
+  {
+   "n": 11,
+   "text": "I put them in the box."
+  },
+  {
+   "n": 12,
+   "text": "The box is full!"
+  },
+  {
+   "n": 13,
+   "text": "Put your crayons on the table."
+  },
+  {
+   "n": 14,
+   "text": "Here they are."
+  },
+  {
+   "n": 15,
+   "text": "Now they are neat."
+  },
+  {
+   "n": 16,
+   "text": "This goes here."
+  },
+  {
+   "n": 17,
+   "text": "That goes there."
+  },
+  {
+   "n": 18,
+   "text": "I’m almost done."
+  },
+  {
+   "n": 19,
+   "text": "All clean!"
+  },
+  {
+   "n": 20,
+   "text": "Good job, Mia."
+  },
+  {
+   "n": 21,
+   "text": "Thank you, Mom."
+  }
+ ],
+ "questions": [
+  {
+   "q": "Who is cleaning the room?",
+   "options": [
+    "Mom",
+    "Mia",
+    "Dad"
+   ],
+   "answer": 1,
+   "why": "Mom says: Good job, Mia."
+  },
+  {
+   "q": "Where do the blocks go?",
+   "options": [
+    "On the shelf",
+    "On the table",
+    "In the box"
+   ],
+   "answer": 2,
+   "why": "Put the blocks in the box."
+  },
+  {
+   "q": "Where do the books go?",
+   "options": [
+    "On the shelf",
+    "In the box",
+    "On the bed"
+   ],
+   "answer": 0,
+   "why": "Put your books on the shelf."
+  }
+ ]
+}

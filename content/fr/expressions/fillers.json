@@ -1,0 +1,161 @@
+{
+ "title": "Interjections & Fillers",
+ "subtitle": "Les petits mots de l'oral",
+ "level": "b1",
+ "level_provisional": true,
+ "strand": "expressions",
+ "topic": "Conversational",
+ "type": "cards",
+ "legacy": "fr/expression/fillers.html",
+ "aud_dir": "lessons/Expressions/fillers/",
+ "aud_ext": "mp3?v=2610231933",
+ "categories": [
+  {
+   "en": "Getting attention",
+   "fr": "Interpeller",
+   "desc": "Little words that make people look, listen or wait.",
+   "cards": [
+    [
+     "Dis donc !",
+     "Hey! / Wow!",
+     "Gets attention or shows mild surprise. Formal or plural: dites donc ! Also a reproach: dis donc, tu pourrais dire merci !",
+     "Dis donc, ils ont mis le paquet pour la déco !",
+     "Wow, they've really gone all out on the decorations!"
+    ],
+    [
+     "Tiens !",
+     "Well, look! / Here!",
+     "Surprise (tiens, il pleut), or handing something over (tiens, c'est pour toi). Formal: tenez.",
+     "Tiens, regarde qui voilà !",
+     "Well, look who's here!"
+    ],
+    [
+     "Attends !",
+     "Hang on! / Wait!",
+     "Stops someone, or signals a realisation or correction. Formal: attendez !",
+     "Attends, il en reste encore dans le frigo.",
+     "Hang on, there's still some left in the fridge."
+    ],
+    [
+     "Écoute…",
+     "Look… / Listen…",
+     "Opens something serious or a firm point. Formal: écoutez…",
+     "Écoute, je n'ai pas le temps de discuter.",
+     "Look, I don't have time to argue."
+    ],
+    [
+     "Regarde !",
+     "Look!",
+     "Points something out. Also, like écoute, before a firm point: regarde, c'est simple.",
+     "Regarde, il y a un écureuil sur la branche !",
+     "Look, there's a squirrel on the branch!"
+    ]
+   ]
+  },
+  {
+   "en": "Reacting",
+   "fr": "Réagir",
+   "desc": "Surprise, scolding, shrugging, insisting.",
+   "cards": [
+    [
+     "Bah alors ?",
+     "Hey, what's going on? / Come on!",
+     "When something seems wrong or needs a little scolding. Very casual.",
+     "Bah alors, qu'est-ce que tu fais encore en pyjama ?",
+     "Come on, what are you doing still in your pyjamas?"
+    ],
+    [
+     "Eh ben alors ?",
+     "Hey, what's wrong?",
+     "Softer and more caring than bah alors. Often to a child who's upset.",
+     "Eh ben alors, qu'est-ce qu'il y a, mon cœur ?",
+     "Hey, what's the matter, sweetheart?"
+    ],
+    [
+     "Et alors ?",
+     "So what?",
+     "Challenges or dismisses what was just said. Also as a genuine ‘and then?’ in a story.",
+     "— Il n'aime pas ton idée. — Et alors ?",
+     "— He doesn't like your idea. — So what?"
+    ],
+    [
+     "Quand même !",
+     "Honestly! / Come on!",
+     "Indignation or insistence: c'est cher, quand même ! At the end of a sentence it also means ‘still, all the same’.",
+     "Tu aurais pu prévenir, quand même !",
+     "Honestly, you could have warned me!"
+    ],
+    [
+     "Bon…",
+     "Right… / OK then…",
+     "Announces a decision, a change of topic or the end of a chat. Bon ben… : well then…",
+     "Bon, on y va ?",
+     "Right, shall we go?"
+    ],
+    [
+     "Ouais.",
+     "Yeah.",
+     "Informal oui. Sceptical, drawn out: ouais, ouais… (yeah, right…)",
+     "— Tu viens ce soir ? — Ouais, je pense.",
+     "— Are you coming tonight? — Yeah, I think so."
+    ]
+   ]
+  },
+  {
+   "en": "Keeping the conversation going",
+   "fr": "Relancer la conversation",
+   "desc": "Changing topic, adding a thought, checking in.",
+   "cards": [
+    [
+     "Tu sais…",
+     "You know…",
+     "Softens what follows and draws the listener in. Formal: vous savez…",
+     "Tu sais, il ne me demande jamais rien.",
+     "You know, he never asks me for anything."
+    ],
+    [
+     "Au fait, …",
+     "By the way, …",
+     "Brings up something new. The t is pronounced: o fèt. Also à propos, … (by the way).",
+     "Au fait, Jacques m'a appelée hier.",
+     "By the way, Jacques called me yesterday."
+    ],
+    [
+     "En parlant de ça, …",
+     "Speaking of which, …",
+     "Links to what was just said. Also à propos de ça.",
+     "En parlant de ça, tu as vu le nouveau film d'Ozon ?",
+     "Speaking of which, have you seen the new Ozon film?"
+    ],
+    [
+     "…, non ?",
+     "…, right? / …, isn't it?",
+     "Tacked on to ask for agreement: c'est joli, non ? Also …, hein ? (more casual) or …, c'est ça ?",
+     "Il fait beau aujourd'hui, non ?",
+     "It's lovely today, isn't it?"
+    ],
+    [
+     "En vrai, …",
+     "Honestly, … / Actually, …",
+     "Young and casual: to be honest, really. Also as a question: en vrai ? (seriously?)",
+     "En vrai, t'as raison, on devrait partir plus tôt.",
+     "Honestly, you're right, we should leave earlier."
+    ],
+    [
+     "En tout cas, …",
+     "Anyway, … / In any case, …",
+     "Wraps up or moves on, whatever else is true.",
+     "En tout cas, tu gardes ça pour toi.",
+     "In any case, you keep this to yourself."
+    ],
+    [
+     "Effectivement.",
+     "Indeed. / That's right.",
+     "Confirms what someone said. Also en effet (more formal).",
+     "— Le magasin ferme à midi le samedi ? — Effectivement.",
+     "— Does the shop close at noon on Saturdays? — That's right."
+    ]
+   ]
+  }
+ ]
+}

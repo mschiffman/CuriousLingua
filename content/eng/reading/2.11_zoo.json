@@ -1,0 +1,307 @@
+{
+ "title": "We're Going to the Zoo!",
+ "level": "a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 2 readers",
+ "type": "reader",
+ "legacy": "stories/2.11_zoo.html",
+ "img_dir": "img/ytstory/2.11_zoo/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/2.11_zoo/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "Mia, wake up!",
+      1
+     ]
+    ],
+    [
+     [
+      "We're going to the zoo today.",
+      2
+     ]
+    ],
+    [
+     [
+      "The zoo?",
+      3
+     ]
+    ],
+    [
+     [
+      "Yay!",
+      4
+     ]
+    ],
+    [
+     [
+      "I want to see the elephants!",
+      5
+     ]
+    ],
+    [
+     [
+      "Then let's get ready.",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "What do you want to wear?",
+      7
+     ]
+    ],
+    [
+     [
+      "My pink shirt and blue shorts.",
+      8
+     ]
+    ],
+    [
+     [
+      "Good choice.",
+      9
+     ]
+    ],
+    [
+     [
+      "It's warm outside.",
+      10
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "Where are my shoes?",
+      11
+     ]
+    ],
+    [
+     [
+      "Look under the bed.",
+      12
+     ]
+    ],
+    [
+     [
+      "Oh!",
+      13
+     ]
+    ],
+    [
+     [
+      "Here they are.",
+      14
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "Put them on, please.",
+      15
+     ]
+    ],
+    [
+     [
+      "And don't forget your hat.",
+      16
+     ]
+    ],
+    [
+     [
+      "Okay, Mom.",
+      17
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "Do I need my backpack?",
+      18
+     ]
+    ],
+    [
+     [
+      "Yes.",
+      19
+     ]
+    ],
+    [
+     [
+      "Put your water bottle in it.",
+      20
+     ]
+    ],
+    [
+     [
+      "Can I take a snack too?",
+      21
+     ]
+    ],
+    [
+     [
+      "Of course.",
+      22
+     ]
+    ],
+    [
+     [
+      "Take a banana.",
+      23
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "I have my hat, my water, and my snack.",
+      24
+     ]
+    ],
+    [
+     [
+      "I'm ready!",
+      25
+     ]
+    ],
+    [
+     [
+      "Do you have everything?",
+      26
+     ]
+    ],
+    [
+     [
+      "Hmm... wait!",
+      27
+     ]
+    ],
+    [
+     [
+      "I need my sunglasses.",
+      28
+     ]
+    ],
+    [
+     [
+      "They're on the table.",
+      29
+     ]
+    ],
+    [
+     [
+      "Got them!",
+      30
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "Now I'm ready.",
+      31
+     ]
+    ],
+    [
+     [
+      "Great.",
+      32
+     ]
+    ],
+    [
+     [
+      "Let's go!",
+      33
+     ]
+    ],
+    [
+     [
+      "Yay!",
+      34
+     ]
+    ],
+    [
+     [
+      "I hope we see the monkeys!",
+      35
+     ]
+    ],
+    [
+     [
+      "I'm sure we will.",
+      36
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "What about the giraffes?",
+      37
+     ]
+    ],
+    [
+     [
+      "We'll see them too.",
+      38
+     ]
+    ],
+    [
+     [
+      "This is going to be fun!",
+      39
+     ]
+    ],
+    [
+     [
+      "Yes, it is.",
+      40
+     ]
+    ],
+    [
+     [
+      "Come on, zoo girl!",
+      41
+     ]
+    ],
+    [
+     [
+      "I'm coming, Mom!",
+      42
+     ]
+    ]
+   ]
+  }
+ ]
+}

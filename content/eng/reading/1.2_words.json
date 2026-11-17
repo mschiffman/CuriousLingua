@@ -1,0 +1,151 @@
+{
+ "title": "Reading words",
+ "level": "pre-a1",
+ "level_provisional": true,
+ "strand": "reading",
+ "topic": "Level 1 readers",
+ "type": "reader",
+ "legacy": "stories/1.2_words.html",
+ "img_dir": "img/ytstory/1.2_words/",
+ "img_ext": "jpg",
+ "aud_dir": "eng/yt/1.2_words/",
+ "aud_ext": "mp3",
+ "pages": [
+  {
+   "img": 1,
+   "sentences": [
+    [
+     [
+      "Let's read words.",
+      1
+     ]
+    ],
+    [
+     [
+      "Look and listen.",
+      2
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "sentences": [
+    [
+     [
+      "b-o-o-k",
+      3
+     ]
+    ],
+    [
+     [
+      "book",
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "sentences": [
+    [
+     [
+      "p-e-n",
+      5
+     ]
+    ],
+    [
+     [
+      "pen",
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "sentences": [
+    [
+     [
+      "c-u-p",
+      7
+     ]
+    ],
+    [
+     [
+      "cup",
+      8
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "sentences": [
+    [
+     [
+      "b-a-g",
+      9
+     ]
+    ],
+    [
+     [
+      "bag",
+      10
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "sentences": [
+    [
+     [
+      "c-a-t",
+      11
+     ]
+    ],
+    [
+     [
+      "cat",
+      12
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "sentences": [
+    [
+     [
+      "d-o-g",
+      13
+     ]
+    ],
+    [
+     [
+      "dog",
+      14
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "sentences": [
+    [
+     [
+      "I can read words!",
+      15
+     ]
+    ],
+    [
+     [
+      "book, pen, cup, bag, cat, dog",
+      16
+     ]
+    ]
+   ]
+  }
+ ]
+}
