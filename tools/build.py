@@ -353,7 +353,8 @@ CARDS_BLOBS = '''<div class="pointer-events-none fixed left-0 top-0 z-0 h-full w
 
 # A themed word list: tap a word to hear it; hide one language to test yourself.
 WORDS = """<section x-data="words" class="mt-6">
-<div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
+<img x-show="hero" x-cloak :src="hero" :alt="alt" class="wl-hero">
+<div class="mt-4 flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
 <button class="btn" :class="hideEn && 'btn-on'" @click="hideEn = !hideEn" x-text="hideEn ? 'Show English' : 'Hide English'"></button>
 <button class="btn" :class="hideFr && 'btn-on'" @click="hideFr = !hideFr" x-text="hideFr ? 'Show the words' : 'Hide the words'"></button>
 <span class="text-sm text-muted">Tap a word to hear it.</span>
@@ -414,6 +415,7 @@ HOTSPOTS = """<section x-data="hotspots" class="mt-6">
 
 # The few styles those two pages need beyond the site's own (kept here so the compiled site.css does not have to be rebuilt).
 PICTURE_CSS = """<style>
+.wl-hero{display:block;width:100%;max-height:24rem;object-fit:contain;border:1px solid #E4DCCF;border-radius:1rem;background:#fff}
 .wl-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr))}
 .wl-row{display:flex;align-items:center;gap:.75rem;text-align:left;border:1px solid #E4DCCF;background:#fff;border-radius:1rem;padding:.6rem .8rem;transition:border-color .15s}
 .wl-row:hover,.wl-on{border-color:rgb(var(--accent))}

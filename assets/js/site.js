@@ -274,6 +274,7 @@
     /* ---- words: a themed word list; tap a word to hear it, hide one side to test yourself ---- */
     Alpine.data("words", () => ({
       ...common(), groups: L.groups || [], hideEn: false, hideFr: false, said: 0,
+      hero: L.img ? media(ROOT + L.img) : "", alt: L.img_alt || "",   // an optional opening picture
       /* a word with its own file ("audio", in glossary_dir) plays that; the others are numbered clips */
       hear(w) { this.said = w.n; if (w.audio) { stop(); playWord(w.audio); } else this.say(w.n); },
     }));

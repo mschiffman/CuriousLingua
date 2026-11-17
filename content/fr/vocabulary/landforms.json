@@ -7,6 +7,8 @@
  "type": "words",
  "legacy": "fr/grammar/noun/landforms.html",
  "review": "Imported from the old landforms page: the words, pronunciations and recordings are the old ones. The level is a guess.",
+ "img": "img/landform/landforms.svg",
+ "img_alt": "An illustrated map of the landforms on this page, labelled in English",
  "glossary_dir": "lessons/noun/landforms/",
  "groups": [
   {

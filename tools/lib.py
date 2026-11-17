@@ -126,7 +126,7 @@ def images(L):
     if L.get("type") == "reader" and L.get("img_dir"):
         ext = L.get("img_ext", "jpg")
         return [f"{L['img_dir']}{p['img']}.{ext}" for p in L.get("pages", []) if p.get("img")]
-    if L.get("type") == "text" and L.get("img"):
+    if L.get("type") in ("text", "words") and L.get("img"):
         return [L["img"]]
     if L.get("type") == "hotspots":
         return [s["img"] for s in L.get("slides", []) if s.get("img")]
