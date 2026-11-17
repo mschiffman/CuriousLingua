@@ -83,7 +83,7 @@ Imported lessons carry `"level_provisional": true`: the level is a guess from th
 
 ## Publishing
 
-This folder is a git repository; its remote is the public GitHub repository `mschiffman/CuriousLingua` (branch `main`). `5_publish.bat` rebuilds, commits and pushes. To put the site online, point a Cloudflare Pages project at that repository (no build command, output directory `/`). `media\`, the offline copies and the working folders are in `.gitignore`.
+This folder is a git repository; its remote is the public GitHub repository `mschiffman/CuriousLingua` (branch `main`). `5_publish.bat` rebuilds, commits and pushes. The site is online at https://curiouslingua.mschiffm.workers.dev/ : the Cloudflare Worker `curiouslingua` rebuilds it from `main` after every push (`wrangler.jsonc` serves this folder as a static site; `.assetsignore` lists what stays off the live site). `media\`, the offline copies and the working folders are in `.gitignore`.
 
 ## Changing the design
 

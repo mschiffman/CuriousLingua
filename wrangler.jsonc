@@ -5,5 +5,7 @@
   "compatibility_date": "2026-11-17",
   "assets": {
     "directory": "./"
-  }
+  },
+  // lets Cloudflare build a preview copy of any branch other than main (it runs `wrangler preview` for those)
+  "previews": {}
 }
