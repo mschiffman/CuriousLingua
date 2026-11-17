@@ -1,0 +1,173 @@
+{
+ "title": "La première amitié : exercices",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "friendship",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. Vrai ou faux",
+   "items": [
+    {
+     "q": "À cette époque, il y avait déjà de grandes villes.",
+     "answer": false
+    },
+    {
+     "q": "La glace couvrait une grande partie de la Terre.",
+     "answer": true
+    },
+    {
+     "q": "On sait exactement comment les humains et les loups se sont rencontrés.",
+     "answer": false
+    },
+    {
+     "q": "Les loups entendent très bien et ont un très bon flair.",
+     "answer": true
+    },
+    {
+     "q": "Les loups sont devenus des chiens en quelques années.",
+     "answer": false
+    },
+    {
+     "q": "En Turquie, on enterrait les chiots avec beaucoup de soin.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Questions à choix multiples",
+   "items": [
+    {
+     "q": "Quels sont les deux animaux qui sont devenus amis ?",
+     "options": [
+      "L’humain et le cheval",
+      "L’humain et le loup",
+      "Le loup et le chat"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Pourquoi certains loups restaient-ils près des camps ?",
+     "options": [
+      "Parce que ça sentait bon la nourriture",
+      "Parce qu’il y faisait chaud",
+      "Parce qu’ils étaient malades"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Que sont devenus les loups qui acceptaient les humains ?",
+     "options": [
+      "Des renards",
+      "Des chiens",
+      "Des ours"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Qu’est-ce que les archéologues ont trouvé dans de très vieux villages ?",
+     "options": [
+      "Des maisons pour les chiens",
+      "Des dessins de loups",
+      "Des os de chiens"
+     ],
+     "answer": 2
+    },
+    {
+     "q": "D’après le texte, qu’est-ce que les chiens nous ont donné ?",
+     "options": [
+      "De la nourriture",
+      "Un amour donné sans rien demander",
+      "Un abri"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complétez les phrases",
+   "items": [
+    {
+     "before": "La",
+     "answer": "glace",
+     "after": "couvrait une grande partie de la Terre."
+    },
+    {
+     "before": "Les loups entendent très bien et ils ont un super",
+     "answer": "flair",
+     "after": "."
+    },
+    {
+     "before": "La",
+     "answer": "confiance",
+     "after": "est venue petit à petit."
+    },
+    {
+     "before": "Il y a 15 800 ans, les chiens",
+     "answer": "partageaient",
+     "after": "déjà la vie des humains."
+    },
+    {
+     "before": "Nous avons donné aux chiens de la nourriture, un",
+     "answer": "abri",
+     "after": "et de la compagnie."
+    },
+    {
+     "before": "L’humanité a gagné un",
+     "answer": "ami",
+     "after": "pour la vie."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Questions ouvertes",
+   "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
+   "items": [
+    {
+     "q": "Comment était le monde quand cette amitié a commencé ?",
+     "model": "Il n’y avait pas de villes, pas de fermes, pas d’écriture, et la glace couvrait une grande partie de la Terre."
+    },
+    {
+     "q": "Pourquoi les loups étaient-ils utiles aux humains ?",
+     "model": "Parce qu’ils entendent très bien et qu’ils ont un super flair. Dans un monde dangereux, c’est très utile."
+    },
+    {
+     "q": "Qu’est-ce que les humains ont donné aux chiens ?",
+     "model": "De la nourriture, un abri et de la compagnie."
+    },
+    {
+     "q": "Qu’est-ce que les chiens ont donné aux humains ?",
+     "model": "Ils les ont protégés, ils ont été fidèles, et ils leur ont donné un amour sans rien demander."
+    },
+    {
+     "q": "Avez-vous un animal ? Qu’est-ce qu’il vous apporte ?",
+     "model": "Réponse libre."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Remettez dans l’ordre",
+   "intro": "Remettez les étapes de cette amitié dans le bon ordre.",
+   "items": [
+    "Des loups restent près des camps des humains",
+    "La confiance vient petit à petit",
+    "Les loups qui acceptent les humains deviennent des chiens",
+    "Les chiens partagent la vie des humains dans les villages",
+    "Des civilisations naissent et disparaissent, mais l’amitié reste"
+   ],
+   "start": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ]
+  }
+ ]
+}

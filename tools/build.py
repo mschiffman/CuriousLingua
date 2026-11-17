@@ -415,7 +415,8 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
     if L.get("type") == "reader":   # one screen: the picture stays put, the text scrolls beside or under it
         end = f'''<div class="flex flex-wrap items-center gap-3" x-data="progress('{L["id"]}')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '\\u2713 Done' : 'Mark as done'"></button>{off}
-{f'<a class="btn" href="{r}{nxt["url"]}">Next: {e(nxt.get("title", ""))} &rarr;</a>' if nxt else ""}</div>'''
+{"".join(f'<a class="btn" href="{r}{x["url"]}">{e(x.get("label", "Practice"))}</a>' for x in supplements)}
+{f'<a class="btn" href="{r}{nxt["url"]}">Next: {e(nxt.get("title", ""))} &rarr;</a>' if nxt else ""}</div>'''   # a reader has no room for the Supplemental section: its practice pages are buttons at the end
         if L.get("questions"):
             end = QUIZ.replace("mt-12 ", "") + end
         body = (READER.replace("__END__", end).replace("__PLAY__", ICON_PLAY).replace("__IMG__", ICON_IMG).replace("__TITLE__", e(title))
