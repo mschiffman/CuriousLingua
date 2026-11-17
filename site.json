@@ -32,6 +32,7 @@
   "eng": {
    "name": "English", "native": "အင်္ဂလိပ်စာ", "native_lang": "my", "lang": "en", "for": "For children in Myanmar", "range": "Starter to C1",
    "tagline": "Stories, pictures and everyday English, with Burmese when you need it.",
+   "offline_url": "https://drive.google.com/drive/folders/1muLyAmx-wRvD1Fj1bXswh5zyvkpzlfKk?usp=sharing",
    "levels": ["pre-a1", "a1", "a2", "b1", "b2", "c1"],
    "strands": ["reading", "listening", "speaking", "vocabulary", "grammar", "pronunciation"],
    "can": {

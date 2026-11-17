@@ -1,8 +1,8 @@
 {
  "title": "La maison : carte mentale",
- "subtitle": "Opens on Google Drive",
+ "subtitle": "The words as a mind map",
  "label": "Mind map",
- "type": "link",
+ "type": "page",
  "supplement_of": "house",
- "href": "https://drive.google.com/file/d/1z2curYyqmd0Bq9-_N7GkOIIqPGN9_isk/view?usp=drive_link"
+ "review": "Made by Claude from the lesson's words. The five groups are my own: check that they suit you."
 }

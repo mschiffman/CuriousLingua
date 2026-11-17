@@ -67,9 +67,11 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
 <nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu">{menu}</nav>
 </details>
 </div>{sub}</header>'''
+    off_url = C["courses"][course].get("offline_url") if course else None   # where this course's offline copies are handed out (Google Drive)
+    offline = f'<a class="hover:text-accent" href="{e(off_url)}" target="_blank" rel="noopener">Offline lessons (Google Drive)</a>' if off_url else ""
     footer = f'''<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
 <span class="font-display text-base font-semibold text-ink">{e(C["site_name"])}</span>
-<span>Free for everyone. No account, no paywall.</span></div></footer>'''
+<span>Free for everyone. No account, no paywall.</span>{offline}</div></footer>'''
     if "site" not in cls.split():
         header = footer = ""
     if not foot:
@@ -576,7 +578,8 @@ def course_home(k, items):
 <p class="flex flex-wrap gap-2"><span class="chip chip-accent">{e(c["for"])}</span><span class="chip">{e(c["range"])}</span></p>
 <h1 class="mt-4 text-5xl font-semibold tracking-tight sm:text-6xl">{e(c["name"])} <span class="font-display italic text-accent" lang="{c.get("native_lang", c["lang"])}">{e(c["native"])}</span></h1>
 <p class="mt-4 max-w-2xl text-xl text-muted">{e(c["tagline"])}</p>
-<div class="mt-6 flex flex-wrap gap-3"><a class="btn btn-primary" href="#levels">Start where you are</a><a class="btn" href="#skills">Pick a skill</a></div>
+<div class="mt-6 flex flex-wrap gap-3"><a class="btn btn-primary" href="#levels">Start where you are</a><a class="btn" href="#skills">Pick a skill</a>{f'<a class="btn" href="{e(c["offline_url"])}" target="_blank" rel="noopener">Offline lessons</a>' if c.get("offline_url") else ""}</div>
+{'<p class="mt-3 max-w-2xl text-sm text-muted">No internet? Every lesson is also one file you can download from Google Drive and open on a tablet or computer, with its pictures and sound inside.</p>' if c.get("offline_url") else ""}
 </div></section>
 <section id="levels" class="wrap scroll-mt-28 py-12"><h2 class="text-3xl font-semibold">Start where you are</h2>
 <p class="mt-1 text-muted">Not sure of your level? Pick the one whose lessons look just slightly too hard.</p>{grid([levels])}</section>
