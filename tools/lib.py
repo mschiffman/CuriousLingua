@@ -4,6 +4,7 @@ import json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEVEL_ORDER = ["pre-a1", "a1", "a2", "b1", "b2", "c1"]
+HAND = ("game", "page")   # hand-made pages: the build lists them but never writes them
 
 
 def cfg():
@@ -27,6 +28,12 @@ def normalize(L):
     if L.get("type") == "shadow":
         for i, c in enumerate(L.get("chunks", []), 1):
             c.setdefault("n", i)
+    if L.get("type") == "words":
+        n = 0
+        for g in L.get("groups", []):
+            for w in g.get("words", []):
+                n += 1
+                w.setdefault("n", n)
     if L.get("type") == "text":
         n = 0
         for para in L.get("paragraphs", []):
@@ -88,7 +95,9 @@ def clips(L):
         return sorted(out.items())
     if t == "text":
         return [(s["n"], s["text"]) for para in L.get("paragraphs", []) for s in para]
-    if t == "game":   # sentences a hand-made page plays: "clips": ["...", "..."] become 01.mp3, 02.mp3 ...
+    if t == "words":   # a word with its own "audio" file (in glossary_dir) is already recorded; the others are NN.mp3 in aud_dir
+        return [(w["n"], w["fr"]) for g in L.get("groups", []) for w in g.get("words", []) if not w.get("audio")]
+    if t in HAND:   # sentences a hand-made page plays: "clips": ["...", "..."] become 01.mp3, 02.mp3 ...
         return [(i, text) for i, text in enumerate(L.get("clips", []), 1)]
     if t == "practice":   # "listen" exercises replay clips of the lesson they belong to
         return sorted({(it["n"], "") for b in L.get("blocks", []) if b.get("kind") == "listen" for it in b["items"]})
@@ -103,7 +112,9 @@ def spoken(text):
 
 
 def pending(L):
-    if L.get("type") == "game" and not L.get("clips"):   # a hand-made page with nothing to record
+    if L.get("type") in HAND and not L.get("clips"):   # a hand-made page with nothing to record
+        return False
+    if L.get("type") in ("words", "hotspots") and not clips(L):   # every word plays a named file from glossary_dir
         return False
     if L.get("audio_file"):   # one recording for the whole text, with a time range per sentence
         return False
@@ -117,6 +128,8 @@ def images(L):
         return [f"{L['img_dir']}{p['img']}.{ext}" for p in L.get("pages", []) if p.get("img")]
     if L.get("type") == "text" and L.get("img"):
         return [L["img"]]
+    if L.get("type") == "hotspots":
+        return [s["img"] for s in L.get("slides", []) if s.get("img")]
     return []
 
 

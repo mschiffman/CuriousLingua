@@ -89,7 +89,8 @@ def one(L):
             embed[C["media_base"] + L["audio_file"] + ver] = uri(f)
         else:
             missing.append(L["audio_file"])
-    for g in L.get("glossary", []):
+    named = [w for g in L.get("groups", []) for w in g.get("words", []) if w.get("audio")] + [p for s in L.get("slides", []) for p in s.get("spots", []) if p.get("audio")]
+    for g in L.get("glossary", []) + [{"audio": x} for x in dict.fromkeys(w["audio"] for w in named)]:   # word lists and hotspot pictures play named files too
         name = g.get("audio") or g["word"]
         name = name if "." in name else name + ".mp3"
         f = lib.find("media/" + L.get("glossary_dir", "") + name)
@@ -191,7 +192,7 @@ def main():
         sys.exit(__doc__)
     build.main()   # the copies are made from freshly built pages
     todo = [L for L in lib.lessons() if L["course"] in C["courses"] and L["strand"] in C["courses"][L["course"]]["strands"]
-            and (L.get("type") != "game" or L.get("clips"))]   # a game with nothing recorded has nothing to copy
+            and L.get("type") != "page" and (L.get("type") != "game" or L.get("clips"))]   # hand-made pages: only a game with recordings has something to copy
     if args == ["--changed"]:
         todo = [L for L in todo if stale(L)]
     elif args != ["all"]:

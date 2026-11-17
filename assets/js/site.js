@@ -271,6 +271,46 @@
       };
     });
 
+    /* ---- words: a themed word list; tap a word to hear it, hide one side to test yourself ---- */
+    Alpine.data("words", () => ({
+      ...common(), groups: L.groups || [], hideEn: false, hideFr: false, said: 0,
+      /* a word with its own file ("audio", in glossary_dir) plays that; the others are numbered clips */
+      hear(w) { this.said = w.n; if (w.audio) { stop(); playWord(w.audio); } else this.say(w.n); },
+    }));
+
+    /* ---- hotspots: pictures with dots. Explore them, or be asked a word and tap where it is ---- */
+    Alpine.data("hotspots", () => ({
+      slides: L.slides || [], i: 0, mode: "explore", pick: null, t: -1, queue: [], done: [], bad: -1, first: 0, missed: false, wait: false, listen: false, last: null,
+      get slide() { return this.slides[this.i] || { spots: [] }; },
+      get target() { return this.t >= 0 ? this.slide.spots[this.t] : null; },
+      src(img) { return media(ROOT + img); },
+      hear(p) { if (p && p.audio) playWord(p.audio); },
+      go(k) { this.i = Math.max(0, Math.min(this.slides.length - 1, k)); this.pick = null; if (this.mode === "quiz") this.startQuiz(); },
+      setMode(m) { this.mode = m; this.pick = null; if (m === "quiz") this.startQuiz(); },
+      startQuiz() {
+        const q = this.slide.spots.map((_, k) => k);
+        for (let a = q.length - 1; a > 0; a--) { const b = Math.floor(Math.random() * (a + 1)); [q[a], q[b]] = [q[b], q[a]]; }
+        this.queue = q; this.done = []; this.first = 0; this.last = null; this.wait = false; this.bad = -1;
+        this.next();
+      },
+      next() { this.missed = false; this.t = this.queue.length ? this.queue.shift() : -1; if (this.t >= 0) this.hear(this.target); },
+      tap(k) {
+        const p = this.slide.spots[k];
+        if (this.mode === "explore") { this.pick = p; this.hear(p); return; }
+        if (this.t < 0 || this.wait || this.done.includes(k)) return;
+        if (k === this.t) {
+          this.done.push(k); this.last = p; if (!this.missed) this.first++;
+          this.wait = true; setTimeout(() => { this.wait = false; this.next(); }, 800);
+        } else {
+          this.missed = true; this.bad = k; setTimeout(() => { if (this.bad === k) this.bad = -1; }, 600);
+        }
+      },
+      dotClass(k) {
+        if (this.mode === "quiz") return this.done.includes(k) ? "hs-good" : this.bad === k ? "hs-bad" : "";
+        return this.pick === this.slide.spots[k] ? "hs-on" : "";
+      },
+    }));
+
     /* ---- shadow: listen, then speak along with the voice ---- */
     Alpine.data("shadow", () => ({
       ...common(), chunks: L.chunks || [], mode: 1, loop: 0,

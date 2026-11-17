@@ -1,0 +1,15 @@
+{
+ "title": "Les reliefs : la vidéo",
+ "subtitle": "Landforms, in a short video",
+ "label": "Video",
+ "type": "practice",
+ "supplement_of": "landforms",
+ "legacy": "fr/grammar/noun/video-landforms.html",
+ "blocks": [
+  {
+   "kind": "video",
+   "src": "lessons/grammar/video-landforms.mp4",
+   "caption": "Made with NotebookLM."
+  }
+ ]
+}

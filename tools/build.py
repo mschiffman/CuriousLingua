@@ -14,7 +14,7 @@ import lib
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT, C = lib.ROOT, lib.cfg()
 e = html.escape
-TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game"}
+TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page"}
 ICON_PLAY = '<svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
 ICON_LOOP = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>'
 ICON_TR = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="11" height="11" rx="2"/><path d="M6.5 11l2-5 2 5M7.2 9.5h2.6"/><rect x="10" y="10" width="11" height="11" rx="2" fill="currentColor" stroke="none"/><path d="M13 14h5M15.5 13v1c0 2-1 3.500-2.500 4.200M14.200 16c.8 1.200 2 2 3.300 2.200" stroke="#fff" stroke-width="1.300"/></svg>'
@@ -351,6 +351,95 @@ CARDS_BLOBS = '''<div class="pointer-events-none fixed left-0 top-0 z-0 h-full w
 <div class="absolute right-1/4 top-1/2 h-64 w-64 rounded-full" style="background:radial-gradient(circle,rgba(26,110,245,.08) 0%,transparent 70%)"></div></div>'''
 
 
+# A themed word list: tap a word to hear it; hide one language to test yourself.
+WORDS = """<section x-data="words" class="mt-6">
+<div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
+<button class="btn" :class="hideEn && 'btn-on'" @click="hideEn = !hideEn" x-text="hideEn ? 'Show English' : 'Hide English'"></button>
+<button class="btn" :class="hideFr && 'btn-on'" @click="hideFr = !hideFr" x-text="hideFr ? 'Show the words' : 'Hide the words'"></button>
+<span class="text-sm text-muted">Tap a word to hear it.</span>
+</div>
+<template x-for="g in groups" :key="g.title"><section class="mt-8">
+<h2 class="text-2xl font-semibold" x-text="g.title"></h2>
+<div class="wl-grid mt-3">
+<template x-for="w in g.words" :key="w.n"><button class="wl-row" :class="said === w.n && 'wl-on'" @click="hear(w)">
+<span class="play small pointer-events-none">__PLAY__</span>
+<span class="wl-fr"><span class="font-bold" lang="__LANG__" x-show="!hideFr" x-text="w.fr"></span><span x-show="hideFr" x-cloak class="text-muted">&bull; &bull; &bull;</span>
+<span x-show="w.g" class="wl-g" x-text="w.g"></span><span class="wl-ipa" x-show="w.ipa && !hideFr" x-text="w.ipa"></span></span>
+<span class="wl-en" x-show="!hideEn" x-text="w.en"></span><span x-show="hideEn" x-cloak class="wl-en">&bull; &bull; &bull;</span>
+</button></template>
+</div></section></template>
+</section>"""
+
+# Pictures with dots. Explore: tap a dot to see and hear the word. Quiz: a word is asked, tap where it is.
+HOTSPOTS = """<section x-data="hotspots" class="mt-6">
+<div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
+<button class="btn" :class="mode === 'explore' && 'btn-on'" @click="setMode('explore')">Explore</button>
+<button class="btn" :class="mode === 'quiz' && 'btn-on'" @click="setMode('quiz')">Quiz</button>
+<span class="ml-auto"></span>
+<button class="btn px-3" :disabled="i === 0" :class="i === 0 && 'opacity-40'" @click="go(i - 1)" aria-label="Previous picture">&larr;</button>
+<span class="text-sm font-bold text-muted" x-text="(i + 1) + ' / ' + slides.length"></span>
+<button class="btn px-3" :disabled="i === slides.length - 1" :class="i === slides.length - 1 && 'opacity-40'" @click="go(i + 1)" aria-label="Next picture">&rarr;</button>
+</div>
+<div class="hs-thumbs mt-3"><template x-for="(s, k) in slides" :key="k"><button class="hs-thumb" :class="k === i && 'hs-thumb-on'" @click="go(k)" :aria-label="'Picture ' + (k + 1)"><img :src="src(s.img)" alt="" loading="lazy"></button></template></div>
+
+<div x-show="mode === 'quiz'" x-cloak class="mt-4 rounded-2xl border border-line bg-card p-4" style="min-height:4.75rem">
+<div x-show="target" class="flex flex-wrap items-center gap-3">
+<button class="play small" @click="hear(target)" aria-label="Hear the word">__PLAY__</button>
+<p class="text-xl"><span class="text-muted">Trouvez&nbsp;:</span> <b lang="__LANG__" x-show="!listen" x-text="target && target.fr"></b><span x-show="listen" x-cloak class="text-muted">&bull; &bull; &bull;</span></p>
+<span class="ml-auto text-sm font-bold text-muted" x-text="done.length + ' / ' + slide.spots.length"></span>
+<button class="btn py-1.5" :class="listen && 'btn-on'" @click="listen = !listen">Listen only</button>
+</div>
+<div x-show="!target" x-cloak class="flex flex-wrap items-center gap-3">
+<p class="text-xl font-semibold" x-text="'Bravo ! ' + first + ' / ' + slide.spots.length + ' du premier coup'"></p>
+<span class="ml-auto"></span>
+<button class="btn" @click="startQuiz()">Again</button>
+<button class="btn btn-primary" x-show="i < slides.length - 1" @click="go(i + 1)">Next picture &rarr;</button>
+</div>
+<p x-show="last" x-cloak class="mt-2 text-sm text-muted"><span class="font-bold text-good">&#10003;</span> <b lang="__LANG__" x-text="last && last.fr"></b> <span x-text="last && last.en ? ' = ' + last.en : ''"></span></p>
+</div>
+
+<div class="hs-stage mt-4"><img :src="src(slide.img)" :alt="slide.alt || ''">
+<template x-for="(p, k) in slide.spots" :key="i + '-' + k"><button class="hs-dot" :class="dotClass(k)" :style="'left:' + p.x + '%;top:' + p.y + '%'" @click="tap(k)" :aria-label="mode === 'quiz' ? 'Dot ' + (k + 1) : p.fr"></button></template>
+</div>
+
+<div x-show="mode === 'explore'" class="mt-4 rounded-2xl border border-line bg-card p-4" style="min-height:4.75rem">
+<div x-show="pick" x-cloak class="flex flex-wrap items-center gap-3">
+<button class="play small" @click="hear(pick)" aria-label="Hear the word">__PLAY__</button>
+<p class="text-2xl font-bold" lang="__LANG__" x-text="pick && pick.fr"></p><span x-show="pick && pick.g" class="wl-g" x-text="pick && pick.g"></span><span class="text-muted" x-text="pick && pick.ipa"></span>
+<span class="ml-auto text-xl text-muted" x-text="pick && pick.en"></span>
+</div>
+<p x-show="!pick" class="text-muted">Tap a dot on the picture to see and hear the word.</p>
+</div>
+</section>"""
+
+# The few styles those two pages need beyond the site's own (kept here so the compiled site.css does not have to be rebuilt).
+PICTURE_CSS = """<style>
+.wl-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr))}
+.wl-row{display:flex;align-items:center;gap:.75rem;text-align:left;border:1px solid #E4DCCF;background:#fff;border-radius:1rem;padding:.6rem .8rem;transition:border-color .15s}
+.wl-row:hover,.wl-on{border-color:rgb(var(--accent))}
+.wl-fr{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:.15rem .5rem;font-size:1.15rem}
+.wl-g{font-size:.7rem;font-weight:700;text-transform:uppercase;line-height:1.5;color:rgb(var(--accent));border:1px solid rgb(var(--accent)/.3);background:rgb(var(--accent)/.1);border-radius:999px;padding:0 .45rem}
+.wl-ipa{font-size:.9rem;color:#5B6475}
+.wl-en{color:#5B6475;text-align:right;max-width:45%}
+.hs-stage{position:relative;border-radius:1rem;overflow:hidden;border:1px solid #E4DCCF;background:#fff;line-height:0}
+.hs-stage img{width:100%;height:auto;display:block}
+.hs-dot{position:absolute;width:2.25rem;height:2.25rem;margin:-1.125rem 0 0 -1.125rem;padding:0;border:0;border-radius:999px;background:rgb(255 255 255/.6);cursor:pointer;display:grid;place-items:center;transition:transform .15s,background .15s}
+.hs-dot::after{content:"";width:.7rem;height:.7rem;border-radius:999px;background:#D7372C;box-shadow:0 0 0 2px #fff}
+.hs-dot:hover{transform:scale(1.15)}
+.hs-on{background:rgb(var(--accent)/.4)}.hs-on::after{background:rgb(var(--accent))}
+.hs-good{background:rgb(27 117 80/.4)}.hs-good::after{background:#1B7550}
+.hs-bad{background:rgb(179 38 30/.5);animation:hs-shake .3s}
+@keyframes hs-shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.hs-thumbs{display:flex;gap:.5rem;overflow-x:auto;padding-bottom:.25rem}
+.hs-thumb{flex:none;width:5.5rem;padding:0;border:2px solid #E4DCCF;border-radius:.6rem;overflow:hidden;background:#fff;line-height:0;cursor:pointer}
+.hs-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.hs-thumb-on{border-color:rgb(var(--accent))}
+@media (max-width:480px){.hs-dot{width:1.75rem;height:1.75rem;margin:-.875rem 0 0 -.875rem}.wl-en{max-width:40%}}
+@media (prefers-reduced-motion:reduce){.hs-bad{animation:none}.hs-dot,.wl-row{transition:none}}
+</style>
+"""
+
+
 def crumbs(L, r):
     c = C["courses"][L["course"]]
     return (f'<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav>'
@@ -425,6 +514,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
         return frame(rel, f"{title} | {course['name']}", body, L["course"], tail, cls="site flex h-dvh flex-col overflow-hidden", foot=False)
 
     shell = {"dialogue": LINES, "shadow": SHADOW, "practice": PRACTICE, "text": TEXT.replace("__ALT__", e(L.get("img_alt", "Picture goes here")))}.get(L.get("type"))
+    shell = {"words": WORDS, "hotspots": HOTSPOTS}.get(L.get("type"), shell)
     if shell is None:
         shell = soon("This lesson is being written.")
     shell = shell.replace("__PLAY__", ICON_PLAY).replace("__LOOP__", ICON_LOOP).replace("__IMG__", ICON_IMG).replace("__LANG__", course["lang"]).replace("__TR__", ICON_TR)
@@ -462,7 +552,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 {pager}
 </main>'''
     tail = f'{data_script(L, r)}\n<script src="{r}assets/js/site.js"></script>\n<script defer src="{r}assets/js/alpine.min.js"></script>'
-    return frame(rel, f"{title} | {course['name']}", body, L["course"], tail)
+    return frame(rel, f"{title} | {course['name']}", body, L["course"], tail, head=PICTURE_CSS if L.get("type") in ("words", "hotspots") else "")
 
 
 # ------------------------------------------------------------------ index pages
@@ -581,13 +671,17 @@ def main():
             print(f"  {X['id']}: supplement_of points to a lesson that does not exist ({pid})")
             continue
         parent.setdefault("_supp", []).append(X)
+        if X.get("type") in lib.HAND:   # a hand-made supplement (a mind map page): linked from its lesson, never generated
+            if not os.path.exists(os.path.join(ROOT, X["url"])):
+                print(f"  {X['id']}: page {X['url']} is missing")
+            continue
         write(X["url"], lesson_page(X, None, None, X["id"] in have, parent=parent))
     for k, c in C["courses"].items():
         items = [L for L in all_lessons if L["course"] == k]
         for s in c["strands"]:
             ls = [L for L in items if L["strand"] == s]
             for i, L in enumerate(ls):
-                if L.get("type") == "game":   # a hand-made page that already sits at L["url"]: listed, never generated
+                if L.get("type") in lib.HAND:   # a hand-made page that already sits at L["url"]: listed, never generated
                     if not os.path.exists(os.path.join(ROOT, L["url"])):
                         print(f"  {L['id']}: game page {L['url']} is missing")
                 else:
