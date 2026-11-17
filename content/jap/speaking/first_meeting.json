@@ -8,14 +8,14 @@
  "review": "Burmese lines drafted by Claude. Check them before publishing.",
  "intro": "Introduce yourself. Then take Min's part: press 'I am Min' and Play all.",
  "aud_dir": "jap/speaking/first_meeting/",
- "aud_ext": "mp3?v=2611171504",
+ "aud_ext": "mp3?v=2611171514",
  "speakers": {
   "A": "Tanaka",
   "B": "Min"
  },
  "voice": {
   "A": "r4qMc0xxpfgMQciUmPHW",
-  "B": "r4qMc0xxpfgMQciUmPHW"
+  "B": "Vs4VzY83jDOGrLWur5PF"
  },
  "support": [
   "en",
