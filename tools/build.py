@@ -381,7 +381,7 @@ HOTSPOTS = """<section x-data="hotspots" class="mt-6">
 <span class="text-sm font-bold text-muted" x-text="(i + 1) + ' / ' + slides.length"></span>
 <button class="btn px-3" :disabled="i === slides.length - 1" :class="i === slides.length - 1 && 'opacity-40'" @click="go(i + 1)" aria-label="Next picture">&rarr;</button>
 </div>
-<div class="hs-thumbs mt-3"><template x-for="(s, k) in slides" :key="k"><button class="hs-thumb" :class="k === i && 'hs-thumb-on'" @click="go(k)" :aria-label="'Picture ' + (k + 1)"><img :src="src(s.img)" alt="" loading="lazy"></button></template></div>
+<div class="hs-thumbs mt-3"><template x-for="(s, k) in slides" :key="k"><button class="hs-thumb" :class="k === i && 'hs-thumb-on'" @click="go(k)" :aria-label="'Picture ' + (k + 1)"><img :src="src(s.img)" alt=""></button></template></div>
 
 <div x-show="mode === 'quiz'" x-cloak class="mt-4 rounded-2xl border border-line bg-card p-4" style="min-height:4.75rem">
 <div x-show="target" class="flex flex-wrap items-center gap-3">
