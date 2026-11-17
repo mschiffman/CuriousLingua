@@ -165,6 +165,21 @@
   "quiz": true
  },
  {
+  "id": "fr/vocabulary/house",
+  "url": "fr/vocabulary/house.html",
+  "course": "fr",
+  "strand": "vocabulary",
+  "level": "a1",
+  "level_provisional": true,
+  "topic": "House",
+  "type": "words",
+  "title": "La maison et le jardin",
+  "clips": 0,
+  "images": 1,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/vocabulary/landforms",
   "url": "fr/vocabulary/landforms.html",
   "course": "fr",

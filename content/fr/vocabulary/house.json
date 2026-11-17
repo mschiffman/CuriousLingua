@@ -1,0 +1,159 @@
+{
+ "title": "La maison et le jardin",
+ "subtitle": "House and yard",
+ "level": "a1",
+ "level_provisional": true,
+ "topic": "House",
+ "type": "words",
+ "legacy": "fr/grammar/noun/house.html",
+ "review": "Imported from the old house page. The old page had no recordings: the word clips are new ElevenLabs takes nobody has listened to yet. The level is a guess.",
+ "img": "img/house/yard.jpg",
+ "img_alt": "A house with its garden",
+ "glossary_dir": "lessons/noun/house/",
+ "audio_ver": "2611171307",
+ "groups": [
+  {
+   "title": "",
+   "words": [
+    {
+     "fr": "maison",
+     "g": "f",
+     "ipa": "/mɛzɔ̃/",
+     "en": "house",
+     "audio": "maison.mp3"
+    },
+    {
+     "fr": "toit",
+     "g": "m",
+     "ipa": "/twa/",
+     "en": "roof",
+     "audio": "toit.mp3"
+    },
+    {
+     "fr": "mur",
+     "g": "m",
+     "ipa": "/myʀ/",
+     "en": "wall",
+     "audio": "mur.mp3"
+    },
+    {
+     "fr": "fenêtre",
+     "g": "f",
+     "ipa": "/f(ə)nɛtʀ/",
+     "en": "window",
+     "audio": "fenetre.mp3"
+    },
+    {
+     "fr": "porte",
+     "g": "f",
+     "ipa": "/pɔʀt/",
+     "en": "door",
+     "audio": "porte.mp3"
+    },
+    {
+     "fr": "marches",
+     "g": "f pl",
+     "ipa": "/maʀʃ/",
+     "en": "steps",
+     "audio": "marches.mp3"
+    },
+    {
+     "fr": "Les marches du perron",
+     "g": "m",
+     "ipa": "/le.maʀʃ.dy.peʀɔ̃/",
+     "en": "the front steps (perron = platform or flight of steps at the top of an outdoor staircase)",
+     "audio": "les_marches_du_perron.mp3"
+    },
+    {
+     "fr": "garage",
+     "g": "m",
+     "ipa": "/ɡaʀaʒ/",
+     "en": "garage",
+     "audio": "garage.mp3"
+    },
+    {
+     "fr": "piscine",
+     "g": "f",
+     "ipa": "/pisin/",
+     "en": "swimming pool",
+     "audio": "piscine.mp3"
+    },
+    {
+     "fr": "gloriette",
+     "g": "f",
+     "ipa": "/ɡlɔʀjɛt/",
+     "en": "gazebo",
+     "audio": "gloriette.mp3"
+    },
+    {
+     "fr": "serre",
+     "g": "f",
+     "ipa": "/sɛʀ/",
+     "en": "greenhouse",
+     "audio": "serre.mp3"
+    },
+    {
+     "fr": "pelouse",
+     "g": "f",
+     "ipa": "/pəluz/",
+     "en": "lawn",
+     "audio": "pelouse.mp3"
+    },
+    {
+     "fr": "pot de fleurs",
+     "g": "m",
+     "ipa": "/po.də.flœʀ/",
+     "en": "flower pot",
+     "audio": "pot_de_fleurs.mp3"
+    },
+    {
+     "fr": "parterre",
+     "g": "m",
+     "ipa": "/paʀtɛʀ/",
+     "en": "flower bed",
+     "audio": "parterre.mp3"
+    },
+    {
+     "fr": "treillis",
+     "g": "m",
+     "ipa": "/tʀɛji/",
+     "en": "trellis",
+     "audio": "treillis.mp3"
+    },
+    {
+     "fr": "topiaire",
+     "g": "f",
+     "ipa": "/tɔpjɛʀ/",
+     "en": "topiary",
+     "audio": "topiaire.mp3"
+    },
+    {
+     "fr": "clôture",
+     "g": "f",
+     "ipa": "/klotyʀ/",
+     "en": "fence",
+     "audio": "cloture.mp3"
+    },
+    {
+     "fr": "poteau",
+     "g": "m",
+     "ipa": "/pɔto/",
+     "en": "fence post",
+     "audio": "poteau.mp3"
+    },
+    {
+     "fr": "portail",
+     "g": "m",
+     "ipa": "/pɔʀtaj/",
+     "en": "gate",
+     "audio": "portail.mp3"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Remember: Use \"le\" for masculine nouns and \"la\" for feminine nouns.",
+  "Use \"l'\" before nouns starting with a vowel or silent 'h' (e.g., l'océan, l'île).",
+  "The (m) and (f) subscripts indicate masculine and feminine nouns."
+ ]
+}

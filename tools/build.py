@@ -14,7 +14,7 @@ import lib
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT, C = lib.ROOT, lib.cfg()
 e = html.escape
-TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page"}
+TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page", "link": "Link"}
 ICON_PLAY = '<svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
 ICON_LOOP = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>'
 ICON_TR = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="11" height="11" rx="2"/><path d="M6.5 11l2-5 2 5M7.2 9.5h2.6"/><rect x="10" y="10" width="11" height="11" rx="2" fill="currentColor" stroke="none"/><path d="M13 14h5M15.5 13v1c0 2-1 3.500-2.500 4.200M14.200 16c.8 1.200 2 2 3.300 2.200" stroke="#fff" stroke-width="1.300"/></svg>'
@@ -360,7 +360,7 @@ WORDS = """<section x-data="words" class="mt-6">
 <span class="text-sm text-muted">Tap a word to hear it.</span>
 </div>
 <template x-for="g in groups" :key="g.title"><section class="mt-8">
-<h2 class="text-2xl font-semibold" x-text="g.title"></h2>
+<h2 class="text-2xl font-semibold" x-show="g.title" x-text="g.title"></h2>
 <div class="wl-grid mt-3">
 <template x-for="w in g.words" :key="w.n"><button class="wl-row" :class="said === w.n && 'wl-on'" @click="hear(w)">
 <span class="play small pointer-events-none">__PLAY__</span>
@@ -534,7 +534,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
     supp = ""
     if supplements:
         supp = '<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Supplemental section</h2><p class="mt-1 text-muted">More practice with this text.</p>' + grid([
-            f'''<a class="tile" href="{r}{x["url"]}" data-lesson="{x["id"]}"><h3 class="text-lg font-semibold leading-snug">{e(x.get("title", x["slug"]))}</h3>
+            f'''<a class="tile" {f'href="{e(x["href"])}" target="_blank" rel="noopener"' if x.get("type") == "link" else f'href="{r}{x["url"]}"'} data-lesson="{x["id"]}"><h3 class="text-lg font-semibold leading-snug">{e(x.get("title", x["slug"]))}</h3>
 {f'<p class="mt-1 text-sm text-muted">{e(x["subtitle"])}</p>' if x.get("subtitle") else ""}
 <div class="mt-3"><span class="chip">{e(x.get("label", "Practice"))}</span></div></a>''' for x in supplements]) + "</section>"
     back = f'<a class="btn mt-4 py-1.5" data-nav href="{r}{parent["url"]}">&larr; {e(parent.get("title", ""))}</a>' if parent else ""
@@ -673,6 +673,8 @@ def main():
             print(f"  {X['id']}: supplement_of points to a lesson that does not exist ({pid})")
             continue
         parent.setdefault("_supp", []).append(X)
+        if X.get("type") == "link":   # a supplement kept somewhere else ("href"): its tile opens that address
+            continue
         if X.get("type") in lib.HAND:   # a hand-made supplement (a mind map page): linked from its lesson, never generated
             if not os.path.exists(os.path.join(ROOT, X["url"])):
                 print(f"  {X['id']}: page {X['url']} is missing")

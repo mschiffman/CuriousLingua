@@ -1,0 +1,15 @@
+{
+ "title": "La maison : la vidéo",
+ "subtitle": "House and yard, in a short video",
+ "label": "Video",
+ "type": "practice",
+ "supplement_of": "house",
+ "legacy": "fr/grammar/noun/video-house.html",
+ "blocks": [
+  {
+   "kind": "video",
+   "src": "lessons/grammar/video-house.mp4",
+   "caption": "Made with NotebookLM."
+  }
+ ]
+}

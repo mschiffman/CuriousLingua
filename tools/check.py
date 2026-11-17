@@ -40,7 +40,7 @@ for k, c in C["courses"].items():
             gaps = sum(1 for sec in L["sections"] for l in sec["lines"] for w in want if not (l.get("tr") or {}).get(w))
             if gaps:
                 notr.append(f"- `{L['id']}`: {gaps} translation line(s) missing")
-        if not (L.get("quiz") or L.get("questions") or L.get("type") in ("game", "hotspots", "page")):   # a game and a hotspot page are their own quiz; a hand-made page has none
+        if not (L.get("quiz") or L.get("questions") or L.get("type") in ("game", "hotspots", "page", "link")):   # a game and a hotspot page are their own quiz; a hand-made page has none
             noquiz.append(L["id"])
     for title, rows in (("Audio to record (pending)", pend), ("Clips wired but not on this computer", noclip), ("Pictures missing", noimg),
                         ("To review before publishing", review), ("Translations missing", notr)):

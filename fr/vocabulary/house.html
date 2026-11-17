@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La maison et le jardin | French</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<style>
+.wl-hero{display:block;width:100%;max-height:24rem;object-fit:contain;border:1px solid #E4DCCF;border-radius:1rem;background:#fff}
+.wl-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr))}
+.wl-row{display:flex;align-items:center;gap:.75rem;text-align:left;border:1px solid #E4DCCF;background:#fff;border-radius:1rem;padding:.6rem .8rem;transition:border-color .15s}
+.wl-row:hover,.wl-on{border-color:rgb(var(--accent))}
+.wl-fr{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:.15rem .5rem;font-size:1.15rem}
+.wl-g{font-size:.7rem;font-weight:700;text-transform:uppercase;line-height:1.5;color:rgb(var(--accent));border:1px solid rgb(var(--accent)/.3);background:rgb(var(--accent)/.1);border-radius:999px;padding:0 .45rem}
+.wl-ipa{font-size:.9rem;color:#5B6475}
+.wl-en{color:#5B6475;text-align:right;max-width:45%}
+.hs-stage{position:relative;border-radius:1rem;overflow:hidden;border:1px solid #E4DCCF;background:#fff;line-height:0}
+.hs-stage img{width:100%;height:auto;display:block}
+.hs-dot{position:absolute;width:2.25rem;height:2.25rem;margin:-1.125rem 0 0 -1.125rem;padding:0;border:0;border-radius:999px;background:rgb(255 255 255/.6);cursor:pointer;display:grid;place-items:center;transition:transform .15s,background .15s}
+.hs-dot::after{content:"";width:.7rem;height:.7rem;border-radius:999px;background:#D7372C;box-shadow:0 0 0 2px #fff}
+.hs-dot:hover{transform:scale(1.15)}
+.hs-on{background:rgb(var(--accent)/.4)}.hs-on::after{background:rgb(var(--accent))}
+.hs-good{background:rgb(27 117 80/.4)}.hs-good::after{background:#1B7550}
+.hs-bad{background:rgb(179 38 30/.5);animation:hs-shake .3s}
+@keyframes hs-shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.hs-thumbs{display:flex;gap:.5rem;overflow-x:auto;padding-bottom:.25rem}
+.hs-thumb{flex:none;width:5.5rem;padding:0;border:2px solid #E4DCCF;border-radius:.6rem;overflow:hidden;background:#fff;line-height:0;cursor:pointer}
+.hs-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.hs-thumb-on{border-color:rgb(var(--accent))}
+@media (max-width:480px){.hs-dot{width:1.75rem;height:1.75rem;margin:-.875rem 0 0 -.875rem}.wl-en{max-width:40%}}
+@media (prefers-reduced-motion:reduce){.hs-bad{animation:none}.hs-dot,.wl-row{transition:none}}
+</style>
+</head>
+<body class="site" data-course="fr">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/reading/index.html">Reading</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/grammar/index.html">Grammar</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/pronunciation/index.html">Pronunciation</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/fundamentals/index.html">Fundamentals</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../fr/reading/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Reading</a><a href="../../fr/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../fr/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../fr/vocabulary/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Vocabulary</a><a href="../../fr/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../fr/grammar/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Grammar</a><a href="../../fr/pronunciation/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Pronunciation</a><a href="../../fr/fundamentals/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Fundamentals</a></div></div></header>
+<main class="wrap py-6 sm:py-10">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../fr/index.html">French</a><span>/</span><a class="hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a></nav>
+
+<div class="mt-4 flex flex-wrap items-center gap-2"><span class="chip chip-accent">A1</span><span class="chip">House</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">La maison et le jardin</h1>
+<p class="mt-2 text-xl text-muted">House and yard</p>
+
+
+<section x-data="words" class="mt-6">
+<img x-show="hero" x-cloak :src="hero" :alt="alt" class="wl-hero">
+<div class="mt-4 flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
+<button class="btn" :class="hideEn && 'btn-on'" @click="hideEn = !hideEn" x-text="hideEn ? 'Show English' : 'Hide English'"></button>
+<button class="btn" :class="hideFr && 'btn-on'" @click="hideFr = !hideFr" x-text="hideFr ? 'Show the words' : 'Hide the words'"></button>
+<span class="text-sm text-muted">Tap a word to hear it.</span>
+</div>
+<template x-for="g in groups" :key="g.title"><section class="mt-8">
+<h2 class="text-2xl font-semibold" x-show="g.title" x-text="g.title"></h2>
+<div class="wl-grid mt-3">
+<template x-for="w in g.words" :key="w.n"><button class="wl-row" :class="said === w.n && 'wl-on'" @click="hear(w)">
+<span class="play small pointer-events-none"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+<span class="wl-fr"><span class="font-bold" lang="fr" x-show="!hideFr" x-text="w.fr"></span><span x-show="hideFr" x-cloak class="text-muted">&bull; &bull; &bull;</span>
+<span x-show="w.g" class="wl-g" x-text="w.g"></span><span class="wl-ipa" x-show="w.ipa && !hideFr" x-text="w.ipa"></span></span>
+<span class="wl-en" x-show="!hideEn" x-text="w.en"></span><span x-show="hideEn" x-cloak class="wl-en">&bull; &bull; &bull;</span>
+</button></template>
+</div></section></template>
+</section>
+<section class="mt-8 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">Notes</h2><ul class="mt-2 list-disc space-y-1 pl-5 text-muted"><li>Remember: Use &quot;le&quot; for masculine nouns and &quot;la&quot; for feminine nouns.</li><li>Use &quot;l&#x27;&quot; before nouns starting with a vowel or silent &#x27;h&#x27; (e.g., l&#x27;océan, l&#x27;île).</li><li>The (m) and (f) subscripts indicate masculine and feminine nouns.</li></ul></section>
+<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Supplemental section</h2><p class="mt-1 text-muted">More practice with this text.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" href="../../fr/vocabulary/house_hotspots.html" data-lesson="fr/vocabulary/house_hotspots"><h3 class="text-lg font-semibold leading-snug">La maison : images à explorer</h3>
+<p class="mt-1 text-sm text-muted">Tap the dots, then take the quiz</p>
+<div class="mt-3"><span class="chip">Pictures with hotspots</span></div></a><a class="tile" href="https://drive.google.com/file/d/1z2curYyqmd0Bq9-_N7GkOIIqPGN9_isk/view?usp=drive_link" target="_blank" rel="noopener" data-lesson="fr/vocabulary/house_mindmap"><h3 class="text-lg font-semibold leading-snug">La maison : carte mentale</h3>
+<p class="mt-1 text-sm text-muted">Opens on Google Drive</p>
+<div class="mt-3"><span class="chip">Mind map</span></div></a><a class="tile" href="../../fr/vocabulary/house_video.html" data-lesson="fr/vocabulary/house_video"><h3 class="text-lg font-semibold leading-snug">La maison : la vidéo</h3>
+<p class="mt-1 text-sm text-muted">House and yard, in a short video</p>
+<div class="mt-3"><span class="chip">Video</span></div></a></div></section>
+<div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/vocabulary/house')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../fr/vocabulary/landforms.html">Les reliefs &rarr;</a></div>
+</main>
+<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
+<span class="font-display text-base font-semibold text-ink">Languages</span>
+<span>Free for everyone. No account, no paywall.</span></div></footer>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"La maison et le jardin","subtitle":"House and yard","level":"a1","level_provisional":true,"topic":"House","type":"words","review":"Imported from the old house page. The old page had no recordings: the word clips are new ElevenLabs takes nobody has listened to yet. The level is a guess.","img":"img/house/yard.jpg","img_alt":"A house with its garden","glossary_dir":"lessons/noun/house/","audio_ver":"2611171307","groups":[{"title":"","words":[{"fr":"maison","g":"f","ipa":"/mɛzɔ̃/","en":"house","audio":"maison.mp3","n":1},{"fr":"toit","g":"m","ipa":"/twa/","en":"roof","audio":"toit.mp3","n":2},{"fr":"mur","g":"m","ipa":"/myʀ/","en":"wall","audio":"mur.mp3","n":3},{"fr":"fenêtre","g":"f","ipa":"/f(ə)nɛtʀ/","en":"window","audio":"fenetre.mp3","n":4},{"fr":"porte","g":"f","ipa":"/pɔʀt/","en":"door","audio":"porte.mp3","n":5},{"fr":"marches","g":"f pl","ipa":"/maʀʃ/","en":"steps","audio":"marches.mp3","n":6},{"fr":"Les marches du perron","g":"m","ipa":"/le.maʀʃ.dy.peʀɔ̃/","en":"the front steps (perron = platform or flight of steps at the top of an outdoor staircase)","audio":"les_marches_du_perron.mp3","n":7},{"fr":"garage","g":"m","ipa":"/ɡaʀaʒ/","en":"garage","audio":"garage.mp3","n":8},{"fr":"piscine","g":"f","ipa":"/pisin/","en":"swimming pool","audio":"piscine.mp3","n":9},{"fr":"gloriette","g":"f","ipa":"/ɡlɔʀjɛt/","en":"gazebo","audio":"gloriette.mp3","n":10},{"fr":"serre","g":"f","ipa":"/sɛʀ/","en":"greenhouse","audio":"serre.mp3","n":11},{"fr":"pelouse","g":"f","ipa":"/pəluz/","en":"lawn","audio":"pelouse.mp3","n":12},{"fr":"pot de fleurs","g":"m","ipa":"/po.də.flœʀ/","en":"flower pot","audio":"pot_de_fleurs.mp3","n":13},{"fr":"parterre","g":"m","ipa":"/paʀtɛʀ/","en":"flower bed","audio":"parterre.mp3","n":14},{"fr":"treillis","g":"m","ipa":"/tʀɛji/","en":"trellis","audio":"treillis.mp3","n":15},{"fr":"topiaire","g":"f","ipa":"/tɔpjɛʀ/","en":"topiary","audio":"topiaire.mp3","n":16},{"fr":"clôture","g":"f","ipa":"/klotyʀ/","en":"fence","audio":"cloture.mp3","n":17},{"fr":"poteau","g":"m","ipa":"/pɔto/","en":"fence post","audio":"poteau.mp3","n":18},{"fr":"portail","g":"m","ipa":"/pɔʀtaj/","en":"gate","audio":"portail.mp3","n":19}]}],"notes":["Remember: Use \"le\" for masculine nouns and \"la\" for feminine nouns.","Use \"l'\" before nouns starting with a vowel or silent 'h' (e.g., l'océan, l'île).","The (m) and (f) subscripts indicate masculine and feminine nouns."],"course":"fr","strand":"vocabulary","slug":"house"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>

@@ -59,7 +59,7 @@
 <span class="text-sm text-muted">Tap a word to hear it.</span>
 </div>
 <template x-for="g in groups" :key="g.title"><section class="mt-8">
-<h2 class="text-2xl font-semibold" x-text="g.title"></h2>
+<h2 class="text-2xl font-semibold" x-show="g.title" x-text="g.title"></h2>
 <div class="wl-grid mt-3">
 <template x-for="w in g.words" :key="w.n"><button class="wl-row" :class="said === w.n && 'wl-on'" @click="hear(w)">
 <span class="play small pointer-events-none"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
@@ -79,7 +79,7 @@
 <div class="mt-3"><span class="chip">Video</span></div></a></div></section>
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/vocabulary/landforms')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
-<div class="mt-12 flex flex-wrap items-center gap-3" data-nav></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn" href="../../fr/vocabulary/house.html">&larr; La maison et le jardin</a></div>
 </main>
 <footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
 <span class="font-display text-base font-semibold text-ink">Languages</span>

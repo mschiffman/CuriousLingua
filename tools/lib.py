@@ -95,8 +95,8 @@ def clips(L):
         return sorted(out.items())
     if t == "text":
         return [(s["n"], s["text"]) for para in L.get("paragraphs", []) for s in para]
-    if t == "words":   # a word with its own "audio" file (in glossary_dir) is already recorded; the others are NN.mp3 in aud_dir
-        return [(w["n"], w["fr"]) for g in L.get("groups", []) for w in g.get("words", []) if not w.get("audio")]
+    if t in ("words", "hotspots"):   # their clips are named files in glossary_dir, made by `audio.py words`: no numbered clips
+        return []
     if t in HAND:   # sentences a hand-made page plays: "clips": ["...", "..."] become 01.mp3, 02.mp3 ...
         return [(i, text) for i, text in enumerate(L.get("clips", []), 1)]
     if t == "practice":   # "listen" exercises replay clips of the lesson they belong to
@@ -114,8 +114,9 @@ def spoken(text):
 def pending(L):
     if L.get("type") in HAND and not L.get("clips"):   # a hand-made page with nothing to record
         return False
-    if L.get("type") in ("words", "hotspots") and not clips(L):   # every word plays a named file from glossary_dir
-        return False
+    if L.get("type") in ("words", "hotspots"):   # named files in glossary_dir: pending only while no word has one yet
+        items = [w for g in L.get("groups", []) for w in g.get("words", [])] + [p for s in L.get("slides", []) for p in s.get("spots", [])]
+        return not any(w.get("audio") for w in items)
     if L.get("audio_file"):   # one recording for the whole text, with a time range per sentence
         return False
     return not L.get("aud_dir") or "pending" in L.get("aud_ext", "")

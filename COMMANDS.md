@@ -92,6 +92,17 @@ Things to know:
 - **A reading text's narration** (one recording, `audio_file`) is uploaded with the same `upload` command. It stamps `"audio_ver"` in the lesson file, so a re-recorded `audio.mp3` keeps its name and is still fetched fresh. No cache purging, no `audio2.mp3`.
 - **Japanese** has no voice chosen yet, so `make` stops for Japanese lessons.
 
+### Word lists and hotspot pictures
+
+```
+python -E tools\audio.py words fr/vocabulary/house
+python -E tools\audio.py words fr/vocabulary/house_hotspots
+```
+
+Records every word that has no clip yet, as a named file in the lesson's `glossary_dir` (`maison.mp3`), and writes the file names into the lesson. A word list and its hotspot page share the folder, so a word is recorded once: run the list first, then the hotspots. Single words are made with `eleven_v4`, because the sentence model garbles them. For a new take: `--redo pelouse.mp3`. Then `python -E tools\audio.py upload <lesson>` for each of the two, as for any lesson.
+
+Whisper is a poor judge of single words (it hears "toit" as "Toi."), so treat its list as words to listen to, not as errors.
+
 ### Shadowing chunks without new recordings
 
 Record the dialogue once, one clip per speaker turn. The shadowing chunks are then played as parts of those clips.

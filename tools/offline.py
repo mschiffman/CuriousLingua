@@ -192,7 +192,7 @@ def main():
         sys.exit(__doc__)
     build.main()   # the copies are made from freshly built pages
     todo = [L for L in lib.lessons() if L["course"] in C["courses"] and L["strand"] in C["courses"][L["course"]]["strands"]
-            and L.get("type") != "page" and (L.get("type") != "game" or L.get("clips"))]   # hand-made pages: only a game with recordings has something to copy
+            and L.get("type") not in ("page", "link") and (L.get("type") != "game" or L.get("clips"))]   # hand-made pages: only a game with recordings has something to copy
     if args == ["--changed"]:
         todo = [L for L in todo if stale(L)]
     elif args != ["all"]:

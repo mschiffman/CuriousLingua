@@ -9,6 +9,8 @@
     python -E tools/audio.py upload <lesson>         send new/changed clips to R2, set the ?v= tag, rebuild the page
                                                      (a text lesson: its one recording and glossary clips; the tag is "audio_ver")
     python -E tools/audio.py balance                 ElevenLabs characters left
+    python -E tools/audio.py words <word list>       record the words of a word list or hotspot page that have no clip yet (named files:
+                                                     maison.mp3); --redo maison.mp3 for a new take. Then `upload` as usual
     python -E tools/audio.py shadow <dialogue>       draft a shadowing lesson from a dialogue: its sentences, as parts of the same clips
     python -E tools/audio.py chunks <shadow lesson>  find each chunk inside its clip and write its "t": [start, end]. Uses no characters
 
@@ -311,6 +313,65 @@ def shadow(L):
     print(f"Split or join chunks there if you like (keep each chunk's \"clip\"), then: python -E tools\\audio.py chunks {L['course']}/pronunciation/shadow_{L['slug']}")
 
 
+def word_file(text):
+    """maison -> maison.mp3, porte d'entrée -> porte_d_entree.mp3: the file a word's clip is saved under"""
+    import unicodedata
+    s = "".join(c for c in unicodedata.normalize("NFD", lib.spoken(text).lower()) if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9]+", "_", s).strip("_") + ".mp3"
+
+
+def named_words(doc):
+    """every word of a word list and every dot of a hotspot page (the same dicts, so they can be changed in place)"""
+    return [w for g in doc.get("groups", []) for w in g.get("words", [])] + [p for s in doc.get("slides", []) for p in s.get("spots", [])]
+
+
+def words(L, redo=()):
+    """A word list or a hotspot page: records every word that has no clip yet, as a named file in "glossary_dir"
+    (maison.mp3), and writes its name into the lesson file as "audio". A word list and its hotspot page share the
+    folder, so a word is recorded once. Single words are made with the course's "word_model" (eleven_v4):
+    the sentence model garbles them."""
+    if L.get("type") not in ("words", "hotspots") or not L.get("glossary_dir"):
+        sys.exit(f'{L["id"]}: this command is for a word list or hotspot page with "glossary_dir" set, e.g. "lessons/noun/house/"')
+    v, gd = VOICES[L["course"]], L["glossary_dir"]
+    if not v["voice"]:
+        sys.exit(f"no voice for {L['course']}: set it in assets/data/voices.json")
+    media = lib.find("media/" + gd) or os.path.join(ROOT, "media", *gd.strip("/").split("/"))
+    raw = os.path.join(ROOT, "media", "elevenlabs-raw", gd.strip("/").replace("/", "_"))
+    os.makedirs(media, exist_ok=True)
+    os.makedirs(raw, exist_ok=True)
+    doc = json.load(open(L["file"], encoding="utf-8"))
+    made = {}
+    for w in named_words(doc):
+        say = lib.spoken(w["fr"]).replace(" / ", ", ")
+        name = w.get("audio") or word_file(w["fr"])
+        dest = os.path.join(media, name)
+        if name not in made and (not os.path.exists(dest) or name in redo):
+            if os.path.exists(dest):   # a new take: the old clip is moved aside, not deleted
+                aside = os.path.join(raw, "_replaced_" + datetime.datetime.now().strftime("%y%m%d-%H%M%S"))
+                os.makedirs(aside, exist_ok=True)
+                shutil.move(dest, os.path.join(aside, name))
+            tts(say, v["voice"], v.get("word_model", "eleven_v4"), os.path.join(raw, name))
+            level(os.path.join(raw, name), dest, v["lufs"], stereo=L["course"] == "eng")
+            made[name] = say
+        w["audio"] = name
+    open(L["file"], "w", encoding="utf-8", newline="\n").write(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
+    total = len({w["audio"] for w in named_words(doc)})
+    print(f"{L['id']}: {len(made)} clip(s) made ({sum(map(len, made.values()))} characters), {total - len(made)} already there")
+    if made:
+        bad = 0
+        with tempfile.TemporaryDirectory() as tmp:   # single words need the bigger Whisper model to be judged fairly
+            subprocess.run(["whisper", *[os.path.join(media, n) for n in made], "--model", "medium", "--language", v["whisper"], "--output_format", "txt",
+                            "--output_dir", tmp, "--verbose", "False", "--fp16", "False"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+            for n, say in made.items():
+                heard = open(os.path.join(tmp, n[:-4] + ".txt"), encoding="utf-8").read().strip()
+                if plain(heard) != plain(say):
+                    bad += 1
+                    print(f"   check: {n}  '{say}'  heard as '{heard}'")
+        print(f"Whisper: {bad} of {len(made)} clip(s) to listen to. New take: python -E tools\\audio.py words {L['id']} --redo <file.mp3>. Then: upload.")
+    import build
+    build.main()
+
+
 def r2():
     import truststore
     truststore.inject_into_ssl()   # use the Windows certificate store
@@ -324,11 +385,20 @@ def upload_recording(L):
     glossary clips to R2, and stamps "audio_ver" in the lesson file when anything was new. The file keeps its name:
     the tag is what makes browsers and the CDN fetch a new take."""
     files = {}   # R2 key -> file on this computer
-    f = lib.find("media/" + L["audio_file"])
-    if not f:
-        sys.exit(f'{L["audio_file"]} is not in media/: nothing to upload')
-    files[L["audio_file"]] = f
+    if L.get("audio_file"):
+        f = lib.find("media/" + L["audio_file"])
+        if not f:
+            sys.exit(f'{L["audio_file"]} is not in media/: nothing to upload')
+        files[L["audio_file"]] = f
     gd = L.get("glossary_dir", "")
+    for w in named_words(L):   # a word list or hotspot page: its named clips
+        if gd and w.get("audio"):
+            p = lib.find("media/" + gd + w["audio"])
+            if not p:
+                sys.exit(f'{gd}{w["audio"]} is not in media/: not uploading')
+            files[gd + w["audio"]] = p
+    if not files:
+        sys.exit(f'{L["id"]}: nothing to upload yet (record the words first: python -E tools\\audio.py words {L["id"]})')
     for g in L.get("glossary", []):
         if gd and g.get("audio"):
             p = lib.find("media/" + gd + g["audio"])
@@ -343,7 +413,7 @@ def upload_recording(L):
     todo = [k for k, p in files.items() if online.get(k) != md5(p)]
     for k in todo:
         s3.upload_file(files[k], BUCKET, k, ExtraArgs={"ContentType": "audio/mp4" if k.endswith(".m4a") else "audio/mpeg"})
-    print(f"R2 {L['audio_file']}: {len(files) - len(todo)} already online, {len(todo)} uploaded")
+    print(f"R2 {L.get('audio_file') or gd}: {len(files) - len(todo)} already online, {len(todo)} uploaded")
     ver = L.get("audio_ver", "")
     if todo or not ver:
         ver = datetime.datetime.now().strftime("%y%m%d%H%M")
@@ -351,9 +421,10 @@ def upload_recording(L):
         if '"audio_ver"' in src:
             new = re.sub(r'"audio_ver":\s*"[^"]*"', f'"audio_ver": "{ver}"', src, count=1)
         else:
-            new = re.sub(r'^(\s*)("audio_file":\s*"[^"]*",?)[ \t]*$', lambda m: f'{m.group(1)}{m.group(2).rstrip(",")},\n{m.group(1)}"audio_ver": "{ver}",', src, count=1, flags=re.M)
+            key = "audio_file" if L.get("audio_file") else "glossary_dir"   # the tag goes on the line after it
+            new = re.sub(r'^(\s*)("' + key + r'":\s*"[^"]*",?)[ \t]*$', lambda m: f'{m.group(1)}{m.group(2).rstrip(",")},\n{m.group(1)}"audio_ver": "{ver}",', src, count=1, flags=re.M)
         if new == src:
-            sys.exit(f'could not find "audio_file" in {L["file"]}: add "audio_ver": "{ver}" by hand')
+            sys.exit(f'could not find "{key}" in {L["file"]}: add "audio_ver": "{ver}" by hand')
         json.loads(new)   # never leave a lesson file that does not parse
         open(L["file"], "w", encoding="utf-8", newline="\n").write(new)
         print(f"audio_ver set to {ver}")
@@ -370,7 +441,7 @@ def upload_recording(L):
 
 
 def upload(L):
-    if L.get("audio_file"):
+    if L.get("audio_file") or L.get("type") in ("words", "hotspots"):
         return upload_recording(L)
     media, _ = paths(L)
     tx = texts(L)
@@ -501,5 +572,7 @@ if __name__ == "__main__":
         shadow(get(a[1]))
     elif a[0] == "chunks" and len(a) > 1:
         chunks(get(a[1]))
+    elif a[0] == "words" and len(a) > 1:
+        words(get(a[1]), [x for x in a[a.index("--redo") + 1:]] if "--redo" in a else [])
     else:
         sys.exit(__doc__)
