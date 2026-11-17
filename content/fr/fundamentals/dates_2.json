@@ -1,0 +1,261 @@
+{
+ "title": "Dates : les jours",
+ "subtitle": "Expressions with days",
+ "level": "a2",
+ "level_provisional": true,
+ "topic": "Dates",
+ "order": 31,
+ "type": "words",
+ "legacy": "fr/fundamental/dates/2.html",
+ "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
+ "glossary_dir": "lessons/fundamental/dates/2/",
+ "groups": [
+  {
+   "title": "Day Expressions",
+   "sub": "Talking about days",
+   "audio": "01-dates.m4a",
+   "words": [
+    {
+     "fr": "Aujourd'hui, c'est dimanche.",
+     "en": "Today is Sunday.",
+     "audio": "02-Aujourd'hui, c'est dimanche.m4a"
+    },
+    {
+     "fr": "Aujourd'hui, nous sommes dimanche.",
+     "en": "Today is Sunday.",
+     "audio": "03-Aujourd'hui, nous sommes dimanche.m4a"
+    },
+    {
+     "fr": "Quelle est la date d'aujourd'hui ?",
+     "en": "What is today's date?",
+     "audio": "04-Quelle est la date d'aujourd'hui.m4a"
+    },
+    {
+     "fr": "On est le vingt.",
+     "en": "Today is the twentieth.",
+     "audio": "05-On est le vingt.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Day Frequency",
+   "words": [
+    {
+     "fr": "tous les jours",
+     "en": "every day",
+     "audio": "06-tous les jours.m4a"
+    },
+    {
+     "fr": "chaque jour",
+     "en": "each day",
+     "audio": "07-chaque jour.m4a"
+    },
+    {
+     "fr": "tous les deux jour",
+     "en": "every other day",
+     "audio": "08-tous les deux jours.m4a"
+    },
+    {
+     "fr": "l'autre jour",
+     "en": "the other day",
+     "audio": "09-l'autre jour.m4a"
+    },
+    {
+     "fr": "par jour",
+     "en": "per day",
+     "audio": "10-par jour.m4a"
+    },
+    {
+     "fr": "une fois par jour",
+     "en": "once a day",
+     "audio": "11-une fois par jour.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Day Quantities",
+   "words": [
+    {
+     "fr": "un jour",
+     "en": "one day",
+     "audio": "12-un jour.m4a"
+    },
+    {
+     "fr": "un de ces jours",
+     "en": "one of these days",
+     "audio": "13-un de ces jours.m4a"
+    },
+    {
+     "fr": "quelques jours",
+     "en": "a few days",
+     "audio": "14-quelques jours.m4a"
+    },
+    {
+     "fr": "en quelques jours",
+     "en": "in a few days",
+     "audio": "15-en quelques jours.m4a"
+    },
+    {
+     "fr": "dans quelques jours",
+     "en": "in a few days",
+     "audio": "16-dans quelques jours.m4a"
+    },
+    {
+     "fr": "en jours",
+     "en": "in days",
+     "audio": "17-en jours.m4a"
+    },
+    {
+     "fr": "en trois jours",
+     "en": "in three days",
+     "audio": "18-en trois jours.m4a"
+    },
+    {
+     "fr": "dans quatre jours",
+     "en": "in four days",
+     "audio": "19-dans quatre jours.m4a"
+    },
+    {
+     "fr": "premier jour",
+     "en": "first day",
+     "audio": "20-premier jour.m4a"
+    },
+    {
+     "fr": "dernier jour",
+     "en": "last day",
+     "audio": "21-dernier jour.m4a"
+    },
+    {
+     "fr": "pendant jours",
+     "en": "for days",
+     "audio": "22-pendant jours.m4a"
+    },
+    {
+     "fr": "pendant trois jours",
+     "en": "for three days",
+     "audio": "23-pendant trois jours.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Relative Days",
+   "words": [
+    {
+     "fr": "jour et nuit",
+     "en": "day and night",
+     "audio": "24-jour et nuit.m4a"
+    },
+    {
+     "fr": "le même jour",
+     "en": "the same day",
+     "audio": "25-le même jour.m4a"
+    },
+    {
+     "fr": "la veille",
+     "en": "the previous day",
+     "audio": "26-la veille.m4a"
+    },
+    {
+     "fr": "le lendemain",
+     "en": "the next day",
+     "audio": "27-le lendemain.m4a"
+    },
+    {
+     "fr": "du jour au lendemain",
+     "en": "overnight",
+     "audio": "28-Du jour au lendemain.m4a"
+    },
+    {
+     "fr": "deux jours avant",
+     "en": "two days before",
+     "audio": "29-deux jours avant.m4a"
+    },
+    {
+     "fr": "deux jours après",
+     "en": "two days later",
+     "audio": "30-deux jours après.m4a"
+    },
+    {
+     "fr": "à la lumière du jour",
+     "en": "in daylight",
+     "audio": "31-à la lumière du jour.m4a"
+    },
+    {
+     "fr": "Sauf qu'un jour,",
+     "en": "Except that one day,",
+     "audio": "32-Sauf qu'un jour.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Special Days",
+   "words": [
+    {
+     "fr": "le plus beau jour de ma vie",
+     "en": "the best day of my life",
+     "audio": "33-le plus beau jour de ma vie.m4a"
+    },
+    {
+     "fr": "le jour le plus triste de ma vie",
+     "en": "the saddest day of my life",
+     "audio": "34-le jour le plus triste de ma vie.m4a"
+    },
+    {
+     "fr": "le jour de ma naissance",
+     "en": "the day I was born",
+     "audio": "35-le jour de ma naissance.m4a"
+    },
+    {
+     "fr": "mon anniversaire",
+     "en": "my birthday",
+     "audio": "36-mon anniversaire.m4a"
+    },
+    {
+     "fr": "mon anniv",
+     "en": "my birthday (informal)",
+     "audio": "37-mon anniv.m4a"
+    },
+    {
+     "fr": "le jour de notre mariage",
+     "en": "the day of our marriage",
+     "audio": "38-le jour de notre mariage.m4a"
+    },
+    {
+     "fr": "notre anniversaire de mariage",
+     "en": "our wedding anniversary",
+     "audio": "39-notre anniversaire de mariage.m4a"
+    },
+    {
+     "fr": "un grand jour",
+     "en": "a great day",
+     "audio": "40-un grand jour.m4a"
+    },
+    {
+     "fr": "un jour important",
+     "en": "an important day",
+     "audio": "41-un jour important.m4a"
+    },
+    {
+     "fr": "C'est un jour spécial.",
+     "en": "This is a special day.",
+     "audio": "42-C'est un jour spécial.m4a"
+    },
+    {
+     "fr": "le jour de l'indépendance",
+     "en": "the independence day",
+     "audio": "43-le jour de l'indépendance.m4a"
+    },
+    {
+     "fr": "la joie de vivre",
+     "en": "the joy of life",
+     "audio": "44-la joie de vivre.m4a"
+    },
+    {
+     "fr": "Vivre chaque jour comme le dernier.",
+     "en": "Live each day like the last.",
+     "audio": "45-vivre chaque jour comme le dernier.m4a"
+    }
+   ]
+  }
+ ]
+}

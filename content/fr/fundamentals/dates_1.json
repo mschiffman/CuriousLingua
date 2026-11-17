@@ -1,0 +1,265 @@
+{
+ "title": "Dates",
+ "subtitle": "Days, months and saying the date",
+ "level": "a1",
+ "level_provisional": true,
+ "topic": "Dates",
+ "order": 30,
+ "type": "words",
+ "legacy": "fr/fundamental/dates/index.html",
+ "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
+ "glossary_dir": "lessons/fundamental/dates/1/",
+ "title_audio": "01-dates.m4a",
+ "groups": [
+  {
+   "title": "Time Units",
+   "words": [
+    {
+     "fr": "jour",
+     "en": "day",
+     "audio": "02-jour.m4a"
+    },
+    {
+     "fr": "semaine",
+     "en": "week",
+     "audio": "03-semaine.m4a"
+    },
+    {
+     "fr": "mois",
+     "en": "month",
+     "audio": "04-mois.m4a"
+    },
+    {
+     "fr": "année",
+     "en": "year",
+     "audio": "05-année.m4a"
+    },
+    {
+     "fr": "décennies",
+     "en": "decade",
+     "audio": "06-décennies.m4a"
+    },
+    {
+     "fr": "siècles",
+     "en": "century",
+     "audio": "07-siècles.m4a"
+    },
+    {
+     "fr": "avant Jésus-Christ",
+     "en": "B.C",
+     "audio": "08-avant Jésus-Christ.m4a"
+    },
+    {
+     "fr": "av. J.-C.",
+     "en": "B.C (abbreviation)",
+     "audio": "09-av.m4a"
+    },
+    {
+     "fr": "Après Jésus-Christ",
+     "en": "A.D",
+     "audio": "10-Après Jésus-Christ.m4a"
+    },
+    {
+     "fr": "ap. J.-C.",
+     "en": "A.D (abbreviation)",
+     "audio": "11-ap. J.-C.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Days of the Week",
+   "words": [
+    {
+     "fr": "Dimanche",
+     "en": "Sunday",
+     "audio": "12-Dimanche.m4a"
+    },
+    {
+     "fr": "Lundi",
+     "en": "Monday",
+     "audio": "13-Lundi.m4a"
+    },
+    {
+     "fr": "Mardi",
+     "en": "Tuesday",
+     "audio": "14-Mardi.m4a"
+    },
+    {
+     "fr": "Mercredi",
+     "en": "Wednesday",
+     "audio": "15-Mercredi.m4a"
+    },
+    {
+     "fr": "Jeudi",
+     "en": "Thursday",
+     "audio": "16-Jeudi.m4a"
+    },
+    {
+     "fr": "Vendredi",
+     "en": "Friday",
+     "audio": "17-Vendredi.m4a"
+    },
+    {
+     "fr": "Samedi",
+     "en": "Saturday",
+     "audio": "18-Samedi.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Months of the Year",
+   "words": [
+    {
+     "fr": "Janvier",
+     "en": "January",
+     "audio": "19-Janvier.m4a"
+    },
+    {
+     "fr": "Février",
+     "en": "February",
+     "audio": "20-Février.m4a"
+    },
+    {
+     "fr": "Mars",
+     "en": "March",
+     "audio": "21-Mars.m4a"
+    },
+    {
+     "fr": "Avril",
+     "en": "April",
+     "audio": "22-Avril.m4a"
+    },
+    {
+     "fr": "Mai",
+     "en": "May",
+     "audio": "23-Mai.m4a"
+    },
+    {
+     "fr": "Juin",
+     "en": "June",
+     "audio": "24-Juin.m4a"
+    },
+    {
+     "fr": "Juillet",
+     "en": "July",
+     "audio": "25-Juillet.m4a"
+    },
+    {
+     "fr": "Août",
+     "en": "August",
+     "audio": "26-Août.m4a"
+    },
+    {
+     "fr": "Septembre",
+     "en": "September",
+     "audio": "27-Septembre.m4a"
+    },
+    {
+     "fr": "Octobre",
+     "en": "October",
+     "audio": "28-Octobre.m4a"
+    },
+    {
+     "fr": "Novembre",
+     "en": "November",
+     "audio": "29-Novembre.m4a"
+    },
+    {
+     "fr": "Décembre",
+     "en": "December",
+     "audio": "30-Décembre.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Relative Days",
+   "words": [
+    {
+     "fr": "avant-hier",
+     "en": "the day before yesterday",
+     "audio": "31-avant-hier.m4a"
+    },
+    {
+     "fr": "hier",
+     "en": "yesterday",
+     "audio": "32-hier.m4a"
+    },
+    {
+     "fr": "aujourd'hui",
+     "en": "today",
+     "audio": "33-aujourd'hui.m4a"
+    },
+    {
+     "fr": "demain",
+     "en": "tomorrow",
+     "audio": "34-demain.m4a"
+    },
+    {
+     "fr": "après-demain",
+     "en": "the day after tomorrow",
+     "audio": "35-après-demain.m4a"
+    },
+    {
+     "fr": "cette année",
+     "en": "this year",
+     "audio": "36-cette année.m4a"
+    },
+    {
+     "fr": "l'année précédente",
+     "en": "the previous year",
+     "audio": "37-l'année précédente.m4a"
+    },
+    {
+     "fr": "l'année suivante",
+     "en": "next year",
+     "audio": "38-l'année suivante.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Expressing Dates",
+   "words": [
+    {
+     "fr": "le vingt et un décembre deux mille vingt trois",
+     "en": "21 December, 2023",
+     "audio": "39-le vingt et un décembre deux mille vingt trois.m4a"
+    },
+    {
+     "fr": "le jeudi vingt et un décembre",
+     "en": "Thursday 21st December",
+     "audio": "40-le jeudi vingt et un décembre.m4a"
+    },
+    {
+     "fr": "Quel jour est-il aujourd'hui ?",
+     "en": "What day is it today?",
+     "audio": "41-Quel jour est-il aujourd'hui.m4a"
+    },
+    {
+     "fr": "C'est quoi, aujourd'hui ?",
+     "en": "What day is it today? (informal)",
+     "audio": "42-C'est quoi, aujourd'hui.m4a"
+    },
+    {
+     "fr": "Quel jour sommes nous ?",
+     "en": "What day is it?",
+     "audio": "43-Quel jour sommes nous.m4a"
+    },
+    {
+     "fr": "Nous sommes vendredi.",
+     "en": "Today is Friday.",
+     "audio": "44-Nous sommes vendredi.m4a"
+    },
+    {
+     "fr": "Quel jour on est ?",
+     "en": "What day is it? (informal)",
+     "audio": "45-Quel jour on est.m4a"
+    },
+    {
+     "fr": "On est dimanche.",
+     "en": "Today is Sunday.",
+     "audio": "46-On est dimanche.m4a"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "title": "Dire l'heure",
+ "subtitle": "Telling the time",
+ "level": "a1",
+ "level_provisional": true,
+ "topic": "Time",
+ "order": 40,
+ "type": "words",
+ "legacy": "fr/fundamental/time/index.html",
+ "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
+ "glossary_dir": "lessons/fundamental/time/1/",
+ "title_audio": "01-dire l'heure.m4a",
+ "groups": [
+  {
+   "title": "",
+   "words": [
+    {
+     "fr": "seconde",
+     "ipa": "/s(ə)ɡɔ̃d/",
+     "en": "second",
+     "audio": "02-seconde.m4a"
+    },
+    {
+     "fr": "minute",
+     "ipa": "/minyt/",
+     "en": "minute",
+     "audio": "03-minute.m4a"
+    },
+    {
+     "fr": "heure",
+     "ipa": "/œʀ/",
+     "en": "hour",
+     "audio": "04-heure.m4a"
+    },
+    {
+     "fr": "matin",
+     "ipa": "/matɛ̃/",
+     "en": "morning",
+     "audio": "05-matin.m4a"
+    },
+    {
+     "fr": "midi",
+     "ipa": "/midi/",
+     "en": "noon",
+     "audio": "06-midi.m4a"
+    },
+    {
+     "fr": "après-midi",
+     "ipa": "/apʀɛmidi/",
+     "en": "afternoon",
+     "audio": "07-après-midi.m4a"
+    },
+    {
+     "fr": "soir",
+     "ipa": "/swaʀ/",
+     "en": "evening",
+     "audio": "08-soir.m4a"
+    },
+    {
+     "fr": "nuit",
+     "ipa": "/nɥi/",
+     "en": "night",
+     "audio": "09-nuit.m4a"
+    },
+    {
+     "fr": "minuit",
+     "ipa": "/minɥi/",
+     "en": "midnight",
+     "audio": "10-minuit.m4a"
+    },
+    {
+     "fr": "sept heures trente",
+     "en": "7h30",
+     "audio": "11-sept heures trente.m4a"
+    },
+    {
+     "fr": "dix-sept heures quarante-cinq",
+     "en": "17h45",
+     "audio": "12-dix-sept heures quarante-cinq.m4a"
+    },
+    {
+     "fr": "dix-sept heures trois quarts",
+     "en": "17h45",
+     "audio": "13-dix-sept heures trois quarts.m4a"
+    },
+    {
+     "fr": "Il est neuf heures.",
+     "en": "It's nine o'clock.",
+     "audio": "14-Il est neuf heures.m4a"
+    },
+    {
+     "fr": "Il est neuf heures dix-sept.",
+     "en": "It's nine seventeen.",
+     "audio": "15-Il est neuf heures dix-sept.m4a"
+    },
+    {
+     "fr": "Il est presque deux heures.",
+     "en": "It's almost 2 o'clock.",
+     "audio": "16-Il est presque deux heures.m4a"
+    },
+    {
+     "fr": "Il est tard.",
+     "en": "It's late. / It's already ten o'clock.",
+     "audio": "17-Il est tard.m4a"
+    },
+    {
+     "fr": "Il est déjà dix heures.",
+     "en": "It's late. / It's already ten o'clock.",
+     "audio": "18-Il est déjà dix heures.m4a"
+    },
+    {
+     "fr": "Il est encore tôt.",
+     "en": "It's still early. / It's only seven o'clock.",
+     "audio": "19-Il est encore tôt.m4a"
+    },
+    {
+     "fr": "Il n'est que sept heures.",
+     "en": "It's still early. / It's only seven o'clock.",
+     "audio": "20-Il n'est que sept heures.m4a"
+    },
+    {
+     "fr": "Il n'est même pas huit heures.",
+     "en": "It's not even eight o'clock.",
+     "audio": "21-Il n'est même pas huit heures.m4a"
+    },
+    {
+     "fr": "Il n'est même pas encore huit heures.",
+     "en": "It's not even eight o'clock yet.",
+     "audio": "22-Il n'est même pas encore huit heures.m4a"
+    },
+    {
+     "fr": "Il est trois heures et quart.",
+     "en": "It's three fifteen.",
+     "audio": "23-Il est trois heures et quart.m4a"
+    },
+    {
+     "fr": "Il est quatre heures et demie.",
+     "en": "It's four thirty.",
+     "audio": "24-Il est quatre heures et demie.m4a"
+    },
+    {
+     "fr": "Il est cinq heures moins dix.",
+     "en": "It's ten to five.",
+     "audio": "25-Il est cinq heures moins dix.m4a"
+    },
+    {
+     "fr": "Il est sept heures du matin.",
+     "en": "It's seven o'clock in the morning.",
+     "audio": "26-Il est sept heures du matin.m4a"
+    },
+    {
+     "fr": "Il est deux heures de l'après-midi.",
+     "en": "It's two o'clock in the afternoon.",
+     "audio": "27-Il est deux heures de l'après-midi.m4a"
+    },
+    {
+     "fr": "Il est huit heures du soir.",
+     "en": "It's eight o'clock in the evening.",
+     "audio": "28-Il est huit heures du soir.m4a"
+    },
+    {
+     "fr": "D'habitude, je me lève à six heures.",
+     "en": "I usually get up at six o'clock.",
+     "audio": "29-D'habitude, je me lève à six heures.m4a"
+    },
+    {
+     "fr": "Je me couche à neuf heures.",
+     "en": "I go to bed at nine o'clock.",
+     "audio": "30-Je me couche à neuf heures.m4a"
+    },
+    {
+     "fr": "entre neuf et dix heures",
+     "en": "between nine and ten o'clock",
+     "audio": "31-entre neuf et dix heures.m4a"
+    },
+    {
+     "fr": "Je suis arrivé avant trois heures.",
+     "en": "I got there before three o'clock.",
+     "audio": "32-Je suis arrivé avant trois heures.m4a"
+    },
+    {
+     "fr": "Je suis libre après quatre heures.",
+     "en": "I am free after four o'clock.",
+     "audio": "33-Je suis libre après quatre heures.m4a"
+    },
+    {
+     "fr": "À quelle heure ?",
+     "en": "What time?",
+     "audio": "34-À quelle heure.m4a"
+    },
+    {
+     "fr": "Il est quelle heure ?",
+     "en": "What time is it?",
+     "audio": "35-Il est quelle heure.m4a"
+    },
+    {
+     "fr": "Quelle heure est-il ?",
+     "en": "What time is it?",
+     "audio": "36-Quelle heure est-il.m4a"
+    },
+    {
+     "fr": "À quelle heure est ton rendez-vous ?",
+     "en": "What time is your appointment?",
+     "audio": "37-À quelle heure est ton rendez-vous.m4a"
+    },
+    {
+     "fr": "A quelle heure est ton avion ?",
+     "en": "What time is your plane?",
+     "audio": "38-A quelle heure est ton avion.m4a"
+    },
+    {
+     "fr": "À quelle heure ouvre Costco ?",
+     "en": "What time does Costco open?",
+     "audio": "39-À quelle heure ouvre Costco.m4a"
+    },
+    {
+     "fr": "À quelle heure ferme Costco ?",
+     "en": "What time does Costco close?",
+     "audio": "40-À quelle heure ferme Costco.m4a"
+    },
+    {
+     "fr": "À quelle heure ouvrent-ils ?",
+     "en": "What time do they open?",
+     "audio": "41-À quelle heure ouvrent-ils.m4a"
+    },
+    {
+     "fr": "À quelle heure ils ferment ?",
+     "en": "What time do they close?",
+     "audio": "42-À quelle heure ils ferment.m4a"
+    },
+    {
+     "fr": "À quelle heure on part ?",
+     "en": "What time do we leave?",
+     "audio": "43-À quelle heure on part.m4a"
+    },
+    {
+     "fr": "À quelle heure on se voit ?",
+     "en": "What time do we meet?",
+     "audio": "44-À quelle heure on se voit.m4a"
+    },
+    {
+     "fr": "Quelles sont vos heures d'ouverture ?",
+     "en": "What are your (opening) hours?",
+     "audio": "45-Quelles sont vos heures d'ouverture.m4a"
+    },
+    {
+     "fr": "Tu veux dîner quand ?",
+     "en": "What time do you want dinner?",
+     "audio": "46-Tu veux dîner quand.m4a"
+    },
+    {
+     "fr": "On commence quand ?",
+     "en": "When do we start?",
+     "audio": "47-On commence quand.m4a"
+    },
+    {
+     "fr": "Tu reviens quand ?",
+     "en": "When are you coming back?",
+     "audio": "48-Tu reviens quand.m4a"
+    },
+    {
+     "fr": "Depuis quand ?",
+     "en": "Since when?",
+     "audio": "49-Depuis quand.m4a"
+    },
+    {
+     "fr": "Vous ouvrez à quelle heure ?",
+     "en": "What time do you open?",
+     "audio": "50-Vous ouvrez à quelle heure.m4a"
+    },
+    {
+     "fr": "Vous fermez à quelle heure ?",
+     "en": "What time do you close?",
+     "audio": "51-Vous fermez à quelle heure.m4a"
+    },
+    {
+     "fr": "Ils n'ouvriront pas avant dix heures.",
+     "en": "They won't open until ten o'clock.",
+     "audio": "52-Ils n'ouvriront pas avant dix heures.m4a"
+    },
+    {
+     "fr": "Il est temps.",
+     "en": "It's about time.",
+     "audio": "53-Il est temps.m4a"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "title": "Temps et fréquence",
+ "subtitle": "Time and frequency",
+ "level": "a2",
+ "level_provisional": true,
+ "topic": "Time",
+ "order": 41,
+ "type": "words",
+ "legacy": "fr/fundamental/time/2.html",
+ "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
+ "glossary_dir": "lessons/fundamental/time/2/",
+ "title_audio": "01-temps et de fréquence.m4a",
+ "groups": [
+  {
+   "title": "Temps et fréquence",
+   "words": [
+    {
+     "fr": "hier",
+     "en": "yesterday",
+     "audio": "02-hier.m4a"
+    },
+    {
+     "fr": "aujourd'hui",
+     "en": "today",
+     "audio": "03-aujourd'hui.m4a"
+    },
+    {
+     "fr": "demain",
+     "en": "tomorrow",
+     "audio": "04-demain.m4a"
+    },
+    {
+     "fr": "avant-hier",
+     "en": "the day before yesterday",
+     "audio": "05-avant-hier.m4a"
+    },
+    {
+     "fr": "après-demain",
+     "en": "the day after tomorrow",
+     "audio": "06-après-demain.m4a"
+    },
+    {
+     "fr": "quotidien",
+     "ipa": "/kɔtidjɛ̃/",
+     "en": "daily",
+     "audio": "07-quotidien.m4a"
+    },
+    {
+     "fr": "hebdomadaire",
+     "ipa": "/ɛbdɔmadɛʀ/",
+     "en": "weekly",
+     "audio": "08-hebdomadaire.m4a"
+    },
+    {
+     "fr": "mensuel",
+     "ipa": "/mɑ̃sɥɛl/",
+     "en": "monthly",
+     "audio": "09-mensuel.m4a"
+    },
+    {
+     "fr": "annuel",
+     "ipa": "/anɥɛl/",
+     "en": "yearly",
+     "audio": "10-annuel.m4a"
+    },
+    {
+     "fr": "au départ,",
+     "en": "at the beginning,",
+     "audio": "67-Au départ.m4a"
+    },
+    {
+     "fr": "chaque jour",
+     "en": "every day",
+     "audio": "11-chaque jour.m4a"
+    },
+    {
+     "fr": "chaque semaine",
+     "en": "every week",
+     "audio": "12-chaque semaine.m4a"
+    },
+    {
+     "fr": "chaque mois",
+     "en": "every month",
+     "audio": "13-chaque mois.m4a"
+    },
+    {
+     "fr": "chaque année",
+     "en": "every year",
+     "audio": "14-chaque année.m4a"
+    },
+    {
+     "fr": "combien de fois",
+     "en": "how many times",
+     "audio": "15-combien de fois.m4a"
+    },
+    {
+     "fr": "déjà",
+     "en": "already",
+     "audio": "16-déjà.m4a"
+    },
+    {
+     "fr": "depuis",
+     "en": "since",
+     "audio": "17-depuis.m4a"
+    },
+    {
+     "fr": "en ce moment",
+     "en": "right now / at the moment",
+     "audio": "61-en ce moment.m4a"
+    },
+    {
+     "fr": "encore",
+     "en": "again / still",
+     "audio": "18-encore.m4a"
+    },
+    {
+     "fr": "enfin",
+     "en": "finally",
+     "audio": "19-enfin.m4a"
+    },
+    {
+     "fr": "ensuite",
+     "en": "then",
+     "audio": "20-ensuite.m4a"
+    },
+    {
+     "fr": "jamais",
+     "en": "never",
+     "audio": "21-jamais.m4a"
+    },
+    {
+     "fr": "maintenant",
+     "en": "now",
+     "audio": "22-maintenant.m4a"
+    },
+    {
+     "fr": "parfois",
+     "en": "sometimes",
+     "audio": "23-parfois.m4a"
+    },
+    {
+     "fr": "pendant longtemps",
+     "en": "for a long time",
+     "audio": "24-pendant longtemps.m4a"
+    },
+    {
+     "fr": "pendant un moment",
+     "en": "for a while",
+     "audio": "25-pendant un moment.m4a"
+    },
+    {
+     "fr": "puis",
+     "en": "then",
+     "audio": "26-puis.m4a"
+    },
+    {
+     "fr": "quand",
+     "en": "when",
+     "audio": "27-quand.m4a"
+    },
+    {
+     "fr": "rarement",
+     "en": "rarely",
+     "audio": "28-rarement.m4a"
+    },
+    {
+     "fr": "soudain",
+     "en": "suddenly",
+     "audio": "29-soudain.m4a"
+    },
+    {
+     "fr": "souvent",
+     "en": "often",
+     "audio": "30-souvent.m4a"
+    },
+    {
+     "fr": "tard",
+     "en": "late",
+     "audio": "31-tard.m4a"
+    },
+    {
+     "fr": "plus tard",
+     "en": "later",
+     "audio": "32-plus tard.m4a"
+    },
+    {
+     "fr": "tôt",
+     "en": "early",
+     "audio": "33-tôt.m4a"
+    },
+    {
+     "fr": "plus tôt",
+     "en": "earlier",
+     "audio": "34-plus tôt.m4a"
+    },
+    {
+     "fr": "toujours",
+     "en": "always",
+     "audio": "35-toujours.m4a"
+    },
+    {
+     "fr": "tout de suite",
+     "en": "immediately",
+     "audio": "36-tout de suite.m4a"
+    },
+    {
+     "fr": "immédiatement",
+     "en": "immediately",
+     "audio": "37-immédiatement.m4a"
+    }
+   ]
+  },
+  {
+   "title": "Autres expressions",
+   "sub": "Other expressions",
+   "audio": "38-autres expressions.m4a",
+   "words": [
+    {
+     "fr": "à cette époque",
+     "en": "at that time",
+     "audio": "39-à cette époque.m4a"
+    },
+    {
+     "fr": "à chaque fois",
+     "en": "every time",
+     "audio": "40-à chaque fois.m4a"
+    },
+    {
+     "fr": "à court terme",
+     "en": "in the short term",
+     "audio": "41-à court terme.m4a"
+    },
+    {
+     "fr": "à la dernière minute",
+     "en": "at the last minute",
+     "audio": "42-à la dernière minute.m4a"
+    },
+    {
+     "fr": "à la fin",
+     "en": "at the end",
+     "audio": "43-à la fin.m4a"
+    },
+    {
+     "fr": "à la minute près",
+     "en": "to the minute",
+     "audio": "44-à la minute près.m4a"
+    },
+    {
+     "fr": "à l'avenir",
+     "en": "in the future",
+     "audio": "45-à l'avenir.m4a"
+    },
+    {
+     "fr": "à l'heure",
+     "en": "on time",
+     "audio": "46-à l'heure.m4a"
+    },
+    {
+     "fr": "à long terme",
+     "en": "in the long term",
+     "audio": "47-à long terme.m4a"
+    },
+    {
+     "fr": "à partir de maintenant",
+     "en": "from now on",
+     "audio": "48-à partir de maintenant.m4a"
+    },
+    {
+     "fr": "à temps",
+     "en": "on time",
+     "audio": "49-à temps.m4a"
+    },
+    {
+     "fr": "à temps partiel",
+     "en": "part-time",
+     "audio": "50-à temps partiel.m4a"
+    },
+    {
+     "fr": "à temps plein",
+     "en": "full-time",
+     "audio": "51-à temps plein.m4a"
+    },
+    {
+     "fr": "à tout moment",
+     "en": "at any time",
+     "audio": "52-à tout moment.m4a"
+    },
+    {
+     "fr": "autrefois",
+     "en": "formerly / in the past",
+     "audio": "53-autrefois.m4a"
+    },
+    {
+     "fr": "comme d'hab",
+     "en": "as usual",
+     "audio": "54-comme d'hab.m4a"
+    },
+    {
+     "fr": "d'habitude",
+     "en": "usually",
+     "audio": "55-d'habitude.m4a"
+    },
+    {
+     "fr": "de bonne heure",
+     "en": "early in the morning",
+     "audio": "56-de bonne heure.m4a"
+    },
+    {
+     "fr": "de temps en temps",
+     "en": "from time to time",
+     "audio": "57-de temps en temps.m4a"
+    },
+    {
+     "fr": "dès que possible (DQP)",
+     "en": "as soon as possible (ASAP)",
+     "audio": "58-dès que possible.m4a"
+    },
+    {
+     "fr": "du jour au lendemain",
+     "en": "overnight",
+     "audio": "59-du jour au lendemain.m4a"
+    },
+    {
+     "fr": "en avance",
+     "en": "in advance",
+     "audio": "60-en avance.m4a"
+    },
+    {
+     "fr": "en retard",
+     "en": "late",
+     "audio": "62-en retard.m4a"
+    },
+    {
+     "fr": "en un clin d'œil",
+     "en": "in the blink of an eye",
+     "audio": "63-en un clin d'œil.m4a"
+    },
+    {
+     "fr": "jusqu'à maintenant",
+     "en": "until now",
+     "audio": "64-jusqu'à maintenant.m4a"
+    },
+    {
+     "fr": "pour l'instant",
+     "en": "for now / for the moment",
+     "audio": "65-pour l'instant.m4a"
+    },
+    {
+     "fr": "tout à l'heure",
+     "en": "just now / a moment ago",
+     "audio": "66-tout à l'heure.m4a"
+    }
+   ]
+  }
+ ]
+}

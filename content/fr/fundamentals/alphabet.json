@@ -1,0 +1,177 @@
+{
+ "title": "Alphabet français",
+ "subtitle": "The French alphabet",
+ "level": "a1",
+ "level_provisional": true,
+ "topic": "Alphabet",
+ "order": 10,
+ "type": "words",
+ "legacy": "fr/fundamental/alphabet/index.html",
+ "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
+ "glossary_dir": "lessons/fundamental/alphabet/",
+ "title_audio": "01-alphabet français.m4a",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "",
+   "words": [
+    {
+     "fr": "A",
+     "en": "",
+     "audio": "02-a.m4a",
+     "ipa": "/a/"
+    },
+    {
+     "fr": "B",
+     "en": "",
+     "audio": "03-b.m4a",
+     "ipa": "/be/"
+    },
+    {
+     "fr": "C",
+     "en": "",
+     "audio": "04-c.m4a",
+     "ipa": "/se/"
+    },
+    {
+     "fr": "D",
+     "en": "",
+     "audio": "05-d.m4a",
+     "ipa": "/de/"
+    },
+    {
+     "fr": "E",
+     "en": "",
+     "audio": "06-e.m4a",
+     "ipa": "/ə/"
+    },
+    {
+     "fr": "F",
+     "en": "",
+     "audio": "07-f.m4a",
+     "ipa": "/ɛf/"
+    },
+    {
+     "fr": "G",
+     "en": "",
+     "audio": "08-g.m4a",
+     "ipa": "/ʒe/"
+    },
+    {
+     "fr": "H",
+     "en": "",
+     "audio": "09-h.m4a",
+     "ipa": "/aʃ/"
+    },
+    {
+     "fr": "I",
+     "en": "",
+     "audio": "10-i.m4a",
+     "ipa": "/i/"
+    },
+    {
+     "fr": "J",
+     "en": "",
+     "audio": "11-j.m4a",
+     "ipa": "/ʒi/"
+    },
+    {
+     "fr": "K",
+     "en": "",
+     "audio": "12-k.m4a",
+     "ipa": "/kɑ/"
+    },
+    {
+     "fr": "L",
+     "en": "",
+     "audio": "13-l.m4a",
+     "ipa": "/ɛl/"
+    },
+    {
+     "fr": "M",
+     "en": "",
+     "audio": "14-m.m4a",
+     "ipa": "/ɛm/"
+    },
+    {
+     "fr": "N",
+     "en": "",
+     "audio": "15-n.m4a",
+     "ipa": "/ɛn/"
+    },
+    {
+     "fr": "O",
+     "en": "",
+     "audio": "16-o.m4a",
+     "ipa": "/o/"
+    },
+    {
+     "fr": "P",
+     "en": "",
+     "audio": "17-p.m4a",
+     "ipa": "/pe/"
+    },
+    {
+     "fr": "Q",
+     "en": "",
+     "audio": "18-q.m4a",
+     "ipa": "/ky/"
+    },
+    {
+     "fr": "R",
+     "en": "",
+     "audio": "19-r.m4a",
+     "ipa": "/ɛʀ/"
+    },
+    {
+     "fr": "S",
+     "en": "",
+     "audio": "20-s.m4a",
+     "ipa": "/ɛs/"
+    },
+    {
+     "fr": "T",
+     "en": "",
+     "audio": "21-t.m4a",
+     "ipa": "/te/"
+    },
+    {
+     "fr": "U",
+     "en": "",
+     "audio": "22-u.m4a",
+     "ipa": "/y/"
+    },
+    {
+     "fr": "V",
+     "en": "",
+     "audio": "23-v.m4a",
+     "ipa": "/ve/"
+    },
+    {
+     "fr": "W",
+     "en": "",
+     "audio": "24-w.m4a",
+     "ipa": "/dubləve/"
+    },
+    {
+     "fr": "X",
+     "en": "",
+     "audio": "25-x.m4a",
+     "ipa": "/iks/"
+    },
+    {
+     "fr": "Y",
+     "en": "",
+     "audio": "26-y.m4a",
+     "ipa": "/igʀɛk/"
+    },
+    {
+     "fr": "Z",
+     "en": "",
+     "audio": "27-z.m4a",
+     "ipa": "/zɛd/"
+    }
+   ]
+  }
+ ]
+}

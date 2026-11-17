@@ -15,6 +15,10 @@
 .wl-g{font-size:.7rem;font-weight:700;text-transform:uppercase;line-height:1.5;color:rgb(var(--accent));border:1px solid rgb(var(--accent)/.3);background:rgb(var(--accent)/.1);border-radius:999px;padding:0 .45rem}
 .wl-ipa{font-size:.9rem;color:#5B6475}
 .wl-en{color:#5B6475;text-align:right;max-width:45%}
+.wl-note{margin-top:.6rem;border-left:3px solid rgb(var(--accent)/.5);background:rgb(var(--accent)/.06);border-radius:.5rem;padding:.5rem .75rem;font-size:.95rem}
+.wl-opts{display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr))}
+.wl-opts .btn{min-height:3.25rem;font-size:1rem;white-space:normal}
+.wl-wrong{border-color:#B3261E;color:#B3261E}
 .hs-stage{position:relative;border-radius:1rem;overflow:hidden;border:1px solid #E4DCCF;background:#fff;line-height:0}
 .hs-stage img{width:100%;height:auto;display:block}
 .hs-dot{position:absolute;width:2.25rem;height:2.25rem;margin:-1.125rem 0 0 -1.125rem;padding:0;border:0;border-radius:999px;background:rgb(255 255 255/.6);cursor:pointer;display:grid;place-items:center;transition:transform .15s,background .15s}
@@ -54,20 +58,44 @@
 <section x-data="words" class="mt-6">
 <img x-show="hero" x-cloak :src="hero" :alt="alt" class="wl-hero">
 <div class="mt-4 flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
-<button class="btn" :class="hideEn && 'btn-on'" @click="hideEn = !hideEn" x-text="hideEn ? 'Show English' : 'Hide English'"></button>
-<button class="btn" :class="hideFr && 'btn-on'" @click="hideFr = !hideFr" x-text="hideFr ? 'Show the words' : 'Hide the words'"></button>
-<span class="text-sm text-muted">Tap a word to hear it.</span>
+<button class="btn" x-show="!quiz" :class="hideEn && 'btn-on'" @click="hideEn = !hideEn" x-text="hideEn ? 'Show English' : 'Hide English'"></button>
+<button class="btn" x-show="!quiz" :class="hideFr && 'btn-on'" @click="hideFr = !hideFr" x-text="hideFr ? 'Show the words' : 'Hide the words'"></button>
+<button class="btn" x-show="pool().length > 3" :class="quiz && 'btn-on'" @click="quiz ? stopQuiz() : startQuiz()" x-text="quiz ? 'Back to the list' : 'Quiz'"></button>
+<span class="text-sm text-muted" x-show="!quiz">Tap a word to hear it.</span>
 </div>
-<template x-for="g in groups" :key="g.title"><section class="mt-8">
-<h2 class="text-2xl font-semibold" x-show="g.title" x-text="g.title"></h2>
+
+<div x-show="quiz" x-cloak class="mt-4 rounded-2xl border border-line bg-card p-4">
+<div x-show="q">
+<div class="flex flex-wrap items-center gap-3">
+<button class="play" @click="q && hear(q.w)" aria-label="Hear it again"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<p class="text-xl text-muted">&Eacute;coutez et choisissez.</p>
+<span class="ml-auto text-sm font-bold text-muted" x-text="asked + ' / ' + total"></span>
+</div>
+<div class="wl-opts mt-4"><template x-for="o in (q ? q.opts : [])" :key="o.n"><button class="btn" :class="optClass(o)" @click="choose(o)" x-text="label(o)" :lang="show === 'fr' ? 'fr' : null"></button></template></div>
+</div>
+<div x-show="!q" class="flex flex-wrap items-center gap-3">
+<p class="text-xl font-semibold" x-text="'Bravo ! ' + score + ' / ' + total"></p><span class="ml-auto"></span>
+<button class="btn btn-primary" @click="startQuiz()">Again</button><button class="btn" @click="stopQuiz()">Back to the list</button>
+</div>
+</div>
+
+<div x-show="!quiz">
+<template x-for="(g, gi) in groups" :key="gi"><section class="mt-8">
+<div class="flex flex-wrap items-center gap-3" x-show="g.title">
+<button x-show="g.audio" class="play small" @click="hearName(g.audio)" aria-label="Hear the heading"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<h2 class="text-2xl font-semibold" lang="fr" x-text="g.title"></h2><span class="wl-ipa" x-show="g.ipa" x-text="g.ipa"></span>
+</div>
+<p class="mt-1 text-muted" x-show="g.sub" x-text="g.sub"></p>
+<template x-for="(t, ti) in (g.notes || [])" :key="ti"><p class="wl-note" x-text="t"></p></template>
 <div class="wl-grid mt-3">
 <template x-for="w in g.words" :key="w.n"><button class="wl-row" :class="said === w.n && 'wl-on'" @click="hear(w)">
 <span class="play small pointer-events-none"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
 <span class="wl-fr"><span class="font-bold" lang="fr" x-show="!hideFr" x-text="w.fr"></span><span x-show="hideFr" x-cloak class="text-muted">&bull; &bull; &bull;</span>
 <span x-show="w.g" class="wl-g" x-text="w.g"></span><span class="wl-ipa" x-show="w.ipa && !hideFr" x-text="w.ipa"></span></span>
-<span class="wl-en" x-show="!hideEn" x-text="w.en"></span><span x-show="hideEn" x-cloak class="wl-en">&bull; &bull; &bull;</span>
+<span class="wl-en" x-show="w.en && !hideEn" x-text="w.en"></span><span x-show="w.en && hideEn" x-cloak class="wl-en">&bull; &bull; &bull;</span>
 </button></template>
 </div></section></template>
+</div>
 </section>
 <section class="mt-8 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">Notes</h2><ul class="mt-2 list-disc space-y-1 pl-5 text-muted"><li>Remember: Use &quot;le&quot; for masculine nouns and &quot;la&quot; for feminine nouns.</li><li>Use &quot;l&#x27;&quot; before nouns starting with a vowel or silent &#x27;h&#x27; (e.g., l&#x27;océan, l&#x27;île).</li><li>The (m) and (f) subscripts indicate masculine and feminine nouns.</li></ul></section>
 <section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Supplemental section</h2><p class="mt-1 text-muted">More practice with this text.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" href="../../fr/vocabulary/house_hotspots.html" data-lesson="fr/vocabulary/house_hotspots"><h3 class="text-lg font-semibold leading-snug">La maison : images à explorer</h3>

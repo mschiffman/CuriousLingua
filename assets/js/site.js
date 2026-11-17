@@ -277,6 +277,30 @@
       hero: L.img ? media(ROOT + L.img) : "", alt: L.img_alt || "",   // an optional opening picture
       /* a word with its own file ("audio", in glossary_dir) plays that; the others are numbered clips */
       hear(w) { this.said = w.n; if (w.audio) { stop(); playWord(w.audio); } else this.say(w.n); },
+      hearName(name) { if (name) { stop(); playWord(name); } },   // a group heading has a clip too
+      /* Quiz: a word is played; choose it among four. "listen_pick": "fr" shows the French spellings instead of the meanings. */
+      quiz: false, q: null, asked: 0, total: 0, score: 0, picked: 0, todo: [], show: L.listen_pick === "fr" ? "fr" : "en",
+      label(o) { return this.show === "fr" ? o.fr : (o.en || o.fr); },
+      pool() { const seen = {}; return this.groups.flatMap((g) => g.words).filter((w) => w.audio && !seen[this.label(w)] && (seen[this.label(w)] = 1)); },
+      mix(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; },
+      startQuiz() { this.quiz = true; this.todo = this.mix(this.pool()).slice(0, 10); this.total = this.todo.length; this.asked = 0; this.score = 0; this.nextQ(); },
+      stopQuiz() { this.quiz = false; this.q = null; stop(); },
+      nextQ() {
+        this.picked = 0;
+        const w = this.todo[this.asked];
+        if (!w) { this.q = null; return; }
+        this.asked++;
+        this.q = { w, opts: this.mix([w, ...this.mix(this.pool().filter((x) => x.n !== w.n)).slice(0, 3)]) };
+        this.hear(w);
+      },
+      choose(o) {
+        if (this.picked || !this.q) return;
+        this.picked = o.n;
+        const right = o.n === this.q.w.n;
+        if (right) this.score++;
+        setTimeout(() => { if (this.quiz) this.nextQ(); }, right ? 800 : 1800);
+      },
+      optClass(o) { return !this.picked ? "" : o.n === this.q.w.n ? "btn-on" : o.n === this.picked ? "wl-wrong" : "opacity-40"; },
     }));
 
     /* ---- hotspots: pictures with dots. Explore them, or be asked a word and tap where it is ---- */
