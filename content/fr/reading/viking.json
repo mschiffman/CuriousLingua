@@ -12,7 +12,7 @@
  "support": [
   "en"
  ],
- "audio_file": "lessons/read/viking/audio.mp3",
+ "audio_file": "lessons/read/viking/audio2.mp3",
  "glossary_dir": "lessons/read/viking/",
  "paragraphs": [
   [
@@ -34,8 +34,8 @@
      ]
     },
     "t": [
-     0,
-     7.59
+     7.75,
+     15.39
     ]
    }
   ],
@@ -46,8 +46,8 @@
      "en": "Those who built them were true geniuses."
     },
     "t": [
-     8.13,
-     11.19
+     15.93,
+     18.99
     ]
    },
    {
@@ -93,8 +93,8 @@
      ]
     },
     "t": [
-     11.73,
-     25.27
+     19.53,
+     33.07
     ]
    }
   ],
@@ -117,8 +117,8 @@
      ]
     },
     "t": [
-     25.6,
-     35.75
+     33.4,
+     43.55
     ]
    }
   ],
@@ -136,8 +136,8 @@
      ]
     },
     "t": [
-     36.4,
-     43.51
+     44.2,
+     51.31
     ]
    },
    {
@@ -153,8 +153,8 @@
      ]
     },
     "t": [
-     43.66,
-     46.55
+     51.46,
+     54.35
     ]
    },
    {
@@ -170,8 +170,8 @@
      ]
     },
     "t": [
-     47.0,
-     51.72
+     54.8,
+     59.52
     ]
    },
    {
@@ -180,8 +180,8 @@
      "en": "During the long winter evenings, people told stories of gods, giants and heroes."
     },
     "t": [
-     51.75,
-     58.15
+     59.55,
+     65.95
     ]
    }
   ],
@@ -199,8 +199,8 @@
      ]
     },
     "t": [
-     58.67,
-     63.03
+     66.47,
+     70.83
     ]
    }
   ],
@@ -218,8 +218,8 @@
      ]
     },
     "t": [
-     63.15,
-     73.03
+     70.95,
+     80.83
     ]
    }
   ],
@@ -237,8 +237,8 @@
      ]
     },
     "t": [
-     73.2,
-     77.01
+     81.0,
+     84.81
     ]
    },
    {
@@ -254,8 +254,8 @@
      ]
     },
     "t": [
-     77.06,
-     81.27
+     84.86,
+     89.07
     ]
    },
    {
@@ -264,8 +264,8 @@
      "en": "And they went as far as North America… almost five centuries before Christopher Columbus!"
     },
     "t": [
-     81.68,
-     87.35
+     89.48,
+     95.15
     ]
    }
   ],
@@ -276,8 +276,8 @@
      "en": "Imagine: you are standing on a small wooden boat."
     },
     "t": [
-     88.19,
-     91.99
+     95.99,
+     99.79
     ]
    },
    {
@@ -286,8 +286,8 @@
      "en": "Around you, the ocean moves without stopping, endlessly."
     },
     "t": [
-     92.41,
-     96.47
+     100.21,
+     104.27
     ]
    },
    {
@@ -303,8 +303,8 @@
      ]
     },
     "t": [
-     96.54,
-     98.15
+     104.34,
+     105.95
     ]
    },
    {
@@ -313,8 +313,8 @@
      "en": "And no certainty of finding land ahead of you."
     },
     "t": [
-     98.24,
-     101.59
+     106.04,
+     109.39
     ]
    }
   ],
@@ -325,8 +325,8 @@
      "en": "What incredible courage!"
     },
     "t": [
-     102.19,
-     104.31
+     109.99,
+     112.11
     ]
    },
    {
@@ -335,8 +335,8 @@
      "en": "What extraordinary curiosity!"
     },
     "t": [
-     104.4,
-     107.19
+     112.2,
+     114.99
     ]
    }
   ],
@@ -347,8 +347,8 @@
      "en": "The Vikings had neither modern instruments nor powerful engines."
     },
     "t": [
-     107.42,
-     112.15
+     115.22,
+     119.95
     ]
    },
    {
@@ -369,8 +369,8 @@
      ]
     },
     "t": [
-     112.54,
-     120.63
+     120.34,
+     128.43
     ]
    }
   ]
