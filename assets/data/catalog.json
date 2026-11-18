@@ -90,6 +90,21 @@
   "quiz": false
  },
  {
+  "id": "fr/reading/geothermal",
+  "url": "fr/reading/geothermal.html",
+  "course": "fr",
+  "strand": "reading",
+  "level": "b2",
+  "level_provisional": false,
+  "topic": "Science",
+  "type": "text",
+  "title": "L’énergie géothermique",
+  "clips": 0,
+  "images": 1,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/reading/hunter",
   "url": "fr/reading/hunter.html",
   "course": "fr",
