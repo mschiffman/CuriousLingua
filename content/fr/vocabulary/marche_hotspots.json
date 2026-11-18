@@ -1,0 +1,395 @@
+{
+ "title": "Au marché : images à explorer",
+ "subtitle": "Tap the dots, then take the quiz",
+ "label": "Pictures with hotspots",
+ "type": "hotspots",
+ "supplement_of": "marche",
+ "legacy": "fr/everyday/topics/marche/marche-hs.html",
+ "review": "37 of the 37 dots play a recording of the word list; the others have no clip yet (python -E tools\\audio.py words fr/vocabulary/marche_hotspots records them).",
+ "intro": "Explore: tap a dot to see and hear the word. Quiz: a word is asked, tap where it is in the picture.",
+ "glossary_dir": "lessons/everyday/marche/",
+ "audio_ver": "2608071226",
+ "slides": [
+  {
+   "img": "img/topics/marche/slide1.jpg",
+   "alt": "Farmers Market Overview",
+   "spots": [
+    {
+     "x": 88.0,
+     "y": 31.0,
+     "fr": "une balance",
+     "g": "f",
+     "ipa": "/yn ba.lɑ̃s/",
+     "en": "scale",
+     "audio": "046.mp3"
+    },
+    {
+     "x": 32.0,
+     "y": 22.0,
+     "fr": "le vendeur",
+     "g": "m",
+     "ipa": "/lə vɑ̃.dœʁ/",
+     "en": "seller",
+     "audio": "012.mp3"
+    },
+    {
+     "x": 8.0,
+     "y": 65.0,
+     "fr": "les légumes",
+     "g": "m",
+     "ipa": "/le le.gym/",
+     "en": "vegetables",
+     "audio": "021.mp3"
+    },
+    {
+     "x": 75.0,
+     "y": 55.0,
+     "fr": "les fruits",
+     "g": "m",
+     "ipa": "/le fʁɥi/",
+     "en": "fruit",
+     "audio": "020.mp3"
+    },
+    {
+     "x": 37.0,
+     "y": 62.0,
+     "fr": "un sac",
+     "g": "m",
+     "ipa": "/ɛ̃ sak/",
+     "en": "bag",
+     "audio": "045.mp3"
+    }
+   ]
+  },
+  {
+   "img": "img/topics/marche/slide2.jpg",
+   "alt": "Fruit Stand",
+   "spots": [
+    {
+     "x": 50.0,
+     "y": 20.0,
+     "fr": "un auvent",
+     "g": "m",
+     "ipa": "/ɛ̃‿novɑ̃/",
+     "en": "awning",
+     "audio": "006.mp3"
+    },
+    {
+     "x": 74.0,
+     "y": 7.0,
+     "fr": "un stand",
+     "g": "m",
+     "ipa": "/ɛ̃ stɑ̃d/",
+     "en": "stall",
+     "audio": "005.mp3"
+    },
+    {
+     "x": 4.0,
+     "y": 35.0,
+     "fr": "un marchand",
+     "g": "m",
+     "ipa": "/ɛ̃ maʁ.ʃɑ̃/",
+     "en": "merchant",
+     "audio": "014.mp3"
+    },
+    {
+     "x": 94.0,
+     "y": 30.0,
+     "fr": "un acheteur",
+     "g": "m",
+     "ipa": "/ɛ̃ na.ʃə.tœʁ/",
+     "en": "buyer",
+     "audio": "017.mp3"
+    },
+    {
+     "x": 25.0,
+     "y": 89.0,
+     "fr": "un cageot",
+     "g": "m",
+     "ipa": "/ɛ̃ kaʒo/",
+     "en": "crate",
+     "audio": "048.mp3"
+    }
+   ]
+  },
+  {
+   "img": "img/topics/marche/slide3.jpg",
+   "alt": "Various Market Stands",
+   "spots": [
+    {
+     "x": 30.0,
+     "y": 58.0,
+     "fr": "un client",
+     "g": "m",
+     "ipa": "/ɛ̃ kli.jɑ̃/",
+     "en": "customer",
+     "audio": "015.mp3"
+    },
+    {
+     "x": 63.0,
+     "y": 45.0,
+     "fr": "le pain",
+     "g": "m",
+     "ipa": "/lə pɛ̃/",
+     "en": "bread",
+     "audio": "037.mp3"
+    },
+    {
+     "x": 69.0,
+     "y": 75.0,
+     "fr": "les produits locaux",
+     "g": "m",
+     "ipa": "/le pʁɔ.dɥi lɔ.ko/",
+     "en": "local products",
+     "audio": "042.mp3"
+    },
+    {
+     "x": 91.0,
+     "y": 15.0,
+     "fr": "une cliente",
+     "g": "f",
+     "ipa": "/yn kli.jɑ̃t/",
+     "en": "customer",
+     "audio": "016.mp3"
+    }
+   ]
+  },
+  {
+   "img": "img/topics/marche/slide4.jpg",
+   "alt": "Fish Stand",
+   "spots": [
+    {
+     "x": 40.0,
+     "y": 40.0,
+     "fr": "le poisson",
+     "g": "m",
+     "ipa": "/lə pwa.sɔ̃/",
+     "en": "fish",
+     "audio": "041.mp3"
+    },
+    {
+     "x": 25.0,
+     "y": 90.0,
+     "fr": "un panier",
+     "g": "m",
+     "ipa": "/ɛ̃ pa.nje/",
+     "en": "basket",
+     "audio": "044.mp3"
+    }
+   ]
+  },
+  {
+   "img": "img/topics/marche/slide5.jpg",
+   "alt": "Butcher Stand",
+   "spots": [
+    {
+     "x": 60.0,
+     "y": 43.0,
+     "fr": "un étal",
+     "g": "m",
+     "ipa": "/ɛ̃ ne.tal/",
+     "en": "vendor's display",
+     "audio": "007.mp3"
+    },
+    {
+     "x": 74.0,
+     "y": 7.0,
+     "fr": "une échoppe",
+     "g": "f",
+     "ipa": "/yn e.ʃɔp/",
+     "en": "small stall",
+     "audio": "008.mp3"
+    },
+    {
+     "x": 35.0,
+     "y": 76.0,
+     "fr": "une table",
+     "g": "f",
+     "ipa": "/yn tabl/",
+     "en": "table",
+     "audio": "049.mp3"
+    },
+    {
+     "x": 20.0,
+     "y": 66.0,
+     "fr": "la viande",
+     "g": "f",
+     "ipa": "/la vjɑ̃d/",
+     "en": "meat",
+     "audio": "040.mp3"
+    }
+   ]
+  },
+  {
+   "img": "img/topics/marche/slide6.jpg",
+   "alt": "Butcher Stand",
+   "spots": [
+    {
+     "x": 1.0,
+     "y": 1.0,
+     "fr": "les herbes fraîches",
+     "g": "f",
+     "ipa": "/le ɛʁb fʁɛʃ/",
+     "en": "fresh herbs",
+     "audio": "025.mp3"
+    },
+    {
+     "x": 4.0,
+     "y": 10.0,
+     "fr": "le romarin",
+     "g": "m",
+     "ipa": "/lə ʁɔ.ma.ʁɛ̃/",
+     "en": "rosemary",
+     "audio": "026.mp3"
+    },
+    {
+     "x": 19.0,
+     "y": 10.0,
+     "fr": "la coriandre",
+     "g": "f",
+     "ipa": "/la kɔ.ʁjɑ̃dʁ/",
+     "en": "cilantro",
+     "audio": "027.mp3"
+    },
+    {
+     "x": 35.0,
+     "y": 10.0,
+     "fr": "les épinards",
+     "g": "m",
+     "ipa": "/le‿ze.pi.naʁ/",
+     "en": "spinach",
+     "audio": "028.mp3"
+    },
+    {
+     "x": 54.0,
+     "y": 10.0,
+     "fr": "la roquette",
+     "g": "f",
+     "ipa": "/la ʁɔ.kɛt/",
+     "en": "arugula",
+     "audio": "029.mp3"
+    },
+    {
+     "x": 79.0,
+     "y": 10.0,
+     "fr": "le céleri",
+     "g": "m",
+     "ipa": "/lə se.le.ʁi/",
+     "en": "celery (leaves)",
+     "audio": "030.mp3"
+    },
+    {
+     "x": 4.0,
+     "y": 56.0,
+     "fr": "le persil",
+     "g": "m",
+     "ipa": "/lə pɛʁ.sil/",
+     "en": "Parsley",
+     "audio": "031.mp3"
+    },
+    {
+     "x": 19.0,
+     "y": 56.0,
+     "fr": "l’aneth",
+     "g": "m",
+     "ipa": "/la.nɛt/",
+     "en": "Dill",
+     "audio": "032.mp3"
+    },
+    {
+     "x": 35.0,
+     "y": 56.0,
+     "fr": "le basilic",
+     "g": "m",
+     "ipa": "/lə ba.zi.lik/",
+     "en": "Basil",
+     "audio": "033.mp3"
+    },
+    {
+     "x": 59.0,
+     "y": 56.0,
+     "fr": "la menthe",
+     "g": "f",
+     "ipa": "/la mɑ̃t/",
+     "en": "Mint",
+     "audio": "034.mp3"
+    },
+    {
+     "x": 85.0,
+     "y": 56.0,
+     "fr": "la marjolaine",
+     "g": "f",
+     "ipa": "/la maʁ.ʒɔ.lɛn/",
+     "en": "Marjoram",
+     "audio": "035.mp3"
+    }
+   ]
+  },
+  {
+   "img": "img/topics/marche/slide7.jpg",
+   "alt": "Cheese Stand",
+   "spots": [
+    {
+     "x": 49.0,
+     "y": 25.0,
+     "fr": "la vendeuse",
+     "g": "f",
+     "ipa": "/la vɑ̃.døz/",
+     "en": "seller",
+     "audio": "013.mp3"
+    },
+    {
+     "x": 50.0,
+     "y": 60.0,
+     "fr": "le fromage",
+     "g": "m",
+     "ipa": "/lə fʁɔ.maʒ/",
+     "en": "cheese",
+     "audio": "039.mp3"
+    }
+   ]
+  },
+  {
+   "img": "img/topics/marche/slide8.jpg",
+   "alt": "Market in the Park",
+   "spots": [
+    {
+     "x": 25.0,
+     "y": 71.0,
+     "fr": "le chemin",
+     "g": "m",
+     "ipa": "/lə ʃə.mɛ̃/",
+     "en": "path",
+     "audio": "010.mp3"
+    },
+    {
+     "x": 69.0,
+     "y": 20.0,
+     "fr": "le marché",
+     "g": "m",
+     "ipa": "/lə maʁ.ʃe/",
+     "en": "market",
+     "audio": "003.mp3"
+    },
+    {
+     "x": 53.0,
+     "y": 15.0,
+     "fr": "un arbre",
+     "g": "m",
+     "ipa": "/ɛ̃ naʁbʁ/",
+     "en": "tree",
+     "audio": "051.mp3"
+    },
+    {
+     "x": 61.0,
+     "y": 70.0,
+     "fr": "un passant",
+     "g": "m",
+     "ipa": "/ɛ̃ pa.sɑ̃/",
+     "en": "passerby",
+     "audio": "018.mp3"
+    }
+   ]
+  }
+ ]
+}

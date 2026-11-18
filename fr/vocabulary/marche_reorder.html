@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Au marché : remettre en ordre | French</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body class="site" data-course="fr">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/reading/index.html">Reading</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/grammar/index.html">Grammar</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/pronunciation/index.html">Pronunciation</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/fundamentals/index.html">Fundamentals</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../fr/reading/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Reading</a><a href="../../fr/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../fr/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../fr/vocabulary/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Vocabulary</a><a href="../../fr/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../fr/grammar/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Grammar</a><a href="../../fr/pronunciation/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Pronunciation</a><a href="../../fr/fundamentals/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Fundamentals</a></div></div></header>
+<main class="wrap py-6 sm:py-10">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../fr/index.html">French</a><span>/</span><a class="hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a></nav>
+<a class="btn mt-4 py-1.5" data-nav href="../../fr/vocabulary/marche.html">&larr; Au marché</a>
+<div class="mt-4 flex flex-wrap items-center gap-2"><span class="chip chip-accent">A2</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Au marché : remettre en ordre</h1>
+<p class="mt-2 text-xl text-muted">15 scrambled sentences, then 3 short scenes to put in order</p>
+<p class="mt-3 max-w-2xl text-muted">Move the words up and down until the sentence is right. The first word of each sentence has a capital letter.</p>
+
+<section x-data="practice" class="mt-6 space-y-8">
+<template x-for="(b, bi) in blocks" :key="bi"><div class="rounded-2xl border border-line bg-card p-5 sm:p-6">
+<h2 x-show="b.title" class="text-2xl font-semibold" x-text="b.title"></h2>
+<p x-show="b.intro" class="mt-1 text-muted" x-text="b.intro"></p>
+<template x-if="b.audio && (b.kind !== 'open' || b.shown)"><div class="mt-4 space-y-2">
+<template x-for="(a, k) in tracks(b)" :key="k"><div class="flex flex-wrap items-center gap-3"><span x-show="a.label" class="chip" x-text="a.label"></span><audio controls preload="none" class="min-w-0 flex-1" :src="url(a.src)"></audio></div></template>
+</div></template>
+<details x-show="b.transcript" class="mt-3 rounded-xl border border-line p-3"><summary class="cursor-pointer font-bold">Transcript</summary><p class="mt-2 whitespace-pre-line text-lg" lang="fr" x-text="b.transcript"></p></details>
+
+<template x-if="b.kind === 'picture'"><div class="mt-4" x-data="{ left: null, t: null }">
+<div class="relative"><img :src="pic(b.src)" :alt="b.alt || ''" class="w-full rounded-2xl border border-line bg-card" :class="left === 0 && 'invisible'">
+<p x-show="left === 0" x-cloak class="ph absolute inset-0">Time is up. Answer the questions below without looking.</p></div>
+<div class="mt-3 flex flex-wrap items-center gap-3">
+<button class="btn btn-primary" x-show="left === null" @click="left = b.seconds || 30; t = setInterval(() => { if (--left <= 0) { left = 0; clearInterval(t); } }, 1000)" x-text="'Start: ' + (b.seconds || 30) + ' seconds'"></button>
+<span x-show="left > 0" x-cloak class="font-display text-3xl font-semibold text-accent" x-text="left"></span>
+<button class="btn" x-show="left !== null" x-cloak @click="clearInterval(t); left = null">Show the picture again</button>
+</div></div></template>
+
+<template x-if="b.kind === 'video'"><div>
+<video x-show="!offline" controls preload="metadata" playsinline class="mt-4 w-full rounded-2xl bg-ink" :src="url(b.src)"></video>
+<p x-show="offline" x-cloak class="ph mt-4">The video is not included in the offline copy. It needs an internet connection.</p>
+<p x-show="b.caption" class="mt-3 text-center text-muted" x-text="b.caption"></p>
+</div></template>
+
+<template x-if="b.kind === 'slides'"><div class="mt-2" x-data="{ k: 0 }" @keydown.left.window="!$event.target.matches('input, textarea') && (k = Math.max(0, k - 1))" @keydown.right.window="!$event.target.matches('input, textarea') && (k = Math.min(b.items.length - 1, k + 1))">
+<img :src="pic(b.items[k])" :alt="'Slide ' + (k + 1)" class="w-full rounded-2xl border border-line bg-card">
+<div class="mt-3 flex items-center justify-center gap-3">
+<button class="btn" :disabled="k === 0" :class="k === 0 && 'opacity-40'" @click="k--" aria-label="Previous slide">&larr;</button>
+<span class="chip" x-text="(k + 1) + ' / ' + b.items.length"></span>
+<button class="btn" :disabled="k === b.items.length - 1" :class="k === b.items.length - 1 && 'opacity-40'" @click="k++" aria-label="Next slide">&rarr;</button>
+</div></div></template>
+
+<template x-if="b.kind === 'truefalse'"><ol class="mt-4 space-y-3">
+<template x-for="(it, i) in b.items" :key="i"><li class="item flex flex-wrap items-center gap-3 rounded-xl border border-line p-3" :class="mark(b, i)">
+<span class="min-w-0 flex-1 text-lg" lang="fr" x-text="(i + 1) + '. ' + it.q"></span>
+<span class="flex gap-2"><button class="btn px-4 py-1.5" :class="b.ans[i] === true && 'btn-on'" @click="set(b, i, true)">Vrai</button>
+<button class="btn px-4 py-1.5" :class="b.ans[i] === false && 'btn-on'" @click="set(b, i, false)">Faux</button></span>
+</li></template></ol></template>
+
+<template x-if="b.kind === 'listen'"><ol class="mt-4 space-y-5">
+<template x-for="(it, i) in b.items" :key="i"><li class="item rounded-xl border border-line p-3" :class="mark(b, i)">
+<div class="flex items-center gap-3"><button class="play small" :class="[pending && 'pending', heard === it.n && 'playing']" :disabled="pending" @click="hear(it.n)" aria-label="Play the line"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<p class="text-lg font-bold" lang="fr" x-text="(i + 1) + '. ' + it.q"></p></div>
+<div class="mt-2 flex flex-wrap gap-2"><template x-for="(o, k) in it.options" :key="k"><button class="btn text-base" lang="fr" :class="b.ans[i] === k && 'btn-on'" @click="set(b, i, k)" x-text="o"></button></template></div>
+<p x-show="b.checked && it.why" x-cloak class="mt-2 text-muted" x-text="it.why"></p>
+</li></template></ol></template>
+
+<template x-if="b.kind === 'choice'"><ol class="mt-4 space-y-5">
+<template x-for="(it, i) in b.items" :key="i"><li class="item rounded-xl border border-line p-3" :class="mark(b, i)">
+<p class="text-lg font-bold" lang="fr" x-text="(i + 1) + '. ' + it.q"></p>
+<div class="mt-2 flex flex-wrap gap-2"><template x-for="(o, k) in it.options" :key="k"><button class="btn text-base" lang="fr" :class="b.ans[i] === k && 'btn-on'" @click="set(b, i, k)" x-text="o"></button></template></div>
+<p x-show="b.checked && it.why" x-cloak class="mt-2 text-muted" x-text="it.why"></p>
+</li></template></ol></template>
+
+<template x-if="b.kind === 'cloze'"><ol class="mt-4 space-y-3">
+<template x-for="(it, i) in b.items" :key="i"><li class="item rounded-xl border border-line p-3" :class="mark(b, i)">
+<p class="text-lg leading-loose" lang="fr"><button x-show="it.n" class="play small mr-2 align-middle" :class="heard === it.n && 'playing'" @click="hear(it.n)" aria-label="Listen"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button><span x-text="(i + 1) + '. ' + (it.before || '')"></span>
+<input type="text" class="blank" autocomplete="off" autocapitalize="off" spellcheck="false" :size="Math.max(7, it.answer.length + 2)" :value="b.ans[i] || ''" @input="set(b, i, $event.target.value)" :aria-label="'Blank ' + (i + 1)"><span x-text="it.after || ''"></span></p>
+<p x-show="it.tr" class="text-muted" x-text="it.tr"></p>
+</li></template></ol></template>
+
+<template x-if="b.kind === 'open'"><ol class="mt-4 space-y-5">
+<template x-for="(it, i) in b.items" :key="i"><li>
+<p class="text-lg font-bold" lang="fr" x-text="(i + 1) + '. ' + it.q"></p>
+<textarea rows="3" class="mt-2 w-full rounded-xl border border-line bg-paper p-3 text-lg" lang="fr" :aria-label="'Answer ' + (i + 1)"></textarea>
+<p x-show="b.shown" x-cloak class="mt-2 rounded-xl bg-accent/10 p-3" lang="fr"><span class="font-bold">Model answer: </span><span x-text="it.model"></span></p>
+</li></template></ol></template>
+
+<template x-if="b.kind === 'order'"><ol class="mt-4 space-y-2">
+<template x-for="(it, i) in b.ans" :key="it.k"><li class="item flex items-center gap-3 rounded-xl border border-line p-2 pl-3" :class="mark(b, i)">
+<span class="font-display text-xl font-semibold text-accent" x-text="i + 1"></span>
+<span class="min-w-0 flex-1 text-lg" lang="fr" x-text="it.text"></span>
+<button class="btn px-3 py-1.5" :disabled="i === 0" :class="i === 0 && 'opacity-30'" @click="move(b, i, -1)" aria-label="Move up">&uarr;</button>
+<button class="btn px-3 py-1.5" :disabled="i === b.ans.length - 1" :class="i === b.ans.length - 1 && 'opacity-30'" @click="move(b, i, 1)" aria-label="Move down">&darr;</button>
+</li></template></ol></template>
+
+<p x-show="b.note" class="mt-4 text-sm text-muted" x-text="b.note"></p>
+<div x-show="!['video', 'slides', 'picture'].includes(b.kind)" class="mt-5 flex flex-wrap items-center gap-2">
+<button x-show="b.kind !== 'open'" class="btn btn-primary" @click="check(b)">Check</button>
+<button class="btn" @click="reveal(b)">Show answers</button>
+<button class="btn" @click="reset(b)">Reset</button>
+<span x-show="b.checked && b.kind !== 'open'" x-cloak class="ml-2 text-lg font-bold" :class="score(b) === total(b) ? 'text-good' : 'text-bad'" x-text="score(b) + ' / ' + total(b)"></span>
+</div>
+</div></template>
+</section>
+
+
+<div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/vocabulary/marche_reorder')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav></div>
+</main>
+<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
+<span class="font-display text-base font-semibold text-ink">Languages</span>
+<span>Free for everyone. No account, no paywall.</span></div></footer>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"Au marché : remettre en ordre","subtitle":"15 scrambled sentences, then 3 short scenes to put in order","label":"Word order","type":"practice","supplement_of":"marche","intro":"Move the words up and down until the sentence is right. The first word of each sentence has a capital letter.","blocks":[{"kind":"order","title":"Phrase 1","items":["Il","y","a","un","marché","en","plein","air"],"start":[6,7,2,4,0,3,1,5]},{"kind":"order","title":"Phrase 2","items":["Le","marché","est","entouré","d'arbres"],"start":[1,3,4,0,2]},{"kind":"order","title":"Phrase 3","items":["Un","vendeur","vend","des","légumes"],"start":[3,2,1,4,0]},{"kind":"order","title":"Phrase 4","items":["Une","vendeuse","vend","du","pain"],"start":[2,3,4,1,0]},{"kind":"order","title":"Phrase 5","items":["Un","client","parle","avec","un","vendeur"],"start":[1,2,3,5,4,0]},{"kind":"order","title":"Phrase 6","items":["Une","femme","achète","des","légumes"],"start":[1,2,0,3,4]},{"kind":"order","title":"Phrase 7","items":["Une","cliente","porte","un","sac","de","courses"],"start":[3,6,5,2,1,4,0]},{"kind":"order","title":"Phrase 8","items":["Les","stands","ont","des","auvents","colorés"],"start":[1,5,3,2,0,4]},{"kind":"order","title":"Phrase 9","items":["Il","y","a","des","paniers","sur","les","tables"],"start":[5,3,0,2,7,6,4,1]},{"kind":"order","title":"Phrase 10","items":["L'ambiance","est","calme","et","conviviale"],"start":[1,3,2,0,4]},{"kind":"order","title":"Phrase 11","items":["Les","gens","discutent","et","font","leurs","courses"],"start":[0,2,1,6,4,5,3]},{"kind":"order","title":"Phrase 12","items":["Je","voudrais","un","kilo","de","tomates"],"start":[5,0,1,2,3,4]},{"kind":"order","title":"Phrase 13","items":["Vous","avez","de","la","monnaie"],"start":[2,3,0,4,1]},{"kind":"order","title":"Phrase 14","items":["Ça","se","conserve","combien","de","temps"],"start":[0,1,5,2,3,4]},{"kind":"order","title":"Phrase 15","items":["Un","vendeur","vend","du","fromage","et","des","produits","artisanaux"],"start":[2,6,5,7,3,8,0,1,4]},{"kind":"order","title":"Dans l’ordre 1","intro":"Put the sentences in the order that makes sense.","items":["Il y a un marché en plein air","Il y a plusieurs stands dans le parc","Il y a beaucoup de vendeurs et de clients","Le marché est entouré d'arbres"],"start":[2,0,1,3]},{"kind":"order","title":"Dans l’ordre 2","intro":"Put the sentences in the order that makes sense.","items":["Un vendeur vend des légumes","Les tomates sont fraîches","Je voudrais un kilo de tomates","C'est cinq euros le kilo"],"start":[3,1,2,0]},{"kind":"order","title":"Dans l’ordre 3","intro":"Put the sentences in the order that makes sense.","items":["Une vendeuse vend du pain","Je peux avoir une baguette ?","Elle est du jour","Parfait, merci !"],"start":[0,1,3,2]}],"course":"fr","strand":"vocabulary","slug":"marche_reorder"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>

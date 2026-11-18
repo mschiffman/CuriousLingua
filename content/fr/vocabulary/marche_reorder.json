@@ -1,0 +1,368 @@
+{
+ "title": "Au marché : remettre en ordre",
+ "subtitle": "15 scrambled sentences, then 3 short scenes to put in order",
+ "label": "Word order",
+ "type": "practice",
+ "supplement_of": "marche",
+ "legacy": "fr/everyday/topics/marche/marche-reorder.html, marche-sequence.html",
+ "intro": "Move the words up and down until the sentence is right. The first word of each sentence has a capital letter.",
+ "blocks": [
+  {
+   "kind": "order",
+   "title": "Phrase 1",
+   "items": [
+    "Il",
+    "y",
+    "a",
+    "un",
+    "marché",
+    "en",
+    "plein",
+    "air"
+   ],
+   "start": [
+    6,
+    7,
+    2,
+    4,
+    0,
+    3,
+    1,
+    5
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 2",
+   "items": [
+    "Le",
+    "marché",
+    "est",
+    "entouré",
+    "d'arbres"
+   ],
+   "start": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 3",
+   "items": [
+    "Un",
+    "vendeur",
+    "vend",
+    "des",
+    "légumes"
+   ],
+   "start": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 4",
+   "items": [
+    "Une",
+    "vendeuse",
+    "vend",
+    "du",
+    "pain"
+   ],
+   "start": [
+    2,
+    3,
+    4,
+    1,
+    0
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 5",
+   "items": [
+    "Un",
+    "client",
+    "parle",
+    "avec",
+    "un",
+    "vendeur"
+   ],
+   "start": [
+    1,
+    2,
+    3,
+    5,
+    4,
+    0
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 6",
+   "items": [
+    "Une",
+    "femme",
+    "achète",
+    "des",
+    "légumes"
+   ],
+   "start": [
+    1,
+    2,
+    0,
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 7",
+   "items": [
+    "Une",
+    "cliente",
+    "porte",
+    "un",
+    "sac",
+    "de",
+    "courses"
+   ],
+   "start": [
+    3,
+    6,
+    5,
+    2,
+    1,
+    4,
+    0
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 8",
+   "items": [
+    "Les",
+    "stands",
+    "ont",
+    "des",
+    "auvents",
+    "colorés"
+   ],
+   "start": [
+    1,
+    5,
+    3,
+    2,
+    0,
+    4
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 9",
+   "items": [
+    "Il",
+    "y",
+    "a",
+    "des",
+    "paniers",
+    "sur",
+    "les",
+    "tables"
+   ],
+   "start": [
+    5,
+    3,
+    0,
+    2,
+    7,
+    6,
+    4,
+    1
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 10",
+   "items": [
+    "L'ambiance",
+    "est",
+    "calme",
+    "et",
+    "conviviale"
+   ],
+   "start": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 11",
+   "items": [
+    "Les",
+    "gens",
+    "discutent",
+    "et",
+    "font",
+    "leurs",
+    "courses"
+   ],
+   "start": [
+    0,
+    2,
+    1,
+    6,
+    4,
+    5,
+    3
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 12",
+   "items": [
+    "Je",
+    "voudrais",
+    "un",
+    "kilo",
+    "de",
+    "tomates"
+   ],
+   "start": [
+    5,
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 13",
+   "items": [
+    "Vous",
+    "avez",
+    "de",
+    "la",
+    "monnaie"
+   ],
+   "start": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 14",
+   "items": [
+    "Ça",
+    "se",
+    "conserve",
+    "combien",
+    "de",
+    "temps"
+   ],
+   "start": [
+    0,
+    1,
+    5,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Phrase 15",
+   "items": [
+    "Un",
+    "vendeur",
+    "vend",
+    "du",
+    "fromage",
+    "et",
+    "des",
+    "produits",
+    "artisanaux"
+   ],
+   "start": [
+    2,
+    6,
+    5,
+    7,
+    3,
+    8,
+    0,
+    1,
+    4
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Dans l’ordre 1",
+   "intro": "Put the sentences in the order that makes sense.",
+   "items": [
+    "Il y a un marché en plein air",
+    "Il y a plusieurs stands dans le parc",
+    "Il y a beaucoup de vendeurs et de clients",
+    "Le marché est entouré d'arbres"
+   ],
+   "start": [
+    2,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Dans l’ordre 2",
+   "intro": "Put the sentences in the order that makes sense.",
+   "items": [
+    "Un vendeur vend des légumes",
+    "Les tomates sont fraîches",
+    "Je voudrais un kilo de tomates",
+    "C'est cinq euros le kilo"
+   ],
+   "start": [
+    3,
+    1,
+    2,
+    0
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "Dans l’ordre 3",
+   "intro": "Put the sentences in the order that makes sense.",
+   "items": [
+    "Une vendeuse vend du pain",
+    "Je peux avoir une baguette ?",
+    "Elle est du jour",
+    "Parfait, merci !"
+   ],
+   "start": [
+    0,
+    1,
+    3,
+    2
+   ]
+  }
+ ]
+}

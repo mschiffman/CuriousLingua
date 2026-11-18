@@ -30,6 +30,19 @@
 <template x-for="(b, bi) in blocks" :key="bi"><div class="rounded-2xl border border-line bg-card p-5 sm:p-6">
 <h2 x-show="b.title" class="text-2xl font-semibold" x-text="b.title"></h2>
 <p x-show="b.intro" class="mt-1 text-muted" x-text="b.intro"></p>
+<template x-if="b.audio && (b.kind !== 'open' || b.shown)"><div class="mt-4 space-y-2">
+<template x-for="(a, k) in tracks(b)" :key="k"><div class="flex flex-wrap items-center gap-3"><span x-show="a.label" class="chip" x-text="a.label"></span><audio controls preload="none" class="min-w-0 flex-1" :src="url(a.src)"></audio></div></template>
+</div></template>
+<details x-show="b.transcript" class="mt-3 rounded-xl border border-line p-3"><summary class="cursor-pointer font-bold">Transcript</summary><p class="mt-2 whitespace-pre-line text-lg" lang="fr" x-text="b.transcript"></p></details>
+
+<template x-if="b.kind === 'picture'"><div class="mt-4" x-data="{ left: null, t: null }">
+<div class="relative"><img :src="pic(b.src)" :alt="b.alt || ''" class="w-full rounded-2xl border border-line bg-card" :class="left === 0 && 'invisible'">
+<p x-show="left === 0" x-cloak class="ph absolute inset-0">Time is up. Answer the questions below without looking.</p></div>
+<div class="mt-3 flex flex-wrap items-center gap-3">
+<button class="btn btn-primary" x-show="left === null" @click="left = b.seconds || 30; t = setInterval(() => { if (--left <= 0) { left = 0; clearInterval(t); } }, 1000)" x-text="'Start: ' + (b.seconds || 30) + ' seconds'"></button>
+<span x-show="left > 0" x-cloak class="font-display text-3xl font-semibold text-accent" x-text="left"></span>
+<button class="btn" x-show="left !== null" x-cloak @click="clearInterval(t); left = null">Show the picture again</button>
+</div></div></template>
 
 <template x-if="b.kind === 'video'"><div>
 <video x-show="!offline" controls preload="metadata" playsinline class="mt-4 w-full rounded-2xl bg-ink" :src="url(b.src)"></video>
@@ -57,17 +70,19 @@
 <div class="flex items-center gap-3"><button class="play small" :class="[pending && 'pending', heard === it.n && 'playing']" :disabled="pending" @click="hear(it.n)" aria-label="Play the line"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
 <p class="text-lg font-bold" lang="fr" x-text="(i + 1) + '. ' + it.q"></p></div>
 <div class="mt-2 flex flex-wrap gap-2"><template x-for="(o, k) in it.options" :key="k"><button class="btn text-base" lang="fr" :class="b.ans[i] === k && 'btn-on'" @click="set(b, i, k)" x-text="o"></button></template></div>
+<p x-show="b.checked && it.why" x-cloak class="mt-2 text-muted" x-text="it.why"></p>
 </li></template></ol></template>
 
 <template x-if="b.kind === 'choice'"><ol class="mt-4 space-y-5">
 <template x-for="(it, i) in b.items" :key="i"><li class="item rounded-xl border border-line p-3" :class="mark(b, i)">
 <p class="text-lg font-bold" lang="fr" x-text="(i + 1) + '. ' + it.q"></p>
 <div class="mt-2 flex flex-wrap gap-2"><template x-for="(o, k) in it.options" :key="k"><button class="btn text-base" lang="fr" :class="b.ans[i] === k && 'btn-on'" @click="set(b, i, k)" x-text="o"></button></template></div>
+<p x-show="b.checked && it.why" x-cloak class="mt-2 text-muted" x-text="it.why"></p>
 </li></template></ol></template>
 
 <template x-if="b.kind === 'cloze'"><ol class="mt-4 space-y-3">
 <template x-for="(it, i) in b.items" :key="i"><li class="item rounded-xl border border-line p-3" :class="mark(b, i)">
-<p class="text-lg leading-loose" lang="fr"><span x-text="(i + 1) + '. ' + (it.before || '')"></span>
+<p class="text-lg leading-loose" lang="fr"><button x-show="it.n" class="play small mr-2 align-middle" :class="heard === it.n && 'playing'" @click="hear(it.n)" aria-label="Listen"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button><span x-text="(i + 1) + '. ' + (it.before || '')"></span>
 <input type="text" class="blank" autocomplete="off" autocapitalize="off" spellcheck="false" :size="Math.max(7, it.answer.length + 2)" :value="b.ans[i] || ''" @input="set(b, i, $event.target.value)" :aria-label="'Blank ' + (i + 1)"><span x-text="it.after || ''"></span></p>
 <p x-show="it.tr" class="text-muted" x-text="it.tr"></p>
 </li></template></ol></template>
@@ -88,7 +103,7 @@
 </li></template></ol></template>
 
 <p x-show="b.note" class="mt-4 text-sm text-muted" x-text="b.note"></p>
-<div x-show="b.kind !== 'video' && b.kind !== 'slides'" class="mt-5 flex flex-wrap items-center gap-2">
+<div x-show="!['video', 'slides', 'picture'].includes(b.kind)" class="mt-5 flex flex-wrap items-center gap-2">
 <button x-show="b.kind !== 'open'" class="btn btn-primary" @click="check(b)">Check</button>
 <button class="btn" @click="reveal(b)">Show answers</button>
 <button class="btn" @click="reset(b)">Reset</button>

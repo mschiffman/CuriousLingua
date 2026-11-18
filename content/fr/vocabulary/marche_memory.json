@@ -1,0 +1,65 @@
+{
+ "title": "Au marché : défi mémoire",
+ "subtitle": "30 seconds to look, then 10 questions",
+ "label": "Memory challenge",
+ "type": "practice",
+ "supplement_of": "marche",
+ "legacy": "fr/everyday/topics/marche/marche-memory.html",
+ "intro": "Level B1. Look at the picture for 30 seconds: the people, the products, the colours, where things are. Then answer without looking.",
+ "blocks": [
+  {
+   "kind": "picture",
+   "title": "Observez l’image",
+   "src": "img/topics/marche_memory.jpg",
+   "alt": "Marché en plein air",
+   "seconds": 30
+  },
+  {
+   "kind": "open",
+   "title": "Qu’avez-vous vu ?",
+   "intro": "Answer in French, then press Show answers.",
+   "items": [
+    {
+     "q": "Que tient le garçon au milieu de l'image ?",
+     "model": "Le garçon tient une tranche de pastèque."
+    },
+    {
+     "q": "De quelle couleur sont les auvents des stands ?",
+     "model": "Les auvents sont rouge et blanc (rayés)."
+    },
+    {
+     "q": "Combien y a-t-il de citrouilles sur l'étal de droite ?",
+     "model": "Il y a deux citrouilles sur l'étal."
+    },
+    {
+     "q": "Que porte la vendeuse à gauche sur la tête ?",
+     "model": "La vendeuse porte une toque de chef."
+    },
+    {
+     "q": "Quel fruit la dame âgée tient-elle dans sa main ?",
+     "model": "La dame âgée tient une banane."
+    },
+    {
+     "q": "Quels légumes orange vend le vendeur à droite ?",
+     "model": "Le vendeur vend des carottes et du maïs."
+    },
+    {
+     "q": "Que fait la petite fille devant les oranges ?",
+     "model": "La petite fille tend la main vers les oranges."
+    },
+    {
+     "q": "Quel type de chapeau porte le vendeur à droite ?",
+     "model": "Le vendeur porte un chapeau de paille."
+    },
+    {
+     "q": "Quels fruits jaunes sont accrochés en hauteur à gauche ?",
+     "model": "Ce sont des bananes accrochées en hauteur."
+    },
+    {
+     "q": "De quelle couleur est le sweat du garçon qui tient la pastèque ?",
+     "model": "Le sweat du garçon est turquoise."
+    }
+   ]
+  }
+ ]
+}

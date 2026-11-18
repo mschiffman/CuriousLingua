@@ -246,16 +246,18 @@
     /* ---- practice: exercise blocks (true/false, choice, cloze, open questions, ordering) and video ---- */
     Alpine.data("practice", () => {
       const norm = (s) => String(s || "").trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[\u2019\u2018]/g, "'");
-      const fresh = (b) => (b.kind === "slides" ? [] : b.kind === "order" ? (b.start || b.items.map((_, i) => i)).map((k) => ({ k, text: b.items[k] })) : b.items ? b.items.map(() => null) : []);
+      const loose = (s) => norm(s).replace(/[.,!?;:\u2026]/g, "").replace(/\s+/g, " ").trim();   // a typed sentence: punctuation is not marked
+      const fresh = (b) => (b.kind === "slides" || b.kind === "picture" ? [] : b.kind === "order" ? (b.start || b.items.map((_, i) => i)).map((k) => ({ k, text: b.items[k] })) : b.items ? b.items.map(() => null) : []);
       return {
         blocks: (L.blocks || []).map((b) => ({ ...b, ans: fresh(b), checked: false, shown: false })),
         offline: typeof EMBED !== "undefined", pending, heard: 0,
         async hear(n) { this.heard = n; await play(n); if (this.heard === n) this.heard = 0; },
         url(src) { return media((/^https?:/.test(src) ? "" : BASE) + src); },
         pic(src) { return media(ROOT + src); },   // a slide: a picture of this site
+        tracks(b) { return [].concat(b.audio || []).map((a) => (typeof a === "string" ? { src: a } : a)); },   // "audio": a recording, or several with labels
         right(b, i) {
           if (b.kind === "order") return b.ans[i].k === i;
-          if (b.kind === "cloze") return norm(b.ans[i]) === norm(b.items[i].answer);
+          if (b.kind === "cloze") return loose(b.ans[i]) === loose(b.items[i].answer);
           return b.ans[i] === b.items[i].answer;
         },
         score(b) { return (b.items || []).filter((_, i) => this.right(b, i)).length; },
