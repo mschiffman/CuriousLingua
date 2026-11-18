@@ -189,10 +189,12 @@
       /* which glossary clip goes with a word in the text: by its base form, else by the word minus an ending */
       const plain = (w) => w.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
       const clips = {};
-      (L.glossary || []).forEach((g) => { clips[plain(g.word)] = g.audio || g.word; });
+      /* a glossary entry may hold several forms ("chasser / la chasse", "un os (des os)"): each form, without its article, finds the clip */
+      const forms = (w) => w.replace(/\([^)]*\)/g, "").split(/\s*[\/,]\s*/).map((x) => plain(x.trim().replace(/^(un|une|le|la|les|des|se)\s+|^[ls]['’]/i, "").trim())).filter(Boolean);
+      (L.glossary || []).forEach((g) => { const a = g.audio || g.word; clips[plain(g.word)] = a; forms(g.word).forEach((k) => { if (!clips[k]) clips[k] = a; }); });
       const clipFor = (t, base) => {
         const w = plain(t), b = base ? plain(base.split(" /")[0]) : "";
-        for (const k of [b, w, w.replace(/s$/, ""), w.replace(/e$/, ""), w.replace(/es$/, ""), w.replace(/le$/, "")]) if (k && clips[k]) return clips[k];
+        for (const k of [b, w, w.replace(/s$/, ""), w.replace(/e$/, ""), w.replace(/es$/, ""), w.replace(/le$/, ""), w.replace(/x$/, ""), w.replace(/ue$/, ""), w.replace(/aux$/, "al")]) if (k && clips[k]) return clips[k];
         return "";
       };
       const paras = (L.paragraphs || []).map((p) => p.map((s) => ({ ...s, parts: split(s).map((x) => (x.g ? { ...x, g: { ...x.g, audio: clipFor(x.t, x.g.base) } } : x)) })));

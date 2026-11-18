@@ -327,122 +327,193 @@
  "glossary": [
   {
    "word": "ambre",
-   "en": "amber"
+   "en": "amber",
+   "audio": "01.mp3"
   },
   {
    "word": "antiquité",
-   "en": "ancient"
+   "en": "ancient",
+   "audio": "02.mp3"
   },
   {
    "word": "goutte",
    "en": "drop",
-   "audio": "goutte.m4a"
+   "audio": "03.mp3"
   },
   {
    "word": "solidifier",
-   "en": "to solidify"
+   "en": "to solidify",
+   "audio": "04.mp3"
   },
   {
    "word": "pin",
-   "en": "pine"
+   "en": "pine",
+   "audio": "05.mp3"
   },
   {
    "word": "sapin",
-   "en": "fir tree"
+   "en": "fir tree",
+   "audio": "06.mp3"
   },
   {
    "word": "écouler",
    "en": "to flow / to run out",
-   "audio": "ecouler"
+   "audio": "07.mp3"
   },
   {
    "word": "liquide",
-   "en": "liquid"
+   "en": "liquid",
+   "audio": "08.mp3"
   },
   {
    "word": "épais",
-   "en": "thick"
+   "en": "thick",
+   "audio": "09.mp3"
   },
   {
    "word": "collant",
-   "en": "sticky"
+   "en": "sticky",
+   "audio": "10.mp3"
   },
   {
    "word": "résine",
-   "en": "resin"
+   "en": "resin",
+   "audio": "11.mp3"
   },
   {
    "word": "écorce",
    "en": "bark",
-   "audio": "ecorce"
+   "audio": "12.mp3"
   },
   {
    "word": "abîmer",
-   "en": "to damage"
+   "en": "to damage",
+   "audio": "13.mp3"
   },
   {
    "word": "couler",
-   "en": "to flow"
+   "en": "to flow",
+   "audio": "14.mp3"
   },
   {
    "word": "boucher",
-   "en": "to block / to fill"
+   "en": "to block / to fill",
+   "audio": "15.mp3"
   },
   {
    "word": "blessure",
-   "en": "wound / injury"
+   "en": "wound / injury",
+   "audio": "16.mp3"
   },
   {
    "word": "durcir",
-   "en": "to harden"
+   "en": "to harden",
+   "audio": "17.mp3"
   },
   {
    "word": "dinosaure",
-   "en": "dinosaur"
+   "en": "dinosaur",
+   "audio": "18.mp3"
   },
   {
    "word": "fossiliser",
-   "en": "to fossiliser"
+   "en": "to fossiliser",
+   "audio": "19.mp3"
   },
   {
    "word": "capsule",
-   "en": "capsule"
+   "en": "capsule",
+   "audio": "20.mp3"
   },
   {
    "word": "temporel",
-   "en": "related to time"
+   "en": "related to time",
+   "audio": "21.mp3"
   },
   {
    "word": "préhistorique",
-   "en": "prehistoric"
+   "en": "prehistoric",
+   "audio": "22.mp3"
   },
   {
    "word": "araignée",
-   "en": "spider"
+   "en": "spider",
+   "audio": "23.mp3"
   },
   {
    "word": "substance",
-   "en": "substance"
+   "en": "substance",
+   "audio": "24.mp3"
   },
   {
    "word": "doré",
-   "en": "golden"
+   "en": "golden",
+   "audio": "25.mp3"
   },
   {
    "word": "piéger",
-   "en": "to trap"
+   "en": "to trap",
+   "audio": "26.mp3"
   },
   {
    "word": "créature",
-   "en": "creature"
+   "en": "creature",
+   "audio": "27.mp3"
   },
   {
    "word": "emprisonner",
-   "en": "to imprison"
+   "en": "to imprison",
+   "audio": "28.mp3"
   },
   {
    "word": "devenir",
-   "en": "to become"
+   "en": "to become",
+   "audio": "29.mp3"
+  },
+  {
+   "word": "miel",
+   "en": "honey",
+   "audio": "30.mp3"
+  },
+  {
+   "word": "briller",
+   "en": "to shine",
+   "audio": "31.mp3"
+  },
+  {
+   "word": "verre",
+   "en": "glass",
+   "audio": "32.mp3"
+  },
+  {
+   "word": "Grec",
+   "en": "Greek (person)",
+   "audio": "33.mp3"
+  },
+  {
+   "word": "penser",
+   "en": "to think",
+   "audio": "34.mp3"
+  },
+  {
+   "word": "soleil",
+   "en": "sun",
+   "audio": "35.mp3"
+  },
+  {
+   "word": "laisser",
+   "en": "to let, to allow",
+   "audio": "36.mp3"
+  },
+  {
+   "word": "appeler",
+   "en": "to call",
+   "audio": "37.mp3"
+  },
+  {
+   "word": "os",
+   "en": "bone",
+   "audio": "38.mp3"
   }
  ]
 }
