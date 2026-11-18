@@ -255,6 +255,21 @@
   "quiz": false
  },
  {
+  "id": "fr/speaking/route",
+  "url": "fr/speaking/route.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a1",
+  "level_provisional": true,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Dans la rue",
+  "clips": 23,
+  "images": 0,
+  "audio": "pending",
+  "quiz": false
+ },
+ {
   "id": "fr/vocabulary/house",
   "url": "fr/vocabulary/house.html",
   "course": "fr",
@@ -294,6 +309,21 @@
   "topic": "Everyday scenes",
   "type": "words",
   "title": "Au marché",
+  "clips": 0,
+  "images": 1,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
+  "id": "fr/vocabulary/route",
+  "url": "fr/vocabulary/route.html",
+  "course": "fr",
+  "strand": "vocabulary",
+  "level": "a2",
+  "level_provisional": true,
+  "topic": "Everyday scenes",
+  "type": "words",
+  "title": "La route",
   "clips": 0,
   "images": 1,
   "audio": "wired",
