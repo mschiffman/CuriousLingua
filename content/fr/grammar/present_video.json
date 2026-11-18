@@ -1,0 +1,15 @@
+{
+ "title": "Le présent : la vidéo",
+ "subtitle": "The many uses of the présent de l'indicatif (NotebookLM)",
+ "label": "Video",
+ "type": "practice",
+ "supplement_of": "present",
+ "legacy": "fr/grammar/tense/video-present.html",
+ "blocks": [
+  {
+   "kind": "video",
+   "src": "lessons/grammar/video-present.mp4",
+   "caption": "A look into the many uses of the présent de l'indicatif in French."
+  }
+ ]
+}

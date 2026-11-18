@@ -1,0 +1,414 @@
+{
+ "title": "Le chien sans maison",
+ "level": "a1",
+ "topic": "Stories",
+ "type": "reader",
+ "source_md": "chien_sans_maison.md",
+ "img_dir": "img/ytstory/chien_sans_maison/",
+ "img_ext": "jpg",
+ "aud_dir": "fr/reading/chien_sans_maison/",
+ "aud_ext": "mp3?v=2611180929",
+ "translation": {
+  "lang": "en",
+  "label": "English"
+ },
+ "pages": [
+  {
+   "img": 1,
+   "tr": [
+    "Marie lives in a small town.",
+    "One morning, she goes to the bakery.",
+    "In front of the door, she sees a small brown dog."
+   ],
+   "sentences": [
+    [
+     [
+      "Marie habite",
+      1
+     ],
+     [
+      "dans une petite ville.",
+      2
+     ]
+    ],
+    [
+     [
+      "Un matin,",
+      3
+     ],
+     [
+      "elle va",
+      4
+     ],
+     [
+      "à la boulangerie.",
+      5
+     ]
+    ],
+    [
+     [
+      "Devant la porte,",
+      6
+     ],
+     [
+      "elle voit",
+      7
+     ],
+     [
+      "un petit chien brun.",
+      8
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "tr": [
+    "The dog is dirty, thin, and very calm.",
+    "Marie goes into the bakery.",
+    "When she comes out, the dog is still there."
+   ],
+   "sentences": [
+    [
+     [
+      "Le chien est sale,",
+      9
+     ],
+     [
+      "maigre,",
+      10
+     ],
+     [
+      "et très calme.",
+      11
+     ]
+    ],
+    [
+     [
+      "Marie entre",
+      12
+     ],
+     [
+      "dans la boulangerie.",
+      13
+     ]
+    ],
+    [
+     [
+      "Quand elle sort,",
+      14
+     ],
+     [
+      "le chien est",
+      15
+     ],
+     [
+      "toujours là.",
+      16
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "tr": [
+    "He looks at her with his big black eyes.",
+    "Marie says softly, \"Hello, little dog.\"",
+    "\"Are you alone?\""
+   ],
+   "sentences": [
+    [
+     [
+      "Il la regarde",
+      17
+     ],
+     [
+      "avec ses grands yeux noirs.",
+      18
+     ]
+    ],
+    [
+     [
+      "Marie dit doucement,",
+      19
+     ],
+     [
+      "\"Bonjour, petit chien.\"",
+      20
+     ]
+    ],
+    [
+     [
+      "\"Tu es seul ?\"",
+      21
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "tr": [
+    "Marie walks toward her house.",
+    "The dog follows her.",
+    "In the garden, Marie gives him water and a little bread."
+   ],
+   "sentences": [
+    [
+     [
+      "Marie marche",
+      22
+     ],
+     [
+      "vers sa maison.",
+      23
+     ]
+    ],
+    [
+     [
+      "Le chien la suit.",
+      24
+     ]
+    ],
+    [
+     [
+      "Dans le jardin,",
+      25
+     ],
+     [
+      "Marie lui donne",
+      26
+     ],
+     [
+      "de l'eau",
+      27
+     ],
+     [
+      "et un peu de pain.",
+      28
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "tr": [
+    "The dog eats very quickly.",
+    "Marie asks the neighbors,",
+    "\"Do you know this dog?\"",
+    "But no one knows him."
+   ],
+   "sentences": [
+    [
+     [
+      "Le chien mange",
+      29
+     ],
+     [
+      "très vite.",
+      30
+     ]
+    ],
+    [
+     [
+      "Marie demande",
+      31
+     ],
+     [
+      "aux voisins,",
+      32
+     ]
+    ],
+    [
+     [
+      "\"Vous connaissez",
+      33
+     ],
+     [
+      "ce chien ?\"",
+      34
+     ]
+    ],
+    [
+     [
+      "Mais personne",
+      35
+     ],
+     [
+      "ne le connaît.",
+      36
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "tr": [
+    "In the afternoon, Marie goes to the vet.",
+    "The dog does not have a collar.",
+    "He does not have a microchip either."
+   ],
+   "sentences": [
+    [
+     [
+      "L'après-midi,",
+      37
+     ],
+     [
+      "Marie va",
+      38
+     ],
+     [
+      "chez le vétérinaire.",
+      39
+     ]
+    ],
+    [
+     [
+      "Le chien n'a pas",
+      40
+     ],
+     [
+      "de collier.",
+      41
+     ]
+    ],
+    [
+     [
+      "Il n'a pas",
+      42
+     ],
+     [
+      "de puce",
+      43
+     ],
+     [
+      "non plus.",
+      44
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "tr": [
+    "He does not have a family.",
+    "Marie looks at the little dog.",
+    "The little dog looks at Marie.",
+    "She smiles."
+   ],
+   "sentences": [
+    [
+     [
+      "Il n'a pas",
+      45
+     ],
+     [
+      "de famille.",
+      46
+     ]
+    ],
+    [
+     [
+      "Marie regarde",
+      47
+     ],
+     [
+      "le petit chien.",
+      48
+     ]
+    ],
+    [
+     [
+      "Le petit chien",
+      49
+     ],
+     [
+      "regarde Marie.",
+      50
+     ]
+    ],
+    [
+     [
+      "Elle sourit.",
+      51
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "tr": [
+    "\"Now, you have a home,\" she says.",
+    "The dog wags his tail.",
+    "That evening, he sleeps in a basket, warm, near the door.",
+    "For the first time in a long time, he is no longer alone."
+   ],
+   "sentences": [
+    [
+     [
+      "\"Maintenant,",
+      52
+     ],
+     [
+      "tu as",
+      53
+     ],
+     [
+      "une maison\",",
+      54
+     ],
+     [
+      "dit-elle.",
+      55
+     ]
+    ],
+    [
+     [
+      "Le chien remue",
+      56
+     ],
+     [
+      "la queue.",
+      57
+     ]
+    ],
+    [
+     [
+      "Ce soir-là,",
+      58
+     ],
+     [
+      "il dort",
+      59
+     ],
+     [
+      "dans un panier,",
+      60
+     ],
+     [
+      "au chaud,",
+      61
+     ],
+     [
+      "près de la porte.",
+      62
+     ]
+    ],
+    [
+     [
+      "Pour la première fois",
+      63
+     ],
+     [
+      "depuis longtemps,",
+      64
+     ],
+     [
+      "il n'est plus seul.",
+      65
+     ]
+    ]
+   ]
+  }
+ ]
+}

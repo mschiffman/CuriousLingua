@@ -1,0 +1,29 @@
+{
+ "title": "Le présent : diaporama",
+ "subtitle": "14 slides",
+ "label": "Slide deck",
+ "type": "practice",
+ "supplement_of": "present",
+ "legacy": "fr/grammar/tense/slides-present.html",
+ "blocks": [
+  {
+   "kind": "slides",
+   "items": [
+    "img/grammar/present/slide1.jpg",
+    "img/grammar/present/slide2.jpg",
+    "img/grammar/present/slide3.jpg",
+    "img/grammar/present/slide4.jpg",
+    "img/grammar/present/slide5.jpg",
+    "img/grammar/present/slide6.jpg",
+    "img/grammar/present/slide7.jpg",
+    "img/grammar/present/slide8.jpg",
+    "img/grammar/present/slide9.jpg",
+    "img/grammar/present/slide10.jpg",
+    "img/grammar/present/slide11.jpg",
+    "img/grammar/present/slide12.jpg",
+    "img/grammar/present/slide13.jpg",
+    "img/grammar/present/slide14.jpg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "title": "Le conditionnel présent",
+ "subtitle": "Would: politeness and hypotheses",
+ "level": "b1",
+ "level_provisional": true,
+ "topic": "Tenses",
+ "type": "grammar",
+ "order": 6,
+ "legacy": "fr/grammar/tense/conditionnel.html",
+ "review": "Imported from the old tense page. Texts and examples are the old ones; the level is a guess.",
+ "intro": "Used for possibility, politeness, wishes, hypothetical situations, advice, reported speech (future-in-the-past), and after *si* clauses with the imparfait.",
+ "sections": [
+  {
+   "title": "When to use it",
+   "blocks": [
+    {
+     "label": "Possibility / Speculation / Opinion",
+     "title": "Tentative or uncertain statements",
+     "examples": [
+      {
+       "fr": "Ça **pourrait** le faire !",
+       "en": "That could work."
+      },
+      {
+       "fr": "Qu'est-ce qui te ferait plaisir ?",
+       "en": "What would make you happy?"
+      },
+      {
+       "fr": "Ça aurait été dommage de jeter ça.",
+       "en": "It would be a shame to throw it away."
+      }
+     ]
+    },
+    {
+     "label": "Politeness",
+     "title": "Requests softened, offers",
+     "examples": [
+      {
+       "fr": "Je **voudrais** un café, s’il vous plaît.",
+       "en": "I’d like a coffee, please."
+      },
+      {
+       "fr": "Vous **pourriez** m’aider ?",
+       "en": "Could you help me?"
+      },
+      {
+       "fr": "On **ferait** ça plus tard ?",
+       "en": "Shall we do that later?"
+      },
+      {
+       "fr": "Tu **pourrais** m'expliquer ?",
+       "en": "Could you explain?"
+      },
+      {
+       "fr": "J'**aimerais** que tu viennes très vite, si tu pouvais.",
+       "en": "I would like you to come very soon, if you could."
+      }
+     ]
+    },
+    {
+     "label": "Hypothesis / Advice",
+     "title": "imparfait → conditionnel présent",
+     "examples": [
+      {
+       "fr": "Si j’**avais** le temps, je **voyagerais** plus.",
+       "en": "If I had time, I would travel more."
+      },
+      {
+       "fr": "Si on **était** libres, on **irait** au cinéma.",
+       "en": "If we were free, we’d go to the movies."
+      },
+      {
+       "fr": "S’il **faisait** beau, nous **pique-niquerions**.",
+       "en": "If it were nice out, we’d have a picnic."
+      },
+      {
+       "fr": "À ta place, je **serais** méfiant.",
+       "en": "If I were you, I would be wary."
+      }
+     ]
+    },
+    {
+     "label": "Advice",
+     "title": "Soft recommendations",
+     "examples": [
+      {
+       "fr": "Tu **devrais** te reposer.",
+       "en": "You should rest."
+      },
+      {
+       "fr": "Vous **voudriez** peut-être vérifier ça.",
+       "en": "You might want to check that."
+      },
+      {
+       "fr": "On **pourrait** appeler avant d’y aller.",
+       "en": "We could call before going."
+      },
+      {
+       "fr": "Si tu as un moment, tu **pourrais** y jeter un coup d’œil.",
+       "en": "If you have a moment, you might take a look at it."
+      }
+     ]
+    },
+    {
+     "label": "Future-in-the-past",
+     "title": "Reported speech, hedging",
+     "examples": [
+      {
+       "fr": "Il a dit qu’il **viendrait** vers 8h.",
+       "en": "He said he would come around 8."
+      },
+      {
+       "fr": "Selon la météo, il **pleuvrait** demain.",
+       "en": "According to the forecast, it may rain tomorrow."
+      },
+      {
+       "fr": "D’après elle, ça **coûterait** trop cher.",
+       "en": "According to her, it would cost too much."
+      },
+      {
+       "fr": "Il a dit que je **pouvais** le prendre.",
+       "en": "He said I could take it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Formation",
+   "blocks": [
+    {
+     "title": "Formula",
+     "formula": "infinitif (or irregular future stem) + endings: **-ais, -ais, -ait, -ions, -iez, -aient**",
+     "points": [
+      "*parler* → je **parlerais**, tu parlerais, il parlerait, nous parlerions, vous parleriez, ils parleraient",
+      "*finir* → je **finirais**, … nous **finirions**, vous **finiriez**",
+      "*vendre* → je **vendrais**, … nous **vendrions**"
+     ],
+     "note": "Spelling changes match the futur simple (e.g., *manger → je mangerais*, *appeler → j’appellerais*)."
+    },
+    {
+     "title": "Common irregular stems (same as futur simple)",
+     "formula": "**aur-** (avoir) → j’**aurais**  |  **ser-** (être) → je **serais**  |  **ir-** (aller) → j’**irais**  |  **fer-** (faire) → je **ferais**\n**voudr-** (vouloir) → je **voudrais**  |  **pourr-** (pouvoir) → je **pourrais**  |  **devr-** (devoir) → je **devrais**\n**viendr-** (venir) → je **viendrais**  |  **verr-** (voir) → je **verrais**  |  **enverr-** (envoyer) → j’**enverrais**  |  **tiendr-** (tenir) → je **tiendrais**",
+     "note": "Pronunciation tip: the endings *-ais, -ait* sound like *[ɛ]* (same as imparfait)."
+    }
+   ]
+  },
+  {
+   "title": "Signal words",
+   "blocks": [
+    {
+     "text": "si + imparfait → conditionnel présent ; *au cas où* (+ conditionnel) ; softeners: *je voudrais, je pourrais, on ferait, ça serait*."
+    }
+   ]
+  },
+  {
+   "title": "Negation / Questions",
+   "blocks": [
+    {
+     "examples": [
+      {
+       "fr": "Je **ne pourrais pas** venir ce soir.",
+       "en": "I wouldn’t be able to come tonight."
+      },
+      {
+       "fr": "Tu **ne voudrais pas** essayer ?",
+       "en": "Wouldn’t you like to try?"
+      },
+      {
+       "fr": "**Feriez-vous** une exception ?",
+       "en": "Would you make an exception?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Conditionnel vs. Futur simple",
+   "blocks": [
+    {
+     "examples": [
+      {
+       "fr": "**Futur simple** (certain plan): Demain, je *partirai*.",
+       "en": "I will leave."
+      },
+      {
+       "fr": "**Conditionnel** (hypothesis/politeness): Je *partirais* si j’avais une voiture.",
+       "en": "I would leave if I had a car."
+      },
+      {
+       "fr": "Same stems; different endings and meaning (certainty vs. possibility)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Practice Drills",
+   "blocks": [
+    {
+     "points": [
+      "Conjugate in conditionnel: *aller, pouvoir, devoir* — je/tu/il/nous/vous/ils.",
+      "Transform with *si*: *J’ai de l’argent →* Si j’*avais* de l’argent, je *voyagerais*.",
+      "Polite requests: Reformulate *Donnez-moi un café* → *Je voudrais un café*."
+     ]
+    }
+   ]
+  }
+ ]
+}

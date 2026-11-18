@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le chien sans maison | French</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body class="site flex h-dvh flex-col overflow-hidden" data-course="fr">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/reading/index.html">Reading</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/grammar/index.html">Grammar</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/pronunciation/index.html">Pronunciation</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/fundamentals/index.html">Fundamentals</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../fr/reading/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Reading</a><a href="../../fr/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../fr/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../fr/vocabulary/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Vocabulary</a><a href="../../fr/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../fr/grammar/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Grammar</a><a href="../../fr/pronunciation/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Pronunciation</a><a href="../../fr/fundamentals/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Fundamentals</a></div></div></header>
+<main class="flex min-h-0 flex-1 flex-col" x-data="reader">
+<div class="wrap flex shrink-0 items-center gap-2 py-2">
+<a class="btn px-3 py-1.5" href="../../fr/reading/index.html" aria-label="Back to the list" data-nav>&larr;</a>
+<h1 class="min-w-0 flex-1 truncate text-lg font-semibold sm:text-2xl">Le chien sans maison</h1>
+<span class="chip chip-accent hidden sm:inline-flex">A1</span>
+<button class="btn px-3 py-1.5" :class="rate < 1 && 'btn-on'" @click="slow()">Slow</button>
+<button class="btn px-3 py-1.5" x-show="hasTr" :class="tr && 'btn-on'" @click="tr = !tr" :lang="trLang" x-text="trLabel"></button>
+<span class="chip" x-text="(i + 1) + ' / ' + pages.length"></span>
+</div>
+<div class="wrap flex min-h-0 flex-1 flex-col gap-3 pb-2 md:flex-row md:gap-6">
+<div class="shrink-0 md:w-1/2">
+<img x-show="!broken[i]" :src="img(page)" :alt="page.alt || ('Picture ' + (i + 1))" @error="broken[i] = true" class="mx-auto max-h-[40dvh] w-auto max-w-full rounded-2xl border border-line bg-card object-contain md:max-h-full">
+<div x-show="broken[i]" x-cloak class="ph mx-auto max-h-[40dvh] md:max-h-full"><svg viewBox="0 0 24 24" class="h-10 w-10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-8 8"/></svg><span x-text="page.alt || ('Picture ' + (i + 1) + ' goes here')"></span></div>
+</div>
+<div class="scrollpane min-h-0 flex-1 space-y-4 pr-3" x-ref="pane">
+<template x-for="(s, si) in page.sentences" :key="i + '-' + si"><div>
+<p class="text-2xl font-bold leading-snug sm:text-3xl"><template x-for="c in s" :key="c[1]"><button class="chunk mr-1 scroll-my-8" :class="playing === c[1] && 'playing'" @click="say(c[1])" x-text="c[0]"></button></template></p>
+<p x-show="tr && page.tr && page.tr[si]" :lang="trLang" class="mt-1 px-1.5 text-lg text-accent" x-text="page.tr ? page.tr[si] : ''"></p>
+</div></template>
+<p x-show="pending" x-cloak class="text-sm text-muted">The audio for this lesson is not recorded yet.</p>
+<div x-show="i === pages.length - 1" x-cloak class="space-y-4 pb-2 pt-4"><div class="flex flex-wrap items-center gap-3" x-data="progress('fr/reading/chien_sans_maison')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '\u2713 Done' : 'Mark as done'"></button>
+
+<a class="btn" href="../../fr/reading/crispr.html">Next: CRISPR : les ciseaux qui réécrivent la vie &rarr;</a></div></div>
+</div>
+</div>
+<div class="shrink-0 border-t border-line bg-paper py-2"><div class="wrap flex items-center justify-center gap-3">
+<button class="btn" @click="go(-1)" :disabled="i === 0" :class="i === 0 && 'opacity-40'" aria-label="Previous page">&larr;</button>
+<button class="btn btn-primary px-6" :class="pending && 'opacity-40'" :disabled="pending" @click="playPage()"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span x-text="busy ? 'Stop' : 'Play page'"></span></button>
+<button class="btn" :disabled="!(playing || busy)" :class="[P.held && 'btn-on', !(playing || busy) && 'opacity-40']" @click="togglePause()" x-text="P.held ? 'Resume' : 'Pause'"></button>
+<button class="btn" @click="go(1)" :disabled="i === pages.length - 1" :class="i === pages.length - 1 && 'opacity-40'" aria-label="Next page">&rarr;</button>
+</div></div>
+</main>
+
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"Le chien sans maison","level":"a1","topic":"Stories","type":"reader","source_md":"chien_sans_maison.md","img_dir":"img/ytstory/chien_sans_maison/","img_ext":"jpg","aud_dir":"fr/reading/chien_sans_maison/","aud_ext":"mp3?v=2611180929","translation":{"lang":"en","label":"English"},"pages":[{"img":1,"tr":["Marie lives in a small town.","One morning, she goes to the bakery.","In front of the door, she sees a small brown dog."],"sentences":[[["Marie habite",1],["dans une petite ville.",2]],[["Un matin,",3],["elle va",4],["à la boulangerie.",5]],[["Devant la porte,",6],["elle voit",7],["un petit chien brun.",8]]]},{"img":2,"tr":["The dog is dirty, thin, and very calm.","Marie goes into the bakery.","When she comes out, the dog is still there."],"sentences":[[["Le chien est sale,",9],["maigre,",10],["et très calme.",11]],[["Marie entre",12],["dans la boulangerie.",13]],[["Quand elle sort,",14],["le chien est",15],["toujours là.",16]]]},{"img":3,"tr":["He looks at her with his big black eyes.","Marie says softly, \"Hello, little dog.\"","\"Are you alone?\""],"sentences":[[["Il la regarde",17],["avec ses grands yeux noirs.",18]],[["Marie dit doucement,",19],["\"Bonjour, petit chien.\"",20]],[["\"Tu es seul ?\"",21]]]},{"img":4,"tr":["Marie walks toward her house.","The dog follows her.","In the garden, Marie gives him water and a little bread."],"sentences":[[["Marie marche",22],["vers sa maison.",23]],[["Le chien la suit.",24]],[["Dans le jardin,",25],["Marie lui donne",26],["de l'eau",27],["et un peu de pain.",28]]]},{"img":5,"tr":["The dog eats very quickly.","Marie asks the neighbors,","\"Do you know this dog?\"","But no one knows him."],"sentences":[[["Le chien mange",29],["très vite.",30]],[["Marie demande",31],["aux voisins,",32]],[["\"Vous connaissez",33],["ce chien ?\"",34]],[["Mais personne",35],["ne le connaît.",36]]]},{"img":6,"tr":["In the afternoon, Marie goes to the vet.","The dog does not have a collar.","He does not have a microchip either."],"sentences":[[["L'après-midi,",37],["Marie va",38],["chez le vétérinaire.",39]],[["Le chien n'a pas",40],["de collier.",41]],[["Il n'a pas",42],["de puce",43],["non plus.",44]]]},{"img":7,"tr":["He does not have a family.","Marie looks at the little dog.","The little dog looks at Marie.","She smiles."],"sentences":[[["Il n'a pas",45],["de famille.",46]],[["Marie regarde",47],["le petit chien.",48]],[["Le petit chien",49],["regarde Marie.",50]],[["Elle sourit.",51]]]},{"img":8,"tr":["\"Now, you have a home,\" she says.","The dog wags his tail.","That evening, he sleeps in a basket, warm, near the door.","For the first time in a long time, he is no longer alone."],"sentences":[[["\"Maintenant,",52],["tu as",53],["une maison\",",54],["dit-elle.",55]],[["Le chien remue",56],["la queue.",57]],[["Ce soir-là,",58],["il dort",59],["dans un panier,",60],["au chaud,",61],["près de la porte.",62]],[["Pour la première fois",63],["depuis longtemps,",64],["il n'est plus seul.",65]]]}],"course":"fr","strand":"reading","slug":"chien_sans_maison"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>

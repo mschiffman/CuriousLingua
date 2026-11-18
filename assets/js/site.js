@@ -246,12 +246,13 @@
     /* ---- practice: exercise blocks (true/false, choice, cloze, open questions, ordering) and video ---- */
     Alpine.data("practice", () => {
       const norm = (s) => String(s || "").trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[\u2019\u2018]/g, "'");
-      const fresh = (b) => (b.kind === "order" ? (b.start || b.items.map((_, i) => i)).map((k) => ({ k, text: b.items[k] })) : b.items ? b.items.map(() => null) : []);
+      const fresh = (b) => (b.kind === "slides" ? [] : b.kind === "order" ? (b.start || b.items.map((_, i) => i)).map((k) => ({ k, text: b.items[k] })) : b.items ? b.items.map(() => null) : []);
       return {
         blocks: (L.blocks || []).map((b) => ({ ...b, ans: fresh(b), checked: false, shown: false })),
         offline: typeof EMBED !== "undefined", pending, heard: 0,
         async hear(n) { this.heard = n; await play(n); if (this.heard === n) this.heard = 0; },
         url(src) { return media((/^https?:/.test(src) ? "" : BASE) + src); },
+        pic(src) { return media(ROOT + src); },   // a slide: a picture of this site
         right(b, i) {
           if (b.kind === "order") return b.ans[i].k === i;
           if (b.kind === "cloze") return norm(b.ans[i]) === norm(b.items[i].answer);
@@ -365,6 +366,28 @@
           await sleep((d / this.rate) * 1300 + 400); if (r !== this.run) return;
         }
         this.loop = 0; this.playing = 0; this.busy = false;
+      },
+    }));
+
+    /* ---- timeline: the tenses on one line. A slider (or a tap, or the arrow keys) moves the marker;
+       the panel under it shows the chosen tense with the chosen verb. Data: LESSON.tenses, LESSON.verbs ---- */
+    Alpine.data("timeline", () => ({
+      tenses: L.tenses || [], verbs: L.verbs || [], verb: (L.verbs || [])[0] || "", i: 0,
+      picture: L.img ? media(ROOT + L.img) : "", pictureAlt: L.img_alt || "",
+      init() {
+        this.pick(location.hash.slice(1) || L.start);
+        this.$watch("i", () => { try { history.replaceState(null, "", "#" + this.cur.key); } catch (e) {} });
+      },
+      get cur() { return this.tenses[this.i] || {}; },
+      get form() { return ((this.cur.forms || {})[this.verb] || [])[0] || ""; },
+      get gloss() { return ((this.cur.forms || {})[this.verb] || [])[1] || ""; },
+      pick(key) { const k = this.tenses.findIndex((t) => t.key === key); if (k >= 0) this.i = k; },
+      go(d) { this.i = Math.min(this.tenses.length - 1, Math.max(0, this.i + d)); },
+      pos(t) { return "left:" + (t.x || 0) + "%;top:calc(50% + " + (t.dy || 0) + "px)"; },
+      label(t) { return "left:" + (t.x || 0) + "%;top:calc(50% + " + ((t.dy || 0) + (t.up ? -50 : 20)) + "px)"; },
+      fmt(s) {
+        const esc = String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        return esc.replace(/\*\*(.+?)\*\*/g, '<b class="font-bold text-accent">$1</b>');
       },
     }));
 

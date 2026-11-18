@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les temps sur une ligne | French</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body class="site" data-course="fr">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/reading/index.html">Reading</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/grammar/index.html">Grammar</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/pronunciation/index.html">Pronunciation</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/fundamentals/index.html">Fundamentals</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../fr/reading/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Reading</a><a href="../../fr/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../fr/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../fr/vocabulary/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Vocabulary</a><a href="../../fr/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../fr/grammar/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Grammar</a><a href="../../fr/pronunciation/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Pronunciation</a><a href="../../fr/fundamentals/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Fundamentals</a></div></div></header>
+<main class="wrap py-6 sm:py-10">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../fr/index.html">French</a><span>/</span><a class="hover:text-accent" href="../../fr/grammar/index.html">Grammar</a></nav>
+
+<div class="mt-4 flex flex-wrap items-center gap-2"><span class="chip chip-accent">A2</span><span class="chip">Tenses</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Les temps sur une ligne</h1>
+<p class="mt-2 text-xl text-muted">The French tenses on one timeline</p>
+<p class="mt-3 max-w-2xl text-muted">Move along the line from the past to the future. Each point is a tense: see when it is used, how it is built, and what one verb looks like in it. Two points sit off the line: they say how you see an action, not when it happens.</p>
+
+<section x-data="timeline" class="mt-6" @keydown.left.window="$event.target.tagName !== 'INPUT' && go(-1)" @keydown.right.window="$event.target.tagName !== 'INPUT' && go(1)">
+<div class="rounded-2xl border border-line bg-card p-4 sm:p-6">
+<div class="flex flex-wrap items-center gap-2">
+<span class="text-sm font-bold uppercase tracking-wide text-muted">Verb</span>
+<template x-for="v in verbs" :key="v"><button class="btn py-1.5" :class="verb === v && 'btn-on'" @click="verb = v" lang="fr" x-text="v"></button></template>
+</div>
+
+<div class="relative mt-4 h-72 select-none">
+<span class="absolute left-0 top-0 text-xs font-bold uppercase tracking-widest text-muted">&larr; past</span>
+<span class="absolute right-0 top-0 text-xs font-bold uppercase tracking-widest text-muted">future &rarr;</span>
+<div class="absolute top-1/2 border-t-2 border-dashed border-muted/60" style="left:5%;width:15%"></div>
+<div class="absolute top-1/2 -mt-px h-0.5 bg-ink" style="left:20%;right:4%"></div>
+<div class="absolute w-0.5 bg-ink/70" style="left:55%;top:calc(50% - 12px);height:24px"></div>
+<div class="absolute border-l-2 border-dashed border-muted/60" style="left:80%;top:calc(50% - 30px);height:30px"></div>
+<div class="absolute border-l-2 border-dashed border-muted/60" style="left:55%;top:calc(50% + 44px);height:28px"></div>
+<button class="absolute h-2 rounded-full transition-colors" :class="cur.key === 'imparfait' ? 'bg-accent' : 'bg-accent/25 hover:bg-accent/50'" style="left:20%;width:35%;top:calc(50% - 41px)" @click="pick('imparfait')" aria-label="imparfait" tabindex="-1"></button>
+<template x-for="(t, k) in tenses" :key="t.key"><button class="absolute z-10 grid h-9 w-9 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full" :style="pos(t)" @click="i = k" :aria-label="t.name" :aria-current="k === i">
+<span class="block h-4 w-4 rounded-full border-2 border-accent transition-transform" :class="[t.mood ? 'bg-card' : 'bg-accent', k === i && 'scale-125']"></span></button></template>
+<template x-for="(t, k) in tenses" :key="'l' + t.key"><button class="absolute hidden -translate-x-1/2 whitespace-nowrap rounded-lg px-1.5 text-sm font-bold transition-colors sm:block lg:text-base" :class="k === i ? 'text-accent' : 'text-muted hover:text-ink'" :style="label(t)" @click="i = k" lang="fr" x-text="t.name" tabindex="-1"></button></template>
+<div class="pointer-events-none absolute h-11 w-11 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-accent bg-accent/15 transition-all duration-500 ease-out" :style="pos(cur)"></div>
+</div>
+
+<input type="range" class="seek w-full" min="0" :max="tenses.length - 1" step="1" x-model.number="i" aria-label="Move along the timeline" :aria-valuetext="cur.name">
+<div class="flex items-center gap-2">
+<button class="btn px-3 py-1.5" @click="go(-1)" :disabled="i === 0" :class="i === 0 && 'opacity-40'" aria-label="Previous tense">&larr;</button>
+<p class="flex-1 text-center text-sm text-muted">Drag the slider, tap a point, or use the arrow keys.</p>
+<button class="btn px-3 py-1.5" @click="go(1)" :disabled="i === tenses.length - 1" :class="i === tenses.length - 1 && 'opacity-40'" aria-label="Next tense">&rarr;</button>
+</div>
+</div>
+
+<div class="mt-5 rounded-2xl border border-line bg-card p-5 sm:p-6" aria-live="polite">
+<div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+<h2 class="text-3xl font-semibold text-accent" lang="fr" x-text="cur.name"></h2>
+<span class="chip" x-text="cur.en"></span>
+<span class="chip chip-accent" x-show="cur.mood" x-cloak>a mood, not a moment</span>
+</div>
+<p class="mt-1 text-muted" x-text="cur.hint"></p>
+<p class="mt-5 font-display text-4xl font-semibold tracking-tight sm:text-5xl" lang="fr" x-text="form"></p>
+<p class="mt-1 text-lg text-muted" x-text="gloss"></p>
+<div class="mt-6 grid gap-6 md:grid-cols-2">
+<div>
+<h3 class="text-sm font-bold uppercase tracking-wide text-muted">When to use it</h3>
+<p class="mt-1 text-lg" x-text="cur.use"></p>
+<h3 class="mt-4 text-sm font-bold uppercase tracking-wide text-muted">How it is built</h3>
+<p class="mt-1 rounded-xl bg-accent/5 px-4 py-3 font-bold" x-html="fmt(cur.structure)"></p>
+</div>
+<div>
+<h3 class="text-sm font-bold uppercase tracking-wide text-muted">Examples</h3>
+<ul class="mt-1 space-y-2.5"><template x-for="(x, k) in cur.examples" :key="cur.key + k"><li><p class="text-lg leading-snug" lang="fr" x-html="fmt(x.fr)"></p><p class="text-muted" x-text="x.en"></p></li></template></ul>
+</div>
+</div>
+<a x-show="cur.lesson" class="btn btn-primary mt-6" :href="cur.lesson + '.html'" data-nav><span>Open the lesson:&nbsp;</span><span lang="fr" x-text="cur.name"></span><span>&nbsp;&rarr;</span></a>
+</div>
+<img x-show="picture" x-cloak :src="picture" :alt="pictureAlt" class="mt-8 w-full rounded-2xl border border-line bg-card">
+</section>
+
+<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Supplemental section</h2><p class="mt-1 text-muted">More practice with this text.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" href="../../fr/grammar/tenses_builder.html" data-lesson="fr/grammar/tenses_builder"><h3 class="text-lg font-semibold leading-snug">Un verbe, tous les temps</h3>
+<p class="mt-1 text-sm text-muted">One sentence through the tenses: 6 verbs, 44 steps</p>
+<div class="mt-3"><span class="chip">Sentence builder</span></div></a></div></section>
+<div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/grammar/tenses')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../fr/grammar/present.html">Le présent &rarr;</a></div>
+</main>
+<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
+<span class="font-display text-base font-semibold text-ink">Languages</span>
+<span>Free for everyone. No account, no paywall.</span></div></footer>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"Les temps sur une ligne","subtitle":"The French tenses on one timeline","level":"a2","level_provisional":true,"topic":"Tenses","type":"timeline","order":0,"review":"Made by Claude from the old tenses overview and its timeline picture. The futur simple examples and the English glosses of the verb forms are new: check them.","intro":"Move along the line from the past to the future. Each point is a tense: see when it is used, how it is built, and what one verb looks like in it. Two points sit off the line: they say how you see an action, not when it happens.","img":"img/grammar/tenses.jpg","img_alt":"An illustrated river of time: imparfait and passé composé in the past, the présent as the anchor, futur proche and futur simple ahead, with the conditionnel and the subjonctif below as tenses of perspective","start":"present","verbs":["finir","parler","aller"],"tenses":[{"key":"plus_que_parfait","name":"plus-que-parfait","en":"had done","x":7,"dy":0,"hint":"The past of the past: it was already over before another past moment.","use":"An action completed before another past action.","structure":"avoir / être (imparfait) + participe passé","forms":{"finir":["J’avais fini","I had finished"],"parler":["J’avais parlé","I had spoken"],"aller":["J’étais allé(e)","I had gone"]},"examples":[{"fr":"J'**avais oublié** mon portefeuille.","en":"I had forgotten my wallet."},{"fr":"Elle **était déjà partie** quand je suis arrivé.","en":"She had already left when I arrived."},{"fr":"On **avait jamais vu** ça.","en":"We had never seen that."},{"fr":"Il m'**avait dit** qu'il viendrait.","en":"He had told me he would come."}],"lesson":"plus_que_parfait"},{"key":"imparfait","name":"imparfait","en":"was doing / used to do","x":37.5,"dy":-37,"up":true,"hint":"Ongoing, habitual, descriptive: a stretch of the past, not a point.","use":"The background of a story, what was going on, and what used to happen.","structure":"stem of the **nous** form (drop -ons) + -ais, -ais, -ait, -ions, -iez, -aient","forms":{"finir":["Je finissais (quand…)","I was finishing (when…)"],"parler":["Je parlais (quand…)","I was speaking (when…)"],"aller":["J’allais (quand…)","I was going (when…)"]},"examples":[{"fr":"Je **savais** pas.","en":"I didn't know."},{"fr":"C'est ce que je **cherchais**.","en":"That's what I was looking for."},{"fr":"Quand on **était** jeunes, on **jouait** souvent au badminton.","en":"When we were young, we used to play badminton often."}],"lesson":"imparfait"},{"key":"passe_compose","name":"passé composé","en":"did / have done","x":37.5,"dy":0,"hint":"A completed point in the past.","use":"Past actions and completed events. In speech it replaces the passé simple.","structure":"avoir / être (présent) + participe passé","forms":{"finir":["J’ai fini","I finished / I have finished"],"parler":["J’ai parlé","I spoke / I have spoken"],"aller":["Je suis allé(e)","I went / I have gone"]},"examples":[{"fr":"J'**ai fait** une erreur.","en":"I made a mistake."},{"fr":"C'**est fait**, c'**est fini**.","en":"It's done, it's over."},{"fr":"Je **suis** jamais **allé** en France.","en":"I have never been to France."}],"lesson":"passe_compose"},{"key":"present","name":"présent","en":"do / am doing","x":55,"dy":0,"hint":"Now: the anchor every other tense is measured from.","use":"Current actions, habits, general truths, and the near future.","structure":"subject + verb with the present endings","forms":{"finir":["Je finis","I finish / I am finishing"],"parler":["Je parle","I speak / I am speaking"],"aller":["Je vais","I go / I am going"]},"examples":[{"fr":"Ça m'**arrive** parfois.","en":"It happens to me sometimes."},{"fr":"Je **bois** beaucoup d’eau le matin.","en":"I drink lots of water in the morning."},{"fr":"Les girafes **ont** un long cou.","en":"Giraffes have a long neck."},{"fr":"Il **vient** demain.","en":"He's coming tomorrow."}],"lesson":"present"},{"key":"futur_proche","name":"futur proche","en":"am going to do","x":65,"dy":0,"up":true,"hint":"The cause is already present: it is planned, or about to happen.","use":"The planned or immediate future.","structure":"aller (présent) + infinitif","forms":{"finir":["Je vais finir","I am going to finish"],"parler":["Je vais parler","I am going to speak"],"aller":["Je vais aller","I am going to go"]},"examples":[{"fr":"Je **vais** me **coucher**.","en":"I'm going to bed."},{"fr":"Je sais pas si ça **va marcher**.","en":"I don't know if it's going to work."},{"fr":"Il **va être** content.","en":"He's going to be happy."}],"lesson":"futur_proche"},{"key":"conditionnel","name":"conditionnel présent","en":"would do","x":80,"dy":-37,"up":true,"mood":true,"hint":"A future seen from a condition: it floats above the line because it may never happen.","use":"Politeness, and hypothetical situations.","structure":"infinitif (or the irregular futur stem) + the imparfait endings","forms":{"finir":["Je finirais si…","I would finish if…"],"parler":["Je parlerais si…","I would speak if…"],"aller":["J’irais si…","I would go if…"]},"examples":[{"fr":"Je **voudrais** un thé.","en":"I'd like a tea."},{"fr":"Ça te **dirait** de le voir ?","en":"Would you like to see it?"},{"fr":"Comment je le **saurais** ?","en":"How would I know?"},{"fr":"Tu **ferais** quoi à ma place ?","en":"What would you do in my place?"}],"lesson":"conditionnel"},{"key":"futur_simple","name":"futur simple","en":"will do","x":93,"dy":0,"hint":"The standard future: predictions, promises, plans further away.","use":"Future actions, predictions and promises. More formal and more distant than the futur proche.","structure":"infinitif (or an irregular stem) + -ai, -as, -a, -ons, -ez, -ont","forms":{"finir":["Je finirai","I will finish"],"parler":["Je parlerai","I will speak"],"aller":["J’irai","I will go"]},"examples":[{"fr":"Je t'**appellerai** demain.","en":"I'll call you tomorrow."},{"fr":"Il **fera** beau ce week-end.","en":"The weather will be nice this weekend."},{"fr":"On **verra**.","en":"We'll see."}],"lesson":"futur_simple"},{"key":"subjonctif","name":"subjonctif","en":"(that) I do","x":55,"dy":80,"mood":true,"hint":"It's not “when”, it's how I see it: a wish, a doubt, a need, a feeling.","use":"After expressions of feeling, wish, doubt or necessity, when the two clauses have different subjects.","structure":"main clause (indicatif) + **que** + subject + verb in the subjonctif","forms":{"finir":["(il faut que) je finisse","(I have to) finish"],"parler":["(il faut que) je parle","(I have to) speak"],"aller":["(il faut que) j’aille","(I have to) go"]},"examples":[{"fr":"Je suis content que tu **ailles** mieux.","en":"I'm glad that you're feeling better."},{"fr":"Je veux que tu **viennes** tôt.","en":"I want you to come early."},{"fr":"J'ai hâte que tu la **voies**.","en":"I can't wait for you to see it."},{"fr":"Il faut que je **fasse** une pause.","en":"I have to take a break."},{"fr":"Tu veux que je le **fasse** ?","en":"Do you want me to do it?"}],"lesson":"subjonctif"}],"course":"fr","strand":"grammar","slug":"tenses"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>

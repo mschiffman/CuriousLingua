@@ -1,0 +1,229 @@
+{
+ "title": "Un verbe, tous les temps",
+ "subtitle": "One sentence through the tenses: 6 verbs, 44 steps",
+ "label": "Sentence builder",
+ "type": "practice",
+ "supplement_of": "tenses",
+ "legacy": "fr/grammar/tense/exercice.html",
+ "intro": "Take one short sentence along the timeline. Write each step, then compare with the model answer.",
+ "blocks": [
+  {
+   "kind": "open",
+   "title": "Être (to Be)",
+   "intro": "Being ready. Say it in each tense, then press Show answers.",
+   "items": [
+    {
+     "q": "(Présent): Say 'I am ready.'",
+     "model": "Je suis prêt. / Je suis prête."
+    },
+    {
+     "q": "(Passé Composé): Say 'I was ready.'",
+     "model": "J'ai été prêt. / J'ai été prête."
+    },
+    {
+     "q": "(Imparfait): Say 'I used to be ready.'",
+     "model": "J'étais prêt. / J'étais prête."
+    },
+    {
+     "q": "(Plus-que-parfait): Say 'I had been ready.'",
+     "model": "J'avais été prêt. / J'avais été prête."
+    },
+    {
+     "q": "(Futur): Say 'I will be ready.'",
+     "model": "Je serai prêt. / Je serai prête."
+    },
+    {
+     "q": "(Futur proche): Say 'I will be ready.'",
+     "model": "Je vais être prêt. / Je vais être prête."
+    },
+    {
+     "q": "(Conditional): Say 'I would be ready.'",
+     "model": "Je serais prêt. / Je serais prête."
+    },
+    {
+     "q": "(Subjunctive): Say '...that I be ready.'",
+     "model": "que je sois prêt. / que je sois prête."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "Avoir (to Have)",
+   "intro": "Having a cat. Say it in each tense, then press Show answers.",
+   "items": [
+    {
+     "q": "(Present): Say 'I have a cat.'",
+     "model": "J'ai un chat."
+    },
+    {
+     "q": "(Passé Composé): Say 'I had a cat.'",
+     "model": "J'ai eu un chat."
+    },
+    {
+     "q": "(Imperfect): Say 'I used to have a cat.'",
+     "model": "J'avais un chat."
+    },
+    {
+     "q": "(Plus-que-parfait): Say 'I had had a cat.'",
+     "model": "J'avais eu un chat."
+    },
+    {
+     "q": "(Future): Say 'I will have a cat.'",
+     "model": "J'aurai un chat."
+    },
+    {
+     "q": "(Conditional): Say 'I would have a cat.'",
+     "model": "J'aurais un chat."
+    },
+    {
+     "q": "(Subjunctive): Say '...that I have a cat.'",
+     "model": "que j'aie un chat / que j'aie un chat."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "Aller (to Go)",
+   "intro": "Going to the park. Say it in each tense, then press Show answers.",
+   "items": [
+    {
+     "q": "(Present): Say 'I am going to the park.'",
+     "model": "Je vais au parc."
+    },
+    {
+     "q": "(Passé Composé): Say 'I went to the park.'",
+     "model": "Je suis allé au parc. / Je suis allée au parc."
+    },
+    {
+     "q": "(Imperfect): Say 'I was going to the park.'",
+     "model": "J'allais au parc."
+    },
+    {
+     "q": "(Plus-que-parfait): Say 'I had gone to the park.'",
+     "model": "J'étais allé au parc. / J'étais allée au parc."
+    },
+    {
+     "q": "(Future): Say 'I will go to the park.'",
+     "model": "J'irai au parc."
+    },
+    {
+     "q": "(Conditional): Say 'I would go to the park.'",
+     "model": "J'irais au parc."
+    },
+    {
+     "q": "(Subjunctive): Say '...that I go to the park.'",
+     "model": "que j'aille au parc / que j'aille au parc."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "Faire (to Do/Make)",
+   "intro": "Making a cake. Say it in each tense, then press Show answers.",
+   "items": [
+    {
+     "q": "(Present): Say 'I am making a cake.'",
+     "model": "Je fais un gâteau."
+    },
+    {
+     "q": "(Passé Composé): Say 'I made a cake.'",
+     "model": "J'ai fait un gâteau."
+    },
+    {
+     "q": "(Imperfect): Say 'I was making a cake.'",
+     "model": "Je faisais un gâteau."
+    },
+    {
+     "q": "(Plus-que-parfait): Say 'I had made a cake.'",
+     "model": "J'avais fait un gâteau."
+    },
+    {
+     "q": "(Future): Say 'I will make a cake.'",
+     "model": "Je ferai un gâteau."
+    },
+    {
+     "q": "(Conditional): Say 'I would make a cake.'",
+     "model": "Je ferais un gâteau."
+    },
+    {
+     "q": "(Subjunctive): Say '...that I make a cake.'",
+     "model": "que je fasse un gâteau / que je fasse un gâteau."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "Pouvoir (to Can/Be Able)",
+   "intro": "Coming. Say it in each tense, then press Show answers.",
+   "items": [
+    {
+     "q": "(Present): Say 'I can come.'",
+     "model": "Je peux venir."
+    },
+    {
+     "q": "(Passé Composé): Say 'I was able to come.'",
+     "model": "J'ai pu venir."
+    },
+    {
+     "q": "(Imperfect): Say 'I could (used to be able to) come.'",
+     "model": "Je pouvais venir."
+    },
+    {
+     "q": "(Plus-que-parfait): Say 'I had been able to come.'",
+     "model": "J'avais pu venir."
+    },
+    {
+     "q": "(Future): Say 'I will be able to come.'",
+     "model": "Je pourrai venir."
+    },
+    {
+     "q": "(Conditional): Say 'I could (would be able to) come.'",
+     "model": "Je pourrais venir."
+    },
+    {
+     "q": "(Subjunctive): Say '...that I can come.'",
+     "model": "que je puisse venir / que je puisse venir."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "Finir (to Finish)",
+   "intro": "Finishing work. Say it in each tense, then press Show answers.",
+   "items": [
+    {
+     "q": "(Présent): Say 'I am finishing the work.'",
+     "model": "Je finis le travail."
+    },
+    {
+     "q": "(Passé Composé): Say 'I finished the work.'",
+     "model": "J'ai fini le travail."
+    },
+    {
+     "q": "(Imparfait): Say 'I was finishing the work (when…).'",
+     "model": "Je finissais le travail."
+    },
+    {
+     "q": "(Plus-que-parfait): Say 'I had finished the work.'",
+     "model": "J'avais fini le travail."
+    },
+    {
+     "q": "(Futur proche): Say 'I am going to finish the work.'",
+     "model": "Je vais finir le travail."
+    },
+    {
+     "q": "(Futur simple): Say 'I will finish the work.'",
+     "model": "Je finirai le travail."
+    },
+    {
+     "q": "(Conditionnel): Say 'I would finish the work (if…).'",
+     "model": "Je finirais le travail."
+    },
+    {
+     "q": "(Subjonctif): Say '...that I finish the work.'",
+     "model": "que je finisse le travail / que je finisse le travail."
+    }
+   ]
+  }
+ ]
+}

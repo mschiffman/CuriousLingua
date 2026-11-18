@@ -5,6 +5,7 @@ import json, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEVEL_ORDER = ["pre-a1", "a1", "a2", "b1", "b2", "c1"]
 HAND = ("game", "page")   # hand-made pages: the build lists them but never writes them
+SILENT = ("grammar", "timeline")   # generated pages with no recordings: never "audio soon"
 
 
 def cfg():
@@ -112,6 +113,8 @@ def spoken(text):
 
 
 def pending(L):
+    if L.get("type") in SILENT:
+        return False
     if L.get("type") in HAND and not L.get("clips"):   # a hand-made page with nothing to record
         return False
     if L.get("type") in ("words", "hotspots"):   # named files in glossary_dir: pending only while no word has one yet

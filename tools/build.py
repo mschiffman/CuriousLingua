@@ -6,7 +6,7 @@ Writes index.html, <course>/index.html, <course>/level/<level>.html, <course>/<s
 one page per lesson and assets/data/catalog.json. Every page is generated:
 edit the lesson files in content/, never the .html. Standard library only.
 """
-import html, json, os, sys
+import html, json, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lib
@@ -14,7 +14,7 @@ import lib
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT, C = lib.ROOT, lib.cfg()
 e = html.escape
-TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page", "link": "Link"}
+TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page", "link": "Link", "grammar": "Grammar notes", "timeline": "Interactive timeline"}
 ICON_PLAY = '<svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
 ICON_LOOP = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>'
 ICON_TR = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="11" height="11" rx="2"/><path d="M6.5 11l2-5 2 5M7.2 9.5h2.6"/><rect x="10" y="10" width="11" height="11" rx="2" fill="currentColor" stroke="none"/><path d="M13 14h5M15.5 13v1c0 2-1 3.500-2.500 4.200M14.200 16c.8 1.200 2 2 3.300 2.200" stroke="#fff" stroke-width="1.300"/></svg>'
@@ -248,6 +248,14 @@ PRACTICE = '''<section x-data="practice" class="mt-6 space-y-8">
 <p x-show="b.caption" class="mt-3 text-center text-muted" x-text="b.caption"></p>
 </div></template>
 
+<template x-if="b.kind === 'slides'"><div class="mt-2" x-data="{ k: 0 }" @keydown.left.window="!$event.target.matches('input, textarea') && (k = Math.max(0, k - 1))" @keydown.right.window="!$event.target.matches('input, textarea') && (k = Math.min(b.items.length - 1, k + 1))">
+<img :src="pic(b.items[k])" :alt="'Slide ' + (k + 1)" class="w-full rounded-2xl border border-line bg-card">
+<div class="mt-3 flex items-center justify-center gap-3">
+<button class="btn" :disabled="k === 0" :class="k === 0 && 'opacity-40'" @click="k--" aria-label="Previous slide">&larr;</button>
+<span class="chip" x-text="(k + 1) + ' / ' + b.items.length"></span>
+<button class="btn" :disabled="k === b.items.length - 1" :class="k === b.items.length - 1 && 'opacity-40'" @click="k++" aria-label="Next slide">&rarr;</button>
+</div></div></template>
+
 <template x-if="b.kind === 'truefalse'"><ol class="mt-4 space-y-3">
 <template x-for="(it, i) in b.items" :key="i"><li class="item flex flex-wrap items-center gap-3 rounded-xl border border-line p-3" :class="mark(b, i)">
 <span class="min-w-0 flex-1 text-lg" lang="__LANG__" x-text="(i + 1) + '. ' + it.q"></span>
@@ -291,7 +299,7 @@ PRACTICE = '''<section x-data="practice" class="mt-6 space-y-8">
 </li></template></ol></template>
 
 <p x-show="b.note" class="mt-4 text-sm text-muted" x-text="b.note"></p>
-<div x-show="b.kind !== 'video'" class="mt-5 flex flex-wrap items-center gap-2">
+<div x-show="b.kind !== 'video' && b.kind !== 'slides'" class="mt-5 flex flex-wrap items-center gap-2">
 <button x-show="b.kind !== 'open'" class="btn btn-primary" @click="check(b)">Check</button>
 <button class="btn" @click="reveal(b)">Show answers</button>
 <button class="btn" @click="reset(b)">Reset</button>
@@ -475,6 +483,119 @@ PICTURE_CSS = """<style>
 """
 
 
+# ------------------------------------------------------------------ grammar notes and the tense timeline
+def inline(s):
+    """The light markup of the lesson files -> HTML: **the form to notice**, *italic*, `code`, line breaks."""
+    s = e(str(s), quote=False)
+    s = re.sub(r"\*\*(.+?)\*\*", r'<b class="font-bold text-accent">\1</b>', s)
+    s = re.sub(r"\*(.+?)\*", r"<i>\1</i>", s)
+    s = re.sub(r"`(.+?)`", r'<code class="rounded bg-accent/10 px-1 font-bold">\1</code>', s)
+    return s.replace("\n", "<br>")
+
+
+EDGES = ["border-l-amber-400", "border-l-sky-400", "border-l-rose-400", "border-l-emerald-400", "border-l-violet-400"]
+
+
+def grammar_block(b, lang, edge=""):
+    out = f'<div class="rounded-2xl border border-line bg-card p-5{" border-l-4 " + edge if edge else ""}">'
+    if b.get("label") or b.get("title"):
+        out += '<div class="flex flex-wrap items-center gap-2">'
+        if b.get("label"):
+            out += f'<span class="chip chip-accent">{inline(b["label"])}</span>'
+        if b.get("title"):
+            out += f'<h3 class="text-lg font-semibold leading-snug">{inline(b["title"])}</h3>'
+        out += "</div>"
+    if b.get("formula"):
+        out += f'<p class="mt-3 rounded-xl bg-accent/5 px-4 py-3 text-lg font-bold leading-relaxed" lang="{lang}">{inline(b["formula"])}</p>'
+    if b.get("text"):
+        out += f'<p class="mt-3 text-lg">{inline(b["text"])}</p>'
+    if b.get("points"):
+        out += '<ul class="mt-3 list-disc space-y-1.5 pl-5">' + "".join(f"<li>{inline(x)}</li>" for x in b["points"]) + "</ul>"
+    if b.get("examples"):
+        out += '<ul class="mt-3 space-y-2.5">' + "".join(
+            f'<li><p class="text-lg leading-snug" lang="{lang}">{inline(x["fr"])}</p>' + (f'<p class="text-muted">{inline(x["en"])}</p>' if x.get("en") else "") + "</li>"
+            for x in b["examples"]) + "</ul>"
+    if b.get("table"):
+        cell = "border-b border-line py-2 pr-4 align-top"
+        out += '<div class="mt-3 overflow-x-auto"><table class="w-full text-left">'
+        if b["table"].get("head"):
+            out += "<thead><tr>" + "".join(f'<th class="{cell} text-sm uppercase tracking-wide text-muted">{inline(h)}</th>' for h in b["table"]["head"]) + "</tr></thead>"
+        out += "<tbody>" + "".join("<tr>" + "".join(f'<td class="{cell}{" font-bold" if k == 0 else ""}">{inline(c)}</td>' for k, c in enumerate(row)) + "</tr>" for row in b["table"]["rows"]) + "</tbody></table></div>"
+    if b.get("note"):
+        out += f'<p class="mt-3 rounded-r-xl border-l-4 border-accent/50 bg-accent/5 px-4 py-2 text-sm">{inline(b["note"])}</p>'
+    return out + "</div>"
+
+
+def grammar_shell(L, lang):
+    """A grammar lesson: "sections", each a list of "blocks" (label, title, formula, text, points, examples, table, note)."""
+    secs = L.get("sections", [])
+    out = '<nav class="mt-6 flex flex-wrap gap-2" aria-label="On this page" data-nav>' + "".join(
+        f'<a class="btn py-1.5 text-sm" href="#s{i}">{inline(s.get("title", ""))}</a>' for i, s in enumerate(secs, 1) if s.get("title")) + "</nav>"
+    for i, s in enumerate(secs, 1):
+        blocks = s.get("blocks", [])
+        wide = len(blocks) > 1
+        cards = "".join(grammar_block(b, lang, EDGES[k % len(EDGES)] if i == 1 else "") for k, b in enumerate(blocks))
+        out += f'<section id="s{i}" class="mt-10 scroll-mt-28"><h2 class="text-2xl font-semibold">{inline(s.get("title", ""))}</h2><div class="mt-4 grid gap-4{" lg:grid-cols-2" if wide else ""}">{cards}</div></section>'
+    return out
+
+
+TIMELINE = """<section x-data="timeline" class="mt-6" @keydown.left.window="$event.target.tagName !== 'INPUT' && go(-1)" @keydown.right.window="$event.target.tagName !== 'INPUT' && go(1)">
+<div class="rounded-2xl border border-line bg-card p-4 sm:p-6">
+<div class="flex flex-wrap items-center gap-2">
+<span class="text-sm font-bold uppercase tracking-wide text-muted">Verb</span>
+<template x-for="v in verbs" :key="v"><button class="btn py-1.5" :class="verb === v && 'btn-on'" @click="verb = v" lang="__LANG__" x-text="v"></button></template>
+</div>
+
+<div class="relative mt-4 h-72 select-none">
+<span class="absolute left-0 top-0 text-xs font-bold uppercase tracking-widest text-muted">&larr; past</span>
+<span class="absolute right-0 top-0 text-xs font-bold uppercase tracking-widest text-muted">future &rarr;</span>
+<div class="absolute top-1/2 border-t-2 border-dashed border-muted/60" style="left:5%;width:15%"></div>
+<div class="absolute top-1/2 -mt-px h-0.5 bg-ink" style="left:20%;right:4%"></div>
+<div class="absolute w-0.5 bg-ink/70" style="left:55%;top:calc(50% - 12px);height:24px"></div>
+<div class="absolute border-l-2 border-dashed border-muted/60" style="left:80%;top:calc(50% - 30px);height:30px"></div>
+<div class="absolute border-l-2 border-dashed border-muted/60" style="left:55%;top:calc(50% + 44px);height:28px"></div>
+<button class="absolute h-2 rounded-full transition-colors" :class="cur.key === 'imparfait' ? 'bg-accent' : 'bg-accent/25 hover:bg-accent/50'" style="left:20%;width:35%;top:calc(50% - 41px)" @click="pick('imparfait')" aria-label="imparfait" tabindex="-1"></button>
+<template x-for="(t, k) in tenses" :key="t.key"><button class="absolute z-10 grid h-9 w-9 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full" :style="pos(t)" @click="i = k" :aria-label="t.name" :aria-current="k === i">
+<span class="block h-4 w-4 rounded-full border-2 border-accent transition-transform" :class="[t.mood ? 'bg-card' : 'bg-accent', k === i && 'scale-125']"></span></button></template>
+<template x-for="(t, k) in tenses" :key="'l' + t.key"><button class="absolute hidden -translate-x-1/2 whitespace-nowrap rounded-lg px-1.5 text-sm font-bold transition-colors sm:block lg:text-base" :class="k === i ? 'text-accent' : 'text-muted hover:text-ink'" :style="label(t)" @click="i = k" lang="__LANG__" x-text="t.name" tabindex="-1"></button></template>
+<div class="pointer-events-none absolute h-11 w-11 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-accent bg-accent/15 transition-all duration-500 ease-out" :style="pos(cur)"></div>
+</div>
+
+<input type="range" class="seek w-full" min="0" :max="tenses.length - 1" step="1" x-model.number="i" aria-label="Move along the timeline" :aria-valuetext="cur.name">
+<div class="flex items-center gap-2">
+<button class="btn px-3 py-1.5" @click="go(-1)" :disabled="i === 0" :class="i === 0 && 'opacity-40'" aria-label="Previous tense">&larr;</button>
+<p class="flex-1 text-center text-sm text-muted">Drag the slider, tap a point, or use the arrow keys.</p>
+<button class="btn px-3 py-1.5" @click="go(1)" :disabled="i === tenses.length - 1" :class="i === tenses.length - 1 && 'opacity-40'" aria-label="Next tense">&rarr;</button>
+</div>
+</div>
+
+<div class="mt-5 rounded-2xl border border-line bg-card p-5 sm:p-6" aria-live="polite">
+<div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+<h2 class="text-3xl font-semibold text-accent" lang="__LANG__" x-text="cur.name"></h2>
+<span class="chip" x-text="cur.en"></span>
+<span class="chip chip-accent" x-show="cur.mood" x-cloak>a mood, not a moment</span>
+</div>
+<p class="mt-1 text-muted" x-text="cur.hint"></p>
+<p class="mt-5 font-display text-4xl font-semibold tracking-tight sm:text-5xl" lang="__LANG__" x-text="form"></p>
+<p class="mt-1 text-lg text-muted" x-text="gloss"></p>
+<div class="mt-6 grid gap-6 md:grid-cols-2">
+<div>
+<h3 class="text-sm font-bold uppercase tracking-wide text-muted">When to use it</h3>
+<p class="mt-1 text-lg" x-text="cur.use"></p>
+<h3 class="mt-4 text-sm font-bold uppercase tracking-wide text-muted">How it is built</h3>
+<p class="mt-1 rounded-xl bg-accent/5 px-4 py-3 font-bold" x-html="fmt(cur.structure)"></p>
+</div>
+<div>
+<h3 class="text-sm font-bold uppercase tracking-wide text-muted">Examples</h3>
+<ul class="mt-1 space-y-2.5"><template x-for="(x, k) in cur.examples" :key="cur.key + k"><li><p class="text-lg leading-snug" lang="__LANG__" x-html="fmt(x.fr)"></p><p class="text-muted" x-text="x.en"></p></li></template></ul>
+</div>
+</div>
+<a x-show="cur.lesson" class="btn btn-primary mt-6" :href="cur.lesson + '.html'" data-nav><span>Open the lesson:&nbsp;</span><span lang="__LANG__" x-text="cur.name"></span><span>&nbsp;&rarr;</span></a>
+</div>
+<img x-show="picture" x-cloak :src="picture" :alt="pictureAlt" class="mt-8 w-full rounded-2xl border border-line bg-card">
+</section>"""
+
+
 def crumbs(L, r):
     c = C["courses"][L["course"]]
     return (f'<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav>'
@@ -549,7 +670,9 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
         return frame(rel, f"{title} | {course['name']}", body, L["course"], tail, cls="site flex h-dvh flex-col overflow-hidden", foot=False)
 
     shell = {"dialogue": LINES, "shadow": SHADOW, "practice": PRACTICE, "text": TEXT.replace("__ALT__", e(L.get("img_alt", "Picture goes here")))}.get(L.get("type"))
-    shell = {"words": WORDS, "hotspots": HOTSPOTS}.get(L.get("type"), shell)
+    shell = {"words": WORDS, "hotspots": HOTSPOTS, "timeline": TIMELINE}.get(L.get("type"), shell)
+    if L.get("type") == "grammar":
+        shell = grammar_shell(L, course["lang"])
     if shell is None:
         shell = soon("This lesson is being written.")
     for key, word in UI.get(course["lang"], UI["en"]).items():
@@ -579,7 +702,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 <div class="mt-4 flex flex-wrap items-center gap-2">{chips}</div>
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">{e(title)}</h1>
 {f'<p class="mt-2 text-xl text-muted">{e(L["subtitle"])}</p>' if L.get("subtitle") else ""}
-{f'<p class="mt-3 max-w-2xl text-muted">{e(L["intro"])}</p>' if L.get("intro") else ""}
+{f'<p class="mt-3 max-w-2xl text-muted">{inline(L["intro"]) if L.get("type") in lib.SILENT else e(L["intro"])}</p>' if L.get("intro") else ""}
 {steps}
 {shell}
 {(QUIZ if L.get("questions") else "") + extra if L.get("start_hidden") else extra + (QUIZ if L.get("questions") else "")}
