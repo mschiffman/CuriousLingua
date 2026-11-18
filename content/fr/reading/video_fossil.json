@@ -1,0 +1,15 @@
+{
+ "title": "Les fossiles : la vidéo",
+ "subtitle": "The secret locked in stone",
+ "label": "Video",
+ "type": "practice",
+ "supplement_of": "fossil",
+ "legacy": "fr/reading/video-fossil.html",
+ "blocks": [
+  {
+   "kind": "video",
+   "src": "lessons/read/fossil/video-fossil.mp4",
+   "caption": "How a living thing becomes a fossil (NotebookLM)."
+  }
+ ]
+}

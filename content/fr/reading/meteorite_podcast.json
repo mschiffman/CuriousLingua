@@ -1,0 +1,8 @@
+{
+ "title": "L’astéroïde : le podcast",
+ "subtitle": "A long conversation about the text, in French (NotebookLM, 21 min)",
+ "label": "Podcast",
+ "type": "link",
+ "supplement_of": "meteorite",
+ "href": "https://languages.rmlives.com/lessons/read/meteorite/audio-meteorite.m4a"
+}

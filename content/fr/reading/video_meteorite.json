@@ -1,0 +1,15 @@
+{
+ "title": "L’astéroïde : la vidéo",
+ "subtitle": "The asteroid that changed the Earth",
+ "label": "Video",
+ "type": "practice",
+ "supplement_of": "meteorite",
+ "legacy": "fr/reading/video-meteorite.html",
+ "blocks": [
+  {
+   "kind": "video",
+   "src": "lessons/read/video-meteorite.mp4",
+   "caption": "The asteroid impact 66 million years ago, and what came after (NotebookLM)."
+  }
+ ]
+}
