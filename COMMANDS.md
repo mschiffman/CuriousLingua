@@ -25,6 +25,7 @@ Everything is run from the site folder, `G:\My Drive\LANGSITE`. The `.bat` files
 | File | Use it to | Runs |
 |---|---|---|
 | `preview.bat` | Rebuild the pages and open the site at http://localhost:8000. Close the window to stop. | `tools\build.py`, then a local web server |
+| `lesson_app.bat` | Take a `.md` file all the way to a lesson, in one window: lesson file, pictures, audio, upload, offline copy. Steps already done are skipped | `tools\from_md.py`, `convert.py`, `audio.py`, `offline.py` |
 | `1_images.bat` | Move the numbered PNGs from Downloads to `G:\My Drive\_YOUTUBE\<folder>` and convert them to JPG in `img\ytstory` | `tools\convert.py` |
 | `2_audio.bat` | Open the audio menu: lessons needing clips, make clips, new takes, Whisper check, upload | `tools\audio.py` |
 | `3_offline.bat` | Build single-file offline lessons in `<course>\single\` | `tools\offline.py` |
@@ -52,6 +53,19 @@ python -E tools\build.py
 - **Rename:** save it under the new name, and replace the old file's content with `{"retired": true}`. The next build deletes the old file and its pages.
 - **Remove:** replace the file's content with `{"retired": true}` and rebuild. Copy it to `_archive\` first if you may want it back.
 - **Game pages** (`"type": "game"`, such as `eng\grammar\wheres_the_ball.html`): the build lists them but never writes them. You keep the `.html` yourself, with anything it loads (`three.min.js`) beside it. If the game has recorded sentences (the `clips` list in its lesson file), record and upload them like any lesson, then copy the new `aud_ext` from the lesson file into the page's `CLIPS` line.
+
+### Make a lesson from a .md file
+
+Double-click `lesson_app.bat`. It lists the `.md` files in `Desktop\story-md` and, for each, how far its lesson is. **Run the remaining steps** makes the lesson file, moves and converts the numbered PNGs from Downloads (picture stories), makes the missing clips, uploads them and builds the offline copy; whatever is already done is skipped, and it shows the plan and the ElevenLabs cost before it starts. The numbered rows run one step at a time. Publishing the pages is still `5_publish.bat`.
+
+```
+python -E tools\from_md.py status
+python -E tools\from_md.py check chien_sans_maison
+python -E tools\from_md.py make chien_sans_maison
+python -E tools\from_md.py make chien_sans_maison --force
+```
+
+`--force` replaces the text of a lesson that exists and keeps its level, topic and audio tag. A `.md` can be a story, a reading text, a conversation (speaking or listening), a word list (vocabulary or fundamentals), expression flashcards or a shadowing lesson; `strand: grammar` in its header puts any of them in Grammar. The formats are described at the top of `tools\from_md.py` (button **The .md formats** in the app).
 
 ### Check what is missing
 
