@@ -7,17 +7,19 @@
  "type": "dialogue",
  "register": "neutral-standard; vous, then tu in the last two",
  "legacy": "fr/everyday/topics/route.html",
- "review": "The dialogues are from the old route page; the English lines are new. The old page had one recording per dialogue: this lesson needs one clip per line, so the audio is still to make. Only the pedestrian has a voice of her own: the driver and the cyclist both use the course voice, so add a third voice id under \"voice\" (for \"Y\") before recording if you want the last two dialogues in two voices.",
+ "review": "The dialogues are from the old route page; the English lines are new. The old page had one recording per dialogue: this lesson needs one clip per line, so the audio is still to make. Voices: the women (piétonne; conductrice in the last two dialogues) are Fr-Melissa, the men Fr-Adrien.",
  "intro": "A pedestrian, a driver, a cyclist. Each exchange is three or four lines: ask, warn, apologise, thank.",
  "aud_dir": "fr/speaking/route/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611181050",
  "speakers": {
   "P": "Piéton",
   "C": "Conducteur",
-  "Y": "Cycliste"
+  "Y": "Cycliste",
+  "D": "Conductrice"
  },
  "voice": {
-  "P": "KzPZhE4ZluG6tjLsI1qh"
+  "P": "KzPZhE4ZluG6tjLsI1qh",
+  "D": "KzPZhE4ZluG6tjLsI1qh"
  },
  "support": [
   "en"
@@ -127,7 +129,7 @@
    "lines": [
     {
      "who": "P",
-     "text": "Oups, désolé, je n'ai pas vu la piste cyclable.",
+     "text": "Oups, désolée, je n'ai pas vu la piste cyclable.",
      "tr": {
       "en": "Oops, sorry, I didn't see the cycle lane."
      }
@@ -159,7 +161,7 @@
    "title": "Je te laisse passer",
    "lines": [
     {
-     "who": "C",
+     "who": "D",
      "text": "Vas-y, je te laisse passer.",
      "tr": {
       "en": "Go ahead, I'll let you through."
@@ -173,7 +175,7 @@
      }
     },
     {
-     "who": "C",
+     "who": "D",
      "text": "Pas de problème.",
      "tr": {
       "en": "No problem."
@@ -192,8 +194,8 @@
      }
     },
     {
-     "who": "C",
-     "text": "Ah oui, désolé.",
+     "who": "D",
+     "text": "Ah oui, désolée.",
      "tr": {
       "en": "Oh yes, sorry."
      }
@@ -206,7 +208,7 @@
      }
     },
     {
-     "who": "C",
+     "who": "D",
      "text": "Oui, excuse-moi.",
      "tr": {
       "en": "Yes, sorry."
