@@ -345,7 +345,7 @@ def words(L, redo=()):
     turn = doc.get("voices") or []
     todo = [(w, w.get("voice") or (turn[gi % len(turn)] if turn else v["voice"])) for gi, g in enumerate(doc.get("groups", [])) for w in g.get("words", [])]
     todo += [(p, p.get("voice") or v["voice"]) for s in doc.get("slides", []) for p in s.get("spots", [])]
-    numbered = L["course"] == "jap" or doc.get("clip_names") == "number"   # romaji cannot name a file: obasan and obāsan would collide
+    numbered = L["course"] in ("jap", "kor") or doc.get("clip_names") == "number"   # romaji cannot name a file: obasan and obāsan would collide
     taken = {w["audio"] for w, _ in todo if w.get("audio")}
     for k, (w, voice) in enumerate(todo, 1):
         say = lib.spoken(w.get("say") or w["fr"]).replace(" / ", ", ")   # "say": what the voice reads, when it is not the text shown

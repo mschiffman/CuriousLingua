@@ -20,5 +20,12 @@
   "model": "eleven_v4",
   "lufs": -16,
   "whisper": "ja"
+ },
+ "kor": {
+  "name": "",
+  "voice": "",
+  "model": "eleven_v4",
+  "lufs": -16,
+  "whisper": "ko"
  }
 }

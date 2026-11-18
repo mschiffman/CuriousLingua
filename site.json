@@ -55,6 +55,21 @@
     "b1": "Explain, give opinions, workplace talk, the telephone, basic keigo.",
     "b2": "Nuance, indirectness, formal situations, longer discussion."
    }
+  },
+  "kor": {
+   "name": "Korean", "native": "한국어", "lang": "ko", "for": "Speaking first", "range": "A1 to B2",
+   "tagline": "Spoken Korean by ear, with Hangul beside every line. English and Burmese support.",
+   "levels": ["a1", "a2", "b1", "b2"],
+   "strands": ["speaking", "listening", "expressions", "sounds"],
+   "strand_text": {
+    "sounds": "Vowels, the three kinds of consonant, and how sounds link."
+   },
+   "can": {
+    "a1": "Greet, introduce yourself, ask for things, count, shop.",
+    "a2": "Daily conversation, plans, permission; polite and casual speech.",
+    "b1": "Explain, give opinions, workplace talk, the telephone, basic honorifics.",
+    "b2": "Nuance, indirectness, formal situations, longer discussion."
+   }
   }
  }
 }

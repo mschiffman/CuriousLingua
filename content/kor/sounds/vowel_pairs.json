@@ -1,0 +1,158 @@
+{
+ "title": "Vowels that sound alike",
+ "subtitle": "커피 / 코피",
+ "level": "a1",
+ "topic": "Sounds of Korean",
+ "order": 2,
+ "type": "words",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "intro": "Two pairs of vowels sound alike to English ears: eo and o, eu and u. The vowel alone can change the meaning, so train your ear on them early.",
+ "listen_pick": "fr",
+ "glossary_dir": "kor/sounds/vowel_pairs/",
+ "groups": [
+  {
+   "title": "eo and o",
+   "notes": [
+    "For o the lips are round and pushed forward. For eo the mouth opens and the lips relax."
+   ],
+   "words": [
+    {
+     "fr": "keopi",
+     "ipa": "커피",
+     "en": "coffee",
+     "say": "커피"
+    },
+    {
+     "fr": "kopi",
+     "ipa": "코피",
+     "en": "nosebleed",
+     "say": "코피"
+    },
+    {
+     "fr": "geori",
+     "ipa": "거리",
+     "en": "street",
+     "say": "거리"
+    },
+    {
+     "fr": "gori",
+     "ipa": "고리",
+     "en": "ring, hook",
+     "say": "고리"
+    },
+    {
+     "fr": "seom",
+     "ipa": "섬",
+     "en": "island",
+     "say": "섬"
+    },
+    {
+     "fr": "som",
+     "ipa": "솜",
+     "en": "cotton",
+     "say": "솜"
+    },
+    {
+     "fr": "beol",
+     "ipa": "벌",
+     "en": "bee",
+     "say": "벌"
+    },
+    {
+     "fr": "bol",
+     "ipa": "볼",
+     "en": "cheek",
+     "say": "볼"
+    }
+   ]
+  },
+  {
+   "title": "eu and u",
+   "notes": [
+    "For u the lips are round. For eu keep the tongue where it is and spread the lips, as if smiling."
+   ],
+   "words": [
+    {
+     "fr": "geu",
+     "ipa": "그",
+     "en": "that",
+     "say": "그"
+    },
+    {
+     "fr": "gu",
+     "ipa": "구",
+     "en": "nine",
+     "say": "구"
+    },
+    {
+     "fr": "eun",
+     "ipa": "은",
+     "en": "silver",
+     "say": "은"
+    },
+    {
+     "fr": "un",
+     "ipa": "운",
+     "en": "luck",
+     "say": "운"
+    },
+    {
+     "fr": "deul",
+     "ipa": "들",
+     "en": "field",
+     "say": "들"
+    },
+    {
+     "fr": "dul",
+     "ipa": "둘",
+     "en": "two",
+     "say": "둘"
+    },
+    {
+     "fr": "geul",
+     "ipa": "글",
+     "en": "writing",
+     "say": "글"
+    },
+    {
+     "fr": "gul",
+     "ipa": "굴",
+     "en": "oyster",
+     "say": "굴"
+    }
+   ]
+  },
+  {
+   "title": "ya, yeo, yo, yu",
+   "notes": [
+    "Put a y in front: a becomes ya, eo becomes yeo, o becomes yo, u becomes yu. Yeo and yo differ just as eo and o do."
+   ],
+   "words": [
+    {
+     "fr": "yagu",
+     "ipa": "야구",
+     "en": "baseball",
+     "say": "야구"
+    },
+    {
+     "fr": "yeoja",
+     "ipa": "여자",
+     "en": "woman",
+     "say": "여자"
+    },
+    {
+     "fr": "yori",
+     "ipa": "요리",
+     "en": "cooking",
+     "say": "요리"
+    },
+    {
+     "fr": "yuri",
+     "ipa": "유리",
+     "en": "glass",
+     "say": "유리"
+    }
+   ]
+  }
+ ]
+}

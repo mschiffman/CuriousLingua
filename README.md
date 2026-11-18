@@ -1,6 +1,6 @@
 # LANGSITE
 
-One site, three courses: **French** (adults, A1–C1), **English** (children in Myanmar, Starter–C1), **Japanese** (speaking only, A1–B2, English and Burmese support).
+One site, four courses: **French** (adults, A1–C1), **English** (children in Myanmar, Starter–C1), **Japanese** (speaking only, A1–B2, English and Burmese support), **Korean** (speaking first, with Hangul beside the romanization, A1–B2; it mirrors the Japanese course lesson for lesson and has no audio yet).
 
 ## The one rule
 
@@ -11,7 +11,7 @@ content\<course>\<strand>\<slug>.json   ->   <course>\<strand>\<slug>.html
 content\fr\expressions\greetings.json   ->   fr\expressions\greetings.html
 ```
 
-Courses: `fr`, `eng`, `jap`. Strands, level names and course texts are in `site.json`.
+Courses: `fr`, `eng`, `jap`, `kor`. Strands, level names and course texts are in `site.json`. A course may give a strand its own line of description with `"strand_text": { "sounds": "..." }`.
 
 ## The .bat files
 
@@ -58,6 +58,7 @@ Any `reader`, `dialogue`, `shadow` or `text` lesson can end with a quiz:
 
 A dialogue line: `{ "who": "A", "text": "Bonjour !", "tr": { "en": "Hello!" }, "note": "..." }`.
 A Japanese line: `{ "who": "A", "romaji": "Konnichiwa.", "kana": "こんにちは。", "tr": { "en": "Hello.", "my": "မင်္ဂလာပါ။" } }`. The voice reads the kana, or `"say"` when the line has one: the same sentence written with kanji, which the voice reads and pitches more reliably than kana alone.
+A Korean line: `{ "who": "A", "rom": "Annyeonghaseyo.", "hangul": "안녕하세요.", "tr": { "en": "Hello." } }`. The page opens on **Both** (the romanization with the Hangul under it); the Romanized / 한글 / Both buttons switch. The voice will read the Hangul. The romanization is Revised Romanization, written as the words are said (`hangungmal` for 한국말). In a Korean sound lesson (`words`) `fr` holds the romanization, `ipa` and `say` the Hangul.
 
 Copy an existing file in the same strand to start a new lesson.
 
@@ -78,7 +79,7 @@ python -E tools\audio.py chunks fr/pronunciation/shadow_conv43      finds every 
 
 Split or join chunks in the drafted file as you like (each keeps the `clip` number of its line; the words must be the line's words), then run `chunks` again. It uses no ElevenLabs characters: every take is saved with the time of each character (`NN.json` beside the raw take), and clips made before that are timed by Whisper. A chunk it cannot find plays its whole clip and is listed as `NO TIME`.
 
-Voices and loudness per course: `assets\data\voices.json`. **The Japanese voice is not chosen yet.**
+Voices and loudness per course: `assets\data\voices.json`. **The Korean voice is not chosen yet**: its `voice` is empty, every Korean lesson is `"mp3?v=pending"`, and the audio tool stops with "no voice for kor" until an ElevenLabs voice id is put there.
 
 ## Pictures
 

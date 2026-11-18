@@ -26,6 +26,7 @@
 [data-course="fr"]  { --accent: 43 74 203; }   /* bleu */
 [data-course="eng"] { --accent: 35 122 75; }   /* leaf green */
 [data-course="jap"] { --accent: 196 62 44; }   /* vermilion */
+[data-course="kor"] { --accent: 124 58 173; }   /* violet */
 [x-cloak] { display: none !important; }
 
 @layer base {

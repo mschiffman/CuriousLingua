@@ -1,0 +1,117 @@
+{
+ "title": "Final consonants",
+ "subtitle": "받침",
+ "level": "a1",
+ "topic": "Sounds of Korean",
+ "order": 4,
+ "type": "words",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "intro": "A Korean syllable can end in a consonant, written at the bottom of its block. At the end of a word it is not released: the mouth closes and stops there, with no puff of air and no extra vowel.",
+ "listen_pick": "fr",
+ "glossary_dir": "kor/sounds/final_consonants/",
+ "groups": [
+  {
+   "title": "k, t, p: stop, do not release",
+   "notes": [
+    "Say English 'book', but stop before the k opens. Do not add a vowel: bap, not ba-pu.",
+    "Several letters are said t at the end of a word: 옷 ends in the letter s and 꽃 in ch, but both end in the sound t."
+   ],
+   "words": [
+    {
+     "fr": "guk",
+     "ipa": "국",
+     "en": "soup",
+     "say": "국"
+    },
+    {
+     "fr": "chaek",
+     "ipa": "책",
+     "en": "book",
+     "say": "책"
+    },
+    {
+     "fr": "bap",
+     "ipa": "밥",
+     "en": "cooked rice, a meal",
+     "say": "밥"
+    },
+    {
+     "fr": "ot",
+     "ipa": "옷",
+     "en": "clothes",
+     "say": "옷"
+    },
+    {
+     "fr": "kkot",
+     "ipa": "꽃",
+     "en": "flower",
+     "say": "꽃"
+    }
+   ]
+  },
+  {
+   "title": "m, n and ng",
+   "notes": [
+    "These three are hummed through the nose. The letter ㅇ is silent at the start of a syllable and ng at the end of one."
+   ],
+   "words": [
+    {
+     "fr": "bam",
+     "ipa": "밤",
+     "en": "night",
+     "say": "밤"
+    },
+    {
+     "fr": "ban",
+     "ipa": "반",
+     "en": "half",
+     "say": "반"
+    },
+    {
+     "fr": "bang",
+     "ipa": "방",
+     "en": "room",
+     "say": "방"
+    },
+    {
+     "fr": "gang",
+     "ipa": "강",
+     "en": "river",
+     "say": "강"
+    }
+   ]
+  },
+  {
+   "title": "l",
+   "notes": [
+    "At the end of a syllable ㄹ is a clear l, with the tip of the tongue touching just behind the top teeth."
+   ],
+   "words": [
+    {
+     "fr": "mul",
+     "ipa": "물",
+     "en": "water",
+     "say": "물"
+    },
+    {
+     "fr": "mal",
+     "ipa": "말",
+     "en": "horse; speech",
+     "say": "말"
+    },
+    {
+     "fr": "il",
+     "ipa": "일",
+     "en": "one; work",
+     "say": "일"
+    },
+    {
+     "fr": "Seoul",
+     "ipa": "서울",
+     "en": "Seoul",
+     "say": "서울"
+    }
+   ]
+  }
+ ]
+}

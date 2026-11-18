@@ -157,8 +157,8 @@ LINES = '''<section x-data="lines" class="mt-6">
 <span class="mx-1 hidden h-6 w-px bg-line sm:block"></span>
 <template x-for="k in langs" :key="k"><button class="btn" :class="trLang === k && 'btn-on'" @click="trLang = trLang === k ? '' : k" :lang="k" x-text="names[k] || k"></button></template>
 <template x-if="hasScript"><span class="flex items-center gap-2"><span class="mx-1 hidden h-6 w-px bg-line sm:block"></span>
-<button class="btn" :class="script === 'romaji' && 'btn-on'" @click="script = 'romaji'">Romaji</button>
-<button class="btn" :class="script === 'kana' && 'btn-on'" @click="script = 'kana'">かな</button>
+<button class="btn" :class="script === 'romaji' && 'btn-on'" @click="script = 'romaji'">__ROMAN__</button>
+<button class="btn" :class="script === 'kana' && 'btn-on'" @click="script = 'kana'">__NATIVE__</button>
 <button class="btn" :class="script === 'both' && 'btn-on'" @click="script = 'both'">Both</button></span></template>
 </div>
 <div x-show="roles.length > 1" class="mt-3 flex flex-wrap items-center gap-2 text-sm">
@@ -176,7 +176,7 @@ LINES = '''<section x-data="lines" class="mt-6">
 <template x-if="!veiled(l)"><div class="mt-2">
 <p class="text-lg leading-relaxed" lang="__LANG__"><span x-text="main(l)"></span>
 <button x-show="hasTr(l)" class="ml-1 inline-flex h-7 w-7 items-center justify-center rounded-md align-middle text-ink/70 hover:bg-white/70 hover:text-accent" :class="trOpen[l.n] && 'bg-white/80 text-accent'" @click="trOpen[l.n] = !trOpen[l.n]" aria-label="Translation" title="Translation">__TR__</button></p>
-<p x-show="sub(l)" class="text-base" lang="ja" x-text="sub(l)"></p>
+<p x-show="sub(l)" class="text-base" lang="__SLANG__" x-text="sub(l)"></p>
 <template x-for="k in langs" :key="k"><p x-show="(trLang === k || trOpen[l.n]) && l.tr && l.tr[k]" :lang="k" class="mt-1 text-base text-ink/70" x-text="l.tr ? l.tr[k] : ''"></p></template>
 <p x-show="l.note" class="mt-1 text-sm italic text-ink/60" x-text="l.note"></p>
 </div></template>
@@ -378,6 +378,8 @@ CARDS_BLOBS = '''<div class="pointer-events-none fixed left-0 top-0 z-0 h-full w
 
 UI = {"fr": {"LISTEN": "&Eacute;coutez et choisissez.", "BRAVO": "Bravo !", "FIND": "Trouvez&nbsp;:", "FIRST": "du premier coup"},
       "en": {"LISTEN": "Listen and choose.", "BRAVO": "Well done!", "FIND": "Find:", "FIRST": "on the first try"}}
+# Courses taught through romanization: the two script buttons of a dialogue, and the language tag of the native line.
+SCRIPT = {"ja": ("Romaji", "かな", "ja"), "ko": ("Romanized", "한글", "ko")}
 
 # A themed word list: tap a word to hear it; hide one language to test yourself.
 WORDS = """<section x-data="words" class="mt-6">
@@ -692,6 +694,10 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
         shell = soon("This lesson is being written.")
     for key, word in UI.get(course["lang"], UI["en"]).items():
         shell = shell.replace("__UI_" + key + "__", word)
+    roman, native, slang = SCRIPT.get(course["lang"], SCRIPT["ja"])
+    shell = shell.replace("__ROMAN__", roman).replace("__NATIVE__", native).replace("__SLANG__", slang)
+    if L.get("type") == "words" and lib.pending(L):   # no clips yet: do not promise sound
+        shell = shell.replace("Tap a word to hear it.", "The audio for this lesson is not recorded yet.")
     shell = shell.replace("__PLAY__", ICON_PLAY).replace("__LOOP__", ICON_LOOP).replace("__IMG__", ICON_IMG).replace("__LANG__", course["lang"]).replace("__TR__", ICON_TR)
     chips = f'<span class="chip chip-accent">{lv(L.get("level") or (parent or {}).get("level"))}</span>'
     for k in ("topic", "register"):
@@ -731,6 +737,11 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 
 
 # ------------------------------------------------------------------ index pages
+def strand_text(k, s):
+    """The line under a strand's name: the course's own ("strand_text" in site.json) or the shared one."""
+    return C["courses"][k].get("strand_text", {}).get(s, C["strands"][s][1])
+
+
 def course_home(k, items):
     c, rel = C["courses"][k], f"{k}/index.html"
     levels = ""
@@ -743,7 +754,7 @@ def course_home(k, items):
     for s in c["strands"]:
         n = sum(1 for L in items if L["strand"] == s)
         strands += f'''<a class="tile" href="{s}/index.html"><div class="flex items-baseline justify-between"><h3 class="text-xl font-semibold">{e(C["strands"][s][0])}</h3>
-<span class="text-sm text-muted">{n if n else "soon"}</span></div><p class="mt-1 text-sm text-muted">{e(C["strands"][s][1])}</p></a>'''
+<span class="text-sm text-muted">{n if n else "soon"}</span></div><p class="mt-1 text-sm text-muted">{e(strand_text(k, s))}</p></a>'''
     body = f'''<main>
 <section class="border-b border-line bg-accent/5"><div class="wrap py-12 sm:py-16">
 <p class="flex flex-wrap gap-2"><span class="chip chip-accent">{e(c["for"])}</span><span class="chip">{e(c["range"])}</span></p>
@@ -780,7 +791,7 @@ def strand_page(k, s, items):
     body = f'''<main class="wrap py-8 sm:py-12">
 <nav class="text-sm text-muted" data-nav><a class="hover:text-accent" href="../index.html">{e(c["name"])}</a></nav>
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">{e(C["strands"][s][0])}</h1>
-<p class="mt-2 text-xl text-muted">{e(C["strands"][s][1])}</p>'''
+<p class="mt-2 text-xl text-muted">{e(strand_text(k, s))}</p>'''
     topics = []
     for L in ls:
         t = L.get("topic") or "Lessons"
@@ -808,7 +819,7 @@ def home(all_lessons):
     body = f'''<main><section class="wrap py-14 sm:py-20">
 <h1 class="max-w-3xl text-5xl font-semibold tracking-tight sm:text-6xl">Learn a language by ear, by eye and out loud.</h1>
 <p class="mt-5 max-w-2xl text-xl text-muted">Free lessons with real audio. Read, listen, speak, and check what stuck.</p>
-<div class="mt-10 grid gap-5 md:grid-cols-3">{tiles}</div>
+<div class="mt-10 grid gap-5 {"md:grid-cols-3" if len(C["courses"]) % 3 == 0 else "md:grid-cols-2"}">{tiles}</div>
 </section></main>'''
     write("index.html", frame("index.html", C["site_name"], body))
 

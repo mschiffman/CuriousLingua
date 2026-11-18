@@ -1,0 +1,118 @@
+{
+ "title": "The basic vowels",
+ "subtitle": "ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ",
+ "level": "a1",
+ "topic": "Sounds of Korean",
+ "order": 1,
+ "type": "words",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "intro": "Korean has more vowel sounds than English letters can show. Start with these: each one is short and steady, and each has its own Hangul letter.",
+ "listen_pick": "fr",
+ "glossary_dir": "kor/sounds/vowels/",
+ "groups": [
+  {
+   "title": "Six simple vowels",
+   "notes": [
+    "Each vowel is one steady sound. It does not slide into another sound, as English vowels often do.",
+    "In Hangul a vowel on its own is written with a silent ㅇ in front of it: 아, 어, 오."
+   ],
+   "words": [
+    {
+     "fr": "a",
+     "ipa": "아",
+     "en": "as in father",
+     "say": "아"
+    },
+    {
+     "fr": "eo",
+     "ipa": "어",
+     "en": "as in son, with the mouth open and the lips relaxed",
+     "say": "어"
+    },
+    {
+     "fr": "o",
+     "ipa": "오",
+     "en": "as in more, with round lips",
+     "say": "오"
+    },
+    {
+     "fr": "u",
+     "ipa": "우",
+     "en": "as in food",
+     "say": "우"
+    },
+    {
+     "fr": "eu",
+     "ipa": "으",
+     "en": "like u, but with the lips spread, not round",
+     "say": "으"
+    },
+    {
+     "fr": "i",
+     "ipa": "이",
+     "en": "as in machine",
+     "say": "이"
+    }
+   ]
+  },
+  {
+   "title": "Two more: ae and e",
+   "notes": [
+    "Today most speakers say these two the same way, like the e in pet. The spelling still tells them apart."
+   ],
+   "words": [
+    {
+     "fr": "ae",
+     "ipa": "애",
+     "en": "as in pet",
+     "say": "애"
+    },
+    {
+     "fr": "e",
+     "ipa": "에",
+     "en": "as in pet",
+     "say": "에"
+    }
+   ]
+  },
+  {
+   "title": "Vowels in words",
+   "notes": [
+    "When two vowels meet, say each one clearly: a-i, o-i, u-yu.",
+    "A y in front gives ya, yeo, yo, yu. In Hangul that is one more short stroke: ㅑ ㅕ ㅛ ㅠ."
+   ],
+   "words": [
+    {
+     "fr": "ai",
+     "ipa": "아이",
+     "en": "child",
+     "say": "아이"
+    },
+    {
+     "fr": "oi",
+     "ipa": "오이",
+     "en": "cucumber",
+     "say": "오이"
+    },
+    {
+     "fr": "uyu",
+     "ipa": "우유",
+     "en": "milk",
+     "say": "우유"
+    },
+    {
+     "fr": "iyu",
+     "ipa": "이유",
+     "en": "reason",
+     "say": "이유"
+    },
+    {
+     "fr": "yeou",
+     "ipa": "여우",
+     "en": "fox",
+     "say": "여우"
+    }
+   ]
+  }
+ ]
+}

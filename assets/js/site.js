@@ -129,7 +129,7 @@
       return {
         ...common(), sections, langs, speakers: L.speakers || {},
         names: { en: "English", my: "မြန်မာ", fr: "Français" },
-        trLang: L.start_hidden ? "" : langs[0] || "", trOpen: {}, hasScript: all.some((l) => l.romaji), script: "romaji",
+        trLang: L.start_hidden ? "" : langs[0] || "", trOpen: {}, hasScript: all.some((l) => l.romaji || l.rom), script: all.some((l) => l.hangul) ? "both" : "romaji",   // Korean shows Hangul under the romanization from the start
         clip(n) { return media(clipUrl(n)); },
         tone(l) { const i = Object.keys(this.speakers).indexOf(l.who); return i < 0 ? "spk-none" : "spk-" + (i % 4); },
         hasTr(l) { return !!l.tr && langs.some((k) => l.tr[k]); },
@@ -150,8 +150,9 @@
         },
         hide: !!L.start_hidden, shown: {}, role: "",   // "start_hidden": true = a listening lesson: ears first
         get roles() { return Object.keys(this.speakers); },
-        main(l) { return l.romaji ? (this.script === "kana" ? l.kana || l.romaji : l.romaji) : l.text; },
-        sub(l) { return l.romaji && this.script === "both" ? l.kana : ""; },
+        /* a romanized line: Japanese has "romaji" + "kana", Korean "rom" + "hangul" */
+        main(l) { const r = l.romaji || l.rom, k = l.kana || l.hangul; return r ? (this.script === "kana" ? k || r : r) : l.text; },
+        sub(l) { return (l.romaji || l.rom) && this.script === "both" ? l.kana || l.hangul : ""; },
         veiled(l) { return (this.hide || (this.role && this.role === l.who)) && !this.shown[l.n]; },
         async playAll() {
           if (this.busy) return this.halt();

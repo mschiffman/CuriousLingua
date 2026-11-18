@@ -1,0 +1,147 @@
+{
+ "title": "Soft, strong and tense consonants",
+ "subtitle": "달 / 탈 / 딸",
+ "level": "a1",
+ "topic": "Sounds of Korean",
+ "order": 3,
+ "type": "words",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "intro": "Many Korean consonants come in three kinds: soft, strong (with a puff of air) and tense (tight, with no air). English has nothing like it, and the kind you choose changes the word.",
+ "listen_pick": "fr",
+ "glossary_dir": "kor/sounds/soft_strong_tense/",
+ "groups": [
+  {
+   "title": "g, k and kk",
+   "notes": [
+    "Hold a hand in front of your mouth. Soft g: a little air. Strong k: a clear puff. Tense kk: no air at all; tighten the throat and let go sharply."
+   ],
+   "words": [
+    {
+     "fr": "gong",
+     "ipa": "공",
+     "en": "ball",
+     "say": "공"
+    },
+    {
+     "fr": "kong",
+     "ipa": "콩",
+     "en": "bean",
+     "say": "콩"
+    },
+    {
+     "fr": "gul",
+     "ipa": "굴",
+     "en": "oyster",
+     "say": "굴"
+    },
+    {
+     "fr": "kkul",
+     "ipa": "꿀",
+     "en": "honey",
+     "say": "꿀"
+    }
+   ]
+  },
+  {
+   "title": "d, t and tt",
+   "words": [
+    {
+     "fr": "dal",
+     "ipa": "달",
+     "en": "moon",
+     "say": "달"
+    },
+    {
+     "fr": "tal",
+     "ipa": "탈",
+     "en": "mask",
+     "say": "탈"
+    },
+    {
+     "fr": "ttal",
+     "ipa": "딸",
+     "en": "daughter",
+     "say": "딸"
+    }
+   ]
+  },
+  {
+   "title": "b, p and pp",
+   "words": [
+    {
+     "fr": "bul",
+     "ipa": "불",
+     "en": "fire",
+     "say": "불"
+    },
+    {
+     "fr": "pul",
+     "ipa": "풀",
+     "en": "grass",
+     "say": "풀"
+    },
+    {
+     "fr": "ppul",
+     "ipa": "뿔",
+     "en": "horn",
+     "say": "뿔"
+    }
+   ]
+  },
+  {
+   "title": "j, ch and jj",
+   "words": [
+    {
+     "fr": "jada",
+     "ipa": "자다",
+     "en": "to sleep",
+     "say": "자다"
+    },
+    {
+     "fr": "chada",
+     "ipa": "차다",
+     "en": "to kick",
+     "say": "차다"
+    },
+    {
+     "fr": "jjada",
+     "ipa": "짜다",
+     "en": "to be salty",
+     "say": "짜다"
+    }
+   ]
+  },
+  {
+   "title": "s and ss",
+   "notes": [
+    "This pair has no strong member: only soft s and tense ss."
+   ],
+   "words": [
+    {
+     "fr": "sada",
+     "ipa": "사다",
+     "en": "to buy",
+     "say": "사다"
+    },
+    {
+     "fr": "ssada",
+     "ipa": "싸다",
+     "en": "to be cheap",
+     "say": "싸다"
+    },
+    {
+     "fr": "sal",
+     "ipa": "살",
+     "en": "flesh",
+     "say": "살"
+    },
+    {
+     "fr": "ssal",
+     "ipa": "쌀",
+     "en": "rice (uncooked)",
+     "say": "쌀"
+    }
+   ]
+  }
+ ]
+}

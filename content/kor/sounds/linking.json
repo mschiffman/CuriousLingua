@@ -1,0 +1,116 @@
+{
+ "title": "How sounds link",
+ "subtitle": "연음",
+ "level": "a1",
+ "topic": "Sounds of Korean",
+ "order": 6,
+ "type": "words",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "intro": "Korean is written in syllable blocks, but it is not said block by block. A final consonant slides over to the next syllable when that one starts with a vowel. This is why the romanization does not always match the Hangul letter for letter.",
+ "listen_pick": "fr",
+ "glossary_dir": "kor/sounds/linking/",
+ "groups": [
+  {
+   "title": "The final consonant moves over",
+   "notes": [
+    "A final consonant followed by a vowel is said at the start of the next syllable: 한국어 is written han-guk-eo and said han-gu-geo."
+   ],
+   "words": [
+    {
+     "fr": "hangugeo",
+     "ipa": "한국어",
+     "en": "the Korean language: han-gu-geo",
+     "say": "한국어"
+    },
+    {
+     "fr": "eumak",
+     "ipa": "음악",
+     "en": "music: eu-mak",
+     "say": "음악"
+    },
+    {
+     "fr": "ireumi",
+     "ipa": "이름이",
+     "en": "name (as the subject): i-reu-mi",
+     "say": "이름이"
+    },
+    {
+     "fr": "chaegi",
+     "ipa": "책이",
+     "en": "book (as the subject): chae-gi",
+     "say": "책이"
+    },
+    {
+     "fr": "isseoyo",
+     "ipa": "있어요",
+     "en": "there is: i-sseo-yo",
+     "say": "있어요"
+    }
+   ]
+  },
+  {
+   "title": "Nose sounds spread",
+   "notes": [
+    "Before m or n, a final k, t or p turns into ng, n or m. It is easier to say, and everyone does it."
+   ],
+   "words": [
+    {
+     "fr": "hangungmal",
+     "ipa": "한국말",
+     "en": "Korean (spoken): written han-guk-mal",
+     "say": "한국말"
+    },
+    {
+     "fr": "gamsahamnida",
+     "ipa": "감사합니다",
+     "en": "thank you: written gam-sa-hap-ni-da",
+     "say": "감사합니다"
+    },
+    {
+     "fr": "imnida",
+     "ipa": "입니다",
+     "en": "is, am, are: written ip-ni-da",
+     "say": "입니다"
+    },
+    {
+     "fr": "jangnyeon",
+     "ipa": "작년",
+     "en": "last year: written jak-nyeon",
+     "say": "작년"
+    }
+   ]
+  },
+  {
+   "title": "Longer words",
+   "notes": [
+    "Listen for how each one differs from its spelling."
+   ],
+   "words": [
+    {
+     "fr": "annyeonghaseyo",
+     "ipa": "안녕하세요",
+     "en": "hello",
+     "say": "안녕하세요"
+    },
+    {
+     "fr": "masisseoyo",
+     "ipa": "맛있어요",
+     "en": "it is delicious: ma-si-sseo-yo",
+     "say": "맛있어요"
+    },
+    {
+     "fr": "gachi",
+     "ipa": "같이",
+     "en": "together: written gat-i, said ga-chi",
+     "say": "같이"
+    },
+    {
+     "fr": "joayo",
+     "ipa": "좋아요",
+     "en": "it is good: written joh-a-yo",
+     "say": "좋아요"
+    }
+   ]
+  }
+ ]
+}

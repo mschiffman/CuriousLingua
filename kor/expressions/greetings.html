@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greetings and goodbyes | Korean</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body class="site" data-course="kor">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a><a href="../../kor/index.html" data-course="kor" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">Korean</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="kor" href="../../kor/index.html"><b>Korean</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../kor/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../kor/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../kor/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../kor/sounds/index.html">Sounds</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../kor/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../kor/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../kor/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../kor/sounds/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Sounds</a></div></div></header>
+<main class="wrap py-6 sm:py-10">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../kor/index.html">Korean</a><span>/</span><a class="hover:text-accent" href="../../kor/expressions/index.html">Expressions</a></nav>
+
+<div class="mt-4 flex flex-wrap items-center gap-2"><span class="chip chip-accent">A1</span><span class="chip">Everyday expressions</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Greetings and goodbyes</h1>
+<p class="mt-2 text-xl text-muted">인사</p>
+<p class="mt-3 max-w-2xl text-muted">The phrases you need on day one. Read the romanization, and look at the Hangul under it as you go.</p>
+
+<section x-data="lines" class="mt-6">
+<div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-3">
+<button class="btn btn-primary" @click="playAll()"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span x-text="busy ? 'Stop' : 'Play all'"></span></button>
+<button class="btn" :disabled="!(playing || busy)" :class="[P.held && 'btn-on', !(playing || busy) && 'opacity-40']" @click="togglePause()" x-text="P.held ? 'Resume' : 'Pause'"></button>
+<button class="btn" :class="rate < 1 && 'btn-on'" @click="slow()">Slow</button>
+<button class="btn" :class="hide && 'btn-on'" @click="hide = !hide; shown = {}">Hide text</button>
+<span class="mx-1 hidden h-6 w-px bg-line sm:block"></span>
+<template x-for="k in langs" :key="k"><button class="btn" :class="trLang === k && 'btn-on'" @click="trLang = trLang === k ? '' : k" :lang="k" x-text="names[k] || k"></button></template>
+<template x-if="hasScript"><span class="flex items-center gap-2"><span class="mx-1 hidden h-6 w-px bg-line sm:block"></span>
+<button class="btn" :class="script === 'romaji' && 'btn-on'" @click="script = 'romaji'">Romanized</button>
+<button class="btn" :class="script === 'kana' && 'btn-on'" @click="script = 'kana'">한글</button>
+<button class="btn" :class="script === 'both' && 'btn-on'" @click="script = 'both'">Both</button></span></template>
+</div>
+<div x-show="roles.length > 1" class="mt-3 flex flex-wrap items-center gap-2 text-sm">
+<span class="font-bold text-muted">Role play: I am</span>
+<template x-for="(k, i) in roles" :key="k"><button class="btn py-1.5" :class="role === k && 'btn-on'" @click="role = role === k ? '' : k; shown = {}"><span class="h-3 w-3 rounded-full border" :class="'dot-' + (i % 4)"></span><span x-text="speakers[k]"></span></button></template>
+<span x-show="role" class="text-muted">Press Play all. Say your lines in the pauses.</span>
+</div>
+<template x-for="(sec, si) in sections" :key="si"><div class="mt-6">
+<h2 x-show="sec.title" class="text-2xl font-semibold" x-text="sec.title"></h2>
+<p x-show="sec.desc" class="mt-1 text-muted" x-text="sec.desc"></p>
+<ol class="mt-3 space-y-3">
+<template x-for="l in sec.lines" :key="l.n"><li class="rounded-2xl border-l-4 p-3 sm:p-4" :class="[tone(l), playing === l.n && 'ring-2 ring-accent/60']">
+<template x-if="!pending"><audio controls preload="metadata" class="h-10 w-full max-w-sm" :data-clip="l.n" :src="clip(l.n)"></audio></template>
+<div x-show="pending" x-cloak class="inline-flex h-10 items-center gap-3 rounded-full bg-white/70 px-4 text-sm text-muted"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span class="tabular-nums">0:00</span><span>audio not recorded yet</span></div>
+<template x-if="!veiled(l)"><div class="mt-2">
+<p class="text-lg leading-relaxed" lang="ko"><span x-text="main(l)"></span>
+<button x-show="hasTr(l)" class="ml-1 inline-flex h-7 w-7 items-center justify-center rounded-md align-middle text-ink/70 hover:bg-white/70 hover:text-accent" :class="trOpen[l.n] && 'bg-white/80 text-accent'" @click="trOpen[l.n] = !trOpen[l.n]" aria-label="Translation" title="Translation"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="11" height="11" rx="2"/><path d="M6.5 11l2-5 2 5M7.2 9.5h2.6"/><rect x="10" y="10" width="11" height="11" rx="2" fill="currentColor" stroke="none"/><path d="M13 14h5M15.5 13v1c0 2-1 3.500-2.500 4.200M14.200 16c.8 1.200 2 2 3.300 2.200" stroke="#fff" stroke-width="1.300"/></svg></button></p>
+<p x-show="sub(l)" class="text-base" lang="ko" x-text="sub(l)"></p>
+<template x-for="k in langs" :key="k"><p x-show="(trLang === k || trOpen[l.n]) && l.tr && l.tr[k]" :lang="k" class="mt-1 text-base text-ink/70" x-text="l.tr ? l.tr[k] : ''"></p></template>
+<p x-show="l.note" class="mt-1 text-sm italic text-ink/60" x-text="l.note"></p>
+</div></template>
+<template x-if="veiled(l)"><button class="mt-2 block text-left text-base text-ink/60 underline decoration-dotted" @click="shown[l.n] = true" x-text="role === l.who ? 'Your turn. Tap to see the line.' : 'Tap to show the text'"></button></template>
+</li></template>
+</ol></div></template>
+<p x-show="pending" x-cloak class="mt-4 text-sm text-muted">The audio for this lesson is not recorded yet.</p>
+</section>
+<section x-data="quiz" x-show="qs.length" class="mt-12 rounded-2xl border border-line bg-card p-5 sm:p-6">
+<h2 class="text-2xl font-semibold">Check what stuck</h2>
+<div x-show="!over" class="mt-4">
+<p class="chip" x-text="'Question ' + (i + 1) + ' of ' + qs.length"></p>
+<p class="mt-3 text-xl font-bold" x-text="q.q"></p>
+<div class="mt-4 grid gap-2">
+<template x-for="(o, k) in q.options" :key="i + '-' + k"><button class="btn justify-start text-left text-base" :class="pick !== null && k === q.answer ? '!border-good !bg-good/10 !text-good' : (pick === k ? '!border-bad !bg-bad/10 !text-bad' : '')" @click="choose(k)" x-text="o"></button></template>
+</div>
+<p x-show="pick !== null && q.why" class="mt-4 rounded-xl bg-paper p-3 text-muted" x-text="q.why"></p>
+<button x-show="pick !== null" class="btn btn-primary mt-4" @click="next()" x-text="i + 1 >= qs.length ? 'See my score' : 'Next question'"></button>
+</div>
+<div x-show="over" x-cloak class="mt-4">
+<p class="font-display text-4xl font-semibold text-accent" x-text="score + ' / ' + qs.length"></p>
+<button class="btn mt-4" @click="again()">Try again</button>
+</div></section>
+
+<div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('kor/expressions/greetings')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav></div>
+</main>
+<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
+<span class="font-display text-base font-semibold text-ink">Languages</span>
+<span>Free for everyone. No account, no paywall.</span></div></footer>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"Greetings and goodbyes","subtitle":"인사","level":"a1","topic":"Everyday expressions","type":"dialogue","order":1,"review":"Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen. Burmese lines drafted by Claude. Check them before publishing.","intro":"The phrases you need on day one. Read the romanization, and look at the Hangul under it as you go.","aud_dir":"kor/expressions/greetings/","aud_ext":"mp3?v=pending","support":["en","my"],"sections":[{"title":"Saying hello","lines":[{"rom":"Annyeonghaseyo.","hangul":"안녕하세요.","tr":{"en":"Hello.","my":"မင်္ဂလာပါ။"},"note":"Morning, afternoon or evening. To friends: Annyeong.","n":1},{"rom":"Mannaseo bangapseumnida.","hangul":"만나서 반갑습니다.","tr":{"en":"Nice to meet you.","my":"တွေ့ရတာ ဝမ်းသာပါတယ်။"},"note":"Only the first time you meet someone.","n":2},{"rom":"Jal butakdeurimnida.","hangul":"잘 부탁드립니다.","tr":{"en":"Pleased to meet you. / I'm in your care.","my":"ခင်ခင်မင်မင် ဆက်ဆံပေးပါ။"},"n":3},{"rom":"Oraenmanieyo.","hangul":"오랜만이에요.","tr":{"en":"Long time no see.","my":"မတွေ့တာ ကြာပြီနော်။"},"n":4},{"rom":"Jal jinaeyo?","hangul":"잘 지내요?","tr":{"en":"How are you?","my":"နေကောင်းလား။"},"n":5}]},{"title":"Thanks and sorry","lines":[{"rom":"Gamsahamnida.","hangul":"감사합니다.","tr":{"en":"Thank you.","my":"ကျေးဇူးတင်ပါတယ်။"},"note":"A little softer and friendlier: Gomawoyo.","n":6},{"rom":"Anieyo.","hangul":"아니에요.","tr":{"en":"You're welcome. / It's nothing.","my":"ရပါတယ်။"},"note":"Literally 'no': the usual modest answer to thanks.","n":7},{"rom":"Joesonghamnida.","hangul":"죄송합니다.","tr":{"en":"I'm sorry.","my":"တောင်းပန်ပါတယ်။"},"n":8},{"rom":"Jeogiyo.","hangul":"저기요.","tr":{"en":"Excuse me.","my":"တဆိတ်လောက်။"},"note":"To call a waiter, or to stop someone in the street.","n":9}]},{"title":"Saying goodbye","lines":[{"rom":"Annyeonghi gaseyo.","hangul":"안녕히 가세요.","tr":{"en":"Goodbye. (to someone who is leaving)","my":"ကောင်းကောင်းသွားပါ။"},"note":"Said by the person who stays: 'go in peace'.","n":10},{"rom":"Annyeonghi gyeseyo.","hangul":"안녕히 계세요.","tr":{"en":"Goodbye. (when you are the one leaving)","my":"ကောင်းကောင်းနေခဲ့ပါ။"},"note":"Said by the person who leaves: 'stay in peace'.","n":11},{"rom":"Tto bwayo.","hangul":"또 봐요.","tr":{"en":"See you again.","my":"နောက်မှ တွေ့မယ်။"},"n":12},{"rom":"Sugohasyeosseumnida.","hangul":"수고하셨습니다.","tr":{"en":"Thanks for your hard work.","my":"ပင်ပန်းသွားပြီနော်။"},"note":"Said to colleagues at the end of the day.","n":13},{"rom":"Annyeonghi jumuseyo.","hangul":"안녕히 주무세요.","tr":{"en":"Good night.","my":"ကောင်းကောင်းအိပ်ပါ။"},"note":"Polite. To friends: Jal ja.","n":14}]}],"questions":[{"q":"You meet your new boss for the first time. What do you say?","options":["Tto bwayo. (또 봐요.)","Mannaseo bangapseumnida. (만나서 반갑습니다.)","Annyeonghi jumuseyo. (안녕히 주무세요.)"],"answer":1,"why":"Mannaseo bangapseumnida is for a first meeting. Follow it with Jal butakdeurimnida."},{"q":"You are leaving a shop. The shopkeeper stays. What do you say?","options":["Annyeonghi gyeseyo. (안녕히 계세요.)","Annyeonghi gaseyo. (안녕히 가세요.)","Anieyo. (아니에요.)"],"answer":0,"why":"You leave and the other person stays: Annyeonghi gyeseyo, 'stay in peace'."},{"q":"A colleague is going home after work. What do you say?","options":["Jeogiyo. (저기요.)","Oraenmanieyo. (오랜만이에요.)","Sugohasyeosseumnida. (수고하셨습니다.)"],"answer":2,"why":"Sugohasyeosseumnida thanks a colleague for the day's work."}],"course":"kor","strand":"expressions","slug":"greetings"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+</body>
+</html>
