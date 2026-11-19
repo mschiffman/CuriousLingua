@@ -5,6 +5,8 @@
  "level_provisional": true,
  "topic": "Family",
  "type": "family",
+ "glossary_dir": "lessons/noun/famille/",
+ "audio_ver": "2611191817",
  "review": "Made by Claude: a new kind of lesson. The family is Emma's, from the listening lesson La famille (her parents, Thomas, Manon, aunt Julie, Léo and Chloé); the grandparents, Luc, Paul, Sophie, Hugo and Lina are invented. Check the words, the IPA and the English. No recordings yet: give a word an \"audio\" file name (in glossary_dir) and its Play button appears.",
  "intro": "A family word depends on who is speaking: the same woman is **ma mère**, **ma fille** or **ma tante**. This is the family of Emma, from the listening lesson *La famille*. Choose who « moi » is and watch every word change. Move the slider to bring in more of the family.",
  "notes": [
@@ -16,69 +18,434 @@
  ],
  "start": "emma",
  "stages": [
-  { "fr": "La famille proche", "en": "Close family: parents, children, brothers and sisters, husband and wife" },
-  { "fr": "Les grands-parents et les petits-enfants", "en": "Grandparents and grandchildren" },
-  { "fr": "Les oncles, les tantes, les cousins", "en": "Uncles, aunts, cousins, nephews and nieces" },
-  { "fr": "La belle-famille", "en": "The in-laws" }
+  {
+   "fr": "La famille proche",
+   "en": "Close family: parents, children, brothers and sisters, husband and wife"
+  },
+  {
+   "fr": "Les grands-parents et les petits-enfants",
+   "en": "Grandparents and grandchildren"
+  },
+  {
+   "fr": "Les oncles, les tantes, les cousins",
+   "en": "Uncles, aunts, cousins, nephews and nieces"
+  },
+  {
+   "fr": "La belle-famille",
+   "en": "The in-laws"
+  }
  ],
  "people": [
-  { "id": "henri", "name": "Henri", "g": "m", "row": 1, "x": 1.75 },
-  { "id": "jeanne", "name": "Jeanne", "g": "f", "row": 1, "x": 2.75 },
-  { "id": "louis", "name": "Louis", "g": "m", "row": 1, "x": 4.25 },
-  { "id": "simone", "name": "Simone", "g": "f", "row": 1, "x": 5.25 },
-  { "id": "luc", "name": "Luc", "g": "m", "row": 2, "x": 0.5 },
-  { "id": "julie", "name": "Julie", "g": "f", "row": 2, "x": 1.5, "parents": ["henri", "jeanne"] },
-  { "id": "claire", "name": "Claire", "g": "f", "row": 2, "x": 3, "parents": ["henri", "jeanne"] },
-  { "id": "marc", "name": "Marc", "g": "m", "row": 2, "x": 4, "parents": ["louis", "simone"] },
-  { "id": "paul", "name": "Paul", "g": "m", "row": 2, "x": 5.5, "parents": ["louis", "simone"] },
-  { "id": "leo", "name": "Léo", "g": "m", "row": 3, "x": 0.5, "parents": ["luc", "julie"] },
-  { "id": "chloe", "name": "Chloé", "g": "f", "row": 3, "x": 1.5, "parents": ["luc", "julie"] },
-  { "id": "manon", "name": "Manon", "g": "f", "row": 3, "x": 2.75, "parents": ["claire", "marc"] },
-  { "id": "emma", "name": "Emma", "g": "f", "row": 3, "x": 3.75, "parents": ["claire", "marc"] },
-  { "id": "thomas", "name": "Thomas", "g": "m", "row": 3, "x": 4.75, "parents": ["claire", "marc"] },
-  { "id": "sophie", "name": "Sophie", "g": "f", "row": 3, "x": 5.75 },
-  { "id": "hugo", "name": "Hugo", "g": "m", "row": 4, "x": 4.75, "parents": ["thomas", "sophie"] },
-  { "id": "lina", "name": "Lina", "g": "f", "row": 4, "x": 5.75, "parents": ["thomas", "sophie"] }
+  {
+   "id": "henri",
+   "name": "Henri",
+   "g": "m",
+   "row": 1,
+   "x": 1.75
+  },
+  {
+   "id": "jeanne",
+   "name": "Jeanne",
+   "g": "f",
+   "row": 1,
+   "x": 2.75
+  },
+  {
+   "id": "louis",
+   "name": "Louis",
+   "g": "m",
+   "row": 1,
+   "x": 4.25
+  },
+  {
+   "id": "simone",
+   "name": "Simone",
+   "g": "f",
+   "row": 1,
+   "x": 5.25
+  },
+  {
+   "id": "luc",
+   "name": "Luc",
+   "g": "m",
+   "row": 2,
+   "x": 0.5
+  },
+  {
+   "id": "julie",
+   "name": "Julie",
+   "g": "f",
+   "row": 2,
+   "x": 1.5,
+   "parents": [
+    "henri",
+    "jeanne"
+   ]
+  },
+  {
+   "id": "claire",
+   "name": "Claire",
+   "g": "f",
+   "row": 2,
+   "x": 3,
+   "parents": [
+    "henri",
+    "jeanne"
+   ]
+  },
+  {
+   "id": "marc",
+   "name": "Marc",
+   "g": "m",
+   "row": 2,
+   "x": 4,
+   "parents": [
+    "louis",
+    "simone"
+   ]
+  },
+  {
+   "id": "paul",
+   "name": "Paul",
+   "g": "m",
+   "row": 2,
+   "x": 5.5,
+   "parents": [
+    "louis",
+    "simone"
+   ]
+  },
+  {
+   "id": "leo",
+   "name": "Léo",
+   "g": "m",
+   "row": 3,
+   "x": 0.5,
+   "parents": [
+    "luc",
+    "julie"
+   ]
+  },
+  {
+   "id": "chloe",
+   "name": "Chloé",
+   "g": "f",
+   "row": 3,
+   "x": 1.5,
+   "parents": [
+    "luc",
+    "julie"
+   ]
+  },
+  {
+   "id": "manon",
+   "name": "Manon",
+   "g": "f",
+   "row": 3,
+   "x": 2.75,
+   "parents": [
+    "claire",
+    "marc"
+   ]
+  },
+  {
+   "id": "emma",
+   "name": "Emma",
+   "g": "f",
+   "row": 3,
+   "x": 3.75,
+   "parents": [
+    "claire",
+    "marc"
+   ]
+  },
+  {
+   "id": "thomas",
+   "name": "Thomas",
+   "g": "m",
+   "row": 3,
+   "x": 4.75,
+   "parents": [
+    "claire",
+    "marc"
+   ]
+  },
+  {
+   "id": "sophie",
+   "name": "Sophie",
+   "g": "f",
+   "row": 3,
+   "x": 5.75
+  },
+  {
+   "id": "hugo",
+   "name": "Hugo",
+   "g": "m",
+   "row": 4,
+   "x": 4.75,
+   "parents": [
+    "thomas",
+    "sophie"
+   ]
+  },
+  {
+   "id": "lina",
+   "name": "Lina",
+   "g": "f",
+   "row": 4,
+   "x": 5.75,
+   "parents": [
+    "thomas",
+    "sophie"
+   ]
+  }
  ],
  "couples": [
-  ["henri", "jeanne"],
-  ["louis", "simone"],
-  ["luc", "julie"],
-  ["claire", "marc"],
-  ["thomas", "sophie"]
+  [
+   "henri",
+   "jeanne"
+  ],
+  [
+   "louis",
+   "simone"
+  ],
+  [
+   "luc",
+   "julie"
+  ],
+  [
+   "claire",
+   "marc"
+  ],
+  [
+   "thomas",
+   "sophie"
+  ]
  ],
  "terms": {
-  "parent_m": { "fr": "père", "ipa": "/pɛʀ/", "en": "father", "stage": 1 },
-  "parent_f": { "fr": "mère", "ipa": "/mɛʀ/", "en": "mother", "stage": 1 },
-  "child_m": { "fr": "fils", "ipa": "/fis/", "en": "son", "stage": 1 },
-  "child_f": { "fr": "fille", "ipa": "/fij/", "en": "daughter", "stage": 1 },
-  "sibling_m": { "fr": "frère", "ipa": "/fʀɛʀ/", "en": "brother", "stage": 1 },
-  "sibling_f": { "fr": "sœur", "ipa": "/sœʀ/", "en": "sister", "stage": 1 },
-  "spouse_m": { "fr": "mari", "ipa": "/maʀi/", "en": "husband", "stage": 1 },
-  "spouse_f": { "fr": "femme", "ipa": "/fam/", "en": "wife", "stage": 1 },
-  "grandparent_m": { "fr": "grand-père", "ipa": "/ɡʀɑ̃pɛʀ/", "en": "grandfather", "stage": 2 },
-  "grandparent_f": { "fr": "grand-mère", "ipa": "/ɡʀɑ̃mɛʀ/", "en": "grandmother", "stage": 2 },
-  "grandchild_m": { "fr": "petit-fils", "ipa": "/p(ə)tifis/", "en": "grandson", "stage": 2 },
-  "grandchild_f": { "fr": "petite-fille", "ipa": "/p(ə)titfij/", "en": "granddaughter", "stage": 2 },
-  "greatgrandparent_m": { "fr": "arrière-grand-père", "ipa": "/aʀjɛʀɡʀɑ̃pɛʀ/", "en": "great-grandfather", "stage": 2 },
-  "greatgrandparent_f": { "fr": "arrière-grand-mère", "ipa": "/aʀjɛʀɡʀɑ̃mɛʀ/", "en": "great-grandmother", "stage": 2 },
-  "greatgrandchild_m": { "fr": "arrière-petit-fils", "ipa": "/aʀjɛʀp(ə)tifis/", "en": "great-grandson", "stage": 2 },
-  "greatgrandchild_f": { "fr": "arrière-petite-fille", "ipa": "/aʀjɛʀp(ə)titfij/", "en": "great-granddaughter", "stage": 2 },
-  "uncle_m": { "fr": "oncle", "ipa": "/ɔ̃kl/", "en": "uncle", "stage": 3 },
-  "uncle_f": { "fr": "tante", "ipa": "/tɑ̃t/", "en": "aunt", "stage": 3 },
-  "cousin_m": { "fr": "cousin", "ipa": "/kuzɛ̃/", "en": "cousin", "stage": 3 },
-  "cousin_f": { "fr": "cousine", "ipa": "/kuzin/", "en": "cousin", "stage": 3 },
-  "nephew_m": { "fr": "neveu", "ipa": "/n(ə)vø/", "en": "nephew", "stage": 3 },
-  "nephew_f": { "fr": "nièce", "ipa": "/njɛs/", "en": "niece", "stage": 3 },
-  "granduncle_m": { "fr": "grand-oncle", "ipa": "/ɡʀɑ̃tɔ̃kl/", "en": "great-uncle", "stage": 3 },
-  "granduncle_f": { "fr": "grand-tante", "ipa": "/ɡʀɑ̃tɑ̃t/", "en": "great-aunt", "stage": 3 },
-  "grandnephew_m": { "fr": "petit-neveu", "ipa": "/p(ə)tin(ə)vø/", "en": "great-nephew", "stage": 3 },
-  "grandnephew_f": { "fr": "petite-nièce", "ipa": "/p(ə)titnjɛs/", "en": "great-niece", "stage": 3 },
-  "parent_in_law_m": { "fr": "beau-père", "ipa": "/bopɛʀ/", "en": "father-in-law", "stage": 4 },
-  "parent_in_law_f": { "fr": "belle-mère", "ipa": "/bɛlmɛʀ/", "en": "mother-in-law", "stage": 4 },
-  "child_in_law_m": { "fr": "gendre", "ipa": "/ʒɑ̃dʀ/", "en": "son-in-law", "stage": 4 },
-  "child_in_law_f": { "fr": "belle-fille", "ipa": "/bɛlfij/", "en": "daughter-in-law", "stage": 4 },
-  "sibling_in_law_m": { "fr": "beau-frère", "ipa": "/bofʀɛʀ/", "en": "brother-in-law", "stage": 4 },
-  "sibling_in_law_f": { "fr": "belle-sœur", "ipa": "/bɛlsœʀ/", "en": "sister-in-law", "stage": 4 }
+  "parent_m": {
+   "fr": "père",
+   "ipa": "/pɛʀ/",
+   "en": "father",
+   "stage": 1,
+   "audio": "pere.mp3"
+  },
+  "parent_f": {
+   "fr": "mère",
+   "ipa": "/mɛʀ/",
+   "en": "mother",
+   "stage": 1,
+   "audio": "mere.mp3"
+  },
+  "child_m": {
+   "fr": "fils",
+   "ipa": "/fis/",
+   "en": "son",
+   "stage": 1,
+   "audio": "fils.mp3"
+  },
+  "child_f": {
+   "fr": "fille",
+   "ipa": "/fij/",
+   "en": "daughter",
+   "stage": 1,
+   "audio": "fille.mp3"
+  },
+  "sibling_m": {
+   "fr": "frère",
+   "ipa": "/fʀɛʀ/",
+   "en": "brother",
+   "stage": 1,
+   "audio": "frere.mp3"
+  },
+  "sibling_f": {
+   "fr": "sœur",
+   "ipa": "/sœʀ/",
+   "en": "sister",
+   "stage": 1,
+   "audio": "soeur.mp3"
+  },
+  "spouse_m": {
+   "fr": "mari",
+   "ipa": "/maʀi/",
+   "en": "husband",
+   "stage": 1,
+   "audio": "mari.mp3"
+  },
+  "spouse_f": {
+   "fr": "femme",
+   "ipa": "/fam/",
+   "en": "wife",
+   "stage": 1,
+   "audio": "femme.mp3"
+  },
+  "grandparent_m": {
+   "fr": "grand-père",
+   "ipa": "/ɡʀɑ̃pɛʀ/",
+   "en": "grandfather",
+   "stage": 2,
+   "audio": "grand_pere.mp3"
+  },
+  "grandparent_f": {
+   "fr": "grand-mère",
+   "ipa": "/ɡʀɑ̃mɛʀ/",
+   "en": "grandmother",
+   "stage": 2,
+   "audio": "grand_mere.mp3"
+  },
+  "grandchild_m": {
+   "fr": "petit-fils",
+   "ipa": "/p(ə)tifis/",
+   "en": "grandson",
+   "stage": 2,
+   "audio": "petit_fils.mp3"
+  },
+  "grandchild_f": {
+   "fr": "petite-fille",
+   "ipa": "/p(ə)titfij/",
+   "en": "granddaughter",
+   "stage": 2,
+   "audio": "petite_fille.mp3"
+  },
+  "greatgrandparent_m": {
+   "fr": "arrière-grand-père",
+   "ipa": "/aʀjɛʀɡʀɑ̃pɛʀ/",
+   "en": "great-grandfather",
+   "stage": 2,
+   "audio": "arriere_grand_pere.mp3"
+  },
+  "greatgrandparent_f": {
+   "fr": "arrière-grand-mère",
+   "ipa": "/aʀjɛʀɡʀɑ̃mɛʀ/",
+   "en": "great-grandmother",
+   "stage": 2,
+   "audio": "arriere_grand_mere.mp3"
+  },
+  "greatgrandchild_m": {
+   "fr": "arrière-petit-fils",
+   "ipa": "/aʀjɛʀp(ə)tifis/",
+   "en": "great-grandson",
+   "stage": 2,
+   "audio": "arriere_petit_fils.mp3"
+  },
+  "greatgrandchild_f": {
+   "fr": "arrière-petite-fille",
+   "ipa": "/aʀjɛʀp(ə)titfij/",
+   "en": "great-granddaughter",
+   "stage": 2,
+   "audio": "arriere_petite_fille.mp3"
+  },
+  "uncle_m": {
+   "fr": "oncle",
+   "ipa": "/ɔ̃kl/",
+   "en": "uncle",
+   "stage": 3,
+   "audio": "oncle.mp3"
+  },
+  "uncle_f": {
+   "fr": "tante",
+   "ipa": "/tɑ̃t/",
+   "en": "aunt",
+   "stage": 3,
+   "audio": "tante.mp3"
+  },
+  "cousin_m": {
+   "fr": "cousin",
+   "ipa": "/kuzɛ̃/",
+   "en": "cousin",
+   "stage": 3,
+   "audio": "cousin.mp3"
+  },
+  "cousin_f": {
+   "fr": "cousine",
+   "ipa": "/kuzin/",
+   "en": "cousin",
+   "stage": 3,
+   "audio": "cousine.mp3"
+  },
+  "nephew_m": {
+   "fr": "neveu",
+   "ipa": "/n(ə)vø/",
+   "en": "nephew",
+   "stage": 3,
+   "audio": "neveu.mp3"
+  },
+  "nephew_f": {
+   "fr": "nièce",
+   "ipa": "/njɛs/",
+   "en": "niece",
+   "stage": 3,
+   "audio": "niece.mp3"
+  },
+  "granduncle_m": {
+   "fr": "grand-oncle",
+   "ipa": "/ɡʀɑ̃tɔ̃kl/",
+   "en": "great-uncle",
+   "stage": 3,
+   "audio": "grand_oncle.mp3"
+  },
+  "granduncle_f": {
+   "fr": "grand-tante",
+   "ipa": "/ɡʀɑ̃tɑ̃t/",
+   "en": "great-aunt",
+   "stage": 3,
+   "audio": "grand_tante.mp3"
+  },
+  "grandnephew_m": {
+   "fr": "petit-neveu",
+   "ipa": "/p(ə)tin(ə)vø/",
+   "en": "great-nephew",
+   "stage": 3,
+   "audio": "petit_neveu.mp3"
+  },
+  "grandnephew_f": {
+   "fr": "petite-nièce",
+   "ipa": "/p(ə)titnjɛs/",
+   "en": "great-niece",
+   "stage": 3,
+   "audio": "petite_niece.mp3"
+  },
+  "parent_in_law_m": {
+   "fr": "beau-père",
+   "ipa": "/bopɛʀ/",
+   "en": "father-in-law",
+   "stage": 4,
+   "audio": "beau_pere.mp3"
+  },
+  "parent_in_law_f": {
+   "fr": "belle-mère",
+   "ipa": "/bɛlmɛʀ/",
+   "en": "mother-in-law",
+   "stage": 4,
+   "audio": "belle_mere.mp3"
+  },
+  "child_in_law_m": {
+   "fr": "gendre",
+   "ipa": "/ʒɑ̃dʀ/",
+   "en": "son-in-law",
+   "stage": 4,
+   "audio": "gendre.mp3"
+  },
+  "child_in_law_f": {
+   "fr": "belle-fille",
+   "ipa": "/bɛlfij/",
+   "en": "daughter-in-law",
+   "stage": 4,
+   "audio": "belle_fille.mp3"
+  },
+  "sibling_in_law_m": {
+   "fr": "beau-frère",
+   "ipa": "/bofʀɛʀ/",
+   "en": "brother-in-law",
+   "stage": 4,
+   "audio": "beau_frere.mp3"
+  },
+  "sibling_in_law_f": {
+   "fr": "belle-sœur",
+   "ipa": "/bɛlsœʀ/",
+   "en": "sister-in-law",
+   "stage": 4,
+   "audio": "belle_soeur.mp3"
+  }
  }
 }

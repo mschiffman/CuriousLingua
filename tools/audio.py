@@ -316,13 +316,14 @@ def shadow(L):
 def word_file(text):
     """maison -> maison.mp3, porte d'entrée -> porte_d_entree.mp3: the file a word's clip is saved under"""
     import unicodedata
-    s = "".join(c for c in unicodedata.normalize("NFD", lib.spoken(text).lower()) if unicodedata.category(c) != "Mn")
+    s = "".join(c for c in unicodedata.normalize("NFD", lib.spoken(text).lower().replace("œ", "oe").replace("æ", "ae")) if unicodedata.category(c) != "Mn")
     return re.sub(r"[^a-z0-9]+", "_", s).strip("_") + ".mp3"
 
 
 def named_words(doc):
-    """every word of a word list and every dot of a hotspot page (the same dicts, so they can be changed in place)"""
-    return [w for g in doc.get("groups", []) for w in g.get("words", [])] + [p for s in doc.get("slides", []) for p in s.get("spots", [])]
+    """every word of a word list, every dot of a hotspot page and every term of a family tree (the same dicts, so they can be changed in place)"""
+    return ([w for g in doc.get("groups", []) for w in g.get("words", [])] + [p for s in doc.get("slides", []) for p in s.get("spots", [])]
+            + list(doc.get("terms", {}).values()))
 
 
 def words(L, redo=()):
@@ -330,8 +331,8 @@ def words(L, redo=()):
     (maison.mp3), and writes its name into the lesson file as "audio". A word list and its hotspot page share the
     folder, so a word is recorded once. Single words are made with the course's "word_model" (eleven_v4):
     the sentence model garbles them."""
-    if L.get("type") not in ("words", "hotspots") or not L.get("glossary_dir"):
-        sys.exit(f'{L["id"]}: this command is for a word list or hotspot page with "glossary_dir" set, e.g. "lessons/noun/house/"')
+    if L.get("type") not in ("words", "hotspots", "family") or not L.get("glossary_dir"):
+        sys.exit(f'{L["id"]}: this command is for a word list, hotspot page or family tree with "glossary_dir" set, e.g. "lessons/noun/house/"')
     v, gd = VOICES[L["course"]], L["glossary_dir"]
     if not v["voice"]:
         sys.exit(f"no voice for {L['course']}: set it in assets/data/voices.json")
@@ -345,6 +346,7 @@ def words(L, redo=()):
     turn = doc.get("voices") or []
     todo = [(w, w.get("voice") or (turn[gi % len(turn)] if turn else v["voice"])) for gi, g in enumerate(doc.get("groups", [])) for w in g.get("words", [])]
     todo += [(p, p.get("voice") or v["voice"]) for s in doc.get("slides", []) for p in s.get("spots", [])]
+    todo += [(t, t.get("voice") or v["voice"]) for t in doc.get("terms", {}).values()]   # a family tree: one clip per word
     numbered = L["course"] in ("jap", "kor") or doc.get("clip_names") == "number"   # romaji cannot name a file: obasan and obāsan would collide
     taken = {w["audio"] for w, _ in todo if w.get("audio")}
     for k, (w, voice) in enumerate(todo, 1):
@@ -453,7 +455,7 @@ def upload_recording(L):
 
 
 def upload(L):
-    if L.get("audio_file") or L.get("type") in ("words", "hotspots"):
+    if L.get("audio_file") or L.get("type") in ("words", "hotspots", "family"):
         return upload_recording(L)
     media, _ = paths(L)
     tx = texts(L)
