@@ -1,0 +1,183 @@
+{
+ "title": "Saluer",
+ "subtitle": "Saying hello with tu and with vous",
+ "level": "a1",
+ "topic": "People",
+ "type": "dialogue",
+ "register": "casual (tu) between friends, then polite (vous) with a new neighbour",
+ "review": "Dialogues and key expressions from the user (greetings_fr.md). English translations, questions and notes by Claude: check them.",
+ "intro": "Two short scenes. Léa bumps into her friend Tom and says tu; then she meets a new neighbour, Madame Martin, and says vous. Listen for how the greetings change.",
+ "aud_dir": "fr/listening/saluer/",
+ "aud_ext": "mp3?v=2611191521",
+ "speakers": {
+  "T": "Tom",
+  "L": "Léa",
+  "M": "Madame Martin"
+ },
+ "voice": {
+  "T": "KKoLMp5NIRsM4N2KnhO9",
+  "L": "Ze3DkBwQ81dW3YYr1nbz",
+  "M": "TqSzeWTTYMk8ynnHrHq5"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "sections": [
+  {
+   "title": "Scène 1 : Deux amis (tu)",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Salut, Tom ! Ça va ?",
+     "tr": {
+      "en": "Hi, Tom! How's it going?"
+     }
+    },
+    {
+     "who": "T",
+     "text": "Salut, Léa ! Ça va bien, merci. Et toi ?",
+     "tr": {
+      "en": "Hi, Léa! I'm fine, thanks. And you?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Très bien, merci. Tu vas où ?",
+     "tr": {
+      "en": "Very well, thanks. Where are you going?"
+     }
+    },
+    {
+     "who": "T",
+     "text": "Je vais à la boulangerie. Et toi ?",
+     "tr": {
+      "en": "I'm going to the bakery. And you?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Je vais au travail. Oh, je suis en retard ! À plus tard !",
+     "tr": {
+      "en": "I'm going to work. Oh, I'm late! See you later!"
+     }
+    },
+    {
+     "who": "T",
+     "text": "D'accord. Bonne journée ! À demain !",
+     "tr": {
+      "en": "OK. Have a good day! See you tomorrow!"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Scène 2 : Léa rencontre une nouvelle voisine (vous)",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Bonjour, madame. Je m'appelle Léa. J'habite au numéro 5.",
+     "tr": {
+      "en": "Hello. My name is Léa. I live at number 5."
+     }
+    },
+    {
+     "who": "M",
+     "text": "Bonjour, Léa. Moi, c'est Madame Martin. Enchantée.",
+     "tr": {
+      "en": "Hello, Léa. I'm Mrs Martin. Nice to meet you."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Enchantée. Comment allez-vous ?",
+     "tr": {
+      "en": "Nice to meet you. How are you?"
+     }
+    },
+    {
+     "who": "M",
+     "text": "Très bien, merci. Et vous ?",
+     "tr": {
+      "en": "Very well, thank you. And you?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Bien, merci. Bon, au revoir, madame. Bonne journée !",
+     "tr": {
+      "en": "Fine, thanks. Well, goodbye. Have a good day!"
+     }
+    },
+    {
+     "who": "M",
+     "text": "Merci, vous aussi. Au revoir !",
+     "tr": {
+      "en": "Thank you, you too. Goodbye!"
+     }
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Salut ! (tu) = Hi! Bonjour ! (tu and vous) = Hello! Use salut only with people you say tu to.",
+  "Ça va ? (tu) = How's it going? Comment allez-vous ? (vous) = How are you? Answer: Ça va bien, merci. Et toi ? / Et vous ?",
+  "Je m'appelle Léa = My name is Léa. Moi, c'est Madame Martin = I'm Madame Martin (more relaxed).",
+  "Enchanté(e) = Nice to meet you. A woman writes enchantée with an extra e; it sounds the same.",
+  "À plus tard ! = See you later! À demain ! = See you tomorrow! Au revoir ! = Goodbye!",
+  "Bonne journée ! = Have a good day! The answer: Toi aussi. (tu) / Vous aussi. (vous) = You too.",
+  "Bonjour, madame: in French, you add madame or monsieur to be polite, with no name after it."
+ ],
+ "questions": [
+  {
+   "q": "Where is Tom going?",
+   "options": [
+    "To work",
+    "To the bakery",
+    "To the station"
+   ],
+   "answer": 1,
+   "why": "Je vais à la boulangerie."
+  },
+  {
+   "q": "Why does Léa leave quickly?",
+   "options": [
+    "She is late for work",
+    "She is hungry",
+    "Her neighbour is waiting"
+   ],
+   "answer": 0,
+   "why": "Je vais au travail. Oh, je suis en retard !"
+  },
+  {
+   "q": "Where does Léa live?",
+   "options": [
+    "At number 2",
+    "At number 9",
+    "At number 5"
+   ],
+   "answer": 2,
+   "why": "J'habite au numéro 5."
+  },
+  {
+   "q": "Why does Léa say vous to Madame Martin?",
+   "options": [
+    "Madame Martin is her friend",
+    "They have just met",
+    "Madame Martin is a child"
+   ],
+   "answer": 1,
+   "why": "Madame Martin is a new neighbour: you say vous to someone you don't know."
+  },
+  {
+   "q": "How does Madame Martin answer « Bonne journée ! »?",
+   "options": [
+    "Merci, vous aussi.",
+    "À demain !",
+    "Enchantée."
+   ],
+   "answer": 0,
+   "why": "Merci, vous aussi. Au revoir !"
+  }
+ ]
+}

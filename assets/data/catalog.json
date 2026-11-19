@@ -270,6 +270,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/saluer",
+  "url": "fr/listening/saluer.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "People",
+  "type": "dialogue",
+  "title": "Saluer",
+  "clips": 12,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/toujours_raison",
   "url": "fr/listening/toujours_raison.html",
   "course": "fr",
