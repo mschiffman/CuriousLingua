@@ -1,6 +1,6 @@
 # LANGSITE
 
-One site, four courses: **French** (adults, A1–C1), **English** (children in Myanmar, Starter–C1), **Japanese** (speaking only, A1–B2, English and Burmese support), **Korean** (speaking first, with Hangul beside the romanization, A1–B2; it mirrors the Japanese course lesson for lesson).
+One site, four courses: **French** (adults, A1–B2), **English** (children in Myanmar, Starter–B2), **Japanese** (speaking only, A1–B2, English and Burmese support), **Korean** (speaking first, with Hangul beside the romanization, A1–B2; it mirrors the Japanese course lesson for lesson).
 
 ## The one rule
 
