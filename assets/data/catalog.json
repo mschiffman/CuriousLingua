@@ -240,6 +240,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/matin",
+  "url": "fr/listening/matin.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "At home",
+  "type": "dialogue",
+  "title": "Le matin",
+  "clips": 10,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/retour_au_bureau",
   "url": "fr/listening/retour_au_bureau.html",
   "course": "fr",
