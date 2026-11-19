@@ -191,7 +191,7 @@ def make(L, only, redo):
         if not voice:
             sys.exit(f"no voice for {L['course']}: set it in assets/data/voices.json")
         rawf = os.path.join(raw, f"{n:02d}.mp3")
-        tts(tx[n], voice, v["model"], rawf)
+        tts(tx[n], voice, L.get("voice_model") or v["model"], rawf)   # "voice_model" in a lesson overrides the course model
         got = level(rawf, lib.clip_file(L, n), v["lufs"], stereo=L["course"] == "eng")
         print(f"{n:02d}.mp3 {got:6.1f} LUFS  {tx[n]}")
     whisper(L, todo)

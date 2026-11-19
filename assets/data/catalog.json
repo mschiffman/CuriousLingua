@@ -180,6 +180,21 @@
   "quiz": false
  },
  {
+  "id": "fr/listening/aimer",
+  "url": "fr/listening/aimer.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "b1",
+  "level_provisional": false,
+  "topic": "Likes and dislikes",
+  "type": "dialogue",
+  "title": "Ce qu'on aime",
+  "clips": 14,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/conv31",
   "url": "fr/listening/conv31.html",
   "course": "fr",
