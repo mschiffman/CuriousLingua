@@ -2752,12 +2752,12 @@
   "level": "a1",
   "level_provisional": false,
   "topic": "Everyday expressions",
-  "type": "dialogue",
+  "type": "cards",
   "title": "Greetings and goodbyes",
   "clips": 12,
   "images": 0,
   "audio": "wired",
-  "quiz": true
+  "quiz": false
  },
  {
   "id": "jap/sounds/vowels",
@@ -2947,12 +2947,12 @@
   "level": "a1",
   "level_provisional": false,
   "topic": "Everyday expressions",
-  "type": "dialogue",
+  "type": "cards",
   "title": "Greetings and goodbyes",
   "clips": 14,
   "images": 0,
   "audio": "wired",
-  "quiz": true
+  "quiz": false
  },
  {
   "id": "kor/sounds/vowels",

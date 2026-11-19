@@ -3,164 +3,92 @@
  "subtitle": "あいさつ",
  "level": "a1",
  "topic": "Everyday expressions",
- "type": "dialogue",
+ "type": "cards",
  "order": 1,
- "review": "Burmese lines drafted by Claude. Check them before publishing.",
- "intro": "The phrases you need on day one. Listen, repeat, and do not worry about the writing.",
+ "review": "Burmese lines and the Japanese category headings drafted by Claude. Check them before publishing.",
  "aud_dir": "jap/expressions/greetings/",
  "aud_ext": "mp3?v=2611171504",
- "support": [
-  "en",
-  "my"
- ],
- "sections": [
+ "categories": [
   {
-   "title": "Saying hello",
-   "lines": [
-    {
-     "romaji": "Ohayō gozaimasu.",
-     "kana": "おはようございます。",
-     "tr": {
-      "en": "Good morning.",
-      "my": "မင်္ဂလာနံနက်ခင်းပါ။"
-     },
-     "note": "Until about 10 am. To friends: Ohayō."
-    },
-    {
-     "romaji": "Konnichiwa.",
-     "kana": "こんにちは。",
-     "tr": {
-      "en": "Hello. / Good afternoon.",
-      "my": "မင်္ဂလာပါ။"
-     }
-    },
-    {
-     "romaji": "Konbanwa.",
-     "kana": "こんばんは。",
-     "tr": {
-      "en": "Good evening.",
-      "my": "မင်္ဂလာညနေခင်းပါ။"
-     }
-    },
-    {
-     "romaji": "Hajimemashite.",
-     "kana": "はじめまして。",
-     "tr": {
-      "en": "Nice to meet you.",
-      "my": "တွေ့ရတာ ဝမ်းသာပါတယ်။"
-     },
-     "note": "Only the first time you meet someone."
-    },
-    {
-     "romaji": "Yoroshiku onegaishimasu.",
-     "kana": "よろしくおねがいします。",
-     "tr": {
-      "en": "Pleased to meet you. / I'm in your care.",
-      "my": "ခင်ခင်မင်မင် ဆက်ဆံပေးပါ။"
-     }
-    }
+   "en": "Saying hello",
+   "fr": "こんにちは",
+   "desc": "Morning, afternoon and evening, and meeting someone for the first time.",
+   "cards": [
+    [
+     "Ohayō gozaimasu.",
+     "Good morning.",
+     "おはようございます。\nမင်္ဂလာနံနက်ခင်းပါ။\n\nUntil about 10 am. To friends: Ohayō."
+    ],
+    [
+     "Konnichiwa.",
+     "Hello. / Good afternoon.",
+     "こんにちは。\nမင်္ဂလာပါ။"
+    ],
+    [
+     "Konbanwa.",
+     "Good evening.",
+     "こんばんは。\nမင်္ဂလာညနေခင်းပါ။"
+    ],
+    [
+     "Hajimemashite.",
+     "Nice to meet you.",
+     "はじめまして。\nတွေ့ရတာ ဝမ်းသာပါတယ်။\n\nOnly the first time you meet someone."
+    ],
+    [
+     "Yoroshiku onegaishimasu.",
+     "Pleased to meet you. / I'm in your care.",
+     "よろしくおねがいします。\nခင်ခင်မင်မင် ဆက်ဆံပေးပါ။"
+    ]
    ]
   },
   {
-   "title": "Thanks and sorry",
-   "lines": [
-    {
-     "romaji": "Arigatō gozaimasu.",
-     "kana": "ありがとうございます。",
-     "tr": {
-      "en": "Thank you.",
-      "my": "ကျေးဇူးတင်ပါတယ်။"
-     }
-    },
-    {
-     "romaji": "Dō itashimashite.",
-     "kana": "どういたしまして。",
-     "tr": {
-      "en": "You're welcome.",
-      "my": "ရပါတယ်။"
-     }
-    },
-    {
-     "romaji": "Sumimasen.",
-     "kana": "すみません。",
-     "tr": {
-      "en": "Excuse me. / Sorry.",
-      "my": "တဆိတ်လောက်။ / တောင်းပန်ပါတယ်။"
-     },
-     "note": "Also used to call a waiter or to thank someone for their trouble."
-    }
+   "en": "Thanks and sorry",
+   "fr": "ありがとう・すみません",
+   "desc": "Thank you, you're welcome, and the all-purpose sumimasen.",
+   "cards": [
+    [
+     "Arigatō gozaimasu.",
+     "Thank you.",
+     "ありがとうございます。\nကျေးဇူးတင်ပါတယ်။"
+    ],
+    [
+     "Dō itashimashite.",
+     "You're welcome.",
+     "どういたしまして。\nရပါတယ်။"
+    ],
+    [
+     "Sumimasen.",
+     "Excuse me. / Sorry.",
+     "すみません。\nတဆိတ်လောက်။ / တောင်းပန်ပါတယ်။\n\nAlso used to call a waiter or to thank someone for their trouble."
+    ]
    ]
   },
   {
-   "title": "Saying goodbye",
-   "lines": [
-    {
-     "romaji": "Ja, mata.",
-     "kana": "じゃ、また。",
-     "tr": {
-      "en": "See you.",
-      "my": "နောက်မှ တွေ့မယ်။"
-     },
-     "note": "Casual, between friends."
-    },
-    {
-     "romaji": "Shitsurei shimasu.",
-     "kana": "しつれいします。",
-     "tr": {
-      "en": "Goodbye. (polite, leaving work or a room)",
-      "my": "ခွင့်ပြုပါဦး။"
-     }
-    },
-    {
-     "romaji": "Otsukaresama desu.",
-     "kana": "おつかれさまです。",
-     "tr": {
-      "en": "Thanks for your hard work.",
-      "my": "ပင်ပန်းသွားပြီနော်။"
-     },
-     "note": "Said to colleagues all day long, and when leaving."
-    },
-    {
-     "romaji": "Oyasuminasai.",
-     "kana": "おやすみなさい。",
-     "tr": {
-      "en": "Good night.",
-      "my": "အိပ်တော့မယ်နော်။"
-     }
-    }
+   "en": "Saying goodbye",
+   "fr": "さようなら",
+   "desc": "Leaving friends, leaving the office, and going to bed.",
+   "cards": [
+    [
+     "Ja, mata.",
+     "See you.",
+     "じゃ、また。\nနောက်မှ တွေ့မယ်။\n\nCasual, between friends."
+    ],
+    [
+     "Shitsurei shimasu.",
+     "Goodbye.",
+     "しつれいします。\nခွင့်ပြုပါဦး။\n\nPolite: when you leave work or a room."
+    ],
+    [
+     "Otsukaresama desu.",
+     "Thanks for your hard work.",
+     "おつかれさまです。\nပင်ပန်းသွားပြီနော်။\n\nSaid to colleagues all day long, and when leaving."
+    ],
+    [
+     "Oyasuminasai.",
+     "Good night.",
+     "おやすみなさい。\nအိပ်တော့မယ်နော်။"
+    ]
    ]
-  }
- ],
- "questions": [
-  {
-   "q": "You meet your new boss for the first time. What do you say?",
-   "options": [
-    "Ja, mata.",
-    "Hajimemashite.",
-    "Oyasuminasai."
-   ],
-   "answer": 1,
-   "why": "Hajimemashite is for a first meeting. Follow it with your name and Yoroshiku onegaishimasu."
-  },
-  {
-   "q": "It is 8 pm. You walk into a restaurant.",
-   "options": [
-    "Konbanwa.",
-    "Ohayō gozaimasu.",
-    "Konnichiwa."
-   ],
-   "answer": 0,
-   "why": "Konbanwa is the evening greeting."
-  },
-  {
-   "q": "A colleague is going home. What do you say?",
-   "options": [
-    "Dō itashimashite.",
-    "Hajimemashite.",
-    "Otsukaresama desu."
-   ],
-   "answer": 2,
-   "why": "Otsukaresama desu thanks a colleague for the day's work."
   }
  ]
 }
