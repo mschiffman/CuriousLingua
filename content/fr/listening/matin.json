@@ -8,14 +8,14 @@
  "review": "Dialogue from the user (morning.md). English translations, questions and notes by Claude: check them.",
  "intro": "It's ten o'clock and the child has only just got up. Listen first with the text hidden. Then show it and listen again.",
  "aud_dir": "fr/listening/matin/",
- "aud_ext": "mp3?v=2611191459",
+ "aud_ext": "mp3?v=2611191508",
  "speakers": {
   "M": "Maman",
   "E": "L'enfant"
  },
  "voice": {
-  "M": "ajJK5BEm3mqUf8PILk4K",
-  "E": "zqMU9nLrA6TWFiIM7kB2"
+  "M": "zqMU9nLrA6TWFiIM7kB2",
+  "E": "ajJK5BEm3mqUf8PILk4K"
  },
  "voice_model": "eleven_v4",
  "support": [
