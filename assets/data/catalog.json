@@ -240,6 +240,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/le_jardin_et_apres",
+  "url": "fr/listening/le_jardin_et_apres.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "b1",
+  "level_provisional": false,
+  "topic": "At home",
+  "type": "dialogue",
+  "title": "Le jardin, et après ?",
+  "clips": 18,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/retour_au_bureau",
   "url": "fr/listening/retour_au_bureau.html",
   "course": "fr",
