@@ -6,7 +6,7 @@
   "type": "dialogue",
   "register": "casual (tu), two people who travel together",
   "review": "Dialogue and key expressions from the user. English translations, questions and notes by Claude: check them.",
-  "intro": "Sophie and Augustin talk about the food they love, the heat they can't stand, and where they would live if money were no object. Listen for all the ways to say what you like and what you don't.",
+  "intro": "Élise and Thomas talk about the food they love, the heat they can't stand, and where they would live if money were no object. Listen for all the ways to say what you like and what you don't.",
   "start_hidden": true,
   "steps": [
     "Press Play all with the text hidden. Listen for the gist only: what three things do they talk about?",
@@ -129,7 +129,7 @@
   ],
   "questions": [
     {
-      "q": "Qu'est-ce que Sophie n'aime pas trop ?",
+      "q": "Qu'est-ce que Élise n'aime pas trop ?",
       "options": [
         "Le pain et le riz",
         "Les nouilles et les pâtes",
@@ -152,10 +152,10 @@
       "q": "Qu'est-ce qu'ils ne supportent pas, tous les deux ?",
       "options": ["Le froid", "La pluie", "La chaleur"],
       "answer": 2,
-      "why": "Augustin : « Je ne la supporte pas » (la chaleur). Sophie : « Moi non plus. »"
+      "why": "Thomas : « Je ne la supporte pas » (la chaleur). Élise : « Moi non plus. »"
     },
     {
-      "q": "Où Augustin préférerait-il vivre ?",
+      "q": "Où Thomas préférerait-il vivre ?",
       "options": ["À la montagne", "Au bord de la mer", "En Bretagne"],
       "answer": 0,
       "why": "« Je préfère la montagne à la mer. On n'est pas très plage. »"
