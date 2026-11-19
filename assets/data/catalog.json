@@ -195,21 +195,6 @@
   "quiz": true
  },
  {
-  "id": "fr/listening/conv31",
-  "url": "fr/listening/conv31.html",
-  "course": "fr",
-  "strand": "listening",
-  "level": "b1",
-  "level_provisional": false,
-  "topic": "At home",
-  "type": "dialogue",
-  "title": "Toujours avoir raison",
-  "clips": 22,
-  "images": 0,
-  "audio": "wired",
-  "quiz": true
- },
- {
   "id": "fr/listening/deux_amis",
   "url": "fr/listening/deux_amis.html",
   "course": "fr",
@@ -265,6 +250,21 @@
   "type": "dialogue",
   "title": "Retour au bureau",
   "clips": 16,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "fr/listening/toujours_raison",
+  "url": "fr/listening/toujours_raison.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "b1",
+  "level_provisional": false,
+  "topic": "At home",
+  "type": "dialogue",
+  "title": "Toujours avoir raison",
+  "clips": 22,
   "images": 0,
   "audio": "wired",
   "quiz": true
