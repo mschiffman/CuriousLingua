@@ -5,7 +5,7 @@
  "topic": "Sounds of Korean",
  "order": 2,
  "type": "words",
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker.",
  "intro": "Two pairs of vowels sound alike to English ears: eo and o, eu and u. The vowel alone can change the meaning, so train your ear on them early.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/vowel_pairs/",

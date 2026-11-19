@@ -5,7 +5,7 @@
  "topic": "Everyday conversations",
  "type": "dialogue",
  "order": 5,
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen. English support only: no Burmese lines were written.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written.",
  "intro": "Two friends talk about what they do at the weekend. Listen for what each of them likes.",
  "start_hidden": true,
  "steps": [

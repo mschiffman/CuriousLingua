@@ -5,7 +5,7 @@
  "topic": "Sounds of Korean",
  "order": 1,
  "type": "words",
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker.",
  "intro": "Korean has more vowel sounds than English letters can show. Start with these: each one is short and steady, and each has its own Hangul letter.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/vowels/",

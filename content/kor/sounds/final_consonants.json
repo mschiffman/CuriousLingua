@@ -5,7 +5,7 @@
  "topic": "Sounds of Korean",
  "order": 4,
  "type": "words",
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker.",
  "intro": "A Korean syllable can end in a consonant, written at the bottom of its block. At the end of a word it is not released: the mouth closes and stops there, with no puff of air and no extra vowel.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/final_consonants/",

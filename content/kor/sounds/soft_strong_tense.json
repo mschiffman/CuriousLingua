@@ -5,7 +5,7 @@
  "topic": "Sounds of Korean",
  "order": 3,
  "type": "words",
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker.",
  "intro": "Many Korean consonants come in three kinds: soft, strong (with a puff of air) and tense (tight, with no air). English has nothing like it, and the kind you choose changes the word.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/soft_strong_tense/",

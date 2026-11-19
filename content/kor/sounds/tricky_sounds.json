@@ -5,7 +5,7 @@
  "topic": "Sounds of Korean",
  "order": 5,
  "type": "words",
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker.",
  "intro": "Three sounds that do not behave as their English letters suggest. Listen first, then copy the voice.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/tricky_sounds/",

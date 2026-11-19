@@ -1,0 +1,217 @@
+{
+ "title": "La famille",
+ "subtitle": "Looking at family photos",
+ "level": "a1",
+ "topic": "People",
+ "type": "dialogue",
+ "register": "casual (tu), two friends",
+ "review": "Dialogue and key expressions from the user (famille_fr.md). English translations, questions and notes by Claude: check them.",
+ "intro": "Emma and Lucas again. Emma shows Lucas the family photos on her phone, then Lucas shows her one of his. Listen for who is who: names, ages and jobs.",
+ "aud_dir": "fr/listening/famille/",
+ "aud_ext": "mp3?v=2611191659",
+ "speakers": {
+  "L": "Lucas",
+  "E": "Emma"
+ },
+ "voice": {
+  "E": "3YsdE1c1xyJow6Iy6jWB",
+  "L": "raorKQeRhtnNgyXX4Iqm"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "sections": [
+  {
+   "title": "Emma montre des photos de famille à Lucas sur son téléphone.",
+   "lines": [
+    {
+     "who": "L",
+     "text": "C'est qui, sur la photo ?",
+     "tr": {
+      "en": "Who's that in the photo?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "C'est ma famille. Là, c'est mon père et ma mère.",
+     "tr": {
+      "en": "It's my family. There, that's my father and my mother."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Ils s'appellent comment ?",
+     "tr": {
+      "en": "What are their names?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Mon père s'appelle Marc, et ma mère s'appelle Claire.",
+     "tr": {
+      "en": "My father's name is Marc, and my mother's name is Claire."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Et lui, c'est ton frère ?",
+     "tr": {
+      "en": "And him, is that your brother?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Oui, c'est mon frère Thomas. Il a vingt-cinq ans. Il est cuisinier.",
+     "tr": {
+      "en": "Yes, that's my brother Thomas. He's twenty-five. He's a cook."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Et elle ?",
+     "tr": {
+      "en": "And her?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "C'est ma petite sœur, Manon. Elle a seize ans. Elle est au lycée.",
+     "tr": {
+      "en": "That's my little sister, Manon. She's sixteen. She's at high school."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Tu as des cousins ?",
+     "tr": {
+      "en": "Do you have any cousins?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Oui, j'ai deux cousins, Léo et Chloé. Ce sont les enfants de ma tante Julie.",
+     "tr": {
+      "en": "Yes, I have two cousins, Léo and Chloé. They're my aunt Julie's children."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Ta famille est grande !",
+     "tr": {
+      "en": "You have a big family!"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Oui ! Et toi, tu as des frères et sœurs ?",
+     "tr": {
+      "en": "Yes! And you, do you have any brothers and sisters?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Non, je suis fils unique. Mais j'ai beaucoup de cousins !",
+     "tr": {
+      "en": "No, I'm an only child. But I have lots of cousins!"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Tes parents habitent à Montréal ?",
+     "tr": {
+      "en": "Do your parents live in Montreal?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Oui, et mes grands-parents aussi. Regarde, voilà une photo. C'est ma mère, mon père et ma grand-mère.",
+     "tr": {
+      "en": "Yes, and my grandparents too. Look, here's a photo. That's my mother, my father and my grandmother."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Oh, elle a l'air très gentille, ta grand-mère !",
+     "tr": {
+      "en": "Oh, your grandmother looks really kind!"
+     }
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "C'est qui ? = Who's that? In everyday speech qui goes last. C'est qui, sur la photo ? = Who's that in the photo?",
+  "C'est mon père. C'est ma sœur. Ce sont mes cousins. c'est for one person, ce sont for more than one.",
+  "mon père, ma mère, mes parents = my. ton frère, ta famille, tes parents = your (tu). mon, ma or mes goes with the word that follows, not with the person speaking: Lucas also says ma mère.",
+  "Ils s'appellent comment ? = What are their names? Il s'appelle Marc. Elle s'appelle Claire.",
+  "Age, with avoir: Il a vingt-cinq ans. Elle a seize ans.",
+  "Et lui ? Et elle ? = And him? And her? A quick way to point to someone in a photo.",
+  "Tu as des frères et sœurs ? = Do you have any brothers and sisters? Je suis fils unique (a boy) / fille unique (a girl) = I'm an only child.",
+  "les enfants de ma tante = my aunt's children. French has no 's: it uses de.",
+  "le lycée = the last three years of school, from about 15 to 18. cuisinier (a man) / cuisinière (a woman) = a cook.",
+  "Elle a l'air très gentille = She looks very kind. avoir l'air + an adjective = to look, to seem."
+ ],
+ "questions": [
+  {
+   "q": "What is Emma's mother called?",
+   "options": [
+    "Marc",
+    "Claire",
+    "Julie"
+   ],
+   "answer": 1,
+   "why": "Ma mère s'appelle Claire."
+  },
+  {
+   "q": "How old is Thomas?",
+   "options": [
+    "Sixteen",
+    "Twenty-eight",
+    "Twenty-five"
+   ],
+   "answer": 2,
+   "why": "Il a vingt-cinq ans."
+  },
+  {
+   "q": "What is Thomas's job?",
+   "options": [
+    "He is a cook",
+    "He is a teacher",
+    "He is a nurse"
+   ],
+   "answer": 0,
+   "why": "Il est cuisinier."
+  },
+  {
+   "q": "Who are Léo and Chloé?",
+   "options": [
+    "Emma's brother and sister",
+    "The children of Emma's aunt Julie",
+    "Lucas's cousins"
+   ],
+   "answer": 1,
+   "why": "Ce sont les enfants de ma tante Julie."
+  },
+  {
+   "q": "Does Lucas have any brothers or sisters?",
+   "options": [
+    "Yes, one brother",
+    "Yes, two sisters",
+    "No, he is an only child"
+   ],
+   "answer": 2,
+   "why": "Non, je suis fils unique."
+  },
+  {
+   "q": "Who is in Lucas's photo?",
+   "options": [
+    "His mother, his father and his grandmother",
+    "His cousins",
+    "His grandparents only"
+   ],
+   "answer": 0,
+   "why": "C'est ma mère, mon père et ma grand-mère."
+  }
+ ]
+}

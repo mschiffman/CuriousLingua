@@ -5,7 +5,7 @@
  "topic": "Everyday conversations",
  "type": "dialogue",
  "order": 1,
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. No audio yet: the Korean voice is not chosen. English support only: no Burmese lines were written.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written.",
  "intro": "A customer orders at a café. Listen for what he orders and how much it costs.",
  "start_hidden": true,
  "steps": [
