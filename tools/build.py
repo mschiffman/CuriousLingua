@@ -14,6 +14,16 @@ import lib
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT, C = lib.ROOT, lib.cfg()
 e = html.escape
+
+
+def ver(rel):
+    """A short tag of a file's content. Pages load site.js and site.css as "site.js?v=<tag>": when the file changes,
+    so does its address, and no browser or CDN goes on serving a saved copy of the old one."""
+    import hashlib
+    return hashlib.md5(open(os.path.join(ROOT, *rel.split("/")), "rb").read()).hexdigest()[:8]
+
+
+FRESH = {f'assets/{x}"': f'assets/{x}?v={ver("assets/" + x)}"' for x in ("js/site.js", "css/site.css")}
 TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page", "link": "Link", "grammar": "Grammar notes", "timeline": "Interactive timeline", "family": "Family tree"}
 ICON_PLAY = '<svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
 ICON_LOOP = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>'
@@ -93,7 +103,7 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
         header = footer = ""
     if not foot:
         footer = ""
-    return f'''<!doctype html>
+    page = f'''<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -111,6 +121,9 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
 </body>
 </html>
 '''
+    for old, new in FRESH.items():
+        page = page.replace(old, new)
+    return page
 
 
 def tile(L, rel, show_level=True):

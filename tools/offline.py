@@ -67,7 +67,7 @@ def one(L):
         fam.add("Noto Sans Myanmar")
 
     def style(m):
-        css = open(os.path.normpath(os.path.join(here, m.group(1))), encoding="utf-8").read()
+        css = open(os.path.normpath(os.path.join(here, m.group(1).split("?")[0])), encoding="utf-8").read()
         return "<style>" + fonts(css, fam) + "</style>"
     src = re.sub(r'<link rel="stylesheet" href="([^"]+)">', style, src)
     src = re.sub(r'<link rel="icon"[^>]*>\n?', "", src)
@@ -107,10 +107,9 @@ def one(L):
             noimg += 1
 
     def script(m):
-        code = open(os.path.normpath(os.path.join(here, m.group(1))), encoding="utf-8").read()
+        code = open(os.path.normpath(os.path.join(here, m.group(1).split("?")[0])), encoding="utf-8").read()
         return "<script>" + code.replace("</script", "<\\/script") + "</script>"
-    src = re.sub(r'<script(?: defer)? src="[^"]*assets/vendor/[^"]+"></script>
-?', "", src)   # GSAP stays online only: motion.js then does nothing
+    src = re.sub(r'<script(?: defer)? src="[^"]*assets/vendor/[^"]+"></script>\n?', "", src)   # GSAP stays online only: motion.js then does nothing
     src = re.sub(r'<script(?: defer)? src="([^"]+)"></script>', script, src)
     src = src.replace("<body ", "<body data-offline ", 1)
     src = re.sub(r"(<body[^>]*>)", lambda m: m.group(1) + "\n<script>const EMBED=" + json.dumps(embed) + ";</script>", src, count=1)
