@@ -41,6 +41,23 @@ def lv(code):
 
 
 # ------------------------------------------------------------------ page frame
+# Motion (assets/js/motion.js): this head script hides [data-reveal] / [data-split] until motion.js shows them,
+# and shows them again by itself if motion.js has not run after 3 s. Nothing is hidden for reduced motion, or on slow
+# or data-saver connections, where GSAP could take seconds to arrive (the text then simply shows at once).
+# Those visitors get <html class="lite">, which also leaves out the home page globe (it needs Three.js, ~600 KB).
+MOTION_HEAD = ('<script>(function(d){var c=navigator.connection;if(matchMedia("(prefers-reduced-motion: reduce)").matches'
+               '||(c&&(c.saveData||/2g|3g/.test(c.effectiveType||"")))){d.classList.add("lite");return}d.classList.add("motion");'
+               'setTimeout(function(){if(!window.__motion)d.classList.remove("motion")},3000)})(document.documentElement)</script>\n')
+# GSAP sits in assets/vendor/: tools/offline.py leaves that folder out of the single-file lessons (motion.js then does nothing).
+MOTION_TAIL = ('<script defer src="{r}assets/vendor/gsap.min.js"></script>\n<script defer src="{r}assets/vendor/ScrollTrigger.min.js"></script>\n'
+               '<script defer src="{r}assets/js/motion.js"></script>')
+
+
+def hero_canvas(which):
+    """The 3D letters behind a title (assets/js/hero.js): which = a course key, or "all"."""
+    return f'<canvas class="hero-canvas" data-hero="{which}" aria-hidden="true"></canvas>'
+
+
 def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True):
     r = up(rel)
     nav = "".join(
@@ -84,12 +101,13 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
 <title>{e(title)}</title>
 <link rel="icon" href="{r}assets/img/favicon.svg">
 <link rel="stylesheet" href="{r}assets/css/site.css">
-{head}</head>
+{MOTION_HEAD}{head}</head>
 <body class="{cls}"{f' data-course="{course}"' if course else ""}>
 {header}
 {body}
 {footer}
 {tail}
+{MOTION_TAIL.replace("{r}", r)}
 </body>
 </html>
 '''
@@ -101,7 +119,7 @@ def tile(L, rel, show_level=True):
     if lib.pending(L):
         chips.append('<span class="chip">audio soon</span>')
     sub = L.get("subtitle", "")
-    return f'''<a class="tile" href="{r}{L["url"]}" data-lesson="{L["id"]}">
+    return f'''<a class="tile" data-reveal href="{r}{L["url"]}" data-lesson="{L["id"]}">
 <div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">{e(L.get("title", L["slug"]))}</h3>
 {f'<span class="chip chip-accent">{lv(L.get("level"))}</span>' if show_level else ""}</div>
 {f'<p class="mt-1 text-sm text-muted">{e(sub)}</p>' if sub else ""}
@@ -713,17 +731,17 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
     supp = ""
     if supplements:
         supp = '<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Supplemental section</h2><p class="mt-1 text-muted">More practice with this text.</p>' + grid([
-            f'''<a class="tile" {f'href="{e(x["href"])}" target="_blank" rel="noopener"' if x.get("type") == "link" else f'href="{r}{x["url"]}"'} data-lesson="{x["id"]}"><h3 class="text-lg font-semibold leading-snug">{e(x.get("title", x["slug"]))}</h3>
+            f'''<a class="tile" data-reveal {f'href="{e(x["href"])}" target="_blank" rel="noopener"' if x.get("type") == "link" else f'href="{r}{x["url"]}"'} data-lesson="{x["id"]}"><h3 class="text-lg font-semibold leading-snug">{e(x.get("title", x["slug"]))}</h3>
 {f'<p class="mt-1 text-sm text-muted">{e(x["subtitle"])}</p>' if x.get("subtitle") else ""}
 <div class="mt-3"><span class="chip">{e(x.get("label", "Practice"))}</span></div></a>''' for x in supplements]) + "</section>"
     back = f'<a class="btn mt-4 py-1.5" data-nav href="{r}{parent["url"]}">&larr; {e(parent.get("title", ""))}</a>' if parent else ""
     body = f'''<main class="wrap py-6 sm:py-10">
 {crumbs(L, r)}
 {back}
-<div class="mt-4 flex flex-wrap items-center gap-2">{chips}</div>
-<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">{e(title)}</h1>
-{f'<p class="mt-2 text-xl text-muted">{e(L["subtitle"])}</p>' if L.get("subtitle") else ""}
-{f'<p class="mt-3 max-w-2xl text-muted">{inline(L["intro"]) if L.get("type") in lib.SILENT else e(L["intro"])}</p>' if L.get("intro") else ""}
+<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal>{chips}</div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>{e(title)}</h1>
+{f'<p class="mt-2 text-xl text-muted" data-reveal>{e(L["subtitle"])}</p>' if L.get("subtitle") else ""}
+{f'<p class="mt-3 max-w-2xl text-muted" data-reveal>{inline(L["intro"]) if L.get("type") in lib.SILENT else e(L["intro"])}</p>' if L.get("intro") else ""}
 {steps}
 {shell}
 {(QUIZ if L.get("questions") else "") + extra if L.get("start_hidden") else extra + (QUIZ if L.get("questions") else "")}
@@ -747,25 +765,25 @@ def course_home(k, items):
     levels = ""
     for code in c["levels"]:
         n = sum(1 for L in items if L.get("level") == code)
-        levels += f'''<a class="tile" href="level/{code}.html"><div class="flex items-baseline justify-between"><span class="font-display text-3xl font-semibold text-accent">{lv(code)}</span>
-<span class="text-sm text-muted">{f"{n} lesson{'' if n == 1 else 's'}" if n else "soon"}</span></div>
+        levels += f'''<a class="tile" data-reveal href="level/{code}.html"><div class="flex items-baseline justify-between"><span class="font-display text-3xl font-semibold text-accent">{lv(code)}</span>
+<span class="text-sm text-muted">{f"<span data-count={n}>{n}</span> lesson{'' if n == 1 else 's'}" if n else "soon"}</span></div>
 <p class="mt-1 font-bold">{e(C["levels"][code])}</p><p class="mt-1 text-sm text-muted">{e(c["can"][code])}</p></a>'''
     strands = ""
     for s in c["strands"]:
         n = sum(1 for L in items if L["strand"] == s)
-        strands += f'''<a class="tile" href="{s}/index.html"><div class="flex items-baseline justify-between"><h3 class="text-xl font-semibold">{e(C["strands"][s][0])}</h3>
-<span class="text-sm text-muted">{n if n else "soon"}</span></div><p class="mt-1 text-sm text-muted">{e(strand_text(k, s))}</p></a>'''
+        strands += f'''<a class="tile" data-reveal href="{s}/index.html"><div class="flex items-baseline justify-between"><h3 class="text-xl font-semibold">{e(C["strands"][s][0])}</h3>
+<span class="text-sm text-muted">{f'<span data-count="{n}">{n}</span>' if n else "soon"}</span></div><p class="mt-1 text-sm text-muted">{e(strand_text(k, s))}</p></a>'''
     body = f'''<main>
-<section class="border-b border-line bg-accent/5"><div class="wrap py-12 sm:py-16">
-<p class="flex flex-wrap gap-2"><span class="chip chip-accent">{e(c["for"])}</span><span class="chip">{e(c["range"])}</span></p>
-<h1 class="mt-4 text-5xl font-semibold tracking-tight sm:text-6xl">{e(c["name"])} <span class="font-display italic text-accent" lang="{c.get("native_lang", c["lang"])}">{e(c["native"])}</span></h1>
-<p class="mt-4 max-w-2xl text-xl text-muted">{e(c["tagline"])}</p>
-<div class="mt-6 flex flex-wrap gap-3"><a class="btn btn-primary" href="#levels">Start where you are</a><a class="btn" href="#skills">Pick a skill</a>{f'<a class="btn" href="{e(c["offline_url"])}" target="_blank" rel="noopener">Offline lessons</a>' if c.get("offline_url") else ""}</div>
+<section class="hero border-b border-line bg-accent/5">{hero_canvas(k)}<div class="wrap py-12 sm:py-16">
+<p class="flex flex-wrap gap-2" data-reveal><span class="chip chip-accent">{e(c["for"])}</span><span class="chip">{e(c["range"])}</span></p>
+<h1 class="mt-4 text-5xl font-semibold tracking-tight sm:text-6xl" data-split>{e(c["name"])} <span class="font-display italic text-accent" lang="{c.get("native_lang", c["lang"])}">{e(c["native"])}</span></h1>
+<p class="mt-4 max-w-2xl text-xl text-muted" data-reveal>{e(c["tagline"])}</p>
+<div class="mt-6 flex flex-wrap gap-3" data-reveal><a class="btn btn-primary" href="#levels">Start where you are</a><a class="btn" href="#skills">Pick a skill</a>{f'<a class="btn" href="{e(c["offline_url"])}" target="_blank" rel="noopener">Offline lessons</a>' if c.get("offline_url") else ""}</div>
 {'<p class="mt-3 max-w-2xl text-sm text-muted">No internet? Every lesson is also one file you can download from Google Drive and open on a tablet or computer, with its pictures and sound inside.</p>' if c.get("offline_url") else ""}
 </div></section>
-<section id="levels" class="wrap scroll-mt-28 py-12"><h2 class="text-3xl font-semibold">Start where you are</h2>
-<p class="mt-1 text-muted">Not sure of your level? Pick the one whose lessons look just slightly too hard.</p>{grid([levels])}</section>
-<section id="skills" class="wrap scroll-mt-28 pb-4"><h2 class="text-3xl font-semibold">Or pick a skill</h2>{grid([strands])}</section>
+<section id="levels" class="wrap scroll-mt-28 py-12"><h2 class="text-3xl font-semibold" data-reveal>Start where you are</h2>
+<p class="mt-1 text-muted" data-reveal>Not sure of your level? Pick the one whose lessons look just slightly too hard.</p>{grid([levels])}</section>
+<section id="skills" class="wrap scroll-mt-28 pb-4"><h2 class="text-3xl font-semibold" data-reveal>Or pick a skill</h2>{grid([strands])}</section>
 </main>'''
     write(rel, frame(rel, f"{c['name']} | {C['site_name']}", body, k, f'<script src="../assets/js/site.js"></script>'))
 
@@ -774,12 +792,12 @@ def level_page(k, code, items):
     c, rel = C["courses"][k], f"{k}/level/{code}.html"
     body = f'''<main class="wrap py-8 sm:py-12">
 <nav class="text-sm text-muted" data-nav><a class="hover:text-accent" href="../index.html">{e(c["name"])}</a> / Levels</nav>
-<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl"><span class="text-accent">{lv(code)}</span> &middot; {e(C["levels"][code])}</h1>
-<p class="mt-2 max-w-2xl text-xl text-muted">{e(c["can"][code])}</p>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-split><span class="text-accent">{lv(code)}</span> &middot; {e(C["levels"][code])}</h1>
+<p class="mt-2 max-w-2xl text-xl text-muted" data-reveal>{e(c["can"][code])}</p>
 <div class="mt-4 flex flex-wrap gap-2">{"".join(f'<a class="btn py-1.5{" btn-on" if x == code else ""}" href="{x}.html">{lv(x)}</a>' for x in c["levels"])}</div>'''
     for s in c["strands"]:
         ls = [L for L in items if L["strand"] == s and L.get("level") == code]
-        body += f'<section class="mt-10"><h2 class="text-2xl font-semibold">{e(C["strands"][s][0])}</h2>'
+        body += f'<section class="mt-10"><h2 class="text-2xl font-semibold" data-reveal>{e(C["strands"][s][0])}</h2>'
         body += grid([tile(L, rel, False) for L in ls]) if ls else soon(f"{C['strands'][s][0]} lessons for {lv(code)} are not written yet.")
         body += "</section>"
     write(rel, frame(rel, f"{lv(code)} | {c['name']}", body + "</main>", k, '<script src="../../assets/js/site.js"></script>'))
@@ -790,8 +808,8 @@ def strand_page(k, s, items):
     ls = [L for L in items if L["strand"] == s]
     body = f'''<main class="wrap py-8 sm:py-12">
 <nav class="text-sm text-muted" data-nav><a class="hover:text-accent" href="../index.html">{e(c["name"])}</a></nav>
-<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">{e(C["strands"][s][0])}</h1>
-<p class="mt-2 text-xl text-muted">{e(strand_text(k, s))}</p>'''
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-split>{e(C["strands"][s][0])}</h1>
+<p class="mt-2 text-xl text-muted" data-reveal>{e(strand_text(k, s))}</p>'''
     topics = []
     for L in ls:
         t = L.get("topic") or "Lessons"
@@ -800,28 +818,79 @@ def strand_page(k, s, items):
     for t in topics:
         group = sorted([L for L in ls if (L.get("topic") or "Lessons") == t],
                        key=lambda L: (lib.LEVEL_ORDER.index(L["level"]) if L.get("level") in lib.LEVEL_ORDER else 9, L.get("order", 500), lib.natural(L["slug"])))
-        body += f'<section class="mt-10"><h2 class="text-2xl font-semibold">{e(t)}</h2>{grid([tile(L, rel) for L in group])}</section>'
+        body += f'<section class="mt-10"><h2 class="text-2xl font-semibold" data-reveal>{e(t)}</h2>{grid([tile(L, rel) for L in group])}</section>'
     if not ls:
         body += soon("These lessons are not written yet.")
     write(rel, frame(rel, f"{C['strands'][s][0]} | {c['name']}", body + "</main>", k, '<script src="../../assets/js/site.js"></script>'))
 
 
+# Home page: words for the moving band under the hero, and the four steps of a lesson
+GREETINGS = [("fr", "fr", "Bonjour"), ("eng", "en", "Hello"), ("jap", "ja", "こんにちは"), ("kor", "ko", "안녕하세요"), ("eng", "my", "မင်္ဂလာပါ"),
+             ("fr", "fr", "Merci"), ("eng", "en", "Thank you"), ("jap", "ja", "ありがとう"), ("kor", "ko", "감사합니다"), ("fr", "fr", "À bientôt")]
+STEPS = [("Listen", "Hear it first. Read it after.", '<path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>'),
+         ("Read", "Read it, and tap any part to hear it again.", '<path d="M12 6.5C10 5 7 4.5 4 5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V5c-3-.5-6 0-8 1.5z"/><path d="M12 6.5V19.5"/>'),
+         ("Speak", "Say it out loud, with the recording and then alone.", '<path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 11h.01M12 11h.01M16 11h.01"/>'),
+         ("Check", "A short quiz shows what stuck.", '<circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/>')]
+ARROW = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
+
+
 def home(all_lessons):
+    """The home page. The hero is the globe (assets/js/globe.js, tools/globe.py): a dark band the canvas fills.
+    data-globe-slot is the square the globe sits in; each .globe-pin is the label that follows a country;
+    anything with data-globe-link turns the globe to that course's country when pointed at."""
+    courses = C["courses"]
+    nat = lambda c: f'lang="{c.get("native_lang", c["lang"])}"'
+    total = sum(1 for L in all_lessons if L["course"] in courses)
     tiles = ""
-    for k, c in C["courses"].items():
+    for k, c in courses.items():
         n = sum(1 for L in all_lessons if L["course"] == k)
-        tiles += f'''<a class="tile p-7" data-course="{k}" href="{k}/index.html">
-<p class="font-display text-4xl font-semibold italic text-accent" lang="{c.get("native_lang", c["lang"])}">{e(c["native"])}</p>
-<h2 class="mt-3 text-2xl font-semibold">{e(c["name"])}</h2>
+        tiles += f'''<a class="tile course-tile p-7" data-reveal data-course="{k}" data-globe-link="{k}" href="{k}/index.html">
+<span class="go">{ARROW}</span>
+<p class="font-display text-4xl font-semibold italic text-accent" {nat(c)}>{e(c["native"])}</p>
+<h3 class="mt-3 text-2xl font-semibold">{e(c["name"])}</h3>
 <p class="mt-2 flex flex-wrap gap-1.5"><span class="chip chip-accent">{e(c["for"])}</span><span class="chip">{e(c["range"])}</span></p>
 <p class="mt-3 text-muted">{e(c["tagline"])}</p>
-<p class="mt-4 text-sm font-bold text-accent">{n} lesson{"" if n == 1 else "s"} &rarr;</p></a>'''
-    body = f'''<main><section class="wrap py-14 sm:py-20">
-<h1 class="max-w-3xl text-5xl font-semibold tracking-tight sm:text-6xl">Learn a language by ear, by eye and out loud.</h1>
-<p class="mt-5 max-w-2xl text-xl text-muted">Free lessons with real audio. Read, listen, speak, and check what stuck.</p>
-<div class="mt-10 grid gap-5 {"md:grid-cols-3" if len(C["courses"]) % 3 == 0 else "md:grid-cols-2"}">{tiles}</div>
-</section></main>'''
-    write("index.html", frame("index.html", C["site_name"], body))
+<p class="mt-4 text-sm font-bold text-accent"><span data-count="{n}">{n}</span> lesson{"" if n == 1 else "s"}</p></a>'''
+    pill = lambda k, c: f'<a class="lang-pill" data-globe-link="{k}" data-course="{k}" href="{k}/index.html"><b {nat(c)}>{e(c["native"])}</b><span>{e(c["name"])}</span></a>'
+    pills = "".join(pill(k, c) for k, c in courses.items())
+    pins = "".join(f'<a class="globe-pin" data-globe="{k}" data-course="{k}" href="{k}/index.html" tabindex="-1" aria-hidden="true"><b {nat(c)}>{e(c["native"])}</b><span>{e(c["name"])}</span></a>'
+                   for k, c in courses.items())
+    words = "".join(f'<span data-course="{k}" lang="{lang}">{e(w)}</span>' for k, lang, w in GREETINGS)
+    steps = "".join(f'''<li class="how-step" data-reveal><span class="how-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{icon}</svg></span>
+<p class="how-n">Step {i}</p><h3 class="text-xl font-semibold">{name}</h3><p class="mt-1 text-muted">{e(text)}</p></li>''' for i, (name, text, icon) in enumerate(STEPS, 1))
+    body = f'''<main>
+<section class="space" data-globe-root>
+<canvas data-hero="globe" aria-hidden="true"></canvas>
+<div class="wrap space-grid">
+<div class="space-copy">
+<p class="eyebrow" data-reveal><i></i>Free for everyone &middot; No account</p>
+<h1 data-split>Learn a language by ear, by eye and <em>out loud.</em></h1>
+<p class="space-lead" data-reveal>Free lessons with real audio. Read, listen, speak, and check what stuck.</p>
+<div class="space-langs" data-reveal>{pills}</div>
+</div>
+<div class="globe-slot" data-globe-slot><p class="globe-hint" aria-hidden="true">Drag to spin &middot; pick a country</p></div>
+</div>
+{pins}
+<a class="space-cue" href="#courses" aria-label="See the courses"><i></i></a>
+</section>
+<div class="marquee" aria-hidden="true"><div class="marquee-track">{words}{words}</div></div>
+<section id="courses" class="wrap scroll-mt-20 pb-6 pt-10 sm:pt-14">
+<p class="kicker" data-reveal>The courses</p>
+<h2 class="mt-2 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>{len(courses)} languages, <span class="text-accent"><span data-count="{total}">{total}</span> lessons</span>, all free.</h2>
+<div class="mt-8 grid gap-5 {"md:grid-cols-3" if len(courses) % 3 == 0 else "md:grid-cols-2"}">{tiles}</div>
+</section>
+<section class="wrap py-14 sm:py-20">
+<p class="kicker" data-reveal>How a lesson works</p>
+<h2 class="mt-2 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Ears first. Then eyes. Then your own voice.</h2>
+<div class="how"><div class="how-line"><i data-draw></i></div><ol class="how-steps">{steps}</ol></div>
+</section>
+<section class="wrap pb-4"><div class="outro" data-reveal>
+<h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Pick a language and press play.</h2>
+<p class="mt-2 text-white/70">No sign-up. Every lesson is open.</p>
+<div class="space-langs">{pills}</div>
+</div></section>
+</main>'''
+    write("index.html", frame("index.html", C["site_name"], body, cls="site home"))
 
 
 def offline_index(all_lessons, have):

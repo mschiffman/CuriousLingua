@@ -6,8 +6,9 @@
 <title>Languages</title>
 <link rel="icon" href="assets/img/favicon.svg">
 <link rel="stylesheet" href="assets/css/site.css">
+<script>(function(d){var c=navigator.connection;if(matchMedia("(prefers-reduced-motion: reduce)").matches||(c&&(c.saveData||/2g|3g/.test(c.effectiveType||"")))){d.classList.add("lite");return}d.classList.add("motion");setTimeout(function(){if(!window.__motion)d.classList.remove("motion")},3000)})(document.documentElement)</script>
 </head>
-<body class="site">
+<body class="site home">
 <header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
 <div class="wrap flex h-12 items-center gap-2 sm:h-14">
 <a href="index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
@@ -18,34 +19,72 @@
 <nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="jap/index.html"><b>Japanese</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="kor" href="kor/index.html"><b>Korean</b></a></nav>
 </details>
 </div></header>
-<main><section class="wrap py-14 sm:py-20">
-<h1 class="max-w-3xl text-5xl font-semibold tracking-tight sm:text-6xl">Learn a language by ear, by eye and out loud.</h1>
-<p class="mt-5 max-w-2xl text-xl text-muted">Free lessons with real audio. Read, listen, speak, and check what stuck.</p>
-<div class="mt-10 grid gap-5 md:grid-cols-2"><a class="tile p-7" data-course="fr" href="fr/index.html">
+<main>
+<section class="space" data-globe-root>
+<canvas data-hero="globe" aria-hidden="true"></canvas>
+<div class="wrap space-grid">
+<div class="space-copy">
+<p class="eyebrow" data-reveal><i></i>Free for everyone &middot; No account</p>
+<h1 data-split>Learn a language by ear, by eye and <em>out loud.</em></h1>
+<p class="space-lead" data-reveal>Free lessons with real audio. Read, listen, speak, and check what stuck.</p>
+<div class="space-langs" data-reveal><a class="lang-pill" data-globe-link="fr" data-course="fr" href="fr/index.html"><b lang="fr">Français</b><span>French</span></a><a class="lang-pill" data-globe-link="eng" data-course="eng" href="eng/index.html"><b lang="my">အင်္ဂလိပ်စာ</b><span>English</span></a><a class="lang-pill" data-globe-link="jap" data-course="jap" href="jap/index.html"><b lang="ja">日本語</b><span>Japanese</span></a><a class="lang-pill" data-globe-link="kor" data-course="kor" href="kor/index.html"><b lang="ko">한국어</b><span>Korean</span></a></div>
+</div>
+<div class="globe-slot" data-globe-slot><p class="globe-hint" aria-hidden="true">Drag to spin &middot; pick a country</p></div>
+</div>
+<a class="globe-pin" data-globe="fr" data-course="fr" href="fr/index.html" tabindex="-1" aria-hidden="true"><b lang="fr">Français</b><span>French</span></a><a class="globe-pin" data-globe="eng" data-course="eng" href="eng/index.html" tabindex="-1" aria-hidden="true"><b lang="my">အင်္ဂလိပ်စာ</b><span>English</span></a><a class="globe-pin" data-globe="jap" data-course="jap" href="jap/index.html" tabindex="-1" aria-hidden="true"><b lang="ja">日本語</b><span>Japanese</span></a><a class="globe-pin" data-globe="kor" data-course="kor" href="kor/index.html" tabindex="-1" aria-hidden="true"><b lang="ko">한국어</b><span>Korean</span></a>
+<a class="space-cue" href="#courses" aria-label="See the courses"><i></i></a>
+</section>
+<div class="marquee" aria-hidden="true"><div class="marquee-track"><span data-course="fr" lang="fr">Bonjour</span><span data-course="eng" lang="en">Hello</span><span data-course="jap" lang="ja">こんにちは</span><span data-course="kor" lang="ko">안녕하세요</span><span data-course="eng" lang="my">မင်္ဂလာပါ</span><span data-course="fr" lang="fr">Merci</span><span data-course="eng" lang="en">Thank you</span><span data-course="jap" lang="ja">ありがとう</span><span data-course="kor" lang="ko">감사합니다</span><span data-course="fr" lang="fr">À bientôt</span><span data-course="fr" lang="fr">Bonjour</span><span data-course="eng" lang="en">Hello</span><span data-course="jap" lang="ja">こんにちは</span><span data-course="kor" lang="ko">안녕하세요</span><span data-course="eng" lang="my">မင်္ဂလာပါ</span><span data-course="fr" lang="fr">Merci</span><span data-course="eng" lang="en">Thank you</span><span data-course="jap" lang="ja">ありがとう</span><span data-course="kor" lang="ko">감사합니다</span><span data-course="fr" lang="fr">À bientôt</span></div></div>
+<section id="courses" class="wrap scroll-mt-20 pb-6 pt-10 sm:pt-14">
+<p class="kicker" data-reveal>The courses</p>
+<h2 class="mt-2 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>4 languages, <span class="text-accent"><span data-count="200">200</span> lessons</span>, all free.</h2>
+<div class="mt-8 grid gap-5 md:grid-cols-2"><a class="tile course-tile p-7" data-reveal data-course="fr" data-globe-link="fr" href="fr/index.html">
+<span class="go"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
 <p class="font-display text-4xl font-semibold italic text-accent" lang="fr">Français</p>
-<h2 class="mt-3 text-2xl font-semibold">French</h2>
+<h3 class="mt-3 text-2xl font-semibold">French</h3>
 <p class="mt-2 flex flex-wrap gap-1.5"><span class="chip chip-accent">For adults</span><span class="chip">A1 to C1</span></p>
 <p class="mt-3 text-muted">French as it is spoken, from your first bonjour to C1.</p>
-<p class="mt-4 text-sm font-bold text-accent">86 lessons &rarr;</p></a><a class="tile p-7" data-course="eng" href="eng/index.html">
+<p class="mt-4 text-sm font-bold text-accent"><span data-count="86">86</span> lessons</p></a><a class="tile course-tile p-7" data-reveal data-course="eng" data-globe-link="eng" href="eng/index.html">
+<span class="go"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
 <p class="font-display text-4xl font-semibold italic text-accent" lang="my">အင်္ဂလိပ်စာ</p>
-<h2 class="mt-3 text-2xl font-semibold">English</h2>
+<h3 class="mt-3 text-2xl font-semibold">English</h3>
 <p class="mt-2 flex flex-wrap gap-1.5"><span class="chip chip-accent">For children in Myanmar</span><span class="chip">Starter to C1</span></p>
 <p class="mt-3 text-muted">Stories, pictures and everyday English, with Burmese when you need it.</p>
-<p class="mt-4 text-sm font-bold text-accent">88 lessons &rarr;</p></a><a class="tile p-7" data-course="jap" href="jap/index.html">
+<p class="mt-4 text-sm font-bold text-accent"><span data-count="88">88</span> lessons</p></a><a class="tile course-tile p-7" data-reveal data-course="jap" data-globe-link="jap" href="jap/index.html">
+<span class="go"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
 <p class="font-display text-4xl font-semibold italic text-accent" lang="ja">日本語</p>
-<h2 class="mt-3 text-2xl font-semibold">Japanese</h2>
+<h3 class="mt-3 text-2xl font-semibold">Japanese</h3>
 <p class="mt-2 flex flex-wrap gap-1.5"><span class="chip chip-accent">Speaking only</span><span class="chip">A1 to B2</span></p>
 <p class="mt-3 text-muted">Spoken Japanese by ear: no writing to learn. English and Burmese support.</p>
-<p class="mt-4 text-sm font-bold text-accent">13 lessons &rarr;</p></a><a class="tile p-7" data-course="kor" href="kor/index.html">
+<p class="mt-4 text-sm font-bold text-accent"><span data-count="13">13</span> lessons</p></a><a class="tile course-tile p-7" data-reveal data-course="kor" data-globe-link="kor" href="kor/index.html">
+<span class="go"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
 <p class="font-display text-4xl font-semibold italic text-accent" lang="ko">한국어</p>
-<h2 class="mt-3 text-2xl font-semibold">Korean</h2>
+<h3 class="mt-3 text-2xl font-semibold">Korean</h3>
 <p class="mt-2 flex flex-wrap gap-1.5"><span class="chip chip-accent">Speaking first</span><span class="chip">A1 to B2</span></p>
 <p class="mt-3 text-muted">Spoken Korean by ear, with Hangul beside every line. English and Burmese support.</p>
-<p class="mt-4 text-sm font-bold text-accent">13 lessons &rarr;</p></a></div>
-</section></main>
+<p class="mt-4 text-sm font-bold text-accent"><span data-count="13">13</span> lessons</p></a></div>
+</section>
+<section class="wrap py-14 sm:py-20">
+<p class="kicker" data-reveal>How a lesson works</p>
+<h2 class="mt-2 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Ears first. Then eyes. Then your own voice.</h2>
+<div class="how"><div class="how-line"><i data-draw></i></div><ol class="how-steps"><li class="how-step" data-reveal><span class="how-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span>
+<p class="how-n">Step 1</p><h3 class="text-xl font-semibold">Listen</h3><p class="mt-1 text-muted">Hear it first. Read it after.</p></li><li class="how-step" data-reveal><span class="how-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10 5 7 4.5 4 5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V5c-3-.5-6 0-8 1.5z"/><path d="M12 6.5V19.5"/></svg></span>
+<p class="how-n">Step 2</p><h3 class="text-xl font-semibold">Read</h3><p class="mt-1 text-muted">Read it, and tap any part to hear it again.</p></li><li class="how-step" data-reveal><span class="how-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 11h.01M12 11h.01M16 11h.01"/></svg></span>
+<p class="how-n">Step 3</p><h3 class="text-xl font-semibold">Speak</h3><p class="mt-1 text-muted">Say it out loud, with the recording and then alone.</p></li><li class="how-step" data-reveal><span class="how-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></svg></span>
+<p class="how-n">Step 4</p><h3 class="text-xl font-semibold">Check</h3><p class="mt-1 text-muted">A short quiz shows what stuck.</p></li></ol></div>
+</section>
+<section class="wrap pb-4"><div class="outro" data-reveal>
+<h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Pick a language and press play.</h2>
+<p class="mt-2 text-white/70">No sign-up. Every lesson is open.</p>
+<div class="space-langs"><a class="lang-pill" data-globe-link="fr" data-course="fr" href="fr/index.html"><b lang="fr">Français</b><span>French</span></a><a class="lang-pill" data-globe-link="eng" data-course="eng" href="eng/index.html"><b lang="my">အင်္ဂလိပ်စာ</b><span>English</span></a><a class="lang-pill" data-globe-link="jap" data-course="jap" href="jap/index.html"><b lang="ja">日本語</b><span>Japanese</span></a><a class="lang-pill" data-globe-link="kor" data-course="kor" href="kor/index.html"><b lang="ko">한국어</b><span>Korean</span></a></div>
+</div></section>
+</main>
 <footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
 <span class="font-display text-base font-semibold text-ink">Languages</span>
 <span>Free for everyone. No account, no paywall.</span></div></footer>
 
+<script defer src="assets/vendor/gsap.min.js"></script>
+<script defer src="assets/vendor/ScrollTrigger.min.js"></script>
+<script defer src="assets/js/motion.js"></script>
 </body>
 </html>

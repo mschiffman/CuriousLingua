@@ -97,6 +97,10 @@ This folder is a git repository; its remote is the public GitHub repository `msc
 
 Page shells are in `tools\build.py`, behaviour in `assets\js\site.js`, colours and fonts in `tools\tailwind.config.js` and `tools\site.src.css`. After changing classes, run `tools\rebuild_css.bat` (needs Node). Adding lessons never needs it.
 
+**Motion.** `assets\js\motion.js` (GSAP, in `assets\vendor\`) runs on every page: titles rise word by word, tiles fade in as they scroll into view, numbers count up, tiles lean toward the mouse. Visitors who ask for reduced motion, or are on a slow or data-saver connection, get the plain page (`<html class="lite">`).
+
+**The home page globe.** `assets\js\globe.js` (Three.js) draws the Earth in the dark hero: the four course countries are lit, the globe tours between them, it can be dragged, and a click on a country (or its label, or a language button) flies in and opens that course. Which country belongs to which course, and where its label sits, is at the top of `tools\globe.py` (`HIGHLIGHT`, `ANCHOR`, `LABEL`); run `python -E tools\globe.py` after changing it (needs Pillow). It writes the pictures in `assets\img\globe\` and the borders in `assets\data\globe.json`; its source files are kept in `_archive\globe-src\` (not in git, downloaded again when missing). In lite mode, and until the 3D globe has loaded, the page shows the still picture `assets\img\globe\poster.webp`. The home page text (the four steps, the greetings that drift by) is in `home()` in `tools\build.py`; the bright course colours for the dark hero are `--glow` in `tools\site.src.css`.
+
 The expression pages keep their original design: `assets\css\cards.css`, `expression-flash.js` and `expression-quiz.js` are copies of the originals.
 
 ## Where things came from

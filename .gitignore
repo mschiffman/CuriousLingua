@@ -10,3 +10,6 @@ site.zip
 node_modules/
 # Claude session folders
 .claude/
+
+# source files for the globe: tools/globe.py downloads them again when missing
+_archive/globe-src/

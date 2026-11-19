@@ -6,6 +6,7 @@
 <title>Double consonants | Japanese</title>
 <link rel="icon" href="../../assets/img/favicon.svg">
 <link rel="stylesheet" href="../../assets/css/site.css">
+<script>(function(d){var c=navigator.connection;if(matchMedia("(prefers-reduced-motion: reduce)").matches||(c&&(c.saveData||/2g|3g/.test(c.effectiveType||"")))){d.classList.add("lite");return}d.classList.add("motion");setTimeout(function(){if(!window.__motion)d.classList.remove("motion")},3000)})(document.documentElement)</script>
 <style>
 .wl-hero{display:block;width:100%;max-height:24rem;object-fit:contain;border:1px solid #E4DCCF;border-radius:1rem;background:#fff}
 .wl-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr))}
@@ -50,10 +51,10 @@
 <main class="wrap py-6 sm:py-10">
 <nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../jap/index.html">Japanese</a><span>/</span><a class="hover:text-accent" href="../../jap/sounds/index.html">Sounds</a></nav>
 
-<div class="mt-4 flex flex-wrap items-center gap-2"><span class="chip chip-accent">A1</span><span class="chip">Sounds of Japanese</span></div>
-<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Double consonants</h1>
-<p class="mt-2 text-xl text-muted">きて / きって</p>
-<p class="mt-3 max-w-2xl text-muted">A small っ is a silent beat. Stop for one beat, then release the next consonant. Miss it and you say a different word.</p>
+<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip chip-accent">A1</span><span class="chip">Sounds of Japanese</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Double consonants</h1>
+<p class="mt-2 text-xl text-muted" data-reveal>きて / きって</p>
+<p class="mt-3 max-w-2xl text-muted" data-reveal>A small っ is a silent beat. Stop for one beat, then release the next consonant. Miss it and you say a different word.</p>
 
 <section x-data="words" class="mt-6">
 <img x-show="hero" x-cloak :src="hero" :alt="alt" class="wl-hero">
@@ -109,5 +110,8 @@
 <script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"Double consonants","subtitle":"きて / きって","level":"a1","topic":"Sounds of Japanese","order":3,"type":"words","review":"Written by Claude. The Japanese, the romaji and the recordings have not been checked by a Japanese speaker.","intro":"A small っ is a silent beat. Stop for one beat, then release the next consonant. Miss it and you say a different word.","listen_pick":"fr","glossary_dir":"jap/sounds/double_consonants/","audio_ver":"2611171548","voices":["ilBjLtdEW3SkjRXakAkO","r4qMc0xxpfgMQciUmPHW"],"groups":[{"title":"k and kk","notes":["Clap the beats: ka-ko has two, ka-(stop)-ko has three."],"words":[{"fr":"kako","ipa":"かこ","en":"the past","say":"過去","audio":"001.mp3","n":1},{"fr":"kakko","ipa":"かっこ","en":"brackets","say":"括弧","audio":"002.mp3","n":2},{"fr":"saka","ipa":"さか","en":"slope","say":"さか","audio":"003.mp3","n":3},{"fr":"sakka","ipa":"さっか","en":"writer","say":"作家","audio":"004.mp3","n":4}]},{"title":"t and tt","words":[{"fr":"kite","ipa":"きて","en":"come (please)","say":"きて","audio":"005.mp3","n":5},{"fr":"kitte","ipa":"きって","en":"stamp","say":"切手","audio":"006.mp3","n":6},{"fr":"oto","ipa":"おと","en":"sound","say":"おと","audio":"007.mp3","n":7},{"fr":"otto","ipa":"おっと","en":"husband","say":"おっと","audio":"008.mp3","n":8},{"fr":"moto","ipa":"もと","en":"origin","say":"もと","audio":"009.mp3","n":9},{"fr":"motto","ipa":"もっと","en":"more","audio":"010.mp3","say":"もっと","n":10}]},{"title":"p and others","words":[{"fr":"supai","ipa":"スパイ","en":"spy","audio":"011.mp3","say":"スパイ","n":11},{"fr":"suppai","ipa":"すっぱい","en":"sour","say":"酸っぱい","audio":"012.mp3","n":12},{"fr":"machi","ipa":"まち","en":"town","say":"まち","audio":"013.mp3","n":13},{"fr":"matchi","ipa":"マッチ","en":"match","audio":"014.mp3","say":"マッチ","n":14}]}],"course":"jap","strand":"sounds","slug":"double_consonants"};</script>
 <script src="../../assets/js/site.js"></script>
 <script defer src="../../assets/js/alpine.min.js"></script>
+<script defer src="../../assets/vendor/gsap.min.js"></script>
+<script defer src="../../assets/vendor/ScrollTrigger.min.js"></script>
+<script defer src="../../assets/js/motion.js"></script>
 </body>
 </html>
