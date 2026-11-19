@@ -285,6 +285,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/se_presenter",
+  "url": "fr/listening/se_presenter.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "People",
+  "type": "dialogue",
+  "title": "Se présenter",
+  "clips": 13,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/toujours_raison",
   "url": "fr/listening/toujours_raison.html",
   "course": "fr",

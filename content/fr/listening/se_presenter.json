@@ -1,0 +1,178 @@
+{
+ "title": "Se présenter",
+ "subtitle": "Name, country, age, job and home",
+ "level": "a1",
+ "topic": "People",
+ "type": "dialogue",
+ "register": "casual (tu), two young adults meeting for the first time",
+ "review": "Dialogue and key expressions from the user (introduction_fr.md). English translations, questions and notes by Claude: check them.",
+ "intro": "Emma and Lucas meet for the first time and ask each other the five big questions: name, where you're from, age, job, and where you live. Listen for the question, then the answer.",
+ "aud_dir": "fr/listening/se_presenter/",
+ "aud_ext": "mp3?v=2611191535",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "3YsdE1c1xyJow6Iy6jWB",
+  "L": "raorKQeRhtnNgyXX4Iqm"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "E",
+   "text": "Bonjour ! Je m'appelle Emma. Et toi, comment tu t'appelles ?",
+   "tr": {
+    "en": "Hello! My name is Emma. And you, what's your name?"
+   }
+  },
+  {
+   "who": "L",
+   "text": "Salut, Emma ! Moi, c'est Lucas. Enchanté.",
+   "tr": {
+    "en": "Hi, Emma! I'm Lucas. Nice to meet you."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Enchantée. Tu es d'où, Lucas ?",
+   "tr": {
+    "en": "Nice to meet you. Where are you from, Lucas?"
+   }
+  },
+  {
+   "who": "L",
+   "text": "Je suis canadien. Je viens de Montréal. Et toi ?",
+   "tr": {
+    "en": "I'm Canadian. I come from Montreal. And you?"
+   }
+  },
+  {
+   "who": "E",
+   "text": "Moi, je suis française. Je viens de Bordeaux. Tu as quel âge ?",
+   "tr": {
+    "en": "I'm French. I come from Bordeaux. How old are you?"
+   }
+  },
+  {
+   "who": "L",
+   "text": "J'ai vingt-huit ans. Et toi ?",
+   "tr": {
+    "en": "I'm twenty-eight. And you?"
+   }
+  },
+  {
+   "who": "E",
+   "text": "J'ai trente ans. Qu'est-ce que tu fais dans la vie ?",
+   "tr": {
+    "en": "I'm thirty. What do you do for a living?"
+   }
+  },
+  {
+   "who": "L",
+   "text": "Je suis professeur d'anglais. Et toi, tu travailles ?",
+   "tr": {
+    "en": "I'm an English teacher. And you, do you work?"
+   }
+  },
+  {
+   "who": "E",
+   "text": "Oui, je suis infirmière. Je travaille dans un hôpital.",
+   "tr": {
+    "en": "Yes, I'm a nurse. I work in a hospital."
+   }
+  },
+  {
+   "who": "L",
+   "text": "Et tu habites où ?",
+   "tr": {
+    "en": "And where do you live?"
+   }
+  },
+  {
+   "who": "E",
+   "text": "J'habite à Lyon, près du centre-ville. Et toi ?",
+   "tr": {
+    "en": "I live in Lyon, near the town centre. And you?"
+   }
+  },
+  {
+   "who": "L",
+   "text": "Moi aussi, j'habite à Lyon ! Dans un petit appartement.",
+   "tr": {
+    "en": "I live in Lyon too! In a small flat."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Super ! À bientôt, alors !",
+   "tr": {
+    "en": "Great! See you soon, then!"
+   }
+  }
+ ],
+ "notes": [
+  "Your name: Comment tu t'appelles ? = What's your name? Je m'appelle Emma. / Moi, c'est Lucas. (more relaxed)",
+  "Enchanté(e) = Nice to meet you. Lucas says enchanté, Emma says enchantée: the extra e is for a woman and sounds the same.",
+  "Where you're from: Tu es d'où ? Je suis canadien (a man) / canadienne (a woman); français / française. Je viens de Montréal = I come from Montreal.",
+  "Your age: Tu as quel âge ? J'ai vingt-huit ans. French uses avoir (to have) for age, and you always say ans: J'ai trente ans, never just J'ai trente.",
+  "Your job: Qu'est-ce que tu fais dans la vie ? = What do you do (for a living)? Je suis professeur, je suis infirmière: no un or une before a job. Je travaille dans un hôpital = I work in a hospital.",
+  "Where you live: Tu habites où ? J'habite à Lyon. à + a city.",
+  "Moi aussi = Me too. À bientôt = See you soon."
+ ],
+ "questions": [
+  {
+   "q": "Where does Lucas come from?",
+   "options": [
+    "Bordeaux",
+    "Montreal",
+    "Lyon"
+   ],
+   "answer": 1,
+   "why": "Je suis canadien. Je viens de Montréal."
+  },
+  {
+   "q": "How old is Emma?",
+   "options": [
+    "Twenty-eight",
+    "Twenty",
+    "Thirty"
+   ],
+   "answer": 2,
+   "why": "J'ai trente ans."
+  },
+  {
+   "q": "What is Emma's job?",
+   "options": [
+    "She is a nurse",
+    "She is an English teacher",
+    "She is a student"
+   ],
+   "answer": 0,
+   "why": "Oui, je suis infirmière. Je travaille dans un hôpital."
+  },
+  {
+   "q": "What do Emma and Lucas have in common?",
+   "options": [
+    "They are the same age",
+    "They both live in Lyon",
+    "They both come from France"
+   ],
+   "answer": 1,
+   "why": "Moi aussi, j'habite à Lyon !"
+  },
+  {
+   "q": "Which question asks what someone does for a living?",
+   "options": [
+    "Tu es d'où ?",
+    "Tu as quel âge ?",
+    "Qu'est-ce que tu fais dans la vie ?"
+   ],
+   "answer": 2,
+   "why": "Qu'est-ce que tu fais dans la vie ? = What do you do for a living?"
+  }
+ ]
+}
