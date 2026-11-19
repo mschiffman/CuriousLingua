@@ -16,10 +16,14 @@
   "Take a role and say your lines in the pauses."
  ],
  "aud_dir": "kor/listening/directions/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611190617",
  "speakers": {
   "A": "Passer-by",
   "B": "Traveller"
+ },
+ "voice": {
+  "A": "VbTgjIEEf6wOp8VO6e1d",
+  "B": "a56U0CwmkS2XRdehaj4y"
  },
  "support": [
   "en"

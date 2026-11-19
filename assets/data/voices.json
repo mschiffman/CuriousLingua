@@ -22,9 +22,10 @@
   "whisper": "ja"
  },
  "kor": {
-  "name": "",
-  "voice": "",
+  "name": "Ko-Jisoo",
+  "voice": "VWubYGaSOgG3kBUXWbVM",
   "model": "eleven_v4",
+  "word_model": "eleven_v4",
   "lufs": -16,
   "whisper": "ko"
  }

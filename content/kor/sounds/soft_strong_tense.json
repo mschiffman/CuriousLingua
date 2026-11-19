@@ -9,6 +9,11 @@
  "intro": "Many Korean consonants come in three kinds: soft, strong (with a puff of air) and tense (tight, with no air). English has nothing like it, and the kind you choose changes the word.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/soft_strong_tense/",
+ "audio_ver": "2611190618",
+ "voices": [
+  "VWubYGaSOgG3kBUXWbVM",
+  "FSDPAI7v5T7eeHsoRc5N"
+ ],
  "groups": [
   {
    "title": "g, k and kk",
@@ -20,25 +25,29 @@
      "fr": "gong",
      "ipa": "공",
      "en": "ball",
-     "say": "공"
+     "say": "공",
+     "audio": "001.mp3"
     },
     {
      "fr": "kong",
      "ipa": "콩",
      "en": "bean",
-     "say": "콩"
+     "say": "콩",
+     "audio": "002.mp3"
     },
     {
      "fr": "gul",
      "ipa": "굴",
      "en": "oyster",
-     "say": "굴"
+     "say": "굴",
+     "audio": "003.mp3"
     },
     {
      "fr": "kkul",
      "ipa": "꿀",
      "en": "honey",
-     "say": "꿀"
+     "say": "꿀",
+     "audio": "004.mp3"
     }
    ]
   },
@@ -49,19 +58,22 @@
      "fr": "dal",
      "ipa": "달",
      "en": "moon",
-     "say": "달"
+     "say": "달",
+     "audio": "005.mp3"
     },
     {
      "fr": "tal",
      "ipa": "탈",
      "en": "mask",
-     "say": "탈"
+     "say": "탈",
+     "audio": "006.mp3"
     },
     {
      "fr": "ttal",
      "ipa": "딸",
      "en": "daughter",
-     "say": "딸"
+     "say": "딸",
+     "audio": "007.mp3"
     }
    ]
   },
@@ -72,19 +84,22 @@
      "fr": "bul",
      "ipa": "불",
      "en": "fire",
-     "say": "불"
+     "say": "불",
+     "audio": "008.mp3"
     },
     {
      "fr": "pul",
      "ipa": "풀",
      "en": "grass",
-     "say": "풀"
+     "say": "풀",
+     "audio": "009.mp3"
     },
     {
      "fr": "ppul",
      "ipa": "뿔",
      "en": "horn",
-     "say": "뿔"
+     "say": "뿔",
+     "audio": "010.mp3"
     }
    ]
   },
@@ -95,19 +110,22 @@
      "fr": "jada",
      "ipa": "자다",
      "en": "to sleep",
-     "say": "자다"
+     "say": "자다",
+     "audio": "011.mp3"
     },
     {
      "fr": "chada",
      "ipa": "차다",
      "en": "to kick",
-     "say": "차다"
+     "say": "차다",
+     "audio": "012.mp3"
     },
     {
      "fr": "jjada",
      "ipa": "짜다",
      "en": "to be salty",
-     "say": "짜다"
+     "say": "짜다",
+     "audio": "013.mp3"
     }
    ]
   },
@@ -121,25 +139,29 @@
      "fr": "sada",
      "ipa": "사다",
      "en": "to buy",
-     "say": "사다"
+     "say": "사다",
+     "audio": "014.mp3"
     },
     {
      "fr": "ssada",
      "ipa": "싸다",
      "en": "to be cheap",
-     "say": "싸다"
+     "say": "싸다",
+     "audio": "015.mp3"
     },
     {
      "fr": "sal",
      "ipa": "살",
      "en": "flesh",
-     "say": "살"
+     "say": "살",
+     "audio": "016.mp3"
     },
     {
      "fr": "ssal",
      "ipa": "쌀",
      "en": "rice (uncooked)",
-     "say": "쌀"
+     "say": "쌀",
+     "audio": "017.mp3"
     }
    ]
   }

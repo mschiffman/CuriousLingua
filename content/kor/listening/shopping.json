@@ -16,10 +16,14 @@
   "Take a role and say your lines in the pauses."
  ],
  "aud_dir": "kor/listening/shopping/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611190616",
  "speakers": {
   "A": "Customer",
   "B": "Shop assistant"
+ },
+ "voice": {
+  "A": "VWubYGaSOgG3kBUXWbVM",
+  "B": "FSDPAI7v5T7eeHsoRc5N"
  },
  "support": [
   "en"

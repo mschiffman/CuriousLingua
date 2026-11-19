@@ -16,10 +16,14 @@
   "Take a role and say your lines in the pauses."
  ],
  "aud_dir": "kor/listening/cafe/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611190616",
  "speakers": {
   "A": "Staff",
   "B": "Customer"
+ },
+ "voice": {
+  "A": "VbTgjIEEf6wOp8VO6e1d",
+  "B": "a56U0CwmkS2XRdehaj4y"
  },
  "support": [
   "en"

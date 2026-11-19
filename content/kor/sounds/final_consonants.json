@@ -9,6 +9,11 @@
  "intro": "A Korean syllable can end in a consonant, written at the bottom of its block. At the end of a word it is not released: the mouth closes and stops there, with no puff of air and no extra vowel.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/final_consonants/",
+ "audio_ver": "2611190618",
+ "voices": [
+  "VbTgjIEEf6wOp8VO6e1d",
+  "a56U0CwmkS2XRdehaj4y"
+ ],
  "groups": [
   {
    "title": "k, t, p: stop, do not release",
@@ -21,31 +26,36 @@
      "fr": "guk",
      "ipa": "국",
      "en": "soup",
-     "say": "국"
+     "say": "국",
+     "audio": "001.mp3"
     },
     {
      "fr": "chaek",
      "ipa": "책",
      "en": "book",
-     "say": "책"
+     "say": "책.",
+     "audio": "002.mp3"
     },
     {
      "fr": "bap",
      "ipa": "밥",
      "en": "cooked rice, a meal",
-     "say": "밥"
+     "say": "밥",
+     "audio": "003.mp3"
     },
     {
      "fr": "ot",
      "ipa": "옷",
      "en": "clothes",
-     "say": "옷"
+     "say": "옷",
+     "audio": "004.mp3"
     },
     {
      "fr": "kkot",
      "ipa": "꽃",
      "en": "flower",
-     "say": "꽃"
+     "say": "꽃",
+     "audio": "005.mp3"
     }
    ]
   },
@@ -59,25 +69,29 @@
      "fr": "bam",
      "ipa": "밤",
      "en": "night",
-     "say": "밤"
+     "say": "밤",
+     "audio": "006.mp3"
     },
     {
      "fr": "ban",
      "ipa": "반",
      "en": "half",
-     "say": "반"
+     "say": "반",
+     "audio": "007.mp3"
     },
     {
      "fr": "bang",
      "ipa": "방",
      "en": "room",
-     "say": "방"
+     "say": "방",
+     "audio": "008.mp3"
     },
     {
      "fr": "gang",
      "ipa": "강",
      "en": "river",
-     "say": "강"
+     "say": "강",
+     "audio": "009.mp3"
     }
    ]
   },
@@ -91,25 +105,29 @@
      "fr": "mul",
      "ipa": "물",
      "en": "water",
-     "say": "물"
+     "say": "물",
+     "audio": "010.mp3"
     },
     {
      "fr": "mal",
      "ipa": "말",
      "en": "horse; speech",
-     "say": "말"
+     "say": "말",
+     "audio": "011.mp3"
     },
     {
      "fr": "il",
      "ipa": "일",
      "en": "one; work",
-     "say": "일"
+     "say": "일",
+     "audio": "012.mp3"
     },
     {
      "fr": "Seoul",
      "ipa": "서울",
      "en": "Seoul",
-     "say": "서울"
+     "say": "서울",
+     "audio": "013.mp3"
     }
    ]
   }

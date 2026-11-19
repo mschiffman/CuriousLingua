@@ -16,10 +16,14 @@
   "Take a role and say your lines in the pauses."
  ],
  "aud_dir": "kor/listening/what_time/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611190617",
  "speakers": {
   "A": "Yuna",
   "B": "Minjun"
+ },
+ "voice": {
+  "A": "VWubYGaSOgG3kBUXWbVM",
+  "B": "FSDPAI7v5T7eeHsoRc5N"
  },
  "support": [
   "en"

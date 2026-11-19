@@ -1,6 +1,6 @@
 # LANGSITE
 
-One site, four courses: **French** (adults, A1–C1), **English** (children in Myanmar, Starter–C1), **Japanese** (speaking only, A1–B2, English and Burmese support), **Korean** (speaking first, with Hangul beside the romanization, A1–B2; it mirrors the Japanese course lesson for lesson and has no audio yet).
+One site, four courses: **French** (adults, A1–C1), **English** (children in Myanmar, Starter–C1), **Japanese** (speaking only, A1–B2, English and Burmese support), **Korean** (speaking first, with Hangul beside the romanization, A1–B2; it mirrors the Japanese course lesson for lesson).
 
 ## The one rule
 
@@ -79,7 +79,7 @@ python -E tools\audio.py chunks fr/pronunciation/shadow_conv43      finds every 
 
 Split or join chunks in the drafted file as you like (each keeps the `clip` number of its line; the words must be the line's words), then run `chunks` again. It uses no ElevenLabs characters: every take is saved with the time of each character (`NN.json` beside the raw take), and clips made before that are timed by Whisper. A chunk it cannot find plays its whole clip and is listed as `NO TIME`.
 
-Voices and loudness per course: `assets\data\voices.json`. **The Korean voice is not chosen yet**: its `voice` is empty, every Korean lesson is `"mp3?v=pending"`, and the audio tool stops with "no voice for kor" until an ElevenLabs voice id is put there.
+Voices and loudness per course: `assets\data\voices.json`. Korean uses ElevenLabs `eleven_v4` with four voices: Ko-Jisoo (the course voice) and Ko-Nam for women, Ko-SunSoo and Ko-Kim for men. Each dialogue gives its speakers one woman and one man (`"voice": {"A": ..., "B": ...}`); each sound lesson gives its groups of words a woman and a man in turn (`"voices"`). Whisper does not compare Korean automatically: it writes numbers as digits and hears lone syllables as English (국 as *cook*), so read its "heard" column.
 
 ## Pictures
 

@@ -2771,7 +2771,7 @@
   "title": "Meeting someone",
   "clips": 6,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  },
  {
@@ -2786,7 +2786,7 @@
   "title": "At the café",
   "clips": 9,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": true
  },
  {
@@ -2801,7 +2801,7 @@
   "title": "How much is this?",
   "clips": 8,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": true
  },
  {
@@ -2816,7 +2816,7 @@
   "title": "Where is the subway station?",
   "clips": 8,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": true
  },
  {
@@ -2831,7 +2831,7 @@
   "title": "What time is it?",
   "clips": 7,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": true
  },
  {
@@ -2846,7 +2846,7 @@
   "title": "At the weekend",
   "clips": 8,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": true
  },
  {
@@ -2861,7 +2861,7 @@
   "title": "Greetings and goodbyes",
   "clips": 14,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": true
  },
  {
@@ -2876,7 +2876,7 @@
   "title": "The basic vowels",
   "clips": 0,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  },
  {
@@ -2891,7 +2891,7 @@
   "title": "Vowels that sound alike",
   "clips": 0,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  },
  {
@@ -2906,7 +2906,7 @@
   "title": "Soft, strong and tense consonants",
   "clips": 0,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  },
  {
@@ -2921,7 +2921,7 @@
   "title": "Final consonants",
   "clips": 0,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  },
  {
@@ -2936,7 +2936,7 @@
   "title": "R and l, shi, and the weak h",
   "clips": 0,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  },
  {
@@ -2951,7 +2951,7 @@
   "title": "How sounds link",
   "clips": 0,
   "images": 0,
-  "audio": "pending",
+  "audio": "wired",
   "quiz": false
  }
 ]

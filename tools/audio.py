@@ -163,7 +163,7 @@ def whisper(L, nums):
                 flag, bad = "   <<< check", bad + 1
             print(f"{n:02d}.mp3  {tx[n]}  | heard: {heard}{flag}")
     if v["whisper"] not in ("en", "fr"):
-        print("Japanese is not compared automatically: read the 'heard' column.")
+        print("Japanese and Korean are not compared automatically: read the 'heard' column.")
     else:
         print(f"Whisper: {bad} of {len(nums)} clip(s) to listen to (re-take only if the words are wrong).")
 

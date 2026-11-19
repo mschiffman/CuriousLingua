@@ -9,6 +9,11 @@
  "intro": "Korean has more vowel sounds than English letters can show. Start with these: each one is short and steady, and each has its own Hangul letter.",
  "listen_pick": "fr",
  "glossary_dir": "kor/sounds/vowels/",
+ "audio_ver": "2611190617",
+ "voices": [
+  "VWubYGaSOgG3kBUXWbVM",
+  "FSDPAI7v5T7eeHsoRc5N"
+ ],
  "groups": [
   {
    "title": "Six simple vowels",
@@ -21,37 +26,43 @@
      "fr": "a",
      "ipa": "아",
      "en": "as in father",
-     "say": "아"
+     "say": "아",
+     "audio": "001.mp3"
     },
     {
      "fr": "eo",
      "ipa": "어",
      "en": "as in son, with the mouth open and the lips relaxed",
-     "say": "어"
+     "say": "어",
+     "audio": "002.mp3"
     },
     {
      "fr": "o",
      "ipa": "오",
      "en": "as in more, with round lips",
-     "say": "오"
+     "say": "오",
+     "audio": "003.mp3"
     },
     {
      "fr": "u",
      "ipa": "우",
      "en": "as in food",
-     "say": "우"
+     "say": "우",
+     "audio": "004.mp3"
     },
     {
      "fr": "eu",
      "ipa": "으",
      "en": "like u, but with the lips spread, not round",
-     "say": "으"
+     "say": "으",
+     "audio": "005.mp3"
     },
     {
      "fr": "i",
      "ipa": "이",
      "en": "as in machine",
-     "say": "이"
+     "say": "이",
+     "audio": "006.mp3"
     }
    ]
   },
@@ -65,13 +76,15 @@
      "fr": "ae",
      "ipa": "애",
      "en": "as in pet",
-     "say": "애"
+     "say": "애",
+     "audio": "007.mp3"
     },
     {
      "fr": "e",
      "ipa": "에",
      "en": "as in pet",
-     "say": "에"
+     "say": "에",
+     "audio": "008.mp3"
     }
    ]
   },
@@ -86,31 +99,36 @@
      "fr": "ai",
      "ipa": "아이",
      "en": "child",
-     "say": "아이"
+     "say": "아이",
+     "audio": "009.mp3"
     },
     {
      "fr": "oi",
      "ipa": "오이",
      "en": "cucumber",
-     "say": "오이"
+     "say": "오이",
+     "audio": "010.mp3"
     },
     {
      "fr": "uyu",
      "ipa": "우유",
      "en": "milk",
-     "say": "우유"
+     "say": "우유",
+     "audio": "011.mp3"
     },
     {
      "fr": "iyu",
      "ipa": "이유",
      "en": "reason",
-     "say": "이유"
+     "say": "이유",
+     "audio": "012.mp3"
     },
     {
      "fr": "yeou",
      "ipa": "여우",
      "en": "fox",
-     "say": "여우"
+     "say": "여우",
+     "audio": "013.mp3"
     }
    ]
   }
