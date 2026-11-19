@@ -394,6 +394,127 @@
       },
     }));
 
+    /* ---- family: a family tree seen by whoever is "moi". Tap a person: what they are for moi; tap again: become them.
+       LESSON.people: { id, name, g: "m" | "f", row, x, parents: [id, id] }; LESSON.couples: [[id, id]];
+       LESSON.terms: "<link>_<m|f>" -> { fr, ipa, en, stage, audio }; LESSON.stages: what the slider names, ring by ring ---- */
+    Alpine.data("family", () => {
+      const people = L.people || [], T = L.terms || {}, by = {}, mate = {};
+      people.forEach((p) => { by[p.id] = p; });
+      (L.couples || []).forEach(([a, b]) => { mate[a] = b; mate[b] = a; });
+      const par = (id) => (by[id] && by[id].parents) || [];
+      const kids = (id) => people.filter((p) => (p.parents || []).includes(id)).map((p) => p.id);
+      const sibs = (id) => people.filter((p) => p.id !== id && par(p.id).some((x) => par(id).includes(x))).map((p) => p.id);
+      const mates = (ids) => ids.map((x) => mate[x]).filter(Boolean);
+      /* what b is to a: the kind of link, or "" when French has no single word for it */
+      function kind(a, b) {
+        const pa = par(a), ch = kids(a), sb = sibs(a), sp = mate[a], gp = pa.flatMap(par), gc = ch.flatMap(kids);
+        const psib = pa.flatMap(sibs), spsib = sp ? sibs(sp) : [], neph = sb.concat(spsib).flatMap(kids), gpsib = gp.flatMap(sibs);
+        const hit = [["parent", pa], ["child", ch], ["sibling", sb], ["spouse", sp ? [sp] : []], ["grandparent", gp], ["grandchild", gc],
+          ["greatgrandparent", gp.flatMap(par)], ["greatgrandchild", gc.flatMap(kids)], ["uncle", psib.concat(mates(psib))], ["cousin", psib.flatMap(kids)],
+          ["nephew", neph], ["granduncle", gpsib.concat(mates(gpsib))], ["grandnephew", neph.flatMap(kids)],
+          ["parent_in_law", sp ? par(sp) : []], ["child_in_law", mates(ch)], ["sibling_in_law", spsib.concat(mates(sb))]].find((t) => t[1].includes(b));
+        return hit ? hit[0] : "";
+      }
+      /* the drawing: x runs from 0 to W across the stage (in card widths), one row per generation */
+      const CARD = 88, PITCH = 150, W = Math.max(1, ...people.map((p) => p.x || 0)) + 0.5, rows = Math.max(1, ...people.map((p) => p.row || 1));
+      const top = (row) => ((row || 1) - 1) * PITCH, pc = (x) => (x / W * 100).toFixed(3) + "%";
+      const flat = (x1, x2, y) => "left:" + pc(Math.min(x1, x2)) + ";width:" + pc(Math.abs(x2 - x1)) + ";top:" + (y - 1) + "px;height:2px";
+      const drop = (x, y1, y2) => "left:calc(" + pc(x) + " - 1px);width:2px;top:" + y1 + "px;height:" + (y2 - y1) + "px";
+      const lines = (L.couples || []).filter(([a, b]) => by[a] && by[b]).map(([a, b]) => flat(by[a].x, by[b].x, top(by[a].row) + CARD / 2));
+      const homes = {};
+      people.forEach((p) => { const ps = par(p.id).filter((x) => by[x]); if (ps.length) (homes[ps.slice().sort().join("+")] = homes[ps.slice().sort().join("+")] || { ps, ch: [] }).ch.push(p); });
+      Object.values(homes).forEach(({ ps, ch }) => {
+        const x = ps.reduce((s, id) => s + by[id].x, 0) / ps.length, row = Math.max(...ps.map((id) => by[id].row));
+        const y0 = top(row) + (ps.length > 1 ? CARD / 2 : CARD), bus = top(row) + CARD + (PITCH - CARD) / 2, xs = ch.map((c) => c.x).concat(x);
+        lines.push(drop(x, y0, bus), flat(Math.min(...xs), Math.max(...xs), bus));
+        ch.forEach((c) => lines.push(drop(c.x, bus, top(c.row))));
+      });
+      const vowel = (s) => /^[aàâeéèêiîoôuœ]/i.test(s);
+      const mix = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+      const start = by[L.start] ? L.start : (people[0] || {}).id || "";
+      return {
+        people, lines, height: top(rows) + CARD, stages: L.stages || [], stage: 1, start, startName: (by[start] || {}).name || "",
+        me: "", pick: "", hide: false, rels: {},
+        init() { this.become(start); this.$watch("stage", () => { if (this.quiz) this.startQuiz(); }); },
+        get cur() { return this.stages[this.stage - 1] || {}; },
+        get meP() { return by[this.me] || {}; },
+        term(p) { return (p && T[this.rels[p.id]]) || null; },   // the word for what p is to moi
+        shown(p) { const t = this.term(p); return !!t && (t.stage || 1) <= this.stage; },   // is that word within the slider's reach
+        poss(t, p) { return (p.g === "f" && !vowel(t.fr) ? "ma " : "mon ") + t.fr; },   // mon arrière-grand-mère: "ma" becomes "mon" before a vowel
+        art(t, p) { return (vowel(t.fr) ? "l’" : p.g === "f" ? "la " : "le ") + t.fr; },
+        de(name) { return (/^[aeiouyéèh]/i.test(name) ? "d’" : "de ") + name; },
+        pos(p) { return "left:" + pc(p.x || 0) + ";top:" + top(p.row) + "px"; },
+        word(p) {
+          if (p.id === this.me) return "moi";
+          if (!this.shown(p)) return "";
+          if (this.quiz ? !this.done.includes(p.id) : this.hide) return "• • •";
+          return this.poss(this.term(p), p);
+        },
+        cardClass(p) {
+          if (p.id === this.me) return "ft-me";
+          const c = [this.shown(p) ? "ft-" + p.g : "ft-dim"];
+          if (!this.quiz && p.id === this.pick) c.push("ft-sel");
+          if (this.quiz && this.done.includes(p.id)) c.push("ft-good");
+          if (this.bad === p.id) c.push("ft-bad");
+          return c.join(" ");
+        },
+        hear(t) { if (t && t.audio) playWord(t.audio); },
+        tap(p) {
+          if (this.quiz) return this.answer(p);
+          if (p.id === this.me) { this.pick = ""; return; }
+          if (p.id === this.pick) return this.become(p.id);
+          this.pick = p.id;
+          this.hear(this.term(p));
+        },
+        become(id) {
+          const r = {};
+          people.forEach((p) => { const k = kind(id, p.id); if (k) r[p.id] = k + "_" + p.g; });
+          this.me = id; this.pick = ""; this.rels = r;
+          this.$nextTick(() => {   // on a narrow screen the tree scrolls sideways: bring moi to the middle
+            const s = this.$refs.scroll, el = s && s.querySelector(".ft-me");
+            if (el && s.scrollWidth > s.clientWidth) s.scrollTo({ left: el.offsetLeft - s.clientWidth / 2, behavior: "smooth" });
+          });
+        },
+        /* the picked person and moi, said both ways: "Claire est la tante de Léa." / "Léa est la nièce de Claire." */
+        get info() {
+          const p = by[this.pick], m = this.meP;
+          if (!p || p.id === this.me) return null;
+          const t = this.term(p), back = T[kind(p.id, m.id) + "_" + m.g];
+          return {
+            p, t, mine: t ? this.poss(t, p) : "", en: t ? "my " + t.en : "",
+            fr1: t ? p.name + " est " + this.art(t, p) + " " + this.de(m.name) + "." : "", en1: t ? p.name + " is " + m.name + "’s " + t.en + "." : "",
+            fr2: back ? m.name + " est " + this.art(back, m) + " " + this.de(p.name) + "." : "", en2: back ? m.name + " is " + p.name + "’s " + back.en + "." : "",
+          };
+        },
+        /* Quiz: "Trouvez : la tante de Léa". Tap the person; anyone who is that for moi is right. */
+        quiz: false, q: null, todo: [], asked: 0, total: 0, first: 0, missed: false, done: [], bad: "", last: null,
+        startQuiz() {
+          const keys = [...new Set(people.filter((p) => p.id !== this.me && this.shown(p)).map((p) => this.rels[p.id]))];
+          this.quiz = true; this.pick = ""; this.todo = mix(keys); this.total = keys.length; this.asked = 0; this.first = 0; this.done = []; this.last = null;
+          this.nextQ();
+        },
+        stopQuiz() { this.quiz = false; this.q = null; this.done = []; this.last = null; this.bad = ""; },
+        nextQ() {
+          const key = this.todo[this.asked], p = people.find((x) => this.rels[x.id] === key);
+          this.missed = false; this.bad = "";
+          if (!key || !p) { this.q = null; return; }
+          this.asked++;
+          this.q = { key, text: this.art(T[key], p) + " " + this.de(this.meP.name), en: T[key].en, open: true };
+        },
+        answer(p) {
+          const q = this.q;
+          if (!q || !q.open || p.id === this.me || this.done.includes(p.id)) return;
+          if (this.rels[p.id] !== q.key) { this.missed = true; this.bad = p.id; setTimeout(() => { if (this.bad === p.id) this.bad = ""; }, 400); return; }
+          q.open = false;
+          if (!this.missed) this.first++;
+          this.done = this.done.concat(people.filter((x) => this.rels[x.id] === q.key).map((x) => x.id));
+          this.last = { name: p.name, text: q.text, en: q.en };
+          this.hear(T[q.key]);
+          setTimeout(() => { if (this.quiz && this.q === q) this.nextQ(); }, 900);
+        },
+      };
+    });
+
     /* ---- quiz: multiple choice with the reason for each answer ---- */
     Alpine.data("quiz", () => ({
       qs: L.questions || [], i: 0, pick: null, score: 0, over: false,

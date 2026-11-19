@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La famille | French</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<script>(function(d){var c=navigator.connection;if(matchMedia("(prefers-reduced-motion: reduce)").matches||(c&&(c.saveData||/2g|3g/.test(c.effectiveType||"")))){d.classList.add("lite");return}d.classList.add("motion");setTimeout(function(){if(!window.__motion)d.classList.remove("motion")},3000)})(document.documentElement)</script>
+<style>
+.ft-scroll{overflow-x:auto;padding:.5rem 0}
+.ft-stage{position:relative;min-width:42rem}
+.ft-line{position:absolute;background:#CFC5B4;border-radius:2px}
+.ft-card{position:absolute;z-index:1;width:14%;height:88px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.2rem;padding:.3rem .2rem;border:2px solid #E4DCCF;border-radius:1rem;background:#fff;text-align:center;line-height:1.15;cursor:pointer;transition:border-color .15s,background .2s,box-shadow .15s,color .2s}
+.ft-card:hover{border-color:rgb(var(--accent))}
+.ft-name{font-weight:700;font-size:1.05rem}
+.ft-word{font-size:.82rem;font-weight:700}
+.ft-word:empty{display:none}
+.ft-m{border-color:#BAE6FD;background:#F0F9FF}.ft-m .ft-word,.ft-tm{color:#0369A1}
+.ft-f{border-color:#FBCFE8;background:#FDF2F8}.ft-f .ft-word,.ft-tf{color:#BE185D}
+.ft-dim{color:#5B6475;background:#FAF7F2;border-style:dashed}
+.ft-me,.ft-me:hover{background:rgb(var(--accent));border-color:rgb(var(--accent));color:#fff;box-shadow:0 4px 14px rgb(var(--accent)/.35)}
+.ft-sel{border-color:rgb(var(--accent));box-shadow:0 0 0 4px rgb(var(--accent)/.25)}
+.ft-good{border-color:#1B7550;box-shadow:0 0 0 4px rgb(27 117 80/.2)}
+.ft-bad{border-color:#B3261E;animation:ft-shake .3s}
+@keyframes ft-shake{25%{transform:translateX(calc(-50% - 5px))}75%{transform:translateX(calc(-50% + 5px))}}
+.ft-key{font-size:.72rem;font-weight:700;line-height:1.6;border-radius:999px;padding:0 .55rem;border:1px solid}
+.ft-km{color:#0369A1;border-color:#BAE6FD;background:#F0F9FF}.ft-kf{color:#BE185D;border-color:#FBCFE8;background:#FDF2F8}
+.ft-ask{border:1px solid #E4DCCF;background:#FAF7F2;border-radius:1rem;padding:1rem;min-height:4.75rem}
+@media (prefers-reduced-motion:reduce){.ft-bad{animation:none}.ft-card{transition:none}}
+</style>
+</head>
+<body class="site" data-course="fr">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a><a href="../../kor/index.html" data-course="kor" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Korean</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="kor" href="../../kor/index.html"><b>Korean</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/reading/index.html">Reading</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/grammar/index.html">Grammar</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/pronunciation/index.html">Pronunciation</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/fundamentals/index.html">Fundamentals</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../fr/reading/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Reading</a><a href="../../fr/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../fr/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../fr/vocabulary/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Vocabulary</a><a href="../../fr/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../fr/grammar/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Grammar</a><a href="../../fr/pronunciation/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Pronunciation</a><a href="../../fr/fundamentals/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Fundamentals</a></div></div></header>
+<main class="wrap py-6 sm:py-10">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../fr/index.html">French</a><span>/</span><a class="hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a></nav>
+
+<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip chip-accent">A1</span><span class="chip">Family</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>La famille</h1>
+<p class="mt-2 text-xl text-muted" data-reveal>The family tree: who is who, and for whom</p>
+<p class="mt-3 max-w-2xl text-muted" data-reveal>A family word depends on who is speaking: the same woman is <b class="font-bold text-accent">ma mère</b>, <b class="font-bold text-accent">ma fille</b> or <b class="font-bold text-accent">ma tante</b>. This is the family of Emma, from the listening lesson <i>La famille</i>. Choose who « moi » is and watch every word change. Move the slider to bring in more of the family.</p>
+
+<section x-data="family" class="mt-6">
+<div class="rounded-2xl border border-line bg-card p-4 sm:p-6">
+<div class="flex flex-wrap items-center gap-2">
+<p class="text-lg"><span class="text-muted">&laquo;&nbsp;Moi&nbsp;&raquo;&nbsp;:</span> <b x-text="meP.name"></b></p>
+<button class="btn py-1.5" x-show="!quiz && me !== start" x-cloak @click="become(start)">&larr; <span x-text="startName"></span></button>
+<span class="ml-auto"></span>
+<button class="btn py-1.5" x-show="!quiz" :class="hide && 'btn-on'" @click="hide = !hide" x-text="hide ? 'Show the words' : 'Hide the words'"></button>
+<button class="btn py-1.5" :class="quiz && 'btn-on'" @click="quiz ? stopQuiz() : startQuiz()" x-text="quiz ? 'Back to the tree' : 'Quiz'"></button>
+</div>
+
+<input type="range" class="seek mt-4 w-full" min="1" :max="stages.length" step="1" x-model.number="stage" aria-label="How much of the family to name" :aria-valuetext="cur.en">
+<div class="flex items-center gap-2">
+<button class="btn px-3 py-1.5" @click="stage--" :disabled="stage === 1" :class="stage === 1 && 'opacity-40'" aria-label="Less of the family">&larr;</button>
+<p class="flex-1 text-center"><b lang="fr" x-text="cur.fr"></b><br><span class="text-sm text-muted" x-text="stage + ' / ' + stages.length + ' · ' + cur.en"></span></p>
+<button class="btn px-3 py-1.5" @click="stage++" :disabled="stage === stages.length" :class="stage === stages.length && 'opacity-40'" aria-label="More of the family">&rarr;</button>
+</div>
+
+<div x-show="quiz" x-cloak class="ft-ask mt-4">
+<div x-show="q" class="flex flex-wrap items-center gap-3">
+<p class="text-xl"><span class="text-muted">Trouvez&nbsp;:</span> <b lang="fr" x-text="q && q.text"></b></p>
+<span class="ml-auto text-sm font-bold text-muted" x-text="asked + ' / ' + total"></span>
+</div>
+<div x-show="!q" x-cloak class="flex flex-wrap items-center gap-3">
+<p class="text-xl font-semibold" x-text="'Bravo ! ' + first + ' / ' + total + ' du premier coup'"></p>
+<span class="ml-auto"></span>
+<button class="btn btn-primary" @click="startQuiz()">Again</button><button class="btn" @click="stopQuiz()">Back to the tree</button>
+</div>
+<p x-show="last" x-cloak class="mt-2 text-sm text-muted"><span class="font-bold text-good">&#10003;</span> <b x-text="last && last.name"></b> <span lang="fr" x-text="last && '= ' + last.text"></span> <span x-text="last && '(' + last.en + ')'"></span></p>
+</div>
+
+<div class="ft-scroll mt-4" x-ref="scroll"><div class="ft-stage" :style="'height:' + height + 'px'">
+<template x-for="(l, k) in lines" :key="k"><div class="ft-line" :style="l"></div></template>
+<template x-for="p in people" :key="p.id"><button class="ft-card" :class="cardClass(p)" :style="pos(p)" @click="tap(p)" :aria-current="p.id === me">
+<span class="ft-name" x-text="p.name"></span><span class="ft-word" lang="fr" x-text="word(p)"></span>
+</button></template>
+</div></div>
+<div class="mt-2 flex flex-wrap items-center gap-2"><span class="ft-key ft-km">masculin&nbsp;: mon</span><span class="ft-key ft-kf">f&eacute;minin&nbsp;: ma</span>
+<span class="text-sm text-muted" x-show="!quiz">Tap a person to see the word. Tap again to become that person.</span></div>
+</div>
+
+<div x-show="!quiz" class="mt-5 rounded-2xl border border-line bg-card p-5 sm:p-6" style="min-height:11rem" aria-live="polite">
+<template x-if="!info"><p class="text-muted">Tap someone in the tree: you will see who that person is for <b x-text="meP.name"></b>, and who <b x-text="meP.name"></b> is for them.</p></template>
+<template x-if="info && info.t"><div>
+<div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+<button class="play small" x-show="info.t.audio" @click="hear(info.t)" aria-label="Hear the word"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<h2 class="text-3xl font-semibold" :class="'ft-t' + info.p.g" lang="fr" x-text="info.mine"></h2>
+<span class="chip" x-text="info.p.g === 'f' ? 'féminin' : 'masculin'"></span>
+<span class="text-muted" x-text="info.t.ipa"></span>
+<span class="ml-auto text-xl text-muted" x-text="info.en"></span>
+</div>
+<p class="mt-4 text-lg leading-snug" lang="fr" x-text="info.fr1"></p><p class="text-muted" x-text="info.en1"></p>
+<p class="mt-3 text-lg leading-snug" lang="fr" x-text="info.fr2"></p><p class="text-muted" x-text="info.en2"></p>
+</div></template>
+<template x-if="info && !info.t"><div>
+<h2 class="text-xl font-semibold" x-text="info.p.name"></h2>
+<p class="mt-1 text-muted">French has no single word for what <b x-text="info.p.name"></b> is for <b x-text="meP.name"></b>. People say it in full, one link at a time.</p>
+</div></template>
+<template x-if="info"><button class="btn btn-primary mt-6" @click="become(info.p.id)"><span lang="fr" x-text="'Je suis ' + info.p.name"></span><span>&nbsp;&rarr;</span></button></template>
+</div>
+</section>
+<section class="mt-8 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">Notes</h2><ul class="mt-2 list-disc space-y-1 pl-5 text-muted"><li>Blue words are masculine (mon), pink words are feminine (ma).</li><li>Before a vowel sound, ma becomes mon: mon arrière-grand-mère, although the word is feminine.</li><li>Le beau-père and la belle-mère are also the words for a stepfather and a stepmother. La belle-fille is a daughter-in-law or a stepdaughter.</li><li>La femme is both the woman and the wife. Le fils /fis/: the l is silent and the s is heard. La fille is both the girl and the daughter.</li><li>When a card shows no word, French has no single word for that link: people say it in full, like « le cousin de mon père ».</li></ul></section>
+
+<div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/vocabulary/famille')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../fr/vocabulary/house.html">La maison et le jardin &rarr;</a></div>
+</main>
+<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
+<span class="font-display text-base font-semibold text-ink">Languages</span>
+<span>Free for everyone. No account, no paywall.</span></div></footer>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"La famille","subtitle":"The family tree: who is who, and for whom","level":"a1","level_provisional":true,"topic":"Family","type":"family","review":"Made by Claude: a new kind of lesson. The family is Emma's, from the listening lesson La famille (her parents, Thomas, Manon, aunt Julie, Léo and Chloé); the grandparents, Luc, Paul, Sophie, Hugo and Lina are invented. Check the words, the IPA and the English. No recordings yet: give a word an \"audio\" file name (in glossary_dir) and its Play button appears.","intro":"A family word depends on who is speaking: the same woman is **ma mère**, **ma fille** or **ma tante**. This is the family of Emma, from the listening lesson *La famille*. Choose who « moi » is and watch every word change. Move the slider to bring in more of the family.","notes":["Blue words are masculine (mon), pink words are feminine (ma).","Before a vowel sound, ma becomes mon: mon arrière-grand-mère, although the word is feminine.","Le beau-père and la belle-mère are also the words for a stepfather and a stepmother. La belle-fille is a daughter-in-law or a stepdaughter.","La femme is both the woman and the wife. Le fils /fis/: the l is silent and the s is heard. La fille is both the girl and the daughter.","When a card shows no word, French has no single word for that link: people say it in full, like « le cousin de mon père »."],"start":"emma","stages":[{"fr":"La famille proche","en":"Close family: parents, children, brothers and sisters, husband and wife"},{"fr":"Les grands-parents et les petits-enfants","en":"Grandparents and grandchildren"},{"fr":"Les oncles, les tantes, les cousins","en":"Uncles, aunts, cousins, nephews and nieces"},{"fr":"La belle-famille","en":"The in-laws"}],"people":[{"id":"henri","name":"Henri","g":"m","row":1,"x":1.75},{"id":"jeanne","name":"Jeanne","g":"f","row":1,"x":2.75},{"id":"louis","name":"Louis","g":"m","row":1,"x":4.25},{"id":"simone","name":"Simone","g":"f","row":1,"x":5.25},{"id":"luc","name":"Luc","g":"m","row":2,"x":0.5},{"id":"julie","name":"Julie","g":"f","row":2,"x":1.5,"parents":["henri","jeanne"]},{"id":"claire","name":"Claire","g":"f","row":2,"x":3,"parents":["henri","jeanne"]},{"id":"marc","name":"Marc","g":"m","row":2,"x":4,"parents":["louis","simone"]},{"id":"paul","name":"Paul","g":"m","row":2,"x":5.5,"parents":["louis","simone"]},{"id":"leo","name":"Léo","g":"m","row":3,"x":0.5,"parents":["luc","julie"]},{"id":"chloe","name":"Chloé","g":"f","row":3,"x":1.5,"parents":["luc","julie"]},{"id":"manon","name":"Manon","g":"f","row":3,"x":2.75,"parents":["claire","marc"]},{"id":"emma","name":"Emma","g":"f","row":3,"x":3.75,"parents":["claire","marc"]},{"id":"thomas","name":"Thomas","g":"m","row":3,"x":4.75,"parents":["claire","marc"]},{"id":"sophie","name":"Sophie","g":"f","row":3,"x":5.75},{"id":"hugo","name":"Hugo","g":"m","row":4,"x":4.75,"parents":["thomas","sophie"]},{"id":"lina","name":"Lina","g":"f","row":4,"x":5.75,"parents":["thomas","sophie"]}],"couples":[["henri","jeanne"],["louis","simone"],["luc","julie"],["claire","marc"],["thomas","sophie"]],"terms":{"parent_m":{"fr":"père","ipa":"/pɛʀ/","en":"father","stage":1},"parent_f":{"fr":"mère","ipa":"/mɛʀ/","en":"mother","stage":1},"child_m":{"fr":"fils","ipa":"/fis/","en":"son","stage":1},"child_f":{"fr":"fille","ipa":"/fij/","en":"daughter","stage":1},"sibling_m":{"fr":"frère","ipa":"/fʀɛʀ/","en":"brother","stage":1},"sibling_f":{"fr":"sœur","ipa":"/sœʀ/","en":"sister","stage":1},"spouse_m":{"fr":"mari","ipa":"/maʀi/","en":"husband","stage":1},"spouse_f":{"fr":"femme","ipa":"/fam/","en":"wife","stage":1},"grandparent_m":{"fr":"grand-père","ipa":"/ɡʀɑ̃pɛʀ/","en":"grandfather","stage":2},"grandparent_f":{"fr":"grand-mère","ipa":"/ɡʀɑ̃mɛʀ/","en":"grandmother","stage":2},"grandchild_m":{"fr":"petit-fils","ipa":"/p(ə)tifis/","en":"grandson","stage":2},"grandchild_f":{"fr":"petite-fille","ipa":"/p(ə)titfij/","en":"granddaughter","stage":2},"greatgrandparent_m":{"fr":"arrière-grand-père","ipa":"/aʀjɛʀɡʀɑ̃pɛʀ/","en":"great-grandfather","stage":2},"greatgrandparent_f":{"fr":"arrière-grand-mère","ipa":"/aʀjɛʀɡʀɑ̃mɛʀ/","en":"great-grandmother","stage":2},"greatgrandchild_m":{"fr":"arrière-petit-fils","ipa":"/aʀjɛʀp(ə)tifis/","en":"great-grandson","stage":2},"greatgrandchild_f":{"fr":"arrière-petite-fille","ipa":"/aʀjɛʀp(ə)titfij/","en":"great-granddaughter","stage":2},"uncle_m":{"fr":"oncle","ipa":"/ɔ̃kl/","en":"uncle","stage":3},"uncle_f":{"fr":"tante","ipa":"/tɑ̃t/","en":"aunt","stage":3},"cousin_m":{"fr":"cousin","ipa":"/kuzɛ̃/","en":"cousin","stage":3},"cousin_f":{"fr":"cousine","ipa":"/kuzin/","en":"cousin","stage":3},"nephew_m":{"fr":"neveu","ipa":"/n(ə)vø/","en":"nephew","stage":3},"nephew_f":{"fr":"nièce","ipa":"/njɛs/","en":"niece","stage":3},"granduncle_m":{"fr":"grand-oncle","ipa":"/ɡʀɑ̃tɔ̃kl/","en":"great-uncle","stage":3},"granduncle_f":{"fr":"grand-tante","ipa":"/ɡʀɑ̃tɑ̃t/","en":"great-aunt","stage":3},"grandnephew_m":{"fr":"petit-neveu","ipa":"/p(ə)tin(ə)vø/","en":"great-nephew","stage":3},"grandnephew_f":{"fr":"petite-nièce","ipa":"/p(ə)titnjɛs/","en":"great-niece","stage":3},"parent_in_law_m":{"fr":"beau-père","ipa":"/bopɛʀ/","en":"father-in-law","stage":4},"parent_in_law_f":{"fr":"belle-mère","ipa":"/bɛlmɛʀ/","en":"mother-in-law","stage":4},"child_in_law_m":{"fr":"gendre","ipa":"/ʒɑ̃dʀ/","en":"son-in-law","stage":4},"child_in_law_f":{"fr":"belle-fille","ipa":"/bɛlfij/","en":"daughter-in-law","stage":4},"sibling_in_law_m":{"fr":"beau-frère","ipa":"/bofʀɛʀ/","en":"brother-in-law","stage":4},"sibling_in_law_f":{"fr":"belle-sœur","ipa":"/bɛlsœʀ/","en":"sister-in-law","stage":4}},"course":"fr","strand":"vocabulary","slug":"famille"};</script>
+<script src="../../assets/js/site.js"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+<script defer src="../../assets/vendor/gsap.min.js"></script>
+<script defer src="../../assets/vendor/ScrollTrigger.min.js"></script>
+<script defer src="../../assets/js/motion.js"></script>
+</body>
+</html>

@@ -14,7 +14,7 @@ import lib
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT, C = lib.ROOT, lib.cfg()
 e = html.escape
-TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page", "link": "Link", "grammar": "Grammar notes", "timeline": "Interactive timeline"}
+TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page", "link": "Link", "grammar": "Grammar notes", "timeline": "Interactive timeline", "family": "Family tree"}
 ICON_PLAY = '<svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
 ICON_LOOP = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>'
 ICON_TR = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="11" height="11" rx="2"/><path d="M6.5 11l2-5 2 5M7.2 9.5h2.6"/><rect x="10" y="10" width="11" height="11" rx="2" fill="currentColor" stroke="none"/><path d="M13 14h5M15.5 13v1c0 2-1 3.500-2.500 4.200M14.200 16c.8 1.200 2 2 3.300 2.200" stroke="#fff" stroke-width="1.300"/></svg>'
@@ -630,6 +630,94 @@ TIMELINE = """<section x-data="timeline" class="mt-6" @keydown.left.window="$eve
 <img x-show="picture" x-cloak :src="picture" :alt="pictureAlt" class="mt-8 w-full rounded-2xl border border-line bg-card">
 </section>"""
 
+# A family tree seen by whoever is "moi": tap a person to see what they are for moi, tap again to become them.
+# The slider names the family a ring at a time ("stages"); Quiz asks for a relative and you tap the person.
+FAMILY = """<section x-data="family" class="mt-6">
+<div class="rounded-2xl border border-line bg-card p-4 sm:p-6">
+<div class="flex flex-wrap items-center gap-2">
+<p class="text-lg"><span class="text-muted">&laquo;&nbsp;Moi&nbsp;&raquo;&nbsp;:</span> <b x-text="meP.name"></b></p>
+<button class="btn py-1.5" x-show="!quiz && me !== start" x-cloak @click="become(start)">&larr; <span x-text="startName"></span></button>
+<span class="ml-auto"></span>
+<button class="btn py-1.5" x-show="!quiz" :class="hide && 'btn-on'" @click="hide = !hide" x-text="hide ? 'Show the words' : 'Hide the words'"></button>
+<button class="btn py-1.5" :class="quiz && 'btn-on'" @click="quiz ? stopQuiz() : startQuiz()" x-text="quiz ? 'Back to the tree' : 'Quiz'"></button>
+</div>
+
+<input type="range" class="seek mt-4 w-full" min="1" :max="stages.length" step="1" x-model.number="stage" aria-label="How much of the family to name" :aria-valuetext="cur.en">
+<div class="flex items-center gap-2">
+<button class="btn px-3 py-1.5" @click="stage--" :disabled="stage === 1" :class="stage === 1 && 'opacity-40'" aria-label="Less of the family">&larr;</button>
+<p class="flex-1 text-center"><b lang="__LANG__" x-text="cur.fr"></b><br><span class="text-sm text-muted" x-text="stage + ' / ' + stages.length + ' · ' + cur.en"></span></p>
+<button class="btn px-3 py-1.5" @click="stage++" :disabled="stage === stages.length" :class="stage === stages.length && 'opacity-40'" aria-label="More of the family">&rarr;</button>
+</div>
+
+<div x-show="quiz" x-cloak class="ft-ask mt-4">
+<div x-show="q" class="flex flex-wrap items-center gap-3">
+<p class="text-xl"><span class="text-muted">__UI_FIND__</span> <b lang="__LANG__" x-text="q && q.text"></b></p>
+<span class="ml-auto text-sm font-bold text-muted" x-text="asked + ' / ' + total"></span>
+</div>
+<div x-show="!q" x-cloak class="flex flex-wrap items-center gap-3">
+<p class="text-xl font-semibold" x-text="'__UI_BRAVO__ ' + first + ' / ' + total + ' __UI_FIRST__'"></p>
+<span class="ml-auto"></span>
+<button class="btn btn-primary" @click="startQuiz()">Again</button><button class="btn" @click="stopQuiz()">Back to the tree</button>
+</div>
+<p x-show="last" x-cloak class="mt-2 text-sm text-muted"><span class="font-bold text-good">&#10003;</span> <b x-text="last && last.name"></b> <span lang="__LANG__" x-text="last && '= ' + last.text"></span> <span x-text="last && '(' + last.en + ')'"></span></p>
+</div>
+
+<div class="ft-scroll mt-4" x-ref="scroll"><div class="ft-stage" :style="'height:' + height + 'px'">
+<template x-for="(l, k) in lines" :key="k"><div class="ft-line" :style="l"></div></template>
+<template x-for="p in people" :key="p.id"><button class="ft-card" :class="cardClass(p)" :style="pos(p)" @click="tap(p)" :aria-current="p.id === me">
+<span class="ft-name" x-text="p.name"></span><span class="ft-word" lang="__LANG__" x-text="word(p)"></span>
+</button></template>
+</div></div>
+<div class="mt-2 flex flex-wrap items-center gap-2"><span class="ft-key ft-km">masculin&nbsp;: mon</span><span class="ft-key ft-kf">f&eacute;minin&nbsp;: ma</span>
+<span class="text-sm text-muted" x-show="!quiz">Tap a person to see the word. Tap again to become that person.</span></div>
+</div>
+
+<div x-show="!quiz" class="mt-5 rounded-2xl border border-line bg-card p-5 sm:p-6" style="min-height:11rem" aria-live="polite">
+<template x-if="!info"><p class="text-muted">Tap someone in the tree: you will see who that person is for <b x-text="meP.name"></b>, and who <b x-text="meP.name"></b> is for them.</p></template>
+<template x-if="info && info.t"><div>
+<div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+<button class="play small" x-show="info.t.audio" @click="hear(info.t)" aria-label="Hear the word">__PLAY__</button>
+<h2 class="text-3xl font-semibold" :class="'ft-t' + info.p.g" lang="__LANG__" x-text="info.mine"></h2>
+<span class="chip" x-text="info.p.g === 'f' ? 'féminin' : 'masculin'"></span>
+<span class="text-muted" x-text="info.t.ipa"></span>
+<span class="ml-auto text-xl text-muted" x-text="info.en"></span>
+</div>
+<p class="mt-4 text-lg leading-snug" lang="__LANG__" x-text="info.fr1"></p><p class="text-muted" x-text="info.en1"></p>
+<p class="mt-3 text-lg leading-snug" lang="__LANG__" x-text="info.fr2"></p><p class="text-muted" x-text="info.en2"></p>
+</div></template>
+<template x-if="info && !info.t"><div>
+<h2 class="text-xl font-semibold" x-text="info.p.name"></h2>
+<p class="mt-1 text-muted">French has no single word for what <b x-text="info.p.name"></b> is for <b x-text="meP.name"></b>. People say it in full, one link at a time.</p>
+</div></template>
+<template x-if="info"><button class="btn btn-primary mt-6" @click="become(info.p.id)"><span lang="__LANG__" x-text="'Je suis ' + info.p.name"></span><span>&nbsp;&rarr;</span></button></template>
+</div>
+</section>"""
+
+# Its own few styles (kept here so the compiled site.css does not have to be rebuilt). Blue = a masculine word, pink = a feminine one.
+FAMILY_CSS = """<style>
+.ft-scroll{overflow-x:auto;padding:.5rem 0}
+.ft-stage{position:relative;min-width:42rem}
+.ft-line{position:absolute;background:#CFC5B4;border-radius:2px}
+.ft-card{position:absolute;z-index:1;width:14%;height:88px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.2rem;padding:.3rem .2rem;border:2px solid #E4DCCF;border-radius:1rem;background:#fff;text-align:center;line-height:1.15;cursor:pointer;transition:border-color .15s,background .2s,box-shadow .15s,color .2s}
+.ft-card:hover{border-color:rgb(var(--accent))}
+.ft-name{font-weight:700;font-size:1.05rem}
+.ft-word{font-size:.82rem;font-weight:700}
+.ft-word:empty{display:none}
+.ft-m{border-color:#BAE6FD;background:#F0F9FF}.ft-m .ft-word,.ft-tm{color:#0369A1}
+.ft-f{border-color:#FBCFE8;background:#FDF2F8}.ft-f .ft-word,.ft-tf{color:#BE185D}
+.ft-dim{color:#5B6475;background:#FAF7F2;border-style:dashed}
+.ft-me,.ft-me:hover{background:rgb(var(--accent));border-color:rgb(var(--accent));color:#fff;box-shadow:0 4px 14px rgb(var(--accent)/.35)}
+.ft-sel{border-color:rgb(var(--accent));box-shadow:0 0 0 4px rgb(var(--accent)/.25)}
+.ft-good{border-color:#1B7550;box-shadow:0 0 0 4px rgb(27 117 80/.2)}
+.ft-bad{border-color:#B3261E;animation:ft-shake .3s}
+@keyframes ft-shake{25%{transform:translateX(calc(-50% - 5px))}75%{transform:translateX(calc(-50% + 5px))}}
+.ft-key{font-size:.72rem;font-weight:700;line-height:1.6;border-radius:999px;padding:0 .55rem;border:1px solid}
+.ft-km{color:#0369A1;border-color:#BAE6FD;background:#F0F9FF}.ft-kf{color:#BE185D;border-color:#FBCFE8;background:#FDF2F8}
+.ft-ask{border:1px solid #E4DCCF;background:#FAF7F2;border-radius:1rem;padding:1rem;min-height:4.75rem}
+@media (prefers-reduced-motion:reduce){.ft-bad{animation:none}.ft-card{transition:none}}
+</style>
+"""
+
 
 def crumbs(L, r):
     c = C["courses"][L["course"]]
@@ -705,7 +793,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
         return frame(rel, f"{title} | {course['name']}", body, L["course"], tail, cls="site flex h-dvh flex-col overflow-hidden", foot=False)
 
     shell = {"dialogue": LINES, "shadow": SHADOW, "practice": PRACTICE, "text": TEXT.replace("__ALT__", e(L.get("img_alt", "Picture goes here")))}.get(L.get("type"))
-    shell = {"words": WORDS, "hotspots": HOTSPOTS, "timeline": TIMELINE}.get(L.get("type"), shell)
+    shell = {"words": WORDS, "hotspots": HOTSPOTS, "timeline": TIMELINE, "family": FAMILY}.get(L.get("type"), shell)
     if L.get("type") == "grammar":
         shell = grammar_shell(L, course["lang"])
     if shell is None:
@@ -751,7 +839,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 {pager}
 </main>'''
     tail = f'{data_script(L, r)}\n<script src="{r}assets/js/site.js"></script>\n<script defer src="{r}assets/js/alpine.min.js"></script>'
-    return frame(rel, f"{title} | {course['name']}", body, L["course"], tail, head=PICTURE_CSS if L.get("type") in ("words", "hotspots") else "")
+    return frame(rel, f"{title} | {course['name']}", body, L["course"], tail, head=PICTURE_CSS if L.get("type") in ("words", "hotspots") else FAMILY_CSS if L.get("type") == "family" else "")
 
 
 # ------------------------------------------------------------------ index pages

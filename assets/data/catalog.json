@@ -210,6 +210,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/famille",
+  "url": "fr/listening/famille.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "People",
+  "type": "dialogue",
+  "title": "La famille",
+  "clips": 16,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/home_pantry_shelves",
   "url": "fr/listening/home_pantry_shelves.html",
   "course": "fr",
@@ -250,6 +265,21 @@
   "type": "dialogue",
   "title": "Le matin",
   "clips": 10,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "fr/listening/presenter",
+  "url": "fr/listening/presenter.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "People",
+  "type": "dialogue",
+  "title": "Présenter quelqu'un",
+  "clips": 14,
   "images": 0,
   "audio": "wired",
   "quiz": true
@@ -355,6 +385,21 @@
   "type": "dialogue",
   "title": "Dans la rue",
   "clips": 23,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
+  "id": "fr/vocabulary/famille",
+  "url": "fr/vocabulary/famille.html",
+  "course": "fr",
+  "strand": "vocabulary",
+  "level": "a1",
+  "level_provisional": true,
+  "topic": "Family",
+  "type": "family",
+  "title": "La famille",
+  "clips": 0,
   "images": 0,
   "audio": "wired",
   "quiz": false

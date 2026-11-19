@@ -5,7 +5,7 @@ import json, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEVEL_ORDER = ["pre-a1", "a1", "a2", "b1", "b2", "c1"]
 HAND = ("game", "page")   # hand-made pages: the build lists them but never writes them
-SILENT = ("grammar", "timeline")   # generated pages with no recordings: never "audio soon"
+SILENT = ("grammar", "timeline", "family")   # generated pages with no recordings: never "audio soon"
 
 
 def cfg():
