@@ -9,41 +9,45 @@
  "legacy": "fr/fundamental/dates/3.html",
  "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
  "glossary_dir": "lessons/fundamental/dates/3/",
+ "audio_ver": "2611200739",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "le lendemain et le jour suivant",
    "sub": "the next/following day",
-   "audio": "01-le lendemain et le jour suivant.m4a",
+   "audio": "titre_le_lendemain_et_le_jour_suivant.mp3",
    "words": [
     {
      "fr": "Le lendemain, elle est partie.",
      "en": "The next day, she left.",
-     "audio": "02-Le lendemain, elle est partie.m4a"
+     "audio": "le_lendemain_elle_est_partie.mp3"
     },
     {
      "fr": "Le lendemain, il avait disparu.",
      "en": "The next day, he was gone.",
-     "audio": "03-Le lendemain, il avait disparu.m4a"
+     "audio": "le_lendemain_il_avait_disparu.mp3"
     },
     {
      "fr": "J'ai rendu la clé le lendemain.",
      "en": "I returned the key the next day.",
-     "audio": "04-J'ai rendu la clé le lendemain.m4a"
+     "audio": "j_ai_rendu_la_cle_le_lendemain.mp3"
     },
     {
      "fr": "Le jour suivant, nous avons repris le travail.",
      "en": "The next day, we resumed work.",
-     "audio": "05-Le jour suivant, nous avons repris le travail.m4a"
+     "audio": "le_jour_suivant_nous_avons_repris_le_travail.mp3"
     },
     {
      "fr": "avant midi le jour suivant",
      "en": "before noon the following day",
-     "audio": "06-avant midi le jour suivant.m4a"
+     "audio": "avant_midi_le_jour_suivant.mp3"
     },
     {
      "fr": "Le jour suivant, je me sentais mieux.",
      "en": "The next day, I was feeling better.",
-     "audio": "07-Le jour suivant, je me sentais mieux.m4a"
+     "audio": "le_jour_suivant_je_me_sentais_mieux.mp3"
     }
    ],
    "notes": [
@@ -53,39 +57,39 @@
   {
    "title": "prochain / prochaine",
    "sub": "next",
-   "audio": "08-prochain, prochaine.m4a",
+   "audio": "titre_prochain_prochaine.mp3",
    "words": [
     {
      "fr": "le prochain train",
      "en": "the next train",
-     "audio": "09-le prochain train.m4a"
+     "audio": "le_prochain_train.mp3"
     },
     {
      "fr": "le prochain fois",
      "en": "the next time",
-     "audio": "10-le prochain fois.m4a"
+     "audio": "le_prochain_fois.mp3"
     },
     {
      "fr": "pendant notre prochain congé",
      "ipa": "/kɔ̃ʒe/",
      "en": "during our next holiday",
-     "audio": "11-pendant notre prochain congé.m4a"
+     "audio": "pendant_notre_prochain_conge.mp3"
     },
     {
      "fr": "À la semaine prochaine.",
      "en": "See you next week.",
-     "audio": "12-À la semaine prochaine.m4a"
+     "audio": "a_la_semaine_prochaine.mp3"
     },
     {
      "fr": "À mardi prochain.",
      "en": "See you next Tuesday.",
-     "audio": "13-À mardi prochain.m4a"
+     "audio": "a_mardi_prochain.mp3"
     },
     {
      "fr": "La rentrée prochaine",
      "ipa": "/ʀɑ̃tʀe/",
      "en": "the next school year",
-     "audio": "14-La rentrée prochaine.m4a"
+     "audio": "la_rentree_prochaine.mp3"
     }
    ],
    "notes": [
@@ -95,38 +99,38 @@
   {
    "title": "l'an prochain et l'année prochaine",
    "sub": "the next year",
-   "audio": "15-l'an prochain et l'année prochaine.m4a",
+   "audio": "titre_l_an_prochain_et_l_annee_prochaine.mp3",
    "words": [
     {
      "fr": "Le concert est prévu l'an prochain au stade.",
      "ipa": "/pʀevy/ /stad/",
      "en": "The concert is planned next year at the stadium.",
-     "audio": "16-Le concert est prévu l'an prochain au stade.m4a"
+     "audio": "le_concert_est_prevu_l_an_prochain_au_stade.mp3"
     },
     {
      "fr": "notre réunion de famille l'an prochain",
      "en": "our family reunion next year",
-     "audio": "17-notre réunion de famille l'an prochain.m4a"
+     "audio": "notre_reunion_de_famille_l_an_prochain.mp3"
     },
     {
      "fr": "On va visiter Paris l'an prochain.",
      "en": "We are going to visit Paris next year.",
-     "audio": "18-On va visiter Paris l'an prochain.m4a"
+     "audio": "on_va_visiter_paris_l_an_prochain.mp3"
     },
     {
      "fr": "Je commence déjà à penser à l'année prochaine.",
      "en": "I'm already starting to think about next year.",
-     "audio": "19-Je commence déjà à penser à l'année prochaine.m4a"
+     "audio": "je_commence_deja_a_penser_a_l_annee_prochaine.mp3"
     },
     {
      "fr": "L'année prochaine sera pleine de surprises.",
      "en": "Next year will be full of surprises.",
-     "audio": "20-L'année prochaine sera pleine de surprises.m4a"
+     "audio": "l_annee_prochaine_sera_pleine_de_surprises.mp3"
     },
     {
      "fr": "Je vais étudier une langue l'année prochaine.",
      "en": "I'm going to study a foreign language next year.",
-     "audio": "21-Je vais étudier une langue l'année prochaine.m4a"
+     "audio": "je_vais_etudier_une_langue_l_annee_prochaine.mp3"
     }
    ],
    "notes": [
@@ -140,33 +144,33 @@
     {
      "fr": "L'an dernier, j'ai voyagé en Europe.",
      "en": "Last year, I travelled to Europe.",
-     "audio": "22-L'an dernier, j'ai voyagé en Europe.m4a"
+     "audio": "l_an_dernier_j_ai_voyage_en_europe.mp3"
     },
     {
      "fr": "L'année dernière a été difficile.",
      "en": "Last year was difficult.",
-     "audio": "23-L'année dernière a été difficile.m4a"
+     "audio": "l_annee_derniere_a_ete_difficile.mp3"
     },
     {
      "fr": "Je me lève tôt le matin.",
      "en": "I get up early in the morning.",
-     "audio": "24-Je me lève tôt le matin.m4a"
+     "audio": "je_me_leve_tot_le_matin.mp3"
     },
     {
      "fr": "Il est parti tôt ce matin.",
      "en": "He left early this morning.",
-     "audio": "25-Il est parti tôt ce matin.m4a"
+     "audio": "il_est_parti_tot_ce_matin.mp3"
     },
     {
      "fr": "J'ai passé la matinée à nettoyer la maison.",
      "ipa": "/netwaje/",
      "en": "I spent the whole morning cleaning the house.",
-     "audio": "26-J'ai passé la matinée à nettoyer la maison.m4a"
+     "audio": "j_ai_passe_la_matinee_a_nettoyer_la_maison.mp3"
     },
     {
      "fr": "Il a travaillé toute la matinée.",
      "en": "He worked all morning.",
-     "audio": "27-Il a travaillé toute la matinée.m4a"
+     "audio": "il_a_travaille_toute_la_matinee.mp3"
     }
    ],
    "notes": [

@@ -9,7 +9,11 @@
  "legacy": "fr/fundamental/numbers/3.html",
  "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
  "glossary_dir": "lessons/fundamental/numbers/3/",
- "title_audio": "01-numéros.m4a",
+ "audio_ver": "2611200739",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
+ "title_audio": "titre_numeros.mp3",
  "groups": [
   {
    "title": "",
@@ -17,22 +21,22 @@
     {
      "fr": "Quelle est la température dehors ?",
      "en": "What's the temperature outside?",
-     "audio": "02-Quelle est la température dehors.m4a"
+     "audio": "quelle_est_la_temperature_dehors.mp3"
     },
     {
      "fr": "Il gèle.",
      "en": "It's freezing. / It's twenty three degrees.",
-     "audio": "03-Il gèle.m4a"
+     "audio": "il_gele.mp3"
     },
     {
      "fr": "Il fait vingt-trois degrés.",
      "en": "It's freezing. / It's twenty three degrees.",
-     "audio": "04-Il fait vingt-trois degrés.m4a"
+     "audio": "il_fait_vingt_trois_degres.mp3"
     },
     {
      "fr": "un appartement de trois chambres",
      "en": "a three bedroom apartment",
-     "audio": "05-un appartement de trois chambres.m4a"
+     "audio": "un_appartement_de_trois_chambres.mp3"
     }
    ]
   }

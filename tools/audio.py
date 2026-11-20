@@ -472,7 +472,9 @@ def upload_recording(L):
             sys.exit(f'{L["audio_file"]} is not in media/: nothing to upload')
         files[L["audio_file"]] = f
     gd = L.get("glossary_dir", "")
-    for w in named_words(L):   # a word list or hotspot page: its named clips
+    heads = [{"audio": L["title_audio"]}] if L.get("title_audio") else []   # the recorded title and group headings of a word list
+    heads += [{"audio": g["audio"]} for g in L.get("groups", []) if g.get("audio")]
+    for w in named_words(L) + heads:   # a word list or hotspot page: its named clips
         if gd and w.get("audio"):
             p = lib.find("media/" + gd + w["audio"])
             if not p:

@@ -9,7 +9,7 @@
  "legacy": "fr/fundamental/dates/2.html",
  "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
  "glossary_dir": "lessons/fundamental/dates/2/",
- "audio_ver": "2611200605",
+ "audio_ver": "2611200738",
  "voices": [
   "Ze3DkBwQ81dW3YYr1nbz"
  ],
@@ -17,27 +17,27 @@
   {
    "title": "Day Expressions",
    "sub": "Talking about days",
-   "audio": "01-dates.m4a",
+   "audio": "titre_dates.mp3",
    "words": [
     {
      "fr": "Aujourd'hui, c'est dimanche.",
      "en": "Today is Sunday.",
-     "audio": "02-Aujourd'hui, c'est dimanche.m4a"
+     "audio": "aujourd_hui_c_est_dimanche.mp3"
     },
     {
      "fr": "Aujourd'hui, nous sommes dimanche.",
      "en": "Today is Sunday.",
-     "audio": "03-Aujourd'hui, nous sommes dimanche.m4a"
+     "audio": "aujourd_hui_nous_sommes_dimanche.mp3"
     },
     {
      "fr": "Quelle est la date d'aujourd'hui ?",
      "en": "What is today's date?",
-     "audio": "04-Quelle est la date d'aujourd'hui.m4a"
+     "audio": "quelle_est_la_date_d_aujourd_hui.mp3"
     },
     {
      "fr": "On est le vingt.",
      "en": "Today is the twentieth.",
-     "audio": "05-On est le vingt.m4a"
+     "audio": "on_est_le_vingt.mp3"
     }
    ]
   },
@@ -47,32 +47,32 @@
     {
      "fr": "tous les jours",
      "en": "every day",
-     "audio": "06-tous les jours.m4a"
+     "audio": "tous_les_jours.mp3"
     },
     {
      "fr": "chaque jour",
      "en": "each day",
-     "audio": "07-chaque jour.m4a"
+     "audio": "chaque_jour.mp3"
     },
     {
      "fr": "tous les deux jour",
      "en": "every other day",
-     "audio": "08-tous les deux jours.m4a"
+     "audio": "tous_les_deux_jour.mp3"
     },
     {
      "fr": "l'autre jour",
      "en": "the other day",
-     "audio": "09-l'autre jour.m4a"
+     "audio": "l_autre_jour.mp3"
     },
     {
      "fr": "par jour",
      "en": "per day",
-     "audio": "10-par jour.m4a"
+     "audio": "par_jour.mp3"
     },
     {
      "fr": "une fois par jour",
      "en": "once a day",
-     "audio": "11-une fois par jour.m4a"
+     "audio": "une_fois_par_jour.mp3"
     }
    ]
   },
@@ -82,62 +82,62 @@
     {
      "fr": "un jour",
      "en": "one day",
-     "audio": "12-un jour.m4a"
+     "audio": "un_jour.mp3"
     },
     {
      "fr": "un de ces jours",
      "en": "one of these days",
-     "audio": "13-un de ces jours.m4a"
+     "audio": "un_de_ces_jours.mp3"
     },
     {
      "fr": "quelques jours",
      "en": "a few days",
-     "audio": "14-quelques jours.m4a"
+     "audio": "quelques_jours.mp3"
     },
     {
      "fr": "en quelques jours",
      "en": "in a few days",
-     "audio": "15-en quelques jours.m4a"
+     "audio": "en_quelques_jours.mp3"
     },
     {
      "fr": "dans quelques jours",
      "en": "in a few days",
-     "audio": "16-dans quelques jours.m4a"
+     "audio": "dans_quelques_jours.mp3"
     },
     {
      "fr": "en jours",
      "en": "in days",
-     "audio": "17-en jours.m4a"
+     "audio": "en_jours.mp3"
     },
     {
      "fr": "en trois jours",
      "en": "in three days",
-     "audio": "18-en trois jours.m4a"
+     "audio": "en_trois_jours.mp3"
     },
     {
      "fr": "dans quatre jours",
      "en": "in four days",
-     "audio": "19-dans quatre jours.m4a"
+     "audio": "dans_quatre_jours.mp3"
     },
     {
      "fr": "premier jour",
      "en": "first day",
-     "audio": "20-premier jour.m4a"
+     "audio": "premier_jour.mp3"
     },
     {
      "fr": "dernier jour",
      "en": "last day",
-     "audio": "21-dernier jour.m4a"
+     "audio": "dernier_jour.mp3"
     },
     {
      "fr": "pendant jours",
      "en": "for days",
-     "audio": "22-pendant jours.m4a"
+     "audio": "pendant_jours.mp3"
     },
     {
      "fr": "pendant trois jours",
      "en": "for three days",
-     "audio": "23-pendant trois jours.m4a"
+     "audio": "pendant_trois_jours.mp3"
     }
    ]
   },
@@ -147,47 +147,47 @@
     {
      "fr": "jour et nuit",
      "en": "day and night",
-     "audio": "24-jour et nuit.m4a"
+     "audio": "jour_et_nuit.mp3"
     },
     {
      "fr": "le même jour",
      "en": "the same day",
-     "audio": "25-le même jour.m4a"
+     "audio": "le_meme_jour.mp3"
     },
     {
      "fr": "la veille",
      "en": "the previous day",
-     "audio": "26-la veille.m4a"
+     "audio": "la_veille.mp3"
     },
     {
      "fr": "le lendemain",
      "en": "the next day",
-     "audio": "27-le lendemain.m4a"
+     "audio": "le_lendemain.mp3"
     },
     {
      "fr": "du jour au lendemain",
      "en": "overnight",
-     "audio": "28-Du jour au lendemain.m4a"
+     "audio": "du_jour_au_lendemain.mp3"
     },
     {
      "fr": "deux jours avant",
      "en": "two days before",
-     "audio": "29-deux jours avant.m4a"
+     "audio": "deux_jours_avant.mp3"
     },
     {
      "fr": "deux jours après",
      "en": "two days later",
-     "audio": "30-deux jours après.m4a"
+     "audio": "deux_jours_apres.mp3"
     },
     {
      "fr": "à la lumière du jour",
      "en": "in daylight",
-     "audio": "31-à la lumière du jour.m4a"
+     "audio": "a_la_lumiere_du_jour.mp3"
     },
     {
      "fr": "Sauf qu'un jour,",
      "en": "Except that one day,",
-     "audio": "32-Sauf qu'un jour.m4a"
+     "audio": "sauf_qu_un_jour.mp3"
     }
    ]
   },
@@ -197,67 +197,67 @@
     {
      "fr": "le plus beau jour de ma vie",
      "en": "the best day of my life",
-     "audio": "33-le plus beau jour de ma vie.m4a"
+     "audio": "le_plus_beau_jour_de_ma_vie.mp3"
     },
     {
      "fr": "le jour le plus triste de ma vie",
      "en": "the saddest day of my life",
-     "audio": "34-le jour le plus triste de ma vie.m4a"
+     "audio": "le_jour_le_plus_triste_de_ma_vie.mp3"
     },
     {
      "fr": "le jour de ma naissance",
      "en": "the day I was born",
-     "audio": "35-le jour de ma naissance.m4a"
+     "audio": "le_jour_de_ma_naissance.mp3"
     },
     {
      "fr": "mon anniversaire",
      "en": "my birthday",
-     "audio": "36-mon anniversaire.m4a"
+     "audio": "mon_anniversaire.mp3"
     },
     {
      "fr": "mon anniv",
      "en": "my birthday (informal)",
-     "audio": "37-mon anniv.m4a"
+     "audio": "mon_anniv.mp3"
     },
     {
      "fr": "le jour de notre mariage",
      "en": "the day of our marriage",
-     "audio": "38-le jour de notre mariage.m4a"
+     "audio": "le_jour_de_notre_mariage.mp3"
     },
     {
      "fr": "notre anniversaire de mariage",
      "en": "our wedding anniversary",
-     "audio": "39-notre anniversaire de mariage.m4a"
+     "audio": "notre_anniversaire_de_mariage.mp3"
     },
     {
      "fr": "un grand jour",
      "en": "a great day",
-     "audio": "40-un grand jour.m4a"
+     "audio": "un_grand_jour.mp3"
     },
     {
      "fr": "un jour important",
      "en": "an important day",
-     "audio": "41-un jour important.m4a"
+     "audio": "un_jour_important.mp3"
     },
     {
      "fr": "C'est un jour spécial.",
      "en": "This is a special day.",
-     "audio": "42-C'est un jour spécial.m4a"
+     "audio": "c_est_un_jour_special.mp3"
     },
     {
      "fr": "le jour de l'indépendance",
      "en": "the independence day",
-     "audio": "43-le jour de l'indépendance.m4a"
+     "audio": "le_jour_de_l_independance.mp3"
     },
     {
      "fr": "la joie de vivre",
      "en": "the joy of life",
-     "audio": "44-la joie de vivre.m4a"
+     "audio": "la_joie_de_vivre.mp3"
     },
     {
      "fr": "Vivre chaque jour comme le dernier.",
      "en": "Live each day like the last.",
-     "audio": "45-vivre chaque jour comme le dernier.m4a"
+     "audio": "vivre_chaque_jour_comme_le_dernier.mp3"
     }
    ]
   },

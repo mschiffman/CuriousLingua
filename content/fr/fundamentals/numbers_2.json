@@ -9,11 +9,11 @@
  "legacy": "fr/fundamental/numbers/2.html",
  "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
  "glossary_dir": "lessons/fundamental/numbers/2/",
- "audio_ver": "2611200605",
+ "audio_ver": "2611200739",
  "voices": [
   "Ze3DkBwQ81dW3YYr1nbz"
  ],
- "title_audio": "01-numéros.m4a",
+ "title_audio": "titre_numeros.mp3",
  "groups": [
   {
    "title": "",
@@ -21,277 +21,277 @@
     {
      "fr": "Combien ?",
      "en": "How much? How many? / How much is it?",
-     "audio": "02-Combien.m4a"
+     "audio": "combien.mp3"
     },
     {
      "fr": "C'est combien ?",
      "en": "How much? How many? / How much is it?",
-     "audio": "03-C'est combien.m4a"
+     "audio": "c_est_combien.mp3"
     },
     {
      "fr": "Combien ça coûte ?",
      "en": "How much does this cost?",
-     "audio": "04-Combien ça coûte.m4a"
+     "audio": "combien_ca_coute.mp3"
     },
     {
      "fr": "Quel est le prix ?",
      "en": "What is the price?",
-     "audio": "54-Quel est le prix.m4a"
+     "audio": "quel_est_le_prix.mp3"
     },
     {
      "fr": "Ça fait combien ?",
      "en": "How much is that? (at the point of paying)",
-     "audio": "55-Ça fait combien.m4a"
+     "audio": "ca_fait_combien.mp3"
     },
     {
      "fr": "Vous le faites à combien ?",
      "en": "How much are you selling it for? (bargaining)",
-     "audio": "56-Vous le faites à combien.m4a"
+     "audio": "vous_le_faites_a_combien.mp3"
     },
     {
      "fr": "Ça a coûté cher.",
      "en": "It cost a lot.",
-     "audio": "05-Ça a coûté cher.m4a"
+     "audio": "ca_a_coute_cher.mp3"
     },
     {
      "fr": "Ça n'a pas coûté cher.",
      "en": "It didn't cost a lot.",
-     "audio": "06-Ça n'a pas coûté cher.m4a"
+     "audio": "ca_n_a_pas_coute_cher.mp3"
     },
     {
      "fr": "Ça coûte six dollars.",
      "en": "It cost six dollars.",
-     "audio": "07-Ça coûte six dollars.m4a"
+     "audio": "ca_coute_six_dollars.mp3"
     },
     {
      "fr": "Ça fait combien, exactement ?",
      "en": "How much, exactly?",
-     "audio": "08-Ça fait combien, exactement.m4a"
+     "audio": "ca_fait_combien_exactement.mp3"
     },
     {
      "fr": "Ça fait vingt-cinq euros.",
      "en": "That's 25 euros.",
-     "audio": "09-Ça fait vingt-cinq euros.m4a"
+     "audio": "ca_fait_vingt_cinq_euros.mp3"
     },
     {
      "fr": "Ça fait combien de temps ?",
      "en": "How long has it been?",
-     "audio": "10-Ça fait combien de temps.m4a"
+     "audio": "ca_fait_combien_de_temps.mp3"
     },
     {
      "fr": "Ça fait plus de deux heures.",
      "en": "It's been over two hours.",
-     "audio": "11-Ça fait plus de deux heures.m4a"
+     "audio": "ca_fait_plus_de_deux_heures.mp3"
     },
     {
      "fr": "Combien de chambres avez-vous ?",
      "en": "How many bedrooms do you have?",
-     "audio": "12-Combien de chambres avez-vous.m4a"
+     "audio": "combien_de_chambres_avez_vous.mp3"
     },
     {
      "fr": "On a quatre chambres.",
      "en": "We have four bedrooms.",
-     "audio": "13-On a quatre chambres.m4a"
+     "audio": "on_a_quatre_chambres.mp3"
     },
     {
      "fr": "Il y a combien de personnes ?",
      "en": "How many people are there?",
-     "audio": "14-Il y a combien de personnes.m4a"
+     "audio": "il_y_a_combien_de_personnes.mp3"
     },
     {
      "fr": "Il y a une trentaine de personnes.",
      "en": "There are about thirty people.",
-     "audio": "15-Il y a une trentaine de personnes.m4a"
+     "audio": "il_y_a_une_trentaine_de_personnes.mp3"
     },
     {
      "fr": "Il y a environ trente-cinq personnes.",
      "en": "There are about thirty five people.",
-     "audio": "16-Il y a environ trente-cinq personnes.m4a"
+     "audio": "il_y_a_environ_trente_cinq_personnes.mp3"
     },
     {
      "fr": "Tu as combien d'argent ?",
      "en": "How much money do you have?",
-     "audio": "17-Tu as combien d'argent.m4a"
+     "audio": "tu_as_combien_d_argent.mp3"
     },
     {
      "fr": "J'ai environ vingt et un euros.",
      "en": "I have about twenty one euros.",
-     "audio": "18-J'ai environ vingt et un euros.m4a"
+     "audio": "j_ai_environ_vingt_et_un_euros.mp3"
     },
     {
      "fr": "Ça suffit pas.",
      "en": "That's not enough.",
-     "audio": "19-Ça suffit pas.m4a"
+     "audio": "ca_suffit_pas.mp3"
     },
     {
      "fr": "Tu as des pièces ?",
      "en": "Do you have any coins?",
-     "audio": "20-Tu as des pièces.m4a"
+     "audio": "tu_as_des_pieces.mp3"
     },
     {
      "fr": "J'ai des pièces d'un euro.",
      "en": "I have some one-euro coins.",
-     "audio": "21-J'ai des pièces d'un euro.m4a"
+     "audio": "j_ai_des_pieces_d_un_euro.mp3"
     },
     {
      "fr": "Tu as chaud.",
      "en": "You're hot. / I want to take your temperature.",
-     "audio": "22-Tu as chaud.m4a"
+     "audio": "tu_as_chaud.mp3"
     },
     {
      "fr": "Je veux prendre ta température.",
      "en": "You're hot. / I want to take your temperature.",
-     "audio": "23-Je veux prendre ta température.m4a"
+     "audio": "je_veux_prendre_ta_temperature.mp3"
     },
     {
      "fr": "Il fait quatre-vingt-dix-huit degrés.",
      "en": "It's ninety eight degrees. / You're fine.",
-     "audio": "24-Il fait quatre-vingt-dix-huit degrés.m4a"
+     "audio": "il_fait_quatre_vingt_dix_huit_degres.mp3"
     },
     {
      "fr": "Tu vas bien.",
      "en": "It's ninety eight degrees. / You're fine.",
-     "audio": "25-Tu vas bien.m4a"
+     "audio": "tu_vas_bien.mp3"
     },
     {
      "fr": "Il nous en reste ?",
      "en": "Do we have any left?",
-     "audio": "26-Il nous en reste.m4a"
+     "audio": "il_nous_en_reste.mp3"
     },
     {
      "fr": "Il en reste combien ?",
      "en": "How many do we have left?",
-     "audio": "27-Il en reste combien.m4a"
+     "audio": "il_en_reste_combien.mp3"
     },
     {
      "fr": "Il nous reste combien d'œufs ?",
      "en": "How many eggs do we have left?",
-     "audio": "28-Il nous reste combien d'œufs.m4a"
+     "audio": "il_nous_reste_combien_d_oeufs.mp3"
     },
     {
      "fr": "Il nous reste des œufs ?",
      "en": "Do we have any eggs left?",
-     "audio": "29-Il nous reste des œufs.m4a"
+     "audio": "il_nous_reste_des_oeufs.mp3"
     },
     {
      "fr": "Il nous reste du lait ?",
      "en": "Do we have any milk left?",
-     "audio": "30-Il nous reste du lait.m4a"
+     "audio": "il_nous_reste_du_lait.mp3"
     },
     {
      "fr": "Il ne nous reste plus de pommes.",
      "en": "We don't have any apples left.",
-     "audio": "31-Il ne nous reste plus de pommes.m4a"
+     "audio": "il_ne_nous_reste_plus_de_pommes.mp3"
     },
     {
      "fr": "Il ne nous reste plus de lait.",
      "en": "We don't have any milk left.",
-     "audio": "32-Il ne nous reste plus de lait.m4a"
+     "audio": "il_ne_nous_reste_plus_de_lait.mp3"
     },
     {
      "fr": "Je vais aller vérifier.",
      "en": "I will go and check.",
-     "audio": "33-Je vais aller vérifier.m4a"
+     "audio": "je_vais_aller_verifier.mp3"
     },
     {
      "fr": "Tu les as comptés ?",
      "en": "Did you count them?",
-     "audio": "34-Tu les as comptés.m4a"
+     "audio": "tu_les_as_comptes.mp3"
     },
     {
      "fr": "Il nous en reste trois.",
      "en": "We have three left.",
-     "audio": "35-Il nous en reste trois.m4a"
+     "audio": "il_nous_en_reste_trois.mp3"
     },
     {
      "fr": "Il n'en reste plus.",
      "en": "We have none left.",
-     "audio": "36-Il n'en reste plus.m4a"
+     "audio": "il_n_en_reste_plus.mp3"
     },
     {
      "fr": "Il n'en reste qu'un.",
      "en": "We have only one left.",
-     "audio": "37-Il n'en reste qu'un.m4a"
+     "audio": "il_n_en_reste_qu_un.mp3"
     },
     {
      "fr": "De combien en as-tu besoin ?",
      "en": "How many do you need?",
-     "audio": "38-De combien en as-tu besoin.m4a"
+     "audio": "de_combien_en_as_tu_besoin.mp3"
     },
     {
      "fr": "On parle de combien ?",
      "en": "How much are we talking about?",
-     "audio": "39-On parle de combien.m4a"
+     "audio": "on_parle_de_combien.mp3"
     },
     {
      "fr": "Cinquante mille.",
      "en": "Fifty thousand.",
-     "audio": "40-Cinquante mille.m4a"
+     "audio": "cinquante_mille.mp3"
     },
     {
      "fr": "Tu en veux ?",
      "en": "Do you want some?",
-     "audio": "41-Tu en veux.m4a"
+     "audio": "tu_en_veux.mp3"
     },
     {
      "fr": "T'en veux ?",
      "en": "Do you want some?",
-     "audio": "42-T'en veux.m4a"
+     "audio": "t_en_veux.mp3"
     },
     {
      "fr": "Tu en veux combien ?",
      "en": "How much do you want?",
-     "audio": "43-Tu en veux combien.m4a"
+     "audio": "tu_en_veux_combien.mp3"
     },
     {
      "fr": "Tu en veux encore ?",
      "en": "Do you want some more?",
-     "audio": "44-Tu en veux encore.m4a"
+     "audio": "tu_en_veux_encore.mp3"
     },
     {
      "fr": "Tu en veux un autre ?",
      "en": "Do you want another one?",
-     "audio": "45-Tu en veux un autre.m4a"
+     "audio": "tu_en_veux_un_autre.mp3"
     },
     {
      "fr": "Encore un ?",
      "en": "One more?",
-     "audio": "46-Encore un.m4a"
+     "audio": "encore_un.mp3"
     },
     {
      "fr": "J'ai plus envie.",
      "en": "I want more.",
-     "audio": "47-J'ai plus envie.m4a"
+     "audio": "j_ai_plus_envie.mp3"
     },
     {
      "fr": "J'ai besoin de plus.",
      "en": "I need more.",
-     "audio": "48-J'ai besoin de plus.m4a"
+     "audio": "j_ai_besoin_de_plus.mp3"
     },
     {
      "fr": "J'en veux un de plus.",
      "en": "I want one more.",
-     "audio": "49-J'en veux un de plus.m4a"
+     "audio": "j_en_veux_un_de_plus.mp3"
     },
     {
      "fr": "Un peu plus.",
      "en": "A little bit more.",
-     "audio": "50-Un peu plus.m4a"
+     "audio": "un_peu_plus.mp3"
     },
     {
      "fr": "Un peu moins.",
      "en": "A little bit less.",
-     "audio": "51-Un peu moins.m4a"
+     "audio": "un_peu_moins.mp3"
     },
     {
      "fr": "Je n'en veux pas.",
      "en": "I don't want any.",
-     "audio": "52-Je n'en veux pas.m4a"
+     "audio": "je_n_en_veux_pas.mp3"
     },
     {
      "fr": "J'en veux pas.",
      "en": "I don't want any.",
-     "audio": "53-J'en veux pas.m4a"
+     "audio": "j_en_veux_pas.mp3"
     }
    ]
   },
