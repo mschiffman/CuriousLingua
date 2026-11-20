@@ -5,7 +5,9 @@
  "topic": "Geography",
  "type": "text",
  "register": "casual, spoken (tu), lots of colloquial French",
- "review": "Text and glossary from the user (Asie.md). Sentence split, English translations, the glosses in the text and their IPA by Claude: check them. Recording: ElevenLabs Fr-Augustin (eleven_v4), one take; sentence times from the take's character timings. No picture yet.",
+ "review": "Text and glossary from the user (Asie.md). Sentence split, English translations, the glosses in the text and their IPA by Claude: check them. Recording: ElevenLabs Fr-Augustin (eleven_v4), one take; sentence times from the take's character timings.",
+ "img": "img/Fr-read/asia.jpg",
+ "img_alt": "A relief map of Asia",
  "audio_file": "lessons/read/asia/audio.mp3",
  "audio_ver": "2611201141",
  "voice": {
