@@ -466,7 +466,8 @@ def narrate(L, redo=False):
     os.makedirs(raw, exist_ok=True)
     doc = json.load(open(L["file"], encoding="utf-8"))
     paras = doc["paragraphs"]
-    text = "\n\n".join(" ".join(lib.spoken(s["text"]) for s in p) for p in paras)   # a blank line between paragraphs: a longer pause
+    head = [lib.spoken(doc[k]) for k in ("title", "subtitle") if doc.get(k)]   # the take opens with the title and subtitle, as the user records them
+    text = "\n\n".join(head + [" ".join(lib.spoken(s["text"]) for s in p) for p in paras])   # a blank line between paragraphs: a longer pause
     if not os.path.exists(dest) or redo:
         if os.path.exists(dest):   # a new take: the old one is moved aside, not deleted
             aside = os.path.join(raw, "_replaced_" + datetime.datetime.now().strftime("%y%m%d-%H%M%S"))

@@ -13,3 +13,6 @@ node_modules/
 
 # source files for the globe: tools/globe.py downloads them again when missing
 _archive/globe-src/
+
+# draft page, kept off the site
+fr/vocabulary/solar-system.html
