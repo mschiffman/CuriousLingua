@@ -2,7 +2,7 @@
 
     python -E tools/audio.py                         the menu (what 2_audio.bat opens)
     python -E tools/audio.py status                  every lesson with clips still to make
-    python -E tools/audio.py make <lesson>           make the missing clips
+    python -E tools/audio.py make <lesson>           make the missing clips (a picture story: then its page clips too, see `pages`)
     python -E tools/audio.py make <lesson> --only 3 4     only these
     python -E tools/audio.py make <lesson> --redo 6 12    new takes (old clip and raw take are moved aside, not deleted)
     python -E tools/audio.py check <lesson>          Whisper on every clip, compared with the text
@@ -81,6 +81,17 @@ def paths(L):
     media = lib.media_dir(L)
     raw = os.path.join(ROOT, "media", "elevenlabs-raw", L["aud_dir"].strip("/").replace("/", "_"))
     return media, raw
+
+
+def narrator(L):
+    """(voice, model) when no speaker has a voice of their own: the lesson's "voice": {"narrator": id} and "voice_model",
+    else, for a picture story, the course's "story_voice" and "story_model" (voices.json: French stories are read by
+    Fr-Sophie with eleven_v4), else the course voice and model."""
+    v = VOICES[L["course"]]
+    story = L.get("type") == "reader"
+    voice = (L.get("voice") or {}).get("narrator") or (story and v.get("story_voice")) or v["voice"]
+    model = L.get("voice_model") or (story and v.get("story_model")) or v["model"]
+    return voice, model
 
 
 def missing(L):
@@ -222,16 +233,18 @@ def make(L, only, redo):
                 if os.path.exists(f):
                     shutil.move(f, os.path.join(aside, name))
     for n in todo:
-        voice = per.get(speaker.get(n)) or per.get("narrator") or v["voice"]   # "voice": {"narrator": id} for a story read by one voice
+        voice = per.get(speaker.get(n)) or narrator(L)[0]
         if not voice:
             sys.exit(f"no voice for {L['course']}: set it in assets/data/voices.json")
         rawf = os.path.join(raw, f"{n:02d}.mp3")
-        tts(tx[n], voice, L.get("voice_model") or v["model"], rawf)   # "voice_model" in a lesson overrides the course model
+        tts(tx[n], voice, narrator(L)[1], rawf)   # "voice_model" in a lesson overrides the course model
         got = level(rawf, lib.clip_file(L, n), v["lufs"], stereo=L["course"] == "eng")
         print(f"{n:02d}.mp3 {got:6.1f} LUFS  {tx[n]}")
     whisper(L, todo)
     left = missing(L)
     print(f"{L['id']}: {len(todo)} clip(s) made, {len(left)} still missing" + ("" if left else ". Next: upload."))
+    if L.get("type") == "reader" and not left:   # a picture story has two sets of clips: the chunks, and each page read in one go
+        pages(L)
 
 
 def duration(path):
@@ -380,8 +393,7 @@ def pages(L, redo=()):
     media, raw = paths(L)
     os.makedirs(media, exist_ok=True)
     os.makedirs(raw, exist_ok=True)
-    voice = (L.get("voice") or {}).get("narrator") or v["voice"]
-    model = L.get("voice_model") or v["model"]
+    voice, model = narrator(L)
     doc = json.load(open(L["file"], encoding="utf-8"))
     made, lost = [], []
     for k, (p, mine) in enumerate(zip(L["pages"], doc["pages"]), 1):

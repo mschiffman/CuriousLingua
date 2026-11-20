@@ -1,9 +1,12 @@
 {
- "_": "One voice per course; a lesson may override it with \"voice\": {\"<speaker>\": \"<ElevenLabs voice id>\"}. French and Japanese are never re-encoded after leveling.",
+ "_": "One voice per course; a lesson may override it with \"voice\": {\"<speaker>\": \"<ElevenLabs voice id>\"} (or {\"narrator\": id} for a story). story_voice / story_model: the voice of a course's picture stories. French and Japanese are never re-encoded after leveling.",
  "fr": {
   "name": "Fr-Adrien",
   "voice": "OrVRsyqKB4siJQenyBu5",
   "model": "eleven_v3",
+  "story_name": "Fr-Sophie",
+  "story_voice": "3YsdE1c1xyJow6Iy6jWB",
+  "story_model": "eleven_v4",
   "lufs": -16,
   "whisper": "fr"
  },

@@ -548,6 +548,10 @@ def state(L):
         out.update({"audio": "clips" if own else "none", "total": len(cl) if own else 0, "missing": miss, "media": lib.media_dir(L) or "",
                     "texts": {str(n): lib.spoken(t) for n, t in cl if n in miss}, "tag": m.group(1) if m else "", "pending": own and lib.pending(L)})
     out["chars"] = sum(len(t) for t in out["texts"].values())
+    if L.get("type") == "reader" and out["audio"] == "clips" and out["missing"]:   # a new story is also read page by page (p01.mp3 ...)
+        mdir = lib.media_dir(L) or ""
+        out["chars"] += sum(len(" ".join(lib.spoken(c[0]) for s in p["sentences"] for c in s)) for k, p in enumerate(L.get("pages", []), 1)
+                            if not os.path.exists(os.path.join(mdir, f"p{k:02d}.mp3")))
     imgs = lib.images(L)
     gone = [x for x in imgs if not lib.find(x)]
     out["pictures"] = {"total": len(imgs), "missing": len(gone), "dir": L.get("img_dir", ""), "ext": L.get("img_ext", "jpg"),

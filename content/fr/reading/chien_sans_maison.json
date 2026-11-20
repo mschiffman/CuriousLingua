@@ -8,10 +8,6 @@
  "img_ext": "jpg",
  "aud_dir": "fr/reading/chien_sans_maison/",
  "aud_ext": "mp3?v=2611201012",
- "voice": {
-  "narrator": "3YsdE1c1xyJow6Iy6jWB"
- },
- "voice_model": "eleven_v4",
  "translation": {
   "lang": "en",
   "label": "English"

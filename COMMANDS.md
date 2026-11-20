@@ -92,6 +92,7 @@ A lesson is written `course/strand/slug`, for example `fr/listening/home_pantry_
 | `python -E tools\audio.py make <lesson>` | Make the missing clips, level them, run Whisper on them | **yes** |
 | `python -E tools\audio.py make <lesson> --only 3 4` | Make only clips 3 and 4 | **yes** |
 | `python -E tools\audio.py make <lesson> --redo 6 12` | New takes of clips 6 and 12. The old clips are moved aside, not deleted | **yes** |
+| `python -E tools\audio.py pages <lesson>` | A picture story: record each page read in one go (`p01.mp3` …) for **Play page**, and find every chunk inside it, so the page still lights up as it reads. `make` does this by itself after a story's chunks. `--redo 3` for a new take of page 3 | **yes** |
 | `python -E tools\audio.py check <lesson>` | Whisper on every clip, compared with the text | no |
 | `python -E tools\audio.py trim <lesson>` | Cut the silence after the speech from clips made before the tool did it itself (`trim all` for every lesson, `--dry` only lists). New clips are trimmed when they are made. Old clips are moved to the raw-takes folder (`_untrimmed_…`). Then `upload` | no |
 | `python -E tools\audio.py upload <lesson>` | Send new or changed clips to R2, set the `?v=` tag, rebuild | no |
@@ -101,6 +102,7 @@ The usual order for a new lesson: `make`, listen to the clips Whisper marks `<<<
 
 Things to know:
 
+- **Picture stories have two sets of clips:** the chunks (`01.mp3` …, played when a chunk is tapped) and one clip per page (`p01.mp3` …, played by Play page). French stories are read by Fr-Sophie with `eleven_v4` (`story_voice` in `assets\data\voices.json`). A story can name another reader with `"voice": {"narrator": "<voice id>"}`.
 - **Upload is what makes sound appear on the site.** Until then the Play buttons are grey (`"aud_ext": "mp3?v=pending"`).
 - **The menu only lists lessons that are pending or have clips missing.** A lesson that already has a `?v=` tag and all its clips on disk does not appear: upload it by name.
 - **Two voices in a dialogue:** add `"voice": {"E": "<voice id>"}` to the lesson file, one entry per speaker who should not use the course voice. The course voice is in `assets\data\voices.json`.
