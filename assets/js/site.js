@@ -68,6 +68,28 @@
       a.play().catch(() => end(false));
     });
   }
+  /* A story page read in one go (page.audio = "p01": p01.mp3 in aud_dir). page.t = { "<chunk>": [start, end] } inside it:
+     onChunk(n) is called as the voice reaches each chunk. Resolves like play(). Made by `tools/audio.py pages`. */
+  function playPageClip(p, rate, onChunk) {
+    stop();
+    return new Promise((res) => {
+      if (pending) return res(0);
+      const marks = Object.entries(p.t || {}).map(([n, t]) => [+n, t[0]]).sort((x, y) => x[1] - y[1]);
+      const url = (/^https?:/.test(L.aud_dir) ? "" : BASE) + L.aud_dir + p.audio + "." + (L.aud_ext || "mp3");
+      const a = new Audio(media(url));
+      a.playbackRate = rate || 1; cur = a; done = res;
+      let on = 0;
+      const end = (ok) => { clearInterval(tick); if (done === res) { done = null; cur = null; res(ok ? a.duration || 1 : 0); } };
+      a.onended = () => end(true); a.onerror = () => end(false);
+      a.play().then(() => {
+        tick = setInterval(() => {
+          let n = 0;
+          for (const m of marks) if (a.currentTime >= m[1] - 0.05) n = m[0]; else break;
+          if (n && n !== on) { on = n; onChunk(n); }
+        }, 40);
+      }).catch(() => end(false));
+    });
+  }
   const common = () => ({
     pending, rate: 1, playing: 0, busy: false, run: 0,
     /* every new action takes a new run number; a sequence that wakes up under an old number stops quietly */
@@ -111,6 +133,13 @@
       async playPage() {
         if (this.busy) return this.halt();
         const r = ++this.run; this.busy = true;
+        if (this.page.audio) {   // the whole page in one take: it reads like a sentence, and each chunk lights up as it is reached
+          this.playing = (this.page.sentences[0] || [[0, 0]])[0][1];
+          await playPageClip(this.page, this.rate, (n) => { if (r === this.run) this.playing = n; });
+          if (r !== this.run) return;
+          this.playing = 0; this.busy = false;
+          return;
+        }
         for (const s of this.page.sentences) for (const c of s) {
           this.playing = c[1]; const d = await play(c[1], this.rate);
           if (r !== this.run) return;

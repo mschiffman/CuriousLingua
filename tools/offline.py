@@ -82,6 +82,13 @@ def one(L):
                 embed[f"{base}{n:02d}.{L.get('aud_ext', 'mp3')}"] = uri(f, None if full else small(f))
             else:
                 missing.append(n)
+        for p in L.get("pages", []):   # a story's page clips (p01.mp3 ...), played by Play page
+            if p.get("audio"):
+                f = os.path.join(lib.media_dir(L), p["audio"] + ".mp3")
+                if os.path.exists(f):
+                    embed[f"{base}{p['audio']}.{L.get('aud_ext', 'mp3')}"] = uri(f, None if full else small(f))
+                else:
+                    missing.append(p["audio"])
     ver = "?v=" + L["audio_ver"] if L.get("audio_ver") else ""   # the page asks for the recording and glossary clips with this tag
     if L.get("audio_file"):
         f = lib.find("media/" + L["audio_file"])

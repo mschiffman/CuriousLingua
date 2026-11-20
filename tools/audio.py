@@ -15,6 +15,8 @@
                                                      maison.mp3); --redo maison.mp3 for a new take. Then `upload` as usual
     python -E tools/audio.py shadow <dialogue>       draft a shadowing lesson from a dialogue: its sentences, as parts of the same clips
     python -E tools/audio.py chunks <shadow lesson>  find each chunk inside its clip and write its "t": [start, end]. Uses no characters
+    python -E tools/audio.py pages <story>           one clip per page of a picture story (p01.mp3 ...), read in one go, for Play page;
+                                                     each chunk's place in it is written into the page. --redo 3 for a new take
 
 <lesson> is course/strand/slug, e.g. fr/speaking/boulangerie.
 
@@ -362,6 +364,78 @@ def chunks(L):
     build.main()
 
 
+def page_text(p):
+    """the whole text of a story page, as the voice reads it in one go"""
+    return " ".join(lib.spoken(c[0]) for s in p["sentences"] for c in s)
+
+
+def pages(L, redo=()):
+    """A picture story: one more clip per page (p01.mp3, p02.mp3 ...), the whole page read in one go, so that Play page
+    sounds like reading and not like a list of chunks. Each chunk is found inside its page's take from the character
+    times saved with it, and written into the page as "t": {"<chunk>": [start, end]}: the page lights up each chunk as
+    the voice reaches it. The chunk clips stay: a tap on a chunk still plays its own clip."""
+    if L.get("type") != "reader":
+        sys.exit(f'{L["id"]}: `pages` is for a picture story ("type": "reader")')
+    v = VOICES[L["course"]]
+    media, raw = paths(L)
+    os.makedirs(media, exist_ok=True)
+    os.makedirs(raw, exist_ok=True)
+    voice = (L.get("voice") or {}).get("narrator") or v["voice"]
+    model = L.get("voice_model") or v["model"]
+    doc = json.load(open(L["file"], encoding="utf-8"))
+    made, lost = [], []
+    for k, (p, mine) in enumerate(zip(L["pages"], doc["pages"]), 1):
+        name, text = f"p{k:02d}", page_text(p)
+        dest, rawf, rawj = os.path.join(media, name + ".mp3"), os.path.join(raw, name + ".mp3"), os.path.join(raw, name + ".json")
+        if not os.path.exists(dest) or k in redo:
+            if os.path.exists(dest):   # a new take: the old one is moved aside, not deleted
+                aside = os.path.join(raw, "_replaced_" + datetime.datetime.now().strftime("%y%m%d-%H%M%S"))
+                os.makedirs(aside, exist_ok=True)
+                for f in (dest, rawf, rawj):
+                    if os.path.exists(f):
+                        shutil.move(f, os.path.join(aside, ("raw_" if f != dest else "") + os.path.basename(f)))
+            tts(text, voice, model, rawf)
+            got = level(rawf, dest, v["lufs"], stereo=L["course"] == "eng")
+            made.append(k)
+            print(f"{name}.mp3 {got:6.1f} LUFS  {text}")
+        if not os.path.exists(rawj):
+            lost.append(f"{name}: no character times saved with this take: Play page will play the chunks one by one")
+            mine.pop("audio", None); mine.pop("t", None)
+            continue
+        al = json.load(open(rawj, encoding="utf-8"))
+        line = []   # one (letter, start, end) per letter the voice said
+        for ch, a, b in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]):
+            line += [(x, a, b) for x in plain(ch)]
+        said, pos, t = "".join(x[0] for x in line), 0, {}
+        for c in (c for s in p["sentences"] for c in s):
+            want = plain(lib.spoken(c[0]))
+            i = said.find(want, pos) if want else -1
+            if i < 0:
+                lost.append(f"{name}: chunk {c[1]} not found: {c[0]}")
+                continue
+            t[str(c[1])] = [round(line[i][1], 2), round(line[i + len(want) - 1][2], 2)]
+            pos = i + len(want)
+        mine["audio"], mine["t"] = name, t
+    open(L["file"], "w", encoding="utf-8", newline="\n").write(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
+    for x in lost:
+        print("   " + x)
+    if made:
+        bad = 0
+        with tempfile.TemporaryDirectory() as tmp:
+            subprocess.run(["whisper", *[os.path.join(media, f"p{k:02d}.mp3") for k in made], "--model", "small", "--language", v["whisper"],
+                            "--output_format", "txt", "--output_dir", tmp, "--verbose", "False", "--fp16", "False"],
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+            for k in made:
+                heard = " ".join(open(os.path.join(tmp, f"p{k:02d}.txt"), encoding="utf-8").read().split())
+                if v["whisper"] in ("en", "fr") and letters(heard, v["whisper"]) != letters(page_text(L["pages"][k - 1]), v["whisper"]):
+                    bad += 1
+                    print(f"   check: p{k:02d}.mp3  heard: {heard}")
+        print(f"Whisper: {bad} of {len(made)} page clip(s) to listen to. New take: python -E tools\\audio.py pages {L['id']} --redo 3")
+    print(f"{L['id']}: {len(made)} page clip(s) made, {len(L['pages']) - len(made)} already there. Next: upload.")
+    import build
+    build.main()
+
+
 def shadow(L):
     """Drafts a shadowing lesson from a dialogue: each sentence becomes a chunk of its line's clip. No new takes."""
     if L.get("type") != "dialogue":
@@ -538,7 +612,7 @@ def upload(L):
     s3 = boto3.client("s3", endpoint_url=f"https://{env('R2_ACCOUNT_ID')}.r2.cloudflarestorage.com", aws_access_key_id=env("R2_ACCESS_KEY_ID"),
                       aws_secret_access_key=env("R2_SECRET_ACCESS_KEY"), region_name="auto")
     prefix = L["aud_dir"].strip("/") + "/"
-    names = [f"{n:02d}.mp3" for n in tx]
+    names = [f"{n:02d}.mp3" for n in tx] + [p["audio"] + ".mp3" for p in L.get("pages", []) if p.get("audio")]   # a story's page clips too
     md5 = lambda f: hashlib.md5(open(os.path.join(media, f), "rb").read()).hexdigest()
     online = {}
     for pg in s3.get_paginator("list_objects_v2").paginate(Bucket=BUCKET, Prefix=prefix):
@@ -662,6 +736,8 @@ if __name__ == "__main__":
         shadow(get(a[1]))
     elif a[0] == "chunks" and len(a) > 1:
         chunks(get(a[1]))
+    elif a[0] == "pages" and len(a) > 1:
+        pages(get(a[1]), nums("--redo"))
     elif a[0] == "words" and len(a) > 1:
         words(get(a[1]), [x for x in a[a.index("--redo") + 1:]] if "--redo" in a else [])
     else:
