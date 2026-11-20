@@ -3,6 +3,7 @@
  "subtitle": "Sophie fait ses courses au marché",
  "level": "a1",
  "topic": "Stories",
+ "related": ["fr/fundamentals/numbers_prices", "fr/vocabulary/marche", "fr/speaking/boulangerie", "fr/speaking/marche"],
  "type": "reader",
  "source_md": "un-euro-deux-euros.md",
  "img_dir": "img/ytstory/un-euro-deux-euros/",

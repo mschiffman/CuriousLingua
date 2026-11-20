@@ -739,12 +739,18 @@ def crumbs(L, r):
 
 
 def data_script(L, r):
-    keep = {k: v for k, v in L.items() if k not in ("file", "legacy", "url", "id", "categories", "quiz", "quizTags", "_supp")}
+    keep = {k: v for k, v in L.items() if k not in ("file", "legacy", "url", "id", "categories", "quiz", "quizTags", "_supp", "_rel")}
     return f'<script>window.ROOT={js(r)};window.MEDIA_BASE={js(C["media_base"])};window.LESSON={js(keep)};</script>'
+
+
+def related_label(x):
+    """Vocabulary: Au marché. What a link to a related lesson says when there is no room for a tile."""
+    return f'{C["strands"][x["strand"]][0]}: {x.get("title", x["slug"])}'
 
 
 def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
     rel, r = L["url"], up(L["url"])
+    related = L.get("_rel", ())   # the lessons this one names in "related", and the ones that name it
     course = C["courses"][L["course"]]
     title = L.get("title", L["slug"])
     pager = '<div class="mt-12 flex flex-wrap items-center gap-3" data-nav>'
@@ -759,6 +765,12 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
         n = sum(len(c["cards"]) for c in L["categories"])
         strand = C["strands"][L["strand"]][0]
         link = 'style="color:rgba(255,255,255,.7)" class="hover:underline"'
+        goes = ""   # the lessons this page is paired with ("related")
+        if related:
+            mono = "font-family:'Space Mono',monospace"
+            goes = (f'<p class="mt-8 text-xs uppercase tracking-widest" style="color:rgba(255,255,255,.4);{mono}">Goes with</p>'
+                    f'<p class="mt-3 flex flex-wrap justify-center gap-6 text-xs uppercase tracking-widest" style="{mono}" data-nav>'
+                    + "".join(f'<a {link} href="{r}{x["url"]}">{e(related_label(x))}</a>' for x in related) + "</p>")
         body = f'''{CARDS_BLOBS}
 <div class="relative z-10 flex flex-wrap items-center gap-2 px-6 pt-5 text-xs uppercase tracking-widest" style="font-family:'Space Mono',monospace;color:rgba(255,255,255,.4)" data-nav>
 <a {link} href="{r}index.html">{e(C["site_name"])}</a><span>/</span>
@@ -778,7 +790,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 <p class="text-xs uppercase tracking-widest" style="color:rgba(255,255,255,.25);font-family:'Space Mono',monospace"><span id="count">{n}</span> expressions &middot; {e(title)}</p>
 <p class="mt-6 flex flex-wrap justify-center gap-6 text-xs uppercase tracking-widest" style="font-family:'Space Mono',monospace" data-nav>
 {f'<a {link} href="{r}{prev["url"]}">&larr; {e(prev.get("title", ""))}</a>' if prev else ""}
-{f'<a {link} href="{r}{nxt["url"]}">{e(nxt.get("title", ""))} &rarr;</a>' if nxt else ""}</p>
+{f'<a {link} href="{r}{nxt["url"]}">{e(nxt.get("title", ""))} &rarr;</a>' if nxt else ""}</p>{goes}
 </div></div>'''
         data = f'const AUD_DIR={js(aud)};const AUD_EXT={js(L.get("aud_ext", "mp3?v=pending"))};const categories={js(L["categories"])};'
         if L.get("quiz"):
@@ -795,7 +807,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
     if L.get("type") == "reader":   # one screen: the picture stays put, the text scrolls beside or under it
         end = f'''<div class="flex flex-wrap items-center gap-3" x-data="progress('{L["id"]}')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '\\u2713 Done' : 'Mark as done'"></button>{off}
-{"".join(f'<a class="btn" href="{r}{x["url"]}">{e(x.get("label", "Practice"))}</a>' for x in supplements)}
+{"".join(f'<a class="btn" href="{r}{x["url"]}">{e(x.get("label", "Practice"))}</a>' for x in supplements)}{"".join(f'<a class="btn" href="{r}{x["url"]}">{e(related_label(x))}</a>' for x in related)}
 {f'<a class="btn" href="{r}{nxt["url"]}">Next: {e(nxt.get("title", ""))} &rarr;</a>' if nxt else ""}</div>'''   # a reader has no room for the Supplemental section: its practice pages are buttons at the end
         if L.get("questions"):
             end = QUIZ.replace("mt-12 ", "") + end
@@ -845,7 +857,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 {steps}
 {shell}
 {(QUIZ if L.get("questions") else "") + extra if L.get("start_hidden") else extra + (QUIZ if L.get("questions") else "")}
-{supp}
+{supp}{('<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p>' + grid([tile(x, rel).replace('<span class="chip">', f'<span class="chip">{e(C["strands"][x["strand"]][0])}</span><span class="chip">', 1) for x in related]) + "</section>") if related else ""}
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('{L["id"]}')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '\u2713 Done' : 'Mark as done'"></button>{off}</div>
 {pager}
@@ -1034,6 +1046,16 @@ def main():
                 print(f"  {X['id']}: page {X['url']} is missing")
             continue
         write(X["url"], lesson_page(X, None, None, X["id"] in have, parent=parent))
+    by_id = {L["id"]: L for L in all_lessons}
+    for L in all_lessons:   # "related": ["fr/vocabulary/marche", ...] links two lessons, and each shows the other
+        for rid in L.get("related", ()):
+            X = by_id.get(rid.strip("/")) or by_id.get(f'{L["course"]}/{rid.strip("/")}')
+            if X is None or X is L:
+                print(f"  {L['id']}: related names a lesson that does not exist ({rid})")
+                continue
+            for a, b in ((L, X), (X, L)):
+                if b not in a.setdefault("_rel", []):
+                    a["_rel"].append(b)
     for k, c in C["courses"].items():
         items = [L for L in all_lessons if L["course"] == k]
         for s in c["strands"]:

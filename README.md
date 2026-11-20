@@ -49,6 +49,8 @@ Every lesson file has `title`, `level` (`pre-a1` `a1` `a2` `b1` `b2` `c1`), `top
 
 **Supplements.** A lesson file with `"supplement_of": "amber"` is not listed on its own: it appears in a "Supplemental section" at the bottom of that lesson (same folder). `label` is the chip shown on its tile.
 
+**Related lessons.** `"related": ["fr/vocabulary/marche", "fr/speaking/boulangerie"]` pairs a lesson with others (any strand; `course/strand/slug`). Write it in one of them only: each lesson then shows the other, in a "Goes with this lesson" section (a row of buttons at the end of a picture story, a line of links under expression flashcards). The build says so when a name does not exist.
+
 **File names** use underscores, not dashes: `amber_cloze.json`, `video_amber.json`. To rename a lesson, save it under the new name and replace the old file's content with `{"retired": true}`; the next build deletes the old file and its pages.
 
 Any `reader`, `dialogue`, `shadow` or `text` lesson can end with a quiz:

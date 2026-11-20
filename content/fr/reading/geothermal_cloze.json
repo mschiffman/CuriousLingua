@@ -1,0 +1,88 @@
+{
+ "title": "L’énergie géothermique : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "geothermal",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "En août, la",
+     "answer": "chaleur",
+     "after": "est parfois difficile à supporter en ville.",
+     "tr": "In August, the heat is sometimes hard to bear in the city."
+    },
+    {
+     "before": "Ce lac a une",
+     "answer": "profondeur",
+     "after": "de vingt mètres.",
+     "tr": "This lake has a depth of twenty metres."
+    },
+    {
+     "before": "Avec du repos, tu vas vite",
+     "answer": "guérir",
+     "after": ".",
+     "tr": "With some rest, you will get better quickly."
+    },
+    {
+     "before": "Le chat est",
+     "answer": "caché",
+     "after": "sous le lit : on ne le voit pas.",
+     "tr": "The cat is hidden under the bed: you can't see it."
+    },
+    {
+     "before": "Le",
+     "answer": "réseau",
+     "after": "de métro de Paris compte seize lignes.",
+     "tr": "The Paris metro network has sixteen lines."
+    },
+    {
+     "before": "Je vais",
+     "answer": "réchauffer",
+     "after": "la soupe d’hier soir.",
+     "tr": "I am going to warm up last night's soup."
+    },
+    {
+     "before": "On gare la voiture dans un parking",
+     "answer": "souterrain",
+     "after": ", sous l’immeuble.",
+     "tr": "We park the car in an underground car park, beneath the building."
+    },
+    {
+     "before": "Le chien a",
+     "answer": "enterré",
+     "after": "son os dans le jardin.",
+     "tr": "The dog buried its bone in the garden."
+    },
+    {
+     "before": "Cette antenne",
+     "answer": "capte",
+     "after": "très bien le signal.",
+     "tr": "This antenna picks up the signal very well."
+    },
+    {
+     "before": "La bibliothèque est un endroit",
+     "answer": "silencieux",
+     "after": ", idéal pour travailler.",
+     "tr": "The library is a quiet place, ideal for working."
+    },
+    {
+     "before": "Sa patience est",
+     "answer": "inépuisable",
+     "after": ": il ne se fâche jamais.",
+     "tr": "His patience is inexhaustible: he never gets angry."
+    },
+    {
+     "before": "L’usine va",
+     "answer": "rejeter",
+     "after": "moins de fumée dans l’air.",
+     "tr": "The factory is going to release less smoke into the air."
+    }
+   ]
+  }
+ ]
+}
