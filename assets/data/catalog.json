@@ -255,6 +255,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/loisir",
+  "url": "fr/listening/loisir.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "b1",
+  "level_provisional": false,
+  "topic": "Likes and dislikes",
+  "type": "dialogue",
+  "title": "Les loisirs",
+  "clips": 15,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/matin",
   "url": "fr/listening/matin.html",
   "course": "fr",
