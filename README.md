@@ -51,6 +51,18 @@ Every lesson file has `title`, `level` (`pre-a1` `a1` `a2` `b1` `b2` `c1`), `top
 
 **Related lessons.** `"related": ["fr/vocabulary/marche", "fr/speaking/boulangerie"]` pairs a lesson with others (any strand; `course/strand/slug`). Write it in one of them only: each lesson then shows the other, in a "Goes with this lesson" section (a row of buttons at the end of a picture story, a line of links under expression flashcards). The build says so when a name does not exist.
 
+**The standard quiz set of a reading text.** Every reading text gets the same two supplements; `content\fr\reading\geothermal_exercises.json` and `geothermal_cloze.json` are the model to copy. Instructions to the learner are in French with *vous*; `label`, `intro` and `review` stay in English.
+
+- `<slug>_exercises.json`: title `<Short title> : exercices`, subtitle `Cinq exercices sur le texte`, label `Exercises`, five blocks in this order and with these titles:
+  1. `truefalse`, "1. Vrai ou faux": 6 statements, 3 true and 3 false, each settled by one sentence of the text; a false one changes one fact (a number, a place, a cause).
+  2. `choice`, "2. Questions à choix multiples": 5 questions, 3 options each, the right answer not always in the same place; `"why"` quotes the sentence of the text that settles it, in « ».
+  3. `cloze`, "3. Complétez les phrases": 6 sentences taken from the text (shortened if long), one content word missing, one from each part of the text.
+  4. `open`, "4. Questions ouvertes": 5 questions with a `"model"` answer. The first is always "Sans regarder le texte, résumez-le en trois phrases."; the last is a personal question whose model is "Réponse libre.". The `"note"` is the same on every page.
+  5. `order`, "5. Remettez dans l’ordre": 5 events or ideas, listed in `items` in the right order (the order of the story, or of the text when it tells no story; say which in `"intro"`), each a short phrase that cannot fit in two places; `"start"` is the shuffled order they are shown in.
+- `<slug>_cloze.json`: title `<Short title> : texte à trous`, subtitle `Complétez avec le nom, le verbe ou l’adjectif qui manque`, label `Cloze test`, the same `intro` as the model, one `cloze` block of 12 **new** everyday sentences, each using one word of the lesson's glossary (a mix of nouns, verbs and adjectives, in the form the sentence needs) and with its English in `"tr"`. No word is used on both pages.
+
+Only one answer may be right for each blank, and nothing may be asked that the text does not say. A page written by a model carries `"review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners."` until you have read it.
+
 **File names** use underscores, not dashes: `amber_cloze.json`, `video_amber.json`. To rename a lesson, save it under the new name and replace the old file's content with `{"retired": true}`; the next build deletes the old file and its pages.
 
 Any `reader`, `dialogue`, `shadow` or `text` lesson can end with a quiz:
