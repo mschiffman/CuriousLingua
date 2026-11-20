@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/time/",
+ "audio_ver": "2611200609",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "L’heure officielle",
@@ -17,23 +21,28 @@
    "words": [
     {
      "fr": "sept heures trente",
-     "en": "7:30"
+     "en": "7:30",
+     "audio": "sept_heures_trente.mp3"
     },
     {
      "fr": "quatorze heures vingt",
-     "en": "14:20"
+     "en": "14:20",
+     "audio": "quatorze_heures_vingt.mp3"
     },
     {
      "fr": "dix-sept heures quarante-cinq",
-     "en": "17:45"
+     "en": "17:45",
+     "audio": "dix_sept_heures_quarante_cinq.mp3"
     },
     {
      "fr": "vingt heures",
-     "en": "20:00"
+     "en": "20:00",
+     "audio": "vingt_heures.mp3"
     },
     {
      "fr": "Le train part à quatorze heures vingt.",
-     "en": "The train leaves at 14:20."
+     "en": "The train leaves at 14:20.",
+     "audio": "le_train_part_a_quatorze_heures_vingt.mp3"
     }
    ]
   },
@@ -43,43 +52,53 @@
    "words": [
     {
      "fr": "À quelle heure ?",
-     "en": "At what time?"
+     "en": "At what time?",
+     "audio": "a_quelle_heure.mp3"
     },
     {
      "fr": "À quelle heure est ton rendez-vous ?",
-     "en": "What time is your appointment?"
+     "en": "What time is your appointment?",
+     "audio": "a_quelle_heure_est_ton_rendez_vous.mp3"
     },
     {
      "fr": "À quelle heure est ton avion ?",
-     "en": "What time is your plane?"
+     "en": "What time is your plane?",
+     "audio": "a_quelle_heure_est_ton_avion.mp3"
     },
     {
      "fr": "À quelle heure on part ?",
-     "en": "What time do we leave?"
+     "en": "What time do we leave?",
+     "audio": "a_quelle_heure_on_part.mp3"
     },
     {
      "fr": "À quelle heure on se voit ?",
-     "en": "What time do we meet?"
+     "en": "What time do we meet?",
+     "audio": "a_quelle_heure_on_se_voit.mp3"
     },
     {
      "fr": "Vous ouvrez à quelle heure ?",
-     "en": "What time do you open?"
+     "en": "What time do you open?",
+     "audio": "vous_ouvrez_a_quelle_heure.mp3"
     },
     {
      "fr": "Vous fermez à quelle heure ?",
-     "en": "What time do you close?"
+     "en": "What time do you close?",
+     "audio": "vous_fermez_a_quelle_heure.mp3"
     },
     {
      "fr": "On commence quand ?",
-     "en": "When do we start?"
+     "en": "When do we start?",
+     "audio": "on_commence_quand.mp3"
     },
     {
      "fr": "Tu reviens quand ?",
-     "en": "When are you coming back?"
+     "en": "When are you coming back?",
+     "audio": "tu_reviens_quand.mp3"
     },
     {
      "fr": "Tu veux dîner quand ?",
-     "en": "When do you want to have dinner?"
+     "en": "When do you want to have dinner?",
+     "audio": "tu_veux_diner_quand.mp3"
     }
    ]
   },
@@ -89,31 +108,38 @@
    "words": [
     {
      "fr": "à huit heures",
-     "en": "at eight o’clock"
+     "en": "at eight o’clock",
+     "audio": "a_huit_heures.mp3"
     },
     {
      "fr": "vers huit heures",
-     "en": "at about eight o’clock"
+     "en": "at about eight o’clock",
+     "audio": "vers_huit_heures.mp3"
     },
     {
      "fr": "entre neuf et dix heures",
-     "en": "between nine and ten o’clock"
+     "en": "between nine and ten o’clock",
+     "audio": "entre_neuf_et_dix_heures.mp3"
     },
     {
      "fr": "de neuf heures à dix-sept heures",
-     "en": "from 9:00 to 17:00"
+     "en": "from 9:00 to 17:00",
+     "audio": "de_neuf_heures_a_dix_sept_heures.mp3"
     },
     {
      "fr": "D’habitude, je me lève à six heures.",
-     "en": "I usually get up at six o’clock."
+     "en": "I usually get up at six o’clock.",
+     "audio": "d_habitude_je_me_leve_a_six_heures.mp3"
     },
     {
      "fr": "Je me couche à neuf heures.",
-     "en": "I go to bed at nine o’clock."
+     "en": "I go to bed at nine o’clock.",
+     "audio": "je_me_couche_a_neuf_heures.mp3"
     },
     {
      "fr": "Je suis libre après quatre heures.",
-     "en": "I am free after four o’clock."
+     "en": "I am free after four o’clock.",
+     "audio": "je_suis_libre_apres_quatre_heures.mp3"
     }
    ]
   }

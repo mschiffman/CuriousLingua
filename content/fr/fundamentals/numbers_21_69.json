@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "audio_ver": "2611200608",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Les dizaines",
@@ -15,27 +19,32 @@
     {
      "fr": "vingt",
      "ipa": "/vɛ̃/",
-     "en": "twenty"
+     "en": "twenty",
+     "audio": "vingt.mp3"
     },
     {
      "fr": "trente",
      "ipa": "/tʀɑ̃t/",
-     "en": "thirty"
+     "en": "thirty",
+     "audio": "trente.mp3"
     },
     {
      "fr": "quarante",
      "ipa": "/kaʀɑ̃t/",
-     "en": "forty"
+     "en": "forty",
+     "audio": "quarante.mp3"
     },
     {
      "fr": "cinquante",
      "ipa": "/sɛ̃kɑ̃t/",
-     "en": "fifty"
+     "en": "fifty",
+     "audio": "cinquante.mp3"
     },
     {
      "fr": "soixante",
      "ipa": "/swasɑ̃t/",
-     "en": "sixty"
+     "en": "sixty",
+     "audio": "soixante.mp3"
     }
    ]
   },
@@ -48,23 +57,28 @@
    "words": [
     {
      "fr": "vingt et un",
-     "en": "twenty-one"
+     "en": "twenty-one",
+     "audio": "vingt_et_un.mp3"
     },
     {
      "fr": "trente et un",
-     "en": "thirty-one"
+     "en": "thirty-one",
+     "audio": "trente_et_un.mp3"
     },
     {
      "fr": "quarante et un",
-     "en": "forty-one"
+     "en": "forty-one",
+     "audio": "quarante_et_un.mp3"
     },
     {
      "fr": "cinquante et un",
-     "en": "fifty-one"
+     "en": "fifty-one",
+     "audio": "cinquante_et_un.mp3"
     },
     {
      "fr": "soixante et un",
-     "en": "sixty-one"
+     "en": "sixty-one",
+     "audio": "soixante_et_un.mp3"
     }
    ]
   },
@@ -77,35 +91,43 @@
    "words": [
     {
      "fr": "vingt-deux",
-     "en": "twenty-two"
+     "en": "twenty-two",
+     "audio": "vingt_deux.mp3"
     },
     {
      "fr": "vingt-trois",
-     "en": "twenty-three"
+     "en": "twenty-three",
+     "audio": "vingt_trois.mp3"
     },
     {
      "fr": "vingt-quatre",
-     "en": "twenty-four"
+     "en": "twenty-four",
+     "audio": "vingt_quatre.mp3"
     },
     {
      "fr": "vingt-cinq",
-     "en": "twenty-five"
+     "en": "twenty-five",
+     "audio": "vingt_cinq.mp3"
     },
     {
      "fr": "vingt-six",
-     "en": "twenty-six"
+     "en": "twenty-six",
+     "audio": "vingt_six.mp3"
     },
     {
      "fr": "vingt-sept",
-     "en": "twenty-seven"
+     "en": "twenty-seven",
+     "audio": "vingt_sept.mp3"
     },
     {
      "fr": "vingt-huit",
-     "en": "twenty-eight"
+     "en": "twenty-eight",
+     "audio": "vingt_huit.mp3"
     },
     {
      "fr": "vingt-neuf",
-     "en": "twenty-nine"
+     "en": "twenty-nine",
+     "audio": "vingt_neuf.mp3"
     }
    ]
   },
@@ -115,35 +137,43 @@
    "words": [
     {
      "fr": "trente-deux",
-     "en": "thirty-two"
+     "en": "thirty-two",
+     "audio": "trente_deux.mp3"
     },
     {
      "fr": "trente-six",
-     "en": "thirty-six"
+     "en": "thirty-six",
+     "audio": "trente_six.mp3"
     },
     {
      "fr": "quarante-trois",
-     "en": "forty-three"
+     "en": "forty-three",
+     "audio": "quarante_trois.mp3"
     },
     {
      "fr": "quarante-huit",
-     "en": "forty-eight"
+     "en": "forty-eight",
+     "audio": "quarante_huit.mp3"
     },
     {
      "fr": "cinquante-quatre",
-     "en": "fifty-four"
+     "en": "fifty-four",
+     "audio": "cinquante_quatre.mp3"
     },
     {
      "fr": "cinquante-sept",
-     "en": "fifty-seven"
+     "en": "fifty-seven",
+     "audio": "cinquante_sept.mp3"
     },
     {
      "fr": "soixante-cinq",
-     "en": "sixty-five"
+     "en": "sixty-five",
+     "audio": "soixante_cinq.mp3"
     },
     {
      "fr": "soixante-neuf",
-     "en": "sixty-nine"
+     "en": "sixty-nine",
+     "audio": "soixante_neuf.mp3"
     }
    ]
   }

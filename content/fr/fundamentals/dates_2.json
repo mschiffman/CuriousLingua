@@ -9,6 +9,10 @@
  "legacy": "fr/fundamental/dates/2.html",
  "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
  "glossary_dir": "lessons/fundamental/dates/2/",
+ "audio_ver": "2611200605",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Day Expressions",
@@ -264,38 +268,46 @@
     {
      "fr": "une décennie",
      "g": "f",
-     "en": "a decade"
+     "en": "a decade",
+     "audio": "une_decennie.mp3"
     },
     {
      "fr": "un siècle",
      "g": "m",
-     "en": "a century"
+     "en": "a century",
+     "audio": "un_siecle.mp3"
     },
     {
      "fr": "avant Jésus-Christ",
-     "en": "B.C."
+     "en": "B.C.",
+     "audio": "avant_jesus_christ.mp3"
     },
     {
      "fr": "av. J.-C.",
      "en": "B.C. (abbreviation)",
-     "say": "avant Jésus-Christ"
+     "say": "avant Jésus-Christ",
+     "audio": "avant_jesus_christ.mp3"
     },
     {
      "fr": "après Jésus-Christ",
-     "en": "A.D."
+     "en": "A.D.",
+     "audio": "apres_jesus_christ.mp3"
     },
     {
      "fr": "ap. J.-C.",
      "en": "A.D. (abbreviation)",
-     "say": "après Jésus-Christ"
+     "say": "après Jésus-Christ",
+     "audio": "apres_jesus_christ.mp3"
     },
     {
      "fr": "l’année précédente",
-     "en": "the previous year"
+     "en": "the previous year",
+     "audio": "l_annee_precedente.mp3"
     },
     {
      "fr": "l’année suivante",
-     "en": "the following year"
+     "en": "the following year",
+     "audio": "l_annee_suivante.mp3"
     }
    ]
   }

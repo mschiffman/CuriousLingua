@@ -29,7 +29,7 @@ Voices and loudness per course: assets/data/voices.json.
 Needs ffmpeg and whisper; ELEVENLABS_API_KEY, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_ACCOUNT_ID
 (User environment variables); for upload, boto3 + truststore. Run with -E, not -I.
 """
-import array, base64, datetime, math, hashlib, json, os, re, shutil, subprocess, sys, tempfile, urllib.error, urllib.request
+import array, base64, datetime, math, hashlib, json, os, re, shutil, subprocess, sys, tempfile, urllib.error, urllib.parse, urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lib
@@ -511,7 +511,7 @@ def upload_recording(L):
         print(f"audio_ver set to {ver}")
     wrong = []
     for k, p in files.items():
-        got = subprocess.run(["curl", "-s", f"{C['media_base']}{k}?v={ver}"], capture_output=True).stdout
+        got = subprocess.run(["curl", "-s", f"{C['media_base']}{urllib.parse.quote(k)}?v={ver}"], capture_output=True).stdout   # old clips have spaces and apostrophes in their names
         if hashlib.md5(got).hexdigest() != md5(p):
             wrong.append(k)
     print(f"CDN check: {len(files) - len(wrong)}/{len(files)} match" + (f", DIFFERENT: {wrong}" if wrong else ""))

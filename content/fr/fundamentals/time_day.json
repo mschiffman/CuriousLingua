@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/time/",
+ "audio_ver": "2611200609",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Le temps qui passe",
@@ -16,19 +20,22 @@
      "fr": "la seconde",
      "g": "f",
      "ipa": "/s(ə)ɡɔ̃d/",
-     "en": "second"
+     "en": "second",
+     "audio": "la_seconde.mp3"
     },
     {
      "fr": "la minute",
      "g": "f",
      "ipa": "/minyt/",
-     "en": "minute"
+     "en": "minute",
+     "audio": "la_minute.mp3"
     },
     {
      "fr": "l’heure",
      "g": "f",
      "ipa": "/œʀ/",
-     "en": "hour"
+     "en": "hour",
+     "audio": "l_heure.mp3"
     }
    ]
   },
@@ -40,35 +47,41 @@
      "fr": "le matin",
      "g": "m",
      "ipa": "/matɛ̃/",
-     "en": "morning"
+     "en": "morning",
+     "audio": "le_matin.mp3"
     },
     {
      "fr": "midi",
      "ipa": "/midi/",
-     "en": "noon"
+     "en": "noon",
+     "audio": "midi.mp3"
     },
     {
      "fr": "l’après-midi",
      "g": "m",
      "ipa": "/apʀɛmidi/",
-     "en": "afternoon"
+     "en": "afternoon",
+     "audio": "l_apres_midi.mp3"
     },
     {
      "fr": "le soir",
      "g": "m",
      "ipa": "/swaʀ/",
-     "en": "evening"
+     "en": "evening",
+     "audio": "le_soir.mp3"
     },
     {
      "fr": "la nuit",
      "g": "f",
      "ipa": "/nɥi/",
-     "en": "night"
+     "en": "night",
+     "audio": "la_nuit.mp3"
     },
     {
      "fr": "minuit",
      "ipa": "/minɥi/",
-     "en": "midnight"
+     "en": "midnight",
+     "audio": "minuit.mp3"
     }
    ]
   },
@@ -81,42 +94,51 @@
    "words": [
     {
      "fr": "ce matin",
-     "en": "this morning"
+     "en": "this morning",
+     "audio": "ce_matin.mp3"
     },
     {
      "fr": "cet après-midi",
-     "en": "this afternoon"
+     "en": "this afternoon",
+     "audio": "cet_apres_midi.mp3"
     },
     {
      "fr": "ce soir",
-     "en": "this evening, tonight"
+     "en": "this evening, tonight",
+     "audio": "ce_soir.mp3"
     },
     {
      "fr": "cette nuit",
-     "en": "tonight (during the night)"
+     "en": "tonight (during the night)",
+     "audio": "cette_nuit.mp3"
     },
     {
      "fr": "maintenant",
      "ipa": "/mɛ̃t(ə)nɑ̃/",
-     "en": "now"
+     "en": "now",
+     "audio": "maintenant.mp3"
     },
     {
      "fr": "tôt",
      "ipa": "/to/",
-     "en": "early"
+     "en": "early",
+     "audio": "tot.mp3"
     },
     {
      "fr": "tard",
      "ipa": "/taʀ/",
-     "en": "late"
+     "en": "late",
+     "audio": "tard.mp3"
     },
     {
      "fr": "Il est tard.",
-     "en": "It’s late."
+     "en": "It’s late.",
+     "audio": "il_est_tard.mp3"
     },
     {
      "fr": "Il est encore tôt.",
-     "en": "It’s still early."
+     "en": "It’s still early.",
+     "audio": "il_est_encore_tot.mp3"
     }
    ]
   }

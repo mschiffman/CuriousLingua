@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/dates/",
+ "audio_ver": "2611200607",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Les sept jours",
@@ -18,37 +22,44 @@
     {
      "fr": "lundi",
      "ipa": "/lœ̃di/",
-     "en": "Monday"
+     "en": "Monday",
+     "audio": "lundi.mp3"
     },
     {
      "fr": "mardi",
      "ipa": "/maʀdi/",
-     "en": "Tuesday"
+     "en": "Tuesday",
+     "audio": "mardi.mp3"
     },
     {
      "fr": "mercredi",
      "ipa": "/mɛʀkʀədi/",
-     "en": "Wednesday"
+     "en": "Wednesday",
+     "audio": "mercredi.mp3"
     },
     {
      "fr": "jeudi",
      "ipa": "/ʒødi/",
-     "en": "Thursday"
+     "en": "Thursday",
+     "audio": "jeudi.mp3"
     },
     {
      "fr": "vendredi",
      "ipa": "/vɑ̃dʀədi/",
-     "en": "Friday"
+     "en": "Friday",
+     "audio": "vendredi.mp3"
     },
     {
      "fr": "samedi",
      "ipa": "/samdi/",
-     "en": "Saturday"
+     "en": "Saturday",
+     "audio": "samedi.mp3"
     },
     {
      "fr": "dimanche",
      "ipa": "/dimɑ̃ʃ/",
-     "en": "Sunday"
+     "en": "Sunday",
+     "audio": "dimanche.mp3"
     }
    ]
   },
@@ -60,19 +71,22 @@
      "fr": "le jour",
      "g": "m",
      "ipa": "/ʒuʀ/",
-     "en": "day"
+     "en": "day",
+     "audio": "le_jour.mp3"
     },
     {
      "fr": "la semaine",
      "g": "f",
      "ipa": "/s(ə)mɛn/",
-     "en": "week"
+     "en": "week",
+     "audio": "la_semaine.mp3"
     },
     {
      "fr": "le week-end",
      "g": "m",
      "ipa": "/wikɛnd/",
-     "en": "weekend"
+     "en": "weekend",
+     "audio": "le_week_end.mp3"
     }
    ]
   },
@@ -82,26 +96,31 @@
    "words": [
     {
      "fr": "avant-hier",
-     "en": "the day before yesterday"
+     "en": "the day before yesterday",
+     "audio": "avant_hier.mp3"
     },
     {
      "fr": "hier",
      "ipa": "/jɛʀ/",
-     "en": "yesterday"
+     "en": "yesterday",
+     "audio": "hier.mp3"
     },
     {
      "fr": "aujourd’hui",
      "ipa": "/oʒuʀdɥi/",
-     "en": "today"
+     "en": "today",
+     "audio": "aujourd_hui.mp3"
     },
     {
      "fr": "demain",
      "ipa": "/dəmɛ̃/",
-     "en": "tomorrow"
+     "en": "tomorrow",
+     "audio": "demain.mp3"
     },
     {
      "fr": "après-demain",
-     "en": "the day after tomorrow"
+     "en": "the day after tomorrow",
+     "audio": "apres_demain.mp3"
     }
    ]
   },
@@ -114,31 +133,38 @@
    "words": [
     {
      "fr": "Quel jour sommes-nous ?",
-     "en": "What day is it?"
+     "en": "What day is it?",
+     "audio": "quel_jour_sommes_nous.mp3"
     },
     {
      "fr": "Nous sommes vendredi.",
-     "en": "It’s Friday."
+     "en": "It’s Friday.",
+     "audio": "nous_sommes_vendredi.mp3"
     },
     {
      "fr": "Quel jour on est ?",
-     "en": "What day is it? (informal)"
+     "en": "What day is it? (informal)",
+     "audio": "quel_jour_on_est.mp3"
     },
     {
      "fr": "On est dimanche.",
-     "en": "It’s Sunday."
+     "en": "It’s Sunday.",
+     "audio": "on_est_dimanche.mp3"
     },
     {
      "fr": "C’est quoi, aujourd’hui ?",
-     "en": "What’s today? (informal)"
+     "en": "What’s today? (informal)",
+     "audio": "c_est_quoi_aujourd_hui.mp3"
     },
     {
      "fr": "À lundi !",
-     "en": "See you on Monday!"
+     "en": "See you on Monday!",
+     "audio": "a_lundi.mp3"
     },
     {
      "fr": "À demain !",
-     "en": "See you tomorrow!"
+     "en": "See you tomorrow!",
+     "audio": "a_demain.mp3"
     }
    ]
   }

@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "audio_ver": "2611200607",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "De zéro à dix",
@@ -18,64 +22,76 @@
     {
      "fr": "zéro",
      "ipa": "/zeʀo/",
-     "en": "zero"
+     "en": "zero",
+     "audio": "zero.mp3"
     },
     {
      "fr": "un",
      "g": "m",
      "ipa": "/œ̃/",
-     "en": "one"
+     "en": "one",
+     "audio": "un.mp3"
     },
     {
      "fr": "une",
      "g": "f",
      "ipa": "/yn/",
-     "en": "one"
+     "en": "one",
+     "audio": "une.mp3"
     },
     {
      "fr": "deux",
      "ipa": "/dø/",
-     "en": "two"
+     "en": "two",
+     "audio": "deux.mp3"
     },
     {
      "fr": "trois",
      "ipa": "/tʀwɑ/",
-     "en": "three"
+     "en": "three",
+     "audio": "trois.mp3"
     },
     {
      "fr": "quatre",
      "ipa": "/katʀ/",
-     "en": "four"
+     "en": "four",
+     "audio": "quatre.mp3"
     },
     {
      "fr": "cinq",
      "ipa": "/sɛ̃k/",
-     "en": "five"
+     "en": "five",
+     "audio": "cinq.mp3"
     },
     {
      "fr": "six",
      "ipa": "/sis/",
-     "en": "six"
+     "en": "six",
+     "audio": "six.mp3"
     },
     {
      "fr": "sept",
      "ipa": "/sɛt/",
-     "en": "seven"
+     "en": "seven",
+     "audio": "sept.mp3"
     },
     {
      "fr": "huit",
      "ipa": "/ɥit/",
-     "en": "eight"
+     "en": "eight",
+     "audio": "huit.mp3"
     },
     {
      "fr": "neuf",
      "ipa": "/nœf/",
-     "en": "nine"
+     "en": "nine",
+     "audio": "neuf.mp3"
     },
     {
      "fr": "dix",
      "ipa": "/dis/",
-     "en": "ten"
+     "en": "ten",
+     "audio": "dix.mp3"
     }
    ]
   },
@@ -86,52 +102,62 @@
     {
      "fr": "onze",
      "ipa": "/ɔ̃z/",
-     "en": "eleven"
+     "en": "eleven",
+     "audio": "onze.mp3"
     },
     {
      "fr": "douze",
      "ipa": "/duz/",
-     "en": "twelve"
+     "en": "twelve",
+     "audio": "douze.mp3"
     },
     {
      "fr": "treize",
      "ipa": "/tʀɛz/",
-     "en": "thirteen"
+     "en": "thirteen",
+     "audio": "treize.mp3"
     },
     {
      "fr": "quatorze",
      "ipa": "/katɔʀz/",
-     "en": "fourteen"
+     "en": "fourteen",
+     "audio": "quatorze.mp3"
     },
     {
      "fr": "quinze",
      "ipa": "/kɛ̃z/",
-     "en": "fifteen"
+     "en": "fifteen",
+     "audio": "quinze.mp3"
     },
     {
      "fr": "seize",
      "ipa": "/sɛz/",
-     "en": "sixteen"
+     "en": "sixteen",
+     "audio": "seize.mp3"
     },
     {
      "fr": "dix-sept",
      "ipa": "/disɛt/",
-     "en": "seventeen"
+     "en": "seventeen",
+     "audio": "dix_sept.mp3"
     },
     {
      "fr": "dix-huit",
      "ipa": "/dizɥit/",
-     "en": "eighteen"
+     "en": "eighteen",
+     "audio": "dix_huit.mp3"
     },
     {
      "fr": "dix-neuf",
      "ipa": "/diznœf/",
-     "en": "nineteen"
+     "en": "nineteen",
+     "audio": "dix_neuf.mp3"
     },
     {
      "fr": "vingt",
      "ipa": "/vɛ̃/",
-     "en": "twenty"
+     "en": "twenty",
+     "audio": "vingt.mp3"
     }
    ]
   }

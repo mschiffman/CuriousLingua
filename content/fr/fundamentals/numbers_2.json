@@ -9,6 +9,10 @@
  "legacy": "fr/fundamental/numbers/2.html",
  "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
  "glossary_dir": "lessons/fundamental/numbers/2/",
+ "audio_ver": "2611200605",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "title_audio": "01-numéros.m4a",
  "groups": [
   {
@@ -297,41 +301,49 @@
    "words": [
     {
      "fr": "cent mille",
-     "en": "one hundred thousand"
+     "en": "one hundred thousand",
+     "audio": "cent_mille.mp3"
     },
     {
      "fr": "deux cent mille",
-     "en": "two hundred thousand"
+     "en": "two hundred thousand",
+     "audio": "deux_cent_mille.mp3"
     },
     {
      "fr": "un millier",
      "g": "m",
      "ipa": "/milje/",
-     "en": "about a thousand"
+     "en": "about a thousand",
+     "audio": "un_millier.mp3"
     },
     {
      "fr": "des milliers de personnes",
-     "en": "thousands of people"
+     "en": "thousands of people",
+     "audio": "des_milliers_de_personnes.mp3"
     },
     {
      "fr": "des dizaines de milliers de personnes",
-     "en": "tens of thousands of people"
+     "en": "tens of thousands of people",
+     "audio": "des_dizaines_de_milliers_de_personnes.mp3"
     },
     {
      "fr": "des centaines de milliers de personnes",
-     "en": "hundreds of thousands of people"
+     "en": "hundreds of thousands of people",
+     "audio": "des_centaines_de_milliers_de_personnes.mp3"
     },
     {
      "fr": "un million",
      "g": "m",
      "ipa": "/miljɔ̃/",
-     "en": "a million"
+     "en": "a million",
+     "audio": "un_million.mp3"
     },
     {
      "fr": "un milliard",
      "g": "m",
      "ipa": "/miljaʀ/",
-     "en": "a billion"
+     "en": "a billion",
+     "audio": "un_milliard.mp3"
     }
    ]
   },
@@ -344,23 +356,28 @@
    "words": [
     {
      "fr": "onzième",
-     "en": "eleventh"
+     "en": "eleventh",
+     "audio": "onzieme.mp3"
     },
     {
      "fr": "douzième",
-     "en": "twelfth"
+     "en": "twelfth",
+     "audio": "douzieme.mp3"
     },
     {
      "fr": "treizième",
-     "en": "thirteenth"
+     "en": "thirteenth",
+     "audio": "treizieme.mp3"
     },
     {
      "fr": "vingtième",
-     "en": "twentieth"
+     "en": "twentieth",
+     "audio": "vingtieme.mp3"
     },
     {
      "fr": "vingt et unième",
-     "en": "twenty-first"
+     "en": "twenty-first",
+     "audio": "vingt_et_unieme.mp3"
     }
    ]
   },
@@ -374,61 +391,72 @@
    "words": [
     {
      "fr": "environ un",
-     "en": "about one"
+     "en": "about one",
+     "audio": "environ_un.mp3"
     },
     {
      "fr": "à peu près un",
-     "en": "about one"
+     "en": "about one",
+     "audio": "a_peu_pres_un.mp3"
     },
     {
      "fr": "environ deux",
-     "en": "about two"
+     "en": "about two",
+     "audio": "environ_deux.mp3"
     },
     {
      "fr": "à peu près deux",
-     "en": "about two"
+     "en": "about two",
+     "audio": "a_peu_pres_deux.mp3"
     },
     {
      "fr": "une douzaine",
      "g": "f",
      "ipa": "/duzɛn/",
-     "en": "about twelve, a dozen"
+     "en": "about twelve, a dozen",
+     "audio": "une_douzaine.mp3"
     },
     {
      "fr": "une vingtaine",
      "g": "f",
      "ipa": "/vɛ̃tɛn/",
-     "en": "about twenty"
+     "en": "about twenty",
+     "audio": "une_vingtaine.mp3"
     },
     {
      "fr": "une trentaine",
      "g": "f",
      "ipa": "/tʀɑ̃tɛn/",
-     "en": "about thirty"
+     "en": "about thirty",
+     "audio": "une_trentaine.mp3"
     },
     {
      "fr": "une quarantaine",
      "g": "f",
      "ipa": "/kaʀɑ̃tɛn/",
-     "en": "about forty"
+     "en": "about forty",
+     "audio": "une_quarantaine.mp3"
     },
     {
      "fr": "une cinquantaine",
      "g": "f",
      "ipa": "/sɛ̃kɑ̃tɛn/",
-     "en": "about fifty"
+     "en": "about fifty",
+     "audio": "une_cinquantaine.mp3"
     },
     {
      "fr": "une soixantaine",
      "g": "f",
      "ipa": "/swasɑ̃tɛn/",
-     "en": "about sixty"
+     "en": "about sixty",
+     "audio": "une_soixantaine.mp3"
     },
     {
      "fr": "une centaine",
      "g": "f",
      "ipa": "/sɑ̃tɛn/",
-     "en": "about one hundred"
+     "en": "about one hundred",
+     "audio": "une_centaine.mp3"
     }
    ]
   }

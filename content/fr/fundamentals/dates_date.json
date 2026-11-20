@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/dates/",
+ "audio_ver": "2611200607",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Quelle est la date ?",
@@ -17,31 +21,38 @@
    "words": [
     {
      "fr": "Quelle est la date aujourd’hui ?",
-     "en": "What’s the date today?"
+     "en": "What’s the date today?",
+     "audio": "quelle_est_la_date_aujourd_hui.mp3"
     },
     {
      "fr": "On est le combien ?",
-     "en": "What’s the date? (informal)"
+     "en": "What’s the date? (informal)",
+     "audio": "on_est_le_combien.mp3"
     },
     {
      "fr": "C’est le premier mai.",
-     "en": "It’s the first of May."
+     "en": "It’s the first of May.",
+     "audio": "c_est_le_premier_mai.mp3"
     },
     {
      "fr": "On est le deux mai.",
-     "en": "It’s the second of May."
+     "en": "It’s the second of May.",
+     "audio": "on_est_le_deux_mai.mp3"
     },
     {
      "fr": "le quatorze juillet",
-     "en": "14 July"
+     "en": "14 July",
+     "audio": "le_quatorze_juillet.mp3"
     },
     {
      "fr": "le jeudi vingt et un décembre",
-     "en": "Thursday 21 December"
+     "en": "Thursday 21 December",
+     "audio": "le_jeudi_vingt_et_un_decembre.mp3"
     },
     {
      "fr": "le vingt et un décembre deux mille vingt-trois",
-     "en": "21 December 2023"
+     "en": "21 December 2023",
+     "audio": "le_vingt_et_un_decembre_deux_mille_vingt_trois.mp3"
     }
    ]
   },
@@ -51,19 +62,23 @@
    "words": [
     {
      "fr": "en deux mille",
-     "en": "in 2000"
+     "en": "in 2000",
+     "audio": "en_deux_mille.mp3"
     },
     {
      "fr": "en deux mille dix",
-     "en": "in 2010"
+     "en": "in 2010",
+     "audio": "en_deux_mille_dix.mp3"
     },
     {
      "fr": "en deux mille vingt-cinq",
-     "en": "in 2025"
+     "en": "in 2025",
+     "audio": "en_deux_mille_vingt_cinq.mp3"
     },
     {
      "fr": "en mille neuf cent quatre-vingt-dix",
-     "en": "in 1990"
+     "en": "in 1990",
+     "audio": "en_mille_neuf_cent_quatre_vingt_dix.mp3"
     }
    ]
   },
@@ -76,27 +91,33 @@
    "words": [
     {
      "fr": "C’est quand, ton anniversaire ?",
-     "en": "When is your birthday?"
+     "en": "When is your birthday?",
+     "audio": "c_est_quand_ton_anniversaire.mp3"
     },
     {
      "fr": "Mon anniversaire, c’est le trois mars.",
-     "en": "My birthday is on 3 March."
+     "en": "My birthday is on 3 March.",
+     "audio": "mon_anniversaire_c_est_le_trois_mars.mp3"
     },
     {
      "fr": "C’est aujourd’hui !",
-     "en": "It’s today!"
+     "en": "It’s today!",
+     "audio": "c_est_aujourd_hui.mp3"
     },
     {
      "fr": "Bon anniversaire !",
-     "en": "Happy birthday!"
+     "en": "Happy birthday!",
+     "audio": "bon_anniversaire.mp3"
     },
     {
      "fr": "Tu as quel âge ?",
-     "en": "How old are you?"
+     "en": "How old are you?",
+     "audio": "tu_as_quel_age.mp3"
     },
     {
      "fr": "J’ai trente ans.",
-     "en": "I’m thirty."
+     "en": "I’m thirty.",
+     "audio": "j_ai_trente_ans.mp3"
     }
    ]
   }

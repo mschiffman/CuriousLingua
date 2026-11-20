@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "audio_ver": "2611200608",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Du premier au dixième",
@@ -19,70 +23,83 @@
      "fr": "premier",
      "g": "m",
      "ipa": "/pʀəmje/",
-     "en": "first"
+     "en": "first",
+     "audio": "premier.mp3"
     },
     {
      "fr": "première",
      "g": "f",
      "ipa": "/pʀəmjɛʀ/",
-     "en": "first"
+     "en": "first",
+     "audio": "premiere.mp3"
     },
     {
      "fr": "deuxième",
      "ipa": "/døzjɛm/",
-     "en": "second"
+     "en": "second",
+     "audio": "deuxieme.mp3"
     },
     {
      "fr": "troisième",
      "ipa": "/tʀwɑzjɛm/",
-     "en": "third"
+     "en": "third",
+     "audio": "troisieme.mp3"
     },
     {
      "fr": "quatrième",
      "ipa": "/katʀijɛm/",
-     "en": "fourth"
+     "en": "fourth",
+     "audio": "quatrieme.mp3"
     },
     {
      "fr": "cinquième",
      "ipa": "/sɛ̃kjɛm/",
-     "en": "fifth"
+     "en": "fifth",
+     "audio": "cinquieme.mp3"
     },
     {
      "fr": "sixième",
      "ipa": "/sizjɛm/",
-     "en": "sixth"
+     "en": "sixth",
+     "audio": "sixieme.mp3"
     },
     {
      "fr": "septième",
      "ipa": "/sɛtjɛm/",
-     "en": "seventh"
+     "en": "seventh",
+     "audio": "septieme.mp3"
     },
     {
      "fr": "huitième",
      "ipa": "/ɥitjɛm/",
-     "en": "eighth"
+     "en": "eighth",
+     "audio": "huitieme.mp3"
     },
     {
      "fr": "neuvième",
      "ipa": "/nœvjɛm/",
-     "en": "ninth"
+     "en": "ninth",
+     "audio": "neuvieme.mp3"
     },
     {
      "fr": "dixième",
      "ipa": "/dizjɛm/",
-     "en": "tenth"
+     "en": "tenth",
+     "audio": "dixieme.mp3"
     },
     {
      "fr": "dernier",
      "g": "m",
      "ipa": "/dɛʀnje/",
-     "en": "last"
+     "en": "last",
+     "audio": "dernier.mp3"
     },
     {
      "fr": "dernière",
      "g": "f",
      "ipa": "/dɛʀnjɛʀ/",
-     "en": "last"
+     "en": "last",
+     "audio": "derniere.mp3"
     }
    ]
   },
@@ -95,23 +112,28 @@
    "words": [
     {
      "fr": "le premier étage",
-     "en": "the first floor"
+     "en": "the first floor",
+     "audio": "le_premier_etage.mp3"
     },
     {
      "fr": "la deuxième rue à droite",
-     "en": "the second street on the right"
+     "en": "the second street on the right",
+     "audio": "la_deuxieme_rue_a_droite.mp3"
     },
     {
      "fr": "C’est la première fois.",
-     "en": "It’s the first time."
+     "en": "It’s the first time.",
+     "audio": "c_est_la_premiere_fois.mp3"
     },
     {
      "fr": "C’est le premier mai.",
-     "en": "It’s the first of May."
+     "en": "It’s the first of May.",
+     "audio": "c_est_le_premier_mai.mp3"
     },
     {
      "fr": "la dernière page",
-     "en": "the last page"
+     "en": "the last page",
+     "audio": "la_derniere_page.mp3"
     }
    ]
   }

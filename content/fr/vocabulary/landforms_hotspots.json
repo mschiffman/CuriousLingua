@@ -7,6 +7,7 @@
  "legacy": "fr/grammar/noun/hs-landform.html",
  "intro": "Explore: tap a dot to see and hear the word. Quiz: a word is asked, tap where it is in the picture.",
  "glossary_dir": "lessons/noun/landforms/",
+ "audio_ver": "2611200606",
  "slides": [
   {
    "img": "img/landform/slide1.jpg",
@@ -209,7 +210,9 @@
      "fr": "mangrove",
      "g": "f",
      "ipa": "/mɑ̃ɡʀɔv/",
-     "en": "mangrove"
+     "en": "mangrove",
+     "voice": "Ze3DkBwQ81dW3YYr1nbz",
+     "audio": "mangrove.mp3"
     }
    ]
   },

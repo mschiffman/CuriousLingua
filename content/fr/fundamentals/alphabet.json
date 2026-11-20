@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/alphabet/",
+ "audio_ver": "2611200606",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "listen_pick": "fr",
  "groups": [
   {
@@ -19,132 +23,158 @@
     {
      "fr": "A",
      "ipa": "/a/",
-     "en": ""
+     "en": "",
+     "audio": "a.mp3"
     },
     {
      "fr": "B",
      "ipa": "/be/",
-     "en": ""
+     "en": "",
+     "audio": "b.mp3"
     },
     {
      "fr": "C",
      "ipa": "/se/",
-     "en": ""
+     "en": "",
+     "audio": "c.mp3"
     },
     {
      "fr": "D",
      "ipa": "/de/",
-     "en": ""
+     "en": "",
+     "audio": "d.mp3"
     },
     {
      "fr": "E",
      "ipa": "/ə/",
-     "en": ""
+     "en": "",
+     "audio": "e.mp3"
     },
     {
      "fr": "F",
      "ipa": "/ɛf/",
-     "en": ""
+     "en": "",
+     "audio": "f.mp3"
     },
     {
      "fr": "G",
      "ipa": "/ʒe/",
-     "en": ""
+     "en": "",
+     "audio": "g.mp3"
     },
     {
      "fr": "H",
      "ipa": "/aʃ/",
-     "en": ""
+     "en": "",
+     "audio": "h.mp3"
     },
     {
      "fr": "I",
      "ipa": "/i/",
-     "en": ""
+     "en": "",
+     "audio": "i.mp3"
     },
     {
      "fr": "J",
      "ipa": "/ʒi/",
-     "en": ""
+     "en": "",
+     "audio": "j.mp3"
     },
     {
      "fr": "K",
      "ipa": "/kɑ/",
-     "en": ""
+     "en": "",
+     "audio": "k.mp3"
     },
     {
      "fr": "L",
      "ipa": "/ɛl/",
-     "en": ""
+     "en": "",
+     "audio": "l.mp3"
     },
     {
      "fr": "M",
      "ipa": "/ɛm/",
-     "en": ""
+     "en": "",
+     "audio": "m.mp3"
     },
     {
      "fr": "N",
      "ipa": "/ɛn/",
-     "en": ""
+     "en": "",
+     "audio": "n.mp3"
     },
     {
      "fr": "O",
      "ipa": "/o/",
-     "en": ""
+     "en": "",
+     "audio": "o.mp3"
     },
     {
      "fr": "P",
      "ipa": "/pe/",
-     "en": ""
+     "en": "",
+     "audio": "p.mp3"
     },
     {
      "fr": "Q",
      "ipa": "/ky/",
-     "en": ""
+     "en": "",
+     "audio": "q.mp3"
     },
     {
      "fr": "R",
      "ipa": "/ɛʀ/",
-     "en": ""
+     "en": "",
+     "audio": "r.mp3"
     },
     {
      "fr": "S",
      "ipa": "/ɛs/",
-     "en": ""
+     "en": "",
+     "audio": "s.mp3"
     },
     {
      "fr": "T",
      "ipa": "/te/",
-     "en": ""
+     "en": "",
+     "audio": "t.mp3"
     },
     {
      "fr": "U",
      "ipa": "/y/",
-     "en": ""
+     "en": "",
+     "audio": "u.mp3"
     },
     {
      "fr": "V",
      "ipa": "/ve/",
-     "en": ""
+     "en": "",
+     "audio": "v.mp3"
     },
     {
      "fr": "W",
      "ipa": "/dubləve/",
-     "en": ""
+     "en": "",
+     "audio": "w.mp3"
     },
     {
      "fr": "X",
      "ipa": "/iks/",
-     "en": ""
+     "en": "",
+     "audio": "x.mp3"
     },
     {
      "fr": "Y",
      "ipa": "/igʀɛk/",
-     "en": ""
+     "en": "",
+     "audio": "y.mp3"
     },
     {
      "fr": "Z",
      "ipa": "/zɛd/",
-     "en": ""
+     "en": "",
+     "audio": "z.mp3"
     }
    ]
   }

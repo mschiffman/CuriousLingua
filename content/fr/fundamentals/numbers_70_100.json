@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "audio_ver": "2611200608",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "De 70 à 79",
@@ -17,43 +21,53 @@
    "words": [
     {
      "fr": "soixante-dix",
-     "en": "seventy"
+     "en": "seventy",
+     "audio": "soixante_dix.mp3"
     },
     {
      "fr": "soixante et onze",
-     "en": "seventy-one"
+     "en": "seventy-one",
+     "audio": "soixante_et_onze.mp3"
     },
     {
      "fr": "soixante-douze",
-     "en": "seventy-two"
+     "en": "seventy-two",
+     "audio": "soixante_douze.mp3"
     },
     {
      "fr": "soixante-treize",
-     "en": "seventy-three"
+     "en": "seventy-three",
+     "audio": "soixante_treize.mp3"
     },
     {
      "fr": "soixante-quatorze",
-     "en": "seventy-four"
+     "en": "seventy-four",
+     "audio": "soixante_quatorze.mp3"
     },
     {
      "fr": "soixante-quinze",
-     "en": "seventy-five"
+     "en": "seventy-five",
+     "audio": "soixante_quinze.mp3"
     },
     {
      "fr": "soixante-seize",
-     "en": "seventy-six"
+     "en": "seventy-six",
+     "audio": "soixante_seize.mp3"
     },
     {
      "fr": "soixante-dix-sept",
-     "en": "seventy-seven"
+     "en": "seventy-seven",
+     "audio": "soixante_dix_sept.mp3"
     },
     {
      "fr": "soixante-dix-huit",
-     "en": "seventy-eight"
+     "en": "seventy-eight",
+     "audio": "soixante_dix_huit.mp3"
     },
     {
      "fr": "soixante-dix-neuf",
-     "en": "seventy-nine"
+     "en": "seventy-nine",
+     "audio": "soixante_dix_neuf.mp3"
     }
    ]
   },
@@ -66,43 +80,53 @@
    "words": [
     {
      "fr": "quatre-vingts",
-     "en": "eighty"
+     "en": "eighty",
+     "audio": "quatre_vingts.mp3"
     },
     {
      "fr": "quatre-vingt-un",
-     "en": "eighty-one"
+     "en": "eighty-one",
+     "audio": "quatre_vingt_un.mp3"
     },
     {
      "fr": "quatre-vingt-deux",
-     "en": "eighty-two"
+     "en": "eighty-two",
+     "audio": "quatre_vingt_deux.mp3"
     },
     {
      "fr": "quatre-vingt-trois",
-     "en": "eighty-three"
+     "en": "eighty-three",
+     "audio": "quatre_vingt_trois.mp3"
     },
     {
      "fr": "quatre-vingt-quatre",
-     "en": "eighty-four"
+     "en": "eighty-four",
+     "audio": "quatre_vingt_quatre.mp3"
     },
     {
      "fr": "quatre-vingt-cinq",
-     "en": "eighty-five"
+     "en": "eighty-five",
+     "audio": "quatre_vingt_cinq.mp3"
     },
     {
      "fr": "quatre-vingt-six",
-     "en": "eighty-six"
+     "en": "eighty-six",
+     "audio": "quatre_vingt_six.mp3"
     },
     {
      "fr": "quatre-vingt-sept",
-     "en": "eighty-seven"
+     "en": "eighty-seven",
+     "audio": "quatre_vingt_sept.mp3"
     },
     {
      "fr": "quatre-vingt-huit",
-     "en": "eighty-eight"
+     "en": "eighty-eight",
+     "audio": "quatre_vingt_huit.mp3"
     },
     {
      "fr": "quatre-vingt-neuf",
-     "en": "eighty-nine"
+     "en": "eighty-nine",
+     "audio": "quatre_vingt_neuf.mp3"
     }
    ]
   },
@@ -115,48 +139,59 @@
    "words": [
     {
      "fr": "quatre-vingt-dix",
-     "en": "ninety"
+     "en": "ninety",
+     "audio": "quatre_vingt_dix.mp3"
     },
     {
      "fr": "quatre-vingt-onze",
-     "en": "ninety-one"
+     "en": "ninety-one",
+     "audio": "quatre_vingt_onze.mp3"
     },
     {
      "fr": "quatre-vingt-douze",
-     "en": "ninety-two"
+     "en": "ninety-two",
+     "audio": "quatre_vingt_douze.mp3"
     },
     {
      "fr": "quatre-vingt-treize",
-     "en": "ninety-three"
+     "en": "ninety-three",
+     "audio": "quatre_vingt_treize.mp3"
     },
     {
      "fr": "quatre-vingt-quatorze",
-     "en": "ninety-four"
+     "en": "ninety-four",
+     "audio": "quatre_vingt_quatorze.mp3"
     },
     {
      "fr": "quatre-vingt-quinze",
-     "en": "ninety-five"
+     "en": "ninety-five",
+     "audio": "quatre_vingt_quinze.mp3"
     },
     {
      "fr": "quatre-vingt-seize",
-     "en": "ninety-six"
+     "en": "ninety-six",
+     "audio": "quatre_vingt_seize.mp3"
     },
     {
      "fr": "quatre-vingt-dix-sept",
-     "en": "ninety-seven"
+     "en": "ninety-seven",
+     "audio": "quatre_vingt_dix_sept.mp3"
     },
     {
      "fr": "quatre-vingt-dix-huit",
-     "en": "ninety-eight"
+     "en": "ninety-eight",
+     "audio": "quatre_vingt_dix_huit.mp3"
     },
     {
      "fr": "quatre-vingt-dix-neuf",
-     "en": "ninety-nine"
+     "en": "ninety-nine",
+     "audio": "quatre_vingt_dix_neuf.mp3"
     },
     {
      "fr": "cent",
      "ipa": "/sɑ̃/",
-     "en": "one hundred"
+     "en": "one hundred",
+     "audio": "cent.mp3"
     }
    ]
   }

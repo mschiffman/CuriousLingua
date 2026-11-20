@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "audio_ver": "2611200607",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Les centaines",
@@ -18,44 +22,54 @@
     {
      "fr": "cent",
      "ipa": "/sɑ̃/",
-     "en": "one hundred"
+     "en": "one hundred",
+     "audio": "cent.mp3"
     },
     {
      "fr": "deux cents",
-     "en": "two hundred"
+     "en": "two hundred",
+     "audio": "deux_cents.mp3"
     },
     {
      "fr": "trois cents",
-     "en": "three hundred"
+     "en": "three hundred",
+     "audio": "trois_cents.mp3"
     },
     {
      "fr": "quatre cents",
-     "en": "four hundred"
+     "en": "four hundred",
+     "audio": "quatre_cents.mp3"
     },
     {
      "fr": "cinq cents",
-     "en": "five hundred"
+     "en": "five hundred",
+     "audio": "cinq_cents.mp3"
     },
     {
      "fr": "six cents",
-     "en": "six hundred"
+     "en": "six hundred",
+     "audio": "six_cents.mp3"
     },
     {
      "fr": "sept cents",
-     "en": "seven hundred"
+     "en": "seven hundred",
+     "audio": "sept_cents.mp3"
     },
     {
      "fr": "huit cents",
-     "en": "eight hundred"
+     "en": "eight hundred",
+     "audio": "huit_cents.mp3"
     },
     {
      "fr": "neuf cents",
-     "en": "nine hundred"
+     "en": "nine hundred",
+     "audio": "neuf_cents.mp3"
     },
     {
      "fr": "mille",
      "ipa": "/mil/",
-     "en": "one thousand"
+     "en": "one thousand",
+     "audio": "mille.mp3"
     }
    ]
   },
@@ -68,35 +82,43 @@
    "words": [
     {
      "fr": "cent un",
-     "en": "101"
+     "en": "101",
+     "audio": "cent_un.mp3"
     },
     {
      "fr": "cent dix",
-     "en": "110"
+     "en": "110",
+     "audio": "cent_dix.mp3"
     },
     {
      "fr": "cent vingt-cinq",
-     "en": "125"
+     "en": "125",
+     "audio": "cent_vingt_cinq.mp3"
     },
     {
      "fr": "deux cent cinquante",
-     "en": "250"
+     "en": "250",
+     "audio": "deux_cent_cinquante.mp3"
     },
     {
      "fr": "trois cent soixante-cinq",
-     "en": "365"
+     "en": "365",
+     "audio": "trois_cent_soixante_cinq.mp3"
     },
     {
      "fr": "cinq cent quatre-vingts",
-     "en": "580"
+     "en": "580",
+     "audio": "cinq_cent_quatre_vingts.mp3"
     },
     {
      "fr": "sept cent soixante-dix",
-     "en": "770"
+     "en": "770",
+     "audio": "sept_cent_soixante_dix.mp3"
     },
     {
      "fr": "neuf cent quatre-vingt-dix-neuf",
-     "en": "999"
+     "en": "999",
+     "audio": "neuf_cent_quatre_vingt_dix_neuf.mp3"
     }
    ]
   }

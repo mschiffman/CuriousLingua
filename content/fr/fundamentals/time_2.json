@@ -9,6 +9,10 @@
  "legacy": "fr/fundamental/time/2.html",
  "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
  "glossary_dir": "lessons/fundamental/time/2/",
+ "audio_ver": "2611200606",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "title_audio": "01-temps et de fréquence.m4a",
  "groups": [
   {
@@ -358,35 +362,43 @@
    "words": [
     {
      "fr": "Il est déjà dix heures.",
-     "en": "It’s already ten o’clock."
+     "en": "It’s already ten o’clock.",
+     "audio": "il_est_deja_dix_heures.mp3"
     },
     {
      "fr": "Il n’est que sept heures.",
-     "en": "It’s only seven o’clock."
+     "en": "It’s only seven o’clock.",
+     "audio": "il_n_est_que_sept_heures.mp3"
     },
     {
      "fr": "Il n’est même pas huit heures.",
-     "en": "It’s not even eight o’clock."
+     "en": "It’s not even eight o’clock.",
+     "audio": "il_n_est_meme_pas_huit_heures.mp3"
     },
     {
      "fr": "Il n’est même pas encore huit heures.",
-     "en": "It’s not even eight o’clock yet."
+     "en": "It’s not even eight o’clock yet.",
+     "audio": "il_n_est_meme_pas_encore_huit_heures.mp3"
     },
     {
      "fr": "dix-sept heures trois quarts",
-     "en": "17:45"
+     "en": "17:45",
+     "audio": "dix_sept_heures_trois_quarts.mp3"
     },
     {
      "fr": "Je suis arrivé avant trois heures.",
-     "en": "I got there before three o’clock."
+     "en": "I got there before three o’clock.",
+     "audio": "je_suis_arrive_avant_trois_heures.mp3"
     },
     {
      "fr": "Il est temps.",
-     "en": "It’s about time."
+     "en": "It’s about time.",
+     "audio": "il_est_temps.mp3"
     },
     {
      "fr": "Depuis quand ?",
-     "en": "Since when?"
+     "en": "Since when?",
+     "audio": "depuis_quand.mp3"
     }
    ]
   },
@@ -396,27 +408,33 @@
    "words": [
     {
      "fr": "Quelles sont vos heures d’ouverture ?",
-     "en": "What are your opening hours?"
+     "en": "What are your opening hours?",
+     "audio": "quelles_sont_vos_heures_d_ouverture.mp3"
     },
     {
      "fr": "À quelle heure ouvre Costco ?",
-     "en": "What time does Costco open?"
+     "en": "What time does Costco open?",
+     "audio": "a_quelle_heure_ouvre_costco.mp3"
     },
     {
      "fr": "À quelle heure ferme Costco ?",
-     "en": "What time does Costco close?"
+     "en": "What time does Costco close?",
+     "audio": "a_quelle_heure_ferme_costco.mp3"
     },
     {
      "fr": "À quelle heure ouvrent-ils ?",
-     "en": "What time do they open?"
+     "en": "What time do they open?",
+     "audio": "a_quelle_heure_ouvrent_ils.mp3"
     },
     {
      "fr": "À quelle heure ils ferment ?",
-     "en": "What time do they close?"
+     "en": "What time do they close?",
+     "audio": "a_quelle_heure_ils_ferment.mp3"
     },
     {
      "fr": "Ils n’ouvriront pas avant dix heures.",
-     "en": "They won’t open until ten o’clock."
+     "en": "They won’t open until ten o’clock.",
+     "audio": "ils_n_ouvriront_pas_avant_dix_heures.mp3"
     }
    ]
   }

@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/time/",
+ "audio_ver": "2611200609",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "groups": [
   {
    "title": "Demander l’heure",
@@ -14,15 +18,18 @@
    "words": [
     {
      "fr": "Quelle heure est-il ?",
-     "en": "What time is it?"
+     "en": "What time is it?",
+     "audio": "quelle_heure_est_il.mp3"
     },
     {
      "fr": "Il est quelle heure ?",
-     "en": "What time is it? (everyday)"
+     "en": "What time is it? (everyday)",
+     "audio": "il_est_quelle_heure.mp3"
     },
     {
      "fr": "Vous avez l’heure, s’il vous plaît ?",
-     "en": "Do you have the time, please?"
+     "en": "Do you have the time, please?",
+     "audio": "vous_avez_l_heure_s_il_vous_plait.mp3"
     }
    ]
   },
@@ -35,23 +42,28 @@
    "words": [
     {
      "fr": "Il est une heure.",
-     "en": "It’s one o’clock."
+     "en": "It’s one o’clock.",
+     "audio": "il_est_une_heure.mp3"
     },
     {
      "fr": "Il est neuf heures.",
-     "en": "It’s nine o’clock."
+     "en": "It’s nine o’clock.",
+     "audio": "il_est_neuf_heures.mp3"
     },
     {
      "fr": "Il est midi.",
-     "en": "It’s noon."
+     "en": "It’s noon.",
+     "audio": "il_est_midi.mp3"
     },
     {
      "fr": "Il est minuit.",
-     "en": "It’s midnight."
+     "en": "It’s midnight.",
+     "audio": "il_est_minuit.mp3"
     },
     {
      "fr": "Il est presque deux heures.",
-     "en": "It’s almost two o’clock."
+     "en": "It’s almost two o’clock.",
+     "audio": "il_est_presque_deux_heures.mp3"
     }
    ]
   },
@@ -64,23 +76,28 @@
    "words": [
     {
      "fr": "Il est neuf heures dix-sept.",
-     "en": "It’s nine seventeen."
+     "en": "It’s nine seventeen.",
+     "audio": "il_est_neuf_heures_dix_sept.mp3"
     },
     {
      "fr": "Il est trois heures et quart.",
-     "en": "It’s quarter past three."
+     "en": "It’s quarter past three.",
+     "audio": "il_est_trois_heures_et_quart.mp3"
     },
     {
      "fr": "Il est quatre heures et demie.",
-     "en": "It’s half past four."
+     "en": "It’s half past four.",
+     "audio": "il_est_quatre_heures_et_demie.mp3"
     },
     {
      "fr": "Il est cinq heures moins dix.",
-     "en": "It’s ten to five."
+     "en": "It’s ten to five.",
+     "audio": "il_est_cinq_heures_moins_dix.mp3"
     },
     {
      "fr": "Il est six heures moins le quart.",
-     "en": "It’s quarter to six."
+     "en": "It’s quarter to six.",
+     "audio": "il_est_six_heures_moins_le_quart.mp3"
     }
    ]
   },
@@ -90,15 +107,18 @@
    "words": [
     {
      "fr": "Il est sept heures du matin.",
-     "en": "It’s seven in the morning."
+     "en": "It’s seven in the morning.",
+     "audio": "il_est_sept_heures_du_matin.mp3"
     },
     {
      "fr": "Il est deux heures de l’après-midi.",
-     "en": "It’s two in the afternoon."
+     "en": "It’s two in the afternoon.",
+     "audio": "il_est_deux_heures_de_l_apres_midi.mp3"
     },
     {
      "fr": "Il est huit heures du soir.",
-     "en": "It’s eight in the evening."
+     "en": "It’s eight in the evening.",
+     "audio": "il_est_huit_heures_du_soir.mp3"
     }
    ]
   }

@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/accents/",
+ "audio_ver": "2611200606",
+ "voices": [
+  "Ze3DkBwQ81dW3YYr1nbz"
+ ],
  "clip_names": "number",
  "groups": [
   {
@@ -20,67 +24,79 @@
      "fr": "é",
      "ipa": "/e/",
      "en": "e with an acute accent",
-     "say": "e accent aigu"
+     "say": "e accent aigu",
+     "audio": "e_aigu.mp3"
     },
     {
      "fr": "è",
      "ipa": "/ɛ/",
      "en": "e with a grave accent",
-     "say": "e accent grave"
+     "say": "e accent grave",
+     "audio": "e_grave.mp3"
     },
     {
      "fr": "ê",
      "ipa": "/ɛ/",
      "en": "e with a circumflex",
-     "say": "e accent circonflexe"
+     "say": "e accent circonflexe",
+     "audio": "e_circonflexe.mp3"
     },
     {
      "fr": "ë",
      "en": "e with a diaeresis",
-     "say": "e tréma"
+     "say": "e tréma",
+     "audio": "e_trema.mp3"
     },
     {
      "fr": "à",
      "ipa": "/a/",
      "en": "a with a grave accent",
-     "say": "a accent grave"
+     "say": "a accent grave",
+     "audio": "a_grave.mp3"
     },
     {
      "fr": "ù",
      "ipa": "/y/",
      "en": "u with a grave accent",
-     "say": "u accent grave"
+     "say": "u accent grave",
+     "audio": "u_grave.mp3"
     },
     {
      "fr": "ç",
      "ipa": "/s/",
      "en": "c with a cedilla",
-     "say": "c cédille"
+     "say": "c cédille",
+     "audio": "c_cedille.mp3"
     },
     {
      "fr": "l’accent aigu",
      "g": "m",
-     "en": "acute accent (é)"
+     "en": "acute accent (é)",
+     "audio": "008.mp3"
     },
     {
      "fr": "l’accent grave",
      "g": "m",
-     "en": "grave accent (è, à, ù)"
+     "en": "grave accent (è, à, ù)",
+     "audio": "009.mp3"
     },
     {
      "fr": "l’accent circonflexe",
      "g": "m",
-     "en": "circumflex (â, ê, î, ô, û)"
+     "en": "circumflex (â, ê, î, ô, û)",
+     "audio": "010.mp3"
     },
     {
      "fr": "le tréma",
      "g": "m",
-     "en": "diaeresis (ë, ï)"
+     "en": "diaeresis (ë, ï)",
+     "audio": "011.mp3"
     },
     {
      "fr": "la cédille",
      "g": "f",
-     "en": "cedilla (ç)"
+     "en": "cedilla (ç)",
+     "audio": "012.mp3"
     }
    ]
   },
@@ -90,66 +106,79 @@
    "words": [
     {
      "fr": "Ça s’écrit comment ?",
-     "en": "How do you spell it?"
+     "en": "How do you spell it?",
+     "audio": "013.mp3"
     },
     {
      "fr": "Comment ça s’écrit ?",
-     "en": "How is it spelled?"
+     "en": "How is it spelled?",
+     "audio": "014.mp3"
     },
     {
      "fr": "Vous pouvez épeler, s’il vous plaît ?",
-     "en": "Can you spell it, please?"
+     "en": "Can you spell it, please?",
+     "audio": "015.mp3"
     },
     {
      "fr": "Ça s’écrit M, A, R, I, E.",
-     "en": "It is spelled M-A-R-I-E."
+     "en": "It is spelled M-A-R-I-E.",
+     "audio": "016.mp3"
     },
     {
      "fr": "avec deux L",
-     "en": "with two Ls"
+     "en": "with two Ls",
+     "audio": "017.mp3"
     },
     {
      "fr": "avec un accent",
-     "en": "with an accent"
+     "en": "with an accent",
+     "audio": "018.mp3"
     },
     {
      "fr": "une majuscule",
      "g": "f",
      "ipa": "/maʒyskyl/",
-     "en": "a capital letter"
+     "en": "a capital letter",
+     "audio": "019.mp3"
     },
     {
      "fr": "une minuscule",
      "g": "f",
      "ipa": "/minyskyl/",
-     "en": "a small letter"
+     "en": "a small letter",
+     "audio": "020.mp3"
     },
     {
      "fr": "un trait d’union",
      "g": "m",
-     "en": "a hyphen"
+     "en": "a hyphen",
+     "audio": "021.mp3"
     },
     {
      "fr": "une apostrophe",
      "g": "f",
      "ipa": "/apɔstʀɔf/",
-     "en": "an apostrophe"
+     "en": "an apostrophe",
+     "audio": "022.mp3"
     },
     {
      "fr": "un espace",
      "g": "m",
      "ipa": "/ɛspas/",
-     "en": "a space"
+     "en": "a space",
+     "audio": "023.mp3"
     },
     {
      "fr": "arobase",
      "ipa": "/aʀɔbaz/",
-     "en": "@ (at)"
+     "en": "@ (at)",
+     "audio": "024.mp3"
     },
     {
      "fr": "point",
      "ipa": "/pwɛ̃/",
-     "en": ". (dot, full stop)"
+     "en": ". (dot, full stop)",
+     "audio": "025.mp3"
     }
    ]
   }
