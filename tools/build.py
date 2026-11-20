@@ -1047,15 +1047,20 @@ def main():
             continue
         write(X["url"], lesson_page(X, None, None, X["id"] in have, parent=parent))
     by_id = {L["id"]: L for L in all_lessons}
-    for L in all_lessons:   # "related": ["fr/vocabulary/marche", ...] links two lessons, and each shows the other
+    groups = []   # "related": ["fr/vocabulary/marche", ...] puts lessons in one group: every lesson of a group shows all the others
+    for L in all_lessons:
         for rid in L.get("related", ()):
             X = by_id.get(rid.strip("/")) or by_id.get(f'{L["course"]}/{rid.strip("/")}')
             if X is None or X is L:
                 print(f"  {L['id']}: related names a lesson that does not exist ({rid})")
                 continue
-            for a, b in ((L, X), (X, L)):
-                if b not in a.setdefault("_rel", []):
-                    a["_rel"].append(b)
+            hit = [g for g in groups if L in g or X in g]   # the groups this pair joins together
+            merged = [m for g in hit for m in g]
+            merged += [m for m in (L, X) if m not in merged]
+            groups = [g for g in groups if g not in hit] + [merged]
+    for g in groups:
+        for L in g:
+            L["_rel"] = [m for m in g if m is not L]
     for k, c in C["courses"].items():
         items = [L for L in all_lessons if L["course"] == k]
         for s in c["strands"]:
