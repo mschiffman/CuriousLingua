@@ -135,6 +135,21 @@
   "quiz": false
  },
  {
+  "id": "fr/reading/la_valise_de_sophie",
+  "url": "fr/reading/la_valise_de_sophie.html",
+  "course": "fr",
+  "strand": "reading",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Stories",
+  "type": "reader",
+  "title": "La valise de Sophie",
+  "clips": 82,
+  "images": 8,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/reading/meteorite",
   "url": "fr/reading/meteorite.html",
   "course": "fr",
