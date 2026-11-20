@@ -1,0 +1,203 @@
+{
+ "title": "Be going to",
+ "subtitle": "Plans, and things you can see coming",
+ "level": "a2",
+ "topic": "Tenses",
+ "type": "grammar",
+ "order": 4,
+ "review": "Written by Claude in the format of the French tense pages. Check the examples and the level.",
+ "intro": "Use it for a **plan you already have**, and for something you can **see is about to happen**. The future starts from something that is true **now**: your decision, or what you can see.",
+ "sections": [
+  {
+   "title": "When to use it",
+   "blocks": [
+    {
+     "label": "Plans",
+     "title": "You decided before now",
+     "examples": [
+      {
+       "fr": "I **am going to visit** my uncle tomorrow."
+      },
+      {
+       "fr": "She **is going to study** medicine."
+      },
+      {
+       "fr": "We **are going to buy** a new house next year."
+      },
+      {
+       "fr": "They **are going to play** football after school."
+      },
+      {
+       "fr": "I **am going to be** a teacher."
+      }
+     ]
+    },
+    {
+     "label": "You can see it coming",
+     "title": "Something now tells you",
+     "examples": [
+      {
+       "fr": "Look at those clouds. It **is going to rain**.",
+       "en": "I can see the clouds now."
+      },
+      {
+       "fr": "Be careful! You **are going to fall**.",
+       "en": "I can see the danger."
+      },
+      {
+       "fr": "The bus is very full. We **are going to be** late."
+      },
+      {
+       "fr": "She is running very fast. She **is going to win**."
+      }
+     ]
+    },
+    {
+     "label": "Very soon",
+     "title": "It is about to happen",
+     "examples": [
+      {
+       "fr": "Hurry up! The film **is going to start**."
+      },
+      {
+       "fr": "Sit down. I **am going to tell** you a story."
+      },
+      {
+       "fr": "Watch this. I **am going to jump**."
+      },
+      {
+       "fr": "The baby **is going to cry**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How to make it",
+   "blocks": [
+    {
+     "title": "Pattern",
+     "formula": "**am / is / are** + **going to** + verb",
+     "table": {
+      "head": [
+       "Subject",
+       "be",
+       "going to",
+       "verb"
+      ],
+      "rows": [
+       [
+        "I",
+        "am",
+        "going to",
+        "play"
+       ],
+       [
+        "he / she / it",
+        "is",
+        "going to",
+        "play"
+       ],
+       [
+        "you / we / they",
+        "are",
+        "going to",
+        "play"
+       ]
+      ]
+     },
+     "note": "The verb after *going to* never changes: *she is going to play*, not *she is going to plays*."
+    },
+    {
+     "title": "Speaking",
+     "points": [
+      "People often say the short forms: **I'm going to**, **she's going to**, **they're going to**.",
+      "In fast speech *going to* sounds like **gonna**. You will hear it in songs and films. Do not write it at school.",
+      "With the verb **go**, people often just say *I'm going to the market tomorrow* (not *going to go*). Both are correct."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Signal words",
+   "blocks": [
+    {
+     "text": "tomorrow, tonight, next week / month / year, this weekend, soon, later, in two days, after school, when I grow up, Look!, Be careful! …"
+    }
+   ]
+  },
+  {
+   "title": "Negative",
+   "blocks": [
+    {
+     "formula": "am / is / are + **not** + going to + verb",
+     "examples": [
+      {
+       "fr": "I **am not going to tell** you."
+      },
+      {
+       "fr": "He **isn't going to come**."
+      },
+      {
+       "fr": "We **aren't going to wait**."
+      },
+      {
+       "fr": "It **isn't going to rain** today."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Questions",
+   "blocks": [
+    {
+     "formula": "**Am / Is / Are** + subject + going to + verb ?",
+     "examples": [
+      {
+       "fr": "**Are** you **going to help** me?",
+       "en": "Yes, I am. / No, I'm not."
+      },
+      {
+       "fr": "**Is** she **going to come** to the party?"
+      },
+      {
+       "fr": "What **are** you **going to do** tomorrow?"
+      },
+      {
+       "fr": "Where **are** they **going to live**?"
+      },
+      {
+       "fr": "When **is** he **going to call**?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Going to or will?",
+   "blocks": [
+    {
+     "examples": [
+      {
+       "fr": "**Going to**: you decided before. *I am going to buy a bike. I have the money.*",
+       "en": "It is already your plan."
+      },
+      {
+       "fr": "**Will**: you decide now, while speaking. *The phone is ringing. I will answer it.*",
+       "en": "There was no plan."
+      },
+      {
+       "fr": "**Going to**: you can see it. *Look at the sky. It is going to rain.*",
+       "en": "The clouds are there now."
+      },
+      {
+       "fr": "**Will**: you think so. *I think it will rain tomorrow.*",
+       "en": "It is only your idea."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

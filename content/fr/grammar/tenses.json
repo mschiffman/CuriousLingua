@@ -29,7 +29,7 @@
    "lesson": "plus_que_parfait"
   },
   {
-   "key": "imparfait", "name": "imparfait", "en": "was doing / used to do", "x": 37.5, "dy": -37, "up": true,
+   "key": "imparfait", "name": "imparfait", "en": "was doing / used to do", "x": 37.5, "dy": -37, "up": true, "span": [20, 55],
    "hint": "Ongoing, habitual, descriptive: a stretch of the past, not a point.",
    "use": "The background of a story, what was going on, and what used to happen.",
    "structure": "stem of the **nous** form (drop -ons) + -ais, -ais, -ait, -ions, -iez, -aient",
@@ -82,7 +82,7 @@
    "lesson": "futur_proche"
   },
   {
-   "key": "conditionnel", "name": "conditionnel présent", "en": "would do", "x": 80, "dy": -37, "up": true, "mood": true,
+   "key": "conditionnel", "name": "conditionnel présent", "en": "would do", "x": 80, "dy": -37, "up": true, "mood": true, "stem": [-30, 0],
    "hint": "A future seen from a condition: it floats above the line because it may never happen.",
    "use": "Politeness, and hypothetical situations.",
    "structure": "infinitif (or the irregular futur stem) + the imparfait endings",
@@ -109,7 +109,7 @@
    "lesson": "futur_simple"
   },
   {
-   "key": "subjonctif", "name": "subjonctif", "en": "(that) I do", "x": 55, "dy": 80, "mood": true,
+   "key": "subjonctif", "name": "subjonctif", "en": "(that) I do", "x": 55, "dy": 80, "mood": true, "stem": [44, 72],
    "hint": "It's not “when”, it's how I see it: a wish, a doubt, a need, a feeling.",
    "use": "After expressions of feeling, wish, doubt or necessity, when the two clauses have different subjects.",
    "structure": "main clause (indicatif) + **que** + subject + verb in the subjonctif",

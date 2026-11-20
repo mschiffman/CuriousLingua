@@ -1,0 +1,234 @@
+{
+ "title": "The present simple",
+ "subtitle": "Habits, facts and things that are always true",
+ "level": "a1",
+ "topic": "Tenses",
+ "type": "grammar",
+ "order": 1,
+ "review": "Written by Claude in the format of the French tense pages. Check the examples and the level.",
+ "intro": "Use it for things you do **again and again**, for **facts**, and for what you **like, know and want**. It is not about this minute: it is about every day, every week, always.",
+ "sections": [
+  {
+   "title": "When to use it",
+   "blocks": [
+    {
+     "label": "Habits",
+     "title": "Things you do again and again",
+     "examples": [
+      {
+       "fr": "I **get up** at six every day."
+      },
+      {
+       "fr": "She **walks** to school."
+      },
+      {
+       "fr": "We **play** football on Saturdays."
+      },
+      {
+       "fr": "My father **drinks** tea in the morning."
+      },
+      {
+       "fr": "They often **visit** their grandmother."
+      }
+     ]
+    },
+    {
+     "label": "Facts",
+     "title": "Things that are always true",
+     "examples": [
+      {
+       "fr": "The sun **rises** in the east."
+      },
+      {
+       "fr": "Water **boils** at 100 degrees."
+      },
+      {
+       "fr": "Cats **like** fish."
+      },
+      {
+       "fr": "Rice **grows** in water."
+      },
+      {
+       "fr": "Yangon **is** a big city."
+      }
+     ]
+    },
+    {
+     "label": "Likes and thoughts",
+     "title": "What you like, know, want, think",
+     "examples": [
+      {
+       "fr": "I **like** mangoes."
+      },
+      {
+       "fr": "He **knows** the answer."
+      },
+      {
+       "fr": "We **want** to go home."
+      },
+      {
+       "fr": "She **loves** her little brother."
+      },
+      {
+       "fr": "I **think** it is a good idea."
+      }
+     ]
+    },
+    {
+     "label": "Timetables",
+     "title": "Fixed times: buses, lessons, shops",
+     "examples": [
+      {
+       "fr": "The bus **leaves** at eight o'clock."
+      },
+      {
+       "fr": "School **starts** on Monday."
+      },
+      {
+       "fr": "The shop **opens** at nine."
+      },
+      {
+       "fr": "The film **begins** at seven tonight."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How to make it",
+   "blocks": [
+    {
+     "title": "Pattern",
+     "formula": "I / you / we / they + **verb**   ·   he / she / it + **verb + s**",
+     "table": {
+      "head": [
+       "Subject",
+       "play",
+       "go",
+       "have",
+       "be"
+      ],
+      "rows": [
+       [
+        "I",
+        "play",
+        "go",
+        "have",
+        "**am**"
+       ],
+       [
+        "you / we / they",
+        "play",
+        "go",
+        "have",
+        "**are**"
+       ],
+       [
+        "he / she / it",
+        "play**s**",
+        "go**es**",
+        "**has**",
+        "**is**"
+       ]
+      ]
+     },
+     "note": "Only *he*, *she* and *it* change the verb. Remember the **s**: *she plays*, not *she play*."
+    },
+    {
+     "title": "Spelling of he / she / it",
+     "points": [
+      "Most verbs: add **-s**\n*work* → *works*, *read* → *reads*, *live* → *lives*.",
+      "After **-s, -sh, -ch, -x, -o**: add **-es**\n*watch* → *watches*, *wash* → *washes*, *go* → *goes*, *do* → *does*.",
+      "Consonant + **y**: change y to **-ies**\n*study* → *studies*, *carry* → *carries*, *cry* → *cries*.",
+      "Vowel + **y**: just add **-s**\n*play* → *plays*, *buy* → *buys*.",
+      "**have** → **has**. **be** → **am, is, are**."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Signal words",
+   "blocks": [
+    {
+     "text": "always, usually, often, sometimes, never, every day / week / year, on Mondays, in the morning, at night, once a week, twice a month …",
+     "note": "*always, usually, often, sometimes, never* go **before** the verb, but **after** *am, is, are*: I **always** walk to school. He is **never** late."
+    }
+   ]
+  },
+  {
+   "title": "Negative: do not / does not",
+   "blocks": [
+    {
+     "formula": "do not (**don't**) / does not (**doesn't**) + verb",
+     "examples": [
+      {
+       "fr": "I **don't like** coffee."
+      },
+      {
+       "fr": "We **don't have** a car."
+      },
+      {
+       "fr": "She **doesn't eat** meat."
+      },
+      {
+       "fr": "He **doesn't live** here."
+      },
+      {
+       "fr": "My sister **isn't** at home.",
+       "en": "With be, just add not: am not, isn't, aren't."
+      }
+     ],
+     "note": "After *doesn't* the verb has **no s**: *she doesn't like*, not *she doesn't likes*."
+    }
+   ]
+  },
+  {
+   "title": "Questions: do / does",
+   "blocks": [
+    {
+     "formula": "**Do / Does** + subject + verb ?",
+     "examples": [
+      {
+       "fr": "**Do** you **like** mangoes?"
+      },
+      {
+       "fr": "**Does** she **play** the piano?",
+       "en": "Yes, she does. / No, she doesn't."
+      },
+      {
+       "fr": "Where **do** they **live**?"
+      },
+      {
+       "fr": "What time **does** school **start**?"
+      },
+      {
+       "fr": "**Is** he your brother?",
+       "en": "With be, put am, is, are first."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Present simple or present continuous?",
+   "blocks": [
+    {
+     "examples": [
+      {
+       "fr": "**Present simple**: every day, always. *I walk to school.*",
+       "en": "That is my habit."
+      },
+      {
+       "fr": "**Present continuous**: right now. *I am walking to school.*",
+       "en": "I am on the road at this moment."
+      },
+      {
+       "fr": "**Together**: *He usually drinks tea, but today he is drinking milk.*",
+       "en": "Usually = simple. Today, now = continuous."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

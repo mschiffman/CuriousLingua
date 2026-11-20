@@ -1,0 +1,245 @@
+{
+ "title": "The present perfect: exercises",
+ "subtitle": "31 sentences to complete",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "present_perfect",
+ "review": "Written by Claude in the format of the French tense pages. Check the examples and the level.",
+ "intro": "Put the verb in brackets in the present perfect: have or has + past participle. Write the full form.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "title": "Regular verbs",
+   "items": [
+    {
+     "before": "I ",
+     "answer": "have finished",
+     "after": " my homework.  (finish)"
+    },
+    {
+     "before": "She ",
+     "answer": "has cleaned",
+     "after": " her room.  (clean)"
+    },
+    {
+     "before": "We ",
+     "answer": "have lived",
+     "after": " here for six years.  (live)"
+    },
+    {
+     "before": "He ",
+     "answer": "has visited",
+     "after": " many countries.  (visit)"
+    },
+    {
+     "before": "They ",
+     "answer": "have just arrived",
+     "after": ".  (just / arrive)"
+    },
+    {
+     "before": "It ",
+     "answer": "has stopped",
+     "after": " raining.  (stop)"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "Irregular verbs",
+   "items": [
+    {
+     "before": "I ",
+     "answer": "have seen",
+     "after": " that film twice.  (see)"
+    },
+    {
+     "before": "She ",
+     "answer": "has gone",
+     "after": " to the market.  (go)"
+    },
+    {
+     "before": "We ",
+     "answer": "have eaten",
+     "after": " all the mangoes.  (eat)"
+    },
+    {
+     "before": "He ",
+     "answer": "has broken",
+     "after": " the window.  (break)"
+    },
+    {
+     "before": "They ",
+     "answer": "have been",
+     "after": " to Bagan.  (be)"
+    },
+    {
+     "before": "I ",
+     "answer": "have lost",
+     "after": " my pen.  (lose)"
+    },
+    {
+     "before": "She ",
+     "answer": "has written",
+     "after": " three letters today.  (write)"
+    },
+    {
+     "before": "My father ",
+     "answer": "has bought",
+     "after": " a new car.  (buy)"
+    },
+    {
+     "before": "You ",
+     "answer": "have done",
+     "after": " a good job.  (do)"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "Negatives",
+   "items": [
+    {
+     "before": "I ",
+     "answer": "haven't finished",
+     "after": " yet.  (not / finish)"
+    },
+    {
+     "before": "She ",
+     "answer": "hasn't called",
+     "after": " me.  (not / call)"
+    },
+    {
+     "before": "They ",
+     "answer": "haven't seen",
+     "after": " the sea.  (not / see)"
+    },
+    {
+     "before": "He ",
+     "answer": "hasn't done",
+     "after": " his homework.  (not / do)"
+    },
+    {
+     "before": "We ",
+     "answer": "haven't eaten",
+     "after": " yet.  (not / eat)"
+    }
+   ],
+   "intro": "Write the short form: haven't, hasn't."
+  },
+  {
+   "kind": "choice",
+   "title": "for, since, ever, never, yet, already, just",
+   "items": [
+    {
+     "q": "I have lived here ___ ten years.",
+     "options": [
+      "for",
+      "since"
+     ],
+     "answer": 0,
+     "why": "Ten years = how long: for."
+    },
+    {
+     "q": "She has known him ___ 2020.",
+     "options": [
+      "for",
+      "since"
+     ],
+     "answer": 1,
+     "why": "2020 = the starting point: since."
+    },
+    {
+     "q": "Have you ___ seen an elephant?",
+     "options": [
+      "ever",
+      "never",
+      "yet"
+     ],
+     "answer": 0,
+     "why": "In a question about your life: ever."
+    },
+    {
+     "q": "I have ___ been to Japan. I want to go one day.",
+     "options": [
+      "ever",
+      "never",
+      "yet"
+     ],
+     "answer": 1,
+     "why": "Not in my life: never."
+    },
+    {
+     "q": "Has the bus come ___?",
+     "options": [
+      "already",
+      "yet",
+      "just"
+     ],
+     "answer": 1,
+     "why": "At the end of a question: yet."
+    },
+    {
+     "q": "“Do your homework.” “I have ___ done it.”",
+     "options": [
+      "already",
+      "yet",
+      "ever"
+     ],
+     "answer": 0,
+     "why": "Sooner than you think: already."
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "Present perfect or past simple?",
+   "items": [
+    {
+     "q": "I ___ him yesterday.",
+     "options": [
+      "have seen",
+      "saw"
+     ],
+     "answer": 1,
+     "why": "Yesterday is a finished time: past simple."
+    },
+    {
+     "q": "I ___ my key. I can't open the door.",
+     "options": [
+      "have lost",
+      "lost"
+     ],
+     "answer": 0,
+     "why": "The result matters now: present perfect."
+    },
+    {
+     "q": "She ___ to Bagan in 2022.",
+     "options": [
+      "has gone",
+      "went"
+     ],
+     "answer": 1,
+     "why": "In 2022: a finished time."
+    },
+    {
+     "q": "___ you ever ___ durian?",
+     "options": [
+      "Did / eat",
+      "Have / eaten"
+     ],
+     "answer": 1,
+     "why": "Ever, in your life: present perfect."
+    },
+    {
+     "q": "We ___ here since Monday.",
+     "options": [
+      "have been",
+      "were"
+     ],
+     "answer": 0,
+     "why": "Since Monday, and still here: present perfect."
+    }
+   ]
+  }
+ ]
+}

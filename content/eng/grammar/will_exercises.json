@@ -1,0 +1,208 @@
+{
+ "title": "The future with will: exercises",
+ "subtitle": "27 sentences to complete",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "will",
+ "review": "Written by Claude in the format of the French tense pages. Check the examples and the level.",
+ "intro": "Write will + the verb in brackets. For negatives, write won't.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "title": "will + verb",
+   "items": [
+    {
+     "before": "I ",
+     "answer": "will call",
+     "after": " you tomorrow.  (call)"
+    },
+    {
+     "before": "She ",
+     "answer": "will be",
+     "after": " ten next year.  (be)"
+    },
+    {
+     "before": "I think it ",
+     "answer": "will rain",
+     "after": " tonight.  (rain)"
+    },
+    {
+     "before": "Don't worry. We ",
+     "answer": "will help",
+     "after": " you.  (help)"
+    },
+    {
+     "before": "One day he ",
+     "answer": "will be",
+     "after": " famous.  (be)"
+    },
+    {
+     "before": "I hope they ",
+     "answer": "will come",
+     "after": " to the party.  (come)"
+    },
+    {
+     "before": "Wait! I ",
+     "answer": "will open",
+     "after": " the door for you.  (open)"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "won't",
+   "items": [
+    {
+     "before": "I ",
+     "answer": "won't tell",
+     "after": " anyone. I promise.  (not / tell)"
+    },
+    {
+     "before": "She ",
+     "answer": "won't be",
+     "after": " late.  (not / be)"
+    },
+    {
+     "before": "They ",
+     "answer": "won't find",
+     "after": " us here.  (not / find)"
+    },
+    {
+     "before": "It ",
+     "answer": "won't take",
+     "after": " long.  (not / take)"
+    },
+    {
+     "before": "He ",
+     "answer": "won't eat",
+     "after": " vegetables.  (not / eat)"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "If and when",
+   "items": [
+    {
+     "before": "If it rains, we ",
+     "answer": "will stay",
+     "after": " at home.  (stay)"
+    },
+    {
+     "before": "If you ",
+     "answer": "study",
+     "after": ", you will pass the test.  (study)"
+    },
+    {
+     "before": "When I get home, I ",
+     "answer": "will have",
+     "after": " a shower.  (have)"
+    },
+    {
+     "before": "I will call you when I ",
+     "answer": "arrive",
+     "after": ".  (arrive)"
+    },
+    {
+     "before": "If she ",
+     "answer": "comes",
+     "after": ", I will be happy.  (come)"
+    },
+    {
+     "before": "If you are hungry, I ",
+     "answer": "will make",
+     "after": " some noodles.  (make)"
+    }
+   ],
+   "intro": "One verb is in the present simple, the other takes will. Write the missing one."
+  },
+  {
+   "kind": "choice",
+   "title": "Will or going to?",
+   "items": [
+    {
+     "q": "“I can't open this bottle.” “Give it to me. I ___ do it.”",
+     "options": [
+      "will",
+      "am going to"
+     ],
+     "answer": 0,
+     "why": "Decided now, an offer: will."
+    },
+    {
+     "q": "We bought the tickets last week. We ___ see the film tonight.",
+     "options": [
+      "will",
+      "are going to"
+     ],
+     "answer": 1,
+     "why": "A plan made before: going to."
+    },
+    {
+     "q": "Look at that boy on the wall! He ___ fall.",
+     "options": [
+      "will",
+      "is going to"
+     ],
+     "answer": 1,
+     "why": "You can see it coming: going to."
+    },
+    {
+     "q": "I promise I ___ be good.",
+     "options": [
+      "will",
+      "am going to"
+     ],
+     "answer": 0,
+     "why": "A promise: will."
+    },
+    {
+     "q": "I think she ___ like the present.",
+     "options": [
+      "will",
+      "is going to"
+     ],
+     "answer": 0,
+     "why": "After I think, an opinion: will."
+    },
+    {
+     "q": "___ you help me with this, please?",
+     "options": [
+      "Will",
+      "Are"
+     ],
+     "answer": 0,
+     "why": "A request: Will you…?"
+    },
+    {
+     "q": "She will ___ here soon.",
+     "options": [
+      "is",
+      "be",
+      "to be"
+     ],
+     "answer": 1,
+     "why": "After will, the base verb: be."
+    },
+    {
+     "q": "If he ___ late, we will start without him.",
+     "options": [
+      "will be",
+      "is"
+     ],
+     "answer": 1,
+     "why": "After if: the present simple."
+    },
+    {
+     "q": "“Tea or coffee?” “I ___ have tea, please.”",
+     "options": [
+      "will",
+      "am going to"
+     ],
+     "answer": 0,
+     "why": "Decided at this moment: will."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "title": "The present continuous",
+ "subtitle": "What is happening right now",
+ "level": "a1",
+ "topic": "Tenses",
+ "type": "grammar",
+ "order": 2,
+ "review": "Written by Claude in the format of the French tense pages. Check the examples and the level.",
+ "intro": "Use it for something that **is happening now**, or around now, and is **not finished**. You can also use it for a **plan with a time**: *I am meeting Su tomorrow.*",
+ "sections": [
+  {
+   "title": "When to use it",
+   "blocks": [
+    {
+     "label": "Right now",
+     "title": "It is happening at this moment",
+     "examples": [
+      {
+       "fr": "I **am reading** a book."
+      },
+      {
+       "fr": "Look! It **is raining**."
+      },
+      {
+       "fr": "The children **are playing** outside."
+      },
+      {
+       "fr": "Be quiet. The baby **is sleeping**."
+      },
+      {
+       "fr": "What **are** you **doing**?"
+      }
+     ]
+    },
+    {
+     "label": "Around now",
+     "title": "These days, this week, this year",
+     "examples": [
+      {
+       "fr": "I **am learning** English this year."
+      },
+      {
+       "fr": "She **is staying** with her aunt this week."
+      },
+      {
+       "fr": "We **are reading** a story about a tiger in class."
+      },
+      {
+       "fr": "My brother **is looking** for a job."
+      }
+     ]
+    },
+    {
+     "label": "Changes",
+     "title": "Things that are slowly changing",
+     "examples": [
+      {
+       "fr": "The days **are getting** longer."
+      },
+      {
+       "fr": "Your English **is getting** better."
+      },
+      {
+       "fr": "The baby **is growing** fast."
+      },
+      {
+       "fr": "Prices **are going** up."
+      }
+     ]
+    },
+    {
+     "label": "Plans",
+     "title": "A fixed plan, with a time",
+     "examples": [
+      {
+       "fr": "I **am meeting** Su at five."
+      },
+      {
+       "fr": "We **are visiting** our grandparents on Sunday."
+      },
+      {
+       "fr": "He **is flying** to Bangkok tomorrow."
+      },
+      {
+       "fr": "What **are** you **doing** this weekend?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How to make it",
+   "blocks": [
+    {
+     "title": "Pattern",
+     "formula": "**am / is / are** + verb + **-ing**",
+     "table": {
+      "head": [
+       "Subject",
+       "be",
+       "verb + -ing",
+       "Short form"
+      ],
+      "rows": [
+       [
+        "I",
+        "am",
+        "playing",
+        "I'm playing"
+       ],
+       [
+        "he / she / it",
+        "is",
+        "playing",
+        "she's playing"
+       ],
+       [
+        "you / we / they",
+        "are",
+        "playing",
+        "they're playing"
+       ]
+      ]
+     },
+     "note": "You need **both** parts: *She is playing*, not *She playing* and not *She is play*."
+    },
+    {
+     "title": "Spelling of -ing",
+     "points": [
+      "Most verbs: add **-ing**\n*play* → *playing*, *read* → *reading*, *go* → *going*.",
+      "Verb ends in **-e**: drop the e\n*make* → *making*, *write* → *writing*, *come* → *coming*.",
+      "Short verb, one vowel + one consonant: **double** the last letter\n*run* → *running*, *sit* → *sitting*, *swim* → *swimming*, *stop* → *stopping*.",
+      "Verb ends in **-ie**: change to **-ying**\n*lie* → *lying*, *die* → *dying*."
+     ]
+    },
+    {
+     "title": "Verbs that stay simple",
+     "text": "Some verbs are about **thinking and feeling**, not doing. They do not usually take -ing:\n**like, love, hate, want, need, know, understand, believe, remember, have** (= own).",
+     "examples": [
+      {
+       "fr": "I **know** the answer.",
+       "en": "Not: I am knowing the answer."
+      },
+      {
+       "fr": "She **wants** some water.",
+       "en": "Not: She is wanting some water."
+      },
+      {
+       "fr": "We **have** a dog.",
+       "en": "Not: We are having a dog."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Signal words",
+   "blocks": [
+    {
+     "text": "now, right now, at the moment, today, this week, this year, these days, Look!, Listen!, still …"
+    }
+   ]
+  },
+  {
+   "title": "Negative: am not / isn't / aren't",
+   "blocks": [
+    {
+     "formula": "am / is / are + **not** + verb-ing",
+     "examples": [
+      {
+       "fr": "I **am not watching** TV."
+      },
+      {
+       "fr": "He **isn't listening**."
+      },
+      {
+       "fr": "They **aren't playing** today."
+      },
+      {
+       "fr": "It **isn't raining** now."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Questions",
+   "blocks": [
+    {
+     "formula": "**Am / Is / Are** + subject + verb-ing ?",
+     "examples": [
+      {
+       "fr": "**Are** you **listening**?",
+       "en": "Yes, I am. / No, I'm not."
+      },
+      {
+       "fr": "**Is** she **coming** with us?"
+      },
+      {
+       "fr": "What **are** they **doing**?"
+      },
+      {
+       "fr": "Why **is** the baby **crying**?"
+      },
+      {
+       "fr": "Where **are** you **going**?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Present continuous or present simple?",
+   "blocks": [
+    {
+     "examples": [
+      {
+       "fr": "**Present continuous**: now, not finished. *She is cooking dinner.*",
+       "en": "She is in the kitchen at this moment."
+      },
+      {
+       "fr": "**Present simple**: every day, always. *She cooks dinner every evening.*",
+       "en": "That is her routine."
+      },
+      {
+       "fr": "**Together**: *I usually walk, but today I am taking the bus.*",
+       "en": "Usually = simple. Today = continuous."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

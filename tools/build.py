@@ -600,9 +600,8 @@ TIMELINE = """<section x-data="timeline" class="mt-6" @keydown.left.window="$eve
 <div class="absolute top-1/2 border-t-2 border-dashed border-muted/60" style="left:5%;width:15%"></div>
 <div class="absolute top-1/2 -mt-px h-0.5 bg-ink" style="left:20%;right:4%"></div>
 <div class="absolute w-0.5 bg-ink/70" style="left:55%;top:calc(50% - 12px);height:24px"></div>
-<div class="absolute border-l-2 border-dashed border-muted/60" style="left:80%;top:calc(50% - 30px);height:30px"></div>
-<div class="absolute border-l-2 border-dashed border-muted/60" style="left:55%;top:calc(50% + 44px);height:28px"></div>
-<button class="absolute h-2 rounded-full transition-colors" :class="cur.key === 'imparfait' ? 'bg-accent' : 'bg-accent/25 hover:bg-accent/50'" style="left:20%;width:35%;top:calc(50% - 41px)" @click="pick('imparfait')" aria-label="imparfait" tabindex="-1"></button>
+<template x-for="t in tenses.filter((t) => t.stem)" :key="'s' + t.key"><div class="absolute border-l-2 border-dashed border-muted/60" :style="stem(t)"></div></template>
+<template x-for="t in tenses.filter((t) => t.span)" :key="'b' + t.key"><button class="absolute h-2 rounded-full transition-colors" :class="cur.key === t.key ? 'bg-accent' : 'bg-accent/25 hover:bg-accent/50'" :style="span(t)" @click="pick(t.key)" :aria-label="t.name" tabindex="-1"></button></template>
 <template x-for="(t, k) in tenses" :key="t.key"><button class="absolute z-10 grid h-9 w-9 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full" :style="pos(t)" @click="i = k" :aria-label="t.name" :aria-current="k === i">
 <span class="block h-4 w-4 rounded-full border-2 border-accent transition-transform" :class="[t.mood ? 'bg-card' : 'bg-accent', k === i && 'scale-125']"></span></button></template>
 <template x-for="(t, k) in tenses" :key="'l' + t.key"><button class="absolute hidden -translate-x-1/2 whitespace-nowrap rounded-lg px-1.5 text-sm font-bold transition-colors sm:block lg:text-base" :class="k === i ? 'text-accent' : 'text-muted hover:text-ink'" :style="label(t)" @click="i = k" lang="__LANG__" x-text="t.name" tabindex="-1"></button></template>

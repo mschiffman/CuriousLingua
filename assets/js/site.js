@@ -388,6 +388,9 @@
       go(d) { this.i = Math.min(this.tenses.length - 1, Math.max(0, this.i + d)); },
       pos(t) { return "left:" + (t.x || 0) + "%;top:calc(50% + " + (t.dy || 0) + "px)"; },
       label(t) { return "left:" + (t.x || 0) + "%;top:calc(50% + " + ((t.dy || 0) + (t.up ? -50 : 20)) + "px)"; },
+      /* "span": [from, to] (percent): a tense that lasts gets a bar through its point. "stem": [from, to] (pixels from the line): a dashed line to a point that sits off the line */
+      span(t) { return "left:" + t.span[0] + "%;width:" + (t.span[1] - t.span[0]) + "%;top:calc(50% + " + ((t.dy || 0) - 4) + "px)"; },
+      stem(t) { return "left:" + (t.x || 0) + "%;top:calc(50% + " + t.stem[0] + "px);height:" + (t.stem[1] - t.stem[0]) + "px"; },
       fmt(s) {
         const esc = String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
         return esc.replace(/\*\*(.+?)\*\*/g, '<b class="font-bold text-accent">$1</b>');
