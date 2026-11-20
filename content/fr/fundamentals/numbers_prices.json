@@ -1,0 +1,150 @@
+{
+ "title": "Les prix",
+ "subtitle": "Prices: asking and saying how much",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.5,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "groups": [
+  {
+   "title": "Demander le prix",
+   "sub": "Asking the price",
+   "words": [
+    {
+     "fr": "C’est combien ?",
+     "en": "How much is it?"
+    },
+    {
+     "fr": "Ça coûte combien ?",
+     "en": "How much does it cost?"
+    },
+    {
+     "fr": "Ça fait combien ?",
+     "en": "How much does that come to?"
+    },
+    {
+     "fr": "Combien coûte ce pull ?",
+     "en": "How much is this jumper?"
+    },
+    {
+     "fr": "L’addition, s’il vous plaît.",
+     "en": "The bill, please."
+    }
+   ]
+  },
+  {
+   "title": "Dire le prix",
+   "sub": "Saying the price",
+   "notes": [
+    "You say the euros, then the cents, without “et”: deux euros cinquante. Listen for the liaison: deux‿euros, dix‿euros."
+   ],
+   "words": [
+    {
+     "fr": "un euro",
+     "g": "m",
+     "ipa": "/œ̃n‿øʀo/",
+     "en": "one euro"
+    },
+    {
+     "fr": "deux euros",
+     "ipa": "/døz‿øʀo/",
+     "en": "two euros"
+    },
+    {
+     "fr": "un centime",
+     "g": "m",
+     "ipa": "/sɑ̃tim/",
+     "en": "one cent"
+    },
+    {
+     "fr": "cinquante centimes",
+     "en": "fifty cents"
+    },
+    {
+     "fr": "deux euros cinquante",
+     "en": "€2.50"
+    },
+    {
+     "fr": "neuf euros quatre-vingt-dix-neuf",
+     "en": "€9.99"
+    },
+    {
+     "fr": "C’est dix euros.",
+     "en": "It’s ten euros."
+    },
+    {
+     "fr": "Ça fait douze euros cinquante.",
+     "en": "That comes to €12.50."
+    },
+    {
+     "fr": "C’est gratuit.",
+     "en": "It’s free."
+    }
+   ]
+  },
+  {
+   "title": "Cher ou pas cher ?",
+   "sub": "Expensive or not?",
+   "words": [
+    {
+     "fr": "C’est cher.",
+     "en": "It’s expensive."
+    },
+    {
+     "fr": "C’est trop cher.",
+     "en": "It’s too expensive."
+    },
+    {
+     "fr": "Ce n’est pas cher.",
+     "en": "It’s not expensive."
+    },
+    {
+     "fr": "C’est bon marché.",
+     "en": "It’s cheap."
+    }
+   ]
+  },
+  {
+   "title": "Payer",
+   "sub": "Paying",
+   "words": [
+    {
+     "fr": "Je voudrais payer, s’il vous plaît.",
+     "en": "I’d like to pay, please."
+    },
+    {
+     "fr": "par carte",
+     "en": "by card"
+    },
+    {
+     "fr": "en espèces",
+     "en": "in cash"
+    },
+    {
+     "fr": "un billet",
+     "g": "m",
+     "ipa": "/bijɛ/",
+     "en": "a banknote"
+    },
+    {
+     "fr": "une pièce",
+     "g": "f",
+     "ipa": "/pjɛs/",
+     "en": "a coin"
+    },
+    {
+     "fr": "la monnaie",
+     "g": "f",
+     "ipa": "/mɔnɛ/",
+     "en": "change"
+    },
+    {
+     "fr": "Vous avez la monnaie ?",
+     "en": "Do you have change?"
+    }
+   ]
+  }
+ ]
+}

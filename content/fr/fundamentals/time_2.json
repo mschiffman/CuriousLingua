@@ -351,6 +351,74 @@
      "audio": "66-tout à l'heure.m4a"
     }
    ]
+  },
+  {
+   "title": "L’heure : nuances",
+   "sub": "The time, with nuance",
+   "words": [
+    {
+     "fr": "Il est déjà dix heures.",
+     "en": "It’s already ten o’clock."
+    },
+    {
+     "fr": "Il n’est que sept heures.",
+     "en": "It’s only seven o’clock."
+    },
+    {
+     "fr": "Il n’est même pas huit heures.",
+     "en": "It’s not even eight o’clock."
+    },
+    {
+     "fr": "Il n’est même pas encore huit heures.",
+     "en": "It’s not even eight o’clock yet."
+    },
+    {
+     "fr": "dix-sept heures trois quarts",
+     "en": "17:45"
+    },
+    {
+     "fr": "Je suis arrivé avant trois heures.",
+     "en": "I got there before three o’clock."
+    },
+    {
+     "fr": "Il est temps.",
+     "en": "It’s about time."
+    },
+    {
+     "fr": "Depuis quand ?",
+     "en": "Since when?"
+    }
+   ]
+  },
+  {
+   "title": "Horaires d’ouverture",
+   "sub": "Opening hours",
+   "words": [
+    {
+     "fr": "Quelles sont vos heures d’ouverture ?",
+     "en": "What are your opening hours?"
+    },
+    {
+     "fr": "À quelle heure ouvre Costco ?",
+     "en": "What time does Costco open?"
+    },
+    {
+     "fr": "À quelle heure ferme Costco ?",
+     "en": "What time does Costco close?"
+    },
+    {
+     "fr": "À quelle heure ouvrent-ils ?",
+     "en": "What time do they open?"
+    },
+    {
+     "fr": "À quelle heure ils ferment ?",
+     "en": "What time do they close?"
+    },
+    {
+     "fr": "Ils n’ouvriront pas avant dix heures.",
+     "en": "They won’t open until ten o’clock."
+    }
+   ]
   }
  ]
 }

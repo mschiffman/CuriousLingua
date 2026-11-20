@@ -1,0 +1,151 @@
+{
+ "title": "Les nombres de 21 à 69",
+ "subtitle": "Numbers from 21 to 69",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.2,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "groups": [
+  {
+   "title": "Les dizaines",
+   "sub": "The tens",
+   "words": [
+    {
+     "fr": "vingt",
+     "ipa": "/vɛ̃/",
+     "en": "twenty"
+    },
+    {
+     "fr": "trente",
+     "ipa": "/tʀɑ̃t/",
+     "en": "thirty"
+    },
+    {
+     "fr": "quarante",
+     "ipa": "/kaʀɑ̃t/",
+     "en": "forty"
+    },
+    {
+     "fr": "cinquante",
+     "ipa": "/sɛ̃kɑ̃t/",
+     "en": "fifty"
+    },
+    {
+     "fr": "soixante",
+     "ipa": "/swasɑ̃t/",
+     "en": "sixty"
+    }
+   ]
+  },
+  {
+   "title": "… et un",
+   "sub": "21, 31, 41, 51, 61",
+   "notes": [
+    "Only the numbers ending in 1 take “et”. All the others are joined with a hyphen: vingt-deux."
+   ],
+   "words": [
+    {
+     "fr": "vingt et un",
+     "en": "twenty-one"
+    },
+    {
+     "fr": "trente et un",
+     "en": "thirty-one"
+    },
+    {
+     "fr": "quarante et un",
+     "en": "forty-one"
+    },
+    {
+     "fr": "cinquante et un",
+     "en": "fifty-one"
+    },
+    {
+     "fr": "soixante et un",
+     "en": "sixty-one"
+    }
+   ]
+  },
+  {
+   "title": "De vingt-deux à vingt-neuf",
+   "sub": "22 to 29",
+   "notes": [
+    "The t of vingt is heard from 21 to 29: /vɛ̃t/."
+   ],
+   "words": [
+    {
+     "fr": "vingt-deux",
+     "en": "twenty-two"
+    },
+    {
+     "fr": "vingt-trois",
+     "en": "twenty-three"
+    },
+    {
+     "fr": "vingt-quatre",
+     "en": "twenty-four"
+    },
+    {
+     "fr": "vingt-cinq",
+     "en": "twenty-five"
+    },
+    {
+     "fr": "vingt-six",
+     "en": "twenty-six"
+    },
+    {
+     "fr": "vingt-sept",
+     "en": "twenty-seven"
+    },
+    {
+     "fr": "vingt-huit",
+     "en": "twenty-eight"
+    },
+    {
+     "fr": "vingt-neuf",
+     "en": "twenty-nine"
+    }
+   ]
+  },
+  {
+   "title": "Et après",
+   "sub": "The same pattern, up to 69",
+   "words": [
+    {
+     "fr": "trente-deux",
+     "en": "thirty-two"
+    },
+    {
+     "fr": "trente-six",
+     "en": "thirty-six"
+    },
+    {
+     "fr": "quarante-trois",
+     "en": "forty-three"
+    },
+    {
+     "fr": "quarante-huit",
+     "en": "forty-eight"
+    },
+    {
+     "fr": "cinquante-quatre",
+     "en": "fifty-four"
+    },
+    {
+     "fr": "cinquante-sept",
+     "en": "fifty-seven"
+    },
+    {
+     "fr": "soixante-cinq",
+     "en": "sixty-five"
+    },
+    {
+     "fr": "soixante-neuf",
+     "en": "sixty-nine"
+    }
+   ]
+  }
+ ]
+}

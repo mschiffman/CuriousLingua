@@ -1,175 +1,150 @@
 {
- "title": "Alphabet français",
- "subtitle": "The French alphabet",
+ "title": "L’alphabet",
+ "subtitle": "The 26 letters",
  "level": "a1",
- "level_provisional": true,
  "topic": "Alphabet",
  "order": 10,
  "type": "words",
- "legacy": "fr/fundamental/alphabet/index.html",
- "review": "Imported from the old fundamentals pages with their recordings. The level is a guess.",
- "glossary_dir": "lessons/fundamental/alphabet/",
- "title_audio": "01-alphabet français.m4a",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/alphabet/",
  "listen_pick": "fr",
  "groups": [
   {
-   "title": "",
+   "title": "Les lettres",
+   "sub": "The letters",
+   "notes": [
+    "The vowels are A, E, I, O, U and Y. Listen for G /ʒe/ and J /ʒi/: they are the other way round from English."
+   ],
    "words": [
     {
      "fr": "A",
-     "en": "",
-     "audio": "02-a.m4a",
-     "ipa": "/a/"
+     "ipa": "/a/",
+     "en": ""
     },
     {
      "fr": "B",
-     "en": "",
-     "audio": "03-b.m4a",
-     "ipa": "/be/"
+     "ipa": "/be/",
+     "en": ""
     },
     {
      "fr": "C",
-     "en": "",
-     "audio": "04-c.m4a",
-     "ipa": "/se/"
+     "ipa": "/se/",
+     "en": ""
     },
     {
      "fr": "D",
-     "en": "",
-     "audio": "05-d.m4a",
-     "ipa": "/de/"
+     "ipa": "/de/",
+     "en": ""
     },
     {
      "fr": "E",
-     "en": "",
-     "audio": "06-e.m4a",
-     "ipa": "/ə/"
+     "ipa": "/ə/",
+     "en": ""
     },
     {
      "fr": "F",
-     "en": "",
-     "audio": "07-f.m4a",
-     "ipa": "/ɛf/"
+     "ipa": "/ɛf/",
+     "en": ""
     },
     {
      "fr": "G",
-     "en": "",
-     "audio": "08-g.m4a",
-     "ipa": "/ʒe/"
+     "ipa": "/ʒe/",
+     "en": ""
     },
     {
      "fr": "H",
-     "en": "",
-     "audio": "09-h.m4a",
-     "ipa": "/aʃ/"
+     "ipa": "/aʃ/",
+     "en": ""
     },
     {
      "fr": "I",
-     "en": "",
-     "audio": "10-i.m4a",
-     "ipa": "/i/"
+     "ipa": "/i/",
+     "en": ""
     },
     {
      "fr": "J",
-     "en": "",
-     "audio": "11-j.m4a",
-     "ipa": "/ʒi/"
+     "ipa": "/ʒi/",
+     "en": ""
     },
     {
      "fr": "K",
-     "en": "",
-     "audio": "12-k.m4a",
-     "ipa": "/kɑ/"
+     "ipa": "/kɑ/",
+     "en": ""
     },
     {
      "fr": "L",
-     "en": "",
-     "audio": "13-l.m4a",
-     "ipa": "/ɛl/"
+     "ipa": "/ɛl/",
+     "en": ""
     },
     {
      "fr": "M",
-     "en": "",
-     "audio": "14-m.m4a",
-     "ipa": "/ɛm/"
+     "ipa": "/ɛm/",
+     "en": ""
     },
     {
      "fr": "N",
-     "en": "",
-     "audio": "15-n.m4a",
-     "ipa": "/ɛn/"
+     "ipa": "/ɛn/",
+     "en": ""
     },
     {
      "fr": "O",
-     "en": "",
-     "audio": "16-o.m4a",
-     "ipa": "/o/"
+     "ipa": "/o/",
+     "en": ""
     },
     {
      "fr": "P",
-     "en": "",
-     "audio": "17-p.m4a",
-     "ipa": "/pe/"
+     "ipa": "/pe/",
+     "en": ""
     },
     {
      "fr": "Q",
-     "en": "",
-     "audio": "18-q.m4a",
-     "ipa": "/ky/"
+     "ipa": "/ky/",
+     "en": ""
     },
     {
      "fr": "R",
-     "en": "",
-     "audio": "19-r.m4a",
-     "ipa": "/ɛʀ/"
+     "ipa": "/ɛʀ/",
+     "en": ""
     },
     {
      "fr": "S",
-     "en": "",
-     "audio": "20-s.m4a",
-     "ipa": "/ɛs/"
+     "ipa": "/ɛs/",
+     "en": ""
     },
     {
      "fr": "T",
-     "en": "",
-     "audio": "21-t.m4a",
-     "ipa": "/te/"
+     "ipa": "/te/",
+     "en": ""
     },
     {
      "fr": "U",
-     "en": "",
-     "audio": "22-u.m4a",
-     "ipa": "/y/"
+     "ipa": "/y/",
+     "en": ""
     },
     {
      "fr": "V",
-     "en": "",
-     "audio": "23-v.m4a",
-     "ipa": "/ve/"
+     "ipa": "/ve/",
+     "en": ""
     },
     {
      "fr": "W",
-     "en": "",
-     "audio": "24-w.m4a",
-     "ipa": "/dubləve/"
+     "ipa": "/dubləve/",
+     "en": ""
     },
     {
      "fr": "X",
-     "en": "",
-     "audio": "25-x.m4a",
-     "ipa": "/iks/"
+     "ipa": "/iks/",
+     "en": ""
     },
     {
      "fr": "Y",
-     "en": "",
-     "audio": "26-y.m4a",
-     "ipa": "/igʀɛk/"
+     "ipa": "/igʀɛk/",
+     "en": ""
     },
     {
      "fr": "Z",
-     "en": "",
-     "audio": "27-z.m4a",
-     "ipa": "/zɛd/"
+     "ipa": "/zɛd/",
+     "en": ""
     }
    ]
   }

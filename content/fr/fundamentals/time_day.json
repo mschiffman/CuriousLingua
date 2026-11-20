@@ -1,0 +1,124 @@
+{
+ "title": "Les moments de la journée",
+ "subtitle": "The parts of the day",
+ "level": "a1",
+ "topic": "Time",
+ "order": 40.1,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/time/",
+ "groups": [
+  {
+   "title": "Le temps qui passe",
+   "sub": "Units of time",
+   "words": [
+    {
+     "fr": "la seconde",
+     "g": "f",
+     "ipa": "/s(ə)ɡɔ̃d/",
+     "en": "second"
+    },
+    {
+     "fr": "la minute",
+     "g": "f",
+     "ipa": "/minyt/",
+     "en": "minute"
+    },
+    {
+     "fr": "l’heure",
+     "g": "f",
+     "ipa": "/œʀ/",
+     "en": "hour"
+    }
+   ]
+  },
+  {
+   "title": "La journée",
+   "sub": "Through the day",
+   "words": [
+    {
+     "fr": "le matin",
+     "g": "m",
+     "ipa": "/matɛ̃/",
+     "en": "morning"
+    },
+    {
+     "fr": "midi",
+     "ipa": "/midi/",
+     "en": "noon"
+    },
+    {
+     "fr": "l’après-midi",
+     "g": "m",
+     "ipa": "/apʀɛmidi/",
+     "en": "afternoon"
+    },
+    {
+     "fr": "le soir",
+     "g": "m",
+     "ipa": "/swaʀ/",
+     "en": "evening"
+    },
+    {
+     "fr": "la nuit",
+     "g": "f",
+     "ipa": "/nɥi/",
+     "en": "night"
+    },
+    {
+     "fr": "minuit",
+     "ipa": "/minɥi/",
+     "en": "midnight"
+    }
+   ]
+  },
+  {
+   "title": "Aujourd’hui",
+   "sub": "Today",
+   "notes": [
+    "Le matin, le soir also mean “in the morning”, “in the evening”: Je travaille le matin."
+   ],
+   "words": [
+    {
+     "fr": "ce matin",
+     "en": "this morning"
+    },
+    {
+     "fr": "cet après-midi",
+     "en": "this afternoon"
+    },
+    {
+     "fr": "ce soir",
+     "en": "this evening, tonight"
+    },
+    {
+     "fr": "cette nuit",
+     "en": "tonight (during the night)"
+    },
+    {
+     "fr": "maintenant",
+     "ipa": "/mɛ̃t(ə)nɑ̃/",
+     "en": "now"
+    },
+    {
+     "fr": "tôt",
+     "ipa": "/to/",
+     "en": "early"
+    },
+    {
+     "fr": "tard",
+     "ipa": "/taʀ/",
+     "en": "late"
+    },
+    {
+     "fr": "Il est tard.",
+     "en": "It’s late."
+    },
+    {
+     "fr": "Il est encore tôt.",
+     "en": "It’s still early."
+    }
+   ]
+  }
+ ]
+}

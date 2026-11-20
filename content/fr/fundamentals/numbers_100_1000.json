@@ -1,0 +1,104 @@
+{
+ "title": "Les nombres de 100 à 1 000",
+ "subtitle": "Numbers from 100 to 1,000",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.4,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "groups": [
+  {
+   "title": "Les centaines",
+   "sub": "The hundreds",
+   "notes": [
+    "You say cent and mille, never “un cent” or “un mille”."
+   ],
+   "words": [
+    {
+     "fr": "cent",
+     "ipa": "/sɑ̃/",
+     "en": "one hundred"
+    },
+    {
+     "fr": "deux cents",
+     "en": "two hundred"
+    },
+    {
+     "fr": "trois cents",
+     "en": "three hundred"
+    },
+    {
+     "fr": "quatre cents",
+     "en": "four hundred"
+    },
+    {
+     "fr": "cinq cents",
+     "en": "five hundred"
+    },
+    {
+     "fr": "six cents",
+     "en": "six hundred"
+    },
+    {
+     "fr": "sept cents",
+     "en": "seven hundred"
+    },
+    {
+     "fr": "huit cents",
+     "en": "eight hundred"
+    },
+    {
+     "fr": "neuf cents",
+     "en": "nine hundred"
+    },
+    {
+     "fr": "mille",
+     "ipa": "/mil/",
+     "en": "one thousand"
+    }
+   ]
+  },
+  {
+   "title": "Entre les centaines",
+   "sub": "In between",
+   "notes": [
+    "Cents loses its s when another number follows: deux cents, but deux cent cinquante."
+   ],
+   "words": [
+    {
+     "fr": "cent un",
+     "en": "101"
+    },
+    {
+     "fr": "cent dix",
+     "en": "110"
+    },
+    {
+     "fr": "cent vingt-cinq",
+     "en": "125"
+    },
+    {
+     "fr": "deux cent cinquante",
+     "en": "250"
+    },
+    {
+     "fr": "trois cent soixante-cinq",
+     "en": "365"
+    },
+    {
+     "fr": "cinq cent quatre-vingts",
+     "en": "580"
+    },
+    {
+     "fr": "sept cent soixante-dix",
+     "en": "770"
+    },
+    {
+     "fr": "neuf cent quatre-vingt-dix-neuf",
+     "en": "999"
+    }
+   ]
+  }
+ ]
+}

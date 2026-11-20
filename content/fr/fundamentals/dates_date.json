@@ -1,0 +1,104 @@
+{
+ "title": "Dire la date",
+ "subtitle": "Saying the date, and birthdays",
+ "level": "a1",
+ "topic": "Dates",
+ "order": 30.3,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/dates/",
+ "groups": [
+  {
+   "title": "Quelle est la date ?",
+   "sub": "Asking and saying the date",
+   "notes": [
+    "The order is le + number + month. Only the first of the month is premier; after that, use the ordinary numbers."
+   ],
+   "words": [
+    {
+     "fr": "Quelle est la date aujourd’hui ?",
+     "en": "What’s the date today?"
+    },
+    {
+     "fr": "On est le combien ?",
+     "en": "What’s the date? (informal)"
+    },
+    {
+     "fr": "C’est le premier mai.",
+     "en": "It’s the first of May."
+    },
+    {
+     "fr": "On est le deux mai.",
+     "en": "It’s the second of May."
+    },
+    {
+     "fr": "le quatorze juillet",
+     "en": "14 July"
+    },
+    {
+     "fr": "le jeudi vingt et un décembre",
+     "en": "Thursday 21 December"
+    },
+    {
+     "fr": "le vingt et un décembre deux mille vingt-trois",
+     "en": "21 December 2023"
+    }
+   ]
+  },
+  {
+   "title": "Les années",
+   "sub": "Years",
+   "words": [
+    {
+     "fr": "en deux mille",
+     "en": "in 2000"
+    },
+    {
+     "fr": "en deux mille dix",
+     "en": "in 2010"
+    },
+    {
+     "fr": "en deux mille vingt-cinq",
+     "en": "in 2025"
+    },
+    {
+     "fr": "en mille neuf cent quatre-vingt-dix",
+     "en": "in 1990"
+    }
+   ]
+  },
+  {
+   "title": "L’anniversaire",
+   "sub": "Birthdays",
+   "notes": [
+    "Age takes avoir, not être: J’ai trente ans."
+   ],
+   "words": [
+    {
+     "fr": "C’est quand, ton anniversaire ?",
+     "en": "When is your birthday?"
+    },
+    {
+     "fr": "Mon anniversaire, c’est le trois mars.",
+     "en": "My birthday is on 3 March."
+    },
+    {
+     "fr": "C’est aujourd’hui !",
+     "en": "It’s today!"
+    },
+    {
+     "fr": "Bon anniversaire !",
+     "en": "Happy birthday!"
+    },
+    {
+     "fr": "Tu as quel âge ?",
+     "en": "How old are you?"
+    },
+    {
+     "fr": "J’ai trente ans.",
+     "en": "I’m thirty."
+    }
+   ]
+  }
+ ]
+}

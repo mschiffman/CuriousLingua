@@ -290,6 +290,147 @@
      "audio": "53-J'en veux pas.m4a"
     }
    ]
+  },
+  {
+   "title": "Grands nombres",
+   "sub": "Large numbers",
+   "words": [
+    {
+     "fr": "cent mille",
+     "en": "one hundred thousand"
+    },
+    {
+     "fr": "deux cent mille",
+     "en": "two hundred thousand"
+    },
+    {
+     "fr": "un millier",
+     "g": "m",
+     "ipa": "/milje/",
+     "en": "about a thousand"
+    },
+    {
+     "fr": "des milliers de personnes",
+     "en": "thousands of people"
+    },
+    {
+     "fr": "des dizaines de milliers de personnes",
+     "en": "tens of thousands of people"
+    },
+    {
+     "fr": "des centaines de milliers de personnes",
+     "en": "hundreds of thousands of people"
+    },
+    {
+     "fr": "un million",
+     "g": "m",
+     "ipa": "/miljɔ̃/",
+     "en": "a million"
+    },
+    {
+     "fr": "un milliard",
+     "g": "m",
+     "ipa": "/miljaʀ/",
+     "en": "a billion"
+    }
+   ]
+  },
+  {
+   "title": "Ordinaux après dix",
+   "sub": "Ordinals after tenth",
+   "notes": [
+    "Tip: To form ordinal numbers beyond ten, you generally add \"-ième\" to the cardinal number."
+   ],
+   "words": [
+    {
+     "fr": "onzième",
+     "en": "eleventh"
+    },
+    {
+     "fr": "douzième",
+     "en": "twelfth"
+    },
+    {
+     "fr": "treizième",
+     "en": "thirteenth"
+    },
+    {
+     "fr": "vingtième",
+     "en": "twentieth"
+    },
+    {
+     "fr": "vingt et unième",
+     "en": "twenty-first"
+    }
+   ]
+  },
+  {
+   "title": "Approximations",
+   "sub": "About, roughly",
+   "notes": [
+    "Tip: To talk about approximate numbers, you can use \"environ\" or \"à peu près\" for small numbers.",
+    "Tip: To talk about approximate numbers which are larger, you can use the suffix \"-aine\""
+   ],
+   "words": [
+    {
+     "fr": "environ un",
+     "en": "about one"
+    },
+    {
+     "fr": "à peu près un",
+     "en": "about one"
+    },
+    {
+     "fr": "environ deux",
+     "en": "about two"
+    },
+    {
+     "fr": "à peu près deux",
+     "en": "about two"
+    },
+    {
+     "fr": "une douzaine",
+     "g": "f",
+     "ipa": "/duzɛn/",
+     "en": "about twelve, a dozen"
+    },
+    {
+     "fr": "une vingtaine",
+     "g": "f",
+     "ipa": "/vɛ̃tɛn/",
+     "en": "about twenty"
+    },
+    {
+     "fr": "une trentaine",
+     "g": "f",
+     "ipa": "/tʀɑ̃tɛn/",
+     "en": "about thirty"
+    },
+    {
+     "fr": "une quarantaine",
+     "g": "f",
+     "ipa": "/kaʀɑ̃tɛn/",
+     "en": "about forty"
+    },
+    {
+     "fr": "une cinquantaine",
+     "g": "f",
+     "ipa": "/sɛ̃kɑ̃tɛn/",
+     "en": "about fifty"
+    },
+    {
+     "fr": "une soixantaine",
+     "g": "f",
+     "ipa": "/swasɑ̃tɛn/",
+     "en": "about sixty"
+    },
+    {
+     "fr": "une centaine",
+     "g": "f",
+     "ipa": "/sɑ̃tɛn/",
+     "en": "about one hundred"
+    }
+   ]
   }
  ]
 }

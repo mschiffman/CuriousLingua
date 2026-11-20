@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alphabet français | French</title>
+<title>L’alphabet | French</title>
 <link rel="icon" href="../../assets/img/favicon.svg">
 <link rel="stylesheet" href="../../assets/css/site.css?v=36815b8b">
 <script>(function(d){var c=navigator.connection;if(matchMedia("(prefers-reduced-motion: reduce)").matches||(c&&(c.saveData||/2g|3g/.test(c.effectiveType||"")))){d.classList.add("lite");return}d.classList.add("motion");setTimeout(function(){if(!window.__motion)d.classList.remove("motion")},3000)})(document.documentElement)</script>
@@ -52,8 +52,8 @@
 <nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../fr/index.html">French</a><span>/</span><a class="hover:text-accent" href="../../fr/fundamentals/index.html">Fundamentals</a></nav>
 
 <div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip chip-accent">A1</span><span class="chip">Alphabet</span></div>
-<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Alphabet français</h1>
-<p class="mt-2 text-xl text-muted" data-reveal>The French alphabet</p>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>L’alphabet</h1>
+<p class="mt-2 text-xl text-muted" data-reveal>The 26 letters</p>
 
 
 <section x-data="words" class="mt-6">
@@ -62,7 +62,7 @@
 <button class="btn" x-show="!quiz" :class="hideEn && 'btn-on'" @click="hideEn = !hideEn" x-text="hideEn ? 'Show English' : 'Hide English'"></button>
 <button class="btn" x-show="!quiz" :class="hideFr && 'btn-on'" @click="hideFr = !hideFr" x-text="hideFr ? 'Show the words' : 'Hide the words'"></button>
 <button class="btn" x-show="pool().length > 3" :class="quiz && 'btn-on'" @click="quiz ? stopQuiz() : startQuiz()" x-text="quiz ? 'Back to the list' : 'Quiz'"></button>
-<span class="text-sm text-muted" x-show="!quiz">Tap a word to hear it.</span>
+<span class="text-sm text-muted" x-show="!quiz">The audio for this lesson is not recorded yet.</span>
 </div>
 
 <div x-show="quiz" x-cloak class="mt-4 rounded-2xl border border-line bg-card p-4">
@@ -102,12 +102,12 @@
 
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/fundamentals/alphabet')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
-<div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../fr/fundamentals/numbers_1.html">Numéros &rarr;</a></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../fr/fundamentals/alphabet_accents.html">Les accents et épeler &rarr;</a></div>
 </main>
 <footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
 <span class="font-display text-base font-semibold text-ink">Languages</span>
 <span>Free for everyone. No account, no paywall.</span></div></footer>
-<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"Alphabet français","subtitle":"The French alphabet","level":"a1","level_provisional":true,"topic":"Alphabet","order":10,"type":"words","review":"Imported from the old fundamentals pages with their recordings. The level is a guess.","glossary_dir":"lessons/fundamental/alphabet/","title_audio":"01-alphabet français.m4a","listen_pick":"fr","groups":[{"title":"","words":[{"fr":"A","en":"","audio":"02-a.m4a","ipa":"/a/","n":1},{"fr":"B","en":"","audio":"03-b.m4a","ipa":"/be/","n":2},{"fr":"C","en":"","audio":"04-c.m4a","ipa":"/se/","n":3},{"fr":"D","en":"","audio":"05-d.m4a","ipa":"/de/","n":4},{"fr":"E","en":"","audio":"06-e.m4a","ipa":"/ə/","n":5},{"fr":"F","en":"","audio":"07-f.m4a","ipa":"/ɛf/","n":6},{"fr":"G","en":"","audio":"08-g.m4a","ipa":"/ʒe/","n":7},{"fr":"H","en":"","audio":"09-h.m4a","ipa":"/aʃ/","n":8},{"fr":"I","en":"","audio":"10-i.m4a","ipa":"/i/","n":9},{"fr":"J","en":"","audio":"11-j.m4a","ipa":"/ʒi/","n":10},{"fr":"K","en":"","audio":"12-k.m4a","ipa":"/kɑ/","n":11},{"fr":"L","en":"","audio":"13-l.m4a","ipa":"/ɛl/","n":12},{"fr":"M","en":"","audio":"14-m.m4a","ipa":"/ɛm/","n":13},{"fr":"N","en":"","audio":"15-n.m4a","ipa":"/ɛn/","n":14},{"fr":"O","en":"","audio":"16-o.m4a","ipa":"/o/","n":15},{"fr":"P","en":"","audio":"17-p.m4a","ipa":"/pe/","n":16},{"fr":"Q","en":"","audio":"18-q.m4a","ipa":"/ky/","n":17},{"fr":"R","en":"","audio":"19-r.m4a","ipa":"/ɛʀ/","n":18},{"fr":"S","en":"","audio":"20-s.m4a","ipa":"/ɛs/","n":19},{"fr":"T","en":"","audio":"21-t.m4a","ipa":"/te/","n":20},{"fr":"U","en":"","audio":"22-u.m4a","ipa":"/y/","n":21},{"fr":"V","en":"","audio":"23-v.m4a","ipa":"/ve/","n":22},{"fr":"W","en":"","audio":"24-w.m4a","ipa":"/dubləve/","n":23},{"fr":"X","en":"","audio":"25-x.m4a","ipa":"/iks/","n":24},{"fr":"Y","en":"","audio":"26-y.m4a","ipa":"/igʀɛk/","n":25},{"fr":"Z","en":"","audio":"27-z.m4a","ipa":"/zɛd/","n":26}]}],"course":"fr","strand":"fundamentals","slug":"alphabet"};</script>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"L’alphabet","subtitle":"The 26 letters","level":"a1","topic":"Alphabet","order":10,"type":"words","review":"Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.","glossary_dir":"lessons/fundamental/a1/alphabet/","listen_pick":"fr","groups":[{"title":"Les lettres","sub":"The letters","notes":["The vowels are A, E, I, O, U and Y. Listen for G /ʒe/ and J /ʒi/: they are the other way round from English."],"words":[{"fr":"A","ipa":"/a/","en":"","n":1},{"fr":"B","ipa":"/be/","en":"","n":2},{"fr":"C","ipa":"/se/","en":"","n":3},{"fr":"D","ipa":"/de/","en":"","n":4},{"fr":"E","ipa":"/ə/","en":"","n":5},{"fr":"F","ipa":"/ɛf/","en":"","n":6},{"fr":"G","ipa":"/ʒe/","en":"","n":7},{"fr":"H","ipa":"/aʃ/","en":"","n":8},{"fr":"I","ipa":"/i/","en":"","n":9},{"fr":"J","ipa":"/ʒi/","en":"","n":10},{"fr":"K","ipa":"/kɑ/","en":"","n":11},{"fr":"L","ipa":"/ɛl/","en":"","n":12},{"fr":"M","ipa":"/ɛm/","en":"","n":13},{"fr":"N","ipa":"/ɛn/","en":"","n":14},{"fr":"O","ipa":"/o/","en":"","n":15},{"fr":"P","ipa":"/pe/","en":"","n":16},{"fr":"Q","ipa":"/ky/","en":"","n":17},{"fr":"R","ipa":"/ɛʀ/","en":"","n":18},{"fr":"S","ipa":"/ɛs/","en":"","n":19},{"fr":"T","ipa":"/te/","en":"","n":20},{"fr":"U","ipa":"/y/","en":"","n":21},{"fr":"V","ipa":"/ve/","en":"","n":22},{"fr":"W","ipa":"/dubləve/","en":"","n":23},{"fr":"X","ipa":"/iks/","en":"","n":24},{"fr":"Y","ipa":"/igʀɛk/","en":"","n":25},{"fr":"Z","ipa":"/zɛd/","en":"","n":26}]}],"course":"fr","strand":"fundamentals","slug":"alphabet"};</script>
 <script src="../../assets/js/site.js?v=a1fa960c"></script>
 <script defer src="../../assets/js/alpine.min.js"></script>
 <script defer src="../../assets/vendor/gsap.min.js"></script>

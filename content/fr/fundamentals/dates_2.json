@@ -256,6 +256,48 @@
      "audio": "45-vivre chaque jour comme le dernier.m4a"
     }
    ]
+  },
+  {
+   "title": "Longues durées",
+   "sub": "Long spans of time",
+   "words": [
+    {
+     "fr": "une décennie",
+     "g": "f",
+     "en": "a decade"
+    },
+    {
+     "fr": "un siècle",
+     "g": "m",
+     "en": "a century"
+    },
+    {
+     "fr": "avant Jésus-Christ",
+     "en": "B.C."
+    },
+    {
+     "fr": "av. J.-C.",
+     "en": "B.C. (abbreviation)",
+     "say": "avant Jésus-Christ"
+    },
+    {
+     "fr": "après Jésus-Christ",
+     "en": "A.D."
+    },
+    {
+     "fr": "ap. J.-C.",
+     "en": "A.D. (abbreviation)",
+     "say": "après Jésus-Christ"
+    },
+    {
+     "fr": "l’année précédente",
+     "en": "the previous year"
+    },
+    {
+     "fr": "l’année suivante",
+     "en": "the following year"
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,164 @@
+{
+ "title": "Les nombres de 70 à 100",
+ "subtitle": "Numbers from 70 to 100",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.3,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "groups": [
+  {
+   "title": "De 70 à 79",
+   "sub": "Sixty-ten, sixty-eleven …",
+   "notes": [
+    "70 is 60 + 10. Then you keep counting: soixante et onze (60 + 11), soixante-douze (60 + 12)."
+   ],
+   "words": [
+    {
+     "fr": "soixante-dix",
+     "en": "seventy"
+    },
+    {
+     "fr": "soixante et onze",
+     "en": "seventy-one"
+    },
+    {
+     "fr": "soixante-douze",
+     "en": "seventy-two"
+    },
+    {
+     "fr": "soixante-treize",
+     "en": "seventy-three"
+    },
+    {
+     "fr": "soixante-quatorze",
+     "en": "seventy-four"
+    },
+    {
+     "fr": "soixante-quinze",
+     "en": "seventy-five"
+    },
+    {
+     "fr": "soixante-seize",
+     "en": "seventy-six"
+    },
+    {
+     "fr": "soixante-dix-sept",
+     "en": "seventy-seven"
+    },
+    {
+     "fr": "soixante-dix-huit",
+     "en": "seventy-eight"
+    },
+    {
+     "fr": "soixante-dix-neuf",
+     "en": "seventy-nine"
+    }
+   ]
+  },
+  {
+   "title": "De 80 à 89",
+   "sub": "Four twenties",
+   "notes": [
+    "80 is 4 × 20. Only quatre-vingts itself has an s, and there is no “et” in quatre-vingt-un."
+   ],
+   "words": [
+    {
+     "fr": "quatre-vingts",
+     "en": "eighty"
+    },
+    {
+     "fr": "quatre-vingt-un",
+     "en": "eighty-one"
+    },
+    {
+     "fr": "quatre-vingt-deux",
+     "en": "eighty-two"
+    },
+    {
+     "fr": "quatre-vingt-trois",
+     "en": "eighty-three"
+    },
+    {
+     "fr": "quatre-vingt-quatre",
+     "en": "eighty-four"
+    },
+    {
+     "fr": "quatre-vingt-cinq",
+     "en": "eighty-five"
+    },
+    {
+     "fr": "quatre-vingt-six",
+     "en": "eighty-six"
+    },
+    {
+     "fr": "quatre-vingt-sept",
+     "en": "eighty-seven"
+    },
+    {
+     "fr": "quatre-vingt-huit",
+     "en": "eighty-eight"
+    },
+    {
+     "fr": "quatre-vingt-neuf",
+     "en": "eighty-nine"
+    }
+   ]
+  },
+  {
+   "title": "De 90 à 100",
+   "sub": "Four-twenty-ten …",
+   "notes": [
+    "90 is 4 × 20 + 10: quatre-vingt-onze (91), quatre-vingt-douze (92)."
+   ],
+   "words": [
+    {
+     "fr": "quatre-vingt-dix",
+     "en": "ninety"
+    },
+    {
+     "fr": "quatre-vingt-onze",
+     "en": "ninety-one"
+    },
+    {
+     "fr": "quatre-vingt-douze",
+     "en": "ninety-two"
+    },
+    {
+     "fr": "quatre-vingt-treize",
+     "en": "ninety-three"
+    },
+    {
+     "fr": "quatre-vingt-quatorze",
+     "en": "ninety-four"
+    },
+    {
+     "fr": "quatre-vingt-quinze",
+     "en": "ninety-five"
+    },
+    {
+     "fr": "quatre-vingt-seize",
+     "en": "ninety-six"
+    },
+    {
+     "fr": "quatre-vingt-dix-sept",
+     "en": "ninety-seven"
+    },
+    {
+     "fr": "quatre-vingt-dix-huit",
+     "en": "ninety-eight"
+    },
+    {
+     "fr": "quatre-vingt-dix-neuf",
+     "en": "ninety-nine"
+    },
+    {
+     "fr": "cent",
+     "ipa": "/sɑ̃/",
+     "en": "one hundred"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "title": "Quelle heure est-il ?",
+ "subtitle": "Telling the time",
+ "level": "a1",
+ "topic": "Time",
+ "order": 40.2,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/time/",
+ "groups": [
+  {
+   "title": "Demander l’heure",
+   "sub": "Asking the time",
+   "words": [
+    {
+     "fr": "Quelle heure est-il ?",
+     "en": "What time is it?"
+    },
+    {
+     "fr": "Il est quelle heure ?",
+     "en": "What time is it? (everyday)"
+    },
+    {
+     "fr": "Vous avez l’heure, s’il vous plaît ?",
+     "en": "Do you have the time, please?"
+    }
+   ]
+  },
+  {
+   "title": "L’heure pile",
+   "sub": "On the hour",
+   "notes": [
+    "Always say heure or heures: Il est neuf heures, never “Il est neuf”."
+   ],
+   "words": [
+    {
+     "fr": "Il est une heure.",
+     "en": "It’s one o’clock."
+    },
+    {
+     "fr": "Il est neuf heures.",
+     "en": "It’s nine o’clock."
+    },
+    {
+     "fr": "Il est midi.",
+     "en": "It’s noon."
+    },
+    {
+     "fr": "Il est minuit.",
+     "en": "It’s midnight."
+    },
+    {
+     "fr": "Il est presque deux heures.",
+     "en": "It’s almost two o’clock."
+    }
+   ]
+  },
+  {
+   "title": "Les minutes",
+   "sub": "Minutes past and to",
+   "notes": [
+    "After the half hour, count back from the next hour with moins: cinq heures moins dix = 4:50."
+   ],
+   "words": [
+    {
+     "fr": "Il est neuf heures dix-sept.",
+     "en": "It’s nine seventeen."
+    },
+    {
+     "fr": "Il est trois heures et quart.",
+     "en": "It’s quarter past three."
+    },
+    {
+     "fr": "Il est quatre heures et demie.",
+     "en": "It’s half past four."
+    },
+    {
+     "fr": "Il est cinq heures moins dix.",
+     "en": "It’s ten to five."
+    },
+    {
+     "fr": "Il est six heures moins le quart.",
+     "en": "It’s quarter to six."
+    }
+   ]
+  },
+  {
+   "title": "Matin, après-midi ou soir ?",
+   "sub": "Morning, afternoon or evening?",
+   "words": [
+    {
+     "fr": "Il est sept heures du matin.",
+     "en": "It’s seven in the morning."
+    },
+    {
+     "fr": "Il est deux heures de l’après-midi.",
+     "en": "It’s two in the afternoon."
+    },
+    {
+     "fr": "Il est huit heures du soir.",
+     "en": "It’s eight in the evening."
+    }
+   ]
+  }
+ ]
+}

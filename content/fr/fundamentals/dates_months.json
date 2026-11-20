@@ -1,0 +1,166 @@
+{
+ "title": "Les mois et les saisons",
+ "subtitle": "The months and the seasons",
+ "level": "a1",
+ "topic": "Dates",
+ "order": 30.2,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/dates/",
+ "groups": [
+  {
+   "title": "Les douze mois",
+   "sub": "The twelve months",
+   "notes": [
+    "The months are written with a small letter. “In” a month is en: en janvier, en août."
+   ],
+   "words": [
+    {
+     "fr": "janvier",
+     "ipa": "/ʒɑ̃vje/",
+     "en": "January"
+    },
+    {
+     "fr": "février",
+     "ipa": "/fevʀije/",
+     "en": "February"
+    },
+    {
+     "fr": "mars",
+     "ipa": "/maʀs/",
+     "en": "March"
+    },
+    {
+     "fr": "avril",
+     "ipa": "/avʀil/",
+     "en": "April"
+    },
+    {
+     "fr": "mai",
+     "ipa": "/mɛ/",
+     "en": "May"
+    },
+    {
+     "fr": "juin",
+     "ipa": "/ʒɥɛ̃/",
+     "en": "June"
+    },
+    {
+     "fr": "juillet",
+     "ipa": "/ʒɥijɛ/",
+     "en": "July"
+    },
+    {
+     "fr": "août",
+     "ipa": "/ut/",
+     "en": "August"
+    },
+    {
+     "fr": "septembre",
+     "ipa": "/sɛptɑ̃bʀ/",
+     "en": "September"
+    },
+    {
+     "fr": "octobre",
+     "ipa": "/ɔktɔbʀ/",
+     "en": "October"
+    },
+    {
+     "fr": "novembre",
+     "ipa": "/nɔvɑ̃bʀ/",
+     "en": "November"
+    },
+    {
+     "fr": "décembre",
+     "ipa": "/desɑ̃bʀ/",
+     "en": "December"
+    }
+   ]
+  },
+  {
+   "title": "Mois et année",
+   "sub": "Month and year",
+   "words": [
+    {
+     "fr": "le mois",
+     "g": "m",
+     "ipa": "/mwa/",
+     "en": "month"
+    },
+    {
+     "fr": "l’année",
+     "g": "f",
+     "ipa": "/ane/",
+     "en": "year"
+    },
+    {
+     "fr": "cette année",
+     "en": "this year"
+    },
+    {
+     "fr": "ce mois-ci",
+     "en": "this month"
+    },
+    {
+     "fr": "en janvier",
+     "en": "in January"
+    }
+   ]
+  },
+  {
+   "title": "Les quatre saisons",
+   "sub": "The four seasons",
+   "notes": [
+    "Three seasons take en. Spring is the exception: au printemps."
+   ],
+   "words": [
+    {
+     "fr": "la saison",
+     "g": "f",
+     "ipa": "/sɛzɔ̃/",
+     "en": "season"
+    },
+    {
+     "fr": "le printemps",
+     "g": "m",
+     "ipa": "/pʀɛ̃tɑ̃/",
+     "en": "spring"
+    },
+    {
+     "fr": "l’été",
+     "g": "m",
+     "ipa": "/ete/",
+     "en": "summer"
+    },
+    {
+     "fr": "l’automne",
+     "g": "m",
+     "ipa": "/otɔn/",
+     "en": "autumn"
+    },
+    {
+     "fr": "l’hiver",
+     "g": "m",
+     "ipa": "/ivɛʀ/",
+     "en": "winter"
+    },
+    {
+     "fr": "au printemps",
+     "en": "in spring"
+    },
+    {
+     "fr": "en été",
+     "en": "in summer"
+    },
+    {
+     "fr": "en automne",
+     "en": "in autumn"
+    },
+    {
+     "fr": "en hiver",
+     "en": "in winter"
+    }
+   ]
+  }
+ ]
+}

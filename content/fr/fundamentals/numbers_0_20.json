@@ -1,0 +1,139 @@
+{
+ "title": "Les nombres de 0 à 20",
+ "subtitle": "Numbers from 0 to 20",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.1,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "groups": [
+  {
+   "title": "De zéro à dix",
+   "sub": "0 to 10",
+   "notes": [
+    "The last letter of cinq, six, sept, huit, neuf and dix is pronounced when you count. The p in sept is silent."
+   ],
+   "words": [
+    {
+     "fr": "zéro",
+     "ipa": "/zeʀo/",
+     "en": "zero"
+    },
+    {
+     "fr": "un",
+     "g": "m",
+     "ipa": "/œ̃/",
+     "en": "one"
+    },
+    {
+     "fr": "une",
+     "g": "f",
+     "ipa": "/yn/",
+     "en": "one"
+    },
+    {
+     "fr": "deux",
+     "ipa": "/dø/",
+     "en": "two"
+    },
+    {
+     "fr": "trois",
+     "ipa": "/tʀwɑ/",
+     "en": "three"
+    },
+    {
+     "fr": "quatre",
+     "ipa": "/katʀ/",
+     "en": "four"
+    },
+    {
+     "fr": "cinq",
+     "ipa": "/sɛ̃k/",
+     "en": "five"
+    },
+    {
+     "fr": "six",
+     "ipa": "/sis/",
+     "en": "six"
+    },
+    {
+     "fr": "sept",
+     "ipa": "/sɛt/",
+     "en": "seven"
+    },
+    {
+     "fr": "huit",
+     "ipa": "/ɥit/",
+     "en": "eight"
+    },
+    {
+     "fr": "neuf",
+     "ipa": "/nœf/",
+     "en": "nine"
+    },
+    {
+     "fr": "dix",
+     "ipa": "/dis/",
+     "en": "ten"
+    }
+   ]
+  },
+  {
+   "title": "De onze à vingt",
+   "sub": "11 to 20",
+   "words": [
+    {
+     "fr": "onze",
+     "ipa": "/ɔ̃z/",
+     "en": "eleven"
+    },
+    {
+     "fr": "douze",
+     "ipa": "/duz/",
+     "en": "twelve"
+    },
+    {
+     "fr": "treize",
+     "ipa": "/tʀɛz/",
+     "en": "thirteen"
+    },
+    {
+     "fr": "quatorze",
+     "ipa": "/katɔʀz/",
+     "en": "fourteen"
+    },
+    {
+     "fr": "quinze",
+     "ipa": "/kɛ̃z/",
+     "en": "fifteen"
+    },
+    {
+     "fr": "seize",
+     "ipa": "/sɛz/",
+     "en": "sixteen"
+    },
+    {
+     "fr": "dix-sept",
+     "ipa": "/disɛt/",
+     "en": "seventeen"
+    },
+    {
+     "fr": "dix-huit",
+     "ipa": "/dizɥit/",
+     "en": "eighteen"
+    },
+    {
+     "fr": "dix-neuf",
+     "ipa": "/diznœf/",
+     "en": "nineteen"
+    },
+    {
+     "fr": "vingt",
+     "ipa": "/vɛ̃/",
+     "en": "twenty"
+    }
+   ]
+  }
+ ]
+}

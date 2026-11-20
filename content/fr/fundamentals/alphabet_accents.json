@@ -1,0 +1,157 @@
+{
+ "title": "Les accents et épeler",
+ "subtitle": "Accents, and spelling a word aloud",
+ "level": "a1",
+ "topic": "Alphabet",
+ "order": 11,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/accents/",
+ "clip_names": "number",
+ "groups": [
+  {
+   "title": "Les accents",
+   "sub": "The marks on letters",
+   "notes": [
+    "Only the letter e takes the acute accent: é. The cedilla makes c sound /s/ before a, o and u: ça, garçon."
+   ],
+   "words": [
+    {
+     "fr": "é",
+     "ipa": "/e/",
+     "en": "e with an acute accent",
+     "say": "e accent aigu"
+    },
+    {
+     "fr": "è",
+     "ipa": "/ɛ/",
+     "en": "e with a grave accent",
+     "say": "e accent grave"
+    },
+    {
+     "fr": "ê",
+     "ipa": "/ɛ/",
+     "en": "e with a circumflex",
+     "say": "e accent circonflexe"
+    },
+    {
+     "fr": "ë",
+     "en": "e with a diaeresis",
+     "say": "e tréma"
+    },
+    {
+     "fr": "à",
+     "ipa": "/a/",
+     "en": "a with a grave accent",
+     "say": "a accent grave"
+    },
+    {
+     "fr": "ù",
+     "ipa": "/y/",
+     "en": "u with a grave accent",
+     "say": "u accent grave"
+    },
+    {
+     "fr": "ç",
+     "ipa": "/s/",
+     "en": "c with a cedilla",
+     "say": "c cédille"
+    },
+    {
+     "fr": "l’accent aigu",
+     "g": "m",
+     "en": "acute accent (é)"
+    },
+    {
+     "fr": "l’accent grave",
+     "g": "m",
+     "en": "grave accent (è, à, ù)"
+    },
+    {
+     "fr": "l’accent circonflexe",
+     "g": "m",
+     "en": "circumflex (â, ê, î, ô, û)"
+    },
+    {
+     "fr": "le tréma",
+     "g": "m",
+     "en": "diaeresis (ë, ï)"
+    },
+    {
+     "fr": "la cédille",
+     "g": "f",
+     "en": "cedilla (ç)"
+    }
+   ]
+  },
+  {
+   "title": "Épeler",
+   "sub": "Spelling aloud",
+   "words": [
+    {
+     "fr": "Ça s’écrit comment ?",
+     "en": "How do you spell it?"
+    },
+    {
+     "fr": "Comment ça s’écrit ?",
+     "en": "How is it spelled?"
+    },
+    {
+     "fr": "Vous pouvez épeler, s’il vous plaît ?",
+     "en": "Can you spell it, please?"
+    },
+    {
+     "fr": "Ça s’écrit M, A, R, I, E.",
+     "en": "It is spelled M-A-R-I-E."
+    },
+    {
+     "fr": "avec deux L",
+     "en": "with two Ls"
+    },
+    {
+     "fr": "avec un accent",
+     "en": "with an accent"
+    },
+    {
+     "fr": "une majuscule",
+     "g": "f",
+     "ipa": "/maʒyskyl/",
+     "en": "a capital letter"
+    },
+    {
+     "fr": "une minuscule",
+     "g": "f",
+     "ipa": "/minyskyl/",
+     "en": "a small letter"
+    },
+    {
+     "fr": "un trait d’union",
+     "g": "m",
+     "en": "a hyphen"
+    },
+    {
+     "fr": "une apostrophe",
+     "g": "f",
+     "ipa": "/apɔstʀɔf/",
+     "en": "an apostrophe"
+    },
+    {
+     "fr": "un espace",
+     "g": "m",
+     "ipa": "/ɛspas/",
+     "en": "a space"
+    },
+    {
+     "fr": "arobase",
+     "ipa": "/aʀɔbaz/",
+     "en": "@ (at)"
+    },
+    {
+     "fr": "point",
+     "ipa": "/pwɛ̃/",
+     "en": ". (dot, full stop)"
+    }
+   ]
+  }
+ ]
+}

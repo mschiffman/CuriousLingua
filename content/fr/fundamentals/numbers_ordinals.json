@@ -1,0 +1,119 @@
+{
+ "title": "Premier, deuxième, troisième",
+ "subtitle": "First to tenth",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.6,
+ "type": "words",
+ "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
+ "glossary_dir": "lessons/fundamental/a1/numbers/",
+ "groups": [
+  {
+   "title": "Du premier au dixième",
+   "sub": "1st to 10th",
+   "notes": [
+    "After premier, add -ième to the number. Watch the spelling of cinquième and neuvième."
+   ],
+   "words": [
+    {
+     "fr": "premier",
+     "g": "m",
+     "ipa": "/pʀəmje/",
+     "en": "first"
+    },
+    {
+     "fr": "première",
+     "g": "f",
+     "ipa": "/pʀəmjɛʀ/",
+     "en": "first"
+    },
+    {
+     "fr": "deuxième",
+     "ipa": "/døzjɛm/",
+     "en": "second"
+    },
+    {
+     "fr": "troisième",
+     "ipa": "/tʀwɑzjɛm/",
+     "en": "third"
+    },
+    {
+     "fr": "quatrième",
+     "ipa": "/katʀijɛm/",
+     "en": "fourth"
+    },
+    {
+     "fr": "cinquième",
+     "ipa": "/sɛ̃kjɛm/",
+     "en": "fifth"
+    },
+    {
+     "fr": "sixième",
+     "ipa": "/sizjɛm/",
+     "en": "sixth"
+    },
+    {
+     "fr": "septième",
+     "ipa": "/sɛtjɛm/",
+     "en": "seventh"
+    },
+    {
+     "fr": "huitième",
+     "ipa": "/ɥitjɛm/",
+     "en": "eighth"
+    },
+    {
+     "fr": "neuvième",
+     "ipa": "/nœvjɛm/",
+     "en": "ninth"
+    },
+    {
+     "fr": "dixième",
+     "ipa": "/dizjɛm/",
+     "en": "tenth"
+    },
+    {
+     "fr": "dernier",
+     "g": "m",
+     "ipa": "/dɛʀnje/",
+     "en": "last"
+    },
+    {
+     "fr": "dernière",
+     "g": "f",
+     "ipa": "/dɛʀnjɛʀ/",
+     "en": "last"
+    }
+   ]
+  },
+  {
+   "title": "Dans une phrase",
+   "sub": "In a sentence",
+   "notes": [
+    "In a date, only the first of the month is an ordinal: le premier mai, but le deux mai."
+   ],
+   "words": [
+    {
+     "fr": "le premier étage",
+     "en": "the first floor"
+    },
+    {
+     "fr": "la deuxième rue à droite",
+     "en": "the second street on the right"
+    },
+    {
+     "fr": "C’est la première fois.",
+     "en": "It’s the first time."
+    },
+    {
+     "fr": "C’est le premier mai.",
+     "en": "It’s the first of May."
+    },
+    {
+     "fr": "la dernière page",
+     "en": "the last page"
+    }
+   ]
+  }
+ ]
+}
