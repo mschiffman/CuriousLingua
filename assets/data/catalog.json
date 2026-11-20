@@ -210,6 +210,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/decrire",
+  "url": "fr/listening/decrire.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "People",
+  "type": "dialogue",
+  "title": "Décrire quelqu'un",
+  "clips": 13,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/deux_amis",
   "url": "fr/listening/deux_amis.html",
   "course": "fr",

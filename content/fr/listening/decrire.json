@@ -1,0 +1,188 @@
+{
+ "title": "Décrire quelqu'un",
+ "subtitle": "Meeting someone at the station",
+ "level": "a1",
+ "topic": "People",
+ "type": "dialogue",
+ "register": "casual (tu), two friends",
+ "review": "Dialogue and key expressions from the user (decrire_fr.md). English translations, questions and notes by Claude: check them.",
+ "intro": "Emma's brother and sister, Thomas and Manon from La famille, are arriving in Lyon, and Lucas goes to meet them at the station. Emma tells him what they look like and what they're like. Listen first with the text hidden. Then show it and listen again.",
+ "aud_dir": "fr/listening/decrire/",
+ "aud_ext": "mp3?v=2611201016",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "L": "raorKQeRhtnNgyXX4Iqm",
+  "E": "KzPZhE4ZluG6tjLsI1qh"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "E",
+   "text": "Lucas, tu peux aller à la gare ? Mon frère et ma sœur arrivent à trois heures.",
+   "tr": {
+    "en": "Lucas, can you go to the station? My brother and sister are arriving at three o'clock."
+   }
+  },
+  {
+   "who": "L",
+   "text": "Oui, bien sûr. Mais ils sont comment ? Je ne connais pas Thomas et Manon.",
+   "tr": {
+    "en": "Yes, of course. But what do they look like? I don't know Thomas and Manon."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Thomas est grand et mince. Il a les cheveux bruns et courts. Il a une barbe.",
+   "tr": {
+    "en": "Thomas is tall and slim. He has short brown hair. He has a beard."
+   }
+  },
+  {
+   "who": "L",
+   "text": "Il porte des lunettes ?",
+   "tr": {
+    "en": "Does he wear glasses?"
+   }
+  },
+  {
+   "who": "E",
+   "text": "Non, mais il a les yeux bleus, comme moi.",
+   "tr": {
+    "en": "No, but he has blue eyes, like me."
+   }
+  },
+  {
+   "who": "L",
+   "text": "D'accord. Et Manon ?",
+   "tr": {
+    "en": "OK. And Manon?"
+   }
+  },
+  {
+   "who": "E",
+   "text": "Manon est petite. Elle a les cheveux blonds et longs. Elle porte des lunettes.",
+   "tr": {
+    "en": "Manon is short. She has long blonde hair. She wears glasses."
+   }
+  },
+  {
+   "who": "L",
+   "text": "Grand avec une barbe, petite avec des lunettes. C'est facile !",
+   "tr": {
+    "en": "Tall with a beard, short with glasses. That's easy!"
+   }
+  },
+  {
+   "who": "E",
+   "text": "Thomas est très sympa et drôle. Manon est un peu timide, mais elle est très gentille.",
+   "tr": {
+    "en": "Thomas is very friendly and funny. Manon is a bit shy, but she's very kind."
+   }
+  },
+  {
+   "who": "L",
+   "text": "Super. Ils ont des valises ?",
+   "tr": {
+    "en": "Great. Do they have suitcases?"
+   }
+  },
+  {
+   "who": "E",
+   "text": "Oui. Thomas a un grand sac noir, et Manon a une valise rouge.",
+   "tr": {
+    "en": "Yes. Thomas has a big black bag, and Manon has a red suitcase."
+   }
+  },
+  {
+   "who": "L",
+   "text": "Parfait. Je pars maintenant !",
+   "tr": {
+    "en": "Perfect. I'm leaving now!"
+   }
+  },
+  {
+   "who": "E",
+   "text": "Merci, Lucas. Tu es super !",
+   "tr": {
+    "en": "Thanks, Lucas. You're great!"
+   }
+  }
+ ],
+ "notes": [
+  "Ils sont comment ? = What are they like? What do they look like? Also Il est comment ? Elle est comment ? The answer can be about looks or about character.",
+  "Most adjectives add an e for a woman: grand / grande, petit / petite, gentil / gentille. Those that already end in e stay the same: mince, drôle, timide. sympa never changes.",
+  "Hair and eyes take avoir and les: Il a les cheveux bruns et courts. Elle a les yeux bleus. The colour and the length come after cheveux. marron never changes: les yeux marron.",
+  "porter = to wear: Elle porte des lunettes. A beard is had, not worn: Il a une barbe.",
+  "Colours come after the noun: une valise rouge, un sac noir. A few short adjectives come before it: un grand sac, une petite fille.",
+  "sympa = friendly, nice. drôle = funny. timide = shy. gentil / gentille = kind.",
+  "comme moi = like me. Tu es super ! = You're great!"
+ ],
+ "questions": [
+  {
+   "q": "What time do Thomas and Manon arrive?",
+   "options": [
+    "At two o'clock",
+    "At three o'clock",
+    "At four o'clock"
+   ],
+   "answer": 1,
+   "why": "Mon frère et ma sœur arrivent à trois heures."
+  },
+  {
+   "q": "What does Thomas look like?",
+   "options": [
+    "Short, with glasses",
+    "Tall and slim, with a beard",
+    "Tall, with long hair"
+   ],
+   "answer": 1,
+   "why": "Thomas est grand et mince. […] Il a une barbe."
+  },
+  {
+   "q": "What colour are Thomas's eyes?",
+   "options": [
+    "Brown",
+    "Green",
+    "Blue"
+   ],
+   "answer": 2,
+   "why": "Il a les yeux bleus, comme moi."
+  },
+  {
+   "q": "Who wears glasses?",
+   "options": [
+    "Thomas",
+    "Manon",
+    "Both of them"
+   ],
+   "answer": 1,
+   "why": "Thomas: Non. Manon: Elle porte des lunettes."
+  },
+  {
+   "q": "What is Manon like?",
+   "options": [
+    "A bit shy, but very kind",
+    "Very funny",
+    "Tall and slim"
+   ],
+   "answer": 0,
+   "why": "Manon est un peu timide, mais elle est très gentille."
+  },
+  {
+   "q": "What colour is Manon's suitcase?",
+   "options": [
+    "Black",
+    "Red",
+    "Blue"
+   ],
+   "answer": 1,
+   "why": "Manon a une valise rouge."
+  }
+ ]
+}
