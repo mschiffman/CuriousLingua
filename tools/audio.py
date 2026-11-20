@@ -220,7 +220,7 @@ def make(L, only, redo):
                 if os.path.exists(f):
                     shutil.move(f, os.path.join(aside, name))
     for n in todo:
-        voice = per.get(speaker.get(n)) or v["voice"]
+        voice = per.get(speaker.get(n)) or per.get("narrator") or v["voice"]   # "voice": {"narrator": id} for a story read by one voice
         if not voice:
             sys.exit(f"no voice for {L['course']}: set it in assets/data/voices.json")
         rawf = os.path.join(raw, f"{n:02d}.mp3")

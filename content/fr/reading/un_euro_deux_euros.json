@@ -1,0 +1,599 @@
+{
+ "title": "Un euro, deux euros...",
+ "level": "a1",
+ "topic": "Stories",
+ "type": "reader",
+ "source_md": "un-euro-deux-euros.md",
+ "img_dir": "img/ytstory/un-euro-deux-euros/",
+ "img_ext": "jpg",
+ "aud_dir": "fr/reading/un_euro_deux_euros/",
+ "aud_ext": "mp3?v=2611200944",
+ "voice": {
+  "narrator": "Ze3DkBwQ81dW3YYr1nbz"
+ },
+ "voice_model": "eleven_v4",
+ "translation": {
+  "lang": "en",
+  "label": "English"
+ },
+ "pages": [
+  {
+   "img": 1,
+   "tr": [
+    "It's Saturday morning.",
+    "Sophie goes to the market with her basket.",
+    "She has ten euros in her bag.",
+    "\"Today, I'm being careful with my money!\""
+   ],
+   "sentences": [
+    [
+     [
+      "C'est samedi matin.",
+      1
+     ]
+    ],
+    [
+     [
+      "Sophie va",
+      2
+     ],
+     [
+      "au marché",
+      3
+     ],
+     [
+      "avec son panier.",
+      4
+     ]
+    ],
+    [
+     [
+      "Elle a",
+      5
+     ],
+     [
+      "dix euros",
+      6
+     ],
+     [
+      "dans son sac.",
+      7
+     ]
+    ],
+    [
+     [
+      "\"Aujourd'hui,",
+      8
+     ],
+     [
+      "je fais attention",
+      9
+     ],
+     [
+      "à mon argent !\"",
+      10
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 2,
+   "tr": [
+    "Sophie arrives at the fruit stall.",
+    "\"Hello, madam! How much are the apples?\"",
+    "\"Two euros per kilo.\"",
+    "Sophie buys one kilo of apples.",
+    "She has eight euros left."
+   ],
+   "sentences": [
+    [
+     [
+      "Sophie arrive",
+      11
+     ],
+     [
+      "au stand de fruits.",
+      12
+     ]
+    ],
+    [
+     [
+      "\"Bonjour, madame !",
+      13
+     ],
+     [
+      "Combien coûtent",
+      14
+     ],
+     [
+      "les pommes ?\"",
+      15
+     ]
+    ],
+    [
+     [
+      "\"Deux euros",
+      16
+     ],
+     [
+      "le kilo.\"",
+      17
+     ]
+    ],
+    [
+     [
+      "Sophie achète",
+      18
+     ],
+     [
+      "un kilo de pommes.",
+      19
+     ]
+    ],
+    [
+     [
+      "Il lui reste",
+      20
+     ],
+     [
+      "huit euros.",
+      21
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 3,
+   "tr": [
+    "At the next stall, she sees beautiful red tomatoes.",
+    "\"How much are the tomatoes?\"",
+    "\"Three euros per kilo.\"",
+    "Sophie buys one kilo of tomatoes.",
+    "She has five euros left."
+   ],
+   "sentences": [
+    [
+     [
+      "Au stand suivant,",
+      22
+     ],
+     [
+      "elle voit",
+      23
+     ],
+     [
+      "de belles tomates rouges.",
+      24
+     ]
+    ],
+    [
+     [
+      "\"Combien coûtent",
+      25
+     ],
+     [
+      "les tomates ?\"",
+      26
+     ]
+    ],
+    [
+     [
+      "\"Trois euros",
+      27
+     ],
+     [
+      "le kilo.\"",
+      28
+     ]
+    ],
+    [
+     [
+      "Sophie achète",
+      29
+     ],
+     [
+      "un kilo de tomates.",
+      30
+     ]
+    ],
+    [
+     [
+      "Il lui reste",
+      31
+     ],
+     [
+      "cinq euros.",
+      32
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 4,
+   "tr": [
+    "A delicious smell attracts Sophie.",
+    "A man is selling fresh bread.",
+    "\"One baguette, please!\"",
+    "\"One euro, madam.\"",
+    "She has four euros left."
+   ],
+   "sentences": [
+    [
+     [
+      "Une bonne odeur",
+      33
+     ],
+     [
+      "attire Sophie.",
+      34
+     ]
+    ],
+    [
+     [
+      "Un monsieur vend",
+      35
+     ],
+     [
+      "du pain frais.",
+      36
+     ]
+    ],
+    [
+     [
+      "\"Une baguette,",
+      37
+     ],
+     [
+      "s'il vous plaît !\"",
+      38
+     ]
+    ],
+    [
+     [
+      "\"Un euro,",
+      39
+     ],
+     [
+      "madame.\"",
+      40
+     ]
+    ],
+    [
+     [
+      "Il lui reste",
+      41
+     ],
+     [
+      "quatre euros.",
+      42
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 5,
+   "tr": [
+    "Suddenly, Sophie sees a large bouquet of flowers.",
+    "The flowers are pink, yellow, and white.",
+    "\"Oh, they're beautiful!\"",
+    "\"Five euros a bouquet,\" says the seller.",
+    "But Sophie only has four euros."
+   ],
+   "sentences": [
+    [
+     [
+      "Soudain,",
+      43
+     ],
+     [
+      "Sophie voit",
+      44
+     ],
+     [
+      "un grand bouquet de fleurs.",
+      45
+     ]
+    ],
+    [
+     [
+      "Les fleurs sont",
+      46
+     ],
+     [
+      "roses, jaunes",
+      47
+     ],
+     [
+      "et blanches.",
+      48
+     ]
+    ],
+    [
+     [
+      "\"Oh,",
+      49
+     ],
+     [
+      "elles sont magnifiques !\"",
+      50
+     ]
+    ],
+    [
+     [
+      "\"Cinq euros",
+      51
+     ],
+     [
+      "le bouquet\",",
+      52
+     ],
+     [
+      "dit la vendeuse.",
+      53
+     ]
+    ],
+    [
+     [
+      "Mais Sophie",
+      54
+     ],
+     [
+      "n'a que",
+      55
+     ],
+     [
+      "quatre euros.",
+      56
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 6,
+   "tr": [
+    "Sophie looks at the flowers sadly.",
+    "The seller smiles.",
+    "\"I also have small bouquets for three euros.\"",
+    "\"Ah, perfect! I'll take a small bouquet!\"",
+    "She has one euro left."
+   ],
+   "sentences": [
+    [
+     [
+      "Sophie regarde",
+      57
+     ],
+     [
+      "les fleurs",
+      58
+     ],
+     [
+      "avec tristesse.",
+      59
+     ]
+    ],
+    [
+     [
+      "La vendeuse sourit.",
+      60
+     ]
+    ],
+    [
+     [
+      "\"J'ai aussi",
+      61
+     ],
+     [
+      "de petits bouquets",
+      62
+     ],
+     [
+      "à trois euros.\"",
+      63
+     ]
+    ],
+    [
+     [
+      "\"Ah, parfait !",
+      64
+     ],
+     [
+      "Je prends",
+      65
+     ],
+     [
+      "un petit bouquet !\"",
+      66
+     ]
+    ],
+    [
+     [
+      "Il lui reste",
+      67
+     ],
+     [
+      "un euro.",
+      68
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 7,
+   "tr": [
+    "Sophie walks past a bakery.",
+    "In the window, she sees a little chocolate cake.",
+    "\"How much is this cake?\"",
+    "\"One euro!\"",
+    "Sophie smiles.",
+    "\"That's exactly what I have left!\""
+   ],
+   "sentences": [
+    [
+     [
+      "Sophie passe",
+      69
+     ],
+     [
+      "devant une boulangerie.",
+      70
+     ]
+    ],
+    [
+     [
+      "Dans la vitrine,",
+      71
+     ],
+     [
+      "elle voit",
+      72
+     ],
+     [
+      "un petit gâteau au chocolat.",
+      73
+     ]
+    ],
+    [
+     [
+      "\"Combien coûte",
+      74
+     ],
+     [
+      "ce gâteau ?\"",
+      75
+     ]
+    ],
+    [
+     [
+      "\"Un euro !\"",
+      76
+     ]
+    ],
+    [
+     [
+      "Sophie sourit.",
+      77
+     ]
+    ],
+    [
+     [
+      "\"C'est exactement",
+      78
+     ],
+     [
+      "ce qu'il me reste !\"",
+      79
+     ]
+    ]
+   ]
+  },
+  {
+   "img": 8,
+   "tr": [
+    "Sophie returns home with her basket.",
+    "She has apples, tomatoes, a baguette, and flowers.",
+    "And of course, a little chocolate cake!",
+    "Her purse is empty.",
+    "\"Ten euros spent! Zero euros in my purse!\"",
+    "Sophie laughs.",
+    "\"Well... tomorrow, I'll be careful with my money!\""
+   ],
+   "sentences": [
+    [
+     [
+      "Sophie rentre",
+      80
+     ],
+     [
+      "à la maison",
+      81
+     ],
+     [
+      "avec son panier.",
+      82
+     ]
+    ],
+    [
+     [
+      "Elle a",
+      83
+     ],
+     [
+      "des pommes,",
+      84
+     ],
+     [
+      "des tomates,",
+      85
+     ],
+     [
+      "une baguette",
+      86
+     ],
+     [
+      "et des fleurs.",
+      87
+     ]
+    ],
+    [
+     [
+      "Et bien sûr,",
+      88
+     ],
+     [
+      "un petit gâteau",
+      89
+     ],
+     [
+      "au chocolat !",
+      90
+     ]
+    ],
+    [
+     [
+      "Son sac est vide.",
+      91
+     ]
+    ],
+    [
+     [
+      "\"Dix euros dépensés !",
+      92
+     ],
+     [
+      "Zéro euro",
+      93
+     ],
+     [
+      "dans mon sac !\"",
+      94
+     ]
+    ],
+    [
+     [
+      "Sophie rit.",
+      95
+     ]
+    ],
+    [
+     [
+      "\"Bon...",
+      96
+     ],
+     [
+      "demain,",
+      97
+     ],
+     [
+      "je fais attention",
+      98
+     ],
+     [
+      "à mon argent !\"",
+      99
+     ]
+    ]
+   ]
+  }
+ ]
+}
