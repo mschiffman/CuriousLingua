@@ -1,0 +1,218 @@
+{
+ "title": "Emergencies",
+ "subtitle": "အရေးပေါ်အခြေအနေ",
+ "level": "a2",
+ "level_provisional": true,
+ "order": 24,
+ "strand": "expressions",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "legacy": "eng/expressions/emergency.html",
+ "aud_dir": "eng/expressions/emergency/",
+ "aud_ext": "mp3?v=2611170808",
+ "categories": [
+  {
+   "en": "Getting help fast",
+   "my": "အမြန် အကူအညီ ရယူခြင်း",
+   "desc": "Short, loud phrases for a real emergency. In Myanmar: police 199, fire 191, ambulance 192.",
+   "cards": [
+    [
+     "Call an ambulance!",
+     "လူနာတင်ကား ခေါ်ပါ။",
+     "When someone is badly hurt or very ill. Say it loudly and point at one person: You! Call an ambulance!",
+     "He's not moving! Call an ambulance!",
+     "သူ မလှုပ်တော့ဘူး။ လူနာတင်ကား ခေါ်ပါ။"
+    ],
+    [
+     "Call the police!",
+     "ရဲ ခေါ်ပါ။",
+     "For a crime, a fight, or someone in danger.",
+     "Someone is breaking into the shop! Call the police!",
+     "တစ်ယောက်ယောက် ဆိုင်ထဲ ဖောက်ဝင်နေတယ်။ ရဲ ခေါ်ပါ။"
+    ],
+    [
+     "Somebody help me!",
+     "တစ်ယောက်ယောက် ကူညီပါဦး။",
+     "Shout it when you need anyone nearby to come.",
+     "My friend fell in the water! Somebody help me!",
+     "သူငယ်ချင်း ရေထဲ ကျသွားတယ်။ တစ်ယောက်ယောက် ကူညီပါဦး။"
+    ],
+    [
+     "There's a fire!",
+     "မီးလောင်နေတယ်။",
+     "Warns everyone at once. Then get out.",
+     "There's a fire in the kitchen! Get out!",
+     "မီးဖိုချောင်မှာ မီးလောင်နေတယ်။ ထွက်ကြ။"
+    ],
+    [
+     "It's an emergency.",
+     "အရေးပေါ်ပါ။",
+     "Tells someone it can't wait: on the phone, or to get to the front of a line.",
+     "Please hurry, it's an emergency!",
+     "မြန်မြန် လုပ်ပေးပါ၊ အရေးပေါ်ပါ။"
+    ]
+   ]
+  },
+  {
+   "en": "Saying what happened",
+   "my": "ဖြစ်ပျက်ပုံကို ပြောခြင်း",
+   "desc": "Short sentences to explain the problem to helpers or on the phone.",
+   "cards": [
+    [
+     "Someone is hurt.",
+     "တစ်ယောက် ဒဏ်ရာ ရထားတယ်။",
+     "Then say where: Someone is hurt on the main road.",
+     "Come quickly! Someone is hurt.",
+     "မြန်မြန် လာပါ။ တစ်ယောက် ဒဏ်ရာ ရထားတယ်။"
+    ],
+    [
+     "There's been an accident.",
+     "မတော်တဆမှု ဖြစ်သွားတယ်။",
+     "A car crash, a fall, any sudden bad event.",
+     "There's been an accident near the bridge.",
+     "တံတားနားမှာ မတော်တဆမှု ဖြစ်သွားတယ်။"
+    ],
+    [
+     "He can't breathe.",
+     "သူ အသက် ရှူလို့ မရဘူး။",
+     "Very serious: call for help at once.",
+     "Help! He can't breathe!",
+     "ကူညီပါ။ သူ အသက် ရှူလို့ မရဘူး။"
+    ],
+    [
+     "She fainted.",
+     "သူ မူးလဲသွားတယ်။",
+     "She suddenly fell down and isn't awake.",
+     "She fainted in the heat. She needs water.",
+     "အပူကြောင့် သူ မူးလဲသွားတယ်။ ရေ လိုတယ်။"
+    ],
+    [
+     "He's bleeding.",
+     "သူ သွေးထွက်နေတယ်။",
+     "Blood is coming out. Press on the cut with a clean cloth.",
+     "He's bleeding a lot from his arm.",
+     "သူ့လက်မောင်းက သွေး အများကြီး ထွက်နေတယ်။"
+    ]
+   ]
+  },
+  {
+   "en": "Lost things and people",
+   "my": "ပျောက်ဆုံးခြင်း",
+   "desc": "When something or someone is missing, or was stolen.",
+   "cards": [
+    [
+     "I've lost my <span class=gray>passport</span>.",
+     "ပတ်စ်ပို့ ပျောက်သွားတယ်။",
+     "I've lost = it's gone and I still don't have it.",
+     "I've lost my phone. Can I use yours to call my mum?",
+     "ဖုန်း ပျောက်သွားတယ်။ မေမေ့ကို ဖုန်းဆက်ဖို့ မင်းဖုန်း သုံးလို့ ရမလား။"
+    ],
+    [
+     "Someone stole my <span class=gray>bag</span>.",
+     "တစ်ယောက်ယောက်က အိတ် ခိုးသွားတယ်။",
+     "Steal → stole. Tell a police officer or a shop guard.",
+     "Someone stole my bike from outside the school.",
+     "ကျောင်းအပြင်ဘက်ကနေ တစ်ယောက်ယောက်က စက်ဘီး ခိုးသွားတယ်။"
+    ],
+    [
+     "I can't find my <span class=gray>little brother</span>.",
+     "ညီလေးကို ရှာမတွေ့ဘူး။",
+     "For a child who is lost. Say what they look like and what they are wearing.",
+     "I can't find my little sister. She's six, and she's wearing a red dress.",
+     "ညီမလေးကို ရှာမတွေ့ဘူး။ ခြောက်နှစ်၊ အနီရောင် ဝတ်စုံ ဝတ်ထားတယ်။"
+    ],
+    [
+     "Where's the police station?",
+     "ရဲစခန်း ဘယ်မှာလဲ။",
+     "Where to report something lost or stolen.",
+     "Excuse me, where's the police station?",
+     "တဆိတ်လောက်၊ ရဲစခန်း ဘယ်မှာလဲ။"
+    ]
+   ]
+  },
+  {
+   "en": "Staying safe",
+   "my": "ဘေးကင်းအောင် နေခြင်း",
+   "desc": "Instructions that adults or rescuers may shout. Do what they say.",
+   "cards": [
+    [
+     "Stay calm.",
+     "စိတ်ကို တည်ငြိမ်အောင် ထားပါ။",
+     "Don't panic. Breathe slowly and listen.",
+     "Stay calm. Help is coming.",
+     "စိတ်ကို တည်ငြိမ်အောင် ထားပါ။ အကူအညီ လာနေပြီ။"
+    ],
+    [
+     "Don't move.",
+     "မလှုပ်ပါနဲ့။",
+     "Said to someone who may be badly hurt, especially the neck or back.",
+     "Don't move. Wait for the doctor.",
+     "မလှုပ်ပါနဲ့။ ဆရာဝန်ကို စောင့်ပါ။"
+    ],
+    [
+     "Get out of the building!",
+     "အဆောက်အအုံထဲက ထွက်ပါ။",
+     "In a fire or earthquake. Don't stop to take your things.",
+     "Fire! Get out of the building now!",
+     "မီး! အဆောက်အအုံထဲက အခုပဲ ထွက်ပါ။"
+    ],
+    [
+     "Keep away from the fire.",
+     "မီးနဲ့ ဝေးဝေး နေပါ။",
+     "Keep away from = don't go near: the water, the wires, the dog.",
+     "Keep away from the river. The water is very high.",
+     "မြစ်နဲ့ ဝေးဝေး နေပါ။ ရေ အရမ်း တက်နေတယ်။"
+    ],
+    [
+     "Go to a safe place.",
+     "လုံခြုံတဲ့ နေရာကို သွားပါ။",
+     "Away from danger: higher ground in a flood, outside in a fire.",
+     "The flood is coming. Go to a safe place!",
+     "ရေကြီးလာနေပြီ။ လုံခြုံတဲ့ နေရာကို သွားပါ။"
+    ]
+   ]
+  },
+  {
+   "en": "Helping someone",
+   "my": "အခြားသူကို ကူညီခြင်း",
+   "desc": "What to say when you find someone in trouble.",
+   "cards": [
+    [
+     "Are you hurt?",
+     "ဒဏ်ရာ ရသလား။",
+     "The first question to someone who fell or had an accident.",
+     "Are you hurt? Can you stand up?",
+     "ဒဏ်ရာ ရသလား။ မတ်တပ် ရပ်နိုင်လား။"
+    ],
+    [
+     "Do you need help?",
+     "အကူအညီ လိုလား။",
+     "Offers help to someone who looks lost, ill or in trouble.",
+     "You look lost. Do you need help?",
+     "လမ်းပျောက်နေပုံ ရတယ်။ အကူအညီ လိုလား။"
+    ],
+    [
+     "I'll call for help.",
+     "အကူအညီ ခေါ်လိုက်မယ်။",
+     "Tells them you will phone or fetch someone.",
+     "Stay here. I'll call for help.",
+     "ဒီမှာ နေခဲ့။ အကူအညီ ခေါ်လိုက်မယ်။"
+    ],
+    [
+     "Help is on the way.",
+     "အကူအညီ လာနေပြီ။",
+     "Calms someone: the ambulance or police are coming.",
+     "Don't worry, help is on the way.",
+     "စိတ်မပူပါနဲ့၊ အကူအညီ လာနေပြီ။"
+    ],
+    [
+     "What's your address?",
+     "လိပ်စာ ဘာလဲ။",
+     "What the emergency service asks on the phone. Learn to say your own address in English.",
+     "— What's your address? — 12 Bogyoke Road, Mandalay.",
+     "— လိပ်စာ ဘာလဲ။ — ဗိုလ်ချုပ်လမ်း၊ အမှတ် ၁၂၊ မန္တလေး။"
+    ]
+   ]
+  }
+ ]
+}

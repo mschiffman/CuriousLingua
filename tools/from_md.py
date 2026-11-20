@@ -61,7 +61,7 @@ EN: MY: FR: is a translation of the line above it.
     NOTE: ...                                       a note under the group
   Japanese: romaji | kana | meaning, and  say=<what the voice reads>  as one more field when needed.
 
-5. EXPRESSIONS (flashcards; English ones go in Speaking)                                        type: expressions
+5. EXPRESSIONS (flashcards)                                                                     type: expressions
     ## Everyday agreement | D'accord                a category: English title | title in the other language
     DESC: The basic yes to a plan or an opinion.
     FR: Je suis d'accord.                           a card
@@ -449,8 +449,6 @@ def plan(d, over, C):
         return None
     strands = C["courses"][course]["strands"]
     strand = f.get("strand", "").lower() or strand
-    if typ == "cards" and strand not in strands and "speaking" in strands:   # English expressions are in Speaking
-        strand = "speaking"
     if strand not in strands:
         d.err(0, f"{C['courses'][course]['name']} has no '{strand}' strand (it has: {', '.join(strands)}). Set 'strand:' in the header")
     page = f.get("page", "")

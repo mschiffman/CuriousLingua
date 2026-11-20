@@ -33,7 +33,7 @@
    "tagline": "Stories, pictures and everyday English, with Burmese when you need it.",
    "offline_url": "https://drive.google.com/drive/folders/1muLyAmx-wRvD1Fj1bXswh5zyvkpzlfKk?usp=sharing",
    "levels": ["pre-a1", "a1", "a2", "b1", "b2"],
-   "strands": ["reading", "listening", "speaking", "vocabulary", "grammar", "pronunciation"],
+   "strands": ["reading", "listening", "speaking", "vocabulary", "expressions", "grammar", "pronunciation"],
    "can": {
     "pre-a1": "Know the letters and sounds, and your first words.",
     "a1": "Talk about yourself, your family, school, animals and food.",

@@ -42,17 +42,17 @@ for (const f of fs.readdirSync(path.join(SRC, "fr/expression"))) {
     aud_dir: rel(d.AUD_DIR), aud_ext: d.AUD_EXT, categories: d.categories, quiz: d.quiz, quizTags: d.quizTags });
   n.fr++;
 }
-// ---- English expressions (the Speaking strand)
+// ---- English expressions
 const EN_ORDER = "greet_goodbye thank apology exclamation not_understanding ask offer_accept polite_refusal likes_dislikes opinion agree_disagree small_talk wishes_celebrations invitations comfort compliments advice directions shopping restaurant phone health classroom emergency".split(" ");
 for (const f of fs.readdirSync(path.join(SRC, "eng/expressions"))) {
   if (!f.endsWith(".html") || /_quiz/.test(f)) continue;
   const html = fs.readFileSync(path.join(SRC, "eng/expressions", f), "utf8"), d = data(html);
   if (!d || !d.categories) continue;
   const slug = f.slice(0, -5), i = EN_ORDER.indexOf(slug);
-  write("eng", "speaking", slug, {
+  write("eng", "expressions", slug, {
     title: text((html.match(/<h1[\s\S]*?<\/h1>/) || [""])[0]), subtitle: text((html.match(/<\/h1>\s*(<p[\s\S]*?<\/p>)/) || ["", ""])[1]),
     level: i >= 0 && i < 9 ? "a1" : "a2", level_provisional: true, order: i < 0 ? 99 : i + 1,
-    strand: "speaking", topic: "Everyday expressions", type: "cards", legacy: "eng/expressions/" + f,
+    strand: "expressions", topic: "Everyday expressions", type: "cards", legacy: "eng/expressions/" + f,
     aud_dir: rel(d.AUD_DIR), aud_ext: d.AUD_EXT, categories: d.categories, quiz: d.quiz, quizTags: d.quizTags });
   n.en++;
 }
