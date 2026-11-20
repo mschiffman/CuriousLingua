@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les gens : image à explorer | French</title>
+<link rel="icon" href="../../assets/img/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/site.css?v=36815b8b">
+<script>(function(d){var c=navigator.connection;if(matchMedia("(prefers-reduced-motion: reduce)").matches||(c&&(c.saveData||/2g|3g/.test(c.effectiveType||"")))){d.classList.add("lite");return}d.classList.add("motion");setTimeout(function(){if(!window.__motion)d.classList.remove("motion")},3000)})(document.documentElement)</script>
+<style>
+.wl-hero{display:block;width:100%;max-height:24rem;object-fit:contain;border:1px solid #E4DCCF;border-radius:1rem;background:#fff}
+.wl-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr))}
+.wl-row{display:flex;align-items:center;gap:.75rem;text-align:left;border:1px solid #E4DCCF;background:#fff;border-radius:1rem;padding:.6rem .8rem;transition:border-color .15s}
+.wl-row:hover,.wl-on{border-color:rgb(var(--accent))}
+.wl-fr{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:.15rem .5rem;font-size:1.15rem}
+.wl-g{font-size:.7rem;font-weight:700;text-transform:uppercase;line-height:1.5;color:rgb(var(--accent));border:1px solid rgb(var(--accent)/.3);background:rgb(var(--accent)/.1);border-radius:999px;padding:0 .45rem}
+.wl-ipa{font-size:.9rem;color:#5B6475}
+.wl-en{color:#5B6475;text-align:right;max-width:45%}
+.wl-note{margin-top:.6rem;border-left:3px solid rgb(var(--accent)/.5);background:rgb(var(--accent)/.06);border-radius:.5rem;padding:.5rem .75rem;font-size:.95rem}
+.wl-opts{display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr))}
+.wl-opts .btn{min-height:3.25rem;font-size:1rem;white-space:normal}
+.wl-wrong{border-color:#B3261E;color:#B3261E}
+.hs-stage{position:relative;border-radius:1rem;overflow:hidden;border:1px solid #E4DCCF;background:#fff;line-height:0}
+.hs-stage img{width:100%;height:auto;display:block}
+.hs-dot{position:absolute;width:2.25rem;height:2.25rem;margin:-1.125rem 0 0 -1.125rem;padding:0;border:0;border-radius:999px;background:rgb(255 255 255/.6);cursor:pointer;display:grid;place-items:center;transition:transform .15s,background .15s}
+.hs-dot::after{content:"";width:.7rem;height:.7rem;border-radius:999px;background:#D7372C;box-shadow:0 0 0 2px #fff}
+.hs-dot:hover{transform:scale(1.15)}
+.hs-on{background:rgb(var(--accent)/.4)}.hs-on::after{background:rgb(var(--accent))}
+.hs-good{background:rgb(27 117 80/.4)}.hs-good::after{background:#1B7550}
+.hs-bad{background:rgb(179 38 30/.5);animation:hs-shake .3s}
+@keyframes hs-shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.hs-thumbs{display:flex;gap:.5rem;overflow-x:auto;padding-bottom:.25rem}
+.hs-thumb{flex:none;width:5.5rem;padding:0;border:2px solid #E4DCCF;border-radius:.6rem;overflow:hidden;background:#fff;line-height:0;cursor:pointer}
+.hs-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.hs-thumb-on{border-color:rgb(var(--accent))}
+@media (max-width:480px){.hs-dot{width:1.75rem;height:1.75rem;margin:-.875rem 0 0 -.875rem}.wl-en{max-width:40%}}
+@media (prefers-reduced-motion:reduce){.hs-bad{animation:none}.hs-dot,.wl-row{transition:none}}
+</style>
+</head>
+<body class="site" data-course="fr">
+<header class="sticky top-0 z-30 shrink-0 border-b border-line bg-paper/95 backdrop-blur" data-nav>
+<div class="wrap flex h-12 items-center gap-2 sm:h-14">
+<a href="../../index.html" class="mr-2 font-display text-xl font-semibold tracking-tight">Languages</a>
+<nav class="hidden items-center gap-0.5 text-sm sm:flex" aria-label="Courses"><a href="../../fr/index.html" data-course="fr" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent bg-accent/10 text-accent">French</a><a href="../../eng/index.html" data-course="eng" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">English</a><a href="../../jap/index.html" data-course="jap" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Japanese</a><a href="../../kor/index.html" data-course="kor" class="rounded-lg px-2.5 py-1.5 font-bold hover:bg-accent/10 hover:text-accent">Korean</a></nav>
+<details class="relative ml-auto sm:hidden">
+<summary class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-line bg-card [&::-webkit-details-marker]:hidden" aria-label="Menu">
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+<nav class="absolute right-0 top-11 z-40 max-h-[75dvh] w-64 overflow-y-auto rounded-2xl border border-line bg-card p-2 text-base shadow-lg" aria-label="Menu"><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="fr" href="../../fr/index.html"><b>French</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="eng" href="../../eng/index.html"><b>English</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="jap" href="../../jap/index.html"><b>Japanese</b></a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" data-course="kor" href="../../kor/index.html"><b>Korean</b></a><div class="rule my-2"></div><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/reading/index.html">Reading</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/listening/index.html">Listening</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/speaking/index.html">Speaking</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/expressions/index.html">Expressions</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/grammar/index.html">Grammar</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/pronunciation/index.html">Pronunciation</a><a class="block rounded-lg px-3 py-2 hover:bg-accent/10 hover:text-accent" href="../../fr/fundamentals/index.html">Fundamentals</a></nav>
+</details>
+</div><div class="hidden border-t border-line sm:block"><div class="wrap flex gap-1 overflow-x-auto py-1.5 text-sm"><a href="../../fr/reading/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Reading</a><a href="../../fr/listening/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Listening</a><a href="../../fr/speaking/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Speaking</a><a href="../../fr/vocabulary/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Vocabulary</a><a href="../../fr/expressions/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Expressions</a><a href="../../fr/grammar/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Grammar</a><a href="../../fr/pronunciation/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Pronunciation</a><a href="../../fr/fundamentals/index.html" class="whitespace-nowrap rounded-lg px-2.5 py-1 text-muted hover:bg-accent/10 hover:text-accent">Fundamentals</a></div></div></header>
+<main class="wrap py-6 sm:py-10">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../fr/index.html">French</a><span>/</span><a class="hover:text-accent" href="../../fr/vocabulary/index.html">Vocabulary</a></nav>
+<a class="btn mt-4 py-1.5" data-nav href="../../fr/vocabulary/people_hair.html">&larr; Les cheveux et les yeux</a>
+<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip chip-accent">A1</span></div>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Les gens : image à explorer</h1>
+<p class="mt-2 text-xl text-muted" data-reveal>Tap the dots, then take the quiz</p>
+<p class="mt-3 max-w-2xl text-muted" data-reveal>Explore: tap a dot to see the words. Quiz: a description is asked, tap where it is in the picture.</p>
+
+<section x-data="hotspots" class="mt-6">
+<div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-2">
+<button class="btn" :class="mode === 'explore' && 'btn-on'" @click="setMode('explore')">Explore</button>
+<button class="btn" :class="mode === 'quiz' && 'btn-on'" @click="setMode('quiz')">Quiz</button>
+<span class="ml-auto"></span>
+<button class="btn px-3" :disabled="i === 0" :class="i === 0 && 'opacity-40'" @click="go(i - 1)" aria-label="Previous picture">&larr;</button>
+<span class="text-sm font-bold text-muted" x-text="(i + 1) + ' / ' + slides.length"></span>
+<button class="btn px-3" :disabled="i === slides.length - 1" :class="i === slides.length - 1 && 'opacity-40'" @click="go(i + 1)" aria-label="Next picture">&rarr;</button>
+</div>
+<div class="hs-thumbs mt-3"><template x-for="(s, k) in slides" :key="k"><button class="hs-thumb" :class="k === i && 'hs-thumb-on'" @click="go(k)" :aria-label="'Picture ' + (k + 1)"><img :src="src(s.img)" alt=""></button></template></div>
+
+<div x-show="mode === 'quiz'" x-cloak class="mt-4 rounded-2xl border border-line bg-card p-4" style="min-height:4.75rem">
+<div x-show="target" class="flex flex-wrap items-center gap-3">
+<button class="play small" @click="hear(target)" aria-label="Hear the word"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<p class="text-xl"><span class="text-muted">Trouvez&nbsp;:</span> <b lang="fr" x-show="!listen" x-text="target && target.fr"></b><span x-show="listen" x-cloak class="text-muted">&bull; &bull; &bull;</span></p>
+<span class="ml-auto text-sm font-bold text-muted" x-text="done.length + ' / ' + slide.spots.length"></span>
+<button class="btn py-1.5" :class="listen && 'btn-on'" @click="listen = !listen">Listen only</button>
+</div>
+<div x-show="!target" x-cloak class="flex flex-wrap items-center gap-3">
+<p class="text-xl font-semibold" x-text="'Bravo ! ' + first + ' / ' + slide.spots.length + ' du premier coup'"></p>
+<span class="ml-auto"></span>
+<button class="btn" @click="startQuiz()">Again</button>
+<button class="btn btn-primary" x-show="i < slides.length - 1" @click="go(i + 1)">Next picture &rarr;</button>
+</div>
+<p x-show="last" x-cloak class="mt-2 text-sm text-muted"><span class="font-bold text-good">&#10003;</span> <b lang="fr" x-text="last && last.fr"></b> <span x-text="last && last.en ? ' = ' + last.en : ''"></span></p>
+</div>
+
+<div class="hs-stage mt-4"><img :src="src(slide.img)" :alt="slide.alt || ''">
+<template x-for="(p, k) in slide.spots" :key="i + '-' + k"><button class="hs-dot" :class="dotClass(k)" :style="'left:' + p.x + '%;top:' + p.y + '%'" @click="tap(k)" :aria-label="mode === 'quiz' ? 'Dot ' + (k + 1) : p.fr"></button></template>
+</div>
+
+<div x-show="mode === 'explore'" class="mt-4 rounded-2xl border border-line bg-card p-4" style="min-height:4.75rem">
+<div x-show="pick" x-cloak class="flex flex-wrap items-center gap-3">
+<button class="play small" @click="hear(pick)" aria-label="Hear the word"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+<p class="text-2xl font-bold" lang="fr" x-text="pick && pick.fr"></p><span x-show="pick && pick.g" class="wl-g" x-text="pick && pick.g"></span><span class="text-muted" x-text="pick && pick.ipa"></span>
+<span class="ml-auto text-xl text-muted" x-text="pick && pick.en"></span>
+</div>
+<p x-show="!pick" class="text-muted">Tap a dot on the picture to see and hear the word.</p>
+</div>
+</section>
+
+
+<div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/vocabulary/people_hotspots')" data-nav>
+<button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
+<div class="mt-12 flex flex-wrap items-center gap-3" data-nav></div>
+</main>
+<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
+<span class="font-display text-base font-semibold text-ink">Languages</span>
+<span>Free for everyone. No account, no paywall.</span></div></footer>
+<script>window.ROOT="../../";window.MEDIA_BASE="https://languages.rmlives.com/";window.LESSON={"title":"Les gens : image à explorer","subtitle":"Tap the dots, then take the quiz","label":"Picture with hotspots","type":"hotspots","supplement_of":"people_hair","review":"Written by Claude for the A1 theme “family, people, descriptions”. No audio yet: record with `audio.py words`. Check the words, the IPA and the English.","intro":"Explore: tap a dot to see the words. Quiz: a description is asked, tap where it is in the picture.","glossary_dir":"lessons/noun/people/","slides":[{"img":"img/vocab/people.jpg","alt":"Six people in a row: a tall young woman with long blonde hair, a heavy man with a brown beard, a small old lady with curly grey hair and glasses, a very tall young man with curly black hair, a little girl with long red hair, and a tall, bald old man with a white moustache and glasses","spots":[{"x":10.6,"y":55,"fr":"une jeune femme","en":"a young woman"},{"x":27.7,"y":58,"fr":"un homme fort","en":"a heavily built man"},{"x":45,"y":60,"fr":"une vieille dame","en":"an old lady"},{"x":59.6,"y":50,"fr":"un jeune homme","en":"a young man"},{"x":74.2,"y":68,"fr":"une petite fille","en":"a little girl"},{"x":89,"y":55,"fr":"un vieux monsieur","en":"an old gentleman"}]},{"img":"img/vocab/people.jpg","alt":"Six people in a row: a tall young woman with long blonde hair, a heavy man with a brown beard, a small old lady with curly grey hair and glasses, a very tall young man with curly black hair, a little girl with long red hair, and a tall, bald old man with a white moustache and glasses","spots":[{"x":7.6,"y":36,"fr":"les cheveux longs et blonds","en":"long blonde hair"},{"x":10.6,"y":27.3,"fr":"les yeux bleus","en":"blue eyes"},{"x":27.7,"y":23.5,"fr":"les cheveux châtains","en":"chestnut, light brown hair"},{"x":27.7,"y":37,"fr":"une barbe","g":"f","ipa":"/baʀb/","en":"a beard"},{"x":45,"y":28.5,"fr":"les cheveux gris et frisés","en":"curly grey hair"},{"x":45,"y":37.3,"fr":"des lunettes","g":"f","ipa":"/lynɛt/","en":"glasses"},{"x":59.6,"y":12,"fr":"les cheveux noirs","en":"black hair"},{"x":59.6,"y":20,"fr":"les yeux marron","en":"brown eyes"},{"x":71.3,"y":55,"fr":"les cheveux roux","en":"red hair"},{"x":74.2,"y":48.7,"fr":"les yeux verts","en":"green eyes"},{"x":89,"y":16.5,"fr":"chauve","ipa":"/ʃov/","en":"bald"},{"x":89,"y":28.3,"fr":"une moustache","g":"f","ipa":"/mustaʃ/","en":"a moustache"}]}],"course":"fr","strand":"vocabulary","slug":"people_hotspots"};</script>
+<script src="../../assets/js/site.js?v=a1fa960c"></script>
+<script defer src="../../assets/js/alpine.min.js"></script>
+<script defer src="../../assets/vendor/gsap.min.js"></script>
+<script defer src="../../assets/vendor/ScrollTrigger.min.js"></script>
+<script defer src="../../assets/js/motion.js"></script>
+</body>
+</html>

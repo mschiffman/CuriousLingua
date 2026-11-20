@@ -1,0 +1,164 @@
+{
+ "title": "Les gens",
+ "subtitle": "People: man, woman, child, friend",
+ "level": "a1",
+ "topic": "People",
+ "order": 520,
+ "type": "words",
+ "review": "Written by Claude for the A1 theme “family, people, descriptions”. No audio yet: record with `audio.py words`. Check the words, the IPA and the English.",
+ "glossary_dir": "lessons/noun/people/",
+ "groups": [
+  {
+   "title": "Adultes et enfants",
+   "sub": "Adults and children",
+   "notes": [
+    "Une personne is always feminine, even for a man. Les gens is always plural.",
+    "Une fille is a girl and also a daughter; une femme is a woman and also a wife."
+   ],
+   "words": [
+    {
+     "fr": "un homme",
+     "g": "m",
+     "ipa": "/ɔm/",
+     "en": "a man"
+    },
+    {
+     "fr": "une femme",
+     "g": "f",
+     "ipa": "/fam/",
+     "en": "a woman"
+    },
+    {
+     "fr": "un garçon",
+     "g": "m",
+     "ipa": "/ɡaʀsɔ̃/",
+     "en": "a boy"
+    },
+    {
+     "fr": "une fille",
+     "g": "f",
+     "ipa": "/fij/",
+     "en": "a girl"
+    },
+    {
+     "fr": "un enfant",
+     "g": "m",
+     "ipa": "/ɑ̃fɑ̃/",
+     "en": "a child"
+    },
+    {
+     "fr": "un bébé",
+     "g": "m",
+     "ipa": "/bebe/",
+     "en": "a baby"
+    },
+    {
+     "fr": "un adolescent / une adolescente",
+     "ipa": "/adɔlesɑ̃/",
+     "en": "a teenager"
+    },
+    {
+     "fr": "un adulte",
+     "g": "m",
+     "ipa": "/adylt/",
+     "en": "an adult"
+    },
+    {
+     "fr": "une personne",
+     "g": "f",
+     "ipa": "/pɛʀsɔn/",
+     "en": "a person"
+    },
+    {
+     "fr": "les gens",
+     "g": "m",
+     "ipa": "/ʒɑ̃/",
+     "en": "people"
+    }
+   ]
+  },
+  {
+   "title": "Monsieur, madame",
+   "sub": "Polite words for people",
+   "notes": [
+    "In a shop or in the street, people add monsieur or madame to bonjour, merci and excusez-moi."
+   ],
+   "words": [
+    {
+     "fr": "monsieur",
+     "ipa": "/məsjø/",
+     "en": "sir, Mr"
+    },
+    {
+     "fr": "madame",
+     "ipa": "/madam/",
+     "en": "madam, Mrs, Ms"
+    },
+    {
+     "fr": "un monsieur",
+     "g": "m",
+     "en": "a gentleman"
+    },
+    {
+     "fr": "une dame",
+     "g": "f",
+     "ipa": "/dam/",
+     "en": "a lady"
+    },
+    {
+     "fr": "Bonjour, madame.",
+     "en": "Hello. (to a woman)"
+    },
+    {
+     "fr": "Excusez-moi, monsieur.",
+     "en": "Excuse me. (to a man)"
+    }
+   ]
+  },
+  {
+   "title": "Autour de moi",
+   "sub": "The people around me",
+   "notes": [
+    "Mon copain and ma copine also mean my boyfriend and my girlfriend."
+   ],
+   "words": [
+    {
+     "fr": "un ami / une amie",
+     "ipa": "/ami/",
+     "en": "a friend"
+    },
+    {
+     "fr": "un copain / une copine",
+     "ipa": "/kɔpɛ̃, kɔpin/",
+     "en": "a friend, a mate (everyday)"
+    },
+    {
+     "fr": "un voisin / une voisine",
+     "ipa": "/vwazɛ̃, vwazin/",
+     "en": "a neighbour"
+    },
+    {
+     "fr": "un collègue / une collègue",
+     "ipa": "/kɔlɛɡ/",
+     "en": "a colleague"
+    },
+    {
+     "fr": "C’est qui ?",
+     "en": "Who is that? (everyday)"
+    },
+    {
+     "fr": "Qui est-ce ?",
+     "en": "Who is it?"
+    },
+    {
+     "fr": "C’est mon ami Malik.",
+     "en": "That’s my friend Malik."
+    },
+    {
+     "fr": "C’est une amie.",
+     "en": "She’s a friend."
+    }
+   ]
+  }
+ ]
+}

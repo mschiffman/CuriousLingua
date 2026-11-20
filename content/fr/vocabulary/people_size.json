@@ -1,0 +1,164 @@
+{
+ "title": "Grand ou petit ?",
+ "subtitle": "Describing people: height, build and age",
+ "level": "a1",
+ "topic": "People",
+ "order": 521,
+ "type": "words",
+ "review": "Written by Claude for the A1 theme “family, people, descriptions”. No audio yet: record with `audio.py words`. Check the words, the IPA and the English.",
+ "img": "img/vocab/people.jpg",
+ "img_alt": "Six people in a row: a tall young woman with long blonde hair, a heavy man with a brown beard, a small old lady with curly grey hair and glasses, a very tall young man with curly black hair, a little girl with long red hair, and a tall, bald old man with a white moustache and glasses",
+ "glossary_dir": "lessons/noun/people/",
+ "groups": [
+  {
+   "title": "La taille et le corps",
+   "sub": "Height and build",
+   "notes": [
+    "The feminine usually adds -e, and the last consonant is then heard: grand /ɡʀɑ̃/, grande /ɡʀɑ̃d/.",
+    "Gros is blunt about a person. Fort is the kinder word."
+   ],
+   "words": [
+    {
+     "fr": "grand / grande",
+     "ipa": "/ɡʀɑ̃, ɡʀɑ̃d/",
+     "en": "tall"
+    },
+    {
+     "fr": "petit / petite",
+     "ipa": "/p(ə)ti, p(ə)tit/",
+     "en": "short, small"
+    },
+    {
+     "fr": "mince",
+     "ipa": "/mɛ̃s/",
+     "en": "slim"
+    },
+    {
+     "fr": "gros / grosse",
+     "ipa": "/ɡʀo, ɡʀos/",
+     "en": "fat, big"
+    },
+    {
+     "fr": "fort / forte",
+     "ipa": "/fɔʀ, fɔʀt/",
+     "en": "strong, heavily built"
+    },
+    {
+     "fr": "de taille moyenne",
+     "en": "of medium height"
+    }
+   ]
+  },
+  {
+   "title": "L’âge",
+   "sub": "Age",
+   "notes": [
+    "Âgé is more polite than vieux for a person."
+   ],
+   "words": [
+    {
+     "fr": "jeune",
+     "ipa": "/ʒœn/",
+     "en": "young"
+    },
+    {
+     "fr": "vieux / vieille",
+     "ipa": "/vjø, vjɛj/",
+     "en": "old"
+    },
+    {
+     "fr": "âgé / âgée",
+     "ipa": "/ɑʒe/",
+     "en": "elderly"
+    },
+    {
+     "fr": "une personne âgée",
+     "en": "an elderly person"
+    },
+    {
+     "fr": "Il a quel âge ?",
+     "en": "How old is he?"
+    },
+    {
+     "fr": "Elle a vingt-cinq ans.",
+     "en": "She is twenty-five."
+    },
+    {
+     "fr": "Il a environ quarante ans.",
+     "en": "He is about forty."
+    }
+   ]
+  },
+  {
+   "title": "Beau, belle",
+   "sub": "Good-looking",
+   "words": [
+    {
+     "fr": "beau / belle",
+     "ipa": "/bo, bɛl/",
+     "en": "handsome, beautiful"
+    },
+    {
+     "fr": "joli / jolie",
+     "ipa": "/ʒɔli/",
+     "en": "pretty"
+    },
+    {
+     "fr": "mignon / mignonne",
+     "ipa": "/miɲɔ̃, miɲɔn/",
+     "en": "cute"
+    }
+   ]
+  },
+  {
+   "title": "Il est …, elle est …",
+   "sub": "Describing with être",
+   "notes": [
+    "Height, build and age take être: Il est grand.",
+    "Most adjectives follow the noun, but petit, grand, jeune, vieux, beau and joli go before it: une petite fille, un jeune homme."
+   ],
+   "words": [
+    {
+     "fr": "Il est comment ?",
+     "en": "What does he look like?"
+    },
+    {
+     "fr": "Elle est comment ?",
+     "en": "What does she look like?"
+    },
+    {
+     "fr": "Il est grand et mince.",
+     "en": "He is tall and slim."
+    },
+    {
+     "fr": "Elle est petite.",
+     "en": "She is short."
+    },
+    {
+     "fr": "Elle est jeune.",
+     "en": "She is young."
+    },
+    {
+     "fr": "Il est assez fort.",
+     "en": "He is quite heavily built."
+    },
+    {
+     "fr": "Elle est très âgée.",
+     "en": "She is very old."
+    },
+    {
+     "fr": "C’est une petite fille.",
+     "en": "She’s a little girl."
+    },
+    {
+     "fr": "C’est un vieux monsieur.",
+     "en": "He’s an old gentleman."
+    },
+    {
+     "fr": "C’est une jeune femme.",
+     "en": "She’s a young woman."
+    }
+   ]
+  }
+ ]
+}

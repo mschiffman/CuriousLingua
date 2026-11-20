@@ -1,0 +1,139 @@
+{
+ "title": "Les gens : image à explorer",
+ "subtitle": "Tap the dots, then take the quiz",
+ "label": "Picture with hotspots",
+ "type": "hotspots",
+ "supplement_of": "people_hair",
+ "review": "Written by Claude for the A1 theme “family, people, descriptions”. No audio yet: record with `audio.py words`. Check the words, the IPA and the English.",
+ "intro": "Explore: tap a dot to see the words. Quiz: a description is asked, tap where it is in the picture.",
+ "glossary_dir": "lessons/noun/people/",
+ "slides": [
+  {
+   "img": "img/vocab/people.jpg",
+   "alt": "Six people in a row: a tall young woman with long blonde hair, a heavy man with a brown beard, a small old lady with curly grey hair and glasses, a very tall young man with curly black hair, a little girl with long red hair, and a tall, bald old man with a white moustache and glasses",
+   "spots": [
+    {
+     "x": 10.6,
+     "y": 55,
+     "fr": "une jeune femme",
+     "en": "a young woman"
+    },
+    {
+     "x": 27.7,
+     "y": 58,
+     "fr": "un homme fort",
+     "en": "a heavily built man"
+    },
+    {
+     "x": 45,
+     "y": 60,
+     "fr": "une vieille dame",
+     "en": "an old lady"
+    },
+    {
+     "x": 59.6,
+     "y": 50,
+     "fr": "un jeune homme",
+     "en": "a young man"
+    },
+    {
+     "x": 74.2,
+     "y": 68,
+     "fr": "une petite fille",
+     "en": "a little girl"
+    },
+    {
+     "x": 89,
+     "y": 55,
+     "fr": "un vieux monsieur",
+     "en": "an old gentleman"
+    }
+   ]
+  },
+  {
+   "img": "img/vocab/people.jpg",
+   "alt": "Six people in a row: a tall young woman with long blonde hair, a heavy man with a brown beard, a small old lady with curly grey hair and glasses, a very tall young man with curly black hair, a little girl with long red hair, and a tall, bald old man with a white moustache and glasses",
+   "spots": [
+    {
+     "x": 7.6,
+     "y": 36,
+     "fr": "les cheveux longs et blonds",
+     "en": "long blonde hair"
+    },
+    {
+     "x": 10.6,
+     "y": 27.3,
+     "fr": "les yeux bleus",
+     "en": "blue eyes"
+    },
+    {
+     "x": 27.7,
+     "y": 23.5,
+     "fr": "les cheveux châtains",
+     "en": "chestnut, light brown hair"
+    },
+    {
+     "x": 27.7,
+     "y": 37,
+     "fr": "une barbe",
+     "g": "f",
+     "ipa": "/baʀb/",
+     "en": "a beard"
+    },
+    {
+     "x": 45,
+     "y": 28.5,
+     "fr": "les cheveux gris et frisés",
+     "en": "curly grey hair"
+    },
+    {
+     "x": 45,
+     "y": 37.3,
+     "fr": "des lunettes",
+     "g": "f",
+     "ipa": "/lynɛt/",
+     "en": "glasses"
+    },
+    {
+     "x": 59.6,
+     "y": 12,
+     "fr": "les cheveux noirs",
+     "en": "black hair"
+    },
+    {
+     "x": 59.6,
+     "y": 20,
+     "fr": "les yeux marron",
+     "en": "brown eyes"
+    },
+    {
+     "x": 71.3,
+     "y": 55,
+     "fr": "les cheveux roux",
+     "en": "red hair"
+    },
+    {
+     "x": 74.2,
+     "y": 48.7,
+     "fr": "les yeux verts",
+     "en": "green eyes"
+    },
+    {
+     "x": 89,
+     "y": 16.5,
+     "fr": "chauve",
+     "ipa": "/ʃov/",
+     "en": "bald"
+    },
+    {
+     "x": 89,
+     "y": 28.3,
+     "fr": "une moustache",
+     "g": "f",
+     "ipa": "/mustaʃ/",
+     "en": "a moustache"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "title": "Parler de sa famille",
+ "subtitle": "Talking about your own family",
+ "level": "a1",
+ "topic": "Family",
+ "order": 510,
+ "type": "words",
+ "review": "Written by Claude for the A1 theme “family, people, descriptions”. No audio yet: record with `audio.py words`. Check the words, the IPA and the English.",
+ "glossary_dir": "lessons/noun/famille/",
+ "groups": [
+  {
+   "title": "Frères et sœurs",
+   "sub": "Brothers and sisters",
+   "notes": [
+    "After a negative, un, une and des become de: J’ai une sœur, but Je n’ai pas de sœur."
+   ],
+   "words": [
+    {
+     "fr": "Tu as des frères et sœurs ?",
+     "en": "Do you have brothers and sisters?"
+    },
+    {
+     "fr": "J’ai un frère et une sœur.",
+     "en": "I have a brother and a sister."
+    },
+    {
+     "fr": "J’ai deux frères.",
+     "en": "I have two brothers."
+    },
+    {
+     "fr": "Je n’ai pas de sœur.",
+     "en": "I don’t have a sister."
+    },
+    {
+     "fr": "Je suis fils unique.",
+     "en": "I’m an only child. (a man or boy)"
+    },
+    {
+     "fr": "Je suis fille unique.",
+     "en": "I’m an only child. (a woman or girl)"
+    },
+    {
+     "fr": "Mon frère est plus âgé que moi.",
+     "en": "My brother is older than me."
+    },
+    {
+     "fr": "Ma sœur est plus jeune que moi.",
+     "en": "My sister is younger than me."
+    }
+   ]
+  },
+  {
+   "title": "Mon, ma, mes",
+   "sub": "My",
+   "notes": [
+    "Mon goes with a masculine word, ma with a feminine one, mes with a plural. It follows the family word, not the speaker: a woman also says mon père."
+   ],
+   "words": [
+    {
+     "fr": "mon père",
+     "en": "my father"
+    },
+    {
+     "fr": "ma mère",
+     "en": "my mother"
+    },
+    {
+     "fr": "mes parents",
+     "en": "my parents"
+    },
+    {
+     "fr": "mon frère",
+     "en": "my brother"
+    },
+    {
+     "fr": "ma sœur",
+     "en": "my sister"
+    },
+    {
+     "fr": "mes grands-parents",
+     "en": "my grandparents"
+    },
+    {
+     "fr": "mon mari",
+     "g": "m",
+     "ipa": "/maʀi/",
+     "en": "my husband"
+    },
+    {
+     "fr": "ma femme",
+     "g": "f",
+     "ipa": "/fam/",
+     "en": "my wife"
+    },
+    {
+     "fr": "mes enfants",
+     "en": "my children"
+    }
+   ]
+  },
+  {
+   "title": "Présenter quelqu’un",
+   "sub": "Introducing a relative",
+   "notes": [
+    "Age takes avoir: Elle a huit ans, never “Elle est huit ans”."
+   ],
+   "words": [
+    {
+     "fr": "Voici ma mère.",
+     "en": "This is my mother."
+    },
+    {
+     "fr": "C’est mon frère.",
+     "en": "That’s my brother."
+    },
+    {
+     "fr": "Il s’appelle Thomas.",
+     "en": "His name is Thomas."
+    },
+    {
+     "fr": "Elle s’appelle Manon.",
+     "en": "Her name is Manon."
+    },
+    {
+     "fr": "Elle a huit ans.",
+     "en": "She is eight."
+    },
+    {
+     "fr": "Il habite à Lyon.",
+     "en": "He lives in Lyon."
+    },
+    {
+     "fr": "Ce sont mes parents.",
+     "en": "These are my parents."
+    }
+   ]
+  },
+  {
+   "title": "Ma situation",
+   "sub": "My situation",
+   "words": [
+    {
+     "fr": "Tu es marié ?",
+     "en": "Are you married? (to a man)"
+    },
+    {
+     "fr": "Je suis marié.",
+     "en": "I’m married. (a man)"
+    },
+    {
+     "fr": "Je suis mariée.",
+     "en": "I’m married. (a woman)"
+    },
+    {
+     "fr": "Je suis célibataire.",
+     "en": "I’m single."
+    },
+    {
+     "fr": "J’ai deux enfants.",
+     "en": "I have two children."
+    },
+    {
+     "fr": "Je n’ai pas d’enfants.",
+     "en": "I don’t have children."
+    },
+    {
+     "fr": "Nous sommes cinq dans ma famille.",
+     "en": "There are five of us in my family."
+    }
+   ]
+  }
+ ]
+}
