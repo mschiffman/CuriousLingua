@@ -93,6 +93,7 @@ A lesson is written `course/strand/slug`, for example `fr/listening/home_pantry_
 | `python -E tools\audio.py make <lesson> --only 3 4` | Make only clips 3 and 4 | **yes** |
 | `python -E tools\audio.py make <lesson> --redo 6 12` | New takes of clips 6 and 12. The old clips are moved aside, not deleted | **yes** |
 | `python -E tools\audio.py check <lesson>` | Whisper on every clip, compared with the text | no |
+| `python -E tools\audio.py trim <lesson>` | Cut the silence after the speech from clips made before the tool did it itself (`trim all` for every lesson, `--dry` only lists). New clips are trimmed when they are made. Old clips are moved to the raw-takes folder (`_untrimmed_…`). Then `upload` | no |
 | `python -E tools\audio.py upload <lesson>` | Send new or changed clips to R2, set the `?v=` tag, rebuild | no |
 | `python -E tools\audio.py balance` | Characters left. Fails with "401" if the API key cannot read the subscription | no |
 

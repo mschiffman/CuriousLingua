@@ -8,6 +8,8 @@
     python -E tools/audio.py check <lesson>          Whisper on every clip, compared with the text
     python -E tools/audio.py upload <lesson>         send new/changed clips to R2, set the ?v= tag, rebuild the page
                                                      (a text lesson: its one recording and glossary clips; the tag is "audio_ver")
+    python -E tools/audio.py trim <lesson>           cut the silence (and the breath) after the speech from clips made before the
+                                                     tool did that itself; `trim all` for every lesson, --dry only lists. Then `upload`
     python -E tools/audio.py balance                 ElevenLabs characters left
     python -E tools/audio.py words <word list>       record the words of a word list or hotspot page that have no clip yet (named files:
                                                      maison.mp3); --redo maison.mp3 for a new take. Then `upload` as usual
@@ -27,7 +29,7 @@ Voices and loudness per course: assets/data/voices.json.
 Needs ffmpeg and whisper; ELEVENLABS_API_KEY, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_ACCOUNT_ID
 (User environment variables); for upload, boto3 + truststore. Run with -E, not -I.
 """
-import base64, datetime, hashlib, json, os, re, shutil, subprocess, sys, tempfile, urllib.error, urllib.request
+import array, base64, datetime, math, hashlib, json, os, re, shutil, subprocess, sys, tempfile, urllib.error, urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lib
@@ -126,9 +128,40 @@ def lufs(path, chain):
     return float(re.findall(r"I:\s+(-?[\d.]+) LUFS", r.stderr)[-1])
 
 
+def speech_end(path):
+    """Where the speech of a take ends, in seconds, or None when there is no tail worth cutting.
+    ElevenLabs often adds a second of silence after a short line, sometimes with a breath in it, and Play all then
+    stalls between clips. A last burst of sound is not speech when it is very faint (27 dB under the loudest part),
+    or comes after a pause of 0.3 s and is still clearly quieter (12 dB under). The start is never touched: the
+    times of the shadowing chunks count from it."""
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", "16000", "-f", "s16le", "-"], capture_output=True).stdout
+    a, w = array.array("h", pcm[:len(pcm) // 2 * 2]), 320   # 20 ms windows
+    db = [20 * math.log10(max(1.0, math.sqrt(sum(x * x for x in a[i:i + w]) / w)) / 32768) for i in range(0, len(a) - w + 1, w)]
+    if not db:
+        return None
+    peak, runs = max(db), []
+    for i, x in enumerate(db):   # runs of sound: [first window, the window after the last]
+        if x > peak - 36:
+            if runs and runs[-1][1] == i:
+                runs[-1][1] = i + 1
+            else:
+                runs.append([i, i + 1])
+    while len(runs) > 1:
+        top, gap = max(db[runs[-1][0]:runs[-1][1]]), (runs[-1][0] - runs[-2][1]) * 0.02
+        if top < peak - 27 or (gap >= 0.3 and top < peak - 12):
+            runs.pop()
+        else:
+            break
+    end = runs[-1][1] * 0.02 + 0.15
+    return end if len(db) * 0.02 - end > 0.2 else None
+
+
 def level(src, dest, target, stereo):
     """loudnorm misses the target on short clips, so measure and apply the gain directly"""
     base = "pan=stereo|c0=c0|c1=c0,aresample=48000" if stereo else "aresample=44100"
+    end = speech_end(src)
+    if end:
+        base = f"atrim=end={end:.2f},afade=t=out:st={end - 0.06:.2f}:d=0.06," + base
     gain = target - lufs(src, base)
     for _ in range(3):   # the limiter shaves some loudness off; correct for it
         chain = f"{base},volume={gain:.2f}dB,alimiter=limit=0.891:level=false"
@@ -197,6 +230,40 @@ def make(L, only, redo):
     whisper(L, todo)
     left = missing(L)
     print(f"{L['id']}: {len(todo)} clip(s) made, {len(left)} still missing" + ("" if left else ". Next: upload."))
+
+
+def duration(path):
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path], capture_output=True, text=True)
+    return float(r.stdout.strip() or 0)
+
+
+def trim(L, dry=False):
+    """Level the clips again from their raw takes, now without the tail. Only clips that still have one; the old clip is moved aside."""
+    if L.get("aud_shared") or L.get("audio_file") or not L.get("aud_dir") or L["aud_dir"].startswith("http"):
+        return 0
+    v = VOICES[L["course"]]
+    media, raw = paths(L)
+    aside, done, no_raw = os.path.join(raw, "_untrimmed_" + datetime.datetime.now().strftime("%y%m%d-%H%M%S")), [], 0
+    for n in texts(L):
+        clip, rawf = lib.clip_file(L, n), os.path.join(raw, f"{n:02d}.mp3")
+        if not os.path.exists(clip):
+            continue
+        if not os.path.exists(rawf):
+            no_raw += 1
+            continue
+        end, was = speech_end(rawf), duration(clip)
+        if not end or was - end < 0.2:
+            continue
+        done.append(n)
+        if dry:
+            continue
+        os.makedirs(aside, exist_ok=True)
+        shutil.move(clip, os.path.join(aside, f"{n:02d}.mp3"))
+        level(rawf, clip, v["lufs"], stereo=L["course"] == "eng")
+        print(f"   {n:02d}.mp3  {was:5.2f} s -> {duration(clip):5.2f} s")
+    if done or no_raw:
+        print(f"{L['id']}: {len(done)} clip(s) {'to trim' if dry else 'trimmed'}" + (f", {no_raw} without a raw take (left alone)" if no_raw else "") + ("" if dry or not done else ". Next: upload."))
+    return len(done)
 
 
 def plain(s):
@@ -580,6 +647,12 @@ if __name__ == "__main__":
     elif a[0] == "check" and len(a) > 1:
         L = get(a[1])
         whisper(L, [n for n in texts(L) if n not in missing(L)])
+    elif a[0] == "trim" and len(a) > 1:
+        if a[1] == "all":
+            n = sum(trim(L, "--dry" in a) for L in lib.lessons())
+            print(f"{n} clip(s) in all")
+        else:
+            trim(get(a[1]), "--dry" in a)
     elif a[0] == "upload" and len(a) > 1:
         upload(get(a[1]))
     elif a[0] == "shadow" and len(a) > 1:
