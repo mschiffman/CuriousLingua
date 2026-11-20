@@ -17,6 +17,8 @@
     python -E tools/audio.py chunks <shadow lesson>  find each chunk inside its clip and write its "t": [start, end]. Uses no characters
     python -E tools/audio.py pages <story>           one clip per page of a picture story (p01.mp3 ...), read in one go, for Play page;
                                                      each chunk's place in it is written into the page. --redo 3 for a new take
+    python -E tools/audio.py narrate <reading text>  read a reading text in one take (its "audio_file"), time every sentence in it,
+                                                     and record its glossary words. --redo for a new take of the text
 
 <lesson> is course/strand/slug, e.g. fr/speaking/boulangerie.
 
@@ -448,6 +450,79 @@ def pages(L, redo=()):
     build.main()
 
 
+def narrate(L, redo=False):
+    """A reading text ("type": "text") read in one take: saved as its "audio_file" under media/, and each sentence gets
+    "t": [start, end] from the character times of that take, so the page plays and follows it sentence by sentence.
+    The glossary words that have no clip yet are recorded too, in the same voice (01.mp3 ... in "glossary_dir"; a word
+    may have "say": what the voice reads). --redo makes a new take of the text. Then `upload`, as for any reading text."""
+    if L.get("type") != "text" or not L.get("audio_file") or L["audio_file"].startswith("http"):
+        sys.exit(f'{L["id"]}: `narrate` is for a reading text with "audio_file" set, e.g. "lessons/read/asia/audio.mp3"')
+    v = VOICES[L["course"]]
+    voice, model = narrator(L)
+    dest = os.path.join(ROOT, "media", *L["audio_file"].split("/"))
+    raw = os.path.join(ROOT, "media", "elevenlabs-raw", os.path.dirname(L["audio_file"]).replace("/", "_"))
+    rawf, rawj = os.path.join(raw, "narration.mp3"), os.path.join(raw, "narration.json")
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    os.makedirs(raw, exist_ok=True)
+    doc = json.load(open(L["file"], encoding="utf-8"))
+    paras = doc["paragraphs"]
+    text = "\n\n".join(" ".join(lib.spoken(s["text"]) for s in p) for p in paras)   # a blank line between paragraphs: a longer pause
+    if not os.path.exists(dest) or redo:
+        if os.path.exists(dest):   # a new take: the old one is moved aside, not deleted
+            aside = os.path.join(raw, "_replaced_" + datetime.datetime.now().strftime("%y%m%d-%H%M%S"))
+            os.makedirs(aside, exist_ok=True)
+            for f in (dest, rawf, rawj):
+                if os.path.exists(f):
+                    shutil.move(f, os.path.join(aside, os.path.basename(f)))
+        tts(text, voice, model, rawf)
+        got = level(rawf, dest, v["lufs"], stereo=L["course"] == "eng")
+        print(f"{L['audio_file']} {got:6.1f} LUFS, {len(text)} characters, {duration(dest):.0f} s")
+    if not os.path.exists(rawj):
+        sys.exit("no character times were saved with this take: the sentences cannot be timed")
+    al = json.load(open(rawj, encoding="utf-8"))
+    line = []   # one (letter, start, end) per letter the voice said
+    for ch, a, b in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]):
+        line += [(x, a, b) for x in plain(ch)]
+    said, pos, found, lost = "".join(x[0] for x in line), 0, [], []
+    sents = [s for p in paras for s in p]
+    for s in sents:
+        want = plain(lib.spoken(s["text"]))
+        i = said.find(want, pos) if want else -1
+        if i < 0:
+            lost.append(s["text"])
+            s.pop("t", None)
+            continue
+        found.append((s, line[i][1], line[i + len(want) - 1][2]))
+        pos = i + len(want)
+    for k, (s, a, b) in enumerate(found):   # a little air around each sentence, but never into its neighbour
+        lo, hi = a - 0.1, b + 0.25
+        if k:
+            lo = max(lo, (found[k - 1][2] + a) / 2)
+        if k + 1 < len(found):
+            hi = min(hi, (b + found[k + 1][1]) / 2)
+        s["t"] = [round(max(lo, 0), 2), round(hi, 2)]
+    gd, made = L.get("glossary_dir", ""), 0
+    if gd and doc.get("glossary"):
+        gdir = os.path.join(ROOT, "media", *gd.strip("/").split("/"))
+        graw = os.path.join(ROOT, "media", "elevenlabs-raw", gd.strip("/").replace("/", "_"))
+        os.makedirs(gdir, exist_ok=True)
+        os.makedirs(graw, exist_ok=True)
+        for i, g in enumerate(doc["glossary"], 1):
+            name = g.get("audio") or f"{i:02d}.mp3"
+            if not os.path.exists(os.path.join(gdir, name)):
+                say = lib.spoken(g.get("say") or g["word"]).replace(" / ", ", ")
+                tts(say, voice, model, os.path.join(graw, name))
+                level(os.path.join(graw, name), os.path.join(gdir, name), v["lufs"], stereo=L["course"] == "eng")
+                made += 1
+            g["audio"] = name
+    open(L["file"], "w", encoding="utf-8", newline="\n").write(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
+    for x in lost:
+        print(f"   NOT FOUND in the take (no time): {x}")
+    print(f"{L['id']}: {len(found)} of {len(sents)} sentence(s) timed, {made} glossary clip(s) made. Listen, then: upload.")
+    import build
+    build.main()
+
+
 def shadow(L):
     """Drafts a shadowing lesson from a dialogue: each sentence becomes a chunk of its line's clip. No new takes."""
     if L.get("type") != "dialogue":
@@ -750,6 +825,8 @@ if __name__ == "__main__":
         chunks(get(a[1]))
     elif a[0] == "pages" and len(a) > 1:
         pages(get(a[1]), nums("--redo"))
+    elif a[0] == "narrate" and len(a) > 1:
+        narrate(get(a[1]), "--redo" in a)
     elif a[0] == "words" and len(a) > 1:
         words(get(a[1]), [x for x in a[a.index("--redo") + 1:]] if "--redo" in a else [])
     else:
