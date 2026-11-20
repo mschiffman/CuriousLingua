@@ -315,6 +315,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/routine",
+  "url": "fr/listening/routine.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "People",
+  "type": "dialogue",
+  "title": "La routine",
+  "clips": 17,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/saluer",
   "url": "fr/listening/saluer.html",
   "course": "fr",
