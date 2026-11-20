@@ -7,7 +7,7 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/alphabet/",
- "audio_ver": "2611200606",
+ "audio_ver": "2611201608",
  "voices": [
   "Ze3DkBwQ81dW3YYr1nbz"
  ],

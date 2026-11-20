@@ -7,7 +7,7 @@
  "type": "words",
  "review": "Split by Claude from the old long fundamentals page; items marked new in the commit were added. No audio yet: record with `audio.py words`. Check the IPA.",
  "glossary_dir": "lessons/fundamental/a1/accents/",
- "audio_ver": "2611200606",
+ "audio_ver": "2611201626",
  "voices": [
   "Ze3DkBwQ81dW3YYr1nbz"
  ],
@@ -24,48 +24,48 @@
      "fr": "é",
      "ipa": "/e/",
      "en": "e with an acute accent",
-     "say": "e accent aigu",
+     "say": "/ə aksɑ̃t‿eɡy/",
      "audio": "e_aigu.mp3"
     },
     {
      "fr": "è",
      "ipa": "/ɛ/",
      "en": "e with a grave accent",
-     "say": "e accent grave",
+     "say": "/ə aksɑ̃ ɡʁav/",
      "audio": "e_grave.mp3"
     },
     {
      "fr": "ê",
      "ipa": "/ɛ/",
      "en": "e with a circumflex",
-     "say": "e accent circonflexe",
+     "say": "/ə aksɑ̃ siʁkɔ̃flɛks/",
      "audio": "e_circonflexe.mp3"
     },
     {
      "fr": "ë",
      "en": "e with a diaeresis",
-     "say": "e tréma",
+     "say": "/ə tʁema/",
      "audio": "e_trema.mp3"
     },
     {
      "fr": "à",
      "ipa": "/a/",
      "en": "a with a grave accent",
-     "say": "a accent grave",
+     "say": "/a aksɑ̃ ɡʁav/",
      "audio": "a_grave.mp3"
     },
     {
      "fr": "ù",
      "ipa": "/y/",
      "en": "u with a grave accent",
-     "say": "u accent grave",
+     "say": "/y aksɑ̃ ɡʁav/",
      "audio": "u_grave.mp3"
     },
     {
      "fr": "ç",
      "ipa": "/s/",
      "en": "c with a cedilla",
-     "say": "c cédille",
+     "say": "/se sedij/",
      "audio": "c_cedille.mp3"
     },
     {
