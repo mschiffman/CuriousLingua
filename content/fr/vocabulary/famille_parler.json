@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude for the A1 theme “family, people, descriptions”. No audio yet: record with `audio.py words`. Check the words, the IPA and the English.",
  "glossary_dir": "lessons/noun/famille/",
+ "audio_ver": "2611200834",
+ "voices": [
+  "raorKQeRhtnNgyXX4Iqm"
+ ],
  "groups": [
   {
    "title": "Frères et sœurs",
@@ -17,35 +21,43 @@
    "words": [
     {
      "fr": "Tu as des frères et sœurs ?",
-     "en": "Do you have brothers and sisters?"
+     "en": "Do you have brothers and sisters?",
+     "audio": "tu_as_des_freres_et_soeurs.mp3"
     },
     {
      "fr": "J’ai un frère et une sœur.",
-     "en": "I have a brother and a sister."
+     "en": "I have a brother and a sister.",
+     "audio": "j_ai_un_frere_et_une_soeur.mp3"
     },
     {
      "fr": "J’ai deux frères.",
-     "en": "I have two brothers."
+     "en": "I have two brothers.",
+     "audio": "j_ai_deux_freres.mp3"
     },
     {
      "fr": "Je n’ai pas de sœur.",
-     "en": "I don’t have a sister."
+     "en": "I don’t have a sister.",
+     "audio": "je_n_ai_pas_de_soeur.mp3"
     },
     {
      "fr": "Je suis fils unique.",
-     "en": "I’m an only child. (a man or boy)"
+     "en": "I’m an only child. (a man or boy)",
+     "audio": "je_suis_fils_unique.mp3"
     },
     {
      "fr": "Je suis fille unique.",
-     "en": "I’m an only child. (a woman or girl)"
+     "en": "I’m an only child. (a woman or girl)",
+     "audio": "je_suis_fille_unique.mp3"
     },
     {
      "fr": "Mon frère est plus âgé que moi.",
-     "en": "My brother is older than me."
+     "en": "My brother is older than me.",
+     "audio": "mon_frere_est_plus_age_que_moi.mp3"
     },
     {
      "fr": "Ma sœur est plus jeune que moi.",
-     "en": "My sister is younger than me."
+     "en": "My sister is younger than me.",
+     "audio": "ma_soeur_est_plus_jeune_que_moi.mp3"
     }
    ]
   },
@@ -58,43 +70,52 @@
    "words": [
     {
      "fr": "mon père",
-     "en": "my father"
+     "en": "my father",
+     "audio": "mon_pere.mp3"
     },
     {
      "fr": "ma mère",
-     "en": "my mother"
+     "en": "my mother",
+     "audio": "ma_mere.mp3"
     },
     {
      "fr": "mes parents",
-     "en": "my parents"
+     "en": "my parents",
+     "audio": "mes_parents.mp3"
     },
     {
      "fr": "mon frère",
-     "en": "my brother"
+     "en": "my brother",
+     "audio": "mon_frere.mp3"
     },
     {
      "fr": "ma sœur",
-     "en": "my sister"
+     "en": "my sister",
+     "audio": "ma_soeur.mp3"
     },
     {
      "fr": "mes grands-parents",
-     "en": "my grandparents"
+     "en": "my grandparents",
+     "audio": "mes_grands_parents.mp3"
     },
     {
      "fr": "mon mari",
      "g": "m",
      "ipa": "/maʀi/",
-     "en": "my husband"
+     "en": "my husband",
+     "audio": "mon_mari.mp3"
     },
     {
      "fr": "ma femme",
      "g": "f",
      "ipa": "/fam/",
-     "en": "my wife"
+     "en": "my wife",
+     "audio": "ma_femme.mp3"
     },
     {
      "fr": "mes enfants",
-     "en": "my children"
+     "en": "my children",
+     "audio": "mes_enfants.mp3"
     }
    ]
   },
@@ -107,31 +128,38 @@
    "words": [
     {
      "fr": "Voici ma mère.",
-     "en": "This is my mother."
+     "en": "This is my mother.",
+     "audio": "voici_ma_mere.mp3"
     },
     {
      "fr": "C’est mon frère.",
-     "en": "That’s my brother."
+     "en": "That’s my brother.",
+     "audio": "c_est_mon_frere.mp3"
     },
     {
      "fr": "Il s’appelle Thomas.",
-     "en": "His name is Thomas."
+     "en": "His name is Thomas.",
+     "audio": "il_s_appelle_thomas.mp3"
     },
     {
      "fr": "Elle s’appelle Manon.",
-     "en": "Her name is Manon."
+     "en": "Her name is Manon.",
+     "audio": "elle_s_appelle_manon.mp3"
     },
     {
      "fr": "Elle a huit ans.",
-     "en": "She is eight."
+     "en": "She is eight.",
+     "audio": "elle_a_huit_ans.mp3"
     },
     {
      "fr": "Il habite à Lyon.",
-     "en": "He lives in Lyon."
+     "en": "He lives in Lyon.",
+     "audio": "il_habite_a_lyon.mp3"
     },
     {
      "fr": "Ce sont mes parents.",
-     "en": "These are my parents."
+     "en": "These are my parents.",
+     "audio": "ce_sont_mes_parents.mp3"
     }
    ]
   },
@@ -141,31 +169,38 @@
    "words": [
     {
      "fr": "Tu es marié ?",
-     "en": "Are you married? (to a man)"
+     "en": "Are you married? (to a man)",
+     "audio": "tu_es_marie.mp3"
     },
     {
      "fr": "Je suis marié.",
-     "en": "I’m married. (a man)"
+     "en": "I’m married. (a man)",
+     "audio": "je_suis_marie.mp3"
     },
     {
      "fr": "Je suis mariée.",
-     "en": "I’m married. (a woman)"
+     "en": "I’m married. (a woman)",
+     "audio": "je_suis_mariee.mp3"
     },
     {
      "fr": "Je suis célibataire.",
-     "en": "I’m single."
+     "en": "I’m single.",
+     "audio": "je_suis_celibataire.mp3"
     },
     {
      "fr": "J’ai deux enfants.",
-     "en": "I have two children."
+     "en": "I have two children.",
+     "audio": "j_ai_deux_enfants.mp3"
     },
     {
      "fr": "Je n’ai pas d’enfants.",
-     "en": "I don’t have children."
+     "en": "I don’t have children.",
+     "audio": "je_n_ai_pas_d_enfants.mp3"
     },
     {
      "fr": "Nous sommes cinq dans ma famille.",
-     "en": "There are five of us in my family."
+     "en": "There are five of us in my family.",
+     "audio": "nous_sommes_cinq_dans_ma_famille.mp3"
     }
    ]
   }

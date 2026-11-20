@@ -9,6 +9,10 @@
  "img": "img/vocab/people.jpg",
  "img_alt": "Six people in a row: a tall young woman with long blonde hair, a heavy man with a brown beard, a small old lady with curly grey hair and glasses, a very tall young man with curly black hair, a little girl with long red hair, and a tall, bald old man with a white moustache and glasses",
  "glossary_dir": "lessons/noun/people/",
+ "audio_ver": "2611200835",
+ "voices": [
+  "raorKQeRhtnNgyXX4Iqm"
+ ],
  "groups": [
   {
    "title": "La couleur des cheveux",
@@ -21,35 +25,43 @@
      "fr": "les cheveux",
      "g": "m",
      "ipa": "/ʃ(ə)vø/",
-     "en": "hair"
+     "en": "hair",
+     "audio": "les_cheveux.mp3"
     },
     {
      "fr": "les cheveux blonds",
-     "en": "blonde hair"
+     "en": "blonde hair",
+     "audio": "les_cheveux_blonds.mp3"
     },
     {
      "fr": "les cheveux bruns",
-     "en": "dark brown hair"
+     "en": "dark brown hair",
+     "audio": "les_cheveux_bruns.mp3"
     },
     {
      "fr": "les cheveux châtains",
-     "en": "chestnut, light brown hair"
+     "en": "chestnut, light brown hair",
+     "audio": "les_cheveux_chatains.mp3"
     },
     {
      "fr": "les cheveux roux",
-     "en": "red hair"
+     "en": "red hair",
+     "audio": "les_cheveux_roux.mp3"
     },
     {
      "fr": "les cheveux noirs",
-     "en": "black hair"
+     "en": "black hair",
+     "audio": "les_cheveux_noirs.mp3"
     },
     {
      "fr": "les cheveux gris",
-     "en": "grey hair"
+     "en": "grey hair",
+     "audio": "les_cheveux_gris.mp3"
     },
     {
      "fr": "les cheveux blancs",
-     "en": "white hair"
+     "en": "white hair",
+     "audio": "les_cheveux_blancs.mp3"
     }
    ]
   },
@@ -59,32 +71,39 @@
    "words": [
     {
      "fr": "les cheveux longs",
-     "en": "long hair"
+     "en": "long hair",
+     "audio": "les_cheveux_longs.mp3"
     },
     {
      "fr": "les cheveux courts",
-     "en": "short hair"
+     "en": "short hair",
+     "audio": "les_cheveux_courts.mp3"
     },
     {
      "fr": "les cheveux mi-longs",
-     "en": "shoulder-length hair"
+     "en": "shoulder-length hair",
+     "audio": "les_cheveux_mi_longs.mp3"
     },
     {
      "fr": "les cheveux raides",
-     "en": "straight hair"
+     "en": "straight hair",
+     "audio": "les_cheveux_raides.mp3"
     },
     {
      "fr": "les cheveux frisés",
-     "en": "curly hair"
+     "en": "curly hair",
+     "audio": "les_cheveux_frises.mp3"
     },
     {
      "fr": "les cheveux ondulés",
-     "en": "wavy hair"
+     "en": "wavy hair",
+     "audio": "les_cheveux_ondules.mp3"
     },
     {
      "fr": "chauve",
      "ipa": "/ʃov/",
-     "en": "bald"
+     "en": "bald",
+     "audio": "chauve.mp3"
     }
    ]
   },
@@ -99,23 +118,28 @@
      "fr": "les yeux",
      "g": "m",
      "ipa": "/lez‿jø/",
-     "en": "eyes"
+     "en": "eyes",
+     "audio": "les_yeux.mp3"
     },
     {
      "fr": "les yeux bleus",
-     "en": "blue eyes"
+     "en": "blue eyes",
+     "audio": "les_yeux_bleus.mp3"
     },
     {
      "fr": "les yeux verts",
-     "en": "green eyes"
+     "en": "green eyes",
+     "audio": "les_yeux_verts.mp3"
     },
     {
      "fr": "les yeux marron",
-     "en": "brown eyes"
+     "en": "brown eyes",
+     "audio": "les_yeux_marron.mp3"
     },
     {
      "fr": "les yeux noirs",
-     "en": "dark eyes"
+     "en": "dark eyes",
+     "audio": "les_yeux_noirs.mp3"
     }
    ]
   },
@@ -127,23 +151,27 @@
      "fr": "une barbe",
      "g": "f",
      "ipa": "/baʀb/",
-     "en": "a beard"
+     "en": "a beard",
+     "audio": "une_barbe.mp3"
     },
     {
      "fr": "une moustache",
      "g": "f",
      "ipa": "/mustaʃ/",
-     "en": "a moustache"
+     "en": "a moustache",
+     "audio": "une_moustache.mp3"
     },
     {
      "fr": "des lunettes",
      "g": "f",
      "ipa": "/lynɛt/",
-     "en": "glasses"
+     "en": "glasses",
+     "audio": "des_lunettes.mp3"
     },
     {
      "fr": "des taches de rousseur",
-     "en": "freckles"
+     "en": "freckles",
+     "audio": "des_taches_de_rousseur.mp3"
     }
    ]
   },
@@ -156,27 +184,33 @@
    "words": [
     {
      "fr": "Elle a les cheveux longs et blonds.",
-     "en": "She has long blonde hair."
+     "en": "She has long blonde hair.",
+     "audio": "elle_a_les_cheveux_longs_et_blonds.mp3"
     },
     {
      "fr": "Il a les cheveux courts et noirs.",
-     "en": "He has short black hair."
+     "en": "He has short black hair.",
+     "audio": "il_a_les_cheveux_courts_et_noirs.mp3"
     },
     {
      "fr": "Elle a les yeux verts.",
-     "en": "She has green eyes."
+     "en": "She has green eyes.",
+     "audio": "elle_a_les_yeux_verts.mp3"
     },
     {
      "fr": "Il a une barbe.",
-     "en": "He has a beard."
+     "en": "He has a beard.",
+     "audio": "il_a_une_barbe.mp3"
     },
     {
      "fr": "Il porte des lunettes.",
-     "en": "He wears glasses."
+     "en": "He wears glasses.",
+     "audio": "il_porte_des_lunettes.mp3"
     },
     {
      "fr": "Il est chauve.",
-     "en": "He is bald."
+     "en": "He is bald.",
+     "audio": "il_est_chauve.mp3"
     }
    ]
   },
@@ -189,27 +223,33 @@
    "words": [
     {
      "fr": "Elle est blonde.",
-     "en": "She is blonde."
+     "en": "She is blonde.",
+     "audio": "elle_est_blonde.mp3"
     },
     {
      "fr": "Il est blond.",
-     "en": "He is blond."
+     "en": "He is blond.",
+     "audio": "il_est_blond.mp3"
     },
     {
      "fr": "Elle est brune.",
-     "en": "She has dark hair."
+     "en": "She has dark hair.",
+     "audio": "elle_est_brune.mp3"
     },
     {
      "fr": "Il est brun.",
-     "en": "He has dark hair."
+     "en": "He has dark hair.",
+     "audio": "il_est_brun.mp3"
     },
     {
      "fr": "Elle est rousse.",
-     "en": "She is a redhead."
+     "en": "She is a redhead.",
+     "audio": "elle_est_rousse.mp3"
     },
     {
      "fr": "Il est roux.",
-     "en": "He is a redhead."
+     "en": "He is a redhead.",
+     "audio": "il_est_roux.mp3"
     }
    ]
   }

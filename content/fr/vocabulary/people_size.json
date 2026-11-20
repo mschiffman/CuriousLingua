@@ -9,6 +9,10 @@
  "img": "img/vocab/people.jpg",
  "img_alt": "Six people in a row: a tall young woman with long blonde hair, a heavy man with a brown beard, a small old lady with curly grey hair and glasses, a very tall young man with curly black hair, a little girl with long red hair, and a tall, bald old man with a white moustache and glasses",
  "glossary_dir": "lessons/noun/people/",
+ "audio_ver": "2611200835",
+ "voices": [
+  "raorKQeRhtnNgyXX4Iqm"
+ ],
  "groups": [
   {
    "title": "La taille et le corps",
@@ -21,31 +25,37 @@
     {
      "fr": "grand / grande",
      "ipa": "/ɡʀɑ̃, ɡʀɑ̃d/",
-     "en": "tall"
+     "en": "tall",
+     "audio": "grand_grande.mp3"
     },
     {
      "fr": "petit / petite",
      "ipa": "/p(ə)ti, p(ə)tit/",
-     "en": "short, small"
+     "en": "short, small",
+     "audio": "petit_petite.mp3"
     },
     {
      "fr": "mince",
      "ipa": "/mɛ̃s/",
-     "en": "slim"
+     "en": "slim",
+     "audio": "mince.mp3"
     },
     {
      "fr": "gros / grosse",
      "ipa": "/ɡʀo, ɡʀos/",
-     "en": "fat, big"
+     "en": "fat, big",
+     "audio": "gros_grosse.mp3"
     },
     {
      "fr": "fort / forte",
      "ipa": "/fɔʀ, fɔʀt/",
-     "en": "strong, heavily built"
+     "en": "strong, heavily built",
+     "audio": "fort_forte.mp3"
     },
     {
      "fr": "de taille moyenne",
-     "en": "of medium height"
+     "en": "of medium height",
+     "audio": "de_taille_moyenne.mp3"
     }
    ]
   },
@@ -59,33 +69,40 @@
     {
      "fr": "jeune",
      "ipa": "/ʒœn/",
-     "en": "young"
+     "en": "young",
+     "audio": "jeune.mp3"
     },
     {
      "fr": "vieux / vieille",
      "ipa": "/vjø, vjɛj/",
-     "en": "old"
+     "en": "old",
+     "audio": "vieux_vieille.mp3"
     },
     {
      "fr": "âgé / âgée",
      "ipa": "/ɑʒe/",
-     "en": "elderly"
+     "en": "elderly",
+     "audio": "age_agee.mp3"
     },
     {
      "fr": "une personne âgée",
-     "en": "an elderly person"
+     "en": "an elderly person",
+     "audio": "une_personne_agee.mp3"
     },
     {
      "fr": "Il a quel âge ?",
-     "en": "How old is he?"
+     "en": "How old is he?",
+     "audio": "il_a_quel_age.mp3"
     },
     {
      "fr": "Elle a vingt-cinq ans.",
-     "en": "She is twenty-five."
+     "en": "She is twenty-five.",
+     "audio": "elle_a_vingt_cinq_ans.mp3"
     },
     {
      "fr": "Il a environ quarante ans.",
-     "en": "He is about forty."
+     "en": "He is about forty.",
+     "audio": "il_a_environ_quarante_ans.mp3"
     }
    ]
   },
@@ -96,17 +113,20 @@
     {
      "fr": "beau / belle",
      "ipa": "/bo, bɛl/",
-     "en": "handsome, beautiful"
+     "en": "handsome, beautiful",
+     "audio": "beau_belle.mp3"
     },
     {
      "fr": "joli / jolie",
      "ipa": "/ʒɔli/",
-     "en": "pretty"
+     "en": "pretty",
+     "audio": "joli_jolie.mp3"
     },
     {
      "fr": "mignon / mignonne",
      "ipa": "/miɲɔ̃, miɲɔn/",
-     "en": "cute"
+     "en": "cute",
+     "audio": "mignon_mignonne.mp3"
     }
    ]
   },
@@ -120,43 +140,53 @@
    "words": [
     {
      "fr": "Il est comment ?",
-     "en": "What does he look like?"
+     "en": "What does he look like?",
+     "audio": "il_est_comment.mp3"
     },
     {
      "fr": "Elle est comment ?",
-     "en": "What does she look like?"
+     "en": "What does she look like?",
+     "audio": "elle_est_comment.mp3"
     },
     {
      "fr": "Il est grand et mince.",
-     "en": "He is tall and slim."
+     "en": "He is tall and slim.",
+     "audio": "il_est_grand_et_mince.mp3"
     },
     {
      "fr": "Elle est petite.",
-     "en": "She is short."
+     "en": "She is short.",
+     "audio": "elle_est_petite.mp3"
     },
     {
      "fr": "Elle est jeune.",
-     "en": "She is young."
+     "en": "She is young.",
+     "audio": "elle_est_jeune.mp3"
     },
     {
      "fr": "Il est assez fort.",
-     "en": "He is quite heavily built."
+     "en": "He is quite heavily built.",
+     "audio": "il_est_assez_fort.mp3"
     },
     {
      "fr": "Elle est très âgée.",
-     "en": "She is very old."
+     "en": "She is very old.",
+     "audio": "elle_est_tres_agee.mp3"
     },
     {
      "fr": "C’est une petite fille.",
-     "en": "She’s a little girl."
+     "en": "She’s a little girl.",
+     "audio": "c_est_une_petite_fille.mp3"
     },
     {
      "fr": "C’est un vieux monsieur.",
-     "en": "He’s an old gentleman."
+     "en": "He’s an old gentleman.",
+     "audio": "c_est_un_vieux_monsieur.mp3"
     },
     {
      "fr": "C’est une jeune femme.",
-     "en": "She’s a young woman."
+     "en": "She’s a young woman.",
+     "audio": "c_est_une_jeune_femme.mp3"
     }
    ]
   }

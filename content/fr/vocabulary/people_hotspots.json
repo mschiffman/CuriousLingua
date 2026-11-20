@@ -7,6 +7,10 @@
  "review": "Written by Claude for the A1 theme “family, people, descriptions”. No audio yet: record with `audio.py words`. Check the words, the IPA and the English.",
  "intro": "Explore: tap a dot to see the words. Quiz: a description is asked, tap where it is in the picture.",
  "glossary_dir": "lessons/noun/people/",
+ "audio_ver": "2611200835",
+ "voices": [
+  "raorKQeRhtnNgyXX4Iqm"
+ ],
  "slides": [
   {
    "img": "img/vocab/people.jpg",
@@ -16,37 +20,43 @@
      "x": 10.6,
      "y": 55,
      "fr": "une jeune femme",
-     "en": "a young woman"
+     "en": "a young woman",
+     "audio": "une_jeune_femme.mp3"
     },
     {
      "x": 27.7,
      "y": 58,
      "fr": "un homme fort",
-     "en": "a heavily built man"
+     "en": "a heavily built man",
+     "audio": "un_homme_fort.mp3"
     },
     {
      "x": 45,
      "y": 60,
      "fr": "une vieille dame",
-     "en": "an old lady"
+     "en": "an old lady",
+     "audio": "une_vieille_dame.mp3"
     },
     {
      "x": 59.6,
      "y": 50,
      "fr": "un jeune homme",
-     "en": "a young man"
+     "en": "a young man",
+     "audio": "un_jeune_homme.mp3"
     },
     {
      "x": 74.2,
      "y": 68,
      "fr": "une petite fille",
-     "en": "a little girl"
+     "en": "a little girl",
+     "audio": "une_petite_fille.mp3"
     },
     {
      "x": 89,
      "y": 55,
      "fr": "un vieux monsieur",
-     "en": "an old gentleman"
+     "en": "an old gentleman",
+     "audio": "un_vieux_monsieur.mp3"
     }
    ]
   },
@@ -58,19 +68,22 @@
      "x": 7.6,
      "y": 36,
      "fr": "les cheveux longs et blonds",
-     "en": "long blonde hair"
+     "en": "long blonde hair",
+     "audio": "les_cheveux_longs_et_blonds.mp3"
     },
     {
      "x": 10.6,
      "y": 27.3,
      "fr": "les yeux bleus",
-     "en": "blue eyes"
+     "en": "blue eyes",
+     "audio": "les_yeux_bleus.mp3"
     },
     {
      "x": 27.7,
      "y": 23.5,
      "fr": "les cheveux châtains",
-     "en": "chestnut, light brown hair"
+     "en": "chestnut, light brown hair",
+     "audio": "les_cheveux_chatains.mp3"
     },
     {
      "x": 27.7,
@@ -78,13 +91,15 @@
      "fr": "une barbe",
      "g": "f",
      "ipa": "/baʀb/",
-     "en": "a beard"
+     "en": "a beard",
+     "audio": "une_barbe.mp3"
     },
     {
      "x": 45,
      "y": 28.5,
      "fr": "les cheveux gris et frisés",
-     "en": "curly grey hair"
+     "en": "curly grey hair",
+     "audio": "les_cheveux_gris_et_frises.mp3"
     },
     {
      "x": 45,
@@ -92,38 +107,44 @@
      "fr": "des lunettes",
      "g": "f",
      "ipa": "/lynɛt/",
-     "en": "glasses"
+     "en": "glasses",
+     "audio": "des_lunettes.mp3"
     },
     {
      "x": 59.6,
      "y": 12,
      "fr": "les cheveux noirs",
-     "en": "black hair"
+     "en": "black hair",
+     "audio": "les_cheveux_noirs.mp3"
     },
     {
      "x": 59.6,
      "y": 20,
      "fr": "les yeux marron",
-     "en": "brown eyes"
+     "en": "brown eyes",
+     "audio": "les_yeux_marron.mp3"
     },
     {
      "x": 71.3,
      "y": 55,
      "fr": "les cheveux roux",
-     "en": "red hair"
+     "en": "red hair",
+     "audio": "les_cheveux_roux.mp3"
     },
     {
      "x": 74.2,
      "y": 48.7,
      "fr": "les yeux verts",
-     "en": "green eyes"
+     "en": "green eyes",
+     "audio": "les_yeux_verts.mp3"
     },
     {
      "x": 89,
      "y": 16.5,
      "fr": "chauve",
      "ipa": "/ʃov/",
-     "en": "bald"
+     "en": "bald",
+     "audio": "chauve.mp3"
     },
     {
      "x": 89,
@@ -131,7 +152,8 @@
      "fr": "une moustache",
      "g": "f",
      "ipa": "/mustaʃ/",
-     "en": "a moustache"
+     "en": "a moustache",
+     "audio": "une_moustache.mp3"
     }
    ]
   }

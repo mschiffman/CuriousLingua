@@ -412,8 +412,9 @@ def words(L, redo=()):
     # "voices": a list of voice ids; each group of words is read by the next one in turn (a pair to compare stays in one voice)
     turn = doc.get("voices") or []
     todo = [(w, w.get("voice") or (turn[gi % len(turn)] if turn else v["voice"])) for gi, g in enumerate(doc.get("groups", [])) for w in g.get("words", [])]
-    todo += [(p, p.get("voice") or v["voice"]) for s in doc.get("slides", []) for p in s.get("spots", [])]
-    todo += [(t, t.get("voice") or v["voice"]) for t in doc.get("terms", {}).values()]   # a family tree: one clip per word
+    first = turn[0] if turn else v["voice"]   # hotspots and family terms: the lesson's first voice, unless a word has its own
+    todo += [(p, p.get("voice") or first) for s in doc.get("slides", []) for p in s.get("spots", [])]
+    todo += [(t, t.get("voice") or first) for t in doc.get("terms", {}).values()]   # a family tree: one clip per word
     numbered = L["course"] in ("jap", "kor") or doc.get("clip_names") == "number"   # romaji cannot name a file: obasan and obāsan would collide
     taken = {w["audio"] for w, _ in todo if w.get("audio")}
     for k, (w, voice) in enumerate(todo, 1):
