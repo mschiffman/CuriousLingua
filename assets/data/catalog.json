@@ -180,6 +180,21 @@
   "quiz": false
  },
  {
+  "id": "fr/reading/penguin",
+  "url": "fr/reading/penguin.html",
+  "course": "fr",
+  "strand": "reading",
+  "level": "b2",
+  "level_provisional": true,
+  "topic": "Nature",
+  "type": "text",
+  "title": "Le manchot qui défie l’hiver",
+  "clips": 0,
+  "images": 1,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/reading/sousTerre",
   "url": "fr/reading/sousTerre.html",
   "course": "fr",
