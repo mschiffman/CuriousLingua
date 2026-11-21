@@ -16,3 +16,6 @@ _archive/globe-src/
 
 # draft page, kept off the site
 fr/vocabulary/solar-system.html
+
+# podcast scripts and generated audio, kept local
+PODCAST/
