@@ -420,6 +420,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/manchot_conversation",
+  "url": "fr/listening/manchot_conversation.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "b2",
+  "level_provisional": true,
+  "topic": "Nature",
+  "type": "dialogue",
+  "title": "Le manchot empereur : un papa extraordinaire",
+  "clips": 60,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/matin",
   "url": "fr/listening/matin.html",
   "course": "fr",
