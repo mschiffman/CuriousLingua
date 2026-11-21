@@ -1,0 +1,329 @@
+{
+ "title": "Le cerveau et les langues : une histoire d’amour",
+ "subtitle": "Camille veut apprendre le japonais",
+ "level": "b1",
+ "topic": "Science",
+ "type": "dialogue",
+ "register": "familiar-standard, friendly (tu; franchement, génial)",
+ "related": [
+  "fr/reading/brain"
+ ],
+ "review": "Script by the user; reworked by Claude so that it reuses the wording and the glossary of fr/reading/brain. English lines, questions and notes by Claude: check them. Audio still to make.",
+ "intro": "Camille and Thomas talk about the brain: what it manages, how its parts work together, and what happens in it when you learn a language. It goes with the reading text « Le cerveau et les langues » and brings its words back in conversation. About three minutes.",
+ "start_hidden": true,
+ "steps": [
+  "Listen a first time without reading the dialogue, and try to answer the questions.",
+  "Then listen a second time with the text in front of you."
+ ],
+ "aud_dir": "fr/listening/cerveau_conversation/",
+ "aud_ext": "mp3?v=2611210556",
+ "speakers": {
+  "C": "Camille",
+  "T": "Thomas"
+ },
+ "voice": {
+  "C": "3YsdE1c1xyJow6Iy6jWB",
+  "T": "KKoLMp5NIRsM4N2KnhO9"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "C",
+   "text": "Thomas, tu sais quel est l’organe le plus étonnant du corps humain ?",
+   "tr": {
+    "en": "Thomas, do you know which is the most amazing organ in the human body?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Le cœur ? Il travaille jour et nuit !",
+   "tr": {
+    "en": "The heart? It works day and night!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Pas mal ! Mais je pensais au cerveau. Franchement, c’est un super-héros discret.",
+   "tr": {
+    "en": "Not bad! But I was thinking of the brain. Honestly, it’s a quiet superhero."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ah, bien sûr ! C’est lui qui gère presque tout ce qu’on fait.",
+   "tr": {
+    "en": "Ah, of course! It’s the one that manages almost everything we do."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Exactement ! Les émotions, les décisions, la coordination, la respiration…",
+   "tr": {
+    "en": "Exactly! Emotions, decisions, coordination, breathing…"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Et les souvenirs ! Sans lui, on oublierait nos meilleures vacances.",
+   "tr": {
+    "en": "And memories! Without it, we would forget our best holidays."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Oh non ! Moi, je veux garder tous mes beaux souvenirs !",
+   "tr": {
+    "en": "Oh no! I want to keep all my lovely memories!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Pas de panique. On dit qu’il peut stocker 2,5 millions de gigaoctets de souvenirs.",
+   "tr": {
+    "en": "Don’t panic. They say it can store 2.5 million gigabytes of memories."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Quoi ? C’est un chiffre digne d’un data center géant !",
+   "tr": {
+    "en": "What? That’s a figure worthy of a giant data center!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Eh oui. Et tout ça dans trois petites livres de matière vivante.",
+   "tr": {
+    "en": "Yep. And all that in three little pounds of living matter."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et il est bien organisé, ce cerveau ? Il y a différentes parties ?",
+   "tr": {
+    "en": "And is this brain well organised? Are there different parts?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, c’est toute une équipe. Le cortex cérébral, par exemple, nous aide à penser, à raisonner, à comprendre et à créer.",
+   "tr": {
+    "en": "Yes, it’s a whole team. The cerebral cortex, for example, helps us think, reason, understand and create."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Donc, quand j’apprends quelque chose de nouveau, mon cortex travaille ?",
+   "tr": {
+    "en": "So when I learn something new, my cortex is working?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement ! Le cervelet, lui, s’occupe de l’équilibre et des gestes fluides.",
+   "tr": {
+    "en": "Exactly! The cerebellum, for its part, takes care of balance and smooth movements."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Comme quand je fais du vélo ?",
+   "tr": {
+    "en": "Like when I ride a bike?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Tout à fait ! Et le système limbique joue un rôle important dans nos émotions et notre mémoire.",
+   "tr": {
+    "en": "Absolutely! And the limbic system plays an important part in our emotions and our memory."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et toutes ces parties travaillent ensemble ?",
+   "tr": {
+    "en": "And all those parts work together?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui ! Elles communiquent en permanence, comme un réseau ultra-rapide.",
+   "tr": {
+    "en": "Yes! They communicate all the time, like an ultra-fast network."
+   }
+  },
+  {
+   "who": "C",
+   "text": "C’est incroyable ! Et que se passe-t-il quand on apprend une nouvelle langue ?",
+   "tr": {
+    "en": "That’s incredible! And what happens when we learn a new language?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "C’est là que la magie opère ! Les études montrent que ça stimule la croissance de certaines zones du cerveau, notamment l’hippocampe et les régions liées au langage.",
+   "tr": {
+    "en": "That’s where the magic happens! Studies show that it stimulates the growth of certain areas of the brain, notably the hippocampus and the regions linked to language."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Le cerveau grandit, comme nos muscles quand on fait du sport ?",
+   "tr": {
+    "en": "The brain grows, like our muscles when we exercise?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, c’est littéralement un entraînement musculaire… mais pour les neurones ! Le cerveau crée et renforce des connexions.",
+   "tr": {
+    "en": "Yes, it is literally a muscle workout… but for neurons! The brain creates and strengthens connections."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Même quand on est adulte ?",
+   "tr": {
+    "en": "Even when you are an adult?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Bien sûr ! Le cerveau peut changer et s’adapter toute la vie. On appelle ça la plasticité cérébrale.",
+   "tr": {
+    "en": "Of course! The brain can change and adapt all through life. It’s called brain plasticity."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ça me rassure ! J’aimerais apprendre le japonais, mais ça me semble difficile.",
+   "tr": {
+    "en": "That’s reassuring! I’d like to learn Japanese, but it seems difficult."
+   }
+  },
+  {
+   "who": "T",
+   "text": "C’est normal. Au début, tout est nouveau : les sons, les mots, les phrases…",
+   "tr": {
+    "en": "That’s normal. At first everything is new: the sounds, the words, the sentences…"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et parfois, j’oublie un mot cinq minutes après l’avoir appris !",
+   "tr": {
+    "en": "And sometimes I forget a word five minutes after learning it!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ça arrive à tout le monde ! Mais avec de la pratique, on retient mieux les mots.",
+   "tr": {
+    "en": "That happens to everyone! But with practice, you remember words better."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Donc, écouter, parler et répéter, c’est important ?",
+   "tr": {
+    "en": "So listening, speaking and repeating are important?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui. Et parler plusieurs langues renforce l’attention et améliore la flexibilité mentale.",
+   "tr": {
+    "en": "Yes. And speaking several languages strengthens attention and improves mental flexibility."
+   }
+  },
+  {
+   "who": "C",
+   "text": "J’ai entendu dire que ça pouvait aussi protéger le cerveau quand on vieillit.",
+   "tr": {
+    "en": "I’ve heard it can also protect the brain as we get older."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Certaines études parlent d’une réserve cognitive, capable de retarder les signes du vieillissement cérébral. Mais les chercheurs continuent d’étudier la question.",
+   "tr": {
+    "en": "Some studies talk about a cognitive reserve, able to delay the signs of brain ageing. But researchers are still studying the question."
+   }
+  },
+  {
+   "who": "C",
+   "text": "En bref, apprendre une langue, c’est offrir à son cerveau une salle de sport, un spa et une armure anti-âge !",
+   "tr": {
+    "en": "In short, learning a language is like giving your brain a gym, a spa and anti-ageing armour!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Et ça, c’est franchement génial. En plus, c’est une belle façon de découvrir d’autres cultures.",
+   "tr": {
+    "en": "And that is honestly brilliant. What’s more, it’s a lovely way to discover other cultures."
+   }
+  }
+ ],
+ "notes": [
+  "2,5 millions is said « deux virgule cinq millions ». une livre = a pound (about half a kilo); un livre = a book.",
+  "Being careful with facts: on dit que…, les études montrent que…, certaines études parlent de…, j’ai entendu dire que….",
+  "le cervelet, lui, … = the cerebellum, for its part: lui / elle after a noun marks a contrast with what came before."
+ ],
+ "questions": [
+  {
+   "q": "De quoi le cervelet s’occupe-t-il ?",
+   "options": [
+    "Des souvenirs",
+    "De l’équilibre et des gestes fluides",
+    "Des émotions"
+   ],
+   "answer": 1,
+   "why": "« Le cervelet, lui, s’occupe de l’équilibre et des gestes fluides. » Comme quand Camille fait du vélo."
+  },
+  {
+   "q": "À quoi Camille compare-t-elle la mémoire du cerveau ?",
+   "options": [
+    "À un data center géant",
+    "À une grande bibliothèque",
+    "À un téléphone"
+   ],
+   "answer": 0,
+   "why": "« C’est un chiffre digne d’un data center géant ! » Il peut stocker 2,5 millions de gigaoctets de souvenirs."
+  },
+  {
+   "q": "Que se passe-t-il dans le cerveau quand on apprend une langue ?",
+   "options": [
+    "Il se repose",
+    "Il perd des neurones",
+    "Certaines zones grandissent et les connexions se renforcent"
+   ],
+   "answer": 2,
+   "why": "« … ça stimule la croissance de certaines zones du cerveau… Le cerveau crée et renforce des connexions. »"
+  },
+  {
+   "q": "Qu’est-ce que la plasticité cérébrale ?",
+   "options": [
+    "Une maladie du cerveau",
+    "La capacité du cerveau à changer et à s’adapter toute la vie",
+    "Une partie du cortex"
+   ],
+   "answer": 1,
+   "why": "« Le cerveau peut changer et s’adapter toute la vie. On appelle ça la plasticité cérébrale. »"
+  },
+  {
+   "q": "Que dit Thomas sur les langues et le vieillissement du cerveau ?",
+   "options": [
+    "C’est prouvé : les langues empêchent de vieillir",
+    "Les langues n’ont aucun effet",
+    "Certaines études parlent d’une réserve cognitive, mais la recherche continue"
+   ],
+   "answer": 2,
+   "why": "« Certaines études parlent d’une réserve cognitive… Mais les chercheurs continuent d’étudier la question. »"
+  }
+ ]
+}

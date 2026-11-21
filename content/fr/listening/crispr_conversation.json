@@ -1,0 +1,343 @@
+{
+ "title": "CRISPR : les ciseaux qui réécrivent la vie",
+ "subtitle": "Thomas explique CRISPR à Camille",
+ "level": "b1",
+ "topic": "Science",
+ "type": "dialogue",
+ "register": "neutral-standard, friendly (tu)",
+ "related": [
+  "fr/reading/crispr"
+ ],
+ "review": "Script by the user; reworked by Claude so that it reuses the wording and all 15 glossary items of fr/reading/crispr. English lines, questions and notes by Claude: check them. Audio still to make.",
+ "intro": "Camille has read that we can now rewrite our DNA, and Thomas explains how: a giant book, a typo, and a trick borrowed from bacteria. It goes with the reading text « CRISPR » and brings its words back in conversation. About three minutes.",
+ "start_hidden": true,
+ "steps": [
+  "Listen a first time without reading the dialogue, and try to answer the questions.",
+  "Then listen a second time with the text in front of you."
+ ],
+ "aud_dir": "fr/listening/crispr_conversation/",
+ "aud_ext": "mp3?v=2611210602",
+ "speakers": {
+  "C": "Camille",
+  "T": "Thomas"
+ },
+ "voice": {
+  "C": "3YsdE1c1xyJow6Iy6jWB",
+  "T": "KKoLMp5NIRsM4N2KnhO9"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "C",
+   "text": "Thomas, j’ai lu quelque chose d’incroyable ! On peut maintenant réécrire notre ADN !",
+   "tr": {
+    "en": "Thomas, I read something incredible! We can now rewrite our DNA!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ah, tu parles de CRISPR ? C’est une découverte extraordinaire !",
+   "tr": {
+    "en": "Ah, you mean CRISPR? It’s an extraordinary discovery!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Oui, mais je n’ai pas tout compris. Tu peux m’expliquer ?",
+   "tr": {
+    "en": "Yes, but I didn’t understand everything. Can you explain it to me?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Bien sûr ! Imagine un livre géant, caché dans presque chaque cellule de ton corps. Ce livre, c’est ton ADN.",
+   "tr": {
+    "en": "Of course! Imagine a giant book, hidden in almost every cell of your body. That book is your DNA."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Un livre ? Avec des lettres ?",
+   "tr": {
+    "en": "A book? With letters?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement ! Trois milliards de lettres.",
+   "tr": {
+    "en": "Exactly! Three billion letters."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Trois milliards ? Mais c’est énorme !",
+   "tr": {
+    "en": "Three billion? But that’s huge!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui ! Et parfois, il y a une erreur dans ce livre. Une seule lettre au mauvais endroit, et c’est une maladie grave.",
+   "tr": {
+    "en": "Yes! And sometimes there is a mistake in that book. A single letter in the wrong place, and it’s a serious illness."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Comme une faute de frappe dans un texte ?",
+   "tr": {
+    "en": "Like a typo in a text?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Voilà ! Et pendant longtemps, on ne pouvait rien faire. On savait lire le livre, mais pas le corriger.",
+   "tr": {
+    "en": "That’s it! And for a long time, nothing could be done. We knew how to read the book, but not how to correct it."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Mais aujourd’hui, on peut le faire avec CRISPR ?",
+   "tr": {
+    "en": "But today, we can do it with CRISPR?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Dans certains cas, oui.",
+   "tr": {
+    "en": "In some cases, yes."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et qui a inventé cette technique ?",
+   "tr": {
+    "en": "And who invented this technique?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Deux chercheuses, Emmanuelle Charpentier et Jennifer Doudna. En 2012, elles ont eu une idée géniale.",
+   "tr": {
+    "en": "Two researchers, Emmanuelle Charpentier and Jennifer Doudna. In 2012, they had a brilliant idea."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Deux femmes scientifiques ! Bravo ! Et c’était quoi, cette idée ?",
+   "tr": {
+    "en": "Two women scientists! Bravo! And what was this idea?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Elles ont emprunté une astuce… aux bactéries !",
+   "tr": {
+    "en": "They borrowed a trick… from bacteria!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Aux bactéries ? Ah bon ?",
+   "tr": {
+    "en": "From bacteria? Really?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui ! Depuis des millions d’années, les bactéries se défendent contre les virus. Elles gardent un petit morceau du virus en mémoire, comme la photo d’un suspect.",
+   "tr": {
+    "en": "Yes! For millions of years, bacteria have been defending themselves against viruses. They keep a small piece of the virus in memory, like a photo of a suspect."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et si le virus revient ?",
+   "tr": {
+    "en": "And if the virus comes back?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Une protéine, Cas9, le reconnaît et le coupe. Clac !",
+   "tr": {
+    "en": "A protein, Cas9, recognises it and cuts it. Snip!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ah ! Voilà pourquoi on parle de ciseaux !",
+   "tr": {
+    "en": "Ah! So that’s why people talk about scissors!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement ! Et les chercheuses ont compris qu’on pouvait programmer ces ciseaux. On leur donne un guide, et ils coupent exactement là où on veut.",
+   "tr": {
+    "en": "Exactly! And the researchers understood that those scissors could be programmed. You give them a guide, and they cut exactly where you want."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et ensuite, on remplace la mauvaise lettre par la bonne ?",
+   "tr": {
+    "en": "And then you replace the wrong letter with the right one?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Parfois, oui. La cellule répare la coupure, et on peut glisser la bonne lettre à la place de la mauvaise. Mais ce n’est pas toujours aussi simple.",
+   "tr": {
+    "en": "Sometimes, yes. The cell repairs the cut, and you can slip the right letter in place of the wrong one. But it isn’t always that simple."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Est-ce que ça a déjà permis de soigner des malades ?",
+   "tr": {
+    "en": "Has it already made it possible to treat sick people?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui ! Des patients atteints de drépanocytose, une maladie du sang, ont été soignés grâce à CRISPR.",
+   "tr": {
+    "en": "Yes! Patients suffering from sickle cell disease, a blood disease, have been treated thanks to CRISPR."
+   }
+  },
+  {
+   "who": "C",
+   "text": "C’est merveilleux ! Imagine toutes les personnes qu’on pourrait aider !",
+   "tr": {
+    "en": "That’s wonderful! Imagine all the people we could help!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, c’est très prometteur. Et en 2020, les deux chercheuses ont reçu le prix Nobel de chimie.",
+   "tr": {
+    "en": "Yes, it’s very promising. And in 2020, the two researchers received the Nobel Prize in Chemistry."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Elles l’ont bien mérité ! Mais… est-ce qu’il y a des dangers ?",
+   "tr": {
+    "en": "They really deserved it! But… are there any dangers?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, il y a des risques. Par exemple, les ciseaux peuvent parfois couper au mauvais endroit.",
+   "tr": {
+    "en": "Yes, there are risks. For example, the scissors can sometimes cut in the wrong place."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Oh ! Et si quelqu’un voulait choisir la couleur des yeux de son bébé ? Ou sa taille ?",
+   "tr": {
+    "en": "Oh! And what if someone wanted to choose the colour of their baby’s eyes? Or its height?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Là, ça devient compliqué. Et un peu effrayant.",
+   "tr": {
+    "en": "That’s where it gets complicated. And a little frightening."
+   }
+  },
+  {
+   "who": "C",
+   "text": "C’est vrai. Soigner une maladie, c’est une chose. Choisir les caractéristiques d’un enfant, c’en est une autre !",
+   "tr": {
+    "en": "True. Treating an illness is one thing. Choosing a child’s characteristics is quite another!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement. C’est pourquoi il faut utiliser cette technique avec beaucoup de précautions.",
+   "tr": {
+    "en": "Exactly. That’s why this technique has to be used with great care."
+   }
+  },
+  {
+   "who": "C",
+   "text": "En tout cas, je trouve ça fascinant. Qui aurait imaginé que les bactéries pouvaient nous apprendre autant de choses ?",
+   "tr": {
+    "en": "In any case, I find it fascinating. Who would have imagined that bacteria could teach us so much?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Comme quoi, même les êtres les plus petits peuvent nous aider à faire de grandes découvertes !",
+   "tr": {
+    "en": "Which just goes to show, even the smallest living things can help us make great discoveries!"
+   }
+  }
+ ],
+ "notes": [
+  "l’ADN is said letter by letter: « a-dé-enne ». CRISPR is said « crispeur ».",
+  "c’est une chose…, c’en est une autre = … is one thing, … is quite another.",
+  "Comme quoi, … = which just goes to show that…. It opens a conclusion drawn from what was just said."
+ ],
+ "questions": [
+  {
+   "q": "À quoi Thomas compare-t-il l’ADN ?",
+   "options": [
+    "À un livre géant",
+    "À une photo",
+    "À une paire de ciseaux"
+   ],
+   "answer": 0,
+   "why": "« Imagine un livre géant, caché dans presque chaque cellule de ton corps. Ce livre, c’est ton ADN. »"
+  },
+  {
+   "q": "À qui les deux chercheuses ont-elles emprunté leur astuce ?",
+   "options": [
+    "Aux virus",
+    "Aux bactéries",
+    "Aux médecins"
+   ],
+   "answer": 1,
+   "why": "« Elles ont emprunté une astuce… aux bactéries ! » Les bactéries se défendent contre les virus depuis des millions d’années."
+  },
+  {
+   "q": "Que fait la protéine Cas9 quand le virus revient ?",
+   "options": [
+    "Elle répare la cellule",
+    "Elle garde une photo du virus",
+    "Elle le reconnaît et le coupe"
+   ],
+   "answer": 2,
+   "why": "« Une protéine, Cas9, le reconnaît et le coupe. Clac ! » C’est pour ça qu’on parle de ciseaux."
+  },
+  {
+   "q": "Quelle maladie a déjà été soignée grâce à CRISPR ?",
+   "options": [
+    "La grippe",
+    "La drépanocytose",
+    "Le diabète"
+   ],
+   "answer": 1,
+   "why": "« Des patients atteints de drépanocytose, une maladie du sang, ont été soignés grâce à CRISPR. »"
+  },
+  {
+   "q": "Pourquoi faut-il utiliser cette technique avec précaution ?",
+   "options": [
+    "Les ciseaux peuvent couper au mauvais endroit, et on pourrait vouloir choisir les caractéristiques d’un enfant",
+    "Elle ne marche que sur les bactéries",
+    "Elle a été interdite en 2020"
+   ],
+   "answer": 0,
+   "why": "« … les ciseaux peuvent parfois couper au mauvais endroit. » Et choisir la couleur des yeux d’un bébé, « ça devient compliqué. Et un peu effrayant. »"
+  }
+ ]
+}

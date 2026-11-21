@@ -1,0 +1,329 @@
+{
+ "title": "L’ambre : un trésor du passé",
+ "subtitle": "Camille découvre d’où vient l’ambre",
+ "level": "b1",
+ "topic": "Nature",
+ "type": "dialogue",
+ "register": "neutral-standard, friendly (tu)",
+ "related": [
+  "fr/reading/amber"
+ ],
+ "review": "Script and questions by the user; reworked by Claude so that it reuses the wording and the glossary of fr/reading/amber (spider for fly, time capsule for window on the past). English lines, answer options and notes by Claude: check them. Audio still to make.",
+ "intro": "Camille sees a photo of a golden stone, and Thomas tells her where it really comes from. It goes with the reading text « L’ambre » and brings its words back in conversation. About three minutes.",
+ "start_hidden": true,
+ "steps": [
+  "Listen a first time without reading the dialogue, and try to answer the questions.",
+  "Then listen a second time with the text in front of you."
+ ],
+ "aud_dir": "fr/listening/ambre_conversation/",
+ "aud_ext": "mp3?v=2611210540",
+ "speakers": {
+  "C": "Camille",
+  "T": "Thomas"
+ },
+ "voice": {
+  "C": "3YsdE1c1xyJow6Iy6jWB",
+  "T": "KKoLMp5NIRsM4N2KnhO9"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "C",
+   "text": "Thomas, regarde cette photo ! On dirait une pierre dorée. Tu sais ce que c’est ?",
+   "tr": {
+    "en": "Thomas, look at this photo! It looks like a golden stone. Do you know what it is?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, c’est de l’ambre ! C’est beau, non ?",
+   "tr": {
+    "en": "Yes, it’s amber! Beautiful, isn’t it?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Très beau ! C’est doré comme le miel, et ça brille comme du verre.",
+   "tr": {
+    "en": "Very beautiful! It’s golden like honey, and it shines like glass."
+   }
+  },
+  {
+   "who": "T",
+   "text": "C’est drôle que tu dises ça. Dans l’Antiquité, les Grecs pensaient que c’était des gouttes de soleil solidifié !",
+   "tr": {
+    "en": "It’s funny you should say that. In ancient times, the Greeks thought it was drops of solidified sun!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Des gouttes de soleil ? Quelle jolie idée ! Mais ce n’est pas vrai, évidemment ?",
+   "tr": {
+    "en": "Drops of sun? What a lovely idea! But it isn’t true, obviously?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Non ! En réalité, l’ambre vient des arbres.",
+   "tr": {
+    "en": "No! In reality, amber comes from trees."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Des arbres ? Ah bon ? Je croyais que c’était une pierre !",
+   "tr": {
+    "en": "From trees? Really? I thought it was a stone!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Pas exactement. Tu connais la résine ?",
+   "tr": {
+    "en": "Not exactly. Do you know resin?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "C’est ce liquide épais et collant qui coule parfois du tronc ?",
+   "tr": {
+    "en": "Is that the thick, sticky liquid that sometimes runs down the trunk?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement ! Quand leur écorce est abîmée, les pins et les sapins laissent s’écouler ce liquide, qu’on appelle la résine.",
+   "tr": {
+    "en": "Exactly! When their bark is damaged, pines and firs let this liquid flow out, and it’s called resin."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et pourquoi est-ce qu’ils font ça ?",
+   "tr": {
+    "en": "And why do they do that?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Pour se protéger. La résine coule pour boucher la blessure, puis elle durcit.",
+   "tr": {
+    "en": "To protect themselves. The resin flows to fill the wound, then it hardens."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ah, je comprends ! Un peu comme quand une petite blessure se referme sur notre peau ?",
+   "tr": {
+    "en": "Ah, I see! A bit like when a small wound closes up on our skin?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, c’est une bonne comparaison !",
+   "tr": {
+    "en": "Yes, that’s a good comparison!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Mais comment cette résine devient-elle de l’ambre ?",
+   "tr": {
+    "en": "But how does that resin become amber?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Avec le temps, la résine peut se fossiliser, tout comme un os de dinosaure. Ça prend des millions d’années.",
+   "tr": {
+    "en": "Over time, resin can fossilise, just like a dinosaur bone. It takes millions of years."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Des millions d’années ? Incroyable ! Alors l’ambre est vraiment très ancien !",
+   "tr": {
+    "en": "Millions of years? Incredible! So amber really is very old!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui ! Et parfois, il contient même de petites créatures préhistoriques.",
+   "tr": {
+    "en": "Yes! And sometimes it even contains small prehistoric creatures."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Quoi ? Des animaux à l’intérieur ?",
+   "tr": {
+    "en": "What? Animals inside it?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, un insecte ou une araignée, par exemple. Imagine une petite araignée qui marche sur cette substance dorée, encore collante.",
+   "tr": {
+    "en": "Yes, an insect or a spider, for example. Imagine a little spider walking on that golden substance while it’s still sticky."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Oh, la pauvre ! Elle reste piégée ?",
+   "tr": {
+    "en": "Oh, poor thing! Does it get trapped?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement. Et quand la résine devient de l’ambre, la petite créature est emprisonnée pour toujours.",
+   "tr": {
+    "en": "Exactly. And when the resin becomes amber, the little creature is imprisoned forever."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Donc on peut voir une araignée qui vivait il y a des millions d’années ?",
+   "tr": {
+    "en": "So we can see a spider that lived millions of years ago?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, telle qu’elle était ! C’est comme une capsule temporelle du monde préhistorique.",
+   "tr": {
+    "en": "Yes, just as it was! It’s like a time capsule from the prehistoric world."
+   }
+  },
+  {
+   "who": "C",
+   "text": "J’adore cette image ! On peut presque imaginer la forêt où elle vivait.",
+   "tr": {
+    "en": "I love that image! You can almost imagine the forest where it lived."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Et tu sais quoi ? L’ambre peut aussi nous réserver une surprise avec ses couleurs.",
+   "tr": {
+    "en": "And you know what? Amber can also surprise us with its colours."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ah oui ? Il n’est pas toujours jaune ou orange ?",
+   "tr": {
+    "en": "Really? It isn’t always yellow or orange?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Non. Il existe un type d’ambre très rare qui est orange, mais qui devient bleu à la lumière du soleil.",
+   "tr": {
+    "en": "No. There is a very rare type of amber that is orange, but turns blue in sunlight."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Bleu ? Tu plaisantes !",
+   "tr": {
+    "en": "Blue? You’re joking!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Pas du tout ! C’est un phénomène étonnant.",
+   "tr": {
+    "en": "Not at all! It’s an astonishing phenomenon."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Alors, entre les créatures préhistoriques et les couleurs qui changent, l’ambre est vraiment extraordinaire !",
+   "tr": {
+    "en": "So, between the prehistoric creatures and the changing colours, amber really is extraordinary!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Tu vois, un petit morceau d’ambre peut raconter une histoire vieille de millions d’années.",
+   "tr": {
+    "en": "You see, a small piece of amber can tell a story millions of years old."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Maintenant, chaque fois que je verrai de l’ambre, je penserai aux forêts préhistoriques !",
+   "tr": {
+    "en": "Now, every time I see amber, I’ll think of prehistoric forests!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Et moi, je regarderai s’il y a une petite araignée à l’intérieur !",
+   "tr": {
+    "en": "And I’ll be looking to see if there’s a little spider inside!"
+   }
+  }
+ ],
+ "notes": [
+  "Reacting with surprise: Ah bon ? Quoi ? Tu plaisantes ! Incroyable !",
+  "on dirait = it looks like. tel qu’il était / telle qu’elle était = just as it was.",
+  "devenir + noun or adjective: la résine devient de l’ambre, l’ambre devient bleu."
+ ],
+ "questions": [
+  {
+   "q": "D’où vient l’ambre ?",
+   "options": [
+    "Du soleil",
+    "Des arbres",
+    "De la mer"
+   ],
+   "answer": 1,
+   "why": "« En réalité, l’ambre vient des arbres. » Les gouttes de soleil, c’est ce que pensaient les Grecs."
+  },
+  {
+   "q": "Pourquoi les arbres produisent-ils de la résine ?",
+   "options": [
+    "Pour boucher une blessure de leur écorce",
+    "Pour attirer les insectes",
+    "Pour grandir plus vite"
+   ],
+   "answer": 0,
+   "why": "« La résine coule pour boucher la blessure, puis elle durcit. »"
+  },
+  {
+   "q": "Comment la résine se transforme-t-elle en ambre ?",
+   "options": [
+    "Elle brûle au soleil",
+    "Elle tombe dans l’eau",
+    "Elle se fossilise pendant des millions d’années"
+   ],
+   "answer": 2,
+   "why": "« Avec le temps, la résine peut se fossiliser, tout comme un os de dinosaure. Ça prend des millions d’années. »"
+  },
+  {
+   "q": "Comment une araignée peut-elle se retrouver dans l’ambre ?",
+   "options": [
+    "Elle marche sur la résine encore collante et reste piégée",
+    "Elle mange la résine",
+    "Elle fait son nid dans l’écorce"
+   ],
+   "answer": 0,
+   "why": "« Imagine une petite araignée qui marche sur cette substance dorée, encore collante. » Elle reste piégée, puis emprisonnée pour toujours."
+  },
+  {
+   "q": "Quelle couleur un type rare d’ambre prend-il à la lumière du soleil ?",
+   "options": [
+    "Rouge",
+    "Vert",
+    "Bleu"
+   ],
+   "answer": 2,
+   "why": "« … un type d’ambre très rare qui est orange, mais qui devient bleu à la lumière du soleil. »"
+  }
+ ]
+}

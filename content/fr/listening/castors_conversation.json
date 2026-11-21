@@ -1,0 +1,329 @@
+{
+ "title": "Les castors : les petits architectes de la nature",
+ "subtitle": "Camille raconte ce que font les castors",
+ "level": "b1",
+ "topic": "Nature",
+ "type": "dialogue",
+ "register": "familiar-standard, friendly (tu; bosser, franchement)",
+ "related": [
+  "fr/reading/beaver"
+ ],
+ "review": "Script and questions by the user; reworked by Claude so that it reuses the wording and the glossary of fr/reading/beaver. English lines, answer options and notes by Claude: check them. Audio still to make.",
+ "intro": "Camille tells Thomas why beavers are little geniuses: their teeth, their dams, their ponds and what they leave behind. It goes with the reading text « Les castors » and brings its words back in conversation. About three minutes.",
+ "start_hidden": true,
+ "steps": [
+  "Listen a first time without reading the dialogue, and try to answer the questions.",
+  "Then listen a second time with the text in front of you."
+ ],
+ "aud_dir": "fr/listening/castors_conversation/",
+ "aud_ext": "mp3?v=2611210558",
+ "speakers": {
+  "C": "Camille",
+  "T": "Thomas"
+ },
+ "voice": {
+  "C": "3YsdE1c1xyJow6Iy6jWB",
+  "T": "KKoLMp5NIRsM4N2KnhO9"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "C",
+   "text": "Thomas, tu savais que les castors sont de véritables petits génies de la nature ?",
+   "tr": {
+    "en": "Thomas, did you know that beavers are real little geniuses of nature?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Des génies ? Ah bon ? Qu’est-ce qu’ils font de si génial ?",
+   "tr": {
+    "en": "Geniuses? Really? What do they do that’s so brilliant?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ils construisent des barrages ! Et ils font presque tout avec leurs dents !",
+   "tr": {
+    "en": "They build dams! And they do almost everything with their teeth!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Avec leurs dents ? Mais comment c’est possible ?",
+   "tr": {
+    "en": "With their teeth? But how is that possible?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ils ont des dents surpuissantes. Ils coupent des arbres comme si ce n’était rien du tout !",
+   "tr": {
+    "en": "They have super powerful teeth. They cut down trees as if it were nothing at all!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Impressionnant ! Et pourquoi est-ce qu’ils coupent des arbres ?",
+   "tr": {
+    "en": "Impressive! And why do they cut down trees?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Pour construire leurs barrages, avec des branches et du bois. Des barrages tellement ingénieux qu’on dirait des architectes en mission secrète !",
+   "tr": {
+    "en": "To build their dams, with branches and wood. Dams so ingenious you’d think they were architects on a secret mission!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "D’accord. Mais à quoi servent ces barrages ?",
+   "tr": {
+    "en": "OK. But what are those dams for?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ils retiennent l’eau. Le résultat ? De petits étangs paisibles.",
+   "tr": {
+    "en": "They hold back the water. The result? Peaceful little ponds."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ah, je vois ! Et les castors vivent dans ces étangs ?",
+   "tr": {
+    "en": "Ah, I see! And the beavers live in those ponds?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Oui, ils construisent leur maison dans l’étang ou tout près de l’eau.",
+   "tr": {
+    "en": "Yes, they build their home in the pond or right by the water."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Leur maison ? Elle ressemble à quoi ?",
+   "tr": {
+    "en": "Their home? What does it look like?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Elle est faite de branches et de bois. Et l’entrée se trouve souvent sous l’eau !",
+   "tr": {
+    "en": "It’s made of branches and wood. And the entrance is often under water!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Sous l’eau ? Quelle bonne idée pour se protéger !",
+   "tr": {
+    "en": "Under water? What a good idea for staying safe!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Exactement ! Et tu sais quoi ? Leurs étangs sont aussi très utiles aux autres animaux.",
+   "tr": {
+    "en": "Exactly! And you know what? Their ponds are also very useful to other animals."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ah oui ? Lesquels, par exemple ?",
+   "tr": {
+    "en": "Oh yes? Which ones, for example?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Les poissons, les grenouilles, les oiseaux et même les insectes.",
+   "tr": {
+    "en": "Fish, frogs, birds and even insects."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Mais pourquoi tous ces animaux aiment-ils les étangs ?",
+   "tr": {
+    "en": "But why do all those animals like the ponds?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Parce qu’ils deviennent de véritables refuges. On y trouve de l’eau, de la nourriture et un endroit pour vivre. Un petit paradis pour la biodiversité !",
+   "tr": {
+    "en": "Because they become real refuges. There is water there, food and a place to live. A little paradise for biodiversity!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Donc les castors construisent pour eux, mais ils aident aussi leurs voisins !",
+   "tr": {
+    "en": "So beavers build for themselves, but they help their neighbours too!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "C’est ça ! Et pendant qu’ils bossent, ils rendent encore d’autres services à la nature.",
+   "tr": {
+    "en": "That’s it! And while they work, they do nature other favours as well."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Comme quoi ?",
+   "tr": {
+    "en": "Like what?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ils purifient l’eau, ils réduisent les risques d’inondation… Ils aident la nature à mieux respirer, en fait.",
+   "tr": {
+    "en": "They purify the water, they reduce the risk of flooding… They help nature breathe better, really."
+   }
+  },
+  {
+   "who": "T",
+   "text": "C’est incroyable ! Comment de si petits animaux peuvent-ils faire autant de choses ?",
+   "tr": {
+    "en": "That’s incredible! How can such small animals do so many things?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Avec beaucoup de patience et de tendresse. Ce sont de vrais bosseurs, tu sais, et très dévoués.",
+   "tr": {
+    "en": "With a great deal of patience and tenderness. They are real hard workers, you know, and very devoted."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Franchement, ça donne envie de les applaudir !",
+   "tr": {
+    "en": "Honestly, it makes you want to applaud them!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Oui ! Et le plus beau, c’est que leur œuvre reste utile même après leur départ.",
+   "tr": {
+    "en": "Yes! And the best part is that their work stays useful even after they have left."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Comment ça ? Même quand le castor s’en va ?",
+   "tr": {
+    "en": "How so? Even when the beaver goes away?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Exactement. Son étang continue d’aider la vie autour de lui : les plantes, les animaux…",
+   "tr": {
+    "en": "Exactly. Its pond goes on helping the life around it: the plants, the animals…"
+   }
+  },
+  {
+   "who": "T",
+   "text": "C’est comme un cadeau qu’il laisse derrière lui.",
+   "tr": {
+    "en": "It’s like a gift it leaves behind."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Un cadeau silencieux mais précieux. Quelle jolie façon de le dire !",
+   "tr": {
+    "en": "A silent but precious gift. What a lovely way of putting it!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Maintenant, je comprends pourquoi les castors sont si importants pour la biodiversité.",
+   "tr": {
+    "en": "Now I understand why beavers are so important for biodiversity."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et tout ça sans plans, sans machines et sans outils ! Pour eux, travailler avec la nature, ce n’est pas une corvée.",
+   "tr": {
+    "en": "And all that with no plans, no machines and no tools! For them, working with nature is not a chore."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Enfin… ils ont quand même leurs dents ! Et elles bossent beaucoup plus que les miennes !",
+   "tr": {
+    "en": "Well… they do have their teeth! And those work a lot harder than mine!"
+   }
+  }
+ ],
+ "notes": [
+  "bosser = travailler, un bosseur = someone who works hard. Familiar: fine with friends, not in writing.",
+  "Asking for more: Ah bon ? Comment ça ? Comme quoi ? Lesquels, par exemple ? À quoi servent… ?",
+  "on dirait… = you’d think…, it looks like…. ça donne envie de + infinitive = it makes you want to…."
+ ],
+ "questions": [
+  {
+   "q": "Que construisent les castors avec des branches et du bois ?",
+   "options": [
+    "Des ponts",
+    "Des barrages",
+    "Des nids"
+   ],
+   "answer": 1,
+   "why": "« Pour construire leurs barrages, avec des branches et du bois. »"
+  },
+  {
+   "q": "À quoi servent les barrages ?",
+   "options": [
+    "À attraper des poissons",
+    "À couper des arbres",
+    "À retenir l’eau et à créer des étangs"
+   ],
+   "answer": 2,
+   "why": "« Ils retiennent l’eau. Le résultat ? De petits étangs paisibles. »"
+  },
+  {
+   "q": "Où se trouve souvent l’entrée de la maison des castors ?",
+   "options": [
+    "Sous l’eau",
+    "En haut d’un arbre",
+    "Derrière le barrage"
+   ],
+   "answer": 0,
+   "why": "« Et l’entrée se trouve souvent sous l’eau ! » C’est une bonne idée pour se protéger."
+  },
+  {
+   "q": "Quels autres animaux profitent des étangs des castors ?",
+   "options": [
+    "Les loups et les renards",
+    "Les poissons, les grenouilles, les oiseaux et les insectes",
+    "Aucun : les castors vivent seuls"
+   ],
+   "answer": 1,
+   "why": "« Les poissons, les grenouilles, les oiseaux et même les insectes. » Les étangs deviennent de véritables refuges."
+  },
+  {
+   "q": "Pourquoi l’œuvre des castors reste-t-elle utile après leur départ ?",
+   "options": [
+    "Parce que d’autres castors arrivent tout de suite",
+    "Parce que les gens réparent les barrages",
+    "Parce que l’étang continue d’aider la vie autour de lui"
+   ],
+   "answer": 2,
+   "why": "« Son étang continue d’aider la vie autour de lui : les plantes, les animaux… »"
+  }
+ ]
+}

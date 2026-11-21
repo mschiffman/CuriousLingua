@@ -1,0 +1,329 @@
+{
+ "title": "Les Vikings : à la découverte du monde",
+ "subtitle": "Camille et Thomas imaginent la vie des Vikings",
+ "level": "b1",
+ "topic": "History",
+ "type": "dialogue",
+ "register": "neutral-standard, friendly (tu)",
+ "related": [
+  "fr/reading/viking"
+ ],
+ "review": "Script and questions by the user; reworked by Claude so that it reuses the wording and all 21 glossary items of fr/reading/viking. English lines, answer options and notes by Claude: check them. Audio still to make.",
+ "intro": "Would you have liked to live in the time of the Vikings? Camille and Thomas talk about their ships, their life at home and how far they sailed. It goes with the reading text « Les Vikings, explorateurs des mers » and brings its words back in conversation. About three minutes.",
+ "start_hidden": true,
+ "steps": [
+  "Listen a first time without reading the dialogue, and try to answer the questions.",
+  "Then listen a second time with the text in front of you."
+ ],
+ "aud_dir": "fr/listening/vikings_conversation/",
+ "aud_ext": "mp3?v=2611210605",
+ "speakers": {
+  "C": "Camille",
+  "T": "Thomas"
+ },
+ "voice": {
+  "C": "3YsdE1c1xyJow6Iy6jWB",
+  "T": "KKoLMp5NIRsM4N2KnhO9"
+ },
+ "voice_model": "eleven_v4",
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "C",
+   "text": "Thomas, tu aurais aimé vivre à l’époque des Vikings ?",
+   "tr": {
+    "en": "Thomas, would you have liked to live in the time of the Vikings?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oh là là ! Sur un petit bateau en bois, au milieu de l’océan ? Pas sûr !",
+   "tr": {
+    "en": "Goodness! On a little wooden boat, in the middle of the ocean? Not sure!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Pourtant, c’étaient des marins extraordinaires !",
+   "tr": {
+    "en": "And yet they were extraordinary sailors!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "C’est vrai ! Il y a mille ans, ils partaient vers l’inconnu depuis les fjords brumeux de Scandinavie.",
+   "tr": {
+    "en": "True! A thousand years ago, they set off into the unknown from the misty fjords of Scandinavia."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Mais leurs bateaux étaient vraiment capables de traverser les océans ?",
+   "tr": {
+    "en": "But were their boats really able to cross oceans?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui ! Ceux qui les construisaient étaient de vrais génies. Des planches de chêne qui se chevauchaient, une coque courbée et élégante…",
+   "tr": {
+    "en": "Yes! The people who built them were real geniuses. Oak planks that overlapped, a curved and elegant hull…"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et pourquoi ces navires étaient-ils si particuliers ?",
+   "tr": {
+    "en": "And why were those ships so special?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ils étaient assez rapides pour traverser les océans, mais assez plats pour remonter les rivières.",
+   "tr": {
+    "en": "They were fast enough to cross oceans, but flat enough to sail up rivers."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ah, c’est ingénieux ! Ils pouvaient donc explorer beaucoup d’endroits.",
+   "tr": {
+    "en": "Ah, that’s clever! So they could explore a lot of places."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement ! Et ils avaient de grandes voiles carrées pour avancer grâce au vent.",
+   "tr": {
+    "en": "Exactly! And they had big square sails to move forward with the wind."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Mais sans moteur, les voyages devaient être longs !",
+   "tr": {
+    "en": "But with no engine, the journeys must have been long!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui, et parfois très dangereux. Imagine une tempête, avec l’océan qui bouge sans arrêt autour de toi !",
+   "tr": {
+    "en": "Yes, and sometimes very dangerous. Imagine a storm, with the ocean moving non-stop all around you!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Non merci ! Moi, je préfère regarder les vagues depuis la plage !",
+   "tr": {
+    "en": "No thanks! I’d rather watch the waves from the beach!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ha ha ! Pourtant, les Vikings n’étaient pas seulement des marins.",
+   "tr": {
+    "en": "Ha ha! And yet the Vikings were not only sailors."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ah bon ? Je pensais qu’ils passaient leur temps à voyager et à se battre !",
+   "tr": {
+    "en": "Really? I thought they spent their time travelling and fighting!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Pas du tout ! Beaucoup étaient agriculteurs, marchands, artisans, et même poètes.",
+   "tr": {
+    "en": "Not at all! Many were farmers, merchants, craftsmen, and even poets."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et comment vivaient leurs familles ?",
+   "tr": {
+    "en": "And how did their families live?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Elles cultivaient les champs, élevaient des animaux et se retrouvaient dans de longues maisons en bois. Et c’étaient les femmes qui géraient la maison et les terres.",
+   "tr": {
+    "en": "They farmed the fields, raised animals and gathered in long wooden houses. And it was the women who managed the house and the land."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Et pendant les longues soirées d’hiver, qu’est-ce qu’ils faisaient ?",
+   "tr": {
+    "en": "And during the long winter evenings, what did they do?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ils racontaient des histoires de dieux, de géants et de héros.",
+   "tr": {
+    "en": "They told stories of gods, giants and heroes."
+   }
+  },
+  {
+   "who": "C",
+   "text": "J’aurais adoré écouter ces histoires près du feu !",
+   "tr": {
+    "en": "I would have loved listening to those stories by the fire!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Moi aussi ! Et ils avaient des assemblées pour régler leurs conflits.",
+   "tr": {
+    "en": "Me too! And they had assemblies to settle their disputes."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Vraiment ? Donc ils ne réglaient pas tous leurs problèmes avec des armes ?",
+   "tr": {
+    "en": "Really? So they didn’t settle all their problems with weapons?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Heureusement, non ! Ces assemblées s’appelaient les « Things ».",
+   "tr": {
+    "en": "Fortunately not! Those assemblies were called “Things”."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Intéressant ! Mais comment trouvaient-ils leur chemin en mer, sans boussole ?",
+   "tr": {
+    "en": "Interesting! But how did they find their way at sea, without a compass?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ils étaient guidés par le soleil, les étoiles, les vents et même les oiseaux de mer.",
+   "tr": {
+    "en": "They were guided by the sun, the stars, the winds and even the seabirds."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Incroyable ! Et jusqu’où sont-ils allés ?",
+   "tr": {
+    "en": "Incredible! And how far did they go?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ils se sont installés en Islande et au Groenland. Ils ont fait du commerce le long de rivières qui menaient jusqu’à Bagdad. Et ils sont même allés jusqu’en Amérique du Nord.",
+   "tr": {
+    "en": "They settled in Iceland and Greenland. They traded along rivers that led all the way to Baghdad. And they even went as far as North America."
+   }
+  },
+  {
+   "who": "C",
+   "text": "L’Amérique ? Avant Christophe Colomb ?",
+   "tr": {
+    "en": "America? Before Christopher Columbus?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui ! Presque cinq siècles avant lui !",
+   "tr": {
+    "en": "Yes! Almost five centuries before him!"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Quelle aventure ! Imagine : se lancer sur une mer inconnue, loin de ses côtes, sans aucune certitude de trouver une terre…",
+   "tr": {
+    "en": "What an adventure! Imagine: setting out on an unknown sea, far from your own shores, with no certainty of finding land…"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Il fallait du courage, des connaissances, du savoir-faire et beaucoup d’audace.",
+   "tr": {
+    "en": "It took courage, knowledge, know-how and a great deal of daring."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Finalement, les Vikings étaient bien plus que des guerriers !",
+   "tr": {
+    "en": "In the end, the Vikings were much more than warriors!"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Exactement ! Moi, je les admire beaucoup… mais je préfère voyager en avion !",
+   "tr": {
+    "en": "Exactly! I admire them a lot… but I prefer to travel by plane!"
+   }
+  }
+ ],
+ "notes": [
+  "tu aurais aimé…, j’aurais adoré… = you would have liked…, I would have loved…: the past conditional, for imagining a past that did not happen.",
+  "The imparfait describes how things used to be: ils partaient, elles cultivaient, ils racontaient. The passé composé gives what they achieved: ils se sont installés, ils sont allés.",
+  "assez rapides pour… mais assez plats pour… = fast enough to… but flat enough to…."
+ ],
+ "questions": [
+  {
+   "q": "D’où venaient les Vikings ?",
+   "options": [
+    "De Scandinavie",
+    "D’Islande",
+    "D’Amérique du Nord"
+   ],
+   "answer": 0,
+   "why": "« … ils partaient vers l’inconnu depuis les fjords brumeux de Scandinavie. » L’Islande, ils s’y sont installés plus tard."
+  },
+  {
+   "q": "Pourquoi leurs navires pouvaient-ils aller sur les océans et sur les rivières ?",
+   "options": [
+    "Ils avaient un moteur puissant",
+    "Ils étaient très lourds",
+    "Ils étaient assez rapides pour les océans, mais assez plats pour les rivières"
+   ],
+   "answer": 2,
+   "why": "« Ils étaient assez rapides pour traverser les océans, mais assez plats pour remonter les rivières. »"
+  },
+  {
+   "q": "Quels métiers les Vikings exerçaient-ils, en dehors de la navigation ?",
+   "options": [
+    "Ils étaient seulement guerriers",
+    "Agriculteurs, marchands, artisans et même poètes",
+    "Médecins et professeurs"
+   ],
+   "answer": 1,
+   "why": "« Beaucoup étaient agriculteurs, marchands, artisans, et même poètes. »"
+  },
+  {
+   "q": "Comment trouvaient-ils leur chemin sans boussole ?",
+   "options": [
+    "Grâce au soleil, aux étoiles, aux vents et aux oiseaux de mer",
+    "Grâce à des cartes très précises",
+    "En suivant toujours les côtes"
+   ],
+   "answer": 0,
+   "why": "« Ils étaient guidés par le soleil, les étoiles, les vents et même les oiseaux de mer. »"
+  },
+  {
+   "q": "Où les Vikings se sont-ils installés, et jusqu’où sont-ils allés ?",
+   "options": [
+    "Ils se sont installés à Bagdad",
+    "Ils ne sont jamais sortis de Scandinavie",
+    "Ils se sont installés en Islande et au Groenland, et sont allés jusqu’en Amérique du Nord"
+   ],
+   "answer": 2,
+   "why": "« Ils se sont installés en Islande et au Groenland… Et ils sont même allés jusqu’en Amérique du Nord. » À Bagdad, ils faisaient du commerce."
+  }
+ ]
+}
