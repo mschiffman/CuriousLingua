@@ -1,0 +1,208 @@
+{
+ "title": "Vingt-cinq ans de mariage",
+ "subtitle": "A silver wedding anniversary in the kitchen",
+ "level": "b1",
+ "topic": "At home",
+ "type": "dialogue",
+ "register": "casual (tu), a married couple at home",
+ "review": "Draft by Claude from your text (conv.md). The English, the questions and the notes are by Claude: check them before recording audio.",
+ "intro": "Élise and Thomas have been married for twenty-five years. Thomas is cooking, Élise is teasing him, and the two trade jokes about their marriage before planning tomorrow's trip to Costco. Quick, dry humour in everyday spoken French.",
+ "start_hidden": true,
+ "steps": [
+  "Press Play all with the text hidden. Listen for the gist only: what are they celebrating, what is Thomas cooking, and what will they do tomorrow?",
+  "Listen again, then answer the questions under the dialogue.",
+  "Tap the lines to show the text, or switch off Hide text. Listen once more while reading.",
+  "Shadow it: play a line, press Pause (or the space bar), repeat it aloud, then Resume.",
+  "Read the notes on the jokes and on spoken French, then take a role and say the lines in the pauses."
+ ],
+ "aud_dir": "fr/listening/mariage/",
+ "aud_ext": "mp3?v=2611211343",
+ "speakers": {
+  "T": "Thomas",
+  "E": "Élise"
+ },
+ "voice": {
+  "E": "KzPZhE4ZluG6tjLsI1qh"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "fr/listening/home_pantry_shelves"
+ ],
+ "lines": [
+  {
+   "who": "T",
+   "text": "Voilà. Le plus dur est fait.",
+   "tr": {
+    "en": "There. The hardest part is done."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Ah bon ? Moi qui croyais que le plus dur, c’était ma tête.",
+   "tr": {
+    "en": "Oh really? And here I thought the hardest thing was my head."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Ma chérie, avec toi, tout est dur. Mais là, je parle de ma cuisine.",
+   "tr": {
+    "en": "Darling, with you, everything is hard. But right now, I'm talking about my cooking."
+   }
+  },
+  {
+   "who": "E",
+   "text": "C’est drôle, hein ? Vingt-cinq ans de mariage, et on dirait à peine un quart de siècle.",
+   "tr": {
+    "en": "Funny, isn't it? Twenty-five years of marriage, and it feels like barely a quarter of a century."
+   }
+  },
+  {
+   "who": "T",
+   "text": "On appelle ça les noces d’argent, ma chérie. Un métal plutôt généreux pour ce qui n’est, au fond, qu’une épreuve d’endurance.",
+   "tr": {
+    "en": "That's called a silver wedding anniversary, darling. A rather generous metal for what is, deep down, just an endurance test."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Faut croire que le temps passe vite quand on est avec l’homme de sa vie.",
+   "tr": {
+    "en": "I guess time flies when you're with the man of your life."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Aucune idée. Je n’ai jamais été avec l’homme de ma vie.",
+   "tr": {
+    "en": "No idea. I've never been with the man of my life."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Eh ben, il l’a échappé belle, celui-là. Bon, qu’est-ce que tu nous prépares ?",
+   "tr": {
+    "en": "Well, he had a lucky escape, that one. So, what are you making for us?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Je te l’ai dit : une parmigiana d’aubergines.",
+   "tr": {
+    "en": "I told you: an eggplant parmigiana."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Miam. Tu en as fait assez pour nous tenir trois jours, hein ?",
+   "tr": {
+    "en": "Yum. You've made enough to last us three days, haven't you?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Évidemment. Trois jours, et du rab pour le congélo.",
+   "tr": {
+    "en": "Of course. Three days, and some extra for the freezer."
+   }
+  },
+  {
+   "who": "E",
+   "text": "On va chez Costco demain ?",
+   "tr": {
+    "en": "Are we going to Costco tomorrow?"
+   }
+  },
+  {
+   "who": "T",
+   "text": "Oui. Rappelle-moi de faire le plein en sortant.",
+   "tr": {
+    "en": "Yes. Remind me to fill up the tank on the way out."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Mon chéri, fais le plein en sortant de chez Costco.",
+   "tr": {
+    "en": "Darling, fill up the tank on your way out of Costco."
+   }
+  },
+  {
+   "who": "T",
+   "text": "Merci, c’est très utile. Je le note tout de suite.",
+   "tr": {
+    "en": "Thanks, that's very helpful. I'll write it down right away."
+   }
+  },
+  {
+   "who": "E",
+   "text": "Bah, faut bien que je te le rappelle avant d’oublier de te le rappeler.",
+   "tr": {
+    "en": "Well, I have to remind you before I forget to remind you."
+   }
+  }
+ ],
+ "questions": [
+  {
+   "q": "Qu’est-ce qu’Élise et Thomas fêtent ?",
+   "options": [
+    "L’anniversaire de Thomas",
+    "Leurs vingt-cinq ans de mariage",
+    "Leur déménagement"
+   ],
+   "answer": 1,
+   "why": "« Vingt-cinq ans de mariage » : ce sont les noces d’argent."
+  },
+  {
+   "q": "Qu’est-ce que Thomas prépare ?",
+   "options": [
+    "Des lasagnes",
+    "Un gratin de courgettes",
+    "Une parmigiana d’aubergines"
+   ],
+   "answer": 2,
+   "why": "« Je te l’ai dit : une parmigiana d’aubergines. »"
+  },
+  {
+   "q": "Pourquoi Thomas fait-il autant à manger ?",
+   "options": [
+    "Pour trois jours, et pour en congeler un peu",
+    "Parce que des amis viennent dîner",
+    "Parce qu’il a raté la première parmigiana"
+   ],
+   "answer": 0,
+   "why": "« Trois jours, et du rab pour le congélo. » Le rab, c’est ce qui reste en plus."
+  },
+  {
+   "q": "Qu’est-ce que Thomas doit faire en sortant de chez Costco ?",
+   "options": [
+    "Acheter du parmesan",
+    "Mettre de l’essence dans la voiture",
+    "Appeler Élise"
+   ],
+   "answer": 1,
+   "why": "« Rappelle-moi de faire le plein en sortant. » Faire le plein, c’est remplir le réservoir d’essence."
+  },
+  {
+   "q": "Quand Élise rappelle à Thomas de faire le plein, qu’est-ce qui est drôle ?",
+   "options": [
+    "Elle le lui rappelle tout de suite, pas le lendemain",
+    "Elle ne sait pas où est Costco",
+    "Elle dit qu’elle va conduire"
+   ],
+   "answer": 0,
+   "why": "Thomas voulait qu’elle le lui rappelle demain, mais elle le fait tout de suite, « avant d’oublier de te le rappeler »."
+  }
+ ],
+ "notes": [
+  "Le plus dur est fait = the hardest part is done. Élise plays on dur: avoir la tête dure (or être une tête dure) means to be stubborn. Moi qui croyais que… = and here I was thinking that…",
+  "Tout est dur avec toi: here dur means difficult. Thomas turns her joke back on her.",
+  "Vingt-cinq ans… à peine un quart de siècle: the joke is that 25 years IS a quarter of a century. The anniversaries are les noces: noces d’argent (25 years), noces d’or (50 years).",
+  "Je n’ai jamais été avec l’homme de ma vie: Thomas takes « l’homme de sa vie » literally. Élise answers with l’échapper belle = to have a narrow escape: lucky him, whoever he is.",
+  "Spoken shortcuts: faut croire = il faut croire (I guess), faut bien que = il faut bien que, eh ben / bah = eh bien (well), le congélo = le congélateur, du rab = some extra, leftovers (familiar).",
+  "On va chez Costco ? Use chez with the name of a shop or a company: chez Costco, chez Carrefour, but au supermarché. Faire le plein = to fill up the tank. En sortant = on the way out (en + present participle).",
+  "rappeler à quelqu’un de faire quelque chose = to remind someone to do something: Rappelle-moi de faire le plein. With two pronouns, te or me comes before le: je te le rappelle, je te l’ai dit."
+ ]
+}

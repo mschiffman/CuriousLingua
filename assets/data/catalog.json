@@ -450,6 +450,21 @@
   "quiz": true
  },
  {
+  "id": "fr/listening/mariage",
+  "url": "fr/listening/mariage.html",
+  "course": "fr",
+  "strand": "listening",
+  "level": "b1",
+  "level_provisional": false,
+  "topic": "At home",
+  "type": "dialogue",
+  "title": "Vingt-cinq ans de mariage",
+  "clips": 16,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/listening/matin",
   "url": "fr/listening/matin.html",
   "course": "fr",
