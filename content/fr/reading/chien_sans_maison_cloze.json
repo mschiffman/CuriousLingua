@@ -1,0 +1,88 @@
+{
+ "title": "Le chien sans maison : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "chien_sans_maison",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "J’achète du pain à la",
+     "answer": "boulangerie",
+     "after": ".",
+     "tr": "I buy bread at the bakery."
+    },
+    {
+     "before": "Ferme la",
+     "answer": "porte",
+     "after": ", s’il te plaît.",
+     "tr": "Close the door, please."
+    },
+    {
+     "before": "Lave-toi les mains : elles sont",
+     "answer": "sales",
+     "after": "!",
+     "tr": "Wash your hands: they are dirty!"
+    },
+    {
+     "before": "La mer est très",
+     "answer": "calme",
+     "after": "aujourd’hui.",
+     "tr": "The sea is very calm today."
+    },
+    {
+     "before": "Il porte un pantalon",
+     "answer": "noir",
+     "after": ".",
+     "tr": "He is wearing black trousers."
+    },
+    {
+     "before": "Le petit garçon",
+     "answer": "suit",
+     "after": "sa maman dans le magasin.",
+     "tr": "The little boy follows his mum around the shop."
+    },
+    {
+     "before": "Nous mangeons dans le",
+     "answer": "jardin",
+     "after": "quand il fait beau.",
+     "tr": "We eat in the garden when the weather is nice."
+    },
+    {
+     "before": "Il",
+     "answer": "demande",
+     "after": "son chemin à un policier.",
+     "tr": "He asks a police officer for directions."
+    },
+    {
+     "before": "Mes",
+     "answer": "voisins",
+     "after": "sont très gentils.",
+     "tr": "My neighbours are very kind."
+    },
+    {
+     "before": "Tu",
+     "answer": "connais",
+     "after": "ce restaurant ?",
+     "tr": "Do you know this restaurant?"
+    },
+    {
+     "before": "Le bébé",
+     "answer": "dort",
+     "after": "dans sa chambre.",
+     "tr": "The baby is sleeping in his room."
+    },
+    {
+     "before": "Il fait froid dehors, mais il fait",
+     "answer": "chaud",
+     "after": "dans la maison.",
+     "tr": "It's cold outside, but it's warm in the house."
+    }
+   ]
+  }
+ ]
+}

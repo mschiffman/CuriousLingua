@@ -35,10 +35,10 @@
      "tr": "She is a very devoted nurse: she always thinks of her patients."
     },
     {
-     "before": "Il y a des canards sur l’",
+     "before": "Il y a des canards sur le petit",
      "answer": "étang",
      "after": "derrière la ferme.",
-     "tr": "There are ducks on the pond behind the farm."
+     "tr": "There are ducks on the little pond behind the farm."
     },
     {
      "before": "Après la tempête, le village est redevenu",
@@ -47,10 +47,10 @@
      "tr": "After the storm, the village became peaceful again."
     },
     {
-     "before": "La forêt est un",
-     "answer": "refuge",
-     "after": "pour beaucoup d’animaux.",
-     "tr": "The forest is a refuge for many animals."
+     "before": "Elle regarde son bébé avec",
+     "answer": "tendresse",
+     "after": ".",
+     "tr": "She looks at her baby with tenderness."
     },
     {
      "before": "Les fortes pluies ont provoqué une",

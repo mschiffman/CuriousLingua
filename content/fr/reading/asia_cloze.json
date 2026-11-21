@@ -1,0 +1,88 @@
+{
+ "title": "L’Asie : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "asia",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "Ce gâteau est",
+     "answer": "énorme",
+     "after": ": on peut le partager à dix.",
+     "tr": "This cake is huge: ten people can share it."
+    },
+    {
+     "before": "J’ai mangé la",
+     "answer": "moitié",
+     "after": "de la pizza ; tu peux finir le reste.",
+     "tr": "I ate half of the pizza; you can finish the rest."
+    },
+    {
+     "before": "En juillet, le soleil",
+     "answer": "cogne",
+     "after": "fort à midi.",
+     "tr": "In July, the sun beats down hard at midday."
+    },
+    {
+     "before": "Ce matin, j’ai",
+     "answer": "croisé",
+     "after": "mon ancien professeur dans la rue.",
+     "tr": "This morning, I ran into my former teacher in the street."
+    },
+    {
+     "before": "Le chat dort sur le",
+     "answer": "toit",
+     "after": "de la maison.",
+     "tr": "The cat is sleeping on the roof of the house."
+    },
+    {
+     "before": "Ne",
+     "answer": "bouge",
+     "after": "pas, je prends la photo !",
+     "tr": "Don't move, I'm taking the photo!"
+    },
+    {
+     "before": "Le",
+     "answer": "tremblement",
+     "after": "de terre a réveillé toute la ville.",
+     "tr": "The earthquake woke up the whole town."
+    },
+    {
+     "before": "Pendant la",
+     "answer": "mousson",
+     "after": ", il pleut presque tous les jours.",
+     "tr": "During the monsoon, it rains almost every day."
+    },
+    {
+     "before": "À cause de l’inondation, les habitants ont dû",
+     "answer": "fuir",
+     "after": "le village.",
+     "tr": "Because of the flood, the inhabitants had to flee the village."
+    },
+    {
+     "before": "Cette terre est très",
+     "answer": "fertile",
+     "after": ": tout y pousse vite.",
+     "tr": "This soil is very fertile: everything grows fast in it."
+    },
+    {
+     "before": "Mets ton bonnet : il y a un vent",
+     "answer": "glacial",
+     "after": "ce matin.",
+     "tr": "Put your hat on: there's an icy wind this morning."
+    },
+    {
+     "before": "Attention, la soupe est",
+     "answer": "brûlante",
+     "after": "!",
+     "tr": "Careful, the soup is scorching hot!"
+    }
+   ]
+  }
+ ]
+}

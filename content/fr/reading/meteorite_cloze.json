@@ -1,0 +1,88 @@
+{
+ "title": "L’astéroïde : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "meteorite",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "Cette chaise est en",
+     "answer": "métal",
+     "after": ": elle est froide en hiver.",
+     "tr": "This chair is made of metal: it is cold in winter."
+    },
+    {
+     "before": "Le bus",
+     "answer": "ralentit",
+     "after": "avant d’arriver à l’arrêt.",
+     "tr": "The bus slows down before reaching the stop."
+    },
+    {
+     "before": "Il y avait une",
+     "answer": "atmosphère",
+     "after": "très joyeuse à la fête.",
+     "tr": "There was a very cheerful atmosphere at the party."
+    },
+    {
+     "before": "L’avion laisse une",
+     "answer": "traînée",
+     "after": "blanche dans le ciel.",
+     "tr": "The plane leaves a white trail in the sky."
+    },
+    {
+     "before": "Le chocolat va",
+     "answer": "fondre",
+     "after": "au soleil.",
+     "tr": "The chocolate is going to melt in the sun."
+    },
+    {
+     "before": "Du haut du volcan, on voit le",
+     "answer": "cratère",
+     "after": ".",
+     "tr": "From the top of the volcano, you can see the crater."
+    },
+    {
+     "before": "Il y a un embouteillage",
+     "answer": "gigantesque",
+     "after": "sur l’autoroute.",
+     "tr": "There's a gigantic traffic jam on the motorway."
+    },
+    {
+     "before": "La pièce est très",
+     "answer": "sombre",
+     "after": ": allume la lumière.",
+     "tr": "The room is very dark: turn on the light."
+    },
+    {
+     "before": "La vache est un",
+     "answer": "herbivore",
+     "after": ": elle ne mange que de l’herbe.",
+     "tr": "The cow is a herbivore: it only eats grass."
+    },
+    {
+     "before": "Le feu s’est",
+     "answer": "éteint",
+     "after": "pendant la nuit.",
+     "tr": "The fire went out during the night."
+    },
+    {
+     "before": "La baleine n’est pas un poisson, c’est un",
+     "answer": "mammifère",
+     "after": ".",
+     "tr": "The whale is not a fish, it's a mammal."
+    },
+    {
+     "before": "Au printemps, la nature connaît une véritable",
+     "answer": "renaissance",
+     "after": ".",
+     "tr": "In spring, nature goes through a real rebirth."
+    }
+   ]
+  }
+ ]
+}

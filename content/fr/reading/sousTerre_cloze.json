@@ -41,10 +41,10 @@
      "tr": "The rabbit is digging a hole in the ground."
     },
     {
-     "before": "On fait des pots avec de l’",
+     "before": "Ces pots sont faits en",
      "answer": "argile",
      "after": ".",
-     "tr": "Pots are made with clay."
+     "tr": "These pots are made of clay."
     },
     {
      "before": "L’enfant lance un",
@@ -59,10 +59,10 @@
      "tr": "The castle is built on a big rock."
     },
     {
-     "before": "Il y a une",
-     "answer": "fissure",
-     "after": "dans le mur.",
-     "tr": "There is a crack in the wall."
+     "before": "La",
+     "answer": "température",
+     "after": "baisse beaucoup la nuit.",
+     "tr": "The temperature drops a lot at night."
     },
     {
      "before": "Ce gâteau a trois",

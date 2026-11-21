@@ -1,20 +1,21 @@
 {
- "title": "L’ambre : texte à trous",
+ "title": "L’ambre : texte à trous",
  "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
  "label": "Cloze test",
  "type": "practice",
  "supplement_of": "amber",
  "legacy": "fr/reading/amber-cloze.html",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
  "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
  "blocks": [
   {
    "kind": "cloze",
    "items": [
     {
-     "before": "Ce livre",
-     "answer": "abîmé",
-     "after": "par l’humidité est illisible.",
-     "tr": "A book damaged by humidity is illegible."
+     "before": "Les étoiles",
+     "answer": "brillent",
+     "after": "dans le ciel.",
+     "tr": "The stars shine in the sky."
     },
     {
      "before": "Je",
@@ -29,16 +30,28 @@
      "tr": "Put a drop of honey in your tea."
     },
     {
+     "before": "Mes parents me",
+     "answer": "laissent",
+     "after": "sortir le samedi soir.",
+     "tr": "My parents let me go out on Saturday evenings."
+    },
+    {
      "before": "Il porte un manteau",
      "answer": "épais",
      "after": ".",
      "tr": "He is wearing a thick coat."
     },
     {
-     "before": "Nous sommes des",
-     "answer": "créatures",
-     "after": "d’habitude.",
-     "tr": "We are creatures of habit."
+     "before": "Ce livre",
+     "answer": "abîmé",
+     "after": "par l’humidité est illisible.",
+     "tr": "This book, damaged by damp, is unreadable."
+    },
+    {
+     "before": "L’eau",
+     "answer": "coule",
+     "after": "du robinet.",
+     "tr": "The water flows from the tap."
     },
     {
      "before": "La",
@@ -53,28 +66,22 @@
      "tr": "Spiders eat insects."
     },
     {
-     "before": "",
-     "answer": "Laissez",
-     "after": "-moi vous aider.",
-     "tr": "Let me help you."
+     "before": "Le poulet est bien",
+     "answer": "doré",
+     "after": ": il est cuit.",
+     "tr": "The chicken is nicely golden: it's cooked."
     },
     {
-     "before": "Le temps s’",
-     "answer": "écoule",
-     "after": "vite !",
-     "tr": "Time goes by quickly!"
+     "before": "Dans ce film, des",
+     "answer": "créatures",
+     "after": "étranges vivent sous la mer.",
+     "tr": "In this film, strange creatures live under the sea."
     },
     {
-     "before": "L’eau",
-     "answer": "coule",
-     "after": "du robinet.",
-     "tr": "The water flows from the tap."
-    },
-    {
-     "before": "La résine est un liquide",
-     "answer": "collant",
-     "after": ".",
-     "tr": "Resin is a sticky liquid."
+     "before": "Mon fils veut",
+     "answer": "devenir",
+     "after": "médecin.",
+     "tr": "My son wants to become a doctor."
     }
    ]
   }

@@ -1,0 +1,178 @@
+{
+ "title": "Le chien sans maison : exercices",
+ "subtitle": "Cinq exercices sur le texte",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "chien_sans_maison",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. Vrai ou faux",
+   "items": [
+    {
+     "q": "Marie habite dans une petite ville.",
+     "answer": true
+    },
+    {
+     "q": "Marie voit le chien devant la pharmacie.",
+     "answer": false
+    },
+    {
+     "q": "Le chien a de grands yeux bleus.",
+     "answer": false
+    },
+    {
+     "q": "Marie donne de l’eau et un peu de pain au chien.",
+     "answer": true
+    },
+    {
+     "q": "Les voisins connaissent bien le chien.",
+     "answer": false
+    },
+    {
+     "q": "Le soir, le chien dort dans un panier, près de la porte.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Questions à choix multiples",
+   "items": [
+    {
+     "q": "Comment est le chien ?",
+     "options": [
+      "Gros et propre",
+      "Sale, maigre et très calme",
+      "Grand et méchant"
+     ],
+     "answer": 1,
+     "why": "« Le chien est sale, maigre, et très calme. »"
+    },
+    {
+     "q": "Que fait le chien quand Marie rentre chez elle ?",
+     "options": [
+      "Il reste devant la boulangerie",
+      "Il dort",
+      "Il la suit"
+     ],
+     "answer": 2,
+     "why": "« Le chien la suit. »"
+    },
+    {
+     "q": "Comment mange le chien ?",
+     "options": [
+      "Très vite",
+      "Très lentement",
+      "Il ne mange pas"
+     ],
+     "answer": 0,
+     "why": "« Le chien mange très vite. »"
+    },
+    {
+     "q": "Où va Marie l’après-midi ?",
+     "options": [
+      "Chez les voisins",
+      "Chez le vétérinaire",
+      "Au parc"
+     ],
+     "answer": 1,
+     "why": "« L’après-midi, Marie va chez le vétérinaire. »"
+    },
+    {
+     "q": "Que fait le chien quand Marie dit : « Maintenant, tu as une maison » ?",
+     "options": [
+      "Il part",
+      "Il aboie",
+      "Il remue la queue"
+     ],
+     "answer": 2,
+     "why": "« Le chien remue la queue. »"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complétez les phrases",
+   "items": [
+    {
+     "before": "Devant la porte, elle voit un petit chien",
+     "answer": "brun",
+     "after": "."
+    },
+    {
+     "before": "Marie dit",
+     "answer": "doucement",
+     "after": ", « Bonjour, petit chien. »"
+    },
+    {
+     "before": "Marie",
+     "answer": "marche",
+     "after": "vers sa maison."
+    },
+    {
+     "before": "Le chien n’a pas de",
+     "answer": "collier",
+     "after": "."
+    },
+    {
+     "before": "Il n’a pas de",
+     "answer": "famille",
+     "after": "."
+    },
+    {
+     "before": "Pour la première fois depuis longtemps, il n’est plus",
+     "answer": "seul",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Questions ouvertes",
+   "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
+   "items": [
+    {
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "Un matin, Marie trouve un petit chien seul devant la boulangerie. Le chien la suit jusqu’à sa maison, et personne ne le connaît. Marie le garde : maintenant, il a une maison."
+    },
+    {
+     "q": "Que fait Marie pour aider le chien ?",
+     "model": "Elle lui donne de l’eau et un peu de pain. Elle demande aux voisins s’ils connaissent le chien, puis elle va chez le vétérinaire."
+    },
+    {
+     "q": "Qu’est-ce que Marie apprend chez le vétérinaire ?",
+     "model": "Le chien n’a pas de collier et pas de puce : il n’a pas de famille."
+    },
+    {
+     "q": "Comment se termine l’histoire ?",
+     "model": "Marie dit au chien : « Maintenant, tu as une maison. » Le chien remue la queue et, le soir, il dort dans un panier, au chaud, près de la porte."
+    },
+    {
+     "q": "Aimeriez-vous avoir un chien ? Pourquoi ?",
+     "model": "Réponse libre."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Remettez dans l’ordre",
+   "intro": "Remettez les événements dans l’ordre de l’histoire.",
+   "items": [
+    "Marie voit un petit chien devant la boulangerie",
+    "Le chien suit Marie jusqu’à sa maison",
+    "Marie donne de l’eau et du pain au chien",
+    "Marie va chez le vétérinaire",
+    "Le chien dort dans un panier"
+   ],
+   "start": [
+    2,
+    0,
+    4,
+    1,
+    3
+   ]
+  }
+ ]
+}

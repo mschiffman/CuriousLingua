@@ -71,10 +71,10 @@
      "tr": "He looked at the map to find the road."
     },
     {
-     "before": "Dans ce village, l’",
+     "before": "Dans notre immeuble, il y a une vraie",
      "answer": "entraide",
-     "after": "entre voisins est très forte.",
-     "tr": "In this village, mutual help between neighbours is very strong."
+     "after": "entre voisins.",
+     "tr": "In our building, neighbours really help one another."
     },
     {
      "before": "Chaque invité doit",

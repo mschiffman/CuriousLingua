@@ -1,0 +1,88 @@
+{
+ "title": "Les fossiles : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "fossil",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "Ce matelas est trop",
+     "answer": "mou",
+     "after": ": j’ai mal au dos.",
+     "tr": "This mattress is too soft: my back hurts."
+    },
+    {
+     "before": "Le vautour est un",
+     "answer": "charognard",
+     "after": ": il mange les animaux morts.",
+     "tr": "The vulture is a scavenger: it eats dead animals."
+    },
+    {
+     "before": "Ne",
+     "answer": "dérange",
+     "after": "pas ton père : il travaille.",
+     "tr": "Don't disturb your father: he's working."
+    },
+    {
+     "before": "Verse la pâte dans le",
+     "answer": "moule",
+     "after": "et mets le gâteau au four.",
+     "tr": "Pour the batter into the mould and put the cake in the oven."
+    },
+    {
+     "before": "La tortue rentre la tête sous sa",
+     "answer": "carapace",
+     "after": ".",
+     "tr": "The tortoise pulls its head in under its shell."
+    },
+    {
+     "before": "Ce collier est en",
+     "answer": "ambre",
+     "after": ": il vient de la mer Baltique.",
+     "tr": "This necklace is made of amber: it comes from the Baltic Sea."
+    },
+    {
+     "before": "Les chaises du jardin sont en",
+     "answer": "résine",
+     "after": ": la pluie ne les abîme pas.",
+     "tr": "The garden chairs are made of resin: the rain doesn't damage them."
+    },
+    {
+     "before": "Le colis est arrivé",
+     "answer": "intact",
+     "after": ": rien n’est cassé.",
+     "tr": "The parcel arrived intact: nothing is broken."
+    },
+    {
+     "before": "Le vent et la pluie provoquent une forte",
+     "answer": "érosion",
+     "after": "de la falaise.",
+     "tr": "Wind and rain cause heavy erosion of the cliff."
+    },
+    {
+     "before": "Ma cousine est",
+     "answer": "paléontologue",
+     "after": ": elle étudie les fossiles de dinosaures.",
+     "tr": "My cousin is a palaeontologist: she studies dinosaur fossils."
+    },
+    {
+     "before": "Le chien",
+     "answer": "creuse",
+     "after": "un trou dans le jardin pour cacher son os.",
+     "tr": "The dog is digging a hole in the garden to hide its bone."
+    },
+    {
+     "before": "J’ai été",
+     "answer": "témoin",
+     "after": "d’un accident de voiture ce matin.",
+     "tr": "I witnessed a car accident this morning."
+    }
+   ]
+  }
+ ]
+}

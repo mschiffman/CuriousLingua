@@ -1,0 +1,178 @@
+{
+ "title": "La valise de Sophie : exercices",
+ "subtitle": "Cinq exercices sur le texte",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "la_valise_de_sophie",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. Vrai ou faux",
+   "items": [
+    {
+     "q": "Sophie va à la montagne.",
+     "answer": false
+    },
+    {
+     "q": "Sophie part pour une semaine.",
+     "answer": true
+    },
+    {
+     "q": "Sophie prend trois robes.",
+     "answer": true
+    },
+    {
+     "q": "Sophie oublie sa brosse à dents.",
+     "answer": false
+    },
+    {
+     "q": "Sophie met un petit chapeau dans sa valise.",
+     "answer": false
+    },
+    {
+     "q": "Emma éclate de rire.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Questions à choix multiples",
+   "items": [
+    {
+     "q": "Où est la valise de Sophie ?",
+     "options": [
+      "Sur son lit",
+      "Sous la table",
+      "Dans la voiture"
+     ],
+     "answer": 0,
+     "why": "« Sa valise est ouverte sur son lit. »"
+    },
+    {
+     "q": "Pourquoi Sophie prend-elle de la crème solaire ?",
+     "options": [
+      "Parce qu’il fait froid",
+      "Parce qu’à la mer, il y a beaucoup de soleil",
+      "Pour son amie Emma"
+     ],
+     "answer": 1,
+     "why": "« À la mer, il y a beaucoup de soleil ! »"
+    },
+    {
+     "q": "Qu’est-ce que Sophie ne trouve pas ?",
+     "options": [
+      "Son chapeau de paille",
+      "Sa valise",
+      "Ses lunettes de soleil"
+     ],
+     "answer": 2,
+     "why": "« Je ne trouve pas mes lunettes de soleil ! »"
+    },
+    {
+     "q": "Où Sophie cherche-t-elle aussi ses lunettes ?",
+     "options": [
+      "Dans le jardin",
+      "Derrière les rideaux",
+      "Dans la voiture"
+     ],
+     "answer": 1,
+     "why": "« Elle regarde même derrière les rideaux ! »"
+    },
+    {
+     "q": "Où sont les lunettes de Sophie ?",
+     "options": [
+      "Dans ses cheveux, sur sa tête",
+      "Dans la salle de bains",
+      "Dans son sac"
+     ],
+     "answer": 0,
+     "why": "« Ses lunettes sont là, dans ses cheveux ! »"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complétez les phrases",
+   "items": [
+    {
+     "before": "Sophie part en",
+     "answer": "vacances",
+     "after": "demain."
+    },
+    {
+     "before": "Elle ajoute des",
+     "answer": "chaussettes",
+     "after": "et des chaussures."
+    },
+    {
+     "before": "Elle prend aussi du",
+     "answer": "dentifrice",
+     "after": "et de la crème solaire."
+    },
+    {
+     "before": "Puis, elle regarde sa",
+     "answer": "liste",
+     "after": "."
+    },
+    {
+     "before": "Elle regarde dans un",
+     "answer": "tiroir",
+     "after": "."
+    },
+    {
+     "before": "Sophie",
+     "answer": "ferme",
+     "after": "sa valise."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Questions ouvertes",
+   "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
+   "items": [
+    {
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "Sophie prépare sa valise pour une semaine de vacances à la mer. Elle cherche partout ses lunettes de soleil, mais elle ne les trouve pas. Son amie Emma arrive et lui dit de regarder sur sa tête : les lunettes sont dans ses cheveux !"
+    },
+    {
+     "q": "Qu’est-ce que Sophie met dans sa valise ?",
+     "model": "Elle met trois robes, deux tee-shirts, un pantalon, des chaussettes, des chaussures, sa brosse à dents, du dentifrice, de la crème solaire, un livre et son grand chapeau de paille."
+    },
+    {
+     "q": "Où Sophie cherche-t-elle ses lunettes ?",
+     "model": "Elle cherche sur la table, dans son sac, sous le lit, dans un tiroir et même derrière les rideaux."
+    },
+    {
+     "q": "Pourquoi Sophie dit-elle : « Je suis vraiment tête en l’air » ?",
+     "model": "Parce qu’elle cherche ses lunettes partout, mais elles sont sur sa tête, dans ses cheveux. Elle a oublié où elles étaient."
+    },
+    {
+     "q": "Qu’est-ce que vous mettez toujours dans votre valise ?",
+     "model": "Réponse libre."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Remettez dans l’ordre",
+   "intro": "Remettez les événements dans l’ordre de l’histoire.",
+   "items": [
+    "Sophie met ses vêtements dans sa valise",
+    "Sophie met un livre dans sa valise",
+    "Sophie cherche sous le lit",
+    "Emma arrive chez Sophie",
+    "Sophie touche sa tête"
+   ],
+   "start": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ]
+  }
+ ]
+}

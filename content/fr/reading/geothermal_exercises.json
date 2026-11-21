@@ -1,5 +1,5 @@
 {
- "title": "L’énergie géothermique : exercices",
+ "title": "L’énergie géothermique : exercices",
  "subtitle": "Cinq exercices sur le texte",
  "label": "Exercises",
  "type": "practice",
@@ -15,7 +15,7 @@
      "answer": true
     },
     {
-     "q": "Les humains profitent de cette chaleur depuis seulement 1 000 ans.",
+     "q": "Les humains profitent de cette chaleur depuis seulement 1 000 ans.",
      "answer": false
     },
     {
@@ -41,54 +41,54 @@
    "title": "2. Questions à choix multiples",
    "items": [
     {
-     "q": "Qu’est-ce qui alimente la chaleur de la Terre depuis des milliards d’années ?",
+     "q": "Qu’est-ce qui alimente la chaleur de la Terre depuis des milliards d’années ?",
      "options": [
       "Les rayons du soleil",
       "La désintégration d’éléments radioactifs",
       "Les geysers"
      ],
      "answer": 1,
-     "why": "« … alimentée depuis des milliards d’années par la lente désintégration d’éléments radioactifs. »"
+     "why": "« … alimentée depuis des milliards d’années par la lente désintégration d’éléments radioactifs. »"
     },
     {
-     "q": "Pourquoi les peuples anciens se rassemblaient-ils autour des sources chaudes ?",
+     "q": "Pourquoi les peuples anciens se rassemblaient-ils autour des sources chaudes ?",
      "options": [
       "Pour guérir ou cuisiner",
       "Pour produire de l’électricité",
       "Pour construire des thermes"
      ],
      "answer": 0,
-     "why": "« … les peuples anciens se rassemblaient autour des sources chaudes pour guérir ou cuisiner. »"
+     "why": "« … les peuples anciens se rassemblaient autour des sources chaudes pour guérir ou cuisiner. »"
     },
     {
-     "q": "Que réchauffent les réseaux de chaleur géothermique ?",
+     "q": "Que réchauffent les réseaux de chaleur géothermique ?",
      "options": [
       "Des volcans",
       "Des réservoirs profonds",
       "Des villes entières"
      ],
      "answer": 2,
-     "why": "« … des réseaux de chaleur géothermique réchauffent des villes entières. »"
+     "why": "« … des réseaux de chaleur géothermique réchauffent des villes entières. »"
     },
     {
-     "q": "Pourquoi la température souterraine reste-t-elle stable ?",
+     "q": "Pourquoi la température souterraine reste-t-elle stable ?",
      "options": [
       "Grâce aux boucles enterrées",
       "Grâce au pouvoir isolant du sol et des roches",
       "Grâce à l’eau des sources chaudes"
      ],
      "answer": 1,
-     "why": "« … une température souterraine stable […] grâce au pouvoir isolant du sol et des roches. »"
+     "why": "« … une température souterraine stable […] grâce au pouvoir isolant du sol et des roches. »"
     },
     {
-     "q": "Que fait une pompe à chaleur géothermique en hiver ?",
+     "q": "Que fait une pompe à chaleur géothermique en hiver ?",
      "options": [
       "Elle capte la chaleur de la Terre",
       "Elle rejette la chaleur dans la Terre",
       "Elle produit de l’électricité"
      ],
      "answer": 0,
-     "why": "« … ces pompes captent la chaleur de la Terre en hiver et y rejettent l’excès en été. »"
+     "why": "« … ces pompes captent la chaleur de la Terre en hiver et y rejettent l’excès en été. »"
     }
    ]
   },
@@ -135,22 +135,22 @@
    "items": [
     {
      "q": "Sans regarder le texte, résumez-le en trois phrases.",
-     "model": "La chaleur de la Terre vient de ses profondeurs, et les humains en profitent depuis plus de 10 000 ans. Aujourd’hui, elle sert à produire de l’électricité et à chauffer des villes. La pompe à chaleur géothermique utilise la température stable du sol pour chauffer en hiver et rafraîchir en été."
+     "model": "La chaleur de la Terre vient de ses profondeurs, et les humains en profitent depuis plus de 10 000 ans. Aujourd’hui, elle sert à produire de l’électricité et à chauffer des villes. La pompe à chaleur géothermique utilise la température stable du sol pour chauffer en hiver et rafraîchir en été."
     },
     {
-     "q": "Comment les humains utilisaient-ils cette chaleur autrefois ?",
+     "q": "Comment les humains utilisaient-ils cette chaleur autrefois ?",
      "model": "Les peuples anciens se rassemblaient autour des sources chaudes pour guérir ou cuisiner, et les Romains faisaient couler l’eau géothermique jusque dans leurs thermes."
     },
     {
-     "q": "Comment utilise-t-on la géothermie aujourd’hui ?",
+     "q": "Comment utilise-t-on la géothermie aujourd’hui ?",
      "model": "Des réservoirs profonds produisent de l’électricité, des réseaux de chaleur réchauffent des villes entières, et des pompes à chaleur chauffent les maisons."
     },
     {
-     "q": "Comment fonctionne une pompe à chaleur géothermique ?",
-     "model": "Elle fait circuler un fluide dans des boucles enterrées. En hiver, elle capte la chaleur de la Terre ; en été, elle y rejette l’excès de chaleur."
+     "q": "Comment fonctionne une pompe à chaleur géothermique ?",
+     "model": "Elle fait circuler un fluide dans des boucles enterrées. En hiver, elle capte la chaleur de la Terre ; en été, elle y rejette l’excès de chaleur."
     },
     {
-     "q": "Aimeriez-vous chauffer votre maison avec la géothermie ? Pourquoi ?",
+     "q": "Aimeriez-vous chauffer votre maison avec la géothermie ? Pourquoi ?",
      "model": "Réponse libre."
     }
    ]

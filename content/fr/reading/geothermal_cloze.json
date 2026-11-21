@@ -1,5 +1,5 @@
 {
- "title": "L’énergie géothermique : texte à trous",
+ "title": "L’énergie géothermique : texte à trous",
  "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
  "label": "Cloze test",
  "type": "practice",
@@ -17,10 +17,10 @@
      "tr": "In August, the heat is sometimes hard to bear in the city."
     },
     {
-     "before": "Ce lac a une",
-     "answer": "profondeur",
-     "after": "de vingt mètres.",
-     "tr": "This lake has a depth of twenty metres."
+     "before": "Mon oncle est très",
+     "answer": "généreux",
+     "after": ": il partage tout ce qu’il a.",
+     "tr": "My uncle is very generous: he shares everything he has."
     },
     {
      "before": "Avec du repos, tu vas vite",
@@ -31,7 +31,7 @@
     {
      "before": "Le chat est",
      "answer": "caché",
-     "after": "sous le lit : on ne le voit pas.",
+     "after": "sous le lit : on ne le voit pas.",
      "tr": "The cat is hidden under the bed: you can't see it."
     },
     {
@@ -41,10 +41,10 @@
      "tr": "The Paris metro network has sixteen lines."
     },
     {
-     "before": "Je vais",
-     "answer": "réchauffer",
-     "after": "la soupe d’hier soir.",
-     "tr": "I am going to warm up last night's soup."
+     "before": "Ne laisse pas",
+     "answer": "couler",
+     "after": "l’eau pendant que tu te brosses les dents.",
+     "tr": "Don't leave the water running while you brush your teeth."
     },
     {
      "before": "On gare la voiture dans un parking",
@@ -71,10 +71,10 @@
      "tr": "The library is a quiet place, ideal for working."
     },
     {
-     "before": "Sa patience est",
-     "answer": "inépuisable",
-     "after": ": il ne se fâche jamais.",
-     "tr": "His patience is inexhaustible: he never gets angry."
+     "before": "C’est un système très",
+     "answer": "ingénieux",
+     "after": ": il fonctionne sans électricité.",
+     "tr": "It's a very ingenious system: it works without electricity."
     },
     {
      "before": "L’usine va",

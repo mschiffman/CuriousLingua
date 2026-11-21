@@ -15,16 +15,16 @@
      "answer": true
     },
     {
-     "q": "Les barrages des castors détruisent les étangs.",
-     "answer": false
-    },
-    {
      "q": "Les étangs des castors accueillent des poissons, des grenouilles et des oiseaux.",
      "answer": true
     },
     {
      "q": "Le travail des castors augmente les risques d’inondation.",
      "answer": false
+    },
+    {
+     "q": "Les castors aident la nature à mieux respirer.",
+     "answer": true
     },
     {
      "q": "Quand le castor s’en va, son œuvre ne sert plus à rien.",
@@ -41,22 +41,34 @@
    "title": "2. Questions à choix multiples",
    "items": [
     {
+     "q": "Comment le texte décrit-il les castors au début ?",
+     "options": [
+      "De vrais bosseurs, adorables et dévoués",
+      "Des animaux paresseux",
+      "Des voleurs de bois"
+     ],
+     "answer": 0,
+     "why": "« De vrais bosseurs, adorables et dévoués. »"
+    },
+    {
      "q": "À quoi le texte compare-t-il les castors ?",
      "options": [
-      "À des architectes en mission secrète",
       "À des soldats",
+      "À des architectes en mission secrète",
       "À des jardiniers"
      ],
-     "answer": 0
+     "answer": 1,
+     "why": "« … qu’on dirait des architectes en mission secrète. »"
     },
     {
      "q": "Que créent les barrages des castors ?",
      "options": [
-      "Des déserts",
       "Des étangs paisibles",
+      "Des déserts",
       "Des routes"
      ],
-     "answer": 1
+     "answer": 0,
+     "why": "« Le résultat ? Des étangs paisibles, tout doux… »"
     },
     {
      "q": "Que font les castors pour l’eau ?",
@@ -65,25 +77,18 @@
       "Ils la boivent toute",
       "Ils la purifient"
      ],
-     "answer": 2
+     "answer": 2,
+     "why": "« … purifient l’eau, réduisent les risques d’inondation et aident la nature à mieux respirer. »"
     },
     {
-     "q": "Avec quoi les castors coupent-ils les arbres ?",
+     "q": "À quoi le texte compare-t-il ce que le castor laisse derrière lui ?",
      "options": [
-      "Avec leurs pattes",
-      "Avec leurs dents",
-      "Avec leur queue"
+      "À une maison vide",
+      "À un cadeau, silencieux mais précieux",
+      "À un trésor caché"
      ],
-     "answer": 1
-    },
-    {
-     "q": "Que veut dire « bosser » ?",
-     "options": [
-      "Dormir",
-      "Jouer",
-      "Travailler"
-     ],
-     "answer": 2
+     "answer": 1,
+     "why": "« Comme un cadeau laissé derrière, silencieux mais précieux. »"
     }
    ]
   },
@@ -92,14 +97,14 @@
    "title": "3. Complétez les phrases",
    "items": [
     {
-     "before": "Les castors sont de véritables petits",
+     "before": "Les castors, franchement, ce sont de véritables petits",
      "answer": "génies",
      "after": "de la nature."
     },
     {
-     "before": "Ils construisent des",
-     "answer": "barrages",
-     "after": "tellement ingénieux."
+     "before": "Ils construisent des barrages tellement",
+     "answer": "ingénieux",
+     "after": "."
     },
     {
      "before": "Les étangs deviennent de véritables",
@@ -107,19 +112,19 @@
      "after": "pour tout le monde."
     },
     {
-     "before": "Ces prodiges poilus",
-     "answer": "purifient",
-     "after": "l’eau."
+     "before": "Ces prodiges",
+     "answer": "poilus",
+     "after": "purifient l’eau."
     },
     {
-     "before": "Ils réduisent les risques d’",
-     "answer": "inondation",
-     "after": "."
+     "before": "Ils font tout ça avec une",
+     "answer": "patience",
+     "after": "et une tendresse qui donnent envie de les applaudir."
     },
     {
-     "before": "Comme un cadeau laissé derrière, silencieux mais",
-     "answer": "précieux",
-     "after": "."
+     "before": "Travailler avec la nature, ce n’est pas une corvée : c’est une longue",
+     "answer": "histoire",
+     "after": "d’amour entre toutes les formes de vie."
     }
    ]
   },
@@ -129,8 +134,8 @@
    "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
    "items": [
     {
-     "q": "Pourquoi dit-on que les castors sont des « génies de la nature » ?",
-     "model": "Parce qu’ils coupent des arbres avec leurs dents et construisent des barrages très ingénieux, comme de vrais architectes."
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "Les castors sont de petits génies de la nature : avec leurs dents, ils coupent des arbres et construisent des barrages très ingénieux. Leurs barrages créent des étangs paisibles qui servent de refuge à beaucoup d’animaux, et ils purifient l’eau et réduisent les inondations. Même quand le castor s’en va, son œuvre continue d’aider la vie."
     },
     {
      "q": "Quels animaux profitent des étangs créés par les castors ?",
@@ -141,19 +146,19 @@
      "model": "Ils purifient l’eau, réduisent les risques d’inondation et aident la nature à mieux respirer."
     },
     {
-     "q": "Que se passe-t-il quand le castor quitte son étang ?",
-     "model": "Son œuvre continue d’aider la vie autour de lui, comme un cadeau laissé derrière."
-    },
-    {
      "q": "Quelle leçon les castors nous donnent-ils ?",
      "model": "Travailler avec la nature n’est pas une corvée : c’est une longue histoire d’amour entre toutes les formes de vie."
+    },
+    {
+     "q": "Quel animal admirez-vous le plus ? Pourquoi ?",
+     "model": "Réponse libre."
     }
    ]
   },
   {
    "kind": "order",
    "title": "5. Remettez dans l’ordre",
-   "intro": "Remettez les étapes du travail du castor dans le bon ordre.",
+   "intro": "Remettez les étapes du travail du castor dans l’ordre du texte.",
    "items": [
     "Le castor coupe des arbres avec ses dents",
     "Il construit un barrage sur la rivière",

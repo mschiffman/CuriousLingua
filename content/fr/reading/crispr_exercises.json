@@ -31,8 +31,8 @@
      "answer": false
     },
     {
-     "q": "Les deux chercheuses ont reçu le prix Nobel en 2020.",
-     "answer": true
+     "q": "Les deux chercheuses ont reçu le prix Nobel en 2012.",
+     "answer": false
     }
    ]
   },
@@ -47,7 +47,8 @@
       "À une photo",
       "À un miroir"
      ],
-     "answer": 0
+     "answer": 0,
+     "why": "« Imagine un livre géant. […] Ce livre, c’est ton ADN. »"
     },
     {
      "q": "Qui a eu l’idée de CRISPR en 2012 ?",
@@ -56,7 +57,8 @@
       "Emmanuelle Charpentier et Jennifer Doudna",
       "Des patients malades"
      ],
-     "answer": 1
+     "answer": 1,
+     "why": "« … deux chercheuses, Emmanuelle Charpentier et Jennifer Doudna, ont eu une idée… »"
     },
     {
      "q": "Que fait la protéine Cas9 ?",
@@ -65,7 +67,8 @@
       "Elle reconnaît le virus et le coupe",
       "Elle répare la cellule"
      ],
-     "answer": 1
+     "answer": 1,
+     "why": "« Si le virus revient, une protéine, Cas9, le reconnaît et le coupe. »"
     },
     {
      "q": "Quelle maladie a déjà été soignée grâce à CRISPR ?",
@@ -74,7 +77,8 @@
       "Le diabète",
       "La drépanocytose"
      ],
-     "answer": 2
+     "answer": 2,
+     "why": "« Des patients atteints de drépanocytose […] ont été soignés grâce à CRISPR. »"
     },
     {
      "q": "Pourquoi CRISPR est-il « un peu effrayant » ?",
@@ -83,7 +87,8 @@
       "Parce qu’on pourrait modifier autre chose que des maladies",
       "Parce qu’il ne marche pas"
      ],
-     "answer": 1
+     "answer": 1,
+     "why": "« Si on peut corriger une maladie, on peut aussi modifier… autre chose. »"
     }
    ]
   },
@@ -92,14 +97,14 @@
    "title": "3. Complétez les phrases",
    "items": [
     {
-     "before": "Trois milliards de lettres, cachées dans presque chaque",
-     "answer": "cellule",
-     "after": "de ton corps."
+     "before": "Trois milliards de lettres, cachées dans presque chaque cellule de ton",
+     "answer": "corps",
+     "after": "."
     },
     {
-     "before": "Elles ont emprunté une",
-     "answer": "astuce",
-     "after": "… aux bactéries."
+     "before": "Puis, en 2012, deux chercheuses, Emmanuelle Charpentier et Jennifer Doudna, ont eu une idée",
+     "answer": "géniale",
+     "after": "."
     },
     {
      "before": "Elles gardent un petit",
@@ -112,14 +117,14 @@
      "after": "ces ciseaux."
     },
     {
-     "before": "Ensuite, la cellule",
-     "answer": "répare",
-     "after": "la coupure."
+     "before": "Des patients atteints de drépanocytose, une maladie du",
+     "answer": "sang",
+     "after": ", ont été soignés grâce à CRISPR."
     },
     {
-     "before": "En 2020, les deux chercheuses ont reçu le",
-     "answer": "prix",
-     "after": "Nobel."
+     "before": "Et quelque part, des ciseaux prêts à les",
+     "answer": "réécrire",
+     "after": "."
     }
    ]
   },
@@ -129,8 +134,8 @@
    "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
    "items": [
     {
-     "q": "Qu’est-ce qu’une « faute de frappe » dans l’ADN ?",
-     "model": "C’est une lettre au mauvais endroit. Une seule erreur peut provoquer une maladie grave."
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "Notre ADN est comme un livre de trois milliards de lettres, et une seule faute peut provoquer une maladie grave. En 2012, deux chercheuses ont eu l’idée d’utiliser l’astuce des bactéries contre les virus : des ciseaux, la protéine Cas9, qu’on peut programmer pour couper l’ADN là où on veut. Aujourd’hui, CRISPR soigne déjà des malades, mais il pose aussi des questions, car on pourrait modifier autre chose que des maladies."
     },
     {
      "q": "Comment les bactéries se défendent-elles contre les virus ?",
@@ -153,7 +158,7 @@
   {
    "kind": "order",
    "title": "5. Remettez dans l’ordre",
-   "intro": "Remettez dans l’ordre les étapes de la correction de l’ADN avec CRISPR.",
+   "intro": "Remettez les étapes de la correction de l’ADN avec CRISPR dans l’ordre du texte.",
    "items": [
     "On donne un guide aux ciseaux",
     "Les ciseaux trouvent le bon endroit dans l’ADN",
@@ -164,8 +169,8 @@
    "start": [
     2,
     4,
-    0,
     3,
+    0,
     1
    ]
   }

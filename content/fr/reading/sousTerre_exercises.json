@@ -47,7 +47,8 @@
       "Le sous-sol",
       "Le socle rocheux"
      ],
-     "answer": 0
+     "answer": 0,
+     "why": "« Le sol est couvert de feuilles mortes et de petites brindilles. On appelle ça la couche organique. »"
     },
     {
      "q": "Pourquoi la terre végétale est-elle foncée ?",
@@ -56,7 +57,8 @@
       "Parce qu’elle contient des plantes décomposées",
       "Parce qu’il n’y a pas de soleil"
      ],
-     "answer": 1
+     "answer": 1,
+     "why": "« Elle est souvent foncée, parce qu’elle contient des plantes décomposées et d’autres matières organiques. »"
     },
     {
      "q": "À quoi servent les galeries des vers de terre ?",
@@ -65,7 +67,8 @@
       "Elles arrêtent la pluie",
       "Elles aident l’air et l’eau à circuler"
      ],
-     "answer": 2
+     "answer": 2,
+     "why": "« Leurs galeries aident l’air et l’eau à circuler sous terre. »"
     },
     {
      "q": "Qu’est-ce qui casse les roches petit à petit ?",
@@ -74,7 +77,8 @@
       "Les oiseaux",
       "Les feuilles mortes"
      ],
-     "answer": 0
+     "answer": 0,
+     "why": "« La pluie, les changements de température et les êtres vivants cassent les roches petit à petit. »"
     },
     {
      "q": "Quelle est la couche la plus profonde ?",
@@ -83,7 +87,8 @@
       "La roche mère",
       "Le socle rocheux"
      ],
-     "answer": 2
+     "answer": 2,
+     "why": "« Enfin, on arrive au socle rocheux ! »"
     }
    ]
   },
@@ -92,9 +97,9 @@
    "title": "3. Complétez les phrases",
    "items": [
     {
-     "before": "Ces petites racines",
-     "answer": "puisent",
-     "after": "l’eau et les nutriments dans le sol."
+     "before": "Elles aident l’arbre à bien tenir",
+     "answer": "debout",
+     "after": "."
     },
     {
      "before": "Dans la nature, rien ne se",
@@ -102,14 +107,14 @@
      "after": "!"
     },
     {
-     "before": "Les vers de terre creusent des",
-     "answer": "galeries",
-     "after": "dans la terre."
+     "before": "La terre végétale, c’est un endroit très",
+     "answer": "animé",
+     "after": "!"
     },
     {
-     "before": "Il contient des minéraux et parfois beaucoup d’",
-     "answer": "argile",
-     "after": "."
+     "before": "Il contient des",
+     "answer": "minéraux",
+     "after": "et parfois beaucoup d’argile."
     },
     {
      "before": "Certains socles rocheux ont des",
@@ -117,9 +122,9 @@
      "after": "où l’eau peut passer."
     },
     {
-     "before": "Un monde merveilleux se cache juste sous tes",
-     "answer": "pieds",
-     "after": "!"
+     "before": "Un monde",
+     "answer": "merveilleux",
+     "after": "se cache juste sous tes pieds !"
     }
    ]
   },
@@ -129,12 +134,12 @@
    "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
    "items": [
     {
-     "q": "À quoi servent les racines d’un arbre ?",
-     "model": "Les grosses racines aident l’arbre à bien tenir debout. Les petites puisent l’eau et les nutriments dans le sol."
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "Sous un arbre se cache tout un monde : des racines, des vers de terre, des champignons et plein de petites bêtes. En descendant, on traverse plusieurs couches de sol, de plus en plus profondes, jusqu’à la roche dure. Chaque couche a sa propre histoire, et toutes forment un monde merveilleux sous nos pieds."
     },
     {
-     "q": "Qui aide à décomposer les plantes mortes ?",
-     "model": "Les vers de terre, les champignons et plein de petites bêtes."
+     "q": "À quoi servent les racines d’un arbre ?",
+     "model": "Les grosses racines aident l’arbre à bien tenir debout. Les petites puisent l’eau et les nutriments dans le sol."
     },
     {
      "q": "Pourquoi les vers de terre sont-ils utiles ?",
@@ -153,7 +158,7 @@
   {
    "kind": "order",
    "title": "5. Remettez dans l’ordre",
-   "intro": "Remettez les couches du sol dans le bon ordre, de la surface jusqu’en bas.",
+   "intro": "Remettez les couches du sol dans l’ordre de l’histoire, de la surface jusqu’en bas.",
    "items": [
     "La couche organique",
     "La terre végétale",
@@ -162,11 +167,11 @@
     "Le socle rocheux"
    ],
    "start": [
-    2,
-    4,
-    0,
     3,
-    1
+    4,
+    1,
+    0,
+    2
    ]
   }
  ]

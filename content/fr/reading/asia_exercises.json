@@ -1,0 +1,178 @@
+{
+ "title": "L’Asie : exercices",
+ "subtitle": "Cinq exercices sur le texte",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "asia",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. Vrai ou faux",
+   "items": [
+    {
+     "q": "L’Asie couvre à peu près un tiers des terres de la planète.",
+     "answer": true
+    },
+    {
+     "q": "En Sibérie, il fait très chaud.",
+     "answer": false
+    },
+    {
+     "q": "Dans les steppes de Mongolie, on peut rouler des heures sans voir personne.",
+     "answer": true
+    },
+    {
+     "q": "L’Inde a heurté le reste de l’Asie il y a cinq millions d’années.",
+     "answer": false
+    },
+    {
+     "q": "L’Everest ne grandit plus.",
+     "answer": false
+    },
+    {
+     "q": "Sans les grands fleuves, il n’y aurait pas de riz ni de villes.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Questions à choix multiples",
+   "items": [
+    {
+     "q": "Quelle part des habitants de la Terre vit en Asie ?",
+     "options": [
+      "Un tiers",
+      "Plus de la moitié",
+      "Un quart"
+     ],
+     "answer": 1,
+     "why": "« … à peu près un tiers des terres de la planète, et plus de la moitié des gens qui vivent sur Terre. »"
+    },
+    {
+     "q": "Que trouve-t-on à l’ouest de l’Asie ?",
+     "options": [
+      "Les steppes de Mongolie",
+      "La Sibérie",
+      "Les déserts d’Arabie"
+     ],
+     "answer": 2,
+     "why": "« À gauche, les déserts d’Arabie, où ça cogne fort. »"
+    },
+    {
+     "q": "Comment appelle-t-on le plateau tibétain ?",
+     "options": [
+      "Le toit du monde",
+      "Le centre du monde",
+      "Le bout du monde"
+     ],
+     "answer": 0,
+     "why": "« Là, t’as le plateau tibétain, qu’on appelle “le toit du monde”, et l’Himalaya. »"
+    },
+    {
+     "q": "D’où partent les grands fleuves comme le Gange et le Mékong ?",
+     "options": [
+      "De Sibérie",
+      "Des steppes de Mongolie",
+      "Du plateau tibétain et de l’Himalaya"
+     ],
+     "answer": 2,
+     "why": "« C’est de là-haut que partent les grands fleuves : le Gange, le Mékong, le Yangtsé, l’Irrawaddy. »"
+    },
+    {
+     "q": "Pourquoi les gens restent-ils dans l’est de l’Asie, malgré les volcans ?",
+     "options": [
+      "Parce que les sols sont fertiles et la mer pleine de poissons",
+      "Parce qu’il y fait toujours doux",
+      "Parce que les volcans sont endormis"
+     ],
+     "answer": 0,
+     "why": "« Les sols sont super fertiles, la mer est pleine de poissons, alors forcément, tout le monde reste. »"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complétez les phrases",
+   "items": [
+    {
+     "before": "Prends une",
+     "answer": "carte",
+     "after": "et regarde un peu."
+    },
+    {
+     "before": "En haut, t’as la Sibérie — des",
+     "answer": "forêts",
+     "after": "à perte de vue et un froid de canard."
+    },
+    {
+     "before": "Tu savais que ces",
+     "answer": "montagnes",
+     "after": "sont nées d’un accident ?"
+    },
+    {
+     "before": "L’Inde s’est carrément",
+     "answer": "encastrée",
+     "after": "dans le reste de l’Asie, il y a cinquante millions d’années."
+    },
+    {
+     "before": "Et puis à l’est, ça part dans tous les sens : des",
+     "answer": "milliers",
+     "after": "d’îles, du Japon jusqu’à l’Indonésie."
+    },
+    {
+     "before": "Bref, l’Asie, c’est un peu tout à la fois : glaciale, brûlante,",
+     "answer": "humide",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Questions ouvertes",
+   "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
+   "items": [
+    {
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "L’Asie est le plus grand continent du monde : elle couvre un tiers des terres et accueille plus de la moitié de l’humanité. On y trouve des paysages extrêmes, des forêts glacées de Sibérie aux déserts brûlants d’Arabie, et en son centre l’Himalaya, né de la collision entre l’Inde et le reste du continent. À l’est, des milliers d’îles aux sols fertiles attirent les gens, malgré les volcans et les tremblements de terre."
+    },
+    {
+     "q": "Pourquoi dit-on que l’Himalaya est né d’un accident ?",
+     "model": "Parce que ces montagnes sont nées de la collision entre l’Inde et le reste de l’Asie, il y a cinquante millions d’années. Et le mouvement continue : l’Everest grandit encore de quelques millimètres par an."
+    },
+    {
+     "q": "Quels climats différents trouve-t-on en Asie ? Donnez des exemples.",
+     "model": "Il fait un froid terrible en Sibérie, une chaleur écrasante dans les déserts d’Arabie, et à l’est il y a des moussons. L’Asie est à la fois glaciale, brûlante et humide."
+    },
+    {
+     "q": "Pourquoi le texte dit-il que l’Asie est « plutôt un monde entier » qu’un continent ?",
+     "model": "Parce qu’elle est immense et qu’elle rassemble tout à la fois : des forêts, des déserts, des steppes, de hautes montagnes, des milliers d’îles, des climats glacials, brûlants et humides, et plus de la moitié des habitants de la planète."
+    },
+    {
+     "q": "Quel pays d’Asie aimeriez-vous visiter ? Pourquoi ?",
+     "model": "Réponse libre."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Remettez dans l’ordre",
+   "intro": "Remettez les idées dans l’ordre du texte.",
+   "items": [
+    "Plus de la moitié des habitants de la Terre vivent en Asie",
+    "Dans les steppes de Mongolie, on roule des heures",
+    "L’Inde heurte le reste de l’Asie",
+    "Les grands fleuves partent du centre du continent",
+    "À l’est, la terre tremble souvent"
+   ],
+   "start": [
+    2,
+    4,
+    0,
+    1,
+    3
+   ]
+  }
+ ]
+}

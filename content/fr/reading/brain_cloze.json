@@ -1,0 +1,88 @@
+{
+ "title": "Le cerveau et les langues : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "brain",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "Mon voisin",
+     "answer": "gère",
+     "after": "un petit hôtel au bord de la mer.",
+     "tr": "My neighbour runs a small hotel by the sea."
+    },
+    {
+     "before": "Elle est",
+     "answer": "capable",
+     "after": "de nager deux kilomètres sans s’arrêter.",
+     "tr": "She is able to swim two kilometres without stopping."
+    },
+    {
+     "before": "Cette photo me rappelle de bons",
+     "answer": "souvenirs",
+     "after": ".",
+     "tr": "This photo brings back good memories."
+    },
+    {
+     "before": "Ma fille est très",
+     "answer": "créative",
+     "after": ": elle invente des histoires et dessine tout le temps.",
+     "tr": "My daughter is very creative: she makes up stories and draws all the time."
+    },
+    {
+     "before": "Le code de la porte a quatre",
+     "answer": "chiffres",
+     "after": ".",
+     "tr": "The door code has four digits."
+    },
+    {
+     "before": "Pour le match, on a installé un écran",
+     "answer": "géant",
+     "after": "sur la place.",
+     "tr": "For the match, they put up a giant screen on the square."
+    },
+    {
+     "before": "Sur la glace, il a perdu son",
+     "answer": "équilibre",
+     "after": "et il est tombé.",
+     "tr": "On the ice, he lost his balance and fell."
+    },
+    {
+     "before": "Mon",
+     "answer": "entraînement",
+     "after": "de foot commence à six heures.",
+     "tr": "My football training starts at six o'clock."
+    },
+    {
+     "before": "Je lis le journal en français pour",
+     "answer": "améliorer",
+     "after": "mon vocabulaire.",
+     "tr": "I read the newspaper in French to improve my vocabulary."
+    },
+    {
+     "before": "Le sport est bon pour la santé physique et",
+     "answer": "mentale",
+     "after": ".",
+     "tr": "Sport is good for physical and mental health."
+    },
+    {
+     "before": "Un accident sur l’autoroute va",
+     "answer": "retarder",
+     "after": "notre arrivée.",
+     "tr": "An accident on the motorway is going to delay our arrival."
+    },
+    {
+     "before": "Je vais",
+     "answer": "offrir",
+     "after": "des fleurs à ma mère pour son anniversaire.",
+     "tr": "I am going to give my mother flowers for her birthday."
+    }
+   ]
+  }
+ ]
+}

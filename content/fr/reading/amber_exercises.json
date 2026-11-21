@@ -1,17 +1,18 @@
 {
- "title": "L’ambre : exercices",
+ "title": "L’ambre : exercices",
  "subtitle": "Cinq exercices sur le texte",
  "label": "Exercises",
  "type": "practice",
  "supplement_of": "amber",
  "legacy": "fr/reading/amber-exercises.html",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
  "blocks": [
   {
    "kind": "truefalse",
    "title": "1. Vrai ou faux",
    "items": [
     {
-     "q": "Les Grecs pensaient que l’ambre était du soleil solidifié.",
+     "q": "Les Grecs de l’Antiquité pensaient que l’ambre venait du soleil.",
      "answer": true
     },
     {
@@ -21,6 +22,14 @@
     {
      "q": "La résine coule quand l’écorce de l’arbre est abîmée.",
      "answer": true
+    },
+    {
+     "q": "La résine reste liquide pour toujours.",
+     "answer": false
+    },
+    {
+     "q": "Les insectes piégés dans l’ambre disparaissent avec le temps.",
+     "answer": false
     },
     {
      "q": "L’ambre rare devient bleu à la lumière du soleil.",
@@ -33,22 +42,44 @@
    "title": "2. Questions à choix multiples",
    "items": [
     {
-     "q": "D’où vient l’ambre ?",
+     "q": "Comment est l’ambre, d’après la première phrase ?",
      "options": [
-      "Des roches",
-      "Des arbres",
-      "Du soleil"
+      "Doré comme le miel et brillant comme du verre",
+      "Noir comme la nuit et dur comme la pierre",
+      "Blanc comme la neige et froid comme la glace"
      ],
-     "answer": 1
+     "answer": 0,
+     "why": "« Qu’est-ce qui est doré comme le miel et brille comme du verre ? »"
+    },
+    {
+     "q": "Quels arbres laissent s’écouler de la résine ?",
+     "options": [
+      "Les chênes et les érables",
+      "Les pins et les sapins",
+      "Les palmiers"
+     ],
+     "answer": 1,
+     "why": "« Les pins et les sapins laissent s’écouler un liquide […] appelé résine lorsque leur écorce est abîmée. »"
     },
     {
      "q": "Pourquoi la résine coule-t-elle ?",
      "options": [
       "Pour attirer les insectes",
-      "Pour boucher les blessures de l’arbre",
-      "Pour se transformer en ambre"
+      "Pour se transformer en ambre",
+      "Pour boucher les blessures de l’arbre"
      ],
-     "answer": 1
+     "answer": 2,
+     "why": "« La résine coule pour boucher les blessures, puis elle durcit. »"
+    },
+    {
+     "q": "À quoi le texte compare-t-il la résine qui se fossilise ?",
+     "options": [
+      "À un os de dinosaure",
+      "À une goutte de miel",
+      "À un morceau de verre"
+     ],
+     "answer": 0,
+     "why": "« Tout comme un os de dinosaure, la résine peut se fossiliser et se transformer en ambre. »"
     },
     {
      "q": "Que peut-on trouver piégé dans l’ambre ?",
@@ -57,7 +88,8 @@
       "Des insectes et des araignées",
       "Des feuilles d’arbres"
      ],
-     "answer": 1
+     "answer": 1,
+     "why": "« Si une araignée ou un insecte marche sur cette substance dorée […], il peut rester piégé. »"
     }
    ]
   },
@@ -66,24 +98,34 @@
    "title": "3. Complétez les phrases",
    "items": [
     {
-     "before": "La résine est un liquide",
-     "answer": "épais",
-     "after": "et collant."
+     "before": "Les Grecs de l’Antiquité pensaient que c’était des gouttes de soleil",
+     "answer": "solidifié",
+     "after": "."
     },
     {
-     "before": "Les",
-     "answer": "pins",
-     "after": "et les sapins produisent de la résine."
+     "before": "En",
+     "answer": "réalité",
+     "after": ", l’ambre vient des arbres."
     },
     {
-     "before": "La résine",
-     "answer": "durcit",
-     "after": "et peut se fossiliser."
+     "before": "Les pins et les sapins laissent s’écouler un liquide épais et",
+     "answer": "collant",
+     "after": "appelé résine."
     },
     {
-     "before": "L’ambre peut être une",
-     "answer": "capsule",
-     "after": "temporelle du monde préhistorique."
+     "before": "L’ambre peut être une capsule temporelle du monde",
+     "answer": "préhistorique",
+     "after": "."
+    },
+    {
+     "before": "Lorsque la résine se transforme en ambre, la petite créature est",
+     "answer": "emprisonnée",
+     "after": "pour toujours."
+    },
+    {
+     "before": "Un type rare d’ambre est",
+     "answer": "orange",
+     "after": "jusqu’à ce qu’on le voie à la lumière du soleil… où il devient bleu !"
     }
    ]
   },
@@ -93,29 +135,37 @@
    "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
    "items": [
     {
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "L’ambre est une matière dorée qui vient de la résine des arbres, et non du soleil comme le pensaient les Grecs. Quand l’écorce d’un pin ou d’un sapin est abîmée, la résine coule, durcit, puis se fossilise et devient de l’ambre. Parfois, un petit animal reste piégé dedans, et on peut le voir tel qu’il était il y a des millions d’années."
+    },
+    {
      "q": "Que pensaient les Grecs de l’Antiquité à propos de l’ambre ?",
      "model": "Ils pensaient que c’était des gouttes de soleil solidifié."
     },
     {
      "q": "Expliquez comment la résine devient de l’ambre.",
-     "model": "Sur des millions d’années, la pression, la chaleur et l’absence d’oxygène durcissent la résine, qui devient de l’ambre."
+     "model": "Quand l’écorce d’un pin ou d’un sapin est abîmée, la résine coule pour boucher les blessures, puis elle durcit. Avec le temps, comme un os de dinosaure, elle se fossilise et se transforme en ambre."
     },
     {
-     "q": "Pourquoi dit-on que l’ambre est une « capsule temporelle » ?",
-     "model": "Parce qu’il emprisonne et préserve parfaitement les insectes."
+     "q": "Pourquoi dit-on que l’ambre est une « capsule temporelle » ?",
+     "model": "Parce qu’il garde le passé : une araignée ou un insecte piégé dans la résine y reste emprisonné pour toujours, et on peut le voir tel qu’il était il y a des millions d’années."
+    },
+    {
+     "q": "Aimeriez-vous avoir un bijou en ambre ? Pourquoi ?",
+     "model": "Réponse libre."
     }
    ]
   },
   {
    "kind": "order",
    "title": "5. Remettez dans l’ordre",
-   "intro": "Remettez les étapes de la formation de l’ambre dans le bon ordre.",
+   "intro": "Remettez les étapes de la formation de l’ambre dans l’ordre du texte.",
    "items": [
     "L’écorce de l’arbre est abîmée",
     "La résine coule pour boucher les blessures",
     "La résine durcit",
-    "Un insecte peut rester piégé dans la résine collante",
-    "La résine se fossilise et devient de l’ambre"
+    "La résine se fossilise et devient de l’ambre",
+    "Des millions d’années plus tard, on voit encore la petite créature"
    ],
    "start": [
     2,
