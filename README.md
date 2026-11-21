@@ -104,6 +104,14 @@ A reader's pictures are `img\...\1.jpg`, `2.jpg` … in its `img_dir`. A missing
 
 Imported lessons carry `"level_provisional": true`: the level is a guess from the file name. Set the real `level`, delete that line. `4_check.bat` lists what is left.
 
+## About, Contact, Privacy Policy
+
+Three pages about the site itself, linked from the footer of every page: `about.html`, `contact.html`, `privacy.html`. Like the lessons, they are generated (`info_pages()` in `tools\build.py`).
+
+- The text of **About** and **Privacy Policy** is in `content\pages\about.md` and `content\pages\privacy.md`. Edit the file, then build. `# ` is the page title, a `### ` line straight after it is the line under the title; then `## ` headings, paragraphs, `- ` lists, `---`, `**bold**`, `[words](address)`.
+- The **Contact** form is delivered by [Web3Forms](https://web3forms.com), a form-forwarding service (a site with no server cannot send email itself). Its access key goes in `site.json`: `"contact": { "access_key": "..." }`. The key stands for the mailbox, so no email address is written in the page. While the key is empty the build says so and the form tells visitors it is not switched on yet. Spam: a hidden box only robots tick, and a form sent within 3 seconds of opening the page is thanked but never sent.
+- When the site starts doing something new with visitors' information (analytics, a newsletter, comments, ads), update `privacy.md` and its date.
+
 ## Publishing
 
 This folder is a git repository; its remote is the public GitHub repository `mschiffman/CuriousLingua` (branch `main`). `5_publish.bat` rebuilds, commits and pushes. The site is online at https://curiouslingua.mschiffm.workers.dev/ : the Cloudflare Worker `curiouslingua` rebuilds it from `main` after every push (`wrangler.jsonc` serves this folder as a static site; `.assetsignore` lists what stays off the live site). `media\`, the offline copies and the working folders are in `.gitignore`.

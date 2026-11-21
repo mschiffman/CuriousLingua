@@ -68,6 +68,10 @@ def hero_canvas(which):
     return f'<canvas class="hero-canvas" data-hero="{which}" aria-hidden="true"></canvas>'
 
 
+# The pages about the site itself, linked from the footer of every page (see info_pages(), near the end of this file)
+INFO = [("about", "About"), ("contact", "Contact"), ("privacy", "Privacy")]
+
+
 def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True):
     r = up(rel)
     nav = "".join(
@@ -98,7 +102,8 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
     offline = f'<a class="hover:text-accent" href="{e(off_url)}" target="_blank" rel="noopener">Offline lessons (Google Drive)</a>' if off_url else ""
     footer = f'''<footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
 <span class="font-display text-base font-semibold text-ink">{e(C["site_name"])}</span>
-<span>Free for everyone. No account, no paywall.</span>{offline}</div></footer>'''
+<span>Free for everyone. No account, no paywall.</span>{offline}
+<nav class="flex flex-wrap gap-x-5 gap-y-2 sm:ml-auto" aria-label="About this site">{"".join(f'<a class="hover:text-accent" href="{r}{slug}.html">{name}</a>' for slug, name in INFO)}</nav></div></footer>'''
     if "site" not in cls.split():
         header = footer = ""
     if not foot:
@@ -1005,6 +1010,114 @@ def home(all_lessons):
     write("index.html", frame("index.html", C["site_name"], body, cls="site home"))
 
 
+# ------------------------------------------------------------------ About, Contact, Privacy Policy
+# The text of About and Privacy Policy is in content/pages/about.md and privacy.md: edit those files, then build.
+# The Contact form is sent by Web3Forms (a form-forwarding service: a site with no server cannot send email itself).
+# Its access key is "contact": {"access_key": "..."} in site.json; the key names the mailbox, so no address is in the page.
+def page_md(text):
+    """A page written in simple Markdown -> (title, lead, html). "# " is the title, a "### " line straight after it the
+    line under the title. Then: "## " and "### " headings, paragraphs, "- " lists, "---" for a rule, **bold**, *italic*,
+    [words](address)."""
+    def span(t):
+        return re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", lambda m: f'<a href="{m.group(2)}"' + (' target="_blank" rel="noopener"' if m.group(2).startswith("http") else "") + f'>{m.group(1)}</a>', inline(t))
+    title = lead = ""
+    out, para, items = [], [], []
+
+    def flush():
+        if para:
+            out.append(f"<p>{span(' '.join(para))}</p>")
+        if items:
+            out.append("<ul>" + "".join(f"<li>{span(x)}</li>" for x in items) + "</ul>")
+        para.clear(), items.clear()
+    for line in text.splitlines():
+        t = line.strip()
+        h = re.match(r"(#{1,3}) +(.+)", t)
+        rule = re.fullmatch(r"-{3,}", t)
+        if h or rule or not t or t.startswith("- ") or items:
+            flush()
+        if h and len(h.group(1)) == 1 and not title:
+            title = h.group(2)
+        elif h and len(h.group(1)) == 3 and not lead and not out:
+            lead = h.group(2)
+        elif h:
+            out.append(f"<h{len(h.group(1))}>{span(h.group(2))}</h{len(h.group(1))}>")
+        elif rule:
+            out.append("<hr>")
+        elif t.startswith("- "):
+            items.append(t[2:])
+        elif t:
+            para.append(t)
+    flush()
+    return title, lead, "\n".join(out)
+
+
+def info_head(kicker, title, lead):
+    return f"""<section class="border-b border-line bg-accent/5"><div class="wrap py-10 sm:py-16">
+<p class="kicker" data-reveal>{e(kicker)}</p>
+<h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-6xl" data-split>{e(title)}</h1>
+{f'<p class="mt-4 max-w-2xl text-xl text-muted" data-reveal>{inline(lead)}</p>' if lead else ""}
+</div></section>"""
+
+
+CONTACT_JS = """<script>
+(function () {
+  var f = document.querySelector("[data-contact]"); if (!f) return;
+  var note = f.querySelector("[data-status]"), btn = f.querySelector("button[type=submit]"), t0 = Date.now();
+  function say(text, cls) { note.textContent = text; note.className = "font-bold " + (cls || "text-muted"); }
+  function done() { f.hidden = true; var d = document.querySelector("[data-contact-done]"); d.hidden = false; d.focus(); }
+  f.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var d = Object.fromEntries(new FormData(f));
+    if (!d.access_key) { say("The contact form is not switched on yet. Please come back soon.", "text-bad"); return; }
+    /* spam: the hidden box only a robot ticks, or a form sent within 3 seconds of opening the page. Thanked, never sent. */
+    if (d.botcheck || Date.now() - t0 < 3000) { done(); return; }
+    btn.disabled = true; say("Sending…");
+    fetch(f.action, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(d) })
+      .then(function (r) { return r.json().then(function (j) { if (!r.ok || !j.success) throw 0; done(); }); })
+      .catch(function () { btn.disabled = false; say("Sorry, your message could not be sent. Please try again in a moment.", "text-bad"); });
+  });
+})();
+</script>"""
+
+
+def info_pages():
+    name = "CuriousLingua"
+    for slug, kicker in (("about", "About"), ("privacy", "Privacy")):
+        src = os.path.join(ROOT, "content", "pages", slug + ".md")
+        if not os.path.exists(src):
+            print(f"  content/pages/{slug}.md is missing: {slug}.html not built")
+            continue
+        title, lead, text = page_md(open(src, encoding="utf-8").read())
+        more = ('<div class="mt-10 flex flex-wrap gap-3"><a class="btn btn-primary" href="index.html#courses">Choose a language</a>'
+                '<a class="btn" href="contact.html">Contact us</a></div>') if slug == "about" else ""
+        body = f'<main>\n{info_head(kicker, title, lead)}\n<div class="wrap py-8 sm:py-12"><article class="page-text">\n{text}\n</article>{more}</div>\n</main>'
+        write(f"{slug}.html", frame(f"{slug}.html", f"{title} | {C['site_name']}", body))
+    key = C.get("contact", {}).get("access_key", "").strip()
+    if not key:
+        print('  contact.html: the form cannot send yet. Put the Web3Forms access key in site.json ("contact": {"access_key": "..."}).')
+    body = f"""<main>
+{info_head("Contact", "Get in touch", "A question, a mistake you spotted in a lesson, an idea for a story? Write to us.")}
+<div class="wrap py-8 sm:py-12"><div class="page-text">
+<form data-contact class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="{e(key)}">
+<input type="hidden" name="subject" value="New message from the {name} contact form">
+<input type="hidden" name="from_name" value="{name} website">
+<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+<div class="field"><label for="c-name">Your name</label><input id="c-name" name="name" type="text" autocomplete="name" maxlength="100" required></div>
+<div class="field"><label for="c-email">Your email address</label><input id="c-email" name="email" type="email" autocomplete="email" maxlength="200" required>
+<p class="hint">Only used to reply to you.</p></div>
+<div class="field"><label for="c-message">Your message</label><textarea id="c-message" name="message" rows="7" maxlength="5000" required></textarea></div>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-2"><button type="submit" class="btn btn-primary px-6 py-3 text-base">Send message</button><span data-status role="status" aria-live="polite"></span></div>
+<p class="hint">Your name, email address and message are sent to us by email and used only to answer you. See the <a href="privacy.html">Privacy Policy</a>. If you are a child, please ask a parent or teacher to write for you.</p>
+</form>
+<div data-contact-done hidden tabindex="-1" class="rounded-2xl border border-line bg-card p-6 shadow-sm sm:p-8">
+<h2 style="margin-top:0">Thank you!</h2><p>Your message is on its way. We read everything and will reply as soon as we can.</p>
+<p><a href="index.html">Back to the lessons</a></p></div>
+</div></div>
+</main>"""
+    write("contact.html", frame("contact.html", f"Contact | {C['site_name']}", body, tail=CONTACT_JS))
+
+
 def offline_index(all_lessons, have):
     rel = "offline/index.html"
     body = '''<main class="wrap py-8 sm:py-12"><h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">Offline lessons</h1>
@@ -1082,6 +1195,7 @@ def main():
             level_page(k, code, items)
         course_home(k, items)
     home(all_lessons)
+    info_pages()
     old = os.path.join(ROOT, "offline", "index.html")   # the site no longer has a downloads page (see lesson_page)
     if os.path.exists(old):
         os.remove(old)

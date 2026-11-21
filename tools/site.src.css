@@ -240,3 +240,24 @@ body.site > header.is-scrolled { box-shadow: 0 8px 24px -14px rgb(30 35 48 / .35
 .outro { position: relative; overflow: hidden; border-radius: 2rem; padding: 2.5rem 1.75rem; color: #fff;
   background: radial-gradient(70% 120% at 85% 10%, rgb(40 80 180 / .5), transparent 70%), radial-gradient(50% 90% at 0% 100%, rgb(104 64 180 / .35), transparent 70%), #070C22; }
 @media (min-width: 640px) { .outro { padding: 3.5rem 3rem; } }
+
+/* ------------------------------------------------------------------ About, Contact, Privacy Policy (tools/build.py, info_pages()) */
+.page-text { max-width: 43rem; font-size: 1.0625rem; line-height: 1.75; }
+.page-text h2 { margin-top: 2.75rem; font-size: 1.65rem; font-weight: 600; line-height: 1.2; letter-spacing: -.01em; }
+.page-text h3 { margin-top: 2rem; font-size: 1.25rem; font-weight: 600; line-height: 1.3; }
+.page-text p, .page-text ul { margin-top: 1rem; }
+.page-text > :first-child { margin-top: 0; }
+.page-text ul { list-style: disc; padding-left: 1.3rem; }
+.page-text li + li { margin-top: .45rem; }
+.page-text li::marker { color: rgb(var(--accent)); }
+.page-text a { color: rgb(var(--accent)); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.page-text a:hover { text-decoration-thickness: 2px; }
+.page-text hr { margin: 2.75rem 0 2rem; border: 0; border-top: 1px solid #E4DCCF; }
+.contact-form { display: grid; gap: 1.25rem; }
+.contact-form[hidden] { display: none; }
+.field label { display: block; font-size: .95rem; font-weight: 700; }
+.field input, .field textarea { display: block; margin-top: .4rem; width: 100%; border: 1px solid #D5CBBB; border-radius: .75rem; background: #fff; padding: .7rem .9rem; font: inherit; line-height: 1.5; color: inherit;
+  transition: border-color .2s ease, box-shadow .2s ease; }
+.field textarea { min-height: 9rem; resize: vertical; }
+.field input:focus, .field textarea:focus { outline: none; border-color: rgb(var(--accent)); box-shadow: 0 0 0 3px rgb(var(--accent) / .2); }
+.page-text .hint { margin-top: .4rem; font-size: .9rem; line-height: 1.55; color: #5B6475; }

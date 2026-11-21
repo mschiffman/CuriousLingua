@@ -1,73 +1,116 @@
 {
- "site_name": "Languages",
- "media_base": "https://languages.rmlives.com/",
- "levels": {
-  "pre-a1": "Starter", "a1": "Beginner", "a2": "Elementary", "b1": "Intermediate", "b2": "Upper intermediate", "c1": "Advanced"
- },
- "strands": {
-  "reading": ["Reading", "Read it, tap any part to hear it."],
-  "listening": ["Listening", "Hear it first. Read it after."],
-  "speaking": ["Speaking", "Conversations to say out loud."],
-  "vocabulary": ["Vocabulary", "Words by topic, with pictures and sound."],
-  "expressions": ["Expressions", "What people really say, and when."],
-  "grammar": ["Grammar", "How the language fits together."],
-  "pronunciation": ["Pronunciation", "Sounds, and shadowing practice."],
-  "fundamentals": ["Fundamentals", "Alphabet, numbers, dates, time."],
-  "sounds": ["Sounds", "Rhythm, long vowels and pitch."]
- },
- "courses": {
-  "fr": {
-   "name": "French", "native": "Français", "lang": "fr", "for": "For adults", "range": "A1 to B2",
-   "tagline": "French as it is spoken, from your first bonjour to B2.",
-   "levels": ["a1", "a2", "b1", "b2"],
-   "strands": ["reading", "listening", "speaking", "vocabulary", "expressions", "grammar", "pronunciation", "fundamentals"],
-   "can": {
-    "a1": "Greet people, introduce yourself, get through a shop or a café.",
-    "a2": "Handle simple exchanges, talk about the past, make plans.",
-    "b1": "Give opinions, tell stories, follow people who do not slow down.",
-    "b2": "Understand what is meant, not only what is said: tone, nuance, register."
-   }
+  "site_name": "Languages",
+  "media_base": "https://languages.rmlives.com/",
+  "contact": {
+    "service": "web3forms",
+    "access_key": "8f667bbc-7233-4c09-b7d0-feae0666facf"
   },
-  "eng": {
-   "name": "English", "native": "အင်္ဂလိပ်စာ", "native_lang": "my", "lang": "en", "for": "For children in Myanmar", "range": "Starter to B2",
-   "tagline": "Stories, pictures and everyday English, with Burmese when you need it.",
-   "offline_url": "https://drive.google.com/drive/folders/1muLyAmx-wRvD1Fj1bXswh5zyvkpzlfKk?usp=sharing",
-   "levels": ["pre-a1", "a1", "a2", "b1", "b2"],
-   "strands": ["reading", "listening", "speaking", "vocabulary", "expressions", "grammar", "pronunciation"],
-   "can": {
-    "pre-a1": "Know the letters and sounds, and your first words.",
-    "a1": "Talk about yourself, your family, school, animals and food.",
-    "a2": "Describe your day, tell a simple story, ask for things politely.",
-    "b1": "Explain, retell and learn school subjects in English.",
-    "b2": "Read longer texts, write essays, discuss ideas."
-   }
+  "levels": {
+    "pre-a1": "Starter",
+    "a1": "Beginner",
+    "a2": "Elementary",
+    "b1": "Intermediate",
+    "b2": "Upper intermediate",
+    "c1": "Advanced"
   },
-  "jap": {
-   "name": "Japanese", "native": "日本語", "lang": "ja", "for": "Speaking only", "range": "A1 to B2",
-   "tagline": "Spoken Japanese by ear: no writing to learn. English and Burmese support.",
-   "levels": ["a1", "a2", "b1", "b2"],
-   "strands": ["speaking", "listening", "expressions", "sounds"],
-   "can": {
-    "a1": "Greet, introduce yourself, ask for things, count, shop.",
-    "a2": "Daily conversation, plans, permission; polite and plain speech.",
-    "b1": "Explain, give opinions, workplace talk, the telephone, basic keigo.",
-    "b2": "Nuance, indirectness, formal situations, longer discussion."
-   }
+  "strands": {
+    "reading": ["Reading", "Read it, tap any part to hear it."],
+    "listening": ["Listening", "Hear it first. Read it after."],
+    "speaking": ["Speaking", "Conversations to say out loud."],
+    "vocabulary": ["Vocabulary", "Words by topic, with pictures and sound."],
+    "expressions": ["Expressions", "What people really say, and when."],
+    "grammar": ["Grammar", "How the language fits together."],
+    "pronunciation": ["Pronunciation", "Sounds, and shadowing practice."],
+    "fundamentals": ["Fundamentals", "Alphabet, numbers, dates, time."],
+    "sounds": ["Sounds", "Rhythm, long vowels and pitch."]
   },
-  "kor": {
-   "name": "Korean", "native": "한국어", "lang": "ko", "for": "Speaking first", "range": "A1 to B2",
-   "tagline": "Spoken Korean by ear, with Hangul beside every line. English and Burmese support.",
-   "levels": ["a1", "a2", "b1", "b2"],
-   "strands": ["speaking", "listening", "expressions", "sounds"],
-   "strand_text": {
-    "sounds": "Vowels, the three kinds of consonant, and how sounds link."
-   },
-   "can": {
-    "a1": "Greet, introduce yourself, ask for things, count, shop.",
-    "a2": "Daily conversation, plans, permission; polite and casual speech.",
-    "b1": "Explain, give opinions, workplace talk, the telephone, basic honorifics.",
-    "b2": "Nuance, indirectness, formal situations, longer discussion."
-   }
+  "courses": {
+    "fr": {
+      "name": "French",
+      "native": "Français",
+      "lang": "fr",
+      "for": "For adults",
+      "range": "A1 to B2",
+      "tagline": "French as it is spoken, from your first bonjour to B2.",
+      "levels": ["a1", "a2", "b1", "b2"],
+      "strands": [
+        "reading",
+        "listening",
+        "speaking",
+        "vocabulary",
+        "expressions",
+        "grammar",
+        "pronunciation",
+        "fundamentals"
+      ],
+      "can": {
+        "a1": "Greet people, introduce yourself, get through a shop or a café.",
+        "a2": "Handle simple exchanges, talk about the past, make plans.",
+        "b1": "Give opinions, tell stories, follow people who do not slow down.",
+        "b2": "Understand what is meant, not only what is said: tone, nuance, register."
+      }
+    },
+    "eng": {
+      "name": "English",
+      "native": "အင်္ဂလိပ်စာ",
+      "native_lang": "my",
+      "lang": "en",
+      "for": "For children in Myanmar",
+      "range": "Starter to B2",
+      "tagline": "Stories, pictures and everyday English, with Burmese when you need it.",
+      "offline_url": "https://drive.google.com/drive/folders/1muLyAmx-wRvD1Fj1bXswh5zyvkpzlfKk?usp=sharing",
+      "levels": ["pre-a1", "a1", "a2", "b1", "b2"],
+      "strands": [
+        "reading",
+        "listening",
+        "speaking",
+        "vocabulary",
+        "expressions",
+        "grammar",
+        "pronunciation"
+      ],
+      "can": {
+        "pre-a1": "Know the letters and sounds, and your first words.",
+        "a1": "Talk about yourself, your family, school, animals and food.",
+        "a2": "Describe your day, tell a simple story, ask for things politely.",
+        "b1": "Explain, retell and learn school subjects in English.",
+        "b2": "Read longer texts, write essays, discuss ideas."
+      }
+    },
+    "jap": {
+      "name": "Japanese",
+      "native": "日本語",
+      "lang": "ja",
+      "for": "Speaking only",
+      "range": "A1 to B2",
+      "tagline": "Spoken Japanese by ear: no writing to learn. English and Burmese support.",
+      "levels": ["a1", "a2", "b1", "b2"],
+      "strands": ["speaking", "listening", "expressions", "sounds"],
+      "can": {
+        "a1": "Greet, introduce yourself, ask for things, count, shop.",
+        "a2": "Daily conversation, plans, permission; polite and plain speech.",
+        "b1": "Explain, give opinions, workplace talk, the telephone, basic keigo.",
+        "b2": "Nuance, indirectness, formal situations, longer discussion."
+      }
+    },
+    "kor": {
+      "name": "Korean",
+      "native": "한국어",
+      "lang": "ko",
+      "for": "Speaking first",
+      "range": "A1 to B2",
+      "tagline": "Spoken Korean by ear, with Hangul beside every line. English and Burmese support.",
+      "levels": ["a1", "a2", "b1", "b2"],
+      "strands": ["speaking", "listening", "expressions", "sounds"],
+      "strand_text": {
+        "sounds": "Vowels, the three kinds of consonant, and how sounds link."
+      },
+      "can": {
+        "a1": "Greet, introduce yourself, ask for things, count, shop.",
+        "a2": "Daily conversation, plans, permission; polite and casual speech.",
+        "b1": "Explain, give opinions, workplace talk, the telephone, basic honorifics.",
+        "b2": "Nuance, indirectness, formal situations, longer discussion."
+      }
+    }
   }
- }
 }
