@@ -165,6 +165,21 @@
   "quiz": false
  },
  {
+  "id": "fr/reading/le_mauvais_train",
+  "url": "fr/reading/le_mauvais_train.html",
+  "course": "fr",
+  "strand": "reading",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Stories",
+  "type": "reader",
+  "title": "Le mauvais train",
+  "clips": 109,
+  "images": 8,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/reading/meteorite",
   "url": "fr/reading/meteorite.html",
   "course": "fr",

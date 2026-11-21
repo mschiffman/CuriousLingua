@@ -1,0 +1,1108 @@
+{
+ "title": "Le mauvais train",
+ "subtitle": "Lyon… ou Dijon ?",
+ "level": "a1",
+ "topic": "Stories",
+ "type": "reader",
+ "source_md": "le_mauvais_train.md",
+ "img_dir": "img/ytstory/le-mauvais-train/",
+ "img_ext": "jpg",
+ "aud_dir": "fr/reading/le_mauvais_train/",
+ "aud_ext": "mp3?v=2611210718",
+ "translation": {
+  "lang": "en",
+  "label": "English"
+ },
+ "pages": [
+  {
+   "img": 1,
+   "tr": [
+    "Claire lives in Paris.",
+    "Today, she is going to Lyon to visit her friend Julie.",
+    "At the station, there are lots of people.",
+    "\"Oh dear! I'm late!\""
+   ],
+   "sentences": [
+    [
+     [
+      "Claire habite",
+      1
+     ],
+     [
+      "à Paris.",
+      2
+     ]
+    ],
+    [
+     [
+      "Aujourd'hui,",
+      3
+     ],
+     [
+      "elle va",
+      4
+     ],
+     [
+      "à Lyon",
+      5
+     ],
+     [
+      "voir son amie Julie.",
+      6
+     ]
+    ],
+    [
+     [
+      "À la gare,",
+      7
+     ],
+     [
+      "il y a",
+      8
+     ],
+     [
+      "beaucoup de monde.",
+      9
+     ]
+    ],
+    [
+     [
+      "\"Oh là là !",
+      10
+     ],
+     [
+      "Je suis en retard !\"",
+      11
+     ]
+    ]
+   ],
+   "audio": "p01",
+   "t": {
+    "1": [
+     0.0,
+     0.8
+    ],
+    "2": [
+     0.84,
+     1.28
+    ],
+    "3": [
+     1.68,
+     2.24
+    ],
+    "4": [
+     2.48,
+     2.72
+    ],
+    "5": [
+     2.76,
+     3.12
+    ],
+    "6": [
+     3.28,
+     4.24
+    ],
+    "7": [
+     4.76,
+     5.28
+    ],
+    "8": [
+     5.48,
+     5.76
+    ],
+    "9": [
+     5.84,
+     6.48
+    ],
+    "10": [
+     7.07,
+     7.52
+    ],
+    "11": [
+     7.65,
+     8.48
+    ]
+   }
+  },
+  {
+   "img": 2,
+   "tr": [
+    "Claire looks at her ticket.",
+    "Her train leaves at nine o'clock.",
+    "She sees a train at the platform.",
+    "\"Quick! That's my train!\"",
+    "She gets on the train."
+   ],
+   "sentences": [
+    [
+     [
+      "Claire regarde",
+      12
+     ],
+     [
+      "son billet.",
+      13
+     ]
+    ],
+    [
+     [
+      "Son train part",
+      14
+     ],
+     [
+      "à neuf heures.",
+      15
+     ]
+    ],
+    [
+     [
+      "Elle voit",
+      16
+     ],
+     [
+      "un train",
+      17
+     ],
+     [
+      "sur le quai.",
+      18
+     ]
+    ],
+    [
+     [
+      "\"Vite !",
+      19
+     ],
+     [
+      "C'est mon train !\"",
+      20
+     ]
+    ],
+    [
+     [
+      "Elle monte",
+      21
+     ],
+     [
+      "dans le train.",
+      22
+     ]
+    ]
+   ],
+   "audio": "p02",
+   "t": {
+    "12": [
+     0.0,
+     0.88
+    ],
+    "13": [
+     0.96,
+     1.44
+    ],
+    "14": [
+     1.84,
+     2.4
+    ],
+    "15": [
+     2.44,
+     3.04
+    ],
+    "16": [
+     3.4,
+     3.64
+    ],
+    "17": [
+     3.68,
+     4.0
+    ],
+    "18": [
+     4.08,
+     4.48
+    ],
+    "19": [
+     4.92,
+     5.2
+    ],
+    "20": [
+     5.52,
+     6.0
+    ],
+    "21": [
+     6.56,
+     6.96
+    ],
+    "22": [
+     7.04,
+     7.52
+    ]
+   }
+  },
+  {
+   "img": 3,
+   "tr": [
+    "Claire finds a seat near the window.",
+    "She sits down and opens her book.",
+    "The train leaves.",
+    "Claire is happy.",
+    "\"At last! I'm on holiday!\""
+   ],
+   "sentences": [
+    [
+     [
+      "Claire trouve",
+      23
+     ],
+     [
+      "une place",
+      24
+     ],
+     [
+      "près de la fenêtre.",
+      25
+     ]
+    ],
+    [
+     [
+      "Elle s'assoit",
+      26
+     ],
+     [
+      "et ouvre",
+      27
+     ],
+     [
+      "son livre.",
+      28
+     ]
+    ],
+    [
+     [
+      "Le train part.",
+      29
+     ]
+    ],
+    [
+     [
+      "Claire est contente.",
+      30
+     ]
+    ],
+    [
+     [
+      "\"Enfin !",
+      31
+     ],
+     [
+      "Je suis en vacances !\"",
+      32
+     ]
+    ]
+   ],
+   "audio": "p03",
+   "t": {
+    "23": [
+     0.0,
+     0.64
+    ],
+    "24": [
+     0.72,
+     1.12
+    ],
+    "25": [
+     1.16,
+     2.08
+    ],
+    "26": [
+     2.4,
+     3.2
+    ],
+    "27": [
+     3.28,
+     3.68
+    ],
+    "28": [
+     3.76,
+     4.24
+    ],
+    "29": [
+     4.64,
+     5.44
+    ],
+    "30": [
+     5.76,
+     6.64
+    ],
+    "31": [
+     7.12,
+     7.6
+    ],
+    "32": [
+     8.03,
+     9.2
+    ]
+   }
+  },
+  {
+   "img": 4,
+   "tr": [
+    "An hour later, the ticket inspector arrives.",
+    "\"Hello, madam. Your ticket, please.\"",
+    "Claire gives him her ticket.",
+    "The ticket inspector looks at the ticket and smiles.",
+    "\"But madam, this train isn't going to Lyon!\""
+   ],
+   "sentences": [
+    [
+     [
+      "Une heure plus tard,",
+      33
+     ],
+     [
+      "le contrôleur arrive.",
+      34
+     ]
+    ],
+    [
+     [
+      "\"Bonjour, madame.",
+      35
+     ],
+     [
+      "Votre billet,",
+      36
+     ],
+     [
+      "s'il vous plaît.\"",
+      37
+     ]
+    ],
+    [
+     [
+      "Claire lui donne",
+      38
+     ],
+     [
+      "son billet.",
+      39
+     ]
+    ],
+    [
+     [
+      "Le contrôleur regarde",
+      40
+     ],
+     [
+      "le billet",
+      41
+     ],
+     [
+      "et sourit.",
+      42
+     ]
+    ],
+    [
+     [
+      "\"Mais madame,",
+      43
+     ],
+     [
+      "ce train",
+      44
+     ],
+     [
+      "ne va pas",
+      45
+     ],
+     [
+      "à Lyon !\"",
+      46
+     ]
+    ]
+   ],
+   "audio": "p04",
+   "t": {
+    "33": [
+     0.0,
+     0.88
+    ],
+    "34": [
+     1.12,
+     2.16
+    ],
+    "35": [
+     2.64,
+     3.28
+    ],
+    "36": [
+     3.6,
+     4.08
+    ],
+    "37": [
+     4.21,
+     4.64
+    ],
+    "38": [
+     5.04,
+     5.68
+    ],
+    "39": [
+     5.76,
+     6.16
+    ],
+    "40": [
+     6.56,
+     7.6
+    ],
+    "41": [
+     7.64,
+     8.08
+    ],
+    "42": [
+     8.16,
+     8.72
+    ],
+    "43": [
+     9.16,
+     9.76
+    ],
+    "44": [
+     10.0,
+     10.32
+    ],
+    "45": [
+     10.36,
+     10.72
+    ],
+    "46": [
+     10.76,
+     11.12
+    ]
+   }
+  },
+  {
+   "img": 5,
+   "tr": [
+    "\"What? Not to Lyon?\" Claire asks.",
+    "\"No, madam. We're going to Dijon.\"",
+    "Claire's eyes widen.",
+    "\"To Dijon? Oh, what a disaster!\"",
+    "The ticket inspector smiles.",
+    "\"Don't worry. You can take another train.\""
+   ],
+   "sentences": [
+    [
+     [
+      "\"Comment ?",
+      47
+     ],
+     [
+      "Pas à Lyon ?\"",
+      48
+     ],
+     [
+      "demande Claire.",
+      49
+     ]
+    ],
+    [
+     [
+      "\"Non, madame.",
+      50
+     ],
+     [
+      "Nous allons",
+      51
+     ],
+     [
+      "à Dijon.\"",
+      52
+     ]
+    ],
+    [
+     [
+      "Claire ouvre",
+      53
+     ],
+     [
+      "de grands yeux.",
+      54
+     ]
+    ],
+    [
+     [
+      "\"À Dijon ?",
+      55
+     ],
+     [
+      "Oh, quelle catastrophe !\"",
+      56
+     ]
+    ],
+    [
+     [
+      "Le contrôleur sourit.",
+      57
+     ]
+    ],
+    [
+     [
+      "\"Ne vous inquiétez pas.",
+      58
+     ],
+     [
+      "Vous pouvez prendre",
+      59
+     ],
+     [
+      "un autre train.\"",
+      60
+     ]
+    ]
+   ],
+   "audio": "p05",
+   "t": {
+    "47": [
+     0.08,
+     0.4
+    ],
+    "48": [
+     0.83,
+     1.28
+    ],
+    "49": [
+     1.6,
+     2.24
+    ],
+    "50": [
+     2.88,
+     3.36
+    ],
+    "51": [
+     3.68,
+     4.0
+    ],
+    "52": [
+     4.04,
+     4.56
+    ],
+    "53": [
+     5.04,
+     5.76
+    ],
+    "54": [
+     5.84,
+     6.56
+    ],
+    "55": [
+     7.08,
+     7.76
+    ],
+    "56": [
+     8.24,
+     9.76
+    ],
+    "57": [
+     10.24,
+     11.2
+    ],
+    "58": [
+     11.68,
+     12.56
+    ],
+    "59": [
+     12.8,
+     13.44
+    ],
+    "60": [
+     13.48,
+     14.08
+    ]
+   }
+  },
+  {
+   "img": 6,
+   "tr": [
+    "In Dijon, Claire gets off the train.",
+    "She has two hours before her next train.",
+    "She leaves the station.",
+    "The town is very pretty, with its old houses.",
+    "Claire sees a small bakery.",
+    "\"Oh! I'm a little hungry!\""
+   ],
+   "sentences": [
+    [
+     [
+      "À Dijon,",
+      61
+     ],
+     [
+      "Claire descend",
+      62
+     ],
+     [
+      "du train.",
+      63
+     ]
+    ],
+    [
+     [
+      "Elle a",
+      64
+     ],
+     [
+      "deux heures",
+      65
+     ],
+     [
+      "avant son prochain train.",
+      66
+     ]
+    ],
+    [
+     [
+      "Elle sort",
+      67
+     ],
+     [
+      "de la gare.",
+      68
+     ]
+    ],
+    [
+     [
+      "La ville est",
+      69
+     ],
+     [
+      "très jolie,",
+      70
+     ],
+     [
+      "avec ses vieilles maisons.",
+      71
+     ]
+    ],
+    [
+     [
+      "Claire voit",
+      72
+     ],
+     [
+      "une petite boulangerie.",
+      73
+     ]
+    ],
+    [
+     [
+      "\"Tiens !",
+      74
+     ],
+     [
+      "J'ai un peu faim !\"",
+      75
+     ]
+    ]
+   ],
+   "audio": "p06",
+   "t": {
+    "61": [
+     0.0,
+     0.56
+    ],
+    "62": [
+     0.88,
+     1.44
+    ],
+    "63": [
+     1.52,
+     1.92
+    ],
+    "64": [
+     2.36,
+     2.64
+    ],
+    "65": [
+     2.68,
+     3.12
+    ],
+    "66": [
+     3.2,
+     4.16
+    ],
+    "67": [
+     4.6,
+     4.96
+    ],
+    "68": [
+     5.0,
+     5.52
+    ],
+    "69": [
+     6.04,
+     6.48
+    ],
+    "70": [
+     6.56,
+     7.12
+    ],
+    "71": [
+     7.4,
+     8.24
+    ],
+    "72": [
+     8.88,
+     9.28
+    ],
+    "73": [
+     9.36,
+     10.24
+    ],
+    "74": [
+     10.8,
+     11.04
+    ],
+    "75": [
+     11.41,
+     12.0
+    ]
+   }
+  },
+  {
+   "img": 7,
+   "tr": [
+    "In the bakery, a woman smiles.",
+    "\"Hello! What would you like?\"",
+    "\"A pain au chocolat and a coffee, please.\"",
+    "Claire sits near the window.",
+    "The pain au chocolat is delicious.",
+    "\"After all, Dijon is a lovely surprise!\""
+   ],
+   "sentences": [
+    [
+     [
+      "Dans la boulangerie,",
+      76
+     ],
+     [
+      "une dame sourit.",
+      77
+     ]
+    ],
+    [
+     [
+      "\"Bonjour !",
+      78
+     ],
+     [
+      "Vous désirez ?\"",
+      79
+     ]
+    ],
+    [
+     [
+      "\"Un pain au chocolat",
+      80
+     ],
+     [
+      "et un café,",
+      81
+     ],
+     [
+      "s'il vous plaît.\"",
+      82
+     ]
+    ],
+    [
+     [
+      "Claire s'assoit",
+      83
+     ],
+     [
+      "près de la fenêtre.",
+      84
+     ]
+    ],
+    [
+     [
+      "Le pain au chocolat",
+      85
+     ],
+     [
+      "est délicieux.",
+      86
+     ]
+    ],
+    [
+     [
+      "\"Finalement,",
+      87
+     ],
+     [
+      "Dijon est",
+      88
+     ],
+     [
+      "une belle surprise !\"",
+      89
+     ]
+    ]
+   ],
+   "audio": "p07",
+   "t": {
+    "76": [
+     0.0,
+     0.8
+    ],
+    "77": [
+     1.12,
+     1.84
+    ],
+    "78": [
+     2.6,
+     2.88
+    ],
+    "79": [
+     3.31,
+     3.84
+    ],
+    "80": [
+     4.36,
+     5.2
+    ],
+    "81": [
+     5.28,
+     5.76
+    ],
+    "82": [
+     5.89,
+     6.32
+    ],
+    "83": [
+     6.8,
+     7.44
+    ],
+    "84": [
+     7.48,
+     8.24
+    ],
+    "85": [
+     8.56,
+     9.52
+    ],
+    "86": [
+     9.6,
+     10.48
+    ],
+    "87": [
+     10.92,
+     11.44
+    ],
+    "88": [
+     11.76,
+     12.24
+    ],
+    "89": [
+     12.36,
+     13.28
+    ]
+   }
+  },
+  {
+   "img": 8,
+   "tr": [
+    "Later, Claire finally arrives in Lyon.",
+    "Julie is waiting for her at the station.",
+    "\"Claire! Why are you so late?\"",
+    "\"I took the wrong train!\"",
+    "Julie bursts out laughing.",
+    "\"And then?\"",
+    "Claire smiles.",
+    "\"I visited Dijon, ate a pain au chocolat... and now I'm here!\"",
+    "\"Next time, I'll take the wrong train again!\""
+   ],
+   "sentences": [
+    [
+     [
+      "Plus tard,",
+      90
+     ],
+     [
+      "Claire arrive",
+      91
+     ],
+     [
+      "enfin à Lyon.",
+      92
+     ]
+    ],
+    [
+     [
+      "Julie l'attend",
+      93
+     ],
+     [
+      "à la gare.",
+      94
+     ]
+    ],
+    [
+     [
+      "\"Claire !",
+      95
+     ],
+     [
+      "Pourquoi tu es",
+      96
+     ],
+     [
+      "si en retard ?\"",
+      97
+     ]
+    ],
+    [
+     [
+      "\"J'ai pris",
+      98
+     ],
+     [
+      "le mauvais train !\"",
+      99
+     ]
+    ],
+    [
+     [
+      "Julie éclate de rire.",
+      100
+     ]
+    ],
+    [
+     [
+      "\"Et alors ?\"",
+      101
+     ]
+    ],
+    [
+     [
+      "Claire sourit.",
+      102
+     ]
+    ],
+    [
+     [
+      "\"J'ai visité Dijon,",
+      103
+     ],
+     [
+      "mangé un pain au chocolat...",
+      104
+     ],
+     [
+      "et maintenant,",
+      105
+     ],
+     [
+      "je suis là !\"",
+      106
+     ]
+    ],
+    [
+     [
+      "\"La prochaine fois,",
+      107
+     ],
+     [
+      "je prends",
+      108
+     ],
+     [
+      "encore le mauvais train !\"",
+      109
+     ]
+    ]
+   ],
+   "audio": "p08",
+   "t": {
+    "90": [
+     0.0,
+     0.56
+    ],
+    "91": [
+     0.88,
+     1.52
+    ],
+    "92": [
+     1.64,
+     2.32
+    ],
+    "93": [
+     2.8,
+     3.28
+    ],
+    "94": [
+     3.32,
+     3.84
+    ],
+    "95": [
+     4.2,
+     4.72
+    ],
+    "96": [
+     5.15,
+     5.6
+    ],
+    "97": [
+     5.68,
+     6.32
+    ],
+    "98": [
+     6.76,
+     7.04
+    ],
+    "99": [
+     7.08,
+     7.76
+    ],
+    "100": [
+     8.24,
+     9.68
+    ],
+    "101": [
+     10.0,
+     10.48
+    ],
+    "102": [
+     10.88,
+     11.52
+    ],
+    "103": [
+     11.92,
+     12.96
+    ],
+    "104": [
+     13.24,
+     14.48
+    ],
+    "105": [
+     14.92,
+     15.36
+    ],
+    "106": [
+     15.6,
+     16.0
+    ],
+    "107": [
+     16.44,
+     17.12
+    ],
+    "108": [
+     17.36,
+     17.84
+    ],
+    "109": [
+     17.96,
+     18.88
+    ]
+   }
+  }
+ ]
+}

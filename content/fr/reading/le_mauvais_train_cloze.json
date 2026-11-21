@@ -1,0 +1,88 @@
+{
+ "title": "Le mauvais train : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "le_mauvais_train",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "Mon frère",
+     "answer": "habite",
+     "after": "à Marseille avec sa femme.",
+     "tr": "My brother lives in Marseille with his wife."
+    },
+    {
+     "before": "Dépêche-toi, nous sommes en",
+     "answer": "retard",
+     "after": "!",
+     "tr": "Hurry up, we're late!"
+    },
+    {
+     "before": "J’achète un",
+     "answer": "billet",
+     "after": "de train pour Bordeaux.",
+     "tr": "I'm buying a train ticket to Bordeaux."
+    },
+    {
+     "before": "Le bus",
+     "answer": "part",
+     "after": "à huit heures et arrive à neuf heures.",
+     "tr": "The bus leaves at eight and arrives at nine."
+    },
+    {
+     "before": "Les enfants",
+     "answer": "montent",
+     "after": "dans le bus avec leur maman.",
+     "tr": "The children get on the bus with their mum."
+    },
+    {
+     "before": "Il y a une",
+     "answer": "place",
+     "after": "libre à côté de moi.",
+     "tr": "There's a free seat next to me."
+    },
+    {
+     "before": "J’achète une baguette à la",
+     "answer": "boulangerie",
+     "after": ".",
+     "tr": "I buy a baguette at the bakery."
+    },
+    {
+     "before": "Mon fils est très",
+     "answer": "content",
+     "after": ": il a un nouveau vélo.",
+     "tr": "My son is very happy: he has a new bike."
+    },
+    {
+     "before": "Sur la photo, ma sœur",
+     "answer": "sourit",
+     "after": ".",
+     "tr": "In the photo, my sister is smiling."
+    },
+    {
+     "before": "Le bébé ouvre de grands",
+     "answer": "yeux",
+     "after": ".",
+     "tr": "The baby opens its eyes wide."
+    },
+    {
+     "before": "Je n’ai pas mangé ce matin : j’ai",
+     "answer": "faim",
+     "after": "!",
+     "tr": "I didn't eat this morning: I'm hungry!"
+    },
+    {
+     "before": "Le",
+     "answer": "prochain",
+     "after": "bus arrive dans dix minutes.",
+     "tr": "The next bus arrives in ten minutes."
+    }
+   ]
+  }
+ ]
+}
