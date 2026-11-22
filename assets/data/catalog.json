@@ -615,6 +615,21 @@
   "quiz": false
  },
  {
+  "id": "fr/speaking/merci",
+  "url": "fr/speaking/merci.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a1",
+  "level_provisional": true,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Merci !",
+  "clips": 26,
+  "images": 0,
+  "audio": "pending",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/route",
   "url": "fr/speaking/route.html",
   "course": "fr",
