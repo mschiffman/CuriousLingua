@@ -114,7 +114,7 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
-<link rel="icon" href="{r}assets/img/favicon.svg">
+<link rel="icon" type="image/png" href="{r}assets/img/favicon.png">
 <link rel="stylesheet" href="{r}assets/css/site.css">
 {MOTION_HEAD}{head}</head>
 <body class="{cls}"{f' data-course="{course}"' if course else ""}>

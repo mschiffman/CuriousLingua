@@ -57,8 +57,14 @@ def fonts(css, families):
     return re.sub(r"@font-face\s*\{[^}]*\}", face, css)
 
 
+def icon(src):
+    """The site's icon, written into the page: an offline copy cannot load a separate file."""
+    data = uri(os.path.join(ROOT, "assets", "img", "favicon.png"))
+    return re.sub(r'<link rel="icon"[^>]*>', lambda m: f'<link rel="icon" type="image/png" href="{data}">', src)
+
+
 def one(L):
-    page = os.path.join(ROOT, *L["url"].split("/"))
+    page =os.path.join(ROOT, *L["url"].split("/"))
     src = open(page, encoding="utf-8").read()
     here = os.path.dirname(page)
     r = "../" * L["url"].count("/")
@@ -70,7 +76,7 @@ def one(L):
         css = open(os.path.normpath(os.path.join(here, m.group(1).split("?")[0])), encoding="utf-8").read()
         return "<style>" + fonts(css, fam) + "</style>"
     src = re.sub(r'<link rel="stylesheet" href="([^"]+)">', style, src)
-    src = re.sub(r'<link rel="icon"[^>]*>\n?', "", src)
+    src = icon(src)
 
     embed, missing, full = {}, [], L["course"] != "eng" or L.get("type") == "shadow" or bool(L.get("audio_file"))
     aud = L.get("aud_dir") or ""
@@ -170,6 +176,7 @@ def game(L):
         return "<script>" + code.replace("</script", "<\\/script") + "</script>"
     src = re.sub(r'<script src="([^":]+)"></script>', script, src)
     src = re.sub(r'<link rel="stylesheet" href="https://fonts\.googleapis\.com[^>]*>\n?', "", src)
+    src = icon(src)
     src = re.sub(r'\s*<a class="back".*?</a>', "", src, flags=re.S)
     inside = {int(x[:-4]): uri(os.path.join(dest, x)) for x in sorted(want)}
     src = src.replace("<body>", "<body data-offline>\n<script>window.GAME_CLIPS=" + json.dumps(inside) + ";</script>", 1)
