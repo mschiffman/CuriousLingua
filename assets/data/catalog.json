@@ -600,6 +600,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/ca_va_pas",
+  "url": "fr/speaking/ca_va_pas.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Ça va pas ?",
+  "clips": 30,
+  "images": 0,
+  "audio": "pending",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/marche",
   "url": "fr/speaking/marche.html",
   "course": "fr",
