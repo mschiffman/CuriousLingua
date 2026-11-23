@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/alphabet/",
+ "audio_ver": "2611231404",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "listen_pick": "fr",
  "groups": [
   {
@@ -19,39 +23,48 @@
    "words": [
     {
      "fr": "capital A",
-     "en": "A"
+     "en": "A",
+     "audio": "capital_a.mp3"
     },
     {
      "fr": "small a",
-     "en": "a"
+     "en": "a",
+     "audio": "small_a.mp3"
     },
     {
      "fr": "double L",
-     "en": "ll"
+     "en": "ll",
+     "audio": "double_l.mp3"
     },
     {
      "fr": "double O",
-     "en": "oo"
+     "en": "oo",
+     "audio": "double_o.mp3"
     },
     {
      "fr": "full stop",
-     "en": "."
+     "en": ".",
+     "audio": "full_stop.mp3"
     },
     {
      "fr": "comma",
-     "en": ","
+     "en": ",",
+     "audio": "comma.mp3"
     },
     {
      "fr": "question mark",
-     "en": "?"
+     "en": "?",
+     "audio": "question_mark.mp3"
     },
     {
      "fr": "apostrophe",
-     "en": "’"
+     "en": "’",
+     "audio": "apostrophe.mp3"
     },
     {
      "fr": "hyphen",
-     "en": "-"
+     "en": "-",
+     "audio": "hyphen.mp3"
     }
    ]
   },
@@ -60,23 +73,28 @@
    "words": [
     {
      "fr": "How do you spell it?",
-     "en": ""
+     "en": "",
+     "audio": "how_do_you_spell_it.mp3"
     },
     {
      "fr": "How do you spell your name?",
-     "en": ""
+     "en": "",
+     "audio": "how_do_you_spell_your_name.mp3"
     },
     {
      "fr": "Can you spell that, please?",
-     "en": ""
+     "en": "",
+     "audio": "can_you_spell_that_please.mp3"
     },
     {
      "fr": "Is that with one L or two?",
-     "en": ""
+     "en": "",
+     "audio": "is_that_with_one_l_or_two.mp3"
     },
     {
      "fr": "With a capital T.",
-     "en": ""
+     "en": "",
+     "audio": "with_a_capital_t.mp3"
     }
    ]
   },
@@ -87,22 +105,26 @@
     {
      "fr": "C-A-T: cat",
      "say": "C, A, T. Cat.",
-     "en": ""
+     "en": "",
+     "audio": "c_a_t_cat.mp3"
     },
     {
      "fr": "B-O-O-K: book",
      "say": "B, double O, K. Book.",
-     "en": ""
+     "en": "",
+     "audio": "b_o_o_k_book.mp3"
     },
     {
      "fr": "H-E-L-L-O: hello",
      "say": "H, E, double L, O. Hello.",
-     "en": ""
+     "en": "",
+     "audio": "h_e_l_l_o_hello.mp3"
     },
     {
      "fr": "S-C-H-O-O-L: school",
      "say": "S, C, H, double O, L. School.",
-     "en": ""
+     "en": "",
+     "audio": "s_c_h_o_o_l_school.mp3"
     }
    ]
   }

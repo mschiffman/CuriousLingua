@@ -558,8 +558,8 @@ def named_words(doc):
 def words(L, redo=()):
     """A word list or a hotspot page: records every word that has no clip yet, as a named file in "glossary_dir"
     (maison.mp3), and writes its name into the lesson file as "audio". A word list and its hotspot page share the
-    folder, so a word is recorded once. Single words are made with the course's "word_model" (eleven_v4):
-    the sentence model garbles them."""
+    folder, so a word is recorded once. Single words are made with the course's "word_model" in voices.json
+    (eleven_v3 for English, which reads short sounds better; eleven_v4 when none is set)."""
     if L.get("type") not in ("words", "hotspots", "family") or not L.get("glossary_dir"):
         sys.exit(f'{L["id"]}: this command is for a word list, hotspot page or family tree with "glossary_dir" set, e.g. "lessons/noun/house/"')
     v, gd = VOICES[L["course"]], L["glossary_dir"]

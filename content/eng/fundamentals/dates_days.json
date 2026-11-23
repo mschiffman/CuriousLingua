@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/dates/",
+ "audio_ver": "2611231405",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "listen_pick": "fr",
  "groups": [
   {
@@ -19,37 +23,44 @@
     {
      "fr": "Monday",
      "ipa": "/ˈmʌndeɪ/",
-     "en": "တနင်္လာနေ့"
+     "en": "တနင်္လာနေ့",
+     "audio": "monday.mp3"
     },
     {
      "fr": "Tuesday",
      "ipa": "/ˈtjuːzdeɪ/",
-     "en": "အင်္ဂါနေ့"
+     "en": "အင်္ဂါနေ့",
+     "audio": "tuesday.mp3"
     },
     {
      "fr": "Wednesday",
      "ipa": "/ˈwenzdeɪ/",
-     "en": "ဗုဒ္ဓဟူးနေ့"
+     "en": "ဗုဒ္ဓဟူးနေ့",
+     "audio": "wednesday.mp3"
     },
     {
      "fr": "Thursday",
      "ipa": "/ˈθɜːzdeɪ/",
-     "en": "ကြာသပတေးနေ့"
+     "en": "ကြာသပတေးနေ့",
+     "audio": "thursday.mp3"
     },
     {
      "fr": "Friday",
      "ipa": "/ˈfraɪdeɪ/",
-     "en": "သောကြာနေ့"
+     "en": "သောကြာနေ့",
+     "audio": "friday.mp3"
     },
     {
      "fr": "Saturday",
      "ipa": "/ˈsætədeɪ/",
-     "en": "စနေနေ့"
+     "en": "စနေနေ့",
+     "audio": "saturday.mp3"
     },
     {
      "fr": "Sunday",
      "ipa": "/ˈsʌndeɪ/",
-     "en": "တနင်္ဂနွေနေ့"
+     "en": "တနင်္ဂနွေနေ့",
+     "audio": "sunday.mp3"
     }
    ]
   },
@@ -59,32 +70,38 @@
     {
      "fr": "today",
      "ipa": "/təˈdeɪ/",
-     "en": "ဒီနေ့"
+     "en": "ဒီနေ့",
+     "audio": "today.mp3"
     },
     {
      "fr": "tomorrow",
      "ipa": "/təˈmɒrəʊ/",
-     "en": "မနက်ဖြန်"
+     "en": "မနက်ဖြန်",
+     "audio": "tomorrow.mp3"
     },
     {
      "fr": "yesterday",
      "ipa": "/ˈjestədeɪ/",
-     "en": "မနေ့က"
+     "en": "မနေ့က",
+     "audio": "yesterday.mp3"
     },
     {
      "fr": "day",
      "ipa": "/deɪ/",
-     "en": "နေ့"
+     "en": "နေ့",
+     "audio": "day.mp3"
     },
     {
      "fr": "week",
      "ipa": "/wiːk/",
-     "en": "ရက်သတ္တပတ်"
+     "en": "ရက်သတ္တပတ်",
+     "audio": "week.mp3"
     },
     {
      "fr": "weekend",
      "ipa": "/ˌwiːkˈend/",
-     "en": "စနေ၊ တနင်္ဂနွေ"
+     "en": "စနေ၊ တနင်္ဂနွေ",
+     "audio": "weekend.mp3"
     }
    ]
   },
@@ -96,23 +113,28 @@
    "words": [
     {
      "fr": "What day is it today?",
-     "en": ""
+     "en": "",
+     "audio": "what_day_is_it_today.mp3"
     },
     {
      "fr": "It's Monday.",
-     "en": ""
+     "en": "",
+     "audio": "it_s_monday.mp3"
     },
     {
      "fr": "Tomorrow is Tuesday.",
-     "en": ""
+     "en": "",
+     "audio": "tomorrow_is_tuesday.mp3"
     },
     {
      "fr": "I have English on Wednesday.",
-     "en": ""
+     "en": "",
+     "audio": "i_have_english_on_wednesday.mp3"
     },
     {
      "fr": "See you on Friday!",
-     "en": ""
+     "en": "",
+     "audio": "see_you_on_friday.mp3"
     }
    ]
   }

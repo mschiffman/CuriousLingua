@@ -116,7 +116,7 @@ python -E tools\audio.py words fr/vocabulary/house
 python -E tools\audio.py words fr/vocabulary/house_hotspots
 ```
 
-Records every word that has no clip yet, as a named file in the lesson's `glossary_dir` (`maison.mp3`), and writes the file names into the lesson. A word list and its hotspot page share the folder, so a word is recorded once: run the list first, then the hotspots. Single words are made with `eleven_v4`, because the sentence model garbles them. For a new take: `--redo pelouse.mp3`. Then `python -E tools\audio.py upload <lesson>` for each of the two, as for any lesson.
+Records every word that has no clip yet, as a named file in the lesson's `glossary_dir` (`maison.mp3`), and writes the file names into the lesson. A word list and its hotspot page share the folder, so a word is recorded once: run the list first, then the hotspots. Single words are made with the course's `word_model` in `assets\data\voices.json`: `eleven_v3` for English, which reads short sounds better, and `eleven_v4` for the other courses (the default when none is set). A lesson's `"voices": ["<voice id>"]` picks the voice (the English fundamentals use `KImSbfszwPjEhg77C2Td`). For a new take: `--redo pelouse.mp3`. Then `python -E tools\audio.py upload <lesson>` for each of the two, as for any lesson.
 
 Japanese: the voice must be given Japanese script, never romaji (it spells romaji out as English letters). A word list's `say` is what it reads. Japanese transcripts are listed for you to read, not judged automatically.
 

@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/numbers/",
+ "audio_ver": "2611231406",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "groups": [
   {
    "title": "The tens",
@@ -18,47 +22,56 @@
     {
      "fr": "twenty",
      "ipa": "/ˈtwenti/",
-     "en": "20"
+     "en": "20",
+     "audio": "twenty.mp3"
     },
     {
      "fr": "thirty",
      "ipa": "/ˈθɜːti/",
-     "en": "30"
+     "en": "30",
+     "audio": "thirty.mp3"
     },
     {
      "fr": "forty",
      "ipa": "/ˈfɔːti/",
-     "en": "40"
+     "en": "40",
+     "audio": "forty.mp3"
     },
     {
      "fr": "fifty",
      "ipa": "/ˈfɪfti/",
-     "en": "50"
+     "en": "50",
+     "audio": "fifty.mp3"
     },
     {
      "fr": "sixty",
      "ipa": "/ˈsɪksti/",
-     "en": "60"
+     "en": "60",
+     "audio": "sixty.mp3"
     },
     {
      "fr": "seventy",
      "ipa": "/ˈsevənti/",
-     "en": "70"
+     "en": "70",
+     "audio": "seventy.mp3"
     },
     {
      "fr": "eighty",
      "ipa": "/ˈeɪti/",
-     "en": "80"
+     "en": "80",
+     "audio": "eighty.mp3"
     },
     {
      "fr": "ninety",
      "ipa": "/ˈnaɪnti/",
-     "en": "90"
+     "en": "90",
+     "audio": "ninety.mp3"
     },
     {
      "fr": "one hundred",
      "ipa": "/wʌn ˈhʌndrəd/",
-     "en": "100"
+     "en": "100",
+     "audio": "one_hundred.mp3"
     }
    ]
   },
@@ -72,47 +85,56 @@
     {
      "fr": "twenty-one",
      "ipa": "/ˌtwenti ˈwʌn/",
-     "en": "21"
+     "en": "21",
+     "audio": "twenty_one.mp3"
     },
     {
      "fr": "thirty-two",
      "ipa": "/ˌθɜːti ˈtuː/",
-     "en": "32"
+     "en": "32",
+     "audio": "thirty_two.mp3"
     },
     {
      "fr": "forty-three",
      "ipa": "/ˌfɔːti ˈθriː/",
-     "en": "43"
+     "en": "43",
+     "audio": "forty_three.mp3"
     },
     {
      "fr": "fifty-four",
      "ipa": "/ˌfɪfti ˈfɔː/",
-     "en": "54"
+     "en": "54",
+     "audio": "fifty_four.mp3"
     },
     {
      "fr": "sixty-five",
      "ipa": "/ˌsɪksti ˈfaɪv/",
-     "en": "65"
+     "en": "65",
+     "audio": "sixty_five.mp3"
     },
     {
      "fr": "seventy-six",
      "ipa": "/ˌsevənti ˈsɪks/",
-     "en": "76"
+     "en": "76",
+     "audio": "seventy_six.mp3"
     },
     {
      "fr": "eighty-seven",
      "ipa": "/ˌeɪti ˈsevən/",
-     "en": "87"
+     "en": "87",
+     "audio": "eighty_seven.mp3"
     },
     {
      "fr": "ninety-eight",
      "ipa": "/ˌnaɪnti ˈeɪt/",
-     "en": "98"
+     "en": "98",
+     "audio": "ninety_eight.mp3"
     },
     {
      "fr": "ninety-nine",
      "ipa": "/ˌnaɪnti ˈnaɪn/",
-     "en": "99"
+     "en": "99",
+     "audio": "ninety_nine.mp3"
     }
    ]
   },
@@ -126,42 +148,50 @@
     {
      "fr": "thirteen",
      "ipa": "/ˌθɜːˈtiːn/",
-     "en": "13"
+     "en": "13",
+     "audio": "thirteen.mp3"
     },
     {
      "fr": "thirty",
      "ipa": "/ˈθɜːti/",
-     "en": "30"
+     "en": "30",
+     "audio": "thirty.mp3"
     },
     {
      "fr": "fourteen",
      "ipa": "/ˌfɔːˈtiːn/",
-     "en": "14"
+     "en": "14",
+     "audio": "fourteen.mp3"
     },
     {
      "fr": "forty",
      "ipa": "/ˈfɔːti/",
-     "en": "40"
+     "en": "40",
+     "audio": "forty.mp3"
     },
     {
      "fr": "fifteen",
      "ipa": "/ˌfɪfˈtiːn/",
-     "en": "15"
+     "en": "15",
+     "audio": "fifteen.mp3"
     },
     {
      "fr": "fifty",
      "ipa": "/ˈfɪfti/",
-     "en": "50"
+     "en": "50",
+     "audio": "fifty.mp3"
     },
     {
      "fr": "sixteen",
      "ipa": "/ˌsɪksˈtiːn/",
-     "en": "16"
+     "en": "16",
+     "audio": "sixteen.mp3"
     },
     {
      "fr": "sixty",
      "ipa": "/ˈsɪksti/",
-     "en": "60"
+     "en": "60",
+     "audio": "sixty.mp3"
     }
    ]
   }

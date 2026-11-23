@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/numbers/",
+ "audio_ver": "2611231407",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "groups": [
   {
    "title": "First to tenth",
@@ -19,52 +23,62 @@
     {
      "fr": "first",
      "ipa": "/fɜːst/",
-     "en": "1st"
+     "en": "1st",
+     "audio": "first.mp3"
     },
     {
      "fr": "second",
      "ipa": "/ˈsekənd/",
-     "en": "2nd"
+     "en": "2nd",
+     "audio": "second.mp3"
     },
     {
      "fr": "third",
      "ipa": "/θɜːd/",
-     "en": "3rd"
+     "en": "3rd",
+     "audio": "third.mp3"
     },
     {
      "fr": "fourth",
      "ipa": "/fɔːθ/",
-     "en": "4th"
+     "en": "4th",
+     "audio": "fourth.mp3"
     },
     {
      "fr": "fifth",
      "ipa": "/fɪfθ/",
-     "en": "5th"
+     "en": "5th",
+     "audio": "fifth.mp3"
     },
     {
      "fr": "sixth",
      "ipa": "/sɪksθ/",
-     "en": "6th"
+     "en": "6th",
+     "audio": "sixth.mp3"
     },
     {
      "fr": "seventh",
      "ipa": "/ˈsevənθ/",
-     "en": "7th"
+     "en": "7th",
+     "audio": "seventh.mp3"
     },
     {
      "fr": "eighth",
      "ipa": "/eɪtθ/",
-     "en": "8th"
+     "en": "8th",
+     "audio": "eighth.mp3"
     },
     {
      "fr": "ninth",
      "ipa": "/naɪnθ/",
-     "en": "9th"
+     "en": "9th",
+     "audio": "ninth.mp3"
     },
     {
      "fr": "tenth",
      "ipa": "/tenθ/",
-     "en": "10th"
+     "en": "10th",
+     "audio": "tenth.mp3"
     }
    ]
   },
@@ -79,47 +93,56 @@
     {
      "fr": "eleventh",
      "ipa": "/ɪˈlevənθ/",
-     "en": "11th"
+     "en": "11th",
+     "audio": "eleventh.mp3"
     },
     {
      "fr": "twelfth",
      "ipa": "/twelfθ/",
-     "en": "12th"
+     "en": "12th",
+     "audio": "twelfth.mp3"
     },
     {
      "fr": "thirteenth",
      "ipa": "/ˌθɜːˈtiːnθ/",
-     "en": "13th"
+     "en": "13th",
+     "audio": "thirteenth.mp3"
     },
     {
      "fr": "twentieth",
      "ipa": "/ˈtwentiəθ/",
-     "en": "20th"
+     "en": "20th",
+     "audio": "twentieth.mp3"
     },
     {
      "fr": "twenty-first",
      "ipa": "/ˌtwenti ˈfɜːst/",
-     "en": "21st"
+     "en": "21st",
+     "audio": "twenty_first.mp3"
     },
     {
      "fr": "twenty-second",
      "ipa": "/ˌtwenti ˈsekənd/",
-     "en": "22nd"
+     "en": "22nd",
+     "audio": "twenty_second.mp3"
     },
     {
      "fr": "twenty-third",
      "ipa": "/ˌtwenti ˈθɜːd/",
-     "en": "23rd"
+     "en": "23rd",
+     "audio": "twenty_third.mp3"
     },
     {
      "fr": "thirtieth",
      "ipa": "/ˈθɜːtiəθ/",
-     "en": "30th"
+     "en": "30th",
+     "audio": "thirtieth.mp3"
     },
     {
      "fr": "thirty-first",
      "ipa": "/ˌθɜːti ˈfɜːst/",
-     "en": "31st"
+     "en": "31st",
+     "audio": "thirty_first.mp3"
     }
    ]
   }

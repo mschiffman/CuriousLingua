@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/dates/",
+ "audio_ver": "2611231405",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "listen_pick": "fr",
  "groups": [
   {
@@ -19,62 +23,74 @@
     {
      "fr": "January",
      "ipa": "/ˈdʒænjuəri/",
-     "en": "ဇန်နဝါရီ"
+     "en": "ဇန်နဝါရီ",
+     "audio": "january.mp3"
     },
     {
      "fr": "February",
      "ipa": "/ˈfebruəri/",
-     "en": "ဖေဖော်ဝါရီ"
+     "en": "ဖေဖော်ဝါရီ",
+     "audio": "february.mp3"
     },
     {
      "fr": "March",
      "ipa": "/mɑːtʃ/",
-     "en": "မတ်"
+     "en": "မတ်",
+     "audio": "march.mp3"
     },
     {
      "fr": "April",
      "ipa": "/ˈeɪprəl/",
-     "en": "ဧပြီ"
+     "en": "ဧပြီ",
+     "audio": "april.mp3"
     },
     {
      "fr": "May",
      "ipa": "/meɪ/",
-     "en": "မေ"
+     "en": "မေ",
+     "audio": "may.mp3"
     },
     {
      "fr": "June",
      "ipa": "/dʒuːn/",
-     "en": "ဇွန်"
+     "en": "ဇွန်",
+     "audio": "june.mp3"
     },
     {
      "fr": "July",
      "ipa": "/dʒuˈlaɪ/",
-     "en": "ဇူလိုင်"
+     "en": "ဇူလိုင်",
+     "audio": "july.mp3"
     },
     {
      "fr": "August",
      "ipa": "/ˈɔːɡəst/",
-     "en": "ဩဂုတ်"
+     "en": "ဩဂုတ်",
+     "audio": "august.mp3"
     },
     {
      "fr": "September",
      "ipa": "/sepˈtembə/",
-     "en": "စက်တင်ဘာ"
+     "en": "စက်တင်ဘာ",
+     "audio": "september.mp3"
     },
     {
      "fr": "October",
      "ipa": "/ɒkˈtəʊbə/",
-     "en": "အောက်တိုဘာ"
+     "en": "အောက်တိုဘာ",
+     "audio": "october.mp3"
     },
     {
      "fr": "November",
      "ipa": "/nəʊˈvembə/",
-     "en": "နိုဝင်ဘာ"
+     "en": "နိုဝင်ဘာ",
+     "audio": "november.mp3"
     },
     {
      "fr": "December",
      "ipa": "/dɪˈsembə/",
-     "en": "ဒီဇင်ဘာ"
+     "en": "ဒီဇင်ဘာ",
+     "audio": "december.mp3"
     }
    ]
   },
@@ -83,15 +99,18 @@
    "words": [
     {
      "fr": "the hot season",
-     "en": "နွေရာသီ"
+     "en": "နွေရာသီ",
+     "audio": "the_hot_season.mp3"
     },
     {
      "fr": "the rainy season",
-     "en": "မိုးရာသီ"
+     "en": "မိုးရာသီ",
+     "audio": "the_rainy_season.mp3"
     },
     {
      "fr": "the cool season",
-     "en": "ဆောင်းရာသီ"
+     "en": "ဆောင်းရာသီ",
+     "audio": "the_cool_season.mp3"
     }
    ]
   },
@@ -105,22 +124,26 @@
     {
      "fr": "spring",
      "ipa": "/sprɪŋ/",
-     "en": "နွေဦးရာသီ"
+     "en": "နွေဦးရာသီ",
+     "audio": "spring.mp3"
     },
     {
      "fr": "summer",
      "ipa": "/ˈsʌmə/",
-     "en": "နွေရာသီ"
+     "en": "နွေရာသီ",
+     "audio": "summer.mp3"
     },
     {
      "fr": "autumn",
      "ipa": "/ˈɔːtəm/",
-     "en": "ဆောင်းဦးရာသီ"
+     "en": "ဆောင်းဦးရာသီ",
+     "audio": "autumn.mp3"
     },
     {
      "fr": "winter",
      "ipa": "/ˈwɪntə/",
-     "en": "ဆောင်းရာသီ"
+     "en": "ဆောင်းရာသီ",
+     "audio": "winter.mp3"
     }
    ]
   },
@@ -130,17 +153,20 @@
     {
      "fr": "month",
      "ipa": "/mʌnθ/",
-     "en": "လ"
+     "en": "လ",
+     "audio": "month.mp3"
     },
     {
      "fr": "season",
      "ipa": "/ˈsiːzən/",
-     "en": "ရာသီ"
+     "en": "ရာသီ",
+     "audio": "season.mp3"
     },
     {
      "fr": "year",
      "ipa": "/jɪə/",
-     "en": "နှစ်"
+     "en": "နှစ်",
+     "audio": "year.mp3"
     }
    ]
   }

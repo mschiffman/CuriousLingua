@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/time/",
+ "audio_ver": "2611231408",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "listen_pick": "fr",
  "related": [
   "eng/reading/time"
@@ -17,15 +21,18 @@
    "words": [
     {
      "fr": "What time is it?",
-     "en": ""
+     "en": "",
+     "audio": "what_time_is_it.mp3"
     },
     {
      "fr": "What's the time?",
-     "en": ""
+     "en": "",
+     "audio": "what_s_the_time.mp3"
     },
     {
      "fr": "Excuse me, do you have the time?",
-     "en": ""
+     "en": "",
+     "audio": "excuse_me_do_you_have_the_time.mp3"
     }
    ]
   },
@@ -38,19 +45,23 @@
    "words": [
     {
      "fr": "It's one o'clock.",
-     "en": "1:00"
+     "en": "1:00",
+     "audio": "it_s_one_o_clock.mp3"
     },
     {
      "fr": "It's seven o'clock.",
-     "en": "7:00"
+     "en": "7:00",
+     "audio": "it_s_seven_o_clock.mp3"
     },
     {
      "fr": "It's twelve o'clock.",
-     "en": "12:00"
+     "en": "12:00",
+     "audio": "it_s_twelve_o_clock.mp3"
     },
     {
      "fr": "It's half past nine.",
-     "en": "9:30"
+     "en": "9:30",
+     "audio": "it_s_half_past_nine.mp3"
     }
    ]
   },
@@ -63,11 +74,13 @@
    "words": [
     {
      "fr": "It's a quarter past six.",
-     "en": "6:15"
+     "en": "6:15",
+     "audio": "it_s_a_quarter_past_six.mp3"
     },
     {
      "fr": "It's a quarter to eight.",
-     "en": "7:45"
+     "en": "7:45",
+     "audio": "it_s_a_quarter_to_eight.mp3"
     }
    ]
   },
@@ -76,19 +89,23 @@
    "words": [
     {
      "fr": "It's ten past three.",
-     "en": "3:10"
+     "en": "3:10",
+     "audio": "it_s_ten_past_three.mp3"
     },
     {
      "fr": "It's twenty past four.",
-     "en": "4:20"
+     "en": "4:20",
+     "audio": "it_s_twenty_past_four.mp3"
     },
     {
      "fr": "It's ten to six.",
-     "en": "5:50"
+     "en": "5:50",
+     "audio": "it_s_ten_to_six.mp3"
     },
     {
      "fr": "It's five to twelve.",
-     "en": "11:55"
+     "en": "11:55",
+     "audio": "it_s_five_to_twelve.mp3"
     }
    ]
   },
@@ -101,19 +118,23 @@
    "words": [
     {
      "fr": "It's eight twenty.",
-     "en": "8:20"
+     "en": "8:20",
+     "audio": "it_s_eight_twenty.mp3"
     },
     {
      "fr": "It's two forty-five.",
-     "en": "2:45"
+     "en": "2:45",
+     "audio": "it_s_two_forty_five.mp3"
     },
     {
      "fr": "It's seven a.m.",
-     "en": "7:00 in the morning"
+     "en": "7:00 in the morning",
+     "audio": "it_s_seven_a_m.mp3"
     },
     {
      "fr": "It's seven p.m.",
-     "en": "7:00 in the evening"
+     "en": "7:00 in the evening",
+     "audio": "it_s_seven_p_m.mp3"
     }
    ]
   }

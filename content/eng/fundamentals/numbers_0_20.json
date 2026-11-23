@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/numbers/",
+ "audio_ver": "2611231406",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "groups": [
   {
    "title": "Zero to ten",
@@ -19,57 +23,68 @@
     {
      "fr": "zero",
      "ipa": "/ˈzɪərəʊ/",
-     "en": "0"
+     "en": "0",
+     "audio": "zero.mp3"
     },
     {
      "fr": "one",
      "ipa": "/wʌn/",
-     "en": "1"
+     "en": "1",
+     "audio": "one.mp3"
     },
     {
      "fr": "two",
      "ipa": "/tuː/",
-     "en": "2"
+     "en": "2",
+     "audio": "two.mp3"
     },
     {
      "fr": "three",
      "ipa": "/θriː/",
-     "en": "3"
+     "en": "3",
+     "audio": "three.mp3"
     },
     {
      "fr": "four",
      "ipa": "/fɔː/",
-     "en": "4"
+     "en": "4",
+     "audio": "four.mp3"
     },
     {
      "fr": "five",
      "ipa": "/faɪv/",
-     "en": "5"
+     "en": "5",
+     "audio": "five.mp3"
     },
     {
      "fr": "six",
      "ipa": "/sɪks/",
-     "en": "6"
+     "en": "6",
+     "audio": "six.mp3"
     },
     {
      "fr": "seven",
      "ipa": "/ˈsevən/",
-     "en": "7"
+     "en": "7",
+     "audio": "seven.mp3"
     },
     {
      "fr": "eight",
      "ipa": "/eɪt/",
-     "en": "8"
+     "en": "8",
+     "audio": "eight.mp3"
     },
     {
      "fr": "nine",
      "ipa": "/naɪn/",
-     "en": "9"
+     "en": "9",
+     "audio": "nine.mp3"
     },
     {
      "fr": "ten",
      "ipa": "/ten/",
-     "en": "10"
+     "en": "10",
+     "audio": "ten.mp3"
     }
    ]
   },
@@ -84,52 +99,62 @@
     {
      "fr": "eleven",
      "ipa": "/ɪˈlevən/",
-     "en": "11"
+     "en": "11",
+     "audio": "eleven.mp3"
     },
     {
      "fr": "twelve",
      "ipa": "/twelv/",
-     "en": "12"
+     "en": "12",
+     "audio": "twelve.mp3"
     },
     {
      "fr": "thirteen",
      "ipa": "/ˌθɜːˈtiːn/",
-     "en": "13"
+     "en": "13",
+     "audio": "thirteen.mp3"
     },
     {
      "fr": "fourteen",
      "ipa": "/ˌfɔːˈtiːn/",
-     "en": "14"
+     "en": "14",
+     "audio": "fourteen.mp3"
     },
     {
      "fr": "fifteen",
      "ipa": "/ˌfɪfˈtiːn/",
-     "en": "15"
+     "en": "15",
+     "audio": "fifteen.mp3"
     },
     {
      "fr": "sixteen",
      "ipa": "/ˌsɪksˈtiːn/",
-     "en": "16"
+     "en": "16",
+     "audio": "sixteen.mp3"
     },
     {
      "fr": "seventeen",
      "ipa": "/ˌsevənˈtiːn/",
-     "en": "17"
+     "en": "17",
+     "audio": "seventeen.mp3"
     },
     {
      "fr": "eighteen",
      "ipa": "/ˌeɪˈtiːn/",
-     "en": "18"
+     "en": "18",
+     "audio": "eighteen.mp3"
     },
     {
      "fr": "nineteen",
      "ipa": "/ˌnaɪnˈtiːn/",
-     "en": "19"
+     "en": "19",
+     "audio": "nineteen.mp3"
     },
     {
      "fr": "twenty",
      "ipa": "/ˈtwenti/",
-     "en": "20"
+     "en": "20",
+     "audio": "twenty.mp3"
     }
    ]
   }

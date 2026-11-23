@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/dates/",
+ "audio_ver": "2611231404",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "listen_pick": "fr",
  "groups": [
   {
@@ -18,23 +22,28 @@
    "words": [
     {
      "fr": "What's the date today?",
-     "en": ""
+     "en": "",
+     "audio": "what_s_the_date_today.mp3"
     },
     {
      "fr": "It's the first of January.",
-     "en": "1 January"
+     "en": "1 January",
+     "audio": "it_s_the_first_of_january.mp3"
     },
     {
      "fr": "It's the third of May.",
-     "en": "3 May"
+     "en": "3 May",
+     "audio": "it_s_the_third_of_may.mp3"
     },
     {
      "fr": "It's the twenty-first of June.",
-     "en": "21 June"
+     "en": "21 June",
+     "audio": "it_s_the_twenty_first_of_june.mp3"
     },
     {
      "fr": "It's the thirtieth of November.",
-     "en": "30 November"
+     "en": "30 November",
+     "audio": "it_s_the_thirtieth_of_november.mp3"
     }
    ]
   },
@@ -46,19 +55,23 @@
    "words": [
     {
      "fr": "When is your birthday?",
-     "en": ""
+     "en": "",
+     "audio": "when_is_your_birthday.mp3"
     },
     {
      "fr": "My birthday is on the tenth of August.",
-     "en": "10 August"
+     "en": "10 August",
+     "audio": "my_birthday_is_on_the_tenth_of_august.mp3"
     },
     {
      "fr": "My birthday is in March.",
-     "en": ""
+     "en": "",
+     "audio": "my_birthday_is_in_march.mp3"
     },
     {
      "fr": "Happy birthday!",
-     "en": ""
+     "en": "",
+     "audio": "happy_birthday.mp3"
     }
    ]
   },
@@ -71,23 +84,28 @@
    "words": [
     {
      "fr": "nineteen ninety-nine",
-     "en": "1999"
+     "en": "1999",
+     "audio": "nineteen_ninety_nine.mp3"
     },
     {
      "fr": "two thousand",
-     "en": "2000"
+     "en": "2000",
+     "audio": "two_thousand.mp3"
     },
     {
      "fr": "two thousand and ten",
-     "en": "2010"
+     "en": "2010",
+     "audio": "two_thousand_and_ten.mp3"
     },
     {
      "fr": "twenty twenty-five",
-     "en": "2025"
+     "en": "2025",
+     "audio": "twenty_twenty_five.mp3"
     },
     {
      "fr": "twenty twenty-six",
-     "en": "2026"
+     "en": "2026",
+     "audio": "twenty_twenty_six.mp3"
     }
    ]
   }

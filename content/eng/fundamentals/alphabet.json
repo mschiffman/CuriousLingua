@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/alphabet/",
+ "audio_ver": "2611231403",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "listen_pick": "fr",
  "groups": [
   {
@@ -21,132 +25,158 @@
     {
      "fr": "A",
      "ipa": "/eɪ/",
-     "en": ""
+     "en": "",
+     "audio": "a.mp3"
     },
     {
      "fr": "B",
      "ipa": "/biː/",
-     "en": ""
+     "en": "",
+     "audio": "b.mp3"
     },
     {
      "fr": "C",
      "ipa": "/siː/",
-     "en": ""
+     "en": "",
+     "audio": "c.mp3"
     },
     {
      "fr": "D",
      "ipa": "/diː/",
-     "en": ""
+     "en": "",
+     "audio": "d.mp3"
     },
     {
      "fr": "E",
      "ipa": "/iː/",
-     "en": ""
+     "en": "",
+     "audio": "e.mp3"
     },
     {
      "fr": "F",
      "ipa": "/ef/",
-     "en": ""
+     "en": "",
+     "audio": "f.mp3"
     },
     {
      "fr": "G",
      "ipa": "/dʒiː/",
-     "en": ""
+     "en": "",
+     "audio": "g.mp3"
     },
     {
      "fr": "H",
      "ipa": "/eɪtʃ/",
-     "en": ""
+     "en": "",
+     "audio": "h.mp3"
     },
     {
      "fr": "I",
      "ipa": "/aɪ/",
-     "en": ""
+     "en": "",
+     "audio": "i.mp3"
     },
     {
      "fr": "J",
      "ipa": "/dʒeɪ/",
-     "en": ""
+     "en": "",
+     "audio": "j.mp3"
     },
     {
      "fr": "K",
      "ipa": "/keɪ/",
-     "en": ""
+     "en": "",
+     "audio": "k.mp3"
     },
     {
      "fr": "L",
      "ipa": "/el/",
-     "en": ""
+     "en": "",
+     "audio": "l.mp3"
     },
     {
      "fr": "M",
      "ipa": "/em/",
-     "en": ""
+     "en": "",
+     "audio": "m.mp3"
     },
     {
      "fr": "N",
      "ipa": "/en/",
-     "en": ""
+     "en": "",
+     "audio": "n.mp3"
     },
     {
      "fr": "O",
      "ipa": "/əʊ/",
-     "en": ""
+     "en": "",
+     "audio": "o.mp3"
     },
     {
      "fr": "P",
      "ipa": "/piː/",
-     "en": ""
+     "en": "",
+     "audio": "p.mp3"
     },
     {
      "fr": "Q",
      "ipa": "/kjuː/",
-     "en": ""
+     "en": "",
+     "audio": "q.mp3"
     },
     {
      "fr": "R",
      "ipa": "/ɑː/",
-     "en": ""
+     "en": "",
+     "audio": "r.mp3"
     },
     {
      "fr": "S",
      "ipa": "/es/",
-     "en": ""
+     "en": "",
+     "audio": "s.mp3"
     },
     {
      "fr": "T",
      "ipa": "/tiː/",
-     "en": ""
+     "en": "",
+     "audio": "t.mp3"
     },
     {
      "fr": "U",
      "ipa": "/juː/",
-     "en": ""
+     "en": "",
+     "audio": "u.mp3"
     },
     {
      "fr": "V",
      "ipa": "/viː/",
-     "en": ""
+     "en": "",
+     "audio": "v.mp3"
     },
     {
      "fr": "W",
      "ipa": "/ˈdʌbəl juː/",
-     "en": ""
+     "en": "",
+     "audio": "w.mp3"
     },
     {
      "fr": "X",
      "ipa": "/eks/",
-     "en": ""
+     "en": "",
+     "audio": "x.mp3"
     },
     {
      "fr": "Y",
      "ipa": "/waɪ/",
-     "en": ""
+     "en": "",
+     "audio": "y.mp3"
     },
     {
      "fr": "Z",
      "ipa": "/zed/",
-     "en": ""
+     "en": "",
+     "audio": "z.mp3"
     }
    ]
   }

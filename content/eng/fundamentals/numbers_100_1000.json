@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/numbers/",
+ "audio_ver": "2611231407",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "groups": [
   {
    "title": "The hundreds",
@@ -20,39 +24,48 @@
     {
      "fr": "one hundred",
      "ipa": "/wʌn ˈhʌndrəd/",
-     "en": "100"
+     "en": "100",
+     "audio": "one_hundred.mp3"
     },
     {
      "fr": "one hundred and one",
-     "en": "101"
+     "en": "101",
+     "audio": "one_hundred_and_one.mp3"
     },
     {
      "fr": "one hundred and ten",
-     "en": "110"
+     "en": "110",
+     "audio": "one_hundred_and_ten.mp3"
     },
     {
      "fr": "one hundred and fifty",
-     "en": "150"
+     "en": "150",
+     "audio": "one_hundred_and_fifty.mp3"
     },
     {
      "fr": "two hundred",
-     "en": "200"
+     "en": "200",
+     "audio": "two_hundred.mp3"
     },
     {
      "fr": "two hundred and twenty-five",
-     "en": "225"
+     "en": "225",
+     "audio": "two_hundred_and_twenty_five.mp3"
     },
     {
      "fr": "three hundred",
-     "en": "300"
+     "en": "300",
+     "audio": "three_hundred.mp3"
     },
     {
      "fr": "five hundred",
-     "en": "500"
+     "en": "500",
+     "audio": "five_hundred.mp3"
     },
     {
      "fr": "nine hundred and ninety-nine",
-     "en": "999"
+     "en": "999",
+     "audio": "nine_hundred_and_ninety_nine.mp3"
     }
    ]
   },
@@ -66,24 +79,29 @@
     {
      "fr": "one thousand",
      "ipa": "/wʌn ˈθaʊzənd/",
-     "en": "1,000"
+     "en": "1,000",
+     "audio": "one_thousand.mp3"
     },
     {
      "fr": "two thousand",
-     "en": "2,000"
+     "en": "2,000",
+     "audio": "two_thousand.mp3"
     },
     {
      "fr": "ten thousand",
-     "en": "10,000"
+     "en": "10,000",
+     "audio": "ten_thousand.mp3"
     },
     {
      "fr": "one hundred thousand",
-     "en": "100,000"
+     "en": "100,000",
+     "audio": "one_hundred_thousand.mp3"
     },
     {
      "fr": "one million",
      "ipa": "/wʌn ˈmɪljən/",
-     "en": "1,000,000"
+     "en": "1,000,000",
+     "audio": "one_million.mp3"
     }
    ]
   }

@@ -7,6 +7,10 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/time/",
+ "audio_ver": "2611231409",
+ "voices": [
+  "KImSbfszwPjEhg77C2Td"
+ ],
  "listen_pick": "fr",
  "groups": [
   {
@@ -14,19 +18,23 @@
    "words": [
     {
      "fr": "What time do you get up?",
-     "en": ""
+     "en": "",
+     "audio": "what_time_do_you_get_up.mp3"
     },
     {
      "fr": "What time does school start?",
-     "en": ""
+     "en": "",
+     "audio": "what_time_does_school_start.mp3"
     },
     {
      "fr": "What time is lunch?",
-     "en": ""
+     "en": "",
+     "audio": "what_time_is_lunch.mp3"
     },
     {
      "fr": "When do you go to bed?",
-     "en": ""
+     "en": "",
+     "audio": "when_do_you_go_to_bed.mp3"
     }
    ]
   },
@@ -38,27 +46,33 @@
    "words": [
     {
      "fr": "at seven o'clock",
-     "en": "7:00"
+     "en": "7:00",
+     "audio": "at_seven_o_clock.mp3"
     },
     {
      "fr": "at half past eight",
-     "en": "8:30"
+     "en": "8:30",
+     "audio": "at_half_past_eight.mp3"
     },
     {
      "fr": "at about four o'clock",
-     "en": "≈ 4:00"
+     "en": "≈ 4:00",
+     "audio": "at_about_four_o_clock.mp3"
     },
     {
      "fr": "from nine to three",
-     "en": "9:00 – 3:00"
+     "en": "9:00 – 3:00",
+     "audio": "from_nine_to_three.mp3"
     },
     {
      "fr": "before six o'clock",
-     "en": "< 6:00"
+     "en": "< 6:00",
+     "audio": "before_six_o_clock.mp3"
     },
     {
      "fr": "after school",
-     "en": ""
+     "en": "",
+     "audio": "after_school.mp3"
     }
    ]
   },
@@ -67,23 +81,28 @@
    "words": [
     {
      "fr": "I get up at six o'clock.",
-     "en": ""
+     "en": "",
+     "audio": "i_get_up_at_six_o_clock.mp3"
     },
     {
      "fr": "School starts at eight.",
-     "en": ""
+     "en": "",
+     "audio": "school_starts_at_eight.mp3"
     },
     {
      "fr": "I have lunch at twelve.",
-     "en": ""
+     "en": "",
+     "audio": "i_have_lunch_at_twelve.mp3"
     },
     {
      "fr": "I go home at half past three.",
-     "en": ""
+     "en": "",
+     "audio": "i_go_home_at_half_past_three.mp3"
     },
     {
      "fr": "I go to bed at nine o'clock.",
-     "en": ""
+     "en": "",
+     "audio": "i_go_to_bed_at_nine_o_clock.mp3"
     }
    ]
   }
