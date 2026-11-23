@@ -8,14 +8,14 @@
  "review": "Draft written by Claude. Check the text before recording audio.",
  "intro": "A friend who slept badly, a fall, a guest who left without a word, and a borrowed laptop: four short scenes between Emma and Lucas. Listen for the question each one opens with, and for the moment the caring tone turns sharp.",
  "aud_dir": "fr/speaking/ca_va_pas/",
- "aud_ext": "mp3?v=pending",
+ "aud_ext": "mp3?v=2611230621",
  "speakers": {
   "E": "Emma",
   "L": "Lucas"
  },
  "voice": {
   "E": "kpdfx4lSypfQFBq4eDa2",
-  "L": "raorKQeRhtnNgyXX4Iqm"
+  "L": "fUzMXGEwYWmfjFB2ZfeA"
  },
  "support": [
   "en"
