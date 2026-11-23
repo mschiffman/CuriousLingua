@@ -645,6 +645,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/quelle_heure",
+  "url": "fr/speaking/quelle_heure.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Il est quelle heure ?",
+  "clips": 28,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/route",
   "url": "fr/speaking/route.html",
   "course": "fr",
@@ -2725,6 +2740,21 @@
   "type": "dialogue",
   "title": "Clean Up, Please",
   "clips": 21,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "eng/speaking/what_time",
+  "url": "eng/speaking/what_time.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "What Time Is It?",
+  "clips": 26,
   "images": 0,
   "audio": "wired",
   "quiz": true

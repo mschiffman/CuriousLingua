@@ -1,0 +1,204 @@
+{
+ "title": "What Time Is It?",
+ "subtitle": "Four conversations about the time",
+ "level": "a1",
+ "topic": "Situations",
+ "type": "dialogue",
+ "review": "Draft written by Claude. Check the text before recording audio. No Burmese yet.",
+ "intro": "Mia's day, from seven in the morning to nine at night. Listen for the time in each conversation, then say it with her.",
+ "aud_dir": "eng/speaking/what_time/",
+ "aud_ext": "mp3?v=2611231140",
+ "speakers": {
+  "M": "Mia",
+  "O": "Mom",
+  "B": "Ben"
+ },
+ "voice": {
+  "M": "MOAe6Ugu3k7GT4qGvdi6",
+  "O": "TOWjK573x9w4MlmKG5BW",
+  "B": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/reading/time"
+ ],
+ "sections": [
+  {
+   "title": "Time for school",
+   "lines": [
+    {
+     "who": "O",
+     "text": "Wake up, Mia!"
+    },
+    {
+     "who": "M",
+     "text": "What time is it, Mom?"
+    },
+    {
+     "who": "O",
+     "text": "It's seven o'clock.",
+     "note": "7:00. We say o'clock only when the time is exactly on the hour."
+    },
+    {
+     "who": "M",
+     "text": "Seven o'clock? I'm so sleepy."
+    },
+    {
+     "who": "O",
+     "text": "School starts at eight. Get up, please.",
+     "note": "at + a time: at eight, at seven o'clock."
+    },
+    {
+     "who": "M",
+     "text": "OK, Mom. I'm up!"
+    }
+   ]
+  },
+  {
+   "title": "Is it lunchtime?",
+   "lines": [
+    {
+     "who": "B",
+     "text": "Mia, what time is it?"
+    },
+    {
+     "who": "M",
+     "text": "It's half past eleven.",
+     "note": "11:30. You can also say eleven thirty."
+    },
+    {
+     "who": "B",
+     "text": "What time is lunch?"
+    },
+    {
+     "who": "M",
+     "text": "Lunch is at twelve o'clock."
+    },
+    {
+     "who": "B",
+     "text": "Oh no. Thirty more minutes! I'm hungry."
+    },
+    {
+     "who": "M",
+     "text": "Me too. Let's wait together."
+    }
+   ]
+  },
+  {
+   "title": "After school",
+   "lines": [
+    {
+     "who": "B",
+     "text": "Can you come and play today?"
+    },
+    {
+     "who": "M",
+     "text": "Yes! What time?"
+    },
+    {
+     "who": "B",
+     "text": "At four o'clock, in the park."
+    },
+    {
+     "who": "M",
+     "text": "I have homework. Is a quarter past four OK?",
+     "note": "4:15. A quarter = fifteen minutes."
+    },
+    {
+     "who": "B",
+     "text": "Yes, a quarter past four is fine."
+    },
+    {
+     "who": "M",
+     "text": "Great. See you at the park!"
+    },
+    {
+     "who": "B",
+     "text": "See you later!"
+    }
+   ]
+  },
+  {
+   "title": "Bedtime",
+   "lines": [
+    {
+     "who": "M",
+     "text": "Mom, can I watch one more cartoon?"
+    },
+    {
+     "who": "O",
+     "text": "No, Mia. Look at the clock. What time is it?"
+    },
+    {
+     "who": "M",
+     "text": "It's a quarter to nine.",
+     "note": "8:45. To = before: fifteen minutes before nine."
+    },
+    {
+     "who": "O",
+     "text": "Yes, and bedtime is at nine o'clock."
+    },
+    {
+     "who": "M",
+     "text": "Five more minutes, please?"
+    },
+    {
+     "who": "O",
+     "text": "OK. Five minutes, then bed."
+    },
+    {
+     "who": "M",
+     "text": "Thank you, Mom. Good night!"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "What time is it? asks for the time now. The answer starts with It's: It's seven o'clock.",
+  "What time is lunch? asks when something happens. The answer uses at: Lunch is at twelve o'clock.",
+  "past = after the hour: half past eleven (11:30), a quarter past four (4:15).",
+  "to = before the next hour: a quarter to nine (8:45).",
+  "o'clock is only for the exact hour: seven o'clock, but half past seven."
+ ],
+ "questions": [
+  {
+   "q": "What time does Mia wake up?",
+   "options": [
+    "Seven o'clock",
+    "Eight o'clock",
+    "Half past seven"
+   ],
+   "answer": 0,
+   "why": "Mom says: It's seven o'clock."
+  },
+  {
+   "q": "It is half past eleven. Lunch is at twelve o'clock. How long do Ben and Mia wait?",
+   "options": [
+    "Fifteen minutes",
+    "Thirty minutes",
+    "One hour"
+   ],
+   "answer": 1,
+   "why": "Half past eleven is 11:30. Ben says: Thirty more minutes!"
+  },
+  {
+   "q": "What time do Mia and Ben meet at the park?",
+   "options": [
+    "Four o'clock",
+    "A quarter to four",
+    "A quarter past four"
+   ],
+   "answer": 2,
+   "why": "Mia has homework, so they meet at a quarter past four (4:15)."
+  },
+  {
+   "q": "Mia says: It's a quarter to nine. What time is it?",
+   "options": [
+    "8:45",
+    "9:15",
+    "9:45"
+   ],
+   "answer": 0,
+   "why": "A quarter to nine = fifteen minutes before nine."
+  }
+ ]
+}
