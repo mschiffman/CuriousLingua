@@ -7,7 +7,7 @@
  "type": "words",
  "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
  "glossary_dir": "eng/fundamentals/alphabet/",
- "audio_ver": "2611231404",
+ "audio_ver": "2611231533",
  "voices": [
   "KImSbfszwPjEhg77C2Td"
  ],

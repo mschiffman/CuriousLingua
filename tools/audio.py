@@ -660,8 +660,7 @@ def upload_recording(L):
     for k in todo:
         s3.upload_file(files[k], BUCKET, k, ExtraArgs={"ContentType": "audio/mp4" if k.endswith(".m4a") else "audio/mpeg"})
     print(f"R2 {L.get('audio_file') or gd}: {len(files) - len(todo)} already online, {len(todo)} uploaded")
-    ver = L.get("audio_ver", "")
-    if todo or not ver:
+    def stamp():
         ver = datetime.datetime.now().strftime("%y%m%d%H%M")
         src = open(L["file"], encoding="utf-8").read()
         if '"audio_ver"' in src:
@@ -674,11 +673,20 @@ def upload_recording(L):
         json.loads(new)   # never leave a lesson file that does not parse
         open(L["file"], "w", encoding="utf-8", newline="\n").write(new)
         print(f"audio_ver set to {ver}")
-    wrong = []
-    for k, p in files.items():
-        got = subprocess.run(["curl", "-s", f"{C['media_base']}{urllib.parse.quote(k)}?v={ver}"], capture_output=True).stdout   # old clips have spaces and apostrophes in their names
-        if hashlib.md5(got).hexdigest() != md5(p):
-            wrong.append(k)
+        return ver
+
+    def cdn(ver):   # the clips the CDN does not serve as they are on this computer, under this tag
+        return [k for k, p in files.items()   # old clips have spaces and apostrophes in their names
+                if hashlib.md5(subprocess.run(["curl", "-s", f"{C['media_base']}{urllib.parse.quote(k)}?v={ver}"], capture_output=True).stdout).hexdigest() != md5(p)]
+
+    ver, fresh = L.get("audio_ver", ""), bool(todo or not L.get("audio_ver"))
+    if fresh:
+        ver = stamp()
+    wrong = cdn(ver)
+    if wrong and not fresh:   # a clip shared with another lesson was sent by that lesson's upload: this one needs a new tag too
+        print(f"CDN still serves the old {', '.join(wrong)} under this lesson's tag")
+        ver = stamp()
+        wrong = cdn(ver)
     print(f"CDN check: {len(files) - len(wrong)}/{len(files)} match" + (f", DIFFERENT: {wrong}" if wrong else ""))
     import build
     build.main()
