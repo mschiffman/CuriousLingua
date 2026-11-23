@@ -5,51 +5,49 @@
  "topic": "Situations",
  "type": "dialogue",
  "review": "Draft written by Claude. Check the text before recording audio. No Burmese yet.",
- "intro": "Mia's day, from seven in the morning to nine at night. Listen for the time in each conversation, then say it with her.",
+ "intro": "Anna and Tom's day, from seven in the morning to eleven at night. Listen for the time in each conversation, then say it with them.",
  "aud_dir": "eng/speaking/what_time/",
- "aud_ext": "mp3?v=2611231140",
+ "aud_ext": "mp3?v=2611231208",
  "speakers": {
-  "M": "Mia",
-  "O": "Mom",
-  "B": "Ben"
+  "A": "Anna",
+  "T": "Tom"
  },
  "voice": {
-  "M": "MOAe6Ugu3k7GT4qGvdi6",
-  "O": "TOWjK573x9w4MlmKG5BW",
-  "B": "ZBsd5OXB9HVuWJ69YkCI"
+  "A": "MOAe6Ugu3k7GT4qGvdi6",
+  "T": "tWGwZ7IHcVN3tgyAlxbV"
  },
  "related": [
   "eng/reading/time"
  ],
  "sections": [
   {
-   "title": "Time for school",
+   "title": "Good morning",
    "lines": [
     {
-     "who": "O",
-     "text": "Wake up, Mia!"
+     "who": "A",
+     "text": "Wake up, Tom!"
     },
     {
-     "who": "M",
-     "text": "What time is it, Mom?"
+     "who": "T",
+     "text": "What time is it?"
     },
     {
-     "who": "O",
+     "who": "A",
      "text": "It's seven o'clock.",
      "note": "7:00. We say o'clock only when the time is exactly on the hour."
     },
     {
-     "who": "M",
+     "who": "T",
      "text": "Seven o'clock? I'm so sleepy."
     },
     {
-     "who": "O",
-     "text": "School starts at eight. Get up, please.",
+     "who": "A",
+     "text": "Your bus is at eight. Get up, please.",
      "note": "at + a time: at eight, at seven o'clock."
     },
     {
-     "who": "M",
-     "text": "OK, Mom. I'm up!"
+     "who": "T",
+     "text": "OK, OK. I'm up!"
     }
    ]
   },
@@ -57,97 +55,97 @@
    "title": "Is it lunchtime?",
    "lines": [
     {
-     "who": "B",
-     "text": "Mia, what time is it?"
+     "who": "T",
+     "text": "Anna, what time is it?"
     },
     {
-     "who": "M",
+     "who": "A",
      "text": "It's half past eleven.",
      "note": "11:30. You can also say eleven thirty."
     },
     {
-     "who": "B",
+     "who": "T",
      "text": "What time is lunch?"
     },
     {
-     "who": "M",
+     "who": "A",
      "text": "Lunch is at twelve o'clock."
     },
     {
-     "who": "B",
+     "who": "T",
      "text": "Oh no. Thirty more minutes! I'm hungry."
     },
     {
-     "who": "M",
+     "who": "A",
      "text": "Me too. Let's wait together."
     }
    ]
   },
   {
-   "title": "After school",
+   "title": "After work",
    "lines": [
     {
-     "who": "B",
-     "text": "Can you come and play today?"
+     "who": "A",
+     "text": "Can you play badminton today?"
     },
     {
-     "who": "M",
+     "who": "T",
      "text": "Yes! What time?"
     },
     {
-     "who": "B",
+     "who": "A",
      "text": "At four o'clock, in the park."
     },
     {
-     "who": "M",
-     "text": "I have homework. Is a quarter past four OK?",
+     "who": "T",
+     "text": "I finish work at four. Is a quarter past four OK?",
      "note": "4:15. A quarter = fifteen minutes."
     },
     {
-     "who": "B",
+     "who": "A",
      "text": "Yes, a quarter past four is fine."
     },
     {
-     "who": "M",
+     "who": "T",
      "text": "Great. See you at the park!"
     },
     {
-     "who": "B",
+     "who": "A",
      "text": "See you later!"
     }
    ]
   },
   {
-   "title": "Bedtime",
+   "title": "Time for bed",
    "lines": [
     {
-     "who": "M",
-     "text": "Mom, can I watch one more cartoon?"
+     "who": "T",
+     "text": "Anna, can we watch one more show?"
     },
     {
-     "who": "O",
-     "text": "No, Mia. Look at the clock. What time is it?"
+     "who": "A",
+     "text": "No, Tom. Look at the clock. What time is it?"
     },
     {
-     "who": "M",
-     "text": "It's a quarter to nine.",
-     "note": "8:45. To = before: fifteen minutes before nine."
+     "who": "T",
+     "text": "It's a quarter to eleven.",
+     "note": "10:45. To = before: fifteen minutes before eleven."
     },
     {
-     "who": "O",
-     "text": "Yes, and bedtime is at nine o'clock."
+     "who": "A",
+     "text": "Yes, and we get up at six o'clock."
     },
     {
-     "who": "M",
-     "text": "Five more minutes, please?"
+     "who": "T",
+     "text": "Ten more minutes, please?"
     },
     {
-     "who": "O",
-     "text": "OK. Five minutes, then bed."
+     "who": "A",
+     "text": "OK. Ten minutes, then bed."
     },
     {
-     "who": "M",
-     "text": "Thank you, Mom. Good night!"
+     "who": "T",
+     "text": "Thank you. Good night!"
     }
    ]
   }
@@ -156,49 +154,49 @@
   "What time is it? asks for the time now. The answer starts with It's: It's seven o'clock.",
   "What time is lunch? asks when something happens. The answer uses at: Lunch is at twelve o'clock.",
   "past = after the hour: half past eleven (11:30), a quarter past four (4:15).",
-  "to = before the next hour: a quarter to nine (8:45).",
+  "to = before the next hour: a quarter to eleven (10:45).",
   "o'clock is only for the exact hour: seven o'clock, but half past seven."
  ],
  "questions": [
   {
-   "q": "What time does Mia wake up?",
+   "q": "What time does Tom wake up?",
    "options": [
     "Seven o'clock",
     "Eight o'clock",
     "Half past seven"
    ],
    "answer": 0,
-   "why": "Mom says: It's seven o'clock."
+   "why": "Anna says: It's seven o'clock."
   },
   {
-   "q": "It is half past eleven. Lunch is at twelve o'clock. How long do Ben and Mia wait?",
+   "q": "It is half past eleven. Lunch is at twelve o'clock. How long do Tom and Anna wait?",
    "options": [
     "Fifteen minutes",
     "Thirty minutes",
     "One hour"
    ],
    "answer": 1,
-   "why": "Half past eleven is 11:30. Ben says: Thirty more minutes!"
+   "why": "Half past eleven is 11:30. Tom says: Thirty more minutes!"
   },
   {
-   "q": "What time do Mia and Ben meet at the park?",
+   "q": "What time do Anna and Tom meet at the park?",
    "options": [
     "Four o'clock",
     "A quarter to four",
     "A quarter past four"
    ],
    "answer": 2,
-   "why": "Mia has homework, so they meet at a quarter past four (4:15)."
+   "why": "Tom finishes work at four, so they meet at a quarter past four (4:15)."
   },
   {
-   "q": "Mia says: It's a quarter to nine. What time is it?",
+   "q": "Tom says: It's a quarter to eleven. What time is it?",
    "options": [
-    "8:45",
-    "9:15",
-    "9:45"
+    "10:45",
+    "11:15",
+    "11:45"
    ],
    "answer": 0,
-   "why": "A quarter to nine = fifteen minutes before nine."
+   "why": "A quarter to eleven = fifteen minutes before eleven."
   }
  ]
 }
