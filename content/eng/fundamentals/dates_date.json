@@ -1,0 +1,95 @@
+{
+ "title": "Saying the Date",
+ "subtitle": "What's the date today?",
+ "level": "a1",
+ "topic": "Dates",
+ "order": 30.3,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/dates/",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "The date",
+   "notes": [
+    "You write 3 May (or 3rd May). You say the third of May.",
+    "American English puts the month first: May third, written May 3."
+   ],
+   "words": [
+    {
+     "fr": "What's the date today?",
+     "en": ""
+    },
+    {
+     "fr": "It's the first of January.",
+     "en": "1 January"
+    },
+    {
+     "fr": "It's the third of May.",
+     "en": "3 May"
+    },
+    {
+     "fr": "It's the twenty-first of June.",
+     "en": "21 June"
+    },
+    {
+     "fr": "It's the thirtieth of November.",
+     "en": "30 November"
+    }
+   ]
+  },
+  {
+   "title": "Birthdays",
+   "notes": [
+    "on + a date: on the tenth of August. in + a month: in March."
+   ],
+   "words": [
+    {
+     "fr": "When is your birthday?",
+     "en": ""
+    },
+    {
+     "fr": "My birthday is on the tenth of August.",
+     "en": "10 August"
+    },
+    {
+     "fr": "My birthday is in March.",
+     "en": ""
+    },
+    {
+     "fr": "Happy birthday!",
+     "en": ""
+    }
+   ]
+  },
+  {
+   "title": "The year",
+   "notes": [
+    "A year is said in two halves: 19 | 99, 20 | 25.",
+    "Use in before a year: in 2026."
+   ],
+   "words": [
+    {
+     "fr": "nineteen ninety-nine",
+     "en": "1999"
+    },
+    {
+     "fr": "two thousand",
+     "en": "2000"
+    },
+    {
+     "fr": "two thousand and ten",
+     "en": "2010"
+    },
+    {
+     "fr": "twenty twenty-five",
+     "en": "2025"
+    },
+    {
+     "fr": "twenty twenty-six",
+     "en": "2026"
+    }
+   ]
+  }
+ ]
+}

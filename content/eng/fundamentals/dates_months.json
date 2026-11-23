@@ -1,0 +1,148 @@
+{
+ "title": "The Months and the Seasons",
+ "subtitle": "January to December",
+ "level": "a1",
+ "topic": "Dates",
+ "order": 30.2,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/dates/",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "The twelve months",
+   "notes": [
+    "The months always start with a capital letter.",
+    "Use in before a month: in May, in December."
+   ],
+   "words": [
+    {
+     "fr": "January",
+     "ipa": "/ˈdʒænjuəri/",
+     "en": "ဇန်နဝါရီ"
+    },
+    {
+     "fr": "February",
+     "ipa": "/ˈfebruəri/",
+     "en": "ဖေဖော်ဝါရီ"
+    },
+    {
+     "fr": "March",
+     "ipa": "/mɑːtʃ/",
+     "en": "မတ်"
+    },
+    {
+     "fr": "April",
+     "ipa": "/ˈeɪprəl/",
+     "en": "ဧပြီ"
+    },
+    {
+     "fr": "May",
+     "ipa": "/meɪ/",
+     "en": "မေ"
+    },
+    {
+     "fr": "June",
+     "ipa": "/dʒuːn/",
+     "en": "ဇွန်"
+    },
+    {
+     "fr": "July",
+     "ipa": "/dʒuˈlaɪ/",
+     "en": "ဇူလိုင်"
+    },
+    {
+     "fr": "August",
+     "ipa": "/ˈɔːɡəst/",
+     "en": "ဩဂုတ်"
+    },
+    {
+     "fr": "September",
+     "ipa": "/sepˈtembə/",
+     "en": "စက်တင်ဘာ"
+    },
+    {
+     "fr": "October",
+     "ipa": "/ɒkˈtəʊbə/",
+     "en": "အောက်တိုဘာ"
+    },
+    {
+     "fr": "November",
+     "ipa": "/nəʊˈvembə/",
+     "en": "နိုဝင်ဘာ"
+    },
+    {
+     "fr": "December",
+     "ipa": "/dɪˈsembə/",
+     "en": "ဒီဇင်ဘာ"
+    }
+   ]
+  },
+  {
+   "title": "The seasons in Myanmar",
+   "words": [
+    {
+     "fr": "the hot season",
+     "en": "နွေရာသီ"
+    },
+    {
+     "fr": "the rainy season",
+     "en": "မိုးရာသီ"
+    },
+    {
+     "fr": "the cool season",
+     "en": "ဆောင်းရာသီ"
+    }
+   ]
+  },
+  {
+   "title": "The four seasons",
+   "sub": "In colder countries",
+   "notes": [
+    "Autumn is British English. In American English it is fall."
+   ],
+   "words": [
+    {
+     "fr": "spring",
+     "ipa": "/sprɪŋ/",
+     "en": "နွေဦးရာသီ"
+    },
+    {
+     "fr": "summer",
+     "ipa": "/ˈsʌmə/",
+     "en": "နွေရာသီ"
+    },
+    {
+     "fr": "autumn",
+     "ipa": "/ˈɔːtəm/",
+     "en": "ဆောင်းဦးရာသီ"
+    },
+    {
+     "fr": "winter",
+     "ipa": "/ˈwɪntə/",
+     "en": "ဆောင်းရာသီ"
+    }
+   ]
+  },
+  {
+   "title": "Month, season, year",
+   "words": [
+    {
+     "fr": "month",
+     "ipa": "/mʌnθ/",
+     "en": "လ"
+    },
+    {
+     "fr": "season",
+     "ipa": "/ˈsiːzən/",
+     "en": "ရာသီ"
+    },
+    {
+     "fr": "year",
+     "ipa": "/jɪə/",
+     "en": "နှစ်"
+    }
+   ]
+  }
+ ]
+}

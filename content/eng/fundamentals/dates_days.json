@@ -1,0 +1,120 @@
+{
+ "title": "The Days of the Week",
+ "subtitle": "Monday to Sunday",
+ "level": "a1",
+ "topic": "Dates",
+ "order": 30.1,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/dates/",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "The seven days",
+   "notes": [
+    "The days always start with a capital letter.",
+    "Wednesday: the first d is silent. Say WENZ-day."
+   ],
+   "words": [
+    {
+     "fr": "Monday",
+     "ipa": "/ˈmʌndeɪ/",
+     "en": "တနင်္လာနေ့"
+    },
+    {
+     "fr": "Tuesday",
+     "ipa": "/ˈtjuːzdeɪ/",
+     "en": "အင်္ဂါနေ့"
+    },
+    {
+     "fr": "Wednesday",
+     "ipa": "/ˈwenzdeɪ/",
+     "en": "ဗုဒ္ဓဟူးနေ့"
+    },
+    {
+     "fr": "Thursday",
+     "ipa": "/ˈθɜːzdeɪ/",
+     "en": "ကြာသပတေးနေ့"
+    },
+    {
+     "fr": "Friday",
+     "ipa": "/ˈfraɪdeɪ/",
+     "en": "သောကြာနေ့"
+    },
+    {
+     "fr": "Saturday",
+     "ipa": "/ˈsætədeɪ/",
+     "en": "စနေနေ့"
+    },
+    {
+     "fr": "Sunday",
+     "ipa": "/ˈsʌndeɪ/",
+     "en": "တနင်္ဂနွေနေ့"
+    }
+   ]
+  },
+  {
+   "title": "Today and tomorrow",
+   "words": [
+    {
+     "fr": "today",
+     "ipa": "/təˈdeɪ/",
+     "en": "ဒီနေ့"
+    },
+    {
+     "fr": "tomorrow",
+     "ipa": "/təˈmɒrəʊ/",
+     "en": "မနက်ဖြန်"
+    },
+    {
+     "fr": "yesterday",
+     "ipa": "/ˈjestədeɪ/",
+     "en": "မနေ့က"
+    },
+    {
+     "fr": "day",
+     "ipa": "/deɪ/",
+     "en": "နေ့"
+    },
+    {
+     "fr": "week",
+     "ipa": "/wiːk/",
+     "en": "ရက်သတ္တပတ်"
+    },
+    {
+     "fr": "weekend",
+     "ipa": "/ˌwiːkˈend/",
+     "en": "စနေ၊ တနင်္ဂနွေ"
+    }
+   ]
+  },
+  {
+   "title": "Talking about days",
+   "notes": [
+    "Use on before a day: on Monday, on Friday."
+   ],
+   "words": [
+    {
+     "fr": "What day is it today?",
+     "en": ""
+    },
+    {
+     "fr": "It's Monday.",
+     "en": ""
+    },
+    {
+     "fr": "Tomorrow is Tuesday.",
+     "en": ""
+    },
+    {
+     "fr": "I have English on Wednesday.",
+     "en": ""
+    },
+    {
+     "fr": "See you on Friday!",
+     "en": ""
+    }
+   ]
+  }
+ ]
+}

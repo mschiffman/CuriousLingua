@@ -1,0 +1,127 @@
+{
+ "title": "First, Second, Third",
+ "subtitle": "Numbers for order",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.4,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/numbers/",
+ "groups": [
+  {
+   "title": "First to tenth",
+   "sub": "1st to 10th",
+   "notes": [
+    "First, second and third are special. After that, add -th: four, fourth.",
+    "Watch the spelling: fifth (not fiveth), eighth (one t), ninth (no e)."
+   ],
+   "words": [
+    {
+     "fr": "first",
+     "ipa": "/fɜːst/",
+     "en": "1st"
+    },
+    {
+     "fr": "second",
+     "ipa": "/ˈsekənd/",
+     "en": "2nd"
+    },
+    {
+     "fr": "third",
+     "ipa": "/θɜːd/",
+     "en": "3rd"
+    },
+    {
+     "fr": "fourth",
+     "ipa": "/fɔːθ/",
+     "en": "4th"
+    },
+    {
+     "fr": "fifth",
+     "ipa": "/fɪfθ/",
+     "en": "5th"
+    },
+    {
+     "fr": "sixth",
+     "ipa": "/sɪksθ/",
+     "en": "6th"
+    },
+    {
+     "fr": "seventh",
+     "ipa": "/ˈsevənθ/",
+     "en": "7th"
+    },
+    {
+     "fr": "eighth",
+     "ipa": "/eɪtθ/",
+     "en": "8th"
+    },
+    {
+     "fr": "ninth",
+     "ipa": "/naɪnθ/",
+     "en": "9th"
+    },
+    {
+     "fr": "tenth",
+     "ipa": "/tenθ/",
+     "en": "10th"
+    }
+   ]
+  },
+  {
+   "title": "Eleventh and after",
+   "sub": "11th to 31st",
+   "notes": [
+    "Only the last number changes: twenty-one, twenty-first.",
+    "You need these numbers to say the date."
+   ],
+   "words": [
+    {
+     "fr": "eleventh",
+     "ipa": "/ɪˈlevənθ/",
+     "en": "11th"
+    },
+    {
+     "fr": "twelfth",
+     "ipa": "/twelfθ/",
+     "en": "12th"
+    },
+    {
+     "fr": "thirteenth",
+     "ipa": "/ˌθɜːˈtiːnθ/",
+     "en": "13th"
+    },
+    {
+     "fr": "twentieth",
+     "ipa": "/ˈtwentiəθ/",
+     "en": "20th"
+    },
+    {
+     "fr": "twenty-first",
+     "ipa": "/ˌtwenti ˈfɜːst/",
+     "en": "21st"
+    },
+    {
+     "fr": "twenty-second",
+     "ipa": "/ˌtwenti ˈsekənd/",
+     "en": "22nd"
+    },
+    {
+     "fr": "twenty-third",
+     "ipa": "/ˌtwenti ˈθɜːd/",
+     "en": "23rd"
+    },
+    {
+     "fr": "thirtieth",
+     "ipa": "/ˈθɜːtiəθ/",
+     "en": "30th"
+    },
+    {
+     "fr": "thirty-first",
+     "ipa": "/ˌθɜːti ˈfɜːst/",
+     "en": "31st"
+    }
+   ]
+  }
+ ]
+}

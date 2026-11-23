@@ -1,0 +1,121 @@
+{
+ "title": "What Time Is It?",
+ "subtitle": "Telling the time",
+ "level": "a1",
+ "topic": "Time",
+ "order": 40.2,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/time/",
+ "listen_pick": "fr",
+ "related": [
+  "eng/reading/time"
+ ],
+ "groups": [
+  {
+   "title": "Asking the time",
+   "words": [
+    {
+     "fr": "What time is it?",
+     "en": ""
+    },
+    {
+     "fr": "What's the time?",
+     "en": ""
+    },
+    {
+     "fr": "Excuse me, do you have the time?",
+     "en": ""
+    }
+   ]
+  },
+  {
+   "title": "O'clock and half past",
+   "notes": [
+    "O'clock is only for the exact hour.",
+    "Half past nine = thirty minutes after nine."
+   ],
+   "words": [
+    {
+     "fr": "It's one o'clock.",
+     "en": "1:00"
+    },
+    {
+     "fr": "It's seven o'clock.",
+     "en": "7:00"
+    },
+    {
+     "fr": "It's twelve o'clock.",
+     "en": "12:00"
+    },
+    {
+     "fr": "It's half past nine.",
+     "en": "9:30"
+    }
+   ]
+  },
+  {
+   "title": "A quarter",
+   "notes": [
+    "A quarter = fifteen minutes.",
+    "past = after the hour. to = before the next hour."
+   ],
+   "words": [
+    {
+     "fr": "It's a quarter past six.",
+     "en": "6:15"
+    },
+    {
+     "fr": "It's a quarter to eight.",
+     "en": "7:45"
+    }
+   ]
+  },
+  {
+   "title": "Minutes",
+   "words": [
+    {
+     "fr": "It's ten past three.",
+     "en": "3:10"
+    },
+    {
+     "fr": "It's twenty past four.",
+     "en": "4:20"
+    },
+    {
+     "fr": "It's ten to six.",
+     "en": "5:50"
+    },
+    {
+     "fr": "It's five to twelve.",
+     "en": "11:55"
+    }
+   ]
+  },
+  {
+   "title": "The short way",
+   "sub": "Hour, then minutes",
+   "notes": [
+    "a.m. = before midday. p.m. = after midday."
+   ],
+   "words": [
+    {
+     "fr": "It's eight twenty.",
+     "en": "8:20"
+    },
+    {
+     "fr": "It's two forty-five.",
+     "en": "2:45"
+    },
+    {
+     "fr": "It's seven a.m.",
+     "en": "7:00 in the morning"
+    },
+    {
+     "fr": "It's seven p.m.",
+     "en": "7:00 in the evening"
+    }
+   ]
+  }
+ ]
+}

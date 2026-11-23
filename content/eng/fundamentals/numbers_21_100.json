@@ -1,0 +1,169 @@
+{
+ "title": "Numbers from 21 to 100",
+ "subtitle": "Twenty-one to one hundred",
+ "level": "a1",
+ "topic": "Numbers",
+ "order": 20.2,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/numbers/",
+ "groups": [
+  {
+   "title": "The tens",
+   "sub": "20, 30, 40 …",
+   "notes": [
+    "Forty has no u: four, fourteen, but forty."
+   ],
+   "words": [
+    {
+     "fr": "twenty",
+     "ipa": "/ˈtwenti/",
+     "en": "20"
+    },
+    {
+     "fr": "thirty",
+     "ipa": "/ˈθɜːti/",
+     "en": "30"
+    },
+    {
+     "fr": "forty",
+     "ipa": "/ˈfɔːti/",
+     "en": "40"
+    },
+    {
+     "fr": "fifty",
+     "ipa": "/ˈfɪfti/",
+     "en": "50"
+    },
+    {
+     "fr": "sixty",
+     "ipa": "/ˈsɪksti/",
+     "en": "60"
+    },
+    {
+     "fr": "seventy",
+     "ipa": "/ˈsevənti/",
+     "en": "70"
+    },
+    {
+     "fr": "eighty",
+     "ipa": "/ˈeɪti/",
+     "en": "80"
+    },
+    {
+     "fr": "ninety",
+     "ipa": "/ˈnaɪnti/",
+     "en": "90"
+    },
+    {
+     "fr": "one hundred",
+     "ipa": "/wʌn ˈhʌndrəd/",
+     "en": "100"
+    }
+   ]
+  },
+  {
+   "title": "Tens and ones",
+   "sub": "21, 32, 43 …",
+   "notes": [
+    "Say the ten, then the one. Write a hyphen between them: twenty-one."
+   ],
+   "words": [
+    {
+     "fr": "twenty-one",
+     "ipa": "/ˌtwenti ˈwʌn/",
+     "en": "21"
+    },
+    {
+     "fr": "thirty-two",
+     "ipa": "/ˌθɜːti ˈtuː/",
+     "en": "32"
+    },
+    {
+     "fr": "forty-three",
+     "ipa": "/ˌfɔːti ˈθriː/",
+     "en": "43"
+    },
+    {
+     "fr": "fifty-four",
+     "ipa": "/ˌfɪfti ˈfɔː/",
+     "en": "54"
+    },
+    {
+     "fr": "sixty-five",
+     "ipa": "/ˌsɪksti ˈfaɪv/",
+     "en": "65"
+    },
+    {
+     "fr": "seventy-six",
+     "ipa": "/ˌsevənti ˈsɪks/",
+     "en": "76"
+    },
+    {
+     "fr": "eighty-seven",
+     "ipa": "/ˌeɪti ˈsevən/",
+     "en": "87"
+    },
+    {
+     "fr": "ninety-eight",
+     "ipa": "/ˌnaɪnti ˈeɪt/",
+     "en": "98"
+    },
+    {
+     "fr": "ninety-nine",
+     "ipa": "/ˌnaɪnti ˈnaɪn/",
+     "en": "99"
+    }
+   ]
+  },
+  {
+   "title": "Thirteen or thirty?",
+   "sub": "Listen to the ending",
+   "notes": [
+    "-teen is long and strong: thirTEEN. -ty is short and weak: THIRty."
+   ],
+   "words": [
+    {
+     "fr": "thirteen",
+     "ipa": "/ˌθɜːˈtiːn/",
+     "en": "13"
+    },
+    {
+     "fr": "thirty",
+     "ipa": "/ˈθɜːti/",
+     "en": "30"
+    },
+    {
+     "fr": "fourteen",
+     "ipa": "/ˌfɔːˈtiːn/",
+     "en": "14"
+    },
+    {
+     "fr": "forty",
+     "ipa": "/ˈfɔːti/",
+     "en": "40"
+    },
+    {
+     "fr": "fifteen",
+     "ipa": "/ˌfɪfˈtiːn/",
+     "en": "15"
+    },
+    {
+     "fr": "fifty",
+     "ipa": "/ˈfɪfti/",
+     "en": "50"
+    },
+    {
+     "fr": "sixteen",
+     "ipa": "/ˌsɪksˈtiːn/",
+     "en": "16"
+    },
+    {
+     "fr": "sixty",
+     "ipa": "/ˈsɪksti/",
+     "en": "60"
+    }
+   ]
+  }
+ ]
+}

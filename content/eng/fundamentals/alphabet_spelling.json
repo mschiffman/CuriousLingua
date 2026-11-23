@@ -1,0 +1,110 @@
+{
+ "title": "Spelling Out Loud",
+ "subtitle": "How do you spell it?",
+ "level": "a1",
+ "topic": "Alphabet",
+ "order": 11,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/alphabet/",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "Words for spelling",
+   "sub": "Capitals, doubles and marks",
+   "notes": [
+    "Two of the same letter together: say double. Hello is H, E, double L, O.",
+    "A full stop (British English) is a period in American English."
+   ],
+   "words": [
+    {
+     "fr": "capital A",
+     "en": "A"
+    },
+    {
+     "fr": "small a",
+     "en": "a"
+    },
+    {
+     "fr": "double L",
+     "en": "ll"
+    },
+    {
+     "fr": "double O",
+     "en": "oo"
+    },
+    {
+     "fr": "full stop",
+     "en": "."
+    },
+    {
+     "fr": "comma",
+     "en": ","
+    },
+    {
+     "fr": "question mark",
+     "en": "?"
+    },
+    {
+     "fr": "apostrophe",
+     "en": "’"
+    },
+    {
+     "fr": "hyphen",
+     "en": "-"
+    }
+   ]
+  },
+  {
+   "title": "Asking and answering",
+   "words": [
+    {
+     "fr": "How do you spell it?",
+     "en": ""
+    },
+    {
+     "fr": "How do you spell your name?",
+     "en": ""
+    },
+    {
+     "fr": "Can you spell that, please?",
+     "en": ""
+    },
+    {
+     "fr": "Is that with one L or two?",
+     "en": ""
+    },
+    {
+     "fr": "With a capital T.",
+     "en": ""
+    }
+   ]
+  },
+  {
+   "title": "Spell these words",
+   "sub": "Listen and say the letters",
+   "words": [
+    {
+     "fr": "C-A-T: cat",
+     "say": "C, A, T. Cat.",
+     "en": ""
+    },
+    {
+     "fr": "B-O-O-K: book",
+     "say": "B, double O, K. Book.",
+     "en": ""
+    },
+    {
+     "fr": "H-E-L-L-O: hello",
+     "say": "H, E, double L, O. Hello.",
+     "en": ""
+    },
+    {
+     "fr": "S-C-H-O-O-L: school",
+     "say": "S, C, H, double O, L. School.",
+     "en": ""
+    }
+   ]
+  }
+ ]
+}

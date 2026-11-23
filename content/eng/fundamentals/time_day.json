@@ -1,0 +1,114 @@
+{
+ "title": "The Parts of the Day",
+ "subtitle": "Morning, afternoon, evening, night",
+ "level": "a1",
+ "topic": "Time",
+ "order": 40.1,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/time/",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "The parts of the day",
+   "notes": [
+    "Midday is twelve o'clock in the day. You can also say noon."
+   ],
+   "words": [
+    {
+     "fr": "morning",
+     "ipa": "/ˈmɔːnɪŋ/",
+     "en": "မနက်"
+    },
+    {
+     "fr": "afternoon",
+     "ipa": "/ˌɑːftəˈnuːn/",
+     "en": "နေ့လယ်"
+    },
+    {
+     "fr": "evening",
+     "ipa": "/ˈiːvnɪŋ/",
+     "en": "ညနေ"
+    },
+    {
+     "fr": "night",
+     "ipa": "/naɪt/",
+     "en": "ည"
+    },
+    {
+     "fr": "midday",
+     "ipa": "/ˌmɪdˈdeɪ/",
+     "en": "မွန်းတည့်"
+    },
+    {
+     "fr": "midnight",
+     "ipa": "/ˈmɪdnaɪt/",
+     "en": "သန်းခေါင်"
+    }
+   ]
+  },
+  {
+   "title": "When?",
+   "notes": [
+    "in the morning, in the afternoon, in the evening, but at night."
+   ],
+   "words": [
+    {
+     "fr": "in the morning",
+     "en": ""
+    },
+    {
+     "fr": "in the afternoon",
+     "en": ""
+    },
+    {
+     "fr": "in the evening",
+     "en": ""
+    },
+    {
+     "fr": "at night",
+     "en": ""
+    },
+    {
+     "fr": "now",
+     "ipa": "/naʊ/",
+     "en": "အခု"
+    },
+    {
+     "fr": "early",
+     "ipa": "/ˈɜːli/",
+     "en": "စောစော"
+    },
+    {
+     "fr": "late",
+     "ipa": "/leɪt/",
+     "en": "နောက်ကျ"
+    }
+   ]
+  },
+  {
+   "title": "Greetings for the time of day",
+   "notes": [
+    "Good evening is hello. Good night is goodbye, or what you say at bedtime."
+   ],
+   "words": [
+    {
+     "fr": "Good morning!",
+     "en": ""
+    },
+    {
+     "fr": "Good afternoon!",
+     "en": ""
+    },
+    {
+     "fr": "Good evening!",
+     "en": ""
+    },
+    {
+     "fr": "Good night!",
+     "en": ""
+    }
+   ]
+  }
+ ]
+}

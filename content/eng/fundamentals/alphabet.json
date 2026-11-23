@@ -1,0 +1,154 @@
+{
+ "title": "The Alphabet",
+ "subtitle": "The 26 letters",
+ "level": "a1",
+ "topic": "Alphabet",
+ "order": 10,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/alphabet/",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "The letters",
+   "sub": "A to Z",
+   "notes": [
+    "A, E, I, O and U are the vowels. The other letters are consonants.",
+    "G is /dʒiː/ and J is /dʒeɪ/. Learners often mix them up.",
+    "Z is zed in British English and zee in American English."
+   ],
+   "words": [
+    {
+     "fr": "A",
+     "ipa": "/eɪ/",
+     "en": ""
+    },
+    {
+     "fr": "B",
+     "ipa": "/biː/",
+     "en": ""
+    },
+    {
+     "fr": "C",
+     "ipa": "/siː/",
+     "en": ""
+    },
+    {
+     "fr": "D",
+     "ipa": "/diː/",
+     "en": ""
+    },
+    {
+     "fr": "E",
+     "ipa": "/iː/",
+     "en": ""
+    },
+    {
+     "fr": "F",
+     "ipa": "/ef/",
+     "en": ""
+    },
+    {
+     "fr": "G",
+     "ipa": "/dʒiː/",
+     "en": ""
+    },
+    {
+     "fr": "H",
+     "ipa": "/eɪtʃ/",
+     "en": ""
+    },
+    {
+     "fr": "I",
+     "ipa": "/aɪ/",
+     "en": ""
+    },
+    {
+     "fr": "J",
+     "ipa": "/dʒeɪ/",
+     "en": ""
+    },
+    {
+     "fr": "K",
+     "ipa": "/keɪ/",
+     "en": ""
+    },
+    {
+     "fr": "L",
+     "ipa": "/el/",
+     "en": ""
+    },
+    {
+     "fr": "M",
+     "ipa": "/em/",
+     "en": ""
+    },
+    {
+     "fr": "N",
+     "ipa": "/en/",
+     "en": ""
+    },
+    {
+     "fr": "O",
+     "ipa": "/əʊ/",
+     "en": ""
+    },
+    {
+     "fr": "P",
+     "ipa": "/piː/",
+     "en": ""
+    },
+    {
+     "fr": "Q",
+     "ipa": "/kjuː/",
+     "en": ""
+    },
+    {
+     "fr": "R",
+     "ipa": "/ɑː/",
+     "en": ""
+    },
+    {
+     "fr": "S",
+     "ipa": "/es/",
+     "en": ""
+    },
+    {
+     "fr": "T",
+     "ipa": "/tiː/",
+     "en": ""
+    },
+    {
+     "fr": "U",
+     "ipa": "/juː/",
+     "en": ""
+    },
+    {
+     "fr": "V",
+     "ipa": "/viː/",
+     "en": ""
+    },
+    {
+     "fr": "W",
+     "ipa": "/ˈdʌbəl juː/",
+     "en": ""
+    },
+    {
+     "fr": "X",
+     "ipa": "/eks/",
+     "en": ""
+    },
+    {
+     "fr": "Y",
+     "ipa": "/waɪ/",
+     "en": ""
+    },
+    {
+     "fr": "Z",
+     "ipa": "/zed/",
+     "en": ""
+    }
+   ]
+  }
+ ]
+}

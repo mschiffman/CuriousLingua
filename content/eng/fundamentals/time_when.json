@@ -1,0 +1,91 @@
+{
+ "title": "What Time Do You…?",
+ "subtitle": "Saying when things happen",
+ "level": "a1",
+ "topic": "Time",
+ "order": 40.3,
+ "type": "words",
+ "review": "Written by Claude, modelled on the French fundamentals. Check the IPA (British) and any Burmese before using it with learners. No audio yet: record with `audio.py words`.",
+ "glossary_dir": "eng/fundamentals/time/",
+ "listen_pick": "fr",
+ "groups": [
+  {
+   "title": "Asking when",
+   "words": [
+    {
+     "fr": "What time do you get up?",
+     "en": ""
+    },
+    {
+     "fr": "What time does school start?",
+     "en": ""
+    },
+    {
+     "fr": "What time is lunch?",
+     "en": ""
+    },
+    {
+     "fr": "When do you go to bed?",
+     "en": ""
+    }
+   ]
+  },
+  {
+   "title": "At, about, from, to",
+   "notes": [
+    "Use at before a time: at seven o'clock, at half past eight."
+   ],
+   "words": [
+    {
+     "fr": "at seven o'clock",
+     "en": "7:00"
+    },
+    {
+     "fr": "at half past eight",
+     "en": "8:30"
+    },
+    {
+     "fr": "at about four o'clock",
+     "en": "≈ 4:00"
+    },
+    {
+     "fr": "from nine to three",
+     "en": "9:00 – 3:00"
+    },
+    {
+     "fr": "before six o'clock",
+     "en": "< 6:00"
+    },
+    {
+     "fr": "after school",
+     "en": ""
+    }
+   ]
+  },
+  {
+   "title": "My day",
+   "words": [
+    {
+     "fr": "I get up at six o'clock.",
+     "en": ""
+    },
+    {
+     "fr": "School starts at eight.",
+     "en": ""
+    },
+    {
+     "fr": "I have lunch at twelve.",
+     "en": ""
+    },
+    {
+     "fr": "I go home at half past three.",
+     "en": ""
+    },
+    {
+     "fr": "I go to bed at nine o'clock.",
+     "en": ""
+    }
+   ]
+  }
+ ]
+}
