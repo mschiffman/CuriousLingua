@@ -1200,6 +1200,21 @@
   "quiz": false
  },
  {
+  "id": "fr/expressions/not_understanding",
+  "url": "fr/expressions/not_understanding.html",
+  "course": "fr",
+  "strand": "expressions",
+  "level": "b1",
+  "level_provisional": true,
+  "topic": "Conversational",
+  "type": "cards",
+  "title": "Not Understanding",
+  "clips": 29,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/expressions/offers",
   "url": "fr/expressions/offers.html",
   "course": "fr",
