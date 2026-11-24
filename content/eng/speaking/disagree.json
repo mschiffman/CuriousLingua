@@ -1,0 +1,248 @@
+{
+ "title": "I Disagree!",
+ "subtitle": "Four arguments, from polite to firm",
+ "level": "a2",
+ "topic": "Situations",
+ "type": "dialogue",
+ "review": "Text by the author; notes and questions written by Claude: check them. No Burmese yet.",
+ "intro": "The heating, a suitcase with six pairs of shoes, some missing chocolate and pineapple on pizza: four small arguments between Emma and Lucas. Listen for how the disagreement goes from polite to firm, and how they end it.",
+ "aud_dir": "eng/speaking/disagree/",
+ "aud_ext": "mp3?v=2611241824",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/agree_disagree"
+ ],
+ "sections": [
+  {
+   "title": "The Heating",
+   "lines": [
+    {
+     "who": "E",
+     "text": "It's cold in here, isn't it?"
+    },
+    {
+     "who": "L",
+     "text": "I wouldn't say that. It's seventy-two degrees.",
+     "note": "I wouldn't say that: a polite way to disagree. Seventy-two degrees Fahrenheit is about 22°C."
+    },
+    {
+     "who": "E",
+     "text": "I don't quite agree. I'm wearing three sweaters.",
+     "note": "I don't quite agree = I agree only partly."
+    },
+    {
+     "who": "L",
+     "text": "I see what you mean, but heating is expensive."
+    },
+    {
+     "who": "E",
+     "text": "That's debatable. Getting sick isn't cheap either.",
+     "note": "That's debatable = I'm not sure that's true."
+    },
+    {
+     "who": "L",
+     "text": "With all due respect, that third sweater is mine.",
+     "note": "With all due respect is formal: it comes before a firm disagreement. Here it is a joke."
+    },
+    {
+     "who": "E",
+     "text": "It was just lying on the couch."
+    },
+    {
+     "who": "L",
+     "text": "I was wearing it."
+    }
+   ]
+  },
+  {
+   "title": "The Suitcase",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Six pairs of shoes? We're only going away for two days."
+    },
+    {
+     "who": "E",
+     "text": "Not exactly. Two and a half days.",
+     "note": "Not exactly corrects a detail."
+    },
+    {
+     "who": "L",
+     "text": "Are you going to wear all of them?"
+    },
+    {
+     "who": "E",
+     "text": "I don't think so.",
+     "note": "I don't think so: a soft no."
+    },
+    {
+     "who": "L",
+     "text": "Then you don't really need them all."
+    },
+    {
+     "who": "E",
+     "text": "Yeah, but I don't know which ones I'll wear yet.",
+     "note": "Yeah, but… accepts the point, then objects."
+    },
+    {
+     "who": "L",
+     "text": "I get it, but the suitcase won't close.",
+     "note": "I get it = I understand. Won't close: it refuses to close."
+    },
+    {
+     "who": "E",
+     "text": "I beg to differ. Sit on it.",
+     "note": "I beg to differ: formal and old-fashioned for 'I disagree'. Used here for fun."
+    }
+   ]
+  },
+  {
+   "title": "The Chocolate",
+   "lines": [
+    {
+     "who": "E",
+     "text": "You're the one who finished the chocolate.",
+     "note": "You're the one who… = it was you."
+    },
+    {
+     "who": "L",
+     "text": "Not at all!",
+     "note": "Not at all!: a strong no."
+    },
+    {
+     "who": "E",
+     "text": "There were three squares left last night."
+    },
+    {
+     "who": "L",
+     "text": "That's not true. There were two."
+    },
+    {
+     "who": "E",
+     "text": "So you counted them."
+    },
+    {
+     "who": "L",
+     "text": "That's beside the point.",
+     "note": "Beside the point: it does not answer the question."
+    },
+    {
+     "who": "E",
+     "text": "You've got chocolate on your chin."
+    },
+    {
+     "who": "L",
+     "text": "You're wrong. It's… coffee.",
+     "note": "You're wrong is direct. Use it with people you know well."
+    },
+    {
+     "who": "E",
+     "text": "I don't think so. Coffee doesn't smell like hazelnuts.",
+     "note": "Smell like: have the smell of."
+    }
+   ]
+  },
+  {
+   "title": "The Pizza",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Pineapple on pizza is a crime."
+    },
+    {
+     "who": "E",
+     "text": "To each their own. I love it.",
+     "note": "To each their own: people like different things."
+    },
+    {
+     "who": "L",
+     "text": "It's a fruit! On a pizza!"
+    },
+    {
+     "who": "E",
+     "text": "Tomatoes are fruit too."
+    },
+    {
+     "who": "L",
+     "text": "You've lost me there.",
+     "note": "You've lost me there = I can't follow your argument."
+    },
+    {
+     "who": "E",
+     "text": "Well, we'll just have to agree to disagree.",
+     "note": "Agree to disagree: accept that we think differently, and stop arguing."
+    },
+    {
+     "who": "L",
+     "text": "You're right. Let's not argue about it. Can I try some?"
+    },
+    {
+     "who": "E",
+     "text": "The pineapple?"
+    },
+    {
+     "who": "L",
+     "text": "Just to make sure.",
+     "note": "Just to make sure = just to check."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Polite: I wouldn't say that, I don't quite agree, That's debatable.",
+  "Yeah, but… and I get it, but… accept the point first, then give the objection.",
+  "Firm: Not at all!, That's not true, You're wrong. They are direct: use them with friends and family.",
+  "That's beside the point rejects an argument that does not answer the question.",
+  "To end an argument: To each their own, We'll have to agree to disagree, Let's not argue about it.",
+  "I beg to differ and With all due respect are formal. Friends use them as a joke."
+ ],
+ "questions": [
+  {
+   "q": "Lucas politely disagrees that it is cold. What does he say?",
+   "options": [
+    "That's not true.",
+    "I wouldn't say that.",
+    "Not at all!"
+   ],
+   "answer": 1,
+   "why": "I wouldn't say that is a polite, gentle way to disagree."
+  },
+  {
+   "q": "Emma accepts Lucas's point about the shoes, then objects. How does she begin?",
+   "options": [
+    "Yeah, but…",
+    "To each their own.",
+    "You're wrong."
+   ],
+   "answer": 0,
+   "why": "Yeah, but… accepts the point, then adds the objection."
+  },
+  {
+   "q": "Lucas says counting the chocolate does not matter. What does he say?",
+   "options": [
+    "I don't think so.",
+    "That's beside the point.",
+    "That's debatable."
+   ],
+   "answer": 1,
+   "why": "That's beside the point = that does not answer the question."
+  },
+  {
+   "q": "Emma ends the pizza argument without changing her mind. What does she say?",
+   "options": [
+    "We'll just have to agree to disagree.",
+    "You're right.",
+    "I get it, but…"
+   ],
+   "answer": 0,
+   "why": "Agree to disagree = accept that we think differently, and stop arguing."
+  }
+ ]
+}

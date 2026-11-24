@@ -1,0 +1,241 @@
+{
+ "title": "I Mean…",
+ "subtitle": "Four ways to explain yourself",
+ "level": "b1",
+ "topic": "Situations",
+ "type": "dialogue",
+ "review": "Text by the author; notes and questions written by Claude: check them. No Burmese yet.",
+ "intro": "A strange cake, a sweater that got smaller, a plant that is 'resting' and a couch with a spring sticking out: four short scenes between Emma and Lucas. Listen for the little phrases they use to correct themselves, explain again and buy time.",
+ "aud_dir": "eng/speaking/i_mean/",
+ "aud_ext": "mp3?v=2611241823",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/i_mean"
+ ],
+ "sections": [
+  {
+   "title": "The Cake",
+   "lines": [
+    {
+     "who": "E",
+     "text": "So, what do you think of my cake?"
+    },
+    {
+     "who": "L",
+     "text": "It's… different. I mean, original.",
+     "note": "Different is a polite way to avoid saying 'bad'. I mean: he changes his word."
+    },
+    {
+     "who": "E",
+     "text": "Original?"
+    },
+    {
+     "who": "L",
+     "text": "Yeah. Or rather… unexpected.",
+     "note": "Or rather gives a more exact word."
+    },
+    {
+     "who": "E",
+     "text": "You don't like it."
+    },
+    {
+     "who": "L",
+     "text": "No, no, I do! Actually, what's in it?",
+     "note": "No, no, I do! = I do like it. Actually moves to the real question."
+    },
+    {
+     "who": "E",
+     "text": "Chocolate and zucchini.",
+     "note": "Zucchini is American English. British English: courgette."
+    },
+    {
+     "who": "L",
+     "text": "Oh. I mean… yum."
+    }
+   ]
+  },
+  {
+   "title": "The Sweater",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Emma, I did the laundry.",
+     "note": "Did the laundry: washed the clothes."
+    },
+    {
+     "who": "E",
+     "text": "Oh, that's sweet of you. Thanks.",
+     "note": "That's sweet of you = that's kind of you."
+    },
+    {
+     "who": "L",
+     "text": "Your blue sweater has… changed a little."
+    },
+    {
+     "who": "E",
+     "text": "What do you mean?",
+     "note": "What do you mean? asks him to explain."
+    },
+    {
+     "who": "L",
+     "text": "Well, it's a little more… compact."
+    },
+    {
+     "who": "E",
+     "text": "In other words, you shrank it.",
+     "note": "In other words: she says plainly what he is hiding. Shrank is the past of shrink."
+    },
+    {
+     "who": "L",
+     "text": "What I'm trying to say is, it'll fit the cat perfectly.",
+     "note": "What I'm trying to say is…: he tries again, another way."
+    },
+    {
+     "who": "E",
+     "text": "Lucas!"
+    }
+   ]
+  },
+  {
+   "title": "The Plant",
+   "lines": [
+    {
+     "who": "E",
+     "text": "I'm home! How's my plant doing?",
+     "note": "I'm home! is what you say when you come in."
+    },
+    {
+     "who": "L",
+     "text": "Well… how do I put this?",
+     "note": "How do I put this? He is looking for gentle words."
+    },
+    {
+     "who": "E",
+     "text": "Did you water it?"
+    },
+    {
+     "who": "L",
+     "text": "Let's just say I thought about it.",
+     "note": "Let's just say… softens the truth."
+    },
+    {
+     "who": "E",
+     "text": "Lucas. Is it dead?"
+    },
+    {
+     "who": "L",
+     "text": "I don't know how to put this… It's resting."
+    },
+    {
+     "who": "E",
+     "text": "It's resting?"
+    },
+    {
+     "who": "L",
+     "text": "Sort of. Forever.",
+     "note": "Sort of: a careful yes."
+    }
+   ]
+  },
+  {
+   "title": "The Couch",
+   "lines": [
+    {
+     "who": "E",
+     "text": "We need a new couch.",
+     "note": "Couch is American English. British English: sofa."
+    },
+    {
+     "who": "L",
+     "text": "Why? This one's perfectly fine."
+    },
+    {
+     "who": "E",
+     "text": "It's, like, twenty years old.",
+     "note": "Like is a filler here. Informal: do not write it."
+    },
+    {
+     "who": "L",
+     "text": "Yeah, but it's comfortable.",
+     "note": "Yeah, but… accepts the point, then objects."
+    },
+    {
+     "who": "E",
+     "text": "There's a spring sticking out! I mean, you can't even sit on it anymore.",
+     "note": "Sticking out: coming out of the surface. I mean adds force here."
+    },
+    {
+     "who": "L",
+     "text": "Still, it's got character.",
+     "note": "Still = even so."
+    },
+    {
+     "who": "E",
+     "text": "Do you see what I'm getting at or not?",
+     "note": "What I'm getting at = what I mean."
+    },
+    {
+     "who": "L",
+     "text": "All I see is how much a new couch costs."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "I mean corrects or sharpens what you just said. Or rather gives a more exact word.",
+  "Actually gives the real fact, or the real question. It does not mean 'now'.",
+  "In other words says it again plainly. What I'm trying to say is… tries again when the first attempt failed.",
+  "How do I put this? and Let's just say… buy time before bad news.",
+  "Sort of is a careful yes: partly true.",
+  "Like, well and still are spoken words. Do not use like this way in writing."
+ ],
+ "questions": [
+  {
+   "q": "Lucas says the cake is 'different', then changes his word. Which phrase does he use?",
+   "options": [
+    "I mean",
+    "In other words",
+    "Still"
+   ],
+   "answer": 0,
+   "why": "I mean corrects what you just said: It's… different. I mean, original."
+  },
+  {
+   "q": "Emma says plainly what Lucas did to her sweater. How does she begin?",
+   "options": [
+    "How do I put this?",
+    "In other words,",
+    "Sort of."
+   ],
+   "answer": 1,
+   "why": "In other words says the same thing in plainer words: you shrank it."
+  },
+  {
+   "q": "Is the plant dead? Lucas gives a careful yes. What does he say?",
+   "options": [
+    "Actually.",
+    "Sort of.",
+    "I mean."
+   ],
+   "answer": 1,
+   "why": "Sort of = partly true. A careful yes."
+  },
+  {
+   "q": "The couch is old, but Lucas adds a point in its favour. What does he say?",
+   "options": [
+    "Yeah, but it's comfortable.",
+    "It's, like, twenty years old.",
+    "We need a new couch."
+   ],
+   "answer": 0,
+   "why": "Yeah, but… accepts the point, then gives the objection."
+  }
+ ]
+}

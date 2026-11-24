@@ -1,0 +1,347 @@
+{
+ "title": "Pas d'accord !",
+ "subtitle": "Four arguments, from polite to firm",
+ "level": "a2",
+ "topic": "Situations",
+ "type": "dialogue",
+ "register": "casual (tu), a couple at home",
+ "review": "Written by Claude. Check the French, the English lines, the notes and the questions.",
+ "intro": "The heating, a suitcase with six pairs of shoes, some missing chocolate and pineapple on pizza: four small arguments between Emma and Lucas. Listen for how the disagreement goes from polite to firm, and how they end it.",
+ "aud_dir": "fr/speaking/pas_daccord/",
+ "aud_ext": "mp3?v=2611241824",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "q3NYiGPH7m2zMHydaJVv",
+  "L": "fUzMXGEwYWmfjFB2ZfeA"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "fr/expressions/disagree"
+ ],
+ "sections": [
+  {
+   "title": "Le chauffage",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Il fait froid ici, non ?",
+     "tr": {
+      "en": "It's cold in here, isn't it?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Je dirais pas ça. Il fait vingt-deux.",
+     "tr": {
+      "en": "I wouldn't say that. It's twenty-two degrees."
+     },
+     "note": "= je ne dirais pas ça. Twenty-two degrees Celsius is about 72°F."
+    },
+    {
+     "who": "E",
+     "text": "Je suis pas tout à fait d'accord. Je porte trois pulls.",
+     "tr": {
+      "en": "I don't quite agree. I'm wearing three jumpers."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Je vois ce que tu veux dire, mais le chauffage coûte cher.",
+     "tr": {
+      "en": "I see what you mean, but heating is expensive."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Ça se discute. Un rhume aussi, ça coûte cher.",
+     "tr": {
+      "en": "That's debatable. A cold is expensive too."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Avec tout le respect que je te dois, le troisième pull, c'est le mien.",
+     "tr": {
+      "en": "With all due respect, the third jumper is mine."
+     },
+     "note": "A formal phrase, normally for a boss or an elder. Here it is comically pompous."
+    },
+    {
+     "who": "E",
+     "text": "Il traînait sur le canapé.",
+     "tr": {
+      "en": "It was lying around on the sofa."
+     },
+     "note": "Traîner: to lie around, to be left out."
+    },
+    {
+     "who": "L",
+     "text": "J'étais dedans.",
+     "tr": {
+      "en": "I was in it."
+     },
+     "note": "Dedans: inside it."
+    }
+   ]
+  },
+  {
+   "title": "La valise",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Six paires de chaussures ? On part deux jours.",
+     "tr": {
+      "en": "Six pairs of shoes? We're going away for two days."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Pas exactement. Deux jours et demi.",
+     "tr": {
+      "en": "Not exactly. Two and a half days."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Tu vas toutes les mettre ?",
+     "tr": {
+      "en": "Are you going to wear them all?"
+     },
+     "note": "Mettre: to put on, to wear."
+    },
+    {
+     "who": "E",
+     "text": "Je pense pas.",
+     "tr": {
+      "en": "I don't think so."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Alors t'en as pas vraiment besoin.",
+     "tr": {
+      "en": "Then you don't really need them."
+     },
+     "note": "Avoir besoin de becomes en: t'en as pas besoin."
+    },
+    {
+     "who": "E",
+     "text": "Oui, mais je sais pas encore lesquelles.",
+     "tr": {
+      "en": "Yes, but I don't know which ones yet."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Je comprends, mais la valise ferme plus.",
+     "tr": {
+      "en": "I understand, but the suitcase won't close any more."
+     },
+     "note": "Ferme plus = ne ferme plus: 'no longer closes', not 'closes more'."
+    },
+    {
+     "who": "E",
+     "text": "Je suis pas de ton avis. Assieds-toi dessus.",
+     "tr": {
+      "en": "I don't see it that way. Sit on it."
+     },
+     "note": "Dessus: on it."
+    }
+   ]
+  },
+  {
+   "title": "Le chocolat",
+   "lines": [
+    {
+     "who": "E",
+     "text": "C'est toi qui as fini le chocolat.",
+     "tr": {
+      "en": "You're the one who finished the chocolate."
+     },
+     "note": "As, not a: the verb agrees with toi."
+    },
+    {
+     "who": "L",
+     "text": "Pas du tout !",
+     "tr": {
+      "en": "Not at all!"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Il en restait trois carrés hier soir.",
+     "tr": {
+      "en": "There were three squares left last night."
+     }
+    },
+    {
+     "who": "L",
+     "text": "C'est faux. Il en restait deux.",
+     "tr": {
+      "en": "That's not true. There were two left."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Donc tu les as comptés.",
+     "tr": {
+      "en": "So you counted them."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Ça n'a rien à voir.",
+     "tr": {
+      "en": "That has nothing to do with it."
+     }
+    },
+    {
+     "who": "E",
+     "text": "T'as du chocolat sur le menton.",
+     "tr": {
+      "en": "You've got chocolate on your chin."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Tu te trompes. C'est… du café.",
+     "tr": {
+      "en": "You're wrong. It's… coffee."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Je suis pas d'accord. Le café, ça sent pas la noisette.",
+     "tr": {
+      "en": "I disagree. Coffee doesn't smell of hazelnut."
+     },
+     "note": "Sentir + a noun: to smell of."
+    }
+   ]
+  },
+  {
+   "title": "La pizza",
+   "lines": [
+    {
+     "who": "L",
+     "text": "L'ananas sur la pizza, c'est un crime.",
+     "tr": {
+      "en": "Pineapple on pizza is a crime."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Chacun son avis. Moi, j'adore.",
+     "tr": {
+      "en": "Each to their own. I love it."
+     }
+    },
+    {
+     "who": "L",
+     "text": "C'est un fruit ! Sur une pizza !",
+     "tr": {
+      "en": "It's a fruit! On a pizza!"
+     }
+    },
+    {
+     "who": "E",
+     "text": "La tomate aussi, c'est un fruit.",
+     "tr": {
+      "en": "Tomato is a fruit too."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Là, je te suis pas.",
+     "tr": {
+      "en": "I'm not with you there."
+     },
+     "note": "Suivre: to follow. Je te suis pas = je ne te suis pas."
+    },
+    {
+     "who": "E",
+     "text": "Bon. On est pas d'accord, c'est tout.",
+     "tr": {
+      "en": "Right. We just don't agree, that's all."
+     }
+    },
+    {
+     "who": "L",
+     "text": "T'as raison, on va pas se disputer pour ça. Je peux goûter ?",
+     "tr": {
+      "en": "You're right, let's not fight over it. Can I have a taste?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "L'ananas ?",
+     "tr": {
+      "en": "The pineapple?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Juste pour vérifier.",
+     "tr": {
+      "en": "Just to check."
+     }
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Polite: je dirais pas ça, je suis pas tout à fait d'accord, ça se discute. They keep the discussion friendly.",
+  "Oui, mais… and je comprends, mais… grant the point, then object.",
+  "Firm: pas du tout, c'est faux, tu te trompes, je suis pas d'accord. Use them with people you know well.",
+  "Ça n'a rien à voir rejects an argument as beside the point.",
+  "To end it: chacun son avis; on est pas d'accord, c'est tout; on va pas se disputer pour ça.",
+  "Spoken French drops ne: je dirais pas, je pense pas, ferme plus. In writing: je ne dirais pas, je ne pense pas, ne ferme plus."
+ ],
+ "questions": [
+  {
+   "q": "Lucas disagrees politely that it is cold. What does he say?",
+   "options": [
+    "C'est faux.",
+    "Je dirais pas ça.",
+    "Pas du tout !"
+   ],
+   "answer": 1,
+   "why": "Je dirais pas ça = 'I wouldn't say that': a gentle correction."
+  },
+  {
+   "q": "Emma grants Lucas's point about the shoes, then objects. How does she begin?",
+   "options": [
+    "Oui, mais…",
+    "Chacun son avis.",
+    "Tu te trompes."
+   ],
+   "answer": 0,
+   "why": "Oui, mais… accepts the point and adds the objection."
+  },
+  {
+   "q": "Lucas says that counting the chocolate is beside the point. What does he say?",
+   "options": [
+    "Je pense pas.",
+    "Ça n'a rien à voir.",
+    "Ça se discute."
+   ],
+   "answer": 1,
+   "why": "Ça n'a rien à voir = 'that has nothing to do with it'."
+  },
+  {
+   "q": "Emma ends the pizza argument without giving in. What does she say?",
+   "options": [
+    "On est pas d'accord, c'est tout.",
+    "T'as raison.",
+    "Je comprends, mais…"
+   ],
+   "answer": 0,
+   "why": "On est pas d'accord, c'est tout = 'we just don't agree, that's all'."
+  }
+ ]
+}

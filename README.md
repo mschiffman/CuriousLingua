@@ -21,6 +21,7 @@ Courses: `fr`, `eng`, `jap`, `kor`. Strands, level names and course texts are in
 | `preview.bat` | Rebuilds and opens the site at http://localhost:8000 |
 | `1_images.bat` | Same as your `all_downloads_to_ytstory.bat`: moves the numbered PNGs from Downloads to `G:\My Drive\_YOUTUBE\<folder>`, converts them at 80% size with Squoosh settings (MozJPEG, quality 75) into `img\ytstory\<name>` here |
 | `2_audio.bat` | Menu: ElevenLabs balance, lessons needing clips, make one or all, new takes, Whisper check, upload to R2 |
+| `record_pending.bat` | Every card page and dialogue still waiting for audio, in one go: lists them, asks, records the missing clips, waits for you, uploads |
 | `3_offline.bat` | Builds the single-file offline lessons in `<course>\single\`. A course's `offline_url` in `site.json` is the shared folder its pages point to. They are shared on the Google Drive shared drive; the website offers no downloads |
 | `4_check.bat` | Status report: counts per level and strand, audio to record, missing pictures, things to review |
 | `5_publish.bat` | Rebuilds every page; commits and pushes when the folder is a git repository |
@@ -77,6 +78,8 @@ A Korean line: `{ "who": "A", "rom": "Annyeonghaseyo.", "hangul": "안녕하세�
 
 Copy an existing file in the same strand to start a new lesson.
 
+A Japanese or Korean expression card (`cards`) has five parts, like the French and English ones: `["Kore wa ikura desu ka.", "How much is this?", "これはいくらですか。\n\nKore: this (near me).", "Sumimasen, kono kasa wa ikura desu ka.\nすみません、この傘はいくらですか。", "Excuse me, how much is this umbrella?"]`. The card shows the romanization and the English; the note opens with the phrase in Japanese script or Hangul; the example gives the romanization with the script under it. **The voice reads the first line of the note** when it is in Japanese script or Hangul, never the romanization, so keep that line first.
+
 ## Audio wire
 
 `aud_dir` is the folder on R2 **and** under `media\` (`"fr/speaking/boulangerie/"`). Clips are `01.mp3`, `02.mp3` … in reading order. While `aud_ext` is `"mp3?v=pending"` the Play buttons are grey. `2_audio.bat` makes the clips, uploads them and replaces `pending` with a dated tag.
@@ -94,7 +97,7 @@ python -E tools\audio.py chunks fr/pronunciation/shadow_conv43      finds every 
 
 Split or join chunks in the drafted file as you like (each keeps the `clip` number of its line; the words must be the line's words), then run `chunks` again. It uses no ElevenLabs characters: every take is saved with the time of each character (`NN.json` beside the raw take), and clips made before that are timed by Whisper. A chunk it cannot find plays its whole clip and is listed as `NO TIME`.
 
-Voices and loudness per course: `assets\data\voices.json`. A lesson may use another ElevenLabs model than its course with `"voice_model": "eleven_v4"`. Korean uses ElevenLabs `eleven_v4` with four voices: Ko-Jisoo (the course voice) and Ko-Nam for women, Ko-SunSoo and Ko-Kim for men. Each dialogue gives its speakers one woman and one man (`"voice": {"A": ..., "B": ...}`); each sound lesson gives its groups of words a woman and a man in turn (`"voices"`). Whisper does not compare Korean automatically: it writes numbers as digits and hears lone syllables as English (국 as *cook*), so read its "heard" column.
+Voices and loudness per course: `assets\data\voices.json`. A dialogue gives each speaker a voice with `"voice": { "E": "<voice id>", "L": "<voice id>" }`. A lesson may use another ElevenLabs model than its course with `"voice_model": "eleven_v4"`. Korean uses ElevenLabs `eleven_v4` with four voices: Ko-Jisoo (the course voice) and Ko-Nam for women, Ko-SunSoo and Ko-Kim for men. Each dialogue gives its speakers one woman and one man (`"voice": {"A": ..., "B": ...}`); each sound lesson gives its groups of words a woman and a man in turn (`"voices"`). Whisper does not compare Korean automatically: it writes numbers as digits and hears lone syllables as English (국 as *cook*), so read its "heard" column.
 
 ## Pictures
 

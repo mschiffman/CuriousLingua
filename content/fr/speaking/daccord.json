@@ -1,0 +1,364 @@
+{
+ "title": "D'accord !",
+ "subtitle": "Four ways to agree",
+ "level": "a2",
+ "topic": "Situations",
+ "type": "dialogue",
+ "register": "casual (tu), a couple at home",
+ "review": "Written by Claude. Check the French, the English lines, the notes and the questions.",
+ "intro": "A deal about the dishes, a haircut nobody noticed, a shelf built without the instructions and a morning run that turns into croissants: four short scenes between Emma and Lucas. Listen for how they say yes, and for the moments when yes means 'I don't believe you'.",
+ "aud_dir": "fr/speaking/daccord/",
+ "aud_ext": "mp3?v=2611241823",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "q3NYiGPH7m2zMHydaJVv",
+  "L": "fUzMXGEwYWmfjFB2ZfeA"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "fr/expressions/agree"
+ ],
+ "sections": [
+  {
+   "title": "La vaisselle",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Ce soir, je cuisine et tu fais la vaisselle. D'accord ?",
+     "tr": {
+      "en": "Tonight, I cook and you do the washing-up. OK?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "D'accord.",
+     "tr": {
+      "en": "OK."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Et demain, on échange.",
+     "tr": {
+      "en": "And tomorrow, we swap."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Ça marche.",
+     "tr": {
+      "en": "Deal."
+     },
+     "note": "Literally 'that works': a casual yes to an arrangement."
+    },
+    {
+     "who": "E",
+     "text": "Donc demain, c'est toi qui cuisines.",
+     "tr": {
+      "en": "So tomorrow, you're the one cooking."
+     },
+     "note": "Cuisines takes -s: the verb agrees with toi."
+    },
+    {
+     "who": "L",
+     "text": "On est d'accord. Je commande des pizzas.",
+     "tr": {
+      "en": "Agreed. I'm ordering pizzas."
+     }
+    },
+    {
+     "who": "E",
+     "text": "C'est de la triche !",
+     "tr": {
+      "en": "That's cheating!"
+     },
+     "note": "Tricher: to cheat. La triche: cheating."
+    },
+    {
+     "who": "L",
+     "text": "Peut-être. Mais y aura pas de vaisselle.",
+     "tr": {
+      "en": "Maybe. But there won't be any washing-up."
+     },
+     "note": "Y aura pas = il n'y aura pas."
+    },
+    {
+     "who": "E",
+     "text": "… Bon. Je suis d'accord.",
+     "tr": {
+      "en": "… Fine. I agree."
+     }
+    }
+   ]
+  },
+  {
+   "title": "La nouvelle coupe",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Tu remarques rien ?",
+     "tr": {
+      "en": "Don't you notice anything?"
+     },
+     "note": "= tu ne remarques rien ?"
+    },
+    {
+     "who": "L",
+     "text": "Si, bien sûr !",
+     "tr": {
+      "en": "Yes, of course!"
+     },
+     "note": "Si, not oui, because the question was negative."
+    },
+    {
+     "who": "E",
+     "text": "Ça me va bien, non ?",
+     "tr": {
+      "en": "It suits me, doesn't it?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Absolument !",
+     "tr": {
+      "en": "Absolutely!"
+     }
+    },
+    {
+     "who": "E",
+     "text": "C'est plus moderne.",
+     "tr": {
+      "en": "It's more modern."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Tout à fait. Exactement ce que j'allais dire.",
+     "tr": {
+      "en": "Quite. Exactly what I was going to say."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Lucas. J'ai changé quoi ?",
+     "tr": {
+      "en": "Lucas. What have I changed?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Euh… tes lunettes ?",
+     "tr": {
+      "en": "Er… your glasses?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Je porte pas de lunettes.",
+     "tr": {
+      "en": "I don't wear glasses."
+     }
+    }
+   ]
+  },
+  {
+   "title": "L'étagère",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Tu devrais lire la notice.",
+     "tr": {
+      "en": "You should read the instructions."
+     },
+     "note": "La notice: the instruction leaflet. A false friend: not 'a notice'."
+    },
+    {
+     "who": "L",
+     "text": "Pas besoin, c'est facile.",
+     "tr": {
+      "en": "No need, it's easy."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Il te reste six vis.",
+     "tr": {
+      "en": "You have six screws left."
+     },
+     "note": "Il te reste…: you have … left."
+    },
+    {
+     "who": "L",
+     "text": "C'est vrai. Elles sont en trop.",
+     "tr": {
+      "en": "True. They're spares."
+     },
+     "note": "En trop: surplus, more than needed."
+    },
+    {
+     "who": "E",
+     "text": "Et l'étagère penche.",
+     "tr": {
+      "en": "And the shelf is leaning."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Justement, c'est du design.",
+     "tr": {
+      "en": "Precisely. It's a design feature."
+     },
+     "note": "Justement turns her objection into his argument."
+    },
+    {
+     "who": "E",
+     "text": "C'est ça, oui…",
+     "tr": {
+      "en": "Yeah, right…"
+     },
+     "note": "Drawn out and flat, c'est ça is sarcastic."
+    },
+    {
+     "who": "L",
+     "text": "Bon, t'as raison. Elle est où, la notice ?",
+     "tr": {
+      "en": "All right, you're right. Where are the instructions?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Sous l'étagère. Pour la caler.",
+     "tr": {
+      "en": "Under the shelf. To keep it level."
+     },
+     "note": "Caler: to wedge something so it stops wobbling."
+    }
+   ]
+  },
+  {
+   "title": "Le footing",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Demain, je me lève à six heures pour aller courir.",
+     "tr": {
+      "en": "Tomorrow, I'm getting up at six to go for a run."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Si tu le dis…",
+     "tr": {
+      "en": "If you say so…"
+     },
+     "note": "She goes along with it, and makes clear she doesn't believe it."
+    },
+    {
+     "who": "L",
+     "text": "Sérieux ! J'ai mis le réveil. Tu viens ?",
+     "tr": {
+      "en": "Seriously! I've set the alarm. Are you coming?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Pourquoi pas.",
+     "tr": {
+      "en": "Why not."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Et après, croissants ?",
+     "tr": {
+      "en": "And croissants afterwards?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Carrément !",
+     "tr": {
+      "en": "Definitely!"
+     }
+    },
+    {
+     "who": "L",
+     "text": "En fait, on pourrait commencer par les croissants.",
+     "tr": {
+      "en": "Actually, we could start with the croissants."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Grave. Et oublier le footing.",
+     "tr": {
+      "en": "Totally. And forget the run."
+     },
+     "note": "Grave: slang for strong agreement. Le footing: a jog."
+    },
+    {
+     "who": "L",
+     "text": "C'est clair.",
+     "tr": {
+      "en": "For sure."
+     }
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "D'accord says yes to a plan. Je suis d'accord agrees with an opinion. On est d'accord seals it.",
+  "Ça marche, carrément, grave and c'est clair are casual. With a boss, say tout à fait or absolument.",
+  "Si replaces oui after a negative question: Tu remarques rien ? — Si !",
+  "Tone can flip the meaning: c'est ça, oui… and si tu le dis… say 'I don't believe you'.",
+  "T'as raison gives in. Justement does the opposite: it uses the other person's point against them.",
+  "Spoken French drops ne: tu remarques rien, je porte pas, y aura pas."
+ ],
+ "questions": [
+  {
+   "q": "Emma proposes to swap chores tomorrow. Lucas accepts casually. What does he say?",
+   "options": [
+    "Ça marche.",
+    "Si tu le dis…",
+    "Justement."
+   ],
+   "answer": 0,
+   "why": "Ça marche = 'deal', 'sounds good'."
+  },
+  {
+   "q": "« Tu remarques rien ? » Lucas wants to answer yes. Which word does he need?",
+   "options": [
+    "Oui",
+    "Si",
+    "D'accord"
+   ],
+   "answer": 1,
+   "why": "Si says yes to a negative question."
+  },
+  {
+   "q": "Emma does not believe the leaning shelf is 'design'. What does she say?",
+   "options": [
+    "Tout à fait.",
+    "C'est ça, oui…",
+    "T'as raison."
+   ],
+   "answer": 1,
+   "why": "C'est ça, oui…, drawn out, is sarcastic: 'yeah, right'."
+  },
+  {
+   "q": "Lucas suggests starting with the croissants. Emma agrees completely. What does she say?",
+   "options": [
+    "Pourquoi pas.",
+    "Grave.",
+    "Si tu le dis…"
+   ],
+   "answer": 1,
+   "why": "Grave is slang for 'totally'."
+  }
+ ]
+}

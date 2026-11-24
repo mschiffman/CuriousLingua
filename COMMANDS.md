@@ -28,6 +28,7 @@ Everything is run from the site folder, `G:\My Drive\LANGSITE`. The `.bat` files
 | `lesson_app.bat` | Take a `.md` file all the way to a lesson, in one window: lesson file, pictures, audio, upload, offline copy. Steps already done are skipped | `tools\from_md.py`, `convert.py`, `audio.py`, `offline.py` |
 | `1_images.bat` | Move the numbered PNGs from Downloads to `G:\My Drive\_YOUTUBE\<folder>` and convert them to JPG in `img\ytstory` | `tools\convert.py` |
 | `2_audio.bat` | Open the audio menu: lessons needing clips, make clips, new takes, Whisper check, upload | `tools\audio.py` |
+| `record_pending.bat` | Record, check and upload every card page and dialogue whose audio is still pending. It lists them and asks before using any characters | `tools\pending.py` |
 | `3_offline.bat` | Build single-file offline lessons in `<course>\single\` | `tools\offline.py` |
 | `4_check.bat` | Write and open the status report | `tools\check.py` |
 | `5_publish.bat` | Rebuild every page; commit and push when the folder is a git repository | `tools\build.py`, then git |
@@ -97,6 +98,8 @@ A lesson is written `course/strand/slug`, for example `fr/listening/home_pantry_
 | `python -E tools\audio.py trim <lesson>` | Cut the silence after the speech from clips made before the tool did it itself (`trim all` for every lesson, `--dry` only lists). New clips are trimmed when they are made. Old clips are moved to the raw-takes folder (`_untrimmed_…`). Then `upload` | no |
 | `python -E tools\audio.py upload <lesson>` | Send new or changed clips to R2, set the `?v=` tag, rebuild | no |
 | `python -E tools\audio.py balance` | Characters left. Fails with "401" if the API key cannot read the subscription | no |
+| `python -E tools\pending.py` | All pending card pages and dialogues in one go: list, ask, make the missing clips, wait for Enter, upload (same as `record_pending.bat`) | **yes**, after asking |
+| `python -E tools\pending.py --list` | Only list them | no |
 
 The usual order for a new lesson: `make`, listen to the clips Whisper marks `<<< check`, `--redo` the bad ones, then `upload`.
 
