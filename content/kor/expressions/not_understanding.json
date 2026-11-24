@@ -1,0 +1,119 @@
+{
+ "title": "When you don't understand",
+ "subtitle": "잘 모르겠어요",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 5,
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "aud_dir": "kor/expressions/not_understanding/",
+ "aud_ext": "mp3?v=2611241405",
+ "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "categories": [
+  {
+   "en": "I don't understand",
+   "fr": "모르겠어요",
+   "desc": "Saying so early saves everyone trouble.",
+   "cards": [
+    [
+     "Jal moreugesseoyo.",
+     "I don't understand. / I'm not sure.",
+     "잘 모르겠어요.\n\nOne phrase for both meanings.",
+     "Joesonghamnida, jal moreugesseoyo.\n죄송합니다, 잘 모르겠어요.",
+     "I'm sorry, I don't understand."
+    ],
+    [
+     "Hangugeoreul jal motaeyo.",
+     "I don't speak Korean well.",
+     "한국어를 잘 못해요.\n\nJal motaeyo: I can't do it well.",
+     "Joesonghamnida, hangugeoreul jal motaeyo.\n죄송합니다, 한국어를 잘 못해요.",
+     "I'm sorry, I don't speak Korean well."
+    ],
+    [
+     "Hangugeoneun jogeumman haeyo.",
+     "I speak only a little Korean.",
+     "한국어는 조금만 해요.\n\nJogeum: a little. -man: only.",
+     "Hangugeo haseyo? — Jogeumman haeyo.\n한국어 하세요? — 조금만 해요.",
+     "Do you speak Korean? — Just a little."
+    ],
+    [
+     "Algetseumnida.",
+     "I understand. / Got it.",
+     "알겠습니다.\n\nPolite. Softer: Algesseoyo.",
+     "Naeil ahop siyeyo. — Ne, algetseumnida.\n내일 아홉 시예요. — 네, 알겠습니다.",
+     "Tomorrow at nine. — Yes, understood."
+    ]
+   ]
+  },
+  {
+   "en": "Say it again",
+   "fr": "다시 한번",
+   "desc": "Asking people to repeat, slow down or write it.",
+   "cards": [
+    [
+     "Dasi hanbeon malsseumhae juseyo.",
+     "Please say it once more.",
+     "다시 한번 말씀해 주세요.\n\nDasi hanbeon: one more time.",
+     "Joesonghamnida, dasi hanbeon malsseumhae juseyo.\n죄송합니다, 다시 한번 말씀해 주세요.",
+     "Sorry, please say it once more."
+    ],
+    [
+     "Cheoncheonhi malsseumhae juseyo.",
+     "Please speak slowly.",
+     "천천히 말씀해 주세요.\n\nCheoncheonhi: slowly.",
+     "Jom deo cheoncheonhi malsseumhae juseyo.\n좀 더 천천히 말씀해 주세요.",
+     "Please speak a little more slowly."
+    ],
+    [
+     "Sseo juseyo.",
+     "Please write it down.",
+     "써 주세요.\n\nUseful for names, prices and addresses.",
+     "Yeogie sseo juseyo.\n여기에 써 주세요.",
+     "Please write it here."
+    ],
+    [
+     "Ne?",
+     "Sorry?",
+     "네?\n\nWith a rising voice: 'pardon?' It is the same word as 'yes'.",
+     "Ne? Mworagoyo?\n네? 뭐라고요?",
+     "Sorry? What did you say?"
+    ]
+   ]
+  },
+  {
+   "en": "Asking about words",
+   "fr": "단어",
+   "desc": "Finding the word you need, and falling back on English.",
+   "cards": [
+    [
+     "Igeon hangugeoro mwoyeyo?",
+     "What is this in Korean?",
+     "이건 한국어로 뭐예요?\n\nHangugeoro: in Korean.",
+     "Igeon hangugeoro mwoyeyo? — 'Usan'ieyo.\n이건 한국어로 뭐예요? — '우산'이에요.",
+     "What is this in Korean? — It's 'usan' (umbrella)."
+    ],
+    [
+     "Museun tteusieyo?",
+     "What does it mean?",
+     "무슨 뜻이에요?\n\nTteut: meaning.",
+     "'Gwaenchanayo'ga museun tteusieyo?\n'괜찮아요'가 무슨 뜻이에요?",
+     "What does 'gwaenchanayo' mean?"
+    ],
+    [
+     "Yeongeo hal su isseoyo?",
+     "Can you speak English?",
+     "영어 할 수 있어요?\n\nHal su isseoyo: can do.",
+     "Jeogiyo, yeongeo hal su isseoyo? — Jogeum haeyo.\n저기요, 영어 할 수 있어요? — 조금 해요.",
+     "Excuse me, can you speak English? — A little."
+    ],
+    [
+     "Yeongeoro haedo dwaeyo?",
+     "Is English all right?",
+     "영어로 해도 돼요?\n\nYeongeoro: in English.",
+     "Joesonghamnida, yeongeoro haedo dwaeyo?\n죄송합니다, 영어로 해도 돼요?",
+     "Sorry, is English all right?"
+    ]
+   ]
+  }
+ ]
+}

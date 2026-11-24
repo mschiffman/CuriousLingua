@@ -1,0 +1,122 @@
+{
+ "title": "Shopping",
+ "subtitle": "쇼핑",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 6,
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "related": [
+  "kor/listening/shopping"
+ ],
+ "aud_dir": "kor/expressions/shopping/",
+ "aud_ext": "mp3?v=2611241405",
+ "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "categories": [
+  {
+   "en": "Looking and asking",
+   "fr": "찾기",
+   "desc": "Prices, and whether the shop has what you want.",
+   "cards": [
+    [
+     "Igeo eolmayeyo?",
+     "How much is this?",
+     "이거 얼마예요?\n\nIgeo: this. Geugeo: that (near you). Jeogeo: that over there.",
+     "Jeogiyo, i usan eolmayeyo?\n저기요, 이 우산 얼마예요?",
+     "Excuse me, how much is this umbrella?"
+    ],
+    [
+     "Upyo isseoyo?",
+     "Do you have stamps?",
+     "우표 있어요?\n\nA thing + isseoyo?: do you have…? The answer no is eopseoyo.",
+     "Chungjeongi isseoyo? — Ne, isseoyo.\n충전기 있어요? — 네, 있어요.",
+     "Do you have a charger? — Yes, we do."
+    ],
+    [
+     "Geunyang boneun geoyeyo.",
+     "I'm just looking.",
+     "그냥 보는 거예요.\n\nFor when the staff come over to help.",
+     "Mwo chajeuseyo? — Geunyang boneun geoyeyo.\n뭐 찾으세요? — 그냥 보는 거예요.",
+     "Are you looking for something? — I'm just looking."
+    ],
+    [
+     "Dareun saek isseoyo?",
+     "Do you have another colour?",
+     "다른 색 있어요?\n\nDareun: other.",
+     "Dareun saek isseoyo? — Geomjeongsaegirang hinsaegi isseoyo.\n다른 색 있어요? — 검정색이랑 흰색이 있어요.",
+     "Do you have another colour? — We have black and white."
+    ]
+   ]
+  },
+  {
+   "en": "Choosing",
+   "fr": "고르기",
+   "desc": "Too expensive, too small, and making up your mind.",
+   "cards": [
+    [
+     "Jom bissayo.",
+     "It's a little expensive.",
+     "좀 비싸요.\n\nBissayo: expensive. Ssayo: cheap.",
+     "Jom bissayo. Deo ssan geo isseoyo?\n좀 비싸요. 더 싼 거 있어요?",
+     "It's a little expensive. Do you have a cheaper one?"
+    ],
+    [
+     "Ibeo bwado dwaeyo?",
+     "May I try it on?",
+     "입어 봐도 돼요?\n\nFor clothes. For shoes: Sineo bwado dwaeyo?",
+     "Igeo ibeo bwado dwaeyo? — Ne, ibeo boseyo.\n이거 입어 봐도 돼요? — 네, 입어 보세요.",
+     "May I try this on? — Yes, go ahead."
+    ],
+    [
+     "Deo keun geo isseoyo?",
+     "Do you have a bigger one?",
+     "더 큰 거 있어요?\n\nA smaller one: deo jageun geo.",
+     "Jom jagayo. Deo keun geo isseoyo?\n좀 작아요. 더 큰 거 있어요?",
+     "It's a little small. Do you have a bigger one?"
+    ],
+    [
+     "Igeollo halgeyo.",
+     "I'll take this one.",
+     "이걸로 할게요.\n\nA thing + -ro or -euro halgeyo: I'll go with…",
+     "Geureom igeollo halgeyo.\n그럼 이걸로 할게요.",
+     "Then I'll take this one."
+    ]
+   ]
+  },
+  {
+   "en": "Paying",
+   "fr": "계산",
+   "desc": "At the till.",
+   "cards": [
+    [
+     "Kadeu dwaeyo?",
+     "Can I pay by card?",
+     "카드 돼요?\n\n'Does card work?' Cash: hyeongeum.",
+     "Kadeu dwaeyo? — Ne, dwaeyo.\n카드 돼요? — 네, 돼요.",
+     "Can I pay by card? — Yes, you can."
+    ],
+    [
+     "Bongtu piryo eopseoyo.",
+     "I don't need a bag.",
+     "봉투 필요 없어요.\n\nThe staff ask: Bongtu deurilkkayo? (Would you like a bag?)",
+     "Bongtu deurilkkayo? — Anieyo, piryo eopseoyo.\n봉투 드릴까요? — 아니에요, 필요 없어요.",
+     "Would you like a bag? — No, I don't need one."
+    ],
+    [
+     "Yeongsujeung juseyo.",
+     "The receipt, please.",
+     "영수증 주세요.\n\nYeongsujeung: receipt.",
+     "Yeongsujeung jom juseyo.\n영수증 좀 주세요.",
+     "The receipt, please."
+    ],
+    [
+     "Jeonbu eolmayeyo?",
+     "How much is it altogether?",
+     "전부 얼마예요?\n\nJeonbu: all of it.",
+     "Jeonbu eolmayeyo? — Samman wonieyo.\n전부 얼마예요? — 삼만 원이에요.",
+     "How much altogether? — 30,000 won."
+    ]
+   ]
+  }
+ ]
+}

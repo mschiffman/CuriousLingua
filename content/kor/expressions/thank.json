@@ -1,0 +1,119 @@
+{
+ "title": "Thanking",
+ "subtitle": "감사",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 2,
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "aud_dir": "kor/expressions/thank/",
+ "aud_ext": "mp3?v=2611241401",
+ "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "categories": [
+  {
+   "en": "Saying thank you",
+   "fr": "감사합니다",
+   "desc": "Two polite standards and a friendlier form.",
+   "cards": [
+    [
+     "Gamsahamnida.",
+     "Thank you.",
+     "감사합니다.\n\nThe safe, polite thank you, for anyone.",
+     "Dowajusyeoseo gamsahamnida.\n도와주셔서 감사합니다.",
+     "Thank you for helping me."
+    ],
+    [
+     "Gomapseumnida.",
+     "Thank you.",
+     "고맙습니다.\n\nJust as polite. A native Korean word, and a little warmer.",
+     "Seonmul gomapseumnida.\n선물 고맙습니다.",
+     "Thank you for the present."
+    ],
+    [
+     "Gomawoyo.",
+     "Thanks.",
+     "고마워요.\n\nPolite but friendly. To close friends: Gomawo.",
+     "Jeongmal gomawoyo.\n정말 고마워요.",
+     "Thank you so much."
+    ],
+    [
+     "Jeongmal gamsahamnida.",
+     "Thank you very much.",
+     "정말 감사합니다.\n\nJeongmal: really.",
+     "Oneul jeongmal gamsahaetseumnida.\n오늘 정말 감사했습니다.",
+     "Thank you very much for today."
+    ]
+   ]
+  },
+  {
+   "en": "Answering thanks",
+   "fr": "아니에요",
+   "desc": "Korean answers to thanks are modest: mostly a way of saying no.",
+   "cards": [
+    [
+     "Cheonmaneyo.",
+     "You're welcome.",
+     "천만에요.\n\nThe textbook answer. Rare in daily speech, where people say Anieyo.",
+     "Gomapseumnida. — Cheonmaneyo.\n고맙습니다. — 천만에요.",
+     "Thank you. — You're welcome."
+    ],
+    [
+     "Byeolmalsseumeullyo.",
+     "Don't mention it.",
+     "별말씀을요.\n\nPolite and modest: 'what a thing to say'.",
+     "Jeongmal gamsahamnida. — Byeolmalsseumeullyo.\n정말 감사합니다. — 별말씀을요.",
+     "Thank you very much. — Don't mention it."
+    ],
+    [
+     "Mwollyo.",
+     "It's nothing.",
+     "뭘요.\n\nShort and friendly: 'what for?'",
+     "Dowajwoseo gomawoyo. — Mwollyo.\n도와줘서 고마워요. — 뭘요.",
+     "Thanks for helping. — It's nothing."
+    ],
+    [
+     "Jeoyamallo gamsahamnida.",
+     "I'm the one who should thank you.",
+     "저야말로 감사합니다.\n\nJeoyamallo: 'I, rather than you'. It hands the thanks back.",
+     "Oneul gamsahaetseumnida. — Jeoyamallo gamsahamnida.\n오늘 감사했습니다. — 저야말로 감사합니다.",
+     "Thank you for today. — Thank you."
+    ]
+   ]
+  },
+  {
+   "en": "Thanks in daily life",
+   "fr": "일상",
+   "desc": "Set phrases that carry thanks: for food, for work, for help.",
+   "cards": [
+    [
+     "Jal meokgetseumnida.",
+     "(said before eating)",
+     "잘 먹겠습니다.\n\n'I will eat well.' Thanks to whoever cooked or is paying.",
+     "Masitgetda! Jal meokgetseumnida.\n맛있겠다! 잘 먹겠습니다.",
+     "That looks delicious! Thank you for the meal."
+    ],
+    [
+     "Jal meogeotseumnida.",
+     "Thank you for the meal.",
+     "잘 먹었습니다.\n\nAfter eating: 'I ate well.'",
+     "Jal meogeotseumnida. Jeongmal masisseosseoyo.\n잘 먹었습니다. 정말 맛있었어요.",
+     "Thank you for the meal. It was really delicious."
+    ],
+    [
+     "Sugohaseyo.",
+     "Keep up the good work.",
+     "수고하세요.\n\nSaid as you leave a shop or a taxi: thanks to someone who is still working.",
+     "Gamsahamnida. Sugohaseyo.\n감사합니다. 수고하세요.",
+     "Thank you. Goodbye."
+    ],
+    [
+     "Deokbune jal dwaesseoyo.",
+     "Thanks to you, it went well.",
+     "덕분에 잘 됐어요.\n\nDeokbune: thanks to you.",
+     "Siheom eottaesseoyo? — Deokbune jal dwaesseoyo.\n시험 어땠어요? — 덕분에 잘 됐어요.",
+     "How was the exam? — Thanks to you, it went well."
+    ]
+   ]
+  }
+ ]
+}

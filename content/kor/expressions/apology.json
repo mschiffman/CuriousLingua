@@ -1,0 +1,119 @@
+{
+ "title": "Apologizing",
+ "subtitle": "사과",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 3,
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "aud_dir": "kor/expressions/apology/",
+ "aud_ext": "mp3?v=2611241401",
+ "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "categories": [
+  {
+   "en": "Saying sorry",
+   "fr": "죄송합니다",
+   "desc": "Three levels of sorry, and the polite 'excuse me'.",
+   "cards": [
+    [
+     "Joesonghamnida.",
+     "I'm sorry.",
+     "죄송합니다.\n\nThe polite, safe sorry: to strangers, to elders, at work.",
+     "Joesonghamnida, gwaenchaneuseyo?\n죄송합니다, 괜찮으세요?",
+     "I'm sorry, are you all right?"
+    ],
+    [
+     "Mianhamnida.",
+     "I'm sorry.",
+     "미안합니다.\n\nPolite, and a little less formal than joesonghamnida.",
+     "Neujeoseo mianhamnida.\n늦어서 미안합니다.",
+     "I'm sorry I'm late."
+    ],
+    [
+     "Mianhaeyo.",
+     "Sorry.",
+     "미안해요.\n\nFriendly and polite. To close friends: Mianhae.",
+     "Mianhaeyo, ijeobeoryeosseoyo.\n미안해요, 잊어버렸어요.",
+     "Sorry, I forgot."
+    ],
+    [
+     "Sillyehamnida.",
+     "Excuse me.",
+     "실례합니다.\n\n'I am being rude.' Before you interrupt, pass in front of someone or enter a room.",
+     "Sillyehamnida. Jamkkanmanyo.\n실례합니다. 잠깐만요.",
+     "Excuse me. Just a moment."
+    ]
+   ]
+  },
+  {
+   "en": "Sorry for…",
+   "fr": "-아서/어서 죄송합니다",
+   "desc": "Saying what you are sorry for.",
+   "cards": [
+    [
+     "Neujeoseo joesonghamnida.",
+     "I'm sorry I'm late.",
+     "늦어서 죄송합니다.\n\nA verb + -eoseo or -aseo: sorry because…",
+     "Neujeoseo joesonghamnida. Giri makyeosseoyo.\n늦어서 죄송합니다. 길이 막혔어요.",
+     "I'm sorry I'm late. The traffic was bad."
+    ],
+    [
+     "Gidarige haeseo joesonghamnida.",
+     "Sorry to keep you waiting.",
+     "기다리게 해서 죄송합니다.\n\nGidarida: to wait.",
+     "Gidarige haeseo joesonghamnida. Keopi nawatseumnida.\n기다리게 해서 죄송합니다. 커피 나왔습니다.",
+     "Sorry for the wait. Here is your coffee."
+    ],
+    [
+     "Je silsuyeyo.",
+     "It's my mistake.",
+     "제 실수예요.\n\nSilsu: a mistake, a slip.",
+     "Joesonghamnida, je silsuyeyo.\n죄송합니다, 제 실수예요.",
+     "I'm sorry, it's my mistake."
+    ],
+    [
+     "Jega jalmotaesseoyo.",
+     "It was my fault.",
+     "제가 잘못했어요.\n\nOwning up to a real fault.",
+     "Jega jalmotaesseoyo. Mianhaeyo.\n제가 잘못했어요. 미안해요.",
+     "It was my fault. I'm sorry."
+    ]
+   ]
+  },
+  {
+   "en": "Answering an apology",
+   "fr": "괜찮아요",
+   "desc": "Putting the other person at ease.",
+   "cards": [
+    [
+     "Gwaenchanayo.",
+     "It's all right.",
+     "괜찮아요.\n\nThe usual answer. Careful: it can also mean 'no, thank you'.",
+     "Joesonghamnida! — Gwaenchanayo.\n죄송합니다! — 괜찮아요.",
+     "I'm sorry! — It's all right."
+    ],
+    [
+     "Geokjeong maseyo.",
+     "Don't worry.",
+     "걱정 마세요.\n\nGeokjeong: worry.",
+     "Neujeoseo mianhaeyo. — Geokjeong maseyo.\n늦어서 미안해요. — 걱정 마세요.",
+     "Sorry I'm late. — Don't worry."
+    ],
+    [
+     "Singyeong sseuji maseyo.",
+     "Don't mind it.",
+     "신경 쓰지 마세요.\n\n'Please don't let it bother you.'",
+     "Jeongmal joesonghamnida. — Singyeong sseuji maseyo.\n정말 죄송합니다. — 신경 쓰지 마세요.",
+     "I'm really sorry. — Don't mind it."
+    ],
+    [
+     "Jeodo mianhaeyo.",
+     "I'm sorry too.",
+     "저도 미안해요.\n\nJeodo: me too. Both sides apologize, and the matter is closed.",
+     "Mianhaeyo. — Anieyo, jeodo mianhaeyo.\n미안해요. — 아니에요, 저도 미안해요.",
+     "I'm sorry. — No, I'm sorry too."
+    ]
+   ]
+  }
+ ]
+}

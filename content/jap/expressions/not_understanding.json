@@ -1,0 +1,119 @@
+{
+ "title": "When you don't understand",
+ "subtitle": "わかりません",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 5,
+ "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "aud_dir": "jap/expressions/not_understanding/",
+ "aud_ext": "mp3?v=2611241359",
+ "voice": {"narrator": "v91rKRL5eccBa78cK3jT"},
+ "categories": [
+  {
+   "en": "I don't understand",
+   "fr": "わかりません",
+   "desc": "Saying so early saves everyone trouble.",
+   "cards": [
+    [
+     "Wakarimasen.",
+     "I don't understand. / I don't know.",
+     "わかりません。\n\nOne verb for both meanings.",
+     "Sumimasen, wakarimasen.\nすみません、わかりません。",
+     "I'm sorry, I don't understand."
+    ],
+    [
+     "Nihongo ga amari wakarimasen.",
+     "I don't understand much Japanese.",
+     "日本語があまりわかりません。\n\nAmari + a negative verb: not much.",
+     "Sumimasen, nihongo ga amari wakarimasen.\nすみません、日本語があまりわかりません。",
+     "I'm sorry, I don't understand much Japanese."
+    ],
+    [
+     "Nihongo wa sukoshi dake desu.",
+     "I only speak a little Japanese.",
+     "日本語は少しだけです。\n\nSukoshi: a little. Dake: only.",
+     "Nihongo ga jōzu desu ne. — Iie, sukoshi dake desu.\n日本語が上手ですね。— いいえ、少しだけです。",
+     "Your Japanese is good. — No, I only speak a little."
+    ],
+    [
+     "Wakarimashita.",
+     "I understand. / Got it.",
+     "わかりました。\n\nThe past form: 'I have understood.'",
+     "Ashita kuji desu. — Hai, wakarimashita.\n明日九時です。— はい、わかりました。",
+     "Tomorrow at nine. — Yes, got it."
+    ]
+   ]
+  },
+  {
+   "en": "Say it again",
+   "fr": "もう一度",
+   "desc": "Asking people to repeat, slow down or write it.",
+   "cards": [
+    [
+     "Mō ichido onegai shimasu.",
+     "Once more, please.",
+     "もう一度お願いします。\n\nMō ichido: one more time.",
+     "Sumimasen, mō ichido onegai shimasu.\nすみません、もう一度お願いします。",
+     "Sorry, once more, please."
+    ],
+    [
+     "Yukkuri hanashite kudasai.",
+     "Please speak slowly.",
+     "ゆっくり話してください。\n\nYukkuri: slowly, without hurrying.",
+     "Sumimasen, mō sukoshi yukkuri hanashite kudasai.\nすみません、もう少しゆっくり話してください。",
+     "Sorry, please speak a little more slowly."
+    ],
+    [
+     "Kaite kudasai.",
+     "Please write it down.",
+     "書いてください。\n\nUseful for names, prices and addresses.",
+     "Koko ni kaite kudasai.\nここに書いてください。",
+     "Please write it here."
+    ],
+    [
+     "E?",
+     "Sorry?",
+     "え？\n\nCasual, with a rising voice. Politer: Hai? or Sumimasen?",
+     "E? Nan desu ka.\nえ？何ですか。",
+     "Sorry? What was that?"
+    ]
+   ]
+  },
+  {
+   "en": "Asking about words",
+   "fr": "ことば",
+   "desc": "Finding the word you need, and falling back on English.",
+   "cards": [
+    [
+     "Kore wa nihongo de nan desu ka.",
+     "What is this in Japanese?",
+     "これは日本語で何ですか。\n\nNihongo de: in Japanese.",
+     "Kore wa nihongo de nan desu ka. — 'Kasa' desu.\nこれは日本語で何ですか。— 「かさ」です。",
+     "What is this in Japanese? — It's 'kasa' (umbrella)."
+    ],
+    [
+     "Dō iu imi desu ka.",
+     "What does it mean?",
+     "どういう意味ですか。\n\nImi: meaning.",
+     "'Daijōbu' wa dō iu imi desu ka.\n「大丈夫」はどういう意味ですか。",
+     "What does 'daijōbu' mean?"
+    ],
+    [
+     "Eigo o hanashimasu ka.",
+     "Do you speak English?",
+     "英語を話しますか。\n\nAlso: Eigo wa dekimasu ka. (Can you speak English?)",
+     "Sumimasen, eigo o hanashimasu ka. — Sukoshi dake.\nすみません、英語を話しますか。— 少しだけ。",
+     "Excuse me, do you speak English? — Just a little."
+    ],
+    [
+     "Eigo de ii desu ka.",
+     "Is English all right?",
+     "英語でいいですか。\n\nEigo de: in English.",
+     "Sumimasen, eigo de ii desu ka.\nすみません、英語でいいですか。",
+     "Sorry, is English all right?"
+    ]
+   ]
+  }
+ ]
+}

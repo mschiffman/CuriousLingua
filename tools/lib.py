@@ -74,6 +74,12 @@ def lessons():
     return out
 
 
+def native_line(card):
+    """The first line of a Japanese or Korean card's note when it is written in that script: what the voice says."""
+    first = card[2].split("\n")[0].strip() if len(card) > 2 and card[2] else ""
+    return first if re.search(r"[\u3040-\u30ff\u4e00-\u9fff\uac00-\ud7a3]", first) else ""
+
+
 def clips(L):
     """[(clip number, text the voice says)] for a lesson, in the order of the NN.mp3 files."""
     t = L.get("type")
@@ -81,6 +87,8 @@ def clips(L):
         return []
     if t == "cards":
         cards = [c for cat in L.get("categories", []) for c in cat["cards"]]
+        if L.get("course") in ("jap", "kor"):   # the voice reads the Japanese or Korean line that opens the note, not the romanization on the card
+            return [(i, native_line(c) or c[0]) for i, c in enumerate(cards, 1)]
         return [(i, c[0]) for i, c in enumerate(cards, 1)]
     if t == "reader":
         return sorted({(c[1], c[0]) for p in L.get("pages", []) for s in p["sentences"] for c in s})

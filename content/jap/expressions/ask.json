@@ -1,0 +1,119 @@
+{
+ "title": "Asking for things",
+ "subtitle": "おねがい",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 4,
+ "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "aud_dir": "jap/expressions/ask/",
+ "aud_ext": "mp3?v=2611241359",
+ "voice": {"narrator": "v91rKRL5eccBa78cK3jT"},
+ "categories": [
+  {
+   "en": "Please",
+   "fr": "ください・お願いします",
+   "desc": "Asking for a thing, and asking someone to do something.",
+   "cards": [
+    [
+     "Kore o kudasai.",
+     "This one, please.",
+     "これをください。\n\nA thing + o kudasai: please give me…",
+     "Mizu o kudasai.\n水をください。",
+     "Water, please."
+    ],
+    [
+     "Onegai shimasu.",
+     "Please.",
+     "お願いします。\n\nMore polite than kudasai, and it works on its own: handing over a form, accepting an offer.",
+     "Kōhī o onegai shimasu.\nコーヒーをお願いします。",
+     "A coffee, please."
+    ],
+    [
+     "Chotto matte kudasai.",
+     "Please wait a moment.",
+     "ちょっと待ってください。\n\nThe -te form of a verb + kudasai: please do…",
+     "Sumimasen, chotto matte kudasai.\nすみません、ちょっと待ってください。",
+     "Sorry, please wait a moment."
+    ],
+    [
+     "Misete kudasai.",
+     "Please show me.",
+     "見せてください。\n\nMiseru: to show.",
+     "Sore o misete kudasai.\nそれを見せてください。",
+     "Please show me that one."
+    ]
+   ]
+  },
+  {
+   "en": "Asking for help",
+   "fr": "手伝ってください",
+   "desc": "Stopping someone politely, then saying what you need.",
+   "cards": [
+    [
+     "Sumimasen, chotto ii desu ka.",
+     "Excuse me, do you have a moment?",
+     "すみません、ちょっといいですか。\n\nThe polite way to stop someone before you ask.",
+     "Sumimasen, chotto ii desu ka. — Hai, nan deshō.\nすみません、ちょっといいですか。— はい、何でしょう。",
+     "Excuse me, do you have a moment? — Yes, what is it?"
+    ],
+    [
+     "Tetsudatte kudasai.",
+     "Please help me.",
+     "手伝ってください。\n\nHelp with a task. In danger, shout Tasukete!",
+     "Sumimasen, chotto tetsudatte kudasai.\nすみません、ちょっと手伝ってください。",
+     "Excuse me, please give me a hand."
+    ],
+    [
+     "Oshiete kudasai.",
+     "Please tell me.",
+     "教えてください。\n\nOshieru: to tell, to teach. For information of any kind.",
+     "Denwa bangō o oshiete kudasai.\n電話番号を教えてください。",
+     "Please tell me your phone number."
+    ],
+    [
+     "Shashin o totte kudasai.",
+     "Please take a photo.",
+     "写真を撮ってください。\n\nFor asking a passer-by to photograph you.",
+     "Sumimasen, shashin o totte kudasai. — Ii desu yo.\nすみません、写真を撮ってください。— いいですよ。",
+     "Excuse me, could you take a photo? — Sure."
+    ]
+   ]
+  },
+  {
+   "en": "May I?",
+   "fr": "〜てもいいですか",
+   "desc": "Asking permission, and the two answers you will hear.",
+   "cards": [
+    [
+     "Ii desu ka.",
+     "May I? / Is it all right?",
+     "いいですか。\n\nPoint at a seat, or hold up your camera, and ask.",
+     "Koko, ii desu ka. — Hai, dōzo.\nここ、いいですか。— はい、どうぞ。",
+     "Is this seat free? — Yes, go ahead."
+    ],
+    [
+     "Shashin o totte mo ii desu ka.",
+     "May I take a photo?",
+     "写真を撮ってもいいですか。\n\nThe -te form + mo ii desu ka: may I…?",
+     "Koko de shashin o totte mo ii desu ka.\nここで写真を撮ってもいいですか。",
+     "May I take a photo here?"
+    ],
+    [
+     "Hai, dōzo.",
+     "Yes, go ahead.",
+     "はい、どうぞ。\n\nDōzo: here you are, after you, please do.",
+     "Suwatte mo ii desu ka. — Hai, dōzo.\n座ってもいいですか。— はい、どうぞ。",
+     "May I sit down? — Yes, please do."
+    ],
+    [
+     "Sumimasen, chotto…",
+     "I'm sorry, but…",
+     "すみません、ちょっと…。\n\nThe soft Japanese no: the sentence trails off, and everyone understands.",
+     "Koko de tabete mo ii desu ka. — Sumimasen, koko wa chotto…\nここで食べてもいいですか。— すみません、ここはちょっと…。",
+     "May I eat here? — I'm sorry, not here."
+    ]
+   ]
+  }
+ ]
+}

@@ -79,7 +79,11 @@
 <p class="font-display text-4xl font-semibold text-accent" x-text="score + ' / ' + qs.length"></p>
 <button class="btn mt-4" @click="again()">Try again</button>
 </div></section><section class="mt-8 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">Notes</h2><ul class="mt-2 list-disc space-y-1 pl-5 text-muted"><li>[Thing] o kudasai = [thing], please.</li><li>... de onegaishimasu = I&#x27;d like it ..., please.</li><li>Iie, kekkō desu = No, thank you (polite).</li><li>hitotsu = one (thing). yonhyaku = 400.</li></ul></section>
-
+<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../jap/expressions/restaurant.html" data-lesson="jap/expressions/restaurant">
+<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Eating out</h3>
+<span class="chip chip-accent">A1</span></div>
+<p class="mt-1 text-sm text-muted">レストラン</p>
+<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Expressions</span><span class="chip">Flashcards</span></div></a></div></section>
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('jap/listening/cafe')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
 <div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../jap/listening/shopping.html">How much is this? &rarr;</a></div>

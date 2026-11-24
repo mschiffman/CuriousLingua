@@ -1,0 +1,122 @@
+{
+ "title": "Eating out",
+ "subtitle": "식당",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 7,
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "related": [
+  "kor/listening/cafe"
+ ],
+ "aud_dir": "kor/expressions/restaurant/",
+ "aud_ext": "mp3?v=2611241406",
+ "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "categories": [
+  {
+   "en": "Arriving",
+   "fr": "들어가기",
+   "desc": "Getting a table, the menu and a recommendation.",
+   "cards": [
+    [
+     "Du myeongieyo.",
+     "Two people.",
+     "두 명이에요.\n\nThe answer to Myeot buniseyo? (How many?) One: han myeong. Three: se myeong.",
+     "Eoseo oseyo. Myeot buniseyo? — Du myeongieyo.\n어서 오세요. 몇 분이세요? — 두 명이에요.",
+     "Welcome. How many? — Two."
+    ],
+    [
+     "Yeogiyo!",
+     "Excuse me!",
+     "여기요!\n\n'Over here!' How you call the staff: it is not rude. Also Jeogiyo!",
+     "Yeogiyo! Jumunhalgeyo.\n여기요! 주문할게요.",
+     "Excuse me! We'd like to order."
+    ],
+    [
+     "Menyupan juseyo.",
+     "The menu, please.",
+     "메뉴판 주세요.\n\nMenyupan: the menu card.",
+     "Yeongeo menyupan isseoyo?\n영어 메뉴판 있어요?",
+     "Do you have an English menu?"
+    ],
+    [
+     "Mwoga masisseoyo?",
+     "What's good here?",
+     "뭐가 맛있어요?\n\nThe natural way to ask for a recommendation.",
+     "Yeogi mwoga masisseoyo? — Bibimbabi masisseoyo.\n여기 뭐가 맛있어요? — 비빔밥이 맛있어요.",
+     "What's good here? — The bibimbap is good."
+    ]
+   ]
+  },
+  {
+   "en": "Ordering",
+   "fr": "주문",
+   "desc": "How many, what you will have, and how spicy.",
+   "cards": [
+    [
+     "Igeo hana juseyo.",
+     "One of these, please.",
+     "이거 하나 주세요.\n\nHana, dul, set: one, two, three things.",
+     "Gimbap du jul juseyo.\n김밥 두 줄 주세요.",
+     "Two rolls of gimbap, please."
+    ],
+    [
+     "Jeoneun bibimbabeuro halgeyo.",
+     "I'll have the bibimbap.",
+     "저는 비빔밥으로 할게요.\n\nA dish + -ro or -euro halgeyo: I'll have…",
+     "Mwo deusigesseoyo? — Jeoneun naengmyeoneuro halgeyo.\n뭐 드시겠어요? — 저는 냉면으로 할게요.",
+     "What will you have? — I'll have the cold noodles."
+    ],
+    [
+     "An maepge hae juseyo.",
+     "Not spicy, please.",
+     "안 맵게 해 주세요.\n\nMaewoyo: it's spicy.",
+     "Igeo maewoyo? An maepge hae juseyo.\n이거 매워요? 안 맵게 해 주세요.",
+     "Is this spicy? Not spicy, please."
+    ],
+    [
+     "Mul jom juseyo.",
+     "Some water, please.",
+     "물 좀 주세요.\n\nWater and side dishes (banchan) are free, and so are refills.",
+     "Yeogiyo, banchan jom deo juseyo.\n여기요, 반찬 좀 더 주세요.",
+     "Excuse me, some more side dishes, please."
+    ]
+   ]
+  },
+  {
+   "en": "Eating and paying",
+   "fr": "식사·계산",
+   "desc": "A compliment, then the bill.",
+   "cards": [
+    [
+     "Masisseoyo.",
+     "It's delicious.",
+     "맛있어요.\n\nThe word every cook wants to hear.",
+     "I guk, jeongmal masisseoyo.\n이 국, 정말 맛있어요.",
+     "This soup is really delicious."
+    ],
+    [
+     "Gyesanhae juseyo.",
+     "The bill, please.",
+     "계산해 주세요.\n\nYou usually pay at the counter by the door on your way out.",
+     "Yeogiyo, gyesanhae juseyo.\n여기요, 계산해 주세요.",
+     "Excuse me, the bill, please."
+    ],
+    [
+     "Ttaro gyesanhae juseyo.",
+     "Separate bills, please.",
+     "따로 계산해 주세요.\n\nTogether: gachi.",
+     "Gachi gyesanhasigesseoyo? — Ttaro gyesanhae juseyo.\n같이 계산하시겠어요? — 따로 계산해 주세요.",
+     "Are you paying together? — Separately, please."
+    ],
+    [
+     "Pojanghae juseyo.",
+     "To take away, please.",
+     "포장해 주세요.\n\nEating in: Meokgo galgeyo.",
+     "Deusigo gaseyo? — Pojanghae juseyo.\n드시고 가세요? — 포장해 주세요.",
+     "Are you eating here? — To take away, please."
+    ]
+   ]
+  }
+ ]
+}

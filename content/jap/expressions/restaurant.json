@@ -1,0 +1,122 @@
+{
+ "title": "Eating out",
+ "subtitle": "レストラン",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 7,
+ "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "related": [
+  "jap/listening/cafe"
+ ],
+ "aud_dir": "jap/expressions/restaurant/",
+ "aud_ext": "mp3?v=2611241400",
+ "voice": {"narrator": "v91rKRL5eccBa78cK3jT"},
+ "categories": [
+  {
+   "en": "Arriving",
+   "fr": "入る",
+   "desc": "Getting a table, the menu and a recommendation.",
+   "cards": [
+    [
+     "Futari desu.",
+     "Two people.",
+     "二人です。\n\nThe answer to Nan-mei-sama desu ka. (How many?) One: hitori. Three: san-nin.",
+     "Irasshaimase. Nan-mei-sama desu ka. — Futari desu.\nいらっしゃいませ。何名様ですか。— 二人です。",
+     "Welcome. How many? — Two."
+    ],
+    [
+     "Sumimasen!",
+     "Excuse me!",
+     "すみません！\n\nHow you call the staff. Say it clearly: it is not rude.",
+     "Sumimasen! Chūmon o onegai shimasu.\nすみません！注文をお願いします。",
+     "Excuse me! We'd like to order."
+    ],
+    [
+     "Menyū o kudasai.",
+     "The menu, please.",
+     "メニューをください。\n\nMany places have a menu with photos.",
+     "Eigo no menyū wa arimasu ka.\n英語のメニューはありますか。",
+     "Do you have an English menu?"
+    ],
+    [
+     "Osusume wa nan desu ka.",
+     "What do you recommend?",
+     "おすすめは何ですか。\n\nOsusume: the recommendation.",
+     "Osusume wa nan desu ka. — Rāmen ga ninki desu.\nおすすめは何ですか。— ラーメンが人気です。",
+     "What do you recommend? — The ramen is popular."
+    ]
+   ]
+  },
+  {
+   "en": "Ordering",
+   "fr": "注文",
+   "desc": "How many, what you will have, and what you cannot eat.",
+   "cards": [
+    [
+     "Kore o hitotsu kudasai.",
+     "One of these, please.",
+     "これを一つください。\n\nHitotsu, futatsu, mittsu: one, two, three things.",
+     "Gyōza o futatsu kudasai.\n餃子を二つください。",
+     "Two orders of gyoza, please."
+    ],
+    [
+     "Watashi wa rāmen ni shimasu.",
+     "I'll have the ramen.",
+     "私はラーメンにします。\n\nA dish + ni shimasu: I'll have…",
+     "Nani ni shimasu ka. — Watashi wa udon ni shimasu.\n何にしますか。— 私はうどんにします。",
+     "What will you have? — I'll have the udon."
+    ],
+    [
+     "Niku wa taberaremasen.",
+     "I can't eat meat.",
+     "肉は食べられません。\n\nA food + wa taberaremasen: I can't eat…",
+     "Sumimasen, tamago wa taberaremasen.\nすみません、卵は食べられません。",
+     "Sorry, I can't eat eggs."
+    ],
+    [
+     "Omizu o kudasai.",
+     "Water, please.",
+     "お水をください。\n\nWater and tea are usually free.",
+     "Sumimasen, omizu o mō hitotsu kudasai.\nすみません、お水をもう一つください。",
+     "Excuse me, one more water, please."
+    ]
+   ]
+  },
+  {
+   "en": "Eating and paying",
+   "fr": "食べる・払う",
+   "desc": "A compliment, then the bill.",
+   "cards": [
+    [
+     "Oishii desu.",
+     "It's delicious.",
+     "おいしいです。\n\nThe word every cook wants to hear.",
+     "Kono sūpu, totemo oishii desu.\nこのスープ、とてもおいしいです。",
+     "This soup is really delicious."
+    ],
+    [
+     "Okaikei o onegai shimasu.",
+     "The bill, please.",
+     "お会計をお願いします。\n\nYou often pay at the till by the door, not at the table.",
+     "Sumimasen, okaikei o onegai shimasu.\nすみません、お会計をお願いします。",
+     "Excuse me, the bill, please."
+    ],
+    [
+     "Betsubetsu de onegai shimasu.",
+     "Separate bills, please.",
+     "別々でお願いします。\n\nTogether: issho de.",
+     "Okaikei wa goissho desu ka. — Betsubetsu de onegai shimasu.\nお会計はご一緒ですか。— 別々でお願いします。",
+     "Are you paying together? — Separately, please."
+    ],
+    [
+     "Mochikaeri de onegai shimasu.",
+     "To take away, please.",
+     "持ち帰りでお願いします。\n\nEating in: Koko de tabemasu.",
+     "Koko de tabemasu ka. — Mochikaeri de onegai shimasu.\nここで食べますか。— 持ち帰りでお願いします。",
+     "Are you eating here? — To take away, please."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "title": "Likes and dislikes",
+ "subtitle": "좋아해요·싫어해요",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 9,
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "aud_dir": "kor/expressions/likes_dislikes/",
+ "aud_ext": "mp3?v=2611241406",
+ "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "categories": [
+  {
+   "en": "I like it",
+   "fr": "좋아해요",
+   "desc": "Liking, really liking, and showing you like an idea.",
+   "cards": [
+    [
+     "Hanguk yeonghwareul joahaeyo.",
+     "I like Korean films.",
+     "한국 영화를 좋아해요.\n\nA thing + -reul or -eul joahaeyo: I like…",
+     "Eumageul joahaeyo.\n음악을 좋아해요.",
+     "I like music."
+    ],
+    [
+     "Bibimbabeul jeongmal joahaeyo.",
+     "I really like bibimbap.",
+     "비빔밥을 정말 좋아해요.\n\nJeongmal: really.",
+     "Jeoneun keopireul jeongmal joahaeyo.\n저는 커피를 정말 좋아해요.",
+     "I really like coffee."
+    ],
+    [
+     "Joayo!",
+     "That's nice! / Good!",
+     "좋아요!\n\nFor an idea, a plan or a thing.",
+     "Jumare badae gayo. — Joayo!\n주말에 바다에 가요. — 좋아요!",
+     "I'm going to the sea at the weekend. — Nice!"
+    ],
+    [
+     "Jaemiisseoyo.",
+     "It's fun. / It's interesting.",
+     "재미있어요.\n\nFor books, films, people and ideas.",
+     "I chaek jaemiisseoyo.\n이 책 재미있어요.",
+     "This book is interesting."
+    ]
+   ]
+  },
+  {
+   "en": "I don't like it",
+   "fr": "안 좋아해요",
+   "desc": "Korean dislikes are usually softened.",
+   "cards": [
+    [
+     "Maeun eumsigeun byeollo an joahaeyo.",
+     "I don't really like spicy food.",
+     "매운 음식은 별로 안 좋아해요.\n\nByeollo + a negative: not really. The polite way to dislike.",
+     "Saengseoneun byeollo an joahaeyo.\n생선은 별로 안 좋아해요.",
+     "I don't really like fish."
+    ],
+    [
+     "Jal mon meogeoyo.",
+     "I can't really eat it.",
+     "잘 못 먹어요.\n\nA soft way to turn food down.",
+     "Maeun geon jal mon meogeoyo.\n매운 건 잘 못 먹어요.",
+     "I can't really eat spicy things."
+    ],
+    [
+     "Beollereul sireohaeyo.",
+     "I hate insects.",
+     "벌레를 싫어해요.\n\nSireohaeyo is strong. Fine for insects or rain; too blunt for someone's cooking.",
+     "Bireul sireohaeyo.\n비를 싫어해요.",
+     "I hate rain."
+    ],
+    [
+     "Geujeo geuraeyo.",
+     "It's so-so.",
+     "그저 그래요.\n\nNeither good nor bad.",
+     "Geu yeonghwa eottaesseoyo? — Geujeo geuraesseoyo.\n그 영화 어땠어요? — 그저 그랬어요.",
+     "How was the film? — So-so."
+    ]
+   ]
+  },
+  {
+   "en": "Asking and choosing",
+   "fr": "어느 쪽",
+   "desc": "Asking what people like, and saying which you prefer.",
+   "cards": [
+    [
+     "Gimchi joahaeyo?",
+     "Do you like kimchi?",
+     "김치 좋아해요?\n\nA thing + joahaeyo?: do you like…?",
+     "Gimchi joahaeyo? — Ne, jeongmal joahaeyo.\n김치 좋아해요? — 네, 정말 좋아해요.",
+     "Do you like kimchi? — Yes, I really like it."
+    ],
+    [
+     "Eotteon eumageul joahaeyo?",
+     "What kind of music do you like?",
+     "어떤 음악을 좋아해요?\n\nEotteon: what kind of.",
+     "Eotteon eumsigeul joahaeyo?\n어떤 음식을 좋아해요?",
+     "What kind of food do you like?"
+    ],
+    [
+     "Eoneu jjogi deo joayo?",
+     "Which do you prefer?",
+     "어느 쪽이 더 좋아요?\n\nOf two things: 'which side is better?'",
+     "Keopirang cha junge eoneu jjogi deo joayo?\n커피랑 차 중에 어느 쪽이 더 좋아요?",
+     "Which do you prefer, coffee or tea?"
+    ],
+    [
+     "Chaga deo joayo.",
+     "I prefer tea.",
+     "차가 더 좋아요.\n\nDeo: more.",
+     "Jeoneun yeoreumboda gyeouri deo joayo.\n저는 여름보다 겨울이 더 좋아요.",
+     "I prefer winter to summer."
+    ]
+   ]
+  }
+ ]
+}

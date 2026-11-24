@@ -1,0 +1,122 @@
+{
+ "title": "Asking the way",
+ "subtitle": "道をたずねる",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 8,
+ "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "related": [
+  "jap/listening/directions"
+ ],
+ "aud_dir": "jap/expressions/directions/",
+ "aud_ext": "mp3?v=2611241400",
+ "voice": {"narrator": "v91rKRL5eccBa78cK3jT"},
+ "categories": [
+  {
+   "en": "Where is it?",
+   "fr": "どこですか",
+   "desc": "Finding a place, and finding out where you are.",
+   "cards": [
+    [
+     "Eki wa doko desu ka.",
+     "Where is the station?",
+     "駅はどこですか。\n\nA place + wa doko desu ka: where is…?",
+     "Sumimasen, toire wa doko desu ka.\nすみません、トイレはどこですか。",
+     "Excuse me, where is the toilet?"
+    ],
+    [
+     "Kono chikaku ni konbini wa arimasu ka.",
+     "Is there a convenience store near here?",
+     "この近くにコンビニはありますか。\n\nKono chikaku ni: near here.",
+     "Kono chikaku ni ginkō wa arimasu ka.\nこの近くに銀行はありますか。",
+     "Is there a bank near here?"
+    ],
+    [
+     "Koko wa doko desu ka.",
+     "Where am I?",
+     "ここはどこですか。\n\n'Where is here?' Show your map as you ask.",
+     "Sumimasen, koko wa doko desu ka. Michi ni mayoimashita.\nすみません、ここはどこですか。道に迷いました。",
+     "Excuse me, where am I? I'm lost."
+    ],
+    [
+     "Tōi desu ka.",
+     "Is it far?",
+     "遠いですか。\n\nNear: chikai.",
+     "Koko kara tōi desu ka. — Iie, aruite go-fun desu.\nここから遠いですか。— いいえ、歩いて五分です。",
+     "Is it far from here? — No, five minutes on foot."
+    ]
+   ]
+  },
+  {
+   "en": "Understanding the answer",
+   "fr": "右・左",
+   "desc": "The four things you are most likely to be told.",
+   "cards": [
+    [
+     "Massugu itte kudasai.",
+     "Go straight ahead.",
+     "まっすぐ行ってください。\n\nMassugu: straight.",
+     "Kono michi o massugu itte kudasai.\nこの道をまっすぐ行ってください。",
+     "Go straight along this street."
+    ],
+    [
+     "Migi ni magatte kudasai.",
+     "Turn right.",
+     "右に曲がってください。\n\nLeft: hidari.",
+     "Tsugi no kado o hidari ni magatte kudasai.\n次の角を左に曲がってください。",
+     "Turn left at the next corner."
+    ],
+    [
+     "Shingō o watatte kudasai.",
+     "Cross at the traffic light.",
+     "信号を渡ってください。\n\nShingō: traffic light.",
+     "Ano shingō o watatte kudasai.\nあの信号を渡ってください。",
+     "Cross at that traffic light."
+    ],
+    [
+     "Sugu soko desu.",
+     "It's right there.",
+     "すぐそこです。\n\nSugu: right away, very near.",
+     "Yūbinkyoku wa sugu soko desu. Ginkō no tonari desu.\n郵便局はすぐそこです。銀行の隣です。",
+     "The post office is right there. It's next to the bank."
+    ]
+   ]
+  },
+  {
+   "en": "Trains and taxis",
+   "fr": "電車・タクシー",
+   "desc": "The right train, a ticket, and a taxi.",
+   "cards": [
+    [
+     "Kono densha wa Tōkyō ni ikimasu ka.",
+     "Does this train go to Tokyo?",
+     "この電車は東京に行きますか。\n\nAsk before you get on.",
+     "Kono basu wa kūkō ni ikimasu ka.\nこのバスは空港に行きますか。",
+     "Does this bus go to the airport?"
+    ],
+    [
+     "Kippu wa doko de kaemasu ka.",
+     "Where can I buy a ticket?",
+     "切符はどこで買えますか。\n\nKippu: ticket.",
+     "Sumimasen, kippu wa doko de kaemasu ka. — Asoko desu.\nすみません、切符はどこで買えますか。— あそこです。",
+     "Excuse me, where can I buy a ticket? — Over there."
+    ],
+    [
+     "Tsugi no eki wa doko desu ka.",
+     "What is the next station?",
+     "次の駅はどこですか。\n\nTsugi: next.",
+     "Tsugi no eki wa doko desu ka. — Shinjuku desu.\n次の駅はどこですか。— 新宿です。",
+     "What is the next station? — Shinjuku."
+    ],
+    [
+     "Koko made onegai shimasu.",
+     "To this place, please.",
+     "ここまでお願いします。\n\nIn a taxi: show the address on your phone.",
+     "Kono jūsho made onegai shimasu.\nこの住所までお願いします。",
+     "To this address, please."
+    ]
+   ]
+  }
+ ]
+}
