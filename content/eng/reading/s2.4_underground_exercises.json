@@ -1,0 +1,178 @@
+{
+ "title": "The world beneath our feet: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s2.4_underground",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Thick, strong roots help hold the tree in place.",
+     "answer": true
+    },
+    {
+     "q": "Most tree roots grow very deep.",
+     "answer": false
+    },
+    {
+     "q": "The organic layer is made of fallen leaves and tiny twigs.",
+     "answer": true
+    },
+    {
+     "q": "Topsoil is often light because it contains decayed plants.",
+     "answer": false
+    },
+    {
+     "q": "There are more roots and living creatures in the subsoil.",
+     "answer": false
+    },
+    {
+     "q": "Bedrock is solid rock beneath the soil.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What do the thin, tiny roots do?",
+     "options": [
+      "They dig tunnels",
+      "They make leaves",
+      "They take in water and nutrients"
+     ],
+     "answer": 2,
+     "why": "“These tiny roots take in water and nutrients from the soil.”"
+    },
+    {
+     "q": "What helps break down dead plants?",
+     "options": [
+      "Rocks and stones",
+      "Sunlight",
+      "Earthworms, fungi and tiny creatures"
+     ],
+     "answer": 2,
+     "why": "“Earthworms, fungi, and tiny creatures help break down dead plants.”"
+    },
+    {
+     "q": "How do earthworm tunnels help?",
+     "options": [
+      "They help air and water move underground",
+      "They make the soil warmer",
+      "They make the soil harder"
+     ],
+     "answer": 0,
+     "why": "“Their tunnels help air and water move underground.”"
+    },
+    {
+     "q": "What is the process that slowly breaks rocks apart called?",
+     "options": [
+      "Scattering",
+      "Weathering",
+      "Germination"
+     ],
+     "answer": 1,
+     "why": "“This process is called weathering.”"
+    },
+    {
+     "q": "What may bedrock be made of?",
+     "options": [
+      "Granite",
+      "Topsoil",
+      "Clay"
+     ],
+     "answer": 0,
+     "why": "“It may be made of granite, sandstone, limestone, or other rocks.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Birds sing in its",
+     "answer": "branches",
+     "after": "."
+    },
+    {
+     "before": "Nothing goes to",
+     "answer": "waste",
+     "after": "in nature!"
+    },
+    {
+     "before": "Topsoil is a",
+     "answer": "busy",
+     "after": "place!"
+    },
+    {
+     "before": "It contains minerals and sometimes a lot of",
+     "answer": "clay",
+     "after": "."
+    },
+    {
+     "before": "Over a very long time, weathered material can help form new",
+     "answer": "soil",
+     "after": "."
+    },
+    {
+     "before": "Some bedrock has",
+     "answer": "cracks",
+     "after": "where water can travel."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Under a tree there is a hidden world of roots, soil and rocks. The soil has layers: the organic layer, the topsoil, the subsoil and the parent material. At the bottom is the bedrock, which is solid rock."
+    },
+    {
+     "q": "What do earthworms do in the soil?",
+     "model": "They help break down dead plants, and they dig tunnels that help air and water move underground."
+    },
+    {
+     "q": "How is the subsoil different from the topsoil?",
+     "model": "The topsoil is often dark and has many tiny roots. The subsoil is often lighter. It has minerals and clay, and fewer roots and living creatures."
+    },
+    {
+     "q": "What slowly breaks rocks apart?",
+     "model": "Rainwater, temperature changes and living things."
+    },
+    {
+     "q": "Have you ever dug a hole in a garden? What did you find?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the layers in the order of the text, from the top down.",
+   "items": [
+    "The organic layer of fallen leaves and twigs",
+    "The dark topsoil",
+    "The lighter subsoil",
+    "The parent material with broken rocks",
+    "The solid bedrock"
+   ],
+   "start": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ]
+  }
+ ]
+}

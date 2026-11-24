@@ -1,0 +1,178 @@
+{
+ "title": "Prairie Dog Town: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s2.1_prairieDog",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Prairie dogs dig with their strong teeth.",
+     "answer": false
+    },
+    {
+     "q": "Prairie Dog Town has escape tunnels.",
+     "answer": true
+    },
+    {
+     "q": "The guard stood on its hind legs to watch for danger.",
+     "answer": true
+    },
+    {
+     "q": "Prairie dogs use colors to warn each other.",
+     "answer": false
+    },
+    {
+     "q": "A family group of prairie dogs is called a coterie.",
+     "answer": true
+    },
+    {
+     "q": "Prairie dogs eat insects, roots, and seeds.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where did the prairie dogs peek out from?",
+     "options": [
+      "Trees",
+      "Holes in the ground",
+      "Rocks"
+     ],
+     "answer": 1,
+     "why": "“Little brown animals peeked out from holes in the ground.”"
+    },
+    {
+     "q": "What were some prairie dogs pushing out of their burrows?",
+     "options": [
+      "Dirt",
+      "Water",
+      "Grass"
+     ],
+     "answer": 0,
+     "why": "“Some were pushing dirt out of their burrows.”"
+    },
+    {
+     "q": "Which animals might be dangerous for prairie dogs?",
+     "options": [
+      "A hawk or a coyote",
+      "A cow or a horse",
+      "A frog or a fish"
+     ],
+     "answer": 0,
+     "why": "“Maybe a hawk was flying above. Maybe a coyote was nearby.”"
+    },
+    {
+     "q": "What did some prairie dogs do when they heard the call?",
+     "options": [
+      "They came out to play",
+      "They ran to their burrows",
+      "They called back"
+     ],
+     "answer": 1,
+     "why": "“Some ran to their burrows.”"
+    },
+    {
+     "q": "Who cares for the babies?",
+     "options": [
+      "The guard only",
+      "Other animals",
+      "The adults"
+     ],
+     "answer": 2,
+     "why": "“The adults care for the babies.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "The grass moved in the",
+     "answer": "wind",
+     "after": "."
+    },
+    {
+     "before": "It was a whole little",
+     "answer": "town",
+     "after": "!"
+    },
+    {
+     "before": "We would see little chambers for",
+     "answer": "sleeping",
+     "after": "."
+    },
+    {
+     "before": "It was watching for",
+     "answer": "danger",
+     "after": "."
+    },
+    {
+     "before": "Suddenly, the guard gave a",
+     "answer": "sharp",
+     "after": "call."
+    },
+    {
+     "before": "They live in family",
+     "answer": "groups",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Prairie dogs live under the prairie in a town of tunnels and chambers. A guard watches for danger and calls to warn the others. They live in family groups, and their burrows help other animals too."
+    },
+    {
+     "q": "What would we see if we could look under Prairie Dog Town?",
+     "model": "We would see tunnels going in many directions, chambers for sleeping, safe places for babies and escape tunnels."
+    },
+    {
+     "q": "What does the guard do?",
+     "model": "It stands on its hind legs and watches for danger. Then it gives a sharp call to warn the others."
+    },
+    {
+     "q": "How does Prairie Dog Town help other animals?",
+     "model": "Sometimes other animals use old burrows for shelter."
+    },
+    {
+     "q": "Who keeps you safe at home and at school? How?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Little brown animals peeked out from holes",
+    "Some prairie dogs were digging with their claws",
+    "One prairie dog stood very still and looked around",
+    "The guard gave a sharp call",
+    "Some prairie dogs ran to their burrows"
+   ],
+   "start": [
+    2,
+    0,
+    1,
+    4,
+    3
+   ]
+  }
+ ]
+}

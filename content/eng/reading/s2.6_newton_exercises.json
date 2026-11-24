@@ -1,0 +1,178 @@
+{
+ "title": "Newton's apple: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s2.6_newton",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Isaac Newton lived in a quiet English village.",
+     "answer": true
+    },
+    {
+     "q": "The apple landed on a hard rock.",
+     "answer": false
+    },
+    {
+     "q": "Isaac picked up the apple and let it go.",
+     "answer": true
+    },
+    {
+     "q": "Gravity pulls objects away from the Earth.",
+     "answer": false
+    },
+    {
+     "q": "The Moon crashed into the Earth.",
+     "answer": false
+    },
+    {
+     "q": "Isaac spent many years studying and calculating.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where was Isaac sitting when the apple fell?",
+     "options": [
+      "Beneath an apple tree",
+      "By a river",
+      "In his house"
+     ],
+     "answer": 0,
+     "why": "“One sunny afternoon, he sat beneath an apple tree, enjoying the peaceful garden.”"
+    },
+    {
+     "q": "What do we call the force that pulls objects toward the Earth?",
+     "options": [
+      "Refraction",
+      "Gravity",
+      "Rotation"
+     ],
+     "answer": 1,
+     "why": "“Today, we call this force gravity.”"
+    },
+    {
+     "q": "What did Isaac look at that evening?",
+     "options": [
+      "The Sun",
+      "The stars",
+      "The Moon"
+     ],
+     "answer": 2,
+     "why": "“That evening, Isaac looked up at the beautiful Moon.”"
+    },
+    {
+     "q": "How is the Moon moving through space?",
+     "options": [
+      "Up and down",
+      "Sideways",
+      "Backward"
+     ],
+     "answer": 1,
+     "why": "“The Moon is moving sideways through space.”"
+    },
+    {
+     "q": "What did Isaac want to know?",
+     "options": [
+      "How big the Moon is",
+      "How to grow apples",
+      "Why apples fall"
+     ],
+     "answer": 2,
+     "why": "“But Isaac wanted to know why they fell.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Isaac loved asking",
+     "answer": "questions",
+     "after": "about the world around him."
+    },
+    {
+     "before": "Suddenly, a",
+     "answer": "ripe",
+     "after": "red apple fell from the tree."
+    },
+    {
+     "before": "He picked up the apple and held it",
+     "answer": "high",
+     "after": "."
+    },
+    {
+     "before": "Isaac began thinking about an",
+     "answer": "invisible",
+     "after": "force."
+    },
+    {
+     "before": "That is how the Moon stays in",
+     "answer": "orbit",
+     "after": "around Earth."
+    },
+    {
+     "before": "He developed a mathematical",
+     "answer": "law",
+     "after": "called universal gravitation."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Isaac Newton saw an apple fall and wondered why. He thought that an invisible force, gravity, pulls objects toward the Earth. Later, he understood that gravity also keeps the Moon in orbit around the Earth."
+    },
+    {
+     "q": "What questions did Isaac ask when the apple fell?",
+     "model": "\"Why did the apple fall down? Why didn't it fly up into the sky?\""
+    },
+    {
+     "q": "Why doesn't the Moon crash into the Earth?",
+     "model": "The Moon is moving sideways through space while gravity pulls it inward. It keeps falling toward the Earth, but keeps missing it."
+    },
+    {
+     "q": "What does the same force help explain?",
+     "model": "It helps explain the movements of planets and their moons."
+    },
+    {
+     "q": "What is a question about the world that you would like to answer?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Isaac sat beneath an apple tree",
+    "A ripe red apple fell on the grass",
+    "Isaac held the apple high and let it go",
+    "Isaac looked at the Moon that evening",
+    "Isaac spent many years studying and calculating"
+   ],
+   "start": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ]
+  }
+ ]
+}

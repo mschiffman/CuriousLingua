@@ -1,0 +1,178 @@
+{
+ "title": "How seeds grow: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.3_seeds",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Inside a seed is a baby plant.",
+     "answer": true
+    },
+    {
+     "q": "A seed needs water, air, and cold to grow.",
+     "answer": false
+    },
+    {
+     "q": "The first part to come out of the seed is the leaf.",
+     "answer": false
+    },
+    {
+     "q": "The root takes in water and nutrients.",
+     "answer": true
+    },
+    {
+     "q": "The shoot grows downward into the soil.",
+     "answer": false
+    },
+    {
+     "q": "The young plant uses sunlight to make food.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What is inside a seed?",
+     "options": [
+      "Soil",
+      "Water",
+      "A baby plant"
+     ],
+     "answer": 2,
+     "why": "“Inside the seed is a baby plant.”"
+    },
+    {
+     "q": "What is the first step called?",
+     "options": [
+      "Photosynthesis",
+      "Germination",
+      "Rotation"
+     ],
+     "answer": 1,
+     "why": "“This first step is called germination.”"
+    },
+    {
+     "q": "Which way does the root grow?",
+     "options": [
+      "Downward",
+      "Sideways",
+      "Upward"
+     ],
+     "answer": 0,
+     "why": "“The root grows downward into the soil.”"
+    },
+    {
+     "q": "What does the root help the baby plant do?",
+     "options": [
+      "Open its leaves",
+      "Make food",
+      "Stay in place"
+     ],
+     "answer": 2,
+     "why": "“It helps the baby plant stay in place.”"
+    },
+    {
+     "q": "What is the young plant called when it is above the ground?",
+     "options": [
+      "A seedling",
+      "A root",
+      "A seed"
+     ],
+     "answer": 0,
+     "why": "“Now the seedling is above the ground.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "But a seed is",
+     "answer": "alive",
+     "after": "!"
+    },
+    {
+     "before": "It needs water, air, and",
+     "answer": "warmth",
+     "after": "."
+    },
+    {
+     "before": "The root also takes in water and",
+     "answer": "nutrients",
+     "after": "."
+    },
+    {
+     "before": "The stem begins to grow",
+     "answer": "taller",
+     "after": "."
+    },
+    {
+     "before": "Now the young plant can use",
+     "answer": "sunlight",
+     "after": "to make food."
+    },
+    {
+     "before": "More",
+     "answer": "leaves",
+     "after": "appear."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A seed has a baby plant inside it, and it needs water, air and warmth to grow. First the root grows down, and then the shoot grows up through the soil. The leaves open, and the plant uses sunlight to make food."
+    },
+    {
+     "q": "What does a seed need to grow?",
+     "model": "It needs water, air and warmth."
+    },
+    {
+     "q": "What does the root do?",
+     "model": "It grows down into the soil. It holds the baby plant in place, and it takes in water and nutrients."
+    },
+    {
+     "q": "What can the young plant do when its first leaves open?",
+     "model": "It can use sunlight to make food. This helps it grow stronger."
+    },
+    {
+     "q": "Have you ever planted a seed? What did you plant, and what happened?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the steps in the order of the text.",
+   "items": [
+    "The seed gets water and wakes up",
+    "The root grows down into the soil",
+    "The shoot pushes up through the soil",
+    "The first small leaves open",
+    "The plant grows bigger and stronger"
+   ],
+   "start": [
+    3,
+    2,
+    4,
+    1,
+    0
+   ]
+  }
+ ]
+}

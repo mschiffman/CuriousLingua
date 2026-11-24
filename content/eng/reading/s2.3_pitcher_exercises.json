@@ -1,0 +1,178 @@
+{
+ "title": "The pitcher plant: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s2.3_pitcher",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The leaves of a pitcher plant are shaped like deep cups.",
+     "answer": true
+    },
+    {
+     "q": "Pitcher plants often grow in rich soil.",
+     "answer": false
+    },
+    {
+     "q": "Some pitcher plants make sweet nectar.",
+     "answer": true
+    },
+    {
+     "q": "The edge of the pitcher is sticky.",
+     "answer": false
+    },
+    {
+     "q": "At the bottom of the pitcher, there is sand.",
+     "answer": false
+    },
+    {
+     "q": "The plant uses special juices to break the insect down.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What are the deep cups of this plant called?",
+     "options": [
+      "Pitchers",
+      "Flowers",
+      "Bowls"
+     ],
+     "answer": 0,
+     "why": "“These cups are called pitchers.”"
+    },
+    {
+     "q": "Why does the pitcher plant catch insects?",
+     "options": [
+      "Because it has no water",
+      "Because it has no leaves",
+      "Because the soil does not give it enough nutrients"
+     ],
+     "answer": 2,
+     "why": "“The soil does not give them enough nutrients.”"
+    },
+    {
+     "q": "How does the plant attract insects?",
+     "options": [
+      "With moving leaves",
+      "With bright colors and a sweet smell",
+      "With loud sounds"
+     ],
+     "answer": 1,
+     "why": "“The plant may have bright colors. It may smell sweet.”"
+    },
+    {
+     "q": "Why can't the insect get out?",
+     "options": [
+      "The plant holds it with its leaves",
+      "The walls are smooth and hard to climb",
+      "The pitcher closes like a box"
+     ],
+     "answer": 1,
+     "why": "“Inside, the walls are smooth and hard to climb.”"
+    },
+    {
+     "q": "What can a pitcher plant also be for some very small animals?",
+     "options": [
+      "A tiny home",
+      "A big pond",
+      "A bed of flowers"
+     ],
+     "answer": 0,
+     "why": "“Sometimes it can also be a tiny home.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "It is green and",
+     "answer": "beautiful",
+     "after": "."
+    },
+    {
+     "before": "It catches",
+     "answer": "insects",
+     "after": "!"
+    },
+    {
+     "before": "It may smell",
+     "answer": "sweet",
+     "after": "."
+    },
+    {
+     "before": "The insect lands on the",
+     "answer": "edge",
+     "after": "of the pitcher."
+    },
+    {
+     "before": "These hairs make",
+     "answer": "climbing",
+     "after": "even harder."
+    },
+    {
+     "before": "This helps it grow",
+     "answer": "strong",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "The pitcher plant grows in poor soil, so it catches insects to get nutrients. It attracts them with bright colors and a sweet smell, and they fall into its slippery pitcher. Then the plant digests them and absorbs the nutrients."
+    },
+    {
+     "q": "What happens when an insect lands on the edge of the pitcher?",
+     "model": "The edge is slippery, so the insect loses its footing and falls into the pitcher."
+    },
+    {
+     "q": "How does the plant get nutrients from the insect?",
+     "model": "It uses special juices to break the insect down. The insect becomes nutrients, and the plant absorbs them."
+    },
+    {
+     "q": "Why is the pitcher plant \"not only a trap\"?",
+     "model": "Because sometimes it can also be a tiny home for some very small animals."
+    },
+    {
+     "q": "Which plant or animal do you find the most surprising? Why?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the steps in the order of the text.",
+   "items": [
+    "The plant attracts an insect with color and sweetness",
+    "The insect lands on the slippery edge",
+    "The insect falls into the pitcher",
+    "The plant breaks the insect down with special juices",
+    "The plant absorbs the nutrients"
+   ],
+   "start": [
+    3,
+    4,
+    0,
+    1,
+    2
+   ]
+  }
+ ]
+}

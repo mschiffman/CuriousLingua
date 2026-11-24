@@ -1,0 +1,178 @@
+{
+ "title": "Why the sky is blue: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.1_sky",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Sunlight looks white.",
+     "answer": true
+    },
+    {
+     "q": "Sunlight has only one color inside it.",
+     "answer": false
+    },
+    {
+     "q": "We can see the air around the Earth.",
+     "answer": false
+    },
+    {
+     "q": "The air has very tiny molecules.",
+     "answer": true
+    },
+    {
+     "q": "In the evening, the sky can be orange, pink, or red.",
+     "answer": true
+    },
+    {
+     "q": "When the Sun is low, sunlight travels through less air.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What gives us light?",
+     "options": [
+      "The Moon",
+      "The air",
+      "The Sun"
+     ],
+     "answer": 2,
+     "why": "“The Sun gives us light.”"
+    },
+    {
+     "q": "What does sunlight have inside it?",
+     "options": [
+      "Only blue",
+      "Many colors",
+      "Tiny molecules"
+     ],
+     "answer": 1,
+     "why": "“Sunlight has many colors inside it!”"
+    },
+    {
+     "q": "What do scientists call the spreading of blue light?",
+     "options": [
+      "Shining",
+      "Scattering",
+      "Bouncing"
+     ],
+     "answer": 1,
+     "why": "“Scientists call this scattering.”"
+    },
+    {
+     "q": "Which light spreads in many directions when sunlight hits the air?",
+     "options": [
+      "Red light",
+      "White light",
+      "Blue light"
+     ],
+     "answer": 2,
+     "why": "“When sunlight hits them, blue light spreads in many directions.”"
+    },
+    {
+     "q": "Why can sunsets look red?",
+     "options": [
+      "Because much of the blue light scatters away",
+      "Because the Sun is red in the evening",
+      "Because there is no air in the evening"
+     ],
+     "answer": 0,
+     "why": "“Because much of the blue light scatters away.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Sunlight looks",
+     "answer": "white",
+     "after": "."
+    },
+    {
+     "before": "All these colors are in",
+     "answer": "sunlight",
+     "after": "."
+    },
+    {
+     "before": "The Earth has",
+     "answer": "air",
+     "after": "all around it."
+    },
+    {
+     "before": "The air has very tiny",
+     "answer": "molecules",
+     "after": "."
+    },
+    {
+     "before": "Sunlight travels through more air when the Sun is",
+     "answer": "low",
+     "after": "."
+    },
+    {
+     "before": "Because air scatters",
+     "answer": "blue",
+     "after": "light!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Sunlight looks white, but it has many colors inside it. When sunlight hits the tiny molecules in the air, blue light spreads in many directions. That is why the sky looks blue."
+    },
+    {
+     "q": "What colors are in sunlight?",
+     "model": "Red, orange, yellow, green, blue and violet."
+    },
+    {
+     "q": "What is scattering?",
+     "model": "When sunlight hits the tiny molecules in the air, blue light spreads in many directions. Scientists call this scattering."
+    },
+    {
+     "q": "Why can the sky be orange, pink or red in the evening?",
+     "model": "When the Sun is low, sunlight travels through more air. Much of the blue light scatters away before it reaches us."
+    },
+    {
+     "q": "What color is the sky where you live today? What color is it in the evening?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the ideas in the order of the text.",
+   "items": [
+    "Sunlight looks white but has many colors",
+    "Sunlight travels through the air",
+    "Tiny molecules in the air scatter blue light",
+    "The sky looks blue",
+    "In the evening, much of the blue light scatters away"
+   ],
+   "start": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ]
+  }
+ ]
+}

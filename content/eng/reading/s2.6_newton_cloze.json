@@ -1,0 +1,77 @@
+{
+ "title": "Newton's apple: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s2.6_newton",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: crashed · curious · garden · idea · picked · pull · quiet · simple · soft · space · village · wonder",
+   "items": [
+    {
+     "before": "We grow tomatoes and beans in our",
+     "answer": "garden",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "wonder",
+     "after": "what my present is. I can't wait to open it!"
+    },
+    {
+     "before": "Please be",
+     "answer": "quiet",
+     "after": ". The baby is sleeping."
+    },
+    {
+     "before": "Astronauts travel into",
+     "answer": "space",
+     "after": "in a rocket."
+    },
+    {
+     "before": "Don't",
+     "answer": "pull",
+     "after": "the cat's tail!"
+    },
+    {
+     "before": "My little sister is very",
+     "answer": "curious",
+     "after": ". She asks \"Why?\" all day!"
+    },
+    {
+     "before": "Let's go to the beach! That's a great",
+     "answer": "idea",
+     "after": "!"
+    },
+    {
+     "before": "The car didn't stop and",
+     "answer": "crashed",
+     "after": "into a tree."
+    },
+    {
+     "before": "This pillow is very",
+     "answer": "soft",
+     "after": ". I sleep well on it."
+    },
+    {
+     "before": "My cousins live in a small",
+     "answer": "village",
+     "after": "in the mountains."
+    },
+    {
+     "before": "She",
+     "answer": "picked",
+     "after": "up her pencil from the floor."
+    },
+    {
+     "before": "The test was",
+     "answer": "simple",
+     "after": ". I finished it in ten minutes."
+    }
+   ]
+  }
+ ]
+}

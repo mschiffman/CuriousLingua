@@ -1,0 +1,77 @@
+{
+ "title": "Day and night: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.5_dayNight",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bright · full · happen · live · Moon · move · only · place · see · side · time · whole",
+   "items": [
+    {
+     "before": "Tonight the",
+     "answer": "Moon",
+     "after": "is big and round in the sky."
+    },
+    {
+     "before": "We",
+     "answer": "live",
+     "after": "in a big city near the river."
+    },
+    {
+     "before": "She ate the",
+     "answer": "whole",
+     "after": "pizza by herself!"
+    },
+    {
+     "before": "The sun is very",
+     "answer": "bright",
+     "after": "today. Wear your sunglasses."
+    },
+    {
+     "before": "What will",
+     "answer": "happen",
+     "after": "if I press this button?"
+    },
+    {
+     "before": "My bag is",
+     "answer": "full",
+     "after": "of books."
+    },
+    {
+     "before": "Please sit on the other",
+     "answer": "side",
+     "after": "of the table."
+    },
+    {
+     "before": "Don't",
+     "answer": "move",
+     "after": "! I'm taking a photo."
+    },
+    {
+     "before": "She is an",
+     "answer": "only",
+     "after": "child. She has no brothers or sisters."
+    },
+    {
+     "before": "This park is a nice",
+     "answer": "place",
+     "after": "to play."
+    },
+    {
+     "before": "Can you",
+     "answer": "see",
+     "after": "the boat on the river?"
+    },
+    {
+     "before": "What",
+     "answer": "time",
+     "after": "is it? It's three o'clock."
+    }
+   ]
+  }
+ ]
+}

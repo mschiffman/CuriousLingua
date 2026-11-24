@@ -1,0 +1,178 @@
+{
+ "title": "How plants make food: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.4_plantFood",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Plants eat like people and animals.",
+     "answer": false
+    },
+    {
+     "q": "The Sun gives plants energy.",
+     "answer": true
+    },
+    {
+     "q": "Roots take in water from the soil.",
+     "answer": true
+    },
+    {
+     "q": "Plants take in a gas called oxygen from the air to make food.",
+     "answer": false
+    },
+    {
+     "q": "The food that plants make is sugar.",
+     "answer": true
+    },
+    {
+     "q": "Plants release oxygen into the soil.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What do leaves catch during the day?",
+     "options": [
+      "Sunlight",
+      "Insects",
+      "Rain"
+     ],
+     "answer": 0,
+     "why": "“Leaves catch sunlight during the day.”"
+    },
+    {
+     "q": "How does carbon dioxide get into the plant?",
+     "options": [
+      "Through the flowers",
+      "Through tiny openings in the leaves",
+      "Through the roots"
+     ],
+     "answer": 1,
+     "why": "“Tiny openings in the leaves let this gas come in.”"
+    },
+    {
+     "q": "What food does the plant make?",
+     "options": [
+      "Honey",
+      "Salt",
+      "Sugar"
+     ],
+     "answer": 2,
+     "why": "“Then the plant makes sugar, which is its food.”"
+    },
+    {
+     "q": "What is this process called?",
+     "options": [
+      "Germination",
+      "Rotation",
+      "Photosynthesis"
+     ],
+     "answer": 2,
+     "why": "“This process is called photosynthesis.”"
+    },
+    {
+     "q": "What else do plants make when they make food?",
+     "options": [
+      "Oxygen",
+      "Water",
+      "Soil"
+     ],
+     "answer": 0,
+     "why": "“When plants make food, they also make oxygen.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "They need",
+     "answer": "food",
+     "after": "to live and grow."
+    },
+    {
+     "before": "The Sun gives plants",
+     "answer": "energy",
+     "after": "."
+    },
+    {
+     "before": "Then the water and nutrients move up through the",
+     "answer": "stem",
+     "after": "."
+    },
+    {
+     "before": "They take in a",
+     "answer": "gas",
+     "after": "called carbon dioxide."
+    },
+    {
+     "before": "This process is called",
+     "answer": "photosynthesis",
+     "after": "."
+    },
+    {
+     "before": "People and animals need oxygen to",
+     "answer": "breathe",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Plants make their own food. They use sunlight, water, nutrients and carbon dioxide to make sugar. This is called photosynthesis, and it also makes oxygen."
+    },
+    {
+     "q": "Where do plants get water and nutrients?",
+     "model": "From the soil. Their roots take them in."
+    },
+    {
+     "q": "What four things do plants need to make food?",
+     "model": "Sunlight, water, nutrients and carbon dioxide."
+    },
+    {
+     "q": "How do plants help people and animals?",
+     "model": "They release oxygen into the air, and people and animals need oxygen to breathe."
+    },
+    {
+     "q": "Do you have plants at home or at school? What do you do to help them grow?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the ideas in the order of the text.",
+   "items": [
+    "Leaves catch sunlight",
+    "Roots take in water and nutrients from the soil",
+    "Carbon dioxide comes in through tiny openings in the leaves",
+    "The plant makes sugar",
+    "The plant releases oxygen into the air"
+   ],
+   "start": [
+    3,
+    4,
+    1,
+    2,
+    0
+   ]
+  }
+ ]
+}

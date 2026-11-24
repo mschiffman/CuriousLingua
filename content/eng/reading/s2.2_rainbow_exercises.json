@@ -1,0 +1,178 @@
+{
+ "title": "The rainbow: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s2.2_rainbow",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "A rainbow needs sunlight and tiny drops of water.",
+     "answer": true
+    },
+    {
+     "q": "Sunlight has only one color.",
+     "answer": false
+    },
+    {
+     "q": "When light moves from air into water, it bends.",
+     "answer": true
+    },
+    {
+     "q": "All the colors bend by the same amount.",
+     "answer": false
+    },
+    {
+     "q": "The light from one raindrop makes a whole rainbow.",
+     "answer": false
+    },
+    {
+     "q": "To see a rainbow, look toward the raindrops in front of you.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What happened just before the rainbow appeared?",
+     "options": [
+      "The Sun went down",
+      "It started to snow",
+      "The rain stopped"
+     ],
+     "answer": 2,
+     "why": "“The rain has stopped.”"
+    },
+    {
+     "q": "Why do we usually see sunlight as white?",
+     "options": [
+      "Because the colors travel together",
+      "Because it has no colors",
+      "Because the air is white"
+     ],
+     "answer": 0,
+     "why": "“Usually, these colors travel together. That is why we see white light.”"
+    },
+    {
+     "q": "What do scientists call the bending of light?",
+     "options": [
+      "Reflection",
+      "Refraction",
+      "Scattering"
+     ],
+     "answer": 1,
+     "why": "“Scientists call this bending refraction.”"
+    },
+    {
+     "q": "Where does some of the light reflect inside the raindrop?",
+     "options": [
+      "Off the top of the raindrop",
+      "Off the front of the raindrop",
+      "Off the back of the raindrop"
+     ],
+     "answer": 2,
+     "why": "“Some of the light reflects off the back of the raindrop.”"
+    },
+    {
+     "q": "Why does a rainbow look like an arch?",
+     "options": [
+      "Because we usually see only part of a circle",
+      "Because the Sun is round",
+      "Because raindrops are round"
+     ],
+     "answer": 0,
+     "why": "“From the ground, we usually see only part of that circle.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Suddenly, a beautiful rainbow",
+     "answer": "appears",
+     "after": "in the sky!"
+    },
+    {
+     "before": "It needs sunlight and tiny",
+     "answer": "drops",
+     "after": "of water."
+    },
+    {
+     "before": "Sunlight looks",
+     "answer": "white",
+     "after": "to our eyes."
+    },
+    {
+     "before": "As the light moves from air into water, it",
+     "answer": "bends",
+     "after": "."
+    },
+    {
+     "before": "But there can be",
+     "answer": "millions",
+     "after": "of raindrops in the sky!"
+    },
+    {
+     "before": "Have you noticed that rainbows look like big",
+     "answer": "arches",
+     "after": "?"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A rainbow needs sunlight and tiny drops of water. Inside each raindrop, the sunlight bends, reflects and separates into colors. The light from millions of raindrops makes a big colored arch in the sky."
+    },
+    {
+     "q": "Which colors are part of sunlight?",
+     "model": "Red, orange, yellow, green, blue and violet."
+    },
+    {
+     "q": "What happens to sunlight inside a raindrop?",
+     "model": "It bends when it enters the drop. Some of it reflects off the back of the drop. It bends again when it leaves, and the colors spread apart."
+    },
+    {
+     "q": "What should you do to see a rainbow?",
+     "model": "Look for sunshine while rain is falling in the distance. Stand with the Sun behind you and look toward the raindrops in front of you."
+    },
+    {
+     "q": "Have you ever seen a rainbow? Where and when?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the steps in the order of the text.",
+   "items": [
+    "A ray of sunlight enters a raindrop",
+    "The light bends as it moves into the water",
+    "Some light reflects off the back of the raindrop",
+    "The light leaves the drop and bends once more",
+    "Colored light from many drops reaches our eyes"
+   ],
+   "start": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ]
+  }
+ ]
+}

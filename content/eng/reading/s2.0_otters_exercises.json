@@ -1,0 +1,178 @@
+{
+ "title": "The river otters: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s2.0_otters",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "River otters have thin brown fur.",
+     "answer": false
+    },
+    {
+     "q": "Otters can close their ears and nose underwater.",
+     "answer": true
+    },
+    {
+     "q": "Fish are one of the otter's favorite foods.",
+     "answer": true
+    },
+    {
+     "q": "Otters often rest in hidden places far from the water.",
+     "answer": false
+    },
+    {
+     "q": "When baby otters are born, their eyes are open.",
+     "answer": false
+    },
+    {
+     "q": "Playing helps young otters learn useful skills.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What helps an otter paddle?",
+     "options": [
+      "Its ears",
+      "Its whiskers",
+      "Its webbed feet"
+     ],
+     "answer": 2,
+     "why": "“Its webbed feet help it paddle.”"
+    },
+    {
+     "q": "What helps an otter find food underwater?",
+     "options": [
+      "Its thick fur",
+      "Its long tail",
+      "Its sensitive whiskers"
+     ],
+     "answer": 2,
+     "why": "“Its sensitive whiskers help it find food underwater.”"
+    },
+    {
+     "q": "Where do otters sometimes slide?",
+     "options": [
+      "Down rocks",
+      "Down muddy riverbanks",
+      "Down trees"
+     ],
+     "answer": 1,
+     "why": "“Sometimes, they slide down muddy riverbanks.”"
+    },
+    {
+     "q": "What are an otter's safe resting places called?",
+     "options": [
+      "Nests",
+      "Dens",
+      "Lodges"
+     ],
+     "answer": 1,
+     "why": "“These safe places are called dens.”"
+    },
+    {
+     "q": "What are baby otters called?",
+     "options": [
+      "Pups",
+      "Cubs",
+      "Kits"
+     ],
+     "answer": 0,
+     "why": "“Baby otters are called pups.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "They have long bodies, short legs, and thick brown",
+     "answer": "fur",
+     "after": "."
+    },
+    {
+     "before": "Its strong",
+     "answer": "tail",
+     "after": "helps it swim and turn."
+    },
+    {
+     "before": "Look! It has caught a",
+     "answer": "fish",
+     "after": "!"
+    },
+    {
+     "before": "They",
+     "answer": "chase",
+     "after": "one another through the water."
+    },
+    {
+     "before": "Their",
+     "answer": "mother",
+     "after": "keeps them warm and safe."
+    },
+    {
+     "before": "Playing helps them learn useful",
+     "answer": "skills",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "River otters are playful animals with long bodies and thick brown fur. They are excellent swimmers and use their whiskers to find food, like fish. They rest in dens, care for their pups and love to play."
+    },
+    {
+     "q": "How is an otter's body good for swimming?",
+     "model": "Its webbed feet help it paddle, and its strong tail helps it swim and turn. It can close its ears and nose underwater."
+    },
+    {
+     "q": "Where do river otters rest?",
+     "model": "In hidden places near the water, like hollow logs, holes in riverbanks or old beaver homes. These places are called dens."
+    },
+    {
+     "q": "Why is playing important for young otters?",
+     "model": "Playing helps them learn useful skills, like swimming and catching food."
+    },
+    {
+     "q": "What games do you like to play with your friends?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the ideas in the order of the text.",
+   "items": [
+    "Otters swim with their webbed feet and strong tail",
+    "The otter catches a fish for dinner",
+    "Otters slide down muddy riverbanks",
+    "Otters rest in hidden places called dens",
+    "The pups learn how to swim"
+   ],
+   "start": [
+    2,
+    4,
+    1,
+    0,
+    3
+   ]
+  }
+ ]
+}

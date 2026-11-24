@@ -1,0 +1,77 @@
+{
+ "title": "Why the sky is blue: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.1_sky",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: color · direction · evening · hit · light · look · orange · rainbow · scientist · spread · tiny · travels",
+   "items": [
+    {
+     "before": "After the rain, we saw a",
+     "answer": "rainbow",
+     "after": "over the mountains."
+    },
+    {
+     "before": "",
+     "answer": "Look",
+     "after": "at that big bird in the tree!"
+    },
+    {
+     "before": "An ant is a",
+     "answer": "tiny",
+     "after": "insect."
+    },
+    {
+     "before": "The",
+     "answer": "scientist",
+     "after": "studies small animals with a microscope."
+    },
+    {
+     "before": "My aunt",
+     "answer": "travels",
+     "after": "to work by train every day."
+    },
+    {
+     "before": "What is your favorite",
+     "answer": "color",
+     "after": "? Mine is green."
+    },
+    {
+     "before": "We eat dinner at seven o'clock in the",
+     "answer": "evening",
+     "after": "."
+    },
+    {
+     "before": "Be careful! Don't",
+     "answer": "hit",
+     "after": "the window with the ball."
+    },
+    {
+     "before": "Which",
+     "answer": "direction",
+     "after": "is the station? Left or right?"
+    },
+    {
+     "before": "",
+     "answer": "Spread",
+     "after": "the butter on your bread with a knife."
+    },
+    {
+     "before": "Carrots and pumpkins are",
+     "answer": "orange",
+     "after": "."
+    },
+    {
+     "before": "It's dark in here. Please turn on the",
+     "answer": "light",
+     "after": "."
+    }
+   ]
+  }
+ ]
+}

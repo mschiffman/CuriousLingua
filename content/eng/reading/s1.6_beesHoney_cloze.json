@@ -1,0 +1,77 @@
+{
+ "title": "How bees make honey: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.6_beesHoney",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: add · collect · cover · different · fly · honey · land · liquid · pass · sweet · thick · thin",
+   "items": [
+    {
+     "before": "Milk is a white",
+     "answer": "liquid",
+     "after": "."
+    },
+    {
+     "before": "Can you",
+     "answer": "pass",
+     "after": "me the salt, please?"
+    },
+    {
+     "before": "Mangoes are very",
+     "answer": "sweet",
+     "after": "in the hot season."
+    },
+    {
+     "before": "Birds can",
+     "answer": "fly",
+     "after": ", but penguins can't."
+    },
+    {
+     "before": "The plane will",
+     "answer": "land",
+     "after": "at the airport at six o'clock."
+    },
+    {
+     "before": "In winter, I wear a",
+     "answer": "thick",
+     "after": "coat."
+    },
+    {
+     "before": "",
+     "answer": "Add",
+     "after": "some salt to the soup."
+    },
+    {
+     "before": "I put",
+     "answer": "honey",
+     "after": "in my tea instead of sugar."
+    },
+    {
+     "before": "This book has only 20 pages. It is very",
+     "answer": "thin",
+     "after": "."
+    },
+    {
+     "before": "My brother likes to",
+     "answer": "collect",
+     "after": "old coins."
+    },
+    {
+     "before": "My sister and I look very",
+     "answer": "different",
+     "after": ": she is tall and I am short."
+    },
+    {
+     "before": "",
+     "answer": "Cover",
+     "after": "your mouth when you cough."
+    }
+   ]
+  }
+ ]
+}

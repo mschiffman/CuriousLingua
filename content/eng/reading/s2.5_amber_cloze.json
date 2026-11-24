@@ -1,0 +1,77 @@
+{
+ "title": "Amber: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s2.5_amber",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: amber · ancient · bark · discovered · harden · prehistoric · preserve · resin · sticky · time capsule · ultraviolet light · wound",
+   "items": [
+    {
+     "before": "Her necklace is made of golden",
+     "answer": "amber",
+     "after": "with a tiny insect inside."
+    },
+    {
+     "before": "Leave the cake in the fridge so the chocolate can",
+     "answer": "harden",
+     "after": "."
+    },
+    {
+     "before": "The mammoth was a",
+     "answer": "prehistoric",
+     "after": "animal with long hair."
+    },
+    {
+     "before": "The",
+     "answer": "bark",
+     "after": "of this tree is rough and brown."
+    },
+    {
+     "before": "Salt helps",
+     "answer": "preserve",
+     "after": "fish for a long time."
+    },
+    {
+     "before": "We visited an",
+     "answer": "ancient",
+     "after": "temple. It is two thousand years old."
+    },
+    {
+     "before": "Clean the",
+     "answer": "wound",
+     "after": "on your knee and put on a bandage."
+    },
+    {
+     "before": "My fingers are",
+     "answer": "sticky",
+     "after": "from the honey."
+    },
+    {
+     "before": "Our class put letters and photos in a",
+     "answer": "time capsule",
+     "after": "and buried it for 20 years."
+    },
+    {
+     "before": "Pine trees make a",
+     "answer": "resin",
+     "after": "that smells nice."
+    },
+    {
+     "before": "Sunglasses protect your eyes from",
+     "answer": "ultraviolet light",
+     "after": "."
+    },
+    {
+     "before": "Who",
+     "answer": "discovered",
+     "after": "the old coins in the garden?"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "title": "Your amazing heart: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "hb1.1_heart",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Ruby's job is to carry oxygen to your body's cells.",
+     "answer": true
+    },
+    {
+     "q": "The heart has three chambers.",
+     "answer": false
+    },
+    {
+     "q": "The tricuspid valve opens into the left ventricle.",
+     "answer": false
+    },
+    {
+     "q": "The pulmonary artery takes Ruby from the heart to the lungs.",
+     "answer": true
+    },
+    {
+     "q": "The left atrium receives blood coming from the lungs.",
+     "answer": true
+    },
+    {
+     "q": "The aorta is the body's smallest artery.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What is the name of the red blood cell in the story?",
+     "options": [
+      "Ruby",
+      "Rita",
+      "Rosa"
+     ],
+     "answer": 0,
+     "why": "“My name is Ruby.”"
+    },
+    {
+     "q": "What does the right atrium do?",
+     "options": [
+      "It pushes blood into the aorta",
+      "It takes blood to the lungs",
+      "It collects blood returning from the body"
+     ],
+     "answer": 2,
+     "why": "“This room collects blood returning from the body.”"
+    },
+    {
+     "q": "What does Ruby release in the lungs?",
+     "options": [
+      "Water",
+      "Oxygen",
+      "Carbon dioxide"
+     ],
+     "answer": 2,
+     "why": "“Here, I release carbon dioxide and pick up fresh oxygen.”"
+    },
+    {
+     "q": "Which is the heart's strongest pumping chamber?",
+     "options": [
+      "The left ventricle",
+      "The left atrium",
+      "The right atrium"
+     ],
+     "answer": 0,
+     "why": "“I enter the left ventricle. This is the heart's strongest pumping chamber.”"
+    },
+    {
+     "q": "Why do the body's cells need oxygen?",
+     "options": [
+      "To make the blood red",
+      "To work and stay alive",
+      "To open the valves"
+     ],
+     "answer": 1,
+     "why": "“The body's cells need oxygen to work and stay alive.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "I'm a red blood",
+     "answer": "cell",
+     "after": "."
+    },
+    {
+     "before": "This room collects",
+     "answer": "blood",
+     "after": "returning from the body."
+    },
+    {
+     "before": "The heart pushes me toward the",
+     "answer": "lungs",
+     "after": "!"
+    },
+    {
+     "before": "Here, I release carbon dioxide and pick up fresh",
+     "answer": "oxygen",
+     "after": "."
+    },
+    {
+     "before": "It pushes me into the",
+     "answer": "aorta",
+     "after": ", the body's largest artery!"
+    },
+    {
+     "before": "Then I'll return to the right",
+     "answer": "side",
+     "after": "of the heart."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Ruby is a red blood cell. She carries oxygen around the body. She goes through the heart to the lungs to get fresh oxygen, and then the heart pushes her out to the body again."
+    },
+    {
+     "q": "What happens to Ruby in the lungs?",
+     "model": "She releases carbon dioxide and picks up fresh oxygen."
+    },
+    {
+     "q": "What are the four rooms of the heart called?",
+     "model": "The right atrium, the right ventricle, the left atrium and the left ventricle."
+    },
+    {
+     "q": "What are the little doors in the heart called?",
+     "model": "They are called valves: the tricuspid valve and the mitral valve."
+    },
+    {
+     "q": "Put your hand on your chest. Can you feel your heart? When does it beat fast?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put Ruby's journey in the order of the story.",
+   "items": [
+    "Ruby enters the right atrium",
+    "Ruby passes through the tricuspid valve",
+    "Ruby picks up fresh oxygen in the lungs",
+    "Ruby enters the left atrium",
+    "The heart pushes Ruby into the aorta"
+   ],
+   "start": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ]
+  }
+ ]
+}

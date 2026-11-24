@@ -1,0 +1,77 @@
+{
+ "title": "Your amazing heart: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "hb1.1_heart",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: alive · amazing · body · carry · deliver · door · fresh · journey · return · room · strong · travels",
+   "items": [
+    {
+     "before": "My uncle",
+     "answer": "travels",
+     "after": "to many countries for his work."
+    },
+    {
+     "before": "This bread is",
+     "answer": "fresh",
+     "after": ": the baker made it this morning."
+    },
+    {
+     "before": "My brother is in his",
+     "answer": "room",
+     "after": ", doing his homework."
+    },
+    {
+     "before": "Can you help me",
+     "answer": "carry",
+     "after": "these heavy bags?"
+    },
+    {
+     "before": "He is very",
+     "answer": "strong",
+     "after": ": he can lift his little sister with one hand."
+    },
+    {
+     "before": "Please close the",
+     "answer": "door",
+     "after": "when you go out."
+    },
+    {
+     "before": "The shop will",
+     "answer": "deliver",
+     "after": "our new bed on Monday."
+    },
+    {
+     "before": "The fish is still",
+     "answer": "alive",
+     "after": ": it is moving in the net!"
+    },
+    {
+     "before": "Our",
+     "answer": "journey",
+     "after": "to the mountains took six hours by train."
+    },
+    {
+     "before": "Please",
+     "answer": "return",
+     "after": "the book to the library on Friday."
+    },
+    {
+     "before": "Exercise is good for your",
+     "answer": "body",
+     "after": "and your mind."
+    },
+    {
+     "before": "Wow! This magic trick is",
+     "answer": "amazing",
+     "after": "!"
+    }
+   ]
+  }
+ ]
+}

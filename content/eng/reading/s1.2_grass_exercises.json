@@ -1,0 +1,178 @@
+{
+ "title": "Why grass is green: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.2_grass",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Grass is a plant.",
+     "answer": true
+    },
+    {
+     "q": "Plants use sunlight to make food.",
+     "answer": true
+    },
+    {
+     "q": "Chlorophyll is a special red color.",
+     "answer": false
+    },
+    {
+     "q": "Grass uses mostly green light.",
+     "answer": false
+    },
+    {
+     "q": "Green light bounces back to our eyes.",
+     "answer": true
+    },
+    {
+     "q": "Only grass has chlorophyll.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What do plants need to live and grow?",
+     "options": [
+      "Darkness",
+      "Snow",
+      "Sunlight"
+     ],
+     "answer": 2,
+     "why": "“Plants need sunlight to live and grow.”"
+    },
+    {
+     "q": "What is the special green color inside grass called?",
+     "options": [
+      "Chlorophyll",
+      "Sunlight",
+      "Violet"
+     ],
+     "answer": 0,
+     "why": "“This color is called chlorophyll.”"
+    },
+    {
+     "q": "Which light does grass use most?",
+     "options": [
+      "White light",
+      "Green and yellow light",
+      "Red and blue light"
+     ],
+     "answer": 2,
+     "why": "“Grass uses mostly red and blue light.”"
+    },
+    {
+     "q": "Where does the green light go?",
+     "options": [
+      "It goes into the ground",
+      "It bounces back to our eyes",
+      "It turns into food"
+     ],
+     "answer": 1,
+     "why": "“The green light bounces back to our eyes.”"
+    },
+    {
+     "q": "What is green the color of?",
+     "options": [
+      "Healthy plants",
+      "Dead plants",
+      "Dry plants"
+     ],
+     "answer": 0,
+     "why": "“Green is the color of healthy plants.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Plants need sunlight to live and",
+     "answer": "grow",
+     "after": "."
+    },
+    {
+     "before": "This color is called",
+     "answer": "chlorophyll",
+     "after": "."
+    },
+    {
+     "before": "But sunlight has many",
+     "answer": "colors",
+     "after": "in it."
+    },
+    {
+     "before": "The green light bounces back to our",
+     "answer": "eyes",
+     "after": "."
+    },
+    {
+     "before": "Green is the color of",
+     "answer": "healthy",
+     "after": "plants."
+    },
+    {
+     "before": "Chlorophyll helps the plant use",
+     "answer": "sunlight",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Grass is a plant, and it uses sunlight to make food. It has a green color inside it called chlorophyll. Grass uses mostly red and blue light, and the green light bounces back to our eyes."
+    },
+    {
+     "q": "What does chlorophyll do?",
+     "model": "It helps plants use sunlight."
+    },
+    {
+     "q": "Which colors of light does grass use? Which color does it not use much?",
+     "model": "It uses mostly red and blue light. It does not use much green light."
+    },
+    {
+     "q": "Why are many trees and bushes green too?",
+     "model": "Because many plants have chlorophyll."
+    },
+    {
+     "q": "Name three green plants you can see near your home or school.",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the ideas in the order of the text.",
+   "items": [
+    "Grass is a plant",
+    "Plants use sunlight to make food",
+    "Grass has chlorophyll inside it",
+    "Grass uses mostly red and blue light",
+    "Green light bounces back to our eyes"
+   ],
+   "start": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ]
+  }
+ ]
+}

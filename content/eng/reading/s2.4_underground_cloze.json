@@ -1,0 +1,77 @@
+{
+ "title": "The world beneath our feet: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s2.4_underground",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: dance · dead · dig · earthworm · feet · ground · leaf · roots · solid · stone · temperature · tree",
+   "items": [
+    {
+     "before": "We had a picnic in the shade of a big",
+     "answer": "tree",
+     "after": "."
+    },
+    {
+     "before": "Let's put on some music and",
+     "answer": "dance",
+     "after": "!"
+    },
+    {
+     "before": "A yellow",
+     "answer": "leaf",
+     "after": "fell from the tree onto my book."
+    },
+    {
+     "before": "This old tree has huge",
+     "answer": "roots",
+     "after": "that come out of the ground."
+    },
+    {
+     "before": "The ice is",
+     "answer": "solid",
+     "after": ". You can walk on it."
+    },
+    {
+     "before": "The ball fell on the",
+     "answer": "ground",
+     "after": "and rolled away."
+    },
+    {
+     "before": "After the rain, an",
+     "answer": "earthworm",
+     "after": "came out of the soil."
+    },
+    {
+     "before": "The dog is going to",
+     "answer": "dig",
+     "after": "a hole to hide its bone."
+    },
+    {
+     "before": "This old bridge is made of",
+     "answer": "stone",
+     "after": "."
+    },
+    {
+     "before": "The nurse is checking my",
+     "answer": "temperature",
+     "after": ". I have a fever."
+    },
+    {
+     "before": "The plant is",
+     "answer": "dead",
+     "after": "because nobody watered it."
+    },
+    {
+     "before": "Your",
+     "answer": "feet",
+     "after": "are dirty. Wash them before you go to bed."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "title": "The beavers: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.9_beavers",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Beavers have wide, flat tails.",
+     "answer": true
+    },
+    {
+     "q": "Beavers use their strong front teeth to cut down small trees.",
+     "answer": true
+    },
+    {
+     "q": "The dam makes the flowing water faster.",
+     "answer": false
+    },
+    {
+     "q": "The entrance to the lodge is on the roof.",
+     "answer": false
+    },
+    {
+     "q": "Baby beavers are called kits.",
+     "answer": true
+    },
+    {
+     "q": "Only beavers use the pond.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where does the beaver family live?",
+     "options": [
+      "In a big city",
+      "Beside a little stream",
+      "On a mountain"
+     ],
+     "answer": 1,
+     "why": "“Deep in a beautiful forest, a family of beavers lives beside a little stream.”"
+    },
+    {
+     "q": "What do beavers put in their dam?",
+     "options": [
+      "Branches, sticks, mud and stones",
+      "Leaves and flowers",
+      "Sand and shells"
+     ],
+     "answer": 0,
+     "why": "“They put branches and sticks into the water. Then they add mud, stones, and more wood.”"
+    },
+    {
+     "q": "What forms behind the dam?",
+     "options": [
+      "A waterfall",
+      "A river",
+      "A pond"
+     ],
+     "answer": 2,
+     "why": "“Slowly, a pond begins to form.”"
+    },
+    {
+     "q": "What is a beaver's home called?",
+     "options": [
+      "A lodge",
+      "A nest",
+      "A den"
+     ],
+     "answer": 0,
+     "why": "“They build a home called a lodge.”"
+    },
+    {
+     "q": "What are beavers called in the text?",
+     "options": [
+      "Nature's doctors",
+      "Nature's engineers",
+      "Nature's farmers"
+     ],
+     "answer": 1,
+     "why": "“These remarkable builders are called nature's engineers!”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "They are excellent",
+     "answer": "swimmers",
+     "after": "!"
+    },
+    {
+     "before": "They carry the",
+     "answer": "wood",
+     "after": "to the water."
+    },
+    {
+     "before": "Little by little, a strong",
+     "answer": "dam",
+     "after": "begins to form."
+    },
+    {
+     "before": "The water behind the dam is getting",
+     "answer": "deeper",
+     "after": "."
+    },
+    {
+     "before": "Inside, the beavers have a warm,",
+     "answer": "dry",
+     "after": "room above the water."
+    },
+    {
+     "before": "Their parents keep them safe and",
+     "answer": "warm",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Beavers cut wood with their strong teeth and build dams across streams. The dam slows the water, and a pond forms behind it. The beavers build a lodge with an underwater entrance, and their pond is a home for many other animals."
+    },
+    {
+     "q": "How do beavers build a dam?",
+     "model": "They put branches and sticks into the water. Then they add mud, stones and more wood. Little by little, a strong dam forms."
+    },
+    {
+     "q": "Why is deep water good for beavers?",
+     "model": "It helps protect them from animals that might hurt them. They can swim safely around their home."
+    },
+    {
+     "q": "Which other animals enjoy the beavers' pond?",
+     "model": "Fish swim in the water, frogs rest near the pond, and ducks and other birds visit too."
+    },
+    {
+     "q": "Is there a river or a pond near your home? What animals live there?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The beavers cut down small trees with their teeth",
+    "They build a dam across the stream",
+    "A pond forms behind the dam",
+    "They build a lodge with an underwater entrance",
+    "Fish, frogs and ducks come to the pond"
+   ],
+   "start": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "title": "Amber: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s2.5_amber",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The ancient Greeks thought amber was made from drops of solid water.",
+     "answer": false
+    },
+    {
+     "q": "Amber comes from trees that lived millions of years ago.",
+     "answer": true
+    },
+    {
+     "q": "The resin helped seal the wound and protect the tree.",
+     "answer": true
+    },
+    {
+     "q": "The little fly escaped from the resin.",
+     "answer": false
+    },
+    {
+     "q": "The resin became amber in a few years.",
+     "answer": false
+    },
+    {
+     "q": "Under ultraviolet light, some rare amber may glow bright blue.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What is resin?",
+     "options": [
+      "A thick, sticky liquid from a tree",
+      "A small insect",
+      "A kind of stone"
+     ],
+     "answer": 0,
+     "why": "“A thick, sticky liquid began to flow from the wound. This liquid was called resin.”"
+    },
+    {
+     "q": "What was the resin like for the tree?",
+     "options": [
+      "A hat",
+      "A bandage",
+      "A door"
+     ],
+     "answer": 1,
+     "why": "“It was like a bandage made by the tree itself!”"
+    },
+    {
+     "q": "What landed on the golden resin?",
+     "options": [
+      "A little fly",
+      "A spider",
+      "A bee"
+     ],
+     "answer": 0,
+     "why": "“One sunny morning, a little fly landed on the golden resin.”"
+    },
+    {
+     "q": "What made the buried resin harder and more stable?",
+     "options": [
+      "Sunlight",
+      "Rainwater",
+      "Chemical changes"
+     ],
+     "answer": 2,
+     "why": "“Chemical changes made it harder and more stable.”"
+    },
+    {
+     "q": "What color is most amber?",
+     "options": [
+      "Green or blue",
+      "Black or white",
+      "Yellow, orange, or golden brown"
+     ],
+     "answer": 2,
+     "why": "“Most amber looks yellow, orange, or golden brown.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "What is golden like honey and shines like",
+     "answer": "glass",
+     "after": "?"
+    },
+    {
+     "before": "Long, long ago, a great",
+     "answer": "forest",
+     "after": "covered the land."
+    },
+    {
+     "before": "Oh no! Its legs were",
+     "answer": "stuck",
+     "after": "!"
+    },
+    {
+     "before": "It was like a tiny treasure locked in a golden",
+     "answer": "box",
+     "after": "!"
+    },
+    {
+     "before": "The old tree eventually",
+     "answer": "fell",
+     "after": "."
+    },
+    {
+     "before": "Under ultraviolet light, it may",
+     "answer": "glow",
+     "after": "bright blue!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Amber comes from the resin of trees that lived millions of years ago. Sometimes a little insect got stuck in the sticky resin. The resin hardened, stayed under the ground for millions of years, and slowly became amber with the insect still inside."
+    },
+    {
+     "q": "Why did the tree make resin?",
+     "model": "Its bark was damaged. The resin helped seal the wound and protect the tree."
+    },
+    {
+     "q": "What happened to the resin after the old tree fell?",
+     "model": "It reached the forest floor. Soil and sand slowly covered it, and it stayed hidden deep beneath the ground. Over millions of years, it changed and became amber."
+    },
+    {
+     "q": "Why is amber important for scientists?",
+     "model": "Scientists can study the insects, spiders and plant pieces preserved in amber. They help us learn about ancient life."
+    },
+    {
+     "q": "If you could make a time capsule, what would you put inside it?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The tree's bark was damaged",
+    "Resin flowed from the wound",
+    "A little fly got stuck in the resin",
+    "The old tree fell, and soil covered the resin",
+    "The resin slowly became amber"
+   ],
+   "start": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ]
+  }
+ ]
+}

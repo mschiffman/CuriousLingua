@@ -1,0 +1,77 @@
+{
+ "title": "The ant city: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.7_leafcutterAnt",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: busy · careful · chew · clean · cut · eggs · helpful · lift · pieces · protect · tropical · weight",
+   "items": [
+    {
+     "before": "There are only two",
+     "answer": "pieces",
+     "after": "of pizza left."
+    },
+    {
+     "before": "Be",
+     "answer": "careful",
+     "after": "when you cross the road!"
+    },
+    {
+     "before": "Please",
+     "answer": "cut",
+     "after": "the paper in half with scissors."
+    },
+    {
+     "before": "Our hens lay",
+     "answer": "eggs",
+     "after": "every morning."
+    },
+    {
+     "before": "This box is too heavy. I can't",
+     "answer": "lift",
+     "after": "it."
+    },
+    {
+     "before": "Thank you! You are very",
+     "answer": "helpful",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Chew",
+     "after": "your food well before you swallow it."
+    },
+    {
+     "before": "The doctor checked my height and my",
+     "answer": "weight",
+     "after": "."
+    },
+    {
+     "before": "We",
+     "answer": "clean",
+     "after": "our classroom every Friday."
+    },
+    {
+     "before": "I can't play today. I'm very",
+     "answer": "busy",
+     "after": "with my homework."
+    },
+    {
+     "before": "A helmet will",
+     "answer": "protect",
+     "after": "your head when you ride a bike."
+    },
+    {
+     "before": "Bananas and mangoes grow in",
+     "answer": "tropical",
+     "after": "countries."
+    }
+   ]
+  }
+ ]
+}

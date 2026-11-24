@@ -1,0 +1,77 @@
+{
+ "title": "The river otters: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s2.0_otters",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: close · dinner · explore · favorite · hidden · holes · muddy · nose · playful · practice · slide · useful",
+   "items": [
+    {
+     "before": "What's for",
+     "answer": "dinner",
+     "after": "tonight? I'm hungry!"
+    },
+    {
+     "before": "Please",
+     "answer": "close",
+     "after": "the door. It's cold."
+    },
+    {
+     "before": "Blue is my",
+     "answer": "favorite",
+     "after": "color."
+    },
+    {
+     "before": "My socks have",
+     "answer": "holes",
+     "after": "in them. I need new ones."
+    },
+    {
+     "before": "In winter, children",
+     "answer": "slide",
+     "after": "on the ice."
+    },
+    {
+     "before": "Take off your",
+     "answer": "muddy",
+     "after": "boots before you come in!"
+    },
+    {
+     "before": "I have a cold, and my",
+     "answer": "nose",
+     "after": "is red."
+    },
+    {
+     "before": "If you",
+     "answer": "practice",
+     "after": "every day, you will play the piano well."
+    },
+    {
+     "before": "A dictionary is very",
+     "answer": "useful",
+     "after": "when you learn English."
+    },
+    {
+     "before": "Let's",
+     "answer": "explore",
+     "after": "the island and find the old lighthouse."
+    },
+    {
+     "before": "The key was",
+     "answer": "hidden",
+     "after": "under a stone."
+    },
+    {
+     "before": "Our puppy is very",
+     "answer": "playful",
+     "after": ". He wants to run and jump all day."
+    }
+   ]
+  }
+ ]
+}

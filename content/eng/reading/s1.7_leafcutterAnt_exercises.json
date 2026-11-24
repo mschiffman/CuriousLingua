@@ -1,0 +1,178 @@
+{
+ "title": "The ant city: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.7_leafcutterAnt",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Leafcutter ants live in a tropical rainforest.",
+     "answer": true
+    },
+    {
+     "q": "Leafcutter ants cut leaves with their legs.",
+     "answer": false
+    },
+    {
+     "q": "Leafcutter ants eat the leaves they carry.",
+     "answer": false
+    },
+    {
+     "q": "The ants clean their fungus gardens every day.",
+     "answer": true
+    },
+    {
+     "q": "Medium-sized workers cut and carry leaves.",
+     "answer": true
+    },
+    {
+     "q": "The queen ant is much smaller than the workers.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where are the ants going with the leaves?",
+     "options": [
+      "To a tree",
+      "To the river",
+      "To their underground city"
+     ],
+     "answer": 2,
+     "why": "“They are going home to their underground city!”"
+    },
+    {
+     "q": "What are the rooms in Ant City called?",
+     "options": [
+      "Hives",
+      "Chambers",
+      "Nests"
+     ],
+     "answer": 1,
+     "why": "“The tunnels connect many rooms called chambers.”"
+    },
+    {
+     "q": "What do the ants grow with the pieces of leaves?",
+     "options": [
+      "A special fungus",
+      "Flowers",
+      "Seeds"
+     ],
+     "answer": 0,
+     "why": "“They use these pieces to grow a special fungus.”"
+    },
+    {
+     "q": "What protects the fungus from certain diseases?",
+     "options": [
+      "Rain",
+      "Bacteria on the ants' bodies",
+      "Mold"
+     ],
+     "answer": 1,
+     "why": "“Some ants have helpful bacteria on their bodies. These bacteria make substances that protect the fungus from certain diseases.”"
+    },
+    {
+     "q": "What is the queen's most important job?",
+     "options": [
+      "To lay eggs",
+      "To protect the colony",
+      "To cut leaves"
+     ],
+     "answer": 0,
+     "why": "“Her most important job is to lay eggs.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Look! They are carrying big green",
+     "answer": "leaves",
+     "after": "!"
+    },
+    {
+     "before": "Leafcutter ants have strong",
+     "answer": "jaws",
+     "after": "."
+    },
+    {
+     "before": "There are",
+     "answer": "tunnels",
+     "after": "going everywhere."
+    },
+    {
+     "before": "The fungus becomes their",
+     "answer": "food",
+     "after": "!"
+    },
+    {
+     "before": "The ants are very careful",
+     "answer": "farmers",
+     "after": "."
+    },
+    {
+     "before": "Deep underground lives the",
+     "answer": "queen",
+     "after": "ant."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Leafcutter ants cut leaves and carry them to their underground city. They do not eat the leaves: they use them to grow a fungus, and the fungus is their food. Every ant has a job, and the queen lays the eggs."
+    },
+    {
+     "q": "Do leafcutter ants eat the leaves? What do they do with them?",
+     "model": "No. Small worker ants chew the leaves into tiny pieces and use them to grow a special fungus. The fungus is their food."
+    },
+    {
+     "q": "How do the ants take care of their fungus gardens?",
+     "model": "They clean them every day. They remove harmful bits and mold. Some ants have helpful bacteria that protect the fungus from diseases."
+    },
+    {
+     "q": "What jobs do the large, the medium-sized and the tiny workers do?",
+     "model": "Large workers help protect the colony. Medium-sized workers cut and carry leaves. Tiny workers care for the fungus gardens and the young ants."
+    },
+    {
+     "q": "Which job in Ant City would you like to do? Why?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the steps in the order of the text.",
+   "items": [
+    "The ants cut leaves with their jaws",
+    "They carry the leaves home to their underground city",
+    "Small workers chew the leaves into tiny pieces",
+    "The ants grow a fungus with the leaf pieces",
+    "The fungus becomes the ants' food"
+   ],
+   "start": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ]
+  }
+ ]
+}

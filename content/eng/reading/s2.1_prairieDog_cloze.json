@@ -1,0 +1,77 @@
+{
+ "title": "Prairie Dog Town: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s2.1_prairieDog",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: adults · alone · dig · dirt · escape · listen · safe · seeds · shelter · still · sunny · warn",
+   "items": [
+    {
+     "before": "Wash your hands. They are covered in",
+     "answer": "dirt",
+     "after": "."
+    },
+    {
+     "before": "Dogs love to",
+     "answer": "dig",
+     "after": "holes in the garden."
+    },
+    {
+     "before": "It's a",
+     "answer": "sunny",
+     "after": "day. Let's go to the beach!"
+    },
+    {
+     "before": "When it started to rain, we found",
+     "answer": "shelter",
+     "after": "under a big tree."
+    },
+    {
+     "before": "",
+     "answer": "Listen",
+     "after": "carefully to the teacher."
+    },
+    {
+     "before": "Sit",
+     "answer": "still",
+     "after": "while I cut your hair!"
+    },
+    {
+     "before": "This film is for",
+     "answer": "adults",
+     "after": "only, not for children."
+    },
+    {
+     "before": "The sign is there to",
+     "answer": "warn",
+     "after": "people about the dangerous road."
+    },
+    {
+     "before": "My grandfather lives",
+     "answer": "alone",
+     "after": "in a big house."
+    },
+    {
+     "before": "Birds like to eat sunflower",
+     "answer": "seeds",
+     "after": "."
+    },
+    {
+     "before": "The bird tried to",
+     "answer": "escape",
+     "after": "from its cage."
+    },
+    {
+     "before": "Hold my hand. You are",
+     "answer": "safe",
+     "after": "with me."
+    }
+   ]
+  }
+ ]
+}

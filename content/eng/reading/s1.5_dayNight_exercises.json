@@ -1,0 +1,178 @@
+{
+ "title": "Day and night: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.5_dayNight",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "At night, we see the Moon and stars.",
+     "answer": true
+    },
+    {
+     "q": "Earth is always moving.",
+     "answer": true
+    },
+    {
+     "q": "The Sun shines only in the daytime.",
+     "answer": false
+    },
+    {
+     "q": "The side of Earth turned away from the Sun has nighttime.",
+     "answer": true
+    },
+    {
+     "q": "A place that has day will always have day.",
+     "answer": false
+    },
+    {
+     "q": "Earth takes about 12 hours to turn one full time.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What do we call the spinning of Earth?",
+     "options": [
+      "Scattering",
+      "Rotation",
+      "Germination"
+     ],
+     "answer": 1,
+     "why": "“This spinning is called rotation.”"
+    },
+    {
+     "q": "How much of Earth faces the Sun at a time?",
+     "options": [
+      "Only one side",
+      "No part of Earth",
+      "All of Earth"
+     ],
+     "answer": 0,
+     "why": "“But only one side of Earth faces the Sun at a time.”"
+    },
+    {
+     "q": "What is it on the side of Earth that gets light?",
+     "options": [
+      "Evening",
+      "Nighttime",
+      "Daytime"
+     ],
+     "answer": 2,
+     "why": "“That side gets light. That is daytime.”"
+    },
+    {
+     "q": "How long does Earth take to turn one full time?",
+     "options": [
+      "About one hour",
+      "About 24 hours",
+      "About one week"
+     ],
+     "answer": 1,
+     "why": "“Earth takes about 24 hours to turn one full time.”"
+    },
+    {
+     "q": "How many times does Earth turn every day?",
+     "options": [
+      "24 times",
+      "Twice",
+      "Once"
+     ],
+     "answer": 2,
+     "why": "“Every day, Earth turns once.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "At night, we see the Moon and",
+     "answer": "stars",
+     "after": "."
+    },
+    {
+     "before": "We live on",
+     "answer": "Earth",
+     "after": "."
+    },
+    {
+     "before": "The Sun",
+     "answer": "shines",
+     "after": "all the time."
+    },
+    {
+     "before": "The other side of Earth is turned away from the",
+     "answer": "Sun",
+     "after": "."
+    },
+    {
+     "before": "A place that has day will later have",
+     "answer": "night",
+     "after": "."
+    },
+    {
+     "before": "Earth takes about 24",
+     "answer": "hours",
+     "after": "to turn one full time."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Earth is always spinning. The side of Earth that faces the Sun has day, and the side turned away from the Sun has night. Earth turns once every day, so day and night happen again and again."
+    },
+    {
+     "q": "What is rotation?",
+     "model": "Rotation is the spinning of Earth. Earth spins around and around."
+    },
+    {
+     "q": "Why is it dark on one side of Earth?",
+     "model": "That side is turned away from the Sun, so it does not get sunlight."
+    },
+    {
+     "q": "Why does a place that has day later have night?",
+     "model": "Because Earth keeps spinning."
+    },
+    {
+     "q": "What do you like to do in the daytime? What do you do at night?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the ideas in the order of the text.",
+   "items": [
+    "Earth spins around and around",
+    "One side of Earth faces the Sun and has day",
+    "The other side is turned away and has night",
+    "A place that has day will later have night",
+    "Earth takes about 24 hours to turn once"
+   ],
+   "start": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ]
+  }
+ ]
+}

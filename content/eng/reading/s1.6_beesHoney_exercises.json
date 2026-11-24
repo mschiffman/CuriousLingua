@@ -1,0 +1,178 @@
+{
+ "title": "How bees make honey: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.6_beesHoney",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Flowers make a sweet liquid called nectar.",
+     "answer": true
+    },
+    {
+     "q": "A bee drinks nectar with its short tongue.",
+     "answer": false
+    },
+    {
+     "q": "The bee carries the nectar in its honey stomach.",
+     "answer": true
+    },
+    {
+     "q": "Each bee makes honey alone.",
+     "answer": false
+    },
+    {
+     "q": "Nectar has very little water in it.",
+     "answer": false
+    },
+    {
+     "q": "Bees store honey to eat when flowers are hard to find.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What is the sweet liquid that flowers make?",
+     "options": [
+      "Honey",
+      "Wax",
+      "Nectar"
+     ],
+     "answer": 2,
+     "why": "“Flowers make a sweet liquid called nectar.”"
+    },
+    {
+     "q": "Where does the bee carry the nectar?",
+     "options": [
+      "In its mouth",
+      "On its legs",
+      "In a honey stomach"
+     ],
+     "answer": 2,
+     "why": "“The bee carries it in a special part of its body called a honey stomach.”"
+    },
+    {
+     "q": "What do the bees add to change the nectar?",
+     "options": [
+      "Water",
+      "Enzymes",
+      "Wax"
+     ],
+     "answer": 1,
+     "why": "“The bees add special substances called enzymes that help change the nectar.”"
+    },
+    {
+     "q": "Why do the bees fan their wings?",
+     "options": [
+      "To keep warm",
+      "To move air through the hive",
+      "To fly to the flowers"
+     ],
+     "answer": 1,
+     "why": "“They fan their wings to move air through the hive.”"
+    },
+    {
+     "q": "What happens slowly to the water in the nectar?",
+     "options": [
+      "It evaporates",
+      "It freezes",
+      "It turns into wax"
+     ],
+     "answer": 0,
+     "why": "“Slowly, water evaporates.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "A bee lands on a flower and drinks the nectar with its long",
+     "answer": "tongue",
+     "after": "."
+    },
+    {
+     "before": "The bee carries it in a special part of its body called a honey",
+     "answer": "stomach",
+     "after": "."
+    },
+    {
+     "before": "Inside the hive, many other bees are",
+     "answer": "working",
+     "after": "."
+    },
+    {
+     "before": "They fan their",
+     "answer": "wings",
+     "after": "to move air through the hive."
+    },
+    {
+     "before": "This keeps the honey",
+     "answer": "safe",
+     "after": "."
+    },
+    {
+     "before": "First, they collect nectar from",
+     "answer": "flowers",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Bees drink nectar from flowers and carry it back to the hive in their honey stomach. In the hive, they add enzymes and fan their wings until the water evaporates. The nectar becomes thick honey, and the bees store it in the honeycomb."
+    },
+    {
+     "q": "What is a honey stomach?",
+     "model": "It is a special part of a bee's body. The bee carries nectar in it. It is different from the stomach it uses to digest its own food."
+    },
+    {
+     "q": "How do bees take the water out of the nectar?",
+     "model": "They put the nectar into honeycomb cells and fan their wings to move air through the hive. Slowly, the water evaporates."
+    },
+    {
+     "q": "What do the bees do when the honey is ready?",
+     "model": "They cover the full honeycomb cells with a thin layer of wax. This keeps the honey safe."
+    },
+    {
+     "q": "Do you like honey? What do you eat it with?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the steps in the order of the text.",
+   "items": [
+    "A bee drinks nectar from a flower",
+    "The bee carries the nectar back to the hive",
+    "The bee passes the nectar to another bee",
+    "The bees fan their wings and the water evaporates",
+    "The bees cover the honeycomb with wax"
+   ],
+   "start": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ]
+  }
+ ]
+}

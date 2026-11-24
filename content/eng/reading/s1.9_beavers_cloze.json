@@ -1,0 +1,77 @@
+{
+ "title": "The beavers: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.9_beavers",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: beautiful · branches · build · excellent · flat · forest · hurt · mud · stones · swim · visit · wide",
+   "items": [
+    {
+     "before": "Many wild animals live in the",
+     "answer": "forest",
+     "after": "."
+    },
+    {
+     "before": "They are going to",
+     "answer": "build",
+     "after": "a new school in our town."
+    },
+    {
+     "before": "The river is very",
+     "answer": "wide",
+     "after": "here. We can't swim across it."
+    },
+    {
+     "before": "Take off your shoes. They are covered in",
+     "answer": "mud",
+     "after": "!"
+    },
+    {
+     "before": "Be careful with the knife. Don't",
+     "answer": "hurt",
+     "after": "yourself!"
+    },
+    {
+     "before": "A pancake is round and",
+     "answer": "flat",
+     "after": "."
+    },
+    {
+     "before": "The birds are singing in the",
+     "answer": "branches",
+     "after": "of the tall tree."
+    },
+    {
+     "before": "Can you",
+     "answer": "swim",
+     "after": "? Yes, I learned at the pool."
+    },
+    {
+     "before": "You got 100%! That's",
+     "answer": "excellent",
+     "after": "!"
+    },
+    {
+     "before": "The children are throwing small",
+     "answer": "stones",
+     "after": "into the river."
+    },
+    {
+     "before": "We",
+     "answer": "visit",
+     "after": "our grandparents every Sunday."
+    },
+    {
+     "before": "What a",
+     "answer": "beautiful",
+     "after": "flower! It smells nice, too."
+    }
+   ]
+  }
+ ]
+}

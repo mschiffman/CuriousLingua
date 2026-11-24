@@ -1,0 +1,77 @@
+{
+ "title": "How seeds grow: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.3_seeds",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: become · light · open · place · push · ready · real · step · strong · tiny · wait · water",
+   "items": [
+    {
+     "before": "Please",
+     "answer": "wait",
+     "after": "for me here. I will come back in five minutes."
+    },
+    {
+     "before": "I am thirsty. Can I have a glass of",
+     "answer": "water",
+     "after": "?"
+    },
+    {
+     "before": "Is this a",
+     "answer": "real",
+     "after": "diamond or a toy?"
+    },
+    {
+     "before": "The door is heavy. You have to",
+     "answer": "push",
+     "after": "it hard."
+    },
+    {
+     "before": "Take one",
+     "answer": "step",
+     "after": "forward, please."
+    },
+    {
+     "before": "Lunch is",
+     "answer": "ready",
+     "after": "! Come and sit down."
+    },
+    {
+     "before": "It's hot in here. Can you",
+     "answer": "open",
+     "after": "the window?"
+    },
+    {
+     "before": "Put the books back in their",
+     "answer": "place",
+     "after": "on the shelf."
+    },
+    {
+     "before": "A mouse is small, but an ant is",
+     "answer": "tiny",
+     "after": "."
+    },
+    {
+     "before": "He wants to",
+     "answer": "become",
+     "after": "a doctor when he grows up."
+    },
+    {
+     "before": "Eat your vegetables and you will grow big and",
+     "answer": "strong",
+     "after": "."
+    },
+    {
+     "before": "The",
+     "answer": "light",
+     "after": "from the window wakes me up every morning."
+    }
+   ]
+  }
+ ]
+}

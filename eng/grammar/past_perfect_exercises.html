@@ -62,8 +62,8 @@
 <template x-if="b.kind === 'truefalse'"><ol class="mt-4 space-y-3">
 <template x-for="(it, i) in b.items" :key="i"><li class="item flex flex-wrap items-center gap-3 rounded-xl border border-line p-3" :class="mark(b, i)">
 <span class="min-w-0 flex-1 text-lg" lang="en" x-text="(i + 1) + '. ' + it.q"></span>
-<span class="flex gap-2"><button class="btn px-4 py-1.5" :class="b.ans[i] === true && 'btn-on'" @click="set(b, i, true)">Vrai</button>
-<button class="btn px-4 py-1.5" :class="b.ans[i] === false && 'btn-on'" @click="set(b, i, false)">Faux</button></span>
+<span class="flex gap-2"><button class="btn px-4 py-1.5" :class="b.ans[i] === true && 'btn-on'" @click="set(b, i, true)">True</button>
+<button class="btn px-4 py-1.5" :class="b.ans[i] === false && 'btn-on'" @click="set(b, i, false)">False</button></span>
 </li></template></ol></template>
 
 <template x-if="b.kind === 'listen'"><ol class="mt-4 space-y-5">

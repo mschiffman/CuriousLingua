@@ -308,8 +308,8 @@ PRACTICE = '''<section x-data="practice" class="mt-6 space-y-8">
 <template x-if="b.kind === 'truefalse'"><ol class="mt-4 space-y-3">
 <template x-for="(it, i) in b.items" :key="i"><li class="item flex flex-wrap items-center gap-3 rounded-xl border border-line p-3" :class="mark(b, i)">
 <span class="min-w-0 flex-1 text-lg" lang="__LANG__" x-text="(i + 1) + '. ' + it.q"></span>
-<span class="flex gap-2"><button class="btn px-4 py-1.5" :class="b.ans[i] === true && 'btn-on'" @click="set(b, i, true)">Vrai</button>
-<button class="btn px-4 py-1.5" :class="b.ans[i] === false && 'btn-on'" @click="set(b, i, false)">Faux</button></span>
+<span class="flex gap-2"><button class="btn px-4 py-1.5" :class="b.ans[i] === true && 'btn-on'" @click="set(b, i, true)">__UI_TRUE__</button>
+<button class="btn px-4 py-1.5" :class="b.ans[i] === false && 'btn-on'" @click="set(b, i, false)">__UI_FALSE__</button></span>
 </li></template></ol></template>
 
 <template x-if="b.kind === 'listen'"><ol class="mt-4 space-y-5">
@@ -412,8 +412,8 @@ CARDS_BLOBS = '''<div class="pointer-events-none fixed left-0 top-0 z-0 h-full w
 <div class="absolute right-1/4 top-1/2 h-64 w-64 rounded-full" style="background:radial-gradient(circle,rgba(26,110,245,.08) 0%,transparent 70%)"></div></div>'''
 
 
-UI = {"fr": {"LISTEN": "&Eacute;coutez et choisissez.", "BRAVO": "Bravo !", "FIND": "Trouvez&nbsp;:", "FIRST": "du premier coup"},
-      "en": {"LISTEN": "Listen and choose.", "BRAVO": "Well done!", "FIND": "Find:", "FIRST": "on the first try"}}
+UI = {"fr": {"LISTEN": "&Eacute;coutez et choisissez.", "BRAVO": "Bravo !", "FIND": "Trouvez&nbsp;:", "FIRST": "du premier coup", "TRUE": "Vrai", "FALSE": "Faux"},
+      "en": {"LISTEN": "Listen and choose.", "BRAVO": "Well done!", "FIND": "Find:", "FIRST": "on the first try", "TRUE": "True", "FALSE": "False"}}
 # Courses taught through romanization: the two script buttons of a dialogue, and the language tag of the native line.
 SCRIPT = {"ja": ("Romaji", "かな", "ja"), "ko": ("Romanized", "한글", "ko")}
 

@@ -1,0 +1,77 @@
+{
+ "title": "The weaver birds: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.8_weaver",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: clever · cold · dry · enormous · family · feed · fix · insects · pile · rest · share · village",
+   "items": [
+    {
+     "before": "There is a",
+     "answer": "pile",
+     "after": "of dirty clothes on the floor."
+    },
+    {
+     "before": "My bike is broken. Can you",
+     "answer": "fix",
+     "after": "it?"
+    },
+    {
+     "before": "An elephant is an",
+     "answer": "enormous",
+     "after": "animal."
+    },
+    {
+     "before": "My grandmother lives in a small",
+     "answer": "village",
+     "after": "near the mountains."
+    },
+    {
+     "before": "I have two apples. Let's",
+     "answer": "share",
+     "after": "them!"
+    },
+    {
+     "before": "Hang the clothes in the sun and they will soon be",
+     "answer": "dry",
+     "after": "."
+    },
+    {
+     "before": "There are five people in my",
+     "answer": "family",
+     "after": "."
+    },
+    {
+     "before": "Don't forget to",
+     "answer": "feed",
+     "after": "the cat before school."
+    },
+    {
+     "before": "My dog is very",
+     "answer": "clever",
+     "after": ": he can open the door by himself!"
+    },
+    {
+     "before": "Spiders catch flies and other",
+     "answer": "insects",
+     "after": "in their webs."
+    },
+    {
+     "before": "You look tired. Sit down and",
+     "answer": "rest",
+     "after": "for a while."
+    },
+    {
+     "before": "Put on your coat. It's",
+     "answer": "cold",
+     "after": "outside."
+    }
+   ]
+  }
+ ]
+}

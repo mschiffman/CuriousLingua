@@ -1,0 +1,77 @@
+{
+ "title": "How plants make food: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.4_plantFood",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: air · animals · catch · help · living · move · need · ready · release · roots · sugar · tiny",
+   "items": [
+    {
+     "before": "Do you take",
+     "answer": "sugar",
+     "after": "in your tea?"
+    },
+    {
+     "before": "Throw the ball and I will",
+     "answer": "catch",
+     "after": "it!"
+    },
+    {
+     "before": "A rock is not a",
+     "answer": "living",
+     "after": "thing, but a tree is."
+    },
+    {
+     "before": "The old tree has very long",
+     "answer": "roots",
+     "after": "under the ground."
+    },
+    {
+     "before": "We are going to",
+     "answer": "move",
+     "after": "to a new house next month."
+    },
+    {
+     "before": "Open the window and let some fresh",
+     "answer": "air",
+     "after": "in."
+    },
+    {
+     "before": "I can't read this. The letters are too",
+     "answer": "tiny",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "need",
+     "after": "a new pencil. Mine is broken."
+    },
+    {
+     "before": "The zoo has many wild",
+     "answer": "animals",
+     "after": "from Africa."
+    },
+    {
+     "before": "Can you",
+     "answer": "help",
+     "after": "me with my homework, please?"
+    },
+    {
+     "before": "Are you",
+     "answer": "ready",
+     "after": "to go? The bus is here!"
+    },
+    {
+     "before": "The vet will",
+     "answer": "release",
+     "after": "the bird back into the forest when it is better."
+    }
+   ]
+  }
+ ]
+}

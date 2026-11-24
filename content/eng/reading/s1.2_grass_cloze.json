@@ -1,0 +1,77 @@
+{
+ "title": "Why grass is green: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s1.2_grass",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bounces · bushes · food · grass · important · leaves · live · make · special · trees · use · white",
+   "items": [
+    {
+     "before": "This is a",
+     "answer": "special",
+     "after": "pen: it writes in three colors."
+    },
+    {
+     "before": "In autumn, the",
+     "answer": "leaves",
+     "after": "fall from the trees."
+    },
+    {
+     "before": "The ball",
+     "answer": "bounces",
+     "after": "on the floor and goes up again."
+    },
+    {
+     "before": "We need",
+     "answer": "food",
+     "after": "and water to live."
+    },
+    {
+     "before": "It is",
+     "answer": "important",
+     "after": "to wash your hands before you eat."
+    },
+    {
+     "before": "Can I",
+     "answer": "use",
+     "after": "your pencil, please?"
+    },
+    {
+     "before": "There are rose",
+     "answer": "bushes",
+     "after": "in front of our school."
+    },
+    {
+     "before": "Snow is cold and",
+     "answer": "white",
+     "after": "."
+    },
+    {
+     "before": "My grandparents",
+     "answer": "live",
+     "after": "in a small village."
+    },
+    {
+     "before": "Monkeys like to climb",
+     "answer": "trees",
+     "after": "."
+    },
+    {
+     "before": "Let's",
+     "answer": "make",
+     "after": "a cake for Mom's birthday!"
+    },
+    {
+     "before": "The",
+     "answer": "grass",
+     "after": "in our garden is very long. We need to cut it."
+    }
+   ]
+  }
+ ]
+}

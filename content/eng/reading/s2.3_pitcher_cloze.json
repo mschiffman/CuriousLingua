@@ -1,0 +1,77 @@
+{
+ "title": "The pitcher plant: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s2.3_pitcher",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: absorb · bright · catch · digest · nectar · nutrients · pitcher · plant · poor · slippery · trap · unusual",
+   "items": [
+    {
+     "before": "Pour the juice from the",
+     "answer": "pitcher",
+     "after": "into the glasses."
+    },
+    {
+     "before": "Be careful! The floor is wet and",
+     "answer": "slippery",
+     "after": "."
+    },
+    {
+     "before": "Let's",
+     "answer": "plant",
+     "after": "some tomatoes in the garden."
+    },
+    {
+     "before": "Butterflies drink",
+     "answer": "nectar",
+     "after": "from flowers."
+    },
+    {
+     "before": "A sponge can",
+     "answer": "absorb",
+     "after": "a lot of water."
+    },
+    {
+     "before": "She is wearing a",
+     "answer": "bright",
+     "after": "red dress."
+    },
+    {
+     "before": "Fruit and vegetables give your body important",
+     "answer": "nutrients",
+     "after": "."
+    },
+    {
+     "before": "The mouse walked into the",
+     "answer": "trap",
+     "after": "and couldn't get out."
+    },
+    {
+     "before": "It is",
+     "answer": "unusual",
+     "after": "to see snow in a hot country."
+    },
+    {
+     "before": "Some food is hard for your stomach to",
+     "answer": "digest",
+     "after": ". Eat slowly!"
+    },
+    {
+     "before": "Can you",
+     "answer": "catch",
+     "after": "the ball with one hand?"
+    },
+    {
+     "before": "The family is very",
+     "answer": "poor",
+     "after": ". They have little money for food."
+    }
+   ]
+  }
+ ]
+}

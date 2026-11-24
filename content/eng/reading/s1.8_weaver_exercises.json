@@ -1,0 +1,178 @@
+{
+ "title": "The weaver birds: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "s1.8_weaver",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Many little birds live inside the enormous nest.",
+     "answer": true
+    },
+    {
+     "q": "The birds carry the grass in their feet.",
+     "answer": false
+    },
+    {
+     "q": "Each family has its own little chamber.",
+     "answer": true
+    },
+    {
+     "q": "The parents bring their babies seeds to eat.",
+     "answer": false
+    },
+    {
+     "q": "Inside the nest, it is hotter in the daytime.",
+     "answer": false
+    },
+    {
+     "q": "At night, the thick grass helps keep the birds warm.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What are these birds called?",
+     "options": [
+      "Little sparrows",
+      "Sociable weavers",
+      "Busy builders"
+     ],
+     "answer": 1,
+     "why": "“They are called sociable weavers.”"
+    },
+    {
+     "q": "What do the birds use to build their nest?",
+     "options": [
+      "Stones",
+      "Mud",
+      "Dry grass"
+     ],
+     "answer": 2,
+     "why": "“They collect long pieces of dry grass.”"
+    },
+    {
+     "q": "What do the baby birds open when they are hungry?",
+     "options": [
+      "Their eyes",
+      "Their mouths",
+      "Their wings"
+     ],
+     "answer": 1,
+     "why": "“They open their little mouths.”"
+    },
+    {
+     "q": "What does the nest need to stay strong?",
+     "options": [
+      "Care",
+      "More eggs",
+      "Rain"
+     ],
+     "answer": 0,
+     "why": "“The nest needs care to stay strong.”"
+    },
+    {
+     "q": "What is the nest like?",
+     "options": [
+      "A cave",
+      "A big ship",
+      "A little village in a tree"
+     ],
+     "answer": 2,
+     "why": "“It is like a little village in a tree!”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "It looks like a giant pile of dry",
+     "answer": "grass",
+     "after": "."
+    },
+    {
+     "before": "They carry the grass in their",
+     "answer": "beaks",
+     "after": "."
+    },
+    {
+     "before": "Many families live together under one big",
+     "answer": "roof",
+     "after": "!"
+    },
+    {
+     "before": "The baby birds are",
+     "answer": "hungry",
+     "after": "!"
+    },
+    {
+     "before": "The sun is very",
+     "answer": "hot",
+     "after": "in the daytime."
+    },
+    {
+     "before": "These tiny birds are amazing",
+     "answer": "builders",
+     "after": "!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Sociable weavers are little birds that build one enormous nest from dry grass. Inside, each family has its own little room. The nest keeps the birds cool on hot days and warm on cold nights."
+    },
+    {
+     "q": "How do the birds build their nest?",
+     "model": "They collect long pieces of dry grass and carry them in their beaks. They fly back to the tree and push the grass into the nest."
+    },
+    {
+     "q": "What do the parents feed their babies?",
+     "model": "They bring them insects to eat."
+    },
+    {
+     "q": "Why is the giant nest a clever home?",
+     "model": "Inside, it can be cooler when the sun is hot in the daytime. At night, the thick grass helps keep the birds warm."
+    },
+    {
+     "q": "Would you like to live in a big building with many families? Why or why not?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the ideas in the order of the text.",
+   "items": [
+    "The birds collect long pieces of dry grass",
+    "They push the grass into their nest",
+    "The parents bring insects to the hungry babies",
+    "Some birds fix old parts of the nest",
+    "At night, the thick grass keeps the birds warm"
+   ],
+   "start": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ]
+  }
+ ]
+}

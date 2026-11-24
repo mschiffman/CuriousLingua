@@ -1,0 +1,77 @@
+{
+ "title": "The rainbow: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "s2.2_rainbow",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: cloud · different · enter · imagine · rain · rainbow · separate · stand · sun · water · wonderful · yellow",
+   "items": [
+    {
+     "before": "Take an umbrella. The",
+     "answer": "rain",
+     "after": "is falling hard."
+    },
+    {
+     "before": "Please",
+     "answer": "stand",
+     "after": "in a line and wait for the bus."
+    },
+    {
+     "before": "Bananas are",
+     "answer": "yellow",
+     "after": "when they are ripe."
+    },
+    {
+     "before": "Wear a hat. The",
+     "answer": "sun",
+     "after": "is very hot today."
+    },
+    {
+     "before": "",
+     "answer": "Imagine",
+     "after": "you are a bird. Where would you fly?"
+    },
+    {
+     "before": "We had a",
+     "answer": "wonderful",
+     "after": "time at the beach!"
+    },
+    {
+     "before": "Look at that big gray",
+     "answer": "cloud",
+     "after": "! It's going to rain."
+    },
+    {
+     "before": "",
+     "answer": "Separate",
+     "after": "the white clothes from the dark clothes before you wash them."
+    },
+    {
+     "before": "Drink a lot of",
+     "answer": "water",
+     "after": "on hot days."
+    },
+    {
+     "before": "Twins can look the same, but they are",
+     "answer": "different",
+     "after": "people."
+    },
+    {
+     "before": "After the storm, a",
+     "answer": "rainbow",
+     "after": "appeared over the hills."
+    },
+    {
+     "before": "Knock on the door before you",
+     "answer": "enter",
+     "after": "the room."
+    }
+   ]
+  }
+ ]
+}
