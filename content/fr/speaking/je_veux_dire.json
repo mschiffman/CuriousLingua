@@ -1,337 +1,317 @@
 {
- "title": "Je veux dire…",
- "subtitle": "Four ways to explain yourself",
- "level": "b1",
- "topic": "Situations",
- "type": "dialogue",
- "register": "casual (tu), a couple at home",
- "review": "Written by Claude. Check the French, the English lines, the notes and the questions.",
- "intro": "A suspicious cake, a shrunken jumper, a plant that is 'resting' and a sofa with a spring sticking out: four short scenes between Emma and Lucas. Listen for the little phrases they use to correct themselves, explain again and play for time.",
- "aud_dir": "fr/speaking/je_veux_dire/",
- "aud_ext": "mp3?v=2611241823",
- "speakers": {
-  "E": "Emma",
-  "L": "Lucas"
- },
- "voice": {
-  "E": "q3NYiGPH7m2zMHydaJVv",
-  "L": "fUzMXGEwYWmfjFB2ZfeA"
- },
- "support": [
-  "en"
- ],
- "related": [
-  "fr/expressions/iMean"
- ],
- "sections": [
-  {
-   "title": "Le gâteau",
-   "lines": [
+  "title": "Je veux dire…",
+  "subtitle": "Four ways to explain yourself",
+  "level": "b1",
+  "topic": "Situations",
+  "type": "dialogue",
+  "register": "casual (tu), a couple at home",
+  "review": "Written by Claude. Check the French, the English lines, the notes and the questions.",
+  "intro": "A suspicious cake, a shrunken jumper, a plant that is 'resting' and a sofa with a spring sticking out: four short scenes between Emma and Lucas. Listen for the little phrases they use to correct themselves, explain again and play for time.",
+  "aud_dir": "fr/speaking/je_veux_dire/",
+  "aud_ext": "mp3?v=2611241843",
+  "speakers": {
+    "E": "Emma",
+    "L": "Lucas"
+  },
+  "voice": {
+    "E": "q3NYiGPH7m2zMHydaJVv",
+    "L": "fUzMXGEwYWmfjFB2ZfeA"
+  },
+  "support": ["en"],
+  "related": ["fr/expressions/iMean"],
+  "sections": [
     {
-     "who": "E",
-     "text": "Alors, il est comment, mon gâteau ?",
-     "tr": {
-      "en": "So, how's my cake?"
-     },
-     "note": "Il est comment ? Spoken word order: the question word goes at the end."
+      "title": "Le gâteau",
+      "lines": [
+        {
+          "who": "E",
+          "text": "Alors, il est comment, mon gâteau ?",
+          "tr": {
+            "en": "So, how's my cake?"
+          },
+          "note": "Il est comment ? Spoken word order: the question word goes at the end."
+        },
+        {
+          "who": "L",
+          "text": "Il est… spécial. Enfin, je veux dire, original.",
+          "tr": {
+            "en": "It's… unusual. Well, I mean, original."
+          },
+          "note": "Spécial is faint praise: closer to 'odd' than to 'special'. Enfin, je veux dire: he backtracks."
+        },
+        {
+          "who": "E",
+          "text": "Original ?",
+          "tr": {
+            "en": "Original?"
+          }
+        },
+        {
+          "who": "L",
+          "text": "Oui. Ou plutôt… surprenant.",
+          "tr": {
+            "en": "Yes. Or rather… surprising."
+          },
+          "note": "Ou plutôt swaps in a more exact word."
+        },
+        {
+          "who": "E",
+          "text": "Tu n'aimes pas.",
+          "tr": {
+            "en": "You don't like it."
+          }
+        },
+        {
+          "who": "L",
+          "text": "Si, si ! En fait, il est à quoi ?",
+          "tr": {
+            "en": "I do, I do! Actually, what flavour is it?"
+          },
+          "note": "Si says yes to a negative: Tu n'aimes pas. — Si ! Il est à quoi ? asks the flavour of a cake or an ice cream."
+        },
+        {
+          "who": "E",
+          "text": "Chocolat-courgette.",
+          "tr": {
+            "en": "Chocolate and courgette."
+          }
+        },
+        {
+          "who": "L",
+          "text": "Ah. Je veux dire… miam.",
+          "tr": {
+            "en": "Ah. I mean… yum."
+          }
+        }
+      ]
     },
     {
-     "who": "L",
-     "text": "Il est… spécial. Enfin, je veux dire, original.",
-     "tr": {
-      "en": "It's… unusual. Well, I mean, original."
-     },
-     "note": "Spécial is faint praise: closer to 'odd' than to 'special'. Enfin, je veux dire: he backtracks."
+      "title": "Le pull",
+      "lines": [
+        {
+          "who": "L",
+          "text": "Emma, j'ai fait une lessive.",
+          "tr": {
+            "en": "Emma, I did a load of washing."
+          },
+          "note": "Faire une lessive: to do a wash."
+        },
+        {
+          "who": "E",
+          "text": "C'est gentil, merci.",
+          "tr": {
+            "en": "That's kind of you, thanks."
+          }
+        },
+        {
+          "who": "L",
+          "text": "Ton pull bleu a… un peu changé.",
+          "tr": {
+            "en": "Your blue jumper has… changed a bit."
+          }
+        },
+        {
+          "who": "E",
+          "text": "C'est-à-dire ?",
+          "tr": {
+            "en": "Meaning?"
+          },
+          "note": "As a question, c'est-à-dire ? asks the other person to explain."
+        },
+        {
+          "who": "L",
+          "text": "C'est-à-dire qu'il est plus… compact.",
+          "tr": {
+            "en": "Meaning it's more… compact."
+          },
+          "note": "C'est-à-dire que + a full sentence gives the explanation."
+        },
+        {
+          "who": "E",
+          "text": "Autrement dit, tu l'as fait rétrécir.",
+          "tr": {
+            "en": "In other words, you shrank it."
+          },
+          "note": "Faire rétrécir: to make something shrink."
+        },
+        {
+          "who": "L",
+          "text": "Ce que je veux dire, c'est qu'il ira très bien au chat.",
+          "tr": {
+            "en": "What I mean is, it will fit the cat perfectly."
+          },
+          "note": "Aller à quelqu'un: to fit or suit someone. Ça te va bien: it suits you."
+        },
+        {
+          "who": "E",
+          "text": "Lucas !",
+          "tr": {
+            "en": "Lucas!"
+          }
+        }
+      ]
     },
     {
-     "who": "E",
-     "text": "Original ?",
-     "tr": {
-      "en": "Original?"
-     }
+      "title": "La plante",
+      "lines": [
+        {
+          "who": "E",
+          "text": "Je suis rentrée ! Elle va bien, ma plante ?",
+          "tr": {
+            "en": "I'm home! Is my plant all right?"
+          },
+          "note": "Rentrée is feminine, because Emma is speaking."
+        },
+        {
+          "who": "L",
+          "text": "Ben… comment dire…",
+          "tr": {
+            "en": "Well… how can I put it…"
+          }
+        },
+        {
+          "who": "E",
+          "text": "Tu l'as arrosée ?",
+          "tr": {
+            "en": "Did you water it?"
+          },
+          "note": "Arrosée agrees with la plante."
+        },
+        {
+          "who": "L",
+          "text": "Disons que j'y ai pensé.",
+          "tr": {
+            "en": "Let's say I thought about it."
+          },
+          "note": "Penser à becomes y: j'y ai pensé."
+        },
+        {
+          "who": "E",
+          "text": "Lucas. Elle est morte ?",
+          "tr": {
+            "en": "Lucas. Is it dead?"
+          }
+        },
+        {
+          "who": "L",
+          "text": "Je sais pas comment dire… Elle se repose.",
+          "tr": {
+            "en": "I don't know how to put it… It's resting."
+          }
+        },
+        {
+          "who": "E",
+          "text": "Elle se repose ?",
+          "tr": {
+            "en": "It's resting?"
+          }
+        },
+        {
+          "who": "L",
+          "text": "En quelque sorte. Pour toujours.",
+          "tr": {
+            "en": "In a way. Forever."
+          }
+        }
+      ]
     },
     {
-     "who": "L",
-     "text": "Oui. Ou plutôt… surprenant.",
-     "tr": {
-      "en": "Yes. Or rather… surprising."
-     },
-     "note": "Ou plutôt swaps in a more exact word."
-    },
-    {
-     "who": "E",
-     "text": "Tu n'aimes pas.",
-     "tr": {
-      "en": "You don't like it."
-     }
-    },
-    {
-     "who": "L",
-     "text": "Si, si ! En fait, il est à quoi ?",
-     "tr": {
-      "en": "I do, I do! Actually, what flavour is it?"
-     },
-     "note": "Si says yes to a negative: Tu n'aimes pas. — Si ! Il est à quoi ? asks the flavour of a cake or an ice cream."
-    },
-    {
-     "who": "E",
-     "text": "Chocolat-courgette.",
-     "tr": {
-      "en": "Chocolate and courgette."
-     }
-    },
-    {
-     "who": "L",
-     "text": "Ah. Je veux dire… miam.",
-     "tr": {
-      "en": "Ah. I mean… yum."
-     }
+      "title": "Le canapé",
+      "lines": [
+        {
+          "who": "E",
+          "text": "Il faut changer ce canapé.",
+          "tr": {
+            "en": "We need to replace this sofa."
+          }
+        },
+        {
+          "who": "L",
+          "text": "Pourquoi ? Il est très bien.",
+          "tr": {
+            "en": "Why? It's perfectly fine."
+          }
+        },
+        {
+          "who": "E",
+          "text": "Il a, genre, vingt ans.",
+          "tr": {
+            "en": "It's, like, twenty years old."
+          },
+          "note": "Genre is the filler 'like'. Informal."
+        },
+        {
+          "who": "L",
+          "text": "Après, il est confortable.",
+          "tr": {
+            "en": "Mind you, it's comfortable."
+          },
+          "note": "Après here is not 'afterwards': it adds a 'but'."
+        },
+        {
+          "who": "E",
+          "text": "Y a un ressort qui dépasse ! Non mais je veux dire, on peut plus s'asseoir.",
+          "tr": {
+            "en": "There's a spring sticking out! No, but I mean, you can't sit on it any more."
+          },
+          "note": "Y a = il y a. On peut plus = on ne peut plus: 'no longer', not 'more'."
+        },
+        {
+          "who": "L",
+          "text": "Cela dit, il a du caractère.",
+          "tr": {
+            "en": "That said, it has character."
+          }
+        },
+        {
+          "who": "E",
+          "text": "Tu vois ce que je veux dire, ou pas ?",
+          "tr": {
+            "en": "Do you see what I mean, or not?"
+          }
+        },
+        {
+          "who": "L",
+          "text": "Je vois surtout le prix d'un canapé neuf.",
+          "tr": {
+            "en": "What I mostly see is the price of a new sofa."
+          }
+        }
+      ]
     }
-   ]
-  },
-  {
-   "title": "Le pull",
-   "lines": [
+  ],
+  "notes": [
+    "Je veux dire and enfin correct what you just said. Ou plutôt swaps in a better word. En fait gives the real version.",
+    "C'est-à-dire ? asks for an explanation; c'est-à-dire que… gives one. Autrement dit draws the conclusion.",
+    "Comment dire…, disons que… and en quelque sorte buy time, or soften bad news.",
+    "Genre, après and cela dit are spoken qualifiers: 'like', 'mind you', 'that said'.",
+    "Si says yes to a negative: Tu n'aimes pas. — Si !",
+    "Spoken French drops ne and shortens il y a: je sais pas, on peut plus, y a."
+  ],
+  "questions": [
     {
-     "who": "L",
-     "text": "Emma, j'ai fait une lessive.",
-     "tr": {
-      "en": "Emma, I did a load of washing."
-     },
-     "note": "Faire une lessive: to do a wash."
+      "q": "Lucas calls the cake « spécial », then backtracks. Which phrase does he use to correct himself?",
+      "options": ["Enfin, je veux dire…", "Autrement dit…", "Cela dit…"],
+      "answer": 0,
+      "why": "Enfin, je veux dire… = 'well, I mean…': the usual way to take a word back."
     },
     {
-     "who": "E",
-     "text": "C'est gentil, merci.",
-     "tr": {
-      "en": "That's kind of you, thanks."
-     }
+      "q": "Emma wants Lucas to explain what « un peu changé » means. What does she ask?",
+      "options": ["Comment dire ?", "C'est-à-dire ?", "Tu vois ?"],
+      "answer": 1,
+      "why": "C'est-à-dire ? = 'meaning?'. It asks the other person to spell it out."
     },
     {
-     "who": "L",
-     "text": "Ton pull bleu a… un peu changé.",
-     "tr": {
-      "en": "Your blue jumper has… changed a bit."
-     }
+      "q": "Emma asks if her plant is dead. Lucas gives a cautious yes. What does he say?",
+      "options": ["Si, si !", "En quelque sorte.", "Pourquoi ?"],
+      "answer": 1,
+      "why": "En quelque sorte = 'in a way', 'sort of'."
     },
     {
-     "who": "E",
-     "text": "C'est-à-dire ?",
-     "tr": {
-      "en": "Meaning?"
-     },
-     "note": "As a question, c'est-à-dire ? asks the other person to explain."
-    },
-    {
-     "who": "L",
-     "text": "C'est-à-dire qu'il est plus… compact.",
-     "tr": {
-      "en": "Meaning it's more… compact."
-     },
-     "note": "C'est-à-dire que + a full sentence gives the explanation."
-    },
-    {
-     "who": "E",
-     "text": "Autrement dit, tu l'as fait rétrécir.",
-     "tr": {
-      "en": "In other words, you shrank it."
-     },
-     "note": "Faire rétrécir: to make something shrink."
-    },
-    {
-     "who": "L",
-     "text": "Ce que je veux dire, c'est qu'il ira très bien au chat.",
-     "tr": {
-      "en": "What I mean is, it will fit the cat perfectly."
-     },
-     "note": "Aller à quelqu'un: to fit or suit someone. Ça te va bien: it suits you."
-    },
-    {
-     "who": "E",
-     "text": "Lucas !",
-     "tr": {
-      "en": "Lucas!"
-     }
+      "q": "Lucas admits the sofa is old, then adds a point in its favour. Which word opens his objection?",
+      "options": ["Genre", "Après", "Ben"],
+      "answer": 1,
+      "why": "Après, il est confortable = 'mind you, it's comfortable'."
     }
-   ]
-  },
-  {
-   "title": "La plante",
-   "lines": [
-    {
-     "who": "E",
-     "text": "Je suis rentrée ! Elle va bien, ma plante ?",
-     "tr": {
-      "en": "I'm home! Is my plant all right?"
-     },
-     "note": "Rentrée is feminine, because Emma is speaking."
-    },
-    {
-     "who": "L",
-     "text": "Ben… comment dire…",
-     "tr": {
-      "en": "Well… how can I put it…"
-     }
-    },
-    {
-     "who": "E",
-     "text": "Tu l'as arrosée ?",
-     "tr": {
-      "en": "Did you water it?"
-     },
-     "note": "Arrosée agrees with la plante."
-    },
-    {
-     "who": "L",
-     "text": "Disons que j'y ai pensé.",
-     "tr": {
-      "en": "Let's say I thought about it."
-     },
-     "note": "Penser à becomes y: j'y ai pensé."
-    },
-    {
-     "who": "E",
-     "text": "Lucas. Elle est morte ?",
-     "tr": {
-      "en": "Lucas. Is it dead?"
-     }
-    },
-    {
-     "who": "L",
-     "text": "Je sais pas comment dire… Elle se repose.",
-     "tr": {
-      "en": "I don't know how to put it… It's resting."
-     }
-    },
-    {
-     "who": "E",
-     "text": "Elle se repose.",
-     "tr": {
-      "en": "It's resting."
-     }
-    },
-    {
-     "who": "L",
-     "text": "En quelque sorte. Pour toujours.",
-     "tr": {
-      "en": "In a way. Forever."
-     }
-    }
-   ]
-  },
-  {
-   "title": "Le canapé",
-   "lines": [
-    {
-     "who": "E",
-     "text": "Il faut changer ce canapé.",
-     "tr": {
-      "en": "We need to replace this sofa."
-     }
-    },
-    {
-     "who": "L",
-     "text": "Pourquoi ? Il est très bien.",
-     "tr": {
-      "en": "Why? It's perfectly fine."
-     }
-    },
-    {
-     "who": "E",
-     "text": "Il a, genre, vingt ans.",
-     "tr": {
-      "en": "It's, like, twenty years old."
-     },
-     "note": "Genre is the filler 'like'. Informal."
-    },
-    {
-     "who": "L",
-     "text": "Après, il est confortable.",
-     "tr": {
-      "en": "Mind you, it's comfortable."
-     },
-     "note": "Après here is not 'afterwards': it adds a 'but'."
-    },
-    {
-     "who": "E",
-     "text": "Y a un ressort qui dépasse ! Non mais je veux dire, on peut plus s'asseoir.",
-     "tr": {
-      "en": "There's a spring sticking out! No, but I mean, you can't sit on it any more."
-     },
-     "note": "Y a = il y a. On peut plus = on ne peut plus: 'no longer', not 'more'."
-    },
-    {
-     "who": "L",
-     "text": "Cela dit, il a du caractère.",
-     "tr": {
-      "en": "That said, it has character."
-     }
-    },
-    {
-     "who": "E",
-     "text": "Tu vois ce que je veux dire, ou pas ?",
-     "tr": {
-      "en": "Do you see what I mean, or not?"
-     }
-    },
-    {
-     "who": "L",
-     "text": "Je vois surtout le prix d'un canapé neuf.",
-     "tr": {
-      "en": "What I mostly see is the price of a new sofa."
-     }
-    }
-   ]
-  }
- ],
- "notes": [
-  "Je veux dire and enfin correct what you just said. Ou plutôt swaps in a better word. En fait gives the real version.",
-  "C'est-à-dire ? asks for an explanation; c'est-à-dire que… gives one. Autrement dit draws the conclusion.",
-  "Comment dire…, disons que… and en quelque sorte buy time, or soften bad news.",
-  "Genre, après and cela dit are spoken qualifiers: 'like', 'mind you', 'that said'.",
-  "Si says yes to a negative: Tu n'aimes pas. — Si !",
-  "Spoken French drops ne and shortens il y a: je sais pas, on peut plus, y a."
- ],
- "questions": [
-  {
-   "q": "Lucas calls the cake « spécial », then backtracks. Which phrase does he use to correct himself?",
-   "options": [
-    "Enfin, je veux dire…",
-    "Autrement dit…",
-    "Cela dit…"
-   ],
-   "answer": 0,
-   "why": "Enfin, je veux dire… = 'well, I mean…': the usual way to take a word back."
-  },
-  {
-   "q": "Emma wants Lucas to explain what « un peu changé » means. What does she ask?",
-   "options": [
-    "Comment dire ?",
-    "C'est-à-dire ?",
-    "Tu vois ?"
-   ],
-   "answer": 1,
-   "why": "C'est-à-dire ? = 'meaning?'. It asks the other person to spell it out."
-  },
-  {
-   "q": "Emma asks if her plant is dead. Lucas gives a cautious yes. What does he say?",
-   "options": [
-    "Si, si !",
-    "En quelque sorte.",
-    "Pourquoi ?"
-   ],
-   "answer": 1,
-   "why": "En quelque sorte = 'in a way', 'sort of'."
-  },
-  {
-   "q": "Lucas admits the sofa is old, then adds a point in its favour. Which word opens his objection?",
-   "options": [
-    "Genre",
-    "Après",
-    "Ben"
-   ],
-   "answer": 1,
-   "why": "Après, il est confortable = 'mind you, it's comfortable'."
-  }
- ]
+  ]
 }
