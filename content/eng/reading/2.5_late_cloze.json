@@ -1,0 +1,77 @@
+{
+ "title": "We're Late!: cloze test",
+ "subtitle": "Complete with the missing word",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.5_late",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: almost · come · good · have · hurry · mom · morning · now · please · put · ready · time",
+   "items": [
+    {
+     "before": "Good",
+     "answer": "morning",
+     "after": "! It's seven o'clock."
+    },
+    {
+     "before": "What",
+     "answer": "time",
+     "after": "is it? It's eight o'clock."
+    },
+    {
+     "before": "",
+     "answer": "Hurry",
+     "after": "up! The bus is leaving!"
+    },
+    {
+     "before": "Wait! I'm",
+     "answer": "almost",
+     "after": "done. One more minute!"
+    },
+    {
+     "before": "Is dinner",
+     "answer": "ready",
+     "after": "? I'm hungry."
+    },
+    {
+     "before": "",
+     "answer": "Put",
+     "after": "your shoes by the door."
+    },
+    {
+     "before": "Clean your room",
+     "answer": "now",
+     "after": ", please. Not later."
+    },
+    {
+     "before": "Can you",
+     "answer": "come",
+     "after": "to my party on Saturday?"
+    },
+    {
+     "before": "Can I have some water,",
+     "answer": "please",
+     "after": "?"
+    },
+    {
+     "before": "I",
+     "answer": "have",
+     "after": "two brothers."
+    },
+    {
+     "before": "",
+     "answer": "Mom",
+     "after": "and Dad are at work."
+    },
+    {
+     "before": "This is a",
+     "answer": "good",
+     "after": "book. I like it."
+    }
+   ]
+  }
+ ]
+}

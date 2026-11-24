@@ -1,0 +1,77 @@
+{
+ "title": "We're Going to the Zoo!: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.11_zoo",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: backpack · blue · elephants · forget · hope · monkeys · pink · shirt · table · wake · warm · wear",
+   "items": [
+    {
+     "before": "",
+     "answer": "Elephants",
+     "after": "have long trunks and big ears."
+    },
+    {
+     "before": "What do you want to",
+     "answer": "wear",
+     "after": "to the party?"
+    },
+    {
+     "before": "Strawberry milk is",
+     "answer": "pink",
+     "after": "."
+    },
+    {
+     "before": "I wear a white",
+     "answer": "shirt",
+     "after": "to school."
+    },
+    {
+     "before": "Don't",
+     "answer": "forget",
+     "after": "your umbrella. It's going to rain."
+    },
+    {
+     "before": "Put your books in your",
+     "answer": "backpack",
+     "after": "."
+    },
+    {
+     "before": "Take off your coat. It's",
+     "answer": "warm",
+     "after": "in here."
+    },
+    {
+     "before": "",
+     "answer": "Monkeys",
+     "after": "like to eat bananas and climb trees."
+    },
+    {
+     "before": "I",
+     "answer": "hope",
+     "after": "it's sunny tomorrow."
+    },
+    {
+     "before": "Put the cups on the",
+     "answer": "table",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Wake",
+     "after": "up, Tom! It's time for school."
+    },
+    {
+     "before": "The sky is",
+     "answer": "blue",
+     "after": "today."
+    }
+   ]
+  }
+ ]
+}

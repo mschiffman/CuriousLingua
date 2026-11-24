@@ -1,0 +1,77 @@
+{
+ "title": "I'm Tired: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.9_tired",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bathroom · bunny · eyes · hands · hug · night · rest · rub · soft · sweet · tired · wash",
+   "items": [
+    {
+     "before": "The toothbrush is in the",
+     "answer": "bathroom",
+     "after": "."
+    },
+    {
+     "before": "I'm tired. I want to sit down and",
+     "answer": "rest",
+     "after": "."
+    },
+    {
+     "before": "I ran a lot today. I'm very",
+     "answer": "tired",
+     "after": "."
+    },
+    {
+     "before": "Clap your",
+     "answer": "hands",
+     "after": "!"
+    },
+    {
+     "before": "Please",
+     "answer": "wash",
+     "after": "the dishes after dinner."
+    },
+    {
+     "before": "My cat's fur is very",
+     "answer": "soft",
+     "after": "."
+    },
+    {
+     "before": "Close your",
+     "answer": "eyes",
+     "after": "and go to sleep."
+    },
+    {
+     "before": "",
+     "answer": "Rub",
+     "after": "your hands together to make them warm."
+    },
+    {
+     "before": "Candy is very",
+     "answer": "sweet",
+     "after": "."
+    },
+    {
+     "before": "A",
+     "answer": "bunny",
+     "after": "is a baby rabbit."
+    },
+    {
+     "before": "Come here and give me a big",
+     "answer": "hug",
+     "after": "!"
+    },
+    {
+     "before": "The moon shines at",
+     "answer": "night",
+     "after": "."
+    }
+   ]
+  }
+ ]
+}

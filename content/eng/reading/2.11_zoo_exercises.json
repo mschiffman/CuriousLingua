@@ -1,0 +1,178 @@
+{
+ "title": "We're Going to the Zoo!: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.11_zoo",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Mia wants to see the elephants.",
+     "answer": true
+    },
+    {
+     "q": "Mia wears a pink shirt and blue shorts.",
+     "answer": true
+    },
+    {
+     "q": "Mia's shoes are under the table.",
+     "answer": false
+    },
+    {
+     "q": "Mom tells Mia not to forget her hat.",
+     "answer": true
+    },
+    {
+     "q": "Mia takes an apple for a snack.",
+     "answer": false
+    },
+    {
+     "q": "Mia goes to the zoo without her sunglasses.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where are Mia and Mom going today?",
+     "options": [
+      "To the zoo",
+      "To the beach",
+      "To school"
+     ],
+     "answer": 0,
+     "why": "“We're going to the zoo today.”"
+    },
+    {
+     "q": "What is the weather like?",
+     "options": [
+      "It's cold",
+      "It's raining",
+      "It's warm"
+     ],
+     "answer": 2,
+     "why": "“It's warm outside.”"
+    },
+    {
+     "q": "What does Mia put in her backpack?",
+     "options": [
+      "Her shoes",
+      "Her water bottle",
+      "Her books"
+     ],
+     "answer": 1,
+     "why": "“Put your water bottle in it.”"
+    },
+    {
+     "q": "Where are Mia's sunglasses?",
+     "options": [
+      "In her backpack",
+      "Under the bed",
+      "On the table"
+     ],
+     "answer": 2,
+     "why": "“They're on the table.”"
+    },
+    {
+     "q": "Which animals does Mia hope to see?",
+     "options": [
+      "The monkeys",
+      "The lions",
+      "The bears"
+     ],
+     "answer": 0,
+     "why": "“I hope we see the monkeys!”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Mia, wake up! We're going to the",
+     "answer": "zoo",
+     "after": "today."
+    },
+    {
+     "before": "My pink shirt and blue",
+     "answer": "shorts",
+     "after": "."
+    },
+    {
+     "before": "And don't forget your",
+     "answer": "hat",
+     "after": "."
+    },
+    {
+     "before": "Put your water",
+     "answer": "bottle",
+     "after": "in it."
+    },
+    {
+     "before": "I need my",
+     "answer": "sunglasses",
+     "after": "."
+    },
+    {
+     "before": "What about the",
+     "answer": "giraffes",
+     "after": "?"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia and Mom are going to the zoo. Mia gets ready: she puts on her clothes, her shoes and her hat, and she takes water, a snack and her sunglasses. She hopes to see elephants, monkeys and giraffes."
+    },
+    {
+     "q": "What does Mia wear?",
+     "model": "Her pink shirt, her blue shorts, her shoes and her hat."
+    },
+    {
+     "q": "What does Mia take in her backpack?",
+     "model": "Her water bottle and a banana."
+    },
+    {
+     "q": "Which animals does Mia want to see?",
+     "model": "The elephants, the monkeys and the giraffes."
+    },
+    {
+     "q": "What animal do you want to see at the zoo? Why?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mom wakes Mia up",
+    "Mia chooses her clothes",
+    "Mia finds her shoes under the bed",
+    "Mia takes a banana for a snack",
+    "Mia finds her sunglasses on the table"
+   ],
+   "start": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ]
+  }
+ ]
+}

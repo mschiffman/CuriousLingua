@@ -1,0 +1,178 @@
+{
+ "title": "What Do You Want to Do?: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.8_do",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Mia wants to play right now.",
+     "answer": false
+    },
+    {
+     "q": "Mia likes books.",
+     "answer": true
+    },
+    {
+     "q": "Mia says drawing sounds fun.",
+     "answer": true
+    },
+    {
+     "q": "Mia wants to watch TV.",
+     "answer": false
+    },
+    {
+     "q": "Mia wants to go outside.",
+     "answer": true
+    },
+    {
+     "q": "Mom says they can't go.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does Mia say about playing?",
+     "options": [
+      "Maybe later.",
+      "Yes, please!",
+      "I don't like it."
+     ],
+     "answer": 0,
+     "why": "“Maybe later.”"
+    },
+    {
+     "q": "Does Mia want to read?",
+     "options": [
+      "Yes, with Dad",
+      "Yes, right now",
+      "Not right now"
+     ],
+     "answer": 2,
+     "why": "“But not right now.”"
+    },
+    {
+     "q": "What does Mia say about drawing?",
+     "options": [
+      "That sounds bad!",
+      "That sounds fun!",
+      "I don't know."
+     ],
+     "answer": 1,
+     "why": "“That sounds fun!”"
+    },
+    {
+     "q": "What doesn't Mia want to watch?",
+     "options": [
+      "The birds",
+      "Her mom",
+      "TV"
+     ],
+     "answer": 2,
+     "why": "“I don't want to watch TV.”"
+    },
+    {
+     "q": "Where does Mia want to go?",
+     "options": [
+      "Outside",
+      "To bed",
+      "To school"
+     ],
+     "answer": 0,
+     "why": "“I want to go outside.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Hmm... Let me",
+     "answer": "think",
+     "after": "."
+    },
+    {
+     "before": "Do you want to",
+     "answer": "play",
+     "after": "? Maybe later."
+    },
+    {
+     "before": "I like",
+     "answer": "books",
+     "after": "."
+    },
+    {
+     "before": "How about",
+     "answer": "drawing",
+     "after": "?"
+    },
+    {
+     "before": "Do you want to",
+     "answer": "watch",
+     "after": "something?"
+    },
+    {
+     "before": "I",
+     "answer": "know",
+     "after": "! I want to go outside."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mom asks Mia what she wants to do. Mia doesn't want to play, read or watch TV right now. She wants to go outside, and Mom says yes."
+    },
+    {
+     "q": "What does Mia like?",
+     "model": "She likes books, and she likes to draw."
+    },
+    {
+     "q": "Does Mia want to watch TV?",
+     "model": "No, she doesn't."
+    },
+    {
+     "q": "What do Mia and Mom do at the end?",
+     "model": "They go outside."
+    },
+    {
+     "q": "What do you like to do on the weekend?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia says, \"Let me think.\"",
+    "Mia says she will play later",
+    "Mia says drawing sounds fun",
+    "Mia says no to TV",
+    "Mia and Mom go outside"
+   ],
+   "start": [
+    3,
+    2,
+    4,
+    0,
+    1
+   ]
+  }
+ ]
+}

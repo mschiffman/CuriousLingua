@@ -1,0 +1,77 @@
+{
+ "title": "What Do You Want to Do?: cloze test",
+ "subtitle": "Complete with the missing word",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.8_do",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: fun · go · later · like · maybe · now · outside · read · something · thank · TV · want",
+   "items": [
+    {
+     "before": "I",
+     "answer": "want",
+     "after": "a glass of water, please."
+    },
+    {
+     "before": "Can you",
+     "answer": "read",
+     "after": "this word? What does it say?"
+    },
+    {
+     "before": "I",
+     "answer": "like",
+     "after": "cats, but I don't like dogs."
+    },
+    {
+     "before": "I'm busy now. Let's talk",
+     "answer": "later",
+     "after": "."
+    },
+    {
+     "before": "Come here",
+     "answer": "now",
+     "after": ", please. Don't wait."
+    },
+    {
+     "before": "The party was",
+     "answer": "fun",
+     "after": "! We played games and danced."
+    },
+    {
+     "before": "",
+     "answer": "Thank",
+     "after": "you for your help."
+    },
+    {
+     "before": "My brother likes to watch",
+     "answer": "TV",
+     "after": "after dinner."
+    },
+    {
+     "before": "Let's",
+     "answer": "go",
+     "after": "to the beach!"
+    },
+    {
+     "before": "It's sunny. Let's play",
+     "answer": "outside",
+     "after": "."
+    },
+    {
+     "before": "I'm hungry. Can I have",
+     "answer": "something",
+     "after": "to eat?"
+    },
+    {
+     "before": "",
+     "answer": "Maybe",
+     "after": "it will rain. Take an umbrella."
+    }
+   ]
+  }
+ ]
+}

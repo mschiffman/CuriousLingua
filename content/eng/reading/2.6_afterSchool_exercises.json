@@ -1,0 +1,178 @@
+{
+ "title": "After School: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.6_afterSchool",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Mia says school was good.",
+     "answer": true
+    },
+    {
+     "q": "Mia is not hungry.",
+     "answer": false
+    },
+    {
+     "q": "Mom gives Mia an apple and some juice.",
+     "answer": false
+    },
+    {
+     "q": "After her snack, it's time for homework.",
+     "answer": true
+    },
+    {
+     "q": "Mia writes in her notebook.",
+     "answer": true
+    },
+    {
+     "q": "Mom says Mia can't play.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does Mom say when Mia gets home?",
+     "options": [
+      "Hurry up!",
+      "Welcome home!",
+      "Good night!"
+     ],
+     "answer": 1,
+     "why": "“Welcome home!”"
+    },
+    {
+     "q": "How was school?",
+     "options": [
+      "It was bad",
+      "It was good",
+      "It was long"
+     ],
+     "answer": 1,
+     "why": "“It was good!”"
+    },
+    {
+     "q": "What does Mia ask for?",
+     "options": [
+      "A toy",
+      "A book",
+      "A snack"
+     ],
+     "answer": 2,
+     "why": "“Can I have a snack?”"
+    },
+    {
+     "q": "What does Mia read?",
+     "options": [
+      "A newspaper",
+      "A letter",
+      "Her book"
+     ],
+     "answer": 2,
+     "why": "“I read my book.”"
+    },
+    {
+     "q": "What does Mia want to do after her homework?",
+     "options": [
+      "Play",
+      "Eat",
+      "Sleep"
+     ],
+     "answer": 0,
+     "why": "“Can I play now?”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "How was",
+     "answer": "school",
+     "after": "?"
+    },
+    {
+     "before": "I'm",
+     "answer": "hungry",
+     "after": ". Can I have a snack?"
+    },
+    {
+     "before": "Here's a banana and some",
+     "answer": "milk",
+     "after": "."
+    },
+    {
+     "before": "Now it's time for",
+     "answer": "homework",
+     "after": "."
+    },
+    {
+     "before": "I write in my",
+     "answer": "notebook",
+     "after": "."
+    },
+    {
+     "before": "I'm",
+     "answer": "finished",
+     "after": "! Good job!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia comes home from school and has a snack. Then she does her homework: she reads her book and writes in her notebook. When she is finished, she can play."
+    },
+    {
+     "q": "What does Mia have for a snack?",
+     "model": "A banana and some milk."
+    },
+    {
+     "q": "What homework does Mia do?",
+     "model": "She reads her book and writes in her notebook."
+    },
+    {
+     "q": "What does Mom say when Mia is finished?",
+     "model": "\"Good job!\""
+    },
+    {
+     "q": "What is your favorite snack after school?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia comes home",
+    "Mia has a snack",
+    "Mia reads her book",
+    "Mia writes in her notebook",
+    "Mia plays"
+   ],
+   "start": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ]
+  }
+ ]
+}

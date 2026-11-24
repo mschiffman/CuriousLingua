@@ -1,0 +1,77 @@
+{
+ "title": "Let's Get Ready: cloze test",
+ "subtitle": "Complete with the missing word",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.4_getReady",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bag · clothes · go · like · morning · outside · pajamas · put · raining · shoes · shorts · take",
+   "items": [
+    {
+     "before": "I wear my",
+     "answer": "pajamas",
+     "after": "to bed."
+    },
+    {
+     "before": "",
+     "answer": "Take",
+     "after": "off your hat in the classroom."
+    },
+    {
+     "before": "It's hot today. I'm wearing",
+     "answer": "shorts",
+     "after": "and a T-shirt."
+    },
+    {
+     "before": "I",
+     "answer": "like",
+     "after": "ice cream very much."
+    },
+    {
+     "before": "Put your dirty",
+     "answer": "clothes",
+     "after": "in the basket."
+    },
+    {
+     "before": "It's",
+     "answer": "raining",
+     "after": ". Take your umbrella!"
+    },
+    {
+     "before": "Take off your",
+     "answer": "shoes",
+     "after": "before you come in."
+    },
+    {
+     "before": "",
+     "answer": "Put",
+     "after": "the milk in the fridge, please."
+    },
+    {
+     "before": "Don't forget your school",
+     "answer": "bag",
+     "after": "!"
+    },
+    {
+     "before": "The children are playing",
+     "answer": "outside",
+     "after": "in the garden."
+    },
+    {
+     "before": "I brush my teeth every",
+     "answer": "morning",
+     "after": "and every night."
+    },
+    {
+     "before": "Let's",
+     "answer": "go",
+     "after": "to the park!"
+    }
+   ]
+  }
+ ]
+}

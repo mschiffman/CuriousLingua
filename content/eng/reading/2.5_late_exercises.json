@@ -1,0 +1,178 @@
+{
+ "title": "We're Late!: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.5_late",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Mia and Mom are late.",
+     "answer": true
+    },
+    {
+     "q": "Mia is eating breakfast when Mom says, \"Hurry up!\"",
+     "answer": false
+    },
+    {
+     "q": "Mia never finds her bag.",
+     "answer": false
+    },
+    {
+     "q": "Mia puts on her shoes.",
+     "answer": true
+    },
+    {
+     "q": "Mia says, \"I'm coming!\"",
+     "answer": true
+    },
+    {
+     "q": "At the end, Mom is not ready.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does Mia ask at the start?",
+     "options": [
+      "Where is Mom?",
+      "What's for breakfast?",
+      "What time is it?"
+     ],
+     "answer": 2,
+     "why": "“What time is it?”"
+    },
+    {
+     "q": "What is Mia doing when Mom says, \"Hurry up\"?",
+     "options": [
+      "Eating breakfast",
+      "Brushing her teeth",
+      "Getting dressed"
+     ],
+     "answer": 2,
+     "why": "“I'm getting dressed.”"
+    },
+    {
+     "q": "What does Mia look for?",
+     "options": [
+      "Her bag",
+      "Her shoes",
+      "Her hat"
+     ],
+     "answer": 0,
+     "why": "“Where is my bag?”"
+    },
+    {
+     "q": "What does Mia say when Mom says, \"Hurry up\" again?",
+     "options": [
+      "Good night!",
+      "I'm coming!",
+      "I'm hungry!"
+     ],
+     "answer": 1,
+     "why": "“I'm coming! Please wait!”"
+    },
+    {
+     "q": "Who does Mia ask, \"Are you ready?\"",
+     "options": [
+      "Mom",
+      "Her friend",
+      "Dad"
+     ],
+     "answer": 0,
+     "why": "“Are you ready, Mom?”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Oh no! We're",
+     "answer": "late",
+     "after": "!"
+    },
+    {
+     "before": "Hurry up, Mia! I'm getting",
+     "answer": "dressed",
+     "after": "."
+    },
+    {
+     "before": "Wait! Where is my",
+     "answer": "bag",
+     "after": "?"
+    },
+    {
+     "before": "Put on your",
+     "answer": "shoes",
+     "after": "."
+    },
+    {
+     "before": "I'm coming! Please",
+     "answer": "wait",
+     "after": "!"
+    },
+    {
+     "before": "Now I'm ready too. Let's",
+     "answer": "go",
+     "after": "!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia and Mom are late. Mia gets dressed, finds her bag and puts on her shoes. Then they are both ready, and they go."
+    },
+    {
+     "q": "Why does Mom say, \"Hurry up, Mia!\"?",
+     "model": "Because they are late."
+    },
+    {
+     "q": "What does Mia do to get ready?",
+     "model": "She gets dressed, finds her bag and puts on her shoes."
+    },
+    {
+     "q": "Is Mom ready at the end?",
+     "model": "Yes, she is ready."
+    },
+    {
+     "q": "Are you sometimes late? What do you do?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia and Mom are late",
+    "Mia gets dressed",
+    "Mia finds her bag",
+    "Mia puts on her shoes",
+    "Mia and Mom go"
+   ],
+   "start": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ]
+  }
+ ]
+}

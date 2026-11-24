@@ -1,0 +1,77 @@
+{
+ "title": "What a Day!: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.10_day",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: breakfast · clean · day · fun · hungry · hurry · morning · night · ready · shoes · want · wash",
+   "items": [
+    {
+     "before": "Put on your",
+     "answer": "shoes",
+     "after": ". We are going out."
+    },
+    {
+     "before": "",
+     "answer": "Wash",
+     "after": "your hands before you eat."
+    },
+    {
+     "before": "Can I have some food? I'm",
+     "answer": "hungry",
+     "after": "."
+    },
+    {
+     "before": "I eat",
+     "answer": "breakfast",
+     "after": "at seven o'clock."
+    },
+    {
+     "before": "",
+     "answer": "Hurry",
+     "after": "up! The bus is here!"
+    },
+    {
+     "before": "Dinner is",
+     "answer": "ready",
+     "after": ". Come and eat!"
+    },
+    {
+     "before": "I go to school in the",
+     "answer": "morning",
+     "after": "."
+    },
+    {
+     "before": "Please",
+     "answer": "clean",
+     "after": "your room."
+    },
+    {
+     "before": "Let's play a game. It's",
+     "answer": "fun",
+     "after": "!"
+    },
+    {
+     "before": "The stars come out at",
+     "answer": "night",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "want",
+     "after": "a new toy for my birthday."
+    },
+    {
+     "before": "What",
+     "answer": "day",
+     "after": "is it today? It's Monday."
+    }
+   ]
+  }
+ ]
+}

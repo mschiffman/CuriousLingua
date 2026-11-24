@@ -1,0 +1,178 @@
+{
+ "title": "Clean Up, Please: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.7_clean",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Mom tells Mia to clean up.",
+     "answer": true
+    },
+    {
+     "q": "Mia picks up her toys.",
+     "answer": true
+    },
+    {
+     "q": "Mia puts her books in the box.",
+     "answer": false
+    },
+    {
+     "q": "Mia puts the blocks in the box.",
+     "answer": true
+    },
+    {
+     "q": "Mia puts her crayons on the bed.",
+     "answer": false
+    },
+    {
+     "q": "At the end, the room is still messy.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where do the books go?",
+     "options": [
+      "On the shelf",
+      "In the box",
+      "On the table"
+     ],
+     "answer": 0,
+     "why": "“Put your books on the shelf.”"
+    },
+    {
+     "q": "Where do the blocks go?",
+     "options": [
+      "Under the bed",
+      "On the shelf",
+      "In the box"
+     ],
+     "answer": 2,
+     "why": "“Put the blocks in the box.”"
+    },
+    {
+     "q": "What is full?",
+     "options": [
+      "The box",
+      "The bag",
+      "The shelf"
+     ],
+     "answer": 0,
+     "why": "“The box is full!”"
+    },
+    {
+     "q": "Where do the crayons go?",
+     "options": [
+      "In the box",
+      "On the shelf",
+      "On the table"
+     ],
+     "answer": 2,
+     "why": "“Put your crayons on the table.”"
+    },
+    {
+     "q": "What does Mom say at the end?",
+     "options": [
+      "Good night, Mia.",
+      "Good job, Mia.",
+      "Hurry up, Mia!"
+     ],
+     "answer": 1,
+     "why": "“Good job, Mia.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Look at this",
+     "answer": "room",
+     "after": "."
+    },
+    {
+     "before": "Pick up your",
+     "answer": "toys",
+     "after": "."
+    },
+    {
+     "before": "Now the shelf is",
+     "answer": "tidy",
+     "after": "."
+    },
+    {
+     "before": "The box is",
+     "answer": "full",
+     "after": "!"
+    },
+    {
+     "before": "Now they are",
+     "answer": "neat",
+     "after": "."
+    },
+    {
+     "before": "I'm almost",
+     "answer": "done",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia's room needs cleaning. She picks up her toys and puts her books, blocks and crayons in their places. At the end, the room is all clean, and Mom says, \"Good job!\""
+    },
+    {
+     "q": "What does Mia put on the shelf?",
+     "model": "Her books."
+    },
+    {
+     "q": "What does Mia put in the box?",
+     "model": "The blocks."
+    },
+    {
+     "q": "What does Mom say at the end?",
+     "model": "\"Good job, Mia.\""
+    },
+    {
+     "q": "How do you help clean at home?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia picks up her toys",
+    "Mia puts her books on the shelf",
+    "Mia puts the blocks in the box",
+    "Mia puts her crayons on the table",
+    "The room is all clean"
+   ],
+   "start": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "title": "A Busy Morning: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.1_busyMorning",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bag · breakfast · brush · busy · eat · face · hurry · mom · ready · thank · wake · wash",
+   "items": [
+    {
+     "before": "She has a happy, smiling",
+     "answer": "face",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "wake",
+     "after": "up at six o'clock."
+    },
+    {
+     "before": "Are you",
+     "answer": "ready",
+     "after": "? Let's go!"
+    },
+    {
+     "before": "I have cereal and milk for",
+     "answer": "breakfast",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Brush",
+     "after": "your teeth after dinner."
+    },
+    {
+     "before": "I",
+     "answer": "eat",
+     "after": "rice for lunch."
+    },
+    {
+     "before": "My books are in my school",
+     "answer": "bag",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Thank",
+     "after": "you for the present!"
+    },
+    {
+     "before": "I'm very",
+     "answer": "busy",
+     "after": "today. I have a lot of homework."
+    },
+    {
+     "before": "",
+     "answer": "Mom",
+     "after": "and Dad are in the kitchen."
+    },
+    {
+     "before": "",
+     "answer": "Hurry",
+     "after": "up! We're late!"
+    },
+    {
+     "before": "I",
+     "answer": "wash",
+     "after": "my hands before lunch."
+    }
+   ]
+  }
+ ]
+}

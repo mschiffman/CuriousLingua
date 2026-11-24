@@ -1,0 +1,178 @@
+{
+ "title": "I'm Hungry: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.3_breakfast",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Mia is hungry in the morning.",
+     "answer": true
+    },
+    {
+     "q": "For breakfast, Mia has rice and fish.",
+     "answer": false
+    },
+    {
+     "q": "Mia likes eggs.",
+     "answer": true
+    },
+    {
+     "q": "Mia doesn't want a banana.",
+     "answer": false
+    },
+    {
+     "q": "Mia drinks some juice.",
+     "answer": false
+    },
+    {
+     "q": "At the end, Mia's tummy is full.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does Mia have for breakfast?",
+     "options": [
+      "Toast and eggs",
+      "Cake and tea",
+      "Rice and fish"
+     ],
+     "answer": 0,
+     "why": "“I have toast and eggs.”"
+    },
+    {
+     "q": "What does Mia drink?",
+     "options": [
+      "Juice",
+      "Milk",
+      "Water"
+     ],
+     "answer": 1,
+     "why": "“And some milk.”"
+    },
+    {
+     "q": "What fruit does Mom give Mia?",
+     "options": [
+      "An apple",
+      "An orange",
+      "A banana"
+     ],
+     "answer": 2,
+     "why": "“Would you like a banana?”"
+    },
+    {
+     "q": "How does Mia's breakfast taste?",
+     "options": [
+      "Bad",
+      "Good",
+      "Too sweet"
+     ],
+     "answer": 1,
+     "why": "“It tastes good!”"
+    },
+    {
+     "q": "What does Mom say at the end?",
+     "options": [
+      "You're welcome!",
+      "Hurry up!",
+      "Good night!"
+     ],
+     "answer": 0,
+     "why": "“You're welcome!”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "What's for",
+     "answer": "breakfast",
+     "after": "?"
+    },
+    {
+     "before": "I have toast and",
+     "answer": "eggs",
+     "after": "."
+    },
+    {
+     "before": "Would you like a",
+     "answer": "banana",
+     "after": "?"
+    },
+    {
+     "before": "I",
+     "answer": "drink",
+     "after": "my milk."
+    },
+    {
+     "before": "My tummy is",
+     "answer": "full",
+     "after": "."
+    },
+    {
+     "before": "Thank you for breakfast, Mom. You're",
+     "answer": "welcome",
+     "after": "!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia is hungry, and breakfast is ready. She has toast, eggs, milk and a banana. Now her tummy is full, and she says thank you to Mom."
+    },
+    {
+     "q": "What does Mia like?",
+     "model": "She likes toast and eggs."
+    },
+    {
+     "q": "How does Mia feel after breakfast?",
+     "model": "She is not hungry now. Her tummy is full."
+    },
+    {
+     "q": "What does Mia say to Mom at the end?",
+     "model": "\"Thank you for breakfast, Mom.\""
+    },
+    {
+     "q": "What do you have for breakfast?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia is hungry",
+    "Breakfast is ready",
+    "Mom gives Mia a banana",
+    "Mia drinks her milk",
+    "Mia says thank you for breakfast"
+   ],
+   "start": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ]
+  }
+ ]
+}

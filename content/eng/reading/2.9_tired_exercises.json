@@ -1,0 +1,178 @@
+{
+ "title": "I'm Tired: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.9_tired",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "It is morning.",
+     "answer": false
+    },
+    {
+     "q": "Mia goes to the bathroom.",
+     "answer": true
+    },
+    {
+     "q": "Mia washes her hands and her face.",
+     "answer": true
+    },
+    {
+     "q": "Mia puts on her shoes.",
+     "answer": false
+    },
+    {
+     "q": "Mia hugs her teddy bear.",
+     "answer": false
+    },
+    {
+     "q": "Mom says, \"Sweet dreams.\"",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does Mia want to do?",
+     "options": [
+      "Rest",
+      "Eat",
+      "Play"
+     ],
+     "answer": 0,
+     "why": "“I want to rest.”"
+    },
+    {
+     "q": "Where does Mia go?",
+     "options": [
+      "To the kitchen",
+      "To school",
+      "To the bathroom"
+     ],
+     "answer": 2,
+     "why": "“I go to the bathroom.”"
+    },
+    {
+     "q": "What are Mia's pajamas like?",
+     "options": [
+      "Big",
+      "Wet",
+      "Soft"
+     ],
+     "answer": 2,
+     "why": "“My pajamas are soft.”"
+    },
+    {
+     "q": "What does Mia rub?",
+     "options": [
+      "Her hands",
+      "Her eyes",
+      "Her nose"
+     ],
+     "answer": 1,
+     "why": "“I rub my eyes.”"
+    },
+    {
+     "q": "What does Mia hug?",
+     "options": [
+      "Her bunny",
+      "Her pillow",
+      "Her mom"
+     ],
+     "answer": 0,
+     "why": "“I hug my bunny.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "It is",
+     "answer": "evening",
+     "after": "."
+    },
+    {
+     "before": "It's",
+     "answer": "bath",
+     "after": "time."
+    },
+    {
+     "before": "Now I am",
+     "answer": "clean",
+     "after": "."
+    },
+    {
+     "before": "Put on your",
+     "answer": "pajamas",
+     "after": "."
+    },
+    {
+     "before": "I'm ready to",
+     "answer": "sleep",
+     "after": "."
+    },
+    {
+     "before": "Sweet",
+     "answer": "dreams",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "It is evening, and Mia is tired. She washes, puts on her pajamas and gets into bed with her bunny. She says good night to Mom."
+    },
+    {
+     "q": "What does Mia do in the bathroom?",
+     "model": "She washes her hands and her face."
+    },
+    {
+     "q": "What does Mia do when she is sleepy?",
+     "model": "She rubs her eyes."
+    },
+    {
+     "q": "What does Mia do in bed?",
+     "model": "She hugs her bunny. She is ready to sleep."
+    },
+    {
+     "q": "What do you do before you go to bed?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia goes to the bathroom",
+    "Mia washes her hands and face",
+    "Mia puts on her pajamas",
+    "Mia gets into bed",
+    "Mia says good night"
+   ],
+   "start": [
+    3,
+    2,
+    0,
+    4,
+    1
+   ]
+  }
+ ]
+}

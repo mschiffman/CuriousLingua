@@ -1,0 +1,178 @@
+{
+ "title": "Let's Get Ready: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.4_getReady",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "It's cold outside.",
+     "answer": false
+    },
+    {
+     "q": "Mia takes off her pajamas.",
+     "answer": true
+    },
+    {
+     "q": "Mia likes her shirt.",
+     "answer": true
+    },
+    {
+     "q": "Mia puts on a skirt.",
+     "answer": false
+    },
+    {
+     "q": "Then it starts to rain.",
+     "answer": true
+    },
+    {
+     "q": "Mia forgets her umbrella.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does Mia take off?",
+     "options": [
+      "Her hat",
+      "Her shoes",
+      "Her pajamas"
+     ],
+     "answer": 2,
+     "why": "“Take off your pajamas.”"
+    },
+    {
+     "q": "What does Mom say about the shirt?",
+     "options": [
+      "Put on your shirt.",
+      "Wash your shirt.",
+      "Take off your shirt."
+     ],
+     "answer": 0,
+     "why": "“Put on your shirt.”"
+    },
+    {
+     "q": "What is the weather like at the end?",
+     "options": [
+      "It's sunny",
+      "It's raining",
+      "It's snowing"
+     ],
+     "answer": 1,
+     "why": "“It's raining.”"
+    },
+    {
+     "q": "What does Mom tell Mia to take?",
+     "options": [
+      "Her coat",
+      "Her umbrella",
+      "Her hat"
+     ],
+     "answer": 1,
+     "why": "“Take your umbrella.”"
+    },
+    {
+     "q": "What does Mia have at the end?",
+     "options": [
+      "Her umbrella and her bag",
+      "Her book and her pencil",
+      "Her hat and her coat"
+     ],
+     "answer": 0,
+     "why": "“I have my umbrella. I have my bag.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "What should I",
+     "answer": "wear",
+     "after": "?"
+    },
+    {
+     "before": "It's",
+     "answer": "warm",
+     "after": "outside."
+    },
+    {
+     "before": "Okay, Mom. I like this",
+     "answer": "shirt",
+     "after": "."
+    },
+    {
+     "before": "I'm getting",
+     "answer": "dressed",
+     "after": "."
+    },
+    {
+     "before": "I put on my shoes. I'm almost",
+     "answer": "ready",
+     "after": "."
+    },
+    {
+     "before": "Take your",
+     "answer": "umbrella",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia gets ready in the morning. It's warm, so she puts on her shirt, her shorts and her shoes. Then it starts to rain, so she takes her umbrella."
+    },
+    {
+     "q": "What clothes does Mia put on?",
+     "model": "Her shirt, her shorts and her shoes."
+    },
+    {
+     "q": "Why does Mia take her umbrella?",
+     "model": "Because it's raining."
+    },
+    {
+     "q": "What does Mia have when she goes?",
+     "model": "Her umbrella and her bag."
+    },
+    {
+     "q": "What do you wear when it's warm? What do you wear when it rains?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia takes off her pajamas",
+    "Mia puts on her shirt",
+    "Mia puts on her shorts",
+    "Mia puts on her shoes",
+    "Mia takes her umbrella"
+   ],
+   "start": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ]
+  }
+ ]
+}

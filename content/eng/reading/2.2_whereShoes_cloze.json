@@ -1,0 +1,77 @@
+{
+ "title": "Where Are My Shoes?: cloze test",
+ "subtitle": "Complete with the missing word",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.2_whereShoes",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: almost · bag · can · door · find · go · here · look · mom · now · put · under",
+   "items": [
+    {
+     "before": "My books are in my",
+     "answer": "bag",
+     "after": "."
+    },
+    {
+     "before": "I can't",
+     "answer": "find",
+     "after": "my pencil. Where is it?"
+    },
+    {
+     "before": "",
+     "answer": "Look",
+     "after": "at the bird in the tree!"
+    },
+    {
+     "before": "Please close the",
+     "answer": "door",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Mom",
+     "after": ", can I have some milk?"
+    },
+    {
+     "before": "",
+     "answer": "Put",
+     "after": "your toys in the box."
+    },
+    {
+     "before": "It's time to",
+     "answer": "go",
+     "after": "to school."
+    },
+    {
+     "before": "I'm",
+     "answer": "almost",
+     "after": "ready. Wait one minute!"
+    },
+    {
+     "before": "The cat is",
+     "answer": "under",
+     "after": "the table."
+    },
+    {
+     "before": "Do your homework",
+     "answer": "now",
+     "after": ", not later."
+    },
+    {
+     "before": "",
+     "answer": "Can",
+     "after": "you help me, please?"
+    },
+    {
+     "before": "Come",
+     "answer": "here",
+     "after": ", please. Sit next to me."
+    }
+   ]
+  }
+ ]
+}

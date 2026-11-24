@@ -1,0 +1,178 @@
+{
+ "title": "Where Are My Shoes?: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.2_whereShoes",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Mia has her bag.",
+     "answer": true
+    },
+    {
+     "q": "Mia can't find her socks.",
+     "answer": false
+    },
+    {
+     "q": "The shoes are under the bed.",
+     "answer": false
+    },
+    {
+     "q": "Mia looks in the closet.",
+     "answer": true
+    },
+    {
+     "q": "Mia and Mom look together.",
+     "answer": true
+    },
+    {
+     "q": "The shoes are under the table.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does Mia have?",
+     "options": [
+      "Her bag",
+      "Her hat",
+      "Her shoes"
+     ],
+     "answer": 0,
+     "why": "“I have my bag.”"
+    },
+    {
+     "q": "Where does Mia look first?",
+     "options": [
+      "By the door",
+      "Under the bed",
+      "In the closet"
+     ],
+     "answer": 1,
+     "why": "“I look under the bed.”"
+    },
+    {
+     "q": "Who helps Mia?",
+     "options": [
+      "Her brother",
+      "Dad",
+      "Mom"
+     ],
+     "answer": 2,
+     "why": "“Mom, I can't find my shoes! Let's look together.”"
+    },
+    {
+     "q": "Where are the shoes?",
+     "options": [
+      "By the door",
+      "In the closet",
+      "Under the bed"
+     ],
+     "answer": 0,
+     "why": "“Are they by the door? Look! Here they are!”"
+    },
+    {
+     "q": "What does Mia say at the end?",
+     "options": [
+      "I'm hungry!",
+      "Let's go!",
+      "Good night!"
+     ],
+     "answer": 1,
+     "why": "“Let's go!”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "But where are my",
+     "answer": "shoes",
+     "after": "?"
+    },
+    {
+     "before": "I can't find them. I look",
+     "answer": "everywhere",
+     "after": "."
+    },
+    {
+     "before": "I look under the",
+     "answer": "bed",
+     "after": "."
+    },
+    {
+     "before": "I look in the",
+     "answer": "closet",
+     "after": "."
+    },
+    {
+     "before": "Let's look",
+     "answer": "together",
+     "after": "."
+    },
+    {
+     "before": "Now I'm",
+     "answer": "ready",
+     "after": "!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia is almost ready, but she can't find her shoes. She looks under the bed and in the closet. Then she and Mom look together, and the shoes are by the door."
+    },
+    {
+     "q": "Where does Mia look for her shoes?",
+     "model": "Under the bed and in the closet."
+    },
+    {
+     "q": "Who helps Mia look?",
+     "model": "Mom. They look together."
+    },
+    {
+     "q": "Where are the shoes?",
+     "model": "By the door."
+    },
+    {
+     "q": "What do you lose sometimes? Where do you find it?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia can't find her shoes",
+    "Mia looks under the bed",
+    "Mia looks in the closet",
+    "Mia and Mom look together",
+    "Mia puts on her shoes"
+   ],
+   "start": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ]
+  }
+ ]
+}

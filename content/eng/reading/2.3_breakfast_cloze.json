@@ -1,0 +1,77 @@
+{
+ "title": "I'm Hungry: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.3_breakfast",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: done · eat · good · hungry · like · milk · morning · ready · tastes · thank · toast · tummy",
+   "items": [
+    {
+     "before": "I put butter on my",
+     "answer": "toast",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "like",
+     "after": "cats and dogs."
+    },
+    {
+     "before": "Can I have a sandwich? I'm",
+     "answer": "hungry",
+     "after": "."
+    },
+    {
+     "before": "Cows give us",
+     "answer": "milk",
+     "after": "."
+    },
+    {
+     "before": "We",
+     "answer": "eat",
+     "after": "lunch at twelve o'clock."
+    },
+    {
+     "before": "Are you",
+     "answer": "ready",
+     "after": "to go? The bus is here."
+    },
+    {
+     "before": "I ate too much. My",
+     "answer": "tummy",
+     "after": "hurts."
+    },
+    {
+     "before": "This soup",
+     "answer": "tastes",
+     "after": "good!"
+    },
+    {
+     "before": "This cake is very",
+     "answer": "good",
+     "after": ". Can I have more?"
+    },
+    {
+     "before": "Good",
+     "answer": "morning",
+     "after": "! Did you sleep well?"
+    },
+    {
+     "before": "",
+     "answer": "Thank",
+     "after": "you for the nice present!"
+    },
+    {
+     "before": "I finished my homework. I'm all",
+     "answer": "done",
+     "after": "!"
+    }
+   ]
+  }
+ ]
+}

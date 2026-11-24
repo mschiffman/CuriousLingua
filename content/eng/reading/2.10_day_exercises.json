@@ -1,0 +1,178 @@
+{
+ "title": "What a Day!: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "2.10_day",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "In the morning, Mia is sleepy.",
+     "answer": true
+    },
+    {
+     "q": "Mia washes her hands.",
+     "answer": false
+    },
+    {
+     "q": "Breakfast is ready.",
+     "answer": true
+    },
+    {
+     "q": "Mia has her bag.",
+     "answer": true
+    },
+    {
+     "q": "After school, Mia wants to sing.",
+     "answer": false
+    },
+    {
+     "q": "At night, Mia is hungry.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "How is Mia in the morning?",
+     "options": [
+      "Sad",
+      "Cold",
+      "Sleepy"
+     ],
+     "answer": 2,
+     "why": "“Good morning. I'm sleepy.”"
+    },
+    {
+     "q": "What does Mia look for?",
+     "options": [
+      "Her bag",
+      "Her shoes",
+      "Her hat"
+     ],
+     "answer": 1,
+     "why": "“Where are my shoes?”"
+    },
+    {
+     "q": "What does Mia ask for when she gets home?",
+     "options": [
+      "A snack",
+      "A book",
+      "A bath"
+     ],
+     "answer": 0,
+     "why": "“Can I have a snack?”"
+    },
+    {
+     "q": "What does Mia want to do after her snack?",
+     "options": [
+      "Sleep",
+      "Read",
+      "Draw"
+     ],
+     "answer": 2,
+     "why": "“I want to draw.”"
+    },
+    {
+     "q": "Who does Mia say good night to?",
+     "options": [
+      "Her teacher",
+      "Mom",
+      "Dad"
+     ],
+     "answer": 1,
+     "why": "“Good night, Mom.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Good morning. I'm",
+     "answer": "sleepy",
+     "after": "."
+    },
+    {
+     "before": "I wash my",
+     "answer": "face",
+     "after": ". I get dressed."
+    },
+    {
+     "before": "I have my",
+     "answer": "bag",
+     "after": ". I'm almost ready."
+    },
+    {
+     "before": "I'm home! I'm hungry. Can I have a",
+     "answer": "snack",
+     "after": "?"
+    },
+    {
+     "before": "I want to",
+     "answer": "draw",
+     "after": ". That sounds fun!"
+    },
+    {
+     "before": "I'm",
+     "answer": "tired",
+     "after": ". Good night, Mom."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Mia gets up, gets dressed and has breakfast. After school, she has a snack and draws. At night, she is tired and says good night."
+    },
+    {
+     "q": "What does Mia do in the morning?",
+     "model": "She gets up, washes her face and gets dressed. Then she has breakfast."
+    },
+    {
+     "q": "What does Mia do when she gets home?",
+     "model": "She has a snack, and then she draws."
+    },
+    {
+     "q": "How does Mia feel at night?",
+     "model": "She is tired."
+    },
+    {
+     "q": "What do you do after school?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Mia gets up",
+    "Mia washes her face",
+    "Mia has breakfast",
+    "Mia has a snack",
+    "Mia says good night"
+   ],
+   "start": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ]
+  }
+ ]
+}

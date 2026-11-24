@@ -1,0 +1,77 @@
+{
+ "title": "After School: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.6_afterSchool",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: banana · book · good · home · job · play · read · snack · thank · time · welcome · write",
+   "items": [
+    {
+     "before": "I go",
+     "answer": "home",
+     "after": "after school."
+    },
+    {
+     "before": "Let's",
+     "answer": "play",
+     "after": "football in the park."
+    },
+    {
+     "before": "This soup is very",
+     "answer": "good",
+     "after": "."
+    },
+    {
+     "before": "An apple is a good",
+     "answer": "snack",
+     "after": "after school."
+    },
+    {
+     "before": "Can you",
+     "answer": "write",
+     "after": "your name in English?"
+    },
+    {
+     "before": "Thank you! You're",
+     "answer": "welcome",
+     "after": "!"
+    },
+    {
+     "before": "A",
+     "answer": "banana",
+     "after": "is long and yellow."
+    },
+    {
+     "before": "I like to",
+     "answer": "read",
+     "after": "stories about animals."
+    },
+    {
+     "before": "I have a new",
+     "answer": "book",
+     "after": "about dinosaurs."
+    },
+    {
+     "before": "",
+     "answer": "Thank",
+     "after": "you for the cake!"
+    },
+    {
+     "before": "You did your homework very well. Good",
+     "answer": "job",
+     "after": "!"
+    },
+    {
+     "before": "It's",
+     "answer": "time",
+     "after": "for bed. Good night!"
+    }
+   ]
+  }
+ ]
+}

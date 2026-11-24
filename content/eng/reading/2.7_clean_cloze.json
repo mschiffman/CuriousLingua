@@ -1,0 +1,77 @@
+{
+ "title": "Clean Up, Please: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "2.7_clean",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: blocks · box · clean · crayons · good · look · pick · put · shelf · table · thank · there",
+   "items": [
+    {
+     "before": "Put the books back on the",
+     "answer": "shelf",
+     "after": "above my bed."
+    },
+    {
+     "before": "",
+     "answer": "Look",
+     "after": "at me and smile!"
+    },
+    {
+     "before": "The new toy is in a big",
+     "answer": "box",
+     "after": "."
+    },
+    {
+     "before": "Please",
+     "answer": "pick",
+     "after": "up the paper from the floor."
+    },
+    {
+     "before": "I draw pictures with my",
+     "answer": "crayons",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Put",
+     "after": "your coat on, please. It's cold."
+    },
+    {
+     "before": "We eat dinner at the kitchen",
+     "answer": "table",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "clean",
+     "after": "my room every Saturday."
+    },
+    {
+     "before": "The baby builds a tower with",
+     "answer": "blocks",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Thank",
+     "after": "you, Mom!"
+    },
+    {
+     "before": "You helped a lot.",
+     "answer": "Good",
+     "after": "job!"
+    },
+    {
+     "before": "Your bag is over",
+     "answer": "there",
+     "after": ", by the door."
+    }
+   ]
+  }
+ ]
+}
