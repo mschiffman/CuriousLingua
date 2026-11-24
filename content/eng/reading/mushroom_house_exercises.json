@@ -1,0 +1,178 @@
+{
+ "title": "The Little Mushroom House: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "mushroom_house",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The mushroom house had a big red roof.",
+     "answer": true
+    },
+    {
+     "q": "Rosie is a young squirrel.",
+     "answer": false
+    },
+    {
+     "q": "Mimi was wearing a purple apron.",
+     "answer": true
+    },
+    {
+     "q": "The magic flower rings when someone in the forest needs help.",
+     "answer": true
+    },
+    {
+     "q": "Rosie and Mimi found a baby hedgehog under a big rock.",
+     "answer": false
+    },
+    {
+     "q": "That evening, Mimi made lemon tea.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What came from the chimney every morning?",
+     "options": [
+      "Music",
+      "Golden lights",
+      "Sweet smoke"
+     ],
+     "answer": 2,
+     "why": "“Every morning, sweet smoke curled from its chimney.”"
+    },
+    {
+     "q": "What was in Mimi's cupboard?",
+     "options": [
+      "Colorful cups",
+      "Toys",
+      "Books"
+     ],
+     "answer": 0,
+     "why": "“There was a small kitchen, a round table, and a cupboard full of colorful cups.”"
+    },
+    {
+     "q": "Where was the magic flower growing?",
+     "options": [
+      "In a blue pot",
+      "In the garden",
+      "On the roof"
+     ],
+     "answer": 0,
+     "why": "“Mimi showed Rosie a little golden flower growing in a blue pot.”"
+    },
+    {
+     "q": "Where was the baby hedgehog's home?",
+     "options": [
+      "Beside a river",
+      "Beneath an old tree",
+      "Under a big leaf"
+     ],
+     "answer": 1,
+     "why": "“The three friends walked through the forest until they reached a cozy nest beneath an old tree.”"
+    },
+    {
+     "q": "What did Rosie share in the evening?",
+     "options": [
+      "Hot chocolate",
+      "Honey biscuits",
+      "Berry cake"
+     ],
+     "answer": 1,
+     "why": "“Mimi made hot chocolate, and Rosie shared some honey biscuits.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "It had a big red roof, a tiny blue door, and windows that glowed like",
+     "answer": "stars",
+     "after": "."
+    },
+    {
+     "before": "Suddenly, she heard a",
+     "answer": "sound",
+     "after": "."
+    },
+    {
+     "before": "Then she",
+     "answer": "knocked",
+     "after": "on the tiny blue door."
+    },
+    {
+     "before": "The little house was warm and",
+     "answer": "cozy",
+     "after": "."
+    },
+    {
+     "before": "Under a big leaf, they found a baby",
+     "answer": "hedgehog",
+     "after": "."
+    },
+    {
+     "before": "His mother ran out and",
+     "answer": "hugged",
+     "after": "him."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Rosie the rabbit found a little mushroom house where a mouse called Mimi lived. Mimi had a magic flower that rang when someone needed help. They followed its lights and helped a lost baby hedgehog find his way home."
+    },
+    {
+     "q": "What is special about Mimi's flower?",
+     "model": "It is a magic flower. It rings like a tiny bell when someone in the forest needs help, and its petals can glow."
+    },
+    {
+     "q": "How did they help the baby hedgehog get home?",
+     "model": "Mimi held up her magic flower. Little golden lights floated into the air, and they followed the lights to the hedgehog's nest."
+    },
+    {
+     "q": "What makes the mushroom house special, says Mimi?",
+     "model": "The friends who come through its door."
+    },
+    {
+     "q": "What makes your home special?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Rosie heard a sound coming from the mushroom house",
+    "Rosie knocked on the tiny blue door",
+    "The magic flower began to ring",
+    "They found a baby hedgehog under a big leaf",
+    "The baby hedgehog found his mother"
+   ],
+   "start": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ]
+  }
+ ]
+}

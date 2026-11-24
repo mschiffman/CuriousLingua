@@ -1,0 +1,178 @@
+{
+ "title": "Clover Valley: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "Clover_valley",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Rosie heard a tiny voice in the meadow.",
+     "answer": true
+    },
+    {
+     "q": "The little houses were made from acorns, walnut shells, and stones.",
+     "answer": true
+    },
+    {
+     "q": "To the tiny people, Rosie was as big as a tree.",
+     "answer": false
+    },
+    {
+     "q": "In the village, a ladybug delivered the mail.",
+     "answer": false
+    },
+    {
+     "q": "Rosie held a big leaf over the village like an umbrella.",
+     "answer": true
+    },
+    {
+     "q": "The party for Rosie was in the morning.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What was hidden under the clover flowers?",
+     "options": [
+      "A rabbit hole",
+      "A tiny village",
+      "A big castle"
+     ],
+     "answer": 1,
+     "why": "“There, hidden under the flowers, was a tiny village!”"
+    },
+    {
+     "q": "Where was the bakery?",
+     "options": [
+      "Under a leaf roof",
+      "Inside a teapot",
+      "On a bridge of twigs"
+     ],
+     "answer": 1,
+     "why": "“There was a bakery inside a teapot, a school under a leaf roof, and a bridge made of twigs.”"
+    },
+    {
+     "q": "What would each raindrop be like for the little people?",
+     "options": [
+      "Sweet",
+      "Warm",
+      "Huge"
+     ],
+     "answer": 2,
+     "why": "“But to the little people, each raindrop would be huge.”"
+    },
+    {
+     "q": "What did Rosie use to block the rushing water?",
+     "options": [
+      "Twigs and pebbles",
+      "Leaves and flowers",
+      "Cups and baskets"
+     ],
+     "answer": 0,
+     "why": "“Then she used twigs and pebbles to block the rushing water.”"
+    },
+    {
+     "q": "What did the little people give Rosie her tea in?",
+     "options": [
+      "A teapot",
+      "A walnut shell",
+      "A shiny acorn cup"
+     ],
+     "answer": 2,
+     "why": "“They gave her tea in a shiny acorn cup.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Suddenly, Rosie heard a tiny",
+     "answer": "voice",
+     "after": "."
+    },
+    {
+     "before": "Rosie's eyes grew",
+     "answer": "wide",
+     "after": "."
+    },
+    {
+     "before": "At last, a",
+     "answer": "brave",
+     "after": "little girl stepped forward."
+    },
+    {
+     "before": "Soon the little people saw that Rosie was",
+     "answer": "kind",
+     "after": "."
+    },
+    {
+     "before": "A",
+     "answer": "storm",
+     "after": "is coming!"
+    },
+    {
+     "before": "That evening, the little people held a",
+     "answer": "party",
+     "after": "for Rosie."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Rosie Rabbit found a tiny village of little people hidden under the clover flowers. When a storm came, she held a big leaf over the village and helped the little people keep it safe. They became friends, and the little people held a party for her."
+    },
+    {
+     "q": "Why did the tiny people run and hide when they saw Rosie?",
+     "model": "To them, Rosie was as big as a hill. They were afraid she would step on their village."
+    },
+    {
+     "q": "How did Rosie help during the storm?",
+     "model": "She held a big leaf over the village like an umbrella. She used twigs and pebbles to block the rushing water."
+    },
+    {
+     "q": "What did the little people do at the party?",
+     "model": "They gave Rosie tea in a shiny acorn cup and served berry cake, honey crumbs and flower jam. Music filled the meadow."
+    },
+    {
+     "q": "Have you ever helped a friend with a big problem? What did you do?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Rosie heard a tiny voice in the meadow",
+    "Clover asked Rosie not to step on the village",
+    "Clover showed Rosie around the village",
+    "Rosie held a big leaf over the village",
+    "The little people held a party for Rosie"
+   ],
+   "start": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "title": "Tinker Bell: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "Tinkerbell_light",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: belong · cave · empty · follow · golden · idea · lose · middle · missing · notice · shoulder · sparkling",
+   "items": [
+    {
+     "before": "Let's make a card for Grandma. What a good",
+     "answer": "idea",
+     "after": "!"
+    },
+    {
+     "before": "Hold the money carefully. Don't",
+     "answer": "lose",
+     "after": "it!"
+    },
+    {
+     "before": "The box is",
+     "answer": "empty",
+     "after": ". There is nothing inside."
+    },
+    {
+     "before": "The table is in the",
+     "answer": "middle",
+     "after": "of the room."
+    },
+    {
+     "before": "Did you",
+     "answer": "notice",
+     "after": "her new haircut? It's very short."
+    },
+    {
+     "before": "My cat is",
+     "answer": "missing",
+     "after": ". We can't find her anywhere!"
+    },
+    {
+     "before": "My little brother fell asleep with his head on my",
+     "answer": "shoulder",
+     "after": "."
+    },
+    {
+     "before": "This pencil doesn't",
+     "answer": "belong",
+     "after": "to me. Is it yours?"
+    },
+    {
+     "before": "The rice fields look",
+     "answer": "golden",
+     "after": "in the evening sun."
+    },
+    {
+     "before": "Bats sleep in a dark",
+     "answer": "cave",
+     "after": "in the mountains."
+    },
+    {
+     "before": "",
+     "answer": "Follow",
+     "after": "me! I know the way to the park."
+    },
+    {
+     "before": "We drank cold",
+     "answer": "sparkling",
+     "after": "water with bubbles."
+    }
+   ]
+  }
+ ]
+}

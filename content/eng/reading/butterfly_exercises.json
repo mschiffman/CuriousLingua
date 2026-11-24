@@ -1,0 +1,178 @@
+{
+ "title": "The Butterfly Forest: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "butterfly",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Father told the children to stay on the path.",
+     "answer": true
+    },
+    {
+     "q": "The large butterfly in the meadow was white.",
+     "answer": true
+    },
+    {
+     "q": "The butterfly's name was Rose.",
+     "answer": false
+    },
+    {
+     "q": "A mother butterfly lays eggs on leaves.",
+     "answer": true
+    },
+    {
+     "q": "When the new butterfly comes out, its wings are dry and strong.",
+     "answer": false
+    },
+    {
+     "q": "The children found the path with the help of a bird.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where did the butterflies lead Hansel and Gretel?",
+     "options": [
+      "To a secret meadow",
+      "To a river",
+      "To a little house"
+     ],
+     "answer": 0,
+     "why": "“The butterflies led Hansel and Gretel to a secret meadow.”"
+    },
+    {
+     "q": "What do caterpillars need to grow?",
+     "options": [
+      "Rain",
+      "Food",
+      "Darkness"
+     ],
+     "answer": 1,
+     "why": "\"Caterpillars need food to grow.\""
+    },
+    {
+     "q": "What does the caterpillar make?",
+     "options": [
+      "A nest",
+      "An egg",
+      "A chrysalis"
+     ],
+     "answer": 2,
+     "why": "\"The caterpillar makes a chrysalis.\""
+    },
+    {
+     "q": "What did the butterflies look like when they rose into the air?",
+     "options": [
+      "Falling leaves",
+      "A rainbow",
+      "A bright, fluttering cloud"
+     ],
+     "answer": 2,
+     "why": "“At once, dozens of butterflies rose into the air like a bright, fluttering cloud.”"
+    },
+    {
+     "q": "Where was Father waiting?",
+     "options": [
+      "At home",
+      "At the edge of the forest",
+      "In the meadow"
+     ],
+     "answer": 1,
+     "why": "“At the edge of the forest, Father was waiting.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "Soon, they saw colorful butterflies dancing in the",
+     "answer": "sunlight",
+     "after": "."
+    },
+    {
+     "before": "It was full of",
+     "answer": "wildflowers",
+     "after": "."
+    },
+    {
+     "before": "On it were many tiny round",
+     "answer": "eggs",
+     "after": "."
+    },
+    {
+     "before": "The caterpillars munched and munched on the",
+     "answer": "leaves",
+     "after": "."
+    },
+    {
+     "before": "I think we are",
+     "answer": "lost",
+     "after": "."
+    },
+    {
+     "before": "The children waved",
+     "answer": "goodbye",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Hansel and Gretel followed some butterflies to a secret meadow, where a talking butterfly called Lily taught them the butterfly life cycle. They saw eggs, caterpillars, a chrysalis and a new butterfly. When they got lost, the butterflies showed them the way back to the path."
+    },
+    {
+     "q": "What is the butterfly life cycle?",
+     "model": "Egg, caterpillar, chrysalis, butterfly."
+    },
+    {
+     "q": "What happens inside the chrysalis?",
+     "model": "The caterpillar changes into a butterfly. It takes time."
+    },
+    {
+     "q": "How did the children find the path again?",
+     "model": "Lily called the other butterflies. They flew through the trees and showed the children the way."
+    },
+    {
+     "q": "Have you ever seen a caterpillar or a butterfly? Where?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The children followed the butterflies into the forest",
+    "Lily showed them tiny eggs on a leaf",
+    "The children saw caterpillars eating leaves",
+    "A new butterfly came out of the chrysalis",
+    "The butterflies showed the children the way back"
+   ],
+   "start": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ]
+  }
+ ]
+}

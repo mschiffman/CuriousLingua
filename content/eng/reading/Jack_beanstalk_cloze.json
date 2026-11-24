@@ -1,0 +1,77 @@
+{
+ "title": "Jack and the Beanstalk: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "Jack_beanstalk",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: angry · brave · castle · climb · frightening · huge · market · money · sell · threw · window · woke",
+   "items": [
+    {
+     "before": "I want to buy a new bike, but I don't have enough",
+     "answer": "money",
+     "after": "."
+    },
+    {
+     "before": "My uncle wants to",
+     "answer": "sell",
+     "after": "his old car."
+    },
+    {
+     "before": "The firefighter was very",
+     "answer": "brave",
+     "after": ". She saved the children from the fire."
+    },
+    {
+     "before": "We buy fruit and vegetables at the",
+     "answer": "market",
+     "after": "on Saturday."
+    },
+    {
+     "before": "Cats can",
+     "answer": "climb",
+     "after": "trees very quickly."
+    },
+    {
+     "before": "The film was",
+     "answer": "frightening",
+     "after": ". I couldn't sleep after it!"
+    },
+    {
+     "before": "Look out of the",
+     "answer": "window",
+     "after": ". It's snowing!"
+    },
+    {
+     "before": "My brother",
+     "answer": "threw",
+     "after": "the ball over the fence."
+    },
+    {
+     "before": "A whale is a",
+     "answer": "huge",
+     "after": "animal. It's bigger than a bus."
+    },
+    {
+     "before": "The king and queen live in a big",
+     "answer": "castle",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "woke",
+     "after": "up at six o'clock this morning."
+    },
+    {
+     "before": "Dad was",
+     "answer": "angry",
+     "after": "because I broke his phone."
+    }
+   ]
+  }
+ ]
+}

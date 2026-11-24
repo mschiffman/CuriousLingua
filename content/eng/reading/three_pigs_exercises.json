@@ -1,0 +1,178 @@
+{
+ "title": "The Three Little Pigs: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "three_pigs",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The three little pigs were brothers.",
+     "answer": true
+    },
+    {
+     "q": "The first little pig built his house with sticks.",
+     "answer": false
+    },
+    {
+     "q": "The second little pig built his house with bricks.",
+     "answer": false
+    },
+    {
+     "q": "The third little pig's house took much longer to build.",
+     "answer": true
+    },
+    {
+     "q": "The wolf blew down the straw house.",
+     "answer": true
+    },
+    {
+     "q": "The wolf blew down the brick house too.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Why did the first pig build his house with straw?",
+     "options": [
+      "It is very strong",
+      "It is quick and easy",
+      "It is beautiful"
+     ],
+     "answer": 1,
+     "why": "\"It is quick and easy,\" he said."
+    },
+    {
+     "q": "What did the second pig build his house with?",
+     "options": [
+      "Sticks",
+      "Bricks",
+      "Straw"
+     ],
+     "answer": 0,
+     "why": "“The second little pig built his house with sticks.”"
+    },
+    {
+     "q": "What was the third pig's house like?",
+     "options": [
+      "Strong and solid",
+      "Small and weak",
+      "Quick and easy"
+     ],
+     "answer": 0,
+     "why": "“But the house was strong and solid.”"
+    },
+    {
+     "q": "Where did the first pig run when his house fell down?",
+     "options": [
+      "Into the forest",
+      "Back home",
+      "To his brother's stick house"
+     ],
+     "answer": 2,
+     "why": "“The first pig ran to his brother's stick house.”"
+    },
+    {
+     "q": "What does the moral say?",
+     "options": [
+      "Fast work is always the best",
+      "Wolves are always hungry",
+      "Good work takes time, but it can keep us safe"
+     ],
+     "answer": 2,
+     "why": "“Moral: Good work takes time, but it can keep us safe.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "One day, they left home to build",
+     "answer": "houses",
+     "after": "of their own."
+    },
+    {
+     "before": "Soon, his little house was",
+     "answer": "finished",
+     "after": "."
+    },
+    {
+     "before": "The third little pig worked very",
+     "answer": "hard",
+     "after": "."
+    },
+    {
+     "before": "Soon, a",
+     "answer": "hungry",
+     "after": "wolf came along."
+    },
+    {
+     "before": "But the brick house did not",
+     "answer": "move",
+     "after": "."
+    },
+    {
+     "before": "The three little pigs were very",
+     "answer": "relieved",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Three little pigs built houses: one of straw, one of sticks and one of bricks. A hungry wolf blew down the straw house and the stick house. He could not blow down the brick house, so the three pigs were safe inside."
+    },
+    {
+     "q": "Why did the first two pigs finish their houses quickly?",
+     "model": "They built with straw and sticks. That was quick and easy."
+    },
+    {
+     "q": "What did the wolf say at the straw house?",
+     "model": "\"Little pig, little pig, let me come in! Then I'll huff, and I'll puff, and I'll blow your house down!\""
+    },
+    {
+     "q": "What did the first two pigs understand at the end?",
+     "model": "They understood why their brother had worked so hard: his strong brick house kept them safe."
+    },
+    {
+     "q": "Which house would you build: straw, sticks or bricks? Why?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The first pig built a house of straw",
+    "The third pig built a house of bricks",
+    "The wolf blew down the straw house",
+    "The stick house fell down",
+    "The wolf gave up and went away"
+   ],
+   "start": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ]
+  }
+ ]
+}

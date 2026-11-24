@@ -1,0 +1,77 @@
+{
+ "title": "The Three Little Pigs: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "three_pigs",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: blow · bricks · brothers · chose · different · easy · quick · rest · safe · straw · understood · wolf",
+   "items": [
+    {
+     "before": "I have two",
+     "answer": "brothers",
+     "after": "and one sister."
+    },
+    {
+     "before": "",
+     "answer": "Blow",
+     "after": "out the candles on your birthday cake!"
+    },
+    {
+     "before": "Have a",
+     "answer": "quick",
+     "after": "shower. We're leaving in five minutes!"
+    },
+    {
+     "before": "The wall is made of red",
+     "answer": "bricks",
+     "after": "."
+    },
+    {
+     "before": "The teacher explained it again, and then I",
+     "answer": "understood",
+     "after": "."
+    },
+    {
+     "before": "This puzzle is",
+     "answer": "easy",
+     "after": ". Even my little brother can do it."
+    },
+    {
+     "before": "Drink your juice with a",
+     "answer": "straw",
+     "after": "."
+    },
+    {
+     "before": "She",
+     "answer": "chose",
+     "after": "the red dress, not the blue one."
+    },
+    {
+     "before": "We live in",
+     "answer": "different",
+     "after": "countries, but we are good friends."
+    },
+    {
+     "before": "A",
+     "answer": "wolf",
+     "after": "is a wild animal like a big dog."
+    },
+    {
+     "before": "You look tired. Lie down and",
+     "answer": "rest",
+     "after": "for an hour."
+    },
+    {
+     "before": "Don't play near the road. It isn't",
+     "answer": "safe",
+     "after": "."
+    }
+   ]
+  }
+ ]
+}

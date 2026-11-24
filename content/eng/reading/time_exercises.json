@@ -1,0 +1,178 @@
+{
+ "title": "Telling the time: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "time",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "3:10 is ten past three.",
+     "answer": true
+    },
+    {
+     "q": "5:50 is ten past six.",
+     "answer": false
+    },
+    {
+     "q": "6:15 is a quarter past six.",
+     "answer": true
+    },
+    {
+     "q": "7:45 is a quarter past eight.",
+     "answer": false
+    },
+    {
+     "q": "8:17 is seventeen to eight.",
+     "answer": false
+    },
+    {
+     "q": "12:00 is twelve o'clock.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What is another way to say \"three ten\"?",
+     "options": [
+      "Ten to three",
+      "Three to ten",
+      "Ten past three"
+     ],
+     "answer": 2,
+     "why": "“It's three ten. (3:10) It's ten past three.”"
+    },
+    {
+     "q": "What is 5:50?",
+     "options": [
+      "Five to ten",
+      "Ten past five",
+      "Ten to six"
+     ],
+     "answer": 2,
+     "why": "“It's five fifty. (5:50) It's ten to six.”"
+    },
+    {
+     "q": "What is 6:15?",
+     "options": [
+      "A quarter to six",
+      "A quarter past six",
+      "Six fifty"
+     ],
+     "answer": 1,
+     "why": "“It's six fifteen. (6:15) It's a quarter past six.”"
+    },
+    {
+     "q": "What is 7:45?",
+     "options": [
+      "Half past seven",
+      "A quarter to eight",
+      "A quarter past seven"
+     ],
+     "answer": 1,
+     "why": "“It's seven forty-five. (7:45) It's a quarter to eight.”"
+    },
+    {
+     "q": "What is 9:30?",
+     "options": [
+      "Half past nine",
+      "Half past ten",
+      "Nine fifteen"
+     ],
+     "answer": 0,
+     "why": "“It's nine thirty. (9:30) It's half past nine.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "(3:10) It's ten past",
+     "answer": "three",
+     "after": "."
+    },
+    {
+     "before": "(5:50) It's ten to",
+     "answer": "six",
+     "after": "."
+    },
+    {
+     "before": "It's six",
+     "answer": "fifteen",
+     "after": ". (6:15)"
+    },
+    {
+     "before": "It's seven",
+     "answer": "forty-five",
+     "after": ". (7:45)"
+    },
+    {
+     "before": "It's nine",
+     "answer": "thirty",
+     "after": ". (9:30)"
+    },
+    {
+     "before": "(8:17) It's",
+     "answer": "seventeen",
+     "after": "past eight."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, say each time in two ways: 3:10, 6:15, 9:30.",
+     "model": "Three ten, or ten past three. Six fifteen, or a quarter past six. Nine thirty, or half past nine."
+    },
+    {
+     "q": "Say 5:50 in two ways.",
+     "model": "Five fifty, or ten to six."
+    },
+    {
+     "q": "Say 7:45 in two ways.",
+     "model": "Seven forty-five, or a quarter to eight."
+    },
+    {
+     "q": "Say 8:17 in two ways.",
+     "model": "Eight seventeen, or seventeen past eight."
+    },
+    {
+     "q": "What time do you get up? What time do you go to bed?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the times in order, from the earliest to the latest.",
+   "items": [
+    "It's ten past three",
+    "It's ten to six",
+    "It's a quarter past six",
+    "It's a quarter to eight",
+    "It's half past nine"
+   ],
+   "start": [
+    2,
+    0,
+    3,
+    4,
+    1
+   ]
+  }
+ ]
+}

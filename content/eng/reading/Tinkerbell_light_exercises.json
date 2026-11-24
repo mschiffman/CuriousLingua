@@ -1,0 +1,178 @@
+{
+ "title": "Tinker Bell: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "Tinkerbell_light",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Tinker Bell wore a little red dress.",
+     "answer": false
+    },
+    {
+     "q": "One morning, the flowers were not opening.",
+     "answer": true
+    },
+    {
+     "q": "The firefly was trapped inside a spiderweb.",
+     "answer": true
+    },
+    {
+     "q": "Glow saw a golden light near the river.",
+     "answer": false
+    },
+    {
+     "q": "The little dragon was afraid of the dark.",
+     "answer": true
+    },
+    {
+     "q": "Tinker Bell put fairy dust inside an empty cup.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What did Tinker Bell leave behind her every morning?",
+     "options": [
+      "Flowers",
+      "Sparkling fairy dust",
+      "Little lights"
+     ],
+     "answer": 1,
+     "why": "“Every morning, she flew over the forest, leaving sparkling fairy dust behind her.”"
+    },
+    {
+     "q": "What would happen without the fairy light?",
+     "options": [
+      "The forest would lose its magic",
+      "The flowers would grow bigger",
+      "The birds would sing louder"
+     ],
+     "answer": 0,
+     "why": "“Without the fairy light, the forest would lose its magic.”"
+    },
+    {
+     "q": "What was the firefly's name?",
+     "options": [
+      "Spark",
+      "Pip",
+      "Glow"
+     ],
+     "answer": 2,
+     "why": "\"My name is Glow.\""
+    },
+    {
+     "q": "Where did they find the dark cave?",
+     "options": [
+      "Under a big tree",
+      "Behind the falling water",
+      "Inside a mushroom"
+     ],
+     "answer": 1,
+     "why": "“Behind the falling water, they discovered a dark cave.”"
+    },
+    {
+     "q": "What does Tinker Bell say is the best magic?",
+     "options": [
+      "Being kind",
+      "Fairy dust",
+      "A golden crystal"
+     ],
+     "answer": 0,
+     "why": "\"Sometimes, the best magic is simply being kind.\""
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "She had beautiful",
+     "answer": "wings",
+     "after": "and a little green dress."
+    },
+    {
+     "before": "The butterflies were",
+     "answer": "hiding",
+     "after": "."
+    },
+    {
+     "before": "Tinker Bell looked under the leaves and behind the",
+     "answer": "mushrooms",
+     "after": "."
+    },
+    {
+     "before": "Inside, a tiny",
+     "answer": "dragon",
+     "after": "was sleeping beside a glowing golden crystal."
+    },
+    {
+     "before": "They placed it inside the fairy",
+     "answer": "lantern",
+     "after": "."
+    },
+    {
+     "before": "And together, they flew home beneath the",
+     "answer": "stars",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "One morning, the fairy light was missing, and the forest began to lose its magic. Tinker Bell saved a firefly called Glow, and he helped her find the light in a dragon's cave. Tinker Bell gave the dragon a glowing seashell and took the fairy light back to the forest."
+    },
+    {
+     "q": "How did Tinker Bell know something was wrong in the forest?",
+     "model": "The flowers were not opening, the butterflies were hiding, and the fairy lantern was dark."
+    },
+    {
+     "q": "Why didn't the dragon want them to take the crystal?",
+     "model": "He was afraid of the dark."
+    },
+    {
+     "q": "How did Tinker Bell help the dragon?",
+     "model": "She put sparkling fairy dust inside an empty seashell. The shell began to glow, and it became his own little night-light."
+    },
+    {
+     "q": "Tinker Bell says, \"The best magic is simply being kind.\" Tell about a time someone was kind to you.",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Tinker Bell saw that the fairy lantern was dark",
+    "Tinker Bell freed a firefly from a spiderweb",
+    "They found a dragon in a cave behind the waterfall",
+    "Tinker Bell made a night-light from a seashell",
+    "Golden light filled the trees again"
+   ],
+   "start": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "title": "The Butterfly Forest: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "butterfly",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: branch · change · colorful · count · fingers · learn · path · round · sorry · wait · warm · wet",
+   "items": [
+    {
+     "before": "Walk on the",
+     "answer": "path",
+     "after": "through the park. Don't walk on the grass."
+    },
+    {
+     "before": "Can you",
+     "answer": "count",
+     "after": "from one to twenty in English?"
+    },
+    {
+     "before": "Her dress is very",
+     "answer": "colorful",
+     "after": ": red, yellow, green and blue."
+    },
+    {
+     "before": "A bird is sitting on a",
+     "answer": "branch",
+     "after": "of the tree."
+    },
+    {
+     "before": "Please",
+     "answer": "change",
+     "after": "your clothes. They are dirty."
+    },
+    {
+     "before": "It's raining, and my hair is",
+     "answer": "wet",
+     "after": "."
+    },
+    {
+     "before": "I have ten",
+     "answer": "fingers",
+     "after": "on my two hands."
+    },
+    {
+     "before": "I want to",
+     "answer": "learn",
+     "after": "how to swim this summer."
+    },
+    {
+     "before": "Wear a",
+     "answer": "warm",
+     "after": "jacket. It's cold today."
+    },
+    {
+     "before": "",
+     "answer": "Wait",
+     "after": "here. I'll come back soon."
+    },
+    {
+     "before": "A ball is",
+     "answer": "round",
+     "after": "."
+    },
+    {
+     "before": "I'm",
+     "answer": "sorry",
+     "after": "I'm late. The bus didn't come."
+    }
+   ]
+  }
+ ]
+}

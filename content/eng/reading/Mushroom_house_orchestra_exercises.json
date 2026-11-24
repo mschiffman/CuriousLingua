@@ -1,0 +1,178 @@
+{
+ "title": "The Mushroom House Orchestra: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "Mushroom_house_orchestra",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "It was a sunny morning when Rosie visited Mimi.",
+     "answer": false
+    },
+    {
+     "q": "Mimi was making pancakes in her kitchen.",
+     "answer": true
+    },
+    {
+     "q": "Mimi filled a little jar with dried beans.",
+     "answer": true
+    },
+    {
+     "q": "Pip is a tiny brown mouse.",
+     "answer": false
+    },
+    {
+     "q": "The hedgehog brought a shiny silver bell.",
+     "answer": true
+    },
+    {
+     "q": "When Mimi waved her spoon slowly, everyone played loudly.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What did the rain tap on?",
+     "options": [
+      "The windows",
+      "The blue door",
+      "The big red roof"
+     ],
+     "answer": 2,
+     "why": "“Rain tapped softly on the big red roof.”"
+    },
+    {
+     "q": "What did Rosie use as a drum?",
+     "options": [
+      "A jar",
+      "A wooden bowl",
+      "A little pot"
+     ],
+     "answer": 1,
+     "why": "“Rosie found a wooden bowl and began to drum.”"
+    },
+    {
+     "q": "What did Pip click together?",
+     "options": [
+      "Two stones",
+      "Two spoons",
+      "Two acorn shells"
+     ],
+     "answer": 2,
+     "why": "“Pip brought two acorn shells and clicked them together.”"
+    },
+    {
+     "q": "Who flew in through the open window?",
+     "options": [
+      "A cheerful robin",
+      "A little bee",
+      "A butterfly"
+     ],
+     "answer": 0,
+     "why": "“Then a cheerful robin flew through the open window.”"
+    },
+    {
+     "q": "What happened when everyone played at the same time?",
+     "options": [
+      "The cups rattled on the shelves",
+      "Everyone fell asleep",
+      "The roof fell down"
+     ],
+     "answer": 0,
+     "why": "“The music was so loud that the cups rattled on the shelves.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "One",
+     "answer": "rainy",
+     "after": "morning, Rosie visited Mimi at the little mushroom house."
+    },
+    {
+     "before": "She tapped a wooden",
+     "answer": "spoon",
+     "after": "against a little pot."
+    },
+    {
+     "before": "Suddenly, someone",
+     "answer": "knocked",
+     "after": "on the door."
+    },
+    {
+     "before": "We have an",
+     "answer": "orchestra",
+     "after": "!"
+    },
+    {
+     "before": "We're all making noise, but nobody is",
+     "answer": "listening",
+     "after": "!"
+    },
+    {
+     "before": "The birds sang, the animals danced, and everyone",
+     "answer": "clapped",
+     "after": "happily."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "On a rainy morning, Rosie and Mimi made music with spoons, a pot, a jar of beans and a bowl. Pip the squirrel, a hedgehog and a robin joined them, but at first everyone played at the same time and made only noise. Mimi used her spoon to lead them, and they made real music together."
+    },
+    {
+     "q": "What did Rosie and Mimi use to make music?",
+     "model": "Spoons, a little pot, a jar of dried beans and a wooden bowl."
+    },
+    {
+     "q": "Why did Mimi say, \"Nobody is listening\"?",
+     "model": "Because everyone was playing at the same time. The music was so loud that the cups rattled on the shelves."
+    },
+    {
+     "q": "How did Mimi help the friends make real music?",
+     "model": "She waved her spoon. When she waved it slowly, everyone played softly. When she waved it quickly, everyone played faster."
+    },
+    {
+     "q": "What can you use at home to make music?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Rain tapped on the big red roof",
+    "Rosie found a wooden bowl and began to drum",
+    "Pip knocked on the door",
+    "The cups rattled on the shelves",
+    "The orchestra played outside for the forest animals"
+   ],
+   "start": [
+    2,
+    0,
+    1,
+    4,
+    3
+   ]
+  }
+ ]
+}

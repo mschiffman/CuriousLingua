@@ -1,0 +1,178 @@
+{
+ "title": "Hansel and Gretel: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "Hansel_Gretel",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Hansel and Gretel's family was very rich.",
+     "answer": false
+    },
+    {
+     "q": "Hansel dropped little white pebbles along the path.",
+     "answer": true
+    },
+    {
+     "q": "The second time, birds ate the bread crumbs.",
+     "answer": true
+    },
+    {
+     "q": "The roof of the little house was covered with chocolate.",
+     "answer": true
+    },
+    {
+     "q": "The witch locked Gretel in a cage.",
+     "answer": false
+    },
+    {
+     "q": "A friendly white horse helped them cross the river.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "How did the pebbles show the children the way home?",
+     "options": [
+      "They made a sound",
+      "Birds sat on them",
+      "They shone under the moonlight"
+     ],
+     "answer": 2,
+     "why": "“Under the moonlight, the little stones shone brightly.”"
+    },
+    {
+     "q": "What were the walls of the little house made of?",
+     "options": [
+      "Chocolate",
+      "Gingerbread",
+      "Sugar candy"
+     ],
+     "answer": 1,
+     "why": "“The walls were made of gingerbread.”"
+    },
+    {
+     "q": "What did Hansel hold out instead of his finger?",
+     "options": [
+      "A stick",
+      "A tiny chicken bone",
+      "A piece of bread"
+     ],
+     "answer": 1,
+     "why": "“But Hansel cleverly held out a tiny chicken bone instead.”"
+    },
+    {
+     "q": "Why did the witch not see the trick?",
+     "options": [
+      "She had poor eyesight",
+      "It was dark",
+      "She was asleep"
+     ],
+     "answer": 0,
+     "why": "“The witch had poor eyesight.”"
+    },
+    {
+     "q": "What did the children find before they left the house?",
+     "options": [
+      "A big cake",
+      "A map of the forest",
+      "A chest of gold coins and jewels"
+     ],
+     "answer": 2,
+     "why": "“Before leaving, they discovered a chest filled with gold coins and beautiful jewels.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "They lived with their father and",
+     "answer": "stepmother",
+     "after": "."
+    },
+    {
+     "before": "The next morning, their parents took them into the forest to gather",
+     "answer": "wood",
+     "after": "."
+    },
+    {
+     "before": "The windows were made of colorful sugar",
+     "answer": "candy",
+     "after": "."
+    },
+    {
+     "before": "She was a wicked",
+     "answer": "witch",
+     "after": "!"
+    },
+    {
+     "before": "One morning, the witch told Gretel to heat the big",
+     "answer": "oven",
+     "after": "."
+    },
+    {
+     "before": "Their father rushed outside and",
+     "answer": "hugged",
+     "after": "them tightly."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Hansel and Gretel were left in the forest and found a house made of sweets. A wicked witch lived there: she locked Hansel in a cage and wanted to eat him. Gretel pushed the witch into the oven, and the children went home to their father with a treasure."
+    },
+    {
+     "q": "How did Hansel find the way home the first time?",
+     "model": "He dropped little white pebbles along the path. Under the moonlight, the stones shone, and the children followed them home."
+    },
+    {
+     "q": "Why couldn't the children find their way home the second time?",
+     "model": "Hansel dropped bread crumbs, but hungry birds ate every crumb."
+    },
+    {
+     "q": "How did Gretel save Hansel?",
+     "model": "She pretended not to understand how to look inside the oven. When the witch leaned toward it, Gretel pushed her inside and slammed the door. Then she opened Hansel's cage."
+    },
+    {
+     "q": "Hansel and Gretel helped each other. How do you help your brother, sister or friend?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Hansel dropped white pebbles along the path",
+    "Hungry birds ate the bread crumbs",
+    "The children found a house made of sweets",
+    "Gretel pushed the witch into the oven",
+    "A white duck helped the children cross the river"
+   ],
+   "start": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ]
+  }
+ ]
+}

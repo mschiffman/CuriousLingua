@@ -1,0 +1,77 @@
+{
+ "title": "Aladdin: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "Aladdin_lamp",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bring · city · clever · clothes · dark · finger · powerful · rub · shouted · shut · strange · valuable",
+   "items": [
+    {
+     "before": "Yangon is a big",
+     "answer": "city",
+     "after": "with a lot of cars."
+    },
+    {
+     "before": "Please",
+     "answer": "bring",
+     "after": "your English book to school tomorrow."
+    },
+    {
+     "before": "She is very",
+     "answer": "clever",
+     "after": ". She can do hard math problems quickly."
+    },
+    {
+     "before": "I cut my",
+     "answer": "finger",
+     "after": "with the knife. It hurts!"
+    },
+    {
+     "before": "My friend was far away, so I",
+     "answer": "shouted",
+     "after": "his name."
+    },
+    {
+     "before": "I heard a",
+     "answer": "strange",
+     "after": "noise in the kitchen last night."
+    },
+    {
+     "before": "Put your dirty",
+     "answer": "clothes",
+     "after": "in the washing machine."
+    },
+    {
+     "before": "Please",
+     "answer": "shut",
+     "after": "the window. It's raining!"
+    },
+    {
+     "before": "Turn on the light. It's",
+     "answer": "dark",
+     "after": "in here."
+    },
+    {
+     "before": "If your hands are cold,",
+     "answer": "rub",
+     "after": "them together."
+    },
+    {
+     "before": "This car has a very",
+     "answer": "powerful",
+     "after": "engine. It can go very fast."
+    },
+    {
+     "before": "This old ring is very",
+     "answer": "valuable",
+     "after": ". Keep it safe."
+    }
+   ]
+  }
+ ]
+}

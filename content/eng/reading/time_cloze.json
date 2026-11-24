@@ -1,0 +1,77 @@
+{
+ "title": "Telling the time: cloze test",
+ "subtitle": "Complete with the missing time word",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "time",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: five · half · learn · o'clock · past · quarter · seven · tell · ten · time · to · twelve",
+   "items": [
+    {
+     "before": "School starts at eight",
+     "answer": "o'clock",
+     "after": "in the morning."
+    },
+    {
+     "before": "Excuse me, what",
+     "answer": "time",
+     "after": "is it?"
+    },
+    {
+     "before": "The film starts at half",
+     "answer": "past",
+     "after": "seven. (7:30)"
+    },
+    {
+     "before": "My little sister is learning to",
+     "answer": "tell",
+     "after": "the time."
+    },
+    {
+     "before": "The bus leaves at a quarter",
+     "answer": "to",
+     "after": "four. (3:45)"
+    },
+    {
+     "before": "Lunch is at a",
+     "answer": "quarter",
+     "after": "past twelve. (12:15)"
+    },
+    {
+     "before": "We",
+     "answer": "learn",
+     "after": "English at school every day."
+    },
+    {
+     "before": "I go to bed at",
+     "answer": "half",
+     "after": "past nine. (9:30)"
+    },
+    {
+     "before": "The train leaves at ten past",
+     "answer": "five",
+     "after": ". (5:10)"
+    },
+    {
+     "before": "I get up at a quarter to",
+     "answer": "seven",
+     "after": ". (6:45)"
+    },
+    {
+     "before": "We have lunch at",
+     "answer": "twelve",
+     "after": "o'clock. (12:00)"
+    },
+    {
+     "before": "The shop opens at",
+     "answer": "ten",
+     "after": "past eight. (8:10)"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "title": "Hansel and Gretel: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "Hansel_Gretel",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: cage · calm · chocolate · comfortable · cross · delicious · drop · lock · lonely · pockets · pretended · treasure",
+   "items": [
+    {
+     "before": "This cake has",
+     "answer": "chocolate",
+     "after": "on top. It's brown and sweet."
+    },
+    {
+     "before": "Don't",
+     "answer": "drop",
+     "after": "the glass! It will break."
+    },
+    {
+     "before": "Mmm! This soup is",
+     "answer": "delicious",
+     "after": "!"
+    },
+    {
+     "before": "The bird sings in its",
+     "answer": "cage",
+     "after": "by the window."
+    },
+    {
+     "before": "Please",
+     "answer": "lock",
+     "after": "the door when you leave the house."
+    },
+    {
+     "before": "This chair is soft and",
+     "answer": "comfortable",
+     "after": "."
+    },
+    {
+     "before": "My jacket has two",
+     "answer": "pockets",
+     "after": ". I keep my keys in them."
+    },
+    {
+     "before": "Look left and right before you",
+     "answer": "cross",
+     "after": "the road."
+    },
+    {
+     "before": "She felt",
+     "answer": "lonely",
+     "after": "when all her friends moved away."
+    },
+    {
+     "before": "The pirates found a box of",
+     "answer": "treasure",
+     "after": "on the island."
+    },
+    {
+     "before": "My little brother",
+     "answer": "pretended",
+     "after": "to be asleep, but his eyes were open."
+    },
+    {
+     "before": "Stay",
+     "answer": "calm",
+     "after": "and don't run when there is a fire."
+    }
+   ]
+  }
+ ]
+}

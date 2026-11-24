@@ -1,0 +1,178 @@
+{
+ "title": "Aladdin: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "Aladdin_lamp",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Aladdin lived with his father in a small house.",
+     "answer": false
+    },
+    {
+     "q": "The strange man was really a magician.",
+     "answer": true
+    },
+    {
+     "q": "When the magician said strange words, the ground opened.",
+     "answer": true
+    },
+    {
+     "q": "Under the ground, Aladdin found a new lamp.",
+     "answer": false
+    },
+    {
+     "q": "The magician shut the stone door and left Aladdin inside.",
+     "answer": true
+    },
+    {
+     "q": "The genie of the lamp was weaker than the genie of the ring.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What was Aladdin like?",
+     "options": [
+      "Poor, but clever and lively",
+      "Rich and lazy",
+      "Old and tired"
+     ],
+     "answer": 0,
+     "why": "“He was poor, but he was clever and lively.”"
+    },
+    {
+     "q": "What did the magician want Aladdin to do?",
+     "options": [
+      "Find his lost ring",
+      "Cook his dinner",
+      "Help him find something hidden underground"
+     ],
+     "answer": 2,
+     "why": "“He wanted Aladdin to help him find something hidden underground.”"
+    },
+    {
+     "q": "What did Aladdin see in the dark place?",
+     "options": [
+      "Books and pictures",
+      "Shining jewels, gold and silver",
+      "Wild animals"
+     ],
+     "answer": 1,
+     "why": "“He saw shining jewels. He saw gold and silver.”"
+    },
+    {
+     "q": "What was on Aladdin's finger?",
+     "options": [
+      "A gold coin",
+      "A little lamp",
+      "A magic ring"
+     ],
+     "answer": 2,
+     "why": "“On his finger was a magic ring.”"
+    },
+    {
+     "q": "What does the moral say is more valuable than riches?",
+     "options": [
+      "Wisdom and courage",
+      "Magic lamps",
+      "Gold and silver"
+     ],
+     "answer": 0,
+     "why": "“Moral: Wisdom and courage are more valuable than riches.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "But he was not really Aladdin's uncle. He was a",
+     "answer": "magician",
+     "after": "."
+    },
+    {
+     "before": "There, he made a",
+     "answer": "fire",
+     "after": "and said strange words."
+    },
+    {
+     "before": "He put it in his",
+     "answer": "pocket",
+     "after": "and went back to the door."
+    },
+    {
+     "before": "The magician grew",
+     "answer": "angry",
+     "after": "."
+    },
+    {
+     "before": "When he rubbed it, a",
+     "answer": "genie",
+     "after": "appeared!"
+    },
+    {
+     "before": "From that day on, Aladdin and his mother had food, clothes, and a better",
+     "answer": "life",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A wicked magician took Aladdin to a dark place under the ground to find an old lamp. The magician left him there, but a genie from a magic ring took him home. The genie of the lamp gave Aladdin and his mother a better life."
+    },
+    {
+     "q": "Why did the magician shut the stone door?",
+     "model": "Aladdin wanted to get out first, but the magician wanted the lamp first. He grew angry and left Aladdin inside."
+    },
+    {
+     "q": "How did Aladdin get home?",
+     "model": "He rubbed the magic ring on his finger. A genie appeared and took him safely home."
+    },
+    {
+     "q": "What did the genie of the lamp give Aladdin and his mother?",
+     "model": "Food, clothes and a better life."
+    },
+    {
+     "q": "If you met a genie, what would you ask for? Why?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "A strange man said he was Aladdin's uncle",
+    "The ground opened and a stone door appeared",
+    "Aladdin found an old lamp",
+    "A genie came out of the magic ring",
+    "Aladdin rubbed the old lamp at home"
+   ],
+   "start": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ]
+  }
+ ]
+}

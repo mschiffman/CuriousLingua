@@ -1,0 +1,77 @@
+{
+ "title": "Clover Valley: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "Clover_valley",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bakery · breeze · bridge · cheered · hide · huge · hurried · secret · shiny · smooth · umbrella · whispered",
+   "items": [
+    {
+     "before": "Open the window and let the cool",
+     "answer": "breeze",
+     "after": "in."
+    },
+    {
+     "before": "The baby was sleeping, so we",
+     "answer": "whispered",
+     "after": "."
+    },
+    {
+     "before": "Don't tell anyone. It's a",
+     "answer": "secret",
+     "after": "!"
+    },
+    {
+     "before": "We walked across the",
+     "answer": "bridge",
+     "after": "over the river."
+    },
+    {
+     "before": "We were late, so we",
+     "answer": "hurried",
+     "after": "to the bus stop."
+    },
+    {
+     "before": "The road is new and",
+     "answer": "smooth",
+     "after": ", so the bike ride is easy."
+    },
+    {
+     "before": "It's raining. Take your",
+     "answer": "umbrella",
+     "after": "!"
+    },
+    {
+     "before": "Let's play a game. I'll",
+     "answer": "hide",
+     "after": ", and you find me!"
+    },
+    {
+     "before": "My new shoes are",
+     "answer": "shiny",
+     "after": ". I can see my face in them!"
+    },
+    {
+     "before": "We buy fresh bread at the",
+     "answer": "bakery",
+     "after": "every morning."
+    },
+    {
+     "before": "Everyone",
+     "answer": "cheered",
+     "after": "when our team scored a goal."
+    },
+    {
+     "before": "An elephant is",
+     "answer": "huge",
+     "after": "next to a mouse."
+    }
+   ]
+  }
+ ]
+}

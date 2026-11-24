@@ -1,0 +1,77 @@
+{
+ "title": "The Little Mushroom House: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "mushroom_house",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: answered · apron · bake · chimney · cupboard · float · nest · purple · smells · sunny · tall · young",
+   "items": [
+    {
+     "before": "Smoke is coming out of the",
+     "answer": "chimney",
+     "after": "on the roof."
+    },
+    {
+     "before": "I called my friend, but nobody",
+     "answer": "answered",
+     "after": "the phone."
+    },
+    {
+     "before": "My grandfather is old, but my sister is",
+     "answer": "young",
+     "after": "."
+    },
+    {
+     "before": "The plates and cups are in the",
+     "answer": "cupboard",
+     "after": "."
+    },
+    {
+     "before": "Let's",
+     "answer": "bake",
+     "after": "some cookies for the party!"
+    },
+    {
+     "before": "My father is very",
+     "answer": "tall",
+     "after": ". He can touch the ceiling."
+    },
+    {
+     "before": "Put on an",
+     "answer": "apron",
+     "after": "when you cook, so your clothes stay clean."
+    },
+    {
+     "before": "Mmm! This soup",
+     "answer": "smells",
+     "after": "good!"
+    },
+    {
+     "before": "Red and blue make",
+     "answer": "purple",
+     "after": "."
+    },
+    {
+     "before": "The bird made a",
+     "answer": "nest",
+     "after": "in the tree for its eggs."
+    },
+    {
+     "before": "Wood can",
+     "answer": "float",
+     "after": "on water."
+    },
+    {
+     "before": "It's a",
+     "answer": "sunny",
+     "after": "day. Let's play outside!"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "title": "The Mushroom House Orchestra: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "Mushroom_house_orchestra",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bell · cheerful · cozy · gathered · join · kitchen · laughed · loud · noise · shake · shelves · wooden",
+   "items": [
+    {
+     "before": "Mom is cooking dinner in the",
+     "answer": "kitchen",
+     "after": "."
+    },
+    {
+     "before": "We're playing football. Do you want to",
+     "answer": "join",
+     "after": "us?"
+    },
+    {
+     "before": "Our little room is warm and",
+     "answer": "cozy",
+     "after": "in winter."
+    },
+    {
+     "before": "Please stop that",
+     "answer": "noise",
+     "after": "! I'm trying to sleep."
+    },
+    {
+     "before": "",
+     "answer": "Shake",
+     "after": "the bottle before you open it."
+    },
+    {
+     "before": "She is always",
+     "answer": "cheerful",
+     "after": "and smiling, even on rainy days."
+    },
+    {
+     "before": "Put the books on the",
+     "answer": "shelves",
+     "after": "."
+    },
+    {
+     "before": "The students",
+     "answer": "gathered",
+     "after": "around the teacher to hear the story."
+    },
+    {
+     "before": "Turn down the music! It's too",
+     "answer": "loud",
+     "after": "."
+    },
+    {
+     "before": "The school",
+     "answer": "bell",
+     "after": "rings at eight o'clock."
+    },
+    {
+     "before": "The joke was so funny that everyone",
+     "answer": "laughed",
+     "after": "."
+    },
+    {
+     "before": "I eat rice with a",
+     "answer": "wooden",
+     "after": "spoon."
+    }
+   ]
+  }
+ ]
+}

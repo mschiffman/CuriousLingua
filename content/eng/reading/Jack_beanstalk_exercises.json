@@ -1,0 +1,178 @@
+{
+ "title": "Jack and the Beanstalk: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "Jack_beanstalk",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "Jack and his mother were very rich.",
+     "answer": false
+    },
+    {
+     "q": "The old man gave Jack magic beans for his cow.",
+     "answer": true
+    },
+    {
+     "q": "Jack's mother was happy when she saw the beans.",
+     "answer": false
+    },
+    {
+     "q": "Jack's mother threw the beans out the window.",
+     "answer": true
+    },
+    {
+     "q": "At the top of the beanstalk, Jack found a huge castle.",
+     "answer": true
+    },
+    {
+     "q": "Jack took the hen when the giant was awake.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where did Jack's mother tell him to take the cow?",
+     "options": [
+      "To market",
+      "To the old man",
+      "To the castle"
+     ],
+     "answer": 0,
+     "why": "\"You must take our cow to market and sell her.\""
+    },
+    {
+     "q": "What were the beans like?",
+     "options": [
+      "Old and dry",
+      "Big and green",
+      "Small, but bright and unusual"
+     ],
+     "answer": 2,
+     "why": "“They were small, but bright and unusual.”"
+    },
+    {
+     "q": "What was special about the hen?",
+     "options": [
+      "It could talk",
+      "It could fly very high",
+      "It laid golden eggs"
+     ],
+     "answer": 2,
+     "why": "“He saw gold and a hen that laid golden eggs.”"
+    },
+    {
+     "q": "What did Jack ask his mother to bring?",
+     "options": [
+      "A rope",
+      "An axe",
+      "A ladder"
+     ],
+     "answer": 1,
+     "why": "\"Mother! Bring me an axe!\""
+    },
+    {
+     "q": "What does the moral say can change your life?",
+     "options": [
+      "Gold and treasure",
+      "Courage and quick thinking",
+      "Magic beans"
+     ],
+     "answer": 1,
+     "why": "“Moral: Courage and quick thinking can change your life.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "He lived with his mother in a small",
+     "answer": "cottage",
+     "after": "."
+    },
+    {
+     "before": "I will give you these magic",
+     "answer": "beans",
+     "after": "for your cow."
+    },
+    {
+     "before": "What a foolish",
+     "answer": "trade",
+     "after": "!"
+    },
+    {
+     "before": "It reached up, up, up into the",
+     "answer": "sky",
+     "after": "."
+    },
+    {
+     "before": "Jack climbed high above the",
+     "answer": "clouds",
+     "after": "."
+    },
+    {
+     "before": "Jack chopped the beanstalk with all his",
+     "answer": "strength",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "Jack and his mother were poor, so Jack gave their cow for some magic beans. A giant beanstalk grew, and Jack climbed it to a giant's castle, where he took a hen that laid golden eggs. When the giant followed him, Jack chopped down the beanstalk, and he and his mother were safe."
+    },
+    {
+     "q": "Why was Jack's mother angry?",
+     "model": "Jack gave the cow for some beans. She thought it was a foolish trade."
+    },
+    {
+     "q": "What did Jack see in the giant's castle?",
+     "model": "He saw many treasures: gold and a hen that laid golden eggs."
+    },
+    {
+     "q": "How did Jack stop the giant?",
+     "model": "He chopped the beanstalk with an axe. The giant fell down with a mighty crash."
+    },
+    {
+     "q": "Would you climb the beanstalk? Why or why not?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "Jack took the cow down the road",
+    "Jack gave the cow for some magic beans",
+    "A giant beanstalk grew outside the cottage",
+    "Jack took the hen and ran",
+    "Jack chopped down the beanstalk"
+   ],
+   "start": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ]
+  }
+ ]
+}
