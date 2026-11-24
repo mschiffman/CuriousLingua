@@ -1,0 +1,88 @@
+{
+ "title": "L’arc-en-ciel : texte à trous",
+ "subtitle": "Complétez avec le nom, le verbe ou l’adjectif qui manque",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "arc-en-ciel",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences. Accents are not required to be marked right.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "items": [
+    {
+     "before": "Prends ton parapluie : la",
+     "answer": "pluie",
+     "after": "tombe depuis ce matin.",
+     "tr": "Take your umbrella: the rain has been falling since this morning."
+    },
+    {
+     "before": "Le temps est gris aujourd’hui : il y a beaucoup de",
+     "answer": "nuages",
+     "after": ".",
+     "tr": "The weather is grey today: there are a lot of clouds."
+    },
+    {
+     "before": "Le rouge et le bleu sont mes",
+     "answer": "couleurs",
+     "after": "préférées.",
+     "tr": "Red and blue are my favourite colours."
+    },
+    {
+     "before": "En été, le",
+     "answer": "soleil",
+     "after": "se couche très tard.",
+     "tr": "In summer, the sun sets very late."
+    },
+    {
+     "before": "Il fait noir ici : allume la",
+     "answer": "lumière",
+     "after": ", s’il te plaît.",
+     "tr": "It's dark in here: turn on the light, please."
+    },
+    {
+     "before": "Cette pièce est très",
+     "answer": "sombre",
+     "after": ": elle n’a qu’une petite fenêtre.",
+     "tr": "This room is very dark: it has only one small window."
+    },
+    {
+     "before": "Cette histoire est",
+     "answer": "incroyable",
+     "after": ": personne ne veut la croire.",
+     "tr": "This story is incredible: nobody wants to believe it."
+    },
+    {
+     "before": "Mes deux frères sont très",
+     "answer": "différents",
+     "after": ": l’un est calme, l’autre parle tout le temps.",
+     "tr": "My two brothers are very different: one is calm, the other talks all the time."
+    },
+    {
+     "before": "En automne, les feuilles",
+     "answer": "tombent",
+     "after": "des arbres.",
+     "tr": "In autumn, the leaves fall from the trees."
+    },
+    {
+     "before": "Le bois",
+     "answer": "flotte",
+     "after": "sur l’eau, mais une pierre coule.",
+     "tr": "Wood floats on water, but a stone sinks."
+    },
+    {
+     "before": "Cette bouteille",
+     "answer": "contient",
+     "after": "un litre de lait.",
+     "tr": "This bottle contains one litre of milk."
+    },
+    {
+     "before": "Le professeur doit",
+     "answer": "séparer",
+     "after": "les deux élèves qui bavardent.",
+     "tr": "The teacher has to separate the two pupils who are chatting."
+    }
+   ]
+  }
+ ]
+}

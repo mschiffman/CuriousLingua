@@ -1,0 +1,178 @@
+{
+ "title": "L’arc-en-ciel : exercices",
+ "subtitle": "Cinq exercices sur le texte",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "arc-en-ciel",
+ "review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. Vrai ou faux",
+   "items": [
+    {
+     "q": "Pour faire un arc-en-ciel, il faut du soleil et des gouttes d’eau.",
+     "answer": true
+    },
+    {
+     "q": "La lumière du soleil contient une seule couleur.",
+     "answer": false
+    },
+    {
+     "q": "En passant de l’air à l’eau, la lumière change de direction.",
+     "answer": true
+    },
+    {
+     "q": "Toutes les couleurs changent de direction de la même façon.",
+     "answer": false
+    },
+    {
+     "q": "Depuis le sol, on voit en général le cercle entier.",
+     "answer": false
+    },
+    {
+     "q": "Pour voir un arc-en-ciel, il faut se mettre dos au Soleil.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Questions à choix multiples",
+   "items": [
+    {
+     "q": "Combien de choses importantes faut-il pour faire un arc-en-ciel ?",
+     "options": [
+      "Trois",
+      "Deux",
+      "Six"
+     ],
+     "answer": 1,
+     "why": "« Pour faire un arc-en-ciel, il faut deux choses importantes. »"
+    },
+    {
+     "q": "De quelle couleur voit-on la lumière du soleil ?",
+     "options": [
+      "Blanche",
+      "Jaune",
+      "Bleue"
+     ],
+     "answer": 0,
+     "why": "« La lumière du soleil, on la voit blanche. »"
+    },
+    {
+     "q": "Comment les scientifiques appellent-ils le changement de direction de la lumière ?",
+     "options": [
+      "La séparation",
+      "La direction",
+      "La réfraction"
+     ],
+     "answer": 2,
+     "why": "« Les scientifiques appellent ça la réfraction. »"
+    },
+    {
+     "q": "Combien de gouttes de pluie peut-il y avoir dans le ciel ?",
+     "options": [
+      "Des centaines",
+      "Des millions",
+      "Des milliers"
+     ],
+     "answer": 1,
+     "why": "« Mais il peut y en avoir des millions dans le ciel ! »"
+    },
+    {
+     "q": "Quelle forme ont les arcs-en-ciel ?",
+     "options": [
+      "La forme d’une grande arche",
+      "La forme d’une ligne droite",
+      "La forme d’une goutte"
+     ],
+     "answer": 0,
+     "why": "« Tu as remarqué que les arcs-en-ciel ont la forme d’une grande arche ? »"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complétez les phrases",
+   "items": [
+    {
+     "before": "Tout à coup, un superbe arc-en-ciel apparaît dans le",
+     "answer": "ciel",
+     "after": "!"
+    },
+    {
+     "before": "Il faut du soleil et de toutes petites",
+     "answer": "gouttes",
+     "after": "d’eau."
+    },
+    {
+     "before": "La lumière du soleil, on la voit",
+     "answer": "blanche",
+     "after": "."
+    },
+    {
+     "before": "Les scientifiques appellent ça la",
+     "answer": "réfraction",
+     "after": "."
+    },
+    {
+     "before": "Une partie de la lumière",
+     "answer": "rebondit",
+     "after": "sur le fond de la goutte."
+    },
+    {
+     "before": "C’est pour ça qu’un arc-en-ciel ressemble à une",
+     "answer": "arche",
+     "after": "!"
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Questions ouvertes",
+   "note": "Ces questions sont ouvertes. Discutez de vos réponses avec votre professeur ou un camarade.",
+   "items": [
+    {
+     "q": "Sans regarder le texte, résumez-le en trois phrases.",
+     "model": "Pour faire un arc-en-ciel, il faut du soleil et des gouttes de pluie. Dans chaque goutte, la lumière du soleil change de direction, rebondit et se sépare en couleurs. La lumière de millions de gouttes forme une grande arche colorée dans le ciel."
+    },
+    {
+     "q": "Pourquoi voit-on la lumière du soleil blanche ?",
+     "model": "Parce que, d’habitude, toutes ses couleurs voyagent ensemble."
+    },
+    {
+     "q": "Que fait la lumière dans une goutte de pluie ?",
+     "model": "Elle entre dans la goutte et change de direction. Elle rebondit sur le fond de la goutte, puis elle sort de l’eau et change encore une fois de direction. Les couleurs se séparent."
+    },
+    {
+     "q": "Que faut-il faire pour voir un arc-en-ciel ?",
+     "model": "Il faut chercher un moment où il y a du soleil pendant qu’il pleut au loin, se mettre dos au Soleil et regarder vers les gouttes de pluie."
+    },
+    {
+     "q": "Vous avez déjà vu un arc-en-ciel ? Où et quand ?",
+     "model": "Réponse libre."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Remettez dans l’ordre",
+   "intro": "Remettez les étapes dans l’ordre du texte.",
+   "items": [
+    "Un rayon de soleil entre dans la goutte",
+    "La lumière rebondit sur le fond de la goutte",
+    "La lumière sort de l’eau et retourne dans l’air",
+    "Une partie de la lumière colorée arrive à nos yeux",
+    "On voit un arc-en-ciel dans le ciel"
+   ],
+   "start": [
+    3,
+    0,
+    4,
+    2,
+    1
+   ]
+  }
+ ]
+}
