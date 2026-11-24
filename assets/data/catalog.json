@@ -3150,6 +3150,21 @@
   "quiz": false
  },
  {
+  "id": "eng/expressions/i_mean",
+  "url": "eng/expressions/i_mean.html",
+  "course": "eng",
+  "strand": "expressions",
+  "level": "b1",
+  "level_provisional": true,
+  "topic": "Everyday expressions",
+  "type": "cards",
+  "title": "I Mean",
+  "clips": 21,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "eng/expressions/phone",
   "url": "eng/expressions/phone.html",
   "course": "eng",

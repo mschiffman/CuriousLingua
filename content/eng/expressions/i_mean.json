@@ -1,0 +1,197 @@
+{
+ "title": "I Mean",
+ "subtitle": "ဆိုလိုတာက…",
+ "level": "b1",
+ "level_provisional": true,
+ "order": 21,
+ "strand": "expressions",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "review": "Written by Claude. The Burmese lines are drafts: check every one before publishing or recording.",
+ "aud_dir": "eng/expressions/i_mean/",
+ "aud_ext": "mp3?v=2611241433",
+ "categories": [
+  {
+   "en": "Correcting yourself",
+   "my": "ကိုယ့်စကားကို ပြန်ပြင်ခြင်း",
+   "desc": "Fixing what you just said: a wrong word, a wrong fact, or something that came out too strong.",
+   "cards": [
+    [
+     "I mean…",
+     "ဆိုလိုတာက…",
+     "The quickest way to fix or sharpen what you just said. Very common in speech. Not: I am meaning.",
+     "It starts at six. I mean, at seven.",
+     "ခြောက်နာရီမှာ စမယ်။ ဆိုလိုတာက ခုနစ်နာရီမှာ။"
+    ],
+    [
+     "Sorry, I meant <span class=gray>Tuesday</span>.",
+     "ဆောရီး၊ အင်္ဂါနေ့လို့ ပြောချင်တာ။",
+     "Meant (say ‘ment’) is the past of mean. Use it when you notice the mistake a moment later.",
+     "Did I say Monday? Sorry, I meant Tuesday.",
+     "တနင်္လာနေ့လို့ ပြောလိုက်မိလား။ ဆောရီး၊ အင်္ဂါနေ့လို့ ပြောချင်တာ။"
+    ],
+    [
+     "Actually…",
+     "တကယ်တော့…",
+     "Gives the real fact, correcting yourself or the other person. Careful: actually does not mean ‘now’. For ‘now’, say currently or at the moment.",
+     "I saw him yesterday. Actually, it was two days ago.",
+     "မနေ့က သူ့ကို တွေ့တယ်။ တကယ်တော့ တမြန်နေ့ကပါ။"
+    ],
+    [
+     "Or rather…",
+     "ပိုမှန်အောင် ပြောရရင်…",
+     "Swaps in a more exact word. A little careful. Common in writing too.",
+     "He's angry, or rather, disappointed.",
+     "သူ စိတ်ဆိုးနေတယ်၊ ပိုမှန်အောင် ပြောရရင် စိတ်ပျက်နေတာ။"
+    ],
+    [
+     "Well, not exactly.",
+     "အင်း… အတိအကျတော့ မဟုတ်ဘူး။",
+     "Takes back part of what you said.",
+     "It's free. Well, not exactly. You pay for delivery.",
+     "အခမဲ့ပါ။ အင်း… အတိအကျတော့ မဟုတ်ဘူး။ ပို့ခတော့ ပေးရတယ်။"
+    ]
+   ]
+  },
+  {
+   "en": "Explaining it another way",
+   "my": "တစ်မျိုးပြောင်း ရှင်းပြခြင်း",
+   "desc": "Saying the same thing again, more clearly or more simply.",
+   "cards": [
+    [
+     "In other words…",
+     "တစ်နည်းအားဖြင့်…",
+     "Says it again in plainer words. Often it gives the conclusion the other person has not said out loud.",
+     "He never answers my messages. In other words, he isn't interested.",
+     "သူ ကျွန်မ မက်ဆေ့ချ်တွေကို ဘယ်တော့မှ ပြန်မဖြေဘူး။ တစ်နည်းအားဖြင့် စိတ်မဝင်စားဘူးပေါ့။"
+    ],
+    [
+     "What I mean is…",
+     "ကျွန်တော်/ကျွန်မ ဆိုလိုတာက…",
+     "Steps back to make your point clearly, often after someone has misunderstood you.",
+     "What I mean is, we should wait a little.",
+     "ကျွန်တော် ဆိုလိုတာက နည်းနည်း စောင့်သင့်တယ်။"
+    ],
+    [
+     "That is…",
+     "ဆိုလိုတာကတော့…",
+     "Adds the exact meaning. Rather formal. In writing you will see i.e., which means the same.",
+     "She works from home, that is, she never goes to the office.",
+     "သူ အိမ်ကနေ အလုပ်လုပ်တယ်၊ ဆိုလိုတာကတော့ ရုံးကို ဘယ်တော့မှ မသွားဘူး။"
+    ],
+    [
+     "Meaning?",
+     "ဘာကို ဆိုလိုတာလဲ။",
+     "A one-word question that asks the other person to explain. Let your voice go up. Friendly, but it can sound like a challenge.",
+     "— I've made a decision. — Meaning?",
+     "— ဆုံးဖြတ်ချက် ချလိုက်ပြီ။ — ဘာကို ဆိုလိုတာလဲ။"
+    ],
+    [
+     "Let me put it another way.",
+     "တစ်မျိုးပြောင်း ပြောကြည့်မယ်။",
+     "For when your first explanation did not work. Put here means say.",
+     "Let me put it another way. We have no money left.",
+     "တစ်မျိုးပြောင်း ပြောကြည့်မယ်။ ပိုက်ဆံ မကျန်တော့ဘူး။"
+    ]
+   ]
+  },
+  {
+   "en": "Searching for words",
+   "my": "စကားလုံး ရှာခြင်း",
+   "desc": "Buying time, or softening something that is hard to say.",
+   "cards": [
+    [
+     "How can I put it…",
+     "ဘယ်လိုပြောရမလဲ…",
+     "A pause while you look for the right words, often before something delicate. Also: How shall I put this?",
+     "He's… how can I put it… not very careful.",
+     "သူက… ဘယ်လိုပြောရမလဲ… သိပ်ဂရုမစိုက်တတ်ဘူး။"
+    ],
+    [
+     "I don't know how to say this.",
+     "ဒါကို ဘယ်လိုပြောရမှန်း မသိဘူး။",
+     "Said before bad news, or before something personal.",
+     "I don't know how to say this, but I lost your book.",
+     "ဘယ်လိုပြောရမှန်း မသိဘူး၊ ဒါပေမဲ့ မင်းစာအုပ် ပျောက်သွားတယ်။"
+    ],
+    [
+     "Let's say…",
+     "ဆိုပါတော့…",
+     "Softens an answer when the plain one would be too blunt. Also: Let's just say…",
+     "— Did you like the food? — Let's say I wasn't very hungry.",
+     "— အစားအသောက် ကြိုက်လား။ — ဆိုပါတော့… သိပ်မဆာလို့ပါ။"
+    ],
+    [
+     "Sort of.",
+     "အဲလိုမျိုးပေါ့။",
+     "Says a word is only roughly right. On its own, a careful yes. Also Kind of. In fast speech: sorta, kinda.",
+     "— Is he your boss? — Sort of. He's my team leader.",
+     "— သူက မင်းရဲ့ သူဌေးလား။ — အဲလိုမျိုးပေါ့။ အဖွဲ့ခေါင်းဆောင်ပါ။"
+    ]
+   ]
+  },
+  {
+   "en": "Fillers and softeners",
+   "my": "အပြောစကားများ",
+   "desc": "Small spoken words that fill a pause, or take the edge off what you just said.",
+   "cards": [
+    [
+     "Like…",
+     "ဆိုတော့… / လောက်",
+     "A very informal filler for an example or a rough idea. Young people use it a lot. Do not use it in writing or in exams.",
+     "It was, like, two hours late.",
+     "နှစ်နာရီလောက်ကို နောက်ကျတာ။"
+    ],
+    [
+     "Well…",
+     "အင်း…",
+     "The pause before an answer, often an awkward one. Also Um… and Er…",
+     "Well… I'm not sure.",
+     "အင်း… မသေချာဘူး။"
+    ],
+    [
+     "Mind you…",
+     "ဒါပေမဲ့လည်း…",
+     "Adds a ‘but’ to what you just said. British English. Americans say Then again…",
+     "It's expensive. Mind you, the quality is good.",
+     "ဈေးကြီးတယ်။ ဒါပေမဲ့လည်း အရည်အသွေးတော့ ကောင်းတယ်။"
+    ],
+    [
+     "That said…",
+     "ဒါပေမဲ့…",
+     "Balances what came before with a point on the other side. Also: Having said that…",
+     "He's often late. That said, he works hard.",
+     "သူ ခဏခဏ နောက်ကျတယ်။ ဒါပေမဲ့ အလုပ်တော့ ကြိုးစားတယ်။"
+    ]
+   ]
+  },
+  {
+   "en": "Checking they follow",
+   "my": "နားလည်ရဲ့လား စစ်ခြင်း",
+   "desc": "Making sure the listener is still with you.",
+   "cards": [
+    [
+     "You know…",
+     "သိတယ်မလား…",
+     "Checks that the listener is following, or fills a pause. Used too often, it sounds unsure.",
+     "It's, you know, a bit difficult.",
+     "နည်းနည်း ခက်တယ်လေ၊ သိတယ်မလား။"
+    ],
+    [
+     "You know what I mean?",
+     "ဘာပြောချင်လဲ သိတယ်မလား။",
+     "Asks whether your point got across, or the thing you did not say out loud.",
+     "He's nice, but… you know what I mean?",
+     "သူက သဘောကောင်းပါတယ်၊ ဒါပေမဲ့… ဘာပြောချင်လဲ သိတယ်မလား။"
+    ],
+    [
+     "Does that make sense?",
+     "ရှင်းလား။",
+     "A polite check after an explanation. Kinder than Do you understand?, which can sound like a strict teacher.",
+     "Turn left, then right at the bank. Does that make sense?",
+     "ဘယ်ကွေ့၊ ပြီးရင် ဘဏ်နားမှာ ညာကွေ့။ ရှင်းလား။"
+    ]
+   ]
+  }
+ ]
+}
