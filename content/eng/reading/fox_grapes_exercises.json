@@ -1,0 +1,178 @@
+{
+ "title": "The Fox and the Grapes: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "fox_grapes",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The fox was hot and hungry.",
+     "answer": true
+    },
+    {
+     "q": "The grapes were green.",
+     "answer": false
+    },
+    {
+     "q": "The grapes were very low.",
+     "answer": false
+    },
+    {
+     "q": "The fox stretched his paws as high as he could.",
+     "answer": true
+    },
+    {
+     "q": "After many tries, the fox was tired.",
+     "answer": true
+    },
+    {
+     "q": "The grapes really were sour.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where was the fox walking?",
+     "options": [
+      "Along the beach",
+      "Through a city",
+      "Through the countryside"
+     ],
+     "answer": 2,
+     "why": "“One sunny afternoon, a fox was walking through the countryside.”"
+    },
+    {
+     "q": "What were the grapes hanging from?",
+     "options": [
+      "A vine",
+      "A fence",
+      "A tree house"
+     ],
+     "answer": 0,
+     "why": "“Then he saw something hanging from a vine.”"
+    },
+    {
+     "q": "What did the fox do after he stepped back?",
+     "options": [
+      "He went home",
+      "He ran toward the vine and jumped again",
+      "He called his friends"
+     ],
+     "answer": 1,
+     "why": "“He stepped back and ran toward the vine. Then he jumped again.”"
+    },
+    {
+     "q": "What did the fox say about the grapes at the end?",
+     "options": [
+      "They are probably sour",
+      "They are too sweet",
+      "They are delicious"
+     ],
+     "answer": 0,
+     "why": "\"They are probably sour.\""
+    },
+    {
+     "q": "Why did the fox say the grapes were sour?",
+     "options": [
+      "Because they were green",
+      "Because he could not reach them",
+      "Because he tasted one"
+     ],
+     "answer": 1,
+     "why": "“The fox only said that because he could not reach them.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "A big bunch of purple",
+     "answer": "grapes",
+     "after": "!"
+    },
+    {
+     "before": "The grapes looked sweet and",
+     "answer": "juicy",
+     "after": "."
+    },
+    {
+     "before": "He stretched his",
+     "answer": "paws",
+     "after": "as high as he could."
+    },
+    {
+     "before": "But the grapes were still out of",
+     "answer": "reach",
+     "after": "."
+    },
+    {
+     "before": "Soon, he was",
+     "answer": "tired",
+     "after": "."
+    },
+    {
+     "before": "Sometimes we",
+     "answer": "pretend",
+     "after": "we do not want something when we cannot have it."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A hot and hungry fox saw a bunch of grapes hanging high on a vine. He jumped again and again, but he could not reach them. So he walked away and said the grapes were probably sour."
+    },
+    {
+     "q": "What did the grapes look like?",
+     "model": "They were purple, and they looked sweet and juicy."
+    },
+    {
+     "q": "How did the fox try to get the grapes?",
+     "model": "He jumped and stretched his paws as high as he could. He stepped back, ran toward the vine and jumped again and again."
+    },
+    {
+     "q": "Were the grapes really sour? Why did the fox say they were?",
+     "model": "No, they were not sour. He only said that because he could not reach them."
+    },
+    {
+     "q": "Have you ever said you didn't want something because you couldn't have it?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The fox saw a bunch of purple grapes",
+    "The fox jumped and stretched his paws",
+    "He stepped back and ran toward the vine",
+    "The fox sat down, tired",
+    "The fox turned around and walked away"
+   ],
+   "start": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ]
+  }
+ ]
+}

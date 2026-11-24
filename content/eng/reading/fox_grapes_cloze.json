@@ -1,0 +1,77 @@
+{
+ "title": "The Fox and the Grapes: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "fox_grapes",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: afternoon · bunch · countryside · dislike · hang · high · path · purple · sour · stretch · sweet · turn",
+   "items": [
+    {
+     "before": "We have school in the morning and play in the",
+     "answer": "afternoon",
+     "after": "."
+    },
+    {
+     "before": "Wake up and",
+     "answer": "stretch",
+     "after": "your arms and legs."
+    },
+    {
+     "before": "Lemons are",
+     "answer": "sour",
+     "after": "."
+    },
+    {
+     "before": "He gave his mother a",
+     "answer": "bunch",
+     "after": "of flowers."
+    },
+    {
+     "before": "",
+     "answer": "Hang",
+     "after": "your coat on the hook by the door."
+    },
+    {
+     "before": "This cake is too",
+     "answer": "sweet",
+     "after": ". It has a lot of sugar."
+    },
+    {
+     "before": "We left the city and drove into the",
+     "answer": "countryside",
+     "after": "."
+    },
+    {
+     "before": "",
+     "answer": "Turn",
+     "after": "left at the bank. The school is there."
+    },
+    {
+     "before": "The shelf is too",
+     "answer": "high",
+     "after": ". I can't get my book."
+    },
+    {
+     "before": "Follow the",
+     "answer": "path",
+     "after": "through the forest to the lake."
+    },
+    {
+     "before": "I",
+     "answer": "dislike",
+     "after": "rainy days. I like sunny days."
+    },
+    {
+     "before": "Grapes can be green or",
+     "answer": "purple",
+     "after": "."
+    }
+   ]
+  }
+ ]
+}

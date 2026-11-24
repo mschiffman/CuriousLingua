@@ -1,0 +1,178 @@
+{
+ "title": "The Golden Eggs: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "goose_golden_eggs",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "At the start of the story, the farmer was rich.",
+     "answer": false
+    },
+    {
+     "q": "Every morning, the farmer gave the goose food and water.",
+     "answer": true
+    },
+    {
+     "q": "The farmer sold the first golden egg for a lot of money.",
+     "answer": true
+    },
+    {
+     "q": "The goose laid two golden eggs every day.",
+     "answer": false
+    },
+    {
+     "q": "The farmer thought one egg a day was too slow.",
+     "answer": true
+    },
+    {
+     "q": "There was a lot of gold inside the goose.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What was the strange egg like?",
+     "options": [
+      "Soft and white",
+      "Bright and shiny",
+      "Small and brown"
+     ],
+     "answer": 1,
+     "why": "“It was bright and shiny.”"
+    },
+    {
+     "q": "Where did the farmer take the first golden egg?",
+     "options": [
+      "To town",
+      "To his neighbor",
+      "To the river"
+     ],
+     "answer": 0,
+     "why": "“The farmer took the egg to town.”"
+    },
+    {
+     "q": "What did the farmer become?",
+     "options": [
+      "Greedy",
+      "Lazy",
+      "Kind"
+     ],
+     "answer": 0,
+     "why": "“The farmer became greedy.”"
+    },
+    {
+     "q": "What did the farmer want?",
+     "options": [
+      "More geese",
+      "A bigger farm",
+      "All the gold now"
+     ],
+     "answer": 2,
+     "why": "\"I want all the gold now!\""
+    },
+    {
+     "q": "What did the farmer lose?",
+     "options": [
+      "His money",
+      "His wonderful goose",
+      "His farm"
+     ],
+     "answer": 1,
+     "why": "“And now the farmer had lost his wonderful goose.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "A poor",
+     "answer": "farmer",
+     "after": "lived on a small farm."
+    },
+    {
+     "before": "One morning, the farmer went to the goose's",
+     "answer": "nest",
+     "after": "."
+    },
+    {
+     "before": "This egg is made of real",
+     "answer": "gold",
+     "after": "!"
+    },
+    {
+     "before": "But the farmer was not",
+     "answer": "satisfied",
+     "after": "."
+    },
+    {
+     "before": "He made a",
+     "answer": "terrible",
+     "after": "decision."
+    },
+    {
+     "before": "He was very",
+     "answer": "sorry",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A poor farmer had a goose that laid one golden egg every day, and he became rich. But he was greedy and wanted all the gold at once. He lost the goose, and there were no more golden eggs."
+    },
+    {
+     "q": "What did the farmer do with the first golden egg?",
+     "model": "He took it to town, and a man said it was real gold. He sold it for a lot of money."
+    },
+    {
+     "q": "Why was the farmer not satisfied?",
+     "model": "He thought one egg a day was too slow. He wanted all the gold now."
+    },
+    {
+     "q": "What happened because of the farmer's greed?",
+     "model": "He lost his wonderful goose, and there were no more golden eggs."
+    },
+    {
+     "q": "Why is it sometimes better to have enough than to always want more?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The farmer found a bright, shiny egg",
+    "The farmer sold the egg in town",
+    "The goose laid one golden egg every day",
+    "The farmer became greedy",
+    "The farmer looked at the empty nest"
+   ],
+   "start": [
+    3,
+    2,
+    4,
+    1,
+    0
+   ]
+  }
+ ]
+}

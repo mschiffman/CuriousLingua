@@ -1,0 +1,178 @@
+{
+ "title": "The Lion and the Mouse: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "lion_mouse",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The lion was sleeping in the forest.",
+     "answer": true
+    },
+    {
+     "q": "The mouse ran over the lion's tail.",
+     "answer": false
+    },
+    {
+     "q": "The mouse said, \"One day, I can help you.\"",
+     "answer": true
+    },
+    {
+     "q": "The lion was caught in a hunter's cage.",
+     "answer": false
+    },
+    {
+     "q": "The mouse cut the ropes with a knife.",
+     "answer": false
+    },
+    {
+     "q": "At the end, the lion thanked the mouse.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What did the lion do when he woke up?",
+     "options": [
+      "He caught the mouse",
+      "He ran away",
+      "He went back to sleep"
+     ],
+     "answer": 0,
+     "why": "“He caught the mouse.”"
+    },
+    {
+     "q": "What did the mouse ask the lion?",
+     "options": [
+      "To let him go",
+      "To play with him",
+      "To give him food"
+     ],
+     "answer": 0,
+     "why": "\"Please let me go,\" said the mouse."
+    },
+    {
+     "q": "What did the lion do then?",
+     "options": [
+      "He got angry",
+      "He laughed but let the mouse go",
+      "He cried"
+     ],
+     "answer": 1,
+     "why": "“The lion laughed but he let the mouse go.”"
+    },
+    {
+     "q": "Why did the mouse run to help?",
+     "options": [
+      "He was hungry",
+      "He heard the lion roar",
+      "He saw the hunter"
+     ],
+     "answer": 1,
+     "why": "“The mouse heard the lion roar.”"
+    },
+    {
+     "q": "What did the mouse use to bite the ropes?",
+     "options": [
+      "His small paws",
+      "A stick",
+      "His sharp teeth"
+     ],
+     "answer": 2,
+     "why": "“The mouse bit the ropes with his sharp teeth.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "A little mouse ran over his",
+     "answer": "paw",
+     "after": "."
+    },
+    {
+     "before": "He",
+     "answer": "caught",
+     "after": "the mouse."
+    },
+    {
+     "before": "One day, I can",
+     "answer": "help",
+     "after": "you."
+    },
+    {
+     "before": "The lion",
+     "answer": "laughed",
+     "after": "but he let the mouse go."
+    },
+    {
+     "before": "Later, the lion was caught in a hunter's",
+     "answer": "net",
+     "after": "."
+    },
+    {
+     "before": "Soon the lion was",
+     "answer": "free",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A lion caught a little mouse, but he laughed and let it go. Later, the lion was caught in a hunter's net. The mouse bit the ropes with his sharp teeth, and the lion was free."
+    },
+    {
+     "q": "Why did the lion catch the mouse?",
+     "model": "The mouse ran over his paw and woke him up."
+    },
+    {
+     "q": "How did the mouse help the lion?",
+     "model": "He bit the ropes of the net with his sharp teeth, and soon the lion was free."
+    },
+    {
+     "q": "What does the story teach us?",
+     "model": "Even a small friend can help a big friend."
+    },
+    {
+     "q": "Has a younger or smaller friend ever helped you? How?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "A little mouse ran over the lion's paw",
+    "The lion let the mouse go",
+    "The lion was caught in a hunter's net",
+    "The mouse heard the lion roar",
+    "The mouse bit the ropes"
+   ],
+   "start": [
+    2,
+    4,
+    1,
+    0,
+    3
+   ]
+  }
+ ]
+}

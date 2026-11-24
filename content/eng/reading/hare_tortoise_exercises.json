@@ -1,0 +1,178 @@
+{
+ "title": "The Hare and the Tortoise: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "hare_tortoise",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The hare is very fast.",
+     "answer": true
+    },
+    {
+     "q": "The tortoise says she can race the hare.",
+     "answer": true
+    },
+    {
+     "q": "The owl cries, \"Ready? Go!\"",
+     "answer": false
+    },
+    {
+     "q": "The hare lies down under a tree and falls asleep.",
+     "answer": true
+    },
+    {
+     "q": "The tortoise stops to rest too.",
+     "answer": false
+    },
+    {
+     "q": "The hare wins the race.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What does the hare say to the tortoise?",
+     "options": [
+      "Let's be friends!",
+      "You are so slow!",
+      "You are so fast!"
+     ],
+     "answer": 1,
+     "why": "\"You are so slow!\" he says."
+    },
+    {
+     "q": "Who comes to watch the race?",
+     "options": [
+      "The animals",
+      "The farmer",
+      "The children"
+     ],
+     "answer": 0,
+     "why": "“The animals come to watch.”"
+    },
+    {
+     "q": "How does the tortoise move?",
+     "options": [
+      "Slowly, step by step",
+      "By jumping",
+      "Very fast"
+     ],
+     "answer": 0,
+     "why": "“The tortoise moves forward slowly, step by step.”"
+    },
+    {
+     "q": "Why does the hare stop to rest?",
+     "options": [
+      "It is raining",
+      "He is hurt",
+      "The tortoise is far away"
+     ],
+     "answer": 2,
+     "why": "“The tortoise is far away.”"
+    },
+    {
+     "q": "Where is the tortoise when the hare wakes up?",
+     "options": [
+      "Asleep under a tree",
+      "Almost at the finish line",
+      "Still at the start"
+     ],
+     "answer": 1,
+     "why": "“The tortoise is almost at the finish line!”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "The hare is very",
+     "answer": "fast",
+     "after": "."
+    },
+    {
+     "before": "The hare makes",
+     "answer": "fun",
+     "after": "of the tortoise."
+    },
+    {
+     "before": "The hare bursts out",
+     "answer": "laughing",
+     "after": "."
+    },
+    {
+     "before": "Soon, he falls",
+     "answer": "asleep",
+     "after": "."
+    },
+    {
+     "before": "When the hare wakes up, he is",
+     "answer": "surprised",
+     "after": "."
+    },
+    {
+     "before": "The tortoise wins the",
+     "answer": "race",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A fast hare laughed at a slow tortoise, so they had a race. The hare was far ahead, so he lay down under a tree and fell asleep. The tortoise kept going without stopping and won the race."
+    },
+    {
+     "q": "Why does the hare lie down under a tree?",
+     "model": "The tortoise is far away, so he thinks he has time to rest."
+    },
+    {
+     "q": "What does the tortoise do while the hare is asleep?",
+     "model": "She keeps going. She walks on and on, without stopping."
+    },
+    {
+     "q": "What does the tortoise say at the end?",
+     "model": "\"Slowly, but without stopping, we move forward.\""
+    },
+    {
+     "q": "Are you more like the hare or the tortoise? Why?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The hare makes fun of the tortoise",
+    "The fox cries, \"Ready? Go!\"",
+    "The hare falls asleep under a tree",
+    "The hare wakes up, surprised",
+    "The tortoise wins the race"
+   ],
+   "start": [
+    3,
+    2,
+    0,
+    4,
+    1
+   ]
+  }
+ ]
+}

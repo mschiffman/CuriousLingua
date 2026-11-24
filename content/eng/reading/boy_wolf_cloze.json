@@ -1,0 +1,77 @@
+{
+ "title": "The Boy Who Cried Wolf: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "boy_wolf",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bored · chase · cried · frightened · funny · hill · lie · real · shook · tools · truth · watched",
+   "items": [
+    {
+     "before": "We climbed to the top of the",
+     "answer": "hill",
+     "after": "and looked at the village."
+    },
+    {
+     "before": "Dogs like to",
+     "answer": "chase",
+     "after": "cats."
+    },
+    {
+     "before": "There is nothing to do. I'm",
+     "answer": "bored",
+     "after": "!"
+    },
+    {
+     "before": "My father keeps his",
+     "answer": "tools",
+     "after": "in a box in the garage."
+    },
+    {
+     "before": "She",
+     "answer": "shook",
+     "after": "her head and said, \"No, thank you.\""
+    },
+    {
+     "before": "The clown was very",
+     "answer": "funny",
+     "after": ". Everyone laughed."
+    },
+    {
+     "before": "Don't lie. Tell me the",
+     "answer": "truth",
+     "after": "."
+    },
+    {
+     "before": "We",
+     "answer": "watched",
+     "after": "a film on TV last night."
+    },
+    {
+     "before": "The little boy was",
+     "answer": "frightened",
+     "after": "of the big dog."
+    },
+    {
+     "before": "He told a",
+     "answer": "lie",
+     "after": ". He said he did his homework, but he didn't."
+    },
+    {
+     "before": "The baby",
+     "answer": "cried",
+     "after": "all night because she was hungry."
+    },
+    {
+     "before": "Is that a",
+     "answer": "real",
+     "after": "flower or a plastic one?"
+    }
+   ]
+  }
+ ]
+}

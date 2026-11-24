@@ -1,0 +1,77 @@
+{
+ "title": "The Ant and the Grasshopper: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "ant_grasshopper",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: busy · cold · far · field · jumped · prepare · remember · save · share · snow · sunshine · tired",
+   "items": [
+    {
+     "before": "The cows are eating grass in the",
+     "answer": "field",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "save",
+     "after": "some money every week to buy a bike."
+    },
+    {
+     "before": "I walked all day, and now I'm very",
+     "answer": "tired",
+     "after": "."
+    },
+    {
+     "before": "In winter, the mountains are covered with",
+     "answer": "snow",
+     "after": "."
+    },
+    {
+     "before": "Do you",
+     "answer": "remember",
+     "after": "my name? We met last year."
+    },
+    {
+     "before": "My school is",
+     "answer": "far",
+     "after": "from my house. I take the bus."
+    },
+    {
+     "before": "Let's sit outside in the warm",
+     "answer": "sunshine",
+     "after": "."
+    },
+    {
+     "before": "Let's",
+     "answer": "prepare",
+     "after": "for the test. It's on Monday."
+    },
+    {
+     "before": "Drink a",
+     "answer": "cold",
+     "after": "glass of water on a hot day."
+    },
+    {
+     "before": "The cat",
+     "answer": "jumped",
+     "after": "onto the table."
+    },
+    {
+     "before": "I have a lot of sweets. Let's",
+     "answer": "share",
+     "after": "them."
+    },
+    {
+     "before": "My mother is very",
+     "answer": "busy",
+     "after": "today. She has a lot of work."
+    }
+   ]
+  }
+ ]
+}

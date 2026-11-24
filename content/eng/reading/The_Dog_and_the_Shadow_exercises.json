@@ -1,0 +1,178 @@
+{
+ "title": "The Dog and the Shadow: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "The_Dog_and_the_Shadow",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The dog found a big bone.",
+     "answer": true
+    },
+    {
+     "q": "The dog wanted to find a busy place to eat.",
+     "answer": false
+    },
+    {
+     "q": "The bridge over the stream was made of stone.",
+     "answer": false
+    },
+    {
+     "q": "The other dog in the water was the dog's own reflection.",
+     "answer": true
+    },
+    {
+     "q": "The dog's bone fell into the stream when he barked.",
+     "answer": true
+    },
+    {
+     "q": "At the end, the dog got the other dog's bone.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "How did the dog carry the bone?",
+     "options": [
+      "In a bag",
+      "In his mouth",
+      "On his back"
+     ],
+     "answer": 1,
+     "why": "“The dog picked up the bone in his mouth and trotted happily away.”"
+    },
+    {
+     "q": "What did the dog see when he looked down into the water?",
+     "options": [
+      "Another dog with a bone",
+      "A golden bone",
+      "A big fish"
+     ],
+     "answer": 0,
+     "why": "“There, in the water, he saw another dog!”"
+    },
+    {
+     "q": "What did the dog think about the bone in the water?",
+     "options": [
+      "It looked old",
+      "It looked smaller than his",
+      "It looked bigger than his"
+     ],
+     "answer": 2,
+     "why": "\"That bone looks bigger than mine!\" he thought."
+    },
+    {
+     "q": "What happened to the dog's bone after it fell?",
+     "options": [
+      "It floated away",
+      "The other dog took it",
+      "It sank beneath the water"
+     ],
+     "answer": 2,
+     "why": "“The dog watched sadly as the bone sank beneath the water.”"
+    },
+    {
+     "q": "What is the moral of the story?",
+     "options": [
+      "Always share your food",
+      "Be happy with what you have",
+      "Never cross a bridge"
+     ],
+     "answer": 1,
+     "why": "“Moral: Be happy with what you have.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "One sunny morning, a",
+     "answer": "hungry",
+     "after": "dog found a big bone."
+    },
+    {
+     "before": "He wanted to find a quiet place to enjoy his",
+     "answer": "meal",
+     "after": "."
+    },
+    {
+     "before": "Soon, he came to a wooden",
+     "answer": "bridge",
+     "after": "over a clear stream."
+    },
+    {
+     "before": "It was his own",
+     "answer": "reflection",
+     "after": "!"
+    },
+    {
+     "before": "He opened his mouth to",
+     "answer": "bark",
+     "after": "at the other dog."
+    },
+    {
+     "before": "At last, the dog understood his foolish",
+     "answer": "mistake",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A hungry dog was carrying a big bone across a bridge. He saw his reflection in the water and thought it was another dog with a bigger bone. He barked at it, and his own bone fell into the stream."
+    },
+    {
+     "q": "What did the dog see in the water? What was it really?",
+     "model": "He saw another dog with a bone in his mouth. It was really his own reflection."
+    },
+    {
+     "q": "Why did the dog open his mouth?",
+     "model": "He wanted to bark at the other dog, because he wanted that bone too."
+    },
+    {
+     "q": "What did the dog understand at the end?",
+     "model": "He understood his foolish mistake: he had lost his own bone because he wanted another."
+    },
+    {
+     "q": "Have you ever wanted something that someone else had? What happened?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The dog found a big bone",
+    "The dog crossed a wooden bridge",
+    "The dog saw his reflection in the water",
+    "The dog barked at the other dog",
+    "The bone sank beneath the water"
+   ],
+   "start": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ]
+  }
+ ]
+}

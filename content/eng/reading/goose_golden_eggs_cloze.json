@@ -1,0 +1,77 @@
+{
+ "title": "The Golden Eggs: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "goose_golden_eggs",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: decision · egg · enough · greedy · laid · lost · picked · rich · slow · sold · town · yard",
+   "items": [
+    {
+     "before": "The children are playing in the",
+     "answer": "yard",
+     "after": "behind the house."
+    },
+    {
+     "before": "She",
+     "answer": "sold",
+     "after": "her old bike to her neighbor."
+    },
+    {
+     "before": "Don't be",
+     "answer": "greedy",
+     "after": "! Share the sweets with your sister."
+    },
+    {
+     "before": "We go to",
+     "answer": "town",
+     "after": "on Saturday to buy food."
+    },
+    {
+     "before": "He",
+     "answer": "picked",
+     "after": "a flower for his mother."
+    },
+    {
+     "before": "The bus is",
+     "answer": "slow",
+     "after": "today. We'll be late."
+    },
+    {
+     "before": "Choosing a new school is a big",
+     "answer": "decision",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "lost",
+     "after": "my pen. Have you seen it?"
+    },
+    {
+     "before": "He has a big house and three cars. He is very",
+     "answer": "rich",
+     "after": "."
+    },
+    {
+     "before": "I eat a boiled",
+     "answer": "egg",
+     "after": "for breakfast every morning."
+    },
+    {
+     "before": "Our hen",
+     "answer": "laid",
+     "after": "an egg this morning."
+    },
+    {
+     "before": "Do we have",
+     "answer": "enough",
+     "after": "chairs for everyone?"
+    }
+   ]
+  }
+ ]
+}

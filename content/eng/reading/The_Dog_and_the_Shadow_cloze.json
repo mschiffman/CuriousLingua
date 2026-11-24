@@ -1,0 +1,77 @@
+{
+ "title": "The Dog and the Shadow: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "The_Dog_and_the_Shadow",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: bigger · bone · clear · disappeared · enjoy · foolish · lost · mouth · quiet · sank · stream · treat",
+   "items": [
+    {
+     "before": "Ice cream is a special",
+     "answer": "treat",
+     "after": "on hot days."
+    },
+    {
+     "before": "I hope you",
+     "answer": "enjoy",
+     "after": "your holiday!"
+    },
+    {
+     "before": "Please be",
+     "answer": "quiet",
+     "after": "in the library."
+    },
+    {
+     "before": "Don't talk with food in your",
+     "answer": "mouth",
+     "after": "!"
+    },
+    {
+     "before": "The stone",
+     "answer": "sank",
+     "after": "to the bottom of the lake."
+    },
+    {
+     "before": "The water is so",
+     "answer": "clear",
+     "after": "that we can see the fish."
+    },
+    {
+     "before": "We swam in a cool",
+     "answer": "stream",
+     "after": "in the forest."
+    },
+    {
+     "before": "The sun",
+     "answer": "disappeared",
+     "after": "behind the clouds."
+    },
+    {
+     "before": "It was",
+     "answer": "foolish",
+     "after": "to go out in the rain without an umbrella."
+    },
+    {
+     "before": "My dog likes to chew a",
+     "answer": "bone",
+     "after": "."
+    },
+    {
+     "before": "I",
+     "answer": "lost",
+     "after": "my keys. Can you help me find them?"
+    },
+    {
+     "before": "My brother is",
+     "answer": "bigger",
+     "after": "than me, but I am older."
+    }
+   ]
+  }
+ ]
+}

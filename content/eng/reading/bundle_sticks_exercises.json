@@ -1,0 +1,178 @@
+{
+ "title": "The Bundle of Sticks: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "bundle_sticks",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The father had three sons.",
+     "answer": true
+    },
+    {
+     "q": "The sons argued every day.",
+     "answer": true
+    },
+    {
+     "q": "The oldest son broke the sticks that were tied together.",
+     "answer": false
+    },
+    {
+     "q": "The other boys pulled and bent the sticks, but the sticks did not break.",
+     "answer": true
+    },
+    {
+     "q": "The boys could not break one stick.",
+     "answer": false
+    },
+    {
+     "q": "At the end, the boys argued more.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "What did the father do with the sticks first?",
+     "options": [
+      "He broke them",
+      "He put them in the fire",
+      "He tied them together"
+     ],
+     "answer": 2,
+     "why": "“He tied some sticks together.”"
+    },
+    {
+     "q": "Who tried to break the sticks first?",
+     "options": [
+      "The oldest son",
+      "The youngest son",
+      "The father"
+     ],
+     "answer": 0,
+     "why": "“He gave the sticks to his oldest son.”"
+    },
+    {
+     "q": "What did the father give each boy after he untied the sticks?",
+     "options": [
+      "Some rope",
+      "One stick",
+      "A new bundle"
+     ],
+     "answer": 1,
+     "why": "“He gave each boy one stick.”"
+    },
+    {
+     "q": "What did the boys say when they broke one stick?",
+     "options": [
+      "That was hard!",
+      "That was easy!",
+      "We can't do it!"
+     ],
+     "answer": 1,
+     "why": "\"That was easy!\" they said."
+    },
+    {
+     "q": "What did the father say the sticks are like?",
+     "options": [
+      "His sons",
+      "A tree",
+      "His house"
+     ],
+     "answer": 0,
+     "why": "\"These sticks are like you,\" he said."
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "They",
+     "answer": "argued",
+     "after": "every day."
+    },
+    {
+     "before": "He",
+     "answer": "tied",
+     "after": "some sticks together."
+    },
+    {
+     "before": "He gave the sticks to his",
+     "answer": "oldest",
+     "after": "son."
+    },
+    {
+     "before": "They pulled and",
+     "answer": "bent",
+     "after": "the sticks."
+    },
+    {
+     "before": "Then the father",
+     "answer": "untied",
+     "after": "the sticks."
+    },
+    {
+     "before": "Together, you are",
+     "answer": "strong",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A father had three sons who argued every day. He showed them that they could not break the sticks when they were tied together, but they could easily break one stick. He told them that together they are strong, and the boys stopped arguing."
+    },
+    {
+     "q": "Why did the father tie the sticks together?",
+     "model": "He wanted to help his sons, because they argued every day."
+    },
+    {
+     "q": "What happened when the father untied the sticks?",
+     "model": "He gave each boy one stick, and each boy broke his stick easily."
+    },
+    {
+     "q": "What did the father want his sons to understand?",
+     "model": "Together, they are strong. They should help each other every day."
+    },
+    {
+     "q": "When do you work together with your friends or family?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The father tied some sticks together",
+    "The oldest son tried to break the sticks",
+    "The other boys pulled and bent the sticks",
+    "Each boy broke one stick",
+    "The boys stopped arguing"
+   ],
+   "start": [
+    3,
+    0,
+    4,
+    2,
+    1
+   ]
+  }
+ ]
+}

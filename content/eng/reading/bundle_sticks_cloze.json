@@ -1,0 +1,77 @@
+{
+ "title": "The Bundle of Sticks: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "bundle_sticks",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: break · easy · gave · help · other · pull · smile · sons · sticks · stop · try · work",
+   "items": [
+    {
+     "before": "Mr. and Mrs. Tun have two",
+     "answer": "sons",
+     "after": "and one daughter."
+    },
+    {
+     "before": "",
+     "answer": "Pull",
+     "after": "the door. Don't push it."
+    },
+    {
+     "before": "The test was",
+     "answer": "easy",
+     "after": ". Everybody passed."
+    },
+    {
+     "before": "We need some dry",
+     "answer": "sticks",
+     "after": "to make a fire."
+    },
+    {
+     "before": "Be careful with the glass. Don't",
+     "answer": "break",
+     "after": "it!"
+    },
+    {
+     "before": "This is hard, but I will",
+     "answer": "try",
+     "after": "again."
+    },
+    {
+     "before": "",
+     "answer": "Smile",
+     "after": "for the photo!"
+    },
+    {
+     "before": "Grandma",
+     "answer": "gave",
+     "after": "me a book for my birthday."
+    },
+    {
+     "before": "The bus will",
+     "answer": "stop",
+     "after": "in front of the school."
+    },
+    {
+     "before": "My mother and father",
+     "answer": "work",
+     "after": "in a hospital."
+    },
+    {
+     "before": "Can you",
+     "answer": "help",
+     "after": "me carry this box?"
+    },
+    {
+     "before": "One shoe is here. Where is the",
+     "answer": "other",
+     "after": "one?"
+    }
+   ]
+  }
+ ]
+}

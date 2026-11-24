@@ -1,0 +1,77 @@
+{
+ "title": "The Lion and the Mouse: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "lion_mouse",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: big · bite · friend · hunter · ran · roar · rope · sharp · sleep · small · teeth · thank",
+   "items": [
+    {
+     "before": "Brush your",
+     "answer": "teeth",
+     "after": "after every meal."
+    },
+    {
+     "before": "Lions",
+     "answer": "roar",
+     "after": "loudly at night."
+    },
+    {
+     "before": "This knife is very",
+     "answer": "sharp",
+     "after": ". Be careful!"
+    },
+    {
+     "before": "We tied the boat to the tree with a",
+     "answer": "rope",
+     "after": "."
+    },
+    {
+     "before": "Be careful! The dog might",
+     "answer": "bite",
+     "after": "you."
+    },
+    {
+     "before": "An elephant is",
+     "answer": "big",
+     "after": ", but a mouse is small."
+    },
+    {
+     "before": "The",
+     "answer": "hunter",
+     "after": "walked into the forest with his dog."
+    },
+    {
+     "before": "I",
+     "answer": "sleep",
+     "after": "for eight hours every night."
+    },
+    {
+     "before": "These shoes are too",
+     "answer": "small",
+     "after": ". I need a bigger size."
+    },
+    {
+     "before": "Mya is my best",
+     "answer": "friend",
+     "after": ". We sit together at school."
+    },
+    {
+     "before": "The children",
+     "answer": "ran",
+     "after": "to the bus stop because they were late."
+    },
+    {
+     "before": "Did you",
+     "answer": "thank",
+     "after": "Grandma for the present?"
+    }
+   ]
+  }
+ ]
+}

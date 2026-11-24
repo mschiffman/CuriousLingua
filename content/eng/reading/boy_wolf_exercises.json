@@ -1,0 +1,178 @@
+{
+ "title": "The Boy Who Cried Wolf: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "boy_wolf",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "The boy took his sheep to a green hill near the village.",
+     "answer": true
+    },
+    {
+     "q": "The first time, the villagers came with sticks and tools.",
+     "answer": true
+    },
+    {
+     "q": "The first time the boy shouted, a wolf was chasing the sheep.",
+     "answer": false
+    },
+    {
+     "q": "The villagers thought the boy's joke was funny.",
+     "answer": false
+    },
+    {
+     "q": "One afternoon, a real wolf came out of the forest.",
+     "answer": true
+    },
+    {
+     "q": "When the real wolf came, the villagers ran to help.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "How did the boy sometimes feel on the hill?",
+     "options": [
+      "Very bored",
+      "Very cold",
+      "Very busy"
+     ],
+     "answer": 0,
+     "why": "“Sometimes, he became very bored.”"
+    },
+    {
+     "q": "What were the sheep doing when the villagers arrived?",
+     "options": [
+      "Running away",
+      "Quietly eating grass",
+      "Sleeping"
+     ],
+     "answer": 1,
+     "why": "“The sheep were quietly eating grass.”"
+    },
+    {
+     "q": "What did one man say to the boy?",
+     "options": [
+      "That is not funny",
+      "Where is the wolf?",
+      "Thank you for calling us"
+     ],
+     "answer": 0,
+     "why": "\"That is not funny,\" one man said."
+    },
+    {
+     "q": "Why did nobody come the last time?",
+     "options": [
+      "They did not hear him",
+      "They were asleep",
+      "They thought he was trying to fool them again"
+     ],
+     "answer": 2,
+     "why": "\"He is trying to fool us again,\" they said."
+    },
+    {
+     "q": "What happens when we tell lies, says the story?",
+     "options": [
+      "People give us presents",
+      "People laugh with us",
+      "People stop believing us"
+     ],
+     "answer": 2,
+     "why": "“When we tell lies, people stop believing us.”"
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "A young",
+     "answer": "shepherd",
+     "after": "boy watched his sheep every day."
+    },
+    {
+     "before": "The",
+     "answer": "villagers",
+     "after": "heard him and ran up the hill."
+    },
+    {
+     "before": "I",
+     "answer": "fooled",
+     "after": "you!"
+    },
+    {
+     "before": "The villagers were not",
+     "answer": "happy",
+     "after": "."
+    },
+    {
+     "before": "Then one afternoon, a real wolf came out of the",
+     "answer": "forest",
+     "after": "."
+    },
+    {
+     "before": "The boy shouted louder, but no one",
+     "answer": "believed",
+     "after": "him."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "A shepherd boy shouted \"Wolf!\" two times as a joke, and the villagers ran to help him. When a real wolf came, he shouted again, but nobody believed him. The wolf chased the sheep away, and the boy learned that people stop believing us when we tell lies."
+    },
+    {
+     "q": "Why did the boy shout \"Wolf!\" when there was no wolf?",
+     "model": "He was bored, and he wanted to fool the villagers. He laughed when they came."
+    },
+    {
+     "q": "What did the villagers do the second time?",
+     "model": "They ran up the hill again, but there was no wolf. They shook their heads and went home."
+    },
+    {
+     "q": "What did the boy understand at the end?",
+     "model": "When we tell lies, people stop believing us."
+    },
+    {
+     "q": "Why is it important to tell the truth?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The boy became bored on the hill",
+    "The villagers ran up the hill, but there was no wolf",
+    "The boy did it again a few days later",
+    "A real wolf came out of the forest",
+    "The wolf chased the sheep away"
+   ],
+   "start": [
+    3,
+    2,
+    4,
+    0,
+    1
+   ]
+  }
+ ]
+}

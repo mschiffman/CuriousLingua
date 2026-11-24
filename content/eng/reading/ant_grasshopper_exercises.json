@@ -1,0 +1,178 @@
+{
+ "title": "The Ant and the Grasshopper: exercises",
+ "subtitle": "Five exercises on the text",
+ "label": "Exercises",
+ "type": "practice",
+ "supplement_of": "ant_grasshopper",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "blocks": [
+  {
+   "kind": "truefalse",
+   "title": "1. True or false",
+   "items": [
+    {
+     "q": "At the start of the story, it was a cold winter day.",
+     "answer": false
+    },
+    {
+     "q": "The grasshopper sang and played all day.",
+     "answer": true
+    },
+    {
+     "q": "The ant was collecting food for winter.",
+     "answer": true
+    },
+    {
+     "q": "The ant worked only when she was not tired.",
+     "answer": false
+    },
+    {
+     "q": "In autumn, the grasshopper had saved a lot of food.",
+     "answer": false
+    },
+    {
+     "q": "In winter, snow covered the ground.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "title": "2. Multiple choice",
+   "items": [
+    {
+     "q": "Where did the ant walk back and forth?",
+     "options": [
+      "Between the field and her home",
+      "Around a big tree",
+      "Between the river and the forest"
+     ],
+     "answer": 0,
+     "why": "“She walked back and forth between the field and her home.”"
+    },
+    {
+     "q": "What did the grasshopper say about winter?",
+     "options": [
+      "It is coming soon",
+      "It is his favorite season",
+      "It is far away"
+     ],
+     "answer": 2,
+     "why": "\"Winter is far away!\""
+    },
+    {
+     "q": "What filled the ant's little storehouse?",
+     "options": [
+      "Snow",
+      "Leaves",
+      "Food"
+     ],
+     "answer": 2,
+     "why": "“Slowly, her little storehouse filled with food.”"
+    },
+    {
+     "q": "What colors did the leaves turn?",
+     "options": [
+      "Green and blue",
+      "Yellow, orange, and red",
+      "White and gray"
+     ],
+     "answer": 1,
+     "why": "“The leaves turned yellow, orange, and red.”"
+    },
+    {
+     "q": "What did the grasshopper ask the ant in winter?",
+     "options": [
+      "If she could sing with him",
+      "If she had any food to share",
+      "If she wanted to play"
+     ],
+     "answer": 1,
+     "why": "\"Do you have any food to share?\""
+    }
+   ]
+  },
+  {
+   "kind": "cloze",
+   "title": "3. Complete the sentences",
+   "items": [
+    {
+     "before": "It was a warm",
+     "answer": "summer",
+     "after": "day."
+    },
+    {
+     "before": "I am collecting food for",
+     "answer": "winter",
+     "after": "."
+    },
+    {
+     "before": "He jumped through the grass and continued",
+     "answer": "singing",
+     "after": "."
+    },
+    {
+     "before": "Every day, the ant carried seeds and",
+     "answer": "grain",
+     "after": "home."
+    },
+    {
+     "before": "Soon, the days became",
+     "answer": "cooler",
+     "after": "."
+    },
+    {
+     "before": "The grasshopper was cold and",
+     "answer": "hungry",
+     "after": "."
+    }
+   ]
+  },
+  {
+   "kind": "open",
+   "title": "4. Open questions",
+   "note": "These questions are open. Talk about your answers with your teacher or a classmate.",
+   "items": [
+    {
+     "q": "Without looking at the text, sum it up in three sentences.",
+     "model": "All summer, the ant worked hard and collected food for winter, but the grasshopper only sang and played. When winter came, the grasshopper had no food and was cold and hungry. He understood that he should have prepared while food was plentiful."
+    },
+    {
+     "q": "Why didn't the ant play with the grasshopper?",
+     "model": "She was collecting food for winter."
+    },
+    {
+     "q": "What was winter like for the grasshopper?",
+     "model": "Snow covered the ground. There were no green leaves and no seeds to eat, so he was cold and hungry."
+    },
+    {
+     "q": "What did the grasshopper learn?",
+     "model": "He should have prepared while food was plentiful. After that, he remembered to work before hard times came."
+    },
+    {
+     "q": "What do you do today to be ready for tomorrow?",
+     "model": "Free answer."
+    }
+   ]
+  },
+  {
+   "kind": "order",
+   "title": "5. Put in order",
+   "intro": "Put the events in the order of the story.",
+   "items": [
+    "The grasshopper asked the ant to play",
+    "The ant's storehouse filled with food",
+    "The leaves turned yellow, orange and red",
+    "Snow covered the ground",
+    "The grasshopper went to the ant's home"
+   ],
+   "start": [
+    3,
+    4,
+    0,
+    2,
+    1
+   ]
+  }
+ ]
+}

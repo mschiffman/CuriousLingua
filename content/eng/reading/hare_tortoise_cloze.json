@@ -1,0 +1,77 @@
+{
+ "title": "The Hare and the Tortoise: cloze test",
+ "subtitle": "Complete with the missing noun, verb or adjective",
+ "label": "Cloze test",
+ "type": "practice",
+ "supplement_of": "hare_tortoise",
+ "review": "Written by Claude from the lesson text. Check the English and the answers before using it with learners.",
+ "intro": "The words come from the text, used in new sentences.",
+ "blocks": [
+  {
+   "kind": "cloze",
+   "intro": "Use each word once: clap · far · late · line · picture · ready · slow · step · story · wake · watch · win",
+   "items": [
+    {
+     "before": "Look at this",
+     "answer": "picture",
+     "after": ". Can you see the bird?"
+    },
+    {
+     "before": "I hope our team will",
+     "answer": "win",
+     "after": "the game!"
+    },
+    {
+     "before": "My computer is very",
+     "answer": "slow",
+     "after": ". It takes five minutes to start."
+    },
+    {
+     "before": "Grandma tells me a",
+     "answer": "story",
+     "after": "every night."
+    },
+    {
+     "before": "When the song finished, everyone began to",
+     "answer": "clap",
+     "after": "."
+    },
+    {
+     "before": "Hurry up! We are",
+     "answer": "late",
+     "after": "for school."
+    },
+    {
+     "before": "Wait in",
+     "answer": "line",
+     "after": "for the bus."
+    },
+    {
+     "before": "Let's",
+     "answer": "watch",
+     "after": "the football game on TV."
+    },
+    {
+     "before": "Are you",
+     "answer": "ready",
+     "after": "? The taxi is here."
+    },
+    {
+     "before": "Climb the stairs one",
+     "answer": "step",
+     "after": "at a time."
+    },
+    {
+     "before": "Please",
+     "answer": "wake",
+     "after": "me up at six o'clock."
+    },
+    {
+     "before": "The beach is not",
+     "answer": "far",
+     "after": "from here. We can walk."
+    }
+   ]
+  }
+ ]
+}
