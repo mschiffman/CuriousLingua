@@ -15,6 +15,21 @@
   "quiz": false
  },
  {
+  "id": "fr/reading/arc-en-ciel",
+  "url": "fr/reading/arc-en-ciel.html",
+  "course": "fr",
+  "strand": "reading",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Science",
+  "type": "reader",
+  "title": "Comment se forme un arc-en-ciel ?",
+  "clips": 81,
+  "images": 8,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/reading/asia",
   "url": "fr/reading/asia.html",
   "course": "fr",
