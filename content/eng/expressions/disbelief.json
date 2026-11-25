@@ -1,0 +1,236 @@
+{
+ "title": "I Can't Believe It",
+ "subtitle": "မယုံနိုင်ကြောင်း ပြောခြင်း",
+ "level": "a2",
+ "level_provisional": true,
+ "order": 23,
+ "strand": "expressions",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "review": "Written by Claude. The Burmese lines are drafts: check every one before publishing or recording.",
+ "aud_dir": "eng/expressions/disbelief/",
+ "aud_ext": "mp3?v=2611251419",
+ "related": [
+  "eng/expressions/exclamation",
+  "eng/speaking/disbelief"
+ ],
+ "categories": [
+  {
+   "en": "Is that true?",
+   "my": "တကယ်လား",
+   "desc": "Short questions that show surprise and ask the speaker to go on.",
+   "cards": [
+    [
+     "Seriously?",
+     "တကယ်ကြီးလား။",
+     "Stronger than Really? Informal.",
+     "“I quit my job.” “Seriously?”",
+     "“အလုပ်ထွက်လိုက်ပြီ။” “တကယ်ကြီးလား။”"
+    ],
+    [
+     "No kidding?",
+     "နောက်နေတာ မဟုတ်ဘူးနော်။",
+     "Kid = joke. You are surprised, but you believe it.",
+     "“She's fifty.” “No kidding? She looks thirty.”",
+     "“သူ အသက်ငါးဆယ်ရှိပြီ။” “နောက်နေတာ မဟုတ်ဘူးနော်။ သုံးဆယ်လောက်ပဲ ထင်ရတယ်။”"
+    ],
+    [
+     "For real?",
+     "တကယ်လား။",
+     "Very informal. The same as Really?",
+     "“We won!” “For real?”",
+     "“ငါတို့ နိုင်တယ်။” “တကယ်လား။”"
+    ],
+    [
+     "What?",
+     "ဘာ။",
+     "One word, said with a rising voice. Can sound rude if you shout it.",
+     "“The shop is closed forever.” “What?”",
+     "“ဆိုင်က အပြီးပိတ်သွားပြီ။” “ဘာ။”"
+    ]
+   ]
+  },
+  {
+   "en": "You're joking",
+   "my": "နောက်နေတာပဲ",
+   "desc": "When you think the other person cannot mean it.",
+   "cards": [
+    [
+     "You can't be serious.",
+     "အတည်ပြောနေတာလား။ မဖြစ်နိုင်ဘူး။",
+     "Serious = not joking. You think the idea is too strange or too bad.",
+     "“I'm going to swim across the river.” “You can't be serious.”",
+     "“မြစ်ကို ကူးခတ်မလို့။” “အတည်ပြောနေတာလား။ မဖြစ်နိုင်ဘူး။”"
+    ],
+    [
+     "Are you kidding me?",
+     "ငါ့ကို နောက်နေတာလား။",
+     "Stronger than You're kidding. Often for bad news.",
+     "“The bus left without us.” “Are you kidding me?”",
+     "“ဘတ်စ်ကား ငါတို့ကို ထားခဲ့ပြီ။” “ငါ့ကို နောက်နေတာလား။”"
+    ],
+    [
+     "You're joking, right?",
+     "နောက်နေတာ မဟုတ်လား။",
+     "…, right? asks the other person to say yes.",
+     "“The exam is today.” “You're joking, right?”",
+     "“စာမေးပွဲက ဒီနေ့။” “နောက်နေတာ မဟုတ်လား။”"
+    ]
+   ]
+  },
+  {
+   "en": "I can't believe it",
+   "my": "မယုံနိုင်ဘူး",
+   "desc": "For news that is very hard to believe, good or bad.",
+   "cards": [
+    [
+     "I don't believe it!",
+     "မယုံနိုင်ဘူး။",
+     "An exclamation of surprise. It does not always mean the other person is lying.",
+     "“He ate ten eggs.” “I don't believe it!”",
+     "“သူ ကြက်ဥ ဆယ်လုံး စားတယ်။” “မယုံနိုင်ဘူး။”"
+    ],
+    [
+     "I can't believe it.",
+     "ယုံတောင် မယုံနိုင်ဘူး။",
+     "Often for your own good or bad news.",
+     "I passed! I can't believe it.",
+     "ငါ အောင်တယ်။ ယုံတောင် မယုံနိုင်ဘူး။"
+    ],
+    [
+     "That's impossible.",
+     "မဖြစ်နိုင်ဘူး။",
+     "It cannot happen. Also: That can't be true.",
+     "“The cat opened the door.” “That's impossible.”",
+     "“ကြောင်က တံခါးဖွင့်တယ်။” “မဖြစ်နိုင်ဘူး။”"
+    ],
+    [
+     "Unbelievable!",
+     "မယုံနိုင်စရာပဲ။",
+     "One word. For something amazing, or for something that makes you angry.",
+     "He's late again. Unbelievable!",
+     "သူ နောက်ကျပြန်ပြီ။ မယုံနိုင်စရာပဲ။"
+    ],
+    [
+     "You're not going to believe this.",
+     "မင်း ယုံမှာ မဟုတ်ဘူး။",
+     "Say it first, before you tell a surprising story.",
+     "You're not going to believe this. I saw our teacher on TV.",
+     "မင်း ယုံမှာ မဟုတ်ဘူး။ ငါတို့ဆရာကို တီဗီမှာ တွေ့တယ်။"
+    ]
+   ]
+  },
+  {
+   "en": "That's crazy",
+   "my": "ရူးစရာပဲ",
+   "desc": "Informal reactions to a big surprise.",
+   "cards": [
+    [
+     "That's crazy!",
+     "ရူးစရာပဲ။",
+     "Very common and informal. Not an insult: it is about the news, not the person.",
+     "“He walked for three days.” “That's crazy!”",
+     "“သူ သုံးရက် လမ်းလျှောက်တယ်။” “ရူးစရာပဲ။”"
+    ],
+    [
+     "That's insane.",
+     "အရမ်း လွန်တာပဲ။",
+     "Stronger than crazy. Informal.",
+     "“The ticket costs five hundred dollars.” “That's insane.”",
+     "“လက်မှတ်က ဒေါ်လာ ငါးရာ။” “အရမ်း လွန်တာပဲ။”"
+    ],
+    [
+     "Holy cow!",
+     "အမလေး။",
+     "A funny, polite way to show big surprise. American.",
+     "Holy cow! Look at the size of that fish!",
+     "အမလေး။ အဲဒီငါး အကြီးကြီးပဲ ကြည့်စမ်း။"
+    ],
+    [
+     "He said what?",
+     "သူ ဘာပြောတယ်။",
+     "Repeat the sentence with what when you cannot believe what you heard. Also: You did what?",
+     "“He said the Earth is flat.” “He said what?”",
+     "“သူက ကမ္ဘာကြီး ပြားတယ်တဲ့။” “သူ ဘာပြောတယ်။”"
+    ]
+   ]
+  },
+  {
+   "en": "I don't believe you",
+   "my": "မင်းကို မယုံဘူး",
+   "desc": "When you really think it is not true. Be careful: these can sound rude.",
+   "cards": [
+    [
+     "Yeah, right.",
+     "ဟုတ်ပါ့။",
+     "Ironic: the words say yes, the voice says no.",
+     "“I'll clean my room tomorrow.” “Yeah, right.”",
+     "“မနက်ဖြန် အခန်းရှင်းမယ်။” “ဟုတ်ပါ့။”"
+    ],
+    [
+     "Nonsense!",
+     "အဓိပ္ပာယ်မရှိတာ။",
+     "That is not true, and it is silly. Strong.",
+     "“Cats can't see at night.” “Nonsense!”",
+     "“ကြောင်တွေက ညဘက် မမြင်ဘူး။” “အဓိပ္ပာယ်မရှိတာ။”"
+    ],
+    [
+     "As if!",
+     "ဖြစ်မလား။",
+     "That will never happen. Informal.",
+     "“He says he'll pay for everyone.” “As if!”",
+     "“သူက အားလုံးအတွက် ပေးမယ်တဲ့။” “ဖြစ်မလား။”"
+    ],
+    [
+     "I doubt it.",
+     "မထင်ဘူး။",
+     "Polite: I think it is probably not true. Say “dowt”: the b is silent.",
+     "“Will it rain today?” “I doubt it.”",
+     "“ဒီနေ့ မိုးရွာမလား။” “မထင်ဘူး။”"
+    ]
+   ]
+  },
+  {
+   "en": "But it's true!",
+   "my": "ဒါပေမဲ့ တကယ်ပါ",
+   "desc": "What to say when nobody believes you.",
+   "cards": [
+    [
+     "I swear!",
+     "ကျိန်ပြောရဲတယ်။",
+     "I promise it is true.",
+     "I didn't eat your cake. I swear!",
+     "မင်းကိတ်မုန့်ကို ငါ မစားဘူး။ ကျိန်ပြောရဲတယ်။"
+    ],
+    [
+     "I'm not lying.",
+     "ငါ မလိမ်ဘူး။",
+     "Lie, lying: to say something that is not true.",
+     "I'm not lying. Ask my sister.",
+     "ငါ မလိမ်ဘူး။ ငါ့ညီမကို မေးကြည့်။"
+    ],
+    [
+     "Believe me.",
+     "ငါ့ကို ယုံပါ။",
+     "Asks the other person to trust you.",
+     "Believe me, it was this big.",
+     "ငါ့ကို ယုံပါ။ ဒီလောက်ကြီးတာ။"
+    ],
+    [
+     "It's true!",
+     "တကယ်ပါ။",
+     "The simplest answer.",
+     "“You met the president?” “It's true!”",
+     "“သမ္မတနဲ့ တွေ့ခဲ့တာလား။” “တကယ်ပါ။”"
+    ],
+    [
+     "I saw it with my own eyes.",
+     "ကိုယ့်မျက်စိနဲ့ ကိုယ်တိုင် မြင်တာ။",
+     "Nobody told me: I was there.",
+     "The dog opened the fridge. I saw it with my own eyes.",
+     "ခွေးက ရေခဲသေတ္တာ ဖွင့်တယ်။ ကိုယ့်မျက်စိနဲ့ ကိုယ်တိုင် မြင်တာ။"
+    ]
+   ]
+  }
+ ]
+}

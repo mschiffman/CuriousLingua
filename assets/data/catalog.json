@@ -675,6 +675,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/jy_crois_pas",
+  "url": "fr/speaking/jy_crois_pas.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "b1",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "J'y crois pas !",
+  "clips": 35,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/marche",
   "url": "fr/speaking/marche.html",
   "course": "fr",
@@ -2910,6 +2925,21 @@
   "quiz": true
  },
  {
+  "id": "eng/speaking/disbelief",
+  "url": "eng/speaking/disbelief.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "No Way!",
+  "clips": 35,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "eng/speaking/hey",
   "url": "eng/speaking/hey.html",
   "course": "eng",
@@ -3399,6 +3429,21 @@
   "topic": "Everyday expressions",
   "type": "cards",
   "title": "Classroom English",
+  "clips": 25,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
+  "id": "eng/expressions/disbelief",
+  "url": "eng/expressions/disbelief.html",
+  "course": "eng",
+  "strand": "expressions",
+  "level": "a2",
+  "level_provisional": true,
+  "topic": "Everyday expressions",
+  "type": "cards",
+  "title": "I Can't Believe It",
   "clips": 25,
   "images": 0,
   "audio": "wired",

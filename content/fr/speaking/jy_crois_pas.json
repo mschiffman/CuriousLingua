@@ -1,0 +1,389 @@
+{
+ "title": "J'y crois pas !",
+ "subtitle": "Four ways to say you can't believe it",
+ "level": "b1",
+ "topic": "Situations",
+ "type": "dialogue",
+ "register": "casual (tu), a couple at home",
+ "review": "Written by Claude, from the author's own childhood stories. Check the French, the English lines, the notes and the questions.",
+ "intro": "An angel expected in the garden, a lemon syrup that gets thinner in the sun, a dangerous belly button and a great debate between six-year-olds: four true stories from a childhood in Yangon, told by Emma. Listen for how Lucas shows he cannot believe it, and how Emma insists that it is true.",
+ "aud_dir": "fr/speaking/jy_crois_pas/",
+ "aud_ext": "mp3?v=2611251631",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "q3NYiGPH7m2zMHydaJVv",
+  "L": "fUzMXGEwYWmfjFB2ZfeA"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "fr/expressions/disbelief"
+ ],
+ "sections": [
+  {
+   "title": "L'ange",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Tu vas pas le croire. Quand j'avais cinq ans, ma mère nous a dit qu'un ange allait venir.",
+     "tr": {
+      "en": "You won't believe this. When I was five, my mother told us an angel was going to come."
+     },
+     "note": "Tu vas pas le croire: said before a surprising story. Allait venir: was going to come."
+    },
+    {
+     "who": "L",
+     "text": "Ah bon ?",
+     "tr": {
+      "en": "Really?"
+     },
+     "note": "Ah bon ? shows surprise and asks for more."
+    },
+    {
+     "who": "E",
+     "text": "Dans notre jardin. Mais seulement si on ne faisait pas de bruit. Les anges sont timides.",
+     "tr": {
+      "en": "In our garden. But only if we didn't make any noise. Angels are shy."
+     },
+     "note": "Seulement si + imparfait: only if we…"
+    },
+    {
+     "who": "L",
+     "text": "Sérieux ? Et vous l'avez crue ?",
+     "tr": {
+      "en": "Seriously? And you believed her?"
+     },
+     "note": "Sérieux ? is casual. Crue takes -e: l' is the mother."
+    },
+    {
+     "who": "E",
+     "text": "Quatre enfants. Deux heures. Pas un bruit.",
+     "tr": {
+      "en": "Four children. Two hours. Not a sound."
+     },
+     "note": "Pas un bruit: not one noise."
+    },
+    {
+     "who": "L",
+     "text": "Sans blague ? Et l'ange, il est venu ?",
+     "tr": {
+      "en": "No kidding? And the angel, did he come?"
+     },
+     "note": "Sans blague ? = no joke? The subject is repeated: l'ange, il… Spoken French."
+    },
+    {
+     "who": "E",
+     "text": "Non. Mon frère a éternué.",
+     "tr": {
+      "en": "No. My brother sneezed."
+     },
+     "note": "Éternuer: to sneeze."
+    }
+   ]
+  },
+  {
+   "title": "Le sirop de citron",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Ma mère faisait du sirop de citron. Des semaines au soleil. Épais, doré.",
+     "tr": {
+      "en": "My mother used to make lemon syrup. Weeks in the sun. Thick, golden."
+     },
+     "note": "Faisait: imparfait, for something she did regularly."
+    },
+    {
+     "who": "L",
+     "text": "Ça a l'air bon.",
+     "tr": {
+      "en": "Sounds good."
+     },
+     "note": "Avoir l'air + adjective: to seem."
+    },
+    {
+     "who": "E",
+     "text": "Une voisine a essayé. Son sirop devenait de plus en plus liquide.",
+     "tr": {
+      "en": "A neighbour tried it. Her syrup kept getting runnier."
+     },
+     "note": "A essayé: passé composé, once. De plus en plus: more and more."
+    },
+    {
+     "who": "L",
+     "text": "Plus liquide ? C'est pas possible !",
+     "tr": {
+      "en": "Runnier? That's impossible!"
+     },
+     "note": "C'est pas possible ! = ce n'est pas possible. Spoken French drops ne."
+    },
+    {
+     "who": "E",
+     "text": "C'est ce qu'elle a dit. Ma mère a répondu : « Demandez à vos enfants. »",
+     "tr": {
+      "en": "That's what she said. My mother answered: 'Ask your children.'"
+     },
+     "note": "Demandez à vos enfants: vous, to a neighbour."
+    },
+    {
+     "who": "L",
+     "text": "C'est pas vrai ! Ils le buvaient ?",
+     "tr": {
+      "en": "No way! They were drinking it?"
+     },
+     "note": "C'est pas vrai ! = I can't believe it. It does not accuse anyone of lying."
+    },
+    {
+     "who": "E",
+     "text": "Et ils remplissaient la bouteille avec de l'eau. Tous les jours.",
+     "tr": {
+      "en": "And they were filling the bottle up with water. Every day."
+     },
+     "note": "Remplissaient: imparfait, they did it again and again."
+    },
+    {
+     "who": "L",
+     "text": "J'en reviens pas ! Et ta mère, comment elle savait ?",
+     "tr": {
+      "en": "I can't get over it! And how did your mother know?"
+     },
+     "note": "J'en reviens pas ! = I still can't believe it."
+    },
+    {
+     "who": "E",
+     "text": "Elle nous avait, nous.",
+     "tr": {
+      "en": "She had us."
+     },
+     "note": "Elle nous avait, nous: she had children like that herself."
+    }
+   ]
+  },
+  {
+   "title": "Le nombril",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Quand j'avais cinq ans, ma mère m'a expliqué comment on fait les bébés.",
+     "tr": {
+      "en": "When I was five, my mother explained to me how babies are made."
+     },
+     "note": "Comment on fait les bébés: on = people in general."
+    },
+    {
+     "who": "L",
+     "text": "Et alors ?",
+     "tr": {
+      "en": "And?"
+     },
+     "note": "Et alors ? = and then? Go on."
+    },
+    {
+     "who": "E",
+     "text": "Le roi touche le nombril de la reine.",
+     "tr": {
+      "en": "The king touches the queen's belly button."
+     },
+     "note": "Le nombril: the belly button."
+    },
+    {
+     "who": "L",
+     "text": "Tu plaisantes ?",
+     "tr": {
+      "en": "Are you joking?"
+     },
+     "note": "Tu plaisantes ? Plaisanter: to joke."
+    },
+    {
+     "who": "E",
+     "text": "Je te jure ! Alors j'ai arrêté de me bagarrer avec mes frères. Trop dangereux.",
+     "tr": {
+      "en": "I swear! So I stopped fighting with my brothers. Too dangerous."
+     },
+     "note": "Je te jure ! Se bagarrer: to fight, to wrestle (casual)."
+    },
+    {
+     "who": "L",
+     "text": "T'es pas sérieuse !",
+     "tr": {
+      "en": "You can't be serious!"
+     },
+     "note": "T'es = tu es. Sérieuse with -e: he is talking to a woman."
+    },
+    {
+     "who": "E",
+     "text": "Je te mens pas. J'ai protégé mon nombril pendant des années.",
+     "tr": {
+      "en": "I'm not lying. I protected my belly button for years."
+     },
+     "note": "Je te mens pas = je ne te mens pas. Pendant + time: for."
+    },
+    {
+     "who": "L",
+     "text": "Tu rigoles ? Donc, si je touche juste…",
+     "tr": {
+      "en": "Are you having me on? So if I just touch…"
+     },
+     "note": "Tu rigoles ? Casual: are you joking?"
+    },
+    {
+     "who": "E",
+     "text": "N'y pense même pas.",
+     "tr": {
+      "en": "Don't even think about it."
+     },
+     "note": "N'y pense même pas: y = à ça."
+    }
+   ]
+  },
+  {
+   "title": "Le grand débat",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Un jour, le fils des voisins a dit que les bébés venaient des fesses de leur mère.",
+     "tr": {
+      "en": "One day, the neighbours' son said that babies came out of their mother's bottom."
+     },
+     "note": "Les fesses: the bottom. A family word, not rude."
+    },
+    {
+     "who": "L",
+     "text": "Il a dit quoi ? C'est dingue !",
+     "tr": {
+      "en": "He said what? That's crazy!"
+     },
+     "note": "C'est dingue ! Casual: that's crazy."
+    },
+    {
+     "who": "E",
+     "text": "C'est ce que je lui ai dit. « N'importe quoi ! Les bébés viennent du ventre. »",
+     "tr": {
+      "en": "That's what I told him. 'Rubbish! Babies come from the tummy.'"
+     },
+     "note": "N'importe quoi ! = nonsense. Le ventre: the tummy."
+    },
+    {
+     "who": "L",
+     "text": "Et il t'a crue ?",
+     "tr": {
+      "en": "And did he believe you?"
+     },
+     "note": "Crue with -e: t' is Emma."
+    },
+    {
+     "who": "E",
+     "text": "Non. Il a dit : « Mon œil ! » On s'est disputés pendant vingt minutes.",
+     "tr": {
+      "en": "No. He said: 'My foot!' We argued for twenty minutes."
+     },
+     "note": "Mon œil ! = I don't believe a word. A little old-fashioned. Se disputer: to argue."
+    },
+    {
+     "who": "L",
+     "text": "Oh la vache ! Et qui a gagné ?",
+     "tr": {
+      "en": "Good grief! And who won?"
+     },
+     "note": "Oh la vache ! shows big surprise. Casual, not rude."
+    },
+    {
+     "who": "E",
+     "text": "Moi. J'ai dit : « Très bien. Vous, vous venez des fesses. Nous, on vient du ventre. »",
+     "tr": {
+      "en": "Me. I said: 'Fine. You lot come from the bottom. We come from the tummy.'"
+     },
+     "note": "Vous, vous… Nous, on…: the pronoun is repeated to contrast the two sides."
+    },
+    {
+     "who": "L",
+     "text": "Et t'avais cinq ans ?",
+     "tr": {
+      "en": "And you were five?"
+     },
+     "note": "T'avais = tu avais."
+    },
+    {
+     "who": "E",
+     "text": "Six. Et j'étais très sûre de moi.",
+     "tr": {
+      "en": "Six. And I was very sure of myself."
+     },
+     "note": "Sûr(e) de soi: sure of oneself."
+    },
+    {
+     "who": "L",
+     "text": "Il y a des choses qui ne changent pas.",
+     "tr": {
+      "en": "Some things never change."
+     },
+     "note": "Il y a des choses qui…: there are things that…"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Ah bon ?, Sérieux ? and Sans blague ? show surprise and invite the speaker to go on.",
+  "Tu plaisantes ?, Tu rigoles ? and T'es pas sérieux / sérieuse ! say: I think you are joking.",
+  "C'est pas possible !, C'est pas vrai ! and J'en reviens pas ! say: I can't believe it. They do not call anyone a liar.",
+  "N'importe quoi ! and Mon œil ! do: they say the other person is talking nonsense.",
+  "To insist: Je te jure ! Je te mens pas. And before a surprising story: Tu vas pas le croire.",
+  "Imparfait for what used to happen (ma mère faisait du sirop), passé composé for what happened once (une voisine a essayé).",
+  "Spoken French drops ne: c'est pas vrai, j'y crois pas, je te mens pas."
+ ],
+ "questions": [
+  {
+   "q": "A friend tells you she has seen a wolf in her street. You are surprised and want to hear more. What do you say?",
+   "options": [
+    "Ah bon ?",
+    "Mon œil !",
+    "Je te jure !"
+   ],
+   "answer": 0,
+   "why": "Ah bon ? shows surprise and asks for more. Mon œil ! would say you don't believe her."
+  },
+  {
+   "q": "« C'est pas vrai ! » What does Lucas mean?",
+   "options": [
+    "You are lying.",
+    "I can't believe it!",
+    "It is not important."
+   ],
+   "answer": 1,
+   "why": "C'est pas vrai ! is an exclamation of surprise, not an accusation."
+  },
+  {
+   "q": "Nobody believes you, but it is true. What do you say?",
+   "options": [
+    "N'importe quoi !",
+    "Je te jure !",
+    "Sans blague ?"
+   ],
+   "answer": 1,
+   "why": "Je te jure ! = I swear."
+  },
+  {
+   "q": "Lucas says « T'es pas sérieuse ! » to Emma. Why sérieuse?",
+   "options": [
+    "Because Emma is a woman.",
+    "Because it is a question.",
+    "Because it is plural."
+   ],
+   "answer": 0,
+   "why": "Sérieux for a man, sérieuse for a woman."
+  },
+  {
+   "q": "« Ma mère faisait du sirop de citron. » Why faisait and not a fait?",
+   "options": [
+    "She made it once.",
+    "She used to make it regularly.",
+    "She will make it."
+   ],
+   "answer": 1,
+   "why": "The imparfait describes a habit in the past."
+  }
+ ]
+}
