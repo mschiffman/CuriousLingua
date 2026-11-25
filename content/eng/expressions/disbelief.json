@@ -9,7 +9,7 @@
  "type": "cards",
  "review": "Written by Claude. The Burmese lines are drafts: check every one before publishing or recording.",
  "aud_dir": "eng/expressions/disbelief/",
- "aud_ext": "mp3?v=2611251419",
+ "aud_ext": "mp3?v=2611251637",
  "related": [
   "eng/expressions/exclamation",
   "eng/speaking/disbelief"
@@ -187,6 +187,13 @@
      "Polite: I think it is probably not true. Say “dowt”: the b is silent.",
      "“Will it rain today?” “I doubt it.”",
      "“ဒီနေ့ မိုးရွာမလား။” “မထင်ဘူး။”"
+    ],
+    [
+     "Give me a break.",
+     "တော်ပါတော့။",
+     "I do not believe that at all. It can also mean: stop bothering me.",
+     "“I was late because of an elephant.” “Oh, give me a break.”",
+     "“ဆင်ကြောင့် နောက်ကျတာ။” “တော်ပါတော့။”"
     ]
    ]
   },
