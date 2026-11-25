@@ -29,6 +29,7 @@ Everything is run from the site folder, `G:\My Drive\LANGSITE`. The `.bat` files
 | `1_images.bat` | Move the numbered PNGs from Downloads to `G:\My Drive\_YOUTUBE\<folder>` and convert them to JPG in `img\ytstory` | `tools\convert.py` |
 | `2_audio.bat` | Open the audio menu: lessons needing clips, make clips, new takes, Whisper check, upload | `tools\audio.py` |
 | `record_pending.bat` | Record, check and upload every card page and dialogue whose audio is still pending. It lists them and asks before using any characters | `tools\pending.py` |
+| `record_scenes.bat` | Record a dialogue scene by scene (one ElevenLabs dialogue request per section), level each scene, cut it into the lesson's clips, check, offer to upload. Also saves each whole scene with an `.srt` for the video, in `_VIDEOS\PROCESS\<course>-<slug>\` | `tools\scene.py` |
 | `3_offline.bat` | Build single-file offline lessons in `<course>\single\` | `tools\offline.py` |
 | `4_check.bat` | Write and open the status report | `tools\check.py` |
 | `5_publish.bat` | Rebuild every page; commit and push when the folder is a git repository | `tools\build.py`, then git |
@@ -100,6 +101,9 @@ A lesson is written `course/strand/slug`, for example `fr/listening/home_pantry_
 | `python -E tools\audio.py balance` | Characters left. Fails with "401" if the API key cannot read the subscription | no |
 | `python -E tools\pending.py` | All pending card pages and dialogues in one go: list, ask, make the missing clips, wait for Enter, upload (same as `record_pending.bat`) | **yes**, after asking |
 | `python -E tools\pending.py --list` | Only list them | no |
+| `python -E tools\scene.py <lesson>` | Every scene of a dialogue, recorded as scenes and cut into clips. Replaces the clips of those scenes; the old ones go to `_replaced_<date>` beside the raw takes | **yes** |
+| `python -E tools\scene.py <lesson> --only 1 3` | Only scenes 1 and 3 | **yes** |
+| `python -E tools\scene.py <lesson> --list` | Only show the scenes and their sizes | no |
 
 The usual order for a new lesson: `make`, listen to the clips Whisper marks `<<< check`, `--redo` the bad ones, then `upload`.
 

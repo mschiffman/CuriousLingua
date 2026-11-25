@@ -615,6 +615,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/bravo",
+  "url": "fr/speaking/bravo.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Bravo !",
+  "clips": 32,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/ca_va_pas",
   "url": "fr/speaking/ca_va_pas.html",
   "course": "fr",
@@ -733,6 +748,21 @@
   "images": 0,
   "audio": "wired",
   "quiz": false
+ },
+ {
+  "id": "fr/speaking/salut",
+  "url": "fr/speaking/salut.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Salut !",
+  "clips": 37,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
  },
  {
   "id": "fr/vocabulary/famille",
@@ -2835,6 +2865,21 @@
   "quiz": true
  },
  {
+  "id": "eng/speaking/bravo",
+  "url": "eng/speaking/bravo.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Well Done!",
+  "clips": 32,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "eng/speaking/disagree",
   "url": "eng/speaking/disagree.html",
   "course": "eng",
@@ -2845,6 +2890,21 @@
   "type": "dialogue",
   "title": "I Disagree!",
   "clips": 34,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "eng/speaking/greet",
+  "url": "eng/speaking/greet.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Hey!",
+  "clips": 37,
   "images": 0,
   "audio": "wired",
   "quiz": true

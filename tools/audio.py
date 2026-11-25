@@ -190,7 +190,7 @@ def level(src, dest, target, stereo):
 
 
 def letters(s, lang):
-    s = s.lower()
+    s = re.sub(r"\[[^\]]*\]", "", s).lower()   # a stage direction, [shocked], is acted, not said
     if lang == "fr":
         import unicodedata
         s = "".join(ch for ch in unicodedata.normalize("NFD", s) if unicodedata.category(ch) != "Mn")
