@@ -29,7 +29,7 @@ Everything is run from the site folder, `G:\My Drive\LANGSITE`. The `.bat` files
 | `1_images.bat` | Move the numbered PNGs from Downloads to `G:\My Drive\_YOUTUBE\<folder>` and convert them to JPG in `img\ytstory` | `tools\convert.py` |
 | `2_audio.bat` | Open the audio menu: lessons needing clips, make clips, new takes, Whisper check, upload | `tools\audio.py` |
 | `record_pending.bat` | Record, check and upload every card page and dialogue whose audio is still pending. It lists them and asks before using any characters | `tools\pending.py` |
-| `record_scenes.bat` | Record a dialogue scene by scene (one ElevenLabs dialogue request per section), level each scene, cut it into the lesson's clips, check, offer to upload. Also saves each whole scene with an `.srt` for the video, in `_VIDEOS\PROCESS\<course>-<slug>\` | `tools\scene.py` |
+| `record_scenes.bat` | Record a dialogue scene by scene (one ElevenLabs dialogue request per section), level each scene, cut it into the lesson's clips, check, offer to upload. Also saves each whole scene with an `.srt` for the video, in `G:\My Drive\_VIDEO\<course>-<slug>\` | `tools\scene.py` |
 | `3_offline.bat` | Build single-file offline lessons in `<course>\single\` | `tools\offline.py` |
 | `4_check.bat` | Write and open the status report | `tools\check.py` |
 | `5_publish.bat` | Rebuild every page; commit and push when the folder is a git repository | `tools\build.py`, then git |

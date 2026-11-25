@@ -34,7 +34,7 @@ import audio
 import lib
 
 API = "https://api.elevenlabs.io/v1/text-to-dialogue/with-timestamps?output_format=mp3_44100_192"
-REELS = r"G:\My Drive\_YOUTUBE\_VIDEOS\PROCESS"   # the scene recordings for videos go in a folder here (else beside the raw takes)
+REELS = r"G:\My Drive\_VIDEO"   # the scene recordings for videos go in a folder here (else beside the raw takes)
 LEAD, TAIL = 0.05, 0.15      # seconds kept before and after a line when it is cut out
 MAX_CHARS = 2000             # ElevenLabs: at most this many characters in one dialogue request
 

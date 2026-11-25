@@ -2880,6 +2880,21 @@
   "quiz": true
  },
  {
+  "id": "eng/speaking/concern",
+  "url": "eng/speaking/concern.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Are You Okay?",
+  "clips": 38,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "eng/speaking/disagree",
   "url": "eng/speaking/disagree.html",
   "course": "eng",
@@ -2895,8 +2910,8 @@
   "quiz": true
  },
  {
-  "id": "eng/speaking/greet",
-  "url": "eng/speaking/greet.html",
+  "id": "eng/speaking/hey",
+  "url": "eng/speaking/hey.html",
   "course": "eng",
   "strand": "speaking",
   "level": "a1",
@@ -2920,6 +2935,21 @@
   "type": "dialogue",
   "title": "I Mean…",
   "clips": 32,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "eng/speaking/thank",
+  "url": "eng/speaking/thank.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Thank You!",
+  "clips": 31,
   "images": 0,
   "audio": "wired",
   "quiz": true
@@ -3324,6 +3354,21 @@
   "topic": "Everyday expressions",
   "type": "cards",
   "title": "On the Phone",
+  "clips": 24,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
+  "id": "eng/expressions/concern",
+  "url": "eng/expressions/concern.html",
+  "course": "eng",
+  "strand": "expressions",
+  "level": "a2",
+  "level_provisional": true,
+  "topic": "Everyday expressions",
+  "type": "cards",
+  "title": "Showing Concern",
   "clips": 24,
   "images": 0,
   "audio": "wired",
