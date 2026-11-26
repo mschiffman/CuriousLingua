@@ -1,0 +1,238 @@
+{
+ "title": "Health",
+ "subtitle": "La santé",
+ "level": "a2",
+ "level_provisional": true,
+ "strand": "expressions",
+ "topic": "Conversational",
+ "type": "cards",
+ "review": "Written by Claude. Check the French, the notes and the level before recording audio.",
+ "related": [
+  "fr/speaking/je_suis_malade",
+  "fr/expressions/whatswrong"
+ ],
+ "aud_dir": "fr/expressions/health/",
+ "aud_ext": "mp3?v=2611261558",
+ "voice": {
+  "narrator": "fUzMXGEwYWmfjFB2ZfeA"
+ },
+ "categories": [
+  {
+   "en": "Not feeling well",
+   "fr": "Ça ne va pas",
+   "desc": "Telling someone you are ill, sick, dizzy or simply worn out.",
+   "cards": [
+    [
+     "Je ne me sens pas bien.",
+     "I don't feel well.",
+     "Spoken form: je me sens pas bien. Stronger: je me sens mal.",
+     "Je ne me sens pas bien, je vais m'allonger un peu.",
+     "I don't feel well, I'm going to lie down for a bit."
+    ],
+    [
+     "Je suis malade.",
+     "I'm ill.",
+     "Tomber malade: to fall ill. Être malade comme un chien: to be as sick as a dog.",
+     "Je suis malade depuis lundi.",
+     "I've been ill since Monday."
+    ],
+    [
+     "J'ai mal au cœur.",
+     "I feel sick.",
+     "Nothing to do with the heart: it means nausea. Also: j'ai envie de vomir, j'ai la nausée.",
+     "J'ai toujours mal au cœur en voiture.",
+     "I always feel sick in the car."
+    ],
+    [
+     "J'ai la tête qui tourne.",
+     "I feel dizzy.",
+     "Word for word: I have the head that spins. Same pattern as j'ai le nez qui coule.",
+     "Je me suis levé trop vite, j'ai la tête qui tourne.",
+     "I got up too fast, I feel dizzy."
+    ],
+    [
+     "Je suis crevé.",
+     "I'm exhausted.",
+     "Familiar. A woman writes crevée. Neutral: je suis épuisé, je suis très fatigué.",
+     "Je suis crevée, je vais me coucher.",
+     "I'm exhausted, I'm going to bed."
+    ]
+   ]
+  },
+  {
+   "en": "Where it hurts",
+   "fr": "Avoir mal",
+   "desc": "Avoir mal à + the part of the body, and what to say when you have hurt yourself.",
+   "cards": [
+    [
+     "J'ai mal à la tête.",
+     "I have a headache.",
+     "Avoir mal à la tête, au dos, à l'épaule, aux dents. À + le = au, à + les = aux.",
+     "J'ai mal à la tête depuis ce matin.",
+     "I've had a headache since this morning."
+    ],
+    [
+     "J'ai mal au ventre.",
+     "I have a stomachache.",
+     "Le ventre: the belly. J'ai mal à l'estomac is higher up, and more medical.",
+     "J'ai trop mangé, j'ai mal au ventre.",
+     "I ate too much, I have a stomachache."
+    ],
+    [
+     "J'ai mal partout.",
+     "I ache all over.",
+     "Partout: everywhere. What you say with the flu, or the day after sport. Des courbatures: aches.",
+     "Avec cette grippe, j'ai mal partout.",
+     "With this flu, I ache all over."
+    ],
+    [
+     "Ça fait mal.",
+     "It hurts.",
+     "Ça me fait mal: it hurts me. Aïe ! is what you shout. Ça fait mal où ?: where does it hurt?",
+     "Aïe ! Ça fait mal quand j'appuie.",
+     "Ow! It hurts when I press."
+    ],
+    [
+     "Je me suis fait mal au dos.",
+     "I hurt my back.",
+     "Se faire mal à + the part of the body: to hurt it. Fait does not change: elle s'est fait mal.",
+     "Je me suis fait mal au dos en portant les courses.",
+     "I hurt my back carrying the shopping."
+    ]
+   ]
+  },
+  {
+   "en": "Colds and fever",
+   "fr": "Rhume et fièvre",
+   "desc": "The illnesses everyone gets, and how to describe them.",
+   "cards": [
+    [
+     "J'ai attrapé un rhume.",
+     "I've caught a cold.",
+     "Un rhume: a cold. Je suis enrhumé: I have a cold. La grippe: the flu.",
+     "J'ai attrapé un rhume au bureau.",
+     "I caught a cold at the office."
+    ],
+    [
+     "J'ai de la fièvre.",
+     "I have a fever.",
+     "With de la. A temperature is said without virgule: trente-huit cinq = 38,5.",
+     "J'ai de la fièvre : trente-huit cinq.",
+     "I have a fever: thirty-eight point five."
+    ],
+    [
+     "Je tousse.",
+     "I have a cough.",
+     "Tousser: to cough. La toux: the cough. Une quinte de toux: a coughing fit.",
+     "Je tousse beaucoup la nuit.",
+     "I cough a lot at night."
+    ],
+    [
+     "J'ai le nez qui coule.",
+     "I have a runny nose.",
+     "The opposite problem: j'ai le nez bouché, my nose is blocked. Un mouchoir: a tissue.",
+     "J'ai le nez qui coule. Tu as un mouchoir ?",
+     "I have a runny nose. Do you have a tissue?"
+    ],
+    [
+     "J'ai mal à la gorge.",
+     "I have a sore throat.",
+     "Avaler: to swallow. Une angine: a throat infection, a word the French use often.",
+     "J'ai mal à la gorge quand j'avale.",
+     "My throat hurts when I swallow."
+    ]
+   ]
+  },
+  {
+   "en": "At the doctor and the pharmacy",
+   "fr": "Chez le médecin, à la pharmacie",
+   "desc": "Making an appointment, answering the doctor, and asking the pharmacist.",
+   "cards": [
+    [
+     "Je voudrais prendre rendez-vous.",
+     "I'd like to make an appointment.",
+     "Prendre rendez-vous: to make an appointment. Chez le médecin, never au médecin.",
+     "Bonjour, je voudrais prendre rendez-vous avec le docteur Martin.",
+     "Hello, I'd like to make an appointment with Doctor Martin."
+    ],
+    [
+     "Qu'est-ce qui vous arrive ?",
+     "What seems to be the problem?",
+     "The doctor's opening question, with vous. Also: qu'est-ce qui ne va pas ?",
+     "— Qu'est-ce qui vous arrive ? — J'ai mal à la gorge depuis trois jours.",
+     "— What seems to be the problem? — I've had a sore throat for three days."
+    ],
+    [
+     "Depuis quand ?",
+     "Since when?",
+     "Answer with depuis: depuis hier, depuis lundi, depuis trois jours.",
+     "— Depuis quand ? — Depuis hier soir.",
+     "— Since when? — Since last night."
+    ],
+    [
+     "Vous avez quelque chose contre le mal de tête ?",
+     "Do you have something for a headache?",
+     "At the pharmacy. Contre + the problem: contre la toux, contre le rhume. You also hear pour.",
+     "Bonjour, vous avez quelque chose contre la toux ?",
+     "Hello, do you have something for a cough?"
+    ],
+    [
+     "Il me faut une ordonnance ?",
+     "Do I need a prescription?",
+     "Une ordonnance: a prescription. Sans ordonnance: over the counter.",
+     "Il me faut une ordonnance pour ce médicament ?",
+     "Do I need a prescription for this medicine?"
+    ],
+    [
+     "Un comprimé matin et soir.",
+     "One tablet morning and evening.",
+     "Un comprimé: a tablet. Une gélule: a capsule. Pendant cinq jours: for five days.",
+     "Un comprimé matin et soir, pendant cinq jours.",
+     "One tablet morning and evening, for five days."
+    ],
+    [
+     "Je suis allergique à la pénicilline.",
+     "I'm allergic to penicillin.",
+     "Allergique à + the thing. The doctor asks: vous avez des allergies ?",
+     "— Vous avez des allergies ? — Oui, je suis allergique à la pénicilline.",
+     "— Do you have any allergies? — Yes, I'm allergic to penicillin."
+    ]
+   ]
+  },
+  {
+   "en": "Getting better and kind words",
+   "fr": "Bon rétablissement",
+   "desc": "Saying you are on the mend, wishing someone well, and calling for help.",
+   "cards": [
+    [
+     "Ça va mieux.",
+     "I'm feeling better.",
+     "Also: je me sens mieux. Beaucoup mieux: much better.",
+     "— Alors, ce rhume ? — Ça va mieux, merci.",
+     "— So, how's that cold? — Better, thanks."
+    ],
+    [
+     "Soigne-toi bien.",
+     "Take care of yourself.",
+     "To a friend who is ill. With vous: soignez-vous bien. Se soigner: to look after your health.",
+     "Rentre chez toi et soigne-toi bien.",
+     "Go home and take care of yourself."
+    ],
+    [
+     "Bon rétablissement !",
+     "Get well soon!",
+     "A little formal: cards, colleagues, neighbors. To a friend: remets-toi vite !",
+     "Bon rétablissement, et à très vite !",
+     "Get well soon, and see you very soon!"
+    ],
+    [
+     "Appelez le 15 !",
+     "Call an ambulance!",
+     "In France 15 is the SAMU, the medical emergency service. 112 works everywhere in Europe.",
+     "Il ne respire plus. Appelez le 15 !",
+     "He's stopped breathing. Call an ambulance!"
+    ]
+   ]
+  }
+ ]
+}

@@ -1260,6 +1260,21 @@
   "quiz": false
  },
  {
+  "id": "fr/expressions/health",
+  "url": "fr/expressions/health.html",
+  "course": "fr",
+  "strand": "expressions",
+  "level": "a2",
+  "level_provisional": true,
+  "topic": "Conversational",
+  "type": "cards",
+  "title": "Health",
+  "clips": 26,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "fr/expressions/help",
   "url": "fr/expressions/help.html",
   "course": "fr",
