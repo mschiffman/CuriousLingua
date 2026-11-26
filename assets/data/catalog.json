@@ -3930,6 +3930,21 @@
   "quiz": true
  },
  {
+  "id": "jap/speaking/not_feeling_well",
+  "url": "jap/speaking/not_feeling_well.html",
+  "course": "jap",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Not Feeling Well",
+  "clips": 43,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "jap/listening/cafe",
   "url": "jap/listening/cafe.html",
   "course": "jap",
@@ -4135,6 +4150,21 @@
   "type": "cards",
   "title": "Likes and dislikes",
   "clips": 12,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
+  "id": "jap/expressions/health",
+  "url": "jap/expressions/health.html",
+  "course": "jap",
+  "strand": "expressions",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Everyday expressions",
+  "type": "cards",
+  "title": "Health",
+  "clips": 18,
   "images": 0,
   "audio": "wired",
   "quiz": false
@@ -4455,6 +4485,21 @@
   "quiz": false
  },
  {
+  "id": "kor/expressions/health",
+  "url": "kor/expressions/health.html",
+  "course": "kor",
+  "strand": "expressions",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Everyday expressions",
+  "type": "cards",
+  "title": "Health",
+  "clips": 18,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "kor/sounds/vowels",
   "url": "kor/sounds/vowels.html",
   "course": "kor",
@@ -4555,6 +4600,21 @@
   "type": "dialogue",
   "title": "¡Hola!",
   "clips": 36,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "spa/speaking/me_siento_mal",
+  "url": "spa/speaking/me_siento_mal.html",
+  "course": "spa",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Me siento mal",
+  "clips": 46,
   "images": 0,
   "audio": "wired",
   "quiz": true
@@ -4690,6 +4750,21 @@
   "type": "cards",
   "title": "Shopping",
   "clips": 12,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
+  "id": "spa/expressions/health",
+  "url": "spa/expressions/health.html",
+  "course": "spa",
+  "strand": "expressions",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Everyday expressions",
+  "type": "cards",
+  "title": "Health",
+  "clips": 18,
   "images": 0,
   "audio": "wired",
   "quiz": false

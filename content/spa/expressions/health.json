@@ -1,0 +1,170 @@
+{
+ "title": "Health",
+ "subtitle": "La salud",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 10,
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English and the notes before recording audio. English support only.",
+ "related": [
+  "spa/speaking/me_siento_mal"
+ ],
+ "aud_dir": "spa/expressions/health/",
+ "aud_ext": "mp3?v=2611261531",
+ "categories": [
+  {
+   "en": "How you feel",
+   "fr": "Cómo te sientes",
+   "desc": "Telling someone you are not well, or better again.",
+   "cards": [
+    [
+     "Me siento mal.",
+     "I feel sick.",
+     "Sentirse: to feel. Me siento bien, me siento mal, me siento mejor.",
+     "Me siento mal. Creo que me voy a casa.",
+     "I feel sick. I think I'm going home."
+    ],
+    [
+     "Estoy enfermo.",
+     "I'm sick.",
+     "A woman says estoy enferma. Estar, not ser: it is how you are now.",
+     "No voy a trabajar hoy. Estoy enferma.",
+     "I'm not going to work today. I'm sick."
+    ],
+    [
+     "Estoy mareado.",
+     "I'm dizzy.",
+     "A woman says estoy mareada. Also what you say when the car or the boat makes you feel sick.",
+     "Estoy mareada. Necesito sentarme.",
+     "I'm dizzy. I need to sit down."
+    ],
+    [
+     "Ya me siento mejor.",
+     "I feel better now.",
+     "Ya: now, already. Mejor: better.",
+     "— ¿Cómo sigues? — Ya me siento mejor, gracias.",
+     "— How are you doing? — I feel better now, thanks."
+    ]
+   ]
+  },
+  {
+   "en": "Pain and colds",
+   "fr": "Dolores y gripa",
+   "desc": "Saying where it hurts, and the illnesses everyone gets.",
+   "cards": [
+    [
+     "Me duele la cabeza.",
+     "I have a headache.",
+     "Me duele + one thing: la cabeza, la garganta, el estómago. Me duelen + more than one: me duelen los pies.",
+     "Me duele mucho la garganta.",
+     "My throat hurts a lot."
+    ],
+    [
+     "Me duele aquí.",
+     "It hurts here.",
+     "Point to the place. Useful when you don't know the word.",
+     "— ¿Dónde le duele? — Me duele aquí.",
+     "— Where does it hurt? — It hurts here."
+    ],
+    [
+     "Tengo gripa.",
+     "I have a cold.",
+     "In Mexico, la gripa is the everyday word for a cold. Elsewhere: un resfriado, la gripe.",
+     "Tengo gripa. No te acerques.",
+     "I have a cold. Don't come near me."
+    ],
+    [
+     "Tengo fiebre.",
+     "I have a fever.",
+     "With tener and no article. In Mexico you also hear tengo calentura.",
+     "Tengo fiebre y me duele todo el cuerpo.",
+     "I have a fever and my whole body aches."
+    ],
+    [
+     "Tengo tos.",
+     "I have a cough.",
+     "La tos: a cough. Toser: to cough.",
+     "Tengo mucha tos en la noche.",
+     "I cough a lot at night."
+    ]
+   ]
+  },
+  {
+   "en": "At the doctor and the pharmacy",
+   "fr": "Con el doctor y en la farmacia",
+   "desc": "What you say, and what the doctor or pharmacist asks.",
+   "cards": [
+    [
+     "Necesito ver a un doctor.",
+     "I need to see a doctor.",
+     "Ver a + a person. In Mexico el doctor, la doctora are more common than el médico.",
+     "Tengo fiebre desde hace tres días. Necesito ver a un doctor.",
+     "I've had a fever for three days. I need to see a doctor."
+    ],
+    [
+     "¿Qué tiene?",
+     "What's the matter?",
+     "The doctor's first question, with usted. To a friend: ¿qué tienes?",
+     "— ¿Qué tiene? — Me duele el estómago.",
+     "— What's the matter? — My stomach hurts."
+    ],
+    [
+     "¿Desde cuándo?",
+     "Since when?",
+     "Answer with desde: desde ayer, desde el lunes. Or desde hace: desde hace dos días, for two days.",
+     "— ¿Desde cuándo? — Desde ayer.",
+     "— Since when? — Since yesterday."
+    ],
+    [
+     "¿Tiene algo para el dolor de cabeza?",
+     "Do you have something for a headache?",
+     "At the pharmacy. Algo para + the problem: algo para la tos, algo para la gripa.",
+     "¿Tiene algo para la tos?",
+     "Do you have something for a cough?"
+    ],
+    [
+     "Tómese esto dos veces al día.",
+     "Take this twice a day.",
+     "Tomar: to take medicine. Una vez, dos veces, tres veces al día.",
+     "Tómese esto dos veces al día, después de comer.",
+     "Take this twice a day, after eating."
+    ],
+    [
+     "Soy alérgico a la penicilina.",
+     "I'm allergic to penicillin.",
+     "A woman says soy alérgica. The doctor asks: ¿es alérgico a algo?",
+     "— ¿Es alérgica a algo? — Sí, soy alérgica a la penicilina.",
+     "— Are you allergic to anything? — Yes, I'm allergic to penicillin."
+    ]
+   ]
+  },
+  {
+   "en": "Kind words and emergencies",
+   "fr": "Que te mejores",
+   "desc": "Asking if someone is all right, wishing them well, and calling for help.",
+   "cards": [
+    [
+     "¿Estás bien?",
+     "Are you all right?",
+     "With usted: ¿está bien?",
+     "Te ves pálido. ¿Estás bien?",
+     "You look pale. Are you all right?"
+    ],
+    [
+     "Que te mejores.",
+     "Get well soon.",
+     "Mejorarse: to get better. With usted: que se mejore.",
+     "Descansa mucho. ¡Que te mejores!",
+     "Get plenty of rest. Get well soon!"
+    ],
+    [
+     "Llame a una ambulancia.",
+     "Call an ambulance.",
+     "With usted, to a stranger. In Mexico the emergency number is 911.",
+     "¡Ayuda! ¡Llame a una ambulancia!",
+     "Help! Call an ambulance!"
+    ]
+   ]
+  }
+ ]
+}

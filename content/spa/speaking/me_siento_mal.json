@@ -1,0 +1,465 @@
+{
+ "title": "Me siento mal",
+ "subtitle": "Four scenes about small health problems",
+ "level": "a2",
+ "topic": "Situations",
+ "type": "dialogue",
+ "register": "casual (tú), a couple at home, Mexican Spanish",
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English lines, the notes and the questions.",
+ "intro": "A cold, a phone call nobody should make, a pot of chicken broth that is always full and a cure that works on everything: four short scenes between Emma and Lucas, and Lucas's mother. Listen for me duele, for tengo with what you have, and for how you say you feel better.",
+ "aud_dir": "spa/speaking/me_siento_mal/",
+ "aud_ext": "mp3?v=2611261522",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "4qaUMumO0kUQd7YZ1NQS",
+  "L": "KI5S3fgy5fbTpczRhibw"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "spa/expressions/health"
+ ],
+ "sections": [
+  {
+   "title": "La gripa",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Emma, me siento mal.",
+     "tr": {
+      "en": "Emma, I feel sick."
+     },
+     "note": "Sentirse bien / mal: to feel well / sick. Me siento mal."
+    },
+    {
+     "who": "E",
+     "text": "¿Qué tienes?",
+     "tr": {
+      "en": "What's wrong?"
+     },
+     "note": "Word for word: what do you have? The usual question to someone who looks sick."
+    },
+    {
+     "who": "L",
+     "text": "Me duele la garganta. Tengo tos. Y me escurre la nariz.",
+     "tr": {
+      "en": "My throat hurts. I have a cough. And my nose is running."
+     },
+     "note": "Me duele + the part of the body. Tener tos: to have a cough. Me escurre la nariz is Mexican; elsewhere, me gotea la nariz."
+    },
+    {
+     "who": "E",
+     "text": "Es gripa.",
+     "tr": {
+      "en": "It's a cold."
+     },
+     "note": "In Mexico la gripa is the everyday word for a cold. Elsewhere: un resfriado, la gripe."
+    },
+    {
+     "who": "L",
+     "text": "Creo que es algo más grave.",
+     "tr": {
+      "en": "I think it's something more serious."
+     },
+     "note": "Grave: serious. Algo más grave: something more serious."
+    },
+    {
+     "who": "E",
+     "text": "¿Tienes fiebre?",
+     "tr": {
+      "en": "Do you have a fever?"
+     },
+     "note": "Tener fiebre, with no article."
+    },
+    {
+     "who": "L",
+     "text": "Treinta y siete dos.",
+     "tr": {
+      "en": "Thirty-seven point two."
+     },
+     "note": "How a temperature is said aloud: 37.2 = treinta y siete dos. Normal is about 37."
+    },
+    {
+     "who": "E",
+     "text": "Eso no es fiebre.",
+     "tr": {
+      "en": "That's not a fever."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Voy a llamar a mi mamá.",
+     "tr": {
+      "en": "I'm going to call my mom."
+     },
+     "note": "Ir a + infinitive: going to. Llamar a + the person."
+    },
+    {
+     "who": "E",
+     "text": "No. Por favor, no.",
+     "tr": {
+      "en": "No. Please, no."
+     }
+    },
+    {
+     "who": "L",
+     "text": "¿Por qué no?",
+     "tr": {
+      "en": "Why not?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Porque en veinte minutos está aquí con una olla de caldo de pollo.",
+     "tr": {
+      "en": "Because in twenty minutes she'll be here with a pot of chicken broth."
+     },
+     "note": "Una olla: a big pot. Caldo de pollo: chicken broth, the family cure for everything. The present, está, for something that is sure to happen."
+    }
+   ]
+  },
+  {
+   "title": "El dolor de cabeza",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Me duele la cabeza.",
+     "tr": {
+      "en": "I have a headache."
+     },
+     "note": "Me duele la cabeza = tengo dolor de cabeza."
+    },
+    {
+     "who": "L",
+     "text": "¿Desde cuándo?",
+     "tr": {
+      "en": "Since when?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Desde que llegó tu mamá.",
+     "tr": {
+      "en": "Since your mom arrived."
+     },
+     "note": "Desde que + verb: since something happened. Llegó: she arrived."
+    },
+    {
+     "who": "L",
+     "text": "Dice que es porque andas descalza.",
+     "tr": {
+      "en": "She says it's because you go around barefoot."
+     },
+     "note": "Andar descalzo: to go barefoot. The classic explanation for any illness. Descalza, because it is about Emma."
+    },
+    {
+     "who": "E",
+     "text": "Me duele la cabeza, no los pies.",
+     "tr": {
+      "en": "It's my head that hurts, not my feet."
+     },
+     "note": "Two feet, so it would be me duelen los pies."
+    },
+    {
+     "who": "L",
+     "text": "Dice que todo empieza por los pies.",
+     "tr": {
+      "en": "She says everything starts with the feet."
+     },
+     "note": "Empezar por: to start with."
+    },
+    {
+     "who": "E",
+     "text": "¿Y qué recomienda?",
+     "tr": {
+      "en": "And what does she recommend?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Vaporub.",
+     "tr": {
+      "en": "Vaporub."
+     },
+     "note": "A menthol ointment found in every Mexican home, and its answer to every illness."
+    },
+    {
+     "who": "E",
+     "text": "¿En la cabeza?",
+     "tr": {
+      "en": "On my head?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "En todos lados.",
+     "tr": {
+      "en": "Everywhere."
+     },
+     "note": "En todos lados = en todas partes."
+    }
+   ]
+  },
+  {
+   "title": "La espalda",
+   "lines": [
+    {
+     "who": "L",
+     "text": "¡Ay! ¡Mi espalda!",
+     "tr": {
+      "en": "Ow! My back!"
+     },
+     "note": "¡Ay! is what you say when it hurts."
+    },
+    {
+     "who": "E",
+     "text": "¿Qué te pasó?",
+     "tr": {
+      "en": "What happened to you?"
+     },
+     "note": "Pasar: to happen. ¿Qué pasó? is also a Mexican hello."
+    },
+    {
+     "who": "L",
+     "text": "Levanté algo pesado.",
+     "tr": {
+      "en": "I lifted something heavy."
+     },
+     "note": "Levantar: to lift. Pesado: heavy."
+    },
+    {
+     "who": "E",
+     "text": "¿Qué cosa?",
+     "tr": {
+      "en": "What?"
+     },
+     "note": "A common way to ask what exactly."
+    },
+    {
+     "who": "L",
+     "text": "La olla de caldo de mi mamá.",
+     "tr": {
+      "en": "My mom's pot of broth."
+     }
+    },
+    {
+     "who": "E",
+     "text": "¿Estaba llena?",
+     "tr": {
+      "en": "Was it full?"
+     },
+     "note": "Lleno, llena: full. Estaba: was."
+    },
+    {
+     "who": "L",
+     "text": "Siempre está llena.",
+     "tr": {
+      "en": "It's always full."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Deberías ir al doctor.",
+     "tr": {
+      "en": "You should go to the doctor."
+     },
+     "note": "Deberías + infinitive: you should. In Mexico people say el doctor more than el médico."
+    },
+    {
+     "who": "L",
+     "text": "Mi mamá dice que no hace falta.",
+     "tr": {
+      "en": "My mom says there's no need."
+     },
+     "note": "No hace falta: it isn't necessary."
+    },
+    {
+     "who": "E",
+     "text": "¿Y qué dice?",
+     "tr": {
+      "en": "So what does she say?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "«Sana, sana, colita de rana.»",
+     "tr": {
+      "en": "\"Heal, heal, little frog's tail.\""
+     },
+     "note": "The rhyme every mother says to a child who is hurt. It goes on: si no sanas hoy, sanarás mañana."
+    },
+    {
+     "who": "E",
+     "text": "¿Y funcionó?",
+     "tr": {
+      "en": "And did it work?"
+     },
+     "note": "Funcionar: to work."
+    },
+    {
+     "who": "L",
+     "text": "No. Pero ya me puso vaporub.",
+     "tr": {
+      "en": "No. But she's already put vaporub on me."
+     },
+     "note": "Poner: to put on. Me puso: she put on me. Ya: already."
+    }
+   ]
+  },
+  {
+   "title": "Ya me siento mejor",
+   "lines": [
+    {
+     "who": "E",
+     "text": "¿Cómo te sientes hoy?",
+     "tr": {
+      "en": "How do you feel today?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Un poco mejor. Pero todavía estoy débil.",
+     "tr": {
+      "en": "A little better. But I'm still weak."
+     },
+     "note": "Mejor: better. Todavía: still. Débil: weak."
+    },
+    {
+     "who": "E",
+     "text": "¿Te tomaste la medicina?",
+     "tr": {
+      "en": "Did you take your medicine?"
+     },
+     "note": "Tomar or tomarse la medicina: to take medicine."
+    },
+    {
+     "who": "L",
+     "text": "Dos veces al día, después de comer.",
+     "tr": {
+      "en": "Twice a day, after eating."
+     },
+     "note": "Una vez, dos veces, tres veces al día."
+    },
+    {
+     "who": "E",
+     "text": "Bien. ¿Puedes lavar los platos?",
+     "tr": {
+      "en": "Good. Can you wash the dishes?"
+     },
+     "note": "Lavar los platos: to do the dishes."
+    },
+    {
+     "who": "L",
+     "text": "Ay, no. Estoy mareado.",
+     "tr": {
+      "en": "Oh no. I'm dizzy."
+     },
+     "note": "Estar mareado: to feel dizzy."
+    },
+    {
+     "who": "E",
+     "text": "Qué lástima. Tu mamá quiere quedarse otra semana para cuidarte.",
+     "tr": {
+      "en": "What a shame. Your mom wants to stay another week to take care of you."
+     },
+     "note": "Quedarse: to stay. Cuidar: to take care of. Otra semana, without una."
+    },
+    {
+     "who": "L",
+     "text": "¿Otra semana?",
+     "tr": {
+      "en": "Another week?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Otra semana.",
+     "tr": {
+      "en": "Another week."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Es un milagro. Ya me siento muy bien.",
+     "tr": {
+      "en": "It's a miracle. I feel fine now."
+     },
+     "note": "Ya: now, already. Me siento muy bien."
+    },
+    {
+     "who": "E",
+     "text": "Qué bueno. Los platos están en la cocina.",
+     "tr": {
+      "en": "Glad to hear it. The dishes are in the kitchen."
+     },
+     "note": "Qué bueno: that's good, I'm glad."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Pain: me duele + one thing, me duelen + more than one. Me duele la cabeza, la garganta, la espalda. Me duelen los pies.",
+  "What you have goes with tener: tengo tos, tengo fiebre, tengo gripa.",
+  "Feeling: me siento mal, me siento un poco mejor, ya me siento muy bien. Estoy mareado, estoy débil.",
+  "Advice: deberías + infinitive. Deberías ir al doctor.",
+  "Medicine: tomar la medicina, dos veces al día, después de comer.",
+  "Mexican words: la gripa (a cold), me escurre la nariz (my nose is running), el doctor, en todos lados.",
+  "Dice que…: he or she says that… Mi mamá dice que no hace falta."
+ ],
+ "questions": [
+  {
+   "q": "Why doesn't Emma want Lucas to call his mom?",
+   "options": [
+    "She is asleep.",
+    "She will arrive with a pot of chicken broth.",
+    "She is sick too."
+   ],
+   "answer": 1,
+   "why": "En veinte minutos está aquí con una olla de caldo de pollo."
+  },
+  {
+   "q": "According to Lucas's mom, why does Emma have a headache?",
+   "options": [
+    "Porque anda descalza",
+    "Porque tiene fiebre",
+    "Porque no come"
+   ],
+   "answer": 0,
+   "why": "Dice que es porque andas descalza. Todo empieza por los pies."
+  },
+  {
+   "q": "What did Lucas lift?",
+   "options": [
+    "Una caja",
+    "Los platos",
+    "La olla de caldo de su mamá"
+   ],
+   "answer": 2,
+   "why": "La olla de caldo de mi mamá. Siempre está llena."
+  },
+  {
+   "q": "How often does Lucas take his medicine?",
+   "options": [
+    "Una vez al día",
+    "Dos veces al día",
+    "Tres veces al día"
+   ],
+   "answer": 1,
+   "why": "Dos veces al día, después de comer."
+  },
+  {
+   "q": "Why does Lucas suddenly feel fine?",
+   "options": [
+    "His mom wants to stay another week.",
+    "The vaporub worked.",
+    "He washed the dishes."
+   ],
+   "answer": 0,
+   "why": "Tu mamá quiere quedarse otra semana para cuidarte. The miracle follows at once."
+  }
+ ]
+}
