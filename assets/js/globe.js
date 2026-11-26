@@ -1,5 +1,5 @@
 /* The Earth on the home page: a satellite picture with relief, drifting clouds, an atmosphere and stars.
-   The countries of the four courses are lit in their course colours, each with a pulsing marker and a label.
+   The countries of the courses (eight at most) are lit in their course colours, each with a pulsing marker and a label.
    The globe tours from one to the next (a comet flies between them); drag to turn it; hovering a country, its
    label, a language button or a course tile turns the globe to it; a click or tap on a lit country flies into it
    and opens that course.
@@ -12,7 +12,7 @@
        <a class="globe-pin" data-globe="<course>" data-course="<course>" href>   one label per course
      anywhere: <a data-globe-link="<course>">   turns the globe to that country on hover / focus
    Longitude 0 faces +x, 90 E faces -z: the same as THREE.SphereGeometry's own texture coordinates. */
-window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
+window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets, stamp) {
   const THREE = window.THREE, RAD = Math.PI / 180;
   const hero = canvas.closest("[data-globe-root]"), slot = hero.querySelector("[data-globe-slot]");
   const pins = [...hero.querySelectorAll("[data-globe]")];
@@ -21,12 +21,12 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
   const picture = (p) => new Promise((ok, no) => new THREE.TextureLoader().load(url(p), ok, undefined, no));
   const tag = small ? "1k" : "2k";
   const [map, dayMap, auxMap, normalMap] = await Promise.all([
-    fetch(url("data/globe.json")).then((r) => r.json()),
+    fetch(url("data/globe.json") + (stamp || "")).then((r) => r.json()),   // with motion.js's tag: never a saved copy of older borders
     picture("img/globe/earth-" + tag + ".jpg"), picture("img/globe/aux-" + tag + ".jpg"),
     small ? null : picture("img/globe/normal-2k.jpg").catch(() => null),
   ]);
-  const KEYS = Object.keys(map.countries).filter((k) => pins.some((a) => a.dataset.globe === k)).slice(0, 4);
-  const SIDE = { jap: 1, kor: -1 };   // Japan and Korea are neighbours: their labels go to either side
+  const KEYS = Object.keys(map.countries).filter((k) => pins.some((a) => a.dataset.globe === k)).slice(0, 8);
+  const SIDE = { jap: 1, kor: -1, spa: -1 };   // Japan and Korea are neighbours: their labels go to either side. Mexico's sits over the Pacific, clear of the USA
 
   /* ---------- scene. The canvas covers the whole hero; the globe is placed over its slot (layout()). */
   const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
@@ -50,17 +50,18 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
   const SUN = new THREE.Vector3().fromArray(map.sun).normalize();   // fixed to the viewer, so the side we see is always lit
 
   /* ---------- the countries, painted on a world map (x = longitude, top = north): red, green, blue and yellow.
+     A picture holds four countries, so the fifth to the eighth go on a second one (made only when there are that many).
      Each is a soft ramp across its border (0 outside, 1/2 on the border, 1 inside), so the shader can draw the
      fill, a crisp border and a glow from one picture. The ramp is built from strokes, not canvas blur, so it is
      the same in every browser. */
-  const maskMap = (() => {
+  const mask = (keys) => {
     const W = small || renderer.capabilities.maxTextureSize < 4096 ? 2048 : 4096, H = W / 2;
     const c = document.createElement("canvas"); c.width = W; c.height = H;
     const x = c.getContext("2d"), INK = [[1, 0, 0], [0, 1, 0], [0, 0, 1], [1, 1, 0]], N = 5, half = (W / 4096) * 3.4;
     const rgb = (i, v) => "rgb(" + INK[i].map((on) => Math.round(on * v)).join(",") + ")";
     x.fillStyle = "#000"; x.fillRect(0, 0, W, H);
     x.lineJoin = x.lineCap = "round";
-    KEYS.forEach((k, i) => {
+    keys.forEach((k, i) => {
       const path = new Path2D();
       map.countries[k].rings.forEach((ring) => {
         ring.forEach(([lon, lat], j) => { const px = ((lon + 180) / 360) * W, py = ((90 - lat) / 180) * H; j ? path.lineTo(px, py) : path.moveTo(px, py); });
@@ -73,7 +74,8 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
     const t = new THREE.CanvasTexture(c);
     t.wrapS = THREE.RepeatWrapping; t.anisotropy = 4;
     return t;
-  })();
+  };
+  const maskMap = mask(KEYS.slice(0, 4)), maskMap2 = KEYS.length > 4 ? mask(KEYS.slice(4)) : null;
   dayMap.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
   auxMap.wrapS = THREE.RepeatWrapping;
 
@@ -83,11 +85,12 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
   const LIGHT = " float lum = max(c.r, max(c.g, c.b)); gl_FragColor = vec4(c, lum);";
 
   /* ---------- the Earth */
-  const COLORS = [0, 1, 2, 3].map((i) => (KEYS[i] ? glowOf(KEYS[i]) : new THREE.Color(0)));
+  const COLORS = [0, 1, 2, 3, 4, 5, 6, 7].map((i) => (KEYS[i] ? glowOf(KEYS[i]) : new THREE.Color(0)));
   const U = {
     dayMap: { value: dayMap }, auxMap: { value: auxMap }, normalMap: { value: normalMap }, maskMap: { value: maskMap },
-    useNormal: { value: normalMap ? 1 : 0 }, sun: { value: SUN }, time: { value: 0 }, cloudShift: { value: 0 },
+    maskMap2: { value: maskMap2 || maskMap }, more: { value: maskMap2 ? 1 : 0 }, useNormal: { value: normalMap ? 1 : 0 }, sun: { value: SUN }, time: { value: 0 }, cloudShift: { value: 0 },
     tint: { value: COLORS }, lit: { value: new THREE.Vector4(0, 0, 0, 0) }, hot: { value: new THREE.Vector4(0, 0, 0, 0) },
+    lit2: { value: new THREE.Vector4(0, 0, 0, 0) }, hot2: { value: new THREE.Vector4(0, 0, 0, 0) },   // the fifth to the eighth country
   };
   const earth = new THREE.Mesh(new THREE.SphereGeometry(1, small ? 64 : 96, small ? 48 : 64), new THREE.ShaderMaterial({
     uniforms: U,
@@ -102,9 +105,9 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
       }`,
     fragmentShader: `
       precision highp float;
-      uniform sampler2D dayMap, auxMap, normalMap, maskMap;
-      uniform float useNormal, time, cloudShift;
-      uniform vec3 sun; uniform vec3 tint[4]; uniform vec4 lit, hot;
+      uniform sampler2D dayMap, auxMap, normalMap, maskMap, maskMap2;
+      uniform float useNormal, time, cloudShift, more;
+      uniform vec3 sun; uniform vec3 tint[8]; uniform vec4 lit, hot, lit2, hot2;
       varying vec2 vUv; varying vec3 vN; varying vec3 vT; varying vec3 vB; varying vec3 vP;
       /* one course country: m = its ramp, c = its colour, a = how lit (0-1), b = how hot (hover / on tour) */
       void country(float m, vec3 c, float a, float b, inout vec3 col, inout float clear) {
@@ -138,6 +141,14 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
         country(m.g - y, tint[1], lit.y, hot.y, col, clear);
         country(m.b, tint[2], lit.z, hot.z, col, clear);
         country(y, tint[3], lit.w, hot.w, col, clear);
+        if (more > .5) {   // the second picture of countries
+          vec3 n = texture2D(maskMap2, vUv).rgb;
+          float z = min(n.r, n.g);
+          country(n.r - z, tint[4], lit2.x, hot2.x, col, clear);
+          country(n.g - z, tint[5], lit2.y, hot2.y, col, clear);
+          country(n.b, tint[6], lit2.z, hot2.z, col, clear);
+          country(z, tint[7], lit2.w, hot2.w, col, clear);
+        }
         col = mix(col, vec3(.3 + .95 * dayFlat), cloud * .9 * (1. - .82 * clear));       // clouds part over the lit countries
         col += vec3(.3, .55, 1.) * pow(1. - max(dot(N, V), 0.), 3.) * (.35 + .65 * dayFlat) * .9;   // the air at the rim
         gl_FragColor = vec4(col, 1.);
@@ -183,7 +194,7 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
     return p;
   })();
 
-  /* ---------- the four countries: a marker that pulses, and the label that follows it */
+  /* ---------- the countries: a marker that pulses, and the label that follows it */
   const C = {}, state = { lit: {}, hot: {} };
   KEYS.forEach((k, i) => {
     const d = map.countries[k], [lat, lon] = d.anchor, color = COLORS[i], tag = d.label || d.anchor;
@@ -203,7 +214,7 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
     state.lit[k] = 0; state.hot[k] = 0;
     C[k] = { i, lat, lon, at, mark, tagAt: toXYZ(tag[0], tag[1], 1.004), rings, color, pin: pins.find((a) => a.dataset.globe === k),
       boxes: d.rings.map((r) => { let a = 180, b = 90, c = -180, e = -90; r.forEach(([x, y]) => { a = Math.min(a, x); b = Math.min(b, y); c = Math.max(c, x); e = Math.max(e, y); }); return [a, b, c, e]; }),
-      rings2: d.rings, tiny: k !== "eng" };
+      rings2: d.rings, tiny: k !== "eng" && k !== "spa" };
   });
   const heat = (k, on) => {   // the country on tour or under the pointer
     gsap.to(state.hot, { [k]: on ? 1 : 0, duration: on ? 0.45 : 0.8, ease: "power2.out", overwrite: "auto" });
@@ -400,7 +411,8 @@ window.LangGlobe = async function (canvas, gsap, ScrollTrigger, assets) {
     if (!dragging && !current && !leaving && !(turning && turning.isActive())) view.y += dt * 0.07;   // drifts when nothing holds it
     U.time.value = starU.time.value = t; U.cloudShift.value = t * 0.0022;
     KEYS.forEach((k) => {
-      U.lit.value.setComponent(C[k].i, state.lit[k]); U.hot.value.setComponent(C[k].i, state.hot[k]);
+      const i = C[k].i, second = i > 3;
+      (second ? U.lit2 : U.lit).value.setComponent(i % 4, state.lit[k]); (second ? U.hot2 : U.hot).value.setComponent(i % 4, state.hot[k]);
       C[k].mark.scale.setScalar(Math.max(0.001, state.lit[k] * (1 + 0.35 * state.hot[k])));
     });
     root.position.set(base.x, base.y - eased * H * 0.22 * unit, 0);

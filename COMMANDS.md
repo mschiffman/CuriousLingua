@@ -30,6 +30,7 @@ Everything is run from the site folder, `G:\My Drive\LANGSITE`. The `.bat` files
 | `2_audio.bat` | Open the audio menu: lessons needing clips, make clips, new takes, Whisper check, upload | `tools\audio.py` |
 | `record_pending.bat` | Record, check and upload every card page and dialogue whose audio is still pending. It lists them and asks before using any characters | `tools\pending.py` |
 | `record_scenes.bat` | Record a dialogue scene by scene (one ElevenLabs dialogue request per section), level each scene, cut it into the lesson's clips, check, offer to upload. Also saves each whole scene with an `.srt` for the video, in `G:\My Drive\_VIDEO\<course>-<slug>\` | `tools\scene.py` |
+| `pitch.bat` | Check the pitch of a Japanese lesson's clips: draws each clip's pitch curve beside the same line read by AivisSpeech (open it first), marks the lines to listen to, and opens the report | `tools\pitch.py` |
 | `3_offline.bat` | Build single-file offline lessons in `<course>\single\` | `tools\offline.py` |
 | `4_check.bat` | Write and open the status report | `tools\check.py` |
 | `5_publish.bat` | Rebuild every page; commit and push when the folder is a git repository | `tools\build.py`, then git |
@@ -116,6 +117,20 @@ Things to know:
 - **A reading text's narration** (one recording, `audio_file`) is uploaded with the same `upload` command. It stamps `"audio_ver"` in the lesson file, so a re-recorded `audio.mp3` keeps its name and is still fetched fresh. No cache purging, no `audio2.mp3`.
 - **Japanese** uses the Jap-Soku voice with `eleven_v4`; male speakers get Jap-yuyu (`"voice": {"A": "r4qMc0xxpfgMQciUmPHW"}` in the lesson file). Whisper does not compare Japanese automatically: read its "heard" column.
 
+### Check Japanese pitch
+
+```
+python -E tools\pitch.py jap/speaking/hello_goodbye
+python -E tools\pitch.py jap/speaking/hello_goodbye --only 4 12
+python -E tools\pitch.py jap/speaking/hello_goodbye --ref "コハク/ノーマル"
+```
+
+Same as `pitch.bat`. For every line it draws the pitch of the lesson's clip and of the same text read by AivisSpeech, which takes its accents from a pronunciation dictionary, prints the accent AivisSpeech expects (`ア＼メ` falls after ア, `アメ￣` stays up) and a `match` figure for the two shapes. A low figure means: listen to that line. It does not say which of the two is right. The report, with both recordings to play, is `_reports\pitch\<course>-<slug>\index.html`. It uses no ElevenLabs characters and changes no lesson file.
+
+- AivisSpeech must be open for the reference; without it the report shows the clips' curves alone.
+- The reference voice is 阿井田 茂 (Calm) when installed, else the first voice; `--ref "name/style"` picks another.
+- Needs `pip install praat-parselmouth matplotlib`.
+
 ### Word lists and hotspot pictures
 
 ```
@@ -179,7 +194,7 @@ Page shells are in `tools\build.py`, behaviour in `assets\js\site.js`, colours a
 
 ## What the tools need
 
-- **Python**, with `boto3` and `truststore` for uploads.
+- **Python**, with `boto3` and `truststore` for uploads. `praat-parselmouth` and `matplotlib` for the pitch check.
 - **ffmpeg** and **whisper** on the PATH, for leveling and checking clips.
 - **Node**, only for `tools\rebuild_css.bat`.
 - **User environment variables:** `ELEVENLABS_API_KEY`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ACCOUNT_ID`.

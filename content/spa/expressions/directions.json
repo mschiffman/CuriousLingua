@@ -1,0 +1,125 @@
+{
+ "title": "Asking the way",
+ "subtitle": "Direcciones",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 6,
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English and the notes before recording audio. English support only.",
+ "aud_dir": "spa/expressions/directions/",
+ "aud_ext": "mp3?v=2611261029",
+ "categories": [
+  {
+   "en": "Where is it?",
+   "fr": "¿Dónde está?",
+   "desc": "Finding a place, and finding out how far it is.",
+   "cards": [
+    [
+     "¿Dónde está el baño?",
+     "Where is the bathroom?",
+     "¿Dónde está + a place?",
+     "Disculpe, ¿dónde está el baño?",
+     "Excuse me, where is the bathroom?"
+    ],
+    [
+     "¿Hay una farmacia cerca?",
+     "Is there a pharmacy nearby?",
+     "Hay: there is, there are. Cerca: near.",
+     "Disculpe, ¿hay una farmacia cerca de aquí?",
+     "Excuse me, is there a pharmacy near here?"
+    ],
+    [
+     "¿Cómo llego al centro?",
+     "How do I get downtown?",
+     "Llegar a: to get to. El centro: the middle of town.",
+     "Disculpe, ¿cómo llego al centro?",
+     "Excuse me, how do I get downtown?"
+    ],
+    [
+     "¿Está lejos?",
+     "Is it far?",
+     "Lejos: far. Cerca: near.",
+     "— ¿Está lejos? — No, está a dos cuadras.",
+     "— Is it far? — No, it's two blocks away."
+    ]
+   ]
+  },
+  {
+   "en": "The way",
+   "fr": "El camino",
+   "desc": "Straight on, left, right, and counting in blocks.",
+   "cards": [
+    [
+     "Todo derecho.",
+     "Straight ahead.",
+     "Careful: derecho is straight, derecha is right.",
+     "Siga todo derecho hasta el semáforo.",
+     "Keep straight on to the traffic light."
+    ],
+    [
+     "A la derecha.",
+     "To the right. / On the right.",
+     "Dar vuelta: to turn.",
+     "Dé vuelta a la derecha en la esquina.",
+     "Turn right at the corner."
+    ],
+    [
+     "A la izquierda.",
+     "To the left. / On the left.",
+     "La izquierda: the left.",
+     "El banco está a la izquierda.",
+     "The bank is on the left."
+    ],
+    [
+     "Está a dos cuadras.",
+     "It's two blocks away.",
+     "Una cuadra: a city block. Distances in town are counted in blocks.",
+     "El mercado está a dos cuadras de aquí.",
+     "The market is two blocks from here."
+    ],
+    [
+     "En la esquina.",
+     "On the corner.",
+     "La esquina: the street corner.",
+     "La parada está en la esquina.",
+     "The bus stop is on the corner."
+    ]
+   ]
+  },
+  {
+   "en": "Getting around",
+   "fr": "El transporte",
+   "desc": "Buses, stops and tickets.",
+   "cards": [
+    [
+     "¿Qué camión va al centro?",
+     "Which bus goes downtown?",
+     "In Mexico a city bus is un camión. Elsewhere: un autobús.",
+     "Disculpe, ¿qué camión va al centro?",
+     "Excuse me, which bus goes downtown?"
+    ],
+    [
+     "¿Dónde me bajo?",
+     "Where do I get off?",
+     "Bajarse: to get off. Subirse: to get on.",
+     "¿Dónde me bajo para el museo?",
+     "Where do I get off for the museum?"
+    ],
+    [
+     "Me bajo aquí, por favor.",
+     "I'm getting off here, please.",
+     "Said to the driver.",
+     "Disculpe, me bajo aquí, por favor.",
+     "Excuse me, I'm getting off here, please."
+    ],
+    [
+     "¿Cuánto cuesta el boleto?",
+     "How much is the ticket?",
+     "El boleto: the ticket, in Mexico.",
+     "¿Cuánto cuesta el boleto a Puebla?",
+     "How much is the ticket to Puebla?"
+    ]
+   ]
+  }
+ ]
+}

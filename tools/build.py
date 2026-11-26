@@ -16,14 +16,23 @@ ROOT, C = lib.ROOT, lib.cfg()
 e = html.escape
 
 
-def ver(rel):
-    """A short tag of a file's content. Pages load site.js and site.css as "site.js?v=<tag>": when the file changes,
-    so does its address, and no browser or CDN goes on serving a saved copy of the old one."""
+def ver(*rels):
+    """A short tag of a file's content (of several files' when given several). Pages load site.js and site.css as
+    "site.js?v=<tag>": when the file changes, so does its address, and no browser or CDN goes on serving a saved copy
+    of the old one."""
     import hashlib
-    return hashlib.md5(open(os.path.join(ROOT, *rel.split("/")), "rb").read()).hexdigest()[:8]
+    h = hashlib.md5()
+    for rel in rels:
+        path = os.path.join(ROOT, *rel.split("/"))
+        if len(rels) == 1 or os.path.exists(path):
+            h.update(open(path, "rb").read())
+    return h.hexdigest()[:8]
 
 
 FRESH = {f'assets/{x}"': f'assets/{x}?v={ver("assets/" + x)}"' for x in ("js/site.js", "css/site.css")}
+# motion.js loads the globe (globe.js, its borders in globe.json) and the 3D letters (hero.js) after the page, and hands
+# its own tag on to them: so the tag is of all four files, and a new globe is never mixed with a saved copy of the old one.
+FRESH['assets/js/motion.js"'] = 'assets/js/motion.js?v=' + ver("assets/js/motion.js", "assets/js/globe.js", "assets/js/hero.js", "assets/data/globe.json") + '"'
 TYPE = {"cards": "Flashcards", "reader": "Picture reader", "dialogue": "Dialogue", "shadow": "Shadowing", "text": "Reading text", "practice": "Practice", "game": "Game", "words": "Word list", "hotspots": "Picture hotspots", "page": "Page", "link": "Link", "grammar": "Grammar notes", "timeline": "Interactive timeline", "family": "Family tree"}
 ICON_PLAY = '<svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
 ICON_LOOP = '<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>'
@@ -942,8 +951,8 @@ def strand_page(k, s, items):
 
 
 # Home page: words for the moving band under the hero, and the four steps of a lesson
-GREETINGS = [("fr", "fr", "Bonjour"), ("eng", "en", "Hello"), ("jap", "ja", "こんにちは"), ("kor", "ko", "안녕하세요"), ("eng", "my", "မင်္ဂလာပါ"),
-             ("fr", "fr", "Merci"), ("eng", "en", "Thank you"), ("jap", "ja", "ありがとう"), ("kor", "ko", "감사합니다"), ("fr", "fr", "À bientôt")]
+GREETINGS = [("fr", "fr", "Bonjour"), ("eng", "en", "Hello"), ("jap", "ja", "こんにちは"), ("kor", "ko", "안녕하세요"), ("spa", "es", "Hola"), ("eng", "my", "မင်္ဂလာပါ"),
+             ("fr", "fr", "Merci"), ("eng", "en", "Thank you"), ("jap", "ja", "ありがとう"), ("kor", "ko", "감사합니다"), ("spa", "es", "Gracias"), ("fr", "fr", "À bientôt")]
 STEPS = [("Listen", "Hear it first. Read it after.", '<path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>'),
          ("Read", "Read it, and tap any part to hear it again.", '<path d="M12 6.5C10 5 7 4.5 4 5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V5c-3-.5-6 0-8 1.5z"/><path d="M12 6.5V19.5"/>'),
          ("Speak", "Say it out loud, with the recording and then alone.", '<path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 11h.01M12 11h.01M16 11h.01"/>'),

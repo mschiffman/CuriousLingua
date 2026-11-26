@@ -1,0 +1,125 @@
+{
+ "title": "Likes and dislikes",
+ "subtitle": "Me gusta, no me gusta",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 7,
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English and the notes before recording audio. English support only.",
+ "aud_dir": "spa/expressions/likes_dislikes/",
+ "aud_ext": "mp3?v=2611261030",
+ "categories": [
+  {
+   "en": "I like it",
+   "fr": "Me gusta",
+   "desc": "Liking one thing, several things, and doing something.",
+   "cards": [
+    [
+     "Me gusta el café.",
+     "I like coffee.",
+     "Me gusta + one thing. Literally 'coffee pleases me'.",
+     "Me gusta el café sin azúcar.",
+     "I like coffee without sugar."
+    ],
+    [
+     "Me gustan los tacos.",
+     "I like tacos.",
+     "Me gustan + several things.",
+     "Me gustan los tacos al pastor.",
+     "I like tacos al pastor."
+    ],
+    [
+     "Me encanta.",
+     "I love it.",
+     "Stronger than me gusta. For things and activities, not for people.",
+     "¡Me encanta esta canción!",
+     "I love this song!"
+    ],
+    [
+     "Me gusta mucho bailar.",
+     "I really like dancing.",
+     "Me gusta + a verb: always gusta, never gustan.",
+     "Me gusta mucho bailar, pero bailo muy mal.",
+     "I really like dancing, but I dance very badly."
+    ]
+   ]
+  },
+  {
+   "en": "I don't like it",
+   "fr": "No me gusta",
+   "desc": "From a soft no to a firm one.",
+   "cards": [
+    [
+     "No me gusta.",
+     "I don't like it.",
+     "No goes first: no me gusta.",
+     "No me gusta el frío.",
+     "I don't like the cold."
+    ],
+    [
+     "No me gusta nada.",
+     "I don't like it at all.",
+     "Nada: at all.",
+     "No me gusta nada levantarme temprano.",
+     "I don't like getting up early at all."
+    ],
+    [
+     "No mucho.",
+     "Not really.",
+     "A soft no.",
+     "— ¿Te gusta el picante? — No mucho.",
+     "— Do you like spicy food? — Not really."
+    ],
+    [
+     "Me cae mal.",
+     "I don't like him. / I don't like her.",
+     "For people: me cae bien (I like him), me cae mal (I don't).",
+     "Su jefe me cae mal.",
+     "I don't like his boss."
+    ]
+   ]
+  },
+  {
+   "en": "Asking and choosing",
+   "fr": "Preguntar y preferir",
+   "desc": "Asking what someone likes, and saying what you prefer.",
+   "cards": [
+    [
+     "¿Te gusta?",
+     "Do you like it?",
+     "With usted: ¿le gusta?",
+     "¿Te gusta la comida mexicana?",
+     "Do you like Mexican food?"
+    ],
+    [
+     "Prefiero el té.",
+     "I prefer tea.",
+     "Preferir: to prefer.",
+     "Gracias, pero prefiero el té.",
+     "Thanks, but I prefer tea."
+    ],
+    [
+     "¿Cuál prefieres?",
+     "Which one do you prefer?",
+     "¿Cuál?: which one?",
+     "Hay rojo y verde. ¿Cuál prefieres?",
+     "There's red and green. Which one do you prefer?"
+    ],
+    [
+     "A mí también.",
+     "Me too.",
+     "After a negative: a mí tampoco, me neither.",
+     "— Me gusta el mole. — A mí también.",
+     "— I like mole. — Me too."
+    ],
+    [
+     "¡Qué padre!",
+     "How cool!",
+     "Mexican. Padre: great, cool. Stronger: ¡qué padrísimo!",
+     "— Voy a Oaxaca. — ¡Qué padre!",
+     "— I'm going to Oaxaca. — How cool!"
+    ]
+   ]
+  }
+ ]
+}

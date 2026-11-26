@@ -27,11 +27,13 @@
 [data-course="eng"] { --accent: 35 122 75; }   /* leaf green */
 [data-course="jap"] { --accent: 196 62 44; }   /* vermilion */
 [data-course="kor"] { --accent: 124 58 173; }   /* violet */
-/* the same four, bright: for the dark home page hero and the lit countries on the globe */
+[data-course="spa"] { --accent: 168 94 6; }   /* amber */
+/* the same colours, bright: for the dark home page hero and the lit countries on the globe */
 :root, [data-course="fr"] { --glow: 96 165 250; }
 [data-course="eng"] { --glow: 52 211 153; }
 [data-course="jap"] { --glow: 255 124 92; }
 [data-course="kor"] { --glow: 198 144 255; }
+[data-course="spa"] { --glow: 251 191 36; }
 [x-cloak] { display: none !important; }
 
 @layer base {

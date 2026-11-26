@@ -1,0 +1,125 @@
+{
+ "title": "At the restaurant",
+ "subtitle": "En el restaurante",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 8,
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English and the notes before recording audio. English support only.",
+ "aud_dir": "spa/expressions/restaurant/",
+ "aud_ext": "mp3?v=2611261030",
+ "categories": [
+  {
+   "en": "Arriving",
+   "fr": "Llegar",
+   "desc": "A table, the menu, and a little more time.",
+   "cards": [
+    [
+     "Una mesa para dos, por favor.",
+     "A table for two, please.",
+     "Para dos: for two people.",
+     "Buenas tardes. Una mesa para dos, por favor.",
+     "Good afternoon. A table for two, please."
+    ],
+    [
+     "¿Me trae la carta, por favor?",
+     "Could you bring me the menu, please?",
+     "La carta or el menú: the menu. ¿Me trae…?: could you bring me…?",
+     "Disculpe, ¿me trae la carta, por favor?",
+     "Excuse me, could you bring me the menu, please?"
+    ],
+    [
+     "¿Qué me recomienda?",
+     "What do you recommend?",
+     "Recomendar: to recommend.",
+     "Es mi primera vez aquí. ¿Qué me recomienda?",
+     "It's my first time here. What do you recommend?"
+    ],
+    [
+     "Todavía no, gracias.",
+     "Not yet, thank you.",
+     "When you need more time to choose.",
+     "— ¿Listos para ordenar? — Todavía no, gracias.",
+     "— Ready to order? — Not yet, thank you."
+    ]
+   ]
+  },
+  {
+   "en": "Ordering",
+   "fr": "Ordenar",
+   "desc": "Saying what you want, and how hot you want it.",
+   "cards": [
+    [
+     "Para mí, los tacos.",
+     "I'll have the tacos.",
+     "Para mí: for me.",
+     "Para mí, los tacos de pollo, por favor.",
+     "I'll have the chicken tacos, please."
+    ],
+    [
+     "Quisiera una limonada.",
+     "I'd like a lemonade.",
+     "Quisiera: I would like.",
+     "Quisiera una limonada sin hielo.",
+     "I'd like a lemonade with no ice."
+    ],
+    [
+     "¿Pica?",
+     "Is it spicy?",
+     "Picar: to be hot and spicy. The answer is often 'poquito', which is not always true.",
+     "— ¿Pica la salsa? — Poquito.",
+     "— Is the salsa spicy? — A little."
+    ],
+    [
+     "Sin chile, por favor.",
+     "No chili, please.",
+     "Sin: without. Con: with.",
+     "Unas enchiladas sin chile, por favor.",
+     "Some enchiladas with no chili, please."
+    ],
+    [
+     "Otro igual, por favor.",
+     "Another one of the same, please.",
+     "Igual: the same.",
+     "Otro café igual, por favor.",
+     "Another coffee, the same, please."
+    ]
+   ]
+  },
+  {
+   "en": "Paying",
+   "fr": "Pagar",
+   "desc": "The check, the card, the tip and a compliment.",
+   "cards": [
+    [
+     "La cuenta, por favor.",
+     "The check, please.",
+     "In Mexico the waiter does not bring it until you ask.",
+     "Disculpe, la cuenta, por favor.",
+     "Excuse me, the check, please."
+    ],
+    [
+     "¿Aceptan tarjeta?",
+     "Do you take cards?",
+     "Aceptar: to accept.",
+     "¿Aceptan tarjeta o solo efectivo?",
+     "Do you take cards, or cash only?"
+    ],
+    [
+     "¿La propina está incluida?",
+     "Is the tip included?",
+     "La propina: the tip. It is usually not included.",
+     "Disculpe, ¿la propina está incluida?",
+     "Excuse me, is the tip included?"
+    ],
+    [
+     "Estuvo delicioso.",
+     "It was delicious.",
+     "Estuvo: it was, about a meal just finished.",
+     "Muchas gracias, todo estuvo delicioso.",
+     "Thank you very much, everything was delicious."
+    ]
+   ]
+  }
+ ]
+}

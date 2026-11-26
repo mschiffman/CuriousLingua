@@ -109,6 +109,8 @@ def balance():
 def tts(text, voice, model, dest):
     """One take, saved to dest. The request also asks for the time of every character and saves that beside the
     take (NN.json), so `chunks` can find phrases inside the clip later without paying for new takes."""
+    if not voice:
+        sys.exit('no voice to read this with: give the course a "voice" in assets/data/voices.json, or the lesson its own ("voice": {"narrator": "<voice id>"})')
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice}"
     body = json.dumps({"text": text, "model_id": model}).encode()
     head = {"xi-api-key": env("ELEVENLABS_API_KEY"), "Content-Type": "application/json"}
@@ -191,7 +193,7 @@ def level(src, dest, target, stereo):
 
 def letters(s, lang):
     s = re.sub(r"\[[^\]]*\]", "", s).lower()   # a stage direction, [shocked], is acted, not said
-    if lang == "fr":
+    if lang in ("fr", "es"):
         import unicodedata
         s = "".join(ch for ch in unicodedata.normalize("NFD", s) if unicodedata.category(ch) != "Mn")
     return re.sub(r"[^a-z]", "", re.sub(r"\bok\b", "okay", s))
@@ -207,10 +209,10 @@ def whisper(L, nums):
         for n in nums:
             heard = open(os.path.join(tmp, f"{n:02d}.txt"), encoding="utf-8").read().strip()
             flag = ""
-            if v["whisper"] in ("en", "fr") and letters(heard, v["whisper"]) != letters(tx[n], v["whisper"]):
+            if v["whisper"] in ("en", "fr", "es") and letters(heard, v["whisper"]) != letters(tx[n], v["whisper"]):
                 flag, bad = "   <<< check", bad + 1
             print(f"{n:02d}.mp3  {tx[n]}  | heard: {heard}{flag}")
-    if v["whisper"] not in ("en", "fr"):
+    if v["whisper"] not in ("en", "fr", "es"):
         print("Japanese and Korean are not compared automatically: read the 'heard' column.")
     else:
         print(f"Whisper: {bad} of {len(nums)} clip(s) to listen to (re-take only if the words are wrong).")
@@ -441,7 +443,7 @@ def pages(L, redo=()):
                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
             for k in made:
                 heard = " ".join(open(os.path.join(tmp, f"p{k:02d}.txt"), encoding="utf-8").read().split())
-                if v["whisper"] in ("en", "fr") and letters(heard, v["whisper"]) != letters(page_text(L["pages"][k - 1]), v["whisper"]):
+                if v["whisper"] in ("en", "fr", "es") and letters(heard, v["whisper"]) != letters(page_text(L["pages"][k - 1]), v["whisper"]):
                     bad += 1
                     print(f"   check: p{k:02d}.mp3  heard: {heard}")
         print(f"Whisper: {bad} of {len(made)} page clip(s) to listen to. New take: python -E tools\\audio.py pages {L['id']} --redo 3")
@@ -606,7 +608,7 @@ def words(L, redo=()):
                             "--output_dir", tmp, "--verbose", "False", "--fp16", "False"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
             for n, say in made.items():
                 heard = open(os.path.join(tmp, n[:-4] + ".txt"), encoding="utf-8").read().strip()
-                if v["whisper"] not in ("en", "fr"):   # Japanese comes back in other characters than it was written in: listed, not judged
+                if v["whisper"] not in ("en", "fr", "es"):   # Japanese comes back in other characters than it was written in: listed, not judged
                     print(f"   {n}  {say}  | heard: {heard}")
                 elif plain(heard) != plain(say):
                     bad += 1

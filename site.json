@@ -112,6 +112,22 @@
         "b1": "Explain, give opinions, workplace talk, the telephone, basic honorifics.",
         "b2": "Nuance, indirectness, formal situations, longer discussion."
       }
+    },
+    "spa": {
+      "name": "Spanish",
+      "native": "Español",
+      "lang": "es",
+      "for": "Speaking first",
+      "range": "A1 to B2",
+      "tagline": "Latin American Spanish as people speak it: conversations and everyday expressions, with English support.",
+      "levels": ["a1", "a2", "b1", "b2"],
+      "strands": ["speaking", "expressions"],
+      "can": {
+        "a1": "Greet people, say please, thank you and sorry, order, shop, ask the way.",
+        "a2": "Everyday conversation at home and with friends; tú and usted.",
+        "b1": "Give opinions, tell what happened, follow people who do not slow down.",
+        "b2": "Tone, irony and regional words; longer discussion."
+      }
     }
   }
 }

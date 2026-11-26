@@ -1,0 +1,132 @@
+{
+ "title": "Thanking",
+ "subtitle": "Dar las gracias",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 2,
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English and the notes before recording audio. English support only.",
+ "aud_dir": "spa/expressions/thank/",
+ "aud_ext": "mp3?v=2611261029",
+ "categories": [
+  {
+   "en": "Saying thank you",
+   "fr": "Dar las gracias",
+   "desc": "From a quick gracias to real gratitude.",
+   "cards": [
+    [
+     "Gracias.",
+     "Thank you.",
+     "For everything, all day long.",
+     "Gracias, muy amable.",
+     "Thank you, that's very kind."
+    ],
+    [
+     "Muchas gracias.",
+     "Thank you very much.",
+     "Stronger still: muchísimas gracias.",
+     "Muchas gracias por la comida. Estuvo deliciosa.",
+     "Thank you very much for the meal. It was delicious."
+    ],
+    [
+     "Gracias por todo.",
+     "Thanks for everything.",
+     "Gracias por + a thing or a verb: gracias por venir.",
+     "Gracias por todo. Nos vemos pronto.",
+     "Thanks for everything. See you soon."
+    ],
+    [
+     "Mil gracias.",
+     "Thanks a million.",
+     "Literally 'a thousand thanks'. Warm and informal.",
+     "¡Mil gracias por el regalo!",
+     "Thanks a million for the present!"
+    ],
+    [
+     "Te lo agradezco.",
+     "I appreciate it.",
+     "More formal than gracias. With usted: se lo agradezco.",
+     "Te lo agradezco mucho, de verdad.",
+     "I really do appreciate it."
+    ]
+   ]
+  },
+  {
+   "en": "Replying to thanks",
+   "fr": "Responder",
+   "desc": "What to say when someone thanks you.",
+   "cards": [
+    [
+     "De nada.",
+     "You're welcome.",
+     "The standard reply.",
+     "— Gracias por esperar. — De nada.",
+     "— Thanks for waiting. — You're welcome."
+    ],
+    [
+     "No hay de qué.",
+     "Don't mention it.",
+     "A little warmer than de nada.",
+     "— Gracias por tu ayuda. — No hay de qué.",
+     "— Thanks for your help. — Don't mention it."
+    ],
+    [
+     "Con gusto.",
+     "My pleasure.",
+     "Common in shops and restaurants. Fuller: con mucho gusto.",
+     "— ¿Me trae la cuenta? — Con gusto.",
+     "— Could you bring me the check? — My pleasure."
+    ],
+    [
+     "Para servirle.",
+     "At your service.",
+     "Very Mexican and very polite, with usted.",
+     "— Muchas gracias, señor. — Para servirle.",
+     "— Thank you very much, sir. — At your service."
+    ],
+    [
+     "Gracias a ti.",
+     "No, thank you.",
+     "It hands the thanks back. With usted: gracias a usted.",
+     "— Gracias por venir. — Gracias a ti por invitarme.",
+     "— Thanks for coming. — Thank you for inviting me."
+    ]
+   ]
+  },
+  {
+   "en": "Being polite",
+   "fr": "Ser amable",
+   "desc": "The small words that make a request or a refusal kind.",
+   "cards": [
+    [
+     "Por favor.",
+     "Please.",
+     "At the start or the end of a request.",
+     "Un café, por favor.",
+     "A coffee, please."
+    ],
+    [
+     "Qué amable.",
+     "How kind.",
+     "Said when someone does you a favor.",
+     "— Te ayudo con las bolsas. — Qué amable, gracias.",
+     "— Let me help you with the bags. — How kind, thank you."
+    ],
+    [
+     "No, gracias.",
+     "No, thank you.",
+     "The polite way to refuse.",
+     "— ¿Quieres más arroz? — No, gracias. Estoy lleno.",
+     "— Would you like more rice? — No, thank you. I'm full."
+    ],
+    [
+     "Provecho.",
+     "Enjoy your meal.",
+     "Said to anyone who is eating, even strangers at the next table. The answer: gracias, igualmente.",
+     "— ¡Provecho! — Gracias, igualmente.",
+     "— Enjoy your meal! — Thanks, you too."
+    ]
+   ]
+  }
+ ]
+}

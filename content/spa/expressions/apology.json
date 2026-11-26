@@ -1,0 +1,125 @@
+{
+ "title": "Saying sorry",
+ "subtitle": "Pedir perdón",
+ "level": "a1",
+ "topic": "Everyday expressions",
+ "type": "cards",
+ "order": 3,
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English and the notes before recording audio. English support only.",
+ "aud_dir": "spa/expressions/apology/",
+ "aud_ext": "mp3?v=2611261028",
+ "categories": [
+  {
+   "en": "Saying sorry",
+   "fr": "Pedir perdón",
+   "desc": "A quick sorry, a real apology, and owning up.",
+   "cards": [
+    [
+     "Perdón.",
+     "Sorry.",
+     "The quick everyday sorry: you bump into someone, you interrupt.",
+     "Perdón, no te vi.",
+     "Sorry, I didn't see you."
+    ],
+    [
+     "Lo siento.",
+     "I'm sorry.",
+     "Stronger: for bad news or real regret. Lo siento mucho: I'm very sorry.",
+     "Lo siento mucho. No puedo ir a tu fiesta.",
+     "I'm very sorry. I can't come to your party."
+    ],
+    [
+     "Disculpa.",
+     "Sorry. / Excuse me.",
+     "With tú. With usted: disculpe.",
+     "Disculpa la tardanza. Había mucho tráfico.",
+     "Sorry I'm late. There was a lot of traffic."
+    ],
+    [
+     "Fue sin querer.",
+     "I didn't mean to.",
+     "Literally 'it was without wanting'.",
+     "Perdón, rompí el vaso. Fue sin querer.",
+     "Sorry, I broke the glass. I didn't mean to."
+    ],
+    [
+     "Es mi culpa.",
+     "It's my fault.",
+     "About something already done: fue mi culpa.",
+     "Perdón, es mi culpa. Olvidé las llaves.",
+     "Sorry, it's my fault. I forgot the keys."
+    ]
+   ]
+  },
+  {
+   "en": "Excuse me",
+   "fr": "Con permiso",
+   "desc": "Getting someone's attention, and getting past.",
+   "cards": [
+    [
+     "Disculpe.",
+     "Excuse me.",
+     "To get a stranger's attention politely, with usted.",
+     "Disculpe, ¿dónde está el baño?",
+     "Excuse me, where is the bathroom?"
+    ],
+    [
+     "Con permiso.",
+     "Excuse me. (to get past)",
+     "To pass someone, or to leave a table or a room. The answer: pase.",
+     "Con permiso, voy a pasar.",
+     "Excuse me, coming through."
+    ],
+    [
+     "Perdón por llegar tarde.",
+     "Sorry I'm late.",
+     "Perdón por + a verb.",
+     "Perdón por llegar tarde. Se me hizo tarde.",
+     "Sorry I'm late. I lost track of time."
+    ],
+    [
+     "¿Me permite?",
+     "May I?",
+     "Polite, with usted: before taking a chair or reaching past someone.",
+     "¿Me permite? Esa es mi maleta.",
+     "May I? That's my suitcase."
+    ]
+   ]
+  },
+  {
+   "en": "Accepting an apology",
+   "fr": "Aceptar una disculpa",
+   "desc": "What to answer when someone says sorry.",
+   "cards": [
+    [
+     "No pasa nada.",
+     "It's fine. / No harm done.",
+     "The most common reply.",
+     "— Perdón, llegué tarde. — No pasa nada.",
+     "— Sorry, I'm late. — It's fine."
+    ],
+    [
+     "No te preocupes.",
+     "Don't worry.",
+     "With usted: no se preocupe.",
+     "— Lo siento, olvidé tu libro. — No te preocupes.",
+     "— I'm sorry, I forgot your book. — Don't worry."
+    ],
+    [
+     "No hay problema.",
+     "No problem.",
+     "Easy-going, for small things.",
+     "— ¿Puedo llegar a las seis? — No hay problema.",
+     "— Can I come at six? — No problem."
+    ],
+    [
+     "Está bien.",
+     "It's OK.",
+     "Calm acceptance. Said with a sigh, it means 'fine, if you say so'.",
+     "— Perdón por el ruido. — Está bien.",
+     "— Sorry about the noise. — It's OK."
+    ]
+   ]
+  }
+ ]
+}

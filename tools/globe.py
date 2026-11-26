@@ -33,10 +33,10 @@ SOURCES = {
     "clouds.png": THREE + "earth_clouds_1024.png",
     "ne_50m.geojson": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
 }
-HIGHLIGHT = {"FRA": "fr", "USA": "eng", "JPN": "jap", "KOR": "kor"}   # Natural Earth ADM0_A3 -> course
-ANCHOR = {"fr": [46.6, 2.4], "eng": [39.5, -98.5], "jap": [36.2, 138.3], "kor": [36.3, 127.9]}   # [lat, lon]
+HIGHLIGHT = {"FRA": "fr", "USA": "eng", "MEX": "spa", "JPN": "jap", "KOR": "kor"}   # Natural Earth ADM0_A3 -> course, in the order of the tour (globe.js lights eight at most)
+ANCHOR = {"fr": [46.6, 2.4], "eng": [39.5, -98.5], "spa": [23.8, -102.4], "jap": [36.2, 138.3], "kor": [36.3, 127.9]}   # [lat, lon]
 LABEL = {"eng": [50.5, -99.0]}   # [lat, lon] where a label sits when not on the anchor: above a large country, not on it
-EPS = {"fr": 0.02, "eng": 0.035, "jap": 0.02, "kor": 0.012}   # degrees: how much border detail is dropped
+EPS = {"fr": 0.02, "eng": 0.035, "spa": 0.03, "jap": 0.02, "kor": 0.012}   # degrees: how much border detail is dropped
 POSTER = (28.0, -40.0, 720)   # the still picture: centre lat, centre lon, size in pixels (must match START in globe.js)
 SUN = (-0.52, 0.42, 0.74)     # light from the upper left, toward the viewer (the same in globe.js)
 

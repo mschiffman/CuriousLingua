@@ -32,5 +32,12 @@
   "word_model": "eleven_v4",
   "lufs": -16,
   "whisper": "ko"
+ },
+ "spa": {
+  "name": "Sp-Maria",
+  "voice": "4qaUMumO0kUQd7YZ1NQS",
+  "model": "eleven_v4",
+  "lufs": -16,
+  "whisper": "es"
  }
 }

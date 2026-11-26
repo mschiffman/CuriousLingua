@@ -27,6 +27,7 @@
   const slow = !html.classList.contains("motion");   // the head script left the text visible (slow connection): no entrance, only the interactions
   g.registerPlugin(ST);
   const here = document.currentScript ? document.currentScript.src : "";
+  const stamp = here.indexOf("?") > 0 ? here.slice(here.indexOf("?")) : "";   // this file's "?v=<tag>" (tools/build.py), handed on to the files it loads
   const fine = matchMedia("(hover: hover) and (pointer: fine)").matches;
   const ease = "power3.out";
 
@@ -147,8 +148,8 @@
   if (canvas && here && heroOk()) {
     const globe = canvas.dataset.hero === "globe";
     const start = () => load(new URL("../vendor/three.min.js", here).href)
-      .then(() => load(new URL(globe ? "globe.js" : "hero.js", here).href))
-      .then(() => (globe ? window.LangGlobe(canvas, g, ST, new URL("../", here).href) : window.LangHero(canvas, g, ST)))
+      .then(() => load(new URL(globe ? "globe.js" : "hero.js", here).href + stamp))
+      .then(() => (globe ? window.LangGlobe(canvas, g, ST, new URL("../", here).href, stamp) : window.LangHero(canvas, g, ST)))
       .catch(() => html.classList.add("lite"));
     const idle = () => ("requestIdleCallback" in window ? requestIdleCallback(start, { timeout: 1500 }) : setTimeout(start, 300));
     if (document.readyState === "complete") idle(); else addEventListener("load", idle, { once: true });
