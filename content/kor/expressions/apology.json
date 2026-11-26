@@ -4,11 +4,17 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 3,
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. The Burmese explanations are drafts by Claude: check them. Check before recording audio.",
  "aud_dir": "kor/expressions/apology/",
  "aud_ext": "mp3?v=2611241401",
- "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "voice": {
+  "narrator": "FSDPAI7v5T7eeHsoRc5N"
+ },
  "categories": [
   {
    "en": "Saying sorry",
@@ -20,30 +26,61 @@
      "I'm sorry.",
      "죄송합니다.\n\nThe polite, safe sorry: to strangers, to elders, at work.",
      "Joesonghamnida, gwaenchaneuseyo?\n죄송합니다, 괜찮으세요?",
-     "I'm sorry, are you all right?"
+     "I'm sorry, are you all right?",
+     {
+      "my": [
+       "တောင်းပန်ပါတယ်။",
+       "죄송합니다.\n\nယဉ်ကျေးပြီး စိတ်ချရတဲ့ တောင်းပန်စကားပါ။ သူစိမ်းတွေ၊ လူကြီးတွေကို၊ အလုပ်မှာ သုံးတယ်။",
+       "တောင်းပန်ပါတယ်၊ အဆင်ပြေရဲ့လား။"
+      ]
+     }
     ],
     [
      "Mianhamnida.",
      "I'm sorry.",
      "미안합니다.\n\nPolite, and a little less formal than joesonghamnida.",
      "Neujeoseo mianhamnida.\n늦어서 미안합니다.",
-     "I'm sorry I'm late."
+     "I'm sorry I'm late.",
+     {
+      "my": [
+       "တောင်းပန်ပါတယ်။",
+       "미안합니다.\n\nယဉ်ကျေးတယ်။ joesonghamnida ထက် နည်းနည်း တရားဝင်မဆန်ဘူး။",
+       "နောက်ကျလို့ တောင်းပန်ပါတယ်။"
+      ]
+     }
     ],
     [
      "Mianhaeyo.",
      "Sorry.",
      "미안해요.\n\nFriendly and polite. To close friends: Mianhae.",
      "Mianhaeyo, ijeobeoryeosseoyo.\n미안해요, 잊어버렸어요.",
-     "Sorry, I forgot."
+     "Sorry, I forgot.",
+     {
+      "my": [
+       "ဆောရီးပါ။",
+       "미안해요.\n\nဖော်ရွေပြီး ယဉ်ကျေးတယ်။ ရင်းနှီးတဲ့ သူငယ်ချင်းတွေကိုတော့ Mianhae လို့ ပြောတယ်။",
+       "ဆောရီး၊ မေ့သွားတယ်။"
+      ]
+     }
     ],
     [
      "Sillyehamnida.",
      "Excuse me.",
      "실례합니다.\n\n'I am being rude.' Before you interrupt, pass in front of someone or enter a room.",
      "Sillyehamnida. Jamkkanmanyo.\n실례합니다. 잠깐만요.",
-     "Excuse me. Just a moment."
+     "Excuse me. Just a moment.",
+     {
+      "my": [
+       "ခွင့်ပြုပါ။",
+       "실례합니다.\n\n'ရိုင်းပါရစေ' လို့ အဓိပ္ပာယ်ရတယ်။ စကားဖြတ်ပြောခါနီး၊ တစ်ယောက်ယောက်ရှေ့က ဖြတ်သွားခါနီး၊ အခန်းထဲ ဝင်ခါနီးမှာ ပြောတယ်။",
+       "ခွင့်ပြုပါ။ ခဏလေးပါ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "တောင်းပန်ခြင်း"
+   }
   },
   {
    "en": "Sorry for…",
@@ -55,30 +92,61 @@
      "I'm sorry I'm late.",
      "늦어서 죄송합니다.\n\nA verb + -eoseo or -aseo: sorry because…",
      "Neujeoseo joesonghamnida. Giri makyeosseoyo.\n늦어서 죄송합니다. 길이 막혔어요.",
-     "I'm sorry I'm late. The traffic was bad."
+     "I'm sorry I'm late. The traffic was bad.",
+     {
+      "my": [
+       "နောက်ကျလို့ တောင်းပန်ပါတယ်။",
+       "늦어서 죄송합니다.\n\nကြိယာ + -eoseo ဒါမှမဟုတ် -aseo: …လို့ တောင်းပန်ပါတယ်။",
+       "နောက်ကျလို့ တောင်းပန်ပါတယ်။ ကားလမ်း ပိတ်နေလို့ပါ။"
+      ]
+     }
     ],
     [
      "Gidarige haeseo joesonghamnida.",
      "Sorry to keep you waiting.",
      "기다리게 해서 죄송합니다.\n\nGidarida: to wait.",
      "Gidarige haeseo joesonghamnida. Keopi nawatseumnida.\n기다리게 해서 죄송합니다. 커피 나왔습니다.",
-     "Sorry for the wait. Here is your coffee."
+     "Sorry for the wait. Here is your coffee.",
+     {
+      "my": [
+       "စောင့်ခိုင်းရလို့ တောင်းပန်ပါတယ်။",
+       "기다리게 해서 죄송합니다.\n\nGidarida: စောင့်တယ်။",
+       "စောင့်ခိုင်းရလို့ တောင်းပန်ပါတယ်။ ကော်ဖီ ရပါပြီ။"
+      ]
+     }
     ],
     [
      "Je silsuyeyo.",
      "It's my mistake.",
      "제 실수예요.\n\nSilsu: a mistake, a slip.",
      "Joesonghamnida, je silsuyeyo.\n죄송합니다, 제 실수예요.",
-     "I'm sorry, it's my mistake."
+     "I'm sorry, it's my mistake.",
+     {
+      "my": [
+       "ကျွန်တော့်/ကျွန်မ အမှားပါ။",
+       "제 실수예요.\n\nSilsu: အမှား၊ မတော်တဆ မှားတာ။",
+       "တောင်းပန်ပါတယ်၊ ကျွန်တော့်အမှားပါ။"
+      ]
+     }
     ],
     [
      "Jega jalmotaesseoyo.",
      "It was my fault.",
      "제가 잘못했어요.\n\nOwning up to a real fault.",
      "Jega jalmotaesseoyo. Mianhaeyo.\n제가 잘못했어요. 미안해요.",
-     "It was my fault. I'm sorry."
+     "It was my fault. I'm sorry.",
+     {
+      "my": [
+       "ကျွန်တော့်/ကျွန်မ အပြစ်ပါ။",
+       "제가 잘못했어요.\n\nတကယ့်အပြစ်ကို ဝန်ခံတာပါ။",
+       "ကျွန်တော့်အပြစ်ပါ။ တောင်းပန်ပါတယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "…အတွက် တောင်းပန်ခြင်း"
+   }
   },
   {
    "en": "Answering an apology",
@@ -90,30 +158,61 @@
      "It's all right.",
      "괜찮아요.\n\nThe usual answer. Careful: it can also mean 'no, thank you'.",
      "Joesonghamnida! — Gwaenchanayo.\n죄송합니다! — 괜찮아요.",
-     "I'm sorry! — It's all right."
+     "I'm sorry! — It's all right.",
+     {
+      "my": [
+       "ရပါတယ်။",
+       "괜찮아요.\n\nပြန်ဖြေလေ့ရှိတဲ့ စကားပါ။ သတိထားပါ၊ 'မလိုပါဘူး၊ ကျေးဇူးပါ' လို့လည်း အဓိပ္ပာယ်ရနိုင်တယ်။",
+       "တောင်းပန်ပါတယ်။ — ရပါတယ်။"
+      ]
+     }
     ],
     [
      "Geokjeong maseyo.",
      "Don't worry.",
      "걱정 마세요.\n\nGeokjeong: worry.",
      "Neujeoseo mianhaeyo. — Geokjeong maseyo.\n늦어서 미안해요. — 걱정 마세요.",
-     "Sorry I'm late. — Don't worry."
+     "Sorry I'm late. — Don't worry.",
+     {
+      "my": [
+       "စိတ်မပူပါနဲ့။",
+       "걱정 마세요.\n\nGeokjeong: စိတ်ပူတာ။",
+       "နောက်ကျလို့ တောင်းပန်ပါတယ်။ — စိတ်မပူပါနဲ့။"
+      ]
+     }
     ],
     [
      "Singyeong sseuji maseyo.",
      "Don't mind it.",
      "신경 쓰지 마세요.\n\n'Please don't let it bother you.'",
      "Jeongmal joesonghamnida. — Singyeong sseuji maseyo.\n정말 죄송합니다. — 신경 쓰지 마세요.",
-     "I'm really sorry. — Don't mind it."
+     "I'm really sorry. — Don't mind it.",
+     {
+      "my": [
+       "စိတ်ထဲ မထားပါနဲ့။",
+       "신경 쓰지 마세요.\n\n'စိတ်ထဲ မထားပါနဲ့' လို့ အဓိပ္ပာယ်ရတယ်။",
+       "တကယ် တောင်းပန်ပါတယ်။ — စိတ်ထဲ မထားပါနဲ့။"
+      ]
+     }
     ],
     [
      "Jeodo mianhaeyo.",
      "I'm sorry too.",
      "저도 미안해요.\n\nJeodo: me too. Both sides apologize, and the matter is closed.",
      "Mianhaeyo. — Anieyo, jeodo mianhaeyo.\n미안해요. — 아니에요, 저도 미안해요.",
-     "I'm sorry. — No, I'm sorry too."
+     "I'm sorry. — No, I'm sorry too.",
+     {
+      "my": [
+       "ကျွန်တော်/ကျွန်မလည်း တောင်းပန်ပါတယ်။",
+       "저도 미안해요.\n\nJeodo: ကျွန်တော်/ကျွန်မလည်း။ နှစ်ဖက်စလုံးက တောင်းပန်ကြပြီး ကိစ္စပြီးသွားတယ်။",
+       "တောင်းပန်ပါတယ်။ — မဟုတ်တာ၊ ကျွန်တော်လည်း တောင်းပန်ပါတယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "တောင်းပန်စကားကို ပြန်ဖြေခြင်း"
+   }
   }
  ]
 }

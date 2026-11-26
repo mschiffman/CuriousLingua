@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/opinion.html",
  "aud_dir": "eng/expressions/opinion/",
  "aud_ext": "mp3?v=2611100932",
@@ -21,30 +26,88 @@
      "ကောင်းတယ်လို့ ထင်တယ်။",
      "The everyday way to give an opinion: short and soft. Also for guesses: I think it's going to rain.",
      "I think the blue one looks better.",
-     "အပြာရောင်က ပိုကြည့်ကောင်းတယ်လို့ ထင်တယ်။"
+     "အပြာရောင်က ပိုကြည့်ကောင်းတယ်လို့ ထင်တယ်။",
+     {
+      "es": [
+       "Creo que está bien.",
+       "La manera de todos los días de dar una opinión: corta y suave. También para suposiciones: I think it's going to rain.",
+       "Creo que el azul se ve mejor."
+      ],
+      "fr": [
+       "Je trouve que c'est bien.",
+       "La façon courante de donner un avis : courte et douce. Aussi pour les suppositions : I think it's going to rain.",
+       "Je trouve que le bleu rend mieux."
+      ]
+     }
     ],
     [
      "In my opinion, <span class=gray>it's too long</span>.",
      "ကျွန်တော့်/ကျွန်မ အမြင်မှာတော့ ရှည်လွန်းတယ်။",
      "More formal: good for school, meetings and writing. In everyday talk, I think is more natural.",
      "In my opinion, children should start learning English early.",
-     "ကျွန်မ အမြင်မှာတော့ ကလေးတွေ အင်္ဂလိပ်စာကို စောစော စသင်သင့်တယ်။"
+     "ကျွန်မ အမြင်မှာတော့ ကလေးတွေ အင်္ဂလိပ်စာကို စောစော စသင်သင့်တယ်။",
+     {
+      "es": [
+       "En mi opinión, es demasiado largo.",
+       "Más formal: bueno para la escuela, las reuniones y la escritura. En el habla diaria, I think es más natural.",
+       "En mi opinión, los niños deberían empezar a aprender inglés desde pequeños."
+      ],
+      "fr": [
+       "À mon avis, c'est trop long.",
+       "Plus formel : bien pour l'école, les réunions et l'écrit. Dans la conversation courante, I think est plus naturel.",
+       "À mon avis, les enfants devraient commencer l'anglais tôt."
+      ]
+     }
     ],
     [
      "For me, <span class=gray>it's too spicy</span>.",
      "ကျွန်တော့်/ကျွန်မ အတွက်ကတော့ စပ်လွန်းတယ်။",
      "Says it's true for you, maybe not for others. Use For me or I think, not both: For me, I think… says it twice.",
      "For me, the morning is the best time to study.",
-     "ကျွန်တော့်အတွက်ကတော့ မနက်ပိုင်းက စာကျက်ဖို့ အကောင်းဆုံးအချိန်ပဲ။"
+     "ကျွန်တော့်အတွက်ကတော့ မနက်ပိုင်းက စာကျက်ဖို့ အကောင်းဆုံးအချိန်ပဲ။",
+     {
+      "es": [
+       "Para mí, pica demasiado.",
+       "Dice que es cierto para ti, quizá no para otros. Usa For me o I think, no los dos: For me, I think… lo dice dos veces.",
+       "Para mí, la mañana es el mejor momento para estudiar."
+      ],
+      "fr": [
+       "Pour moi, c'est trop épicé.",
+       "Dit que c'est vrai pour vous, peut-être pas pour les autres. Employez For me ou I think, pas les deux : For me, I think… le dit deux fois.",
+       "Pour moi, le matin est le meilleur moment pour étudier."
+      ]
+     }
     ],
     [
      "I feel <span class=gray>we should wait</span>.",
      "စောင့်သင့်တယ်လို့ ခံစားရတယ်။",
      "A soft, personal opinion, often about people or situations. Gentle at work.",
      "I feel we need more time.",
-     "အချိန် ပိုလိုမယ်လို့ ခံစားရတယ်။"
+     "အချိန် ပိုလိုမယ်လို့ ခံစားရတယ်။",
+     {
+      "es": [
+       "Siento que deberíamos esperar.",
+       "Una opinión suave y personal, a menudo sobre personas o situaciones. Delicado en el trabajo.",
+       "Siento que necesitamos más tiempo."
+      ],
+      "fr": [
+       "J'ai le sentiment qu'on devrait attendre.",
+       "Un avis doux et personnel, souvent sur des personnes ou des situations. Délicat au travail.",
+       "J'ai le sentiment qu'il nous faut plus de temps."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Dar tu opinión",
+     "Maneras sencillas de decir lo que piensas."
+    ],
+    "fr": [
+     "Donner son avis",
+     "Des façons simples de dire ce que l'on pense."
+    ]
+   }
   },
   {
    "en": "Softer negative opinions",
@@ -56,30 +119,88 @@
      "သူ လာမယ်လို့ မထင်ဘူး။",
      "Put the not on think: I don't think it's a good idea. This sounds more natural and softer than I think it's not a good idea.",
      "I don't think the shop is open on Sundays.",
-     "တနင်္ဂနွေနေ့ ဆိုင်ဖွင့်မယ်လို့ မထင်ဘူး။"
+     "တနင်္ဂနွေနေ့ ဆိုင်ဖွင့်မယ်လို့ မထင်ဘူး။",
+     {
+      "es": [
+       "No creo que venga.",
+       "Pon el not en think: I don't think it's a good idea. Suena más natural y más suave que I think it's not a good idea.",
+       "No creo que la tienda abra los domingos."
+      ],
+      "fr": [
+       "Je ne pense pas qu'il vienne.",
+       "Mettez le not sur think : I don't think it's a good idea. C'est plus naturel et plus doux que I think it's not a good idea.",
+       "Je ne pense pas que le magasin soit ouvert le dimanche."
+      ]
+     }
     ],
     [
      "It's a bit <span class=gray>far</span>.",
      "နည်းနည်း ဝေးတယ်။",
      "A bit makes a problem sound smaller. Use it with negative words: a bit expensive, a bit far. Not: a bit good.",
      "It's nice, but it's a bit expensive.",
-     "ကောင်းတော့ ကောင်းတယ်၊ ဒါပေမဲ့ နည်းနည်း ဈေးကြီးတယ်။"
+     "ကောင်းတော့ ကောင်းတယ်၊ ဒါပေမဲ့ နည်းနည်း ဈေးကြီးတယ်။",
+     {
+      "es": [
+       "Está un poco lejos.",
+       "A bit hace que un problema suene más pequeño. Úsalo con palabras negativas: a bit expensive, a bit far. No: a bit good.",
+       "Está bonito, pero es un poco caro."
+      ],
+      "fr": [
+       "C'est un peu loin.",
+       "A bit fait paraître un problème plus petit. À employer avec des mots négatifs : a bit expensive, a bit far. Pas : a bit good.",
+       "C'est joli, mais c'est un peu cher."
+      ]
+     }
     ],
     [
      "It's not very <span class=gray>good</span>.",
      "သိပ် မကောင်းဘူး။",
      "A polite way to say something is bad: not very good instead of bad, not very clean instead of dirty.",
      "The hotel was OK, but the room wasn't very clean.",
-     "ဟိုတယ်က အဆင်ပြေပါတယ်၊ ဒါပေမဲ့ အခန်းက သိပ်မသန့်ဘူး။"
+     "ဟိုတယ်က အဆင်ပြေပါတယ်၊ ဒါပေမဲ့ အခန်းက သိပ်မသန့်ဘူး။",
+     {
+      "es": [
+       "No está muy bueno.",
+       "Una manera cortés de decir que algo está mal: not very good en vez de bad, not very clean en vez de dirty.",
+       "El hotel estaba bien, pero el cuarto no estaba muy limpio."
+      ],
+      "fr": [
+       "Ce n'est pas très bon.",
+       "Une façon polie de dire que quelque chose est mauvais : not very good au lieu de bad, not very clean au lieu de dirty.",
+       "L'hôtel était correct, mais la chambre n'était pas très propre."
+      ]
+     }
     ],
     [
      "I'm not sure that's a good idea.",
      "ဒီအကြံကောင်းရဲ့လားဆိုတာ မသေချာဘူး။",
      "A gentle way to disagree with a plan. Then give your reason.",
      "I'm not sure that's a good idea. It's getting dark.",
-     "အဲဒါ ကောင်းတဲ့ အကြံလား မသေချာဘူး။ မှောင်လာပြီ။"
+     "အဲဒါ ကောင်းတဲ့ အကြံလား မသေချာဘူး။ မှောင်လာပြီ။",
+     {
+      "es": [
+       "No estoy seguro de que sea buena idea.",
+       "Una manera suave de no estar de acuerdo con un plan. Luego da tu motivo.",
+       "No estoy seguro de que sea buena idea. Ya está oscureciendo."
+      ],
+      "fr": [
+       "Je ne suis pas sûr que ce soit une bonne idée.",
+       "Une façon douce de s'opposer à un projet. Donnez ensuite votre raison.",
+       "Je ne suis pas sûr que ce soit une bonne idée. La nuit tombe."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Opiniones negativas más suaves",
+     "Decir que algo no es bueno, sin sonar grosero."
+    ],
+    "fr": [
+     "Avis négatifs adoucis",
+     "Dire que quelque chose n'est pas bien, sans paraître impoli."
+    ]
+   }
   },
   {
    "en": "Short answers",
@@ -91,58 +212,164 @@
      "ဟုတ်မယ် ထင်တယ်။",
      "A soft yes. Not: I think yes.",
      "— Is the shop open today? — I think so.",
-     "— ဒီနေ့ ဆိုင်ဖွင့်လား။ — ဖွင့်မယ် ထင်တယ်။"
+     "— ဒီနေ့ ဆိုင်ဖွင့်လား။ — ဖွင့်မယ် ထင်တယ်။",
+     {
+      "es": [
+       "Creo que sí.",
+       "Un sí suave. No: I think yes.",
+       "— ¿La tienda abre hoy? — Creo que sí."
+      ],
+      "fr": [
+       "Je crois que oui.",
+       "Un oui adouci. Pas : I think yes.",
+       "— Le magasin est ouvert aujourd'hui ? — Je crois que oui."
+      ]
+     }
     ],
     [
      "I don't think so.",
      "မဟုတ်ဘူး ထင်တယ်။",
      "A soft no. Not: I think no.",
      "— Is Aung coming tonight? — I don't think so. He's working.",
-     "— အောင် ဒီည လာမလား။ — မလာဘူး ထင်တယ်။ အလုပ်ဆင်းနေတယ်။"
+     "— အောင် ဒီည လာမလား။ — မလာဘူး ထင်တယ်။ အလုပ်ဆင်းနေတယ်။",
+     {
+      "es": [
+       "Creo que no.",
+       "Un no suave. No: I think no.",
+       "— ¿Aung viene hoy en la noche? — Creo que no. Está trabajando."
+      ],
+      "fr": [
+       "Je ne crois pas.",
+       "Un non adouci. Pas : I think no.",
+       "— Aung vient ce soir ? — Je ne crois pas. Il travaille."
+      ]
+     }
     ],
     [
      "Not really.",
      "သိပ်မဟုတ်ပါဘူး။",
      "A soft, polite no. Kinder than just No.",
      "— Did you like the movie? — Not really. It was too long.",
-     "— ရုပ်ရှင် ကြိုက်လား။ — သိပ်မကြိုက်ဘူး။ ရှည်လွန်းတယ်။"
+     "— ရုပ်ရှင် ကြိုက်လား။ — သိပ်မကြိုက်ဘူး။ ရှည်လွန်းတယ်။",
+     {
+      "es": [
+       "La verdad, no.",
+       "Un no suave y cortés. Más amable que solo No.",
+       "— ¿Te gustó la película? — La verdad, no. Estuvo muy larga."
+      ],
+      "fr": [
+       "Pas vraiment.",
+       "Un non doux et poli. Plus gentil qu'un simple No.",
+       "— Tu as aimé le film ? — Pas vraiment. Il était trop long."
+      ]
+     }
     ],
     [
      "I guess so.",
      "ဟုတ်မယ်ထင်တယ်။",
      "A weak yes: not excited, or not completely sure. Said slowly, it can sound unwilling.",
      "— Should we leave now? — I guess so. It's getting late.",
-     "— အခု ပြန်ကြရမလား။ — ပြန်ရမှာပေါ့။ နောက်ကျလာပြီ။"
+     "— အခု ပြန်ကြရမလား။ — ပြန်ရမှာပေါ့။ နောက်ကျလာပြီ။",
+     {
+      "es": [
+       "Supongo que sí.",
+       "Un sí débil: sin entusiasmo, o sin estar del todo seguro. Dicho despacio, puede sonar a desgana.",
+       "— ¿Nos vamos ya? — Supongo que sí. Se está haciendo tarde."
+      ],
+      "fr": [
+       "J'imagine que oui.",
+       "Un oui faible : sans enthousiasme, ou sans certitude. Dit lentement, on peut y entendre de la réticence.",
+       "— On part maintenant ? — J'imagine que oui. Il se fait tard."
+      ]
+     }
     ],
     [
      "Definitely!",
      "သေချာပေါက်ဘဲ။",
      "A strong, happy yes. Also: Absolutely!",
      "— Will you come to my wedding? — Definitely!",
-     "— ကျွန်မ မင်္ဂလာဆောင်ကို လာမှာလား။ — သေချာပေါက်။"
+     "— ကျွန်မ မင်္ဂလာဆောင်ကို လာမှာလား။ — သေချာပေါက်။",
+     {
+      "es": [
+       "¡Por supuesto!",
+       "Un sí fuerte y alegre. También: Absolutely!",
+       "— ¿Vas a venir a mi boda? — ¡Por supuesto!"
+      ],
+      "fr": [
+       "Absolument !",
+       "Un oui fort et joyeux. On dit aussi : Absolutely!",
+       "— Tu viendras à mon mariage ? — Absolument !"
+      ]
+     }
     ],
     [
      "Probably.",
      "ဖြစ်နိုင်ပါတယ်။",
      "Probably is about 80% sure. Maybe is about 50%.",
      "— Are you going home for Thingyan? — Probably.",
-     "— သင်္ကြန် အိမ်ပြန်မှာလား။ — ပြန်ဖြစ်မယ် ထင်တယ်။"
+     "— သင်္ကြန် အိမ်ပြန်မှာလား။ — ပြန်ဖြစ်မယ် ထင်တယ်။",
+     {
+      "es": [
+       "Probablemente.",
+       "Probably es como un 80 % de seguridad. Maybe es como un 50 %.",
+       "— ¿Vas a ir a tu casa para el Thingyan? — Probablemente."
+      ],
+      "fr": [
+       "Probablement.",
+       "Probably, c'est sûr à environ 80 %. Maybe, à environ 50 %.",
+       "— Tu rentres chez toi pour Thingyan ? — Probablement."
+      ]
+     }
     ],
     [
      "I hope so.",
      "အဲဒီလို ဖြစ်ပါစေ။",
      "You want the answer to be yes.",
      "— Will it be sunny tomorrow? — I hope so!",
-     "— မနက်ဖြန် နေသာမလား။ — သာပါစေ။"
+     "— မနက်ဖြန် နေသာမလား။ — သာပါစေ။",
+     {
+      "es": [
+       "Espero que sí.",
+       "Quieres que la respuesta sea sí.",
+       "— ¿Mañana va a hacer sol? — ¡Espero que sí!"
+      ],
+      "fr": [
+       "J'espère que oui.",
+       "Vous voulez que la réponse soit oui.",
+       "— Il fera beau demain ? — J'espère que oui !"
+      ]
+     }
     ],
     [
      "I hope not.",
      "အဲဒီလို မဖြစ်ပါစေနဲ့။",
      "You want the answer to be no. Not: I don't hope so.",
      "— Is the test hard? — I hope not!",
-     "— စာမေးပွဲ ခက်မလား။ — မခက်ပါစေနဲ့။"
+     "— စာမေးပွဲ ခက်မလား။ — မခက်ပါစေနဲ့။",
+     {
+      "es": [
+       "Espero que no.",
+       "Quieres que la respuesta sea no. No: I don't hope so.",
+       "— ¿El examen está difícil? — ¡Espero que no!"
+      ],
+      "fr": [
+       "J'espère que non.",
+       "Vous voulez que la réponse soit non. Pas : I don't hope so.",
+       "— Le contrôle est difficile ? — J'espère que non !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Respuestas cortas",
+     "Respuestas rápidas a preguntas de sí o no, desde definitely hasta I hope not."
+    ],
+    "fr": [
+     "Réponses courtes",
+     "Des réponses rapides aux questions fermées, de definitely à I hope not."
+    ]
+   }
   },
   {
    "en": "When you're not sure",
@@ -154,37 +381,107 @@
      "မသေချာဘူး။",
      "Honest and polite. Better than guessing when it matters.",
      "— What time does the bank close? — I'm not sure. Maybe four?",
-     "— ဘဏ် ဘယ်နှနာရီ ပိတ်လဲ။ — မသေချာဘူး။ လေးနာရီလောက်လား။"
+     "— ဘဏ် ဘယ်နှနာရီ ပိတ်လဲ။ — မသေချာဘူး။ လေးနာရီလောက်လား။",
+     {
+      "es": [
+       "No estoy seguro.",
+       "Sincero y cortés. Mejor que adivinar cuando importa.",
+       "— ¿A qué hora cierra el banco? — No estoy seguro. ¿Quizá a las cuatro?"
+      ],
+      "fr": [
+       "Je ne suis pas sûr.",
+       "Honnête et poli. Mieux que de deviner quand c'est important.",
+       "— À quelle heure ferme la banque ? — Je ne suis pas sûr. Quatre heures, peut-être ?"
+      ]
+     }
     ],
     [
      "Maybe.",
      "ဖြစ်ချင် ဖြစ်မယ်။",
      "Fifty-fifty. Careful: as an answer to an invitation, Maybe can sound like a soft no.",
      "— Are you coming to the party? — Maybe. I'll tell you tomorrow.",
-     "— ပါတီကို လာမလား။ — လာချင် လာမယ်။ မနက်ဖြန် ပြောမယ်။"
+     "— ပါတီကို လာမလား။ — လာချင် လာမယ်။ မနက်ဖြန် ပြောမယ်။",
+     {
+      "es": [
+       "Quizá.",
+       "Mitad y mitad. Cuidado: como respuesta a una invitación, Maybe puede sonar a un no suave.",
+       "— ¿Vas a venir a la fiesta? — Quizá. Mañana te digo."
+      ],
+      "fr": [
+       "Peut-être.",
+       "Une chance sur deux. Attention : en réponse à une invitation, Maybe peut passer pour un non adouci.",
+       "— Tu viens à la fête ? — Peut-être. Je te dis ça demain."
+      ]
+     }
     ],
     [
      "It's hard to say.",
      "ပြောရခက်တယ်။",
      "The answer isn't clear yet, or the question is complicated.",
      "— Who will win? — It's hard to say. Both teams are good.",
-     "— ဘယ်သူ နိုင်မလဲ။ — ပြောရခက်တယ်။ အသင်း နှစ်သင်းလုံး တော်တယ်။"
+     "— ဘယ်သူ နိုင်မလဲ။ — ပြောရခက်တယ်။ အသင်း နှစ်သင်းလုံး တော်တယ်။",
+     {
+      "es": [
+       "Es difícil saberlo.",
+       "La respuesta todavía no está clara, o la pregunta es complicada.",
+       "— ¿Quién va a ganar? — Es difícil saberlo. Los dos equipos son buenos."
+      ],
+      "fr": [
+       "C'est difficile à dire.",
+       "La réponse n'est pas encore claire, ou la question est compliquée.",
+       "— Qui va gagner ? — C'est difficile à dire. Les deux équipes sont bonnes."
+      ]
+     }
     ],
     [
      "I have no idea.",
      "လုံးဝ မသိဘူး။",
      "I don't know at all. Casual and strong: with a boss or a customer, I'm not sure is softer.",
      "— Where are my keys? — I have no idea!",
-     "— ငါ့သော့ ဘယ်မှာလဲ။ — လုံးဝ မသိဘူး။"
+     "— ငါ့သော့ ဘယ်မှာလဲ။ — လုံးဝ မသိဘူး။",
+     {
+      "es": [
+       "No tengo idea.",
+       "No sé nada de nada. Informal y fuerte: con un jefe o un cliente, I'm not sure es más suave.",
+       "— ¿Dónde están mis llaves? — ¡No tengo idea!"
+      ],
+      "fr": [
+       "Je n'en ai aucune idée.",
+       "Je ne sais pas du tout. Familier et fort : avec un supérieur ou un client, I'm not sure est plus doux.",
+       "— Où sont mes clés ? — Je n'en ai aucune idée !"
+      ]
+     }
     ],
     [
      "I don't know much about <span class=gray>football</span>.",
      "ဘောလုံးအကြောင်း သိပ်မသိဘူး။",
      "Says politely that you can't give a good opinion.",
      "I don't know much about cars, sorry.",
-     "ကားအကြောင်း သိပ်မသိဘူး၊ ဆောရီး။"
+     "ကားအကြောင်း သိပ်မသိဘူး၊ ဆောရီး။",
+     {
+      "es": [
+       "No sé mucho de fútbol.",
+       "Dice con cortesía que no puedes dar una buena opinión.",
+       "No sé mucho de coches, perdón."
+      ],
+      "fr": [
+       "Je ne m'y connais pas beaucoup en football.",
+       "Dit poliment que vous ne pouvez pas donner un avis éclairé.",
+       "Je ne m'y connais pas beaucoup en voitures, désolé."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Cuando no estás seguro",
+     "Respuestas sinceras cuando no sabes o no te decides."
+    ],
+    "fr": [
+     "Quand on n'est pas sûr",
+     "Des réponses honnêtes quand on ne sait pas, ou que l'on n'arrive pas à se décider."
+    ]
+   }
   },
   {
    "en": "Asking for opinions",
@@ -196,37 +493,107 @@
      "ဘယ်လို ထင်လဲ။",
      "Asks for someone's opinion. Not: How do you think? In Burmese we say ဘယ်လို, but in English it's What.",
      "I want to paint the room green. What do you think?",
-     "အခန်းကို အစိမ်းရောင် ဆေးသုတ်ချင်တယ်။ ဘယ်လို ထင်လဲ။"
+     "အခန်းကို အစိမ်းရောင် ဆေးသုတ်ချင်တယ်။ ဘယ်လို ထင်လဲ။",
+     {
+      "es": [
+       "¿Qué opinas?",
+       "Pide la opinión de alguien. No: How do you think? En inglés es What.",
+       "Quiero pintar el cuarto de verde. ¿Qué opinas?"
+      ],
+      "fr": [
+       "Qu'en penses-tu ?",
+       "Demande l'avis de quelqu'un. Pas : How do you think? En anglais, c'est What.",
+       "Je veux peindre la pièce en vert. Qu'en penses-tu ?"
+      ]
+     }
     ],
     [
      "What do you think of <span class=gray>this song</span>?",
      "ဒီသီချင်းကို ဘယ်လို ထင်လဲ။",
      "Asks about one thing. Of and about both work: What do you think about my idea?",
      "What do you think of my new haircut?",
-     "ကျွန်မ ဆံပင်ပုံစံအသစ်ကို ဘယ်လို ထင်လဲ။"
+     "ကျွန်မ ဆံပင်ပုံစံအသစ်ကို ဘယ်လို ထင်လဲ။",
+     {
+      "es": [
+       "¿Qué te parece esta canción?",
+       "Pregunta por una cosa. Of y about funcionan los dos: What do you think about my idea?",
+       "¿Qué te parece mi nuevo corte de pelo?"
+      ],
+      "fr": [
+       "Que penses-tu de cette chanson ?",
+       "Porte sur une chose précise. Of et about conviennent tous les deux : What do you think about my idea?",
+       "Que penses-tu de ma nouvelle coupe de cheveux ?"
+      ]
+     }
     ],
     [
      "Do you think <span class=gray>it's too late</span>?",
      "နောက်ကျလွန်းပြီလို့ ထင်လား။",
      "After Do you think, use normal word order: Do you think it will rain? Not: Do you think will it rain?",
      "Do you think the shop is still open?",
-     "ဆိုင် ဖွင့်တုန်းပဲ ထင်လား။"
+     "ဆိုင် ဖွင့်တုန်းပဲ ထင်လား။",
+     {
+      "es": [
+       "¿Crees que es demasiado tarde?",
+       "Después de Do you think, usa el orden normal: Do you think it will rain? No: Do you think will it rain?",
+       "¿Crees que la tienda siga abierta?"
+      ],
+      "fr": [
+       "Tu penses qu'il est trop tard ?",
+       "Après Do you think, gardez l'ordre normal des mots : Do you think it will rain? Pas : Do you think will it rain?",
+       "Tu penses que le magasin est encore ouvert ?"
+      ]
+     }
     ],
     [
      "How was <span class=gray>the movie</span>?",
      "ရုပ်ရှင်က ဘယ်လိုလဲ။",
      "Asks about an experience in the past: a trip, a movie, a meal. Here How is right.",
      "How was your trip to Bagan?",
-     "ပုဂံ ခရီးက ဘယ်လိုလဲ။"
+     "ပုဂံ ခရီးက ဘယ်လိုလဲ။",
+     {
+      "es": [
+       "¿Qué tal la película?",
+       "Pregunta por una experiencia pasada: un viaje, una película, una comida. Aquí sí va How.",
+       "¿Qué tal tu viaje a Bagan?"
+      ],
+      "fr": [
+       "C'était comment, le film ?",
+       "Porte sur une expérience passée : un voyage, un film, un repas. Ici, How est correct.",
+       "C'était comment, ton voyage à Bagan ?"
+      ]
+     }
     ],
     [
      "Is it any good?",
      "ကောင်းရဲ့လား။",
      "Casual: Is it good? For a movie, a book, a restaurant.",
      "I want to read that book. Is it any good?",
-     "အဲဒီစာအုပ် ဖတ်ချင်တယ်။ ကောင်းရဲ့လား။"
+     "အဲဒီစာအုပ် ဖတ်ချင်တယ်။ ကောင်းရဲ့လား။",
+     {
+      "es": [
+       "¿Está bueno?",
+       "Informal: Is it good? Para una película, un libro, un restaurante.",
+       "Quiero leer ese libro. ¿Está bueno?"
+      ],
+      "fr": [
+       "C'est bien ?",
+       "Familier : Is it good? Pour un film, un livre, un restaurant.",
+       "Je veux lire ce livre. C'est bien ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Pedir opiniones",
+     "Preguntar qué piensan los demás."
+    ],
+    "fr": [
+     "Demander un avis",
+     "Demander ce que pensent les autres."
+    ]
+   }
   },
   {
    "en": "Simple judgments",
@@ -238,44 +605,126 @@
      "တကယ် ကောင်းတယ်။",
      "Simple praise. Stronger: It's excellent! or It's amazing!",
      "Try this soup. It's really good.",
-     "ဒီဟင်းချို မြည်းကြည့်။ တကယ် ကောင်းတယ်။"
+     "ဒီဟင်းချို မြည်းကြည့်။ တကယ် ကောင်းတယ်။",
+     {
+      "es": [
+       "Está muy bueno.",
+       "Un elogio sencillo. Más fuerte: It's excellent! o It's amazing!",
+       "Prueba esta sopa. Está muy buena."
+      ],
+      "fr": [
+       "C'est vraiment bon.",
+       "Un compliment simple. Plus fort : It's excellent! ou It's amazing!",
+       "Goûte cette soupe. Elle est vraiment bonne."
+      ]
+     }
     ],
     [
      "It's too <span class=gray>small</span>.",
      "သေးလွန်းတယ်။",
      "Too means more than you want: it's a problem. Not: This dress is too beautiful. For praise, use very or really.",
      "I can't drink it yet. It's too hot.",
-     "မသောက်နိုင်သေးဘူး။ ပူလွန်းတယ်။"
+     "မသောက်နိုင်သေးဘူး။ ပူလွန်းတယ်။",
+     {
+      "es": [
+       "Es demasiado pequeño.",
+       "Too significa más de lo que quieres: es un problema. No: This dress is too beautiful. Para elogiar, usa very o really.",
+       "Todavía no me lo puedo tomar. Está demasiado caliente."
+      ],
+      "fr": [
+       "C'est trop petit.",
+       "Too veut dire plus que ce que l'on veut : c'est un problème. Pas : This dress is too beautiful. Pour un compliment, employez very ou really.",
+       "Je ne peux pas encore le boire. C'est trop chaud."
+      ]
+     }
     ],
     [
      "It's not <span class=gray>warm</span> enough.",
      "မနွေးလောက်ဘူး။",
      "Less than you need. Enough goes after the word: big enough. Not: enough big.",
      "This bag isn't big enough for all my things.",
-     "ဒီအိတ်က ပစ္စည်းအားလုံး ထည့်ဖို့ မကြီးလောက်ဘူး။"
+     "ဒီအိတ်က ပစ္စည်းအားလုံး ထည့်ဖို့ မကြီးလောက်ဘူး။",
+     {
+      "es": [
+       "No está lo bastante caliente.",
+       "Menos de lo que necesitas. Enough va después de la palabra: big enough. No: enough big.",
+       "Esta bolsa no es lo bastante grande para todas mis cosas."
+      ],
+      "fr": [
+       "Ce n'est pas assez chaud.",
+       "Moins que ce qu'il faut. Enough se place après le mot : big enough. Pas : enough big.",
+       "Ce sac n'est pas assez grand pour toutes mes affaires."
+      ]
+     }
     ],
     [
      "It's better than <span class=gray>before</span>.",
      "အရင်ကထက် ပိုကောင်းတယ်။",
      "Better, not more good. The opposite: worse than.",
      "The new phone is better than my old one.",
-     "ဖုန်းအသစ်က ဖုန်းအဟောင်းထက် ပိုကောင်းတယ်။"
+     "ဖုန်းအသစ်က ဖုန်းအဟောင်းထက် ပိုကောင်းတယ်။",
+     {
+      "es": [
+       "Está mejor que antes.",
+       "Better, no more good. Lo contrario: worse than.",
+       "El teléfono nuevo es mejor que el viejo."
+      ],
+      "fr": [
+       "C'est mieux qu'avant.",
+       "Better, pas more good. Le contraire : worse than.",
+       "Le nouveau téléphone est meilleur que l'ancien."
+      ]
+     }
     ],
     [
      "It's worth it.",
      "တန်ပါတယ်။",
      "Good value for the money, time or effort.",
      "The ticket is expensive, but it's worth it.",
-     "လက်မှတ်က ဈေးကြီးတယ်၊ ဒါပေမဲ့ တန်ပါတယ်။"
+     "လက်မှတ်က ဈေးကြီးတယ်၊ ဒါပေမဲ့ တန်ပါတယ်။",
+     {
+      "es": [
+       "Vale la pena.",
+       "Buena relación con el dinero, el tiempo o el esfuerzo.",
+       "El boleto es caro, pero vale la pena."
+      ],
+      "fr": [
+       "Ça vaut le coup.",
+       "Cela mérite l'argent, le temps ou l'effort.",
+       "Le billet est cher, mais ça vaut le coup."
+      ]
+     }
     ],
     [
      "It's not worth it.",
      "မတန်ဘူး။",
      "Not good value: too much money, time or effort for what you get.",
      "Don't take a taxi. It's not worth it, the station is close.",
-     "တက္ကစီ မစီးနဲ့။ မတန်ဘူး၊ ဘူတာက နီးနီးလေးပဲ။"
+     "တက္ကစီ မစီးနဲ့။ မတန်ဘူး၊ ဘူတာက နီးနီးလေးပဲ။",
+     {
+      "es": [
+       "No vale la pena.",
+       "No conviene: demasiado dinero, tiempo o esfuerzo para lo que recibes.",
+       "No tomes un taxi. No vale la pena, la estación está cerca."
+      ],
+      "fr": [
+       "Ça ne vaut pas le coup.",
+       "Cela ne le mérite pas : trop d'argent, de temps ou d'effort pour ce que l'on obtient.",
+       "Ne prends pas de taxi. Ça ne vaut pas le coup, la gare est tout près."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Juicios sencillos",
+     "Oraciones cortas para decir qué tan bueno o malo es algo."
+    ],
+    "fr": [
+     "Jugements simples",
+     "De courtes phrases pour dire si quelque chose est bon ou mauvais."
+    ]
+   }
   }
  ]
 }

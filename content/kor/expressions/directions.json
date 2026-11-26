@@ -4,14 +4,20 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 8,
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. The Burmese explanations are drafts by Claude: check them. Check before recording audio.",
  "related": [
   "kor/listening/directions"
  ],
  "aud_dir": "kor/expressions/directions/",
  "aud_ext": "mp3?v=2611241406",
- "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "voice": {
+  "narrator": "FSDPAI7v5T7eeHsoRc5N"
+ },
  "categories": [
   {
    "en": "Where is it?",
@@ -23,30 +29,61 @@
      "Where is the toilet?",
      "화장실이 어디예요?\n\nA place + -i or -ga eodiyeyo?: where is…?",
      "Jeogiyo, jihacheollyeogi eodiyeyo?\n저기요, 지하철역이 어디예요?",
-     "Excuse me, where is the subway station?"
+     "Excuse me, where is the subway station?",
+     {
+      "my": [
+       "အိမ်သာ ဘယ်မှာလဲ။",
+       "화장실이 어디예요?\n\nနေရာ + -i ဒါမှမဟုတ် -ga eodiyeyo?: …ဘယ်မှာလဲ။",
+       "တဆိတ်လောက်၊ မြေအောက်ရထားဘူတာ ဘယ်မှာလဲ။"
+      ]
+     }
     ],
     [
      "I geuncheoe pyeonuijeom isseoyo?",
      "Is there a convenience store near here?",
      "이 근처에 편의점 있어요?\n\nI geuncheoe: near here.",
      "I geuncheoe eunhaeng isseoyo?\n이 근처에 은행 있어요?",
-     "Is there a bank near here?"
+     "Is there a bank near here?",
+     {
+      "my": [
+       "ဒီနားမှာ ကွန်ဗီးနီးယန့်စတိုးဆိုင် ရှိလား။",
+       "이 근처에 편의점 있어요?\n\nI geuncheoe: ဒီနားမှာ။",
+       "ဒီနားမှာ ဘဏ် ရှိလား။"
+      ]
+     }
     ],
     [
      "Yeogiga eodiyeyo?",
      "Where am I?",
      "여기가 어디예요?\n\n'Where is here?' Show your map as you ask.",
      "Jeogiyo, yeogiga eodiyeyo? Gireul ireosseoyo.\n저기요, 여기가 어디예요? 길을 잃었어요.",
-     "Excuse me, where am I? I'm lost."
+     "Excuse me, where am I? I'm lost.",
+     {
+      "my": [
+       "ဒီနေရာက ဘယ်နေရာလဲ။",
+       "여기가 어디예요?\n\n'ဒီနေရာက ဘယ်နေရာလဲ' လို့ အဓိပ္ပာယ်ရတယ်။ မေးရင်း မြေပုံကို ပြပါ။",
+       "တဆိတ်လောက်၊ ဒီနေရာက ဘယ်နေရာလဲ။ လမ်းပျောက်နေလို့ပါ။"
+      ]
+     }
     ],
     [
      "Meoreoyo?",
      "Is it far?",
      "멀어요?\n\nNear: gakkawoyo.",
      "Yeogiseo meoreoyo? — Anieyo, georeoseo o bunieyo.\n여기서 멀어요? — 아니에요, 걸어서 오 분이에요.",
-     "Is it far from here? — No, five minutes on foot."
+     "Is it far from here? — No, five minutes on foot.",
+     {
+      "my": [
+       "ဝေးလား။",
+       "멀어요?\n\nနီးတယ်: gakkawoyo။",
+       "ဒီကနေ ဝေးလား။ — မဝေးပါဘူး၊ ခြေလျင် ငါးမိနစ်ပါ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ဘယ်မှာလဲ"
+   }
   },
   {
    "en": "Understanding the answer",
@@ -58,30 +95,61 @@
      "Go straight ahead.",
      "쭉 가세요.\n\nAlso: Ttokbaro gaseyo.",
      "I gillo jjuk gaseyo.\n이 길로 쭉 가세요.",
-     "Go straight along this street."
+     "Go straight along this street.",
+     {
+      "my": [
+       "တည့်တည့်သွားပါ။",
+       "쭉 가세요.\n\nTtokbaro gaseyo လို့လည်း ပြောနိုင်တယ်။",
+       "ဒီလမ်းအတိုင်း တည့်တည့်သွားပါ။"
+      ]
+     }
     ],
     [
      "Oreunjjogeuro gaseyo.",
      "Go right.",
      "오른쪽으로 가세요.\n\nLeft: oenjjok.",
      "Daeum sageorieseo oenjjogeuro gaseyo.\n다음 사거리에서 왼쪽으로 가세요.",
-     "Go left at the next crossroads."
+     "Go left at the next crossroads.",
+     {
+      "my": [
+       "ညာဘက် သွားပါ။",
+       "오른쪽으로 가세요.\n\nဘယ်ဘက်: oenjjok။",
+       "နောက်လမ်းဆုံမှာ ဘယ်ဘက် သွားပါ။"
+      ]
+     }
     ],
     [
      "Hoengdanbodoreul geonneoseyo.",
      "Cross at the crossing.",
      "횡단보도를 건너세요.\n\nHoengdanbodo: pedestrian crossing.",
      "Jeo hoengdanbodoreul geonneoseyo.\n저 횡단보도를 건너세요.",
-     "Cross at that crossing."
+     "Cross at that crossing.",
+     {
+      "my": [
+       "လူကူးမျဉ်းကြားမှာ လမ်းကူးပါ။",
+       "횡단보도를 건너세요.\n\nHoengdanbodo: လူကူးမျဉ်းကြား။",
+       "ဟို လူကူးမျဉ်းကြားမှာ လမ်းကူးပါ။"
+      ]
+     }
     ],
     [
      "Baro jeogiyeyo.",
      "It's right there.",
      "바로 저기예요.\n\nBaro: right, just.",
      "Ucheguk baro jeogiyeyo. Eunhaeng yeopieyo.\n우체국 바로 저기예요. 은행 옆이에요.",
-     "The post office is right there. It's next to the bank."
+     "The post office is right there. It's next to the bank.",
+     {
+      "my": [
+       "ဟိုနားလေးမှာပါ။",
+       "바로 저기예요.\n\nBaro: တည့်တည့်၊ ချက်ချင်း။",
+       "စာတိုက်က ဟိုနားလေးမှာပါ။ ဘဏ်ဘေးမှာ ရှိတယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "လမ်းညွှန်တာကို နားလည်ခြင်း"
+   }
   },
   {
    "en": "Subway and taxis",
@@ -93,30 +161,61 @@
      "Does this train go to Gangnam?",
      "이 지하철 강남 가요?\n\nAsk before you get on.",
      "I beoseu gonghang gayo?\n이 버스 공항 가요?",
-     "Does this bus go to the airport?"
+     "Does this bus go to the airport?",
+     {
+      "my": [
+       "ဒီရထား ဂန်နမ်ကို သွားလား။",
+       "이 지하철 강남 가요?\n\nမတက်ခင် မေးပါ။",
+       "ဒီဘတ်စ်ကား လေဆိပ်ကို သွားလား။"
+      ]
+     }
     ],
     [
      "Pyo eodiseo sayo?",
      "Where do I buy a ticket?",
      "표 어디서 사요?\n\nPyo: ticket.",
      "Jeogiyo, pyo eodiseo sayo? — Jeogiyeyo.\n저기요, 표 어디서 사요? — 저기예요.",
-     "Excuse me, where do I buy a ticket? — Over there."
+     "Excuse me, where do I buy a ticket? — Over there.",
+     {
+      "my": [
+       "လက်မှတ် ဘယ်မှာ ဝယ်ရလဲ။",
+       "표 어디서 사요?\n\nPyo: လက်မှတ်။",
+       "တဆိတ်လောက်၊ လက်မှတ် ဘယ်မှာ ဝယ်ရလဲ။ — ဟိုဘက်မှာပါ။"
+      ]
+     }
     ],
     [
      "Daeum yeogi eodiyeyo?",
      "What is the next station?",
      "다음 역이 어디예요?\n\nDaeum: next. Yeok: station.",
      "Daeum yeogi eodiyeyo? — Sicheongieyo.\n다음 역이 어디예요? — 시청이에요.",
-     "What is the next station? — City Hall."
+     "What is the next station? — City Hall.",
+     {
+      "my": [
+       "နောက်ဘူတာက ဘာဘူတာလဲ။",
+       "다음 역이 어디예요?\n\nDaeum: နောက်တစ်ခု။ Yeok: ဘူတာ။",
+       "နောက်ဘူတာက ဘာဘူတာလဲ။ — မြို့တော်ခန်းမ ဘူတာပါ။"
+      ]
+     }
     ],
     [
      "Yeogiro ga juseyo.",
      "To this place, please.",
      "여기로 가 주세요.\n\nIn a taxi: show the address on your phone.",
      "I jusoro ga juseyo.\n이 주소로 가 주세요.",
-     "To this address, please."
+     "To this address, please.",
+     {
+      "my": [
+       "ဒီနေရာကို ပို့ပေးပါ။",
+       "여기로 가 주세요.\n\nတက္ကစီပေါ်မှာ ဖုန်းထဲက လိပ်စာကို ပြပါ။",
+       "ဒီလိပ်စာကို ပို့ပေးပါ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "မြေအောက်ရထားနှင့် တက္ကစီ"
+   }
   }
  ]
 }

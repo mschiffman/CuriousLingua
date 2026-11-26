@@ -4,14 +4,20 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 7,
- "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. The Burmese explanations are drafts by Claude: check them. Check before recording audio.",
  "related": [
   "jap/listening/cafe"
  ],
  "aud_dir": "jap/expressions/restaurant/",
  "aud_ext": "mp3?v=2611241400",
- "voice": {"narrator": "v91rKRL5eccBa78cK3jT"},
+ "voice": {
+  "narrator": "v91rKRL5eccBa78cK3jT"
+ },
  "categories": [
   {
    "en": "Arriving",
@@ -23,30 +29,61 @@
      "Two people.",
      "二人です。\n\nThe answer to Nan-mei-sama desu ka. (How many?) One: hitori. Three: san-nin.",
      "Irasshaimase. Nan-mei-sama desu ka. — Futari desu.\nいらっしゃいませ。何名様ですか。— 二人です。",
-     "Welcome. How many? — Two."
+     "Welcome. How many? — Two.",
+     {
+      "my": [
+       "နှစ်ယောက်ပါ။",
+       "二人です。\n\nNan-mei-sama desu ka. (ဘယ်နှစ်ယောက်လဲ။) ဆိုတဲ့ မေးခွန်းရဲ့ အဖြေပါ။ တစ်ယောက်: hitori။ သုံးယောက်: san-nin။",
+       "ကြိုဆိုပါတယ်။ ဘယ်နှစ်ယောက်လဲ။ — နှစ်ယောက်ပါ။"
+      ]
+     }
     ],
     [
      "Sumimasen!",
      "Excuse me!",
      "すみません！\n\nHow you call the staff. Say it clearly: it is not rude.",
      "Sumimasen! Chūmon o onegai shimasu.\nすみません！注文をお願いします。",
-     "Excuse me! We'd like to order."
+     "Excuse me! We'd like to order.",
+     {
+      "my": [
+       "တဆိတ်လောက်။",
+       "すみません！\n\nဝန်ထမ်းကို ခေါ်တဲ့နည်းပါ။ ကျယ်ကျယ်နဲ့ ပြတ်ပြတ်သားသား ပြောပါ၊ မရိုင်းပါဘူး။",
+       "တဆိတ်လောက်။ မှာချင်လို့ပါ။"
+      ]
+     }
     ],
     [
      "Menyū o kudasai.",
      "The menu, please.",
      "メニューをください。\n\nMany places have a menu with photos.",
      "Eigo no menyū wa arimasu ka.\n英語のメニューはありますか。",
-     "Do you have an English menu?"
+     "Do you have an English menu?",
+     {
+      "my": [
+       "မီနူး ပေးပါ။",
+       "メニューをください。\n\nဆိုင်အများစုမှာ ဓာတ်ပုံပါတဲ့ မီနူး ရှိတယ်။",
+       "အင်္ဂလိပ်လို မီနူး ရှိလား။"
+      ]
+     }
     ],
     [
      "Osusume wa nan desu ka.",
      "What do you recommend?",
      "おすすめは何ですか。\n\nOsusume: the recommendation.",
      "Osusume wa nan desu ka. — Rāmen ga ninki desu.\nおすすめは何ですか。— ラーメンが人気です。",
-     "What do you recommend? — The ramen is popular."
+     "What do you recommend? — The ramen is popular.",
+     {
+      "my": [
+       "ဘာစားရင် ကောင်းမလဲ။",
+       "おすすめは何ですか。\n\nOsusume: အကြံပြုချက်။",
+       "ဘာစားရင် ကောင်းမလဲ။ — ရာမင်က လူကြိုက်များတယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ဆိုင်ရောက်ချိန်"
+   }
   },
   {
    "en": "Ordering",
@@ -58,30 +95,61 @@
      "One of these, please.",
      "これを一つください。\n\nHitotsu, futatsu, mittsu: one, two, three things.",
      "Gyōza o futatsu kudasai.\n餃子を二つください。",
-     "Two orders of gyoza, please."
+     "Two orders of gyoza, please.",
+     {
+      "my": [
+       "ဒါ တစ်ခု ပေးပါ။",
+       "これを一つください。\n\nHitotsu, futatsu, mittsu: တစ်ခု၊ နှစ်ခု၊ သုံးခု။",
+       "ဂျိုဇာ နှစ်ပွဲ ပေးပါ။"
+      ]
+     }
     ],
     [
      "Watashi wa rāmen ni shimasu.",
      "I'll have the ramen.",
      "私はラーメンにします。\n\nA dish + ni shimasu: I'll have…",
      "Nani ni shimasu ka. — Watashi wa udon ni shimasu.\n何にしますか。— 私はうどんにします。",
-     "What will you have? — I'll have the udon."
+     "What will you have? — I'll have the udon.",
+     {
+      "my": [
+       "ရာမင် ယူမယ်။",
+       "私はラーメンにします。\n\nဟင်းပွဲ + ni shimasu: …ယူမယ်။",
+       "ဘာ မှာမလဲ။ — ဥဒုံ ယူမယ်။"
+      ]
+     }
     ],
     [
      "Niku wa taberaremasen.",
      "I can't eat meat.",
      "肉は食べられません。\n\nA food + wa taberaremasen: I can't eat…",
      "Sumimasen, tamago wa taberaremasen.\nすみません、卵は食べられません。",
-     "Sorry, I can't eat eggs."
+     "Sorry, I can't eat eggs.",
+     {
+      "my": [
+       "အသား မစားနိုင်ဘူး။",
+       "肉は食べられません。\n\nအစားအစာ + wa taberaremasen: …မစားနိုင်ဘူး။",
+       "တောင်းပန်ပါတယ်၊ ကြက်ဥ မစားနိုင်ဘူး။"
+      ]
+     }
     ],
     [
      "Omizu o kudasai.",
      "Water, please.",
      "お水をください。\n\nWater and tea are usually free.",
      "Sumimasen, omizu o mō hitotsu kudasai.\nすみません、お水をもう一つください。",
-     "Excuse me, one more water, please."
+     "Excuse me, one more water, please.",
+     {
+      "my": [
+       "ရေ ပေးပါ။",
+       "お水をください。\n\nရေနဲ့ လက်ဖက်ရည်ကြမ်းက များသောအားဖြင့် အခမဲ့ပါ။",
+       "တဆိတ်လောက်၊ ရေ နောက်တစ်ခွက် ပေးပါ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "မှာခြင်း"
+   }
   },
   {
    "en": "Eating and paying",
@@ -93,30 +161,61 @@
      "It's delicious.",
      "おいしいです。\n\nThe word every cook wants to hear.",
      "Kono sūpu, totemo oishii desu.\nこのスープ、とてもおいしいです。",
-     "This soup is really delicious."
+     "This soup is really delicious.",
+     {
+      "my": [
+       "အရသာရှိတယ်။",
+       "おいしいです。\n\nချက်တဲ့သူတိုင်း ကြားချင်တဲ့ စကားပါ။",
+       "ဒီဟင်းချို တကယ် အရသာရှိတယ်။"
+      ]
+     }
     ],
     [
      "Okaikei o onegai shimasu.",
      "The bill, please.",
      "お会計をお願いします。\n\nYou often pay at the till by the door, not at the table.",
      "Sumimasen, okaikei o onegai shimasu.\nすみません、お会計をお願いします。",
-     "Excuse me, the bill, please."
+     "Excuse me, the bill, please.",
+     {
+      "my": [
+       "ငွေရှင်းမယ်။",
+       "お会計をお願いします。\n\nစားပွဲမှာ မဟုတ်ဘဲ တံခါးဝနားက ငွေရှင်းကောင်တာမှာ ရှင်းရတာ များတယ်။",
+       "တဆိတ်လောက်၊ ငွေရှင်းမယ်။"
+      ]
+     }
     ],
     [
      "Betsubetsu de onegai shimasu.",
      "Separate bills, please.",
      "別々でお願いします。\n\nTogether: issho de.",
      "Okaikei wa goissho desu ka. — Betsubetsu de onegai shimasu.\nお会計はご一緒ですか。— 別々でお願いします。",
-     "Are you paying together? — Separately, please."
+     "Are you paying together? — Separately, please.",
+     {
+      "my": [
+       "သီးသန့်စီ ရှင်းမယ်။",
+       "別々でお願いします。\n\nအတူတူ: issho de။",
+       "အတူတူ ရှင်းမှာလား။ — သီးသန့်စီ ရှင်းမယ်။"
+      ]
+     }
     ],
     [
      "Mochikaeri de onegai shimasu.",
      "To take away, please.",
      "持ち帰りでお願いします。\n\nEating in: Koko de tabemasu.",
      "Koko de tabemasu ka. — Mochikaeri de onegai shimasu.\nここで食べますか。— 持ち帰りでお願いします。",
-     "Are you eating here? — To take away, please."
+     "Are you eating here? — To take away, please.",
+     {
+      "my": [
+       "ပါဆယ် ယူမယ်။",
+       "持ち帰りでお願いします。\n\nဆိုင်မှာ စားမယ်: Koko de tabemasu။",
+       "ဒီမှာ စားမှာလား။ — ပါဆယ် ယူမယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "စားခြင်းနှင့် ငွေရှင်းခြင်း"
+   }
   }
  ]
 }

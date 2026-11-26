@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/exclamation.html",
  "aud_dir": "eng/expressions/exclamation/",
  "aud_ext": "mp3?v=2611090841",
@@ -21,37 +26,107 @@
      "ဝိုး။",
      "Big surprise or admiration. Say it long and high: Woooow! Also: Wow, that's amazing!",
      "Wow! Your garden is beautiful.",
-     "ဝိုး။ ပန်းခြံလေး အရမ်းလှတယ်။"
+     "ဝိုး။ ပန်းခြံလေး အရမ်းလှတယ်။",
+     {
+      "es": [
+       "¡Guau!",
+       "Gran sorpresa o admiración. Dilo largo y agudo: Woooow! También: Wow, that's amazing!",
+       "¡Guau! Tu jardín está precioso."
+      ],
+      "fr": [
+       "Ouah !",
+       "Grande surprise ou admiration. Dites-le long et aigu : Woooow! On dit aussi : Wow, that's amazing!",
+       "Ouah ! Ton jardin est magnifique."
+      ]
+     }
     ],
     [
      "Really?",
      "တကယ်လား။",
      "Surprise or interest. Let your voice go up at the end. Said flat, it can sound like you don't believe them.",
      "— I got a job in Thailand. — Really? When do you start?",
-     "— ထိုင်းမှာ အလုပ်ရပြီ။ — တကယ်လား။ ဘယ်တော့ စမှာလဲ။"
+     "— ထိုင်းမှာ အလုပ်ရပြီ။ — တကယ်လား။ ဘယ်တော့ စမှာလဲ။",
+     {
+      "es": [
+       "¿De verdad?",
+       "Sorpresa o interés. Deja que la voz suba al final. Dicho en tono plano, puede sonar a que no les crees.",
+       "— Conseguí trabajo en Tailandia. — ¿De verdad? ¿Cuándo empiezas?"
+      ],
+      "fr": [
+       "Vraiment ?",
+       "Surprise ou intérêt. Laissez la voix monter à la fin. Dit d'une voix plate, on peut croire que vous doutez.",
+       "— J'ai trouvé un travail en Thaïlande. — Vraiment ? Tu commences quand ?"
+      ]
+     }
     ],
     [
      "No way!",
      "မယုံနိုင်ဘူး။",
      "Two meanings. With a happy, surprised face: I can't believe it! As an answer to a request: Absolutely not!",
      "— I won the prize! — No way! Congratulations!",
-     "— ဆုရသွားပြီ။ — မယုံနိုင်ဘူး။ ဂုဏ်ယူပါတယ်။"
+     "— ဆုရသွားပြီ။ — မယုံနိုင်ဘူး။ ဂုဏ်ယူပါတယ်။",
+     {
+      "es": [
+       "¡No puede ser!",
+       "Dos significados. Con cara alegre y sorprendida: ¡no lo puedo creer! Como respuesta a una petición: ¡de ninguna manera!",
+       "— ¡Gané el premio! — ¡No puede ser! ¡Felicidades!"
+      ],
+      "fr": [
+       "C'est pas vrai !",
+       "Deux sens. Avec un visage joyeux et surpris : je n'y crois pas ! En réponse à une demande : pas question !",
+       "— J'ai gagné le prix ! — C'est pas vrai ! Félicitations !"
+      ]
+     }
     ],
     [
      "Oh my gosh!",
      "အမလေး။",
      "Shock or excitement. You'll also hear Oh my God! and OMG in messages, but some people don't like God used this way. Oh my gosh! is safe everywhere.",
      "Oh my gosh! Is that a snake?",
-     "အမလေး။ အဲဒါ မြွေလား။"
+     "အမလေး။ အဲဒါ မြွေလား။",
+     {
+      "es": [
+       "¡Ay, Dios mío!",
+       "Susto o emoción. También oirás Oh my God! y OMG en mensajes, pero a algunas personas no les gusta que se use God así. Oh my gosh! es seguro en todas partes.",
+       "¡Ay, Dios mío! ¿Eso es una víbora?"
+      ],
+      "fr": [
+       "Oh mon Dieu !",
+       "Choc ou excitation. Vous entendrez aussi Oh my God! et OMG dans les messages, mais certains n'aiment pas que God soit employé ainsi. Oh my gosh! passe partout.",
+       "Oh mon Dieu ! C'est un serpent ?"
+      ]
+     }
     ],
     [
      "You're kidding!",
      "နောက်နေတာလား။",
      "Kidding means joking. It means: That's so surprising, is it true? Also: Are you serious?",
      "— The bus is free today. — You're kidding!",
-     "— ဒီနေ့ ဘတ်စ်ကား အလကားစီးရတယ်။ — နောက်နေတာလား။"
+     "— ဒီနေ့ ဘတ်စ်ကား အလကားစီးရတယ်။ — နောက်နေတာလား။",
+     {
+      "es": [
+       "¡No me digas!",
+       "Kidding significa bromear. Quiere decir: qué sorpresa, ¿es cierto? También: Are you serious?",
+       "— Hoy el autobús es gratis. — ¡No me digas!"
+      ],
+      "fr": [
+       "Tu plaisantes !",
+       "Kidding veut dire plaisanter. Sens : c'est si surprenant, est-ce vrai ? On dit aussi : Are you serious?",
+       "— Le bus est gratuit aujourd'hui. — Tu plaisantes !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Sorpresa",
+     "Cuando algo te sorprende, para bien o para mal."
+    ],
+    "fr": [
+     "La surprise",
+     "Quand quelque chose vous surprend, en bien ou en mal."
+    ]
+   }
   },
   {
    "en": "Good news",
@@ -63,37 +138,107 @@
      "ကောင်းလိုက်တာ။",
      "The all-purpose happy answer. Stronger: That's wonderful! or Fantastic!",
      "— I passed the test! — Great! Well done!",
-     "— စာမေးပွဲ အောင်ပြီ။ — ကောင်းလိုက်တာ။ တော်လိုက်တာ။"
+     "— စာမေးပွဲ အောင်ပြီ။ — ကောင်းလိုက်တာ။ တော်လိုက်တာ။",
+     {
+      "es": [
+       "¡Qué bien!",
+       "La respuesta alegre para todo. Más fuerte: That's wonderful! o Fantastic!",
+       "— ¡Pasé el examen! — ¡Qué bien! ¡Bien hecho!"
+      ],
+      "fr": [
+       "Super !",
+       "La réponse joyeuse passe-partout. Plus fort : That's wonderful! ou Fantastic!",
+       "— J'ai réussi le contrôle ! — Super ! Bravo !"
+      ]
+     }
     ],
     [
      "Cool!",
      "မိုက်တယ်။",
      "Casual: I like it, that's interesting. Very common with young people.",
      "— I got a new phone. — Cool! Can I see?",
-     "— ဖုန်းအသစ် ဝယ်လိုက်တယ်။ — မိုက်တယ်။ ကြည့်ပါရစေ။"
+     "— ဖုန်းအသစ် ဝယ်လိုက်တယ်။ — မိုက်တယ်။ ကြည့်ပါရစေ။",
+     {
+      "es": [
+       "¡Qué padre!",
+       "Informal: me gusta, qué interesante. Muy común entre jóvenes.",
+       "— Tengo teléfono nuevo. — ¡Qué padre! ¿Me lo enseñas?"
+      ],
+      "fr": [
+       "Cool !",
+       "Familier : ça me plaît, c'est intéressant. Très courant chez les jeunes.",
+       "— J'ai un nouveau téléphone. — Cool ! Je peux voir ?"
+      ]
+     }
     ],
     [
      "Awesome!",
      "အရမ်းမိုက်တယ်။",
      "Casual and very American: great, excellent. Americans say it for small things too: Awesome, thanks!",
      "— Dinner's ready. — Awesome! I'm so hungry.",
-     "— ညစာ အဆင်သင့်ပဲ။ — အရမ်းမိုက်တယ်။ ဗိုက်အရမ်းဆာနေတာ။"
+     "— ညစာ အဆင်သင့်ပဲ။ — အရမ်းမိုက်တယ်။ ဗိုက်အရမ်းဆာနေတာ။",
+     {
+      "es": [
+       "¡Genial!",
+       "Informal y muy estadounidense: muy bueno, excelente. Los estadounidenses lo dicen también por cosas pequeñas: Awesome, thanks!",
+       "— Ya está la cena. — ¡Genial! Tengo mucha hambre."
+      ],
+      "fr": [
+       "Génial !",
+       "Familier et très américain : formidable, excellent. Les Américains le disent même pour de petites choses : Awesome, thanks!",
+       "— Le dîner est prêt. — Génial ! J'ai tellement faim."
+      ]
+     }
     ],
     [
      "Lucky you!",
      "ကံကောင်းလိုက်တာ။",
      "When something good happens to someone else. Friendly, sometimes with a little jealousy, in a nice way.",
      "— I'm going to the beach for a week. — Lucky you!",
-     "— ကမ်းခြေကို တစ်ပတ် သွားမလို့။ — ကံကောင်းလိုက်တာ။"
+     "— ကမ်းခြေကို တစ်ပတ် သွားမလို့။ — ကံကောင်းလိုက်တာ။",
+     {
+      "es": [
+       "¡Qué suerte tienes!",
+       "Cuando a otra persona le pasa algo bueno. Amistoso, a veces con un poco de envidia de la buena.",
+       "— Me voy una semana a la playa. — ¡Qué suerte tienes!"
+      ],
+      "fr": [
+       "Tu en as de la chance !",
+       "Quand il arrive quelque chose de bien à quelqu'un d'autre. Amical, parfois avec une pointe de jalousie gentille.",
+       "— Je pars une semaine à la plage. — Tu en as de la chance !"
+      ]
+     }
     ],
     [
      "Yay!",
      "ဟေး၊ ပျော်လိုက်တာ။",
      "Pure happiness, like a child. Adults say it too, when they're very pleased.",
      "Yay! No school tomorrow!",
-     "ဟေး၊ မနက်ဖြန် ကျောင်းပိတ်တယ်။"
+     "ဟေး၊ မနက်ဖြန် ကျောင်းပိတ်တယ်။",
+     {
+      "es": [
+       "¡Yupi!",
+       "Pura felicidad, como la de un niño. Los adultos también lo dicen cuando están muy contentos.",
+       "¡Yupi! ¡Mañana no hay clases!"
+      ],
+      "fr": [
+       "Youpi !",
+       "Du bonheur pur, comme un enfant. Les adultes le disent aussi quand ils sont très contents.",
+       "Youpi ! Pas d'école demain !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Buenas noticias",
+     "Reacciones alegres, desde un great tranquilo hasta un yay lleno de alegría."
+    ],
+    "fr": [
+     "Les bonnes nouvelles",
+     "Des réactions joyeuses, d'un great tranquille à un yay plein de joie."
+    ]
+   }
   },
   {
    "en": "Oops and ouch",
@@ -105,23 +250,69 @@
      "အိုး၊ မှားသွားပြီ။",
      "A small accident or mistake: you drop something or press the wrong button. Also: Whoops!",
      "Oops! I dropped my keys.",
-     "အိုး။ သော့ ပြုတ်ကျသွားပြီ။"
+     "အိုး။ သော့ ပြုတ်ကျသွားပြီ။",
+     {
+      "es": [
+       "¡Uy!",
+       "Un accidente o error pequeño: se te cae algo o aprietas el botón equivocado. También: Whoops!",
+       "¡Uy! Se me cayeron las llaves."
+      ],
+      "fr": [
+       "Oups !",
+       "Un petit accident ou une petite erreur : vous faites tomber quelque chose ou appuyez sur le mauvais bouton. On dit aussi : Whoops!",
+       "Oups ! J'ai fait tomber mes clés."
+      ]
+     }
     ],
     [
      "Uh-oh.",
      "ဒုက္ခပဲ။",
      "You can see trouble coming. Say it slowly, with your voice going down.",
      "Uh-oh. I think I left my wallet at home.",
-     "ဒုက္ခပဲ။ ပိုက်ဆံအိတ် အိမ်မှာ ကျန်ခဲ့ပြီ ထင်တယ်။"
+     "ဒုက္ခပဲ။ ပိုက်ဆံအိတ် အိမ်မှာ ကျန်ခဲ့ပြီ ထင်တယ်။",
+     {
+      "es": [
+       "Ay, ay, ay.",
+       "Ves venir un problema. Dilo despacio, con la voz hacia abajo.",
+       "Ay, ay, ay. Creo que dejé la cartera en casa."
+      ],
+      "fr": [
+       "Aïe aïe aïe.",
+       "Vous voyez les ennuis arriver. Dites-le lentement, la voix qui descend.",
+       "Aïe aïe aïe. Je crois que j'ai laissé mon portefeuille à la maison."
+      ]
+     }
     ],
     [
      "Ouch!",
      "အား၊ နာလိုက်တာ။",
      "Sudden pain. Shorter: Ow! Also for news that hurts: The ticket is $200? Ouch!",
      "Ouch! I hit my head.",
-     "အား၊ နာလိုက်တာ။ ခေါင်း ဆောင့်မိသွားတယ်။"
+     "အား၊ နာလိုက်တာ။ ခေါင်း ဆောင့်မိသွားတယ်။",
+     {
+      "es": [
+       "¡Ay!",
+       "Dolor repentino. Más corto: Ow! También para noticias que duelen: The ticket is $200? Ouch!",
+       "¡Ay! Me pegué en la cabeza."
+      ],
+      "fr": [
+       "Aïe !",
+       "Douleur soudaine. Plus court : Ow! Aussi pour une nouvelle qui fait mal : The ticket is $200? Ouch!",
+       "Aïe ! Je me suis cogné la tête."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Tropiezos y dolor",
+     "Pequeños accidentes, errores y dolor."
+    ],
+    "fr": [
+     "Maladresses et douleur",
+     "Petits accidents, erreurs et douleur."
+    ]
+   }
   },
   {
    "en": "Bad news and annoyance",
@@ -133,37 +324,107 @@
      "ဟာ၊ ဒုက္ခပါဘဲ။",
      "Something bad just happened, or you just remembered something. Very common.",
      "Oh no! I forgot my homework!",
-     "ဟာ၊ သွားပြီ။ အိမ်စာ မေ့ကျန်ခဲ့ပြီ။"
+     "ဟာ၊ သွားပြီ။ အိမ်စာ မေ့ကျန်ခဲ့ပြီ။",
+     {
+      "es": [
+       "¡Ay, no!",
+       "Acaba de pasar algo malo, o te acabas de acordar de algo. Muy común.",
+       "¡Ay, no! ¡Olvidé la tarea!"
+      ],
+      "fr": [
+       "Oh non !",
+       "Quelque chose de fâcheux vient d'arriver, ou vous venez de vous rappeler quelque chose. Très courant.",
+       "Oh non ! J'ai oublié mes devoirs !"
+      ]
+     }
     ],
     [
      "What a shame!",
      "နှမြောစရာပဲ။",
      "Means: That's sad, that's disappointing. It is not about feeling ashamed (ရှက်တယ်). Also: What a pity!",
      "— I can't come to your party. — Oh, what a shame!",
-     "— မင်းပါတီကို မလာနိုင်ဘူး။ — ဟာ၊ နှမြောစရာပဲ။"
+     "— မင်းပါတီကို မလာနိုင်ဘူး။ — ဟာ၊ နှမြောစရာပဲ။",
+     {
+      "es": [
+       "¡Qué lástima!",
+       "Significa: qué triste, qué decepción. No tiene que ver con sentir vergüenza. También: What a pity!",
+       "— No puedo ir a tu fiesta. — ¡Ay, qué lástima!"
+      ],
+      "fr": [
+       "Quel dommage !",
+       "Sens : c'est triste, c'est décevant. Rien à voir avec la honte. On dit aussi : What a pity!",
+       "— Je ne peux pas venir à ta fête. — Oh, quel dommage !"
+      ]
+     }
     ],
     [
      "Oh well.",
      "ထားလိုက်ပါတော့။",
      "Accepting something bad that you can't change. Calm, with a small shrug.",
      "It's raining. Oh well, we can stay home and cook.",
-     "မိုးရွာနေတယ်။ ထားလိုက်ပါတော့၊ အိမ်မှာပဲ ချက်ပြုတ်စားကြမယ်။"
+     "မိုးရွာနေတယ်။ ထားလိုက်ပါတော့၊ အိမ်မှာပဲ ချက်ပြုတ်စားကြမယ်။",
+     {
+      "es": [
+       "Ni modo.",
+       "Aceptas algo malo que no puedes cambiar. Tranquilo, encogiéndote un poco de hombros.",
+       "Está lloviendo. Ni modo, nos quedamos en casa a cocinar."
+      ],
+      "fr": [
+       "Tant pis.",
+       "On accepte quelque chose de fâcheux que l'on ne peut pas changer. Calme, avec un petit haussement d'épaules.",
+       "Il pleut. Tant pis, on reste à la maison et on cuisine."
+      ]
+     }
     ],
     [
      "Ugh!",
      "ဟာကွာ။",
      "Annoyed or disgusted. Casual: with friends, or to yourself.",
      "Ugh! The internet is down again.",
-     "ဟာကွာ။ အင်တာနက် ထပ်ပြတ်ပြန်ပြီ။"
+     "ဟာကွာ။ အင်တာနက် ထပ်ပြတ်ပြန်ပြီ။",
+     {
+      "es": [
+       "¡Uf!",
+       "Fastidio o asco. Informal: con amigos, o para ti mismo.",
+       "¡Uf! Otra vez se cayó el internet."
+      ],
+      "fr": [
+       "Pff !",
+       "Agacement ou dégoût. Familier : entre amis, ou pour soi-même.",
+       "Pff ! Internet est encore en panne."
+      ]
+     }
     ],
     [
      "Come on!",
      "ကဲပါကွာ။",
      "Two uses. Annoyed: Oh, come on! means That's not fair or Hurry up! Encouraging: Come on, you can do it!",
      "Come on! We'll be late!",
-     "ကဲပါကွာ။ နောက်ကျတော့မယ်။"
+     "ကဲပါကွာ။ နောက်ကျတော့မယ်။",
+     {
+      "es": [
+       "¡Vamos!",
+       "Dos usos. Molesto: Oh, come on! significa no es justo o ¡apúrate! Para animar: Come on, you can do it!",
+       "¡Vamos! ¡Se nos va a hacer tarde!"
+      ],
+      "fr": [
+       "Allez !",
+       "Deux emplois. Agacé : Oh, come on! veut dire ce n'est pas juste ou dépêche-toi ! Pour encourager : Come on, you can do it!",
+       "Allez ! On va être en retard !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Malas noticias y fastidio",
+     "Cuando las cosas salen mal, en grande o en pequeño."
+    ],
+    "fr": [
+     "Mauvaises nouvelles et agacement",
+     "Quand les choses tournent mal, un peu ou beaucoup."
+    ]
+   }
   },
   {
    "en": "Relief",
@@ -175,23 +436,69 @@
      "ဟူး။",
      "The sound of breathing out after a worry. Say it like a long breath.",
      "Phew! I found my passport.",
-     "ဟူး။ ပတ်စပို့ တွေ့ပြီ။"
+     "ဟူး။ ပတ်စပို့ တွေ့ပြီ။",
+     {
+      "es": [
+       "¡Uf, qué alivio!",
+       "El sonido de soltar el aire después de una preocupación. Dilo como un suspiro largo.",
+       "¡Uf! Encontré mi pasaporte."
+      ],
+      "fr": [
+       "Ouf !",
+       "Le bruit du souffle que l'on relâche après une inquiétude. Dites-le comme une longue expiration.",
+       "Ouf ! J'ai retrouvé mon passeport."
+      ]
+     }
     ],
     [
      "Thank goodness!",
      "တော်ပါသေးရဲ့။",
      "Something bad didn't happen. You'll also hear Thank God!",
      "Thank goodness you're safe!",
-     "မင်း ဘေးကင်းတာ တော်ပါသေးရဲ့။"
+     "မင်း ဘေးကင်းတာ တော်ပါသေးရဲ့။",
+     {
+      "es": [
+       "¡Menos mal!",
+       "Algo malo no pasó. También oirás Thank God!",
+       "¡Menos mal que estás a salvo!"
+      ],
+      "fr": [
+       "Dieu merci !",
+       "Quelque chose de fâcheux n'est pas arrivé. Vous entendrez aussi Thank God!",
+       "Dieu merci, tu es sain et sauf !"
+      ]
+     }
     ],
     [
      "What a relief!",
      "စိတ်အေးသွားပြီ။",
      "When a long worry ends: good test results, a safe arrival.",
      "— The doctor says it's nothing serious. — What a relief!",
-     "— ဆရာဝန်က ဘာမှ မဖြစ်ဘူးတဲ့။ — စိတ်အေးသွားပြီ။"
+     "— ဆရာဝန်က ဘာမှ မဖြစ်ဘူးတဲ့။ — စိတ်အေးသွားပြီ။",
+     {
+      "es": [
+       "¡Qué alivio!",
+       "Cuando termina una preocupación larga: buenos resultados de un examen, una llegada sin problemas.",
+       "— El médico dice que no es nada grave. — ¡Qué alivio!"
+      ],
+      "fr": [
+       "Quel soulagement !",
+       "Quand une longue inquiétude prend fin : de bons résultats d'analyses, une arrivée sans encombre.",
+       "— Le médecin dit que ce n'est rien de grave. — Quel soulagement !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Alivio",
+     "Cuando el peligro o la preocupación ya pasó."
+    ],
+    "fr": [
+     "Le soulagement",
+     "Quand le danger ou l'inquiétude est passé."
+    ]
+   }
   },
   {
    "en": "Warnings",
@@ -203,30 +510,88 @@
      "သတိ!",
      "Danger right now: a car, something falling. Also: Watch out!",
      "Look out! There's a car coming!",
-     "သတိ! ကား လာနေတယ်။"
+     "သတိ! ကား လာနေတယ်။",
+     {
+      "es": [
+       "¡Cuidado!",
+       "Peligro en este instante: un coche, algo que cae. También: Watch out!",
+       "¡Cuidado! ¡Viene un coche!"
+      ],
+      "fr": [
+       "Attention !",
+       "Danger immédiat : une voiture, quelque chose qui tombe. On dit aussi : Watch out!",
+       "Attention ! Une voiture arrive !"
+      ]
+     }
     ],
     [
      "Careful!",
      "သတိထားနော်။",
      "Less urgent: take care, go slowly. Also: Be careful!",
      "Careful! The floor is wet.",
-     "သတိထားနော်။ ကြမ်းပြင် စိုနေတယ်။"
+     "သတိထားနော်။ ကြမ်းပြင် စိုနေတယ်။",
+     {
+      "es": [
+       "¡Con cuidado!",
+       "Menos urgente: ten cuidado, ve despacio. También: Be careful!",
+       "¡Con cuidado! El piso está mojado."
+      ],
+      "fr": [
+       "Doucement !",
+       "Moins urgent : faites attention, allez lentement. On dit aussi : Be careful!",
+       "Doucement ! Le sol est mouillé."
+      ]
+     }
     ],
     [
      "Help!",
      "ကယ်ကြပါဦး။",
      "Shout it when you are in real danger. To ask for everyday help, say Can you help me, please?",
      "Help! Someone fell in the river!",
-     "ကယ်ကြပါဦး။ မြစ်ထဲ လူကျသွားတယ်။"
+     "ကယ်ကြပါဦး။ မြစ်ထဲ လူကျသွားတယ်။",
+     {
+      "es": [
+       "¡Auxilio!",
+       "Grítalo cuando estás en peligro de verdad. Para pedir ayuda cotidiana, di Can you help me, please?",
+       "¡Auxilio! ¡Alguien se cayó al río!"
+      ],
+      "fr": [
+       "Au secours !",
+       "Criez-le quand vous êtes vraiment en danger. Pour une aide ordinaire, dites Can you help me, please?",
+       "Au secours ! Quelqu'un est tombé dans la rivière !"
+      ]
+     }
     ],
     [
      "Stop!",
      "ရပ်!",
      "To stop someone right now: danger, or something that must not happen.",
      "Stop! Don't touch that, it's hot!",
-     "ရပ်! မကိုင်နဲ့၊ ပူတယ်။"
+     "ရပ်! မကိုင်နဲ့၊ ပူတယ်။",
+     {
+      "es": [
+       "¡Alto!",
+       "Para detener a alguien de inmediato: un peligro, o algo que no debe pasar.",
+       "¡Alto! ¡No toques eso, está caliente!"
+      ],
+      "fr": [
+       "Stop !",
+       "Pour arrêter quelqu'un sur-le-champ : un danger, ou quelque chose qui ne doit pas arriver.",
+       "Stop ! Ne touche pas à ça, c'est chaud !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Advertencias",
+     "Cortas y fuertes: cuando alguien está en peligro."
+    ],
+    "fr": [
+     "Les avertissements",
+     "Courts et sonores : quand quelqu'un est en danger."
+    ]
+   }
   },
   {
    "en": "For other people",
@@ -238,44 +603,126 @@
      "ဂုဏ်ယူပါတယ်။",
      "For good news: a new job, a wedding, a baby, passing an exam. Casual: Congrats!",
      "— We're getting married! — Congratulations!",
-     "— ကျွန်တော်တို့ လက်ထပ်တော့မယ်။ — ဂုဏ်ယူပါတယ်။"
+     "— ကျွန်တော်တို့ လက်ထပ်တော့မယ်။ — ဂုဏ်ယူပါတယ်။",
+     {
+      "es": [
+       "¡Felicidades!",
+       "Para buenas noticias: un trabajo nuevo, una boda, un bebé, aprobar un examen. Informal: Congrats!",
+       "— ¡Nos vamos a casar! — ¡Felicidades!"
+      ],
+      "fr": [
+       "Félicitations !",
+       "Pour les bonnes nouvelles : un nouveau travail, un mariage, un bébé, un examen réussi. Familier : Congrats!",
+       "— On va se marier ! — Félicitations !"
+      ]
+     }
     ],
     [
      "Well done!",
      "တော်လိုက်တာ။",
      "Praise for something someone did well. Americans often say Good job!, especially to children and students.",
      "You finished the race? Well done!",
-     "ပြိုင်ပွဲ ပြီးအောင် ပြေးနိုင်ခဲ့တယ်ဆို။ တော်လိုက်တာ။"
+     "ပြိုင်ပွဲ ပြီးအောင် ပြေးနိုင်ခဲ့တယ်ဆို။ တော်လိုက်တာ။",
+     {
+      "es": [
+       "¡Bien hecho!",
+       "Un elogio por algo que alguien hizo bien. Los estadounidenses suelen decir Good job!, sobre todo a niños y estudiantes.",
+       "¿Terminaste la carrera? ¡Bien hecho!"
+      ],
+      "fr": [
+       "Bravo !",
+       "Un compliment pour quelque chose de bien fait. Les Américains disent souvent Good job!, surtout aux enfants et aux élèves.",
+       "Tu as fini la course ? Bravo !"
+      ]
+     }
     ],
     [
      "Way to go!",
      "တော်တယ်ဟေ့။",
      "Casual and cheering, especially in American English: for friends, teammates and children who just did something good. Careful with your voice: said flat, it is sarcastic and means You made a mess of that.",
      "You passed your driving test? Way to go!",
-     "ကားမောင်းစာမေးပွဲ အောင်တယ်ဟုတ်လား။ တော်တယ်ဟေ့။"
+     "ကားမောင်းစာမေးပွဲ အောင်တယ်ဟုတ်လား။ တော်တယ်ဟေ့။",
+     {
+      "es": [
+       "¡Así se hace!",
+       "Informal y de ánimo, sobre todo en el inglés americano: para amigos, compañeros de equipo y niños que acaban de hacer algo bueno. Cuidado con la voz: dicho en tono plano es sarcástico y significa la regaste.",
+       "¿Pasaste tu examen de manejo? ¡Así se hace!"
+      ],
+      "fr": [
+       "Bien joué !",
+       "Familier et enthousiaste, surtout en anglais américain : pour les amis, les coéquipiers et les enfants qui viennent de réussir quelque chose. Attention au ton : dit d'une voix plate, c'est ironique et veut dire tu as tout raté.",
+       "Tu as eu ton permis de conduire ? Bien joué !"
+      ]
+     }
     ],
     [
      "Good luck!",
      "ကံကောင်းပါစေ။",
      "Before an exam, an interview, a game. Answer: Thanks! Also: Best of luck!",
      "Good luck with your interview tomorrow!",
-     "မနက်ဖြန် အင်တာဗျူးမှာ ကံကောင်းပါစေ။"
+     "မနက်ဖြန် အင်တာဗျူးမှာ ကံကောင်းပါစေ။",
+     {
+      "es": [
+       "¡Buena suerte!",
+       "Antes de un examen, una entrevista, un partido. Respuesta: Thanks! También: Best of luck!",
+       "¡Buena suerte en tu entrevista de mañana!"
+      ],
+      "fr": [
+       "Bonne chance !",
+       "Avant un examen, un entretien, un match. Réponse : Thanks! On dit aussi : Best of luck!",
+       "Bonne chance pour ton entretien de demain !"
+      ]
+     }
     ],
     [
      "Bless you!",
      "(နှာချေသူကို ပြောတဲ့ စကား)",
      "Say it when someone sneezes. English speakers expect it, and the answer is Thank you.",
      "— Achoo! — Bless you! — Thank you.",
-     "— ဟတ်ချိုး။ — (Bless you!) — ကျေးဇူးပါ။"
+     "— ဟတ်ချိုး။ — (Bless you!) — ကျေးဇူးပါ။",
+     {
+      "es": [
+       "¡Salud!",
+       "Dilo cuando alguien estornuda. Los angloparlantes lo esperan, y la respuesta es Thank you.",
+       "— ¡Achú! — ¡Salud! — Gracias."
+      ],
+      "fr": [
+       "À tes souhaits !",
+       "À dire quand quelqu'un éternue. Les anglophones s'y attendent, et l'on répond Thank you.",
+       "— Atchoum ! — À tes souhaits ! — Merci."
+      ]
+     }
     ],
     [
      "Cheers!",
      "ချီးယားစ်။",
      "When you lift your glasses together before drinking. In British English it also means thanks or bye.",
      "To our new home. Cheers!",
-     "အိမ်သစ်အတွက်။ ချီးယားစ်။"
+     "အိမ်သစ်အတွက်။ ချီးယားစ်။",
+     {
+      "es": [
+       "¡Salud!",
+       "Cuando levantan las copas juntos antes de beber. En inglés británico también significa gracias o adiós.",
+       "Por nuestra casa nueva. ¡Salud!"
+      ],
+      "fr": [
+       "Santé !",
+       "Quand on lève son verre ensemble avant de boire. En anglais britannique, cela veut dire aussi merci ou salut.",
+       "À notre nouvelle maison. Santé !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Para los demás",
+     "Palabras rápidas para los momentos grandes y pequeños de los demás."
+    ],
+    "fr": [
+     "Pour les autres",
+     "Des mots rapides pour les grands et les petits moments des autres."
+    ]
+   }
   }
  ],
  "quiz": [
@@ -317,6 +764,24 @@
      "danger",
      "Help! is for when you are in danger yourself."
     ]
+   },
+   "tr": {
+    "es": {
+     "my": "Un coche viene muy rápido. Tu amigo se baja a la calle.",
+     "wrong": {
+      "Careful!": "Careful! es para ir despacio. Un coche viene en este momento: grita Look out!",
+      "Oops!": "Oops! es para un error pequeño, después de que pasa.",
+      "Help!": "Help! es para cuando tú mismo estás en peligro."
+     }
+    },
+    "fr": {
+     "my": "Une voiture arrive à toute vitesse. Votre ami s'engage sur la chaussée.",
+     "wrong": {
+      "Careful!": "Careful! invite à aller doucement. Une voiture arrive à l'instant : criez Look out!",
+      "Oops!": "Oops! est pour une petite erreur, une fois qu'elle est faite.",
+      "Help!": "Help! est pour quand vous êtes vous-même en danger."
+     }
+    }
    }
   },
   {
@@ -334,6 +799,22 @@
      "Bless you! is only for when someone sneezes."
     ],
     "What a shame!": "feeling"
+   },
+   "tr": {
+    "es": {
+     "my": "Tu amiga aprobó su examen.",
+     "wrong": {
+      "Good luck!": "Good luck! es antes del examen. Después de una buena noticia, di Congratulations!",
+      "Bless you!": "Bless you! es solo para cuando alguien estornuda."
+     }
+    },
+    "fr": {
+     "my": "Votre amie a réussi son examen.",
+     "wrong": {
+      "Good luck!": "Good luck! se dit avant l'examen. Après une bonne nouvelle, dites Congratulations!",
+      "Bless you!": "Bless you! se dit seulement quand quelqu'un éternue."
+     }
+    }
    }
   },
   {
@@ -342,7 +823,15 @@
    "my": "သူဌေးက ကန်ထရိုက်အသစ် ရပြီလို့ ပြောတယ်။",
    "phrase": "Congratulations!",
    "ok": true,
-   "tag": "moment"
+   "tag": "moment",
+   "tr": {
+    "es": {
+     "my": "Tu jefe te dice que consiguió el contrato nuevo."
+    },
+    "fr": {
+     "my": "Votre supérieur vous annonce qu'il a décroché le nouveau contrat."
+    }
+   }
   },
   {
    "type": "say",
@@ -362,6 +851,24 @@
      "meaning",
      "Cheers! is for lifting glasses before drinking."
     ]
+   },
+   "tr": {
+    "es": {
+     "my": "Tu amiga tiene una entrevista de trabajo mañana.",
+     "wrong": {
+      "Congratulations!": "Congratulations! es para después de una buena noticia. Todavía no ha tenido la entrevista.",
+      "Well done!": "Well done! es un elogio después de que alguien hizo algo bien.",
+      "Cheers!": "Cheers! es para levantar las copas antes de beber."
+     }
+    },
+    "fr": {
+     "my": "Votre amie a un entretien d'embauche demain.",
+     "wrong": {
+      "Congratulations!": "Congratulations! vient après une bonne nouvelle. Elle n'a pas encore passé l'entretien.",
+      "Well done!": "Well done! est un compliment après que quelqu'un a bien fait quelque chose.",
+      "Cheers!": "Cheers! se dit en levant son verre avant de boire."
+     }
+    }
    }
   },
   {
@@ -373,6 +880,18 @@
      "words",
      "What a relief! Relief starts with an r sound, so it is a, not an."
     ]
+   },
+   "tr": {
+    "es": {
+     "decoys": {
+      "an": "What a relief! Relief empieza con sonido de r, así que lleva a, no an."
+     }
+    },
+    "fr": {
+     "decoys": {
+      "an": "What a relief! Relief commence par le son r, donc c'est a, pas an."
+     }
+    }
    }
   },
   {
@@ -393,6 +912,24 @@
      "feeling",
      "A sneeze is not a shock. English speakers say Bless you!"
     ]
+   },
+   "tr": {
+    "es": {
+     "my": "La señora que va a tu lado en el autobús estornuda.",
+     "wrong": {
+      "Cheers!": "Cheers! es para levantar las copas antes de beber.",
+      "Good luck!": "Good luck! es antes de un examen, una entrevista o un partido.",
+      "Oh my gosh!": "Un estornudo no es un susto. Los angloparlantes dicen Bless you!"
+     }
+    },
+    "fr": {
+     "my": "Dans le bus, la dame à côté de vous éternue.",
+     "wrong": {
+      "Cheers!": "Cheers! se dit en levant son verre avant de boire.",
+      "Good luck!": "Good luck! se dit avant un examen, un entretien ou un match.",
+      "Oh my gosh!": "Un éternuement n'est pas un choc. Les anglophones disent Bless you!"
+     }
+    }
    }
   },
   {
@@ -402,7 +939,17 @@
    "phrase": "Oh well.",
    "ok": false,
    "tag": "feeling",
-   "note": "Oh well. sounds like you don't care. It is for small things in your own life that you can't change. For a friend's bad news, say Oh no! or I'm so sorry."
+   "note": "Oh well. sounds like you don't care. It is for small things in your own life that you can't change. For a friend's bad news, say Oh no! or I'm so sorry.",
+   "tr": {
+    "es": {
+     "my": "Tu amiga te dice que su abuela está muy enferma.",
+     "note": "Oh well. suena a que no te importa. Es para cosas pequeñas de tu propia vida que no puedes cambiar. Ante la mala noticia de un amigo, di Oh no! o I'm so sorry."
+    },
+    "fr": {
+     "my": "Votre amie vous dit que sa grand-mère est très malade.",
+     "note": "Oh well. donne l'impression que cela vous est égal. C'est pour les petites choses de votre propre vie que vous ne pouvez pas changer. Devant la mauvaise nouvelle d'un ami, dites Oh no! ou I'm so sorry."
+    }
+   }
   },
   {
    "type": "say",
@@ -422,6 +969,24 @@
      "feeling",
      "Yay! is for happiness."
     ]
+   },
+   "tr": {
+    "es": {
+     "my": "Tiras tu taza y se derrama un poco de té en la mesa.",
+     "wrong": {
+      "Ouch!": "Ouch! es para el dolor. No te duele nada: es un accidente pequeño.",
+      "Help!": "Help! es para un peligro de verdad, no para un poco de té derramado.",
+      "Yay!": "Yay! es para la alegría."
+     }
+    },
+    "fr": {
+     "my": "Vous renversez votre tasse et un peu de thé coule sur la table.",
+     "wrong": {
+      "Ouch!": "Ouch! exprime la douleur. Rien ne fait mal : c'est un petit accident.",
+      "Help!": "Help! est pour un vrai danger, pas pour un peu de thé renversé.",
+      "Yay!": "Yay! exprime la joie."
+     }
+    }
    }
   },
   {
@@ -433,6 +998,18 @@
      "words",
      "You're already has are in it: You're kidding!"
     ]
+   },
+   "tr": {
+    "es": {
+     "decoys": {
+      "are": "You're ya incluye are: You're kidding!"
+     }
+    },
+    "fr": {
+     "decoys": {
+      "are": "You're contient déjà are : You're kidding!"
+     }
+    }
    }
   },
   {
@@ -453,6 +1030,24 @@
      "feeling",
      "Uh-oh. is for trouble you can see coming."
     ]
+   },
+   "tr": {
+    "es": {
+     "my": "El médico dice que los análisis de tu mamá salieron bien. Estuviste preocupado toda la semana.",
+     "wrong": {
+      "What a shame!": "What a shame! es para noticias tristes o decepcionantes. Esta es una buena noticia después de una larga preocupación.",
+      "Oh well.": "Oh well. acepta algo malo que no puedes cambiar.",
+      "Uh-oh.": "Uh-oh. es para un problema que ves venir."
+     }
+    },
+    "fr": {
+     "my": "Le médecin dit que les analyses de votre mère sont bonnes. Vous étiez inquiet toute la semaine.",
+     "wrong": {
+      "What a shame!": "What a shame! est pour une nouvelle triste ou décevante. Ici, c'est une bonne nouvelle après une longue inquiétude.",
+      "Oh well.": "Oh well. accepte quelque chose de fâcheux que l'on ne peut pas changer.",
+      "Uh-oh.": "Uh-oh. est pour des ennuis que l'on voit venir."
+     }
+    }
    }
   },
   {
@@ -461,7 +1056,15 @@
    "my": "သူငယ်ချင်းတွေနဲ့ ညစာစားနေတယ်။ အားလုံး ခွက်မြှောက်ကြတယ်။",
    "phrase": "Cheers!",
    "ok": true,
-   "tag": "meaning"
+   "tag": "meaning",
+   "tr": {
+    "es": {
+     "my": "Estás cenando con amigos. Todos levantan su copa."
+    },
+    "fr": {
+     "my": "Vous dînez avec des amis. Tout le monde lève son verre."
+    }
+   }
   },
   {
    "type": "say",
@@ -481,6 +1084,24 @@
      "feeling",
      "Awesome! is for good news."
     ]
+   },
+   "tr": {
+    "es": {
+     "my": "Está lloviendo. Tu amigo dice que se canceló el picnic.",
+     "wrong": {
+      "Shame on you!": "What a shame! no tiene que ver con sentir vergüenza. Shame on you! culpa a la persona. Ante una noticia triste, di What a shame!",
+      "Thank goodness!": "Thank goodness! es para cuando algo malo no pasó.",
+      "Awesome!": "Awesome! es para buenas noticias."
+     }
+    },
+    "fr": {
+     "my": "Il pleut. Votre ami annonce que le pique-nique est annulé.",
+     "wrong": {
+      "Shame on you!": "What a shame! n'a rien à voir avec la honte. Shame on you! accuse la personne. Devant une nouvelle triste, dites What a shame!",
+      "Thank goodness!": "Thank goodness! est pour quand quelque chose de fâcheux n'est pas arrivé.",
+      "Awesome!": "Awesome! est pour les bonnes nouvelles."
+     }
+    }
    }
   },
   {
@@ -490,7 +1111,17 @@
    "phrase": "Ugh!",
    "ok": false,
    "tag": "register",
-   "note": "Ugh! is casual: with friends, or to yourself. Said to a teacher, it is rude."
+   "note": "Ugh! is casual: with friends, or to yourself. Said to a teacher, it is rude.",
+   "tr": {
+    "es": {
+     "my": "Tu maestra le deja mucha tarea a la clase. Tú le respondes.",
+     "note": "Ugh! es informal: con amigos, o para ti mismo. Dicho a una maestra, es grosero."
+    },
+    "fr": {
+     "my": "Votre professeure donne beaucoup de devoirs à la classe. Vous lui répondez.",
+     "note": "Ugh! est familier : entre amis, ou pour soi-même. Dit à une professeure, c'est impoli."
+    }
+   }
   },
   {
    "type": "build",
@@ -501,6 +1132,18 @@
      "words",
      "It is Thank goodness!, without s."
     ]
+   },
+   "tr": {
+    "es": {
+     "decoys": {
+      "thanks": "Es Thank goodness!, sin s."
+     }
+    },
+    "fr": {
+     "decoys": {
+      "thanks": "C'est Thank goodness!, sans s."
+     }
+    }
    }
   },
   {
@@ -521,6 +1164,24 @@
      "feeling",
      "Oh well. accepts something bad."
     ]
+   },
+   "tr": {
+    "es": {
+     "my": "Tu amiga dice que se ganó un viaje gratis a Bagan.",
+     "wrong": {
+      "What a shame!": "What a shame! es para noticias tristes o decepcionantes.",
+      "Look out!": "Look out! es una advertencia de peligro.",
+      "Oh well.": "Oh well. acepta algo malo."
+     }
+    },
+    "fr": {
+     "my": "Votre amie dit qu'elle a gagné un voyage gratuit à Bagan.",
+     "wrong": {
+      "What a shame!": "What a shame! est pour une nouvelle triste ou décevante.",
+      "Look out!": "Look out! est un avertissement de danger.",
+      "Oh well.": "Oh well. accepte quelque chose de fâcheux."
+     }
+    }
    }
   },
   {
@@ -529,12 +1190,32 @@
    "my": "ကလေးလေးတစ်ယောက်က သူဆွဲထားတဲ့ ပုံကို ပြတယ်။",
    "phrase": "Well done!",
    "ok": true,
-   "tag": "moment"
+   "tag": "moment",
+   "tr": {
+    "es": {
+     "my": "Un niño pequeño te enseña el dibujo que hizo."
+    },
+    "fr": {
+     "my": "Un petit garçon vous montre le dessin qu'il a fait."
+    }
+   }
   }
  ],
  "quizTags": {
-  "feeling": "Match the feeling: surprise, happiness, pain, bad news or relief.",
-  "danger": "How urgent is it? Look out! and Stop! are for danger right now.",
-  "moment": "Check the moment: before it happens (Good luck!) or after (Congratulations! Well done!)."
+  "feeling": {
+   "my": "Match the feeling: surprise, happiness, pain, bad news or relief.",
+   "es": "Elige según el sentimiento: sorpresa, alegría, dolor, mala noticia o alivio.",
+   "fr": "Choisissez selon l'émotion : surprise, joie, douleur, mauvaise nouvelle ou soulagement."
+  },
+  "danger": {
+   "my": "How urgent is it? Look out! and Stop! are for danger right now.",
+   "es": "¿Qué tan urgente es? Look out! y Stop! son para un peligro en este instante.",
+   "fr": "Est-ce urgent ? Look out! et Stop! sont pour un danger immédiat."
+  },
+  "moment": {
+   "my": "Check the moment: before it happens (Good luck!) or after (Congratulations! Well done!).",
+   "es": "Revisa el momento: antes de que pase (Good luck!) o después (Congratulations! Well done!).",
+   "fr": "Vérifiez le moment : avant que cela arrive (Good luck!) ou après (Congratulations! Well done!)."
+  }
  }
 }

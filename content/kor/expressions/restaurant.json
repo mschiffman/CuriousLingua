@@ -4,14 +4,20 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 7,
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. The Burmese explanations are drafts by Claude: check them. Check before recording audio.",
  "related": [
   "kor/listening/cafe"
  ],
  "aud_dir": "kor/expressions/restaurant/",
  "aud_ext": "mp3?v=2611241406",
- "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "voice": {
+  "narrator": "FSDPAI7v5T7eeHsoRc5N"
+ },
  "categories": [
   {
    "en": "Arriving",
@@ -23,30 +29,61 @@
      "Two people.",
      "두 명이에요.\n\nThe answer to Myeot buniseyo? (How many?) One: han myeong. Three: se myeong.",
      "Eoseo oseyo. Myeot buniseyo? — Du myeongieyo.\n어서 오세요. 몇 분이세요? — 두 명이에요.",
-     "Welcome. How many? — Two."
+     "Welcome. How many? — Two.",
+     {
+      "my": [
+       "နှစ်ယောက်ပါ။",
+       "두 명이에요.\n\nMyeot buniseyo? (ဘယ်နှစ်ယောက်လဲ။) ဆိုတဲ့ မေးခွန်းရဲ့ အဖြေပါ။ တစ်ယောက်: han myeong။ သုံးယောက်: se myeong။",
+       "ကြိုဆိုပါတယ်။ ဘယ်နှစ်ယောက်လဲ။ — နှစ်ယောက်ပါ။"
+      ]
+     }
     ],
     [
      "Yeogiyo!",
      "Excuse me!",
      "여기요!\n\n'Over here!' How you call the staff: it is not rude. Also Jeogiyo!",
      "Yeogiyo! Jumunhalgeyo.\n여기요! 주문할게요.",
-     "Excuse me! We'd like to order."
+     "Excuse me! We'd like to order.",
+     {
+      "my": [
+       "တဆိတ်လောက်။",
+       "여기요!\n\n'ဒီမှာ' လို့ အဓိပ္ပာယ်ရတယ်။ ဝန်ထမ်းကို ခေါ်တဲ့နည်းပါ၊ မရိုင်းပါဘူး။ Jeogiyo! လို့လည်း ခေါ်နိုင်တယ်။",
+       "တဆိတ်လောက်။ မှာချင်လို့ပါ။"
+      ]
+     }
     ],
     [
      "Menyupan juseyo.",
      "The menu, please.",
      "메뉴판 주세요.\n\nMenyupan: the menu card.",
      "Yeongeo menyupan isseoyo?\n영어 메뉴판 있어요?",
-     "Do you have an English menu?"
+     "Do you have an English menu?",
+     {
+      "my": [
+       "မီနူး ပေးပါ။",
+       "메뉴판 주세요.\n\nMenyupan: မီနူးစာရွက်။",
+       "အင်္ဂလိပ်လို မီနူး ရှိလား။"
+      ]
+     }
     ],
     [
      "Mwoga masisseoyo?",
      "What's good here?",
      "뭐가 맛있어요?\n\nThe natural way to ask for a recommendation.",
      "Yeogi mwoga masisseoyo? — Bibimbabi masisseoyo.\n여기 뭐가 맛있어요? — 비빔밥이 맛있어요.",
-     "What's good here? — The bibimbap is good."
+     "What's good here? — The bibimbap is good.",
+     {
+      "my": [
+       "ဒီဆိုင်မှာ ဘာကောင်းလဲ။",
+       "뭐가 맛있어요?\n\nဘာကောင်းလဲလို့ သဘာဝကျကျ မေးတဲ့နည်းပါ။",
+       "ဒီဆိုင်မှာ ဘာကောင်းလဲ။ — ဘီဘင်ဘပ် ကောင်းတယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ဆိုင်ရောက်ချိန်"
+   }
   },
   {
    "en": "Ordering",
@@ -58,30 +95,61 @@
      "One of these, please.",
      "이거 하나 주세요.\n\nHana, dul, set: one, two, three things.",
      "Gimbap du jul juseyo.\n김밥 두 줄 주세요.",
-     "Two rolls of gimbap, please."
+     "Two rolls of gimbap, please.",
+     {
+      "my": [
+       "ဒါ တစ်ခု ပေးပါ။",
+       "이거 하나 주세요.\n\nHana, dul, set: တစ်ခု၊ နှစ်ခု၊ သုံးခု။",
+       "ဂင်မ်ဘပ် နှစ်လိပ် ပေးပါ။"
+      ]
+     }
     ],
     [
      "Jeoneun bibimbabeuro halgeyo.",
      "I'll have the bibimbap.",
      "저는 비빔밥으로 할게요.\n\nA dish + -ro or -euro halgeyo: I'll have…",
      "Mwo deusigesseoyo? — Jeoneun naengmyeoneuro halgeyo.\n뭐 드시겠어요? — 저는 냉면으로 할게요.",
-     "What will you have? — I'll have the cold noodles."
+     "What will you have? — I'll have the cold noodles.",
+     {
+      "my": [
+       "ဘီဘင်ဘပ် ယူမယ်။",
+       "저는 비빔밥으로 할게요.\n\nဟင်းပွဲ + -ro ဒါမှမဟုတ် -euro halgeyo: …ယူမယ်။",
+       "ဘာ မှာမလဲ။ — ခေါက်ဆွဲအေး ယူမယ်။"
+      ]
+     }
     ],
     [
      "An maepge hae juseyo.",
      "Not spicy, please.",
      "안 맵게 해 주세요.\n\nMaewoyo: it's spicy.",
      "Igeo maewoyo? An maepge hae juseyo.\n이거 매워요? 안 맵게 해 주세요.",
-     "Is this spicy? Not spicy, please."
+     "Is this spicy? Not spicy, please.",
+     {
+      "my": [
+       "မစပ်အောင် လုပ်ပေးပါ။",
+       "안 맵게 해 주세요.\n\nMaewoyo: စပ်တယ်။",
+       "ဒါ စပ်လား။ မစပ်အောင် လုပ်ပေးပါ။"
+      ]
+     }
     ],
     [
      "Mul jom juseyo.",
      "Some water, please.",
      "물 좀 주세요.\n\nWater and side dishes (banchan) are free, and so are refills.",
      "Yeogiyo, banchan jom deo juseyo.\n여기요, 반찬 좀 더 주세요.",
-     "Excuse me, some more side dishes, please."
+     "Excuse me, some more side dishes, please.",
+     {
+      "my": [
+       "ရေ နည်းနည်း ပေးပါ။",
+       "물 좀 주세요.\n\nရေနဲ့ အရံဟင်း (banchan) တွေက အခမဲ့ပါ။ ထပ်တောင်းလည်း အခမဲ့ပါပဲ။",
+       "တဆိတ်လောက်၊ အရံဟင်း နည်းနည်း ထပ်ပေးပါ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "မှာခြင်း"
+   }
   },
   {
    "en": "Eating and paying",
@@ -93,30 +161,61 @@
      "It's delicious.",
      "맛있어요.\n\nThe word every cook wants to hear.",
      "I guk, jeongmal masisseoyo.\n이 국, 정말 맛있어요.",
-     "This soup is really delicious."
+     "This soup is really delicious.",
+     {
+      "my": [
+       "အရသာရှိတယ်။",
+       "맛있어요.\n\nချက်တဲ့သူတိုင်း ကြားချင်တဲ့ စကားပါ။",
+       "ဒီဟင်းချို တကယ် အရသာရှိတယ်။"
+      ]
+     }
     ],
     [
      "Gyesanhae juseyo.",
      "The bill, please.",
      "계산해 주세요.\n\nYou usually pay at the counter by the door on your way out.",
      "Yeogiyo, gyesanhae juseyo.\n여기요, 계산해 주세요.",
-     "Excuse me, the bill, please."
+     "Excuse me, the bill, please.",
+     {
+      "my": [
+       "ငွေရှင်းမယ်။",
+       "계산해 주세요.\n\nဆိုင်က ထွက်ခါနီး တံခါးဝနားက ကောင်တာမှာ ငွေရှင်းရတာ များတယ်။",
+       "တဆိတ်လောက်၊ ငွေရှင်းမယ်။"
+      ]
+     }
     ],
     [
      "Ttaro gyesanhae juseyo.",
      "Separate bills, please.",
      "따로 계산해 주세요.\n\nTogether: gachi.",
      "Gachi gyesanhasigesseoyo? — Ttaro gyesanhae juseyo.\n같이 계산하시겠어요? — 따로 계산해 주세요.",
-     "Are you paying together? — Separately, please."
+     "Are you paying together? — Separately, please.",
+     {
+      "my": [
+       "သီးသန့်စီ ရှင်းမယ်။",
+       "따로 계산해 주세요.\n\nအတူတူ: gachi။",
+       "အတူတူ ရှင်းမှာလား။ — သီးသန့်စီ ရှင်းမယ်။"
+      ]
+     }
     ],
     [
      "Pojanghae juseyo.",
      "To take away, please.",
      "포장해 주세요.\n\nEating in: Meokgo galgeyo.",
      "Deusigo gaseyo? — Pojanghae juseyo.\n드시고 가세요? — 포장해 주세요.",
-     "Are you eating here? — To take away, please."
+     "Are you eating here? — To take away, please.",
+     {
+      "my": [
+       "ပါဆယ် ယူမယ်။",
+       "포장해 주세요.\n\nဆိုင်မှာ စားမယ်: Meokgo galgeyo။",
+       "ဒီမှာ စားမှာလား။ — ပါဆယ် ယူမယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "စားခြင်းနှင့် ငွေရှင်းခြင်း"
+   }
   }
  ]
 }

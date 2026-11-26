@@ -4,11 +4,17 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 2,
- "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. The Burmese explanations are drafts by Claude: check them. Check before recording audio.",
  "aud_dir": "jap/expressions/thank/",
  "aud_ext": "mp3?v=2611241358",
- "voice": {"narrator": "v91rKRL5eccBa78cK3jT"},
+ "voice": {
+  "narrator": "v91rKRL5eccBa78cK3jT"
+ },
  "categories": [
   {
    "en": "Saying thank you",
@@ -20,30 +26,61 @@
      "Thank you.",
      "ありがとうございます。\n\nThe safe, polite thank you, for anyone.",
      "Tetsudatte kurete, arigatō gozaimasu.\n手伝ってくれて、ありがとうございます。",
-     "Thank you for helping me."
+     "Thank you for helping me.",
+     {
+      "my": [
+       "ကျေးဇူးတင်ပါတယ်။",
+       "ありがとうございます。\n\nဘယ်သူ့ကိုမဆို သုံးလို့ရတဲ့ စိတ်ချရပြီး ယဉ်ကျေးတဲ့ ကျေးဇူးတင်စကားပါ။",
+       "ကူညီပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။"
+      ]
+     }
     ],
     [
      "Arigatō.",
      "Thanks.",
      "ありがとう。\n\nCasual: friends and family only.",
      "Purezento, arigatō!\nプレゼント、ありがとう！",
-     "Thanks for the present!"
+     "Thanks for the present!",
+     {
+      "my": [
+       "ကျေးဇူးပဲ။",
+       "ありがとう。\n\nရင်းနှီးတဲ့ စကားပါ။ သူငယ်ချင်းနဲ့ မိသားစုကိုပဲ သုံးတယ်။",
+       "လက်ဆောင်အတွက် ကျေးဇူးပဲ။"
+      ]
+     }
     ],
     [
      "Dōmo arigatō gozaimasu.",
      "Thank you very much.",
      "どうもありがとうございます。\n\nDōmo makes it warmer. Dōmo on its own is a quick, light thanks.",
      "Kyō wa dōmo arigatō gozaimashita.\n今日はどうもありがとうございました。",
-     "Thank you very much for today."
+     "Thank you very much for today.",
+     {
+      "my": [
+       "ကျေးဇူးအများကြီး တင်ပါတယ်။",
+       "どうもありがとうございます。\n\nDōmo ထည့်ရင် ပိုနွေးထွေးတယ်။ Dōmo တစ်လုံးတည်းဆိုရင် မြန်မြန်ပေါ့ပေါ့ ကျေးဇူးတင်တာပါ။",
+       "ဒီနေ့အတွက် ကျေးဇူးအများကြီး တင်ပါတယ်။"
+      ]
+     }
     ],
     [
      "Arigatō gozaimashita.",
      "Thank you (for what you did).",
      "ありがとうございました。\n\nThe past form: the help or the service is over, as when you leave a shop or a class.",
      "Sensei, arigatō gozaimashita.\n先生、ありがとうございました。",
-     "Thank you, teacher."
+     "Thank you, teacher.",
+     {
+      "my": [
+       "ကျေးဇူးတင်ပါတယ်။ (လုပ်ပေးပြီးသားအတွက်)",
+       "ありがとうございました。\n\nအတိတ်ပုံစံပါ။ အကူအညီ၊ ဝန်ဆောင်မှု ပြီးသွားတဲ့အခါ သုံးတယ်။ ဥပမာ ဆိုင်က ထွက်တဲ့အခါ၊ အတန်းပြီးတဲ့အခါ။",
+       "ကျေးဇူးတင်ပါတယ် ဆရာ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ကျေးဇူးတင်ခြင်း"
+   }
   },
   {
    "en": "Answering thanks",
@@ -55,30 +92,61 @@
      "You're welcome.",
      "どういたしまして。\n\nThe textbook answer. A little formal in daily life.",
      "Arigatō gozaimasu. — Dō itashimashite.\nありがとうございます。— どういたしまして。",
-     "Thank you. — You're welcome."
+     "Thank you. — You're welcome.",
+     {
+      "my": [
+       "ရပါတယ်။",
+       "どういたしまして。\n\nစာအုပ်ထဲက အဖြေပါ။ နေ့စဉ်သုံးမှာတော့ နည်းနည်း တရားဝင်ဆန်တယ်။",
+       "ကျေးဇူးတင်ပါတယ်။ — ရပါတယ်။"
+      ]
+     }
     ],
     [
      "Iie, iie.",
      "Not at all.",
      "いいえ、いいえ。\n\nLiterally 'no, no': the modest everyday answer.",
      "Tasukarimashita. — Iie, iie.\n助かりました。— いいえ、いいえ。",
-     "You were a great help. — Not at all."
+     "You were a great help. — Not at all.",
+     {
+      "my": [
+       "ဘာမှ မဟုတ်ပါဘူး။",
+       "いいえ、いいえ。\n\nစာလုံးအတိုင်းဆိုရင် 'မဟုတ်ပါဘူး၊ မဟုတ်ပါဘူး'။ နှိမ့်နှိမ့်ချချ ပြန်ဖြေတဲ့ နေ့စဉ်သုံး စကားပါ။",
+       "အများကြီး အကူအညီ ရပါတယ်။ — ဘာမှ မဟုတ်ပါဘူး။"
+      ]
+     }
     ],
     [
      "Kochira koso.",
      "The pleasure is mine.",
      "こちらこそ。\n\n'It is I who should thank you.' It hands the thanks back.",
      "Kyō wa arigatō gozaimashita. — Kochira koso.\n今日はありがとうございました。— こちらこそ。",
-     "Thank you for today. — Thank you."
+     "Thank you for today. — Thank you.",
+     {
+      "my": [
+       "ကျွန်တော်/ကျွန်မကသာ ကျေးဇူးတင်ရမှာပါ။",
+       "こちらこそ。\n\n'ကျေးဇူးတင်ရမှာက ကျွန်တော်/ကျွန်မပါ' လို့ အဓိပ္ပာယ်ရတယ်။ ကျေးဇူးတင်စကားကို ပြန်ပေးတာပါ။",
+       "ဒီနေ့အတွက် ကျေးဇူးတင်ပါတယ်။ — ကျွန်တော်ကသာ ကျေးဇူးတင်ရမှာပါ။"
+      ]
+     }
     ],
     [
      "Tondemo nai desu.",
      "Not at all.",
      "とんでもないです。\n\nStronger and more polite than iie: 'far from it'.",
      "Hontō ni arigatō gozaimashita. — Tondemo nai desu.\n本当にありがとうございました。— とんでもないです。",
-     "Thank you so much. — Not at all."
+     "Thank you so much. — Not at all.",
+     {
+      "my": [
+       "ဘာမှ မဟုတ်ပါဘူး။",
+       "とんでもないです。\n\niie ထက် ပိုပြင်းပြီး ပိုယဉ်ကျေးတယ်။ 'အဲဒီလို လုံးဝ မဟုတ်ပါဘူး' လို့ အဓိပ္ပာယ်ရတယ်။",
+       "ကျေးဇူးအများကြီး တင်ပါတယ်။ — ဘာမှ မဟုတ်ပါဘူး။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ကျေးဇူးတင်စကားကို ပြန်ဖြေခြင်း"
+   }
   },
   {
    "en": "Thanks in daily life",
@@ -90,30 +158,61 @@
      "Thank you (for your trouble).",
      "すみません。\n\nJapanese often thank with 'sorry', when someone has gone out of their way for you.",
      "A, sumimasen.\nあ、すみません。",
-     "Oh, thank you. (someone picks up what you dropped)"
+     "Oh, thank you. (someone picks up what you dropped)",
+     {
+      "my": [
+       "ကျေးဇူးပါ။ (အပင်ပန်းခံပေးတဲ့အတွက်)",
+       "すみません。\n\nကိုယ့်အတွက် အပင်ပန်းခံပေးတဲ့သူကို ဂျပန်လူမျိုးတွေက 'တောင်းပန်ပါတယ်' ဆိုတဲ့ စကားနဲ့ ကျေးဇူးတင်လေ့ရှိတယ်။",
+       "အို၊ ကျေးဇူးပါ။ (ကိုယ်ချထားမိတာကို တစ်ယောက်ယောက်က ကောက်ပေးတဲ့အခါ)"
+      ]
+     }
     ],
     [
      "Tasukarimashita.",
      "That was a great help.",
      "助かりました。\n\n'I was saved.' After someone has helped you.",
      "Hontō ni tasukarimashita.\n本当に助かりました。",
-     "You really helped me out."
+     "You really helped me out.",
+     {
+      "my": [
+       "အများကြီး အကူအညီ ရပါတယ်။",
+       "助かりました。\n\n'ကယ်တင်ခံရပါတယ်' လို့ အဓိပ္ပာယ်ရတယ်။ တစ်ယောက်ယောက်က ကူညီပေးပြီးတဲ့အခါ ပြောတယ်။",
+       "တကယ်ကို အကူအညီ ရခဲ့ပါတယ်။"
+      ]
+     }
     ],
     [
      "Itadakimasu.",
      "(said before eating)",
      "いただきます。\n\n'I humbly receive.' Said before every meal: thanks for the food.",
      "Oishisō! Itadakimasu.\nおいしそう！いただきます。",
-     "That looks delicious! Let's eat."
+     "That looks delicious! Let's eat.",
+     {
+      "my": [
+       "(မစားခင် ပြောတဲ့စကား)",
+       "いただきます。\n\n'ရိုရိုသေသေ လက်ခံပါတယ်' လို့ အဓိပ္ပာယ်ရတယ်။ ထမင်းမစားခင်တိုင်း ပြောတယ်။ အစားအစာအတွက် ကျေးဇူးတင်တာပါ။",
+       "စားချင်စရာလေး။ စားကြရအောင်။"
+      ]
+     }
     ],
     [
      "Gochisōsama deshita.",
      "Thank you for the meal.",
      "ごちそうさまでした。\n\nSaid after eating: to the cook, to your host, or to the restaurant staff as you leave.",
      "Gochisōsama deshita. Oishikatta desu.\nごちそうさまでした。おいしかったです。",
-     "Thank you for the meal. It was delicious."
+     "Thank you for the meal. It was delicious.",
+     {
+      "my": [
+       "ကျွေးတာ ကျေးဇူးတင်ပါတယ်။",
+       "ごちそうさまでした。\n\nစားပြီးတဲ့အခါ ပြောတယ်။ ချက်ပေးတဲ့သူ၊ ဧည့်ခံတဲ့အိမ်ရှင်၊ ဒါမှမဟုတ် ဆိုင်က ထွက်တဲ့အခါ ဆိုင်ဝန်ထမ်းတွေကို ပြောတယ်။",
+       "ကျွေးတာ ကျေးဇူးတင်ပါတယ်။ အရသာရှိလိုက်တာ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "နေ့စဉ်ဘဝထဲက ကျေးဇူးတင်စကား"
+   }
   }
  ]
 }

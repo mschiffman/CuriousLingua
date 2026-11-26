@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/apology.html",
  "aud_dir": "eng/expressions/apology/",
  "aud_ext": "mp3?v=2611090823",
@@ -21,37 +26,107 @@
      "ဆောရီး။",
      "Quick and everyday: you bump into someone, step on a foot, or make a small mistake. English speakers say it all the time, even when it isn't really their fault.",
      "Oops, sorry! Was that your foot?",
-     "အို ဆောရီး။ ခြေထောက်ကို တက်နင်းမိသွားလား။"
+     "အို ဆောရီး။ ခြေထောက်ကို တက်နင်းမိသွားလား။",
+     {
+      "es": [
+       "¡Perdón!",
+       "Rápido y de todos los días: chocas con alguien, pisas un pie o cometes un error pequeño. Los angloparlantes lo dicen todo el tiempo, aun cuando no es realmente su culpa.",
+       "¡Uy, perdón! ¿Ese era tu pie?"
+      ],
+      "fr": [
+       "Pardon !",
+       "Rapide et quotidien : vous bousculez quelqu'un, marchez sur un pied ou faites une petite erreur. Les anglophones le disent sans arrêt, même quand ce n'est pas vraiment leur faute.",
+       "Oups, pardon ! C'était ton pied ?"
+      ]
+     }
     ],
     [
      "I'm sorry.",
      "တောင်းပန်ပါတယ်။",
      "The full sentence: a little more serious than Sorry! Add the reason: I'm sorry about the noise. I'm sorry I forgot.",
      "I'm sorry about the noise last night.",
-     "မနေ့ညက ဆူညံသွားတာ တောင်းပန်ပါတယ်။"
+     "မနေ့ညက ဆူညံသွားတာ တောင်းပန်ပါတယ်။",
+     {
+      "es": [
+       "Lo siento.",
+       "La oración completa: un poco más seria que Sorry! Agrega el motivo: I'm sorry about the noise. I'm sorry I forgot.",
+       "Perdón por el ruido de anoche."
+      ],
+      "fr": [
+       "Je suis désolé.",
+       "La phrase complète : un peu plus sérieuse que Sorry! Ajoutez la raison : I'm sorry about the noise. I'm sorry I forgot.",
+       "Je suis désolé pour le bruit d'hier soir."
+      ]
+     }
     ],
     [
      "I apologize.",
      "တောင်းပန်အပ်ပါတယ်။",
      "Formal: at work, to customers, in emails. Friends rarely say it. British spelling: apologise.",
      "I apologize for the mistake in your bill.",
-     "ငွေတောင်းခံလွှာထဲက အမှားအတွက် တောင်းပန်အပ်ပါတယ်။"
+     "ငွေတောင်းခံလွှာထဲက အမှားအတွက် တောင်းပန်အပ်ပါတယ်။",
+     {
+      "es": [
+       "Le pido una disculpa.",
+       "Formal: en el trabajo, con clientes, en correos. Los amigos casi nunca lo dicen. Ortografía británica: apologise.",
+       "Le pido una disculpa por el error en su cuenta."
+      ],
+      "fr": [
+       "Je vous présente mes excuses.",
+       "Formel : au travail, avec les clients, dans les courriels. Entre amis, on le dit rarement. Orthographe britannique : apologise.",
+       "Je vous présente mes excuses pour l'erreur sur votre facture."
+      ]
+     }
     ],
     [
      "My mistake.",
      "ကျွန်တော့်/ကျွန်မ အမှားပါ။",
      "Quick and honest, for a small error. Also: My fault.",
      "Oh, that's your bag, not mine. My mistake!",
-     "အို၊ အဲဒါ ခင်ဗျားအိတ်ပဲ၊ ကျွန်တော့်ဟာ မဟုတ်ဘူး။ ကျွန်တော့်အမှားပါ။"
+     "အို၊ အဲဒါ ခင်ဗျားအိတ်ပဲ၊ ကျွန်တော့်ဟာ မဟုတ်ဘူး။ ကျွန်တော့်အမှားပါ။",
+     {
+      "es": [
+       "Fue mi error.",
+       "Rápido y sincero, para un error pequeño. También: My fault.",
+       "Ah, esa es tu bolsa, no la mía. ¡Fue mi error!"
+      ],
+      "fr": [
+       "C'est mon erreur.",
+       "Rapide et honnête, pour une petite erreur. On dit aussi : My fault.",
+       "Oh, c'est ton sac, pas le mien. C'est mon erreur !"
+      ]
+     }
     ],
     [
      "My bad.",
      "ငါ့အမှားပါ။",
      "Very casual and very common in American English, especially with young people. For friends and small mistakes only: not with a boss, and not for anything serious.",
      "— Hey, that's my seat. — Oh, my bad!",
-     "— ဟေး၊ အဲဒါ ငါ့ခုံလေ။ — အို၊ ငါ့အမှား။"
+     "— ဟေး၊ အဲဒါ ငါ့ခုံလေ။ — အို၊ ငါ့အမှား။",
+     {
+      "es": [
+       "Fue culpa mía.",
+       "Muy informal y muy común en el inglés americano, sobre todo entre jóvenes. Solo con amigos y para errores pequeños: no con un jefe ni para nada serio.",
+       "— Oye, ese es mi asiento. — ¡Ah, culpa mía!"
+      ],
+      "fr": [
+       "Au temps pour moi.",
+       "Très familier et très courant en anglais américain, surtout chez les jeunes. Seulement entre amis et pour de petites erreurs : pas avec un supérieur, ni pour quelque chose de grave.",
+       "— Hé, c'est ma place. — Oh, au temps pour moi !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Pedir perdón",
+     "Disculpas rápidas y cotidianas por cosas pequeñas."
+    ],
+    "fr": [
+     "Dire pardon",
+     "Des excuses rapides et quotidiennes pour de petites choses."
+    ]
+   }
   },
   {
    "en": "A real apology",
@@ -63,37 +138,107 @@
      "တကယ် တောင်းပန်ပါတယ်။",
      "Sorry with real weight. Also: I'm so sorry. A strong apology often has three parts: sorry, what you did, and a promise.",
      "I'm really sorry. I forgot your birthday.",
-     "တကယ် တောင်းပန်ပါတယ်။ မွေးနေ့ကို မေ့သွားတယ်။"
+     "တကယ် တောင်းပန်ပါတယ်။ မွေးနေ့ကို မေ့သွားတယ်။",
+     {
+      "es": [
+       "De verdad lo siento.",
+       "Un perdón con peso. También: I'm so sorry. Una disculpa fuerte suele tener tres partes: el perdón, lo que hiciste y una promesa.",
+       "De verdad lo siento. Olvidé tu cumpleaños."
+      ],
+      "fr": [
+       "Je suis vraiment désolé.",
+       "Un pardon qui pèse. On dit aussi : I'm so sorry. De vraies excuses ont souvent trois parties : le pardon, ce que vous avez fait et une promesse.",
+       "Je suis vraiment désolé. J'ai oublié ton anniversaire."
+      ]
+     }
     ],
     [
      "It's my fault.",
      "ကျွန်တော့်/ကျွန်မ အပြစ်ပါ။",
      "Says clearly that you were wrong. In English, admitting it quickly makes an apology stronger.",
      "We missed the bus. It's my fault, I was too slow.",
-     "ဘတ်စ်ကား လွတ်သွားပြီ။ ကျွန်တော့်အပြစ်ပါ၊ နှေးလွန်းသွားတယ်။"
+     "ဘတ်စ်ကား လွတ်သွားပြီ။ ကျွန်တော့်အပြစ်ပါ၊ နှေးလွန်းသွားတယ်။",
+     {
+      "es": [
+       "Es mi culpa.",
+       "Dice con claridad que te equivocaste. En inglés, admitirlo pronto hace más fuerte la disculpa.",
+       "Perdimos el autobús. Es mi culpa, fui muy lento."
+      ],
+      "fr": [
+       "C'est ma faute.",
+       "Dit clairement que vous avez eu tort. En anglais, le reconnaître vite renforce les excuses.",
+       "On a raté le bus. C'est ma faute, j'ai été trop lent."
+      ]
+     }
     ],
     [
      "I didn't mean to.",
      "တမင်လုပ်တာ မဟုတ်ပါဘူး။",
      "It was an accident. Say sorry first, then this. Said alone, it can sound like an excuse.",
      "Sorry about your cup. I didn't mean to break it.",
-     "ခွက်ကွဲသွားတာ ဆောရီးနော်။ တမင်ခွဲတာ မဟုတ်ပါဘူး။"
+     "ခွက်ကွဲသွားတာ ဆောရီးနော်။ တမင်ခွဲတာ မဟုတ်ပါဘူး။",
+     {
+      "es": [
+       "No fue mi intención.",
+       "Fue un accidente. Primero pide perdón y luego di esto. Dicho solo, puede sonar a excusa.",
+       "Perdón por tu taza. No fue mi intención romperla."
+      ],
+      "fr": [
+       "Je ne l'ai pas fait exprès.",
+       "C'était un accident. Dites d'abord pardon, puis ceci. Dit seul, cela peut ressembler à une excuse.",
+       "Désolé pour ta tasse. Je n'ai pas fait exprès de la casser."
+      ]
+     }
     ],
     [
      "It won't happen again.",
      "နောက် ဒီလို မဖြစ်စေရပါဘူး။",
      "The promise at the end of a serious apology, at work or at home.",
      "I'm sorry I was late again. It won't happen again.",
-     "ထပ်နောက်ကျသွားလို့ တောင်းပန်ပါတယ်။ နောက် ဒီလို မဖြစ်စေရပါဘူး။"
+     "ထပ်နောက်ကျသွားလို့ တောင်းပန်ပါတယ်။ နောက် ဒီလို မဖြစ်စေရပါဘူး။",
+     {
+      "es": [
+       "No volverá a pasar.",
+       "La promesa al final de una disculpa seria, en el trabajo o en casa.",
+       "Perdón por llegar tarde otra vez. No volverá a pasar."
+      ],
+      "fr": [
+       "Ça ne se reproduira plus.",
+       "La promesse à la fin d'excuses sérieuses, au travail ou à la maison.",
+       "Désolé d'être encore en retard. Ça ne se reproduira plus."
+      ]
+     }
     ],
     [
      "Please forgive me.",
      "ခွင့်လွှတ်ပါ။",
      "Very strong: for something serious or personal. For small things it sounds too dramatic. Just say Sorry.",
      "I said terrible things. Please forgive me.",
-     "ဆိုးဆိုးရွားရွား ပြောမိခဲ့တယ်။ ခွင့်လွှတ်ပါ။"
+     "ဆိုးဆိုးရွားရွား ပြောမိခဲ့တယ်။ ခွင့်လွှတ်ပါ။",
+     {
+      "es": [
+       "Perdóname, por favor.",
+       "Muy fuerte: para algo serio o personal. Para cosas pequeñas suena demasiado dramático. Solo di Sorry.",
+       "Dije cosas terribles. Perdóname, por favor."
+      ],
+      "fr": [
+       "Pardonne-moi, s'il te plaît.",
+       "Très fort : pour quelque chose de grave ou de personnel. Pour de petites choses, c'est trop dramatique. Dites simplement Sorry.",
+       "J'ai dit des choses terribles. Pardonne-moi, s'il te plaît."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Una disculpa de verdad",
+     "Cuando importa: decir que fue tu culpa y decirlo en serio."
+    ],
+    "fr": [
+     "De vraies excuses",
+     "Quand c'est important : dire que c'était votre faute, et le penser."
+    ]
+   }
   },
   {
    "en": "Excuse me",
@@ -105,23 +250,69 @@
      "တဆိတ်လောက်။",
      "Before you ask a stranger something, or to get attention. To call a waiter, say Excuse me! and raise your hand. Calling Waiter! or snapping your fingers is rude.",
      "Excuse me, is this seat free?",
-     "တဆိတ်လောက်၊ ဒီခုံ လွတ်လား။"
+     "တဆိတ်လောက်၊ ဒီခုံ လွတ်လား။",
+     {
+      "es": [
+       "Disculpe.",
+       "Antes de preguntarle algo a un desconocido, o para llamar la atención. Para llamar a un mesero, di Excuse me! y levanta la mano. Gritar Waiter! o chasquear los dedos es grosero.",
+       "Disculpe, ¿está libre este asiento?"
+      ],
+      "fr": [
+       "Excusez-moi.",
+       "Avant de demander quelque chose à un inconnu, ou pour attirer l'attention. Pour appeler un serveur, dites Excuse me! en levant la main. Crier Waiter! ou claquer des doigts est impoli.",
+       "Excusez-moi, cette place est libre ?"
+      ]
+     }
     ],
     [
      "Excuse me, can I get past?",
      "တဆိတ်လောက်၊ ဖယ်ပေးပါဦး။",
      "On a crowded bus or train, or in a full row of seats. Short version: Excuse me… as you go past.",
      "Excuse me, can I get past? This is my stop.",
-     "တဆိတ်လောက်၊ ဖယ်ပေးပါဦး။ ဒီမှတ်တိုင်မှာ ဆင်းရမှာပါ။"
+     "တဆိတ်လောက်၊ ဖယ်ပေးပါဦး။ ဒီမှတ်တိုင်မှာ ဆင်းရမှာပါ။",
+     {
+      "es": [
+       "Con permiso, ¿puedo pasar?",
+       "En un autobús o tren lleno, o en una fila de asientos ocupada. Versión corta: Excuse me… mientras pasas.",
+       "Con permiso, ¿puedo pasar? Aquí me bajo."
+      ],
+      "fr": [
+       "Excusez-moi, je peux passer ?",
+       "Dans un bus ou un train bondé, ou dans une rangée de sièges pleine. Version courte : Excuse me… en passant.",
+       "Excusez-moi, je peux passer ? C'est mon arrêt."
+      ]
+     }
     ],
     [
      "Sorry to interrupt.",
      "ကြားဖြတ်ပြောရတာ ဆောရီးပါ။",
      "When you need to speak while others are talking. Then say why, quickly.",
      "Sorry to interrupt, but your taxi is here.",
-     "ကြားဖြတ်ပြောရတာ ဆောရီးနော်၊ တက္ကစီ ရောက်နေပြီ။"
+     "ကြားဖြတ်ပြောရတာ ဆောရီးနော်၊ တက္ကစီ ရောက်နေပြီ။",
+     {
+      "es": [
+       "Perdón por interrumpir.",
+       "Cuando necesitas hablar mientras otros conversan. Luego di por qué, rápido.",
+       "Perdón por interrumpir, pero ya llegó su taxi."
+      ],
+      "fr": [
+       "Désolé de vous interrompre.",
+       "Quand vous devez parler pendant que d'autres discutent. Dites ensuite pourquoi, rapidement.",
+       "Désolé de vous interrompre, mais votre taxi est là."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Con permiso",
+     "Excuse me antes, sorry después: llamar la atención, pasar, interrumpir."
+    ],
+    "fr": [
+     "Excusez-moi",
+     "Excuse me avant, sorry après : attirer l'attention, passer, interrompre."
+    ]
+   }
   },
   {
    "en": "Sorry for the trouble",
@@ -133,37 +324,107 @@
      "အနှောင့်အယှက်ပေးရတာ အားနာပါတယ်။",
      "The polite start to a request. Where you'd say အားနာပါတယ် before asking for something in Burmese, this is often the English.",
      "Sorry to bother you, but do you have a pen?",
-     "အနှောင့်အယှက်ပေးရတာ အားနာပါတယ်၊ ဘောပင် ပါလား။"
+     "အနှောင့်အယှက်ပေးရတာ အားနာပါတယ်၊ ဘောပင် ပါလား။",
+     {
+      "es": [
+       "Perdón por la molestia.",
+       "El comienzo cortés de una petición, cuando te apena molestar a alguien.",
+       "Perdón por la molestia, ¿tiene un bolígrafo?"
+      ],
+      "fr": [
+       "Désolé de vous déranger.",
+       "Le début poli d'une demande, quand on est gêné de déranger quelqu'un.",
+       "Désolé de vous déranger, auriez-vous un stylo ?"
+      ]
+     }
     ],
     [
      "Sorry I'm late.",
      "နောက်ကျသွားလို့ ဆောရီးပါ။",
      "Say sorry first, then a short reason. A long story can sound like an excuse.",
      "Sorry I'm late. The traffic was terrible.",
-     "နောက်ကျသွားလို့ ဆောရီးပါ။ ကားတွေ အရမ်းကြပ်နေတယ်။"
+     "နောက်ကျသွားလို့ ဆောရီးပါ။ ကားတွေ အရမ်းကြပ်နေတယ်။",
+     {
+      "es": [
+       "Perdón por llegar tarde.",
+       "Primero pide perdón y luego da un motivo corto. Una historia larga puede sonar a excusa.",
+       "Perdón por llegar tarde. Había muchísimo tráfico."
+      ],
+      "fr": [
+       "Désolé d'être en retard.",
+       "Dites d'abord pardon, puis une raison courte. Une longue histoire peut ressembler à une excuse.",
+       "Désolé d'être en retard. La circulation était épouvantable."
+      ]
+     }
     ],
     [
      "Sorry to keep you waiting.",
      "စောင့်ခိုင်းထားရတာ ဆောရီးပါ။",
      "What staff say after a wait. Shorter: Sorry for the wait.",
      "Sorry to keep you waiting. How can I help?",
-     "စောင့်ခိုင်းထားရတာ ဆောရီးပါ။ ဘာကူညီပေးရမလဲ။"
+     "စောင့်ခိုင်းထားရတာ ဆောရီးပါ။ ဘာကူညီပေးရမလဲ။",
+     {
+      "es": [
+       "Perdón por hacerle esperar.",
+       "Lo que dice el personal después de una espera. Más corto: Sorry for the wait.",
+       "Perdón por hacerle esperar. ¿En qué le puedo ayudar?"
+      ],
+      "fr": [
+       "Désolé de vous avoir fait attendre.",
+       "Ce que dit le personnel après une attente. Plus court : Sorry for the wait.",
+       "Désolé de vous avoir fait attendre. Comment puis-je vous aider ?"
+      ]
+     }
     ],
     [
      "Sorry for the late reply.",
      "စာပြန်တာ နောက်ကျသွားလို့ ဆောရီးပါ။",
      "The first line of a message you left too long.",
      "Sorry for the late reply. I was away all week.",
-     "စာပြန်တာ နောက်ကျသွားလို့ ဆောရီးပါ။ တစ်ပတ်လုံး အပြင်ရောက်နေလို့ပါ။"
+     "စာပြန်တာ နောက်ကျသွားလို့ ဆောရီးပါ။ တစ်ပတ်လုံး အပြင်ရောက်နေလို့ပါ။",
+     {
+      "es": [
+       "Perdón por la respuesta tardía.",
+       "La primera línea de un mensaje que dejaste demasiado tiempo sin contestar.",
+       "Perdón por la respuesta tardía. Estuve fuera toda la semana."
+      ],
+      "fr": [
+       "Désolé pour la réponse tardive.",
+       "La première ligne d'un message resté trop longtemps sans réponse.",
+       "Désolé pour la réponse tardive. J'étais absent toute la semaine."
+      ]
+     }
     ],
     [
      "Sorry for the inconvenience.",
      "အဆင်မပြေမှုအတွက် တောင်းပန်ပါတယ်။",
      "Formal: on signs, in shops, from companies. You will see it often, but you rarely need it with friends.",
      "This office is closed today. Sorry for the inconvenience.",
-     "ဒီရုံးက ဒီနေ့ ပိတ်ပါတယ်။ အဆင်မပြေမှုအတွက် တောင်းပန်ပါတယ်။"
+     "ဒီရုံးက ဒီနေ့ ပိတ်ပါတယ်။ အဆင်မပြေမှုအတွက် တောင်းပန်ပါတယ်။",
+     {
+      "es": [
+       "Disculpe las molestias.",
+       "Formal: en letreros, en tiendas, de parte de empresas. Lo verás mucho, pero casi nunca lo necesitas con amigos.",
+       "Esta oficina está cerrada hoy. Disculpe las molestias."
+      ],
+      "fr": [
+       "Veuillez nous excuser pour la gêne occasionnée.",
+       "Formel : sur les panneaux, dans les magasins, de la part des entreprises. Vous le verrez souvent, mais vous en avez rarement besoin entre amis.",
+       "Ce bureau est fermé aujourd'hui. Veuillez nous excuser pour la gêne occasionnée."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Perdón por la molestia",
+     "Pedir perdón antes de pedir algo, o por una espera, un retraso o una respuesta tardía."
+    ],
+    "fr": [
+     "Désolé du dérangement",
+     "S'excuser avant de demander, ou pour une attente, un retard ou une réponse tardive."
+    ]
+   }
   },
   {
    "en": "Sorry to hear that",
@@ -175,23 +436,69 @@
      "ကြားရတာ စိတ်မကောင်းပါဘူး။",
      "Sympathy, not an apology: it doesn't mean it was your fault. In Burmese this is စိတ်မကောင်းပါဘူး, not တောင်းပန်ပါတယ်.",
      "— I lost my job. — Oh, I'm sorry to hear that.",
-     "— အလုပ်ပြုတ်သွားတယ်။ — အို၊ ကြားရတာ စိတ်မကောင်းပါဘူး။"
+     "— အလုပ်ပြုတ်သွားတယ်။ — အို၊ ကြားရတာ စိတ်မကောင်းပါဘူး။",
+     {
+      "es": [
+       "Lamento escuchar eso.",
+       "Es compasión, no una disculpa: no significa que haya sido tu culpa.",
+       "— Perdí mi trabajo. — Ay, lamento escuchar eso."
+      ],
+      "fr": [
+       "Je suis navré de l'apprendre.",
+       "C'est de la compassion, pas des excuses : cela ne veut pas dire que c'était votre faute.",
+       "— J'ai perdu mon travail. — Oh, je suis navré de l'apprendre."
+      ]
+     }
     ],
     [
      "That's too bad.",
      "ကံမကောင်းလိုက်တာ။",
      "For small disappointments: rain on your day off, a trip you can't take. For serious news, say I'm sorry to hear that.",
      "— It's raining. We can't go to the beach. — Oh, that's too bad.",
-     "— မိုးရွာနေတယ်။ ကမ်းခြေ မသွားရတော့ဘူး။ — အို၊ ကံမကောင်းလိုက်တာ။"
+     "— မိုးရွာနေတယ်။ ကမ်းခြေ မသွားရတော့ဘူး။ — အို၊ ကံမကောင်းလိုက်တာ။",
+     {
+      "es": [
+       "Qué lástima.",
+       "Para decepciones pequeñas: lluvia en tu día libre, un viaje que no puedes hacer. Para noticias serias, di I'm sorry to hear that.",
+       "— Está lloviendo. No podemos ir a la playa. — Ay, qué lástima."
+      ],
+      "fr": [
+       "C'est dommage.",
+       "Pour les petites déceptions : la pluie un jour de congé, un voyage annulé. Pour une nouvelle grave, dites I'm sorry to hear that.",
+       "— Il pleut. On ne peut pas aller à la plage. — Oh, c'est dommage."
+      ]
+     }
     ],
     [
      "I'm sorry for your loss.",
      "မင်းရဲ့ဆုံးရှုံးမှုအတွက် ဝမ်းနည်းပါတယ်။",
      "When someone has died. Short, kind and always safe. You can add: If you need anything, please call me.",
      "I'm sorry for your loss. If you need anything, please call me.",
-     "ဝမ်းနည်းပါတယ်။ ဘာလိုလို ဖုန်းဆက်ပါနော်။"
+     "ဝမ်းနည်းပါတယ်။ ဘာလိုလို ဖုန်းဆက်ပါနော်။",
+     {
+      "es": [
+       "Mi más sentido pésame.",
+       "Cuando alguien ha muerto. Corto, amable y siempre seguro. Puedes agregar: If you need anything, please call me.",
+       "Mi más sentido pésame. Si necesitas algo, llámame, por favor."
+      ],
+      "fr": [
+       "Toutes mes condoléances.",
+       "Quand quelqu'un est décédé. Court, bienveillant et toujours approprié. Vous pouvez ajouter : If you need anything, please call me.",
+       "Toutes mes condoléances. Si tu as besoin de quoi que ce soit, appelle-moi."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Lo siento mucho",
+     "Sorry como compasión, no como disculpa: cuando a otra persona le pasa algo malo."
+    ],
+    "fr": [
+     "Je suis navré",
+     "Sorry pour la compassion, pas pour s'excuser : quand il arrive quelque chose de fâcheux à quelqu'un d'autre."
+    ]
+   }
   },
   {
    "en": "Accepting an apology",
@@ -203,44 +510,126 @@
      "ရပါတယ်။",
      "The everyday answer. Also: That's all right.",
      "— Sorry I'm late. — That's OK. We just started.",
-     "— နောက်ကျသွားလို့ ဆောရီးပါ။ — ရပါတယ်။ အခုမှ စတာပါ။"
+     "— နောက်ကျသွားလို့ ဆောရီးပါ။ — ရပါတယ်။ အခုမှ စတာပါ။",
+     {
+      "es": [
+       "No pasa nada.",
+       "La respuesta de todos los días. También: That's all right.",
+       "— Perdón por llegar tarde. — No pasa nada. Acabamos de empezar."
+      ],
+      "fr": [
+       "Ce n'est pas grave.",
+       "La réponse de tous les jours. On dit aussi : That's all right.",
+       "— Désolé du retard. — Ce n'est pas grave. On vient de commencer."
+      ]
+     }
     ],
     [
      "Don't worry about it.",
      "စိတ်ထဲ မထားပါနဲ့။",
      "Warm and casual: it's really not a problem. Shorter: Don't worry!",
      "— Sorry, I forgot to call you back. — Don't worry about it.",
-     "— ဆောရီး၊ ဖုန်းပြန်ဆက်ဖို့ မေ့သွားတယ်။ — စိတ်ထဲ မထားပါနဲ့။"
+     "— ဆောရီး၊ ဖုန်းပြန်ဆက်ဖို့ မေ့သွားတယ်။ — စိတ်ထဲ မထားပါနဲ့။",
+     {
+      "es": [
+       "No te preocupes.",
+       "Cálido e informal: de verdad no es problema. Más corto: Don't worry!",
+       "— Perdón, olvidé devolverte la llamada. — No te preocupes."
+      ],
+      "fr": [
+       "Ne t'en fais pas.",
+       "Chaleureux et familier : ce n'est vraiment pas un problème. Plus court : Don't worry!",
+       "— Désolé, j'ai oublié de te rappeler. — Ne t'en fais pas."
+      ]
+     }
     ],
     [
      "No harm done.",
      "ဘာမှ မဖြစ်ပါဘူး။",
      "Nothing was hurt or broken, so there's no problem.",
      "— Oh, sorry, I bumped you! — No harm done.",
-     "— အို ဆောရီး၊ တိုက်မိသွားတယ်။ — ဘာမှ မဖြစ်ပါဘူး။"
+     "— အို ဆောရီး၊ တိုက်မိသွားတယ်။ — ဘာမှ မဖြစ်ပါဘူး။",
+     {
+      "es": [
+       "No pasó nada.",
+       "Nada se lastimó ni se rompió, así que no hay problema.",
+       "— ¡Ay, perdón, te empujé! — No pasó nada."
+      ],
+      "fr": [
+       "Il n'y a pas de mal.",
+       "Rien n'a été blessé ni cassé, donc aucun problème.",
+       "— Oh, pardon, je t'ai bousculé ! — Il n'y a pas de mal."
+      ]
+     }
     ],
     [
      "It happens.",
      "ဖြစ်တတ်ပါတယ်။",
      "Puts the mistake down to bad luck. Also: It happens to everyone.",
      "— I forgot our meeting. I'm so sorry. — It happens. Let's meet tomorrow.",
-     "— ချိန်းထားတာ မေ့သွားတယ်။ တကယ် တောင်းပန်ပါတယ်။ — ဖြစ်တတ်ပါတယ်။ မနက်ဖြန် တွေ့ကြတာပေါ့။"
+     "— ချိန်းထားတာ မေ့သွားတယ်။ တကယ် တောင်းပန်ပါတယ်။ — ဖြစ်တတ်ပါတယ်။ မနက်ဖြန် တွေ့ကြတာပေါ့။",
+     {
+      "es": [
+       "Son cosas que pasan.",
+       "Atribuye el error a la mala suerte. También: It happens to everyone.",
+       "— Olvidé nuestra reunión. Lo siento mucho. — Son cosas que pasan. Nos vemos mañana."
+      ],
+      "fr": [
+       "Ça arrive.",
+       "Met l'erreur sur le compte de la malchance. On dit aussi : It happens to everyone.",
+       "— J'ai oublié notre rendez-vous. Je suis vraiment désolé. — Ça arrive. Voyons-nous demain."
+      ]
+     }
     ],
     [
      "It's not your fault.",
      "ခင်ဗျား/ရှင့် အပြစ် မဟုတ်ပါဘူး။",
      "When someone says sorry, but they didn't cause the problem.",
      "— Sorry the trip was so bad. — It's not your fault. The weather was terrible.",
-     "— ခရီးက အဆင်မပြေခဲ့လို့ ဆောရီးနော်။ — မင်းအပြစ် မဟုတ်ပါဘူး။ ရာသီဥတုက ဆိုးလွန်းလို့ပါ။"
+     "— ခရီးက အဆင်မပြေခဲ့လို့ ဆောရီးနော်။ — မင်းအပြစ် မဟုတ်ပါဘူး။ ရာသီဥတုက ဆိုးလွန်းလို့ပါ။",
+     {
+      "es": [
+       "No es tu culpa.",
+       "Cuando alguien pide perdón pero no causó el problema.",
+       "— Perdón que el viaje saliera tan mal. — No es tu culpa. El clima estuvo terrible."
+      ],
+      "fr": [
+       "Ce n'est pas ta faute.",
+       "Quand quelqu'un s'excuse alors qu'il n'a pas causé le problème.",
+       "— Désolé que le voyage ait été si raté. — Ce n'est pas ta faute. Le temps était affreux."
+      ]
+     }
     ],
     [
      "Apology accepted.",
      "တောင်းပန်တာ လက်ခံပါတယ်။",
      "Correct, but cold and formal. It can sound like you are still a little angry. With friends, That's OK is warmer.",
      "— I'm sorry for what I said. — Apology accepted. Let's move on.",
-     "— ပြောခဲ့တာတွေအတွက် တောင်းပန်ပါတယ်။ — လက်ခံပါတယ်။ ရှေ့ဆက်ကြတာပေါ့။"
+     "— ပြောခဲ့တာတွေအတွက် တောင်းပန်ပါတယ်။ — လက်ခံပါတယ်။ ရှေ့ဆက်ကြတာပေါ့။",
+     {
+      "es": [
+       "Disculpa aceptada.",
+       "Correcto, pero frío y formal. Puede sonar a que todavía estás un poco enojado. Con amigos, That's OK es más cálido.",
+       "— Perdón por lo que dije. — Disculpa aceptada. Sigamos adelante."
+      ],
+      "fr": [
+       "Excuses acceptées.",
+       "Correct, mais froid et formel. On peut croire que vous êtes encore un peu fâché. Entre amis, That's OK est plus chaleureux.",
+       "— Pardon pour ce que j'ai dit. — Excuses acceptées. Passons à autre chose."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Aceptar una disculpa",
+     "Decirle a alguien, con amabilidad, que no pasa nada."
+    ],
+    "fr": [
+     "Accepter des excuses",
+     "Dire gentiment à quelqu'un que ce n'est rien."
+    ]
+   }
   }
  ]
 }

@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/wishes_celebrations.html",
  "aud_dir": "eng/expressions/wishes_celebrations/",
  "aud_ext": "mp3?v=2611170809",
@@ -21,37 +26,107 @@
      "မွေးနေ့ မင်္ဂလာပါ။",
      "The everyday birthday wish, said or written. Add a name: Happy birthday, Mia!",
      "Happy birthday, Grandma! This is for you.",
-     "မွေးနေ့ မင်္ဂလာပါ အဖွား။ ဒါ အဖွားအတွက်ပါ။"
+     "မွေးနေ့ မင်္ဂလာပါ အဖွား။ ဒါ အဖွားအတွက်ပါ။",
+     {
+      "es": [
+       "¡Feliz cumpleaños!",
+       "El deseo de cumpleaños de siempre, dicho o escrito. Agrega un nombre: Happy birthday, Mia!",
+       "¡Feliz cumpleaños, abuela! Esto es para ti."
+      ],
+      "fr": [
+       "Joyeux anniversaire !",
+       "Le vœu d'anniversaire de tous les jours, dit ou écrit. Ajoutez un prénom : Happy birthday, Mia!",
+       "Joyeux anniversaire, mamie ! C'est pour toi."
+      ]
+     }
     ],
     [
      "Many happy returns!",
      "ဒီလို မွေးနေ့တွေ အများကြီး ကြုံပါစေ။",
      "An older, warm birthday wish: may you have many more happy birthdays. More common in British English.",
      "Happy birthday, and many happy returns!",
-     "မွေးနေ့ မင်္ဂလာပါ၊ ဒီလို မွေးနေ့တွေ အများကြီး ကြုံပါစေ။"
+     "မွေးနေ့ မင်္ဂလာပါ၊ ဒီလို မွေးနေ့တွေ အများကြီး ကြုံပါစေ။",
+     {
+      "es": [
+       "¡Que cumplas muchos más!",
+       "Un deseo de cumpleaños más antiguo y cálido: que tengas muchos cumpleaños felices más. Más común en el inglés británico.",
+       "¡Feliz cumpleaños, y que cumplas muchos más!"
+      ],
+      "fr": [
+       "Et beaucoup d'autres encore !",
+       "Un vœu d'anniversaire plus ancien et chaleureux : puissiez-vous en fêter encore beaucoup. Plus courant en anglais britannique.",
+       "Joyeux anniversaire, et beaucoup d'autres encore !"
+      ]
+     }
     ],
     [
      "Make a wish!",
      "ဆုတောင်းလိုက်ပါ။",
      "Said before the birthday person blows out the candles on the cake. The wish is a secret.",
      "Here's your cake. Make a wish!",
-     "ကိတ်မုန့် ရောက်ပြီ။ ဆုတောင်းလိုက်ပါ။"
+     "ကိတ်မုန့် ရောက်ပြီ။ ဆုတောင်းလိုက်ပါ။",
+     {
+      "es": [
+       "¡Pide un deseo!",
+       "Se dice antes de que el festejado sople las velas del pastel. El deseo es secreto.",
+       "Aquí está tu pastel. ¡Pide un deseo!"
+      ],
+      "fr": [
+       "Fais un vœu !",
+       "Se dit avant que la personne fêtée souffle les bougies du gâteau. Le vœu reste secret.",
+       "Voici ton gâteau. Fais un vœu !"
+      ]
+     }
     ],
     [
      "Happy belated birthday!",
      "နောက်ကျသွားပေမဲ့ မွေးနေ့ မင်္ဂလာပါ။",
      "When you forgot, or couldn't say it on the day. Belated means late.",
      "Happy belated birthday! Sorry I missed it.",
-     "နောက်ကျသွားပေမဲ့ မွေးနေ့ မင်္ဂလာပါ။ မေ့သွားလို့ ဆောရီးနော်။"
+     "နောက်ကျသွားပေမဲ့ မွေးနေ့ မင်္ဂလာပါ။ မေ့သွားလို့ ဆောရီးနော်။",
+     {
+      "es": [
+       "¡Feliz cumpleaños atrasado!",
+       "Cuando se te olvidó, o no pudiste decirlo ese día. Belated significa tardío.",
+       "¡Feliz cumpleaños atrasado! Perdón por no haber estado."
+      ],
+      "fr": [
+       "Joyeux anniversaire en retard !",
+       "Quand vous avez oublié, ou n'avez pas pu le dire le jour même. Belated veut dire tardif.",
+       "Joyeux anniversaire en retard ! Désolé de l'avoir manqué."
+      ]
+     }
     ],
     [
      "Thanks for the birthday wishes!",
      "မွေးနေ့ ဆုတောင်းပေးတဲ့အတွက် ကျေးဇူးပါ။",
      "What you say or post after people wish you a happy birthday.",
      "Thanks for the birthday wishes, everyone!",
-     "မွေးနေ့ ဆုတောင်းပေးကြတဲ့အတွက် အားလုံးကို ကျေးဇူးပါ။"
+     "မွေးနေ့ ဆုတောင်းပေးကြတဲ့အတွက် အားလုံးကို ကျေးဇူးပါ။",
+     {
+      "es": [
+       "¡Gracias por las felicitaciones!",
+       "Lo que dices o publicas después de que te felicitan por tu cumpleaños.",
+       "¡Gracias a todos por las felicitaciones!"
+      ],
+      "fr": [
+       "Merci pour vos vœux d'anniversaire !",
+       "Ce que l'on dit ou publie après avoir reçu des vœux d'anniversaire.",
+       "Merci à tous pour vos vœux d'anniversaire !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Cumpleaños",
+     "Deseos para el cumpleaños de alguien, ese día o un poco después."
+    ],
+    "fr": [
+     "Anniversaires",
+     "Des vœux pour l'anniversaire de quelqu'un, le jour même ou un peu en retard."
+    ]
+   }
   },
   {
    "en": "Holidays and festivals",
@@ -63,30 +138,88 @@
      "နှစ်သစ် မင်္ဂလာပါ။",
      "Said around 1 January, from the last days of December to the first week of January.",
      "Happy New Year! I hope it's a great one.",
-     "နှစ်သစ် မင်္ဂလာပါ။ ကောင်းတဲ့ နှစ်တစ်နှစ် ဖြစ်ပါစေ။"
+     "နှစ်သစ် မင်္ဂလာပါ။ ကောင်းတဲ့ နှစ်တစ်နှစ် ဖြစ်ပါစေ။",
+     {
+      "es": [
+       "¡Feliz Año Nuevo!",
+       "Se dice alrededor del 1 de enero, desde los últimos días de diciembre hasta la primera semana de enero.",
+       "¡Feliz Año Nuevo! Espero que sea un gran año."
+      ],
+      "fr": [
+       "Bonne année !",
+       "Se dit autour du 1er janvier, des derniers jours de décembre à la première semaine de janvier.",
+       "Bonne année ! J'espère qu'elle sera excellente."
+      ]
+     }
     ],
     [
      "Merry Christmas!",
      "ခရစ္စမတ် မင်္ဂလာပါ။",
      "Said in the days before Christmas and on 25 December. Merry is only used in this greeting.",
      "Merry Christmas and a happy New Year!",
-     "ခရစ္စမတ် မင်္ဂလာပါ၊ နှစ်သစ်မှာလည်း ပျော်ရွှင်ပါစေ။"
+     "ခရစ္စမတ် မင်္ဂလာပါ၊ နှစ်သစ်မှာလည်း ပျော်ရွှင်ပါစေ။",
+     {
+      "es": [
+       "¡Feliz Navidad!",
+       "Se dice en los días previos a la Navidad y el 25 de diciembre. Merry solo se usa en este saludo.",
+       "¡Feliz Navidad y próspero Año Nuevo!"
+      ],
+      "fr": [
+       "Joyeux Noël !",
+       "Se dit les jours qui précèdent Noël et le 25 décembre. Merry ne s'emploie que dans cette formule.",
+       "Joyeux Noël et bonne année !"
+      ]
+     }
     ],
     [
      "Happy holidays!",
      "ပျော်ရွှင်ဖွယ် အားလပ်ရက်များ ဖြစ်ပါစေ။",
      "A December greeting for everyone, whatever festival they celebrate.",
      "Happy holidays! See you in January.",
-     "ပျော်ရွှင်ဖွယ် အားလပ်ရက်များ ဖြစ်ပါစေ။ ဇန်နဝါရီမှာ တွေ့မယ်။"
+     "ပျော်ရွှင်ဖွယ် အားလပ်ရက်များ ဖြစ်ပါစေ။ ဇန်နဝါရီမှာ တွေ့မယ်။",
+     {
+      "es": [
+       "¡Felices fiestas!",
+       "Un saludo de diciembre para todos, celebren la fiesta que celebren.",
+       "¡Felices fiestas! Nos vemos en enero."
+      ],
+      "fr": [
+       "Joyeuses fêtes !",
+       "Une formule de décembre pour tout le monde, quelle que soit la fête célébrée.",
+       "Joyeuses fêtes ! On se voit en janvier."
+      ]
+     }
     ],
     [
      "Happy Thingyan!",
      "ပျော်ရွှင်ဖွယ် သင်္ကြန် ဖြစ်ပါစေ။",
      "English uses Happy + the festival's name: Happy Thingyan, Happy Diwali, Happy Eid. Also: Happy Myanmar New Year!",
      "Happy Thingyan! Don't get too wet!",
-     "ပျော်ရွှင်ဖွယ် သင်္ကြန် ဖြစ်ပါစေ။ သိပ်မစိုစေနဲ့နော်။"
+     "ပျော်ရွှင်ဖွယ် သင်္ကြန် ဖြစ်ပါစေ။ သိပ်မစိုစေနဲ့နော်။",
+     {
+      "es": [
+       "¡Feliz Thingyan!",
+       "El inglés usa Happy + el nombre de la fiesta: Happy Thingyan, Happy Diwali, Happy Eid. También: Happy Myanmar New Year!",
+       "¡Feliz Thingyan! ¡No te mojes demasiado!"
+      ],
+      "fr": [
+       "Joyeux Thingyan !",
+       "L'anglais emploie Happy + le nom de la fête : Happy Thingyan, Happy Diwali, Happy Eid. On dit aussi : Happy Myanmar New Year!",
+       "Joyeux Thingyan ! Ne te fais pas trop mouiller !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Fiestas y festivales",
+     "Saludos para el Año Nuevo y otras fiestas."
+    ],
+    "fr": [
+     "Fêtes et festivals",
+     "Des formules pour le Nouvel An et les autres fêtes."
+    ]
+   }
   },
   {
    "en": "Big days and good news",
@@ -98,37 +231,107 @@
      "အလုပ်သစ် ရတဲ့အတွက် ဂုဏ်ယူပါတယ်။",
      "Congratulations on + the good news: on your wedding, on your new baby, on passing your exam.",
      "Congratulations on your wedding! You look wonderful.",
-     "မင်္ဂလာဆောင်အတွက် ဂုဏ်ယူပါတယ်။ အရမ်း လှတယ်။"
+     "မင်္ဂလာဆောင်အတွက် ဂုဏ်ယူပါတယ်။ အရမ်း လှတယ်။",
+     {
+      "es": [
+       "¡Felicidades por tu nuevo trabajo!",
+       "Congratulations on + la buena noticia: on your wedding, on your new baby, on passing your exam.",
+       "¡Felicidades por tu boda! Te ves espectacular."
+      ],
+      "fr": [
+       "Félicitations pour ton nouveau travail !",
+       "Congratulations on + la bonne nouvelle : on your wedding, on your new baby, on passing your exam.",
+       "Félicitations pour ton mariage ! Tu es superbe."
+      ]
+     }
     ],
     [
      "I'm so happy for you!",
      "အရမ်း ဝမ်းသာပေးပါတယ်။",
      "Shows you share their joy. Warm and personal.",
      "— I got into university! — I'm so happy for you!",
-     "— တက္ကသိုလ် ဝင်ခွင့် ရပြီ။ — အရမ်း ဝမ်းသာပေးပါတယ်။"
+     "— တက္ကသိုလ် ဝင်ခွင့် ရပြီ။ — အရမ်း ဝမ်းသာပေးပါတယ်။",
+     {
+      "es": [
+       "¡Me alegro mucho por ti!",
+       "Muestra que compartes su alegría. Cálido y personal.",
+       "— ¡Entré a la universidad! — ¡Me alegro mucho por ti!"
+      ],
+      "fr": [
+       "Je suis tellement content pour toi !",
+       "Montre que vous partagez sa joie. Chaleureux et personnel.",
+       "— Je suis admis à l'université ! — Je suis tellement content pour toi !"
+      ]
+     }
     ],
     [
      "You deserve it!",
      "ထိုက်တန်ပါတယ်။",
      "Says they worked hard for this good thing.",
      "— I won the prize! — Well, you deserve it!",
-     "— ဆုရသွားပြီ။ — ထိုက်တန်ပါတယ်။"
+     "— ဆုရသွားပြီ။ — ထိုက်တန်ပါတယ်။",
+     {
+      "es": [
+       "¡Te lo mereces!",
+       "Dice que trabajaron duro para conseguir esto.",
+       "— ¡Gané el premio! — ¡Pues te lo mereces!"
+      ],
+      "fr": [
+       "Tu le mérites !",
+       "Dit qu'ils ont travaillé dur pour cette belle chose.",
+       "— J'ai gagné le prix ! — Eh bien, tu le mérites !"
+      ]
+     }
     ],
     [
      "Happy anniversary!",
      "နှစ်ပတ်လည် မင်္ဂလာပါ။",
      "For the day someone got married, or started a job or a business, years ago.",
      "Happy anniversary! Twenty years together!",
-     "နှစ်ပတ်လည် မင်္ဂလာပါ။ အတူတူ နှစ်ဆယ်နှစ် ရှိပြီ။"
+     "နှစ်ပတ်လည် မင်္ဂလာပါ။ အတူတူ နှစ်ဆယ်နှစ် ရှိပြီ။",
+     {
+      "es": [
+       "¡Feliz aniversario!",
+       "Para el día en que alguien se casó, o empezó un trabajo o un negocio, hace años.",
+       "¡Feliz aniversario! ¡Veinte años juntos!"
+      ],
+      "fr": [
+       "Joyeux anniversaire de mariage !",
+       "Pour le jour où quelqu'un s'est marié, ou a commencé un travail ou une entreprise, il y a des années.",
+       "Joyeux anniversaire de mariage ! Vingt ans ensemble !"
+      ]
+     }
     ],
     [
      "All the best!",
      "အားလုံး အဆင်ပြေပါစေ။",
      "A warm wish for the future: for someone leaving, starting something new, or at the end of a card.",
      "Good luck in your new school. All the best!",
-     "ကျောင်းသစ်မှာ ကံကောင်းပါစေ။ အားလုံး အဆင်ပြေပါစေ။"
+     "ကျောင်းသစ်မှာ ကံကောင်းပါစေ။ အားလုံး အဆင်ပြေပါစေ။",
+     {
+      "es": [
+       "¡Te deseo lo mejor!",
+       "Un deseo cálido para el futuro: para alguien que se va, que empieza algo nuevo, o al final de una tarjeta.",
+       "Suerte en tu nueva escuela. ¡Te deseo lo mejor!"
+      ],
+      "fr": [
+       "Tous mes vœux !",
+       "Un vœu chaleureux pour l'avenir : pour quelqu'un qui part, qui commence quelque chose, ou à la fin d'une carte.",
+       "Bonne chance dans ta nouvelle école. Tous mes vœux !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Días importantes y buenas noticias",
+     "Bodas, trabajos nuevos, bebés, exámenes: compartir la alegría de alguien."
+    ],
+    "fr": [
+     "Grands jours et bonnes nouvelles",
+     "Mariages, nouveaux emplois, naissances, examens : partager la joie de quelqu'un."
+    ]
+   }
   },
   {
    "en": "Good wishes for what's next",
@@ -140,44 +343,126 @@
      "ခရီး ချောမောပါစေ။",
      "Said to someone leaving on a journey. Also: Safe travels!",
      "Have a safe trip! Call me when you get there.",
-     "ခရီး ချောမောပါစေ။ ရောက်ရင် ဖုန်းဆက်နော်။"
+     "ခရီး ချောမောပါစေ။ ရောက်ရင် ဖုန်းဆက်နော်။",
+     {
+      "es": [
+       "¡Buen viaje!",
+       "Se le dice a alguien que sale de viaje. También: Safe travels!",
+       "¡Buen viaje! Llámame cuando llegues."
+      ],
+      "fr": [
+       "Bon voyage !",
+       "Se dit à quelqu'un qui part en voyage. On dit aussi : Safe travels!",
+       "Bon voyage ! Appelle-moi quand tu arrives."
+      ]
+     }
     ],
     [
      "Enjoy your meal!",
      "အရသာရှိရှိ စားပါ။",
      "What a waiter, a cook or a host says when the food arrives.",
      "Here's your soup. Enjoy your meal!",
-     "ဟင်းချို ရပါပြီ။ အရသာရှိရှိ စားပါ။"
+     "ဟင်းချို ရပါပြီ။ အရသာရှိရှိ စားပါ။",
+     {
+      "es": [
+       "¡Buen provecho!",
+       "Lo que dice un mesero, un cocinero o un anfitrión cuando llega la comida.",
+       "Aquí está su sopa. ¡Buen provecho!"
+      ],
+      "fr": [
+       "Bon appétit !",
+       "Ce que dit un serveur, un cuisinier ou un hôte quand le plat arrive.",
+       "Voici votre soupe. Bon appétit !"
+      ]
+     }
     ],
     [
      "Have fun!",
      "ပျော်ပျော် နေနော်။",
      "Said to someone going to a party, a trip or a game.",
      "— I'm going to the zoo today! — Have fun!",
-     "— ဒီနေ့ တိရစ္ဆာန်ရုံ သွားမယ်။ — ပျော်ပျော် နေနော်။"
+     "— ဒီနေ့ တိရစ္ဆာန်ရုံ သွားမယ်။ — ပျော်ပျော် နေနော်။",
+     {
+      "es": [
+       "¡Que te diviertas!",
+       "Se le dice a alguien que va a una fiesta, un viaje o un partido.",
+       "— ¡Hoy voy al zoológico! — ¡Que te diviertas!"
+      ],
+      "fr": [
+       "Amuse-toi bien !",
+       "Se dit à quelqu'un qui va à une fête, en voyage ou à un match.",
+       "— Je vais au zoo aujourd'hui ! — Amuse-toi bien !"
+      ]
+     }
     ],
     [
      "Enjoy your holiday!",
      "အားလပ်ရက်ကို ပျော်ပျော် ဖြတ်သန်းပါ။",
      "Said to someone going away or taking time off. American English often says vacation.",
      "Enjoy your holiday! Send us a photo.",
-     "အားလပ်ရက်ကို ပျော်ပျော် ဖြတ်သန်းပါ။ ဓာတ်ပုံ ပို့ပေးနော်။"
+     "အားလပ်ရက်ကို ပျော်ပျော် ဖြတ်သန်းပါ။ ဓာတ်ပုံ ပို့ပေးနော်။",
+     {
+      "es": [
+       "¡Felices vacaciones!",
+       "Se le dice a alguien que sale de viaje o se toma unos días libres. El inglés americano suele decir vacation.",
+       "¡Felices vacaciones! Mándanos una foto."
+      ],
+      "fr": [
+       "Bonnes vacances !",
+       "Se dit à quelqu'un qui part ou prend des congés. L'anglais américain dit souvent vacation.",
+       "Bonnes vacances ! Envoie-nous une photo."
+      ]
+     }
     ],
     [
      "Sleep well!",
      "ကောင်းကောင်း အိပ်ပျော်ပါစေ။",
      "Said at bedtime, after Good night. To children: Sweet dreams!",
      "Good night, sleep well!",
-     "ကောင်းသောညပါ၊ ကောင်းကောင်း အိပ်ပျော်ပါစေ။"
+     "ကောင်းသောညပါ၊ ကောင်းကောင်း အိပ်ပျော်ပါစေ။",
+     {
+      "es": [
+       "¡Que duermas bien!",
+       "Se dice a la hora de dormir, después de Good night. A los niños: Sweet dreams!",
+       "Buenas noches, ¡que duermas bien!"
+      ],
+      "fr": [
+       "Dors bien !",
+       "Se dit au coucher, après Good night. Aux enfants : Sweet dreams!",
+       "Bonne nuit, dors bien !"
+      ]
+     }
     ],
     [
      "Fingers crossed!",
      "ကံကောင်းပါစေလို့ ဆုတောင်းပေးမယ်။",
      "Hoping something goes well. People often cross two fingers when they say it.",
      "— My exam results come out tomorrow. — Fingers crossed!",
-     "— မနက်ဖြန် စာမေးပွဲ အဖြေ ထွက်မယ်။ — ကံကောင်းပါစေလို့ ဆုတောင်းပေးမယ်။"
+     "— မနက်ဖြန် စာမေးပွဲ အဖြေ ထွက်မယ်။ — ကံကောင်းပါစေလို့ ဆုတောင်းပေးမယ်။",
+     {
+      "es": [
+       "¡Crucemos los dedos!",
+       "Esperas que algo salga bien. La gente suele cruzar dos dedos al decirlo.",
+       "— Mañana salen los resultados de mi examen. — ¡Crucemos los dedos!"
+      ],
+      "fr": [
+       "Je croise les doigts !",
+       "On espère que quelque chose se passera bien. Les gens croisent souvent deux doigts en le disant.",
+       "— Mes résultats d'examen sortent demain. — Je croise les doigts !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Buenos deseos para lo que viene",
+     "Deseos para un viaje, una comida, una noche de sueño o un gran momento."
+    ],
+    "fr": [
+     "Bons vœux pour la suite",
+     "Des vœux pour un voyage, un repas, une nuit de sommeil ou un grand moment."
+    ]
+   }
   },
   {
    "en": "When someone is ill",
@@ -189,30 +474,88 @@
      "မြန်မြန် နေကောင်းပါစေ။",
      "The usual wish for someone who is ill or in hospital. Also written on cards.",
      "I heard you're in hospital. Get well soon!",
-     "ဆေးရုံ တက်နေတယ်လို့ ကြားတယ်။ မြန်မြန် နေကောင်းပါစေ။"
+     "ဆေးရုံ တက်နေတယ်လို့ ကြားတယ်။ မြန်မြန် နေကောင်းပါစေ။",
+     {
+      "es": [
+       "¡Que te mejores pronto!",
+       "El deseo habitual para alguien enfermo o en el hospital. También se escribe en tarjetas.",
+       "Supe que estás en el hospital. ¡Que te mejores pronto!"
+      ],
+      "fr": [
+       "Bon rétablissement !",
+       "Le vœu habituel pour quelqu'un de malade ou d'hospitalisé. S'écrit aussi sur les cartes.",
+       "J'ai appris que tu es à l'hôpital. Bon rétablissement !"
+      ]
+     }
     ],
     [
      "I hope you feel better soon.",
      "မြန်မြန် သက်သာပါစေလို့ မျှော်လင့်ပါတယ်။",
      "Softer and a little longer. Good for a cold, a headache, a bad day.",
      "Sorry you've got a cold. I hope you feel better soon.",
-     "အအေးမိနေတယ်ဆိုလို့ စိတ်မကောင်းဘူး။ မြန်မြန် သက်သာပါစေ။"
+     "အအေးမိနေတယ်ဆိုလို့ စိတ်မကောင်းဘူး။ မြန်မြန် သက်သာပါစေ။",
+     {
+      "es": [
+       "Espero que te sientas mejor pronto.",
+       "Más suave y un poco más largo. Bueno para un resfriado, un dolor de cabeza, un mal día.",
+       "Qué mal que tengas un resfriado. Espero que te sientas mejor pronto."
+      ],
+      "fr": [
+       "J'espère que tu iras mieux bientôt.",
+       "Plus doux et un peu plus long. Bien pour un rhume, un mal de tête, une mauvaise journée.",
+       "Désolé que tu aies un rhume. J'espère que tu iras mieux bientôt."
+      ]
+     }
     ],
     [
      "Take it easy.",
      "အေးအေးဆေးဆေး နေပါ။",
      "Rest and don't work too hard. Also a casual goodbye.",
      "Stay in bed today and take it easy.",
-     "ဒီနေ့ အိပ်ရာထဲမှာပဲ အေးအေးဆေးဆေး နေပါ။"
+     "ဒီနေ့ အိပ်ရာထဲမှာပဲ အေးအေးဆေးဆေး နေပါ။",
+     {
+      "es": [
+       "Tómalo con calma.",
+       "Descansa y no trabajes demasiado. También es una despedida informal.",
+       "Hoy quédate en cama y tómalo con calma."
+      ],
+      "fr": [
+       "Ménage-toi.",
+       "Reposez-vous et ne travaillez pas trop. C'est aussi un au revoir familier.",
+       "Reste au lit aujourd'hui et ménage-toi."
+      ]
+     }
     ],
     [
      "I'm thinking of you.",
      "သတိရနေပါတယ်။",
      "For someone having a hard time: you care about them, even from far away.",
      "I'm thinking of you. Call me if you need anything.",
-     "သတိရနေပါတယ်။ ဘာလိုလို ဖုန်းဆက်နော်။"
+     "သတိရနေပါတယ်။ ဘာလိုလို ဖုန်းဆက်နော်။",
+     {
+      "es": [
+       "Pienso en ti.",
+       "Para alguien que pasa por un momento difícil: te importa, aunque estés lejos.",
+       "Pienso en ti. Llámame si necesitas algo."
+      ],
+      "fr": [
+       "Je pense à toi.",
+       "Pour quelqu'un qui traverse un moment difficile : il compte pour vous, même de loin.",
+       "Je pense à toi. Appelle-moi si tu as besoin de quoi que ce soit."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Cuando alguien está enfermo",
+     "Palabras amables para alguien enfermo o que pasa por un momento difícil."
+    ],
+    "fr": [
+     "Quand quelqu'un est malade",
+     "Des mots gentils pour quelqu'un de malade ou qui traverse un moment difficile."
+    ]
+   }
   },
   {
    "en": "Answering good wishes",
@@ -224,30 +567,88 @@
      "ခင်ဗျား/ရှင့်အတွက်လည်း ဒီလိုပဲ ဖြစ်ပါစေ။",
      "Returns the same wish. Good for Happy New Year! and Merry Christmas! Not for Happy birthday!",
      "— Happy New Year! — Thanks, same to you!",
-     "— နှစ်သစ် မင်္ဂလာပါ။ — ကျေးဇူးပါ၊ ခင်ဗျားအတွက်လည်း ဒီလိုပဲ ဖြစ်ပါစေ။"
+     "— နှစ်သစ် မင်္ဂလာပါ။ — ကျေးဇူးပါ၊ ခင်ဗျားအတွက်လည်း ဒီလိုပဲ ဖြစ်ပါစေ။",
+     {
+      "es": [
+       "¡Igualmente!",
+       "Devuelve el mismo deseo. Bueno para Happy New Year! y Merry Christmas! No para Happy birthday!",
+       "— ¡Feliz Año Nuevo! — ¡Gracias, igualmente!"
+      ],
+      "fr": [
+       "À toi aussi !",
+       "Renvoie le même vœu. Bien pour Happy New Year! et Merry Christmas! Pas pour Happy birthday!",
+       "— Bonne année ! — Merci, à toi aussi !"
+      ]
+     }
     ],
     [
      "You too!",
      "ခင်ဗျား/ရှင်လည်းပဲ။",
      "Short and friendly. Very common after Have a nice day! or Have a good weekend!",
      "— Have a great weekend! — You too!",
-     "— ပျော်စရာ ပိတ်ရက် ဖြစ်ပါစေ။ — ခင်ဗျားလည်းပဲ။"
+     "— ပျော်စရာ ပိတ်ရက် ဖြစ်ပါစေ။ — ခင်ဗျားလည်းပဲ။",
+     {
+      "es": [
+       "¡Tú también!",
+       "Corto y amistoso. Muy común después de Have a nice day! o Have a good weekend!",
+       "— ¡Que tengas un excelente fin de semana! — ¡Tú también!"
+      ],
+      "fr": [
+       "Toi aussi !",
+       "Court et amical. Très courant après Have a nice day! ou Have a good weekend!",
+       "— Passe un excellent week-end ! — Toi aussi !"
+      ]
+     }
     ],
     [
      "Thanks, I will!",
      "ကျေးဇူးပါ၊ ဒီလိုပဲ နေမှာပါ။",
      "The answer to Have fun! or Enjoy your holiday!",
      "— Have fun at the party! — Thanks, I will!",
-     "— ပါတီမှာ ပျော်ပျော် နေနော်။ — ကျေးဇူးပါ၊ ပျော်အောင် နေမှာပါ။"
+     "— ပါတီမှာ ပျော်ပျော် နေနော်။ — ကျေးဇူးပါ၊ ပျော်အောင် နေမှာပါ။",
+     {
+      "es": [
+       "¡Gracias, así lo haré!",
+       "La respuesta a Have fun! o Enjoy your holiday!",
+       "— ¡Que te diviertas en la fiesta! — ¡Gracias, así lo haré!"
+      ],
+      "fr": [
+       "Merci, je n'y manquerai pas !",
+       "La réponse à Have fun! ou Enjoy your holiday!",
+       "— Amuse-toi bien à la fête ! — Merci, je n'y manquerai pas !"
+      ]
+     }
     ],
     [
      "Thanks, it means a lot.",
      "ကျေးဇူးပါ၊ အရမ်း တန်ဖိုးထားပါတယ်။",
      "When someone's kind words really touch you.",
      "— I'm so proud of you. — Thanks, it means a lot.",
-     "— မင်းအတွက် အရမ်း ဂုဏ်ယူတယ်။ — ကျေးဇူးပါ၊ အရမ်း တန်ဖိုးထားပါတယ်။"
+     "— မင်းအတွက် အရမ်း ဂုဏ်ယူတယ်။ — ကျေးဇူးပါ၊ အရမ်း တန်ဖိုးထားပါတယ်။",
+     {
+      "es": [
+       "Gracias, significa mucho para mí.",
+       "Cuando las palabras amables de alguien de verdad te llegan.",
+       "— Estoy muy orgulloso de ti. — Gracias, significa mucho para mí."
+      ],
+      "fr": [
+       "Merci, ça me touche beaucoup.",
+       "Quand les mots gentils de quelqu'un vous touchent vraiment.",
+       "— Je suis tellement fier de toi. — Merci, ça me touche beaucoup."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Responder a los buenos deseos",
+     "Qué responder cuando alguien te desea algo bueno."
+    ],
+    "fr": [
+     "Répondre aux bons vœux",
+     "Que répondre quand on vous souhaite quelque chose de bon."
+    ]
+   }
   }
  ]
 }

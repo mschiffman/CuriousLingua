@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/likes_dislikes.html",
  "aud_dir": "eng/expressions/likes_dislikes/",
  "aud_ext": "mp3?v=2611100606",
@@ -21,37 +26,107 @@
      "ဗမာအစားအစာကို ကြိုက်တယ်။",
      "For general likes, use the plural: I like cats. I like movies. For things you don't count, no plural: I like rice. I like coffee.",
      "I like cats, but I don't have one.",
-     "ကြောင်ကို ကြိုက်တယ်၊ ဒါပေမဲ့ မမွေးထားဘူး။"
+     "ကြောင်ကို ကြိုက်တယ်၊ ဒါပေမဲ့ မမွေးထားဘူး။",
+     {
+      "es": [
+       "Me gusta la comida birmana.",
+       "Para gustos generales, usa el plural: I like cats. I like movies. Para lo que no se cuenta, sin plural: I like rice. I like coffee.",
+       "Me gustan los gatos, pero no tengo ninguno."
+      ],
+      "fr": [
+       "J'aime la cuisine birmane.",
+       "Pour les goûts généraux, employez le pluriel : I like cats. I like movies. Pour ce qui ne se compte pas, pas de pluriel : I like rice. I like coffee.",
+       "J'aime les chats, mais je n'en ai pas."
+      ]
+     }
     ],
     [
      "I love <span class=gray>noodles</span>.",
      "ခေါက်ဆွဲကို အရမ်းကြိုက်တယ်။",
      "Stronger than like. English uses love for food, music, places and hobbies, not only people. Here it means အရမ်းကြိုက်တယ်, not ချစ်တယ်.",
      "I love mohinga. I eat it every Sunday.",
-     "မုန့်ဟင်းခါး အရမ်းကြိုက်တယ်။ တနင်္ဂနွေတိုင်း စားတယ်။"
+     "မုန့်ဟင်းခါး အရမ်းကြိုက်တယ်။ တနင်္ဂနွေတိုင်း စားတယ်။",
+     {
+      "es": [
+       "Me encantan los fideos.",
+       "Más fuerte que like. El inglés usa love para comida, música, lugares y pasatiempos, no solo para personas. Aquí es me encanta, no amo.",
+       "Me encanta el mohinga. Lo como todos los domingos."
+      ],
+      "fr": [
+       "J'adore les nouilles.",
+       "Plus fort que like. L'anglais emploie love pour la nourriture, la musique, les lieux et les loisirs, pas seulement pour les personnes. Ici, c'est adorer, pas aimer d'amour.",
+       "J'adore le mohinga. J'en mange tous les dimanches."
+      ]
+     }
     ],
     [
      "I enjoy <span class=gray>reading</span>.",
      "စာဖတ်တာ နှစ်သက်ပါတယ်။",
      "Enjoy takes -ing or a noun: I enjoy cooking. I enjoy the music. Not: I enjoy to cook.",
      "I enjoy walking in the evening.",
-     "ညနေ လမ်းလျှောက်ရတာ ပျော်တယ်။"
+     "ညနေ လမ်းလျှောက်ရတာ ပျော်တယ်။",
+     {
+      "es": [
+       "Disfruto leer.",
+       "Enjoy lleva -ing o un sustantivo: I enjoy cooking. I enjoy the music. No: I enjoy to cook.",
+       "Disfruto caminar por la tarde."
+      ],
+      "fr": [
+       "J'aime bien lire.",
+       "Enjoy est suivi de -ing ou d'un nom : I enjoy cooking. I enjoy the music. Pas : I enjoy to cook.",
+       "J'aime bien marcher le soir."
+      ]
+     }
     ],
     [
      "I'm really into <span class=gray>football</span>.",
      "ဘောလုံးကို အရမ်း ဝါသနာပါတယ်။",
      "Casual: a hobby or interest you love right now. Common with young people.",
      "I'm really into Korean dramas these days.",
-     "အခုတလော ကိုရီးယား ဇာတ်လမ်းတွဲတွေ စွဲနေတယ်။"
+     "အခုတလော ကိုရီးယား ဇာတ်လမ်းတွဲတွေ စွဲနေတယ်။",
+     {
+      "es": [
+       "Me apasiona el fútbol.",
+       "Informal: un pasatiempo o interés que te encanta en este momento. Común entre jóvenes.",
+       "Últimamente me apasionan las series coreanas."
+      ],
+      "fr": [
+       "Je suis à fond dans le foot.",
+       "Familier : un loisir ou un intérêt que vous adorez en ce moment. Courant chez les jeunes.",
+       "Je suis à fond dans les séries coréennes en ce moment."
+      ]
+     }
     ],
     [
      "My favorite <span class=gray>color</span> is <span class=gray>blue</span>.",
      "အကြိုက်ဆုံး အရောင်က အပြာပါ။",
      "Your number one. British spelling: favourite.",
      "My favorite food is tea leaf salad.",
-     "အကြိုက်ဆုံး အစားအစာက လက်ဖက်သုပ်ပါ။"
+     "အကြိုက်ဆုံး အစားအစာက လက်ဖက်သုပ်ပါ။",
+     {
+      "es": [
+       "Mi color favorito es el azul.",
+       "Tu número uno. Ortografía británica: favourite.",
+       "Mi comida favorita es la ensalada de hojas de té."
+      ],
+      "fr": [
+       "Ma couleur préférée est le bleu.",
+       "Votre numéro un. Orthographe britannique : favourite.",
+       "Mon plat préféré est la salade de feuilles de thé."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Decir que algo te gusta",
+     "Desde un simple like hasta un gran love."
+    ],
+    "fr": [
+     "Dire que l'on aime",
+     "D'un simple like à un grand love."
+    ]
+   }
   },
   {
    "en": "Saying you don't like something",
@@ -63,37 +138,107 @@
      "အေးတဲ့ ရာသီဥတုကို မကြိုက်ဘူး။",
      "Clear and simple. Fine for things like weather, noise, or food in general.",
      "I don't like rainy days.",
-     "မိုးရွာတဲ့နေ့တွေကို မကြိုက်ဘူး။"
+     "မိုးရွာတဲ့နေ့တွေကို မကြိုက်ဘူး။",
+     {
+      "es": [
+       "No me gusta el frío.",
+       "Claro y sencillo. Está bien para cosas como el clima, el ruido o la comida en general.",
+       "No me gustan los días lluviosos."
+      ],
+      "fr": [
+       "Je n'aime pas le froid.",
+       "Clair et simple. Convient pour le temps, le bruit ou la nourriture en général.",
+       "Je n'aime pas les jours de pluie."
+      ]
+     }
     ],
     [
      "I don't really like <span class=gray>horror movies</span>.",
      "သရဲကားတွေကို သိပ်မကြိုက်ဘူး။",
      "Softer. Word order matters: I don't really like it is soft, but I really don't like it is strong!",
      "I don't really like spicy food.",
-     "စပ်တဲ့ အစားအစာကို သိပ်မကြိုက်ဘူး။"
+     "စပ်တဲ့ အစားအစာကို သိပ်မကြိုက်ဘူး။",
+     {
+      "es": [
+       "No me gustan mucho las películas de terror.",
+       "Más suave. El orden importa: I don't really like it es suave, ¡pero I really don't like it es fuerte!",
+       "No me gusta mucho la comida picante."
+      ],
+      "fr": [
+       "Je n'aime pas trop les films d'horreur.",
+       "Plus doux. L'ordre des mots compte : I don't really like it est doux, mais I really don't like it est fort !",
+       "Je n'aime pas trop la cuisine épicée."
+      ]
+     }
     ],
     [
      "I'm not a big fan of <span class=gray>sports</span>.",
      "အားကစားကို သိပ် ဝါသနာမပါဘူး။",
      "A friendly, gentle way to say you don't like something. Good for food someone made, or a friend's hobby.",
      "I'm not a big fan of durian. The smell is too strong for me.",
-     "ဒူးရင်းသီးကို သိပ် ဝါသနာမပါဘူး။ အနံ့ ပြင်းလွန်းတယ်။"
+     "ဒူးရင်းသီးကို သိပ် ဝါသနာမပါဘူး။ အနံ့ ပြင်းလွန်းတယ်။",
+     {
+      "es": [
+       "No soy muy fan de los deportes.",
+       "Una manera amistosa y suave de decir que algo no te gusta. Buena para la comida que alguien preparó o el pasatiempo de un amigo.",
+       "No soy muy fan del durián. El olor es demasiado fuerte para mí."
+      ],
+      "fr": [
+       "Je ne suis pas très fan de sport.",
+       "Une façon amicale et douce de dire que l'on n'aime pas. Bien pour un plat que quelqu'un a préparé ou le loisir d'un ami.",
+       "Je ne suis pas très fan du durian. L'odeur est trop forte pour moi."
+      ]
+     }
     ],
     [
      "<span class=gray>Shopping</span> isn't really my thing.",
      "ဈေးဝယ်ရတာ သိပ်ဝါသနာမပါဘူး။",
      "Casual: it's fine for other people, just not for me. No criticism.",
      "Dancing isn't really my thing.",
-     "ကခုန်တာက ကိုယ်နဲ့ သိပ်မကိုက်ဘူး။"
+     "ကခုန်တာက ကိုယ်နဲ့ သိပ်မကိုက်ဘူး။",
+     {
+      "es": [
+       "Ir de compras no es lo mío.",
+       "Informal: está bien para otros, pero no para mí. Sin criticar.",
+       "Bailar no es lo mío."
+      ],
+      "fr": [
+       "Le shopping, ce n'est pas trop mon truc.",
+       "Familier : c'est très bien pour les autres, mais pas pour moi. Sans critique.",
+       "La danse, ce n'est pas trop mon truc."
+      ]
+     }
     ],
     [
      "I hate <span class=gray>traffic jams</span>.",
      "ကားကြပ်တာကို အရမ်း မုန်းတယ်။",
      "Very strong. Also: I can't stand it. Fine for traffic or mosquitoes, but never about food someone cooked for you.",
      "I hate mosquitoes!",
-     "ခြင်တွေကို အရမ်း မုန်းတယ်။"
+     "ခြင်တွေကို အရမ်း မုန်းတယ်။",
+     {
+      "es": [
+       "Odio los embotellamientos.",
+       "Muy fuerte. También: I can't stand it. Está bien para el tráfico o los mosquitos, pero nunca para la comida que alguien te cocinó.",
+       "¡Odio los mosquitos!"
+      ],
+      "fr": [
+       "Je déteste les embouteillages.",
+       "Très fort. On dit aussi : I can't stand it. Convient pour les bouchons ou les moustiques, jamais pour un plat que l'on vous a cuisiné.",
+       "Je déteste les moustiques !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Decir que algo no te gusta",
+     "De suave a fuerte. Sobre las cosas de los demás, más suave es más amable."
+    ],
+    "fr": [
+     "Dire que l'on n'aime pas",
+     "Du plus doux au plus fort. Pour ce qui appartient aux autres, la douceur est plus aimable."
+    ]
+   }
   },
   {
    "en": "In between",
@@ -105,30 +250,88 @@
      "သာမန်ပါပဲ။",
      "Careful: with a flat voice, It's OK means only average, not good. To praise something, say It's great!",
      "— How's the new restaurant? — It's OK. Nothing special.",
-     "— ဆိုင်အသစ်က ဘယ်လိုလဲ။ — သာမန်ပါပဲ။ ထူးထူးခြားခြား မရှိဘူး။"
+     "— ဆိုင်အသစ်က ဘယ်လိုလဲ။ — သာမန်ပါပဲ။ ထူးထူးခြားခြား မရှိဘူး။",
+     {
+      "es": [
+       "Está bien.",
+       "Cuidado: en tono plano, It's OK significa regular, no bueno. Para elogiar algo, di It's great!",
+       "— ¿Qué tal el restaurante nuevo? — Está bien. Nada especial."
+      ],
+      "fr": [
+       "C'est pas mal.",
+       "Attention : d'une voix plate, It's OK veut dire moyen, pas bon. Pour faire un compliment, dites It's great!",
+       "— Il est comment, le nouveau restaurant ? — C'est pas mal. Rien de spécial."
+      ]
+     }
     ],
     [
      "I don't mind <span class=gray>the rain</span>.",
      "မိုးရွာလည်း ကိစ္စမရှိပါဘူး။",
      "It's OK for me, I won't complain. With a verb, use -ing: I don't mind waiting.",
      "I don't mind working on Saturdays.",
-     "စနေနေ့ အလုပ်ဆင်းရလည်း ရပါတယ်။"
+     "စနေနေ့ အလုပ်ဆင်းရလည်း ရပါတယ်။",
+     {
+      "es": [
+       "No me molesta la lluvia.",
+       "Para mí está bien, no me voy a quejar. Con un verbo, usa -ing: I don't mind waiting.",
+       "No me molesta trabajar los sábados."
+      ],
+      "fr": [
+       "La pluie ne me dérange pas.",
+       "Ça me va, je ne me plaindrai pas. Avec un verbe, on met -ing : I don't mind waiting.",
+       "Ça ne me dérange pas de travailler le samedi."
+      ]
+     }
     ],
     [
      "It depends.",
      "အခြေအနေပေါ် မူတည်တယ်။",
      "Your answer changes with the situation. Then explain: It depends on the weather.",
      "— Do you like walking? — It depends. Not in the hot sun!",
-     "— လမ်းလျှောက်ရတာ ကြိုက်လား။ — အခြေအနေပေါ် မူတည်တယ်။ နေပူကြီးထဲမှာတော့ မကြိုက်ဘူး။"
+     "— လမ်းလျှောက်ရတာ ကြိုက်လား။ — အခြေအနေပေါ် မူတည်တယ်။ နေပူကြီးထဲမှာတော့ မကြိုက်ဘူး။",
+     {
+      "es": [
+       "Depende.",
+       "Tu respuesta cambia según la situación. Luego explica: It depends on the weather.",
+       "— ¿Te gusta caminar? — Depende. ¡Bajo el sol, no!"
+      ],
+      "fr": [
+       "Ça dépend.",
+       "Votre réponse change selon la situation. Expliquez ensuite : It depends on the weather.",
+       "— Tu aimes marcher ? — Ça dépend. Pas en plein soleil !"
+      ]
+     }
     ],
     [
      "I can take it or leave it.",
      "ရှိလည်း ရတယ်၊ မရှိလည်း ရပါတယ်။",
      "You don't feel strongly: you're happy with it or without it.",
      "— Do you like chocolate? — I can take it or leave it.",
-     "— ချောကလက် ကြိုက်လား။ — ရှိလည်း ရ၊ မရှိလည်း ရပါတယ်။"
+     "— ချောကလက် ကြိုက်လား။ — ရှိလည်း ရ၊ မရှိလည်း ရပါတယ်။",
+     {
+      "es": [
+       "Me da igual.",
+       "No tienes una opinión fuerte: estás bien con ello o sin ello.",
+       "— ¿Te gusta el chocolate? — Me da igual."
+      ],
+      "fr": [
+       "Je peux m'en passer.",
+       "Vous n'avez pas d'avis tranché : avec ou sans, cela vous va.",
+       "— Tu aimes le chocolat ? — Je peux m'en passer."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Ni sí ni no",
+     "Cuando ni te encanta ni lo odias."
+    ],
+    "fr": [
+     "Entre les deux",
+     "Quand on n'adore pas et que l'on ne déteste pas."
+    ]
+   }
   },
   {
    "en": "Asking about likes",
@@ -140,37 +343,107 @@
      "လက်ဖက်ရည် ကြိုက်လား။",
      "The basic question. Answer: Yes, I do. or No, I don't. Not the same as Would you like some tea?, which is an offer.",
      "— Do you like swimming? — Yes, I do!",
-     "— ရေကူးရတာ ကြိုက်လား။ — ကြိုက်တယ်။"
+     "— ရေကူးရတာ ကြိုက်လား။ — ကြိုက်တယ်။",
+     {
+      "es": [
+       "¿Te gusta el té?",
+       "La pregunta básica. Respuesta: Yes, I do. o No, I don't. No es lo mismo que Would you like some tea?, que es un ofrecimiento.",
+       "— ¿Te gusta nadar? — ¡Sí, me gusta!"
+      ],
+      "fr": [
+       "Tu aimes le thé ?",
+       "La question de base. Réponse : Yes, I do. ou No, I don't. Ce n'est pas la même chose que Would you like some tea?, qui est une offre.",
+       "— Tu aimes nager ? — Oui, j'aime ça !"
+      ]
+     }
     ],
     [
      "What kind of <span class=gray>food</span> do you like?",
      "ဘယ်လို အစားအစာမျိုး ကြိုက်လဲ။",
      "Asks for details, and keeps the conversation going.",
      "What kind of music do you like?",
-     "ဘယ်လို သီချင်းမျိုး ကြိုက်လဲ။"
+     "ဘယ်လို သီချင်းမျိုး ကြိုက်လဲ။",
+     {
+      "es": [
+       "¿Qué tipo de comida te gusta?",
+       "Pide detalles y mantiene viva la conversación.",
+       "¿Qué tipo de música te gusta?"
+      ],
+      "fr": [
+       "Quel genre de cuisine aimes-tu ?",
+       "Demande des détails et entretient la conversation.",
+       "Quel genre de musique aimes-tu ?"
+      ]
+     }
     ],
     [
      "What's your favorite <span class=gray>movie</span>?",
      "အကြိုက်ဆုံး ရုပ်ရှင်က ဘာလဲ။",
      "A fun, easy question for new friends.",
      "What's your favorite song right now?",
-     "အခု အကြိုက်ဆုံး သီချင်းက ဘာလဲ။"
+     "အခု အကြိုက်ဆုံး သီချင်းက ဘာလဲ။",
+     {
+      "es": [
+       "¿Cuál es tu película favorita?",
+       "Una pregunta divertida y fácil para nuevos amigos.",
+       "¿Cuál es tu canción favorita en este momento?"
+      ],
+      "fr": [
+       "Quel est ton film préféré ?",
+       "Une question amusante et facile pour de nouveaux amis.",
+       "Quelle est ta chanson préférée en ce moment ?"
+      ]
+     }
     ],
     [
      "What do you like doing in your free time?",
      "အားလပ်ချိန်မှာ ဘာလုပ်ရတာ ကြိုက်လဲ။",
      "A friendly question about hobbies. Also: What do you do for fun?",
      "— What do you like doing in your free time? — I like reading and playing chinlone.",
-     "— အားလပ်ချိန်မှာ ဘာလုပ်ရတာ ကြိုက်လဲ။ — စာဖတ်ရတာနဲ့ ခြင်းလုံး ခတ်ရတာ ကြိုက်တယ်။"
+     "— အားလပ်ချိန်မှာ ဘာလုပ်ရတာ ကြိုက်လဲ။ — စာဖတ်ရတာနဲ့ ခြင်းလုံး ခတ်ရတာ ကြိုက်တယ်။",
+     {
+      "es": [
+       "¿Qué te gusta hacer en tu tiempo libre?",
+       "Una pregunta amistosa sobre pasatiempos. También: What do you do for fun?",
+       "— ¿Qué te gusta hacer en tu tiempo libre? — Me gusta leer y jugar chinlone."
+      ],
+      "fr": [
+       "Qu'est-ce que tu aimes faire pendant ton temps libre ?",
+       "Une question amicale sur les loisirs. On dit aussi : What do you do for fun?",
+       "— Qu'est-ce que tu aimes faire pendant ton temps libre ? — J'aime lire et jouer au chinlone."
+      ]
+     }
     ],
     [
      "Are you into <span class=gray>music</span>?",
      "ဂီတကို ဝါသနာပါလား။",
      "Casual: Are you interested in music? Common with young people.",
      "Are you into photography?",
-     "ဓာတ်ပုံရိုက်တာ ဝါသနာပါလား။"
+     "ဓာတ်ပုံရိုက်တာ ဝါသနာပါလား။",
+     {
+      "es": [
+       "¿Te gusta la música?",
+       "Informal: Are you interested in music? Común entre jóvenes.",
+       "¿Te gusta la fotografía?"
+      ],
+      "fr": [
+       "Tu t'intéresses à la musique ?",
+       "Familier : Are you interested in music? Courant chez les jeunes.",
+       "Tu t'intéresses à la photo ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Preguntar por los gustos",
+     "Buenas preguntas para platicar y conocer a la gente."
+    ],
+    "fr": [
+     "Demander les goûts",
+     "De bonnes questions pour bavarder et faire connaissance."
+    ]
+   }
   },
   {
    "en": "Same or different",
@@ -182,30 +455,88 @@
      "ကျွန်တော်/ကျွန်မလည်း ဒီလိုပဲ။",
      "Agrees with a positive sentence: I like tea. — Me too. More formal: So do I.",
      "— I love the rainy season. — Me too!",
-     "— မိုးရာသီကို အရမ်းကြိုက်တယ်။ — ကျွန်မလည်း ဒီလိုပဲ။"
+     "— မိုးရာသီကို အရမ်းကြိုက်တယ်။ — ကျွန်မလည်း ဒီလိုပဲ။",
+     {
+      "es": [
+       "A mí también.",
+       "Coincide con una oración afirmativa: I like tea. — Me too. Más formal: So do I.",
+       "— Me encanta la temporada de lluvias. — ¡A mí también!"
+      ],
+      "fr": [
+       "Moi aussi.",
+       "Approuve une phrase affirmative : I like tea. — Me too. Plus formel : So do I.",
+       "— J'adore la saison des pluies. — Moi aussi !"
+      ]
+     }
     ],
     [
      "Me neither.",
      "ကျွန်တော်/ကျွန်မလည်း မကြိုက်ဘူး။",
      "Agrees with a negative sentence. Not: I don't like it. — Me too. Correct: Me neither. More formal: Neither do I.",
      "— I don't like horror movies. — Me neither.",
-     "— သရဲကား မကြိုက်ဘူး။ — ကျွန်တော်လည်း မကြိုက်ဘူး။"
+     "— သရဲကား မကြိုက်ဘူး။ — ကျွန်တော်လည်း မကြိုက်ဘူး။",
+     {
+      "es": [
+       "A mí tampoco.",
+       "Coincide con una oración negativa. No: I don't like it. — Me too. Lo correcto: Me neither. Más formal: Neither do I.",
+       "— No me gustan las películas de terror. — A mí tampoco."
+      ],
+      "fr": [
+       "Moi non plus.",
+       "Approuve une phrase négative. Pas : I don't like it. — Me too. Correct : Me neither. Plus formel : Neither do I.",
+       "— Je n'aime pas les films d'horreur. — Moi non plus."
+      ]
+     }
     ],
     [
      "Really? I love it!",
      "တကယ်လား။ အရမ်းကြိုက်တယ်။",
      "Disagrees in a friendly way when someone doesn't like something. Smile, and add a reason.",
      "— I don't like durian. — Really? I love it! It's my favorite fruit.",
-     "— ဒူးရင်းသီး မကြိုက်ဘူး။ — တကယ်လား။ ကျွန်မကတော့ အရမ်းကြိုက်တယ်။ အကြိုက်ဆုံး အသီးပဲ။"
+     "— ဒူးရင်းသီး မကြိုက်ဘူး။ — တကယ်လား။ ကျွန်မကတော့ အရမ်းကြိုက်တယ်။ အကြိုက်ဆုံး အသီးပဲ။",
+     {
+      "es": [
+       "¿En serio? ¡A mí me encanta!",
+       "No estás de acuerdo, de manera amistosa, cuando a alguien no le gusta algo. Sonríe y agrega un motivo.",
+       "— No me gusta el durián. — ¿En serio? ¡A mí me encanta! Es mi fruta favorita."
+      ],
+      "fr": [
+       "Ah bon ? Moi, j'adore !",
+       "Exprime un désaccord amical quand quelqu'un n'aime pas quelque chose. Souriez et ajoutez une raison.",
+       "— Je n'aime pas le durian. — Ah bon ? Moi, j'adore ! C'est mon fruit préféré."
+      ]
+     }
     ],
     [
      "Not me.",
      "ကျွန်တော်/ကျွန်မကတော့ မကြိုက်ဘူး။",
      "Disagrees with a positive sentence, casually. Kinder with a reason.",
      "— I love sweet tea. — Not me. It's too sweet.",
-     "— လက်ဖက်ရည်ချို အရမ်းကြိုက်တယ်။ — ကျွန်တော်ကတော့ မကြိုက်ဘူး။ ချိုလွန်းတယ်။"
+     "— လက်ဖက်ရည်ချို အရမ်းကြိုက်တယ်။ — ကျွန်တော်ကတော့ မကြိုက်ဘူး။ ချိုလွန်းတယ်။",
+     {
+      "es": [
+       "Yo no.",
+       "No estás de acuerdo con una oración afirmativa, de manera informal. Más amable con un motivo.",
+       "— Me encanta el té dulce. — A mí no. Es demasiado dulce."
+      ],
+      "fr": [
+       "Pas moi.",
+       "Exprime un désaccord avec une phrase affirmative, de façon familière. Plus gentil avec une raison.",
+       "— J'adore le thé sucré. — Pas moi. C'est trop sucré."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Igual o diferente",
+     "Responder cuando alguien te dice lo que le gusta o no le gusta."
+    ],
+    "fr": [
+     "Pareil ou différent",
+     "Répondre quand quelqu'un vous dit ce qu'il aime ou n'aime pas."
+    ]
+   }
   },
   {
    "en": "Preferences",
@@ -217,30 +548,88 @@
      "ပေါင်မုန့်ထက် ထမင်းကို ပိုကြိုက်တယ်။",
      "Prefer A to B, not than. With than, say: I like A more than B. The order is the reverse of Burmese: I prefer tea to coffee = ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်.",
      "I prefer tea to coffee.",
-     "ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်။"
+     "ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်။",
+     {
+      "es": [
+       "Prefiero el arroz al pan.",
+       "Prefer A to B, no than. Con than, se dice: I like A more than B.",
+       "Prefiero el té al café."
+      ],
+      "fr": [
+       "Je préfère le riz au pain.",
+       "Prefer A to B, pas than. Avec than, on dit : I like A more than B.",
+       "Je préfère le thé au café."
+      ]
+     }
     ],
     [
      "I'd rather <span class=gray>stay home</span>.",
      "အိမ်မှာပဲ နေချင်ပါတယ်။",
      "I'd rather = I would rather. Use the base verb: I'd rather walk. Not: I'd rather to walk.",
      "— Shall we take a taxi? — I'd rather walk. It's not far.",
-     "— တက္ကစီ စီးကြမလား။ — လမ်းလျှောက်ရင် ပိုကောင်းမယ်။ မဝေးပါဘူး။"
+     "— တက္ကစီ စီးကြမလား။ — လမ်းလျှောက်ရင် ပိုကောင်းမယ်။ မဝေးပါဘူး။",
+     {
+      "es": [
+       "Prefiero quedarme en casa.",
+       "I'd rather = I would rather. Usa el verbo en su forma base: I'd rather walk. No: I'd rather to walk.",
+       "— ¿Tomamos un taxi? — Prefiero caminar. No está lejos."
+      ],
+      "fr": [
+       "Je préfère rester à la maison.",
+       "I'd rather = I would rather. Employez la base verbale : I'd rather walk. Pas : I'd rather to walk.",
+       "— On prend un taxi ? — Je préfère marcher. Ce n'est pas loin."
+      ]
+     }
     ],
     [
      "I like both.",
      "နှစ်ခုလုံး ကြိုက်တယ်။",
      "When you can't choose. Also: I like them both.",
      "— Cats or dogs? — I like both!",
-     "— ကြောင်လား၊ ခွေးလား။ — နှစ်ခုလုံး ကြိုက်တယ်။"
+     "— ကြောင်လား၊ ခွေးလား။ — နှစ်ခုလုံး ကြိုက်တယ်။",
+     {
+      "es": [
+       "Me gustan los dos.",
+       "Cuando no puedes elegir. También: I like them both.",
+       "— ¿Gatos o perros? — ¡Me gustan los dos!"
+      ],
+      "fr": [
+       "J'aime les deux.",
+       "Quand on n'arrive pas à choisir. On dit aussi : I like them both.",
+       "— Chats ou chiens ? — J'aime les deux !"
+      ]
+     }
     ],
     [
      "Either is fine.",
      "ဘယ်ဟာဖြစ်ဖြစ် ရပါတယ်။",
      "When you really don't mind. If you have a small preference, say it: hosts are happy to know.",
      "— Tea or coffee? — Either is fine, thanks.",
-     "— လက်ဖက်ရည်လား၊ ကော်ဖီလား။ — ဘယ်ဟာဖြစ်ဖြစ် ရပါတယ်၊ ကျေးဇူးပါ။"
+     "— လက်ဖက်ရည်လား၊ ကော်ဖီလား။ — ဘယ်ဟာဖြစ်ဖြစ် ရပါတယ်၊ ကျေးဇူးပါ။",
+     {
+      "es": [
+       "Cualquiera está bien.",
+       "Cuando de verdad te da igual. Si tienes una pequeña preferencia, dila: a los anfitriones les gusta saberla.",
+       "— ¿Té o café? — Cualquiera está bien, gracias."
+      ],
+      "fr": [
+       "L'un ou l'autre, ça me va.",
+       "Quand cela vous est vraiment égal. Si vous avez une petite préférence, dites-la : les hôtes aiment la connaître.",
+       "— Thé ou café ? — L'un ou l'autre, ça me va, merci."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Preferencias",
+     "Elegir entre dos cosas."
+    ],
+    "fr": [
+     "Les préférences",
+     "Choisir entre deux choses."
+    ]
+   }
   }
  ]
 }

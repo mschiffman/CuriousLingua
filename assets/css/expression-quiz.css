@@ -38,7 +38,7 @@ html.xq-lock body {
 .xq-launch-btn:hover {
   transform: translateY(-2px);
 }
-.xq-launch-btn [lang="my"] {
+.xq-launch-btn span {
   font: 400 0.8rem/1.6 "Roboto", "Noto Sans Myanmar", sans-serif;
   opacity: 0.9;
 }
@@ -438,7 +438,7 @@ html.xq-lock body {
     border-color 0.15s,
     transform 0.1s;
 }
-.xq-mitem[lang="my"] {
+.xq-mitem[lang] {
   font-size: 0.98rem !important;
   font-weight: 400 !important;
 }

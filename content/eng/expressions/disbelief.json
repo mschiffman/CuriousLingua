@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "review": "Written by Claude. The Burmese lines are drafts: check every one before publishing or recording.",
  "aud_dir": "eng/expressions/disbelief/",
  "aud_ext": "mp3?v=2611251637",
@@ -25,30 +30,88 @@
      "တကယ်ကြီးလား။",
      "Stronger than Really? Informal.",
      "“I quit my job.” “Seriously?”",
-     "“အလုပ်ထွက်လိုက်ပြီ။” “တကယ်ကြီးလား။”"
+     "“အလုပ်ထွက်လိုက်ပြီ။” “တကယ်ကြီးလား။”",
+     {
+      "es": [
+       "¿En serio?",
+       "Más fuerte que Really? Informal.",
+       "— Renuncié a mi trabajo. — ¿En serio?"
+      ],
+      "fr": [
+       "Sérieusement ?",
+       "Plus fort que Really? Familier.",
+       "— J'ai démissionné. — Sérieusement ?"
+      ]
+     }
     ],
     [
      "No kidding?",
      "နောက်နေတာ မဟုတ်ဘူးနော်။",
      "Kid = joke. You are surprised, but you believe it.",
      "“She's fifty.” “No kidding? She looks thirty.”",
-     "“သူ အသက်ငါးဆယ်ရှိပြီ။” “နောက်နေတာ မဟုတ်ဘူးနော်။ သုံးဆယ်လောက်ပဲ ထင်ရတယ်။”"
+     "“သူ အသက်ငါးဆယ်ရှိပြီ။” “နောက်နေတာ မဟုတ်ဘူးနော်။ သုံးဆယ်လောက်ပဲ ထင်ရတယ်။”",
+     {
+      "es": [
+       "¿De veras?",
+       "Kid = bromear. Te sorprende, pero lo crees.",
+       "— Tiene cincuenta años. — ¿De veras? Parece de treinta."
+      ],
+      "fr": [
+       "Sans blague ?",
+       "Kid = plaisanter. Vous êtes surpris, mais vous y croyez.",
+       "— Elle a cinquante ans. — Sans blague ? Elle en paraît trente."
+      ]
+     }
     ],
     [
      "For real?",
      "တကယ်လား။",
      "Very informal. The same as Really?",
      "“We won!” “For real?”",
-     "“ငါတို့ နိုင်တယ်။” “တကယ်လား။”"
+     "“ငါတို့ နိုင်တယ်။” “တကယ်လား။”",
+     {
+      "es": [
+       "¿De verdad?",
+       "Muy informal. Lo mismo que Really?",
+       "— ¡Ganamos! — ¿De verdad?"
+      ],
+      "fr": [
+       "Pour de vrai ?",
+       "Très familier. Pareil que Really?",
+       "— On a gagné ! — Pour de vrai ?"
+      ]
+     }
     ],
     [
      "What?",
      "ဘာ။",
      "One word, said with a rising voice. Can sound rude if you shout it.",
      "“The shop is closed forever.” “What?”",
-     "“ဆိုင်က အပြီးပိတ်သွားပြီ။” “ဘာ။”"
+     "“ဆိုင်က အပြီးပိတ်သွားပြီ။” “ဘာ။”",
+     {
+      "es": [
+       "¿Qué?",
+       "Una palabra, dicha con la voz hacia arriba. Puede sonar grosero si la gritas.",
+       "— La tienda cerró para siempre. — ¿Qué?"
+      ],
+      "fr": [
+       "Quoi ?",
+       "Un seul mot, dit avec la voix qui monte. Peut sembler impoli si on le crie.",
+       "— Le magasin a fermé définitivement. — Quoi ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "¿Es cierto?",
+     "Preguntas cortas que muestran sorpresa y le piden al otro que siga."
+    ],
+    "fr": [
+     "C'est vrai ?",
+     "De courtes questions qui montrent la surprise et invitent l'autre à continuer."
+    ]
+   }
   },
   {
    "en": "You're joking",
@@ -60,23 +123,69 @@
      "အတည်ပြောနေတာလား။ မဖြစ်နိုင်ဘူး။",
      "Serious = not joking. You think the idea is too strange or too bad.",
      "“I'm going to swim across the river.” “You can't be serious.”",
-     "“မြစ်ကို ကူးခတ်မလို့။” “အတည်ပြောနေတာလား။ မဖြစ်နိုင်ဘူး။”"
+     "“မြစ်ကို ကူးခတ်မလို့။” “အတည်ပြောနေတာလား။ မဖြစ်နိုင်ဘူး။”",
+     {
+      "es": [
+       "No puedes estar hablando en serio.",
+       "Serious = que no bromea. Crees que la idea es demasiado rara o demasiado mala.",
+       "— Voy a cruzar el río nadando. — No puedes estar hablando en serio."
+      ],
+      "fr": [
+       "Tu n'es pas sérieux.",
+       "Serious = qui ne plaisante pas. Vous trouvez l'idée trop étrange ou trop mauvaise.",
+       "— Je vais traverser la rivière à la nage. — Tu n'es pas sérieux."
+      ]
+     }
     ],
     [
      "Are you kidding me?",
      "ငါ့ကို နောက်နေတာလား။",
      "Stronger than You're kidding. Often for bad news.",
      "“The bus left without us.” “Are you kidding me?”",
-     "“ဘတ်စ်ကား ငါတို့ကို ထားခဲ့ပြီ။” “ငါ့ကို နောက်နေတာလား။”"
+     "“ဘတ်စ်ကား ငါတို့ကို ထားခဲ့ပြီ။” “ငါ့ကို နောက်နေတာလား။”",
+     {
+      "es": [
+       "¿Me estás tomando el pelo?",
+       "Más fuerte que You're kidding. A menudo para malas noticias.",
+       "— El autobús se fue sin nosotros. — ¿Me estás tomando el pelo?"
+      ],
+      "fr": [
+       "Tu te moques de moi ?",
+       "Plus fort que You're kidding. Souvent pour les mauvaises nouvelles.",
+       "— Le bus est parti sans nous. — Tu te moques de moi ?"
+      ]
+     }
     ],
     [
      "You're joking, right?",
      "နောက်နေတာ မဟုတ်လား။",
      "…, right? asks the other person to say yes.",
      "“The exam is today.” “You're joking, right?”",
-     "“စာမေးပွဲက ဒီနေ့။” “နောက်နေတာ မဟုတ်လား။”"
+     "“စာမေးပွဲက ဒီနေ့။” “နောက်နေတာ မဟုတ်လား။”",
+     {
+      "es": [
+       "Estás bromeando, ¿verdad?",
+       "…, right? le pide a la otra persona que diga que sí.",
+       "— El examen es hoy. — Estás bromeando, ¿verdad?"
+      ],
+      "fr": [
+       "Tu plaisantes, là ?",
+       "…, right? demande à l'autre de dire oui.",
+       "— L'examen est aujourd'hui. — Tu plaisantes, là ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Estás bromeando",
+     "Cuando crees que la otra persona no puede estar hablando en serio."
+    ],
+    "fr": [
+     "Tu plaisantes",
+     "Quand on pense que l'autre ne peut pas être sérieux."
+    ]
+   }
   },
   {
    "en": "I can't believe it",
@@ -88,37 +197,107 @@
      "မယုံနိုင်ဘူး။",
      "An exclamation of surprise. It does not always mean the other person is lying.",
      "“He ate ten eggs.” “I don't believe it!”",
-     "“သူ ကြက်ဥ ဆယ်လုံး စားတယ်။” “မယုံနိုင်ဘူး။”"
+     "“သူ ကြက်ဥ ဆယ်လုံး စားတယ်။” “မယုံနိုင်ဘူး။”",
+     {
+      "es": [
+       "¡No lo creo!",
+       "Una exclamación de sorpresa. No siempre significa que la otra persona esté mintiendo.",
+       "— Se comió diez huevos. — ¡No lo creo!"
+      ],
+      "fr": [
+       "Je n'y crois pas !",
+       "Une exclamation de surprise. Elle ne veut pas toujours dire que l'autre ment.",
+       "— Il a mangé dix œufs. — Je n'y crois pas !"
+      ]
+     }
     ],
     [
      "I can't believe it.",
      "ယုံတောင် မယုံနိုင်ဘူး။",
      "Often for your own good or bad news.",
      "I passed! I can't believe it.",
-     "ငါ အောင်တယ်။ ယုံတောင် မယုံနိုင်ဘူး။"
+     "ငါ အောင်တယ်။ ယုံတောင် မယုံနိုင်ဘူး။",
+     {
+      "es": [
+       "No lo puedo creer.",
+       "A menudo para tus propias noticias, buenas o malas.",
+       "¡Pasé! No lo puedo creer."
+      ],
+      "fr": [
+       "Je n'arrive pas à y croire.",
+       "Souvent pour vos propres nouvelles, bonnes ou mauvaises.",
+       "J'ai réussi ! Je n'arrive pas à y croire."
+      ]
+     }
     ],
     [
      "That's impossible.",
      "မဖြစ်နိုင်ဘူး။",
      "It cannot happen. Also: That can't be true.",
      "“The cat opened the door.” “That's impossible.”",
-     "“ကြောင်က တံခါးဖွင့်တယ်။” “မဖြစ်နိုင်ဘူး။”"
+     "“ကြောင်က တံခါးဖွင့်တယ်။” “မဖြစ်နိုင်ဘူး။”",
+     {
+      "es": [
+       "Eso es imposible.",
+       "No puede pasar. También: That can't be true.",
+       "— El gato abrió la puerta. — Eso es imposible."
+      ],
+      "fr": [
+       "C'est impossible.",
+       "Cela ne peut pas arriver. On dit aussi : That can't be true.",
+       "— Le chat a ouvert la porte. — C'est impossible."
+      ]
+     }
     ],
     [
      "Unbelievable!",
      "မယုံနိုင်စရာပဲ။",
      "One word. For something amazing, or for something that makes you angry.",
      "He's late again. Unbelievable!",
-     "သူ နောက်ကျပြန်ပြီ။ မယုံနိုင်စရာပဲ။"
+     "သူ နောက်ကျပြန်ပြီ။ မယုံနိုင်စရာပဲ။",
+     {
+      "es": [
+       "¡Increíble!",
+       "Una palabra. Para algo asombroso, o para algo que te hace enojar.",
+       "Otra vez llegó tarde. ¡Increíble!"
+      ],
+      "fr": [
+       "Incroyable !",
+       "Un seul mot. Pour quelque chose d'étonnant, ou quelque chose qui vous met en colère.",
+       "Il est encore en retard. Incroyable !"
+      ]
+     }
     ],
     [
      "You're not going to believe this.",
      "မင်း ယုံမှာ မဟုတ်ဘူး။",
      "Say it first, before you tell a surprising story.",
      "You're not going to believe this. I saw our teacher on TV.",
-     "မင်း ယုံမှာ မဟုတ်ဘူး။ ငါတို့ဆရာကို တီဗီမှာ တွေ့တယ်။"
+     "မင်း ယုံမှာ မဟုတ်ဘူး။ ငါတို့ဆရာကို တီဗီမှာ တွေ့တယ်။",
+     {
+      "es": [
+       "No me lo vas a creer.",
+       "Dilo primero, antes de contar una historia sorprendente.",
+       "No me lo vas a creer. Vi a nuestro maestro en la tele."
+      ],
+      "fr": [
+       "Tu ne vas pas me croire.",
+       "À dire en premier, avant de raconter une histoire surprenante.",
+       "Tu ne vas pas me croire. J'ai vu notre professeur à la télé."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "No lo puedo creer",
+     "Para noticias muy difíciles de creer, buenas o malas."
+    ],
+    "fr": [
+     "Je n'arrive pas à y croire",
+     "Pour des nouvelles très difficiles à croire, bonnes ou mauvaises."
+    ]
+   }
   },
   {
    "en": "That's crazy",
@@ -130,30 +309,88 @@
      "ရူးစရာပဲ။",
      "Very common and informal. Not an insult: it is about the news, not the person.",
      "“He walked for three days.” “That's crazy!”",
-     "“သူ သုံးရက် လမ်းလျှောက်တယ်။” “ရူးစရာပဲ။”"
+     "“သူ သုံးရက် လမ်းလျှောက်တယ်။” “ရူးစရာပဲ။”",
+     {
+      "es": [
+       "¡Qué locura!",
+       "Muy común e informal. No es un insulto: se refiere a la noticia, no a la persona.",
+       "— Caminó tres días. — ¡Qué locura!"
+      ],
+      "fr": [
+       "C'est fou !",
+       "Très courant et familier. Pas une insulte : cela vise la nouvelle, pas la personne.",
+       "— Il a marché pendant trois jours. — C'est fou !"
+      ]
+     }
     ],
     [
      "That's insane.",
      "အရမ်း လွန်တာပဲ။",
      "Stronger than crazy. Informal.",
      "“The ticket costs five hundred dollars.” “That's insane.”",
-     "“လက်မှတ်က ဒေါ်လာ ငါးရာ။” “အရမ်း လွန်တာပဲ။”"
+     "“လက်မှတ်က ဒေါ်လာ ငါးရာ။” “အရမ်း လွန်တာပဲ။”",
+     {
+      "es": [
+       "Es una locura total.",
+       "Más fuerte que crazy. Informal.",
+       "— El boleto cuesta quinientos dólares. — Es una locura total."
+      ],
+      "fr": [
+       "C'est dingue.",
+       "Plus fort que crazy. Familier.",
+       "— Le billet coûte cinq cents dollars. — C'est dingue."
+      ]
+     }
     ],
     [
      "Holy cow!",
      "အမလေး။",
      "A funny, polite way to show big surprise. American.",
      "Holy cow! Look at the size of that fish!",
-     "အမလေး။ အဲဒီငါး အကြီးကြီးပဲ ကြည့်စမ်း။"
+     "အမလေး။ အဲဒီငါး အကြီးကြီးပဲ ကြည့်စမ်း။",
+     {
+      "es": [
+       "¡Santo cielo!",
+       "Una manera graciosa y decente de mostrar una gran sorpresa. Estadounidense.",
+       "¡Santo cielo! ¡Mira el tamaño de ese pescado!"
+      ],
+      "fr": [
+       "Oh la vache !",
+       "Une façon drôle et convenable de montrer une grande surprise. Américain.",
+       "Oh la vache ! Regarde la taille de ce poisson !"
+      ]
+     }
     ],
     [
      "He said what?",
      "သူ ဘာပြောတယ်။",
      "Repeat the sentence with what when you cannot believe what you heard. Also: You did what?",
      "“He said the Earth is flat.” “He said what?”",
-     "“သူက ကမ္ဘာကြီး ပြားတယ်တဲ့။” “သူ ဘာပြောတယ်။”"
+     "“သူက ကမ္ဘာကြီး ပြားတယ်တဲ့။” “သူ ဘာပြောတယ်။”",
+     {
+      "es": [
+       "¿Que dijo qué?",
+       "Repite la oración con what cuando no puedes creer lo que oíste. También: You did what?",
+       "— Dijo que la Tierra es plana. — ¿Que dijo qué?"
+      ],
+      "fr": [
+       "Il a dit quoi ?",
+       "Répétez la phrase avec what quand vous n'en croyez pas vos oreilles. On dit aussi : You did what?",
+       "— Il a dit que la Terre est plate. — Il a dit quoi ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Qué locura",
+     "Reacciones informales ante una gran sorpresa."
+    ],
+    "fr": [
+     "C'est fou",
+     "Des réactions familières à une grande surprise."
+    ]
+   }
   },
   {
    "en": "I don't believe you",
@@ -165,37 +402,107 @@
      "ဟုတ်ပါ့။",
      "Ironic: the words say yes, the voice says no.",
      "“I'll clean my room tomorrow.” “Yeah, right.”",
-     "“မနက်ဖြန် အခန်းရှင်းမယ်။” “ဟုတ်ပါ့။”"
+     "“မနက်ဖြန် အခန်းရှင်းမယ်။” “ဟုတ်ပါ့။”",
+     {
+      "es": [
+       "Sí, cómo no.",
+       "Irónico: las palabras dicen que sí, la voz dice que no.",
+       "— Mañana limpio mi cuarto. — Sí, cómo no."
+      ],
+      "fr": [
+       "Mais oui, c'est ça.",
+       "Ironique : les mots disent oui, la voix dit non.",
+       "— Je rangerai ma chambre demain. — Mais oui, c'est ça."
+      ]
+     }
     ],
     [
      "Nonsense!",
      "အဓိပ္ပာယ်မရှိတာ။",
      "That is not true, and it is silly. Strong.",
      "“Cats can't see at night.” “Nonsense!”",
-     "“ကြောင်တွေက ညဘက် မမြင်ဘူး။” “အဓိပ္ပာယ်မရှိတာ။”"
+     "“ကြောင်တွေက ညဘက် မမြင်ဘူး။” “အဓိပ္ပာယ်မရှိတာ။”",
+     {
+      "es": [
+       "¡Tonterías!",
+       "Eso no es cierto, y es absurdo. Fuerte.",
+       "— Los gatos no ven de noche. — ¡Tonterías!"
+      ],
+      "fr": [
+       "N'importe quoi !",
+       "Ce n'est pas vrai, et c'est absurde. Fort.",
+       "— Les chats ne voient pas la nuit. — N'importe quoi !"
+      ]
+     }
     ],
     [
      "As if!",
      "ဖြစ်မလား။",
      "That will never happen. Informal.",
      "“He says he'll pay for everyone.” “As if!”",
-     "“သူက အားလုံးအတွက် ပေးမယ်တဲ့။” “ဖြစ်မလား။”"
+     "“သူက အားလုံးအတွက် ပေးမယ်တဲ့။” “ဖြစ်မလား။”",
+     {
+      "es": [
+       "¡Sí, claro!",
+       "Eso nunca va a pasar. Informal.",
+       "— Dice que va a pagar lo de todos. — ¡Sí, claro!"
+      ],
+      "fr": [
+       "Tu parles !",
+       "Cela n'arrivera jamais. Familier.",
+       "— Il dit qu'il paiera pour tout le monde. — Tu parles !"
+      ]
+     }
     ],
     [
      "I doubt it.",
      "မထင်ဘူး။",
      "Polite: I think it is probably not true. Say “dowt”: the b is silent.",
      "“Will it rain today?” “I doubt it.”",
-     "“ဒီနေ့ မိုးရွာမလား။” “မထင်ဘူး။”"
+     "“ဒီနေ့ မိုးရွာမလား။” “မထင်ဘူး။”",
+     {
+      "es": [
+       "Lo dudo.",
+       "Cortés: creo que probablemente no es cierto. Se dice “dowt”: la b es muda.",
+       "— ¿Va a llover hoy? — Lo dudo."
+      ],
+      "fr": [
+       "J'en doute.",
+       "Poli : je pense que ce n'est probablement pas vrai. On prononce « dowt » : le b est muet.",
+       "— Il va pleuvoir aujourd'hui ? — J'en doute."
+      ]
+     }
     ],
     [
      "Give me a break.",
      "တော်ပါတော့။",
      "I do not believe that at all. It can also mean: stop bothering me.",
      "“I was late because of an elephant.” “Oh, give me a break.”",
-     "“ဆင်ကြောင့် နောက်ကျတာ။” “တော်ပါတော့။”"
+     "“ဆင်ကြောင့် နောက်ကျတာ။” “တော်ပါတော့။”",
+     {
+      "es": [
+       "No me vengas con eso.",
+       "No lo creo para nada. También puede significar: deja de molestarme.",
+       "— Llegué tarde por culpa de un elefante. — Ay, no me vengas con eso."
+      ],
+      "fr": [
+       "Arrête un peu.",
+       "Je n'y crois pas du tout. Peut aussi vouloir dire : laisse-moi tranquille.",
+       "— J'étais en retard à cause d'un éléphant. — Oh, arrête un peu."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "No te creo",
+     "Cuando de verdad crees que no es cierto. Cuidado: pueden sonar groseras."
+    ],
+    "fr": [
+     "Je ne te crois pas",
+     "Quand on pense vraiment que ce n'est pas vrai. Attention : elles peuvent sembler impolies."
+    ]
+   }
   },
   {
    "en": "But it's true!",
@@ -207,37 +514,107 @@
      "ကျိန်ပြောရဲတယ်။",
      "I promise it is true.",
      "I didn't eat your cake. I swear!",
-     "မင်းကိတ်မုန့်ကို ငါ မစားဘူး။ ကျိန်ပြောရဲတယ်။"
+     "မင်းကိတ်မုန့်ကို ငါ မစားဘူး။ ကျိန်ပြောရဲတယ်။",
+     {
+      "es": [
+       "¡Te lo juro!",
+       "Prometo que es verdad.",
+       "No me comí tu pastel. ¡Te lo juro!"
+      ],
+      "fr": [
+       "Je te jure !",
+       "Je promets que c'est vrai.",
+       "Je n'ai pas mangé ton gâteau. Je te jure !"
+      ]
+     }
     ],
     [
      "I'm not lying.",
      "ငါ မလိမ်ဘူး။",
      "Lie, lying: to say something that is not true.",
      "I'm not lying. Ask my sister.",
-     "ငါ မလိမ်ဘူး။ ငါ့ညီမကို မေးကြည့်။"
+     "ငါ မလိမ်ဘူး။ ငါ့ညီမကို မေးကြည့်။",
+     {
+      "es": [
+       "No estoy mintiendo.",
+       "Lie, lying: decir algo que no es verdad.",
+       "No estoy mintiendo. Pregúntale a mi hermana."
+      ],
+      "fr": [
+       "Je ne mens pas.",
+       "Lie, lying : dire quelque chose qui n'est pas vrai.",
+       "Je ne mens pas. Demande à ma sœur."
+      ]
+     }
     ],
     [
      "Believe me.",
      "ငါ့ကို ယုံပါ။",
      "Asks the other person to trust you.",
      "Believe me, it was this big.",
-     "ငါ့ကို ယုံပါ။ ဒီလောက်ကြီးတာ။"
+     "ငါ့ကို ယုံပါ။ ဒီလောက်ကြီးတာ။",
+     {
+      "es": [
+       "Créeme.",
+       "Le pide a la otra persona que confíe en ti.",
+       "Créeme, era así de grande."
+      ],
+      "fr": [
+       "Crois-moi.",
+       "Demande à l'autre de vous faire confiance.",
+       "Crois-moi, il était grand comme ça."
+      ]
+     }
     ],
     [
      "It's true!",
      "တကယ်ပါ။",
      "The simplest answer.",
      "“You met the president?” “It's true!”",
-     "“သမ္မတနဲ့ တွေ့ခဲ့တာလား။” “တကယ်ပါ။”"
+     "“သမ္မတနဲ့ တွေ့ခဲ့တာလား။” “တကယ်ပါ။”",
+     {
+      "es": [
+       "¡Es verdad!",
+       "La respuesta más sencilla.",
+       "— ¿Conociste al presidente? — ¡Es verdad!"
+      ],
+      "fr": [
+       "C'est vrai !",
+       "La réponse la plus simple.",
+       "— Tu as rencontré le président ? — C'est vrai !"
+      ]
+     }
     ],
     [
      "I saw it with my own eyes.",
      "ကိုယ့်မျက်စိနဲ့ ကိုယ်တိုင် မြင်တာ။",
      "Nobody told me: I was there.",
      "The dog opened the fridge. I saw it with my own eyes.",
-     "ခွေးက ရေခဲသေတ္တာ ဖွင့်တယ်။ ကိုယ့်မျက်စိနဲ့ ကိုယ်တိုင် မြင်တာ။"
+     "ခွေးက ရေခဲသေတ္တာ ဖွင့်တယ်။ ကိုယ့်မျက်စိနဲ့ ကိုယ်တိုင် မြင်တာ။",
+     {
+      "es": [
+       "Lo vi con mis propios ojos.",
+       "Nadie me lo contó: yo estaba ahí.",
+       "El perro abrió el refrigerador. Lo vi con mis propios ojos."
+      ],
+      "fr": [
+       "Je l'ai vu de mes propres yeux.",
+       "Personne ne me l'a raconté : j'y étais.",
+       "Le chien a ouvert le frigo. Je l'ai vu de mes propres yeux."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "¡Pero es verdad!",
+     "Qué decir cuando nadie te cree."
+    ],
+    "fr": [
+     "Mais c'est vrai !",
+     "Que dire quand personne ne vous croit."
+    ]
+   }
   }
  ]
 }

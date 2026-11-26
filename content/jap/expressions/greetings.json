@@ -4,6 +4,10 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 1,
  "review": "Burmese lines and the Japanese category headings drafted by Claude. Check them before publishing.",
  "aud_dir": "jap/expressions/greetings/",
@@ -17,29 +21,62 @@
     [
      "Ohayō gozaimasu.",
      "Good morning.",
-     "おはようございます。\nမင်္ဂလာနံနက်ခင်းပါ။\n\nUntil about 10 am. To friends: Ohayō."
+     "おはようございます。\n\nUntil about 10 am. To friends: Ohayō.",
+     {
+      "my": [
+       "မင်္ဂလာနံနက်ခင်းပါ။",
+       "おはようございます。\n\nမနက် ၁၀ နာရီလောက်အထိ သုံးတယ်။ သူငယ်ချင်းတွေကိုတော့ Ohayō လို့ပဲ ပြောတယ်။"
+      ]
+     }
     ],
     [
      "Konnichiwa.",
      "Hello. / Good afternoon.",
-     "こんにちは。\nမင်္ဂလာပါ။"
+     "こんにちは。",
+     {
+      "my": [
+       "မင်္ဂလာပါ။",
+       "こんにちは。"
+      ]
+     }
     ],
     [
      "Konbanwa.",
      "Good evening.",
-     "こんばんは。\nမင်္ဂလာညနေခင်းပါ။"
+     "こんばんは。",
+     {
+      "my": [
+       "မင်္ဂလာညနေခင်းပါ။",
+       "こんばんは。"
+      ]
+     }
     ],
     [
      "Hajimemashite.",
      "Nice to meet you.",
-     "はじめまして。\nတွေ့ရတာ ဝမ်းသာပါတယ်။\n\nOnly the first time you meet someone."
+     "はじめまして。\n\nOnly the first time you meet someone.",
+     {
+      "my": [
+       "တွေ့ရတာ ဝမ်းသာပါတယ်။",
+       "はじめまして。\n\nတစ်ယောက်ယောက်နဲ့ ပထမဆုံးအကြိမ် တွေ့တဲ့အခါမှာပဲ သုံးတယ်။"
+      ]
+     }
     ],
     [
      "Yoroshiku onegaishimasu.",
      "Pleased to meet you. / I'm in your care.",
-     "よろしくおねがいします。\nခင်ခင်မင်မင် ဆက်ဆံပေးပါ။"
+     "よろしくおねがいします。",
+     {
+      "my": [
+       "ခင်ခင်မင်မင် ဆက်ဆံပေးပါ။",
+       "よろしくおねがいします。"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "တွေ့တွေ့ချင်း နှုတ်ဆက်ခြင်း"
+   }
   },
   {
    "en": "Thanks and sorry",
@@ -49,19 +86,40 @@
     [
      "Arigatō gozaimasu.",
      "Thank you.",
-     "ありがとうございます。\nကျေးဇူးတင်ပါတယ်။"
+     "ありがとうございます。",
+     {
+      "my": [
+       "ကျေးဇူးတင်ပါတယ်။",
+       "ありがとうございます。"
+      ]
+     }
     ],
     [
      "Dō itashimashite.",
      "You're welcome.",
-     "どういたしまして。\nရပါတယ်။"
+     "どういたしまして。",
+     {
+      "my": [
+       "ရပါတယ်။",
+       "どういたしまして。"
+      ]
+     }
     ],
     [
      "Sumimasen.",
      "Excuse me. / Sorry.",
-     "すみません。\nတဆိတ်လောက်။ / တောင်းပန်ပါတယ်။\n\nAlso used to call a waiter or to thank someone for their trouble."
+     "すみません。\n\nAlso used to call a waiter or to thank someone for their trouble.",
+     {
+      "my": [
+       "တဆိတ်လောက်။ / တောင်းပန်ပါတယ်။",
+       "すみません。\n\nစားပွဲထိုးကို ခေါ်တဲ့အခါ၊ ကိုယ့်အတွက် အပင်ပန်းခံပေးတဲ့သူကို ကျေးဇူးတင်တဲ့အခါမှာလည်း သုံးတယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ကျေးဇူးတင်ခြင်းနှင့် တောင်းပန်ခြင်း"
+   }
   },
   {
    "en": "Saying goodbye",
@@ -71,24 +129,51 @@
     [
      "Ja, mata.",
      "See you.",
-     "じゃ、また。\nနောက်မှ တွေ့မယ်။\n\nCasual, between friends."
+     "じゃ、また。\n\nCasual, between friends.",
+     {
+      "my": [
+       "နောက်မှ တွေ့မယ်။",
+       "じゃ、また。\n\nသူငယ်ချင်း အချင်းချင်းကြား ရင်းရင်းနှီးနှီး ပြောတဲ့ စကားပါ။"
+      ]
+     }
     ],
     [
      "Shitsurei shimasu.",
      "Goodbye.",
-     "しつれいします。\nခွင့်ပြုပါဦး။\n\nPolite: when you leave work or a room."
+     "しつれいします。\n\nPolite: when you leave work or a room.",
+     {
+      "my": [
+       "ခွင့်ပြုပါဦး။",
+       "しつれいします。\n\nယဉ်ကျေးတဲ့ စကားပါ။ အလုပ်က ပြန်တဲ့အခါ၊ အခန်းထဲက ထွက်တဲ့အခါ သုံးတယ်။"
+      ]
+     }
     ],
     [
      "Otsukaresama desu.",
      "Thanks for your hard work.",
-     "おつかれさまです。\nပင်ပန်းသွားပြီနော်။\n\nSaid to colleagues all day long, and when leaving."
+     "おつかれさまです。\n\nSaid to colleagues all day long, and when leaving.",
+     {
+      "my": [
+       "ပင်ပန်းသွားပြီနော်။",
+       "おつかれさまです。\n\nလုပ်ဖော်ကိုင်ဖက်တွေကို တစ်နေ့လုံး ပြောလေ့ရှိတယ်။ အလုပ်က ပြန်တဲ့အခါမှာလည်း ပြောတယ်။"
+      ]
+     }
     ],
     [
      "Oyasuminasai.",
      "Good night.",
-     "おやすみなさい。\nအိပ်တော့မယ်နော်။"
+     "おやすみなさい。",
+     {
+      "my": [
+       "အိပ်တော့မယ်နော်။",
+       "おやすみなさい。"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ပြန်ခါနီး နှုတ်ဆက်ခြင်း"
+   }
   }
  ]
 }

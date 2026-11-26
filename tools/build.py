@@ -29,7 +29,8 @@ def ver(*rels):
     return h.hexdigest()[:8]
 
 
-FRESH = {f'assets/{x}"': f'assets/{x}?v={ver("assets/" + x)}"' for x in ("js/site.js", "css/site.css")}
+FRESH = {f'assets/{x}"': f'assets/{x}?v={ver("assets/" + x)}"'
+         for x in ("js/site.js", "css/site.css", "js/expression-flash.js", "js/expression-quiz.js", "css/cards.css", "css/expression-quiz.css")}
 # motion.js loads the globe (globe.js, its borders in globe.json) and the 3D letters (hero.js) after the page, and hands
 # its own tag on to them: so the tag is of all four files, and a new globe is never mixed with a saved copy of the old one.
 FRESH['assets/js/motion.js"'] = 'assets/js/motion.js?v=' + ver("assets/js/motion.js", "assets/js/globe.js", "assets/js/hero.js", "assets/data/globe.json") + '"'
@@ -118,10 +119,11 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
     if not foot:
         footer = ""
     page = f'''<!doctype html>
-<html lang="en">
+<html lang="en" translate="no">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google" content="notranslate">
 <title>{e(title)}</title>
 <link rel="icon" type="image/png" href="{r}assets/img/favicon.png">
 <link rel="stylesheet" href="{r}assets/css/site.css">
@@ -798,6 +800,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 <p class="mb-4 text-2xl" style="color:var(--cyan);opacity:.85;font-family:'Playfair Display','Noto Sans Myanmar',serif">{e(L.get("subtitle", ""))}</p>
 <div class="header-line mx-auto w-64"></div>
 <p class="mt-4 text-sm uppercase tracking-widest" style="color:rgba(255,255,255,.4);font-family:'Roboto',sans-serif">Expression Flashcards</p>
+<div id="explain" class="mt-6"></div>
 </div>
 <div id="cards"></div>
 <div class="mt-14 text-center"><div class="header-line mx-auto mb-5 w-48"></div>
@@ -807,6 +810,8 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 {f'<a {link} href="{r}{nxt["url"]}">{e(nxt.get("title", ""))} &rarr;</a>' if nxt else ""}</p>{goes}
 </div></div>'''
         data = f'const AUD_DIR={js(aud)};const AUD_EXT={js(L.get("aud_ext", "mp3?v=pending"))};const categories={js(L["categories"])};'
+        if len(L.get("langs") or []) > 1:   # the explanation languages a visitor can choose (expression-flash.js)
+            data += f'const langs={js(L["langs"])};const COURSE={js(L["course"])};'
         if L.get("quiz"):
             data += f'const quiz={js(L["quiz"])};'
         if L.get("quizTags"):

@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/compliments.html",
  "aud_dir": "eng/expressions/compliments/",
  "aud_ext": "mp3?v=2611170807",
@@ -21,37 +26,107 @@
      "အရမ်း ကြည့်ကောင်းတယ်။",
      "Friendly and safe. Also: You look nice today!",
      "You look great! Is that a new shirt?",
-     "အရမ်း ကြည့်ကောင်းတယ်။ ရှပ်အင်္ကျီ အသစ်လား။"
+     "အရမ်း ကြည့်ကောင်းတယ်။ ရှပ်အင်္ကျီ အသစ်လား။",
+     {
+      "es": [
+       "¡Te ves muy bien!",
+       "Amistoso y seguro. También: You look nice today!",
+       "¡Te ves muy bien! ¿Es camisa nueva?"
+      ],
+      "fr": [
+       "Tu es superbe !",
+       "Amical et sans risque. On dit aussi : You look nice today!",
+       "Tu es superbe ! C'est une nouvelle chemise ?"
+      ]
+     }
     ],
     [
      "I love your <span class=gray>dress</span>!",
      "ဝတ်စုံလေး အရမ်း လှတယ်။",
      "Love here means I really like. Very common for clothes, bags, shoes.",
      "I love your bag! It's so pretty.",
-     "အိတ်လေး အရမ်း ကြိုက်တယ်။ အရမ်း လှတယ်။"
+     "အိတ်လေး အရမ်း ကြိုက်တယ်။ အရမ်း လှတယ်။",
+     {
+      "es": [
+       "¡Me encanta tu vestido!",
+       "Love aquí significa me gusta mucho. Muy común para ropa, bolsas, zapatos.",
+       "¡Me encanta tu bolsa! Está muy bonita."
+      ],
+      "fr": [
+       "J'adore ta robe !",
+       "Love veut dire ici j'aime beaucoup. Très courant pour les vêtements, les sacs, les chaussures.",
+       "J'adore ton sac ! Il est très joli."
+      ]
+     }
     ],
     [
      "That colour really suits you.",
      "အဲဒီအရောင်က အရမ်း လိုက်တယ်။",
      "Suits you means looks good on you. American spelling: color.",
      "Blue really suits you.",
-     "အပြာရောင်က အရမ်း လိုက်တယ်။"
+     "အပြာရောင်က အရမ်း လိုက်တယ်။",
+     {
+      "es": [
+       "Ese color te queda muy bien.",
+       "Suits you significa te queda bien. Ortografía americana: color.",
+       "El azul te queda muy bien."
+      ],
+      "fr": [
+       "Cette couleur te va vraiment bien.",
+       "Suits you veut dire te va bien. Orthographe américaine : color.",
+       "Le bleu te va vraiment bien."
+      ]
+     }
     ],
     [
      "Nice haircut!",
      "ဆံပင်ပုံစံ လှတယ်။",
      "Short and friendly. People notice a new haircut and say so.",
      "Nice haircut! When did you get it?",
-     "ဆံပင်ပုံစံ လှတယ်။ ဘယ်တုန်းက ညှပ်ခဲ့တာလဲ။"
+     "ဆံပင်ပုံစံ လှတယ်။ ဘယ်တုန်းက ညှပ်ခဲ့တာလဲ။",
+     {
+      "es": [
+       "¡Qué buen corte!",
+       "Corto y amistoso. La gente nota un corte nuevo y lo dice.",
+       "¡Qué buen corte! ¿Cuándo te lo hiciste?"
+      ],
+      "fr": [
+       "Jolie coupe !",
+       "Court et amical. Les gens remarquent une nouvelle coupe et le disent.",
+       "Jolie coupe ! Tu l'as faite quand ?"
+      ]
+     }
     ],
     [
      "Where did you get it?",
      "ဘယ်က ဝယ်ခဲ့တာလဲ။",
      "A compliment in a question: I like it so much, I want one too.",
      "Your watch is beautiful. Where did you get it?",
-     "လက်ပတ်နာရီ အရမ်း လှတယ်။ ဘယ်က ဝယ်ခဲ့တာလဲ။"
+     "လက်ပတ်နာရီ အရမ်း လှတယ်။ ဘယ်က ဝယ်ခဲ့တာလဲ။",
+     {
+      "es": [
+       "¿Dónde lo compraste?",
+       "Un cumplido en forma de pregunta: me gusta tanto que quiero uno igual.",
+       "Tu reloj está precioso. ¿Dónde lo compraste?"
+      ],
+      "fr": [
+       "Tu l'as trouvé où ?",
+       "Un compliment sous forme de question : il me plaît tant que j'en veux un aussi.",
+       "Ta montre est magnifique. Tu l'as trouvée où ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Aspecto y ropa",
+     "Decir algo agradable sobre cómo se ve alguien o lo que lleva puesto."
+    ],
+    "fr": [
+     "Allure et vêtements",
+     "Dire quelque chose de gentil sur l'allure de quelqu'un ou sur ce qu'il porte."
+    ]
+   }
   },
   {
    "en": "Skills and work",
@@ -63,37 +138,107 @@
      "အရမ်း တော်တယ်။",
      "After someone does something well. Also: Good job! Nice work!",
      "You cleaned the whole room? Great job!",
-     "အခန်း တစ်ခုလုံး သန့်ရှင်းရေး လုပ်ပြီးပြီလား။ အရမ်း တော်တယ်။"
+     "အခန်း တစ်ခုလုံး သန့်ရှင်းရေး လုပ်ပြီးပြီလား။ အရမ်း တော်တယ်။",
+     {
+      "es": [
+       "¡Muy bien hecho!",
+       "Después de que alguien hace algo bien. También: Good job! Nice work!",
+       "¿Limpiaste todo el cuarto? ¡Muy bien hecho!"
+      ],
+      "fr": [
+       "Bravo !",
+       "Après que quelqu'un a bien fait quelque chose. On dit aussi : Good job! Nice work!",
+       "Tu as nettoyé toute la pièce ? Bravo !"
+      ]
+     }
     ],
     [
      "You're so good at <span class=gray>drawing</span>!",
      "ပုံဆွဲတာ အရမ်း တော်တယ်။",
      "Good at + noun or -ing: good at maths, good at singing.",
      "You're so good at football!",
-     "ဘောလုံး ကန်တာ အရမ်း တော်တယ်။"
+     "ဘောလုံး ကန်တာ အရမ်း တော်တယ်။",
+     {
+      "es": [
+       "¡Dibujas muy bien!",
+       "Good at + sustantivo o -ing: good at maths, good at singing.",
+       "¡Juegas muy bien fútbol!"
+      ],
+      "fr": [
+       "Tu es tellement doué en dessin !",
+       "Good at + nom ou -ing : good at maths, good at singing.",
+       "Tu es tellement doué au foot !"
+      ]
+     }
     ],
     [
      "You're a fast learner.",
      "မြန်မြန် တတ်တယ်။",
      "Praises how quickly someone picks up something new.",
      "You can already ride a bike? You're a fast learner!",
-     "စက်ဘီး စီးတတ်နေပြီလား။ မြန်မြန် တတ်တာပဲ။"
+     "စက်ဘီး စီးတတ်နေပြီလား။ မြန်မြန် တတ်တာပဲ။",
+     {
+      "es": [
+       "Aprendes rápido.",
+       "Elogia lo rápido que alguien aprende algo nuevo.",
+       "¿Ya sabes andar en bici? ¡Aprendes rápido!"
+      ],
+      "fr": [
+       "Tu apprends vite.",
+       "Félicite quelqu'un pour sa rapidité à apprendre du nouveau.",
+       "Tu sais déjà faire du vélo ? Tu apprends vite !"
+      ]
+     }
     ],
     [
      "Your English is really good!",
      "အင်္ဂလိပ်စကား အရမ်း ကောင်းတယ်။",
      "You may hear this a lot. The best answer is a simple Thank you!",
      "Your English is really good! Where did you learn it?",
-     "အင်္ဂလိပ်စကား အရမ်း ကောင်းတယ်။ ဘယ်မှာ သင်ခဲ့တာလဲ။"
+     "အင်္ဂလိပ်စကား အရမ်း ကောင်းတယ်။ ဘယ်မှာ သင်ခဲ့တာလဲ။",
+     {
+      "es": [
+       "¡Tu inglés es muy bueno!",
+       "Quizá lo oigas mucho. La mejor respuesta es un simple Thank you!",
+       "¡Tu inglés es muy bueno! ¿Dónde lo aprendiste?"
+      ],
+      "fr": [
+       "Ton anglais est vraiment bon !",
+       "Vous l'entendrez peut-être souvent. La meilleure réponse est un simple Thank you!",
+       "Ton anglais est vraiment bon ! Où l'as-tu appris ?"
+      ]
+     }
     ],
     [
      "How did you do that?",
      "ဘယ်လို လုပ်လိုက်တာလဲ။",
      "Said with surprise, it is a compliment: that was amazing.",
      "Wow, that's a beautiful picture. How did you do that?",
-     "ဝိုး၊ ပုံလေး အရမ်း လှတယ်။ ဘယ်လို လုပ်လိုက်တာလဲ။"
+     "ဝိုး၊ ပုံလေး အရမ်း လှတယ်။ ဘယ်လို လုပ်လိုက်တာလဲ။",
+     {
+      "es": [
+       "¿Cómo lo hiciste?",
+       "Dicho con sorpresa, es un cumplido: eso estuvo increíble.",
+       "Guau, qué dibujo tan bonito. ¿Cómo lo hiciste?"
+      ],
+      "fr": [
+       "Comment as-tu fait ça ?",
+       "Dit avec surprise, c'est un compliment : c'était incroyable.",
+       "Ouah, quel beau dessin. Comment as-tu fait ça ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Habilidades y trabajo",
+     "Elogiar lo que alguien sabe hacer o ha hecho."
+    ],
+    "fr": [
+     "Talents et travail",
+     "Complimenter ce que quelqu'un sait faire ou a réalisé."
+    ]
+   }
   },
   {
    "en": "Food, homes and things",
@@ -105,37 +250,107 @@
      "ဒါ အရမ်း စားကောင်းတယ်။",
      "The best thing a guest can say about food. Also: This is so good!",
      "Mmm, this curry is delicious!",
-     "မ်မ်၊ ဒီဟင်းက အရမ်း စားကောင်းတယ်။"
+     "မ်မ်၊ ဒီဟင်းက အရမ်း စားကောင်းတယ်။",
+     {
+      "es": [
+       "¡Está delicioso!",
+       "Lo mejor que un invitado puede decir de la comida. También: This is so good!",
+       "Mmm, ¡este curry está delicioso!"
+      ],
+      "fr": [
+       "C'est délicieux !",
+       "Ce qu'un invité peut dire de mieux sur un plat. On dit aussi : This is so good!",
+       "Mmm, ce curry est délicieux !"
+      ]
+     }
     ],
     [
      "You're a great cook!",
      "ဟင်းချက် အရမ်း တော်တယ်။",
      "Praises the person, not just the food.",
      "Thank you for dinner. You're a great cook!",
-     "ညစာအတွက် ကျေးဇူးပါ။ ဟင်းချက် အရမ်း တော်တယ်။"
+     "ညစာအတွက် ကျေးဇူးပါ။ ဟင်းချက် အရမ်း တော်တယ်။",
+     {
+      "es": [
+       "¡Cocinas riquísimo!",
+       "Elogia a la persona, no solo la comida.",
+       "Gracias por la cena. ¡Cocinas riquísimo!"
+      ],
+      "fr": [
+       "Tu cuisines vraiment bien !",
+       "Complimente la personne, pas seulement le plat.",
+       "Merci pour le dîner. Tu cuisines vraiment bien !"
+      ]
+     }
     ],
     [
      "What a lovely home!",
      "အိမ်လေးက အရမ်း လှတာပဲ။",
      "A guest's first words when they arrive. What a + adjective + noun.",
      "Thank you for inviting us. What a lovely home!",
-     "ဖိတ်တဲ့အတွက် ကျေးဇူးပါ။ အိမ်လေးက အရမ်း လှတာပဲ။"
+     "ဖိတ်တဲ့အတွက် ကျေးဇူးပါ။ အိမ်လေးက အရမ်း လှတာပဲ။",
+     {
+      "es": [
+       "¡Qué casa tan bonita!",
+       "Las primeras palabras de un invitado al llegar. What a + adjetivo + sustantivo.",
+       "Gracias por invitarnos. ¡Qué casa tan bonita!"
+      ],
+      "fr": [
+       "Quelle jolie maison !",
+       "Les premiers mots d'un invité en arrivant. What a + adjectif + nom.",
+       "Merci de nous avoir invités. Quelle jolie maison !"
+      ]
+     }
     ],
     [
      "Your garden is beautiful.",
      "ပန်းခြံလေးက လှလိုက်တာ။",
      "For a garden, flowers, plants. Also: Your flowers are beautiful!",
      "Your garden is beautiful. Did you plant all these?",
-     "ပန်းခြံလေးက လှလိုက်တာ။ ဒါတွေ အကုန် ကိုယ်တိုင် စိုက်ခဲ့တာလား။"
+     "ပန်းခြံလေးက လှလိုက်တာ။ ဒါတွေ အကုန် ကိုယ်တိုင် စိုက်ခဲ့တာလား။",
+     {
+      "es": [
+       "Tu jardín está precioso.",
+       "Para un jardín, flores, plantas. También: Your flowers are beautiful!",
+       "Tu jardín está precioso. ¿Tú plantaste todo esto?"
+      ],
+      "fr": [
+       "Ton jardin est magnifique.",
+       "Pour un jardin, des fleurs, des plantes. On dit aussi : Your flowers are beautiful!",
+       "Ton jardin est magnifique. C'est toi qui as tout planté ?"
+      ]
+     }
     ],
     [
      "Nice photo!",
      "ဓာတ်ပုံ လှတယ်။",
      "Common in messages and online. Also: Great picture!",
      "Nice photo! Where was it taken?",
-     "ဓာတ်ပုံ လှတယ်။ ဘယ်မှာ ရိုက်ထားတာလဲ။"
+     "ဓာတ်ပုံ လှတယ်။ ဘယ်မှာ ရိုက်ထားတာလဲ။",
+     {
+      "es": [
+       "¡Qué buena foto!",
+       "Común en mensajes y en internet. También: Great picture!",
+       "¡Qué buena foto! ¿Dónde la tomaron?"
+      ],
+      "fr": [
+       "Belle photo !",
+       "Courant dans les messages et en ligne. On dit aussi : Great picture!",
+       "Belle photo ! Elle a été prise où ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Comida, casas y cosas",
+     "Lo que dicen los invitados sobre la comida, una casa o algo que alguien hizo."
+    ],
+    "fr": [
+     "Cuisine, maisons et objets",
+     "Ce que disent les invités à propos d'un plat, d'une maison ou d'un objet fait main."
+    ]
+   }
   },
   {
    "en": "Who someone is",
@@ -147,30 +362,88 @@
      "အရမ်း သဘောကောင်းတယ်။",
      "When someone does something nice for you or for others.",
      "You helped that old man with his bags. You're so kind.",
-     "အဘိုးကြီးရဲ့ အိတ်တွေကို ကူသယ်ပေးတယ်။ အရမ်း သဘောကောင်းတယ်။"
+     "အဘိုးကြီးရဲ့ အိတ်တွေကို ကူသယ်ပေးတယ်။ အရမ်း သဘောကောင်းတယ်။",
+     {
+      "es": [
+       "Eres muy amable.",
+       "Cuando alguien hace algo bueno por ti o por otros.",
+       "Le ayudaste a ese señor con sus bolsas. Eres muy amable."
+      ],
+      "fr": [
+       "Tu es tellement gentil.",
+       "Quand quelqu'un fait quelque chose de bien pour vous ou pour d'autres.",
+       "Tu as aidé ce vieux monsieur avec ses sacs. Tu es tellement gentil."
+      ]
+     }
     ],
     [
      "You're really funny!",
      "အရမ်း ရယ်ရတယ်။",
      "You make people laugh. Funny means makes you laugh; fun means enjoyable.",
      "Ha ha! You're really funny!",
-     "ဟားဟား၊ အရမ်း ရယ်ရတယ်။"
+     "ဟားဟား၊ အရမ်း ရယ်ရတယ်။",
+     {
+      "es": [
+       "¡Eres muy gracioso!",
+       "Haces reír a la gente. Funny significa que hace reír; fun significa divertido, agradable.",
+       "¡Ja, ja! ¡Eres muy gracioso!"
+      ],
+      "fr": [
+       "Tu es vraiment drôle !",
+       "Vous faites rire les gens. Funny veut dire qui fait rire ; fun veut dire amusant, agréable.",
+       "Ha ha ! Tu es vraiment drôle !"
+      ]
+     }
     ],
     [
      "You're a good friend.",
      "မင်းက သူငယ်ချင်းကောင်း တစ်ယောက်ပဲ။",
      "Thanks someone for being there for you.",
      "Thanks for listening. You're a good friend.",
-     "နားထောင်ပေးတဲ့အတွက် ကျေးဇူးပါ။ မင်းက သူငယ်ချင်းကောင်း တစ်ယောက်ပဲ။"
+     "နားထောင်ပေးတဲ့အတွက် ကျေးဇူးပါ။ မင်းက သူငယ်ချင်းကောင်း တစ်ယောက်ပဲ။",
+     {
+      "es": [
+       "Eres un buen amigo.",
+       "Le agradece a alguien que esté ahí para ti.",
+       "Gracias por escucharme. Eres un buen amigo."
+      ],
+      "fr": [
+       "Tu es un bon ami.",
+       "Remercie quelqu'un d'être là pour vous.",
+       "Merci de m'avoir écouté. Tu es un bon ami."
+      ]
+     }
     ],
     [
      "You always make me smile.",
      "မင်းက အမြဲ ပြုံးအောင် လုပ်ပေးတယ်။",
      "Warm and personal: for family and close friends.",
      "Thank you for the card. You always make me smile.",
-     "ကတ်ပြားအတွက် ကျေးဇူးပါ။ မင်းက အမြဲ ပြုံးအောင် လုပ်ပေးတယ်။"
+     "ကတ်ပြားအတွက် ကျေးဇူးပါ။ မင်းက အမြဲ ပြုံးအောင် လုပ်ပေးတယ်။",
+     {
+      "es": [
+       "Siempre me haces sonreír.",
+       "Cálido y personal: para la familia y los amigos cercanos.",
+       "Gracias por la tarjeta. Siempre me haces sonreír."
+      ],
+      "fr": [
+       "Tu me fais toujours sourire.",
+       "Chaleureux et personnel : pour la famille et les amis proches.",
+       "Merci pour la carte. Tu me fais toujours sourire."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Cómo es la persona",
+     "Los cumplidos más amables son sobre la persona, no sobre sus cosas."
+    ],
+    "fr": [
+     "La personne elle-même",
+     "Les plus beaux compliments portent sur la personne, pas sur ses affaires."
+    ]
+   }
   },
   {
    "en": "Answering a compliment",
@@ -182,37 +455,107 @@
      "ကျေးဇူးပါ၊ အဲလို ပြောပေးတာ သဘောကောင်းလိုက်တာ။",
      "A warm, modest way to accept praise.",
      "— Your speech was excellent. — Thanks, that's nice of you to say.",
-     "— မိန့်ခွန်းက အရမ်း ကောင်းတယ်။ — ကျေးဇူးပါ၊ အဲလို ပြောပေးတာ သဘောကောင်းလိုက်တာ။"
+     "— မိန့်ခွန်းက အရမ်း ကောင်းတယ်။ — ကျေးဇူးပါ၊ အဲလို ပြောပေးတာ သဘောကောင်းလိုက်တာ။",
+     {
+      "es": [
+       "Gracias, qué amable al decirlo.",
+       "Una manera cálida y modesta de aceptar un elogio.",
+       "— Tu discurso estuvo excelente. — Gracias, qué amable al decirlo."
+      ],
+      "fr": [
+       "Merci, c'est gentil de dire ça.",
+       "Une façon chaleureuse et modeste d'accepter un compliment.",
+       "— Ton discours était excellent. — Merci, c'est gentil de dire ça."
+      ]
+     }
     ],
     [
      "I'm glad you like it.",
      "ကြိုက်တယ်ဆိုလို့ ဝမ်းသာပါတယ်။",
      "When someone praises something you made, cooked or gave.",
      "— This cake is amazing! — I'm glad you like it.",
-     "— ဒီကိတ်မုန့်က အရမ်း ကောင်းတယ်။ — ကြိုက်တယ်ဆိုလို့ ဝမ်းသာပါတယ်။"
+     "— ဒီကိတ်မုန့်က အရမ်း ကောင်းတယ်။ — ကြိုက်တယ်ဆိုလို့ ဝမ်းသာပါတယ်။",
+     {
+      "es": [
+       "Me alegra que te guste.",
+       "Cuando alguien elogia algo que hiciste, cocinaste o regalaste.",
+       "— ¡Este pastel está increíble! — Me alegra que te guste."
+      ],
+      "fr": [
+       "Je suis content que ça te plaise.",
+       "Quand quelqu'un complimente ce que vous avez fabriqué, cuisiné ou offert.",
+       "— Ce gâteau est incroyable ! — Je suis content que ça te plaise."
+      ]
+     }
     ],
     [
      "You're too kind.",
      "သိပ်သဘောကောင်းတာပဲ။",
      "Modest and a little formal: you're being very generous to me.",
      "— You're the best teacher in the school. — Oh, you're too kind.",
-     "— ဆရာက ကျောင်းမှာ အကောင်းဆုံး ဆရာပဲ။ — အို၊ သိပ်သဘောကောင်းတာပဲ။"
+     "— ဆရာက ကျောင်းမှာ အကောင်းဆုံး ဆရာပဲ။ — အို၊ သိပ်သဘောကောင်းတာပဲ။",
+     {
+      "es": [
+       "Eres demasiado amable.",
+       "Modesto y un poco formal: estás siendo muy generoso conmigo.",
+       "— Usted es el mejor maestro de la escuela. — Ay, es usted demasiado amable."
+      ],
+      "fr": [
+       "Vous êtes trop aimable.",
+       "Modeste et un peu formel : vous êtes très généreux avec moi.",
+       "— Vous êtes le meilleur professeur de l'école. — Oh, vous êtes trop aimable."
+      ]
+     }
     ],
     [
      "Thanks! I like yours too.",
      "ကျေးဇူးပါ။ မင်းဟာလည်း ကြိုက်တယ်။",
      "Returns the compliment, if you mean it.",
      "— Nice shoes! — Thanks! I like yours too.",
-     "— ဖိနပ် လှတယ်။ — ကျေးဇူးပါ။ မင်းဟာလည်း ကြိုက်တယ်။"
+     "— ဖိနပ် လှတယ်။ — ကျေးဇူးပါ။ မင်းဟာလည်း ကြိုက်တယ်။",
+     {
+      "es": [
+       "¡Gracias! Los tuyos también me gustan.",
+       "Devuelve el cumplido, si es sincero.",
+       "— ¡Qué bonitos zapatos! — ¡Gracias! Los tuyos también me gustan."
+      ],
+      "fr": [
+       "Merci ! J'aime bien les tiennes aussi.",
+       "Retourne le compliment, s'il est sincère.",
+       "— Jolies chaussures ! — Merci ! J'aime bien les tiennes aussi."
+      ]
+     }
     ],
     [
      "Oh, it's nothing special.",
      "အို၊ ဘာမှ မထူးခြားပါဘူး။",
      "Careful: in Burmese we often say no to a compliment to be polite. In English that can sound like you are disagreeing. A simple Thank you! is usually better.",
      "— Your house is so beautiful! — Thank you! (Better than: Oh, it's nothing special.)",
-     "— အိမ်က အရမ်း လှတယ်။ — ကျေးဇူးပါ။ (အို၊ ဘာမှ မထူးခြားပါဘူး ထက် ပိုကောင်းတယ်။)"
+     "— အိမ်က အရမ်း လှတယ်။ — ကျေးဇူးပါ။ (အို၊ ဘာမှ မထူးခြားပါဘူး ထက် ပိုကောင်းတယ်။)",
+     {
+      "es": [
+       "Ay, no es nada especial.",
+       "Cuidado: rechazar un cumplido por cortesía puede sonar, en inglés, a que no estás de acuerdo. Un simple Thank you! suele ser mejor.",
+       "— ¡Tu casa es preciosa! — ¡Gracias! (Mejor que: Oh, it's nothing special.)"
+      ],
+      "fr": [
+       "Oh, ça n'a rien de spécial.",
+       "Attention : refuser un compliment par politesse peut, en anglais, donner l'impression que vous n'êtes pas d'accord. Un simple Thank you! vaut en général mieux.",
+       "— Ta maison est magnifique ! — Merci ! (Mieux que : Oh, it's nothing special.)"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Responder a un cumplido",
+     "En inglés, lo habitual es aceptar un cumplido dando las gracias."
+    ],
+    "fr": [
+     "Répondre à un compliment",
+     "En anglais, on répond d'ordinaire à un compliment en l'acceptant avec un merci."
+    ]
+   }
   }
  ]
 }

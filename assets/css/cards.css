@@ -74,6 +74,46 @@
         font-size: 0.78rem;
       }
 
+      /* The explanation-language chooser under the page title (expression-flash.js fills #explain) */
+      .explain {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-family: "Space Mono", monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .explain select {
+        appearance: none;
+        -webkit-appearance: none;
+        font-family: "Roboto", "Noto Sans Myanmar", sans-serif;
+        font-size: 0.9rem;
+        letter-spacing: 0;
+        text-transform: none;
+        color: white;
+        background: rgba(255, 255, 255, 0.08)
+          url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")
+          no-repeat right 0.7rem center;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 999px;
+        padding: 0.4rem 2.1rem 0.4rem 1rem;
+        cursor: pointer;
+      }
+
+      .explain select:hover,
+      .explain select:focus-visible {
+        border-color: var(--cyan);
+        outline: none;
+      }
+
+      .explain option {
+        color: #111;
+        background: white;
+      }
+
       /* The swappable part of a card line: <span class=gray>…</span> */
       .phrase .gray {
         color: #777;

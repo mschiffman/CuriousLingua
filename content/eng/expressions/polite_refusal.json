@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/polite_refusal.html",
  "aud_dir": "eng/expressions/polite_refusal/",
  "aud_ext": "mp3?v=2611100543",
@@ -21,30 +26,88 @@
      "စိတ်မကောင်းပေမယ့် မရဘူး။",
      "A polite start before bad news or a no. It has nothing to do with fear.",
      "I'm afraid I can't come on Friday.",
-     "စိတ်မကောင်းပေမယ့် သောကြာနေ့ မလာနိုင်ဘူး။"
+     "စိတ်မကောင်းပေမယ့် သောကြာနေ့ မလာနိုင်ဘူး။",
+     {
+      "es": [
+       "Me temo que no.",
+       "Un comienzo cortés antes de una mala noticia o de un no. No tiene nada que ver con el miedo.",
+       "Me temo que no puedo ir el viernes."
+      ],
+      "fr": [
+       "Je crains que non.",
+       "Une entrée en matière polie avant une mauvaise nouvelle ou un non. Rien à voir avec la peur.",
+       "Je crains de ne pas pouvoir venir vendredi."
+      ]
+     }
     ],
     [
      "Unfortunately, <span class=gray>it's sold out</span>.",
      "စိတ်မကောင်းပါဘူး၊ ရောင်းကုန်သွားပြီ။",
      "A little formal: work, emails, shops. Shows you're sorry about the situation.",
      "Unfortunately, we're closed on Sundays.",
-     "ကံမကောင်းတာက တနင်္ဂနွေနေ့တွေ ဆိုင်ပိတ်ပါတယ်။"
+     "ကံမကောင်းတာက တနင်္ဂနွေနေ့တွေ ဆိုင်ပိတ်ပါတယ်။",
+     {
+      "es": [
+       "Lamentablemente, está agotado.",
+       "Un poco formal: trabajo, correos, tiendas. Muestra que lamentas la situación.",
+       "Lamentablemente, cerramos los domingos."
+      ],
+      "fr": [
+       "Malheureusement, c'est épuisé.",
+       "Un peu formel : travail, courriels, magasins. Montre que vous regrettez la situation.",
+       "Malheureusement, nous sommes fermés le dimanche."
+      ]
+     }
     ],
     [
      "I wish I could, but <span class=gray>I'm working</span>.",
      "လုပ်ပေးချင်ပါတယ်၊ ဒါပေမဲ့ အလုပ်ဆင်းရမယ်။",
      "Shows you really want to say yes, but can't. Warm and friendly.",
      "I wish I could help, but I don't have a car.",
-     "ကူညီနိုင်ရင် ကောင်းမှာပဲ၊ ဒါပေမဲ့ ကားမရှိဘူး။"
+     "ကူညီနိုင်ရင် ကောင်းမှာပဲ၊ ဒါပေမဲ့ ကားမရှိဘူး။",
+     {
+      "es": [
+       "Ojalá pudiera, pero estoy trabajando.",
+       "Muestra que de verdad quieres decir que sí, pero no puedes. Cálido y amistoso.",
+       "Ojalá pudiera ayudar, pero no tengo coche."
+      ],
+      "fr": [
+       "J'aimerais bien, mais je travaille.",
+       "Montre que vous voudriez vraiment dire oui, sans le pouvoir. Chaleureux et amical.",
+       "J'aimerais bien aider, mais je n'ai pas de voiture."
+      ]
+     }
     ],
     [
      "Sorry, but I can't.",
      "အားနာပါတယ်၊ ဒါပေမဲ့ မလုပ်နိုင်ဘူး။",
      "The simplest soft no. Sorry first makes the no easier to hear.",
      "Sorry, but I need the car today.",
-     "အားနာပါတယ်၊ ဒါပေမဲ့ ဒီနေ့ ကားလိုတယ်။"
+     "အားနာပါတယ်၊ ဒါပေမဲ့ ဒီနေ့ ကားလိုတယ်။",
+     {
+      "es": [
+       "Lo siento, pero no puedo.",
+       "El no suave más sencillo. Sorry al principio hace que el no sea más fácil de oír.",
+       "Lo siento, pero hoy necesito el coche."
+      ],
+      "fr": [
+       "Désolé, mais je ne peux pas.",
+       "Le non adouci le plus simple. Sorry en premier rend le non plus facile à entendre.",
+       "Désolé, mais j'ai besoin de la voiture aujourd'hui."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Suavizar un no",
+     "Palabras pequeñas que hacen que un no suene amable."
+    ],
+    "fr": [
+     "Adoucir un non",
+     "De petits mots qui rendent un non aimable."
+    ]
+   }
   },
   {
    "en": "Saying no to invitations",
@@ -56,37 +119,107 @@
      "လုပ်ချင်ပါတယ်၊ ဒါပေမဲ့ မလုပ်နိုင်ဘူး။",
      "The classic friendly no to an invitation. Add a short reason if you like.",
      "I'd love to, but I can't. I'm working that night.",
-     "လာချင်ပါတယ်၊ ဒါပေမဲ့ မလာနိုင်ဘူး။ အဲဒီည အလုပ်ဆင်းရမယ်။"
+     "လာချင်ပါတယ်၊ ဒါပေမဲ့ မလာနိုင်ဘူး။ အဲဒီည အလုပ်ဆင်းရမယ်။",
+     {
+      "es": [
+       "Me encantaría, pero no puedo.",
+       "El clásico no amistoso a una invitación. Agrega un motivo corto si quieres.",
+       "Me encantaría, pero no puedo. Esa noche trabajo."
+      ],
+      "fr": [
+       "J'adorerais, mais je ne peux pas.",
+       "Le non amical classique à une invitation. Ajoutez une raison courte si vous voulez.",
+       "J'adorerais, mais je ne peux pas. Je travaille ce soir-là."
+      ]
+     }
     ],
     [
      "I already have plans.",
      "တခြားလုပ်စရာတွေ ရှိနေတယ်။",
      "A polite reason that needs no details. You don't have to say what the plans are.",
      "Thanks for asking, but I already have plans on Saturday.",
-     "မေးပေးလို့ ကျေးဇူးပါ၊ ဒါပေမဲ့ စနေနေ့ အစီအစဉ် ရှိပြီးသားပါ။"
+     "မေးပေးလို့ ကျေးဇူးပါ၊ ဒါပေမဲ့ စနေနေ့ အစီအစဉ် ရှိပြီးသားပါ။",
+     {
+      "es": [
+       "Ya tengo planes.",
+       "Un motivo cortés que no necesita detalles. No tienes que decir cuáles son los planes.",
+       "Gracias por invitarme, pero ya tengo planes para el sábado."
+      ],
+      "fr": [
+       "J'ai déjà quelque chose de prévu.",
+       "Une raison polie qui ne demande aucun détail. Inutile de dire de quoi il s'agit.",
+       "Merci de proposer, mais j'ai déjà quelque chose de prévu samedi."
+      ]
+     }
     ],
     [
      "Maybe another time?",
      "နောက်တစ်ခါပေါ့။",
      "No to this time, but yes to the friendship. Only say it if you mean it: people will ask again. Can't make it = can't come.",
      "I can't make it tonight. Maybe another time?",
-     "ဒီည မလာနိုင်ဘူး။ နောက်တစ်ခါ ဖြစ်မလား။"
+     "ဒီည မလာနိုင်ဘူး။ နောက်တစ်ခါ ဖြစ်မလား။",
+     {
+      "es": [
+       "¿Quizá en otra ocasión?",
+       "No a esta vez, pero sí a la amistad. Dilo solo si es en serio: te van a volver a invitar. Can't make it = no puedo ir.",
+       "Hoy en la noche no puedo. ¿Quizá en otra ocasión?"
+      ],
+      "fr": [
+       "Une autre fois, peut-être ?",
+       "Non pour cette fois, mais oui à l'amitié. Ne le dites que si vous le pensez : on vous reproposera. Can't make it = ne pas pouvoir venir.",
+       "Je ne peux pas ce soir. Une autre fois, peut-être ?"
+      ]
+     }
     ],
     [
      "Can I take a rain check?",
      "ဒီတစ်ခါတော့ မဖြစ်သေးဘူး။ နောက်တစ်ခါမှ ရမလား။",
      "American: No for now, but please ask me again. It comes from baseball, where rain stops a game and you get a ticket for another day.",
      "Dinner sounds great, but can I take a rain check? I'm so tired tonight.",
-     "ညစာက ကောင်းတော့ကောင်းတယ်၊ နောက်မှ ပြန်ဖိတ်ပါ။ ဒီည အရမ်းပင်ပန်းနေလို့။"
+     "ညစာက ကောင်းတော့ကောင်းတယ်၊ နောက်မှ ပြန်ဖိတ်ပါ။ ဒီည အရမ်းပင်ပန်းနေလို့။",
+     {
+      "es": [
+       "¿Lo dejamos para otro día?",
+       "Estadounidense: ahora no, pero invítame otra vez. Viene del béisbol, donde la lluvia detiene un partido y te dan un boleto para otro día.",
+       "La cena suena muy bien, pero ¿lo dejamos para otro día? Hoy estoy muy cansado."
+      ],
+      "fr": [
+       "On peut remettre ça ?",
+       "Américain : pas maintenant, mais reproposez-moi. Cela vient du baseball, où la pluie interrompt un match et l'on reçoit un billet pour un autre jour.",
+       "Le dîner me tente bien, mais on peut remettre ça ? Je suis épuisé ce soir."
+      ]
+     }
     ],
     [
      "I'll have to pass this time.",
      "ဒီတစ်ခါတော့ မပါနိုင်တော့ဘူး။",
      "Pass = say no to this one. Friendly and casual.",
      "— We're going to the beach. Want to come? — I'll have to pass this time.",
-     "— ကမ်းခြေ သွားကြမလို့။ လိုက်မလား။ — ဒီတစ်ခါတော့ မလိုက်တော့ဘူး။"
+     "— ကမ်းခြေ သွားကြမလို့။ လိုက်မလား။ — ဒီတစ်ခါတော့ မလိုက်တော့ဘူး။",
+     {
+      "es": [
+       "Esta vez paso.",
+       "Pass = decir que no a esta. Amistoso e informal.",
+       "— Vamos a la playa. ¿Vienes? — Esta vez paso."
+      ],
+      "fr": [
+       "Je passe mon tour cette fois.",
+       "Pass = dire non à celle-ci. Amical et familier.",
+       "— On va à la plage. Tu viens ? — Je passe mon tour cette fois."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Decir que no a una invitación",
+     "Fiestas, comidas, viajes: decir que no sin herir a nadie."
+    ],
+    "fr": [
+     "Refuser une invitation",
+     "Fêtes, repas, voyages : dire non sans blesser."
+    ]
+   }
   },
   {
    "en": "Saying no to requests",
@@ -98,37 +231,107 @@
      "ဆောရီး၊ အဲဒါကိုတော့ မကူညီနိုင်ပါဘူး။",
      "Clear and polite. In English, a kind no is better than a yes you can't keep.",
      "Sorry, I can't help with that. I don't know much about computers.",
-     "ဆောရီး၊ အဲဒါ ကူညီလို့ မရဘူး။ ကွန်ပျူတာ အကြောင်း သိပ်မသိဘူး။"
+     "ဆောရီး၊ အဲဒါ ကူညီလို့ မရဘူး။ ကွန်ပျူတာ အကြောင်း သိပ်မသိဘူး။",
+     {
+      "es": [
+       "Lo siento, con eso no puedo ayudar.",
+       "Claro y cortés. En inglés, un no amable es mejor que un sí que no puedes cumplir.",
+       "Lo siento, con eso no puedo ayudar. No sé mucho de computadoras."
+      ],
+      "fr": [
+       "Désolé, je ne peux pas vous aider pour ça.",
+       "Clair et poli. En anglais, un non aimable vaut mieux qu'un oui que l'on ne peut pas tenir.",
+       "Désolé, je ne peux pas vous aider pour ça. Je ne m'y connais pas en ordinateurs."
+      ]
+     }
     ],
     [
      "I'm afraid that's not possible.",
      "စိတ်မကောင်းပေမယ့် အဲဒါတော့ မဖြစ်နိုင်ပါဘူး။",
      "Formal and firm: offices, shops, rules. You'll hear it from staff.",
      "I'm afraid that's not possible. The office closes at five.",
-     "စိတ်မကောင်းပေမယ့် အဲဒါ မဖြစ်နိုင်ပါဘူး။ ရုံးက ငါးနာရီ ပိတ်ပါတယ်။"
+     "စိတ်မကောင်းပေမယ့် အဲဒါ မဖြစ်နိုင်ပါဘူး။ ရုံးက ငါးနာရီ ပိတ်ပါတယ်။",
+     {
+      "es": [
+       "Me temo que no es posible.",
+       "Formal y firme: oficinas, tiendas, reglas. Lo oirás del personal.",
+       "Me temo que no es posible. La oficina cierra a las cinco."
+      ],
+      "fr": [
+       "Je crains que ce ne soit pas possible.",
+       "Formel et ferme : bureaux, magasins, règlements. Vous l'entendrez de la part du personnel.",
+       "Je crains que ce ne soit pas possible. Le bureau ferme à cinq heures."
+      ]
+     }
     ],
     [
      "I don't think I can.",
      "လုပ်နိုင်မယ် မထင်ဘူး။",
      "A soft no. In English, it almost always means no.",
      "— Can you finish it by tonight? — I don't think I can, sorry.",
-     "— ဒီည မတိုင်ခင် ပြီးအောင် လုပ်နိုင်မလား။ — ရမယ် မထင်ဘူး၊ ဆောရီး။"
+     "— ဒီည မတိုင်ခင် ပြီးအောင် လုပ်နိုင်မလား။ — ရမယ် မထင်ဘူး၊ ဆောရီး။",
+     {
+      "es": [
+       "No creo que pueda.",
+       "Un no suave. En inglés, casi siempre significa no.",
+       "— ¿Lo puedes terminar para hoy en la noche? — No creo que pueda, perdón."
+      ],
+      "fr": [
+       "Je ne pense pas pouvoir.",
+       "Un non adouci. En anglais, cela veut presque toujours dire non.",
+       "— Tu peux finir pour ce soir ? — Je ne pense pas pouvoir, désolé."
+      ]
+     }
     ],
     [
      "I'm a bit busy <span class=gray>right now</span>.",
      "အခု နည်းနည်း အလုပ်များနေတယ်။",
      "No for now, maybe later. Often followed by Can it wait?",
      "I'm a bit busy right now. Can I help you after lunch?",
-     "အခု နည်းနည်း အလုပ်များနေတယ်။ နေ့လယ်စာ စားပြီးမှ ကူညီပေးရင် ရမလား။"
+     "အခု နည်းနည်း အလုပ်များနေတယ်။ နေ့လယ်စာ စားပြီးမှ ကူညီပေးရင် ရမလား။",
+     {
+      "es": [
+       "Ahorita estoy un poco ocupado.",
+       "No por ahora, quizá después. A menudo seguido de Can it wait?",
+       "Ahorita estoy un poco ocupado. ¿Te ayudo después de comer?"
+      ],
+      "fr": [
+       "Je suis un peu occupé là.",
+       "Non pour l'instant, peut-être plus tard. Souvent suivi de Can it wait?",
+       "Je suis un peu occupé là. Je peux t'aider après le déjeuner ?"
+      ]
+     }
     ],
     [
      "I'd rather not.",
      "မလုပ်ချင်ပါဘူး။",
      "Polite but firm. You don't need to give a reason.",
      "— Can you sing for us? — I'd rather not, thanks.",
-     "— သီချင်း တစ်ပုဒ် ဆိုပြပါလား။ — မဆိုချင်ပါဘူး၊ ကျေးဇူးပါ။"
+     "— သီချင်း တစ်ပုဒ် ဆိုပြပါလား။ — မဆိုချင်ပါဘူး၊ ကျေးဇူးပါ။",
+     {
+      "es": [
+       "Prefiero no hacerlo.",
+       "Cortés pero firme. No necesitas dar un motivo.",
+       "— ¿Nos cantas algo? — Prefiero no hacerlo, gracias."
+      ],
+      "fr": [
+       "Je préfère ne pas.",
+       "Poli mais ferme. Inutile de donner une raison.",
+       "— Tu nous chantes quelque chose ? — Je préfère ne pas, merci."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Decir que no a una petición",
+     "Cuando alguien te pide algo que no puedes o no quieres hacer."
+    ],
+    "fr": [
+     "Refuser une demande",
+     "Quand quelqu'un vous demande quelque chose que vous ne pouvez ou ne voulez pas faire."
+    ]
+   }
   },
   {
    "en": "Offering something else",
@@ -140,30 +343,88 @@
      "ဒီနေ့တော့ မရဘူး၊ ဒါပေမဲ့ မနက်ဖြန် ရတယ်။",
      "The kindest no: say what you can do.",
      "I can't lend you my car, but I can drive you there.",
-     "ကား ငှားလို့ မရဘူး၊ ဒါပေမဲ့ လိုက်ပို့ပေးလို့ရတယ်။"
+     "ကား ငှားလို့ မရဘူး၊ ဒါပေမဲ့ လိုက်ပို့ပေးလို့ရတယ်။",
+     {
+      "es": [
+       "Hoy no puedo, pero mañana sí.",
+       "El no más amable: di lo que sí puedes hacer.",
+       "No te puedo prestar mi coche, pero te puedo llevar."
+      ],
+      "fr": [
+       "Je ne peux pas aujourd'hui, mais demain oui.",
+       "Le non le plus gentil : dites ce que vous pouvez faire.",
+       "Je ne peux pas te prêter ma voiture, mais je peux t'y conduire."
+      ]
+     }
     ],
     [
      "How about <span class=gray>lunch</span> instead?",
      "အဲဒီအစား နေ့လယ်စာ စားကြရင်ရော။",
      "Suggests a different time, place or idea.",
      "Not Friday. How about Saturday instead?",
-     "သောကြာနေ့ မရဘူး။ အဲဒီအစား စနေနေ့ဆို ဘယ်လိုလဲ။"
+     "သောကြာနေ့ မရဘူး။ အဲဒီအစား စနေနေ့ဆို ဘယ်လိုလဲ။",
+     {
+      "es": [
+       "¿Qué tal si mejor comemos?",
+       "Propone otra hora, otro lugar u otra idea.",
+       "El viernes no. ¿Qué tal mejor el sábado?"
+      ],
+      "fr": [
+       "Et si on déjeunait, plutôt ?",
+       "Propose un autre moment, un autre lieu ou une autre idée.",
+       "Pas vendredi. Et samedi, plutôt ?"
+      ]
+     }
     ],
     [
      "Could we do it <span class=gray>another day</span>?",
      "တခြားနေ့ လုပ်လို့ ရမလား။",
      "Says no to the day, not to the person. Good at work and with friends.",
      "I'm busy tomorrow. Could we do it another day?",
-     "မနက်ဖြန် အလုပ်များတယ်။ တခြားနေ့ လုပ်လို့ ရမလား။"
+     "မနက်ဖြန် အလုပ်များတယ်။ တခြားနေ့ လုပ်လို့ ရမလား။",
+     {
+      "es": [
+       "¿Lo podríamos hacer otro día?",
+       "Dice que no al día, no a la persona. Bueno en el trabajo y con amigos.",
+       "Mañana estoy ocupado. ¿Lo podríamos hacer otro día?"
+      ],
+      "fr": [
+       "Pourrait-on le faire un autre jour ?",
+       "Dit non au jour, pas à la personne. Bien au travail et entre amis.",
+       "Je suis pris demain. Pourrait-on le faire un autre jour ?"
+      ]
+     }
     ],
     [
      "Maybe someone else can help you.",
      "တခြားတစ်ယောက်ယောက် ကူညီပေးနိုင်မယ် ထင်တယ်။",
      "Sends the person to someone who can help better.",
      "I don't know, but maybe the front desk can help you.",
-     "ကျွန်တော် မသိဘူး၊ ဒါပေမဲ့ ရှေ့ကောင်တာက ကူညီပေးနိုင်မယ် ထင်တယ်။"
+     "ကျွန်တော် မသိဘူး၊ ဒါပေမဲ့ ရှေ့ကောင်တာက ကူညီပေးနိုင်မယ် ထင်တယ်။",
+     {
+      "es": [
+       "Quizá alguien más le pueda ayudar.",
+       "Manda a la persona con alguien que pueda ayudarla mejor.",
+       "No sé, pero quizá en recepción le puedan ayudar."
+      ],
+      "fr": [
+       "Quelqu'un d'autre pourra peut-être vous aider.",
+       "Oriente la personne vers quelqu'un de plus à même de l'aider.",
+       "Je ne sais pas, mais l'accueil pourra peut-être vous aider."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Ofrecer otra cosa",
+     "Convertir un no en un sí más pequeño."
+    ],
+    "fr": [
+     "Proposer autre chose",
+     "Transformer un non en un petit oui."
+    ]
+   }
   },
   {
    "en": "Saying no at work",
@@ -175,30 +436,88 @@
      "အခုအချိန်မှာတော့ နောက်ထပ် အပိုအလုပ် ထပ်မယူနိုင်တော့ဘူး။",
      "Take on = accept more work. Professional and honest. Better than saying yes and not finishing.",
      "Sorry, I can't take on any more right now. I'm still working on the report.",
-     "ဆောရီး၊ အခု နောက်ထပ် အလုပ် မယူနိုင်တော့ဘူး။ အစီရင်ခံစာ လုပ်နေတုန်းပါ။"
+     "ဆောရီး၊ အခု နောက်ထပ် အလုပ် မယူနိုင်တော့ဘူး။ အစီရင်ခံစာ လုပ်နေတုန်းပါ။",
+     {
+      "es": [
+       "Ahora no puedo aceptar más trabajo.",
+       "Take on = aceptar más trabajo. Profesional y sincero. Mejor que decir que sí y no terminar.",
+       "Lo siento, ahora no puedo aceptar más trabajo. Sigo con el informe."
+      ],
+      "fr": [
+       "Je ne peux rien prendre de plus en ce moment.",
+       "Take on = accepter davantage de travail. Professionnel et honnête. Mieux que de dire oui et de ne pas finir.",
+       "Désolé, je ne peux rien prendre de plus en ce moment. Je travaille encore sur le rapport."
+      ]
+     }
     ],
     [
      "I'll need to check with <span class=gray>my manager</span>.",
      "မန်နေဂျာကို အရင် မေးကြည့်ရမယ်။",
      "When it isn't your decision. Honest and safe, especially with customers.",
      "I'll need to check with my manager first. Can I call you back?",
-     "မန်နေဂျာကို အရင် မေးကြည့်ရမယ်။ ပြန်ဖုန်းဆက်လို့ ရမလား။"
+     "မန်နေဂျာကို အရင် မေးကြည့်ရမယ်။ ပြန်ဖုန်းဆက်လို့ ရမလား။",
+     {
+      "es": [
+       "Tengo que consultarlo con mi gerente.",
+       "Cuando la decisión no es tuya. Sincero y seguro, sobre todo con clientes.",
+       "Primero tengo que consultarlo con mi gerente. ¿Le puedo llamar después?"
+      ],
+      "fr": [
+       "Je dois voir ça avec mon responsable.",
+       "Quand la décision ne vous appartient pas. Honnête et sûr, surtout avec les clients.",
+       "Je dois d'abord voir ça avec mon responsable. Je peux vous rappeler ?"
+      ]
+     }
     ],
     [
      "I'll try.",
      "ကြိုးစားကြည့်မယ်။",
      "Careful: in English, I'll try means you really will try. If you mean no, say no kindly: I don't think I can.",
      "— Can you come in early tomorrow? — I'll try, but I can't promise.",
-     "— မနက်ဖြန် စောစော လာနိုင်မလား။ — ကြိုးစားကြည့်မယ်၊ ဒါပေမဲ့ ကတိ မပေးနိုင်ဘူး။"
+     "— မနက်ဖြန် စောစော လာနိုင်မလား။ — ကြိုးစားကြည့်မယ်၊ ဒါပေမဲ့ ကတိ မပေးနိုင်ဘူး။",
+     {
+      "es": [
+       "Voy a intentarlo.",
+       "Cuidado: en inglés, I'll try significa que de verdad lo vas a intentar. Si quieres decir que no, dilo con amabilidad: I don't think I can.",
+       "— ¿Puedes llegar temprano mañana? — Voy a intentarlo, pero no prometo nada."
+      ],
+      "fr": [
+       "Je vais essayer.",
+       "Attention : en anglais, I'll try veut dire que vous essaierez vraiment. Si vous pensez non, dites-le gentiment : I don't think I can.",
+       "— Tu peux venir tôt demain ? — Je vais essayer, mais je ne promets rien."
+      ]
+     }
     ],
     [
      "Let me think about it.",
      "စဉ်းစားကြည့်ပါရစေ။",
      "In English, this is a real maybe: people will wait for your answer. If you already know it's no, say so kindly.",
      "— Do you want to join the team? — Let me think about it. I'll tell you on Monday.",
-     "— အဖွဲ့ထဲ ဝင်မလား။ — စဉ်းစားကြည့်ပါရစေ။ တနင်္လာနေ့ ပြောပြမယ်။"
+     "— အဖွဲ့ထဲ ဝင်မလား။ — စဉ်းစားကြည့်ပါရစေ။ တနင်္လာနေ့ ပြောပြမယ်။",
+     {
+      "es": [
+       "Déjame pensarlo.",
+       "En inglés, es un quizá de verdad: van a esperar tu respuesta. Si ya sabes que es no, dilo con amabilidad.",
+       "— ¿Quieres unirte al equipo? — Déjame pensarlo. Te digo el lunes."
+      ],
+      "fr": [
+       "Laisse-moi y réfléchir.",
+       "En anglais, c'est un vrai peut-être : on attendra votre réponse. Si vous savez déjà que c'est non, dites-le gentiment.",
+       "— Tu veux rejoindre l'équipe ? — Laisse-moi y réfléchir. Je te dis ça lundi."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Decir que no en el trabajo",
+     "Respuestas sinceras para jefes, compañeros y clientes. Un no claro ahora es mejor que un sí incumplido después."
+    ],
+    "fr": [
+     "Dire non au travail",
+     "Des réponses honnêtes pour les supérieurs, les collègues et les clients. Un non clair maintenant vaut mieux qu'un oui non tenu plus tard."
+    ]
+   }
   },
   {
    "en": "A firm no",
@@ -210,30 +529,88 @@
      "မလိုဘူး၊ ကျေးဇူးပါ၊ စိတ်မဝင်စားပါဘူး။",
      "For sellers on the phone or at the door. You can say it and end the call. That is not rude.",
      "No, thank you. I'm not interested. Goodbye.",
-     "မလိုပါဘူး၊ စိတ်မဝင်စားပါဘူး။ နှုတ်ဆက်ပါတယ်။"
+     "မလိုပါဘူး၊ စိတ်မဝင်စားပါဘူး။ နှုတ်ဆက်ပါတယ်။",
+     {
+      "es": [
+       "No, gracias. No me interesa.",
+       "Para vendedores por teléfono o en la puerta. Puedes decirlo y colgar. No es grosero.",
+       "No, gracias. No me interesa. Adiós."
+      ],
+      "fr": [
+       "Non, merci. Ça ne m'intéresse pas.",
+       "Pour les démarcheurs au téléphone ou à la porte. Vous pouvez le dire et raccrocher. Ce n'est pas impoli.",
+       "Non, merci. Ça ne m'intéresse pas. Au revoir."
+      ]
+     }
     ],
     [
      "I'm not comfortable with that.",
      "အဲဒါကိုတော့ စိတ်စနိုးစနောက် ဖြစ်တယ်။",
      "A calm, strong no when something feels wrong. You can say it at work too: you have the right to say no.",
      "Sorry, I'm not comfortable with that. I won't sign it.",
-     "ဆောရီး၊ အဲဒါကို စိတ်မသက်မသာ ဖြစ်တယ်။ လက်မှတ် မထိုးဘူး။"
+     "ဆောရီး၊ အဲဒါကို စိတ်မသက်မသာ ဖြစ်တယ်။ လက်မှတ် မထိုးဘူး။",
+     {
+      "es": [
+       "No me siento cómodo con eso.",
+       "Un no tranquilo y fuerte cuando algo no te parece bien. También puedes decirlo en el trabajo: tienes derecho a decir que no.",
+       "Lo siento, no me siento cómodo con eso. No lo voy a firmar."
+      ],
+      "fr": [
+       "Je ne suis pas à l'aise avec ça.",
+       "Un non calme et fort quand quelque chose vous semble anormal. Vous pouvez le dire au travail aussi : vous avez le droit de refuser.",
+       "Désolé, je ne suis pas à l'aise avec ça. Je ne signerai pas."
+      ]
+     }
     ],
     [
      "I've already said no.",
      "မရဘူးလို့ ပြောပြီးပြီလေ။",
      "When someone keeps asking. Say it calmly. Repeating the same words is OK.",
      "I've already said no. Please don't ask again.",
-     "မရဘူးလို့ ပြောပြီးပြီ။ ထပ်မမေးပါနဲ့။"
+     "မရဘူးလို့ ပြောပြီးပြီ။ ထပ်မမေးပါနဲ့။",
+     {
+      "es": [
+       "Ya dije que no.",
+       "Cuando alguien sigue insistiendo. Dilo con calma. Repetir las mismas palabras está bien.",
+       "Ya dije que no. Por favor, no me lo pidas otra vez."
+      ],
+      "fr": [
+       "J'ai déjà dit non.",
+       "Quand quelqu'un insiste encore. Dites-le calmement. Répéter les mêmes mots est tout à fait acceptable.",
+       "J'ai déjà dit non. S'il te plaît, ne me redemande pas."
+      ]
+     }
     ],
     [
      "Please stop.",
      "ရပ်ပါ။",
      "Clear and serious. When someone won't listen, or does something you don't want.",
      "Please stop. I don't like that.",
-     "ရပ်ပါ။ အဲဒါ မကြိုက်ဘူး။"
+     "ရပ်ပါ။ အဲဒါ မကြိုက်ဘူး။",
+     {
+      "es": [
+       "Basta, por favor.",
+       "Claro y serio. Cuando alguien no escucha, o hace algo que no quieres.",
+       "Basta, por favor. Eso no me gusta."
+      ],
+      "fr": [
+       "Arrêtez, s'il vous plaît.",
+       "Clair et sérieux. Quand quelqu'un n'écoute pas, ou fait quelque chose que vous ne voulez pas.",
+       "Arrêtez, s'il vous plaît. Je n'aime pas ça."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Un no firme",
+     "Para vendedores, presión y todo aquello con lo que no estás de acuerdo. Palabras corteses, significado claro."
+    ],
+    "fr": [
+     "Un non ferme",
+     "Pour les démarcheurs, la pression, et tout ce qui ne vous convient pas. Des mots polis, un sens clair."
+    ]
+   }
   }
  ]
 }

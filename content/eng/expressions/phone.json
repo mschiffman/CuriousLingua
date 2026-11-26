@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/phone.html",
  "aud_dir": "eng/expressions/phone/",
  "aud_ext": "mp3?v=2611200515",
@@ -21,37 +26,107 @@
      "ဟယ်လို။",
      "On the phone, Hello? with a rising voice means: I'm here, who is it?",
      "— (ring ring) — Hello? — Hi, Mum!",
-     "— (ဖုန်းမြည်) — ဟယ်လို။ — ဟိုင်း၊ မေမေ။"
+     "— (ဖုန်းမြည်) — ဟယ်လို။ — ဟိုင်း၊ မေမေ။",
+     {
+      "es": [
+       "¿Bueno?",
+       "Por teléfono, Hello? con la voz hacia arriba significa: aquí estoy, ¿quién habla?",
+       "— (ring, ring) — ¿Bueno? — ¡Hola, mamá!"
+      ],
+      "fr": [
+       "Allô ?",
+       "Au téléphone, Hello? avec la voix qui monte veut dire : je suis là, qui est-ce ?",
+       "— (dring, dring) — Allô ? — Salut, maman !"
+      ]
+     }
     ],
     [
      "Hi, it's <span class=gray>May</span>.",
      "ဟိုင်း၊ မေ ပါ။",
      "On the phone, say It's…, not I am… Also: This is May.",
      "Hi, Grandma, it's Aung!",
-     "ဟိုင်း အဖွား၊ အောင် ပါ။"
+     "ဟိုင်း အဖွား၊ အောင် ပါ။",
+     {
+      "es": [
+       "Hola, habla May.",
+       "Por teléfono se dice It's…, no I am… También: This is May.",
+       "¡Hola, abuela, habla Aung!"
+      ],
+      "fr": [
+       "Salut, c'est May.",
+       "Au téléphone, on dit It's…, pas I am… On dit aussi : This is May.",
+       "Bonjour, mamie, c'est Aung !"
+      ]
+     }
     ],
     [
      "Who's calling, please?",
      "ဘယ်သူ ပြောနေတာပါလဲ။",
      "Polite: asks the caller's name.",
      "— Can I speak to Mr Tun? — Who's calling, please?",
-     "— ဦးထွန်းနဲ့ ပြောလို့ ရမလား။ — ဘယ်သူ ပြောနေတာပါလဲ။"
+     "— ဦးထွန်းနဲ့ ပြောလို့ ရမလား။ — ဘယ်သူ ပြောနေတာပါလဲ။",
+     {
+      "es": [
+       "¿Quién habla, por favor?",
+       "Cortés: pregunta el nombre de quien llama.",
+       "— ¿Puedo hablar con el señor Tun? — ¿Quién habla, por favor?"
+      ],
+      "fr": [
+       "C'est de la part de qui ?",
+       "Poli : demande le nom de la personne qui appelle.",
+       "— Puis-je parler à M. Tun ? — C'est de la part de qui ?"
+      ]
+     }
     ],
     [
      "Can I speak to <span class=gray>Aung</span>, please?",
      "အောင်နဲ့ စကား ပြောလို့ ရမလား။",
      "When someone else answers the phone.",
      "Hello, can I speak to your mother, please?",
-     "ဟယ်လို၊ မေမေနဲ့ စကား ပြောလို့ ရမလား။"
+     "ဟယ်လို၊ မေမေနဲ့ စကား ပြောလို့ ရမလား။",
+     {
+      "es": [
+       "¿Puedo hablar con Aung, por favor?",
+       "Cuando contesta otra persona.",
+       "Hola, ¿puedo hablar con tu mamá, por favor?"
+      ],
+      "fr": [
+       "Je peux parler à Aung, s'il vous plaît ?",
+       "Quand quelqu'un d'autre décroche.",
+       "Bonjour, je peux parler à ta mère, s'il te plaît ?"
+      ]
+     }
     ],
     [
      "Is this a good time?",
      "အခု ပြောလို့ အဆင်ပြေလား။",
      "Polite: checks the other person isn't busy.",
      "Hi, it's Lin. Is this a good time?",
-     "ဟိုင်း၊ လင်း ပါ။ အခု ပြောလို့ အဆင်ပြေလား။"
+     "ဟိုင်း၊ လင်း ပါ။ အခု ပြောလို့ အဆင်ပြေလား။",
+     {
+      "es": [
+       "¿Es buen momento?",
+       "Cortés: comprueba que la otra persona no esté ocupada.",
+       "Hola, habla Lin. ¿Es buen momento?"
+      ],
+      "fr": [
+       "Je ne te dérange pas ?",
+       "Poli : vérifie que l'autre n'est pas occupé.",
+       "Salut, c'est Lin. Je ne te dérange pas ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Empezar una llamada",
+     "Contestar, decir quién eres y preguntar por alguien."
+    ],
+    "fr": [
+     "Commencer un appel",
+     "Décrocher, se présenter et demander quelqu'un."
+    ]
+   }
   },
   {
    "en": "Waiting and messages",
@@ -63,37 +138,107 @@
      "ခဏ စောင့်ပါ။",
      "Wait and don't hang up. Casual: Hang on a sec.",
      "Hold on, please. I'll check.",
-     "ခဏ စောင့်ပါ။ စစ်ကြည့်လိုက်မယ်။"
+     "ခဏ စောင့်ပါ။ စစ်ကြည့်လိုက်မယ်။",
+     {
+      "es": [
+       "Un momento, por favor.",
+       "Espera y no cuelgues. Informal: Hang on a sec.",
+       "Un momento, por favor. Voy a revisar."
+      ],
+      "fr": [
+       "Ne quittez pas, s'il vous plaît.",
+       "Attendez sans raccrocher. Familier : Hang on a sec.",
+       "Ne quittez pas, s'il vous plaît. Je vérifie."
+      ]
+     }
     ],
     [
      "I'll get him for you.",
      "သူ့ကို ခေါ်ပေးမယ်။",
      "You go and find the person they asked for. For a woman: I'll get her.",
      "— Is your dad there? — Yes, I'll get him for you.",
-     "— အဖေ ရှိလား။ — ရှိတယ်၊ ခေါ်ပေးမယ်။"
+     "— အဖေ ရှိလား။ — ရှိတယ်၊ ခေါ်ပေးမယ်။",
+     {
+      "es": [
+       "Ahora se lo paso.",
+       "Vas a buscar a la persona que pidieron. Para una mujer: I'll get her.",
+       "— ¿Está tu papá? — Sí, ahora se lo paso."
+      ],
+      "fr": [
+       "Je vais le chercher.",
+       "Vous allez chercher la personne demandée. Pour une femme : I'll get her.",
+       "— Ton père est là ? — Oui, je vais le chercher."
+      ]
+     }
     ],
     [
      "He's not here right now.",
      "သူ အခု မရှိဘူး။",
      "The person can't come to the phone. Also: She's out.",
      "Sorry, he's not here right now. He'll be back at six.",
-     "ဆောရီး၊ သူ အခု မရှိဘူး။ ခြောက်နာရီ ပြန်ရောက်မယ်။"
+     "ဆောရီး၊ သူ အခု မရှိဘူး။ ခြောက်နာရီ ပြန်ရောက်မယ်။",
+     {
+      "es": [
+       "No está en este momento.",
+       "La persona no puede contestar. También: She's out.",
+       "Lo siento, no está en este momento. Regresa a las seis."
+      ],
+      "fr": [
+       "Il n'est pas là pour le moment.",
+       "La personne ne peut pas venir au téléphone. On dit aussi : She's out.",
+       "Désolé, il n'est pas là pour le moment. Il rentre à six heures."
+      ]
+     }
     ],
     [
      "Can I take a message?",
      "မှာစရာ ရှိရင် မှာထားခဲ့မလား။",
      "You offer to tell the person what the caller said.",
      "She's at school. Can I take a message?",
-     "သူ ကျောင်းသွားနေတယ်။ မှာစရာ ရှိရင် မှာထားခဲ့မလား။"
+     "သူ ကျောင်းသွားနေတယ်။ မှာစရာ ရှိရင် မှာထားခဲ့မလား။",
+     {
+      "es": [
+       "¿Quiere dejar un recado?",
+       "Te ofreces a decirle a la persona lo que dijo quien llamó.",
+       "Está en la escuela. ¿Quiere dejar un recado?"
+      ],
+      "fr": [
+       "Je peux prendre un message ?",
+       "Vous proposez de transmettre ce que dit la personne qui appelle.",
+       "Elle est à l'école. Je peux prendre un message ?"
+      ]
+     }
     ],
     [
      "Can you ask her to call me back?",
      "ကျွန်တော့်/ကျွန်မ ဆီ ဖုန်းပြန်ဆက်ဖို့ ပြောပေးလို့ ရမလား။",
      "Leaves a message. Call back = phone again later.",
      "Can you ask her to call me back? It's Mia.",
-     "ကျွန်မဆီ ဖုန်းပြန်ဆက်ဖို့ ပြောပေးလို့ ရမလား။ မီယာ ပါ။"
+     "ကျွန်မဆီ ဖုန်းပြန်ဆက်ဖို့ ပြောပေးလို့ ရမလား။ မီယာ ပါ။",
+     {
+      "es": [
+       "¿Le puede decir que me llame?",
+       "Deja un recado. Call back = llamar otra vez más tarde.",
+       "¿Le puede decir que me llame? Habla Mia."
+      ],
+      "fr": [
+       "Pouvez-vous lui demander de me rappeler ?",
+       "Laisse un message. Call back = rappeler plus tard.",
+       "Pouvez-vous lui demander de me rappeler ? C'est Mia."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Esperar y dejar recados",
+     "Cuando la persona no está, o necesita un momento."
+    ],
+    "fr": [
+     "Attendre et laisser un message",
+     "Quand la personne n'est pas là, ou a besoin d'un instant."
+    ]
+   }
   },
   {
    "en": "Problems on the line",
@@ -105,37 +250,107 @@
      "ဆောရီး၊ နံပါတ် မှားနေတယ်။",
      "When someone calls the wrong person, or you do. Also: I think you have the wrong number.",
      "— Is this the pizza shop? — Sorry, wrong number.",
-     "— ဒါ ပီဇာဆိုင်လား။ — ဆောရီး၊ နံပါတ် မှားနေတယ်။"
+     "— ဒါ ပီဇာဆိုင်လား။ — ဆောရီး၊ နံပါတ် မှားနေတယ်။",
+     {
+      "es": [
+       "Perdón, número equivocado.",
+       "Cuando alguien llama a la persona equivocada, o tú. También: I think you have the wrong number.",
+       "— ¿Hablo a la pizzería? — Perdón, número equivocado."
+      ],
+      "fr": [
+       "Désolé, c'est une erreur.",
+       "Quand quelqu'un se trompe de numéro, ou vous. On dit aussi : I think you have the wrong number.",
+       "— C'est bien la pizzeria ? — Désolé, c'est une erreur."
+      ]
+     }
     ],
     [
      "You're breaking up.",
      "အသံ ပြတ်ပြတ်နေတယ်။",
      "The signal is bad and the voice keeps cutting out.",
      "Sorry, you're breaking up. Can you say that again?",
-     "ဆောရီး၊ အသံ ပြတ်ပြတ်နေတယ်။ ပြန်ပြောပေးလို့ ရမလား။"
+     "ဆောရီး၊ အသံ ပြတ်ပြတ်နေတယ်။ ပြန်ပြောပေးလို့ ရမလား။",
+     {
+      "es": [
+       "Se corta la llamada.",
+       "La señal es mala y la voz se corta a cada rato.",
+       "Perdón, se corta. ¿Puedes repetirlo?"
+      ],
+      "fr": [
+       "Ça coupe.",
+       "Le réseau est mauvais et la voix se coupe sans arrêt.",
+       "Désolé, ça coupe. Tu peux répéter ?"
+      ]
+     }
     ],
     [
      "I can't hear you very well.",
      "အသံ သိပ် မကြားရဘူး။",
      "It's too quiet or too noisy where you are.",
      "I can't hear you very well. I'm on the bus.",
-     "အသံ သိပ် မကြားရဘူး။ ဘတ်စ်ကားပေါ်မှာ ရောက်နေလို့။"
+     "အသံ သိပ် မကြားရဘူး။ ဘတ်စ်ကားပေါ်မှာ ရောက်နေလို့။",
+     {
+      "es": [
+       "No te oigo muy bien.",
+       "Hay muy poco volumen o mucho ruido donde estás.",
+       "No te oigo muy bien. Voy en el autobús."
+      ],
+      "fr": [
+       "Je ne t'entends pas très bien.",
+       "Le son est trop faible ou il y a trop de bruit là où vous êtes.",
+       "Je ne t'entends pas très bien. Je suis dans le bus."
+      ]
+     }
     ],
     [
      "My battery is low.",
      "ဖုန်း အားကုန်ခါနီးပြီ။",
      "Warns that the call may end suddenly.",
      "Quick, my battery is low!",
-     "မြန်မြန်ပြော၊ ဖုန်း အားကုန်ခါနီးပြီ။"
+     "မြန်မြန်ပြော၊ ဖုန်း အားကုန်ခါနီးပြီ။",
+     {
+      "es": [
+       "Tengo poca batería.",
+       "Avisa que la llamada puede terminar de repente.",
+       "¡Rápido, tengo poca batería!"
+      ],
+      "fr": [
+       "Je n'ai presque plus de batterie.",
+       "Prévient que l'appel peut se couper d'un coup.",
+       "Vite, je n'ai presque plus de batterie !"
+      ]
+     }
     ],
     [
      "Can I call you back?",
      "ဖုန်း ပြန်ဆက်လို့ ရမလား။",
      "When you can't talk now. Add when: in ten minutes, after dinner.",
      "I'm in class. Can I call you back later?",
-     "စာသင်ခန်းထဲမှာ ရှိနေတယ်။ နောက်မှ ဖုန်း ပြန်ဆက်လို့ ရမလား။"
+     "စာသင်ခန်းထဲမှာ ရှိနေတယ်။ နောက်မှ ဖုန်း ပြန်ဆက်လို့ ရမလား။",
+     {
+      "es": [
+       "¿Te puedo llamar después?",
+       "Cuando no puedes hablar ahora. Agrega cuándo: in ten minutes, after dinner.",
+       "Estoy en clase. ¿Te puedo llamar más tarde?"
+      ],
+      "fr": [
+       "Je peux te rappeler ?",
+       "Quand vous ne pouvez pas parler maintenant. Précisez quand : in ten minutes, after dinner.",
+       "Je suis en cours. Je peux te rappeler plus tard ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Problemas en la línea",
+     "Mala señal, número equivocado, poca batería."
+    ],
+    "fr": [
+     "Problèmes sur la ligne",
+     "Mauvais réseau, faux numéro, batterie faible."
+    ]
+   }
   },
   {
    "en": "Ending a call",
@@ -147,30 +362,88 @@
      "ဖုန်းဆက်တဲ့အတွက် ကျေးဇူးပါ။",
      "Polite, near the end of a call.",
      "Thanks for calling, Grandpa. Love you!",
-     "ဖုန်းဆက်တဲ့အတွက် ကျေးဇူးပါ အဖိုး။ ချစ်တယ်။"
+     "ဖုန်းဆက်တဲ့အတွက် ကျေးဇူးပါ အဖိုး။ ချစ်တယ်။",
+     {
+      "es": [
+       "Gracias por llamar.",
+       "Cortés, casi al final de una llamada.",
+       "Gracias por llamar, abuelo. ¡Te quiero!"
+      ],
+      "fr": [
+       "Merci d'avoir appelé.",
+       "Poli, vers la fin d'un appel.",
+       "Merci d'avoir appelé, papi. Je t'embrasse !"
+      ]
+     }
     ],
     [
      "Call me when you get home.",
      "အိမ်ရောက်ရင် ဖုန်းဆက်နော်။",
      "Parents and friends say this to know you are safe.",
      "Have a safe trip. Call me when you get home.",
-     "ခရီး ချောမောပါစေ။ အိမ်ရောက်ရင် ဖုန်းဆက်နော်။"
+     "ခရီး ချောမောပါစေ။ အိမ်ရောက်ရင် ဖုန်းဆက်နော်။",
+     {
+      "es": [
+       "Llámame cuando llegues a casa.",
+       "Lo dicen los padres y los amigos para saber que llegaste bien.",
+       "Buen viaje. Llámame cuando llegues a casa."
+      ],
+      "fr": [
+       "Appelle-moi quand tu seras rentré.",
+       "Les parents et les amis le disent pour savoir que vous êtes bien arrivé.",
+       "Bon voyage. Appelle-moi quand tu seras rentré."
+      ]
+     }
     ],
     [
      "Bye, speak soon!",
      "တာ့တာ၊ မကြာခင် ပြန်ပြောမယ်။",
      "A friendly goodbye on the phone. British English often says speak to you soon.",
      "OK, bye, speak soon!",
-     "အိုကေ၊ တာ့တာ၊ မကြာခင် ပြန်ပြောမယ်။"
+     "အိုကေ၊ တာ့တာ၊ မကြာခင် ပြန်ပြောမယ်။",
+     {
+      "es": [
+       "¡Adiós, hablamos pronto!",
+       "Una despedida amistosa por teléfono. En inglés británico se dice mucho speak to you soon.",
+       "Bueno, adiós, ¡hablamos pronto!"
+      ],
+      "fr": [
+       "Salut, à bientôt !",
+       "Un au revoir amical au téléphone. L'anglais britannique dit souvent speak to you soon.",
+       "Bon, salut, à bientôt !"
+      ]
+     }
     ],
     [
      "I'll text you.",
      "မက်ဆေ့ချ် ပို့လိုက်မယ်။",
      "Text = send a written message on the phone. Also: I'll message you.",
      "I'll text you the time later.",
-     "အချိန်ကို နောက်မှ မက်ဆေ့ချ် ပို့လိုက်မယ်။"
+     "အချိန်ကို နောက်မှ မက်ဆေ့ချ် ပို့လိုက်မယ်။",
+     {
+      "es": [
+       "Te mando un mensaje.",
+       "Text = enviar un mensaje escrito por teléfono. También: I'll message you.",
+       "Luego te mando un mensaje con la hora."
+      ],
+      "fr": [
+       "Je t'envoie un message.",
+       "Text = envoyer un message écrit par téléphone. On dit aussi : I'll message you.",
+       "Je t'envoie l'heure par message plus tard."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Terminar una llamada",
+     "Terminar la llamada de manera amistosa."
+    ],
+    "fr": [
+     "Terminer un appel",
+     "Terminer l'appel de façon amicale."
+    ]
+   }
   },
   {
    "en": "Messages and video calls",
@@ -182,37 +455,107 @@
      "ကျွန်တော့်/ကျွန်မ မက်ဆေ့ချ် ရလား။",
      "Checks that a message arrived.",
      "Did you get my message about tomorrow?",
-     "မနက်ဖြန်အကြောင်း ပို့ထားတဲ့ မက်ဆေ့ချ် ရလား။"
+     "မနက်ဖြန်အကြောင်း ပို့ထားတဲ့ မက်ဆေ့ချ် ရလား။",
+     {
+      "es": [
+       "¿Recibiste mi mensaje?",
+       "Comprueba que un mensaje llegó.",
+       "¿Recibiste mi mensaje sobre lo de mañana?"
+      ],
+      "fr": [
+       "Tu as reçu mon message ?",
+       "Vérifie qu'un message est bien arrivé.",
+       "Tu as reçu mon message pour demain ?"
+      ]
+     }
     ],
     [
      "Can you see me?",
      "ကျွန်တော့်/ကျွန်မ ကို မြင်ရလား။",
      "At the start of a video call.",
      "Can you see me? Is the camera on?",
-     "ကျွန်မကို မြင်ရလား။ ကင်မရာ ဖွင့်ထားလား။"
+     "ကျွန်မကို မြင်ရလား။ ကင်မရာ ဖွင့်ထားလား။",
+     {
+      "es": [
+       "¿Me ves?",
+       "Al empezar una videollamada.",
+       "¿Me ves? ¿Está prendida la cámara?"
+      ],
+      "fr": [
+       "Tu me vois ?",
+       "Au début d'un appel vidéo.",
+       "Tu me vois ? La caméra est allumée ?"
+      ]
+     }
     ],
     [
      "You're on mute.",
      "အသံ ပိတ်ထားတယ်။",
      "The other person's microphone is off, so you can't hear them.",
      "I can't hear you. You're on mute!",
-     "အသံ မကြားရဘူး။ အသံ ပိတ်ထားတယ်။"
+     "အသံ မကြားရဘူး။ အသံ ပိတ်ထားတယ်။",
+     {
+      "es": [
+       "Tienes el micrófono apagado.",
+       "El micrófono de la otra persona está apagado, así que no la oyes.",
+       "No te oigo. ¡Tienes el micrófono apagado!"
+      ],
+      "fr": [
+       "Ton micro est coupé.",
+       "Le micro de l'autre est coupé, donc vous ne l'entendez pas.",
+       "Je ne t'entends pas. Ton micro est coupé !"
+      ]
+     }
     ],
     [
      "Send me a voice message.",
      "အသံ မက်ဆေ့ချ် ပို့ပေး။",
      "A recorded spoken message in a chat app.",
      "I'm driving. Send me a voice message.",
-     "ကား မောင်းနေတယ်။ အသံ မက်ဆေ့ချ် ပို့ပေး။"
+     "ကား မောင်းနေတယ်။ အသံ မက်ဆေ့ချ် ပို့ပေး။",
+     {
+      "es": [
+       "Mándame un mensaje de voz.",
+       "Un mensaje hablado y grabado en una aplicación de chat.",
+       "Voy manejando. Mándame un mensaje de voz."
+      ],
+      "fr": [
+       "Envoie-moi un message vocal.",
+       "Un message parlé, enregistré dans une application de messagerie.",
+       "Je conduis. Envoie-moi un message vocal."
+      ]
+     }
     ],
     [
      "I'll send you the address.",
      "လိပ်စာ ပို့ပေးမယ်။",
      "Promises to send written details: the address, the time, a photo.",
      "I'll send you the address after this call.",
-     "ဖုန်းချပြီးရင် လိပ်စာ ပို့ပေးမယ်။"
+     "ဖုန်းချပြီးရင် လိပ်စာ ပို့ပေးမယ်။",
+     {
+      "es": [
+       "Te mando la dirección.",
+       "Promete enviar detalles por escrito: la dirección, la hora, una foto.",
+       "Te mando la dirección después de esta llamada."
+      ],
+      "fr": [
+       "Je t'envoie l'adresse.",
+       "Promet d'envoyer des détails par écrit : l'adresse, l'heure, une photo.",
+       "Je t'envoie l'adresse après cet appel."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Mensajes y videollamadas",
+     "Frases para aplicaciones de chat y videollamadas."
+    ],
+    "fr": [
+     "Messages et appels vidéo",
+     "Des phrases pour les messageries et les appels vidéo."
+    ]
+   }
   }
  ]
 }

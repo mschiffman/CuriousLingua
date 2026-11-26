@@ -4,14 +4,20 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 6,
- "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "review": "Written by Claude. The Korean and the romanization have not been checked by a Korean speaker. The Burmese explanations are drafts by Claude: check them. Check before recording audio.",
  "related": [
   "kor/listening/shopping"
  ],
  "aud_dir": "kor/expressions/shopping/",
  "aud_ext": "mp3?v=2611241405",
- "voice": {"narrator": "FSDPAI7v5T7eeHsoRc5N"},
+ "voice": {
+  "narrator": "FSDPAI7v5T7eeHsoRc5N"
+ },
  "categories": [
   {
    "en": "Looking and asking",
@@ -23,30 +29,61 @@
      "How much is this?",
      "이거 얼마예요?\n\nIgeo: this. Geugeo: that (near you). Jeogeo: that over there.",
      "Jeogiyo, i usan eolmayeyo?\n저기요, 이 우산 얼마예요?",
-     "Excuse me, how much is this umbrella?"
+     "Excuse me, how much is this umbrella?",
+     {
+      "my": [
+       "ဒါ ဘယ်လောက်လဲ။",
+       "이거 얼마예요?\n\nIgeo: ဒါ။ Geugeo: အဲဒါ (တစ်ဖက်လူအနားက)။ Jeogeo: ဟိုဟာ (ဟိုးဘက်က)။",
+       "တဆိတ်လောက်၊ ဒီထီး ဘယ်လောက်လဲ။"
+      ]
+     }
     ],
     [
      "Upyo isseoyo?",
      "Do you have stamps?",
      "우표 있어요?\n\nA thing + isseoyo?: do you have…? The answer no is eopseoyo.",
      "Chungjeongi isseoyo? — Ne, isseoyo.\n충전기 있어요? — 네, 있어요.",
-     "Do you have a charger? — Yes, we do."
+     "Do you have a charger? — Yes, we do.",
+     {
+      "my": [
+       "တံဆိပ်ခေါင်း ရှိလား။",
+       "우표 있어요?\n\nပစ္စည်း + isseoyo?: …ရှိလား။ မရှိဘူးဆိုရင် eopseoyo လို့ ဖြေတယ်။",
+       "အားသွင်းကြိုး ရှိလား။ — ဟုတ်ကဲ့၊ ရှိပါတယ်။"
+      ]
+     }
     ],
     [
      "Geunyang boneun geoyeyo.",
      "I'm just looking.",
      "그냥 보는 거예요.\n\nFor when the staff come over to help.",
      "Mwo chajeuseyo? — Geunyang boneun geoyeyo.\n뭐 찾으세요? — 그냥 보는 거예요.",
-     "Are you looking for something? — I'm just looking."
+     "Are you looking for something? — I'm just looking.",
+     {
+      "my": [
+       "ကြည့်ရုံ ကြည့်နေတာပါ။",
+       "그냥 보는 거예요.\n\nဝန်ထမ်းက ကူညီဖို့ လာမေးတဲ့အခါ ပြန်ဖြေတဲ့ စကားပါ။",
+       "ဘာ ရှာနေတာလဲ။ — ကြည့်ရုံ ကြည့်နေတာပါ။"
+      ]
+     }
     ],
     [
      "Dareun saek isseoyo?",
      "Do you have another colour?",
      "다른 색 있어요?\n\nDareun: other.",
      "Dareun saek isseoyo? — Geomjeongsaegirang hinsaegi isseoyo.\n다른 색 있어요? — 검정색이랑 흰색이 있어요.",
-     "Do you have another colour? — We have black and white."
+     "Do you have another colour? — We have black and white.",
+     {
+      "my": [
+       "တခြားအရောင် ရှိလား။",
+       "다른 색 있어요?\n\nDareun: တခြား။",
+       "တခြားအရောင် ရှိလား။ — အနက်နဲ့ အဖြူ ရှိပါတယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ကြည့်ခြင်းနှင့် မေးခြင်း"
+   }
   },
   {
    "en": "Choosing",
@@ -58,30 +95,61 @@
      "It's a little expensive.",
      "좀 비싸요.\n\nBissayo: expensive. Ssayo: cheap.",
      "Jom bissayo. Deo ssan geo isseoyo?\n좀 비싸요. 더 싼 거 있어요?",
-     "It's a little expensive. Do you have a cheaper one?"
+     "It's a little expensive. Do you have a cheaper one?",
+     {
+      "my": [
+       "နည်းနည်း ဈေးကြီးတယ်။",
+       "좀 비싸요.\n\nBissayo: ဈေးကြီးတယ်။ Ssayo: ဈေးပေါတယ်။",
+       "နည်းနည်း ဈေးကြီးတယ်။ ဒီထက် ဈေးသက်သာတာ ရှိလား။"
+      ]
+     }
     ],
     [
      "Ibeo bwado dwaeyo?",
      "May I try it on?",
      "입어 봐도 돼요?\n\nFor clothes. For shoes: Sineo bwado dwaeyo?",
      "Igeo ibeo bwado dwaeyo? — Ne, ibeo boseyo.\n이거 입어 봐도 돼요? — 네, 입어 보세요.",
-     "May I try this on? — Yes, go ahead."
+     "May I try this on? — Yes, go ahead.",
+     {
+      "my": [
+       "ဝတ်ကြည့်လို့ရမလား။",
+       "입어 봐도 돼요?\n\nအဝတ်အစားအတွက်ပါ။ ဖိနပ်အတွက်: Sineo bwado dwaeyo?",
+       "ဒါ ဝတ်ကြည့်လို့ရမလား။ — ဟုတ်ကဲ့၊ ရပါတယ်။"
+      ]
+     }
     ],
     [
      "Deo keun geo isseoyo?",
      "Do you have a bigger one?",
      "더 큰 거 있어요?\n\nA smaller one: deo jageun geo.",
      "Jom jagayo. Deo keun geo isseoyo?\n좀 작아요. 더 큰 거 있어요?",
-     "It's a little small. Do you have a bigger one?"
+     "It's a little small. Do you have a bigger one?",
+     {
+      "my": [
+       "ဒီထက်ကြီးတာ ရှိလား။",
+       "더 큰 거 있어요?\n\nဒီထက်သေးတာ: deo jageun geo။",
+       "နည်းနည်း သေးတယ်။ ဒီထက်ကြီးတာ ရှိလား။"
+      ]
+     }
     ],
     [
      "Igeollo halgeyo.",
      "I'll take this one.",
      "이걸로 할게요.\n\nA thing + -ro or -euro halgeyo: I'll go with…",
      "Geureom igeollo halgeyo.\n그럼 이걸로 할게요.",
-     "Then I'll take this one."
+     "Then I'll take this one.",
+     {
+      "my": [
+       "ဒါ ယူမယ်။",
+       "이걸로 할게요.\n\nပစ္စည်း + -ro ဒါမှမဟုတ် -euro halgeyo: …ကို ရွေးလိုက်မယ်။",
+       "ဒါဆို ဒါ ယူမယ်။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ရွေးခြင်း"
+   }
   },
   {
    "en": "Paying",
@@ -93,30 +161,61 @@
      "Can I pay by card?",
      "카드 돼요?\n\n'Does card work?' Cash: hyeongeum.",
      "Kadeu dwaeyo? — Ne, dwaeyo.\n카드 돼요? — 네, 돼요.",
-     "Can I pay by card? — Yes, you can."
+     "Can I pay by card? — Yes, you can.",
+     {
+      "my": [
+       "ကတ်နဲ့ ပေးလို့ရလား။",
+       "카드 돼요?\n\n'ကတ် ရလား' လို့ အဓိပ္ပာယ်ရတယ်။ ငွေသား: hyeongeum။",
+       "ကတ်နဲ့ ပေးလို့ရလား။ — ဟုတ်ကဲ့၊ ရပါတယ်။"
+      ]
+     }
     ],
     [
      "Bongtu piryo eopseoyo.",
      "I don't need a bag.",
      "봉투 필요 없어요.\n\nThe staff ask: Bongtu deurilkkayo? (Would you like a bag?)",
      "Bongtu deurilkkayo? — Anieyo, piryo eopseoyo.\n봉투 드릴까요? — 아니에요, 필요 없어요.",
-     "Would you like a bag? — No, I don't need one."
+     "Would you like a bag? — No, I don't need one.",
+     {
+      "my": [
+       "အိတ် မလိုပါဘူး။",
+       "봉투 필요 없어요.\n\nဝန်ထမ်းက မေးတယ်: Bongtu deurilkkayo? (အိတ် ပေးရမလား။)",
+       "အိတ် ယူမလား။ — မလိုပါဘူး။"
+      ]
+     }
     ],
     [
      "Yeongsujeung juseyo.",
      "The receipt, please.",
      "영수증 주세요.\n\nYeongsujeung: receipt.",
      "Yeongsujeung jom juseyo.\n영수증 좀 주세요.",
-     "The receipt, please."
+     "The receipt, please.",
+     {
+      "my": [
+       "ပြေစာ ပေးပါ။",
+       "영수증 주세요.\n\nYeongsujeung: ပြေစာ။",
+       "ပြေစာ ပေးပါ။"
+      ]
+     }
     ],
     [
      "Jeonbu eolmayeyo?",
      "How much is it altogether?",
      "전부 얼마예요?\n\nJeonbu: all of it.",
      "Jeonbu eolmayeyo? — Samman wonieyo.\n전부 얼마예요? — 삼만 원이에요.",
-     "How much altogether? — 30,000 won."
+     "How much altogether? — 30,000 won.",
+     {
+      "my": [
+       "အားလုံးပေါင်း ဘယ်လောက်လဲ။",
+       "전부 얼마예요?\n\nJeonbu: အားလုံး။",
+       "အားလုံးပေါင်း ဘယ်လောက်လဲ။ — ဝမ် ၃၀,၀၀၀ ပါ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ငွေပေးချေခြင်း"
+   }
   }
  ]
 }

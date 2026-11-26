@@ -4,11 +4,17 @@
  "level": "a1",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "en",
+  "my"
+ ],
  "order": 5,
- "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. English support only: no Burmese lines were written. Check before recording audio.",
+ "review": "Written by Claude. The Japanese and the romaji have not been checked by a Japanese speaker. The Burmese explanations are drafts by Claude: check them. Check before recording audio.",
  "aud_dir": "jap/expressions/not_understanding/",
  "aud_ext": "mp3?v=2611241359",
- "voice": {"narrator": "v91rKRL5eccBa78cK3jT"},
+ "voice": {
+  "narrator": "v91rKRL5eccBa78cK3jT"
+ },
  "categories": [
   {
    "en": "I don't understand",
@@ -20,30 +26,61 @@
      "I don't understand. / I don't know.",
      "わかりません。\n\nOne verb for both meanings.",
      "Sumimasen, wakarimasen.\nすみません、わかりません。",
-     "I'm sorry, I don't understand."
+     "I'm sorry, I don't understand.",
+     {
+      "my": [
+       "နားမလည်ဘူး။ / မသိဘူး။",
+       "わかりません。\n\nအဓိပ္ပာယ်နှစ်မျိုးလုံးအတွက် ကြိယာတစ်လုံးတည်း သုံးတယ်။",
+       "တောင်းပန်ပါတယ်၊ နားမလည်ဘူး။"
+      ]
+     }
     ],
     [
      "Nihongo ga amari wakarimasen.",
      "I don't understand much Japanese.",
      "日本語があまりわかりません。\n\nAmari + a negative verb: not much.",
      "Sumimasen, nihongo ga amari wakarimasen.\nすみません、日本語があまりわかりません。",
-     "I'm sorry, I don't understand much Japanese."
+     "I'm sorry, I don't understand much Japanese.",
+     {
+      "my": [
+       "ဂျပန်စကား သိပ်နားမလည်ဘူး။",
+       "日本語があまりわかりません。\n\nAmari + အငြင်းကြိယာ: သိပ်မ…ဘူး။",
+       "တောင်းပန်ပါတယ်၊ ဂျပန်စကား သိပ်နားမလည်ဘူး။"
+      ]
+     }
     ],
     [
      "Nihongo wa sukoshi dake desu.",
      "I only speak a little Japanese.",
      "日本語は少しだけです。\n\nSukoshi: a little. Dake: only.",
      "Nihongo ga jōzu desu ne. — Iie, sukoshi dake desu.\n日本語が上手ですね。— いいえ、少しだけです。",
-     "Your Japanese is good. — No, I only speak a little."
+     "Your Japanese is good. — No, I only speak a little.",
+     {
+      "my": [
+       "ဂျပန်စကား နည်းနည်းပဲ ပြောတတ်တယ်။",
+       "日本語は少しだけです。\n\nSukoshi: နည်းနည်း။ Dake: …ပဲ။",
+       "ဂျပန်စကား တော်တယ်နော်။ — မဟုတ်ပါဘူး၊ နည်းနည်းပဲ ပြောတတ်တာပါ။"
+      ]
+     }
     ],
     [
      "Wakarimashita.",
      "I understand. / Got it.",
      "わかりました。\n\nThe past form: 'I have understood.'",
      "Ashita kuji desu. — Hai, wakarimashita.\n明日九時です。— はい、わかりました。",
-     "Tomorrow at nine. — Yes, got it."
+     "Tomorrow at nine. — Yes, got it.",
+     {
+      "my": [
+       "နားလည်ပါပြီ။",
+       "わかりました。\n\nအတိတ်ပုံစံပါ: 'နားလည်သွားပါပြီ'။",
+       "မနက်ဖြန် ကိုးနာရီနော်။ — ဟုတ်ကဲ့၊ နားလည်ပါပြီ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "နားမလည်ဘူး"
+   }
   },
   {
    "en": "Say it again",
@@ -55,30 +92,61 @@
      "Once more, please.",
      "もう一度お願いします。\n\nMō ichido: one more time.",
      "Sumimasen, mō ichido onegai shimasu.\nすみません、もう一度お願いします。",
-     "Sorry, once more, please."
+     "Sorry, once more, please.",
+     {
+      "my": [
+       "နောက်တစ်ခါ ပြောပေးပါ။",
+       "もう一度お願いします。\n\nMō ichido: နောက်တစ်ခါ။",
+       "တောင်းပန်ပါတယ်၊ နောက်တစ်ခါ ပြောပေးပါ။"
+      ]
+     }
     ],
     [
      "Yukkuri hanashite kudasai.",
      "Please speak slowly.",
      "ゆっくり話してください。\n\nYukkuri: slowly, without hurrying.",
      "Sumimasen, mō sukoshi yukkuri hanashite kudasai.\nすみません、もう少しゆっくり話してください。",
-     "Sorry, please speak a little more slowly."
+     "Sorry, please speak a little more slowly.",
+     {
+      "my": [
+       "ဖြည်းဖြည်း ပြောပေးပါ။",
+       "ゆっくり話してください。\n\nYukkuri: ဖြည်းဖြည်း၊ မလောဘဲ။",
+       "တောင်းပန်ပါတယ်၊ နည်းနည်း ပိုဖြည်းဖြည်း ပြောပေးပါ။"
+      ]
+     }
     ],
     [
      "Kaite kudasai.",
      "Please write it down.",
      "書いてください。\n\nUseful for names, prices and addresses.",
      "Koko ni kaite kudasai.\nここに書いてください。",
-     "Please write it here."
+     "Please write it here.",
+     {
+      "my": [
+       "ရေးပြပေးပါ။",
+       "書いてください。\n\nနာမည်၊ ဈေးနှုန်း၊ လိပ်စာတွေအတွက် အသုံးဝင်တယ်။",
+       "ဒီမှာ ရေးပြပေးပါ။"
+      ]
+     }
     ],
     [
      "E?",
      "Sorry?",
      "え？\n\nCasual, with a rising voice. Politer: Hai? or Sumimasen?",
      "E? Nan desu ka.\nえ？何ですか。",
-     "Sorry? What was that?"
+     "Sorry? What was that?",
+     {
+      "my": [
+       "ဗျာ။ / ရှင်။",
+       "え？\n\nရင်းနှီးတဲ့သူတွေနဲ့ အသံမြှင့်ပြီး ပြောတယ်။ ပိုယဉ်ကျေးချင်ရင်: Hai? ဒါမှမဟုတ် Sumimasen?",
+       "ဗျာ။ ဘာပြောလိုက်တာလဲ။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "ထပ်ပြောပေးပါ"
+   }
   },
   {
    "en": "Asking about words",
@@ -90,30 +158,61 @@
      "What is this in Japanese?",
      "これは日本語で何ですか。\n\nNihongo de: in Japanese.",
      "Kore wa nihongo de nan desu ka. — 'Kasa' desu.\nこれは日本語で何ですか。— 「かさ」です。",
-     "What is this in Japanese? — It's 'kasa' (umbrella)."
+     "What is this in Japanese? — It's 'kasa' (umbrella).",
+     {
+      "my": [
+       "ဒါကို ဂျပန်လို ဘယ်လိုခေါ်လဲ။",
+       "これは日本語で何ですか。\n\nNihongo de: ဂျပန်လို။",
+       "ဒါကို ဂျပန်လို ဘယ်လိုခေါ်လဲ။ — 'kasa' (ထီး) လို့ ခေါ်တယ်။"
+      ]
+     }
     ],
     [
      "Dō iu imi desu ka.",
      "What does it mean?",
      "どういう意味ですか。\n\nImi: meaning.",
      "'Daijōbu' wa dō iu imi desu ka.\n「大丈夫」はどういう意味ですか。",
-     "What does 'daijōbu' mean?"
+     "What does 'daijōbu' mean?",
+     {
+      "my": [
+       "ဘာအဓိပ္ပာယ်လဲ။",
+       "どういう意味ですか。\n\nImi: အဓိပ္ပာယ်။",
+       "'daijōbu' ဆိုတာ ဘာအဓိပ္ပာယ်လဲ။"
+      ]
+     }
     ],
     [
      "Eigo o hanashimasu ka.",
      "Do you speak English?",
      "英語を話しますか。\n\nAlso: Eigo wa dekimasu ka. (Can you speak English?)",
      "Sumimasen, eigo o hanashimasu ka. — Sukoshi dake.\nすみません、英語を話しますか。— 少しだけ。",
-     "Excuse me, do you speak English? — Just a little."
+     "Excuse me, do you speak English? — Just a little.",
+     {
+      "my": [
+       "အင်္ဂလိပ်စကား ပြောတတ်လား။",
+       "英語を話しますか。\n\nEigo wa dekimasu ka. (အင်္ဂလိပ်စကား ပြောနိုင်လား။) လို့လည်း မေးနိုင်တယ်။",
+       "တဆိတ်လောက်၊ အင်္ဂလိပ်စကား ပြောတတ်လား။ — နည်းနည်းပါ။"
+      ]
+     }
     ],
     [
      "Eigo de ii desu ka.",
      "Is English all right?",
      "英語でいいですか。\n\nEigo de: in English.",
      "Sumimasen, eigo de ii desu ka.\nすみません、英語でいいですか。",
-     "Sorry, is English all right?"
+     "Sorry, is English all right?",
+     {
+      "my": [
+       "အင်္ဂလိပ်လို ပြောလို့ရမလား။",
+       "英語でいいですか。\n\nEigo de: အင်္ဂလိပ်လို။",
+       "တောင်းပန်ပါတယ်၊ အင်္ဂလိပ်လို ပြောလို့ရမလား။"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "my": "စကားလုံးအကြောင်း မေးခြင်း"
+   }
   }
  ]
 }

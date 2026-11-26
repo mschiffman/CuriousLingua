@@ -60,6 +60,19 @@
    shown, its clip plays. Options can be played before choosing only when
    every option is a card; otherwise the missing 🔊 would give it away.
 
+   Explanation languages. On a page with  langs = ["my", "es", "fr"]  (see
+   expression-flash.js) the quiz follows the language chosen in the cards'
+   menu: the cards' meanings and notes, the second line of each instruction
+   and the tips come out in that language. What a question says itself is
+   given per language in  tr:
+     { type: "say", scene: "...", my: "<scene in Burmese>", answer: "...",
+       wrong: { "Hey!": ["register", "<note>"] },
+       tr: { es: { my: "<scene in Spanish>", wrong: { "Hey!": "<note in Spanish>" } } } }
+   tr.<lang> may hold  my, cue, note, wrong: { "<option>": "<note>" },
+   decoys: { "<word>": "<note>" }.  Whatever is missing is shown as written
+   for the first language. A tip in quizTags may be one text, or one per
+   language:  { feeling: { my: "Match the feeling…", es: "…", fr: "…" } }.
+
    The quiz data must not have a line that starts with ["  (make_audio.py
    reads such lines as cards). Objects like  wrong: { "Hey!": ... }  are safe.
 --------------------------------------------------------------- */
@@ -73,6 +86,23 @@
   const cap = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
   const norm = (s) => s.replace(/[.!?]+$/, "").trim().replace(/\s+/g, " ").toLowerCase();
 
+  /* ---- explanation language: the one chosen in the cards' menu (expression-flash.js) ---- */
+  const LANGS = typeof langs !== "undefined" && Array.isArray(langs) ? langs : [];
+  const KEY = "explain:" + (typeof COURSE !== "undefined" ? COURSE : "");
+  const isObj = (x) => x && typeof x === "object" && !Array.isArray(x);
+  let lang = "my";
+  function readLang() {
+    lang = LANGS[0] || "my";
+    try {
+      const saved = localStorage.getItem(KEY);
+      if (LANGS.includes(saved)) lang = saved;
+    } catch (e) {}
+  }
+  readLang();
+  const other = () => LANGS.length > 1 && lang !== LANGS[0]; // a language other than the one the page is written in
+  /* a text given once, or once per language */
+  const pick = (v) => (isObj(v) ? (v[lang] ?? v[LANGS[0]] ?? Object.values(v)[0] ?? "") : v);
+
   function shuffle(a) {
     const out = a.slice();
     for (let i = out.length - 1; i > 0; i--) {
@@ -83,8 +113,7 @@
   }
 
   /* ---- tags: what kind of mistake, and the tip shown in the results ---- */
-  const TAGS = Object.assign(
-    {
+  const TAG_BASE = {
       time: "Watch the time of day.",
       moment: "Check the moment: arriving or leaving? Meeting for the first time, or seeing someone again?",
       register: "Think about who you're talking to: a friend, a teacher, a customer or a stranger.",
@@ -92,18 +121,87 @@
       reply: "Answer what the person said.",
       meaning: "Learn what each phrase means: go through the cards again.",
       words: "Check the word order and the form of each word.",
-    },
-    typeof quizTags !== "undefined" ? quizTags : {},
-  );
-
-  const ASK = {
-    say: ["What do you say?", "ဘာပြောမလဲ။"],
-    reply: ["What do you say back?", "ဘယ်လို ပြန်ပြောမလဲ။"],
-    build: ["Put the words in order.", "စကားလုံးတွေကို အစဉ်လိုက် စီပါ။"],
-    judge: ["Is this OK?", "ဒီလိုပြောရင် အဆင်ပြေလား။"],
-    match: ["Match the English with the Burmese.", "အင်္ဂလိပ်နဲ့ မြန်မာ တွဲပေးပါ။"],
-    matchReply: ["Match each line with its reply.", "စကားတစ်ခွန်းစီကို သင့်တော်တဲ့ အဖြေနဲ့ တွဲပေးပါ။"],
   };
+  const TAG_TR = {
+    es: {
+      time: "Fíjate en la hora del día.",
+      moment: "Revisa el momento: ¿llegas o te vas? ¿Es la primera vez que se ven, o se vuelven a ver?",
+      register: "Piensa con quién hablas: un amigo, un maestro, un cliente o un desconocido.",
+      literal: "No traduzcas palabra por palabra: el inglés lo dice a su manera.",
+      reply: "Responde a lo que dijo la persona.",
+      meaning: "Aprende qué significa cada frase: repasa las tarjetas.",
+      words: "Revisa el orden de las palabras y la forma de cada una.",
+    },
+    fr: {
+      time: "Attention au moment de la journée.",
+      moment: "Vérifiez le moment : on arrive ou on part ? Première rencontre, ou retrouvailles ?",
+      register: "Pensez à la personne à qui vous parlez : un ami, un professeur, un client ou un inconnu.",
+      literal: "Ne traduisez pas mot à mot : l'anglais le dit à sa façon.",
+      reply: "Répondez à ce que la personne a dit.",
+      meaning: "Apprenez le sens de chaque phrase : reprenez les cartes.",
+      words: "Vérifiez l'ordre des mots et la forme de chacun.",
+    },
+  };
+  /* the tips in the chosen language: the built-in ones, then the page's quizTags */
+  function tagsNow() {
+    const out = Object.assign({}, TAG_BASE, other() ? TAG_TR[lang] : null);
+    if (typeof quizTags !== "undefined") for (const [k, v] of Object.entries(quizTags)) out[k] = pick(v);
+    return out;
+  }
+  let TAGS = tagsNow();
+
+  /* the small second line of each instruction, and the other words shown in the explanation language */
+  const SUB = {
+    my: {
+      say: "ဘာပြောမလဲ။",
+      reply: "ဘယ်လို ပြန်ပြောမလဲ။",
+      build: "စကားလုံးတွေကို အစဉ်လိုက် စီပါ။",
+      judge: "ဒီလိုပြောရင် အဆင်ပြေလား။",
+      match: "အင်္ဂလိပ်နဲ့ မြန်မာ တွဲပေးပါ။",
+      matchReply: "စကားတစ်ခွန်းစီကို သင့်တော်တဲ့ အဖြေနဲ့ တွဲပေးပါ။",
+      launch: "ကိုယ့်ကိုယ်ကို စစ်ဆေးကြည့်ပါ",
+      ok: "ပြောလို့ရတယ်",
+      no: "မပြောသင့်ဘူး",
+      name: "Burmese",
+    },
+    es: {
+      say: "¿Qué dices?",
+      reply: "¿Qué respondes?",
+      build: "Pon las palabras en orden.",
+      judge: "¿Está bien decir esto?",
+      match: "Une el inglés con el español.",
+      matchReply: "Une cada frase con su respuesta.",
+      launch: "Ponte a prueba",
+      ok: "Se puede decir",
+      no: "Mejor no decirlo",
+      name: "Spanish",
+    },
+    fr: {
+      say: "Que dites-vous ?",
+      reply: "Que répondez-vous ?",
+      build: "Mettez les mots dans l'ordre.",
+      judge: "Peut-on dire ça ?",
+      match: "Associez l'anglais et le français.",
+      matchReply: "Associez chaque phrase à sa réponse.",
+      launch: "Testez-vous",
+      ok: "On peut le dire",
+      no: "À éviter",
+      name: "French",
+    },
+  };
+  const sub = () => SUB[lang] || SUB.my;
+  function asks() {
+    const s = sub();
+    return {
+      say: ["What do you say?", s.say],
+      reply: ["What do you say back?", s.reply],
+      build: ["Put the words in order.", s.build],
+      judge: ["Is this OK?", s.judge],
+      match: [`Match the English with the ${s.name}.`, s.match],
+      matchReply: ["Match each line with its reply.", s.matchReply],
+    };
+  }
+  let ASK = asks();
   const MATCH_COLORS = ["#2563eb", "#d97706", "#7c3aed", "#0d9488", "#db2777", "#65a30d"];
 
   const GRADES = [
@@ -117,12 +215,23 @@
 
   /* ---- cards by English phrase, numbered like expression-flash.js ---- */
   const CARDS = new Map();
-  let num = 0;
-  for (const cat of categories) {
-    for (const [en, my, note] of cat.cards) {
-      num++;
-      const text = strip(en);
-      CARDS.set(text, { en: text, my: strip(my), note: note || "", url: media(`${AUD_DIR}${pad(num)}.${AUD_EXT}`) });
+  function readCards() {
+    CARDS.clear();
+    let num = 0;
+    for (const cat of categories) {
+      for (const c of cat.cards) {
+        num++;
+        const more = isObj(c[c.length - 1]) ? c[c.length - 1] : null;
+        const t = (more && other() && more[lang]) || []; // [meaning, note, …] in the chosen language
+        const [en, my, note] = c;
+        const text = strip(en);
+        CARDS.set(text, {
+          en: text,
+          my: strip(t[0] || my),
+          note: t[1] != null ? t[1] : typeof note === "string" ? note : "",
+          url: media(`${AUD_DIR}${pad(num)}.${AUD_EXT}`),
+        });
+      }
     }
   }
 
@@ -140,10 +249,19 @@
     return [tag, note];
   }
 
-  /* ---- questions, prepared once ---- */
+  /* ---- questions, prepared at the start and again when the explanation language changes ---- */
   const QS = [];
-  quiz.forEach((q, i) => {
+  function prepare() {
+  readCards();
+  TAGS = tagsNow();
+  ASK = asks();
+  QS.length = 0;
+  problems.length = 0;
+  quiz.forEach((q0, i) => {
     const where = `quiz[${i}]`;
+    const T = (other() && q0.tr && q0.tr[lang]) || {}; // this question's own texts in the chosen language
+    const q = Object.assign({}, q0, T.my ? { my: T.my } : null, T.note ? { note: T.note } : null, T.cue && !q0.scene ? { cue: T.cue } : null);
+    const said = (kind, key, note) => (T[kind] && T[kind][key]) || note;
     const chips = (q.scene || q.cue || "")
       .split("·")
       .map((s) => s.trim())
@@ -156,7 +274,7 @@
       for (const [text, v] of Object.entries(q.wrong || {})) {
         const [tag, note] = tagged(v, where);
         const c = CARDS.get(text) || null;
-        opts.push({ text, card: c, ok: false, tag, note: note || (c && c.note) || TAGS[tag] || "" });
+        opts.push({ text, card: c, ok: false, tag, note: said("wrong", text, note) || (c && c.note) || TAGS[tag] || "" });
       }
       if (opts.length < 2) problems.push(`${where}: needs at least one wrong option`);
       QS.push({
@@ -174,7 +292,7 @@
       const tiles = words.map((w, k) => ({ w: k === 0 && !/^I\b/.test(w) ? w[0].toLowerCase() + w.slice(1) : w }));
       for (const [w, v] of Object.entries(q.decoys || {})) {
         const [tag, note] = tagged(v, where);
-        tiles.push({ w, decoy: true, tag, note: note || TAGS[tag] || "" });
+        tiles.push({ w, decoy: true, tag, note: said("decoys", w, note) || TAGS[tag] || "" });
       }
       QS.push({
         ...base,
@@ -200,16 +318,20 @@
       if (items.length < 2 || items.length > 6) problems.push(`${where}: a match needs 2 to 6 pairs`);
       if (new Set(items.map((x) => x.right)).size < items.length)
         problems.push(`${where}: two pairs have the same right-hand text`);
-      QS.push({ ...base, items, ask: q.pairs ? "matchReply" : "match", rlang: q.pairs ? null : "my", tag: q.pairs ? "reply" : "meaning" });
+      QS.push({ ...base, items, ask: q.pairs ? "matchReply" : "match", rlang: q.pairs ? null : lang, tag: q.pairs ? "reply" : "meaning" });
     } else {
       problems.push(`${where}: unknown type "${q.type}"`);
     }
   });
   QS.forEach((q, id) => (q.id = id));
   problems.forEach((p) => console.warn("Quiz data:", p));
+  }
+  prepare();
 
-  const ALL = QS.map((q) => q.id);
-  const order = () => (new URLSearchParams(location.search).get("order") === "book" ? ALL.slice() : shuffle(ALL));
+  const order = () => {
+    const all = QS.map((q) => q.id);
+    return new URLSearchParams(location.search).get("order") === "book" ? all : shuffle(all);
+  };
 
   /* tiles in a new order (never the answer's order) */
   function scramble(tiles) {
@@ -264,9 +386,22 @@
   const cards = document.getElementById("cards");
   if (cards) {
     const launch = (extra) =>
-      `<div class="xq-launch ${extra}"><a class="xq-launch-btn" href="#quiz">📝 Test yourself <span lang="my">ကိုယ့်ကိုယ်ကို စစ်ဆေးကြည့်ပါ</span></a></div>`;
+      `<div class="xq-launch ${extra}"><a class="xq-launch-btn" href="#quiz">📝 Test yourself <span class="xq-launch-sub"></span></a></div>`;
     cards.insertAdjacentHTML("beforebegin", launch("xq-launch-top"));
   }
+  function launchText() {
+    document.querySelectorAll(".xq-launch-sub").forEach((el) => {
+      el.textContent = sub().launch;
+      el.lang = lang;
+    });
+  }
+  launchText();
+  /* the visitor chose another explanation language in the cards' menu */
+  document.addEventListener("explain:change", () => {
+    readLang();
+    prepare();
+    launchText();
+  });
 
   document.body.insertAdjacentHTML(
     "beforeend",
@@ -298,7 +433,7 @@
           <div class="xq-scene" x-show="q.chips.length">
             <template x-for="c in q.chips"><span class="xq-chip" x-text="c"></span></template>
           </div>
-          <p class="xq-my" lang="my" x-show="q.my" x-text="q.my"></p>
+          <p class="xq-my" :lang="lang" x-show="q.my" x-text="q.my"></p>
 
           <template x-if="q.type === 'reply'">
             <button class="xq-bubble" @click="play(q.prompt.url)" :disabled="!q.prompt.url">
@@ -316,7 +451,7 @@
           </template>
 
           <h2 class="xq-ask" x-text="ASK[q.ask || q.type][0]"></h2>
-          <p class="xq-ask-my" lang="my" x-text="ASK[q.ask || q.type][1]"></p>
+          <p class="xq-ask-my" :lang="lang" x-text="ASK[q.ask || q.type][1]"></p>
 
           <!-- match: tap one on the left, then its partner on the right -->
           <template x-if="q.type === 'match'">
@@ -356,10 +491,10 @@
           <template x-if="q.type === 'judge'">
             <div class="xq-judge">
               <button class="xq-jbtn" :class="jClass(true)" @click="select('ok')" :aria-pressed="sel === 'ok'">
-                <span class="xq-jicon">👍</span><span class="xq-jtext">OK</span><small lang="my">ပြောလို့ရတယ်</small>
+                <span class="xq-jicon">👍</span><span class="xq-jtext">OK</span><small :lang="lang" x-text="sub.ok"></small>
               </button>
               <button class="xq-jbtn" :class="jClass(false)" @click="select('no')" :aria-pressed="sel === 'no'">
-                <span class="xq-jicon">👎</span><span class="xq-jtext">Not OK</span><small lang="my">မပြောသင့်ဘူး</small>
+                <span class="xq-jicon">👎</span><span class="xq-jtext">Not OK</span><small :lang="lang" x-text="sub.no"></small>
               </button>
             </div>
           </template>
@@ -462,6 +597,8 @@
       title: (document.querySelector("h1")?.textContent || "Expressions").trim(),
       problems,
       ASK,
+      lang,
+      sub: sub(),
       round: [],
       pos: 0,
       results: {}, // id -> { ok, tag, chosen }
@@ -482,6 +619,17 @@
       play,
 
       init() {
+        /* another explanation language: the questions were prepared again, so start a new round next time */
+        document.addEventListener("explain:change", () => {
+          this.ASK = ASK;
+          this.lang = lang;
+          this.sub = sub();
+          this.problems = problems.slice();
+          this.round = [];
+          this.results = {};
+          this.view = "q";
+          if (this.open) this.start(order(), false);
+        });
         window.addEventListener("hashchange", () => {
           if (location.hash === "#quiz") this.pushed = true;
           this.sync();

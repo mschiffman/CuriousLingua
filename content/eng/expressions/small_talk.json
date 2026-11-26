@@ -7,6 +7,11 @@
  "strand": "expressions",
  "topic": "Everyday expressions",
  "type": "cards",
+ "langs": [
+  "my",
+  "es",
+  "fr"
+ ],
  "legacy": "eng/expressions/small_talk.html",
  "aud_dir": "eng/expressions/small_talk/",
  "aud_ext": "mp3?v=2611110945",
@@ -21,37 +26,107 @@
      "ဒီနေ့ ရာသီဥတု သာယာတယ်နော်။",
      "Isn't it? at the end works like နော်: it invites the other person to agree. Just answer: Yes, it is! or It really is!",
      "— Nice day, isn't it? — It really is!",
-     "— ရာသီဥတု သာယာတယ်နော်။ — ဟုတ်တယ်နော်။"
+     "— ရာသီဥတု သာယာတယ်နော်။ — ဟုတ်တယ်နော်။",
+     {
+      "es": [
+       "Qué bonito día, ¿verdad?",
+       "Isn't it? al final funciona como ¿verdad?: invita a la otra persona a estar de acuerdo. Solo responde: Yes, it is! o It really is!",
+       "— Qué bonito día, ¿verdad? — ¡La verdad, sí!"
+      ],
+      "fr": [
+       "Belle journée, n'est-ce pas ?",
+       "Isn't it? à la fin fonctionne comme n'est-ce pas : on invite l'autre à approuver. Répondez simplement : Yes, it is! ou It really is!",
+       "— Belle journée, n'est-ce pas ? — Oui, vraiment !"
+      ]
+     }
     ],
     [
      "How's your day going?",
      "ဒီနေ့ ဘယ်လိုလဲ။",
      "A friendly question for coworkers, or shop staff you know. Answer short: Pretty good, thanks. You?",
      "— How's your day going? — Not bad! It's almost Friday.",
-     "— ဒီနေ့ ဘယ်လိုလဲ။ — မဆိုးပါဘူး။ သောကြာနေ့ ရောက်တော့မှာပဲ။"
+     "— ဒီနေ့ ဘယ်လိုလဲ။ — မဆိုးပါဘူး။ သောကြာနေ့ ရောက်တော့မှာပဲ။",
+     {
+      "es": [
+       "¿Cómo va tu día?",
+       "Una pregunta amistosa para compañeros de trabajo o empleados de tienda que conoces. Respuesta corta: Pretty good, thanks. You?",
+       "— ¿Cómo va tu día? — ¡Nada mal! Ya casi es viernes."
+      ],
+      "fr": [
+       "Comment se passe ta journée ?",
+       "Une question amicale pour les collègues ou les commerçants que vous connaissez. Réponse courte : Pretty good, thanks. You?",
+       "— Comment se passe ta journée ? — Pas mal ! C'est presque vendredi."
+      ]
+     }
     ],
     [
      "Busy day?",
      "ဒီနေ့ အလုပ်များလား။",
      "Short and casual, at work or in a shop. Shows you notice the other person.",
      "— Busy day? — Yes, it's been crazy!",
-     "— ဒီနေ့ အလုပ်များလား။ — အင်း၊ အရမ်းများတာပဲ။"
+     "— ဒီနေ့ အလုပ်များလား။ — အင်း၊ အရမ်းများတာပဲ။",
+     {
+      "es": [
+       "¿Mucho trabajo hoy?",
+       "Corto e informal, en el trabajo o en una tienda. Muestra que te fijas en la otra persona.",
+       "— ¿Mucho trabajo hoy? — ¡Sí, ha sido una locura!"
+      ],
+      "fr": [
+       "Grosse journée ?",
+       "Court et familier, au travail ou dans un magasin. Montre que vous prêtez attention à l'autre.",
+       "— Grosse journée ? — Oui, c'est la folie !"
+      ]
+     }
     ],
     [
      "Have you been here before?",
      "ဒီကို အရင် ရောက်ဖူးလား။",
      "Good at a café, an event or any new place. Easy for the other person to answer.",
      "Have you been here before? The noodles are great.",
-     "ဒီကို အရင် ရောက်ဖူးလား။ ခေါက်ဆွဲက အရမ်းကောင်းတယ်။"
+     "ဒီကို အရင် ရောက်ဖူးလား။ ခေါက်ဆွဲက အရမ်းကောင်းတယ်။",
+     {
+      "es": [
+       "¿Ya habías venido aquí?",
+       "Bueno en un café, un evento o cualquier lugar nuevo. Fácil de responder para la otra persona.",
+       "¿Ya habías venido aquí? Los fideos son buenísimos."
+      ],
+      "fr": [
+       "Vous êtes déjà venu ici ?",
+       "Bien dans un café, à un événement ou dans tout lieu nouveau. Facile à répondre pour l'autre.",
+       "Vous êtes déjà venu ici ? Les nouilles sont excellentes."
+      ]
+     }
     ],
     [
      "Are you waiting for the bus too?",
      "မင်းလဲ ဘတ်စ်ကား စောင့်နေတာလား။",
      "A natural way to start talking to someone waiting next to you.",
      "Are you waiting for the number 12 bus too? It's late again.",
-     "၁၂ နံပါတ် ဘတ်စ်ကား စောင့်နေတာလား။ ထပ်နောက်ကျနေပြန်ပြီ။"
+     "၁၂ နံပါတ် ဘတ်စ်ကား စောင့်နေတာလား။ ထပ်နောက်ကျနေပြန်ပြီ။",
+     {
+      "es": [
+       "¿Usted también espera el autobús?",
+       "Una manera natural de empezar a hablar con alguien que espera junto a ti.",
+       "¿Usted también espera el autobús 12? Otra vez viene tarde."
+      ],
+      "fr": [
+       "Vous attendez le bus aussi ?",
+       "Une façon naturelle d'engager la conversation avec quelqu'un qui attend à côté de vous.",
+       "Vous attendez le bus 12 aussi ? Il est encore en retard."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Empezar una conversación",
+     "Primeras frases fáciles para vecinos, compañeros de trabajo y gente que espera junto a ti."
+    ],
+    "fr": [
+     "Engager la conversation",
+     "Des premières phrases faciles pour les voisins, les collègues et les personnes qui attendent à côté de vous."
+    ]
+   }
   },
   {
    "en": "The weather",
@@ -63,37 +138,107 @@
      "ဒီနေ့ အရမ်း ပူတာပဲ။",
      "Easy to say, easy to agree with. Also: It's boiling!",
      "It's so hot today! I need a cold drink.",
-     "ဒီနေ့ အရမ်း ပူတာပဲ။ အအေး တစ်ခွက် သောက်ချင်တယ်။"
+     "ဒီနေ့ အရမ်း ပူတာပဲ။ အအေး တစ်ခွက် သောက်ချင်တယ်။",
+     {
+      "es": [
+       "¡Qué calor hace hoy!",
+       "Fácil de decir y fácil de aprobar. También: It's boiling!",
+       "¡Qué calor hace hoy! Necesito una bebida fría."
+      ],
+      "fr": [
+       "Qu'est-ce qu'il fait chaud aujourd'hui !",
+       "Facile à dire, facile à approuver. On dit aussi : It's boiling!",
+       "Qu'est-ce qu'il fait chaud aujourd'hui ! Il me faut une boisson fraîche."
+      ]
+     }
     ],
     [
      "It looks like rain.",
      "ကြည့်ရတာ မိုးရွာမယ့်ပုံပဲ။",
      "The sky is dark and rain is coming. Also: It's going to rain.",
      "It looks like rain. Do you have an umbrella?",
-     "မိုးရွာမယ့်ပုံပဲ။ ထီး ပါလား။"
+     "မိုးရွာမယ့်ပုံပဲ။ ထီး ပါလား။",
+     {
+      "es": [
+       "Parece que va a llover.",
+       "El cielo está oscuro y viene la lluvia. También: It's going to rain.",
+       "Parece que va a llover. ¿Traes paraguas?"
+      ],
+      "fr": [
+       "On dirait qu'il va pleuvoir.",
+       "Le ciel est sombre et la pluie arrive. On dit aussi : It's going to rain.",
+       "On dirait qu'il va pleuvoir. Tu as un parapluie ?"
+      ]
+     }
     ],
     [
      "What a lovely day!",
      "ရာသီဥတု သာယာလိုက်တာ။",
      "A happy comment on sunny, pleasant weather. Lovely is very common in British English.",
      "What a lovely day! Let's eat outside.",
-     "ရာသီဥတု လှလိုက်တာ။ အပြင်မှာ ထိုင်စားကြရအောင်။"
+     "ရာသီဥတု လှလိုက်တာ။ အပြင်မှာ ထိုင်စားကြရအောင်။",
+     {
+      "es": [
+       "¡Qué día tan bonito!",
+       "Un comentario alegre sobre un clima soleado y agradable. Lovely es muy común en el inglés británico.",
+       "¡Qué día tan bonito! Vamos a comer afuera."
+      ],
+      "fr": [
+       "Quelle belle journée !",
+       "Une remarque joyeuse sur un temps ensoleillé et agréable. Lovely est très courant en anglais britannique.",
+       "Quelle belle journée ! Mangeons dehors."
+      ]
+     }
     ],
     [
      "It's freezing!",
      "အရမ်း စိမ့်အေးတာပဲ။",
      "Very cold. People say it even when it's only a little cold.",
      "It's freezing in this office! Can we turn the air conditioning off?",
-     "ဒီရုံးခန်းထဲ အရမ်း အေးတာပဲ။ အဲယားကွန်း ပိတ်လို့ ရမလား။"
+     "ဒီရုံးခန်းထဲ အရမ်း အေးတာပဲ။ အဲယားကွန်း ပိတ်လို့ ရမလား။",
+     {
+      "es": [
+       "¡Hace un frío tremendo!",
+       "Muy frío. La gente lo dice aunque solo haga un poco de frío.",
+       "¡Hace un frío tremendo en esta oficina! ¿Podemos apagar el aire acondicionado?"
+      ],
+      "fr": [
+       "On gèle !",
+       "Très froid. Les gens le disent même quand il ne fait qu'un peu froid.",
+       "On gèle dans ce bureau ! On peut éteindre la climatisation ?"
+      ]
+     }
     ],
     [
      "Is it going to rain all week?",
      "တစ်ပတ်လုံး မိုးရွာမှာလား။",
      "Weather questions keep the conversation going. Also: What's the weather like tomorrow?",
      "— Is it going to rain all week? — I hope not. My clothes won't dry!",
-     "— တစ်ပတ်လုံး မိုးရွာမှာလား။ — မရွာပါစေနဲ့။ အဝတ်တွေ မခြောက်ဘူး။"
+     "— တစ်ပတ်လုံး မိုးရွာမှာလား။ — မရွာပါစေနဲ့။ အဝတ်တွေ မခြောက်ဘူး။",
+     {
+      "es": [
+       "¿Va a llover toda la semana?",
+       "Las preguntas sobre el clima mantienen viva la conversación. También: What's the weather like tomorrow?",
+       "— ¿Va a llover toda la semana? — Espero que no. ¡Mi ropa no se va a secar!"
+      ],
+      "fr": [
+       "Il va pleuvoir toute la semaine ?",
+       "Les questions sur la météo entretiennent la conversation. On dit aussi : What's the weather like tomorrow?",
+       "— Il va pleuvoir toute la semaine ? — J'espère que non. Mon linge ne séchera jamais !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "El clima",
+     "El tema más seguro para platicar en inglés. Todos tienen algo que decir sobre el clima."
+    ],
+    "fr": [
+     "La météo",
+     "Le sujet le plus sûr pour bavarder en anglais. Tout le monde a quelque chose à dire sur le temps."
+    ]
+   }
   },
   {
    "en": "Weekends and plans",
@@ -105,44 +250,126 @@
      "ပိတ်ရက်က ဘယ်လိုလဲ။",
      "The Monday-morning question. Answer short, then ask back: Good, thanks. How was yours?",
      "— How was your weekend? — Good, thanks. How was yours?",
-     "— ပိတ်ရက်က ဘယ်လိုလဲ။ — ကောင်းပါတယ်၊ ကျေးဇူးပါ။ မင်းရော။"
+     "— ပိတ်ရက်က ဘယ်လိုလဲ။ — ကောင်းပါတယ်၊ ကျေးဇူးပါ။ မင်းရော။",
+     {
+      "es": [
+       "¿Qué tal tu fin de semana?",
+       "La pregunta del lunes por la mañana. Responde corto y devuelve la pregunta: Good, thanks. How was yours?",
+       "— ¿Qué tal tu fin de semana? — Bien, gracias. ¿Y el tuyo?"
+      ],
+      "fr": [
+       "Tu as passé un bon week-end ?",
+       "La question du lundi matin. Répondez brièvement, puis renvoyez la question : Good, thanks. How was yours?",
+       "— Tu as passé un bon week-end ? — Oui, merci. Et toi ?"
+      ]
+     }
     ],
     [
      "Did you do anything nice?",
      "ဘာပျော်စရာတွေ လုပ်ဖြစ်သေးလဲ။",
      "A follow-up question. A short answer is fine: one or two sentences.",
      "— Did you do anything nice? — We went to the beach.",
-     "— ဘာ ထူးထူးခြားခြား လုပ်ခဲ့လဲ။ — ကမ်းခြေ သွားခဲ့တယ်။"
+     "— ဘာ ထူးထူးခြားခြား လုပ်ခဲ့လဲ။ — ကမ်းခြေ သွားခဲ့တယ်။",
+     {
+      "es": [
+       "¿Hiciste algo bonito?",
+       "Una pregunta de seguimiento. Basta una respuesta corta: una o dos oraciones.",
+       "— ¿Hiciste algo bonito? — Fuimos a la playa."
+      ],
+      "fr": [
+       "Tu as fait quelque chose de sympa ?",
+       "Une question pour relancer. Une réponse courte suffit : une ou deux phrases.",
+       "— Tu as fait quelque chose de sympa ? — On est allés à la plage."
+      ]
+     }
     ],
     [
      "Any plans for the weekend?",
      "ပိတ်ရက် ဘာအစီအစဉ် ရှိလဲ။",
      "The Friday question. Short for Do you have any plans for the weekend?",
      "— Any plans for the weekend? — I'm visiting my aunt.",
-     "— ပိတ်ရက် ဘာအစီအစဉ် ရှိလဲ။ — အဒေါ့်ဆီ သွားလည်မယ်။"
+     "— ပိတ်ရက် ဘာအစီအစဉ် ရှိလဲ။ — အဒေါ့်ဆီ သွားလည်မယ်။",
+     {
+      "es": [
+       "¿Algún plan para el fin de semana?",
+       "La pregunta del viernes. Forma corta de Do you have any plans for the weekend?",
+       "— ¿Algún plan para el fin de semana? — Voy a visitar a mi tía."
+      ],
+      "fr": [
+       "Des projets pour le week-end ?",
+       "La question du vendredi. Forme courte de Do you have any plans for the weekend?",
+       "— Des projets pour le week-end ? — Je vais voir ma tante."
+      ]
+     }
     ],
     [
      "Ready for the weekend?",
      "ပိတ်ရက် မျှော်နေပြီလား။",
      "Another Friday question at work. It means: Are you happy the weekend is almost here? Answer: So ready! or Definitely!",
      "— Ready for the weekend? — So ready! It's been a long week.",
-     "— ပိတ်ရက် မျှော်နေပြီလား။ — အရမ်း မျှော်နေတာ။ ဒီတစ်ပတ် အရမ်း ပင်ပန်းတယ်။"
+     "— ပိတ်ရက် မျှော်နေပြီလား။ — အရမ်း မျှော်နေတာ။ ဒီတစ်ပတ် အရမ်း ပင်ပန်းတယ်။",
+     {
+      "es": [
+       "¿Listo para el fin de semana?",
+       "Otra pregunta de viernes en el trabajo. Significa: ¿te alegra que ya casi sea fin de semana? Respuesta: So ready! o Definitely!",
+       "— ¿Listo para el fin de semana? — ¡Listísimo! Fue una semana larga."
+      ],
+      "fr": [
+       "Prêt pour le week-end ?",
+       "Une autre question du vendredi au travail. Elle veut dire : content que le week-end arrive ? Réponse : So ready! ou Definitely!",
+       "— Prêt pour le week-end ? — Plus que prêt ! La semaine a été longue."
+      ]
+     }
     ],
     [
      "Just relaxing at home.",
      "အိမ်မှာပဲ အနားယူနေမယ်။",
      "A perfect answer, even if your weekend is quiet. Also: Nothing much.",
      "— What are you doing this weekend? — Just relaxing at home.",
-     "— ဒီပိတ်ရက် ဘာလုပ်မလဲ။ — အိမ်မှာပဲ အနားယူနေမယ်။"
+     "— ဒီပိတ်ရက် ဘာလုပ်မလဲ။ — အိမ်မှာပဲ အနားယူနေမယ်။",
+     {
+      "es": [
+       "Solo descansar en casa.",
+       "Una respuesta perfecta, aunque tu fin de semana sea tranquilo. También: Nothing much.",
+       "— ¿Qué vas a hacer este fin de semana? — Solo descansar en casa."
+      ],
+      "fr": [
+       "Juste me reposer à la maison.",
+       "Une réponse parfaite, même si votre week-end est calme. On dit aussi : Nothing much.",
+       "— Tu fais quoi ce week-end ? — Juste me reposer à la maison."
+      ]
+     }
     ],
     [
      "Have a good weekend!",
      "ပိတ်ရက် ပျော်ပါစေ။",
      "The Friday goodbye. Answer: You too!",
      "See you Monday. Have a good weekend!",
-     "တနင်္လာနေ့ တွေ့မယ်။ ပိတ်ရက် ပျော်ပါစေ။"
+     "တနင်္လာနေ့ တွေ့မယ်။ ပိတ်ရက် ပျော်ပါစေ။",
+     {
+      "es": [
+       "¡Buen fin de semana!",
+       "La despedida del viernes. Respuesta: You too!",
+       "Nos vemos el lunes. ¡Buen fin de semana!"
+      ],
+      "fr": [
+       "Bon week-end !",
+       "L'au revoir du vendredi. Réponse : You too!",
+       "À lundi. Bon week-end !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Fines de semana y planes",
+     "Las preguntas del lunes y del viernes, en el trabajo y con amigos."
+    ],
+    "fr": [
+     "Week-ends et projets",
+     "Les questions du lundi et du vendredi, au travail et entre amis."
+    ]
+   }
   },
   {
    "en": "Food",
@@ -154,37 +381,107 @@
      "စားချင်စရာ ကောင်းလိုက်တာ။",
      "A compliment before you eat. Hosts and cooks love to hear it.",
      "Wow, this looks delicious! Did you make it?",
-     "ဝိုး၊ စားချင်စရာ ကောင်းလိုက်တာ။ ကိုယ်တိုင် ချက်တာလား။"
+     "ဝိုး၊ စားချင်စရာ ကောင်းလိုက်တာ။ ကိုယ်တိုင် ချက်တာလား။",
+     {
+      "es": [
+       "¡Esto se ve delicioso!",
+       "Un cumplido antes de comer. A los anfitriones y a quienes cocinan les encanta oírlo.",
+       "¡Guau, esto se ve delicioso! ¿Lo hiciste tú?"
+      ],
+      "fr": [
+       "Ça a l'air délicieux !",
+       "Un compliment avant de manger. Les hôtes et les cuisiniers adorent l'entendre.",
+       "Ouah, ça a l'air délicieux ! C'est toi qui l'as fait ?"
+      ]
+     }
     ],
     [
      "Have you tried mohinga?",
      "မုန့်ဟင်းခါး စားကြည့်ဖူးလား။",
      "Good for talking about local food. Tried = eaten or drunk for the first time.",
      "— Have you tried mohinga? — No, what's that? — It's a fish noodle soup. You'll love it!",
-     "— မုန့်ဟင်းခါး စားကြည့်ဖူးလား။ — မစားဖူးဘူး၊ အဲဒါ ဘာလဲ။ — ငါးဟင်းရည်နဲ့ ခေါက်ဆွဲ။ ကြိုက်မှာ သေချာတယ်။"
+     "— မုန့်ဟင်းခါး စားကြည့်ဖူးလား။ — မစားဖူးဘူး၊ အဲဒါ ဘာလဲ။ — ငါးဟင်းရည်နဲ့ ခေါက်ဆွဲ။ ကြိုက်မှာ သေချာတယ်။",
+     {
+      "es": [
+       "¿Ya probaste el mohinga?",
+       "Bueno para hablar de la comida local. Tried = comido o bebido por primera vez.",
+       "— ¿Ya probaste el mohinga? — No, ¿qué es? — Es una sopa de fideos con pescado. ¡Te va a encantar!"
+      ],
+      "fr": [
+       "Tu as déjà goûté le mohinga ?",
+       "Bien pour parler de la cuisine locale. Tried = mangé ou bu pour la première fois.",
+       "— Tu as déjà goûté le mohinga ? — Non, c'est quoi ? — Une soupe de nouilles au poisson. Tu vas adorer !"
+      ]
+     }
     ],
     [
      "What's good here?",
      "ဒီမှာ ဘာကောင်းလဲ။",
      "Ask a friend or a waiter at a new restaurant.",
      "It's my first time here. What's good?",
-     "ဒီကို ပထမဆုံး ရောက်ဖူးတာ။ ဘာကောင်းလဲ။"
+     "ဒီကို ပထမဆုံး ရောက်ဖူးတာ။ ဘာကောင်းလဲ။",
+     {
+      "es": [
+       "¿Qué está rico aquí?",
+       "Pregúntale a un amigo o a un mesero en un restaurante nuevo.",
+       "Es mi primera vez aquí. ¿Qué está rico?"
+      ],
+      "fr": [
+       "Qu'est-ce qui est bon ici ?",
+       "À demander à un ami ou à un serveur dans un nouveau restaurant.",
+       "C'est la première fois que je viens. Qu'est-ce qui est bon ?"
+      ]
+     }
     ],
     [
      "Have you had lunch yet?",
      "နေ့လယ်စာ စားပြီးပြီလား။",
      "As a greeting, Have you eaten? sounds strange in English. But near lunchtime, this is a real, friendly question, often before an invitation.",
      "Have you had lunch yet? Do you want to come with us?",
-     "နေ့လယ်စာ စားပြီးပြီလား။ ငါတို့နဲ့ လိုက်မလား။"
+     "နေ့လယ်စာ စားပြီးပြီလား။ ငါတို့နဲ့ လိုက်မလား။",
+     {
+      "es": [
+       "¿Ya comiste?",
+       "En inglés no se usa como saludo. Pero cerca de la hora de la comida es una pregunta real y amistosa, a menudo antes de una invitación.",
+       "¿Ya comiste? ¿Quieres venir con nosotros?"
+      ],
+      "fr": [
+       "Tu as déjà déjeuné ?",
+       "En anglais, ce n'est pas une salutation. Mais vers midi, c'est une vraie question amicale, souvent avant une invitation.",
+       "Tu as déjà déjeuné ? Tu veux venir avec nous ?"
+      ]
+     }
     ],
     [
      "I'm starving!",
      "ဗိုက် အရမ်းဆာနေပြီ။",
      "Very hungry. Casual, and not meant literally.",
      "I'm starving! Let's get something to eat.",
-     "ဗိုက် အရမ်းဆာနေပြီ။ တစ်ခုခု သွားစားရအောင်။"
+     "ဗိုက် အရမ်းဆာနေပြီ။ တစ်ခုခု သွားစားရအောင်။",
+     {
+      "es": [
+       "¡Me muero de hambre!",
+       "Mucha hambre. Informal, y no se dice en sentido literal.",
+       "¡Me muero de hambre! Vamos por algo de comer."
+      ],
+      "fr": [
+       "Je meurs de faim !",
+       "Très faim. Familier, et pas à prendre au pied de la lettre.",
+       "Je meurs de faim ! Allons manger quelque chose."
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "La comida",
+     "Todos comemos, así que es fácil hablar de comida."
+    ],
+    "fr": [
+     "La nourriture",
+     "Tout le monde mange, donc la nourriture est un sujet facile."
+    ]
+   }
   },
   {
    "en": "Work and free time",
@@ -196,37 +493,107 @@
      "အလုပ်ကော အဆင်ပြေရဲ့လား။",
      "A friendly way to say How's work? Answer: Not bad, thanks. or Can't complain.",
      "— How's work treating you? — Can't complain. Busy, but good.",
-     "— အလုပ်ကော အဆင်ပြေရဲ့လား။ — အဆင်ပြေပါတယ်။ အလုပ်များပေမယ့် ကောင်းပါတယ်။"
+     "— အလုပ်ကော အဆင်ပြေရဲ့လား။ — အဆင်ပြေပါတယ်။ အလုပ်များပေမယ့် ကောင်းပါတယ်။",
+     {
+      "es": [
+       "¿Cómo te va en el trabajo?",
+       "Una manera amistosa de decir How's work? Respuesta: Not bad, thanks. o Can't complain.",
+       "— ¿Cómo te va en el trabajo? — No me quejo. Mucho trabajo, pero bien."
+      ],
+      "fr": [
+       "Comment ça se passe au travail ?",
+       "Une façon amicale de dire How's work? Réponse : Not bad, thanks. ou Can't complain.",
+       "— Comment ça se passe au travail ? — Je ne me plains pas. Chargé, mais bien."
+      ]
+     }
     ],
     [
      "What do you do to unwind?",
      "အနားယူချင်ရင် ဘာလုပ်လဲ။",
      "Unwind = relax after work or a busy day. A warm way to ask about someone's hobbies.",
      "— What do you do to unwind? — I go for a walk or cook something.",
-     "— အနားယူချင်ရင် ဘာလုပ်လဲ။ — လမ်းလျှောက်တယ်၊ ဒါမှမဟုတ် တစ်ခုခု ချက်စားတယ်။"
+     "— အနားယူချင်ရင် ဘာလုပ်လဲ။ — လမ်းလျှောက်တယ်၊ ဒါမှမဟုတ် တစ်ခုခု ချက်စားတယ်။",
+     {
+      "es": [
+       "¿Qué haces para relajarte?",
+       "Unwind = relajarse después del trabajo o de un día pesado. Una manera cálida de preguntar por los pasatiempos de alguien.",
+       "— ¿Qué haces para relajarte? — Salgo a caminar o cocino algo."
+      ],
+      "fr": [
+       "Que fais-tu pour décompresser ?",
+       "Unwind = se détendre après le travail ou une journée chargée. Une façon chaleureuse de s'intéresser aux loisirs de quelqu'un.",
+       "— Que fais-tu pour décompresser ? — Je vais marcher ou je cuisine quelque chose."
+      ]
+     }
     ],
     [
      "Picked up any new hobbies?",
      "ဝါသနာ အသစ် တစ်ခုခု စလုပ်ဖြစ်လား။",
      "Short for Have you picked up any new hobbies? Pick up a hobby = start a new hobby.",
      "— Picked up any new hobbies? — Yes, I've started playing badminton.",
-     "— ဝါသနာ အသစ် တစ်ခုခု စလုပ်ဖြစ်လား။ — အင်း၊ ကြက်တောင် စရိုက်နေတယ်။"
+     "— ဝါသနာ အသစ် တစ်ခုခု စလုပ်ဖြစ်လား။ — အင်း၊ ကြက်တောင် စရိုက်နေတယ်။",
+     {
+      "es": [
+       "¿Algún pasatiempo nuevo?",
+       "Forma corta de Have you picked up any new hobbies? Pick up a hobby = empezar un pasatiempo nuevo.",
+       "— ¿Algún pasatiempo nuevo? — Sí, empecé a jugar bádminton."
+      ],
+      "fr": [
+       "De nouveaux passe-temps ?",
+       "Forme courte de Have you picked up any new hobbies? Pick up a hobby = se mettre à un nouveau loisir.",
+       "— De nouveaux passe-temps ? — Oui, je me suis mis au badminton."
+      ]
+     }
     ],
     [
      "Watching anything good?",
      "ရုပ်ရှင်ကောင်းကောင်း တစ်ခုခု ကြည့်နေလား။",
      "About TV shows and series. Casual questions often drop the first words: (Are you) watching anything good?",
      "— Watching anything good? — Yes, a great Korean drama.",
-     "— ကောင်းတာ တစ်ခုခု ကြည့်နေလား။ — အင်း၊ ကိုရီးယား ဇာတ်လမ်းတွဲ ကောင်းကောင်း တစ်ခု။"
+     "— ကောင်းတာ တစ်ခုခု ကြည့်နေလား။ — အင်း၊ ကိုရီးယား ဇာတ်လမ်းတွဲ ကောင်းကောင်း တစ်ခု။",
+     {
+      "es": [
+       "¿Estás viendo algo bueno?",
+       "Sobre programas y series de televisión. Las preguntas informales suelen omitir las primeras palabras: (Are you) watching anything good?",
+       "— ¿Estás viendo algo bueno? — Sí, una serie coreana buenísima."
+      ],
+      "fr": [
+       "Tu regardes quelque chose de bien ?",
+       "À propos des émissions et des séries. Les questions familières omettent souvent les premiers mots : (Are you) watching anything good?",
+       "— Tu regardes quelque chose de bien ? — Oui, une super série coréenne."
+      ]
+     }
     ],
     [
      "Read any good books lately?",
      "အခုတလော စာအုပ်ကောင်းကောင်း ဖတ်ဖြစ်လား။",
      "Short for Have you read...? Lately = recently. Change the noun: Seen any good movies lately?",
      "— Read any good books lately? — Not really. I don't have time!",
-     "— အခုတလော စာအုပ်ကောင်းကောင်း ဖတ်ဖြစ်လား။ — သိပ်မဖတ်ဖြစ်ဘူး။ အချိန် မရဘူး။"
+     "— အခုတလော စာအုပ်ကောင်းကောင်း ဖတ်ဖြစ်လား။ — သိပ်မဖတ်ဖြစ်ဘူး။ အချိန် မရဘူး။",
+     {
+      "es": [
+       "¿Has leído algún buen libro últimamente?",
+       "Forma corta de Have you read...? Lately = recientemente. Cambia el sustantivo: Seen any good movies lately?",
+       "— ¿Has leído algún buen libro últimamente? — La verdad, no. ¡No tengo tiempo!"
+      ],
+      "fr": [
+       "Tu as lu de bons livres dernièrement ?",
+       "Forme courte de Have you read...? Lately = récemment. Changez le nom : Seen any good movies lately?",
+       "— Tu as lu de bons livres dernièrement ? — Pas vraiment. Je n'ai pas le temps !"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Trabajo y tiempo libre",
+     "Preguntas fáciles sobre el trabajo de alguien, sus pasatiempos y lo que está viendo o leyendo."
+    ],
+    "fr": [
+     "Travail et temps libre",
+     "Des questions faciles sur le travail de quelqu'un, ses loisirs, et ce qu'il regarde ou lit."
+    ]
+   }
   },
   {
    "en": "Keeping the conversation going",
@@ -238,37 +605,107 @@
      "ခင်ဗျား/ရှင်ရော။",
      "Throws the question back. Without it, small talk stops. Also: How about you?",
      "— I've lived here for three years. What about you? — Only six months.",
-     "— ဒီမှာ သုံးနှစ် နေခဲ့ပြီ။ ခင်ဗျားရော။ — ခြောက်လပဲ ရှိသေးတယ်။"
+     "— ဒီမှာ သုံးနှစ် နေခဲ့ပြီ။ ခင်ဗျားရော။ — ခြောက်လပဲ ရှိသေးတယ်။",
+     {
+      "es": [
+       "¿Y tú?",
+       "Devuelve la pregunta. Sin ella, la plática se acaba. También: How about you?",
+       "— Llevo tres años viviendo aquí. ¿Y tú? — Solo seis meses."
+      ],
+      "fr": [
+       "Et toi ?",
+       "Renvoie la question. Sans cela, la conversation s'arrête. On dit aussi : How about you?",
+       "— J'habite ici depuis trois ans. Et toi ? — Seulement six mois."
+      ]
+     }
     ],
     [
      "Oh, really?",
      "အော်၊ ဟုတ်လား။",
      "Shows interest and invites the person to tell you more. Let your voice go up.",
      "— I used to be a nurse. — Oh, really? Where did you work?",
-     "— အရင်က သူနာပြု လုပ်ခဲ့တယ်။ — အော်၊ ဟုတ်လား။ ဘယ်မှာ လုပ်ခဲ့လဲ။"
+     "— အရင်က သူနာပြု လုပ်ခဲ့တယ်။ — အော်၊ ဟုတ်လား။ ဘယ်မှာ လုပ်ခဲ့လဲ။",
+     {
+      "es": [
+       "¿Ah, sí?",
+       "Muestra interés e invita a la persona a contarte más. Deja que la voz suba.",
+       "— Antes era enfermera. — ¿Ah, sí? ¿Dónde trabajabas?"
+      ],
+      "fr": [
+       "Ah bon ?",
+       "Montre de l'intérêt et invite la personne à en dire plus. Laissez la voix monter.",
+       "— J'étais infirmière avant. — Ah bon ? Où travaillais-tu ?"
+      ]
+     }
     ],
     [
      "That sounds fun!",
      "ပျော်စရာကြီး။",
      "A warm reaction to someone's plans or story. Also: That sounds great!",
      "— We're going camping this weekend. — That sounds fun!",
-     "— ဒီပိတ်ရက် စခန်းချ သွားမလို့။ — ပျော်စရာကြီး။"
+     "— ဒီပိတ်ရက် စခန်းချ သွားမလို့။ — ပျော်စရာကြီး။",
+     {
+      "es": [
+       "¡Suena divertido!",
+       "Una reacción cálida a los planes o a la historia de alguien. También: That sounds great!",
+       "— Vamos a acampar este fin de semana. — ¡Suena divertido!"
+      ],
+      "fr": [
+       "Ça a l'air sympa !",
+       "Une réaction chaleureuse aux projets ou au récit de quelqu'un. On dit aussi : That sounds great!",
+       "— On part camper ce week-end. — Ça a l'air sympa !"
+      ]
+     }
     ],
     [
      "How long have you lived here?",
      "ဒီမှာ နေတာ ဘယ်လောက် ကြာပြီလဲ။",
      "A great follow-up question about someone's life. Also: How long have you worked here?",
      "— How long have you lived here? — About five years.",
-     "— ဒီမှာ နေတာ ဘယ်လောက် ကြာပြီလဲ။ — ငါးနှစ်လောက် ရှိပြီ။"
+     "— ဒီမှာ နေတာ ဘယ်လောက် ကြာပြီလဲ။ — ငါးနှစ်လောက် ရှိပြီ။",
+     {
+      "es": [
+       "¿Cuánto tiempo llevas viviendo aquí?",
+       "Una excelente pregunta de seguimiento sobre la vida de alguien. También: How long have you worked here?",
+       "— ¿Cuánto tiempo llevas viviendo aquí? — Unos cinco años."
+      ],
+      "fr": [
+       "Depuis combien de temps habites-tu ici ?",
+       "Une excellente question pour relancer sur la vie de quelqu'un. On dit aussi : How long have you worked here?",
+       "— Depuis combien de temps habites-tu ici ? — Environ cinq ans."
+      ]
+     }
     ],
     [
      "Oh, nice!",
      "ကောင်းလိုက်တာ။",
      "A short, happy reaction that keeps things friendly. Also: Oh, cool!",
      "— I just started a cooking class. — Oh, nice! What are you making?",
-     "— ချက်ပြုတ်နည်း သင်တန်း အခုမှ စတက်တာ။ — ကောင်းလိုက်တာ။ ဘာချက်နေလဲ။"
+     "— ချက်ပြုတ်နည်း သင်တန်း အခုမှ စတက်တာ။ — ကောင်းလိုက်တာ။ ဘာချက်နေလဲ။",
+     {
+      "es": [
+       "¡Ah, qué bien!",
+       "Una reacción corta y alegre que mantiene el buen ambiente. También: Oh, cool!",
+       "— Acabo de empezar una clase de cocina. — ¡Ah, qué bien! ¿Qué estás preparando?"
+      ],
+      "fr": [
+       "Oh, super !",
+       "Une réaction courte et joyeuse qui garde l'ambiance amicale. On dit aussi : Oh, cool!",
+       "— Je viens de commencer un cours de cuisine. — Oh, super ! Qu'est-ce que tu prépares ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Mantener la conversación",
+     "La plática es como un juego de pelota: atrápala y devuélvela."
+    ],
+    "fr": [
+     "Entretenir la conversation",
+     "Bavarder, c'est comme un jeu de balle : on l'attrape, puis on la renvoie."
+    ]
+   }
   },
   {
    "en": "Careful: too personal",
@@ -280,16 +717,50 @@
      "အသက် ဘယ်လောက်လဲ။",
      "Normal in Burmese, where age tells you how to address someone. In English, adults rarely ask people they've just met. Wait until you're friends.",
      "— How old are you? — Ha, that's a secret!",
-     "— အသက် ဘယ်လောက်လဲ။ — ဟား၊ လျှို့ဝှက်ချက်ပါ။"
+     "— အသက် ဘယ်လောက်လဲ။ — ဟား၊ လျှို့ဝှက်ချက်ပါ။",
+     {
+      "es": [
+       "¿Cuántos años tienes?",
+       "En inglés, los adultos casi nunca se lo preguntan a alguien que acaban de conocer. Espera a que sean amigos.",
+       "— ¿Cuántos años tienes? — ¡Ja, es un secreto!"
+      ],
+      "fr": [
+       "Quel âge as-tu ?",
+       "En anglais, les adultes le demandent rarement à quelqu'un qu'ils viennent de rencontrer. Attendez d'être amis.",
+       "— Quel âge as-tu ? — Ha, c'est un secret !"
+      ]
+     }
     ],
     [
      "That's a bit personal.",
      "အဲဒါက နည်းနည်း ကိုယ်ရေးကိုယ်တာ ကျတယ်။",
      "A polite way not to answer a personal question. Smile, then change the topic.",
      "— How much did you pay for your house? — Oh, that's a bit personal! So, how's work?",
-     "— အိမ်ကို ဘယ်လောက်နဲ့ ဝယ်ခဲ့လဲ။ — အော်၊ အဲဒါက နည်းနည်း ကိုယ်ရေးကိုယ်တာ ကျတယ်။ ဒါနဲ့ အလုပ်ကော ဘယ်လိုလဲ။"
+     "— အိမ်ကို ဘယ်လောက်နဲ့ ဝယ်ခဲ့လဲ။ — အော်၊ အဲဒါက နည်းနည်း ကိုယ်ရေးကိုယ်တာ ကျတယ်။ ဒါနဲ့ အလုပ်ကော ဘယ်လိုလဲ။",
+     {
+      "es": [
+       "Eso es un poco personal.",
+       "Una manera cortés de no responder una pregunta personal. Sonríe y cambia de tema.",
+       "— ¿Cuánto pagaste por tu casa? — ¡Ay, eso es un poco personal! Y bueno, ¿qué tal el trabajo?"
+      ],
+      "fr": [
+       "C'est un peu personnel.",
+       "Une façon polie de ne pas répondre à une question personnelle. Souriez, puis changez de sujet.",
+       "— Combien as-tu payé ta maison ? — Oh, c'est un peu personnel ! Alors, et le travail ?"
+      ]
+     }
     ]
-   ]
+   ],
+   "tr": {
+    "es": [
+     "Cuidado: demasiado personal",
+     "Preguntas que en otras culturas son amistosas pueden sentirse demasiado personales en inglés, sobre todo con gente que acabas de conocer."
+    ],
+    "fr": [
+     "Attention : trop personnel",
+     "Des questions amicales dans d'autres cultures peuvent paraître trop personnelles en anglais, surtout avec des gens que l'on vient de rencontrer."
+    ]
+   }
   }
  ]
 }
