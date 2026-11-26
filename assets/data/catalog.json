@@ -3885,6 +3885,21 @@
   "quiz": false
  },
  {
+  "id": "jap/speaking/hello_goodbye",
+  "url": "jap/speaking/hello_goodbye.html",
+  "course": "jap",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Hello and Goodbye",
+  "clips": 33,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "jap/listening/cafe",
   "url": "jap/listening/cafe.html",
   "course": "jap",
