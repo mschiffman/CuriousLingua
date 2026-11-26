@@ -645,6 +645,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/cest_pas_vrai",
+  "url": "fr/speaking/cest_pas_vrai.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "b1",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "C'est pas vrai !",
+  "clips": 37,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/daccord",
   "url": "fr/speaking/daccord.html",
   "course": "fr",
@@ -3025,6 +3040,21 @@
   "type": "dialogue",
   "title": "What Time Is It?",
   "clips": 28,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "eng/speaking/youre_kidding",
+  "url": "eng/speaking/youre_kidding.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "You're Kidding!",
+  "clips": 37,
   "images": 0,
   "audio": "wired",
   "quiz": true

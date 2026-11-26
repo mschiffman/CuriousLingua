@@ -1,0 +1,274 @@
+{
+ "title": "You're Kidding!",
+ "subtitle": "Four more ways to say you can't believe it",
+ "level": "a2",
+ "topic": "Situations",
+ "type": "dialogue",
+ "review": "Written by Claude: check the English lines, the notes and the questions. No Burmese yet.",
+ "intro": "A cat accused of stealing the ham, a suspiciously clean apartment, a Sunday race and a lottery win: four short scenes between Emma and Lucas. Listen for the difference between 'I'm amazed' and 'I don't believe a word of it', and for how the other one insists.",
+ "aud_dir": "eng/speaking/youre_kidding/",
+ "aud_ext": "mp3?v=2611260642",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/disbelief"
+ ],
+ "sections": [
+  {
+   "title": "The Ham",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Lucas. Where's the ham?"
+    },
+    {
+     "who": "L",
+     "text": "You're not going to believe this. It was the cat.",
+     "note": "You're not going to believe this: say it before surprising news."
+    },
+    {
+     "who": "E",
+     "text": "Yeah, right.",
+     "note": "Yeah, right is sarcastic. It means 'I don't believe you'."
+    },
+    {
+     "who": "L",
+     "text": "I swear! He opened the fridge.",
+     "note": "I swear! = I promise it is true."
+    },
+    {
+     "who": "E",
+     "text": "Give me a break. He can't even use his cat door.",
+     "note": "Give me a break = stop, I don't believe that. Can't even: it makes the no stronger."
+    },
+    {
+     "who": "L",
+     "text": "I saw it with my own eyes."
+    },
+    {
+     "who": "E",
+     "text": "And you just watched?",
+     "note": "Just watched: you did nothing else."
+    },
+    {
+     "who": "L",
+     "text": "I was in shock.",
+     "note": "In shock: too surprised to move."
+    },
+    {
+     "who": "E",
+     "text": "As if! Did he put the plate in the dishwasher, too?",
+     "note": "As if! = that is not possible."
+    },
+    {
+     "who": "L",
+     "text": "He has very good manners.",
+     "note": "Good manners: polite behavior."
+    }
+   ]
+  },
+  {
+   "title": "The Cleaning",
+   "lines": [
+    {
+     "who": "E",
+     "text": "I don't believe it! You vacuumed?",
+     "note": "Vacuum: clean the floor with a machine."
+    },
+    {
+     "who": "L",
+     "text": "And I washed the windows."
+    },
+    {
+     "who": "E",
+     "text": "No way!",
+     "note": "No way! here means 'I'm amazed', not 'you're lying'."
+    },
+    {
+     "who": "L",
+     "text": "It's true! Even the bathroom."
+    },
+    {
+     "who": "E",
+     "text": "Unbelievable. What did you break?"
+    },
+    {
+     "who": "L",
+     "text": "Nothing! Believe me."
+    },
+    {
+     "who": "E",
+     "text": "Lucas."
+    },
+    {
+     "who": "L",
+     "text": "The blue vase. But look how the floor shines.",
+     "note": "Look how…: look at the way…"
+    }
+   ]
+  },
+  {
+   "title": "The Race",
+   "lines": [
+    {
+     "who": "E",
+     "text": "I signed us up for a race on Sunday.",
+     "note": "Sign up for: put your name on the list."
+    },
+    {
+     "who": "L",
+     "text": "You're joking, right?"
+    },
+    {
+     "who": "E",
+     "text": "Not at all. It starts at eight."
+    },
+    {
+     "who": "L",
+     "text": "Are you kidding me? On a Sunday?",
+     "note": "Are you kidding me? is stronger than You're joking."
+    },
+    {
+     "who": "E",
+     "text": "It'll be good for us."
+    },
+    {
+     "who": "L",
+     "text": "You can't be serious. We never run! How far is it?",
+     "note": "How far: asks about distance."
+    },
+    {
+     "who": "E",
+     "text": "One mile. It's the family fun run.",
+     "note": "A fun run: a short race for everyone, not for champions. One mile = 1.6 kilometers."
+    },
+    {
+     "who": "L",
+     "text": "For real? One mile?",
+     "note": "For real? = really? Informal."
+    },
+    {
+     "who": "E",
+     "text": "And there's a chocolate medal at the finish line."
+    },
+    {
+     "who": "L",
+     "text": "You should have started with that.",
+     "note": "Should have + past participle: it was the better thing to do."
+    }
+   ]
+  },
+  {
+   "title": "The Lottery",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Holy cow! Emma! We won the lottery!",
+     "note": "Holy cow!: strong surprise, friendly, not rude."
+    },
+    {
+     "who": "E",
+     "text": "What? That's impossible!"
+    },
+    {
+     "who": "L",
+     "text": "It's true! Look at the numbers!"
+    },
+    {
+     "who": "E",
+     "text": "That's crazy! How much?"
+    },
+    {
+     "who": "L",
+     "text": "Hold on… Six dollars.",
+     "note": "Hold on = wait."
+    },
+    {
+     "who": "E",
+     "text": "Six dollars."
+    },
+    {
+     "who": "L",
+     "text": "That's insane, right?",
+     "note": "Insane: even stronger than crazy."
+    },
+    {
+     "who": "E",
+     "text": "Unbelievable. And how much did you spend on tickets?",
+     "note": "Here Unbelievable is sarcastic: her voice is flat."
+    },
+    {
+     "who": "L",
+     "text": "Ten. But we still won.",
+     "note": "Still: even so."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Real surprise: I don't believe it!, No way!, Unbelievable!, That's impossible!, That's crazy!, Holy cow!",
+  "Checking that it is not a joke: You're joking, right?, Are you kidding me?, You can't be serious, For real?",
+  "Not believing a word: Yeah, right, Give me a break, As if! The voice is slow and flat.",
+  "Insisting: I swear!, It's true!, Believe me, I saw it with my own eyes.",
+  "Tone changes the meaning: Unbelievable! can be real surprise or sarcasm.",
+  "You're not going to believe this comes first, before the surprising news."
+ ],
+ "questions": [
+  {
+   "q": "Lucas says the cat opened the fridge. Emma does not believe him. What does she say?",
+   "options": [
+    "Holy cow!",
+    "Yeah, right.",
+    "It's true!"
+   ],
+   "answer": 1,
+   "why": "Yeah, right is sarcastic: 'I don't believe you'."
+  },
+  {
+   "q": "Lucas wants Emma to believe him about the cat. What does he say?",
+   "options": [
+    "I saw it with my own eyes.",
+    "Give me a break.",
+    "For real?"
+   ],
+   "answer": 0,
+   "why": "I saw it with my own eyes = I was there, so it is true."
+  },
+  {
+   "q": "The apartment is clean. Emma is amazed. What does she ask next?",
+   "options": [
+    "How far is it?",
+    "How much?",
+    "What did you break?"
+   ],
+   "answer": 2,
+   "why": "She thinks Lucas cleaned because he broke something. He did: the blue vase."
+  },
+  {
+   "q": "Emma signed them up for a race. Lucas thinks it is a joke. What does he say?",
+   "options": [
+    "I swear!",
+    "You're joking, right?",
+    "Believe me."
+   ],
+   "answer": 1,
+   "why": "You're joking, right? checks that it is not a joke."
+  },
+  {
+   "q": "Lucas spent ten dollars and won six. What does he say?",
+   "options": [
+    "But we still won.",
+    "You should have started with that.",
+    "I was in shock."
+   ],
+   "answer": 0,
+   "why": "Still = even so. He lost four dollars, but he is happy."
+  }
+ ]
+}
