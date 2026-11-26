@@ -690,6 +690,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/je_suis_malade",
+  "url": "fr/speaking/je_suis_malade.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Je suis malade",
+  "clips": 42,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/je_veux_dire",
   "url": "fr/speaking/je_veux_dire.html",
   "course": "fr",
@@ -3010,6 +3025,21 @@
   "type": "dialogue",
   "title": "I Mean…",
   "clips": 32,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "eng/speaking/not_feeling_well",
+  "url": "eng/speaking/not_feeling_well.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Not Feeling Well",
+  "clips": 42,
   "images": 0,
   "audio": "wired",
   "quiz": true
