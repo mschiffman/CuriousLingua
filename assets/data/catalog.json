@@ -660,6 +660,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/faire_le_marche",
+  "url": "fr/speaking/faire_le_marche.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "Faire le marché",
+  "clips": 38,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/speaking/je_veux_dire",
   "url": "fr/speaking/je_veux_dire.html",
   "course": "fr",
@@ -2875,6 +2890,21 @@
   "type": "dialogue",
   "title": "Agreed!",
   "clips": 36,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "eng/speaking/at_the_market",
+  "url": "eng/speaking/at_the_market.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Situations",
+  "type": "dialogue",
+  "title": "At the Market",
+  "clips": 38,
   "images": 0,
   "audio": "wired",
   "quiz": true
