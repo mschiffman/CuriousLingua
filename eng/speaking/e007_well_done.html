@@ -23,10 +23,11 @@
 <main class="wrap py-6 sm:py-10">
 <nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../eng/index.html">English</a><span>/</span><a class="hover:text-accent" href="../../eng/speaking/index.html">Speaking</a></nav>
 
-<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip chip-accent">A2</span><span class="chip">Reactions</span></div>
+<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip">E7</span><span class="chip chip-accent">A2</span><span class="chip">Reactions</span></div>
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Well Done!</h1>
 <p class="mt-2 text-xl text-muted" data-reveal>Four ways to say congratulations</p>
 <p class="mt-3 max-w-2xl text-muted" data-reveal>A light bulb changed after three months, a driver&#x27;s license passed on the fifth try, a pancake that does not come back down and a new job to celebrate: four short scenes between Emma and Lucas. Listen for how they congratulate each other, and for the moments when they do not really mean it.</p>
+<section class="mt-5 rounded-2xl border border-line bg-card p-3" data-nav><h2 class="text-sm font-bold text-muted">Goes with this lesson</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../eng/expressions/wishes_celebrations.html">Expressions: Wishes &amp; Celebrations</a></div><h2 class="mt-3 text-sm font-bold text-muted">This lesson in other languages</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../fr/speaking/f007_well_done.html">French: Bravo !</a></div></section>
 
 <section x-data="lines" class="mt-6">
 <div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-3">
@@ -80,11 +81,7 @@
 <p class="font-display text-4xl font-semibold text-accent" x-text="score + ' / ' + qs.length"></p>
 <button class="btn mt-4" @click="again()">Try again</button>
 </div></section>
-<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../eng/expressions/wishes_celebrations.html" data-lesson="eng/expressions/wishes_celebrations">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Wishes &amp; Celebrations</h3>
-<span class="chip chip-accent">A2</span></div>
-<p class="mt-1 text-sm text-muted">ဆုတောင်းစကားနှင့် ပွဲတော်များ</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Expressions</span><span class="chip">Flashcards</span></div></a></div></section>
+
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('eng/speaking/e007_well_done')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
 <div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn" href="../../eng/speaking/e006_greet_goodbye.html">&larr; Hey!</a><a class="btn ml-auto" href="../../eng/speaking/e008_whats_wrong.html">Are You Okay? &rarr;</a></div>

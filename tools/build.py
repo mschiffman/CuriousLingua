@@ -142,13 +142,49 @@ def frame(rel, title, body, course=None, tail="", cls="site", head="", foot=True
     return page
 
 
-def tile(L, rel, show_level=True):
+def fold(text, drop=False):
+    """Text as the search box compares it: no accents, no capitals, punctuation as spaces. `drop` closes up the
+    apostrophes instead (d'accord -> daccord). find.js in strand_page() does the same to what is typed."""
+    import unicodedata
+    t = unicodedata.normalize("NFC", "".join(ch for ch in unicodedata.normalize("NFD", str(text)) if not "\u0300" <= ch <= "\u036f")).lower()
+    t = re.sub("['\u2019\u02bc`]", "" if drop else " ", t)
+    return " ".join("".join(ch if ch.isalnum() or unicodedata.category(ch)[0] == "M" else " " for ch in t).split())
+
+
+def code_of(L):
+    """("f", 13) for "code": "F13"; None when the lesson has no code or it is not a letter and a number."""
+    m = re.fullmatch(r"([A-Za-z])0*(\d+)", str(L.get("code") or "").strip())
+    return (m.group(1).lower(), int(m.group(2))) if m else None
+
+
+def find_text(L):
+    """Every word a visitor may type to find this lesson: its number, title, heading, level, "keywords" and notes.
+    The lines of a dialogue are left out: with them, an everyday word (merci, ça va) finds half the lessons."""
+    parts = [L.get("title", ""), L.get("subtitle", ""), L.get("topic", ""), L.get("level", ""), L["slug"].replace("_", " ")]
+    c = code_of(L)
+    if c:
+        parts += [f"{c[0]}{c[1]}", f"{c[0]}{c[1]:03d}", str(c[1])]
+    parts += list(L.get("keywords", ())) + list(L.get("notes", ()))
+    parts += [sec.get("title", "") for sec in L.get("sections", ()) if isinstance(sec, dict)]
+    raw = " ".join(str(x) for x in parts if x)
+    closed = []   # d'accord is also found as daccord
+    for w in raw.split():
+        w = fold(w, True) if re.search("['\u2019\u02bc`]", w) else ""
+        if w and w not in closed:
+            closed.append(w)
+    return " ".join([fold(raw)] + closed)
+
+
+def tile(L, rel, show_level=True, find=False):
     r = up(rel)
     chips = [f'<span class="chip">{TYPE.get(L.get("type"), "Lesson")}{" + quiz" if L.get("quiz") or L.get("questions") else ""}</span>']
+    if code_of(L):
+        chips.insert(0, f'<span class="chip">{e(str(L["code"]).strip().upper())}</span>')
     if lib.pending(L):
         chips.append('<span class="chip">audio soon</span>')
     sub = L.get("subtitle", "")
-    return f'''<a class="tile" data-reveal href="{r}{L["url"]}" data-lesson="{L["id"]}">
+    found = f' data-level="{e(L.get("level") or "")}" data-find="{e(find_text(L))}"' if find else ""
+    return f'''<a class="tile" data-reveal href="{r}{L["url"]}" data-lesson="{L["id"]}"{found}>
 <div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">{e(L.get("title", L["slug"]))}</h3>
 {f'<span class="chip chip-accent">{lv(L.get("level"))}</span>' if show_level else ""}</div>
 {f'<p class="mt-1 text-sm text-muted">{e(sub)}</p>' if sub else ""}
@@ -755,7 +791,7 @@ def crumbs(L, r):
 
 
 def data_script(L, r):
-    keep = {k: v for k, v in L.items() if k not in ("file", "legacy", "url", "id", "categories", "quiz", "quizTags", "_supp", "_rel")}
+    keep = {k: v for k, v in L.items() if k not in ("file", "legacy", "url", "id", "categories", "quiz", "quizTags", "_supp", "_rel", "_langs")}
     return f'<script>window.ROOT={js(r)};window.MEDIA_BASE={js(C["media_base"])};window.LESSON={js(keep)};</script>'
 
 
@@ -849,6 +885,8 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
         shell = shell.replace("Tap a word to hear it.", "The audio for this lesson is not recorded yet.")
     shell = shell.replace("__PLAY__", ICON_PLAY).replace("__LOOP__", ICON_LOOP).replace("__IMG__", ICON_IMG).replace("__LANG__", course["lang"]).replace("__TR__", ICON_TR)
     chips = f'<span class="chip chip-accent">{lv(L.get("level") or (parent or {}).get("level"))}</span>'
+    if code_of(L):
+        chips = f'<span class="chip">{e(str(L["code"]).strip().upper())}</span>' + chips
     for k in ("topic", "register"):
         if L.get(k):
             chips += f'<span class="chip">{e(L[k])}</span>'
@@ -866,6 +904,14 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 {f'<p class="mt-1 text-sm text-muted">{e(x["subtitle"])}</p>' if x.get("subtitle") else ""}
 <div class="mt-3"><span class="chip">{e(x.get("label", "Practice"))}</span></div></a>''' for x in supplements]) + "</section>"
     back = f'<a class="btn mt-4 py-1.5" data-nav href="{r}{parent["url"]}">&larr; {e(parent.get("title", ""))}</a>' if parent else ""
+    goes = ""   # at the top, so that a visitor sent here by a video sees at once what else goes with the lesson
+    rows = [("Goes with this lesson", [(related_label(x), x) for x in related]),
+            ("This lesson in other languages", [(f'{C["courses"][x["course"]]["name"]}: {x.get("title", x["slug"])}', x) for x in L.get("_langs", ())])]
+    if any(links for _, links in rows):
+        goes = '<section class="mt-5 rounded-2xl border border-line bg-card p-3" data-nav>' + "".join(
+            f'<h2 class="{"mt-3 " if i and rows[0][1] else ""}text-sm font-bold text-muted">{name}</h2><div class="mt-2 flex flex-wrap gap-2">'
+            + "".join(f'<a class="btn py-1.5" href="{r}{x["url"]}">{e(label)}</a>' for label, x in links) + "</div>"
+            for i, (name, links) in enumerate(rows) if links) + "</section>"
     body = f'''<main class="wrap py-6 sm:py-10">
 {crumbs(L, r)}
 {back}
@@ -873,10 +919,11 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>{e(title)}</h1>
 {f'<p class="mt-2 text-xl text-muted" data-reveal>{e(L["subtitle"])}</p>' if L.get("subtitle") else ""}
 {f'<p class="mt-3 max-w-2xl text-muted" data-reveal>{inline(L["intro"]) if L.get("type") in lib.SILENT else e(L["intro"])}</p>' if L.get("intro") else ""}
+{goes}
 {steps}
 {shell}
 {(QUIZ if L.get("questions") else "") + extra if L.get("start_hidden") else extra + (QUIZ if L.get("questions") else "")}
-{supp}{('<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p>' + grid([tile(x, rel).replace('<span class="chip">', f'<span class="chip">{e(C["strands"][x["strand"]][0])}</span><span class="chip">', 1) for x in related]) + "</section>") if related else ""}
+{supp}
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('{L["id"]}')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '\u2713 Done' : 'Mark as done'"></button>{off}</div>
 {pager}
@@ -934,6 +981,51 @@ def level_page(k, code, items):
     write(rel, frame(rel, f"{lv(code)} | {c['name']}", body + "</main>", k, '<script src="../../assets/js/site.js"></script>'))
 
 
+# The search box of a strand page. It hides the tiles that do not match what is typed (every word must be found in the
+# tile's data-find, see find_text()) or the level chosen; Enter opens the lesson when one is left; ?q=f13 fills the box.
+FIND_JS = '''
+<script>(function () {
+  var box = document.querySelector("[data-find-box]");
+  if (!box) return;
+  var q = box.querySelector("[data-find-q]"), count = box.querySelector("[data-find-count]"), none = document.querySelector("[data-find-none]");
+  var tiles = [].slice.call(document.querySelectorAll("a.tile[data-find]")), groups = [].slice.call(document.querySelectorAll("[data-find-group]"));
+  var buttons = [].slice.call(box.querySelectorAll("[data-find-level]")), level = "", woke = false;
+  function fold(s, drop) {
+    s = s.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").normalize("NFC").toLowerCase().replace(/['\\u2019\\u02bc`]/g, drop ? "" : " ");
+    return s.replace(/[^\\p{L}\\p{N}\\p{M}]+/gu, " ").trim();
+  }
+  function has(hay, words) { return words.every(function (w) { return hay.indexOf(" " + w) > -1; }); }   // the start of a word
+  function run() {
+    var a = fold(q.value, false), b = fold(q.value, true), wa = a.split(" ").filter(Boolean), wb = b.split(" ").filter(Boolean);
+    function pick(test) {
+      return tiles.filter(function (t) { return (!level || t.getAttribute("data-level") === level) && (!wa.length || test(" " + t.getAttribute("data-find"))); });
+    }
+    var shown = pick(function (hay) { return hay.indexOf(" " + a) > -1 || hay.indexOf(" " + b) > -1; });   // the words as typed, side by side
+    if (!shown.length && wa.length > 1) shown = pick(function (hay) { return has(hay, wa) || has(hay, wb); });   // or else each word somewhere
+    if (!woke && (wa.length || level)) {   // motion.js keeps what is further down the page hidden until it scrolls into view: show it all now
+      woke = true;
+      [].forEach.call(document.querySelectorAll("[data-find-group] [data-reveal]"), function (el) { el.style.opacity = el.style.visibility = el.style.transform = ""; });
+    }
+    tiles.forEach(function (t) { t.style.display = shown.indexOf(t) > -1 ? "" : "none"; });
+    groups.forEach(function (g) { g.style.display = shown.some(function (t) { return g.contains(t); }) ? "" : "none"; });
+    none.style.display = shown.length ? "none" : "";
+    count.textContent = wa.length || level ? shown.length + " of " + tiles.length + " lessons" : "";
+    return shown;
+  }
+  q.addEventListener("input", run);
+  q.addEventListener("keydown", function (ev) { if (ev.key === "Enter") { var s = run(); if (s.length === 1 && q.value.trim()) location.href = s[0].href; } });
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      level = b.getAttribute("data-find-level");
+      buttons.forEach(function (x) { x.classList.toggle("btn-on", x === b); });
+      run();
+    });
+  });
+  var first = new URLSearchParams(location.search).get("q");
+  if (first) { q.value = first; run(); }
+})();</script>'''
+
+
 def strand_page(k, s, items):
     c, rel = C["courses"][k], f"{k}/{s}/index.html"
     ls = [L for L in items if L["strand"] == s]
@@ -941,6 +1033,14 @@ def strand_page(k, s, items):
 <nav class="text-sm text-muted" data-nav><a class="hover:text-accent" href="../index.html">{e(c["name"])}</a></nav>
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-split>{e(C["strands"][s][0])}</h1>
 <p class="mt-2 text-xl text-muted" data-reveal>{e(strand_text(k, s))}</p>'''
+    find = s in C.get("search", ["speaking"]) and len(ls) > 1   # "search" in site.json names the strands that get a search box
+    if find:
+        eg = next((str(L["code"]).strip().upper() for L in ls if code_of(L)), "")
+        body += f'''<div class="mt-6" data-find-box data-nav>
+<input type="search" data-find-q autocomplete="off" aria-label="Search these lessons" placeholder="Search{f", or type a lesson number: {e(eg)}" if eg else " these lessons"}" class="w-full rounded-xl border border-line bg-card p-3 text-lg" style="max-width:28rem">
+<div class="mt-3 flex flex-wrap items-center gap-2"><button type="button" class="btn btn-on py-1.5" data-find-level="">All levels</button>{"".join(f'<button type="button" class="btn py-1.5" data-find-level="{x}">{lv(x)}</button>' for x in c["levels"] if any(L.get("level") == x for L in ls))}</div>
+<p class="mt-3 text-sm text-muted" data-find-count aria-live="polite"></p></div>
+<p class="mt-4 rounded-2xl border-2 border-dashed border-line p-5 text-sm text-muted" data-find-none style="display:none">No lesson matches. Try a shorter word{f", or a lesson number such as {e(eg)}" if eg else ""}.</p>'''
     topics = []
     for L in ls:
         t = L.get("topic") or "Lessons"
@@ -949,10 +1049,10 @@ def strand_page(k, s, items):
     for t in topics:
         group = sorted([L for L in ls if (L.get("topic") or "Lessons") == t],
                        key=lambda L: (lib.LEVEL_ORDER.index(L["level"]) if L.get("level") in lib.LEVEL_ORDER else 9, L.get("order", 500), lib.natural(L["slug"])))
-        body += f'<section class="mt-10"><h2 class="text-2xl font-semibold" data-reveal>{e(t)}</h2>{grid([tile(L, rel) for L in group])}</section>'
+        body += f'<section class="mt-10" data-find-group><h2 class="text-2xl font-semibold" data-reveal>{e(t)}</h2>{grid([tile(L, rel, find=find) for L in group])}</section>'
     if not ls:
         body += soon("These lessons are not written yet.")
-    write(rel, frame(rel, f"{C['strands'][s][0]} | {c['name']}", body + "</main>", k, '<script src="../../assets/js/site.js"></script>'))
+    write(rel, frame(rel, f"{C['strands'][s][0]} | {c['name']}", body + "</main>", k, '<script src="../../assets/js/site.js"></script>' + (FIND_JS if find else "")))
 
 
 # Home page: words for the moving band under the hero, and the four steps of a lesson
@@ -1231,6 +1331,11 @@ def main():
     for g in groups:
         for L in g:
             L["_rel"] = [m for m in g if m is not L]
+    order = list(C["courses"])
+    for L in all_lessons:   # "scene": 13 in a lesson: the lessons of the other courses with that number, in the same strand, teach the same thing
+        if L.get("scene") is not None:
+            L["_langs"] = sorted((X for X in all_lessons if X is not L and X.get("scene") == L["scene"] and X["strand"] == L["strand"] and X["course"] != L["course"]),
+                                 key=lambda X: order.index(X["course"]))
     for k, c in C["courses"].items():
         items = [L for L in all_lessons if L["course"] == k]
         for s in c["strands"]:

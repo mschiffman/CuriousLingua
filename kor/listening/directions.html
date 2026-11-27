@@ -27,6 +27,7 @@
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Where is the subway station?</h1>
 <p class="mt-2 text-xl text-muted" data-reveal>지하철역이 어디예요?</p>
 <p class="mt-3 max-w-2xl text-muted" data-reveal>A traveller asks the way to the subway station. Listen for where to turn and how far it is.</p>
+<section class="mt-5 rounded-2xl border border-line bg-card p-3" data-nav><h2 class="text-sm font-bold text-muted">Goes with this lesson</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../kor/expressions/directions.html">Expressions: Asking the way</a></div></section>
 <section class="mt-6 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">How to use this lesson</h2><ol class="mt-2 list-decimal space-y-1 pl-5 text-muted"><li>Press Play all with the text hidden. Who is speaking, and where are they?</li><li>Listen again, then answer the questions under the dialogue.</li><li>Tap the lines to show the text, and listen once more while reading.</li><li>Shadow it: play a line, press Pause (or the space bar), say it aloud, then Resume.</li><li>Take a role and say your lines in the pauses.</li></ol></section>
 <section x-data="lines" class="mt-6">
 <div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-3">
@@ -80,11 +81,7 @@
 <p class="font-display text-4xl font-semibold text-accent" x-text="score + ' / ' + qs.length"></p>
 <button class="btn mt-4" @click="again()">Try again</button>
 </div></section><section class="mt-8 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">Notes</h2><ul class="mt-2 list-disc space-y-1 pl-5 text-muted"><li>[Place]-i eodiyeyo? = Where is [place]?</li><li>jjuk = straight ahead. oreunjjok = right. oenjjok = left.</li><li>...seyo = please do ...: gaseyo (please go), doseyo (please turn).</li><li>georeoseo o bun = five minutes on foot.</li><li>jihacheol (subway) + yeok (station) is said jihacheollyeok: an l sound appears where the two words join.</li></ul></section>
-<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../kor/expressions/directions.html" data-lesson="kor/expressions/directions">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Asking the way</h3>
-<span class="chip chip-accent">A1</span></div>
-<p class="mt-1 text-sm text-muted">길 묻기</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Expressions</span><span class="chip">Flashcards</span></div></a></div></section>
+
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('kor/listening/directions')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
 <div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn" href="../../kor/listening/shopping.html">&larr; How much is this?</a><a class="btn ml-auto" href="../../kor/listening/what_time.html">What time is it? &rarr;</a></div>

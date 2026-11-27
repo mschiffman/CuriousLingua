@@ -23,20 +23,64 @@
 <main class="wrap py-8 sm:py-12">
 <nav class="text-sm text-muted" data-nav><a class="hover:text-accent" href="../index.html">Spanish</a></nav>
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-split>Speaking</h1>
-<p class="mt-2 text-xl text-muted" data-reveal>Conversations to say out loud.</p><section class="mt-10"><h2 class="text-2xl font-semibold" data-reveal>Greetings and politeness</h2><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../spa/speaking/s006_greet_goodbye.html" data-lesson="spa/speaking/s006_greet_goodbye">
+<p class="mt-2 text-xl text-muted" data-reveal>Conversations to say out loud.</p><div class="mt-6" data-find-box data-nav>
+<input type="search" data-find-q autocomplete="off" aria-label="Search these lessons" placeholder="Search, or type a lesson number: S6" class="w-full rounded-xl border border-line bg-card p-3 text-lg" style="max-width:28rem">
+<div class="mt-3 flex flex-wrap items-center gap-2"><button type="button" class="btn btn-on py-1.5" data-find-level="">All levels</button><button type="button" class="btn py-1.5" data-find-level="a2">A2</button></div>
+<p class="mt-3 text-sm text-muted" data-find-count aria-live="polite"></p></div>
+<p class="mt-4 rounded-2xl border-2 border-dashed border-line p-5 text-sm text-muted" data-find-none style="display:none">No lesson matches. Try a shorter word, or a lesson number such as S6.</p><section class="mt-10" data-find-group><h2 class="text-2xl font-semibold" data-reveal>Greetings and politeness</h2><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../spa/speaking/s006_greet_goodbye.html" data-lesson="spa/speaking/s006_greet_goodbye" data-level="a2" data-find="hola four ways to say hello and goodbye greetings and politeness a2 s006 greet goodbye s6 s006 6 hello by the clock buenos dias until noon buenas tardes until dark buenas noches after dark and at bedtime hola works all day como estas is a greeting more than a question the expected answer is bien gracias y tu bueno is only for answering the phone and only in mexico leaving ya me voy i m leaving ya vamonos let s go ahorita vengo i ll be right back no me tardo i won t be long goodbyes nos vemos nos vemos al rato hasta luego hasta manana cuidate saludame a tu mama say hi to your mom for me the reply is de tu parte bueno como estas ahorita vengo ya nos vamos im lets ill wont">
 <div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">¡Hola!</h3>
 <span class="chip chip-accent">A2</span></div>
 <p class="mt-1 text-sm text-muted">Four ways to say hello and goodbye</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Dialogue + quiz</span></div></a></div></section><section class="mt-10"><h2 class="text-2xl font-semibold" data-reveal>Health</h2><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../spa/speaking/s011_not_feeling_well.html" data-lesson="spa/speaking/s011_not_feeling_well">
+<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">S6</span><span class="chip">Dialogue + quiz</span></div></a></div></section><section class="mt-10" data-find-group><h2 class="text-2xl font-semibold" data-reveal>Health</h2><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../spa/speaking/s011_not_feeling_well.html" data-lesson="spa/speaking/s011_not_feeling_well" data-level="a2" data-find="me siento mal four scenes about small health problems health a2 s011 not feeling well s11 s011 11 pain me duele one thing me duelen more than one me duele la cabeza la garganta la espalda me duelen los pies what you have goes with tener tengo tos tengo fiebre tengo gripa feeling me siento mal me siento un poco mejor ya me siento muy bien estoy mareado estoy debil advice deberias infinitive deberias ir al doctor medicine tomar la medicina dos veces al dia despues de comer mexican words la gripa a cold me escurre la nariz my nose is running el doctor en todos lados dice que he or she says that mi mama dice que no hace falta la gripa el dolor de cabeza la espalda ya me siento mejor">
 <div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Me siento mal</h3>
 <span class="chip chip-accent">A2</span></div>
 <p class="mt-1 text-sm text-muted">Four scenes about small health problems</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Dialogue + quiz</span></div></a></div></section></main>
+<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">S11</span><span class="chip">Dialogue + quiz</span></div></a></div></section></main>
 <footer class="mt-16 border-t border-line" data-nav><div class="wrap flex flex-wrap items-center gap-x-6 gap-y-2 py-8 text-sm text-muted">
 <span class="font-display text-base font-semibold text-ink">Languages</span>
 <span>Free for everyone. No account, no paywall.</span>
 <nav class="flex flex-wrap gap-x-5 gap-y-2 sm:ml-auto" aria-label="About this site"><a class="hover:text-accent" href="../../about.html">About</a><a class="hover:text-accent" href="../../contact.html">Contact</a><a class="hover:text-accent" href="../../privacy.html">Privacy</a></nav></div></footer>
 <script src="../../assets/js/site.js?v=6b79867a"></script>
+<script>(function () {
+  var box = document.querySelector("[data-find-box]");
+  if (!box) return;
+  var q = box.querySelector("[data-find-q]"), count = box.querySelector("[data-find-count]"), none = document.querySelector("[data-find-none]");
+  var tiles = [].slice.call(document.querySelectorAll("a.tile[data-find]")), groups = [].slice.call(document.querySelectorAll("[data-find-group]"));
+  var buttons = [].slice.call(box.querySelectorAll("[data-find-level]")), level = "", woke = false;
+  function fold(s, drop) {
+    s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").normalize("NFC").toLowerCase().replace(/['\u2019\u02bc`]/g, drop ? "" : " ");
+    return s.replace(/[^\p{L}\p{N}\p{M}]+/gu, " ").trim();
+  }
+  function has(hay, words) { return words.every(function (w) { return hay.indexOf(" " + w) > -1; }); }   // the start of a word
+  function run() {
+    var a = fold(q.value, false), b = fold(q.value, true), wa = a.split(" ").filter(Boolean), wb = b.split(" ").filter(Boolean);
+    function pick(test) {
+      return tiles.filter(function (t) { return (!level || t.getAttribute("data-level") === level) && (!wa.length || test(" " + t.getAttribute("data-find"))); });
+    }
+    var shown = pick(function (hay) { return hay.indexOf(" " + a) > -1 || hay.indexOf(" " + b) > -1; });   // the words as typed, side by side
+    if (!shown.length && wa.length > 1) shown = pick(function (hay) { return has(hay, wa) || has(hay, wb); });   // or else each word somewhere
+    if (!woke && (wa.length || level)) {   // motion.js keeps what is further down the page hidden until it scrolls into view: show it all now
+      woke = true;
+      [].forEach.call(document.querySelectorAll("[data-find-group] [data-reveal]"), function (el) { el.style.opacity = el.style.visibility = el.style.transform = ""; });
+    }
+    tiles.forEach(function (t) { t.style.display = shown.indexOf(t) > -1 ? "" : "none"; });
+    groups.forEach(function (g) { g.style.display = shown.some(function (t) { return g.contains(t); }) ? "" : "none"; });
+    none.style.display = shown.length ? "none" : "";
+    count.textContent = wa.length || level ? shown.length + " of " + tiles.length + " lessons" : "";
+    return shown;
+  }
+  q.addEventListener("input", run);
+  q.addEventListener("keydown", function (ev) { if (ev.key === "Enter") { var s = run(); if (s.length === 1 && q.value.trim()) location.href = s[0].href; } });
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      level = b.getAttribute("data-find-level");
+      buttons.forEach(function (x) { x.classList.toggle("btn-on", x === b); });
+      run();
+    });
+  });
+  var first = new URLSearchParams(location.search).get("q");
+  if (first) { q.value = first; run(); }
+})();</script>
 <script defer src="../../assets/vendor/gsap.min.js"></script>
 <script defer src="../../assets/vendor/ScrollTrigger.min.js"></script>
 <script defer src="../../assets/js/motion.js?v=afeab585"></script>

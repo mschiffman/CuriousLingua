@@ -23,10 +23,11 @@
 <main class="wrap py-6 sm:py-10">
 <nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../jap/index.html">Japanese</a><span>/</span><a class="hover:text-accent" href="../../jap/speaking/index.html">Speaking</a></nav>
 
-<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip chip-accent">A1</span><span class="chip">Greetings and politeness</span></div>
+<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip">J16</span><span class="chip chip-accent">A1</span><span class="chip">Greetings and politeness</span></div>
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Meeting someone</h1>
 <p class="mt-2 text-xl text-muted" data-reveal>はじめまして</p>
 <p class="mt-3 max-w-2xl text-muted" data-reveal>Introduce yourself. Then take Min&#x27;s part: press &#x27;I am Min&#x27; and Play all.</p>
+<section class="mt-5 rounded-2xl border border-line bg-card p-3" data-nav><h2 class="text-sm font-bold text-muted">Goes with this lesson</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../jap/expressions/greetings.html">Expressions: Greetings and goodbyes</a><a class="btn py-1.5" href="../../jap/speaking/j006_greet_goodbye.html">Speaking: Hello and Goodbye</a></div><h2 class="mt-3 text-sm font-bold text-muted">This lesson in other languages</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../kor/speaking/k016_first_meeting.html">Korean: Meeting someone</a></div></section>
 
 <section x-data="lines" class="mt-6">
 <div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-3">
@@ -66,15 +67,7 @@
 <p x-show="pending" x-cloak class="mt-4 text-sm text-muted">The audio for this lesson is not recorded yet.</p>
 </section>
 <section class="mt-8 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">Notes</h2><ul class="mt-2 list-disc space-y-1 pl-5 text-muted"><li>[Name] desu = I am [name].</li><li>[Place] kara kimashita = I come from [place].</li><li>Kochira koso = &#x27;likewise&#x27;, literally &#x27;it is this side that should say so&#x27;.</li></ul></section>
-<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../jap/expressions/greetings.html" data-lesson="jap/expressions/greetings">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Greetings and goodbyes</h3>
-<span class="chip chip-accent">A1</span></div>
-<p class="mt-1 text-sm text-muted">あいさつ</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Expressions</span><span class="chip">Flashcards</span></div></a><a class="tile" data-reveal href="../../jap/speaking/j006_greet_goodbye.html" data-lesson="jap/speaking/j006_greet_goodbye">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Hello and Goodbye</h3>
-<span class="chip chip-accent">A2</span></div>
-<p class="mt-1 text-sm text-muted">おはよう・またね</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Speaking</span><span class="chip">Dialogue + quiz</span></div></a></div></section>
+
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('jap/speaking/j016_first_meeting')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
 <div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../jap/speaking/j006_greet_goodbye.html">Hello and Goodbye &rarr;</a></div>

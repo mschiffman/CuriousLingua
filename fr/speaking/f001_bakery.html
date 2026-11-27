@@ -23,10 +23,11 @@
 <main class="wrap py-6 sm:py-10">
 <nav class="flex flex-wrap items-center gap-1.5 text-sm text-muted" aria-label="Breadcrumb" data-nav><a class="hover:text-accent" href="../../fr/index.html">French</a><span>/</span><a class="hover:text-accent" href="../../fr/speaking/index.html">Speaking</a></nav>
 
-<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip chip-accent">A1</span><span class="chip">Shops and food</span><span class="chip">neutral-standard, polite (vous)</span></div>
+<div class="mt-4 flex flex-wrap items-center gap-2" data-reveal><span class="chip">F1</span><span class="chip chip-accent">A1</span><span class="chip">Shops and food</span><span class="chip">neutral-standard, polite (vous)</span></div>
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>À la boulangerie</h1>
 <p class="mt-2 text-xl text-muted" data-reveal>At the bakery</p>
 <p class="mt-3 max-w-2xl text-muted" data-reveal>Buying bread: the most useful thirty seconds of French. Always open with bonjour.</p>
+<section class="mt-5 rounded-2xl border border-line bg-card p-3" data-nav><h2 class="text-sm font-bold text-muted">Goes with this lesson</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../fr/reading/un_euro_deux_euros.html">Reading: Un euro, deux euros...</a><a class="btn py-1.5" href="../../fr/fundamentals/numbers_prices.html">Fundamentals: Les prix</a><a class="btn py-1.5" href="../../fr/vocabulary/marche.html">Vocabulary: Au marché</a><a class="btn py-1.5" href="../../fr/speaking/f002_market_stalls.html">Speaking: Au marché</a><a class="btn py-1.5" href="../../fr/speaking/f010_market_shopping.html">Speaking: Faire le marché</a></div></section>
 
 <section x-data="lines" class="mt-6">
 <div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-3">
@@ -80,27 +81,7 @@
 <p class="font-display text-4xl font-semibold text-accent" x-text="score + ' / ' + qs.length"></p>
 <button class="btn mt-4" @click="again()">Try again</button>
 </div></section>
-<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../fr/reading/un_euro_deux_euros.html" data-lesson="fr/reading/un_euro_deux_euros">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Un euro, deux euros...</h3>
-<span class="chip chip-accent">A1</span></div>
-<p class="mt-1 text-sm text-muted">Sophie fait ses courses au marché</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Reading</span><span class="chip">Picture reader</span></div></a><a class="tile" data-reveal href="../../fr/fundamentals/numbers_prices.html" data-lesson="fr/fundamentals/numbers_prices">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Les prix</h3>
-<span class="chip chip-accent">A1</span></div>
-<p class="mt-1 text-sm text-muted">Prices: asking and saying how much</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Fundamentals</span><span class="chip">Word list</span></div></a><a class="tile" data-reveal href="../../fr/vocabulary/marche.html" data-lesson="fr/vocabulary/marche">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Au marché</h3>
-<span class="chip chip-accent">A2</span></div>
-<p class="mt-1 text-sm text-muted">At the open-air market</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Vocabulary</span><span class="chip">Word list</span></div></a><a class="tile" data-reveal href="../../fr/speaking/f002_market_stalls.html" data-lesson="fr/speaking/f002_market_stalls">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Au marché</h3>
-<span class="chip chip-accent">A1</span></div>
-<p class="mt-1 text-sm text-muted">Four short exchanges at the stalls</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Speaking</span><span class="chip">Dialogue</span></div></a><a class="tile" data-reveal href="../../fr/speaking/f010_market_shopping.html" data-lesson="fr/speaking/f010_market_shopping">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Faire le marché</h3>
-<span class="chip chip-accent">A2</span></div>
-<p class="mt-1 text-sm text-muted">Four scenes at the market</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Speaking</span><span class="chip">Dialogue + quiz</span></div></a></div></section>
+
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/speaking/f001_bakery')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
 <div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn ml-auto" href="../../fr/speaking/f002_market_stalls.html">Au marché &rarr;</a></div>

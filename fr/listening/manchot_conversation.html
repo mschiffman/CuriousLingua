@@ -27,6 +27,7 @@
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>Le manchot empereur : un papa extraordinaire</h1>
 <p class="mt-2 text-xl text-muted" data-reveal>Camille raconte l’hiver du papa manchot</p>
 <p class="mt-3 max-w-2xl text-muted" data-reveal>Camille tells Thomas how emperor penguins raise a chick in the Antarctic winter, month by month, from April to December. It goes with the reading text « Le manchot qui défie l’hiver » and brings its words back in conversation. About five minutes, at natural speed.</p>
+<section class="mt-5 rounded-2xl border border-line bg-card p-3" data-nav><h2 class="text-sm font-bold text-muted">Goes with this lesson</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../fr/reading/penguin.html">Reading: Le manchot qui défie l’hiver</a></div></section>
 <section class="mt-6 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">How to use this lesson</h2><ol class="mt-2 list-decimal space-y-1 pl-5 text-muted"><li>Listen a first time without looking at the text. Try to follow the stages of the adventure, from April to December.</li><li>Listen again and answer the questions under the dialogue.</li><li>Then listen with the text showing, and pick out the familiar expressions Camille and Thomas use.</li></ol></section>
 <section x-data="lines" class="mt-6">
 <div class="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card p-3">
@@ -80,11 +81,7 @@
 <p class="font-display text-4xl font-semibold text-accent" x-text="score + ' / ' + qs.length"></p>
 <button class="btn mt-4" @click="again()">Try again</button>
 </div></section><section class="mt-8 rounded-2xl border border-line bg-card p-5"><h2 class="text-xl font-semibold">Notes</h2><ul class="mt-2 list-disc space-y-1 pl-5 text-muted"><li>Figure-toi que… = would you believe…, get this. Tu ne crois pas si bien dire = you don’t know how right you are.</li><li>il a intérêt à + infinitive = he had better…. Ce n’est pas une promenade de santé = it’s no walk in the park.</li><li>Et dire que… = and to think that…. Rien que d’en parler = just talking about it; rien qu’à sa voix = by his voice alone.</li><li>le père, lui, … / eux, ils… : the extra pronoun marks a contrast (she can eat; he, on the other hand, cannot).</li></ul></section>
-<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../fr/reading/penguin.html" data-lesson="fr/reading/penguin">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">Le manchot qui défie l’hiver</h3>
-<span class="chip chip-accent">B2</span></div>
-<p class="mt-1 text-sm text-muted">Un père, un œuf et l’hiver antarctique</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Reading</span><span class="chip">Reading text</span></div></a></div></section>
+
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('fr/listening/manchot_conversation')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
 <div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn" href="../../fr/listening/loisir.html">&larr; Les loisirs</a><a class="btn ml-auto" href="../../fr/listening/mariage.html">Vingt-cinq ans de mariage &rarr;</a></div>

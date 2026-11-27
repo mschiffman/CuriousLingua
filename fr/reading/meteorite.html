@@ -28,6 +28,7 @@
 <p class="mt-2 text-xl text-muted" data-reveal>Il y a 66 millions d’années, la fin des dinosaures</p>
 
 
+
 <section x-data="text" class="mt-6">
 <div class="sticky top-14 z-20 flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-card/95 p-2 shadow-sm backdrop-blur sm:top-28">
 <button x-show="!hasFile" class="btn btn-primary" :disabled="pending" :class="pending && 'opacity-40'" @click="playAll()"><svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span x-text="busy ? 'Stop' : 'Play all'"></span></button>

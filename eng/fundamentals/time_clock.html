@@ -56,6 +56,7 @@
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>What Time Is It?</h1>
 <p class="mt-2 text-xl text-muted" data-reveal>Telling the time</p>
 
+<section class="mt-5 rounded-2xl border border-line bg-card p-3" data-nav><h2 class="text-sm font-bold text-muted">Goes with this lesson</h2><div class="mt-2 flex flex-wrap gap-2"><a class="btn py-1.5" href="../../eng/reading/time.html">Reading: What Time Is It?</a><a class="btn py-1.5" href="../../eng/speaking/e004_time.html">Speaking: What Time Is It?</a></div></section>
 
 <section x-data="words" class="mt-6">
 <img x-show="hero" x-cloak :src="hero" :alt="alt" class="wl-hero">
@@ -100,15 +101,7 @@
 </div>
 </section>
 
-<section class="mt-12" data-nav><h2 class="text-2xl font-semibold">Goes with this lesson</h2><p class="mt-1 text-muted">The same words and situations, in other lessons.</p><div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a class="tile" data-reveal href="../../eng/reading/time.html" data-lesson="eng/reading/time">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">What Time Is It?</h3>
-<span class="chip chip-accent">A2</span></div>
 
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Reading</span><span class="chip">Picture reader</span></div></a><a class="tile" data-reveal href="../../eng/speaking/e004_time.html" data-lesson="eng/speaking/e004_time">
-<div class="flex items-start justify-between gap-2"><h3 class="text-lg font-semibold leading-snug">What Time Is It?</h3>
-<span class="chip chip-accent">A1</span></div>
-<p class="mt-1 text-sm text-muted">Four conversations about the time</p>
-<div class="mt-3 flex flex-wrap gap-1.5"><span class="chip">Speaking</span><span class="chip">Dialogue + quiz</span></div></a></div></section>
 <div class="mt-10 flex flex-wrap items-center gap-3" x-data="progress('eng/fundamentals/time_clock')" data-nav>
 <button class="btn" :class="on && 'btn-on'" @click="toggle()" x-text="on ? '✓ Done' : 'Mark as done'"></button></div>
 <div class="mt-12 flex flex-wrap items-center gap-3" data-nav><a class="btn" href="../../eng/fundamentals/time_day.html">&larr; The Parts of the Day</a><a class="btn ml-auto" href="../../eng/fundamentals/time_when.html">What Time Do You…? &rarr;</a></div>
