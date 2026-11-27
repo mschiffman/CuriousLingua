@@ -1,0 +1,389 @@
+{
+ "code": "F17",
+ "scene": 17,
+ "title": "Donner son avis",
+ "subtitle": "Four ways to ask for and give an opinion",
+ "level": "a2",
+ "topic": "Opinions",
+ "type": "dialogue",
+ "register": "casual (tu), a couple at home",
+ "review": "Notes, translations and questions written by Claude. Check the French, the English lines, the notes and the questions.",
+ "intro": "A painting that may be upside down, a soup with something missing, two films to choose from and a brand-new moustache: four short scenes between Emma and Lucas. Listen for how they ask for an opinion, for the difference between je pense que and je trouve que, and for the polite words they use when they don't like something.",
+ "aud_dir": "fr/speaking/mon_avis/",
+ "aud_ext": "mp3?v=2611271250",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "q3NYiGPH7m2zMHydaJVv",
+  "L": "fUzMXGEwYWmfjFB2ZfeA"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "fr/expressions/opinion"
+ ],
+ "sections": [
+  {
+   "title": "Le tableau",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Regarde. J'ai accroché le tableau.",
+     "tr": {
+      "en": "Look. I hung the painting."
+     },
+     "note": "Accrocher: to hang (on a wall). Un tableau: a painting."
+    },
+    {
+     "who": "E",
+     "text": "Ah oui. Je vois.",
+     "tr": {
+      "en": "Oh, yes. I see."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Qu'est-ce que tu en penses ?",
+     "tr": {
+      "en": "What do you think of it?"
+     },
+     "note": "Penser quelque chose de…: to think something of… En stands for du tableau."
+    },
+    {
+     "who": "E",
+     "text": "Franchement ?",
+     "tr": {
+      "en": "Honestly?"
+     },
+     "note": "Franchement ? asks: do you want the real answer?"
+    },
+    {
+     "who": "L",
+     "text": "Franchement.",
+     "tr": {
+      "en": "Honestly."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Je trouve que c'est… intéressant.",
+     "tr": {
+      "en": "I think it's… interesting."
+     },
+     "note": "Je trouve que…: an opinion about something you see, taste or feel. The pause says she does not like it."
+    },
+    {
+     "who": "L",
+     "text": "Intéressant, ce n'est pas un compliment.",
+     "tr": {
+      "en": "\"Interesting\" isn't a compliment."
+     }
+    },
+    {
+     "who": "E",
+     "text": "À mon avis, il est à l'envers.",
+     "tr": {
+      "en": "In my opinion, it's upside down."
+     },
+     "note": "À mon avis: in my opinion. À l'envers: upside down, or inside out."
+    },
+    {
+     "who": "L",
+     "text": "Mais non. C'est de l'art abstrait.",
+     "tr": {
+      "en": "No, it isn't. It's abstract art."
+     },
+     "note": "Mais non: a firm no."
+    },
+    {
+     "who": "E",
+     "text": "Lucas, la signature est en haut.",
+     "tr": {
+      "en": "Lucas, the signature is at the top."
+     },
+     "note": "En haut, en bas: at the top, at the bottom."
+    }
+   ]
+  },
+  {
+   "title": "La soupe",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Alors, ma soupe ? Comment tu la trouves ?",
+     "tr": {
+      "en": "So, my soup? How do you like it?"
+     },
+     "note": "Comment tu trouves… ?: how do you like…? Here trouver means to judge, not to find."
+    },
+    {
+     "who": "L",
+     "text": "Elle est… originale.",
+     "tr": {
+      "en": "It's… original."
+     },
+     "note": "Original, after a pause: a polite way not to say you dislike it."
+    },
+    {
+     "who": "E",
+     "text": "Originale ?",
+     "tr": {
+      "en": "Original?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "J'ai l'impression qu'il manque quelque chose.",
+     "tr": {
+      "en": "I feel like something is missing."
+     },
+     "note": "J'ai l'impression que…: I feel like, I get the impression that… Il manque quelque chose: something is missing."
+    },
+    {
+     "who": "E",
+     "text": "Du sel ?",
+     "tr": {
+      "en": "Salt?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Non, je ne crois pas.",
+     "tr": {
+      "en": "No, I don't think so."
+     },
+     "note": "Je ne crois pas: I don't think so. A soft no."
+    },
+    {
+     "who": "E",
+     "text": "Du poivre ?",
+     "tr": {
+      "en": "Pepper?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Peut-être. Je ne suis pas sûr.",
+     "tr": {
+      "en": "Maybe. I'm not sure."
+     },
+     "note": "Lucas says sûr. Emma would say sûre."
+    },
+    {
+     "who": "E",
+     "text": "Alors, il manque quoi, à ton avis ?",
+     "tr": {
+      "en": "So what's missing, in your opinion?"
+     },
+     "note": "À ton avis ?: in your opinion? The question that goes with à mon avis."
+    },
+    {
+     "who": "L",
+     "text": "Le numéro de la pizzeria.",
+     "tr": {
+      "en": "The number of the pizza place."
+     }
+    }
+   ]
+  },
+  {
+   "title": "Le film",
+   "lines": [
+    {
+     "who": "L",
+     "text": "On regarde quoi, ce soir ?",
+     "tr": {
+      "en": "What are we watching tonight?"
+     },
+     "note": "On = nous in everyday French."
+    },
+    {
+     "who": "E",
+     "text": "Il y a deux films. Lequel est le meilleur, à ton avis ?",
+     "tr": {
+      "en": "There are two films. Which one is better, in your opinion?"
+     },
+     "note": "Lequel: which one, for a masculine noun. Laquelle for a feminine one."
+    },
+    {
+     "who": "L",
+     "text": "Le premier. Sans hésiter.",
+     "tr": {
+      "en": "The first one. No question."
+     },
+     "note": "Sans hésiter: without a moment's doubt."
+    },
+    {
+     "who": "E",
+     "text": "Tu es sûr ?",
+     "tr": {
+      "en": "Are you sure?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Sûr et certain. Selon moi, c'est un chef-d'œuvre.",
+     "tr": {
+      "en": "Absolutely sure. If you ask me, it's a masterpiece."
+     },
+     "note": "Sûr et certain: completely sure. Selon moi: in my view, a little more formal than à mon avis."
+    },
+    {
+     "who": "E",
+     "text": "Parfait. On regarde le deuxième.",
+     "tr": {
+      "en": "Perfect. We'll watch the second one."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Quoi ? Mais tu m'as demandé mon avis !",
+     "tr": {
+      "en": "What? But you asked for my opinion!"
+     },
+     "note": "Demander son avis à quelqu'un: to ask someone's opinion. Mon avis, ton avis, son avis."
+    },
+    {
+     "who": "E",
+     "text": "Oui. Pour savoir lequel éviter.",
+     "tr": {
+      "en": "Yes. So I'd know which one to avoid."
+     },
+     "note": "Pour + infinitive: in order to. Éviter: to avoid."
+    }
+   ]
+  },
+  {
+   "title": "La moustache",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Alors ? Tu en penses quoi, de ma moustache ?",
+     "tr": {
+      "en": "So? What do you think of my moustache?"
+     },
+     "note": "Tu en penses quoi ? is the casual form of qu'est-ce que tu en penses ? De ma moustache, at the end, says what en stands for."
+    },
+    {
+     "who": "E",
+     "text": "Je pense que c'est courageux.",
+     "tr": {
+      "en": "I think it's brave."
+     },
+     "note": "Je pense que…: I think that… Courageux, said of a choice, is a polite way to say: risky."
+    },
+    {
+     "who": "L",
+     "text": "Moi, je trouve que ça me donne l'air sérieux.",
+     "tr": {
+      "en": "Personally, I think it makes me look serious."
+     },
+     "note": "Moi, je…: as for me. Donner l'air + adjective: to make someone look…"
+    },
+    {
+     "who": "E",
+     "text": "Si tu veux mon avis…",
+     "tr": {
+      "en": "If you want my opinion…"
+     },
+     "note": "Si tu veux mon avis…: said before an opinion the other person may not like."
+    },
+    {
+     "who": "L",
+     "text": "Oui ?",
+     "tr": {
+      "en": "Yes?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Ça te donne l'air de ton oncle Gérard.",
+     "tr": {
+      "en": "It makes you look like your uncle Gérard."
+     },
+     "note": "Avoir l'air de + a person: to look like someone."
+    },
+    {
+     "who": "L",
+     "text": "Je l'aime bien, mon oncle Gérard.",
+     "tr": {
+      "en": "I like my uncle Gérard."
+     },
+     "note": "Spoken French names the person twice: je l'aime bien, mon oncle Gérard. Aimer bien: to like (aimer alone, for a person, is to love)."
+    },
+    {
+     "who": "E",
+     "text": "Moi aussi. Mais ce n'est pas lui que j'ai épousé.",
+     "tr": {
+      "en": "So do I. But he's not the one I married."
+     },
+     "note": "C'est… que puts one part of the sentence forward. Épouser: to marry."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Asking: qu'est-ce que tu en penses ?, tu en penses quoi ?, comment tu le / la trouves ?, lequel est le meilleur, à ton avis ?",
+  "Giving an opinion: je pense que…, je trouve que…, à mon avis…, selon moi…, j'ai l'impression que…, moi, je…",
+  "Je trouve que is for what you see, taste or feel: je trouve que c'est joli. Je pense que works for everything.",
+  "Not sure: peut-être, je ne suis pas sûr / sûre, je ne crois pas.",
+  "Very sure: sans hésiter, sûr et certain.",
+  "Before a hard truth: franchement ?, si tu veux mon avis…",
+  "En stands for de + a thing: tu penses quoi du tableau ? → tu en penses quoi ?"
+ ],
+ "questions": [
+  {
+   "q": "Lucas wants Emma's opinion of the painting. What does he ask?",
+   "options": [
+    "Qu'est-ce que tu en penses ?",
+    "Qu'est-ce que tu penses ?",
+    "Qu'est-ce que tu y penses ?"
+   ],
+   "answer": 0,
+   "why": "Penser quelque chose du tableau → en penser. Penser à quelque chose (y penser) means to have it in mind."
+  },
+  {
+   "q": "Why does Emma think the painting is upside down?",
+   "options": [
+    "Les couleurs sont bizarres.",
+    "La signature est en haut.",
+    "Le tableau est trop haut."
+   ],
+   "answer": 1,
+   "why": "Lucas, la signature est en haut. It is usually at the bottom."
+  },
+  {
+   "q": "Emma is not sure. Which form is right?",
+   "options": [
+    "Je ne suis pas sûr.",
+    "Je ne suis pas sûre.",
+    "Je ne suis pas sûrs."
+   ],
+   "answer": 1,
+   "why": "Sûre is the feminine form."
+  },
+  {
+   "q": "Which one means the same as à mon avis?",
+   "options": [
+    "Sans hésiter",
+    "Sûr et certain",
+    "Selon moi"
+   ],
+   "answer": 2,
+   "why": "Selon moi: in my view. Sans hésiter and sûr et certain say how sure you are."
+  },
+  {
+   "q": "Why does Emma ask Lucas which film is better?",
+   "options": [
+    "Pour regarder son film préféré",
+    "Pour savoir lequel éviter",
+    "Pour lui faire plaisir"
+   ],
+   "answer": 1,
+   "why": "Oui. Pour savoir lequel éviter."
+  }
+ ]
+}

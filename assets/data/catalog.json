@@ -825,6 +825,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/f017_opinion",
+  "url": "fr/speaking/f017_opinion.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Opinions",
+  "type": "dialogue",
+  "title": "Donner son avis",
+  "clips": 36,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/vocabulary/famille",
   "url": "fr/vocabulary/famille.html",
   "course": "fr",
@@ -3105,6 +3120,21 @@
   "quiz": true
  },
  {
+  "id": "eng/speaking/e017_opinion",
+  "url": "eng/speaking/e017_opinion.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Opinions",
+  "type": "dialogue",
+  "title": "What Do You Think?",
+  "clips": 36,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "eng/vocabulary/voc_animals_1",
   "url": "eng/vocabulary/voc_animals_1.html",
   "course": "eng",
@@ -3960,6 +3990,21 @@
   "quiz": true
  },
  {
+  "id": "jap/speaking/j017_opinion",
+  "url": "jap/speaking/j017_opinion.html",
+  "course": "jap",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Opinions",
+  "type": "dialogue",
+  "title": "What Do You Think?",
+  "clips": 38,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "jap/listening/cafe",
   "url": "jap/listening/cafe.html",
   "course": "jap",
@@ -4630,6 +4675,21 @@
   "type": "dialogue",
   "title": "Me siento mal",
   "clips": 46,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "spa/speaking/s017_opinion",
+  "url": "spa/speaking/s017_opinion.html",
+  "course": "spa",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Opinions",
+  "type": "dialogue",
+  "title": "¿Qué opinas?",
+  "clips": 44,
   "images": 0,
   "audio": "wired",
   "quiz": true

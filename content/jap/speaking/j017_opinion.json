@@ -1,0 +1,475 @@
+{
+ "code": "J17",
+ "scene": 17,
+ "title": "What Do You Think?",
+ "subtitle": "カレー・シャツ・ばんごはん・えいが",
+ "level": "a2",
+ "topic": "Opinions",
+ "type": "dialogue",
+ "register": "casual, a couple at home",
+ "review": "Kana, kanji, notes, translations and questions written by Claude. The Japanese, the romaji and the humor have not been checked by a Japanese speaker. English support only: no Burmese lines yet.",
+ "intro": "A curry with three apples in it, a shirt that looked better yesterday, a dinner where anything is fine except everything, and a film Emi may have slept through: four short scenes between Emi and Riku. Listen for dō? and dō omou? when they ask, for … to omou when they answer, and for chotto…, the sentence nobody finishes.",
+ "aud_dir": "jap/speaking/opinion/",
+ "aud_ext": "mp3?v=2611271259",
+ "speakers": {
+  "E": "Emi",
+  "R": "Riku"
+ },
+ "voice": {
+  "E": "ilBjLtdEW3SkjRXakAkO",
+  "R": "v91rKRL5eccBa78cK3jT"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "jap/expressions/likes_dislikes"
+ ],
+ "sections": [
+  {
+   "title": "Karē",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Karē, dō?",
+     "kana": "カレー、どう？",
+     "tr": {
+      "en": "How's the curry?"
+     },
+     "note": "A, dō?: how is A? The shortest way to ask for an opinion."
+    },
+    {
+     "who": "E",
+     "romaji": "Un, oishii yo.",
+     "kana": "うん、おいしいよ。",
+     "tr": {
+      "en": "Mm, it's good."
+     },
+     "note": "Un: a casual yes. Yo at the end: I'm telling you."
+    },
+    {
+     "who": "R",
+     "romaji": "Hontō?",
+     "kana": "ほんとう？",
+     "say": "本当？",
+     "tr": {
+      "en": "Really?"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Hontō. Demo, chotto…",
+     "kana": "ほんとう。でも、ちょっと…",
+     "say": "本当。でも、ちょっと…",
+     "tr": {
+      "en": "Really. But it's a bit…"
+     },
+     "note": "Chotto…, left unfinished, is the polite way to say there is a problem."
+    },
+    {
+     "who": "R",
+     "romaji": "Chotto?",
+     "kana": "ちょっと？",
+     "tr": {
+      "en": "A bit?"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Chotto amai kana to omotte.",
+     "kana": "ちょっとあまいかなとおもって。",
+     "say": "ちょっと甘いかなと思って。",
+     "tr": {
+      "en": "I just thought it might be a little sweet."
+     },
+     "note": "… to omou: I think that… Kana softens it: maybe. Omotte, left open, softens it again."
+    },
+    {
+     "who": "R",
+     "romaji": "Ringo o ireta n da.",
+     "kana": "りんごをいれたんだ。",
+     "say": "りんごを入れたんだ。",
+     "tr": {
+      "en": "I put apples in it."
+     },
+     "note": "Ireru: to put in. N da explains. Apple is a well-known secret ingredient of Japanese curry."
+    },
+    {
+     "who": "E",
+     "romaji": "Nanko?",
+     "kana": "なんこ？",
+     "say": "何個？",
+     "tr": {
+      "en": "How many?"
+     },
+     "note": "Nanko: how many. -ko counts small round things such as apples."
+    },
+    {
+     "who": "R",
+     "romaji": "Mittsu.",
+     "kana": "みっつ。",
+     "say": "三つ。",
+     "tr": {
+      "en": "Three."
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Sore wa mō, dezāto da to omou.",
+     "kana": "それはもう、デザートだとおもう。",
+     "say": "それはもう、デザートだと思う。",
+     "tr": {
+      "en": "Then I think it's a dessert."
+     },
+     "note": "Noun + da to omou: I think it is… Mō here: by now, already."
+    }
+   ]
+  },
+  {
+   "title": "Shatsu",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Kono shatsu, dō omou?",
+     "kana": "このシャツ、どうおもう？",
+     "say": "このシャツ、どう思う？",
+     "tr": {
+      "en": "What do you think of this shirt?"
+     },
+     "note": "Dō omou?: what do you think? Word for word: how do you think?"
+    },
+    {
+     "who": "E",
+     "romaji": "Ii n ja nai?",
+     "kana": "いいんじゃない？",
+     "tr": {
+      "en": "Looks fine, doesn't it?"
+     },
+     "note": "Ii n ja nai?: isn't it good? A mild yes, often said without much feeling."
+    },
+    {
+     "who": "R",
+     "romaji": "Sore, homete ru?",
+     "kana": "それ、ほめてる？",
+     "say": "それ、褒めてる？",
+     "tr": {
+      "en": "Is that a compliment?"
+     },
+     "note": "Homeru: to praise. Homete ru?: are you praising me?"
+    },
+    {
+     "who": "E",
+     "romaji": "Warukunai to omou yo.",
+     "kana": "わるくないとおもうよ。",
+     "say": "悪くないと思うよ。",
+     "tr": {
+      "en": "I think it's not bad."
+     },
+     "note": "Warukunai: not bad. Adjective + to omou: I think it's…"
+    },
+    {
+     "who": "R",
+     "romaji": "Warukunai…",
+     "kana": "わるくない…",
+     "say": "悪くない…",
+     "tr": {
+      "en": "Not bad…"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Demo, watashi wa kinō no shatsu no hō ga suki kana.",
+     "kana": "でも、わたしはきのうのシャツのほうがすきかな。",
+     "say": "でも、私は昨日のシャツの方が好きかな。",
+     "tr": {
+      "en": "But I think I like yesterday's shirt better."
+     },
+     "note": "Watashi wa: as for me. A no hō ga suki: I like A better. Kana: I suppose."
+    },
+    {
+     "who": "R",
+     "romaji": "Kinō mo kore da yo.",
+     "kana": "きのうもこれだよ。",
+     "say": "昨日もこれだよ。",
+     "tr": {
+      "en": "I wore this one yesterday too."
+     },
+     "note": "Mo: too, also. Word for word: yesterday too, it was this one."
+    },
+    {
+     "who": "E",
+     "romaji": "… Ja, kinō no hō ga niatte ta.",
+     "kana": "…じゃ、きのうのほうがにあってた。",
+     "say": "…じゃ、昨日の方が似合ってた。",
+     "tr": {
+      "en": "…Then it suited you better yesterday."
+     },
+     "note": "Niau: to suit someone. Niatte ta: it suited you."
+    }
+   ]
+  },
+  {
+   "title": "Bangohan",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Bangohan, nani ga ii?",
+     "kana": "ばんごはん、なにがいい？",
+     "say": "晩ご飯、何がいい？",
+     "tr": {
+      "en": "What do you want for dinner?"
+     },
+     "note": "Nani ga ii?: what would be good? The everyday way to ask what someone would like."
+    },
+    {
+     "who": "E",
+     "romaji": "Nan demo ii yo.",
+     "kana": "なんでもいいよ。",
+     "say": "何でもいいよ。",
+     "tr": {
+      "en": "Anything's fine."
+     },
+     "note": "Nan demo: anything. Nan demo ii: anything is fine."
+    },
+    {
+     "who": "R",
+     "romaji": "Ja, rāmen wa?",
+     "kana": "じゃ、ラーメンは？",
+     "tr": {
+      "en": "Then how about ramen?"
+     },
+     "note": "A wa?: how about A?"
+    },
+    {
+     "who": "E",
+     "romaji": "Rāmen wa chotto…",
+     "kana": "ラーメンはちょっと…",
+     "tr": {
+      "en": "Ramen's a bit…"
+     },
+     "note": "A wa chotto…: the polite no. Nobody finishes the sentence."
+    },
+    {
+     "who": "R",
+     "romaji": "Sushi?",
+     "kana": "すし？",
+     "say": "寿司？",
+     "tr": {
+      "en": "Sushi?"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Un… dō kana.",
+     "kana": "うん…どうかな。",
+     "tr": {
+      "en": "Hmm… I'm not sure."
+     },
+     "note": "Dō kana: I wonder. Another soft no."
+    },
+    {
+     "who": "R",
+     "romaji": "Karē wa?",
+     "kana": "カレーは？",
+     "tr": {
+      "en": "Curry?"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Kinō tabeta desho.",
+     "kana": "きのうたべたでしょ。",
+     "say": "昨日食べたでしょ。",
+     "tr": {
+      "en": "We had that yesterday."
+     },
+     "note": "Desho: you know that, right? Short for deshō."
+    },
+    {
+     "who": "R",
+     "romaji": "Nan demo ii tte itta yo ne.",
+     "kana": "なんでもいいっていったよね。",
+     "say": "何でもいいって言ったよね。",
+     "tr": {
+      "en": "You said anything was fine."
+     },
+     "note": "… tte itta: you said that… Yo ne checks that the other person agrees."
+    },
+    {
+     "who": "E",
+     "romaji": "Un. Sore igai nara, nan demo.",
+     "kana": "うん。それいがいなら、なんでも。",
+     "say": "うん。それ以外なら、何でも。",
+     "tr": {
+      "en": "Yes. Anything but those."
+     },
+     "note": "Sore igai: other than that. Nara: if it is."
+    }
+   ]
+  },
+  {
+   "title": "Eiga",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Kinō no eiga, dō datta?",
+     "kana": "きのうのえいが、どうだった？",
+     "say": "昨日の映画、どうだった？",
+     "tr": {
+      "en": "How was the film yesterday?"
+     },
+     "note": "Dō datta?: how was it? The past of dō?"
+    },
+    {
+     "who": "E",
+     "romaji": "Yokatta to omou.",
+     "kana": "よかったとおもう。",
+     "say": "よかったと思う。",
+     "tr": {
+      "en": "I think it was good."
+     },
+     "note": "Yokatta: it was good. Yokatta to omou is a strange answer: you usually know whether you liked a film."
+    },
+    {
+     "who": "R",
+     "romaji": "Doko ga yokatta?",
+     "kana": "どこがよかった？",
+     "tr": {
+      "en": "What did you like about it?"
+     },
+     "note": "Doko ga yokatta?: which part was good?"
+    },
+    {
+     "who": "E",
+     "romaji": "Etto… saigo ga.",
+     "kana": "えっと…さいごが。",
+     "say": "えっと…最後が。",
+     "tr": {
+      "en": "Um… the ending."
+     },
+     "note": "Etto: um, to buy time. Saigo: the end."
+    },
+    {
+     "who": "R",
+     "romaji": "Saigo? Emi, nete ta yo ne.",
+     "kana": "さいご？エミ、ねてたよね。",
+     "say": "最後？エミ、寝てたよね。",
+     "tr": {
+      "en": "The ending? Emi, you were asleep."
+     },
+     "note": "Neru: to sleep. Nete ta: was sleeping."
+    },
+    {
+     "who": "E",
+     "romaji": "Nete nai yo.",
+     "kana": "ねてないよ。",
+     "say": "寝てないよ。",
+     "tr": {
+      "en": "I wasn't asleep."
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Ibiki ga kikoeta ki ga suru kedo.",
+     "kana": "いびきがきこえたきがするけど。",
+     "say": "いびきが聞こえた気がするけど。",
+     "tr": {
+      "en": "I have a feeling I heard snoring."
+     },
+     "note": "… ki ga suru: I have a feeling that… Ibiki: snoring. Kedo leaves the sentence open."
+    },
+    {
+     "who": "E",
+     "romaji": "Me o tojite, kiite ta dake.",
+     "kana": "めをとじて、きいてただけ。",
+     "say": "目を閉じて、聞いてただけ。",
+     "tr": {
+      "en": "I was just listening with my eyes closed."
+     },
+     "note": "Me o tojiru: to close your eyes. Dake: only, just."
+    },
+    {
+     "who": "R",
+     "romaji": "Ja, hannin wa dare datta?",
+     "kana": "じゃ、はんにんはだれだった？",
+     "say": "じゃ、犯人は誰だった？",
+     "tr": {
+      "en": "So who did it?"
+     },
+     "note": "Hannin: the culprit. It was a mystery film."
+    },
+    {
+     "who": "E",
+     "romaji": "… Riku wa dō omou?",
+     "kana": "…リクはどうおもう？",
+     "say": "…リクはどう思う？",
+     "tr": {
+      "en": "…What do you think, Riku?"
+     },
+     "note": "She sends the question back. Using the person's name instead of anata (you) is normal in Japanese."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Asking: A, dō? (how is A?), dō omou? (what do you think?), dō datta? (how was it?), nani ga ii? (what would you like?).",
+  "Giving an opinion: … to omou. Oishii to omou, dezāto da to omou, yokatta to omou.",
+  "Softening: kana (I suppose, I wonder), … to omotte left unfinished, ii n ja nai? (looks fine, doesn't it?).",
+  "The polite no: A wa chotto… Nobody finishes the sentence. Dō kana is another one.",
+  "Liking one thing better: A no hō ga suki. Kinō no shatsu no hō ga suki.",
+  "A feeling, not a fact: … ki ga suru. Ibiki ga kikoeta ki ga suru.",
+  "Not choosing: nan demo ii (anything is fine). Sore igai nara: as long as it's something else."
+ ],
+ "questions": [
+  {
+   "q": "Riku wants Emi's opinion of his shirt. What does he ask?",
+   "options": [
+    "Kono shatsu, dō omou?",
+    "Kono shatsu, nani ga ii?",
+    "Kono shatsu, doko ga yokatta?"
+   ],
+   "answer": 0,
+   "why": "Dō omou?: what do you think? Nani ga ii? asks what you would like."
+  },
+  {
+   "q": "Why is the curry sweet?",
+   "options": [
+    "Riku put sugar in it.",
+    "Riku put three apples in it.",
+    "It is a dessert curry."
+   ],
+   "answer": 1,
+   "why": "Ringo o ireta n da. Mittsu."
+  },
+  {
+   "q": "Emi does not want ramen. What does she say?",
+   "options": [
+    "Rāmen ga suki.",
+    "Rāmen, dō?",
+    "Rāmen wa chotto…"
+   ],
+   "answer": 2,
+   "why": "A wa chotto…: the polite no."
+  },
+  {
+   "q": "What is funny about Emi's opinion of the shirt?",
+   "options": [
+    "Riku wore the same shirt yesterday.",
+    "Emi has not seen the shirt.",
+    "The shirt is Emi's."
+   ],
+   "answer": 0,
+   "why": "Kinō mo kore da yo: it is the same shirt."
+  },
+  {
+   "q": "Why can't Emi say who the culprit was?",
+   "options": [
+    "She forgot.",
+    "She fell asleep.",
+    "The film had no ending."
+   ],
+   "answer": 1,
+   "why": "Ibiki ga kikoeta ki ga suru: Riku heard her snoring."
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "code": "E17",
+ "scene": 17,
+ "title": "What Do You Think?",
+ "subtitle": "Four ways to ask for and give an opinion",
+ "level": "a2",
+ "topic": "Opinions",
+ "type": "dialogue",
+ "review": "Notes and questions written by Claude: check the English lines, the notes and the questions. No Burmese yet.",
+ "intro": "A painting that may be upside down, a soup with something missing, two movies to choose from and a brand-new mustache: four short scenes between Emma and Lucas. Listen for how they ask for an opinion, how they give one, and the polite words they use when they don't like something.",
+ "aud_dir": "eng/speaking/opinion/",
+ "aud_ext": "mp3?v=2611271253",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/opinion"
+ ],
+ "sections": [
+  {
+   "title": "The Painting",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Look. I hung the painting.",
+     "note": "Hung is the past of hang: put something on a wall."
+    },
+    {
+     "who": "E",
+     "text": "Oh. Yes. I see."
+    },
+    {
+     "who": "L",
+     "text": "What do you think?",
+     "note": "What do you think? asks for someone's opinion."
+    },
+    {
+     "who": "E",
+     "text": "Honestly?",
+     "note": "Honestly? = do you want the true answer?"
+    },
+    {
+     "who": "L",
+     "text": "Honestly."
+    },
+    {
+     "who": "E",
+     "text": "I think it's… interesting.",
+     "note": "I think… gives your opinion. The pause before interesting means: I don't really like it."
+    },
+    {
+     "who": "L",
+     "text": "\"Interesting\" is not a compliment.",
+     "note": "A compliment: nice words about someone or something."
+    },
+    {
+     "who": "E",
+     "text": "In my opinion, it's upside down.",
+     "note": "In my opinion = I think. Upside down: the top is at the bottom."
+    },
+    {
+     "who": "L",
+     "text": "No, it isn't. It's abstract art.",
+     "note": "Abstract art shows shapes and colors, not real things."
+    },
+    {
+     "who": "E",
+     "text": "Lucas, the signature is at the top.",
+     "note": "The signature is the painter's name. It is usually at the bottom."
+    }
+   ]
+  },
+  {
+   "title": "The Soup",
+   "lines": [
+    {
+     "who": "E",
+     "text": "So, how do you like my soup?",
+     "note": "How do you like…? asks for an opinion about something you made or bought."
+    },
+    {
+     "who": "L",
+     "text": "It's… different.",
+     "note": "Different, after a pause, is a polite way to say you don't like it."
+    },
+    {
+     "who": "E",
+     "text": "Different?"
+    },
+    {
+     "who": "L",
+     "text": "I feel like something is missing.",
+     "note": "I feel like + a sentence = I think so, but I'm not sure. Missing: not there."
+    },
+    {
+     "who": "E",
+     "text": "Salt?"
+    },
+    {
+     "who": "L",
+     "text": "No, I don't think so.",
+     "note": "I don't think so: a soft no."
+    },
+    {
+     "who": "E",
+     "text": "Pepper?"
+    },
+    {
+     "who": "L",
+     "text": "Maybe. I'm not sure.",
+     "note": "I'm not sure: you don't have a clear opinion."
+    },
+    {
+     "who": "E",
+     "text": "So what's missing, in your opinion?",
+     "note": "In your opinion? asks what the other person thinks."
+    },
+    {
+     "who": "L",
+     "text": "The phone number of the pizza place.",
+     "note": "He would rather order a pizza."
+    }
+   ]
+  },
+  {
+   "title": "The Movie",
+   "lines": [
+    {
+     "who": "L",
+     "text": "What are we watching tonight?"
+    },
+    {
+     "who": "E",
+     "text": "There are two movies. Which one is better, in your opinion?",
+     "note": "Which one…? asks you to choose between things."
+    },
+    {
+     "who": "L",
+     "text": "The first one. No question.",
+     "note": "No question = I am completely sure."
+    },
+    {
+     "who": "E",
+     "text": "Are you sure?"
+    },
+    {
+     "who": "L",
+     "text": "Absolutely. If you ask me, it's a masterpiece.",
+     "note": "Absolutely: a strong yes. If you ask me = in my opinion. A masterpiece: a very great work."
+    },
+    {
+     "who": "E",
+     "text": "Perfect. We'll watch the second one."
+    },
+    {
+     "who": "L",
+     "text": "What? But you asked for my opinion!",
+     "note": "Ask for someone's opinion: ask what they think."
+    },
+    {
+     "who": "E",
+     "text": "I did. So I'd know which one to avoid.",
+     "note": "I did = yes, I asked. Avoid: stay away from. She doesn't like the movies he likes."
+    }
+   ]
+  },
+  {
+   "title": "The Mustache",
+   "lines": [
+    {
+     "who": "L",
+     "text": "So? What do you think of my mustache?",
+     "note": "What do you think of + a thing? asks for an opinion. A mustache: hair above the lip."
+    },
+    {
+     "who": "E",
+     "text": "I think it's brave.",
+     "note": "Brave usually means not afraid. Here it is a polite way to say: that was a risky choice."
+    },
+    {
+     "who": "L",
+     "text": "Personally, I think it makes me look serious.",
+     "note": "Personally = for me. It makes me look serious: people see me as serious."
+    },
+    {
+     "who": "E",
+     "text": "Do you want my honest opinion?",
+     "note": "Ask this before you say something the other person may not like."
+    },
+    {
+     "who": "L",
+     "text": "Yes."
+    },
+    {
+     "who": "E",
+     "text": "It makes you look like your uncle Gerald.",
+     "note": "Look like: seem the same as another person."
+    },
+    {
+     "who": "L",
+     "text": "I like my uncle Gerald."
+    },
+    {
+     "who": "E",
+     "text": "So do I. But I didn't marry him.",
+     "note": "So do I = me too."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Asking for an opinion: What do you think? What do you think of…? How do you like…? Which one is better, in your opinion?",
+  "Giving your opinion: I think…, In my opinion…, If you ask me…, Personally, I think…, I feel like…",
+  "Not sure: Maybe. I'm not sure. I don't think so.",
+  "Very sure: No question. Absolutely.",
+  "Before a hard truth: Honestly? Do you want my honest opinion?",
+  "Interesting, different and brave can be polite words for 'I don't like it'. The pause before them says the rest."
+ ],
+ "questions": [
+  {
+   "q": "Lucas wants Emma's opinion of the painting. What does he ask?",
+   "options": [
+    "What do you think?",
+    "How do you think?",
+    "What are you thinking?"
+   ],
+   "answer": 0,
+   "why": "What do you think? asks for an opinion. How do you think? is not correct English."
+  },
+  {
+   "q": "Why does Emma think the painting is upside down?",
+   "options": [
+    "The colors are wrong.",
+    "The signature is at the top.",
+    "Lucas hung it too high."
+   ],
+   "answer": 1,
+   "why": "A painter's signature is usually at the bottom."
+  },
+  {
+   "q": "Lucas is not sure about the pepper. What does he say?",
+   "options": [
+    "No question.",
+    "Absolutely.",
+    "Maybe. I'm not sure."
+   ],
+   "answer": 2,
+   "why": "No question and absolutely mean you are completely sure."
+  },
+  {
+   "q": "Which phrase means the same as 'in my opinion'?",
+   "options": [
+    "So do I",
+    "If you ask me",
+    "Are you sure?"
+   ],
+   "answer": 1,
+   "why": "If you ask me, it's a masterpiece = in my opinion, it's a masterpiece."
+  },
+  {
+   "q": "Why does Emma ask Lucas which movie is better?",
+   "options": [
+    "To watch his favorite",
+    "To start an argument",
+    "To know which one to avoid"
+   ],
+   "answer": 2,
+   "why": "I did. So I'd know which one to avoid."
+  },
+  {
+   "q": "Emma says the mustache is brave. What does she really mean?",
+   "options": [
+    "She thinks it was a risky choice.",
+    "She loves it.",
+    "She thinks Lucas is not afraid."
+   ],
+   "answer": 0,
+   "why": "Brave is a polite word here. Then she says it makes him look like his uncle."
+  }
+ ]
+}

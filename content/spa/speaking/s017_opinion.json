@@ -1,0 +1,450 @@
+{
+ "code": "S17",
+ "scene": 17,
+ "title": "¿Qué opinas?",
+ "subtitle": "Four ways to ask for and give an opinion",
+ "level": "a2",
+ "topic": "Opinions",
+ "type": "dialogue",
+ "register": "casual (tú), a couple at home, Mexican Spanish",
+ "review": "Notes, translations and questions written by Claude. Check the Spanish, the English lines, the notes and the questions.",
+ "intro": "A very hot salsa, a shirt with flamingos, a man whose opinions all come from his mother, and a dinner nobody can choose: four short scenes between Emma and Lucas. Listen for ¿qué te parece? and ¿qué opinas?, for yo creo que and para mí, and for the soft ways to say no.",
+ "aud_dir": "spa/speaking/que_opinas/",
+ "aud_ext": "mp3?v=2611271256",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "4qaUMumO0kUQd7YZ1NQS",
+  "L": "KI5S3fgy5fbTpczRhibw"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "spa/expressions/likes_dislikes"
+ ],
+ "sections": [
+  {
+   "title": "La salsa",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Prueba mi salsa. ¿Qué te parece?",
+     "tr": {
+      "en": "Taste my salsa. What do you think?"
+     },
+     "note": "¿Qué te parece?: what do you think of it? Probar: to taste, to try."
+    },
+    {
+     "who": "L",
+     "text": "Está muy rica.",
+     "tr": {
+      "en": "It's really good."
+     },
+     "note": "Rico, rica: delicious, said of food. Estar, because it is how it tastes now."
+    },
+    {
+     "who": "E",
+     "text": "¿No pica mucho?",
+     "tr": {
+      "en": "Isn't it too spicy?"
+     },
+     "note": "Picar: to be hot, spicy."
+    },
+    {
+     "who": "L",
+     "text": "No, para nada. Yo creo que está perfecta.",
+     "tr": {
+      "en": "No, not at all. I think it's perfect."
+     },
+     "note": "Para nada: not at all. Yo creo que…: I think that…"
+    },
+    {
+     "who": "E",
+     "text": "¿Seguro? Estás rojo.",
+     "tr": {
+      "en": "Are you sure? You're red."
+     },
+     "note": "¿Seguro?: are you sure? To a woman: ¿segura?"
+    },
+    {
+     "who": "L",
+     "text": "Es el calor.",
+     "tr": {
+      "en": "It's the heat."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Y estás llorando.",
+     "tr": {
+      "en": "And you're crying."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Es de la emoción.",
+     "tr": {
+      "en": "I'm just moved."
+     },
+     "note": "Es de la emoción: it's from emotion, I'm so moved."
+    },
+    {
+     "who": "E",
+     "text": "¿Te sirvo más?",
+     "tr": {
+      "en": "Shall I give you some more?"
+     },
+     "note": "¿Te sirvo más?: the host's question at the table. Servir: to serve."
+    },
+    {
+     "who": "L",
+     "text": "La verdad… mejor un vaso de agua.",
+     "tr": {
+      "en": "Honestly… a glass of water would be better."
+     },
+     "note": "La verdad…: to tell the truth. Mejor + a thing: I'd rather have that."
+    }
+   ]
+  },
+  {
+   "title": "La camisa",
+   "lines": [
+    {
+     "who": "L",
+     "text": "¿Cómo me veo?",
+     "tr": {
+      "en": "How do I look?"
+     },
+     "note": "Verse bien, verse mal: to look good, to look bad."
+    },
+    {
+     "who": "E",
+     "text": "Bien.",
+     "tr": {
+      "en": "Fine."
+     }
+    },
+    {
+     "who": "L",
+     "text": "¿Bien y ya? ¿Qué opinas de la camisa?",
+     "tr": {
+      "en": "Just fine? What do you think of the shirt?"
+     },
+     "note": "¿Y ya?: and that's all? ¿Qué opinas de…?: what do you think of…?"
+    },
+    {
+     "who": "E",
+     "text": "¿La verdad?",
+     "tr": {
+      "en": "Honestly?"
+     },
+     "note": "¿La verdad?: do you want the truth?"
+    },
+    {
+     "who": "L",
+     "text": "La verdad.",
+     "tr": {
+      "en": "Honestly."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Para mí, es mucha camisa.",
+     "tr": {
+      "en": "If you ask me, it's a lot of shirt."
+     },
+     "note": "Para mí…: for me, in my view. Es mucha camisa: it's too much, too loud."
+    },
+    {
+     "who": "L",
+     "text": "¿Mucha camisa?",
+     "tr": {
+      "en": "A lot of shirt?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Tiene flamencos, Lucas.",
+     "tr": {
+      "en": "It has flamingos on it, Lucas."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Pues a mí me gusta.",
+     "tr": {
+      "en": "Well, I like it."
+     },
+     "note": "Pues: well. A mí me gusta: I like it, whatever you think."
+    },
+    {
+     "who": "E",
+     "text": "Qué bueno. En mi opinión, es perfecta para la fiesta.",
+     "tr": {
+      "en": "Good. In my opinion, it's perfect for the party."
+     },
+     "note": "Qué bueno: that's good. En mi opinión: in my opinion."
+    },
+    {
+     "who": "L",
+     "text": "¿Verdad que sí?",
+     "tr": {
+      "en": "It is, isn't it?"
+     },
+     "note": "¿Verdad que sí?: asks the other person to agree."
+    },
+    {
+     "who": "E",
+     "text": "Sí. Así no te me pierdes.",
+     "tr": {
+      "en": "Yes. That way I won't lose you."
+     },
+     "note": "Así: that way. No te me pierdes: you won't get lost on me. The me says she is the one who would lose him."
+    }
+   ]
+  },
+  {
+   "title": "El sillón",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Mi mamá dice que el sillón va junto a la ventana.",
+     "tr": {
+      "en": "My mom says the armchair goes by the window."
+     },
+     "note": "Dice que…: says that… Junto a: next to. El sillón: an armchair, or a sofa."
+    },
+    {
+     "who": "E",
+     "text": "Ajá. ¿Y tú qué opinas?",
+     "tr": {
+      "en": "Uh-huh. And what do you think?"
+     },
+     "note": "¿Y tú qué opinas?: and what's your opinion? Tú in front means: you, not your mom."
+    },
+    {
+     "who": "L",
+     "text": "Yo pienso que se ve mejor junto a la ventana.",
+     "tr": {
+      "en": "I think it looks better by the window."
+     },
+     "note": "Yo pienso que…: I think that… Se ve mejor: it looks better."
+    },
+    {
+     "who": "E",
+     "text": "¿Y de las cortinas?",
+     "tr": {
+      "en": "And the curtains?"
+     },
+     "note": "¿Y de…?: and what about…? Short for ¿y qué opinas de…?"
+    },
+    {
+     "who": "L",
+     "text": "Mi mamá dice que están muy oscuras.",
+     "tr": {
+      "en": "My mom says they're too dark."
+     }
+    },
+    {
+     "who": "E",
+     "text": "¿Y tú qué piensas?",
+     "tr": {
+      "en": "And what do you think?"
+     },
+     "note": "¿Qué piensas? = ¿qué opinas?"
+    },
+    {
+     "who": "L",
+     "text": "Creo que tiene razón.",
+     "tr": {
+      "en": "I think she's right."
+     },
+     "note": "Tener razón: to be right."
+    },
+    {
+     "who": "E",
+     "text": "Lucas, ¿tú tienes opiniones propias?",
+     "tr": {
+      "en": "Lucas, do you have any opinions of your own?"
+     },
+     "note": "Propio, propia: your own."
+    },
+    {
+     "who": "L",
+     "text": "Claro que sí.",
+     "tr": {
+      "en": "Of course I do."
+     }
+    },
+    {
+     "who": "E",
+     "text": "¿Por ejemplo?",
+     "tr": {
+      "en": "For example?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Deja le pregunto a mi mamá.",
+     "tr": {
+      "en": "Let me ask my mom."
+     },
+     "note": "Deja le pregunto: let me ask her. Spoken Mexican Spanish; in writing, déjame preguntarle."
+    }
+   ]
+  },
+  {
+   "title": "La cena",
+   "lines": [
+    {
+     "who": "L",
+     "text": "¿Qué quieres cenar?",
+     "tr": {
+      "en": "What do you want for dinner?"
+     },
+     "note": "Cenar: to have dinner."
+    },
+    {
+     "who": "E",
+     "text": "Lo que tú quieras.",
+     "tr": {
+      "en": "Whatever you want."
+     },
+     "note": "Lo que tú quieras: whatever you like. Quieras is the subjunctive of querer."
+    },
+    {
+     "who": "L",
+     "text": "¿Tacos?",
+     "tr": {
+      "en": "Tacos?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "No, tacos no.",
+     "tr": {
+      "en": "No, not tacos."
+     }
+    },
+    {
+     "who": "L",
+     "text": "¿Pizza?",
+     "tr": {
+      "en": "Pizza?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Mmm, no sé. No creo.",
+     "tr": {
+      "en": "Hmm, I don't know. I don't think so."
+     },
+     "note": "No sé: I don't know. No creo: I don't think so, a soft no."
+    },
+    {
+     "who": "L",
+     "text": "¿Entonces?",
+     "tr": {
+      "en": "So?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Me da igual. Tú decide.",
+     "tr": {
+      "en": "I don't mind. You decide."
+     },
+     "note": "Me da igual: it's all the same to me. Tú decide: you decide."
+    },
+    {
+     "who": "L",
+     "text": "Pozole.",
+     "tr": {
+      "en": "Pozole."
+     },
+     "note": "Pozole: a Mexican soup of hominy corn and meat, made for parties and family weekends."
+    },
+    {
+     "who": "E",
+     "text": "¿Pozole? ¿En martes?",
+     "tr": {
+      "en": "Pozole? On a Tuesday?"
+     },
+     "note": "En martes: on a Tuesday, an ordinary weekday."
+    },
+    {
+     "who": "L",
+     "text": "Tengo la impresión de que no te da igual.",
+     "tr": {
+      "en": "I get the feeling you do mind."
+     },
+     "note": "Tengo la impresión de que…: I get the feeling that…"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Asking: ¿qué te parece?, ¿qué opinas de…?, ¿y tú qué opinas?, ¿y tú qué piensas?, ¿cómo me veo?",
+  "Giving an opinion: yo creo que…, yo pienso que…, para mí…, en mi opinión…, tengo la impresión de que…",
+  "Liking: a mí me gusta, está muy rica (food), se ve mejor (it looks better).",
+  "A soft no: no sé, no creo. A firm one: no, para nada.",
+  "Not choosing: lo que tú quieras, me da igual, tú decide.",
+  "Before the truth: ¿la verdad?, la verdad…",
+  "Mexican spoken Spanish: ¿cómo me veo?, deja le pregunto, ajá, qué bueno."
+ ],
+ "questions": [
+  {
+   "q": "Emma wants Lucas's opinion of her salsa. What does she ask?",
+   "options": [
+    "¿Qué te parece?",
+    "¿Cómo me veo?",
+    "¿Te sirvo más?"
+   ],
+   "answer": 0,
+   "why": "¿Qué te parece? asks for an opinion. ¿Cómo me veo? asks how you look."
+  },
+  {
+   "q": "Why is Lucas red and crying?",
+   "options": [
+    "Es el calor.",
+    "La salsa pica mucho.",
+    "Es de la emoción."
+   ],
+   "answer": 1,
+   "why": "He blames the heat and his feelings, but in the end he asks for a glass of water."
+  },
+  {
+   "q": "Why does Emma think the shirt is perfect for the party?",
+   "options": [
+    "Es elegante.",
+    "Así Lucas no se pierde.",
+    "Es su color favorito."
+   ],
+   "answer": 1,
+   "why": "Así no te me pierdes: with flamingos on, he is easy to find."
+  },
+  {
+   "q": "Who decides where the armchair goes?",
+   "options": [
+    "Emma",
+    "Lucas",
+    "La mamá de Lucas"
+   ],
+   "answer": 2,
+   "why": "Mi mamá dice que el sillón va junto a la ventana. Lucas only agrees."
+  },
+  {
+   "q": "Which phrase means 'I don't mind'?",
+   "options": [
+    "No creo.",
+    "Me da igual.",
+    "Claro que sí."
+   ],
+   "answer": 1,
+   "why": "Me da igual: it's all the same to me. Emma says it, but she does not mean it."
+  }
+ ]
+}
