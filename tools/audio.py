@@ -20,7 +20,7 @@
     python -E tools/audio.py narrate <reading text>  read a reading text in one take (its "audio_file"), time every sentence in it,
                                                      and record its glossary words. --redo for a new take of the text
 
-<lesson> is course/strand/slug, e.g. fr/speaking/boulangerie.
+<lesson> is course/strand/slug, e.g. fr/speaking/f001_bakery.
 
 Wire: the lesson file's "aud_dir" is both the R2 folder and the folder under media/. Clips are
 01.mp3, 02.mp3 ... in reading order. Raw takes go to media/elevenlabs-raw/<aud_dir with _>/.

@@ -223,7 +223,7 @@ def main():
     a = sys.argv[1:]
     asked = not a
     if asked:
-        a = [input("Lesson (for example fr/speaking/daccord): ").strip()]
+        a = [input("Lesson (for example fr/speaking/f009_agree): ").strip()]
     if not a[0]:
         return
     L = audio.get(a[0])

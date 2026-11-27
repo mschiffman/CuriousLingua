@@ -1,0 +1,293 @@
+{
+ "code": "E8",
+ "scene": 8,
+ "was": ["concern"],
+ "title": "Are You Okay?",
+ "subtitle": "Four ways to show concern",
+ "level": "a2",
+ "topic": "Reactions",
+ "type": "dialogue",
+ "review": "Text and notes written by Claude: check them. No Burmese yet.",
+ "intro": "A sleepless night with a known cause, a bike accident and a very small dog, a dinner guest who does not arrive and a laptop that is 'resting': four short scenes between Emma and Lucas. Listen for how they ask what is wrong, and for the answers that say very little.",
+ "aud_dir": "eng/speaking/concern/",
+ "aud_ext": "mp3?v=2611251035",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/concern",
+  "eng/expressions/comfort"
+ ],
+ "sections": [
+  {
+   "title": "The Bad Night",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Hey. You look tired. Are you okay?",
+     "note": "You look + adjective: You look tired. Are you okay? is the first question to ask."
+    },
+    {
+     "who": "E",
+     "text": "I'm fine.",
+     "note": "I'm fine: the usual answer, even when it is not true."
+    },
+    {
+     "who": "L",
+     "text": "Are you sure? You don't look fine.",
+     "note": "Are you sure? Ask again when the person does not look fine."
+    },
+    {
+     "who": "E",
+     "text": "I didn't sleep at all.",
+     "note": "Not… at all = zero."
+    },
+    {
+     "who": "L",
+     "text": "Oh no. What's wrong? Do you want to talk about it?",
+     "note": "What's wrong? asks about the problem. Do you want to talk about it? offers to listen."
+    },
+    {
+     "who": "E",
+     "text": "Somebody snored all night.",
+     "note": "Snore: make a loud noise when you sleep."
+    },
+    {
+     "who": "L",
+     "text": "That's terrible. Who?",
+     "note": "That's terrible: for bad news."
+    },
+    {
+     "who": "E",
+     "text": "Take a guess.",
+     "note": "Take a guess = try to answer. She means: it was you."
+    }
+   ]
+  },
+  {
+   "title": "The Fall",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Lucas! What happened? Are you all right?",
+     "note": "What happened? asks about something that is finished. Are you all right? = Are you okay?"
+    },
+    {
+     "who": "L",
+     "text": "I fell off my bike.",
+     "note": "Fell off: past of fall off."
+    },
+    {
+     "who": "E",
+     "text": "Oh no! Does it hurt?",
+     "note": "Does it hurt? asks about pain in the body."
+    },
+    {
+     "who": "L",
+     "text": "My knee hurts. And my pride.",
+     "note": "My knee hurts. Pride: your good feeling about yourself."
+    },
+    {
+     "who": "E",
+     "text": "Poor thing. How did it happen?",
+     "note": "Poor thing! shows you feel sorry for the person. Friendly and informal."
+    },
+    {
+     "who": "L",
+     "text": "A dog ran in front of me. A huge dog.",
+     "note": "Ran: past of run. Huge = very, very big."
+    },
+    {
+     "who": "E",
+     "text": "This little guy?",
+     "note": "This little guy? She means the small dog."
+    },
+    {
+     "who": "L",
+     "text": "He looked bigger at the time.",
+     "note": "At the time = when it happened."
+    },
+    {
+     "who": "E",
+     "text": "Here's some ice. Is the dog okay?",
+     "note": "Ice: frozen water, good for a knee that hurts."
+    },
+    {
+     "who": "L",
+     "text": "… The dog is fine. Thanks for asking.",
+     "note": "Thanks for asking: polite. Here Lucas is not happy: she asked about the dog, not about him."
+    }
+   ]
+  },
+  {
+   "title": "The Empty Chair",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Paul is late. I'm worried.",
+     "note": "I'm worried: I think something bad happened."
+    },
+    {
+     "who": "L",
+     "text": "Me too. He's never late for dinner.",
+     "note": "Me too = I am worried too."
+    },
+    {
+     "who": "E",
+     "text": "Do you think something happened?",
+     "note": "Do you think something happened? = something bad."
+    },
+    {
+     "who": "L",
+     "text": "I hope not. Should we call him?",
+     "note": "I hope not = I hope nothing bad happened. Should we…? asks for advice."
+    },
+    {
+     "who": "E",
+     "text": "He's not answering. What if he's sick?",
+     "note": "What if…? imagines a bad possibility."
+    },
+    {
+     "who": "L",
+     "text": "Or lost.",
+     "note": "Lost: he cannot find the way."
+    },
+    {
+     "who": "E",
+     "text": "Wait. What day did you tell him?"
+    },
+    {
+     "who": "L",
+     "text": "Saturday."
+    },
+    {
+     "who": "E",
+     "text": "Lucas. Today is Friday."
+    },
+    {
+     "who": "L",
+     "text": "… So he's fine. That's a relief.",
+     "note": "That's a relief: said when the worry is over."
+    }
+   ]
+  },
+  {
+   "title": "The Laptop",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Emma… do you have a minute?",
+     "note": "Do you have a minute? = Can I talk to you?"
+    },
+    {
+     "who": "E",
+     "text": "What's wrong? You look worried.",
+     "note": "You look worried. What's wrong?"
+    },
+    {
+     "who": "L",
+     "text": "It's nothing. Don't worry.",
+     "note": "It's nothing = it is not serious. Don't worry = stop worrying."
+    },
+    {
+     "who": "E",
+     "text": "Now I'm worried. What's the matter?",
+     "note": "What's the matter? = What's wrong?"
+    },
+    {
+     "who": "L",
+     "text": "You know your laptop?"
+    },
+    {
+     "who": "E",
+     "text": "Lucas. What happened to my laptop?",
+     "note": "What happened to…? asks about a thing or a person."
+    },
+    {
+     "who": "L",
+     "text": "Nothing! It's just… resting.",
+     "note": "Resting: not working for a short time. The laptop is broken."
+    },
+    {
+     "who": "E",
+     "text": "Are you okay?"
+    },
+    {
+     "who": "L",
+     "text": "Me? I'm fine. Why?",
+     "note": "Why? = why do you ask?"
+    },
+    {
+     "who": "E",
+     "text": "Enjoy it while it lasts.",
+     "note": "While it lasts = for the short time it continues. Emma means: you will not be fine soon."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "First questions: Are you okay? Are you all right? What's wrong? What's the matter?",
+  "What happened? asks about something that is finished: a fall, an accident, bad news.",
+  "You look + adjective says what you notice: You look tired. You look worried.",
+  "Are you sure? asks again when someone says I'm fine but does not look fine.",
+  "I'm worried. What if…? Do you think something happened? are for a person who is not there.",
+  "Short answers: I'm fine. It's nothing. Don't worry. When the worry is over: That's a relief."
+ ],
+ "questions": [
+  {
+   "q": "Your friend is sitting on the ground next to his bike. What do you ask?",
+   "options": [
+    "What happened?",
+    "What if?",
+    "That's a relief."
+   ],
+   "answer": 0,
+   "why": "What happened? asks about something that is finished, like a fall."
+  },
+  {
+   "q": "“Are you okay?” “I'm fine.” Your friend does not look fine. What do you say?",
+   "options": [
+    "Are you sure?",
+    "Poor thing!",
+    "Thanks for asking."
+   ],
+   "answer": 0,
+   "why": "Are you sure? asks again, gently."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "options": [
+    "You look tiredly.",
+    "You look tired.",
+    "You are look tired."
+   ],
+   "answer": 1,
+   "why": "You look + adjective."
+  },
+  {
+   "q": "Paul is late and he is not answering his phone. What does Emma say?",
+   "options": [
+    "It's nothing.",
+    "I'm worried.",
+    "Take a guess."
+   ],
+   "answer": 1,
+   "why": "I'm worried = I think something bad happened."
+  },
+  {
+   "q": "Paul is fine: dinner is tomorrow. What does Lucas say?",
+   "options": [
+    "That's a relief.",
+    "That's terrible.",
+    "Does it hurt?"
+   ],
+   "answer": 0,
+   "why": "That's a relief: the worry is over."
+  }
+ ]
+}

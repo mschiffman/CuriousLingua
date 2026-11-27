@@ -1,0 +1,286 @@
+{
+ "code": "E10",
+ "scene": 10,
+ "was": ["at_the_market"],
+ "title": "At the Market",
+ "subtitle": "Four scenes at the farmers' market",
+ "level": "a2",
+ "topic": "Shops and food",
+ "type": "dialogue",
+ "review": "Written by Claude: check the English lines, the notes and the questions. No Burmese yet.",
+ "intro": "A shopping list that comes home slightly edited, a peach tested to destruction, a bargain that saves nothing and a stall that only takes cash: four short scenes between Emma and Lucas. Listen for the amounts, the prices, and what you say when it is time to pay.",
+ "aud_dir": "eng/speaking/at_the_market/",
+ "aud_ext": "mp3?v=2611260536",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/shopping"
+ ],
+ "sections": [
+  {
+   "title": "The List",
+   "lines": [
+    {
+     "who": "E",
+     "text": "So, did you go to the market?"
+    },
+    {
+     "who": "L",
+     "text": "Yes. Everything's in the basket."
+    },
+    {
+     "who": "E",
+     "text": "A pound of tomatoes?",
+     "note": "A pound of…: we say the amount, then of, then the food."
+    },
+    {
+     "who": "L",
+     "text": "A pound. Nice and ripe.",
+     "note": "Nice and ripe = pleasantly ripe. Ripe: ready to eat."
+    },
+    {
+     "who": "E",
+     "text": "A bunch of parsley?",
+     "note": "A bunch: herbs, flowers or bananas tied or growing together."
+    },
+    {
+     "who": "L",
+     "text": "Cilantro. Same thing.",
+     "note": "Same thing = it's the same. Cilantro is the American word; in Britain it's coriander."
+    },
+    {
+     "who": "E",
+     "text": "It's not the same thing at all. And the piece of cheddar?",
+     "note": "Not… at all: a strong no."
+    },
+    {
+     "who": "L",
+     "text": "There's a piece left.",
+     "note": "Left: still there, not eaten or used."
+    },
+    {
+     "who": "E",
+     "text": "What do you mean, \"left\"?",
+     "note": "What do you mean? asks for an explanation."
+    },
+    {
+     "who": "L",
+     "text": "I tried it before I bought it. And a little after.",
+     "note": "Try food = taste it to see if you like it."
+    }
+   ]
+  },
+  {
+   "title": "The Peaches",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Are these peaches ripe?"
+    },
+    {
+     "who": "E",
+     "text": "Stop touching everything.",
+     "note": "Stop + verb-ing: stop touching, stop talking."
+    },
+    {
+     "who": "L",
+     "text": "I'm just checking. This one's hard. So is this one.",
+     "note": "So is this one = this one is hard too."
+    },
+    {
+     "who": "E",
+     "text": "Is it for today or for tomorrow?"
+    },
+    {
+     "who": "L",
+     "text": "For tonight."
+    },
+    {
+     "who": "E",
+     "text": "Then you need a really ripe one.",
+     "note": "One replaces the noun: a ripe one = a ripe peach."
+    },
+    {
+     "who": "L",
+     "text": "This one's soft. Very soft."
+    },
+    {
+     "who": "E",
+     "text": "Of course it is. You've been squeezing it for five minutes.",
+     "note": "You've been squeezing: it started five minutes ago and has not stopped. Squeeze: press with your fingers."
+    },
+    {
+     "who": "L",
+     "text": "So it's ripe."
+    },
+    {
+     "who": "E",
+     "text": "It's bruised. And now it's ours.",
+     "note": "Bruised: damaged, with a soft dark spot. Ours = it belongs to us."
+    }
+   ]
+  },
+  {
+   "title": "Too Expensive",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Four dollars for a basket of strawberries! That's expensive.",
+     "note": "Expensive: it costs a lot. The opposite is cheap."
+    },
+    {
+     "who": "L",
+     "text": "They're organic, local, and in season.",
+     "note": "In season: it is the time of year when they grow."
+    },
+    {
+     "who": "E",
+     "text": "You're reading the sign."
+    },
+    {
+     "who": "L",
+     "text": "Hold on. I'm going to bargain.",
+     "note": "Hold on = wait. Bargain: ask the seller for a lower price."
+    },
+    {
+     "who": "E",
+     "text": "People don't really do that here.",
+     "note": "Not really = not much, not usually."
+    },
+    {
+     "who": "L",
+     "text": "Watch and learn. … There. Two baskets for eight dollars.",
+     "note": "Watch and learn: said by someone very sure of himself."
+    },
+    {
+     "who": "E",
+     "text": "Lucas. That's the same price."
+    },
+    {
+     "who": "L",
+     "text": "Yes, but now we have two."
+    },
+    {
+     "who": "E",
+     "text": "And four dollars less.",
+     "note": "Less: a smaller amount. The opposite is more."
+    }
+   ]
+  },
+  {
+   "title": "Cash Only",
+   "lines": [
+    {
+     "who": "E",
+     "text": "That comes to twelve fifty.",
+     "note": "That comes to… = the total is… Twelve fifty = $12.50."
+    },
+    {
+     "who": "L",
+     "text": "I'll pay by card.",
+     "note": "Pay by card, but pay in cash."
+    },
+    {
+     "who": "E",
+     "text": "He doesn't take cards. Cash only.",
+     "note": "He is the seller. Take cards = accept cards."
+    },
+    {
+     "who": "L",
+     "text": "Not even tap to pay?",
+     "note": "Not even: it makes the no stronger. Tap to pay: you touch the machine with your card or phone."
+    },
+    {
+     "who": "E",
+     "text": "Lucas. His scale is older than you are.",
+     "note": "A scale weighs the fruit and vegetables."
+    },
+    {
+     "who": "L",
+     "text": "Fine. I've got a fifty.",
+     "note": "A fifty = a fifty-dollar bill."
+    },
+    {
+     "who": "E",
+     "text": "He can't break a fifty. Do you have anything smaller?",
+     "note": "Break a fifty: give change for it. Anything smaller: smaller bills or coins."
+    },
+    {
+     "who": "L",
+     "text": "I have two dollars… and a button."
+    },
+    {
+     "who": "E",
+     "text": "Never mind. I'll pay. You owe me twelve fifty and a button.",
+     "note": "Never mind = forget it. Owe: you must pay it back."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Amounts take of: a pound of tomatoes, a bunch of parsley, a piece of cheese, a basket of strawberries.",
+  "One replaces a noun you have already said: this one, a ripe one.",
+  "For fruit: ripe (ready to eat), hard, soft, bruised (damaged).",
+  "Prices: four dollars for a basket, two for eight dollars. That comes to twelve fifty = the total is $12.50.",
+  "To pay: by card, in cash, tap to pay. Cash only = no cards.",
+  "He can't break a fifty = he has no change for a fifty-dollar bill."
+ ],
+ "questions": [
+  {
+   "q": "Lucas bought cilantro, not parsley. What does he say?",
+   "options": [
+    "Same thing.",
+    "Nice and ripe.",
+    "Hold on."
+   ],
+   "answer": 0,
+   "why": "Same thing = it's the same. Emma answers: It's not the same thing at all."
+  },
+  {
+   "q": "The peach is for tonight. What does Lucas need?",
+   "options": [
+    "A hard one",
+    "A really ripe one",
+    "A bruised one"
+   ],
+   "answer": 1,
+   "why": "Emma says: Then you need a really ripe one."
+  },
+  {
+   "q": "Why is the peach soft?",
+   "options": [
+    "It is in season.",
+    "It is organic.",
+    "Lucas has been squeezing it."
+   ],
+   "answer": 2,
+   "why": "Emma says: You've been squeezing it for five minutes."
+  },
+  {
+   "q": "Lucas bargains and gets two baskets for eight dollars. How much does he save?",
+   "options": [
+    "Four dollars",
+    "Eight dollars",
+    "Nothing"
+   ],
+   "answer": 2,
+   "why": "One basket is four dollars, so two are eight: that's the same price."
+  },
+  {
+   "q": "The seller does not take cards. How do they have to pay?",
+   "options": [
+    "In cash",
+    "By card",
+    "With tap to pay"
+   ],
+   "answer": 0,
+   "why": "Emma says: He doesn't take cards. Cash only."
+  }
+ ]
+}

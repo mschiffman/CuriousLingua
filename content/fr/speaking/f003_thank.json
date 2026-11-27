@@ -1,0 +1,288 @@
+{
+ "code": "F3",
+ "scene": 3,
+ "was": ["merci"],
+ "title": "Merci !",
+ "subtitle": "Four ways to say thank you",
+ "level": "a1",
+ "level_provisional": true,
+ "topic": "Greetings and politeness",
+ "type": "dialogue",
+ "register": "informal with friends (tu), polite with strangers (vous)",
+ "review": "Draft written by Claude. Check the text before recording audio.",
+ "intro": "A present, a bakery, a dinner, a stranger in the street: four short scenes, and a different thank-you in each. Listen for who says tu and who says vous.",
+ "aud_dir": "fr/speaking/merci/",
+ "aud_ext": "mp3?v=2611221822",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas",
+  "B": "Boulanger",
+  "M": "Monsieur"
+ },
+ "voice": {
+  "E": "kpdfx4lSypfQFBq4eDa2",
+  "L": "raorKQeRhtnNgyXX4Iqm",
+  "B": "fUzMXGEwYWmfjFB2ZfeA",
+  "M": "fUzMXGEwYWmfjFB2ZfeA"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "fr/expressions/thank"
+ ],
+ "sections": [
+  {
+   "title": "Le cadeau",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Bon anniversaire, Emma ! Tiens, c'est pour toi.",
+     "tr": {
+      "en": "Happy birthday, Emma! Here, this is for you."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Oh ! Un cadeau ? Qu'est-ce que c'est ?",
+     "tr": {
+      "en": "Oh! A present? What is it?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Ouvre-le !",
+     "tr": {
+      "en": "Open it!"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Une écharpe ! Elle est magnifique. Merci beaucoup !",
+     "tr": {
+      "en": "A scarf! It's gorgeous. Thanks a lot!"
+     }
+    },
+    {
+     "who": "L",
+     "text": "De rien. Le bleu, c'est ta couleur.",
+     "tr": {
+      "en": "You're welcome. Blue is your colour."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Je l'adore. Merci, Lucas !",
+     "tr": {
+      "en": "I love it. Thank you, Lucas!"
+     }
+    }
+   ]
+  },
+  {
+   "title": "À la boulangerie",
+   "lines": [
+    {
+     "who": "B",
+     "text": "Bonjour, madame ! Vous désirez ?",
+     "tr": {
+      "en": "Hello! What would you like?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Bonjour ! Une baguette et deux croissants, s'il vous plaît.",
+     "tr": {
+      "en": "Hello! A baguette and two croissants, please."
+     }
+    },
+    {
+     "who": "B",
+     "text": "Voilà. Et avec ceci ?",
+     "tr": {
+      "en": "Here you are. Anything else?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "C'est tout, merci.",
+     "tr": {
+      "en": "That's all, thanks."
+     }
+    },
+    {
+     "who": "B",
+     "text": "Ça fait trois euros cinquante.",
+     "tr": {
+      "en": "That's three euros fifty."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Voilà. Merci, bonne journée !",
+     "tr": {
+      "en": "Here you go. Thank you, have a nice day!"
+     }
+    },
+    {
+     "who": "B",
+     "text": "Merci à vous ! Au revoir !",
+     "tr": {
+      "en": "Thank you! Goodbye!"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Après le dîner",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Il est tard. Je dois partir.",
+     "tr": {
+      "en": "It's late. I have to go."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Déjà ? Tu veux un dernier café ?",
+     "tr": {
+      "en": "Already? Would you like one last coffee?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Non merci, c'est gentil. Le dîner était délicieux !",
+     "tr": {
+      "en": "No thanks, that's kind of you. Dinner was delicious!"
+     },
+     "note": "était = was. The one verb in the past here: c'était délicieux is worth learning whole."
+    },
+    {
+     "who": "E",
+     "text": "Merci ! Ça me fait plaisir.",
+     "tr": {
+      "en": "Thank you! I'm glad."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Merci pour tout, Emma.",
+     "tr": {
+      "en": "Thanks for everything, Emma."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Avec plaisir. Rentre bien !",
+     "tr": {
+      "en": "My pleasure. Get home safely!"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Encore merci ! Bonne nuit !",
+     "tr": {
+      "en": "Thanks again! Good night!"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Dans la rue",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Excusez-moi, monsieur. Je cherche la gare.",
+     "tr": {
+      "en": "Excuse me, sir. I'm looking for the station."
+     }
+    },
+    {
+     "who": "M",
+     "text": "La gare ? C'est tout droit, puis à gauche.",
+     "tr": {
+      "en": "The station? It's straight ahead, then left."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Tout droit, puis à gauche. C'est loin ?",
+     "tr": {
+      "en": "Straight ahead, then left. Is it far?"
+     }
+    },
+    {
+     "who": "M",
+     "text": "Non, cinq minutes à pied.",
+     "tr": {
+      "en": "No, five minutes on foot."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Je vous remercie, monsieur.",
+     "tr": {
+      "en": "Thank you, sir."
+     }
+    },
+    {
+     "who": "M",
+     "text": "Je vous en prie. Bonne journée !",
+     "tr": {
+      "en": "You're welcome. Have a nice day!"
+     }
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "With friends: merci, merci beaucoup, and the answers de rien or avec plaisir.",
+  "With strangers: je vous remercie is more formal than merci. The polite answer is je vous en prie (with a friend: je t'en prie).",
+  "C'est tout, merci answers « Et avec ceci ? » in a shop: 'That's all, thanks.'",
+  "Merci à vous returns the thanks: 'No, thank YOU.'",
+  "Merci pour tout closes a visit or a long favour. Encore merci is for when you have already said thank you once."
+ ],
+ "questions": [
+  {
+   "q": "Lucas thanks a man he does not know. What does he say?",
+   "options": [
+    "Je vous remercie, monsieur.",
+    "Merci pour tout.",
+    "De rien."
+   ],
+   "answer": 0,
+   "why": "Je vous remercie is the formal thank-you, for strangers and for people you say vous to."
+  },
+  {
+   "q": "The baker asks « Et avec ceci ? ». Emma wants nothing more. What does she say?",
+   "options": [
+    "Encore merci.",
+    "C'est tout, merci.",
+    "Avec plaisir."
+   ],
+   "answer": 1,
+   "why": "C'est tout, merci = 'That's all, thanks.'"
+  },
+  {
+   "q": "A friend says « Merci beaucoup ! ». Which answer fits?",
+   "options": [
+    "Je vous remercie.",
+    "Merci à tous.",
+    "De rien."
+   ],
+   "answer": 2,
+   "why": "De rien = 'You're welcome', between friends. More polite: je vous en prie."
+  },
+  {
+   "q": "Lucas has already said thank you. At the door he says it once more. Which words does he use?",
+   "options": [
+    "Encore merci !",
+    "C'est tout, merci.",
+    "Merci à vous !"
+   ],
+   "answer": 0,
+   "why": "Encore merci = 'Thanks again', a warm way to sign off."
+  }
+ ]
+}

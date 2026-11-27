@@ -1,0 +1,310 @@
+{
+ "code": "E11",
+ "scene": 11,
+ "was": ["not_feeling_well"],
+ "title": "Not Feeling Well",
+ "subtitle": "Four scenes about small health problems",
+ "level": "a2",
+ "topic": "Health",
+ "type": "dialogue",
+ "review": "Written by Claude: check the English lines, the notes and the questions. No Burmese yet.",
+ "intro": "A cold that might be the end, a headache that needs a quiet room, a back hurt by a sock and a recovery timed to the minute: four short scenes between Emma and Lucas. Listen for I have a…, for the advice with you should, and for how you say that you feel better.",
+ "aud_dir": "eng/speaking/not_feeling_well/",
+ "aud_ext": "mp3?v=2611261503",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/health"
+ ],
+ "sections": [
+  {
+   "title": "The Cold",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Emma, I don't feel well.",
+     "note": "The everyday way to say you are sick. Also: I'm not feeling well."
+    },
+    {
+     "who": "E",
+     "text": "What's the matter?",
+     "note": "= What's wrong? Answer with the problem: I have a…"
+    },
+    {
+     "who": "L",
+     "text": "I have a sore throat. And a runny nose. And a cough.",
+     "note": "Sore: it hurts. Runny nose: water keeps coming from it. Cough sounds like koff."
+    },
+    {
+     "who": "E",
+     "text": "So, a cold.",
+     "note": "A cold, with a. I have cold is wrong: I'm cold means the room is cold."
+    },
+    {
+     "who": "L",
+     "text": "I think it's more serious than that.",
+     "note": "Serious: bad, maybe dangerous. More serious than…"
+    },
+    {
+     "who": "E",
+     "text": "Do you have a fever?",
+     "note": "A fever: your body is too hot."
+    },
+    {
+     "who": "L",
+     "text": "Thirty-seven point two.",
+     "note": "37.2 in Celsius. The dot is said point. Normal is about 37; a fever starts around 38."
+    },
+    {
+     "who": "E",
+     "text": "That's not a fever. That's a person.",
+     "note": "She means: 37.2 is what every healthy person has."
+    },
+    {
+     "who": "L",
+     "text": "Tell my mother I loved her.",
+     "note": "Tell + person + the message. Loved, in the past: he talks as if he were already gone."
+    },
+    {
+     "who": "E",
+     "text": "Tell her yourself. She's calling at six.",
+     "note": "Yourself: you, not me. She's calling at six: a plan for later today."
+    }
+   ]
+  },
+  {
+   "title": "The Headache",
+   "lines": [
+    {
+     "who": "E",
+     "text": "I have a headache.",
+     "note": "Headache, stomachache, toothache: one word, with -ache. It sounds like ake."
+    },
+    {
+     "who": "L",
+     "text": "Since when?",
+     "note": "= When did it start?"
+    },
+    {
+     "who": "E",
+     "text": "Since this morning.",
+     "note": "Since + the time it started: since Monday, since yesterday."
+    },
+    {
+     "who": "L",
+     "text": "Have you tried drinking water?",
+     "note": "Have you tried + verb-ing: a gentle way to give advice."
+    },
+    {
+     "who": "E",
+     "text": "Yes."
+    },
+    {
+     "who": "L",
+     "text": "Fresh air?",
+     "note": "Short for Have you tried fresh air? Fresh air: the air outside."
+    },
+    {
+     "who": "E",
+     "text": "Yes."
+    },
+    {
+     "who": "L",
+     "text": "You should lie down in a quiet room.",
+     "note": "You should + verb: advice. Lie down: rest flat on a bed or a sofa."
+    },
+    {
+     "who": "E",
+     "text": "Good idea. Which room will you be in?",
+     "note": "She wants the room without Lucas in it."
+    }
+   ]
+  },
+  {
+   "title": "The Back",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Ow! My back!",
+     "note": "Ow! or Ouch!: what you say when something hurts."
+    },
+    {
+     "who": "E",
+     "text": "What happened?",
+     "note": "Asks about something that is over: a fall, an accident."
+    },
+    {
+     "who": "L",
+     "text": "I picked something up. Something heavy.",
+     "note": "Pick up: take from the floor. Heavy: hard to lift."
+    },
+    {
+     "who": "E",
+     "text": "What was it?"
+    },
+    {
+     "who": "L",
+     "text": "It's not important."
+    },
+    {
+     "who": "E",
+     "text": "Lucas."
+    },
+    {
+     "who": "L",
+     "text": "A sock."
+    },
+    {
+     "who": "E",
+     "text": "One sock?",
+     "note": "One, not a: she can't believe the number."
+    },
+    {
+     "who": "L",
+     "text": "It was wet.",
+     "note": "Wet: with water in it. The opposite is dry."
+    },
+    {
+     "who": "E",
+     "text": "You should see a doctor.",
+     "note": "See a doctor: go for help. Not: meet a doctor."
+    },
+    {
+     "who": "L",
+     "text": "And tell him what?",
+     "note": "= What can I say to him?"
+    },
+    {
+     "who": "E",
+     "text": "The truth. He needs a laugh too.",
+     "note": "The truth: what really happened. Need a laugh: need something funny."
+    }
+   ]
+  },
+  {
+   "title": "Feeling Better",
+   "lines": [
+    {
+     "who": "E",
+     "text": "How do you feel today?",
+     "note": "Also: How are you feeling?"
+    },
+    {
+     "who": "L",
+     "text": "A little better. But I'm still very weak.",
+     "note": "Better: less sick than before. Weak: not strong. Still: it hasn't changed."
+    },
+    {
+     "who": "E",
+     "text": "Did you take your medicine?",
+     "note": "Take medicine. Not: eat or drink medicine."
+    },
+    {
+     "who": "L",
+     "text": "Twice a day, after meals.",
+     "note": "Once a day, twice a day, three times a day. A meal: breakfast, lunch or dinner."
+    },
+    {
+     "who": "E",
+     "text": "Good. Can you do the dishes?",
+     "note": "Do the dishes: wash the plates, cups and pans."
+    },
+    {
+     "who": "L",
+     "text": "Oh no. I feel dizzy.",
+     "note": "Dizzy: everything seems to turn around you."
+    },
+    {
+     "who": "E",
+     "text": "Too bad. Paul called. Football at four.",
+     "note": "Too bad = that's a pity. Football: soccer, in American English."
+    },
+    {
+     "who": "L",
+     "text": "What time is it?"
+    },
+    {
+     "who": "E",
+     "text": "Three thirty.",
+     "note": "= half past three, 3:30."
+    },
+    {
+     "who": "L",
+     "text": "It's a miracle. I feel much better.",
+     "note": "A miracle: a wonderful thing nobody can explain. Much better: a lot better."
+    },
+    {
+     "who": "E",
+     "text": "Wonderful. The dishes take twenty minutes.",
+     "note": "Take + time: how long something needs."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Sickness takes a: I have a cold, a fever, a cough, a headache, a sore throat, a runny nose.",
+  "Feeling: I don't feel well, I feel dizzy, I feel weak, I feel a little better, I feel much better.",
+  "Pain: my back hurts, my leg hurts. Or with -ache: a headache, a stomachache, a toothache.",
+  "Advice: you should + verb. You should lie down. You should see a doctor. Softer: Have you tried drinking water?",
+  "Medicine: take your medicine once a day, twice a day, three times a day, after meals.",
+  "Temperature: 37.2 is thirty-seven point two. In Celsius, about 37 is normal and 38 is a fever."
+ ],
+ "questions": [
+  {
+   "q": "Lucas has a temperature of 37.2. What does Emma think?",
+   "options": [
+    "It is very serious.",
+    "It is not a fever.",
+    "He must call his mother."
+   ],
+   "answer": 1,
+   "why": "37.2 is normal. Emma says: That's not a fever. That's a person."
+  },
+  {
+   "q": "Emma has a headache. What is Lucas's advice?",
+   "options": [
+    "Lie down in a quiet room.",
+    "See a doctor.",
+    "Do the dishes."
+   ],
+   "answer": 0,
+   "why": "You should lie down in a quiet room. The doctor is for his back."
+  },
+  {
+   "q": "What did Lucas pick up?",
+   "options": [
+    "A heavy box",
+    "A basket",
+    "One wet sock"
+   ],
+   "answer": 2,
+   "why": "Something heavy… a sock. It was wet."
+  },
+  {
+   "q": "When does Lucas take his medicine?",
+   "options": [
+    "Once a day",
+    "Twice a day, after meals",
+    "Before football"
+   ],
+   "answer": 1,
+   "why": "Twice a day, after meals."
+  },
+  {
+   "q": "Why does Lucas suddenly feel much better?",
+   "options": [
+    "There is football at four.",
+    "He did the dishes.",
+    "He saw a doctor."
+   ],
+   "answer": 0,
+   "why": "Paul called: football at four. The miracle comes right after."
+  }
+ ]
+}

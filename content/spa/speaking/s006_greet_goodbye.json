@@ -1,0 +1,386 @@
+{
+ "code": "S6",
+ "scene": 6,
+ "was": ["hola"],
+ "title": "¡Hola!",
+ "subtitle": "Four ways to say hello and goodbye",
+ "level": "a2",
+ "topic": "Greetings and politeness",
+ "type": "dialogue",
+ "register": "casual (tú), a couple at home, Mexican Spanish",
+ "review": "Written by Claude in Latin American (Mexican) Spanish. Check the Spanish, the English lines, the notes and the questions.",
+ "intro": "A phone call from the next room, an honest answer to 'how are you?', a trip to the store that may last until tomorrow, and a goodbye with seven aunts in the way: four short scenes between Emma and Lucas. Listen for which greeting fits which moment, and for the small words Mexico adds: ¿bueno?, ahorita, al rato.",
+ "aud_dir": "spa/speaking/hola/",
+ "aud_ext": "mp3?v=2611261021",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "4qaUMumO0kUQd7YZ1NQS",
+  "L": "KI5S3fgy5fbTpczRhibw"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "spa/expressions/greetings"
+ ],
+ "sections": [
+  {
+   "title": "¿Bueno?",
+   "lines": [
+    {
+     "who": "L",
+     "text": "¿Bueno?",
+     "tr": {
+      "en": "Hello?"
+     },
+     "note": "How Mexicans answer the phone. Nowhere else, and never face to face."
+    },
+    {
+     "who": "E",
+     "text": "Hola, buenos días.",
+     "tr": {
+      "en": "Hi, good morning."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Buenos días. ¿Quién habla?",
+     "tr": {
+      "en": "Good morning. Who's this?"
+     },
+     "note": "¿Quién habla?: who is speaking?"
+    },
+    {
+     "who": "E",
+     "text": "Emma. Tu esposa.",
+     "tr": {
+      "en": "Emma. Your wife."
+     }
+    },
+    {
+     "who": "L",
+     "text": "Ah, hola, mi amor. ¿Dónde estás?",
+     "tr": {
+      "en": "Oh, hi, honey. Where are you?"
+     },
+     "note": "Mi amor: the everyday 'honey' between couples."
+    },
+    {
+     "who": "E",
+     "text": "En la cocina.",
+     "tr": {
+      "en": "In the kitchen."
+     }
+    },
+    {
+     "who": "L",
+     "text": "¿Y por qué me llamas por teléfono?",
+     "tr": {
+      "en": "Then why are you phoning me?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "Porque te dije «buenos días» tres veces y no contestaste.",
+     "tr": {
+      "en": "Because I said good morning three times and you didn't answer."
+     },
+     "note": "Contestar: to answer."
+    },
+    {
+     "who": "L",
+     "text": "Perdón. Traigo los audífonos.",
+     "tr": {
+      "en": "Sorry. I've got my headphones on."
+     },
+     "note": "Traer: to bring, and in Mexico also to be wearing or carrying."
+    },
+    {
+     "who": "E",
+     "text": "Ya vi. El desayuno estaba listo.",
+     "tr": {
+      "en": "So I see. Breakfast was ready."
+     },
+     "note": "Estaba: was. The past tense is the whole message."
+    }
+   ]
+  },
+  {
+   "title": "¿Cómo estás?",
+   "lines": [
+    {
+     "who": "E",
+     "text": "¡Hola! ¿Cómo estás?",
+     "tr": {
+      "en": "Hi! How are you?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Mal. Dormí poco, me duele la espalda y no hay café.",
+     "tr": {
+      "en": "Bad. I hardly slept, my back hurts and there's no coffee."
+     },
+     "note": "Me duele…: my … hurts. No hay: there isn't any."
+    },
+    {
+     "who": "E",
+     "text": "Lucas. Era un saludo.",
+     "tr": {
+      "en": "Lucas. It was a greeting."
+     },
+     "note": "Un saludo: a greeting. Saludar: to greet."
+    },
+    {
+     "who": "L",
+     "text": "Ah. ¿Otra vez?",
+     "tr": {
+      "en": "Oh. Again?"
+     },
+     "note": "Otra vez: once more."
+    },
+    {
+     "who": "E",
+     "text": "Hola, ¿cómo estás?",
+     "tr": {
+      "en": "Hi, how are you?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Bien, gracias. ¿Y tú?",
+     "tr": {
+      "en": "Fine, thanks. And you?"
+     },
+     "note": "The answer everyone expects."
+    },
+    {
+     "who": "E",
+     "text": "Muy bien. ¿Ves qué fácil?",
+     "tr": {
+      "en": "Very well. See how easy that is?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Sí. Pero todavía no hay café.",
+     "tr": {
+      "en": "Yes. But there's still no coffee."
+     },
+     "note": "Todavía: still."
+    }
+   ]
+  },
+  {
+   "title": "Ahorita vengo",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Bueno, ya me voy. Ahorita vengo.",
+     "tr": {
+      "en": "Right, I'm off. I'll be right back."
+     },
+     "note": "Ya me voy: I'm leaving now. Ahorita vengo: I'll be right back."
+    },
+    {
+     "who": "E",
+     "text": "¿A dónde vas?",
+     "tr": {
+      "en": "Where are you going?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "A la tienda. No me tardo.",
+     "tr": {
+      "en": "To the store. I won't be long."
+     },
+     "note": "Tardarse: to take a long time."
+    },
+    {
+     "who": "E",
+     "text": "¿«Ahorita» de cinco minutos o «ahorita» de tres horas?",
+     "tr": {
+      "en": "'Right back' as in five minutes, or as in three hours?"
+     },
+     "note": "Ahorita: right now, soon, or some day. Every Mexican knows the difference by the tone."
+    },
+    {
+     "who": "L",
+     "text": "Ahorita.",
+     "tr": {
+      "en": "Right back."
+     }
+    },
+    {
+     "who": "E",
+     "text": "Entonces nos vemos mañana.",
+     "tr": {
+      "en": "Then see you tomorrow."
+     },
+     "note": "Nos vemos + when: see you…"
+    },
+    {
+     "who": "L",
+     "text": "¡Qué exagerada! Nos vemos al rato.",
+     "tr": {
+      "en": "Don't exaggerate! See you in a bit."
+     },
+     "note": "Al rato: in a while. To a man: ¡qué exagerado!"
+    },
+    {
+     "who": "E",
+     "text": "Cuídate. Y salúdame a tu compadre.",
+     "tr": {
+      "en": "Take care. And say hi to your buddy for me."
+     },
+     "note": "Salúdame a…: say hello to … for me. Compadre: a close friend."
+    },
+    {
+     "who": "L",
+     "text": "¿Cómo sabes que…? De tu parte.",
+     "tr": {
+      "en": "How do you know that…? I will."
+     },
+     "note": "De tu parte is the set reply to salúdame a…: 'on your behalf'."
+    }
+   ]
+  },
+  {
+   "title": "Ya nos vamos",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Lucas, ya vámonos. Es tarde.",
+     "tr": {
+      "en": "Lucas, let's go now. It's late."
+     },
+     "note": "Vámonos: let's go. Ya makes it 'now'."
+    },
+    {
+     "who": "L",
+     "text": "Sí. Ya me despedí.",
+     "tr": {
+      "en": "Yes. I've already said goodbye."
+     },
+     "note": "Despedirse: to say goodbye."
+    },
+    {
+     "who": "E",
+     "text": "Te despediste hace una hora.",
+     "tr": {
+      "en": "You said goodbye an hour ago."
+     },
+     "note": "Hace + a time: … ago."
+    },
+    {
+     "who": "L",
+     "text": "Me faltan mis tías.",
+     "tr": {
+      "en": "I still have my aunts to go."
+     },
+     "note": "Me faltan…: I still have … left."
+    },
+    {
+     "who": "E",
+     "text": "¿Cuántas tías tienes?",
+     "tr": {
+      "en": "How many aunts do you have?"
+     }
+    },
+    {
+     "who": "L",
+     "text": "Siete. Y todas quieren un abrazo.",
+     "tr": {
+      "en": "Seven. And they all want a hug."
+     },
+     "note": "Un abrazo: a hug. Nobody leaves a Mexican family party without one from everybody."
+    },
+    {
+     "who": "E",
+     "text": "Bueno. Hasta luego, entonces.",
+     "tr": {
+      "en": "OK. See you later, then."
+     }
+    },
+    {
+     "who": "L",
+     "text": "¿A dónde vas?",
+     "tr": {
+      "en": "Where are you going?"
+     }
+    },
+    {
+     "who": "E",
+     "text": "A dormir en el coche. Buenas noches.",
+     "tr": {
+      "en": "To sleep in the car. Good night."
+     }
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Hello by the clock: buenos días until noon, buenas tardes until dark, buenas noches after dark and at bedtime. Hola works all day.",
+  "¿Cómo estás? is a greeting more than a question. The expected answer is bien, gracias, ¿y tú?",
+  "¿Bueno? is only for answering the phone, and only in Mexico.",
+  "Leaving: ya me voy (I'm leaving), ya vámonos (let's go), ahorita vengo (I'll be right back), no me tardo (I won't be long).",
+  "Goodbyes: nos vemos, nos vemos al rato, hasta luego, hasta mañana, cuídate.",
+  "Salúdame a tu mamá: say hi to your mom for me. The reply is de tu parte."
+ ],
+ "questions": [
+  {
+   "q": "The phone rings in Mexico. What does Lucas say when he answers?",
+   "options": [
+    "¿Bueno?",
+    "¿Mande?",
+    "Adiós."
+   ],
+   "answer": 0,
+   "why": "¿Bueno? is the Mexican 'hello?' on the phone."
+  },
+  {
+   "q": "« ¿Cómo estás? » What answer does Emma expect?",
+   "options": [
+    "Mal. Me duele la espalda.",
+    "Bien, gracias. ¿Y tú?",
+    "Ahorita."
+   ],
+   "answer": 1,
+   "why": "It is a greeting. The usual reply is bien, gracias, ¿y tú?"
+  },
+  {
+   "q": "Lucas says he will be right back. What does he say?",
+   "options": [
+    "Ya me despedí.",
+    "Hasta mañana.",
+    "Ahorita vengo."
+   ],
+   "answer": 2,
+   "why": "Ahorita vengo = I'll be right back. How soon is another matter."
+  },
+  {
+   "q": "« Salúdame a tu compadre. » What is the set reply?",
+   "options": [
+    "De tu parte.",
+    "De nada.",
+    "Con permiso."
+   ],
+   "answer": 0,
+   "why": "De tu parte: I will say hello on your behalf."
+  },
+  {
+   "q": "Why can't Lucas leave the party?",
+   "options": [
+    "He has lost the car keys.",
+    "He still has seven aunts to say goodbye to.",
+    "He is waiting for coffee."
+   ],
+   "answer": 1,
+   "why": "Me faltan mis tías: I still have my aunts to go. They all want a hug."
+  }
+ ]
+}

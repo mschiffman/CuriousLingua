@@ -1,0 +1,529 @@
+{
+ "code": "J11",
+ "scene": 11,
+ "was": ["not_feeling_well"],
+ "title": "Not Feeling Well",
+ "subtitle": "かぜ・ずつう・ぎっくりごし",
+ "level": "a2",
+ "topic": "Health",
+ "type": "dialogue",
+ "register": "casual, a couple at home",
+ "review": "Written by Claude. The Japanese, the romaji and the humor have not been checked by a Japanese speaker. English support only: no Burmese lines yet.",
+ "intro": "A slight fever that will not stop a man from going to the office, a headache and grandmother's cures, a back thrown out by a sneeze, and an appetite that comes back for ramen only: four short scenes between Emi and Riku. Listen for ga itai when something hurts, for the advice with hō ga ii, and for how you say you feel a little better.",
+ "aud_dir": "jap/speaking/not_feeling_well/",
+ "aud_ext": "mp3?v=2611261521",
+ "speakers": {
+  "E": "Emi",
+  "R": "Riku"
+ },
+ "voice": {
+  "E": "ilBjLtdEW3SkjRXakAkO",
+  "R": "v91rKRL5eccBa78cK3jT"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "jap/expressions/health"
+ ],
+ "sections": [
+  {
+   "title": "Kaze",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Emi, chotto guai ga warui.",
+     "kana": "エミ、ちょっとぐあいがわるい。",
+     "say": "エミ、ちょっと具合が悪い。",
+     "tr": {
+      "en": "Emi, I don't feel so good."
+     },
+     "note": "Guai ga warui: to feel unwell. Chotto, a little, makes it softer."
+    },
+    {
+     "who": "E",
+     "romaji": "Dō shita no?",
+     "kana": "どうしたの？",
+     "tr": {
+      "en": "What's wrong?"
+     },
+     "note": "The everyday question when someone looks unwell or upset."
+    },
+    {
+     "who": "R",
+     "romaji": "Nodo ga itai. Hanamizu mo deru. Seki mo deru.",
+     "kana": "のどがいたい。はなみずもでる。せきもでる。",
+     "say": "喉が痛い。鼻水も出る。咳も出る。",
+     "tr": {
+      "en": "My throat hurts. My nose is running. And I'm coughing."
+     },
+     "note": "Part of the body + ga itai: it hurts. Hanamizu ga deru, seki ga deru: a runny nose, a cough come out. Mo: also."
+    },
+    {
+     "who": "E",
+     "romaji": "Netsu wa?",
+     "kana": "ねつは？",
+     "say": "熱は？",
+     "tr": {
+      "en": "Fever?"
+     },
+     "note": "Netsu: fever. Netsu ga aru: to have a fever."
+    },
+    {
+     "who": "R",
+     "romaji": "Sanjūnana-do ni-bu.",
+     "kana": "さんじゅうななどにぶ。",
+     "tr": {
+      "en": "Thirty-seven point two."
+     },
+     "note": "Body temperature is said in do (degrees) and bu (tenths): 37.2 = sanjūnana-do ni-bu."
+    },
+    {
+     "who": "E",
+     "romaji": "Binetsu da ne.",
+     "kana": "びねつだね。",
+     "say": "微熱だね。",
+     "tr": {
+      "en": "A slight fever."
+     },
+     "note": "Binetsu: a slight fever. In Japan people take 37 and a bit seriously."
+    },
+    {
+     "who": "R",
+     "romaji": "Binetsu… Mō dame kamo shirenai.",
+     "kana": "びねつ…もうだめかもしれない。",
+     "say": "微熱…もうだめかもしれない。",
+     "tr": {
+      "en": "A slight fever… I may not make it."
+     },
+     "note": "Mō dame: it's all over. Kamo shirenai: maybe."
+    },
+    {
+     "who": "E",
+     "romaji": "Kaisha, yasumu?",
+     "kana": "かいしゃ、やすむ？",
+     "say": "会社、休む？",
+     "tr": {
+      "en": "Are you taking the day off work?"
+     },
+     "note": "Kaisha: the company, the office. Yasumu: to rest, to take time off."
+    },
+    {
+     "who": "R",
+     "romaji": "Iya, iku.",
+     "kana": "いや、いく。",
+     "say": "いや、行く。",
+     "tr": {
+      "en": "No, I'm going."
+     },
+     "note": "Iya: a casual no. Iku: to go."
+    },
+    {
+     "who": "E",
+     "romaji": "Jā, genki jan.",
+     "kana": "じゃあ、げんきじゃん。",
+     "say": "じゃあ、元気じゃん。",
+     "tr": {
+      "en": "Then you're fine."
+     },
+     "note": "Genki: well, healthy. Jan is casual: see, you are!"
+    }
+   ]
+  },
+  {
+   "title": "Zutsū",
+   "lines": [
+    {
+     "who": "E",
+     "romaji": "Atama ga itai.",
+     "kana": "あたまがいたい。",
+     "say": "頭が痛い。",
+     "tr": {
+      "en": "I have a headache."
+     },
+     "note": "Atama: head. The noun for a headache is zutsū."
+    },
+    {
+     "who": "R",
+     "romaji": "Itsu kara?",
+     "kana": "いつから？",
+     "tr": {
+      "en": "Since when?"
+     },
+     "note": "Itsu: when. Kara: from, since."
+    },
+    {
+     "who": "E",
+     "romaji": "Kesa kara.",
+     "kana": "けさから。",
+     "say": "今朝から。",
+     "tr": {
+      "en": "Since this morning."
+     },
+     "note": "Kesa: this morning."
+    },
+    {
+     "who": "R",
+     "romaji": "Kusuri, nonda?",
+     "kana": "くすり、のんだ？",
+     "say": "薬、飲んだ？",
+     "tr": {
+      "en": "Did you take medicine?"
+     },
+     "note": "Kusuri o nomu: to take medicine. Japanese says drink, even for a pill."
+    },
+    {
+     "who": "E",
+     "romaji": "Mada.",
+     "kana": "まだ。",
+     "tr": {
+      "en": "Not yet."
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Obāchan ga itteta. Kubi ni negi o maku to ii tte.",
+     "kana": "おばあちゃんがいってた。くびにねぎをまくといいって。",
+     "say": "おばあちゃんが言ってた。首にネギを巻くといいって。",
+     "tr": {
+      "en": "Grandma used to say: wrap a leek around your neck."
+     },
+     "note": "An old home cure for a cold. …to ii: it is good to… Tte: she said that."
+    },
+    {
+     "who": "E",
+     "romaji": "Sore wa kaze desho.",
+     "kana": "それはかぜでしょ。",
+     "say": "それは風邪でしょ。",
+     "tr": {
+      "en": "That's for a cold."
+     },
+     "note": "Kaze: a cold. Desho: isn't it? She knows the cure, and it is the wrong one."
+    },
+    {
+     "who": "R",
+     "romaji": "Jā, umeboshi o odeko ni haru.",
+     "kana": "じゃあ、うめぼしをおでこにはる。",
+     "say": "じゃあ、梅干しをおでこに貼る。",
+     "tr": {
+      "en": "Then stick a pickled plum on your forehead."
+     },
+     "note": "Umeboshi: a salty pickled plum. Odeko: forehead. Haru: to stick on. Another old cure, this one for headaches."
+    },
+    {
+     "who": "E",
+     "romaji": "… Kusuri o nomu ne.",
+     "kana": "…くすりをのむね。",
+     "say": "…薬を飲むね。",
+     "tr": {
+      "en": "…I'll take the medicine."
+     },
+     "note": "Ne: she is telling him what she has decided."
+    },
+    {
+     "who": "R",
+     "romaji": "Negi, katte kuru?",
+     "kana": "ねぎ、かってくる？",
+     "say": "ネギ、買ってくる？",
+     "tr": {
+      "en": "Shall I go and buy a leek?"
+     },
+     "note": "Katte kuru: go, buy and come back."
+    },
+    {
+     "who": "E",
+     "romaji": "Shizuka ni shite kuretara, naoru to omou.",
+     "kana": "しずかにしてくれたら、なおるとおもう。",
+     "say": "静かにしてくれたら、治ると思う。",
+     "tr": {
+      "en": "If you'd be quiet, I think it would go away."
+     },
+     "note": "Shizuka ni suru: to be quiet. …te kuretara: if you did that for me. Naoru: to get better. To omou: I think."
+    }
+   ]
+  },
+  {
+   "title": "Gikkuri-goshi",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Ita! Koshi ga…!",
+     "kana": "いたっ！こしが…！",
+     "say": "いたっ！腰が…！",
+     "tr": {
+      "en": "Ow! My back…!"
+     },
+     "note": "Ita!: ow! Koshi: the lower back. Gikkuri-goshi is a back that suddenly gives out."
+    },
+    {
+     "who": "E",
+     "romaji": "Dō shita no?",
+     "kana": "どうしたの？",
+     "tr": {
+      "en": "What happened?"
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Ugokenai.",
+     "kana": "うごけない。",
+     "say": "動けない。",
+     "tr": {
+      "en": "I can't move."
+     },
+     "note": "Ugoku: to move. Ugokenai: can't move."
+    },
+    {
+     "who": "E",
+     "romaji": "Nani o shita no?",
+     "kana": "なにをしたの？",
+     "say": "何をしたの？",
+     "tr": {
+      "en": "What did you do?"
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Kushami.",
+     "kana": "くしゃみ。",
+     "tr": {
+      "en": "I sneezed."
+     },
+     "note": "Kushami: a sneeze. A sneeze really is a classic cause of gikkuri-goshi."
+    },
+    {
+     "who": "E",
+     "romaji": "Kushami de?",
+     "kana": "くしゃみで？",
+     "tr": {
+      "en": "From a sneeze?"
+     },
+     "note": "De: because of, by."
+    },
+    {
+     "who": "R",
+     "romaji": "Ōkii kushami datta.",
+     "kana": "おおきいくしゃみだった。",
+     "say": "大きいくしゃみだった。",
+     "tr": {
+      "en": "It was a big sneeze."
+     },
+     "note": "Ōkii: big. Datta: was."
+    },
+    {
+     "who": "E",
+     "romaji": "Byōin ni itta hō ga ii yo.",
+     "kana": "びょういんにいったほうがいいよ。",
+     "say": "病院に行ったほうがいいよ。",
+     "tr": {
+      "en": "You should go and see a doctor."
+     },
+     "note": "Past form + hō ga ii: you should. Byōin: hospital or clinic, the place you go to see a doctor."
+    },
+    {
+     "who": "R",
+     "romaji": "Ashita iku.",
+     "kana": "あしたいく。",
+     "say": "明日行く。",
+     "tr": {
+      "en": "I'll go tomorrow."
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Arukeru?",
+     "kana": "あるける？",
+     "say": "歩ける？",
+     "tr": {
+      "en": "Can you walk?"
+     },
+     "note": "Aruku: to walk. Arukeru: can walk."
+    },
+    {
+     "who": "R",
+     "romaji": "Arukenai.",
+     "kana": "あるけない。",
+     "say": "歩けない。",
+     "tr": {
+      "en": "I can't."
+     },
+     "note": "Arukenai: can't walk."
+    },
+    {
+     "who": "E",
+     "romaji": "Jā, kyō wa soko de nete ne. Oyasumi.",
+     "kana": "じゃあ、きょうはそこでねてね。おやすみ。",
+     "say": "じゃあ、今日はそこで寝てね。おやすみ。",
+     "tr": {
+      "en": "Then sleep there tonight. Good night."
+     },
+     "note": "Soko de: there, where you are. Nete ne: sleep, will you."
+    }
+   ]
+  },
+  {
+   "title": "Okayu",
+   "lines": [
+    {
+     "who": "E",
+     "romaji": "Guai wa dō?",
+     "kana": "ぐあいはどう？",
+     "say": "具合はどう？",
+     "tr": {
+      "en": "How are you feeling?"
+     },
+     "note": "The question to ask someone who is ill."
+    },
+    {
+     "who": "R",
+     "romaji": "Sukoshi yoku natta. Demo, mada shokuyoku ga nai.",
+     "kana": "すこしよくなった。でも、まだしょくよくがない。",
+     "say": "少しよくなった。でも、まだ食欲がない。",
+     "tr": {
+      "en": "A little better. But I still have no appetite."
+     },
+     "note": "Yoku naru: to get better. Shokuyoku: appetite. Mada… nai: still not."
+    },
+    {
+     "who": "E",
+     "romaji": "Okayu, tsukutta yo.",
+     "kana": "おかゆ、つくったよ。",
+     "say": "おかゆ、作ったよ。",
+     "tr": {
+      "en": "I made you rice porridge."
+     },
+     "note": "Okayu: soft rice porridge, what you eat in Japan when you are ill."
+    },
+    {
+     "who": "R",
+     "romaji": "Arigatō. … Rāmen ga tabetai.",
+     "kana": "ありがとう。…ラーメンがたべたい。",
+     "say": "ありがとう。…ラーメンが食べたい。",
+     "tr": {
+      "en": "Thanks. …I want ramen."
+     },
+     "note": "Verb stem + tai: want to. Taberu, tabetai."
+    },
+    {
+     "who": "E",
+     "romaji": "Shokuyoku, aru jan.",
+     "kana": "しょくよく、あるじゃん。",
+     "say": "食欲、あるじゃん。",
+     "tr": {
+      "en": "So you do have an appetite."
+     },
+     "note": "Aru jan: see, you have one."
+    },
+    {
+     "who": "R",
+     "romaji": "Rāmen wa betsubara.",
+     "kana": "ラーメンはべつばら。",
+     "say": "ラーメンは別腹。",
+     "tr": {
+      "en": "Ramen goes in a separate stomach."
+     },
+     "note": "Betsubara: the separate stomach. Usually said about dessert when you are already full."
+    },
+    {
+     "who": "E",
+     "romaji": "Kusuri wa nonda?",
+     "kana": "くすりはのんだ？",
+     "say": "薬は飲んだ？",
+     "tr": {
+      "en": "Did you take your medicine?"
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Ichinichi sankai, shokugo ni.",
+     "kana": "いちにちさんかい、しょくごに。",
+     "say": "一日三回、食後に。",
+     "tr": {
+      "en": "Three times a day, after meals."
+     },
+     "note": "Ichinichi sankai: three times a day. Shokugo: after a meal. What is written on the medicine bag."
+    },
+    {
+     "who": "E",
+     "romaji": "Jā, genki da ne. Ashita wa kaisha da yo.",
+     "kana": "じゃあ、げんきだね。あしたはかいしゃだよ。",
+     "say": "じゃあ、元気だね。明日は会社だよ。",
+     "tr": {
+      "en": "Then you're well. You have work tomorrow."
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "… Yappari, mada netsu ga aru kamo.",
+     "kana": "…やっぱり、まだねつがあるかも。",
+     "say": "…やっぱり、まだ熱があるかも。",
+     "tr": {
+      "en": "…Actually, I may still have a fever."
+     },
+     "note": "Yappari: on second thought. Kamo: short for kamo shirenai, maybe."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Pain: part of the body + ga itai. Atama ga itai (head), nodo ga itai (throat), koshi ga itai (lower back), onaka ga itai (stomach).",
+  "Feeling: guai ga warui (I feel unwell), sukoshi yoku natta (I'm a little better), genki (well).",
+  "A cold: kaze. Netsu ga aru (I have a fever), seki ga deru (I'm coughing), hanamizu ga deru (my nose is running).",
+  "Temperature: 37.2 is sanjūnana-do ni-bu. A slight fever is binetsu.",
+  "Advice: past form + hō ga ii. Byōin ni itta hō ga ii: you should see a doctor.",
+  "Medicine is drunk: kusuri o nomu. Ichinichi sankai, shokugo ni: three times a day, after meals.",
+  "Can and can't: arukeru, arukenai (walk); ugokeru, ugokenai (move)."
+ ],
+ "questions": [
+  {
+   "q": "Riku's temperature is 37.2. What does Emi call it?",
+   "options": [
+    "Binetsu",
+    "Zutsū",
+    "Betsubara"
+   ],
+   "answer": 0,
+   "why": "Binetsu: a slight fever. He is going to work anyway."
+  },
+  {
+   "q": "Emi has a headache. How does she say it?",
+   "options": [
+    "Nodo ga itai.",
+    "Atama ga itai.",
+    "Koshi ga itai."
+   ],
+   "answer": 1,
+   "why": "Atama: head. Nodo: throat. Koshi: lower back."
+  },
+  {
+   "q": "What does Emi think will cure her headache?",
+   "options": [
+    "A leek around her neck",
+    "A pickled plum on her forehead",
+    "Riku being quiet"
+   ],
+   "answer": 2,
+   "why": "Shizuka ni shite kuretara, naoru to omou."
+  },
+  {
+   "q": "How did Riku hurt his back?",
+   "options": [
+    "He sneezed.",
+    "He carried something heavy.",
+    "He fell."
+   ],
+   "answer": 0,
+   "why": "Kushami: a sneeze. Ōkii kushami datta."
+  },
+  {
+   "q": "Riku has no appetite. What does he want to eat?",
+   "options": [
+    "Okayu",
+    "Umeboshi",
+    "Rāmen"
+   ],
+   "answer": 2,
+   "why": "Rāmen ga tabetai. Rāmen wa betsubara."
+  }
+ ]
+}

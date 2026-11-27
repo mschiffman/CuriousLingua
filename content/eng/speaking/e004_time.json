@@ -1,0 +1,220 @@
+{
+ "code": "E4",
+ "scene": 4,
+ "was": ["what_time"],
+ "title": "What Time Is It?",
+ "subtitle": "Four conversations about the time",
+ "level": "a1",
+ "topic": "Time",
+ "type": "dialogue",
+ "review": "Text from time.md; notes and questions written by Claude. No Burmese yet.",
+ "intro": "Emma asks the time at a bus stop, plans a film with Lucas, tells him he is late for class, and Lucas buys a train ticket from an agent. Listen for the time in each conversation, then say it with them.",
+ "source_md": "what_time.md",
+ "aud_dir": "eng/speaking/time/",
+ "aud_ext": "mp3?v=2611231330",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas",
+  "G": "Gentleman",
+  "A": "Agent"
+ },
+ "related": [
+  "eng/reading/time"
+ ],
+ "sections": [
+  {
+   "title": "At the bus stop",
+   "lines": [
+    {
+     "who": "E",
+     "text": "Excuse me. Do you have the time, please?",
+     "note": "A polite way to ask a stranger the time. It means: What time is it?"
+    },
+    {
+     "who": "G",
+     "text": "Yes, of course. It's ten fifteen.",
+     "note": "10:15. You can also say a quarter past ten."
+    },
+    {
+     "who": "E",
+     "text": "Ten fifteen? Already?"
+    },
+    {
+     "who": "G",
+     "text": "Yes. Are you in a hurry?"
+    },
+    {
+     "who": "E",
+     "text": "A little. My bus leaves at twenty past ten.",
+     "note": "10:20. at + a time: at twenty past ten."
+    },
+    {
+     "who": "G",
+     "text": "Then you'd better hurry! The bus stop is right there.",
+     "note": "you'd better = you should, now."
+    },
+    {
+     "who": "E",
+     "text": "Thank you. Have a nice day!"
+    }
+   ]
+  },
+  {
+   "title": "At the cinema",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Shall we go to the movies tonight?"
+    },
+    {
+     "who": "E",
+     "text": "Good idea! What time does the film start?"
+    },
+    {
+     "who": "L",
+     "text": "At half past eight.",
+     "note": "8:30. You can also say eight thirty."
+    },
+    {
+     "who": "E",
+     "text": "And what time shall we meet?"
+    },
+    {
+     "who": "L",
+     "text": "At quarter to eight, outside the cinema?",
+     "note": "7:45. to = before: fifteen minutes before eight."
+    },
+    {
+     "who": "E",
+     "text": "Quarter to eight. OK."
+    },
+    {
+     "who": "L",
+     "text": "Great. See you tonight!"
+    }
+   ]
+  },
+  {
+   "title": "Late for class",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Emma, what time is it?"
+    },
+    {
+     "who": "E",
+     "text": "It's ten to nine.",
+     "note": "8:50. Ten minutes before nine."
+    },
+    {
+     "who": "L",
+     "text": "What? Already? I'm late!"
+    },
+    {
+     "who": "E",
+     "text": "What time does your class start?"
+    },
+    {
+     "who": "L",
+     "text": "At nine o'clock sharp.",
+     "note": "o'clock is only for the exact hour. Sharp = exactly, not one minute later."
+    },
+    {
+     "who": "E",
+     "text": "Then you've got ten minutes. Hurry!"
+    },
+    {
+     "who": "L",
+     "text": "I'm off. See you later!",
+     "note": "I'm off = I'm leaving now."
+    }
+   ]
+  },
+  {
+   "title": "At the station",
+   "lines": [
+    {
+     "who": "L",
+     "text": "Good afternoon. What time does the next train to New York leave?"
+    },
+    {
+     "who": "A",
+     "text": "At two thirty-five, from platform three.",
+     "note": "2:35. After half past, we often just say the numbers: two thirty-five."
+    },
+    {
+     "who": "L",
+     "text": "And what time does it arrive?"
+    },
+    {
+     "who": "A",
+     "text": "At four forty.",
+     "note": "4:40. Four forty, or twenty to five."
+    },
+    {
+     "who": "L",
+     "text": "Perfect. And what time is it now?"
+    },
+    {
+     "who": "A",
+     "text": "It's ten past two. You've got twenty-five minutes.",
+     "note": "2:10. past = after the hour."
+    },
+    {
+     "who": "L",
+     "text": "Great. One ticket, please."
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "q": "What time does Emma's bus leave?",
+   "options": [
+    "Ten fifteen",
+    "Twenty past ten",
+    "Half past ten"
+   ],
+   "answer": 1,
+   "why": "Emma says: My bus leaves at twenty past ten."
+  },
+  {
+   "q": "What time do Emma and Lucas meet outside the cinema?",
+   "options": [
+    "Quarter to eight",
+    "Half past eight",
+    "Eight o'clock"
+   ],
+   "answer": 0,
+   "why": "Lucas says: At quarter to eight, outside the cinema. The film starts at half past eight."
+  },
+  {
+   "q": "Emma says: It's ten to nine. What time is it?",
+   "options": [
+    "9:10",
+    "9:50",
+    "8:50"
+   ],
+   "answer": 2,
+   "why": "Ten to nine = ten minutes before nine."
+  },
+  {
+   "q": "It's ten past two. The train leaves at two thirty-five. How long does Lucas have?",
+   "options": [
+    "Ten minutes",
+    "Twenty-five minutes",
+    "Thirty-five minutes"
+   ],
+   "answer": 1,
+   "why": "From 2:10 to 2:35 is twenty-five minutes."
+  }
+ ],
+ "notes": [
+  "What time is it? / Do you have the time? ask for the time now. The answer starts with It's: It's ten to nine.",
+  "What time does the film start? asks when something happens. The answer uses at: At half past eight.",
+  "past = after the hour: twenty past ten (10:20), ten past two (2:10).",
+  "to = before the next hour: quarter to eight (7:45), ten to nine (8:50).",
+  "You can also say the numbers: ten fifteen (10:15), two thirty-five (2:35), four forty (4:40).",
+  "o'clock is only for the exact hour: nine o'clock, but half past nine."
+ ]
+}

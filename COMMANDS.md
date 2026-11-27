@@ -120,9 +120,9 @@ Things to know:
 ### Check Japanese pitch
 
 ```
-python -E tools\pitch.py jap/speaking/hello_goodbye
-python -E tools\pitch.py jap/speaking/hello_goodbye --only 4 12
-python -E tools\pitch.py jap/speaking/hello_goodbye --ref "コハク/ノーマル"
+python -E tools\pitch.py jap/speaking/j006_greet_goodbye
+python -E tools\pitch.py jap/speaking/j006_greet_goodbye --only 4 12
+python -E tools\pitch.py jap/speaking/j006_greet_goodbye --ref "コハク/ノーマル"
 ```
 
 Same as `pitch.bat`. For every line it draws the pitch of the lesson's clip and of the same text read by AivisSpeech, which takes its accents from a pronunciation dictionary, prints the accent AivisSpeech expects (`ア＼メ` falls after ア, `アメ￣` stays up) and a `match` figure for the two shapes. A low figure means: listen to that line. It does not say which of the two is right. The report, with both recordings to play, is `_reports\pitch\<course>-<slug>\index.html`. It uses no ElevenLabs characters and changes no lesson file.

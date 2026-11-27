@@ -1149,6 +1149,49 @@ def offline_index(all_lessons, have):
     write(rel, frame(rel, f"Offline lessons | {C['site_name']}", body + "</main>"))
 
 
+def forward(rel, target, title):
+    """A page that only sends the visitor on to `target` (an address relative to the page)."""
+    t = e(target)
+    write(rel, f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>{e(title)}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
+<link rel="canonical" href="{t}"><meta http-equiv="refresh" content="0; url={t}">
+<script>location.replace({js(target)} + location.hash)</script></head>
+<body><p><a href="{t}">{e(title)}</a></p></body></html>
+''')
+
+
+def forward_pages(all_lessons):
+    """Short addresses and old addresses, as pages that forward to the lesson.
+    "code": "F13" in a lesson file makes f13.html and f013.html at the top of the site, so that curiouslingua.com/f13
+    opens the lesson. "was": ["jy_crois_pas"] lists the names the lesson file had before (same course and strand):
+    each old address forwards to the new one, so links already given out go on working."""
+    ids, seen, n = {L["id"] for L in all_lessons}, {}, 0
+    for L in all_lessons:
+        title = f'{L.get("title", L["slug"])} | {C["site_name"]}'
+        code = str(L.get("code") or "").strip()
+        if code:
+            m = re.fullmatch(r"([A-Za-z])0*(\d+)", code)
+            if not m:
+                print(f'  {L["id"]}: "code" must be a letter and a number, like F13 (it is {code})')
+            elif m.group(0).lower() in seen or (m.group(1).lower(), int(m.group(2))) in seen:
+                print(f'  {L["id"]}: code {code} is already used by {seen[(m.group(1).lower(), int(m.group(2)))]}')
+            else:
+                letter, num = m.group(1).lower(), int(m.group(2))
+                seen[(letter, num)] = L["id"]
+                for name in {f"{letter}{num}", f"{letter}{num:03d}"}:
+                    forward(name + ".html", L["url"], f"{letter.upper()}{num} · {title}")
+                    n += 1
+        for old in L.get("was", ()):
+            oid = f'{L["course"]}/{L["strand"]}/{old}'
+            if oid in ids:
+                print(f'  {L["id"]}: "was" names {old}, but a lesson has that name now')
+                continue
+            forward(oid + ".html", L["slug"] + ".html", title)
+            n += 1
+    return n
+
+
 def main():
     all_lessons = lib.lessons()
     have = {}
@@ -1214,8 +1257,9 @@ def main():
     if os.path.exists(old):
         os.remove(old)
         print("  removed offline/index.html")
+    fwd = forward_pages(all_lessons + extras)
     write("assets/data/catalog.json", json.dumps(catalog, ensure_ascii=False, indent=1) + "\n")
-    print(f"built {len(catalog)} lesson pages and {len(extras)} supplement pages, {len(have)} with an offline copy")
+    print(f"built {len(catalog)} lesson pages and {len(extras)} supplement pages, {len(have)} with an offline copy, {fwd} forwarding pages")
 
 
 if __name__ == "__main__":

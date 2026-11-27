@@ -1,0 +1,282 @@
+{
+ "code": "E13",
+ "scene": 13,
+ "was": ["disbelief"],
+ "title": "No Way!",
+ "subtitle": "Four ways to say you can't believe it",
+ "level": "b1",
+ "topic": "Reactions",
+ "type": "dialogue",
+ "review": "Text and notes written by Claude, from the author's own childhood stories: check them. No Burmese yet.",
+ "intro": "An angel expected in the garden, a lemon syrup that gets thinner in the sun, a dangerous belly button and a great debate between six-year-olds: four true stories from a childhood in Yangon, told by Emma. Listen for how Lucas shows he cannot believe it, and how Emma insists that it is true.",
+ "aud_dir": "eng/speaking/disbelief/",
+ "aud_ext": "mp3?v=2611251630",
+ "speakers": {
+  "E": "Emma",
+  "L": "Lucas"
+ },
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/expressions/disbelief",
+  "eng/expressions/exclamation"
+ ],
+ "sections": [
+  {
+   "title": "The Angel",
+   "lines": [
+    {
+     "who": "E",
+     "text": "You're not going to believe this. When I was five, my mother said an angel was coming.",
+     "note": "You're not going to believe this: say it before a surprising story."
+    },
+    {
+     "who": "L",
+     "text": "Really?",
+     "note": "Really? The simplest way to show surprise."
+    },
+    {
+     "who": "E",
+     "text": "To our garden. But only if we were quiet. Angels are shy.",
+     "note": "Shy: not comfortable with people. Only if = on one condition."
+    },
+    {
+     "who": "L",
+     "text": "Seriously? And you believed her?",
+     "note": "Seriously? = is that really true? Believed: past of believe."
+    },
+    {
+     "who": "E",
+     "text": "Four kids. Two hours. Not a sound.",
+     "note": "Not a sound = total silence."
+    },
+    {
+     "who": "L",
+     "text": "No kidding. Did the angel come?",
+     "note": "No kidding = I am surprised, but I believe you."
+    },
+    {
+     "who": "E",
+     "text": "No. My brother sneezed.",
+     "note": "Sneezed: past of sneeze. Achoo!"
+    }
+   ]
+  },
+  {
+   "title": "The Lemon Syrup",
+   "lines": [
+    {
+     "who": "E",
+     "text": "My mother made lemon syrup. Weeks in the sun, thick and golden.",
+     "note": "Syrup: a thick, sweet liquid. Thick: not like water."
+    },
+    {
+     "who": "L",
+     "text": "Sounds good.",
+     "note": "Sounds good = I like the idea."
+    },
+    {
+     "who": "E",
+     "text": "A neighbor tried it. Her syrup got thinner every week.",
+     "note": "Got thinner: became more like water. Thin, thinner."
+    },
+    {
+     "who": "L",
+     "text": "Thinner? That's impossible.",
+     "note": "That's impossible: it cannot happen."
+    },
+    {
+     "who": "E",
+     "text": "That's what she said. My mother said, \"Ask your kids.\"",
+     "note": "Ask your kids: the mother knows who did it."
+    },
+    {
+     "who": "L",
+     "text": "No way. They drank it?",
+     "note": "No way! = I cannot believe it. Drank: past of drink."
+    },
+    {
+     "who": "E",
+     "text": "And filled the bottle with water. Every day.",
+     "note": "Filled: past of fill."
+    },
+    {
+     "who": "L",
+     "text": "Unbelievable. How did your mother know?",
+     "note": "Unbelievable! = very hard to believe."
+    },
+    {
+     "who": "E",
+     "text": "She had us.",
+     "note": "She had us: she had children like that too."
+    }
+   ]
+  },
+  {
+   "title": "The Belly Button",
+   "lines": [
+    {
+     "who": "E",
+     "text": "When I was five, my mother told me where babies come from.",
+     "note": "Where babies come from: how babies are made."
+    },
+    {
+     "who": "L",
+     "text": "And?",
+     "note": "And? = go on, tell me."
+    },
+    {
+     "who": "E",
+     "text": "The King touches the Queen's belly button.",
+     "note": "Belly button: the small round mark on your stomach."
+    },
+    {
+     "who": "L",
+     "text": "You're kidding.",
+     "note": "You're kidding = you are joking; that is not true."
+    },
+    {
+     "who": "E",
+     "text": "I swear. So I stopped wrestling with my brothers. Too dangerous.",
+     "note": "I swear = I promise it is true. Wrestling: fighting for fun."
+    },
+    {
+     "who": "L",
+     "text": "You can't be serious.",
+     "note": "You can't be serious = I think you are joking."
+    },
+    {
+     "who": "E",
+     "text": "I'm not lying. I protected my belly button for years.",
+     "note": "I'm not lying = it is true. Protected: kept safe."
+    },
+    {
+     "who": "L",
+     "text": "Are you kidding me? So if I just…",
+     "note": "Are you kidding me? Stronger than You're kidding."
+    },
+    {
+     "who": "E",
+     "text": "Don't even think about it.",
+     "note": "Don't even think about it = do not try."
+    }
+   ]
+  },
+  {
+   "title": "The Big Debate",
+   "lines": [
+    {
+     "who": "E",
+     "text": "One day, the boy next door said babies come from their mother's bottom.",
+     "note": "The boy next door: the boy from the neighbors' house. Bottom: the part of the body you sit on."
+    },
+    {
+     "who": "L",
+     "text": "He said what? That's crazy!",
+     "note": "He said what? Repeat with what when you cannot believe what you heard. That's crazy!"
+    },
+    {
+     "who": "E",
+     "text": "That's what I told him. \"Nonsense! Babies come from the tummy.\"",
+     "note": "Nonsense! = that is not true and it is silly. Tummy: a child's word for stomach."
+    },
+    {
+     "who": "L",
+     "text": "And he believed you?"
+    },
+    {
+     "who": "E",
+     "text": "No. He said, \"Yeah, right.\" We argued for twenty minutes.",
+     "note": "Yeah, right: you say yes, but you mean no. Argued: past of argue."
+    },
+    {
+     "who": "L",
+     "text": "Holy cow. Who won?",
+     "note": "Holy cow! shows big surprise. Informal. Won: past of win."
+    },
+    {
+     "who": "E",
+     "text": "I did. I said, \"Fine. You came from the bottom. We came from the tummy.\"",
+     "note": "Fine = OK, I will not argue any more."
+    },
+    {
+     "who": "L",
+     "text": "And you were five?"
+    },
+    {
+     "who": "E",
+     "text": "Six. And very sure of myself.",
+     "note": "Sure of myself = certain that I was right."
+    },
+    {
+     "who": "L",
+     "text": "Some things never change.",
+     "note": "Some things never change: she is still like that."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Really? Seriously? No kidding? show surprise and ask the speaker to go on.",
+  "You're kidding. You can't be serious. Are you kidding me? say: I think this is a joke.",
+  "That's impossible. No way! Unbelievable! say: this cannot be true.",
+  "That's crazy! and Holy cow! are informal, for a big surprise.",
+  "Yeah, right and Nonsense! say that you do not believe the other person at all.",
+  "To answer: I swear. I'm not lying. Believe me. And before a surprising story: You're not going to believe this.",
+  "The stories use the simple past: said, believed, drank, filled, stopped, argued, won."
+ ],
+ "questions": [
+  {
+   "q": "Your friend says: “I saw a monkey on the bus.” You are surprised. What do you say?",
+   "options": [
+    "Really?",
+    "I swear.",
+    "Fine."
+   ],
+   "answer": 0,
+   "why": "Really? shows surprise. I swear is what your friend can answer."
+  },
+  {
+   "q": "“You're kidding.” What does it mean?",
+   "options": [
+    "You are a child.",
+    "I think you are joking.",
+    "You are right."
+   ],
+   "answer": 1,
+   "why": "You're kidding = you are joking; I cannot believe it."
+  },
+  {
+   "q": "Nobody believes your story, but it is true. What do you say?",
+   "options": [
+    "Yeah, right.",
+    "No way!",
+    "I swear!"
+   ],
+   "answer": 2,
+   "why": "I swear = I promise it is true."
+  },
+  {
+   "q": "“I'll clean my room tomorrow.” “Yeah, right.” Does the second person believe it?",
+   "options": [
+    "Yes.",
+    "No.",
+    "We cannot know."
+   ],
+   "answer": 1,
+   "why": "Yeah, right is ironic: the words say yes, the voice says no."
+  },
+  {
+   "q": "Which word is the past of drink?",
+   "options": [
+    "drinked",
+    "drank",
+    "drunked"
+   ],
+   "answer": 1,
+   "why": "Drink, drank: “They drank it.”"
+  }
+ ]
+}

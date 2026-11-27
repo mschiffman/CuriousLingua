@@ -1,0 +1,120 @@
+{
+ "code": "F1",
+ "scene": 1,
+ "was": ["boulangerie"],
+ "title": "À la boulangerie",
+ "subtitle": "At the bakery",
+ "level": "a1",
+ "topic": "Shops and food",
+ "type": "dialogue",
+ "register": "neutral-standard, polite (vous)",
+ "review": "Draft written by Claude. Check the text before recording audio.",
+ "intro": "Buying bread: the most useful thirty seconds of French. Always open with bonjour.",
+ "aud_dir": "fr/speaking/boulangerie/",
+ "aud_ext": "mp3?v=2611170806",
+ "speakers": {
+  "C": "Client",
+  "B": "Boulangère"
+ },
+ "voice": {
+  "B": "KzPZhE4ZluG6tjLsI1qh"
+ },
+ "support": [
+  "en"
+ ],
+ "lines": [
+  {
+   "who": "C",
+   "text": "Bonjour madame !",
+   "tr": {
+    "en": "Hello!"
+   }
+  },
+  {
+   "who": "B",
+   "text": "Bonjour monsieur ! Vous désirez ?",
+   "tr": {
+    "en": "Hello! What would you like?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Une baguette, s'il vous plaît.",
+   "tr": {
+    "en": "A baguette, please."
+   }
+  },
+  {
+   "who": "B",
+   "text": "Et avec ceci ?",
+   "tr": {
+    "en": "Anything else?"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Deux croissants, s'il vous plaît.",
+   "tr": {
+    "en": "Two croissants, please."
+   }
+  },
+  {
+   "who": "B",
+   "text": "Voilà. Ça fait trois euros quarante.",
+   "tr": {
+    "en": "Here you are. That's three euros forty."
+   }
+  },
+  {
+   "who": "C",
+   "text": "Voilà. Merci, bonne journée !",
+   "tr": {
+    "en": "Here you go. Thank you, have a nice day!"
+   }
+  },
+  {
+   "who": "B",
+   "text": "Merci à vous, au revoir !",
+   "tr": {
+    "en": "Thank you, goodbye!"
+   }
+  }
+ ],
+ "notes": [
+  "Vous désirez ? is shop French for 'What would you like?'. You will also hear Je vous écoute.",
+  "Et avec ceci ? means 'Anything else?'. To finish, say Ce sera tout, merci.",
+  "Merci à vous returns the thanks: 'No, thank YOU.'"
+ ],
+ "questions": [
+  {
+   "q": "The baker asks « Et avec ceci ? ». What does she want to know?",
+   "options": [
+    "If you want anything else",
+    "How you want to pay",
+    "If you want a bag"
+   ],
+   "answer": 0,
+   "why": "Et avec ceci ? = 'And with this?', the standard way to ask if you want something more."
+  },
+  {
+   "q": "How do you say that you want nothing more?",
+   "options": [
+    "Ça fait tout.",
+    "Ce sera tout, merci.",
+    "C'est fini."
+   ],
+   "answer": 1,
+   "why": "Ce sera tout, merci = 'That will be all, thank you.'"
+  },
+  {
+   "q": "What should you say first when you walk in?",
+   "options": [
+    "Une baguette !",
+    "Bonjour !",
+    "Excusez-moi."
+   ],
+   "answer": 1,
+   "why": "In France you greet before you ask. Skipping bonjour sounds rude."
+  }
+ ]
+}

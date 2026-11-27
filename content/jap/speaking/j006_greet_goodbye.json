@@ -1,0 +1,418 @@
+{
+ "code": "J6",
+ "scene": 6,
+ "was": ["hello_goodbye"],
+ "title": "Hello and Goodbye",
+ "subtitle": "おはよう・またね",
+ "level": "a2",
+ "topic": "Greetings and politeness",
+ "type": "dialogue",
+ "register": "casual, a couple at home",
+ "review": "Written by Claude. The Japanese, the romaji and the humor have not been checked by a Japanese speaker. English support only: no Burmese lines yet.",
+ "intro": "Good morning at noon, a trip to the convenience store in pajamas, a husband who comes home still talking to his colleagues, and a long goodbye between two people who live together: four short scenes between Emi and Riku. Listen for which greeting goes with which moment, and for what happens when someone picks the wrong one.",
+ "aud_dir": "jap/speaking/hello_goodbye/",
+ "aud_ext": "mp3?v=2611260712",
+ "speakers": {
+  "E": "Emi",
+  "R": "Riku"
+ },
+ "voice": {
+  "E": "ilBjLtdEW3SkjRXakAkO",
+  "R": "v91rKRL5eccBa78cK3jT"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "jap/expressions/greetings"
+ ],
+ "sections": [
+  {
+   "title": "Ohayō",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Ohayō.",
+     "kana": "おはよう。",
+     "tr": {
+      "en": "Morning."
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Konnichiwa.",
+     "kana": "こんにちは。",
+     "tr": {
+      "en": "Good afternoon."
+     },
+     "note": "Konnichiwa is for the daytime. Emi is telling him the morning is over."
+    },
+    {
+     "who": "R",
+     "romaji": "E? Ima nanji?",
+     "kana": "え？いまなんじ？",
+     "say": "え？今何時？",
+     "tr": {
+      "en": "Huh? What time is it?"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Jūniji da yo. Hisashiburi. Genki datta?",
+     "kana": "じゅうにじだよ。ひさしぶり。げんきだった？",
+     "say": "十二時だよ。久しぶり。元気だった？",
+     "tr": {
+      "en": "It's twelve. Long time no see. How have you been?"
+     },
+     "note": "Hisashiburi is for someone you have not seen for a long time. Here it is a joke."
+    },
+    {
+     "who": "R",
+     "romaji": "Jā… ohayō gozaimasu.",
+     "kana": "じゃあ…おはようございます。",
+     "tr": {
+      "en": "Then… good morning, madam."
+     },
+     "note": "Gozaimasu makes ohayō polite. It does not make it morning."
+    },
+    {
+     "who": "E",
+     "romaji": "Teinei ni itte mo, mō hiru da yo.",
+     "kana": "ていねいにいっても、もうひるだよ。",
+     "say": "丁寧に言っても、もう昼だよ。",
+     "tr": {
+      "en": "Saying it politely doesn't help. It's already noon."
+     },
+     "note": "Teinei: polite. Mō: already. Hiru: noon, daytime."
+    },
+    {
+     "who": "R",
+     "romaji": "Hirugohan wa?",
+     "kana": "ひるごはんは？",
+     "say": "昼ご飯は？",
+     "tr": {
+      "en": "What about lunch?"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Mō tabeta. Oyasumi.",
+     "kana": "もうたべた。おやすみ。",
+     "say": "もう食べた。おやすみ。",
+     "tr": {
+      "en": "I already ate. Good night."
+     },
+     "note": "Oyasumi: what you say to someone who is going to bed. Polite: oyasuminasai."
+    }
+   ]
+  },
+  {
+   "title": "Ittekimasu",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Ittekimasu!",
+     "kana": "いってきます！",
+     "say": "行ってきます！",
+     "tr": {
+      "en": "I'm off!"
+     },
+     "note": "Said when you leave home. Literally: I'll go and come back."
+    },
+    {
+     "who": "E",
+     "romaji": "Itterasshai. Ki o tsukete ne.",
+     "kana": "いってらっしゃい。きをつけてね。",
+     "say": "行ってらっしゃい。気をつけてね。",
+     "tr": {
+      "en": "See you later. Take care."
+     },
+     "note": "Itterasshai is the answer of the person who stays. Ki o tsukete: take care."
+    },
+    {
+     "who": "R",
+     "romaji": "Un. Konbini ni iku dake da yo.",
+     "kana": "うん。コンビニにいくだけだよ。",
+     "say": "うん。コンビニに行くだけだよ。",
+     "tr": {
+      "en": "Yeah. I'm only going to the convenience store."
+     },
+     "note": "Un: a casual yes. Dake: only."
+    },
+    {
+     "who": "E",
+     "romaji": "Sō. … Sono kakkō de?",
+     "kana": "そう。…そのかっこうで？",
+     "say": "そう。…その格好で？",
+     "tr": {
+      "en": "I see. … Dressed like that?"
+     },
+     "note": "Kakkō: what you look like, your outfit."
+    },
+    {
+     "who": "R",
+     "romaji": "E?",
+     "kana": "え？",
+     "tr": {
+      "en": "Huh?"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Sore, pajama da yo.",
+     "kana": "それ、パジャマだよ。",
+     "tr": {
+      "en": "Those are your pajamas."
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "… Tadaima.",
+     "kana": "…ただいま。",
+     "tr": {
+      "en": "… I'm home."
+     },
+     "note": "Said when you come home, however short the trip."
+    },
+    {
+     "who": "E",
+     "romaji": "Okaeri. Hayakatta ne.",
+     "kana": "おかえり。はやかったね。",
+     "say": "おかえり。早かったね。",
+     "tr": {
+      "en": "Welcome back. That was quick."
+     },
+     "note": "Okaeri answers tadaima. Polite: okaerinasai."
+    }
+   ]
+  },
+  {
+   "title": "Otsukaresama",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Tadaima…",
+     "kana": "ただいま…",
+     "tr": {
+      "en": "I'm home…"
+     }
+    },
+    {
+     "who": "E",
+     "romaji": "Okaeri. Osokatta ne.",
+     "kana": "おかえり。おそかったね。",
+     "say": "おかえり。遅かったね。",
+     "tr": {
+      "en": "Welcome back. You're late."
+     },
+     "note": "Osoi: late. Osokatta: was late."
+    },
+    {
+     "who": "R",
+     "romaji": "Otsukaresama desu.",
+     "kana": "おつかれさまです。",
+     "say": "お疲れ様です。",
+     "tr": {
+      "en": "Thank you for your hard work."
+     },
+     "note": "What colleagues say to each other at work, all day long. Not what you say to your wife."
+    },
+    {
+     "who": "E",
+     "romaji": "… Koko wa kaisha ja nai yo.",
+     "kana": "…ここはかいしゃじゃないよ。",
+     "say": "…ここは会社じゃないよ。",
+     "tr": {
+      "en": "… This isn't the office."
+     },
+     "note": "Kaisha: company, office. Ja nai: is not."
+    },
+    {
+     "who": "R",
+     "romaji": "A, shitsurei shimashita.",
+     "kana": "あ、しつれいしました。",
+     "say": "あ、失礼しました。",
+     "tr": {
+      "en": "Oh, I beg your pardon."
+     },
+     "note": "A formal apology. Riku is still in office mode."
+    },
+    {
+     "who": "E",
+     "romaji": "Daijōbu? Tsukareteru?",
+     "kana": "だいじょうぶ？つかれてる？",
+     "say": "大丈夫？疲れてる？",
+     "tr": {
+      "en": "Are you OK? Are you tired?"
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Hai. Dewa, osaki ni shitsurei shimasu.",
+     "kana": "はい。では、おさきにしつれいします。",
+     "say": "はい。では、お先に失礼します。",
+     "tr": {
+      "en": "Yes. Well then, excuse me for leaving before you."
+     },
+     "note": "What you say when you leave the office before your colleagues. He means: I'm going to bed."
+    },
+    {
+     "who": "E",
+     "romaji": "Otsukaresama deshita. Oyasumi.",
+     "kana": "おつかれさまでした。おやすみ。",
+     "say": "お疲れ様でした。おやすみ。",
+     "tr": {
+      "en": "Thank you for your hard work. Good night."
+     },
+     "note": "Otsukaresama deshita is the correct office reply. Emi gives up and plays along."
+    }
+   ]
+  },
+  {
+   "title": "Ja, mata ne",
+   "lines": [
+    {
+     "who": "E",
+     "romaji": "Ja, mata ne.",
+     "kana": "じゃ、またね。",
+     "tr": {
+      "en": "Well, see you."
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Un, mata ashita.",
+     "kana": "うん、またあした。",
+     "say": "うん、また明日。",
+     "tr": {
+      "en": "Yeah, see you tomorrow."
+     },
+     "note": "Mata: again. Ashita: tomorrow."
+    },
+    {
+     "who": "E",
+     "romaji": "Ki o tsukete ne.",
+     "kana": "きをつけてね。",
+     "say": "気をつけてね。",
+     "tr": {
+      "en": "Take care."
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Emi mo ne. Bai bai.",
+     "kana": "えみもね。バイバイ。",
+     "tr": {
+      "en": "You too, Emi. Bye-bye."
+     },
+     "note": "Mo: too. Japanese often uses the name where English says 'you'."
+    },
+    {
+     "who": "E",
+     "romaji": "Bai bai.",
+     "kana": "バイバイ。",
+     "tr": {
+      "en": "Bye-bye."
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "… Ano, Emi.",
+     "kana": "…あの、えみ。",
+     "tr": {
+      "en": "… Um, Emi."
+     },
+     "note": "Ano: um. It gets someone's attention gently."
+    },
+    {
+     "who": "E",
+     "romaji": "Nani?",
+     "kana": "なに？",
+     "say": "何？",
+     "tr": {
+      "en": "What?"
+     }
+    },
+    {
+     "who": "R",
+     "romaji": "Bokutachi, onaji ie ni kaeru yo ne.",
+     "kana": "ぼくたち、おなじいえにかえるよね。",
+     "say": "僕たち、同じ家に帰るよね。",
+     "tr": {
+      "en": "We're going home to the same house, aren't we?"
+     },
+     "note": "Onaji: the same. Yo ne asks the other person to confirm."
+    },
+    {
+     "who": "E",
+     "romaji": "… Sō datta.",
+     "kana": "…そうだった。",
+     "tr": {
+      "en": "… Oh. Right."
+     },
+     "note": "Sō datta: that's right, I had forgotten."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "By time of day: ohayō in the morning, konnichiwa in the daytime, konbanwa in the evening, oyasumi at bedtime.",
+  "To be polite, add to the casual form: ohayō gozaimasu, oyasuminasai, okaerinasai.",
+  "Home greetings come in pairs. Leaving: ittekimasu, then itterasshai. Coming back: tadaima, then okaeri.",
+  "Office greetings: otsukaresama desu all day long; osaki ni shitsurei shimasu when you leave first; otsukaresama deshita in reply.",
+  "Between friends: ja, mata ne; mata ashita; bai bai. Sayōnara is rare in daily life: it sounds like a long goodbye.",
+  "Casual speech drops desu and masu and ends in yo, ne or yo ne: hiru da yo, hayakatta ne, kaeru yo ne."
+ ],
+ "questions": [
+  {
+   "q": "It is twelve o'clock. Which greeting fits?",
+   "options": [
+    "Ohayō.",
+    "Konnichiwa.",
+    "Oyasumi."
+   ],
+   "answer": 1,
+   "why": "Konnichiwa is for the daytime. Ohayō is for the morning."
+  },
+  {
+   "q": "Riku says: Ittekimasu! What does Emi answer?",
+   "options": [
+    "Itterasshai.",
+    "Okaeri.",
+    "Tadaima."
+   ],
+   "answer": 0,
+   "why": "Ittekimasu and itterasshai go together when someone leaves home."
+  },
+  {
+   "q": "Riku comes back and says: Tadaima. What does Emi answer?",
+   "options": [
+    "Itterasshai.",
+    "Okaeri.",
+    "Otsukaresama desu."
+   ],
+   "answer": 1,
+   "why": "Tadaima and okaeri go together when someone comes home."
+  },
+  {
+   "q": "Where do people say: Osaki ni shitsurei shimasu?",
+   "options": [
+    "At home, before bed",
+    "At a shop",
+    "At the office, when leaving first"
+   ],
+   "answer": 2,
+   "why": "It excuses you for leaving before your colleagues. Riku uses it to go to bed."
+  },
+  {
+   "q": "Why is 'Mata ashita' funny in the last scene?",
+   "options": [
+    "It is too polite.",
+    "Emi and Riku live in the same house.",
+    "It is only for the morning."
+   ],
+   "answer": 1,
+   "why": "Mata ashita = see you tomorrow. They are going home together."
+  }
+ ]
+}

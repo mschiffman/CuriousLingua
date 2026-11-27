@@ -51,7 +51,7 @@ Every lesson file has `title`, `level` (`pre-a1` `a1` `a2` `b1` `b2` `c1`), `top
 
 **Supplements.** A lesson file with `"supplement_of": "amber"` is not listed on its own: it appears in a "Supplemental section" at the bottom of that lesson (same folder). `label` is the chip shown on its tile.
 
-**Related lessons.** `"related": ["fr/vocabulary/marche", "fr/speaking/boulangerie"]` pairs a lesson with others (any strand; `course/strand/slug`). Write it in one of them only. The lessons form a group, and every lesson of the group shows all the others (a lesson that names a member of a group joins it), in a "Goes with this lesson" section (a row of buttons at the end of a picture story, a line of links under expression flashcards). The build says so when a name does not exist.
+**Related lessons.** `"related": ["fr/vocabulary/marche", "fr/speaking/f001_bakery"]` pairs a lesson with others (any strand; `course/strand/slug`). Write it in one of them only. The lessons form a group, and every lesson of the group shows all the others (a lesson that names a member of a group joins it), in a "Goes with this lesson" section (a row of buttons at the end of a picture story, a line of links under expression flashcards). The build says so when a name does not exist.
 
 **The standard quiz set of a reading text.** Every reading text gets the same two supplements; `content\fr\reading\geothermal_exercises.json` and `geothermal_cloze.json` are the model to copy. Instructions to the learner are in French with *vous*; `label`, `intro` and `review` stay in English.
 
@@ -66,6 +66,18 @@ Every lesson file has `title`, `level` (`pre-a1` `a1` `a2` `b1` `b2` `c1`), `top
 Only one answer may be right for each blank, and nothing may be asked that the text does not say. A page written by a model carries `"review": "Written by Claude from the lesson text. Check the French and the answers before using it with learners."` until you have read it.
 
 **File names** use underscores, not dashes: `amber_cloze.json`, `video_amber.json`. To rename a lesson, save it under the new name and replace the old file's content with `{"retired": true}`; the next build deletes the old file and its pages.
+
+**Speaking lessons: numbers and short addresses.** A speaking lesson is named `<letter><number>_<scene>.json`: `f013_disbelief.json`, `e013_disbelief.json`. The letter is the course (`f` French, `e` English, `j` Japanese, `k` Korean, `s` Spanish). The number names what the lesson teaches, not its script: the lessons that teach the same thing share it in every course, each with its own conversation, and a number is never used again or changed. The scene name is in English and the same in every course. The next free number is one more than the highest in use (all courses together).
+
+Three lines in the lesson file go with the name:
+
+- `"code": "F13"`: the short address shown in the videos. The build writes `f13.html` and `f013.html` at the top of the site, so `curiouslingua.com/f13` opens the lesson. It says so when two lessons have the same code.
+- `"scene": 13`: the number alone.
+- `"was": ["jy_crois_pas"]`: the names the file had before. Each old address forwards to the lesson, so links already given out go on working. When you rename a lesson, add its old name here. Take a name out and the next build no longer writes its forwarding page (delete the old `.html` by hand).
+
+`topic` is the heading a lesson sits under on the Speaking page: Greetings and politeness, Shops and food, Getting around, Time, Health, Opinions, Reactions. Give a new heading only when a third lesson needs it. `aud_dir` keeps the folder the clips were recorded in, whatever the lesson is called now.
+
+**What the numbers do on the pages.** A lesson with a `code` shows it as a chip on its tile and on its own page. A lesson page opens with a box under its introduction: "Goes with this lesson" (the lessons paired with it by `related`) and "This lesson in other languages" (the lessons of the other courses with the same `scene`, found by the build: nothing to write). The Speaking page of each course has a search box and level buttons. The box looks through each lesson's number, title, subtitle, heading, level, scene titles, `notes` and `"keywords": ["..."]` (words you add when a lesson should be found by a word that is nowhere else in it); not through the lines of the dialogue, or everyday words would find every lesson. Accents, capitals and apostrophes do not matter (`ca va`, `daccord`). Enter opens the lesson when one is left, and `fr/speaking/index.html?q=f13` opens the page with the box filled in. To give another strand a search box, name the strands in `site.json`: `"search": ["speaking", "reading"]`.
 
 Any `reader`, `dialogue`, `shadow` or `text` lesson can end with a quiz:
 
