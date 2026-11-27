@@ -1082,7 +1082,7 @@ def home(all_lessons):
 <p class="mt-2 flex flex-wrap gap-1.5"><span class="chip chip-accent">{e(c["for"])}</span><span class="chip">{e(c["range"])}</span></p>
 <p class="mt-3 text-muted">{e(c["tagline"])}</p>
 <p class="mt-4 text-sm font-bold text-accent"><span data-count="{n}">{n}</span> lesson{"" if n == 1 else "s"}</p></a>'''
-    pill = lambda k, c: f'<a class="lang-pill" data-globe-link="{k}" data-course="{k}" href="{k}/index.html"><b {nat(c)}>{e(c["native"])}</b><span>{e(c["name"])}</span></a>'
+    pill = lambda k, c: f'<a class="lang-pill" data-globe-link="{k}" data-course="{k}" href="{k}/index.html"><b>{e(c["name"])}</b></a>'   # the English name alone: the native word stays on the globe's labels and the course cards
     pills = "".join(pill(k, c) for k, c in courses.items())
     pins = "".join(f'<a class="globe-pin" data-globe="{k}" data-course="{k}" href="{k}/index.html" tabindex="-1" aria-hidden="true"><b {nat(c)}>{e(c["native"])}</b><span>{e(c["name"])}</span></a>'
                    for k, c in courses.items())
