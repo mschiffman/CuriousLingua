@@ -912,6 +912,9 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
             f'<h2 class="{"mt-3 " if i and rows[0][1] else ""}text-sm font-bold text-muted">{name}</h2><div class="mt-2 flex flex-wrap gap-2">'
             + "".join(f'<a class="btn py-1.5" href="{r}{x["url"]}">{e(label)}</a>' for label, x in links) + "</div>"
             for i, (name, links) in enumerate(rows) if links) + "</section>"
+    pdf = ""   # the printable transcript, when tools/transcript.py has made one
+    if os.path.exists(os.path.join(ROOT, L["course"], L["strand"], L["slug"] + ".pdf")):
+        pdf = f'<p class="mt-4" data-nav><a class="btn py-1.5" href="{e(L["slug"])}.pdf" download>&darr; Transcript (PDF)</a></p>'
     body = f'''<main class="wrap py-6 sm:py-10">
 {crumbs(L, r)}
 {back}
@@ -919,7 +922,7 @@ def lesson_page(L, prev, nxt, has_offline, parent=None, supplements=()):
 <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl" data-reveal>{e(title)}</h1>
 {f'<p class="mt-2 text-xl text-muted" data-reveal>{e(L["subtitle"])}</p>' if L.get("subtitle") else ""}
 {f'<p class="mt-3 max-w-2xl text-muted" data-reveal>{inline(L["intro"]) if L.get("type") in lib.SILENT else e(L["intro"])}</p>' if L.get("intro") else ""}
-{goes}
+{goes}{pdf}
 {steps}
 {shell}
 {(QUIZ if L.get("questions") else "") + extra if L.get("start_hidden") else extra + (QUIZ if L.get("questions") else "")}

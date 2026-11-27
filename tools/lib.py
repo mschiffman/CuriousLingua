@@ -59,7 +59,7 @@ def lessons():
             L = normalize(json.load(open(os.path.join(dirpath, f), encoding="utf-8")))
             if L.get("retired"):   # a lesson that was renamed: clear away the old file and its pages
                 stem = parts[2][:-5]
-                for old in (os.path.join(dirpath, f), os.path.join(ROOT, parts[0], parts[1], stem + ".html"),
+                for old in (os.path.join(dirpath, f), os.path.join(ROOT, parts[0], parts[1], stem + ".html"), os.path.join(ROOT, parts[0], parts[1], stem + ".pdf"),
                             os.path.join(ROOT, parts[0], "single", f"{parts[1]}__{stem}.html")):
                     if os.path.exists(old):
                         os.remove(old)

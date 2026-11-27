@@ -33,6 +33,7 @@ Everything is run from the site folder, `G:\My Drive\LANGSITE`. The `.bat` files
 | `pitch.bat` | Check the pitch of a Japanese lesson's clips: draws each clip's pitch curve beside the same line read by AivisSpeech (open it first), marks the lines to listen to, and opens the report | `tools\pitch.py` |
 | `3_offline.bat` | Build single-file offline lessons in `<course>\single\` | `tools\offline.py` |
 | `4_check.bat` | Write and open the status report | `tools\check.py` |
+| `6_transcripts.bat` | Make the printable transcripts (PDF) of the speaking lessons that are missing or out of date, then rebuild the pages | `tools\transcript.py` |
 | `5_publish.bat` | Rebuild every page; commit and push when the folder is a git repository | `tools\build.py`, then git |
 | `SETUP.bat` | Run once on a new computer: unpack the site and copy `img\` and `media\` from the old LANGUAGES folder | `tools\build.py`, `tools\check.py` |
 | `tools\rebuild_css.bat` | Rebuild `assets\css\site.css` after changing page classes (needs Node) | Tailwind |
