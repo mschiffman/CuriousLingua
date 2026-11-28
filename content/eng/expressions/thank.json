@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/thank.html",
  "aud_dir": "eng/expressions/thank/",
@@ -37,6 +39,16 @@
        "Merci.",
        "Convient partout : magasins, professeurs, inconnus, famille. Les anglophones le disent de nombreuses fois par jour, même pour de petites choses comme passer le sel.",
        "— Voici votre café. — Merci."
+      ],
+      "hi": [
+       "धन्यवाद।",
+       "हर जगह चलता है: दुकान, शिक्षक, अजनबी, परिवार। अंग्रेज़ी बोलने वाले इसे दिन में कई बार कहते हैं, नमक पकड़ा देने जैसी छोटी बातों पर भी।",
+       "— यह रही आपकी कॉफ़ी। — धन्यवाद।"
+      ],
+      "vi": [
+       "Cảm ơn.",
+       "Dùng được ở mọi nơi: cửa hàng, thầy cô, người lạ, gia đình. Người nói tiếng Anh nói câu này nhiều lần mỗi ngày, kể cả vì những việc nhỏ như đưa giúp lọ muối.",
+       "— Cà phê của anh đây. — Cảm ơn."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Merci !",
        "Court et amical. En anglais, on remercie sans cesse la famille et les amis. Cela paraît chaleureux, pas distant.",
        "Merci, mamie ! La soupe est délicieuse."
+      ],
+      "hi": [
+       "शुक्रिया!",
+       "छोटा और दोस्ताना। अंग्रेज़ी में परिवार और दोस्तों को भी हर समय धन्यवाद कहा जाता है। यह अपनापन जताता है, दूरी नहीं।",
+       "शुक्रिया, दादी! सूप बहुत स्वादिष्ट है।"
+      ],
+      "vi": [
+       "Cảm ơn nhé!",
+       "Ngắn gọn và thân thiện. Trong tiếng Anh, người ta cảm ơn gia đình và bạn bè suốt ngày. Nghe ấm áp chứ không xa cách.",
+       "Cháu cảm ơn bà! Canh ngon lắm ạ."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Merci infiniment.",
        "Plus chaleureux et plus fort. Thank you very much veut dire la même chose, en un peu plus formel.",
        "Merci infiniment pour ce délicieux dîner."
+      ],
+      "hi": [
+       "बहुत-बहुत धन्यवाद।",
+       "ज़्यादा गर्मजोशी भरा और ज़ोरदार। Thank you very much का मतलब वही है, पर वह थोड़ा ज़्यादा औपचारिक है।",
+       "इतने बढ़िया खाने के लिए बहुत-बहुत धन्यवाद।"
+      ],
+      "vi": [
+       "Cảm ơn rất nhiều.",
+       "Ấm áp và mạnh hơn. Thank you very much cũng nghĩa như vậy, nhưng trang trọng hơn một chút.",
+       "Cảm ơn rất nhiều vì bữa tối tuyệt vời."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Merci beaucoup.",
        "Amical et familier. Attention au ton : dit d'une voix plate ou agacée, Thanks a lot! est ironique et veut dire le contraire.",
        "Merci beaucoup ! Tu m'as fait gagner un temps fou."
+      ],
+      "hi": [
+       "बहुत शुक्रिया।",
+       "दोस्ताना और अनौपचारिक। आवाज़ का ध्यान रखिए: रूखे या चिढ़े हुए लहजे में Thanks a lot! ताना बन जाता है और मतलब उलटा हो जाता है।",
+       "बहुत शुक्रिया! तुमने मेरा बहुत समय बचा दिया।"
+      ],
+      "vi": [
+       "Cảm ơn nhiều nhé.",
+       "Thân thiện và thoải mái. Chú ý giọng nói: nói bằng giọng cộc lốc hay bực bội thì Thanks a lot! thành mỉa mai và mang nghĩa ngược lại.",
+       "Cảm ơn nhiều nhé! Bạn giúp mình tiết kiệm bao nhiêu thời gian."
       ]
      }
     ]
@@ -106,6 +148,14 @@
     "fr": [
      "Dire merci",
      "Les mercis de tous les jours, d'un thanks rapide à un thank you so much chaleureux."
+    ],
+    "hi": [
+     "धन्यवाद कहना",
+     "रोज़ का धन्यवाद: झटपट thanks से लेकर दिल से कहे thank you so much तक।"
+    ],
+    "vi": [
+     "Nói lời cảm ơn",
+     "Lời cảm ơn hằng ngày, từ một tiếng thanks nhanh gọn đến câu thank you so much ấm áp."
     ]
    }
   },
@@ -130,6 +180,16 @@
        "Merci pour ton aide.",
        "Après avoir reçu de l'aide. Avec un verbe, on met -ing : Thanks for helping me. Pas : Thanks for help me.",
        "Merci pour ton aide avec les sacs."
+      ],
+      "hi": [
+       "आपकी मदद के लिए शुक्रिया।",
+       "जब किसी ने आपकी मदद की हो। क्रिया के साथ -ing लगाइए: Thanks for helping me. ग़लत: Thanks for help me.",
+       "बैग उठाने में मदद के लिए शुक्रिया।"
+      ],
+      "vi": [
+       "Cảm ơn bạn đã giúp.",
+       "Khi ai đó đã giúp bạn. Với động từ thì dùng -ing: Thanks for helping me. Không nói: Thanks for help me.",
+       "Cảm ơn bạn đã giúp mình xách túi."
       ]
      }
     ],
@@ -149,6 +209,16 @@
        "Merci pour le cadeau.",
        "Pour un cadeau, un repas, un message : tout ce que l'on vous donne. Ajoutez un mot gentil à son sujet.",
        "Merci pour les fleurs ! Elles sont magnifiques."
+      ],
+      "hi": [
+       "तोहफ़े के लिए शुक्रिया।",
+       "तोहफ़े, खाने या संदेश के लिए: जो कुछ भी कोई आपको दे। उस चीज़ के बारे में कोई अच्छी बात भी कहिए।",
+       "फूलों के लिए शुक्रिया! बहुत सुंदर हैं।"
+      ],
+      "vi": [
+       "Cảm ơn vì món quà.",
+       "Vì một món quà, một bữa ăn, một tin nhắn: bất cứ thứ gì người khác tặng bạn. Hãy khen thêm một câu về món đó.",
+       "Cảm ơn vì bó hoa! Đẹp quá."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Merci d'être venu.",
        "Ce que dit l'hôte à ses invités, à la porte ou à la fin d'une fête ou d'une réunion.",
        "Merci d'être venus. Revenez quand vous voulez !"
+      ],
+      "hi": [
+       "आने के लिए धन्यवाद।",
+       "मेज़बान अपने मेहमानों से कहता है, दरवाज़े पर या पार्टी या बैठक के अंत में।",
+       "आने के लिए धन्यवाद। फिर आइएगा!"
+      ],
+      "vi": [
+       "Cảm ơn bạn đã đến.",
+       "Chủ nhà nói với khách, ở cửa hoặc khi kết thúc bữa tiệc hay cuộc họp.",
+       "Cảm ơn bạn đã đến. Lần sau lại đến nhé!"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Merci d'avoir attendu.",
        "Quand vous avez fait attendre quelqu'un. Dans les magasins et les bureaux, on dit : Thank you for your patience.",
        "Désolé du retard. Merci d'avoir attendu."
+      ],
+      "hi": [
+       "इंतज़ार करने के लिए शुक्रिया।",
+       "जब आपने किसी को इंतज़ार कराया हो। दुकानों और दफ़्तरों में कहते हैं: Thank you for your patience.",
+       "माफ़ कीजिए, देर हो गई। इंतज़ार करने के लिए शुक्रिया।"
+      ],
+      "vi": [
+       "Cảm ơn bạn đã đợi.",
+       "Khi bạn để người khác phải chờ. Ở cửa hàng và văn phòng người ta nói: Thank you for your patience.",
+       "Xin lỗi mình đến muộn. Cảm ơn bạn đã đợi."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Merci quand même.",
        "Quand quelqu'un a essayé d'aider sans y parvenir. C'est aimable, pas impoli.",
        "— Désolé, je ne sais pas où est la banque. — D'accord, merci quand même."
+      ],
+      "hi": [
+       "फिर भी शुक्रिया।",
+       "जब किसी ने मदद की कोशिश की, पर कर नहीं पाया। यह विनम्र है, रूखा नहीं।",
+       "— माफ़ कीजिए, मुझे नहीं पता बैंक कहाँ है। — कोई बात नहीं, फिर भी शुक्रिया।"
+      ],
+      "vi": [
+       "Dù sao cũng cảm ơn.",
+       "Khi ai đó cố giúp nhưng không giúp được. Câu này tử tế, không hề thô lỗ.",
+       "— Xin lỗi, tôi không biết ngân hàng ở đâu. — Vâng, dù sao cũng cảm ơn."
       ]
      }
     ]
@@ -218,6 +318,14 @@
     "fr": [
      "Merci pour…",
      "Dire de quoi l'on remercie : thanks for + une chose, ou thanks for + -ing."
+    ],
+    "hi": [
+     "… के लिए धन्यवाद",
+     "बताना कि धन्यवाद किस बात का है: thanks for + कोई चीज़, या thanks for + -ing।"
+    ],
+    "vi": [
+     "Cảm ơn vì…",
+     "Nói rõ bạn cảm ơn vì điều gì: thanks for + một thứ, hoặc thanks for + -ing."
     ]
    }
   },
@@ -242,6 +350,16 @@
        "J'apprécie vraiment.",
        "Plus profond que thanks : on montre que l'on sait que l'aide a coûté du temps ou des efforts. Vient souvent après Thank you.",
        "Merci de m'avoir conduit à l'aéroport. J'apprécie vraiment."
+      ],
+      "hi": [
+       "मैं सच में आभारी हूँ।",
+       "thanks से गहरा: दिखाता है कि आप जानते हैं कि मदद में उनका समय या मेहनत लगी। अक्सर Thank you. के बाद आता है।",
+       "एयरपोर्ट छोड़ने के लिए शुक्रिया। मैं सच में आभारी हूँ।"
+      ],
+      "vi": [
+       "Mình thật sự rất cảm kích.",
+       "Sâu sắc hơn thanks: cho thấy bạn hiểu người kia đã bỏ thời gian hay công sức để giúp. Thường đi sau Thank you.",
+       "Cảm ơn bạn đã chở mình ra sân bay. Mình thật sự rất cảm kích."
       ]
      }
     ],
@@ -261,6 +379,16 @@
        "C'est très gentil de votre part.",
        "Remercie la personne pour sa gentillesse, pas seulement pour la chose. Poli et chaleureux : bien avec les personnes âgées et les inconnus.",
        "— Laissez-moi porter ça. — Oh, c'est très gentil de votre part."
+      ],
+      "hi": [
+       "यह आपकी बड़ी मेहरबानी है।",
+       "सिर्फ़ काम के लिए नहीं, व्यक्ति की भलमनसाहत के लिए धन्यवाद। विनम्र और आत्मीय: बड़ों और अजनबियों के साथ अच्छा है।",
+       "— लाइए, यह मैं उठा देता हूँ। — अरे, यह आपकी बड़ी मेहरबानी है।"
+      ],
+      "vi": [
+       "Bạn thật tốt bụng.",
+       "Cảm ơn con người vì lòng tốt, không chỉ vì việc họ làm. Lịch sự và ấm áp: hợp với người lớn tuổi và người lạ.",
+       "— Để tôi xách giúp cho. — Ôi, anh thật tốt bụng."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Il ne fallait pas !",
        "Ce que l'on dit en recevant un cadeau, pour montrer que l'on est gêné du dérangement. On dirait un reproche, mais cela veut dire Merci, c'est trop gentil. Acceptez ensuite le cadeau et remerciez.",
        "Un cadeau pour moi ? Oh, il ne fallait pas ! Merci !"
+      ],
+      "hi": [
+       "इसकी क्या ज़रूरत थी!",
+       "तोहफ़ा मिलने पर कहा जाता है, यह जताने के लिए कि आपको संकोच है कि उन्होंने तकलीफ़ उठाई। सुनने में शिकायत लगती है, पर मतलब है: शुक्रिया, आप कितने अच्छे हैं। फिर तोहफ़ा ले लीजिए और धन्यवाद कहिए।",
+       "मेरे लिए तोहफ़ा? अरे, इसकी क्या ज़रूरत थी! शुक्रिया!"
+      ],
+      "vi": [
+       "Bạn bày vẽ quá!",
+       "Câu nói khi nhận quà, để tỏ ý bạn ngại vì người kia đã mất công. Nghe như trách, nhưng nghĩa là: Cảm ơn, bạn chu đáo quá. Sau đó hãy nhận quà và cảm ơn.",
+       "Quà cho mình à? Ôi, bạn bày vẽ quá! Cảm ơn nhé!"
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Tu me sauves la vie !",
        "Familier et un peu drôle, pour une aide arrivée au moment parfait. Personne n'est vraiment en danger.",
        "Tu as retrouvé mon téléphone ? Tu me sauves la vie !"
+      ],
+      "hi": [
+       "तुमने तो जान बचा ली!",
+       "अनौपचारिक और थोड़ा मज़ाक़िया, उस मदद के लिए जो ठीक समय पर मिली। किसी की जान सचमुच ख़तरे में नहीं होती।",
+       "तुम्हें मेरा फ़ोन मिल गया? तुमने तो जान बचा ली!"
+      ],
+      "vi": [
+       "Bạn đúng là cứu tinh!",
+       "Thân mật và hơi hài hước, cho sự giúp đỡ đến thật đúng lúc. Không ai gặp nguy hiểm đến tính mạng thật cả.",
+       "Bạn tìm thấy điện thoại của mình à? Bạn đúng là cứu tinh!"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Je te revaudrai ça.",
        "Familier : la prochaine fois, c'est moi qui t'aide. Entre amis et collègues.",
        "Merci d'avoir pris mon service. Je te revaudrai ça."
+      ],
+      "hi": [
+       "तुम्हारा एहसान रहा।",
+       "अनौपचारिक: अगली बार मैं तुम्हारी मदद करूँगा। दोस्तों और सहकर्मियों के बीच।",
+       "मेरी शिफ़्ट सँभालने के लिए शुक्रिया। तुम्हारा एहसान रहा।"
+      ],
+      "vi": [
+       "Mình nợ bạn một lần.",
+       "Thân mật: lần sau mình sẽ giúp lại bạn. Giữa bạn bè và đồng nghiệp.",
+       "Cảm ơn bạn đã làm thay ca cho mình. Mình nợ bạn một lần."
       ]
      }
     ]
@@ -330,6 +488,14 @@
     "fr": [
      "Un grand merci",
      "Quand quelqu'un a fait pour vous quelque chose de vraiment gentil ou important."
+    ],
+    "hi": [
+     "बड़ा धन्यवाद",
+     "जब किसी ने आपके लिए सचमुच कोई भला या ज़रूरी काम किया हो।"
+    ],
+    "vi": [
+     "Lời cảm ơn lớn",
+     "Khi ai đó làm một việc thật tử tế hoặc quan trọng cho bạn."
     ]
    }
   },
@@ -354,6 +520,16 @@
        "De rien.",
        "La réponse classique. Dites toujours la phrase entière : Welcome! tout seul veut dire Bienvenue, pas De rien.",
        "— Merci. — De rien."
+      ],
+      "hi": [
+       "कोई बात नहीं।",
+       "सबसे आम, मानक जवाब। हमेशा पूरा वाक्य कहिए: अकेले Welcome! का मतलब सिर्फ़ “आपका स्वागत है” होता है, धन्यवाद का जवाब नहीं।",
+       "— धन्यवाद। — कोई बात नहीं।"
+      ],
+      "vi": [
+       "Không có gì.",
+       "Câu trả lời chuẩn. Luôn nói cả câu: chỉ nói Welcome! thì nghĩa là “Chào mừng bạn đến đây”, không phải “Không có gì”.",
+       "— Cảm ơn. — Không có gì."
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Pas de problème.",
        "Familier et très courant. On dit aussi : No worries, répandu en Australie et au Royaume-Uni, et de plus en plus aux États-Unis.",
        "— Merci de m'avoir déposé. — Pas de problème !"
+      ],
+      "hi": [
+       "कोई दिक़्क़त नहीं।",
+       "अनौपचारिक और बहुत आम। यह भी: No worries, जो ऑस्ट्रेलिया और ब्रिटेन में लोकप्रिय है और अमेरिका में भी बढ़ रहा है।",
+       "— छोड़ने के लिए शुक्रिया। — कोई दिक़्क़त नहीं!"
+      ],
+      "vi": [
+       "Không sao đâu.",
+       "Thân mật và rất phổ biến. Cũng có: No worries, phổ biến ở Úc và Anh và ngày càng hay gặp ở Mỹ.",
+       "— Cảm ơn đã cho mình đi nhờ xe. — Không sao đâu!"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Avec plaisir.",
        "Chaleureux et poli : j'ai été heureux de le faire. Le personnel des hôtels et des restaurants le dit souvent.",
        "— Merci pour ce délicieux repas. — Avec plaisir."
+      ],
+      "hi": [
+       "यह तो मेरी ख़ुशी है।",
+       "आत्मीय और विनम्र: मैंने यह ख़ुशी से किया। होटलों और रेस्तराँ के कर्मचारी इसे बहुत कहते हैं।",
+       "— इतने बढ़िया खाने के लिए धन्यवाद। — यह तो मेरी ख़ुशी है।"
+      ],
+      "vi": [
+       "Rất hân hạnh.",
+       "Ấm áp và lịch sự: tôi rất vui được làm việc đó. Nhân viên khách sạn và nhà hàng hay nói câu này.",
+       "— Cảm ơn vì bữa ăn tuyệt vời. — Rất hân hạnh."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Il n'y a pas de quoi.",
        "Ce n'était rien, inutile de me remercier. Amical, un peu vieillot.",
        "— Merci d'avoir réparé mon vélo. — Il n'y a pas de quoi."
+      ],
+      "hi": [
+       "इसमें धन्यवाद कैसा।",
+       "कुछ ख़ास नहीं किया, धन्यवाद की ज़रूरत नहीं। दोस्ताना, थोड़ा पुराने ढंग का।",
+       "— मेरी साइकिल ठीक करने के लिए शुक्रिया। — इसमें धन्यवाद कैसा।"
+      ],
+      "vi": [
+       "Có gì đâu.",
+       "Chuyện nhỏ thôi, không cần cảm ơn. Thân thiện, hơi cổ một chút.",
+       "— Cảm ơn bạn đã sửa xe đạp cho mình. — Có gì đâu."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Quand tu veux !",
        "Amical : je serai content d'aider à nouveau. Entre amis.",
        "— Merci de m'avoir écouté. — Quand tu veux !"
+      ],
+      "hi": [
+       "जब चाहो!",
+       "दोस्ताना: मैं ख़ुशी से फिर मदद करूँगा। दोस्तों के बीच।",
+       "— मेरी बात सुनने के लिए शुक्रिया। — जब चाहो!"
+      ],
+      "vi": [
+       "Lúc nào cũng được!",
+       "Thân thiện: mình sẵn lòng giúp bạn lần nữa. Giữa bạn bè.",
+       "— Cảm ơn bạn đã lắng nghe. — Lúc nào cũng được!"
       ]
      }
     ]
@@ -442,6 +658,14 @@
     "fr": [
      "Répondre à un merci",
      "Que dire quand on vous remercie."
+    ],
+    "hi": [
+     "धन्यवाद का जवाब",
+     "जब कोई आपको धन्यवाद कहे, तो क्या कहें।"
+    ],
+    "vi": [
+     "Đáp lại lời cảm ơn",
+     "Nói gì khi có người cảm ơn bạn."
     ]
    }
   },
@@ -466,6 +690,16 @@
        "Oui, s'il vous plaît.",
        "Pour accepter une offre. Yes tout seul peut sembler un peu impoli : ajoutez please.",
        "— Voulez-vous du thé ? — Oui, s'il vous plaît."
+      ],
+      "hi": [
+       "जी हाँ, ज़रूर।",
+       "पेशकश स्वीकार करने के लिए। अकेला Yes थोड़ा रूखा लग सकता है: please जोड़िए।",
+       "— चाय लेंगे? — जी हाँ, ज़रूर।"
+      ],
+      "vi": [
+       "Vâng, cho tôi xin.",
+       "Để nhận lời mời. Chỉ nói Yes có thể nghe hơi cộc: hãy thêm please.",
+       "— Bạn uống trà nhé? — Vâng, cho tôi xin."
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Non, merci.",
        "Un non poli. Important : les anglophones prennent votre premier non au sérieux et ne reproposent pas. Si vous en voulez, dites Yes, please!",
        "— Encore du riz ? — Non, merci. Je n'ai plus faim."
+      ],
+      "hi": [
+       "जी नहीं, शुक्रिया।",
+       "विनम्र ना। ध्यान रहे: अंग्रेज़ी बोलने वाले आपकी पहली ना को सच मान लेते हैं और दोबारा नहीं पूछते। अगर चाहिए, तो Yes, please! कहिए।",
+       "— और चावल? — जी नहीं, शुक्रिया। पेट भर गया।"
+      ],
+      "vi": [
+       "Không, cảm ơn.",
+       "Lời từ chối lịch sự. Quan trọng: người nói tiếng Anh tin lời từ chối đầu tiên của bạn và sẽ không mời lại. Nếu muốn, hãy nói Yes, please!",
+       "— Thêm cơm nhé? — Không, cảm ơn. Mình no rồi."
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Ça va, merci.",
        "Un autre non poli, souvent quand on vous propose de l'aide. Ici, il ne s'agit pas de votre santé.",
        "— Tu as besoin d'aide ? — Ça va, merci."
+      ],
+      "hi": [
+       "नहीं, ठीक है, शुक्रिया।",
+       "एक और विनम्र ना, अक्सर तब जब कोई मदद की पेशकश करे। यहाँ बात आपकी सेहत की नहीं है।",
+       "— इसमें मदद चाहिए? — नहीं, ठीक है, शुक्रिया।"
+      ],
+      "vi": [
+       "Mình ổn, cảm ơn.",
+       "Một lời từ chối lịch sự khác, thường là khi có người ngỏ ý giúp. Ở đây không nói về sức khỏe của bạn.",
+       "— Bạn có cần giúp không? — Mình ổn, cảm ơn."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Merci de demander.",
        "Adoucit un non, ou remercie quelqu'un de s'inquiéter pour vous.",
        "— Ça va ? Tu as l'air fatigué. — Ça va, mais merci de demander."
+      ],
+      "hi": [
+       "पूछने के लिए शुक्रिया।",
+       "ना को नरम करता है, या इस बात का धन्यवाद है कि किसी को आपकी फ़िक्र है।",
+       "— तुम ठीक हो? थके हुए लग रहे हो। — ठीक हूँ, पर पूछने के लिए शुक्रिया।"
+      ],
+      "vi": [
+       "Cảm ơn bạn đã hỏi thăm.",
+       "Làm lời từ chối nhẹ nhàng hơn, hoặc cảm ơn vì có người quan tâm đến bạn.",
+       "— Bạn ổn chứ? Trông bạn mệt quá. — Mình ổn, nhưng cảm ơn bạn đã hỏi thăm."
       ]
      }
     ]
@@ -535,6 +799,14 @@
     "fr": [
      "Oui, s'il vous plaît / Non, merci",
      "Dire oui ou non à une offre, poliment."
+    ],
+    "hi": [
+     "जी हाँ / जी नहीं, शुक्रिया",
+     "किसी पेशकश को विनम्रता से हाँ या ना कहना।"
+    ],
+    "vi": [
+     "Vâng, cho tôi xin / Không, cảm ơn",
+     "Nhận lời hoặc từ chối một lời mời một cách lịch sự."
     ]
    }
   },
@@ -559,6 +831,16 @@
        "Merci pour votre temps.",
        "Remerciement poli à la fin d'une réunion. La meilleure dernière phrase d'un entretien d'embauche.",
        "Merci pour votre temps. J'espère avoir bientôt de vos nouvelles."
+      ],
+      "hi": [
+       "अपना समय देने के लिए धन्यवाद।",
+       "बैठक के अंत में विनम्र धन्यवाद। नौकरी के इंटरव्यू का सबसे अच्छा आख़िरी वाक्य।",
+       "अपना समय देने के लिए धन्यवाद। आशा है जल्द आपसे ख़बर मिलेगी।"
+      ],
+      "vi": [
+       "Cảm ơn anh chị đã dành thời gian.",
+       "Lời cảm ơn lịch sự khi kết thúc cuộc họp. Câu kết hay nhất trong một buổi phỏng vấn xin việc.",
+       "Cảm ơn anh chị đã dành thời gian. Tôi mong sớm nhận được tin từ anh chị."
       ]
      }
     ],
@@ -578,6 +860,16 @@
        "Merci de m'avoir prévenu.",
        "Quand on vous donne une nouvelle ou une information, même mauvaise.",
        "— La réunion est annulée. — D'accord, merci de m'avoir prévenu."
+      ],
+      "hi": [
+       "बताने के लिए शुक्रिया।",
+       "जब कोई आपको कोई ख़बर या जानकारी दे, चाहे बुरी ही हो।",
+       "— बैठक रद्द हो गई है। — ठीक है, बताने के लिए शुक्रिया।"
+      ],
+      "vi": [
+       "Cảm ơn bạn đã cho mình biết.",
+       "Khi ai đó báo cho bạn một tin hay thông tin, kể cả tin xấu.",
+       "— Cuộc họp bị hủy rồi. — Vâng, cảm ơn bạn đã cho mình biết."
       ]
      }
     ],
@@ -597,6 +889,16 @@
        "Merci d'avance.",
        "À la fin d'un message où l'on demande quelque chose. Certains le trouvent un peu insistant : Thank you for your help est plus doux.",
        "Pourriez-vous m'envoyer le formulaire ? Merci d'avance !"
+      ],
+      "hi": [
+       "पहले से ही धन्यवाद।",
+       "उस संदेश के अंत में, जिसमें आप कुछ माँग रहे हों। कुछ लोगों को यह थोड़ा दबाव डालने जैसा लगता है: Thank you for your help ज़्यादा नरम है।",
+       "क्या आप मुझे फ़ॉर्म भेज सकते हैं? पहले से ही धन्यवाद!"
+      ],
+      "vi": [
+       "Cảm ơn trước nhé.",
+       "Ở cuối một tin nhắn nhờ vả. Có người thấy câu này hơi thúc ép: Thank you for your help thì nhẹ nhàng hơn.",
+       "Bạn gửi cho mình mẫu đơn được không? Cảm ơn trước nhé!"
       ]
      }
     ],
@@ -616,6 +918,16 @@
        "Encore merci.",
        "Un second merci à la fin d'une conversation ou d'un courriel, pour quelque chose dont vous avez déjà remercié.",
        "Encore merci pour tout. À la semaine prochaine !"
+      ],
+      "hi": [
+       "एक बार फिर शुक्रिया।",
+       "बातचीत या ईमेल के अंत में दूसरा धन्यवाद, उस बात के लिए जिसका धन्यवाद आप पहले कर चुके हैं।",
+       "हर चीज़ के लिए एक बार फिर शुक्रिया। अगले हफ़्ते मिलते हैं!"
+      ],
+      "vi": [
+       "Cảm ơn bạn lần nữa.",
+       "Lời cảm ơn thứ hai ở cuối cuộc trò chuyện hoặc email, cho điều bạn đã cảm ơn rồi.",
+       "Cảm ơn bạn lần nữa vì tất cả. Tuần sau gặp nhé!"
       ]
      }
     ]
@@ -628,6 +940,14 @@
     "fr": [
      "Merci au travail et dans les messages",
      "Des remerciements polis pour les entretiens, les réunions, les courriels et les messages."
+    ],
+    "hi": [
+     "काम पर और संदेशों में धन्यवाद",
+     "इंटरव्यू, बैठकों, ईमेल और संदेशों के लिए विनम्र धन्यवाद।"
+    ],
+    "vi": [
+     "Cảm ơn trong công việc và tin nhắn",
+     "Lời cảm ơn lịch sự cho phỏng vấn, cuộc họp, email và tin nhắn."
     ]
    }
   }

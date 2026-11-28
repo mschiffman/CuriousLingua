@@ -1,0 +1,898 @@
+{
+ "code": "G1",
+ "title": "Present Simple",
+ "subtitle": "Things we do every day",
+ "level": "a1",
+ "topic": "Grammar chapters",
+ "type": "game",
+ "order": 1,
+ "review": "Written by Claude. Check the Burmese, Spanish, Hindi and Vietnamese (explanations and scene translations) and the answers. No pictures or audio yet.",
+ "intro": "Emma gets up at six, Lucas thinks in bed, and Mr. Tan next door does everything. Four short scenes, then the rule, the mistakes to watch for, practice and a quiz.",
+ "aud_dir": "eng/grammar/g001_present_simple/",
+ "aud_ext": "mp3?v=2611280703",
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/grammar/present_simple"
+ ],
+ "clips": [
+  "I get up at six every day.",
+  "I get up at six too.",
+  "No. You hear the alarm at six. You get up at eight.",
+  "I think in bed. It is work.",
+  "Mr. Tan runs every morning.",
+  "He runs? Every morning?",
+  "Yes. He runs, he swims, and he cooks dinner.",
+  "Hmm.",
+  "And he washes the dishes.",
+  "I don't like Mr. Tan.",
+  "I don't eat sugar.",
+  "You don't eat sugar?",
+  "No. I don't eat cake. I don't drink cola.",
+  "And the chocolate in your bag?",
+  "That chocolate doesn't count.",
+  "Do you love me?",
+  "Yes.",
+  "Does your mother love me?",
+  "She likes you.",
+  "Does the cat like me?",
+  "The cat likes your chair.",
+  "cooks",
+  "likes",
+  "runs",
+  "swims",
+  "washes",
+  "watches",
+  "cook",
+  "swim",
+  "He runs every morning.",
+  "He washes the dishes."
+ ],
+ "clip_who": [
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E"
+ ],
+ "chapter": {
+  "subtitle": {
+   "my": "နေ့တိုင်း၊ အမြဲ လုပ်လေ့ရှိသော အရာများ",
+   "en": "Things we do every day",
+   "es": "Cosas que hacemos todos los días",
+   "vi": "Những việc ta làm hằng ngày",
+   "hi": "जो काम हम रोज़ करते हैं"
+  },
+  "langs": [
+   "my",
+   "en",
+   "es",
+   "hi",
+   "vi"
+  ],
+  "scenes": [
+   {
+    "title": "The Morning",
+    "image_note": "Bedroom, early morning. Emma dressed and awake by the window; Lucas still in bed under the blanket, alarm clock showing 6:00.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "I [[get up]] at six every day.",
+      "tr": {
+       "my": "ကျွန်မ နေ့တိုင်း ခြောက်နာရီ အိပ်ရာထတယ်။",
+       "es": "Me levanto a las seis todos los días.",
+       "vi": "Ngày nào em cũng dậy lúc sáu giờ.",
+       "hi": "मैं रोज़ छह बजे उठती हूँ।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[get up]] at six too.",
+      "tr": {
+       "my": "ကျွန်တော်လည်း ခြောက်နာရီ ထတယ်။",
+       "es": "Yo también me levanto a las seis.",
+       "vi": "Anh cũng dậy lúc sáu giờ.",
+       "hi": "मैं भी छह बजे उठता हूँ।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "No. You [[hear]] the alarm at six. You [[get up]] at eight.",
+      "tr": {
+       "my": "မဟုတ်ဘူး။ ရှင်က ခြောက်နာရီမှာ နှိုးစက်သံ ကြားတာ။ ရှစ်နာရီမှ ထတာ။",
+       "es": "No. Tú oyes la alarma a las seis. Te levantas a las ocho.",
+       "vi": "Không. Sáu giờ anh nghe chuông báo thức. Tám giờ anh mới dậy.",
+       "hi": "नहीं। तुम छह बजे अलार्म सुनते हो। उठते आठ बजे हो।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[think]] in bed. It is work.",
+      "tr": {
+       "my": "ကျွန်တော် အိပ်ရာထဲမှာ စဉ်းစားတာ။ အဲဒါ အလုပ်ပဲ။",
+       "es": "Pienso en la cama. Es trabajo.",
+       "vi": "Anh nằm trên giường suy nghĩ. Đó là làm việc.",
+       "hi": "मैं बिस्तर में सोचता हूँ। वह काम है।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Neighbour",
+    "image_note": "Emma and Lucas at the window with coffee, watching a fit older neighbour jog past in the street.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "Mr. Tan [[runs]] every morning.",
+      "tr": {
+       "my": "မစ္စတာတန်က မနက်တိုင်း ပြေးတယ်။",
+       "es": "El señor Tan corre todas las mañanas.",
+       "vi": "Sáng nào ông Tan cũng chạy bộ.",
+       "hi": "मिस्टर टैन हर सुबह दौड़ते हैं।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "He [[runs]]? Every morning?",
+      "tr": {
+       "my": "သူ ပြေးတာလား။ မနက်တိုင်းလား။",
+       "es": "¿Corre? ¿Todas las mañanas?",
+       "vi": "Ông ấy chạy á? Sáng nào cũng chạy?",
+       "hi": "दौड़ते हैं? हर सुबह?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Yes. He [[runs]], he [[swims]], and he [[cooks]] dinner.",
+      "tr": {
+       "my": "ဟုတ်တယ်။ သူ ပြေးတယ်၊ ရေကူးတယ်၊ ညစာလည်း ချက်တယ်။",
+       "es": "Sí. Corre, nada y prepara la cena.",
+       "vi": "Ừ. Ông ấy chạy bộ, bơi, rồi nấu bữa tối.",
+       "hi": "हाँ। वे दौड़ते हैं, तैरते हैं और रात का खाना बनाते हैं।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "Hmm.",
+      "tr": {
+       "my": "အင်း။",
+       "es": "Mmm.",
+       "vi": "Hừm.",
+       "hi": "हम्म।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "And he [[washes]] the dishes.",
+      "tr": {
+       "my": "ပန်းကန်လည်း ဆေးတယ်။",
+       "es": "Y lava los platos.",
+       "vi": "Và ông ấy rửa bát nữa.",
+       "hi": "और बर्तन भी धोते हैं।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[don't like]] Mr. Tan.",
+      "tr": {
+       "my": "ကျွန်တော် မစ္စတာတန်ကို မကြိုက်ဘူး။",
+       "es": "No me cae bien el señor Tan.",
+       "vi": "Anh không thích ông Tan.",
+       "hi": "मुझे मिस्टर टैन पसंद नहीं।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Diet",
+    "image_note": "Kitchen table. Emma with a salad, looking proud; Lucas pointing at her open handbag with a chocolate bar sticking out.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "I [[don't eat]] sugar.",
+      "tr": {
+       "my": "ကျွန်မ သကြား မစားဘူး။",
+       "es": "No como azúcar.",
+       "vi": "Em không ăn đường.",
+       "hi": "मैं चीनी नहीं खाती।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "You [[don't eat]] sugar?",
+      "tr": {
+       "my": "သကြား မစားဘူးလား။",
+       "es": "¿No comes azúcar?",
+       "vi": "Em không ăn đường à?",
+       "hi": "तुम चीनी नहीं खातीं?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "No. I [[don't eat]] cake. I [[don't drink]] cola.",
+      "tr": {
+       "my": "မစားဘူး။ ကိတ်မုန့် မစားဘူး။ ကိုလာ မသောက်ဘူး။",
+       "es": "No. No como pastel. No tomo refresco.",
+       "vi": "Không. Em không ăn bánh ngọt. Em không uống nước ngọt.",
+       "hi": "नहीं। मैं केक नहीं खाती। मैं कोला नहीं पीती।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "And the chocolate in your bag?",
+      "tr": {
+       "my": "အိတ်ထဲက ချောကလက်ကရော။",
+       "es": "¿Y el chocolate que traes en la bolsa?",
+       "vi": "Thế thanh sô-cô-la trong túi em thì sao?",
+       "hi": "और तुम्हारे बैग वाली चॉकलेट?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "That chocolate [[doesn't count]].",
+      "tr": {
+       "my": "အဲဒီ ချောကလက်ကို ထည့်မတွက်ဘူး။",
+       "es": "Ese chocolate no cuenta.",
+       "vi": "Sô-cô-la đó không tính.",
+       "hi": "वह चॉकलेट नहीं गिनी जाती।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Questions",
+    "image_note": "Sofa in the evening. Lucas asking earnestly; Emma reading; a cat asleep on the armchair that is clearly Lucas's.",
+    "lines": [
+     {
+      "who": "Lucas",
+      "text": "[[Do]] you [[love]] me?",
+      "tr": {
+       "my": "ကျွန်တော့်ကို ချစ်လား။",
+       "es": "¿Me quieres?",
+       "vi": "Em có yêu anh không?",
+       "hi": "क्या तुम मुझसे प्यार करती हो?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Yes.",
+      "tr": {
+       "my": "ချစ်တယ်။",
+       "es": "Sí.",
+       "vi": "Có.",
+       "hi": "हाँ।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "[[Does]] your mother [[love]] me?",
+      "tr": {
+       "my": "မင်းအမေကရော ကျွန်တော့်ကို ချစ်လား။",
+       "es": "¿Tu mamá me quiere?",
+       "vi": "Mẹ em có yêu quý anh không?",
+       "hi": "क्या तुम्हारी माँ मुझसे प्यार करती हैं?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "She [[likes]] you.",
+      "tr": {
+       "my": "အမေက ရှင့်ကို သဘောကျတယ်။",
+       "es": "Le caes bien.",
+       "vi": "Mẹ thấy anh cũng được.",
+       "hi": "वे तुम्हें पसंद करती हैं।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "[[Does]] the cat [[like]] me?",
+      "tr": {
+       "my": "ကြောင်ကရော ကျွန်တော့်ကို သဘောကျလား။",
+       "es": "¿Le caigo bien a la gata?",
+       "vi": "Con mèo có thích anh không?",
+       "hi": "क्या बिल्ली मुझे पसंद करती है?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "The cat [[likes]] your chair.",
+      "tr": {
+       "my": "ကြောင်က ရှင့်ကုလားထိုင်ကို သဘောကျတယ်။",
+       "es": "A la gata le gusta tu silla.",
+       "vi": "Con mèo thích cái ghế của anh.",
+       "hi": "बिल्ली को तुम्हारी कुर्सी पसंद है।"
+      }
+     }
+    ]
+   }
+  ],
+  "notice": [
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၁ တွင် I နှင့် you နောက်က ကြိယာ ပြောင်းသလား။",
+     "en": "Scene 1: does the verb change after I and you?",
+     "es": "Escena 1: ¿cambia el verbo después de I y you?",
+     "vi": "Cảnh 1: sau I và you, động từ có thay đổi không?",
+     "hi": "दृश्य 1: क्या I और you के बाद क्रिया बदलती है?"
+    },
+    "a": {
+     "my": "မပြောင်းပါ။ I [[get up]]၊ you [[get up]]။",
+     "en": "No. I [[get up]], you [[get up]].",
+     "es": "No. I [[get up]], you [[get up]].",
+     "vi": "Không. I [[get up]], you [[get up]].",
+     "hi": "नहीं। I [[get up]], you [[get up]]."
+    }
+   },
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၂ တွင် he နောက်က ကြိယာ၌ ဘာစာလုံး ပိုလာသလဲ။",
+     "en": "Scene 2: what letter is added to the verb after he?",
+     "es": "Escena 2: ¿qué letra se añade al verbo después de he?",
+     "vi": "Cảnh 2: sau he, động từ được thêm chữ gì?",
+     "hi": "दृश्य 2: he के बाद क्रिया में कौन सा अक्षर जुड़ता है?"
+    },
+    "a": {
+     "my": "[[-s]] ပိုလာသည် (runs, swims, cooks)။ wash တွင်မူ [[-es]] (washes)။",
+     "en": "[[-s]]: runs, swims, cooks. With wash it is [[-es]]: washes.",
+     "es": "[[-s]]: runs, swims, cooks. Con wash es [[-es]]: washes.",
+     "vi": "[[-s]]: runs, swims, cooks. Với wash thì thêm [[-es]]: washes.",
+     "hi": "[[-s]]: runs, swims, cooks. wash में [[-es]] जुड़ता है: washes."
+    }
+   },
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၃ တွင် doesn't နောက်က ကြိယာ၌ -s ပါသလား။",
+     "en": "Scene 3: is there an -s on the verb after doesn't?",
+     "es": "Escena 3: ¿lleva -s el verbo después de doesn't?",
+     "vi": "Cảnh 3: sau doesn't, động từ có -s không?",
+     "hi": "दृश्य 3: क्या doesn't के बाद क्रिया में -s है?"
+    },
+    "a": {
+     "my": "မပါပါ။ doesn't [[count]]။ -s သည် doe[[s]] ထဲသို့ ရောက်သွားပြီ။",
+     "en": "No. doesn't [[count]]. The -s has moved into doe[[s]].",
+     "es": "No. doesn't [[count]]. La -s ya está en doe[[s]].",
+     "vi": "Không. doesn't [[count]]. Chữ -s đã nằm trong doe[[s]] rồi.",
+     "hi": "नहीं। doesn't [[count]]. -s अब doe[[s]] में चला गया है।"
+    }
+   },
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၄ တွင် မေးခွန်းများသည် ဘာစကားလုံးဖြင့် စသလဲ။",
+     "en": "Scene 4: which word starts each question?",
+     "es": "Escena 4: ¿con qué palabra empieza cada pregunta?",
+     "vi": "Cảnh 4: mỗi câu hỏi bắt đầu bằng từ nào?",
+     "hi": "दृश्य 4: हर सवाल किस शब्द से शुरू होता है?"
+    },
+    "a": {
+     "my": "you အတွက် [[Do]]၊ your mother / the cat အတွက် [[Does]]။",
+     "en": "[[Do]] for you. [[Does]] for your mother and the cat.",
+     "es": "[[Do]] con you. [[Does]] con your mother y the cat.",
+     "vi": "[[Do]] đi với you. [[Does]] đi với your mother và the cat.",
+     "hi": "you के साथ [[Do]]. your mother और the cat के साथ [[Does]]."
+    }
+   }
+  ],
+  "rule": {
+   "points": {
+    "my": [
+     "နေ့တိုင်း၊ အမြဲ၊ ပုံမှန် လုပ်လေ့ရှိသော အရာများအတွက် Present Simple ကို သုံးသည်။",
+     "I / you / we / they နောက်တွင် ကြိယာ မပြောင်းပါ။ he / she / it နောက်တွင် ကြိယာ၌ [[-s]] (သို့) [[-es]] ထည့်ရသည်။",
+     "မြန်မာစကားတွင် ကြိယာပုံစံ မပြောင်းပါ။ အင်္ဂလိပ်တွင် ပြောင်းသည်။ ထို့ကြောင့် [[-s]] ကို မမေ့ပါနှင့်။",
+     "အငြင်းဝါကျ − [[don't]] / [[doesn't]] + ကြိယာ မူရင်းပုံစံ (-s မပါ)။",
+     "မေးခွန်း − [[Do]] / [[Does]] ကို ရှေ့ဆုံးတွင် ထားပြီး ကြိယာ မူရင်းပုံစံကို သုံးသည်။"
+    ],
+    "en": [
+     "Use the present simple for things you do every day, always or usually.",
+     "After I / you / we / they the verb does not change. After he / she / it add [[-s]] or [[-es]].",
+     "In many languages the verb never changes. In English it does, so remember the [[-s]].",
+     "Negative: [[don't]] / [[doesn't]] + the basic verb (no -s).",
+     "Question: put [[Do]] / [[Does]] first, then use the basic verb."
+    ],
+    "es": [
+     "Usa el present simple para lo que haces todos los días, siempre o normalmente.",
+     "Después de I / you / we / they el verbo no cambia. Después de he / she / it añade [[-s]] o [[-es]].",
+     "En español cambia toda la terminación (corro, corre). En inglés solo cambia con he / she / it, y por eso la [[-s]] se olvida fácilmente.",
+     "Negación: [[don't]] / [[doesn't]] + verbo base (sin -s). No basta con poner no.",
+     "Pregunta: [[Do]] / [[Does]] al principio y luego el verbo base. Y el sujeto siempre se dice: [[He]] runs, no solo Runs."
+    ],
+    "vi": [
+     "Dùng thì hiện tại đơn cho việc bạn làm hằng ngày, luôn luôn hoặc thường xuyên.",
+     "Sau I / you / we / they, động từ giữ nguyên. Sau he / she / it, thêm [[-s]] hoặc [[-es]].",
+     "Trong tiếng Việt động từ không bao giờ đổi dạng. Trong tiếng Anh thì có, nên đừng quên [[-s]].",
+     "Phủ định: [[don't]] / [[doesn't]] + động từ nguyên mẫu (không có -s).",
+     "Câu hỏi: đặt [[Do]] / [[Does]] lên đầu câu, sau đó dùng động từ nguyên mẫu."
+    ],
+    "hi": [
+     "जो काम आप रोज़, हमेशा या आम तौर पर करते हैं, उनके लिए present simple का प्रयोग करें।",
+     "I / you / we / they के बाद क्रिया नहीं बदलती। he / she / it के बाद क्रिया में [[-s]] या [[-es]] जोड़ें।",
+     "हिंदी में 'मैं रोज़ जाता हूँ' कहते हैं, पर अंग्रेज़ी में यहाँ am / is + -ing नहीं लगता: I [[go]] every day, I am going नहीं।",
+     "नकारात्मक: [[don't]] / [[doesn't]] + क्रिया का मूल रूप (बिना -s)।",
+     "प्रश्न: [[Do]] / [[Does]] सबसे पहले, फिर क्रिया का मूल रूप।"
+    ]
+   },
+   "tables": [
+    {
+     "title": "Positive",
+     "rows": [
+      [
+       "I / you / we / they",
+       "get up · run · wash"
+      ],
+      [
+       "he / she / it",
+       "get[[s]] up · run[[s]] · wash[[es]]"
+      ]
+     ]
+    },
+    {
+     "title": "Negative",
+     "rows": [
+      [
+       "I / you / we / they",
+       "[[don't]] run"
+      ],
+      [
+       "he / she / it",
+       "[[doesn't]] run"
+      ]
+     ]
+    },
+    {
+     "title": "Question",
+     "rows": [
+      [
+       "[[Do]] I / you / we / they",
+       "run?"
+      ],
+      [
+       "[[Does]] he / she / it",
+       "run?"
+      ]
+     ]
+    }
+   ]
+  },
+  "sounds": {
+   "intro": {
+    "my": "[[-s]] ကို အသံသုံးမျိုး ထွက်သည်။ နှိပ်၍ နားထောင်ပါ။ စကားလုံး၏ အဆုံးသံကို မဖြုတ်ပါနှင့်။",
+    "en": "The [[-s]] ending has three sounds. Tap to listen, and do not drop the ending.",
+    "es": "La terminación [[-s]] tiene tres sonidos. Toca para escuchar y no te comas el final.",
+    "vi": "Đuôi [[-s]] có ba cách đọc. Chạm để nghe, và đừng bỏ âm cuối.",
+    "hi": "[[-s]] की तीन ध्वनियाँ होती हैं। सुनने के लिए टैप करें, और अंत की ध्वनि न छोड़ें।"
+   },
+   "items": [
+    {
+     "word": "cooks",
+     "ipa": "/s/"
+    },
+    {
+     "word": "likes",
+     "ipa": "/s/"
+    },
+    {
+     "word": "runs",
+     "ipa": "/z/"
+    },
+    {
+     "word": "swims",
+     "ipa": "/z/"
+    },
+    {
+     "word": "washes",
+     "ipa": "/ɪz/"
+    },
+    {
+     "word": "watches",
+     "ipa": "/ɪz/"
+    }
+   ]
+  },
+  "mistakes": [
+   {
+    "langs": [
+     "es"
+    ],
+    "wrong": "Runs every morning.",
+    "right": "[[He]] runs every morning.",
+    "note": {
+     "es": "En inglés el sujeto siempre se dice."
+    }
+   },
+   {
+    "langs": [
+     "es"
+    ],
+    "wrong": "She no like coffee.",
+    "right": "She [[doesn't]] like coffee.",
+    "note": {
+     "es": "No + verbo no funciona. Usa don't / doesn't."
+    }
+   },
+   {
+    "langs": [
+     "hi"
+    ],
+    "wrong": "I am getting up at six every day.",
+    "right": "I [[get up]] at six every day.",
+    "note": {
+     "hi": "रोज़ की आदत के लिए present simple, am + -ing नहीं।"
+    }
+   },
+   {
+    "langs": [
+     "vi"
+    ],
+    "wrong": "She very like coffee.",
+    "right": "She [[likes]] coffee [[very much]].",
+    "note": {
+     "vi": "Không nói very like. Dùng like ... very much, và nhớ thêm -s."
+    }
+   },
+   {
+    "wrong": "He run every day.",
+    "right": "He run[[s]] every day.",
+    "note": {
+     "my": "he / she / it နောက်တွင် -s ထည့်ပါ။",
+     "en": "Add -s after he / she / it.",
+     "es": "Añade -s después de he / she / it.",
+     "vi": "Thêm -s sau he / she / it.",
+     "hi": "he / she / it के बाद -s जोड़ें।"
+    }
+   },
+   {
+    "wrong": "She don't like coffee.",
+    "right": "She [[doesn't]] like coffee.",
+    "note": {
+     "my": "he / she / it အတွက် doesn't ကို သုံးပါ။",
+     "en": "Use doesn't with he / she / it.",
+     "es": "Con he / she / it se usa doesn't.",
+     "vi": "Với he / she / it, dùng doesn't.",
+     "hi": "he / she / it के साथ doesn't लगाएँ।"
+    }
+   },
+   {
+    "wrong": "He doesn't likes tea.",
+    "right": "He doesn't [[like]] tea.",
+    "note": {
+     "my": "doesn't နောက်တွင် -s မထည့်ရ။",
+     "en": "No -s after doesn't.",
+     "es": "Sin -s después de doesn't.",
+     "vi": "Sau doesn't không thêm -s.",
+     "hi": "doesn't के बाद -s नहीं लगता।"
+    }
+   },
+   {
+    "wrong": "Does she likes me?",
+    "right": "Does she [[like]] me?",
+    "note": {
+     "my": "Does ပါပြီးလျှင် ကြိယာတွင် -s မထည့်ရ။",
+     "en": "With Does, the verb has no -s.",
+     "es": "Con Does, el verbo va sin -s.",
+     "vi": "Có Does rồi thì động từ không thêm -s.",
+     "hi": "Does के साथ क्रिया में -s नहीं लगता।"
+    }
+   },
+   {
+    "wrong": "You like coffee?",
+    "right": "[[Do]] you like coffee?",
+    "note": {
+     "my": "မေးခွန်းတွင် Do / Does လိုသည်။ အသံကို မြှင့်ရုံနှင့် မလုံလောက်ပါ။",
+     "en": "A question needs Do / Does. A rising voice is not enough.",
+     "es": "La pregunta necesita Do / Does. No basta con la entonación.",
+     "vi": "Câu hỏi cần Do / Does. Lên giọng thôi thì chưa đủ.",
+     "hi": "प्रश्न में Do / Does चाहिए। सिर्फ़ आवाज़ ऊँची करना काफ़ी नहीं।"
+    }
+   }
+  ],
+  "practice": [
+   {
+    "type": "choose",
+    "items": [
+     {
+      "s": "Emma ___ up at six.",
+      "options": [
+       "get",
+       "gets"
+      ],
+      "answer": 1
+     },
+     {
+      "s": "I ___ in bed.",
+      "options": [
+       "think",
+       "thinks"
+      ],
+      "answer": 0
+     },
+     {
+      "s": "Mr. Tan ___ the dishes.",
+      "options": [
+       "wash",
+       "washs",
+       "washes"
+      ],
+      "answer": 2
+     },
+     {
+      "s": "Emma and Lucas ___ coffee.",
+      "options": [
+       "drink",
+       "drinks"
+      ],
+      "answer": 0
+     },
+     {
+      "s": "The cat ___ like Lucas.",
+      "options": [
+       "don't",
+       "doesn't"
+      ],
+      "answer": 1
+     },
+     {
+      "s": "___ your mother love me?",
+      "options": [
+       "Do",
+       "Does"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "type": "sort",
+    "prompt": {
+     "my": "ကြိယာတွင် -s ထည့်ရမလား",
+     "en": "Does the verb take -s?",
+     "es": "¿El verbo lleva -s?",
+     "vi": "Động từ có thêm -s không?",
+     "hi": "क्या क्रिया में -s लगेगा?"
+    },
+    "labels": [
+     "no -s",
+     "-s / -es"
+    ],
+    "items": [
+     {
+      "s": "I",
+      "answer": 0
+     },
+     {
+      "s": "My brother",
+      "answer": 1
+     },
+     {
+      "s": "They",
+      "answer": 0
+     },
+     {
+      "s": "The cat",
+      "answer": 1
+     },
+     {
+      "s": "Emma and Lucas",
+      "answer": 0
+     },
+     {
+      "s": "Mr. Tan",
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "type": "type",
+    "items": [
+     {
+      "s": "Mr. Tan ___ (run) every morning.",
+      "answers": [
+       "runs"
+      ]
+     },
+     {
+      "s": "He ___ (cook) dinner.",
+      "answers": [
+       "cooks"
+      ]
+     },
+     {
+      "s": "She ___ (watch) TV every evening.",
+      "answers": [
+       "watches"
+      ]
+     },
+     {
+      "s": "Emma ___ (not / eat) sugar.",
+      "answers": [
+       "doesn't eat",
+       "does not eat"
+      ]
+     },
+     {
+      "s": "We ___ (not / drink) cola.",
+      "answers": [
+       "don't drink",
+       "do not drink"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "fix",
+    "items": [
+     {
+      "s": "The cat like your chair.",
+      "answers": [
+       "The cat likes your chair."
+      ]
+     },
+     {
+      "s": "He don't wash the dishes.",
+      "answers": [
+       "He doesn't wash the dishes.",
+       "He does not wash the dishes."
+      ]
+     },
+     {
+      "s": "Does Lucas gets up at six?",
+      "answers": [
+       "Does Lucas get up at six?"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "hear",
+    "items": [
+     {
+      "say": "runs",
+      "options": [
+       "run",
+       "runs"
+      ],
+      "answer": 1
+     },
+     {
+      "say": "cook",
+      "options": [
+       "cook",
+       "cooks"
+      ],
+      "answer": 0
+     },
+     {
+      "say": "washes",
+      "options": [
+       "wash",
+       "washes"
+      ],
+      "answer": 1
+     },
+     {
+      "say": "likes",
+      "options": [
+       "like",
+       "likes"
+      ],
+      "answer": 1
+     },
+     {
+      "say": "swim",
+      "options": [
+       "swim",
+       "swims"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ],
+  "speak": [
+   "He [[runs]] every morning.",
+   "She [[likes]] you.",
+   "He [[washes]] the dishes.",
+   "That chocolate [[doesn't]] count."
+  ],
+  "quiz": [
+   {
+    "s": "Lucas ___ up at eight.",
+    "options": [
+     "get",
+     "gets",
+     "getting"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "I ___ sugar.",
+    "options": [
+     "don't eat",
+     "doesn't eat",
+     "not eat"
+    ],
+    "answer": 0
+   },
+   {
+    "s": "___ the cat like me?",
+    "options": [
+     "Do",
+     "Does",
+     "Is"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "Mr. Tan swims and ___ dinner.",
+    "options": [
+     "cook",
+     "cooks",
+     "cooking"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "She doesn't ___ cola.",
+    "options": [
+     "drink",
+     "drinks",
+     "drinking"
+    ],
+    "answer": 0
+   },
+   {
+    "s": "Emma and Lucas ___ at home.",
+    "options": [
+     "works",
+     "work",
+     "working"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "___ you get up at six?",
+    "options": [
+     "Do",
+     "Does",
+     "Are"
+    ],
+    "answer": 0
+   },
+   {
+    "s": "My mother ___ TV every evening.",
+    "options": [
+     "watch",
+     "watchs",
+     "watches"
+    ],
+    "answer": 2
+   }
+  ]
+ }
+}

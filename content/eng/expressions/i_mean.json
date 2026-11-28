@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "review": "Written by Claude. The Burmese lines are drafts: check every one before publishing or recording.",
  "aud_dir": "eng/expressions/i_mean/",
@@ -37,6 +39,16 @@
        "Je veux dire…",
        "La façon la plus rapide de corriger ou de préciser ce que l'on vient de dire. Très courant à l'oral. Pas : I am meaning.",
        "Ça commence à six heures. Je veux dire, à sept heures."
+      ],
+      "hi": [
+       "मेरा मतलब है…",
+       "अभी कही बात को सुधारने या साफ़ करने का सबसे झटपट तरीक़ा। बोलचाल में बहुत आम। ग़लत: I am meaning.",
+       "यह छह बजे शुरू होता है। मेरा मतलब है, सात बजे।"
+      ],
+      "vi": [
+       "Ý mình là…",
+       "Cách nhanh nhất để sửa hoặc nói rõ hơn điều bạn vừa nói. Rất phổ biến khi nói. Không nói: I am meaning.",
+       "Sáu giờ bắt đầu. Ý mình là, bảy giờ."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Pardon, je voulais dire mardi.",
        "Meant (prononcez « ment ») est le passé de mean. À employer quand vous remarquez l'erreur un instant plus tard.",
        "J'ai dit lundi ? Pardon, je voulais dire mardi."
+      ],
+      "hi": [
+       "माफ़ कीजिए, मेरा मतलब <span class=gray>मंगलवार</span> था।",
+       "Meant (उच्चारण ‘मेंट’) mean का भूतकाल है। तब कहिए जब ग़लती एक पल बाद पकड़ में आए।",
+       "मैंने सोमवार कहा क्या? माफ़ कीजिए, मेरा मतलब मंगलवार था।"
+      ],
+      "vi": [
+       "Xin lỗi, ý mình là <span class=gray>thứ Ba</span>.",
+       "Meant (đọc là ‘ment’) là quá khứ của mean. Dùng khi bạn nhận ra lỗi sau một lát.",
+       "Mình nói thứ Hai à? Xin lỗi, ý mình là thứ Ba."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "En fait…",
        "Donne le fait exact, pour se corriger ou corriger l'autre. Attention : actually ne veut pas dire « actuellement ». Pour cela, on dit currently ou at the moment.",
        "Je l'ai vu hier. En fait, c'était il y a deux jours."
+      ],
+      "hi": [
+       "असल में…",
+       "सही बात बताता है, अपनी या सामने वाले की बात सुधारते हुए।",
+       "मैंने उसे कल देखा था। असल में, दो दिन पहले।"
+      ],
+      "vi": [
+       "Thật ra…",
+       "Đưa ra thông tin đúng, sửa lời mình hoặc lời người kia.",
+       "Mình gặp anh ấy hôm qua. Thật ra là hai hôm trước."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Ou plutôt…",
        "Remplace un mot par un autre plus exact. Assez soigné. Courant à l'écrit aussi.",
        "Il est en colère, ou plutôt, déçu."
+      ],
+      "hi": [
+       "या यूँ कहें…",
+       "एक शब्द की जगह ज़्यादा सटीक शब्द रखता है। थोड़ा सधा हुआ। लिखने में भी आम।",
+       "वह ग़ुस्से में है, या यूँ कहें, निराश है।"
+      ],
+      "vi": [
+       "Hay đúng hơn là…",
+       "Đổi một từ sang từ chính xác hơn. Hơi trau chuốt. Cũng hay gặp trong văn viết.",
+       "Anh ấy giận, hay đúng hơn là thất vọng."
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Enfin, pas exactement.",
        "Retire une partie de ce que vous avez dit.",
        "C'est gratuit. Enfin, pas exactement. Vous payez la livraison."
+      ],
+      "hi": [
+       "ख़ैर, पूरी तरह नहीं।",
+       "अपनी कही बात का एक हिस्सा वापस ले लेता है।",
+       "यह मुफ़्त है। ख़ैर, पूरी तरह नहीं। डिलीवरी के पैसे लगते हैं।"
+      ],
+      "vi": [
+       "Ừm, không hẳn.",
+       "Rút lại một phần điều bạn đã nói.",
+       "Miễn phí. Ừm, không hẳn. Bạn phải trả phí giao hàng."
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Se corriger",
      "Rattraper ce que l'on vient de dire : un mot inexact, un fait erroné, ou une formule trop forte."
+    ],
+    "hi": [
+     "अपनी बात सुधारना",
+     "अभी-अभी कही बात को ठीक करना: ग़लत शब्द, ग़लत तथ्य, या जो ज़रूरत से ज़्यादा कड़ा निकल गया।"
+    ],
+    "vi": [
+     "Tự sửa lời mình",
+     "Sửa điều bạn vừa nói: sai từ, sai thông tin, hoặc lỡ nói quá nặng."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Autrement dit…",
        "Le redit en mots plus simples. Donne souvent la conclusion que l'autre n'a pas dite tout haut.",
        "Il ne répond jamais à mes messages. Autrement dit, ça ne l'intéresse pas."
+      ],
+      "hi": [
+       "दूसरे शब्दों में…",
+       "बात को सरल शब्दों में दोबारा कहता है। अक्सर वह नतीजा बता देता है जो सामने वाले ने ज़ोर से नहीं कहा।",
+       "वह मेरे संदेशों का कभी जवाब नहीं देता। दूसरे शब्दों में, उसे दिलचस्पी नहीं है।"
+      ],
+      "vi": [
+       "Nói cách khác…",
+       "Nói lại bằng lời đơn giản hơn. Thường nêu luôn kết luận mà người kia chưa nói ra.",
+       "Anh ấy không bao giờ trả lời tin nhắn của mình. Nói cách khác, anh ấy không quan tâm."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Ce que je veux dire, c'est…",
        "On prend du recul pour clarifier son idée, souvent après un malentendu.",
        "Ce que je veux dire, c'est qu'on devrait attendre un peu."
+      ],
+      "hi": [
+       "मेरे कहने का मतलब यह है कि…",
+       "आप एक क़दम पीछे हटकर अपनी बात साफ़ करते हैं, अक्सर किसी ग़लतफ़हमी के बाद।",
+       "मेरे कहने का मतलब यह है कि हमें थोड़ा रुकना चाहिए।"
+      ],
+      "vi": [
+       "Ý mình muốn nói là…",
+       "Bạn lùi lại một bước để làm rõ ý mình, thường là sau một hiểu lầm.",
+       "Ý mình muốn nói là chúng ta nên đợi một chút."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "C'est-à-dire…",
        "Ajoute le sens exact. Plutôt formel. À l'écrit, vous verrez i.e., qui veut dire la même chose.",
        "Elle travaille de chez elle, c'est-à-dire qu'elle ne va jamais au bureau."
+      ],
+      "hi": [
+       "यानी…",
+       "सटीक मतलब जोड़ता है। काफ़ी औपचारिक। लिखने में आप i.e. देखेंगे, जिसका मतलब यही है।",
+       "वह घर से काम करती है, यानी वह कभी दफ़्तर नहीं जाती।"
+      ],
+      "vi": [
+       "Tức là…",
+       "Thêm nghĩa chính xác. Khá trang trọng. Trong văn viết bạn sẽ gặp i.e., cũng nghĩa như vậy.",
+       "Cô ấy làm việc ở nhà, tức là cô ấy không bao giờ đến văn phòng."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "C'est-à-dire ?",
        "Une question en un mot qui demande à l'autre de s'expliquer. Laissez la voix monter. Amical, mais on peut y entendre un défi.",
        "— J'ai pris une décision. — C'est-à-dire ?"
+      ],
+      "hi": [
+       "मतलब?",
+       "एक शब्द का सवाल, जो सामने वाले से समझाने को कहता है। आवाज़ ऊपर उठने दीजिए। दोस्ताना है, पर चुनौती जैसा भी लग सकता है।",
+       "— मैंने एक फ़ैसला कर लिया है। — मतलब?"
+      ],
+      "vi": [
+       "Nghĩa là sao?",
+       "Câu hỏi chỉ một từ, nhờ người kia giải thích. Để giọng lên cao. Thân thiện, nhưng có thể nghe như thách thức.",
+       "— Mình đã quyết định rồi. — Nghĩa là sao?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Je vais le dire autrement.",
        "Pour quand votre première explication n'a pas marché. Put veut dire ici dire.",
        "Je vais le dire autrement. Il ne nous reste plus d'argent."
+      ],
+      "hi": [
+       "मैं इसे दूसरे ढंग से कहता हूँ।",
+       "जब आपका पहला समझाना काम न आया हो। यहाँ put का मतलब है कहना।",
+       "मैं इसे दूसरे ढंग से कहता हूँ। हमारे पास पैसे नहीं बचे।"
+      ],
+      "vi": [
+       "Để mình nói cách khác.",
+       "Khi lời giải thích đầu tiên của bạn không hiệu quả. Put ở đây nghĩa là nói.",
+       "Để mình nói cách khác. Bọn mình hết tiền rồi."
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "L'expliquer autrement",
      "Redire la même chose, plus clairement ou plus simplement."
+    ],
+    "hi": [
+     "दूसरे ढंग से समझाना",
+     "वही बात फिर से कहना, ज़्यादा साफ़ या ज़्यादा सरल ढंग से।"
+    ],
+    "vi": [
+     "Giải thích theo cách khác",
+     "Nói lại cùng một điều, rõ hơn hoặc đơn giản hơn."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Comment dire…",
        "Une pause pendant que l'on cherche les bons mots, souvent avant quelque chose de délicat. On dit aussi : How shall I put this?",
        "Il est… comment dire… pas très soigneux."
+      ],
+      "hi": [
+       "कैसे कहूँ…",
+       "सही शब्द ढूँढते समय का ठहराव, अक्सर किसी नाज़ुक बात से पहले। यह भी: How shall I put this?",
+       "वह… कैसे कहूँ… बहुत सावधान नहीं है।"
+      ],
+      "vi": [
+       "Nói sao nhỉ…",
+       "Quãng ngừng trong lúc bạn tìm lời cho đúng, thường trước một điều tế nhị. Cũng có: How shall I put this?",
+       "Anh ấy… nói sao nhỉ… không cẩn thận lắm."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Je ne sais pas comment le dire.",
        "Se dit avant une mauvaise nouvelle, ou avant quelque chose de personnel.",
        "Je ne sais pas comment le dire, mais j'ai perdu ton livre."
+      ],
+      "hi": [
+       "समझ नहीं आ रहा कैसे कहूँ।",
+       "बुरी ख़बर से पहले, या किसी निजी बात से पहले कहा जाता है।",
+       "समझ नहीं आ रहा कैसे कहूँ, पर मुझसे तुम्हारी किताब खो गई।"
+      ],
+      "vi": [
+       "Mình không biết nói thế nào.",
+       "Nói trước một tin không vui, hoặc trước một điều riêng tư.",
+       "Mình không biết nói thế nào, nhưng mình làm mất sách của bạn rồi."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Disons que…",
        "Adoucit une réponse quand la version directe serait trop brutale. On dit aussi : Let's just say…",
        "— Tu as aimé le repas ? — Disons que je n'avais pas très faim."
+      ],
+      "hi": [
+       "यूँ समझ लो…",
+       "जवाब को नरम करता है, जब सीधा जवाब बहुत रूखा होता। यह भी: Let's just say…",
+       "— खाना पसंद आया? — यूँ समझ लो, मुझे ज़्यादा भूख नहीं थी।"
+      ],
+      "vi": [
+       "Cứ cho là…",
+       "Làm nhẹ câu trả lời khi nói thẳng thì quá phũ. Cũng có: Let's just say…",
+       "— Bạn có thích đồ ăn không? — Cứ cho là mình không đói lắm."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "En quelque sorte.",
        "Dit qu'un mot n'est qu'approximatif. Seul, c'est un oui prudent. Aussi Kind of. En parlant vite : sorta, kinda.",
        "— C'est ton chef ? — En quelque sorte. C'est mon chef d'équipe."
+      ],
+      "hi": [
+       "कुछ-कुछ।",
+       "कहता है कि कोई शब्द बस मोटे तौर पर ठीक है। अकेले, यह सँभली हुई हाँ है। Kind of भी। तेज़ बोलने में: sorta, kinda.",
+       "— क्या वह तुम्हारा बॉस है? — कुछ-कुछ। वह मेरा टीम लीडर है।"
+      ],
+      "vi": [
+       "Đại loại thế.",
+       "Nói rằng một từ chỉ đúng gần gần. Đứng một mình, nó là một lời “có” dè dặt. Cũng có Kind of. Khi nói nhanh: sorta, kinda.",
+       "— Anh ấy là sếp của bạn à? — Đại loại thế. Anh ấy là trưởng nhóm của mình."
       ]
      }
     ]
@@ -330,6 +488,14 @@
     "fr": [
      "Chercher ses mots",
      "Gagner du temps, ou adoucir quelque chose de difficile à dire."
+    ],
+    "hi": [
+     "शब्द ढूँढना",
+     "थोड़ा समय लेना, या किसी मुश्किल बात को नरम करना।"
+    ],
+    "vi": [
+     "Tìm từ",
+     "Câu giờ, hoặc làm nhẹ một điều khó nói."
     ]
    }
   },
@@ -354,6 +520,16 @@
        "Genre…",
        "Un mot de remplissage très familier pour un exemple ou une idée approximative. Les jeunes l'emploient beaucoup. À éviter à l'écrit et aux examens.",
        "Il avait, genre, deux heures de retard."
+      ],
+      "hi": [
+       "मतलब…",
+       "उदाहरण या मोटे अंदाज़े के लिए बहुत अनौपचारिक भराव-शब्द। युवा इसे बहुत बोलते हैं। लिखने में या परीक्षा में इस्तेमाल मत कीजिए।",
+       "वह, मतलब, दो घंटे देर से आया।"
+      ],
+      "vi": [
+       "Kiểu như…",
+       "Một từ đệm rất suồng sã cho ví dụ hoặc ý ước chừng. Giới trẻ dùng rất nhiều. Đừng dùng khi viết hay trong bài thi.",
+       "Nó trễ, kiểu như, hai tiếng."
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Eh bien…",
        "La pause avant une réponse, souvent embarrassée. Aussi Um… et Er…",
        "Eh bien… je ne suis pas sûr."
+      ],
+      "hi": [
+       "अच्छा…",
+       "जवाब से पहले का ठहराव, अक्सर असहज। Um… और Er… भी।",
+       "अच्छा… मुझे पक्का नहीं पता।"
+      ],
+      "vi": [
+       "Ừm…",
+       "Quãng ngừng trước câu trả lời, thường là khi khó xử. Cũng có Um… và Er…",
+       "Ừm… mình không chắc."
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Remarque…",
        "Ajoute un « mais » à ce que vous venez de dire. Anglais britannique. Les Américains disent Then again…",
        "C'est cher. Remarque, la qualité est bonne."
+      ],
+      "hi": [
+       "वैसे…",
+       "अभी कही बात में एक ‘पर’ जोड़ता है। ब्रिटिश अंग्रेज़ी। अमेरिकी कहते हैं Then again…",
+       "यह महँगा है। वैसे, क्वालिटी अच्छी है।"
+      ],
+      "vi": [
+       "Nhưng mà…",
+       "Thêm một chữ ‘nhưng’ vào điều bạn vừa nói. Tiếng Anh Anh. Người Mỹ nói Then again…",
+       "Nó đắt. Nhưng mà chất lượng tốt."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Cela dit…",
        "Équilibre ce qui précède par un argument dans l'autre sens. On dit aussi : Having said that…",
        "Il est souvent en retard. Cela dit, il travaille dur."
+      ],
+      "hi": [
+       "फिर भी…",
+       "पहले कही बात को दूसरे पक्ष की एक बात से संतुलित करता है। यह भी: Having said that…",
+       "वह अक्सर देर से आता है। फिर भी, मेहनत बहुत करता है।"
+      ],
+      "vi": [
+       "Dù vậy…",
+       "Cân bằng điều vừa nói bằng một ý ở phía ngược lại. Cũng có: Having said that…",
+       "Anh ấy hay đến muộn. Dù vậy, anh ấy làm việc chăm chỉ."
       ]
      }
     ]
@@ -423,6 +629,14 @@
     "fr": [
      "Mots de remplissage et adoucisseurs",
      "De petits mots de l'oral qui comblent une pause, ou arrondissent ce que l'on vient de dire."
+    ],
+    "hi": [
+     "भराव के शब्द और नरम करने वाले शब्द",
+     "बोलचाल के छोटे शब्द, जो ठहराव भरते हैं या अभी कही बात की धार कम करते हैं।"
+    ],
+    "vi": [
+     "Từ đệm và từ làm nhẹ",
+     "Những từ nhỏ trong lời nói để lấp chỗ ngừng, hoặc làm dịu điều bạn vừa nói."
     ]
    }
   },
@@ -447,6 +661,16 @@
        "Tu sais…",
        "Vérifie que l'autre suit, ou comble une pause. Trop répété, cela donne un air hésitant.",
        "C'est, tu sais, un peu difficile."
+      ],
+      "hi": [
+       "समझ रहे हो न…",
+       "जाँचता है कि सुनने वाला साथ चल रहा है, या ठहराव भरता है। बहुत ज़्यादा बोलने पर आत्मविश्वास की कमी लगती है।",
+       "यह, समझ रहे हो न, थोड़ा मुश्किल है।"
+      ],
+      "vi": [
+       "Bạn biết đấy…",
+       "Kiểm tra xem người nghe có theo kịp không, hoặc lấp chỗ ngừng. Dùng quá nhiều thì nghe thiếu tự tin.",
+       "Nó, bạn biết đấy, hơi khó."
       ]
      }
     ],
@@ -466,6 +690,16 @@
        "Tu vois ce que je veux dire ?",
        "Demande si votre idée est passée, ou ce que vous n'avez pas dit tout haut.",
        "Il est sympa, mais… tu vois ce que je veux dire ?"
+      ],
+      "hi": [
+       "समझ रहे हो न मेरा मतलब?",
+       "पूछता है कि आपकी बात समझ आई या नहीं, या वह जो आपने ज़ोर से नहीं कहा।",
+       "वह अच्छा है, पर… समझ रहे हो न मेरा मतलब?"
+      ],
+      "vi": [
+       "Bạn hiểu ý mình chứ?",
+       "Hỏi xem ý bạn có được hiểu không, hoặc điều bạn không nói ra.",
+       "Anh ấy tốt, nhưng… bạn hiểu ý mình chứ?"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "C'est clair ?",
        "Une vérification polie après une explication. Plus aimable que Do you understand?, qui peut faire professeur sévère.",
        "Tournez à gauche, puis à droite à la banque. C'est clair ?"
+      ],
+      "hi": [
+       "बात समझ आई?",
+       "समझाने के बाद की विनम्र जाँच। Do you understand? से ज़्यादा भला, जो सख़्त शिक्षक जैसा लग सकता है।",
+       "बाएँ मुड़िए, फिर बैंक से दाएँ। बात समझ आई?"
+      ],
+      "vi": [
+       "Mình nói vậy có dễ hiểu không?",
+       "Lời kiểm tra lịch sự sau khi giải thích. Dễ nghe hơn Do you understand?, vốn có thể nghe như một giáo viên nghiêm khắc.",
+       "Rẽ trái, rồi rẽ phải ở ngân hàng. Mình nói vậy có dễ hiểu không?"
       ]
      }
     ]
@@ -497,6 +741,14 @@
     "fr": [
      "Vérifier que l'on vous suit",
      "S'assurer que la personne qui écoute vous suit toujours."
+    ],
+    "hi": [
+     "जाँचना कि वे समझ रहे हैं",
+     "पक्का करना कि सुनने वाला अब भी आपके साथ है।"
+    ],
+    "vi": [
+     "Kiểm tra xem người nghe có theo kịp không",
+     "Để chắc người nghe vẫn đang theo bạn."
     ]
    }
   }

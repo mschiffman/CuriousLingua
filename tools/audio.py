@@ -68,6 +68,8 @@ def texts(L):
 
 def who(L):
     """clip number -> speaker key, for lessons that give each speaker a voice"""
+    if L.get("type") in lib.HAND:   # a hand-made page may say who reads each clip: "clip_who": ["E", "L", ...] beside "clips"
+        return {n: w for n, w in enumerate(L.get("clip_who", []), 1)}
     if L.get("type") != "dialogue":
         return {}
     return {l["n"]: l.get("who") for sec in L["sections"] for l in sec["lines"]}
@@ -742,6 +744,9 @@ def upload(L):
         if hashlib.md5(got).hexdigest() != md5(f):
             wrong.append(f)
     print(f"CDN check: {len(names) - len(wrong)}/{len(names)} match" + (f", DIFFERENT: {wrong}" if wrong else ""))
+    if L.get("chapter"):   # a grammar chapter's page carries the tag itself: write the page again, or it goes on reading with the device's voice
+        import grammar_chapter
+        grammar_chapter.one(L["file"])
     import build
     build.main()
     if wrong:

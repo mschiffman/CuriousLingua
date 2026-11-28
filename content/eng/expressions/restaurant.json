@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/restaurant.html",
  "aud_dir": "eng/expressions/restaurant/",
@@ -37,6 +39,16 @@
        "Une table pour deux, s'il vous plaît.",
        "Dites combien vous êtes. Pour trois : A table for three, please.",
        "— Bonjour ! — Bonjour, une table pour quatre, s'il vous plaît."
+      ],
+      "hi": [
+       "दो लोगों के लिए टेबल चाहिए।",
+       "बताइए कि कितने लोग हैं। तीन के लिए: A table for three, please.",
+       "— नमस्ते! — नमस्ते, चार लोगों के लिए टेबल चाहिए।"
+      ],
+      "vi": [
+       "Cho tôi một bàn hai người.",
+       "Nói rõ có mấy người. Ba người: A table for three, please.",
+       "— Xin chào! — Chào bạn, cho tôi một bàn bốn người."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Vous avez une table près de la fenêtre ?",
        "Pour demander la place que vous préférez. On dit aussi : outside, in the corner.",
        "Vous avez une table dehors ?"
+      ],
+      "hi": [
+       "क्या खिड़की के पास कोई टेबल है?",
+       "अपनी पसंद की जगह माँगने के लिए। यह भी: outside, in the corner.",
+       "क्या बाहर कोई टेबल है?"
+      ],
+      "vi": [
+       "Có bàn nào cạnh cửa sổ không?",
+       "Để xin chỗ bạn thích. Cũng có: outside, in the corner.",
+       "Có bàn nào ở ngoài trời không?"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Cette place est libre ?",
        "Avant de s'asseoir à côté d'inconnus. Free veut dire ici que personne n'y est assis.",
        "Excusez-moi, cette place est libre ?"
+      ],
+      "hi": [
+       "क्या यह सीट ख़ाली है?",
+       "अजनबियों के पास बैठने से पहले। यहाँ free का मतलब है कि वहाँ कोई नहीं बैठा।",
+       "सुनिए, क्या यह सीट ख़ाली है?"
+      ],
+      "vi": [
+       "Chỗ này có ai ngồi chưa?",
+       "Trước khi ngồi cạnh người lạ. Free ở đây nghĩa là chưa có ai ngồi.",
+       "Xin lỗi, chỗ này có ai ngồi chưa?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Je peux voir la carte, s'il vous plaît ?",
        "Le menu est la liste des plats et des prix.",
        "On peut voir la carte, s'il vous plaît ? Et avoir de l'eau ?"
+      ],
+      "hi": [
+       "मेन्यू दिखाएँगे?",
+       "Menu व्यंजनों और दामों की सूची है।",
+       "मेन्यू दिखाएँगे? और थोड़ा पानी भी?"
+      ],
+      "vi": [
+       "Cho tôi xem thực đơn.",
+       "Menu là danh sách món ăn và giá tiền.",
+       "Cho chúng tôi xem thực đơn. Và cho xin ít nước nữa?"
       ]
      }
     ]
@@ -106,6 +148,14 @@
     "fr": [
      "En arrivant",
      "Obtenir une table et la carte."
+    ],
+    "hi": [
+     "पहुँचना",
+     "टेबल और मेन्यू लेना।"
+    ],
+    "vi": [
+     "Lúc đến",
+     "Tìm bàn và xin thực đơn."
     ]
    }
   },
@@ -130,6 +180,16 @@
        "Je vais prendre le riz frit.",
        "La façon habituelle de commander. Pas : I want… (cela peut sembler impoli).",
        "Je vais prendre la soupe de nouilles, s'il vous plaît."
+      ],
+      "hi": [
+       "मैं <span class=gray>फ़्राइड राइस</span> लूँगा।",
+       "ऑर्डर देने का आम तरीक़ा। I want… नहीं (रूखा लग सकता है)।",
+       "मैं नूडल सूप लूँगा।"
+      ],
+      "vi": [
+       "Cho tôi <span class=gray>cơm chiên</span>.",
+       "Cách gọi món thông thường. Không nói: I want… (có thể nghe thô lỗ).",
+       "Cho tôi bún nước."
       ]
      }
     ],
@@ -149,6 +209,16 @@
        "Je peux avoir un jus de mangue ?",
        "Familier et très courant, surtout dans les cafés. Can I have…? est un peu plus poli.",
        "Je peux avoir un café au lait, s'il vous plaît ?"
+      ],
+      "hi": [
+       "<span class=gray>एक आम का जूस</span> मिलेगा?",
+       "अनौपचारिक और बहुत आम, ख़ासकर कैफ़े में। Can I have…? थोड़ा ज़्यादा विनम्र है।",
+       "एक दूध वाली कॉफ़ी मिलेगी?"
+      ],
+      "vi": [
+       "Cho tôi <span class=gray>một nước xoài</span> được không?",
+       "Thân mật và rất phổ biến, nhất là ở quán cà phê. Can I have…? lịch sự hơn một chút.",
+       "Cho tôi một cà phê sữa được không?"
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Que me conseillez-vous ?",
        "Demande au serveur le meilleur plat ou le plus apprécié.",
        "Tout a l'air bon. Que me conseillez-vous ?"
+      ],
+      "hi": [
+       "आप क्या लेने की सलाह देंगे?",
+       "वेटर से पूछता है कि सबसे अच्छा या सबसे ज़्यादा चलने वाला व्यंजन कौन-सा है।",
+       "सब कुछ अच्छा लग रहा है। आप क्या लेने की सलाह देंगे?"
+      ],
+      "vi": [
+       "Bạn gợi ý món nào?",
+       "Hỏi người phục vụ món nào ngon nhất hoặc được gọi nhiều nhất.",
+       "Món nào trông cũng ngon. Bạn gợi ý món nào?"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "C'est épicé ?",
        "Très utile ! On dit aussi : Is it very spicy? Not too spicy, please.",
        "— C'est épicé ? — Juste un peu."
+      ],
+      "hi": [
+       "क्या यह तीखा है?",
+       "बहुत काम का! यह भी: Is it very spicy? Not too spicy, please.",
+       "— क्या यह तीखा है? — बस थोड़ा-सा।"
+      ],
+      "vi": [
+       "Món này có cay không?",
+       "Rất hữu ích! Cũng có: Is it very spicy? Not too spicy, please.",
+       "— Món này có cay không? — Chỉ hơi cay thôi."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Sans glaçons, s'il vous plaît.",
        "Pour demander qu'on enlève quelque chose. Le contraire : with extra ice.",
        "Un jus de citron sans sucre, s'il vous plaît."
+      ],
+      "hi": [
+       "बिना <span class=gray>बर्फ़</span> के।",
+       "यह कहने के लिए कि कोई चीज़ न डालें। उलटा: with extra ice.",
+       "बिना चीनी का एक नींबू का रस।"
+      ],
+      "vi": [
+       "Không <span class=gray>đá</span> nhé.",
+       "Để dặn đừng cho thứ gì đó vào. Ngược lại: with extra ice.",
+       "Một nước chanh không đường nhé."
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Je suis végétarien.",
        "Vous ne mangez ni viande ni poisson. Demandez : Is there meat in this?",
        "Je suis végétarien. Il y a de la viande dans cette soupe ?"
+      ],
+      "hi": [
+       "मैं शाकाहारी हूँ।",
+       "आप मांस या मछली नहीं खाते। पूछिए: Is there meat in this?",
+       "मैं शाकाहारी हूँ। क्या इस सूप में मांस है?"
+      ],
+      "vi": [
+       "Tôi ăn chay.",
+       "Bạn không ăn thịt hay cá. Hãy hỏi: Is there meat in this?",
+       "Tôi ăn chay. Canh này có thịt không?"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Commander",
      "Dire ce que l'on veut et poser des questions sur les plats."
+    ],
+    "hi": [
+     "ऑर्डर देना",
+     "बताना कि आपको क्या चाहिए, और खाने के बारे में पूछना।"
+    ],
+    "vi": [
+     "Gọi món",
+     "Nói món bạn muốn, và hỏi về món ăn."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Vous avez choisi ?",
        "On répond : Yes, please. Ou : Not yet. Can we have a few more minutes?",
        "— Vous avez choisi ? — Pas encore, désolé."
+      ],
+      "hi": [
+       "क्या आप ऑर्डर देने के लिए तैयार हैं?",
+       "जवाब: Yes, please. या: Not yet. Can we have a few more minutes?",
+       "— क्या आप ऑर्डर देने के लिए तैयार हैं? — अभी नहीं, माफ़ कीजिए।"
+      ],
+      "vi": [
+       "Anh chị gọi món được chưa ạ?",
+       "Trả lời: Yes, please. Hoặc: Not yet. Can we have a few more minutes?",
+       "— Anh chị gọi món được chưa ạ? — Chưa, xin lỗi nhé."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Sur place ou à emporter ?",
        "Manger dans le café ou emporter. En anglais britannique : Eat in or take away?",
        "— Sur place ou à emporter ? — À emporter, s'il vous plaît."
+      ],
+      "hi": [
+       "यहीं खाएँगे या ले जाएँगे?",
+       "कैफ़े में खाना या साथ ले जाना। ब्रिटिश अंग्रेज़ी में: Eat in or take away?",
+       "— यहीं खाएँगे या ले जाएँगे? — ले जाऊँगा।"
+      ],
+      "vi": [
+       "Dùng ở đây hay mang đi ạ?",
+       "Ăn tại quán hay mang về. Trong tiếng Anh Anh: Eat in or take away?",
+       "— Dùng ở đây hay mang đi ạ? — Mang đi."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Quelque chose à boire ?",
        "On répond en nommant sa boisson, ou : Just water, please.",
        "— Quelque chose à boire ? — Juste de l'eau, s'il vous plaît."
+      ],
+      "hi": [
+       "पीने के लिए कुछ?",
+       "जवाब में पेय बताइए, या: Just water, please.",
+       "— पीने के लिए कुछ? — बस पानी।"
+      ],
+      "vi": [
+       "Anh chị uống gì không ạ?",
+       "Trả lời bằng tên đồ uống, hoặc: Just water, please.",
+       "— Anh chị uống gì không ạ? — Cho tôi nước lọc thôi."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Tout se passe bien ?",
        "Le serveur vérifie pendant le repas. On répond : Yes, it's great, thanks!",
        "— Tout se passe bien ? — Oui, c'est délicieux, merci !"
+      ],
+      "hi": [
+       "सब ठीक है?",
+       "खाने के दौरान वेटर पूछता है। जवाब: Yes, it's great, thanks!",
+       "— सब ठीक है? — हाँ, बहुत स्वादिष्ट है, शुक्रिया!"
+      ],
+      "vi": [
+       "Mọi thứ ổn chứ ạ?",
+       "Người phục vụ hỏi trong bữa ăn. Trả lời: Yes, it's great, thanks!",
+       "— Mọi thứ ổn chứ ạ? — Vâng, ngon lắm, cảm ơn!"
       ]
      }
     ]
@@ -330,6 +488,14 @@
     "fr": [
      "Ce que dit le serveur",
      "Des questions que vous entendrez, pour pouvoir répondre vite."
+    ],
+    "hi": [
+     "वेटर क्या कहता है",
+     "जो सवाल आपको सुनाई देंगे, ताकि आप झट से जवाब दे सकें।"
+    ],
+    "vi": [
+     "Người phục vụ nói gì",
+     "Những câu hỏi bạn sẽ nghe, để trả lời cho nhanh."
     ]
    }
   },
@@ -354,6 +520,16 @@
        "Pourrions-nous avoir de l'eau ?",
        "Commencez par Excuse me pour appeler poliment le serveur. Ne claquez pas des doigts.",
        "Excusez-moi, pourrions-nous avoir de l'eau ?"
+      ],
+      "hi": [
+       "क्या हमें थोड़ा पानी मिल सकता है?",
+       "वेटर को विनम्रता से बुलाने के लिए Excuse me से शुरू कीजिए। चुटकी मत बजाइए।",
+       "सुनिए, क्या हमें थोड़ा पानी मिल सकता है?"
+      ],
+      "vi": [
+       "Cho chúng tôi xin ít nước được không?",
+       "Mở đầu bằng Excuse me để gọi người phục vụ một cách lịch sự. Đừng búng tay.",
+       "Xin lỗi, cho chúng tôi xin ít nước được không?"
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "On peut avoir encore un peu de riz ?",
        "Some more = une quantité en plus.",
        "C'est très bon. On peut avoir encore un peu de riz ?"
+      ],
+      "hi": [
+       "थोड़े और चावल मिलेंगे?",
+       "Some more = थोड़ा और।",
+       "बहुत बढ़िया है। थोड़े और चावल मिलेंगे?"
+      ],
+      "vi": [
+       "Cho chúng tôi thêm cơm được không?",
+       "Some more = thêm một ít.",
+       "Ngon quá. Cho chúng tôi thêm cơm được không?"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Ce n'est pas ce que j'ai commandé.",
        "Poli si on le dit calmement. Précisez ensuite ce que vous aviez commandé.",
        "Excusez-moi, ce n'est pas ce que j'ai commandé. J'avais demandé du poulet."
+      ],
+      "hi": [
+       "मैंने यह ऑर्डर नहीं किया था।",
+       "शांति से कहें तो विनम्र है। फिर बताइए कि आपने क्या मँगाया था।",
+       "माफ़ कीजिए, मैंने यह ऑर्डर नहीं किया था। मैंने चिकन मँगाया था।"
+      ],
+      "vi": [
+       "Đây không phải món tôi gọi.",
+       "Nói bình tĩnh thì vẫn lịch sự. Sau đó nói món bạn đã gọi.",
+       "Xin lỗi, đây không phải món tôi gọi. Tôi gọi gà mà."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "C'est un peu froid.",
        "A bit adoucit la réclamation. Demandez : Could you heat it up, please?",
        "Excusez-moi, ma soupe est un peu froide."
+      ],
+      "hi": [
+       "यह थोड़ा ठंडा है।",
+       "A bit शिकायत को नरम कर देता है। आप कह सकते हैं: Could you heat it up, please?",
+       "सुनिए, मेरा सूप थोड़ा ठंडा है।"
+      ],
+      "vi": [
+       "Hơi nguội một chút.",
+       "A bit làm lời phàn nàn nhẹ đi. Bạn có thể nhờ: Could you heat it up, please?",
+       "Xin lỗi, canh của tôi hơi nguội một chút."
       ]
      }
     ]
@@ -423,6 +629,14 @@
     "fr": [
      "Pendant le repas",
      "Demander davantage, ou dire poliment que quelque chose ne va pas."
+    ],
+    "hi": [
+     "खाने के दौरान",
+     "और माँगना, या विनम्रता से बताना कि कुछ गड़बड़ है।"
+    ],
+    "vi": [
+     "Trong bữa ăn",
+     "Xin thêm, hoặc nói một cách lịch sự rằng có gì đó chưa ổn."
     ]
    }
   },
@@ -447,6 +661,16 @@
        "Pourrions-nous avoir l'addition, s'il vous plaît ?",
        "Poli. En anglais américain : Could we have the check, please?",
        "Excusez-moi, pourrions-nous avoir l'addition, s'il vous plaît ?"
+      ],
+      "hi": [
+       "बिल ले आइए।",
+       "विनम्र है। अमेरिकी अंग्रेज़ी में: Could we have the check, please?",
+       "सुनिए, बिल ले आइए।"
+      ],
+      "vi": [
+       "Cho chúng tôi xin hóa đơn.",
+       "Lịch sự. Trong tiếng Anh Mỹ: Could we have the check, please?",
+       "Xin lỗi, cho chúng tôi xin hóa đơn."
       ]
      }
     ],
@@ -466,6 +690,16 @@
        "Je peux payer au comptoir ?",
        "Dans certains endroits on paie à table, dans d'autres au comptoir.",
        "Je peux payer au comptoir, ou vous apportez l'addition ?"
+      ],
+      "hi": [
+       "क्या मैं काउंटर पर पैसे दे सकता हूँ?",
+       "कुछ जगहों पर टेबल पर ही पैसे दिए जाते हैं; कुछ में काउंटर पर।",
+       "क्या मैं काउंटर पर पैसे दे सकता हूँ, या आप बिल ले आएँगे?"
+      ],
+      "vi": [
+       "Tôi trả tiền ở quầy được không?",
+       "Có nơi trả tiền tại bàn; có nơi trả ở quầy.",
+       "Tôi trả tiền ở quầy được không, hay bạn mang hóa đơn ra?"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Je peux emporter le reste ?",
        "Pour ce que vous n'avez pas fini. On dit aussi : Can I have a box for this?",
        "Je n'arrive pas à finir. Je peux emporter le reste ?"
+      ],
+      "hi": [
+       "क्या मैं इसे घर ले जा सकता हूँ?",
+       "उस खाने के लिए जो आप ख़त्म नहीं कर पाए। यह भी: Can I have a box for this?",
+       "मुझसे ख़त्म नहीं होगा। क्या मैं इसे घर ले जा सकता हूँ?"
+      ],
+      "vi": [
+       "Tôi mang cái này về được không?",
+       "Cho đồ ăn bạn chưa ăn hết. Cũng có: Can I have a box for this?",
+       "Tôi ăn không hết. Tôi mang cái này về được không?"
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "C'était très bon, merci.",
        "Ce que l'on dit au serveur ou au cuisinier en partant.",
        "Merci, c'était très bon. Nous reviendrons."
+      ],
+      "hi": [
+       "खाना बहुत अच्छा था, धन्यवाद।",
+       "निकलते समय वेटर या रसोइए से कहा जाता है।",
+       "धन्यवाद, खाना बहुत अच्छा था। हम फिर आएँगे।"
+      ],
+      "vi": [
+       "Ngon lắm, cảm ơn.",
+       "Câu bạn nói với người phục vụ hoặc đầu bếp khi ra về.",
+       "Cảm ơn, ngon lắm. Chúng tôi sẽ quay lại."
       ]
      }
     ]
@@ -516,6 +770,14 @@
     "fr": [
      "Finir et payer",
      "Demander l'addition, emporter les restes, dire merci."
+    ],
+    "hi": [
+     "ख़त्म करना और पैसे देना",
+     "बिल माँगना, खाना घर ले जाना, धन्यवाद कहना।"
+    ],
+    "vi": [
+     "Ăn xong và thanh toán",
+     "Xin hóa đơn, mang đồ ăn về, nói lời cảm ơn."
     ]
    }
   }

@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/health.html",
  "aud_dir": "eng/expressions/health/",
@@ -37,6 +39,16 @@
        "Je ne me sens pas bien.",
        "La façon courante de dire que l'on est malade. On dit aussi : I'm not feeling well.",
        "Maman, je ne me sens pas bien. Je peux rester à la maison ?"
+      ],
+      "hi": [
+       "मेरी तबीयत ठीक नहीं है।",
+       "बीमार होने की बात कहने का रोज़मर्रा का तरीक़ा। यह भी: I'm not feeling well.",
+       "माँ, मेरी तबीयत ठीक नहीं है। क्या मैं घर पर रह सकता हूँ?"
+      ],
+      "vi": [
+       "Mình thấy không khỏe.",
+       "Cách nói hằng ngày rằng bạn bị ốm. Cũng có: I'm not feeling well.",
+       "Mẹ ơi, con thấy không khỏe. Con ở nhà được không?"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "J'ai mal au cœur.",
        "En anglais britannique, cela veut dire en général que l'on a envie de vomir. En anglais américain, cela peut vouloir dire simplement malade.",
        "J'ai mal au cœur. Je crois que j'ai trop mangé."
+      ],
+      "hi": [
+       "मेरा जी मिचला रहा है।",
+       "ब्रिटिश अंग्रेज़ी में इसका मतलब अक्सर यह होता है कि आपको उलटी आ सकती है। अमेरिकी अंग्रेज़ी में इसका मतलब सिर्फ़ बीमार होना भी हो सकता है।",
+       "मेरा जी मिचला रहा है। लगता है मैंने ज़्यादा खा लिया।"
+      ],
+      "vi": [
+       "Mình thấy buồn nôn.",
+       "Trong tiếng Anh Anh, câu này thường có nghĩa là bạn có thể nôn. Trong tiếng Anh Mỹ, nó có thể chỉ có nghĩa là bị ốm.",
+       "Mình thấy buồn nôn. Chắc mình ăn nhiều quá."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "J'ai la tête qui tourne.",
        "Tout semble tourner autour de vous. Asseyez-vous !",
        "J'ai la tête qui tourne. Il faut que je m'assoie."
+      ],
+      "hi": [
+       "मुझे चक्कर आ रहा है।",
+       "लगता है सब कुछ आपके चारों ओर घूम रहा है। बैठ जाइए!",
+       "मुझे चक्कर आ रहा है। मुझे बैठना है।"
+      ],
+      "vi": [
+       "Mình thấy chóng mặt.",
+       "Mọi thứ như đang quay quanh bạn. Ngồi xuống đi!",
+       "Mình thấy chóng mặt. Mình cần ngồi xuống."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Je me sens mieux maintenant.",
        "Après avoir été malade. On dit aussi : I'm much better, thanks.",
        "— Comment vas-tu aujourd'hui ? — Je me sens mieux maintenant, merci."
+      ],
+      "hi": [
+       "अब मैं बेहतर महसूस कर रहा हूँ।",
+       "बीमार रहने के बाद। यह भी: I'm much better, thanks.",
+       "— आज तबीयत कैसी है? — अब बेहतर महसूस कर रहा हूँ, शुक्रिया।"
+      ],
+      "vi": [
+       "Giờ mình thấy đỡ hơn rồi.",
+       "Sau khi bị ốm. Cũng có: I'm much better, thanks.",
+       "— Hôm nay bạn thế nào? — Giờ mình thấy đỡ hơn rồi, cảm ơn."
       ]
      }
     ]
@@ -106,6 +148,14 @@
     "fr": [
      "Comment on se sent",
      "Dire à quelqu'un que l'on ne va pas bien, ou que l'on va mieux."
+    ],
+    "hi": [
+     "आप कैसा महसूस कर रहे हैं",
+     "किसी को बताना कि आपकी तबीयत ठीक नहीं, या अब ठीक है।"
+    ],
+    "vi": [
+     "Bạn thấy trong người thế nào",
+     "Nói với ai đó rằng bạn không khỏe, hoặc đã khỏe lại."
     ]
    }
   },
@@ -130,6 +180,16 @@
        "J'ai mal à la tête.",
        "Certaines douleurs s'écrivent en un mot avec -ache : headache, stomachache, toothache, earache.",
        "J'ai mal à la tête. Il y a trop de bruit ici."
+      ],
+      "hi": [
+       "मेरे सिर में दर्द है।",
+       "कुछ दर्द -ache वाले एक ही शब्द होते हैं: headache, stomachache, toothache, earache.",
+       "मेरे सिर में दर्द है। यहाँ बहुत शोर है।"
+      ],
+      "vi": [
+       "Mình bị đau đầu.",
+       "Một số chứng đau là một từ có đuôi -ache: headache, stomachache, toothache, earache.",
+       "Mình bị đau đầu. Ở đây ồn quá."
       ]
      }
     ],
@@ -149,6 +209,16 @@
        "J'ai mal au ventre.",
        "Stomach se prononce comme stum-uk. Les enfants disent souvent tummy ache.",
        "J'ai mal au ventre. Je ne veux pas déjeuner."
+      ],
+      "hi": [
+       "मेरे पेट में दर्द है।",
+       "Stomach का उच्चारण ‘स्टमक’ जैसा है। बच्चे अक्सर tummy ache कहते हैं।",
+       "मेरे पेट में दर्द है। मुझे लंच नहीं चाहिए।"
+      ],
+      "vi": [
+       "Mình bị đau bụng.",
+       "Stomach đọc gần như ‘xtăm-ợc’. Trẻ con hay nói tummy ache.",
+       "Mình bị đau bụng. Mình không muốn ăn trưa."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "J'ai mal à la gorge.",
        "Sore = douloureux. On dit aussi : sore eyes, a sore back.",
        "J'ai mal à la gorge. Ça fait mal quand j'avale."
+      ],
+      "hi": [
+       "मेरा गला ख़राब है।",
+       "Sore = दुखता हुआ। यह भी: sore eyes, a sore back.",
+       "मेरा गला ख़राब है। निगलने में दर्द होता है।"
+      ],
+      "vi": [
+       "Mình bị đau họng.",
+       "Sore = bị đau, rát. Cũng có: sore eyes, a sore back.",
+       "Mình bị đau họng. Nuốt là thấy đau."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "J'ai mal ici.",
        "Montrez l'endroit. Utile quand on ne connaît pas le mot anglais.",
        "— Où as-tu mal ? — J'ai mal ici."
+      ],
+      "hi": [
+       "यहाँ दर्द हो रहा है।",
+       "जगह की ओर इशारा कीजिए। तब काम का, जब आपको अंग्रेज़ी शब्द न आता हो।",
+       "— कहाँ दर्द हो रहा है? — यहाँ दर्द हो रहा है।"
+      ],
+      "vi": [
+       "Đau ở đây.",
+       "Chỉ vào chỗ đau. Hữu ích khi bạn không biết từ tiếng Anh.",
+       "— Đau ở đâu? — Đau ở đây."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "J'ai mal à la jambe.",
        "Partie du corps + hurts. Pour deux : My feet hurt.",
        "J'ai trop couru. J'ai mal aux jambes."
+      ],
+      "hi": [
+       "मेरे <span class=gray>पैर</span> में दर्द है।",
+       "शरीर का अंग + hurts. दो के लिए: My feet hurt.",
+       "मैं बहुत ज़्यादा दौड़ा। मेरे पैरों में दर्द है।"
+      ],
+      "vi": [
+       "<span class=gray>Chân</span> mình bị đau.",
+       "Bộ phận cơ thể + hurts. Với hai bên: My feet hurt.",
+       "Mình chạy nhiều quá. Hai chân mình bị đau."
       ]
      }
     ]
@@ -218,6 +318,14 @@
     "fr": [
      "La douleur",
      "Dire où l'on a mal."
+    ],
+    "hi": [
+     "दर्द",
+     "बताना कि कहाँ दर्द है।"
+    ],
+    "vi": [
+     "Đau",
+     "Nói chỗ bị đau."
     ]
    }
   },
@@ -242,6 +350,16 @@
        "J'ai un rhume.",
        "A cold, avec a. Pas : I have cold, qui voudrait dire j'ai froid.",
        "J'ai un rhume, alors je reste à la maison aujourd'hui."
+      ],
+      "hi": [
+       "मुझे ज़ुकाम है।",
+       "A cold, a के साथ। ग़लत: I have cold.",
+       "मुझे ज़ुकाम है, इसलिए आज मैं घर पर रहूँगा।"
+      ],
+      "vi": [
+       "Mình bị cảm.",
+       "A cold, có a. Không nói: I have cold.",
+       "Mình bị cảm, nên hôm nay mình ở nhà."
       ]
      }
     ],
@@ -261,6 +379,16 @@
        "J'ai de la fièvre.",
        "Votre corps est très chaud. L'anglais britannique dit aussi I have a temperature.",
        "J'ai de la fièvre et mal à la tête."
+      ],
+      "hi": [
+       "मुझे बुख़ार है।",
+       "आपका शरीर बहुत गरम है। ब्रिटिश अंग्रेज़ी में I have a temperature भी कहते हैं।",
+       "मुझे बुख़ार है और सिर में दर्द है।"
+      ],
+      "vi": [
+       "Mình bị sốt.",
+       "Người bạn rất nóng. Trong tiếng Anh Anh còn nói I have a temperature.",
+       "Mình bị sốt và đau đầu."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Je tousse.",
        "Cough se prononce comme koff.",
        "Je tousse beaucoup la nuit."
+      ],
+      "hi": [
+       "मुझे खाँसी है।",
+       "Cough का उच्चारण ‘कॉफ़’ जैसा है।",
+       "रात को मुझे बहुत खाँसी आती है।"
+      ],
+      "vi": [
+       "Mình bị ho.",
+       "Cough đọc gần như ‘cóp’.",
+       "Ban đêm mình ho nhiều lắm."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "J'ai le nez qui coule.",
        "Votre nez n'arrête pas de couler. Il vous faut un mouchoir !",
        "J'ai le nez qui coule. Tu as un mouchoir ?"
+      ],
+      "hi": [
+       "मेरी नाक बह रही है।",
+       "नाक से पानी आना बंद नहीं हो रहा। आपको टिशू चाहिए!",
+       "मेरी नाक बह रही है। तुम्हारे पास टिशू है?"
+      ],
+      "vi": [
+       "Mình bị sổ mũi.",
+       "Nước mũi cứ chảy mãi không ngừng. Bạn cần khăn giấy đấy!",
+       "Mình bị sổ mũi. Bạn có khăn giấy không?"
       ]
      }
     ]
@@ -311,6 +459,14 @@
     "fr": [
      "Rhume et fièvre",
      "Les maladies que tout le monde attrape."
+    ],
+    "hi": [
+     "ज़ुकाम और बुख़ार",
+     "वे बीमारियाँ जो सबको होती हैं।"
+    ],
+    "vi": [
+     "Cảm và sốt",
+     "Những bệnh ai cũng mắc."
     ]
    }
   },
@@ -335,6 +491,16 @@
        "Je dois voir un médecin.",
        "See a doctor = consulter un médecin. Pas : I need to meet a doctor.",
        "J'ai de la fièvre depuis trois jours. Je dois voir un médecin."
+      ],
+      "hi": [
+       "मुझे डॉक्टर को दिखाना है।",
+       "See a doctor = डॉक्टर को दिखाने जाना। ग़लत: I need to meet a doctor.",
+       "मुझे तीन दिन से बुख़ार है। मुझे डॉक्टर को दिखाना है।"
+      ],
+      "vi": [
+       "Mình cần đi khám bác sĩ.",
+       "See a doctor = đi khám. Không nói: I need to meet a doctor.",
+       "Mình sốt ba ngày rồi. Mình cần đi khám bác sĩ."
       ]
      }
     ],
@@ -354,6 +520,16 @@
        "Qu'est-ce qui ne va pas ?",
        "La première question du médecin ou de l'infirmière. Répondez par le problème : I have a…",
        "— Qu'est-ce qui ne va pas ? — J'ai mal à la gorge."
+      ],
+      "hi": [
+       "क्या तकलीफ़ है?",
+       "डॉक्टर या नर्स सबसे पहले यही पूछते हैं। जवाब में तकलीफ़ बताइए: I have a…",
+       "— क्या तकलीफ़ है? — मेरा गला ख़राब है।"
+      ],
+      "vi": [
+       "Bạn bị làm sao?",
+       "Điều đầu tiên bác sĩ hoặc y tá hỏi. Hãy trả lời bằng vấn đề của bạn: I have a…",
+       "— Bạn bị làm sao? — Tôi bị đau họng."
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Depuis quand vous sentez-vous ainsi ?",
        "Répondez avec for ou since : For two days. Since Monday.",
        "— Depuis quand vous sentez-vous ainsi ? — Depuis hier."
+      ],
+      "hi": [
+       "ऐसा कब से लग रहा है?",
+       "for या since के साथ जवाब दीजिए: For two days. Since Monday.",
+       "— ऐसा कब से लग रहा है? — कल से।"
+      ],
+      "vi": [
+       "Bạn thấy thế này bao lâu rồi?",
+       "Trả lời với for hoặc since: For two days. Since Monday.",
+       "— Bạn thấy thế này bao lâu rồi? — Từ hôm qua."
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Prenez ce médicament deux fois par jour.",
        "Once a day, twice a day, three times a day.",
        "Prenez ce médicament deux fois par jour, après les repas."
+      ],
+      "hi": [
+       "यह दवा दिन में दो बार लीजिए।",
+       "दिन में एक, दो या तीन बार: once a day, twice a day, three times a day.",
+       "यह दवा दिन में दो बार लीजिए, खाने के बाद।"
+      ],
+      "vi": [
+       "Uống thuốc này ngày hai lần.",
+       "Ngày một, hai hoặc ba lần: once a day, twice a day, three times a day.",
+       "Uống thuốc này ngày hai lần, sau bữa ăn."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Vous avez quelque chose contre le mal de tête ?",
        "À la pharmacie, quand on ne connaît pas le nom du médicament.",
        "Vous avez quelque chose contre la toux ?"
+      ],
+      "hi": [
+       "क्या आपके पास <span class=gray>सिरदर्द</span> के लिए कुछ है?",
+       "दवा की दुकान पर, जब आपको दवा का नाम न पता हो।",
+       "क्या आपके पास खाँसी के लिए कुछ है?"
+      ],
+      "vi": [
+       "Ở đây có thuốc gì trị <span class=gray>đau đầu</span> không?",
+       "Ở hiệu thuốc, khi bạn không biết tên thuốc.",
+       "Ở đây có thuốc gì trị ho không?"
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Êtes-vous allergique à quelque chose ?",
        "Allergic = votre corps y réagit mal. Réponse : I'm allergic to peanuts.",
        "— Êtes-vous allergique à quelque chose ? — Oui, à la pénicilline."
+      ],
+      "hi": [
+       "क्या आपको किसी चीज़ से एलर्जी है?",
+       "Allergic = आपका शरीर उस चीज़ पर बुरी तरह प्रतिक्रिया करता है। जवाब: I'm allergic to peanuts.",
+       "— क्या आपको किसी चीज़ से एलर्जी है? — हाँ, पेनिसिलिन से।"
+      ],
+      "vi": [
+       "Bạn có bị dị ứng với thứ gì không?",
+       "Allergic = cơ thể bạn phản ứng xấu với thứ đó. Trả lời: I'm allergic to peanuts.",
+       "— Bạn có bị dị ứng với thứ gì không? — Có, với penicillin."
       ]
      }
     ]
@@ -442,6 +658,14 @@
     "fr": [
      "Chez le médecin et à la pharmacie",
      "Ce que vous dites, et ce que demande le médecin ou le pharmacien."
+    ],
+    "hi": [
+     "डॉक्टर के यहाँ और दवा की दुकान पर",
+     "आप क्या कहते हैं, और डॉक्टर या दवा वाला क्या पूछता है।"
+    ],
+    "vi": [
+     "Ở phòng khám và hiệu thuốc",
+     "Bạn nói gì, và bác sĩ hay dược sĩ hỏi gì."
     ]
    }
   },
@@ -466,6 +690,16 @@
        "Je me suis coupé le doigt.",
        "Cut ne change pas au passé : I cut it yesterday.",
        "Aïe ! Je me suis coupé le doigt avec le papier."
+      ],
+      "hi": [
+       "मेरी उँगली कट गई।",
+       "Cut भूतकाल में भी वैसा ही रहता है: I cut it yesterday.",
+       "आह! काग़ज़ से मेरी उँगली कट गई।"
+      ],
+      "vi": [
+       "Mình bị đứt tay.",
+       "Cut ở thì quá khứ vẫn giữ nguyên: I cut it yesterday.",
+       "Ái! Mình bị giấy cứa đứt tay."
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Je suis tombé.",
        "Vous êtes tombé par terre. On dit aussi : I fell off my bike.",
        "Je suis tombé dans la cour de récréation."
+      ],
+      "hi": [
+       "मैं गिर गया।",
+       "आप ज़मीन पर गिर पड़े। यह भी: I fell off my bike.",
+       "मैं खेल के मैदान में गिर गया।"
+      ],
+      "vi": [
+       "Mình bị ngã.",
+       "Bạn ngã xuống đất. Cũng có: I fell off my bike.",
+       "Mình bị ngã ở sân chơi."
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Je me suis fait mal au genou.",
        "Hurt + partie du corps = se blesser. Hurt ne change pas au passé.",
        "Je me suis fait mal au genou en jouant au foot."
+      ],
+      "hi": [
+       "मेरे <span class=gray>घुटने</span> में चोट लग गई।",
+       "Hurt + शरीर का अंग = उसमें चोट लगी। Hurt भूतकाल में भी वैसा ही रहता है।",
+       "फ़ुटबॉल खेलते हुए मेरे घुटने में चोट लग गई।"
+      ],
+      "vi": [
+       "Mình bị đau <span class=gray>đầu gối</span>.",
+       "Hurt + bộ phận cơ thể = bạn làm đau chỗ đó. Hurt ở thì quá khứ vẫn giữ nguyên.",
+       "Mình bị đau đầu gối khi đá bóng."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Je peux avoir un pansement ?",
        "Un petit pansement adhésif pour une coupure. En anglais américain : a Band-Aid.",
        "Mon doigt saigne. Je peux avoir un pansement ?"
+      ],
+      "hi": [
+       "एक बैंडेज मिलेगा?",
+       "कटी जगह के लिए छोटी, चिपकने वाली पट्टी। अमेरिकी अंग्रेज़ी में: a Band-Aid.",
+       "मेरी उँगली से ख़ून आ रहा है। एक बैंडेज मिलेगा?"
+      ],
+      "vi": [
+       "Cho mình xin miếng băng cá nhân.",
+       "Một miếng băng nhỏ, dính, dùng cho vết đứt. Trong tiếng Anh Mỹ: a Band-Aid.",
+       "Ngón tay mình đang chảy máu. Cho mình xin miếng băng cá nhân."
       ]
      }
     ]
@@ -535,6 +799,14 @@
     "fr": [
      "Petits accidents",
      "Coupures, chutes et bosses, à la maison, à l'école ou en jouant."
+    ],
+    "hi": [
+     "छोटी-मोटी दुर्घटनाएँ",
+     "कटना, गिरना, टकराना: घर पर, स्कूल में या खेलते हुए।"
+    ],
+    "vi": [
+     "Tai nạn nhỏ",
+     "Đứt tay, ngã, va đập: ở nhà, ở trường hoặc khi chơi."
     ]
    }
   }

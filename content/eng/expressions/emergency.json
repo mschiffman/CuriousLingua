@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/emergency.html",
  "aud_dir": "eng/expressions/emergency/",
@@ -37,6 +39,16 @@
        "Appelez une ambulance !",
        "Quand quelqu'un est gravement blessé ou très malade. Dites-le fort en désignant une personne : You! Call an ambulance!",
        "Il ne bouge plus ! Appelez une ambulance !"
+      ],
+      "hi": [
+       "एम्बुलेंस बुलाओ!",
+       "जब कोई बुरी तरह घायल या बहुत बीमार हो। ज़ोर से कहिए और किसी एक व्यक्ति की ओर इशारा कीजिए: You! Call an ambulance!",
+       "वह हिल नहीं रहा! एम्बुलेंस बुलाओ!"
+      ],
+      "vi": [
+       "Gọi xe cấp cứu!",
+       "Khi có người bị thương nặng hoặc ốm nặng. Nói to và chỉ vào một người: You! Call an ambulance!",
+       "Anh ấy không cử động! Gọi xe cấp cứu!"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Appelez la police !",
        "Pour un délit, une bagarre ou une personne en danger.",
        "Quelqu'un entre par effraction dans le magasin ! Appelez la police !"
+      ],
+      "hi": [
+       "पुलिस को बुलाओ!",
+       "किसी अपराध, झगड़े या ख़तरे में पड़े व्यक्ति के लिए।",
+       "कोई दुकान में सेंध लगा रहा है! पुलिस को बुलाओ!"
+      ],
+      "vi": [
+       "Gọi cảnh sát!",
+       "Khi có vụ phạm tội, đánh nhau hoặc có người gặp nguy hiểm.",
+       "Có người đang phá cửa vào cửa hàng! Gọi cảnh sát!"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Au secours, aidez-moi !",
        "Criez-le quand vous avez besoin que n'importe qui à proximité vienne.",
        "Mon ami est tombé à l'eau ! Au secours, aidez-moi !"
+      ],
+      "hi": [
+       "कोई मेरी मदद करो!",
+       "तब चिल्लाइए, जब आपको चाहिए कि आसपास का कोई भी आ जाए।",
+       "मेरा दोस्त पानी में गिर गया! कोई मेरी मदद करो!"
+      ],
+      "vi": [
+       "Ai đó giúp tôi với!",
+       "Hét lên khi bạn cần bất cứ ai ở gần chạy đến.",
+       "Bạn tôi ngã xuống nước rồi! Ai đó giúp tôi với!"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Au feu !",
        "Prévient tout le monde d'un coup. Ensuite, sortez.",
        "Il y a le feu dans la cuisine ! Sortez !"
+      ],
+      "hi": [
+       "आग लग गई है!",
+       "सबको एक साथ ख़बर कर देता है। फिर बाहर निकल जाइए।",
+       "रसोई में आग लग गई है! बाहर निकलो!"
+      ],
+      "vi": [
+       "Cháy rồi!",
+       "Báo cho tất cả mọi người cùng lúc. Sau đó ra ngoài.",
+       "Cháy trong bếp rồi! Ra ngoài đi!"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "C'est une urgence.",
        "Fait comprendre que cela ne peut pas attendre : au téléphone, ou pour passer devant dans une file.",
        "Dépêchez-vous, s'il vous plaît, c'est une urgence !"
+      ],
+      "hi": [
+       "यह आपात स्थिति है।",
+       "किसी को बताता है कि इंतज़ार नहीं हो सकता: फ़ोन पर, या क़तार में आगे जाने के लिए।",
+       "कृपया जल्दी कीजिए, यह आपात स्थिति है!"
+      ],
+      "vi": [
+       "Đây là trường hợp khẩn cấp.",
+       "Cho người khác biết là không thể chờ: qua điện thoại, hoặc để xin lên trước hàng.",
+       "Xin nhanh lên, đây là trường hợp khẩn cấp!"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Obtenir de l'aide vite",
      "Des phrases courtes et sonores pour une vraie urgence. Au Myanmar : police 199, pompiers 191, ambulance 192."
+    ],
+    "hi": [
+     "जल्दी मदद पाना",
+     "असली आपात स्थिति के लिए छोटे, ज़ोर से बोले जाने वाले वाक्य। म्यांमार में: पुलिस 199, दमकल 191, एम्बुलेंस 192। भारत में: 112 (पुलिस, दमकल और एम्बुलेंस, तीनों के लिए एक ही नंबर)।"
+    ],
+    "vi": [
+     "Gọi trợ giúp nhanh",
+     "Những câu ngắn, nói to cho trường hợp khẩn cấp thật sự. Ở Myanmar: cảnh sát 199, cứu hỏa 191, cấp cứu 192. Ở Việt Nam: cảnh sát 113, cứu hỏa 114, cấp cứu 115."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Quelqu'un est blessé.",
        "Dites ensuite où : Someone is hurt on the main road.",
        "Venez vite ! Quelqu'un est blessé."
+      ],
+      "hi": [
+       "किसी को चोट लगी है।",
+       "फिर बताइए कहाँ: Someone is hurt on the main road.",
+       "जल्दी आइए! किसी को चोट लगी है।"
+      ],
+      "vi": [
+       "Có người bị thương.",
+       "Sau đó nói ở đâu: Someone is hurt on the main road.",
+       "Đến nhanh lên! Có người bị thương."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Il y a eu un accident.",
        "Un accident de voiture, une chute, tout événement grave et soudain.",
        "Il y a eu un accident près du pont."
+      ],
+      "hi": [
+       "एक दुर्घटना हो गई है।",
+       "टक्कर, गिरना, कोई भी अचानक हुई बुरी घटना।",
+       "पुल के पास एक दुर्घटना हो गई है।"
+      ],
+      "vi": [
+       "Có tai nạn xảy ra.",
+       "Một vụ va chạm, một cú ngã, bất cứ việc xấu nào xảy ra đột ngột.",
+       "Có tai nạn xảy ra gần cây cầu."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Il n'arrive pas à respirer.",
        "Très grave : appelez à l'aide immédiatement.",
        "À l'aide ! Il n'arrive pas à respirer !"
+      ],
+      "hi": [
+       "वह साँस नहीं ले पा रहा।",
+       "बहुत गंभीर: तुरंत मदद बुलाइए।",
+       "बचाओ! वह साँस नहीं ले पा रहा!"
+      ],
+      "vi": [
+       "Anh ấy không thở được.",
+       "Rất nghiêm trọng: gọi trợ giúp ngay lập tức.",
+       "Cứu với! Anh ấy không thở được!"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Elle s'est évanouie.",
        "Elle est tombée d'un coup et n'est plus consciente.",
        "Elle s'est évanouie à cause de la chaleur. Il lui faut de l'eau."
+      ],
+      "hi": [
+       "वह बेहोश हो गई।",
+       "वह अचानक गिर पड़ी और होश में नहीं है।",
+       "गरमी से वह बेहोश हो गई। उसे पानी चाहिए।"
+      ],
+      "vi": [
+       "Cô ấy ngất rồi.",
+       "Cô ấy đột ngột ngã xuống và bất tỉnh.",
+       "Cô ấy ngất vì nóng. Cô ấy cần nước."
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Il saigne.",
        "Du sang coule. Appuyez sur la plaie avec un linge propre.",
        "Il saigne beaucoup du bras."
+      ],
+      "hi": [
+       "उसके ख़ून बह रहा है।",
+       "उसका ख़ून निकल रहा है। घाव को साफ़ कपड़े से दबाइए।",
+       "उसकी बाँह से बहुत ख़ून बह रहा है।"
+      ],
+      "vi": [
+       "Anh ấy đang chảy máu.",
+       "Máu đang chảy ra. Hãy ấn một miếng vải sạch lên vết thương.",
+       "Tay anh ấy đang chảy rất nhiều máu."
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Dire ce qui s'est passé",
      "De courtes phrases pour expliquer le problème aux secours ou au téléphone."
+    ],
+    "hi": [
+     "बताना कि क्या हुआ",
+     "मदद करने वालों को या फ़ोन पर परेशानी समझाने के लिए छोटे वाक्य।"
+    ],
+    "vi": [
+     "Nói chuyện gì đã xảy ra",
+     "Những câu ngắn để giải thích sự việc cho người giúp hoặc qua điện thoại."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "J'ai perdu mon passeport.",
        "I've lost = il a disparu et je ne l'ai toujours pas.",
        "J'ai perdu mon téléphone. Je peux utiliser le tien pour appeler ma mère ?"
+      ],
+      "hi": [
+       "मेरा <span class=gray>पासपोर्ट</span> खो गया है।",
+       "I've lost = वह अब मेरे पास नहीं है और अभी तक मिला नहीं।",
+       "मेरा फ़ोन खो गया है। क्या मैं अपनी माँ को फ़ोन करने के लिए आपका ले सकता हूँ?"
+      ],
+      "vi": [
+       "Tôi bị mất <span class=gray>hộ chiếu</span>.",
+       "I've lost = tôi không còn nó nữa và vẫn chưa tìm thấy.",
+       "Tôi bị mất điện thoại. Cho tôi mượn điện thoại của bạn gọi cho mẹ được không?"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "On m'a volé mon sac.",
        "Steal → stole. Prévenez un policier ou le vigile du magasin.",
        "On m'a volé mon vélo devant l'école."
+      ],
+      "hi": [
+       "किसी ने मेरा <span class=gray>बैग</span> चुरा लिया।",
+       "Steal → stole. किसी पुलिसवाले या दुकान के गार्ड को बताइए।",
+       "किसी ने स्कूल के बाहर से मेरी साइकिल चुरा ली।"
+      ],
+      "vi": [
+       "Có người lấy trộm <span class=gray>túi</span> của tôi.",
+       "Steal → stole. Hãy báo cho cảnh sát hoặc bảo vệ cửa hàng.",
+       "Có người lấy trộm xe đạp của tôi ở ngoài trường."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Je ne trouve plus mon petit frère.",
        "Pour un enfant perdu. Décrivez-le et dites ce qu'il porte.",
        "Je ne trouve plus ma petite sœur. Elle a six ans et elle porte une robe rouge."
+      ],
+      "hi": [
+       "मुझे मेरा <span class=gray>छोटा भाई</span> नहीं मिल रहा।",
+       "खोए हुए बच्चे के लिए। बताइए कि वह कैसा दिखता है और उसने क्या पहना है।",
+       "मुझे मेरी छोटी बहन नहीं मिल रही। वह छह साल की है और उसने लाल फ़्रॉक पहनी है।"
+      ],
+      "vi": [
+       "Tôi không tìm thấy <span class=gray>em trai</span> tôi.",
+       "Dùng khi một đứa trẻ bị lạc. Hãy tả em trông thế nào và mặc quần áo gì.",
+       "Tôi không tìm thấy em gái tôi. Em sáu tuổi và mặc váy đỏ."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Où est le commissariat ?",
        "L'endroit où l'on déclare une perte ou un vol.",
        "Excusez-moi, où est le commissariat ?"
+      ],
+      "hi": [
+       "पुलिस थाना कहाँ है?",
+       "जहाँ खोई या चोरी हुई चीज़ की रिपोर्ट लिखाई जाती है।",
+       "सुनिए, पुलिस थाना कहाँ है?"
+      ],
+      "vi": [
+       "Đồn cảnh sát ở đâu?",
+       "Nơi trình báo đồ bị mất hoặc bị trộm.",
+       "Xin lỗi, đồn cảnh sát ở đâu ạ?"
       ]
      }
     ]
@@ -330,6 +488,14 @@
     "fr": [
      "Objets et personnes perdus",
      "Quand quelque chose ou quelqu'un a disparu, ou a été volé."
+    ],
+    "hi": [
+     "खोई चीज़ें और खोए लोग",
+     "जब कुछ या कोई लापता हो, या कुछ चोरी हो गया हो।"
+    ],
+    "vi": [
+     "Mất đồ và lạc người",
+     "Khi một thứ gì hoặc một người nào đó bị mất, hoặc bị lấy trộm."
     ]
    }
   },
@@ -354,6 +520,16 @@
        "Restez calme.",
        "Pas de panique. Respirez lentement et écoutez.",
        "Restez calme. Les secours arrivent."
+      ],
+      "hi": [
+       "शांत रहो।",
+       "घबराहट मत फैलने दीजिए। धीरे-धीरे साँस लीजिए और सुनिए।",
+       "शांत रहो। मदद आ रही है।"
+      ],
+      "vi": [
+       "Bình tĩnh.",
+       "Đừng hoảng loạn. Thở chậm và lắng nghe.",
+       "Bình tĩnh. Có người đang đến giúp."
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Ne bougez pas.",
        "Se dit à une personne peut-être gravement blessée, surtout au cou ou au dos.",
        "Ne bougez pas. Attendez le médecin."
+      ],
+      "hi": [
+       "हिलो मत।",
+       "उससे कहा जाता है जिसे गहरी चोट लगी हो सकती है, ख़ासकर गर्दन या पीठ में।",
+       "हिलो मत। डॉक्टर का इंतज़ार करो।"
+      ],
+      "vi": [
+       "Đừng cử động.",
+       "Nói với người có thể bị thương nặng, nhất là ở cổ hoặc lưng.",
+       "Đừng cử động. Chờ bác sĩ đến."
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Sortez du bâtiment !",
        "En cas d'incendie ou de tremblement de terre. Ne vous arrêtez pas pour prendre vos affaires.",
        "Au feu ! Sortez du bâtiment tout de suite !"
+      ],
+      "hi": [
+       "इमारत से बाहर निकलो!",
+       "आग या भूकंप में। अपना सामान उठाने के लिए मत रुकिए।",
+       "आग! अभी इमारत से बाहर निकलो!"
+      ],
+      "vi": [
+       "Ra khỏi tòa nhà!",
+       "Khi có cháy hoặc động đất. Đừng dừng lại để lấy đồ.",
+       "Cháy! Ra khỏi tòa nhà ngay!"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "N'approchez pas du feu.",
        "Keep away from = ne pas s'approcher : the water, the wires, the dog.",
        "N'approchez pas de la rivière. L'eau est très haute."
+      ],
+      "hi": [
+       "आग से दूर रहो।",
+       "Keep away from = पास मत जाओ: the water, the wires, the dog.",
+       "नदी से दूर रहो। पानी बहुत चढ़ा हुआ है।"
+      ],
+      "vi": [
+       "Tránh xa đám cháy.",
+       "Keep away from = đừng lại gần: the water, the wires, the dog.",
+       "Tránh xa con sông. Nước đang lên rất cao."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Allez dans un endroit sûr.",
        "Loin du danger : en hauteur lors d'une inondation, dehors lors d'un incendie.",
        "L'inondation arrive. Allez dans un endroit sûr !"
+      ],
+      "hi": [
+       "किसी सुरक्षित जगह जाओ।",
+       "ख़तरे से दूर: बाढ़ में ऊँची जगह पर, आग में बाहर।",
+       "बाढ़ आ रही है। किसी सुरक्षित जगह जाओ!"
+      ],
+      "vi": [
+       "Đến chỗ an toàn.",
+       "Xa nơi nguy hiểm: lên chỗ cao khi có lũ, ra ngoài khi có cháy.",
+       "Lũ đang về. Đến chỗ an toàn ngay!"
       ]
      }
     ]
@@ -442,6 +658,14 @@
     "fr": [
      "Rester en sécurité",
      "Des consignes que les adultes ou les secouristes peuvent crier. Faites ce qu'ils disent."
+    ],
+    "hi": [
+     "सुरक्षित रहना",
+     "वे निर्देश जो बड़े या बचाव-कर्मी चिल्लाकर दे सकते हैं। जो वे कहें, वही कीजिए।"
+    ],
+    "vi": [
+     "Giữ an toàn",
+     "Những lời hướng dẫn mà người lớn hoặc nhân viên cứu hộ có thể hét lên. Hãy làm theo."
     ]
    }
   },
@@ -466,6 +690,16 @@
        "Vous êtes blessé ?",
        "La première question à une personne tombée ou accidentée.",
        "Vous êtes blessé ? Vous pouvez vous lever ?"
+      ],
+      "hi": [
+       "क्या आपको चोट लगी है?",
+       "गिरे हुए या दुर्घटना में फँसे व्यक्ति से पहला सवाल।",
+       "क्या आपको चोट लगी है? क्या आप खड़े हो सकते हैं?"
+      ],
+      "vi": [
+       "Bạn có bị thương không?",
+       "Câu hỏi đầu tiên với người bị ngã hoặc gặp tai nạn.",
+       "Bạn có bị thương không? Bạn đứng dậy được không?"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Vous avez besoin d'aide ?",
        "Propose de l'aide à une personne qui semble perdue, malade ou en difficulté.",
        "Vous avez l'air perdu. Vous avez besoin d'aide ?"
+      ],
+      "hi": [
+       "क्या आपको मदद चाहिए?",
+       "उसे मदद की पेशकश, जो भटका हुआ, बीमार या मुश्किल में दिखे।",
+       "आप भटके हुए लग रहे हैं। क्या आपको मदद चाहिए?"
+      ],
+      "vi": [
+       "Bạn có cần giúp không?",
+       "Ngỏ ý giúp người trông có vẻ bị lạc, bị ốm hoặc đang gặp khó khăn.",
+       "Trông bạn như đang bị lạc. Bạn có cần giúp không?"
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Je vais chercher de l'aide.",
        "Leur dit que vous allez téléphoner ou chercher quelqu'un.",
        "Restez ici. Je vais chercher de l'aide."
+      ],
+      "hi": [
+       "मैं मदद बुलाता हूँ।",
+       "उन्हें बताता है कि आप किसी को फ़ोन करने या बुलाने जा रहे हैं।",
+       "यहीं रुको। मैं मदद बुलाता हूँ।"
+      ],
+      "vi": [
+       "Tôi sẽ gọi người đến giúp.",
+       "Cho họ biết bạn sẽ gọi điện hoặc đi tìm người.",
+       "Ở yên đây. Tôi sẽ gọi người đến giúp."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Les secours arrivent.",
        "Rassure quelqu'un : l'ambulance ou la police est en route.",
        "Ne vous inquiétez pas, les secours arrivent."
+      ],
+      "hi": [
+       "मदद आ रही है।",
+       "किसी को तसल्ली देता है: एम्बुलेंस या पुलिस आ रही है।",
+       "चिंता मत करो, मदद आ रही है।"
+      ],
+      "vi": [
+       "Sắp có người đến giúp rồi.",
+       "Trấn an người khác: xe cấp cứu hoặc cảnh sát đang đến.",
+       "Đừng lo, sắp có người đến giúp rồi."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Quelle est votre adresse ?",
        "Ce que demandent les secours au téléphone. Apprenez à dire votre propre adresse en anglais.",
        "— Quelle est votre adresse ? — 12, rue Bogyoke, Mandalay."
+      ],
+      "hi": [
+       "आपका पता क्या है?",
+       "आपातकालीन सेवा फ़ोन पर यही पूछती है। अपना पता अंग्रेज़ी में बोलना सीख लीजिए।",
+       "— आपका पता क्या है? — 12 Bogyoke Road, Mandalay."
+      ],
+      "vi": [
+       "Địa chỉ của bạn là gì?",
+       "Câu tổng đài khẩn cấp hỏi qua điện thoại. Hãy học cách nói địa chỉ của chính mình bằng tiếng Anh.",
+       "— Địa chỉ của bạn là gì? — 12 Bogyoke Road, Mandalay."
       ]
      }
     ]
@@ -554,6 +828,14 @@
     "fr": [
      "Aider quelqu'un",
      "Que dire quand on trouve quelqu'un en difficulté."
+    ],
+    "hi": [
+     "किसी की मदद करना",
+     "जब कोई मुसीबत में मिले, तब क्या कहें।"
+    ],
+    "vi": [
+     "Giúp người khác",
+     "Nói gì khi bạn gặp người đang gặp nạn."
     ]
    }
   }

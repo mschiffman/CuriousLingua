@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/phone.html",
  "aud_dir": "eng/expressions/phone/",
@@ -37,6 +39,16 @@
        "Allô ?",
        "Au téléphone, Hello? avec la voix qui monte veut dire : je suis là, qui est-ce ?",
        "— (dring, dring) — Allô ? — Salut, maman !"
+      ],
+      "hi": [
+       "हेलो?",
+       "फ़ोन पर ऊपर उठती आवाज़ में Hello? का मतलब है: मैं सुन रहा हूँ, कौन बोल रहा है?",
+       "— (ट्रिंग ट्रिंग) — हेलो? — हाय, माँ!"
+      ],
+      "vi": [
+       "A lô?",
+       "Trên điện thoại, Hello? với giọng lên cao nghĩa là: tôi nghe đây, ai gọi đấy?",
+       "— (reng reng) — A lô? — Con chào mẹ!"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Salut, c'est May.",
        "Au téléphone, on dit It's…, pas I am… On dit aussi : This is May.",
        "Bonjour, mamie, c'est Aung !"
+      ],
+      "hi": [
+       "हाय, मैं <span class=gray>May</span> बोल रही हूँ।",
+       "फ़ोन पर It's… कहते हैं, I am… नहीं। यह भी: This is May.",
+       "हाय, दादी, मैं Aung बोल रहा हूँ!"
+      ],
+      "vi": [
+       "Chào, <span class=gray>May</span> đây.",
+       "Trên điện thoại nói It's…, không nói I am… Cũng có: This is May.",
+       "Bà ơi, cháu Aung đây ạ!"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "C'est de la part de qui ?",
        "Poli : demande le nom de la personne qui appelle.",
        "— Puis-je parler à M. Tun ? — C'est de la part de qui ?"
+      ],
+      "hi": [
+       "कौन बोल रहे हैं?",
+       "विनम्र: फ़ोन करने वाले का नाम पूछता है।",
+       "— क्या मैं Mr Tun से बात कर सकता हूँ? — कौन बोल रहे हैं?"
+      ],
+      "vi": [
+       "Xin hỏi ai gọi đấy ạ?",
+       "Lịch sự: hỏi tên người gọi.",
+       "— Cho tôi gặp ông Tun được không? — Xin hỏi ai gọi đấy ạ?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Je peux parler à Aung, s'il vous plaît ?",
        "Quand quelqu'un d'autre décroche.",
        "Bonjour, je peux parler à ta mère, s'il te plaît ?"
+      ],
+      "hi": [
+       "क्या मैं <span class=gray>Aung</span> से बात कर सकता हूँ?",
+       "जब फ़ोन कोई और उठाए।",
+       "हेलो, क्या मैं तुम्हारी माँ से बात कर सकता हूँ?"
+      ],
+      "vi": [
+       "Cho tôi gặp <span class=gray>Aung</span> được không ạ?",
+       "Khi người khác nhấc máy.",
+       "A lô, cho cô gặp mẹ cháu được không?"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Je ne te dérange pas ?",
        "Poli : vérifie que l'autre n'est pas occupé.",
        "Salut, c'est Lin. Je ne te dérange pas ?"
+      ],
+      "hi": [
+       "अभी बात कर सकते हैं?",
+       "विनम्र: देख लेता है कि सामने वाला व्यस्त तो नहीं।",
+       "हाय, मैं Lin बोल रहा हूँ। अभी बात कर सकते हैं?"
+      ],
+      "vi": [
+       "Bạn nói chuyện lúc này có tiện không?",
+       "Lịch sự: kiểm tra xem người kia có đang bận không.",
+       "Chào, Lin đây. Bạn nói chuyện lúc này có tiện không?"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Commencer un appel",
      "Décrocher, se présenter et demander quelqu'un."
+    ],
+    "hi": [
+     "कॉल शुरू करना",
+     "फ़ोन उठाना, बताना कि आप कौन हैं, और किसी के बारे में पूछना।"
+    ],
+    "vi": [
+     "Bắt đầu cuộc gọi",
+     "Nhấc máy, xưng tên, và xin gặp ai đó."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Ne quittez pas, s'il vous plaît.",
        "Attendez sans raccrocher. Familier : Hang on a sec.",
        "Ne quittez pas, s'il vous plaît. Je vérifie."
+      ],
+      "hi": [
+       "ज़रा रुकिए।",
+       "रुकिए और फ़ोन मत रखिए। अनौपचारिक: Hang on a sec.",
+       "ज़रा रुकिए। मैं देखता हूँ।"
+      ],
+      "vi": [
+       "Xin giữ máy.",
+       "Chờ và đừng cúp máy. Thân mật: Hang on a sec.",
+       "Xin giữ máy. Để tôi kiểm tra."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Je vais le chercher.",
        "Vous allez chercher la personne demandée. Pour une femme : I'll get her.",
        "— Ton père est là ? — Oui, je vais le chercher."
+      ],
+      "hi": [
+       "मैं उन्हें बुलाता हूँ।",
+       "आप उस व्यक्ति को बुलाने जा रहे हैं जिसके बारे में पूछा गया। महिला के लिए: I'll get her.",
+       "— क्या तुम्हारे पापा हैं? — हाँ, मैं उन्हें बुलाता हूँ।"
+      ],
+      "vi": [
+       "Để mình gọi anh ấy cho.",
+       "Bạn đi gọi người mà họ muốn gặp. Với phụ nữ: I'll get her.",
+       "— Bố cháu có nhà không? — Có ạ, để cháu gọi bố."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Il n'est pas là pour le moment.",
        "La personne ne peut pas venir au téléphone. On dit aussi : She's out.",
        "Désolé, il n'est pas là pour le moment. Il rentre à six heures."
+      ],
+      "hi": [
+       "वे अभी यहाँ नहीं हैं।",
+       "वह व्यक्ति फ़ोन पर नहीं आ सकता। यह भी: She's out.",
+       "माफ़ कीजिए, वे अभी यहाँ नहीं हैं। छह बजे लौटेंगे।"
+      ],
+      "vi": [
+       "Anh ấy hiện không có ở đây.",
+       "Người đó không nghe máy được. Cũng có: She's out.",
+       "Xin lỗi, anh ấy hiện không có ở đây. Sáu giờ anh ấy về."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Je peux prendre un message ?",
        "Vous proposez de transmettre ce que dit la personne qui appelle.",
        "Elle est à l'école. Je peux prendre un message ?"
+      ],
+      "hi": [
+       "कोई संदेश देना है?",
+       "आप पेशकश करते हैं कि फ़ोन करने वाले की बात उस व्यक्ति तक पहुँचा देंगे।",
+       "वह स्कूल में है। कोई संदेश देना है?"
+      ],
+      "vi": [
+       "Bạn có muốn nhắn gì không?",
+       "Bạn ngỏ ý chuyển lời của người gọi cho người kia.",
+       "Em ấy đang ở trường. Bạn có muốn nhắn gì không?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Pouvez-vous lui demander de me rappeler ?",
        "Laisse un message. Call back = rappeler plus tard.",
        "Pouvez-vous lui demander de me rappeler ? C'est Mia."
+      ],
+      "hi": [
+       "क्या आप उनसे कहेंगे कि मुझे वापस फ़ोन करें?",
+       "संदेश छोड़ता है। Call back = बाद में दोबारा फ़ोन करना।",
+       "क्या आप उनसे कहेंगे कि मुझे वापस फ़ोन करें? मैं Mia बोल रही हूँ।"
+      ],
+      "vi": [
+       "Bạn nhắn cô ấy gọi lại cho mình được không?",
+       "Để lại lời nhắn. Call back = gọi lại sau.",
+       "Bạn nhắn cô ấy gọi lại cho mình được không? Mình là Mia."
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Attendre et laisser un message",
      "Quand la personne n'est pas là, ou a besoin d'un instant."
+    ],
+    "hi": [
+     "इंतज़ार और संदेश",
+     "जब वह व्यक्ति वहाँ न हो, या उसे एक पल चाहिए।"
+    ],
+    "vi": [
+     "Chờ máy và lời nhắn",
+     "Khi người cần gặp không có ở đó, hoặc cần một lát."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Désolé, c'est une erreur.",
        "Quand quelqu'un se trompe de numéro, ou vous. On dit aussi : I think you have the wrong number.",
        "— C'est bien la pizzeria ? — Désolé, c'est une erreur."
+      ],
+      "hi": [
+       "माफ़ कीजिए, ग़लत नंबर है।",
+       "जब कोई ग़लत व्यक्ति को फ़ोन लगा दे, या आप लगा दें। यह भी: I think you have the wrong number.",
+       "— क्या यह पिज़्ज़ा की दुकान है? — माफ़ कीजिए, ग़लत नंबर है।"
+      ],
+      "vi": [
+       "Xin lỗi, nhầm số rồi.",
+       "Khi ai đó gọi nhầm người, hoặc chính bạn gọi nhầm. Cũng có: I think you have the wrong number.",
+       "— Đây có phải tiệm pizza không? — Xin lỗi, nhầm số rồi."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Ça coupe.",
        "Le réseau est mauvais et la voix se coupe sans arrêt.",
        "Désolé, ça coupe. Tu peux répéter ?"
+      ],
+      "hi": [
+       "आपकी आवाज़ कट रही है।",
+       "सिग्नल ख़राब है और आवाज़ बार-बार कट रही है।",
+       "माफ़ करना, तुम्हारी आवाज़ कट रही है। फिर से कहोगे?"
+      ],
+      "vi": [
+       "Bạn nói bị ngắt quãng.",
+       "Sóng yếu và tiếng cứ bị đứt liên tục.",
+       "Xin lỗi, bạn nói bị ngắt quãng. Bạn nói lại được không?"
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Je ne t'entends pas très bien.",
        "Le son est trop faible ou il y a trop de bruit là où vous êtes.",
        "Je ne t'entends pas très bien. Je suis dans le bus."
+      ],
+      "hi": [
+       "आपकी आवाज़ ठीक से नहीं आ रही।",
+       "आवाज़ बहुत धीमी है या आप जहाँ हैं वहाँ बहुत शोर है।",
+       "तुम्हारी आवाज़ ठीक से नहीं आ रही। मैं बस में हूँ।"
+      ],
+      "vi": [
+       "Mình nghe không rõ lắm.",
+       "Âm lượng quá nhỏ hoặc chỗ bạn quá ồn.",
+       "Mình nghe không rõ lắm. Mình đang ở trên xe buýt."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Je n'ai presque plus de batterie.",
        "Prévient que l'appel peut se couper d'un coup.",
        "Vite, je n'ai presque plus de batterie !"
+      ],
+      "hi": [
+       "मेरी बैटरी कम है।",
+       "बता देता है कि कॉल अचानक कट सकती है।",
+       "जल्दी बोलो, मेरी बैटरी कम है!"
+      ],
+      "vi": [
+       "Máy mình sắp hết pin.",
+       "Báo trước rằng cuộc gọi có thể bị ngắt đột ngột.",
+       "Nhanh lên, máy mình sắp hết pin!"
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Je peux te rappeler ?",
        "Quand vous ne pouvez pas parler maintenant. Précisez quand : in ten minutes, after dinner.",
        "Je suis en cours. Je peux te rappeler plus tard ?"
+      ],
+      "hi": [
+       "क्या मैं आपको वापस फ़ोन करूँ?",
+       "जब आप अभी बात न कर सकें। कब, यह जोड़िए: in ten minutes, after dinner.",
+       "मैं क्लास में हूँ। क्या मैं तुम्हें बाद में फ़ोन करूँ?"
+      ],
+      "vi": [
+       "Mình gọi lại cho bạn được không?",
+       "Khi bạn chưa nói chuyện được lúc này. Thêm thời điểm: in ten minutes, after dinner.",
+       "Mình đang trong lớp. Lát nữa mình gọi lại cho bạn được không?"
       ]
      }
     ]
@@ -349,6 +517,14 @@
     "fr": [
      "Problèmes sur la ligne",
      "Mauvais réseau, faux numéro, batterie faible."
+    ],
+    "hi": [
+     "लाइन की दिक़्क़तें",
+     "ख़राब सिग्नल, ग़लत नंबर, कम बैटरी।"
+    ],
+    "vi": [
+     "Trục trặc đường truyền",
+     "Sóng yếu, nhầm số, pin yếu."
     ]
    }
   },
@@ -373,6 +549,16 @@
        "Merci d'avoir appelé.",
        "Poli, vers la fin d'un appel.",
        "Merci d'avoir appelé, papi. Je t'embrasse !"
+      ],
+      "hi": [
+       "फ़ोन करने के लिए शुक्रिया।",
+       "विनम्र, कॉल के लगभग अंत में।",
+       "फ़ोन करने के लिए शुक्रिया, दादाजी। ढेर सारा प्यार!"
+      ],
+      "vi": [
+       "Cảm ơn bạn đã gọi.",
+       "Lịch sự, lúc gần kết thúc cuộc gọi.",
+       "Cháu cảm ơn ông đã gọi ạ. Cháu yêu ông!"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Appelle-moi quand tu seras rentré.",
        "Les parents et les amis le disent pour savoir que vous êtes bien arrivé.",
        "Bon voyage. Appelle-moi quand tu seras rentré."
+      ],
+      "hi": [
+       "घर पहुँचकर फ़ोन करना।",
+       "माता-पिता और दोस्त कहते हैं, ताकि पता चल जाए कि आप ठीक से पहुँच गए।",
+       "सफ़र अच्छा रहे। घर पहुँचकर फ़ोन करना।"
+      ],
+      "vi": [
+       "Về đến nhà thì gọi cho mình nhé.",
+       "Bố mẹ và bạn bè nói vậy để biết bạn đã về đến nơi an toàn.",
+       "Đi đường bình an nhé. Về đến nhà thì gọi cho mình nhé."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Salut, à bientôt !",
        "Un au revoir amical au téléphone. L'anglais britannique dit souvent speak to you soon.",
        "Bon, salut, à bientôt !"
+      ],
+      "hi": [
+       "बाय, जल्दी बात करते हैं!",
+       "फ़ोन पर दोस्ताना विदा। ब्रिटिश अंग्रेज़ी में speak to you soon बहुत कहा जाता है।",
+       "ठीक है, बाय, जल्दी बात करते हैं!"
+      ],
+      "vi": [
+       "Chào nhé, nói chuyện sau!",
+       "Lời tạm biệt thân thiện trên điện thoại. Trong tiếng Anh Anh hay nói speak to you soon.",
+       "Được rồi, chào nhé, nói chuyện sau!"
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Je t'envoie un message.",
        "Text = envoyer un message écrit par téléphone. On dit aussi : I'll message you.",
        "Je t'envoie l'heure par message plus tard."
+      ],
+      "hi": [
+       "मैं तुम्हें मैसेज करता हूँ।",
+       "Text = फ़ोन से लिखित संदेश भेजना। यह भी: I'll message you.",
+       "मैं तुम्हें समय बाद में मैसेज करता हूँ।"
+      ],
+      "vi": [
+       "Mình sẽ nhắn tin cho bạn.",
+       "Text = gửi tin nhắn chữ qua điện thoại. Cũng có: I'll message you.",
+       "Lát nữa mình sẽ nhắn giờ cho bạn."
       ]
      }
     ]
@@ -442,6 +658,14 @@
     "fr": [
      "Terminer un appel",
      "Terminer l'appel de façon amicale."
+    ],
+    "hi": [
+     "कॉल ख़त्म करना",
+     "दोस्ताना ढंग से कॉल पूरी करना।"
+    ],
+    "vi": [
+     "Kết thúc cuộc gọi",
+     "Kết thúc cuộc gọi một cách thân thiện."
     ]
    }
   },
@@ -466,6 +690,16 @@
        "Tu as reçu mon message ?",
        "Vérifie qu'un message est bien arrivé.",
        "Tu as reçu mon message pour demain ?"
+      ],
+      "hi": [
+       "मेरा मैसेज मिला?",
+       "जाँचता है कि संदेश पहुँचा या नहीं।",
+       "कल के बारे में मेरा मैसेज मिला?"
+      ],
+      "vi": [
+       "Bạn nhận được tin nhắn của mình chưa?",
+       "Kiểm tra xem tin nhắn đã đến chưa.",
+       "Bạn nhận được tin nhắn của mình về ngày mai chưa?"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Tu me vois ?",
        "Au début d'un appel vidéo.",
        "Tu me vois ? La caméra est allumée ?"
+      ],
+      "hi": [
+       "क्या मैं दिख रहा हूँ?",
+       "वीडियो कॉल शुरू करते समय।",
+       "क्या मैं दिख रहा हूँ? कैमरा चालू है?"
+      ],
+      "vi": [
+       "Bạn thấy mình không?",
+       "Khi bắt đầu một cuộc gọi video.",
+       "Bạn thấy mình không? Camera bật chưa?"
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Ton micro est coupé.",
        "Le micro de l'autre est coupé, donc vous ne l'entendez pas.",
        "Je ne t'entends pas. Ton micro est coupé !"
+      ],
+      "hi": [
+       "आप म्यूट पर हैं।",
+       "सामने वाले का माइक बंद है, इसलिए उसकी आवाज़ नहीं आ रही।",
+       "तुम्हारी आवाज़ नहीं आ रही। तुम म्यूट पर हो!"
+      ],
+      "vi": [
+       "Bạn đang tắt tiếng.",
+       "Micro của người kia đang tắt, nên bạn không nghe được họ.",
+       "Mình không nghe thấy bạn. Bạn đang tắt tiếng!"
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Envoie-moi un message vocal.",
        "Un message parlé, enregistré dans une application de messagerie.",
        "Je conduis. Envoie-moi un message vocal."
+      ],
+      "hi": [
+       "मुझे वॉइस मैसेज भेज दो।",
+       "चैट ऐप में बोलकर रिकॉर्ड किया गया संदेश।",
+       "मैं गाड़ी चला रहा हूँ। मुझे वॉइस मैसेज भेज दो।"
+      ],
+      "vi": [
+       "Gửi tin nhắn thoại cho mình nhé.",
+       "Một tin nhắn nói, được ghi âm trong ứng dụng nhắn tin.",
+       "Mình đang lái xe. Gửi tin nhắn thoại cho mình nhé."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Je t'envoie l'adresse.",
        "Promet d'envoyer des détails par écrit : l'adresse, l'heure, une photo.",
        "Je t'envoie l'adresse après cet appel."
+      ],
+      "hi": [
+       "मैं आपको पता भेज देता हूँ।",
+       "लिखकर ब्योरा भेजने का वादा: पता, समय, कोई फ़ोटो।",
+       "इस कॉल के बाद मैं तुम्हें पता भेज देता हूँ।"
+      ],
+      "vi": [
+       "Mình sẽ gửi địa chỉ cho bạn.",
+       "Hứa gửi chi tiết bằng chữ: địa chỉ, giờ, một tấm ảnh.",
+       "Gọi xong mình sẽ gửi địa chỉ cho bạn."
       ]
      }
     ]
@@ -554,6 +828,14 @@
     "fr": [
      "Messages et appels vidéo",
      "Des phrases pour les messageries et les appels vidéo."
+    ],
+    "hi": [
+     "संदेश और वीडियो कॉल",
+     "चैट ऐप और वीडियो कॉल के लिए वाक्य।"
+    ],
+    "vi": [
+     "Tin nhắn và gọi video",
+     "Những câu dùng cho ứng dụng nhắn tin và cuộc gọi video."
     ]
    }
   }

@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/polite_refusal.html",
  "aud_dir": "eng/expressions/polite_refusal/",
@@ -37,6 +39,16 @@
        "Je crains que non.",
        "Une entrée en matière polie avant une mauvaise nouvelle ou un non. Rien à voir avec la peur.",
        "Je crains de ne pas pouvoir venir vendredi."
+      ],
+      "hi": [
+       "अफ़सोस, नहीं।",
+       "बुरी ख़बर या ना से पहले की विनम्र शुरुआत। इसका डर से कोई संबंध नहीं।",
+       "अफ़सोस, मैं शुक्रवार को नहीं आ पाऊँगा।"
+      ],
+      "vi": [
+       "Tôi e là không.",
+       "Cách mở đầu lịch sự trước một tin không vui hoặc một lời từ chối. Không liên quan gì đến sợ hãi.",
+       "Tôi e là thứ Sáu tôi không đến được."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Malheureusement, c'est épuisé.",
        "Un peu formel : travail, courriels, magasins. Montre que vous regrettez la situation.",
        "Malheureusement, nous sommes fermés le dimanche."
+      ],
+      "hi": [
+       "दुर्भाग्य से, <span class=gray>सब बिक चुका है</span>।",
+       "थोड़ा औपचारिक: काम, ईमेल, दुकानें। दिखाता है कि आपको स्थिति पर खेद है।",
+       "दुर्भाग्य से, हम रविवार को बंद रहते हैं।"
+      ],
+      "vi": [
+       "Rất tiếc, <span class=gray>hết hàng rồi</span>.",
+       "Hơi trang trọng: công việc, email, cửa hàng. Cho thấy bạn lấy làm tiếc về tình huống đó.",
+       "Rất tiếc, chúng tôi đóng cửa vào Chủ nhật."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "J'aimerais bien, mais je travaille.",
        "Montre que vous voudriez vraiment dire oui, sans le pouvoir. Chaleureux et amical.",
        "J'aimerais bien aider, mais je n'ai pas de voiture."
+      ],
+      "hi": [
+       "काश मैं कर पाता, पर <span class=gray>मुझे काम है</span>।",
+       "दिखाता है कि आप सचमुच हाँ कहना चाहते हैं, पर कह नहीं सकते। आत्मीय और दोस्ताना।",
+       "काश मैं मदद कर पाता, पर मेरे पास गाड़ी नहीं है।"
+      ],
+      "vi": [
+       "Giá mà mình giúp được, nhưng <span class=gray>mình phải đi làm</span>.",
+       "Cho thấy bạn thật lòng muốn đồng ý, nhưng không thể. Ấm áp và thân thiện.",
+       "Giá mà mình giúp được, nhưng mình không có xe."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Désolé, mais je ne peux pas.",
        "Le non adouci le plus simple. Sorry en premier rend le non plus facile à entendre.",
        "Désolé, mais j'ai besoin de la voiture aujourd'hui."
+      ],
+      "hi": [
+       "माफ़ कीजिए, पर मैं नहीं कर सकता।",
+       "सबसे सरल नरम ना। शुरू का Sorry ना को सुनने में आसान बना देता है।",
+       "माफ़ करना, पर आज गाड़ी मुझे चाहिए।"
+      ],
+      "vi": [
+       "Xin lỗi, nhưng mình không thể.",
+       "Lời từ chối nhẹ nhàng đơn giản nhất. Sorry ở đầu làm lời từ chối dễ nghe hơn.",
+       "Xin lỗi, nhưng hôm nay mình cần dùng xe."
       ]
      }
     ]
@@ -106,6 +148,14 @@
     "fr": [
      "Adoucir un non",
      "De petits mots qui rendent un non aimable."
+    ],
+    "hi": [
+     "ना को नरम करना",
+     "छोटे-छोटे शब्द, जो ना को भला बना देते हैं।"
+    ],
+    "vi": [
+     "Làm mềm lời từ chối",
+     "Những từ nhỏ giúp lời từ chối nghe tử tế."
     ]
    }
   },
@@ -130,6 +180,16 @@
        "J'adorerais, mais je ne peux pas.",
        "Le non amical classique à une invitation. Ajoutez une raison courte si vous voulez.",
        "J'adorerais, mais je ne peux pas. Je travaille ce soir-là."
+      ],
+      "hi": [
+       "मन तो बहुत है, पर नहीं आ सकता।",
+       "निमंत्रण के लिए जानी-मानी दोस्ताना ना। चाहें तो छोटी-सी वजह जोड़ दीजिए।",
+       "मन तो बहुत है, पर नहीं आ सकता। उस रात मुझे काम है।"
+      ],
+      "vi": [
+       "Mình rất muốn, nhưng không được.",
+       "Lời từ chối thân thiện kinh điển cho một lời mời. Thêm một lý do ngắn nếu muốn.",
+       "Mình rất muốn, nhưng không được. Tối đó mình phải đi làm."
       ]
      }
     ],
@@ -149,6 +209,16 @@
        "J'ai déjà quelque chose de prévu.",
        "Une raison polie qui ne demande aucun détail. Inutile de dire de quoi il s'agit.",
        "Merci de proposer, mais j'ai déjà quelque chose de prévu samedi."
+      ],
+      "hi": [
+       "मेरा पहले से कुछ तय है।",
+       "विनम्र वजह, जिसमें ब्योरे की ज़रूरत नहीं। आपको यह बताना ज़रूरी नहीं कि क्या तय है।",
+       "पूछने के लिए शुक्रिया, पर शनिवार को मेरा पहले से कुछ तय है।"
+      ],
+      "vi": [
+       "Mình có kế hoạch rồi.",
+       "Một lý do lịch sự, không cần chi tiết. Bạn không phải nói kế hoạch đó là gì.",
+       "Cảm ơn bạn đã mời, nhưng thứ Bảy mình có kế hoạch rồi."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Une autre fois, peut-être ?",
        "Non pour cette fois, mais oui à l'amitié. Ne le dites que si vous le pensez : on vous reproposera. Can't make it = ne pas pouvoir venir.",
        "Je ne peux pas ce soir. Une autre fois, peut-être ?"
+      ],
+      "hi": [
+       "फिर कभी?",
+       "इस बार के लिए ना, पर दोस्ती के लिए हाँ। तभी कहिए जब सच में ऐसा चाहते हों: वे आपको फिर बुलाएँगे। Can't make it = मैं नहीं आ पाऊँगा।",
+       "आज रात मैं नहीं आ पाऊँगा। फिर कभी?"
+      ],
+      "vi": [
+       "Để dịp khác nhé?",
+       "Từ chối lần này, nhưng vẫn giữ tình bạn. Chỉ nói khi bạn thật lòng: họ sẽ mời lại đấy. Can't make it = mình không đến được.",
+       "Tối nay mình không đến được. Để dịp khác nhé?"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "On peut remettre ça ?",
        "Américain : pas maintenant, mais reproposez-moi. Cela vient du baseball, où la pluie interrompt un match et l'on reçoit un billet pour un autre jour.",
        "Le dîner me tente bien, mais on peut remettre ça ? Je suis épuisé ce soir."
+      ],
+      "hi": [
+       "क्या इसे अगली बार पर रख सकते हैं?",
+       "अमेरिकी: अभी नहीं, पर मुझे फिर बुलाना। यह बेसबॉल से आया है, जहाँ बारिश से मैच रुक जाए तो किसी और दिन का टिकट मिलता है।",
+       "डिनर का ख़याल बढ़िया है, पर क्या इसे अगली बार पर रख सकते हैं? आज मैं बहुत थका हूँ।"
+      ],
+      "vi": [
+       "Cho mình hẹn lần sau được không?",
+       "Kiểu Mỹ: bây giờ thì chưa, nhưng lần sau nhớ mời mình nhé. Câu này bắt nguồn từ bóng chày, khi mưa làm hoãn trận đấu và bạn được phát vé cho một ngày khác.",
+       "Ăn tối nghe hay đấy, nhưng cho mình hẹn lần sau được không? Tối nay mình mệt quá."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Je passe mon tour cette fois.",
        "Pass = dire non à celle-ci. Amical et familier.",
        "— On va à la plage. Tu viens ? — Je passe mon tour cette fois."
+      ],
+      "hi": [
+       "इस बार मुझे रहने दो।",
+       "Pass = इस वाले को ना कहना। दोस्ताना और अनौपचारिक।",
+       "— हम समुद्र-तट जा रहे हैं। चलोगे? — इस बार मुझे रहने दो।"
+      ],
+      "vi": [
+       "Lần này mình xin kiếu.",
+       "Pass = từ chối lần này. Thân thiện và thân mật.",
+       "— Bọn mình đi biển. Đi cùng không? — Lần này mình xin kiếu."
       ]
      }
     ]
@@ -218,6 +318,14 @@
     "fr": [
      "Refuser une invitation",
      "Fêtes, repas, voyages : dire non sans blesser."
+    ],
+    "hi": [
+     "निमंत्रण को ना कहना",
+     "पार्टी, खाना, सैर: किसी का दिल दुखाए बिना ना कहना।"
+    ],
+    "vi": [
+     "Từ chối lời mời",
+     "Tiệc tùng, bữa ăn, chuyến đi: từ chối mà không làm ai buồn lòng."
     ]
    }
   },
@@ -242,6 +350,16 @@
        "Désolé, je ne peux pas vous aider pour ça.",
        "Clair et poli. En anglais, un non aimable vaut mieux qu'un oui que l'on ne peut pas tenir.",
        "Désolé, je ne peux pas vous aider pour ça. Je ne m'y connais pas en ordinateurs."
+      ],
+      "hi": [
+       "माफ़ कीजिए, इसमें मैं मदद नहीं कर सकता।",
+       "साफ़ और विनम्र। अंग्रेज़ी में नरमी से कही ना उस हाँ से बेहतर है जिसे आप निभा न सकें।",
+       "माफ़ कीजिए, इसमें मैं मदद नहीं कर सकता। मुझे कंप्यूटर की ज़्यादा जानकारी नहीं है।"
+      ],
+      "vi": [
+       "Xin lỗi, việc đó mình không giúp được.",
+       "Rõ ràng và lịch sự. Trong tiếng Anh, một lời từ chối tử tế tốt hơn một lời nhận mà bạn không giữ được.",
+       "Xin lỗi, việc đó mình không giúp được. Mình không rành máy tính lắm."
       ]
      }
     ],
@@ -261,6 +379,16 @@
        "Je crains que ce ne soit pas possible.",
        "Formel et ferme : bureaux, magasins, règlements. Vous l'entendrez de la part du personnel.",
        "Je crains que ce ne soit pas possible. Le bureau ferme à cinq heures."
+      ],
+      "hi": [
+       "अफ़सोस, यह संभव नहीं है।",
+       "औपचारिक और पक्की: दफ़्तर, दुकानें, नियम। आप इसे कर्मचारियों से सुनेंगे।",
+       "अफ़सोस, यह संभव नहीं है। दफ़्तर पाँच बजे बंद हो जाता है।"
+      ],
+      "vi": [
+       "Tôi e là không thể được.",
+       "Trang trọng và dứt khoát: văn phòng, cửa hàng, quy định. Bạn sẽ nghe nhân viên nói câu này.",
+       "Tôi e là không thể được. Văn phòng đóng cửa lúc năm giờ."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Je ne pense pas pouvoir.",
        "Un non adouci. En anglais, cela veut presque toujours dire non.",
        "— Tu peux finir pour ce soir ? — Je ne pense pas pouvoir, désolé."
+      ],
+      "hi": [
+       "मुझे नहीं लगता कि कर पाऊँगा।",
+       "नरम ना। अंग्रेज़ी में इसका मतलब लगभग हमेशा ना ही होता है।",
+       "— क्या आप इसे आज रात तक पूरा कर सकते हैं? — मुझे नहीं लगता कि कर पाऊँगा, माफ़ कीजिए।"
+      ],
+      "vi": [
+       "Chắc là mình không làm được.",
+       "Lời từ chối nhẹ nhàng. Trong tiếng Anh, câu này hầu như luôn có nghĩa là không.",
+       "— Bạn làm xong trước tối nay được không? — Chắc là mình không làm được, xin lỗi nhé."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Je suis un peu occupé là.",
        "Non pour l'instant, peut-être plus tard. Souvent suivi de Can it wait?",
        "Je suis un peu occupé là. Je peux t'aider après le déjeuner ?"
+      ],
+      "hi": [
+       "मैं <span class=gray>अभी</span> थोड़ा व्यस्त हूँ।",
+       "अभी के लिए ना, शायद बाद में। अक्सर इसके बाद आता है: Can it wait?",
+       "मैं अभी थोड़ा व्यस्त हूँ। क्या मैं लंच के बाद आपकी मदद करूँ?"
+      ],
+      "vi": [
+       "<span class=gray>Bây giờ</span> mình hơi bận.",
+       "Bây giờ thì không, có thể để sau. Thường đi kèm Can it wait?",
+       "Bây giờ mình hơi bận. Sau bữa trưa mình giúp bạn được không?"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Je préfère ne pas.",
        "Poli mais ferme. Inutile de donner une raison.",
        "— Tu nous chantes quelque chose ? — Je préfère ne pas, merci."
+      ],
+      "hi": [
+       "मैं न ही करूँ तो अच्छा।",
+       "विनम्र पर पक्की। वजह बताने की ज़रूरत नहीं।",
+       "— हमारे लिए एक गाना गाओगे? — मैं न ही गाऊँ तो अच्छा, शुक्रिया।"
+      ],
+      "vi": [
+       "Mình xin phép không.",
+       "Lịch sự nhưng dứt khoát. Bạn không cần nêu lý do.",
+       "— Bạn hát cho bọn mình nghe nhé? — Mình xin phép không, cảm ơn."
       ]
      }
     ]
@@ -330,6 +488,14 @@
     "fr": [
      "Refuser une demande",
      "Quand quelqu'un vous demande quelque chose que vous ne pouvez ou ne voulez pas faire."
+    ],
+    "hi": [
+     "अनुरोध को ना कहना",
+     "जब कोई आपसे ऐसा कुछ करने को कहे, जो आप कर नहीं सकते या करना नहीं चाहते।"
+    ],
+    "vi": [
+     "Từ chối lời nhờ",
+     "Khi có người nhờ bạn làm việc bạn không thể hoặc không muốn làm."
     ]
    }
   },
@@ -354,6 +520,16 @@
        "Je ne peux pas aujourd'hui, mais demain oui.",
        "Le non le plus gentil : dites ce que vous pouvez faire.",
        "Je ne peux pas te prêter ma voiture, mais je peux t'y conduire."
+      ],
+      "hi": [
+       "<span class=gray>आज</span> नहीं हो पाएगा, पर <span class=gray>कल</span> हो जाएगा।",
+       "सबसे भली ना: बताइए कि आप क्या कर सकते हैं।",
+       "मैं तुम्हें अपनी गाड़ी उधार नहीं दे सकता, पर तुम्हें वहाँ छोड़ सकता हूँ।"
+      ],
+      "vi": [
+       "<span class=gray>Hôm nay</span> mình không được, nhưng <span class=gray>ngày mai</span> thì được.",
+       "Lời từ chối tử tế nhất: hãy nói điều bạn có thể làm.",
+       "Mình không cho bạn mượn xe được, nhưng mình có thể chở bạn đến đó."
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Et si on déjeunait, plutôt ?",
        "Propose un autre moment, un autre lieu ou une autre idée.",
        "Pas vendredi. Et samedi, plutôt ?"
+      ],
+      "hi": [
+       "इसकी जगह <span class=gray>लंच</span> कैसा रहेगा?",
+       "कोई और समय, जगह या सुझाव पेश करता है।",
+       "शुक्रवार नहीं। इसकी जगह शनिवार कैसा रहेगा?"
+      ],
+      "vi": [
+       "Hay là <span class=gray>ăn trưa</span> vậy?",
+       "Đề nghị giờ khác, chỗ khác hoặc một ý khác.",
+       "Thứ Sáu thì không được. Hay là thứ Bảy vậy?"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Pourrait-on le faire un autre jour ?",
        "Dit non au jour, pas à la personne. Bien au travail et entre amis.",
        "Je suis pris demain. Pourrait-on le faire un autre jour ?"
+      ],
+      "hi": [
+       "क्या हम इसे <span class=gray>किसी और दिन</span> कर सकते हैं?",
+       "ना दिन को है, व्यक्ति को नहीं। काम पर और दोस्तों के साथ अच्छा।",
+       "कल मैं व्यस्त हूँ। क्या हम इसे किसी और दिन कर सकते हैं?"
+      ],
+      "vi": [
+       "Mình để <span class=gray>hôm khác</span> được không?",
+       "Từ chối ngày đó, không phải từ chối người đó. Hợp ở chỗ làm và với bạn bè.",
+       "Mai mình bận. Mình để hôm khác được không?"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Quelqu'un d'autre pourra peut-être vous aider.",
        "Oriente la personne vers quelqu'un de plus à même de l'aider.",
        "Je ne sais pas, mais l'accueil pourra peut-être vous aider."
+      ],
+      "hi": [
+       "शायद कोई और आपकी मदद कर सके।",
+       "व्यक्ति को उसके पास भेजता है जो उसकी बेहतर मदद कर सके।",
+       "मुझे नहीं पता, पर शायद रिसेप्शन वाले आपकी मदद कर सकें।"
+      ],
+      "vi": [
+       "Có lẽ người khác giúp được bạn.",
+       "Chỉ cho người kia đến gặp ai đó có thể giúp họ tốt hơn.",
+       "Tôi không biết, nhưng có lẽ quầy lễ tân giúp được bạn."
       ]
      }
     ]
@@ -423,6 +629,14 @@
     "fr": [
      "Proposer autre chose",
      "Transformer un non en un petit oui."
+    ],
+    "hi": [
+     "कुछ और पेश करना",
+     "ना को एक छोटी हाँ में बदलना।"
+    ],
+    "vi": [
+     "Đề nghị điều khác",
+     "Biến lời từ chối thành một lời đồng ý nhỏ hơn."
     ]
    }
   },
@@ -447,6 +661,16 @@
        "Je ne peux rien prendre de plus en ce moment.",
        "Take on = accepter davantage de travail. Professionnel et honnête. Mieux que de dire oui et de ne pas finir.",
        "Désolé, je ne peux rien prendre de plus en ce moment. Je travaille encore sur le rapport."
+      ],
+      "hi": [
+       "मैं अभी और काम नहीं ले सकता।",
+       "Take on = और काम अपने ज़िम्मे लेना। पेशेवर और ईमानदार। हाँ कहकर पूरा न करने से बेहतर।",
+       "माफ़ कीजिए, मैं अभी और काम नहीं ले सकता। मैं अभी रिपोर्ट पर ही लगा हूँ।"
+      ],
+      "vi": [
+       "Lúc này tôi không nhận thêm việc được.",
+       "Take on = nhận thêm việc. Chuyên nghiệp và thẳng thắn. Tốt hơn là nhận lời rồi không làm xong.",
+       "Xin lỗi, lúc này tôi không nhận thêm việc được. Tôi vẫn đang làm bản báo cáo."
       ]
      }
     ],
@@ -466,6 +690,16 @@
        "Je dois voir ça avec mon responsable.",
        "Quand la décision ne vous appartient pas. Honnête et sûr, surtout avec les clients.",
        "Je dois d'abord voir ça avec mon responsable. Je peux vous rappeler ?"
+      ],
+      "hi": [
+       "मुझे <span class=gray>अपने मैनेजर</span> से पूछना होगा।",
+       "जब फ़ैसला आपके हाथ में न हो। ईमानदार और सुरक्षित, ख़ासकर ग्राहकों के साथ।",
+       "मुझे पहले अपने मैनेजर से पूछना होगा। क्या मैं आपको वापस फ़ोन करूँ?"
+      ],
+      "vi": [
+       "Tôi cần hỏi lại <span class=gray>quản lý của tôi</span>.",
+       "Khi quyết định không thuộc về bạn. Thẳng thắn và an toàn, nhất là với khách hàng.",
+       "Tôi cần hỏi lại quản lý của tôi trước. Tôi gọi lại cho anh sau được không?"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Je vais essayer.",
        "Attention : en anglais, I'll try veut dire que vous essaierez vraiment. Si vous pensez non, dites-le gentiment : I don't think I can.",
        "— Tu peux venir tôt demain ? — Je vais essayer, mais je ne promets rien."
+      ],
+      "hi": [
+       "मैं कोशिश करूँगा।",
+       "ध्यान रहे: अंग्रेज़ी में I'll try का मतलब है कि आप सचमुच कोशिश करेंगे। अगर आप ना कहना चाहते हैं, तो नरमी से कहिए: I don't think I can.",
+       "— क्या आप कल जल्दी आ सकते हैं? — मैं कोशिश करूँगा, पर वादा नहीं कर सकता।"
+      ],
+      "vi": [
+       "Tôi sẽ cố.",
+       "Cẩn thận: trong tiếng Anh, I'll try nghĩa là bạn sẽ cố thật. Nếu muốn từ chối, hãy nói nhẹ nhàng: I don't think I can.",
+       "— Mai anh đến sớm được không? — Tôi sẽ cố, nhưng không dám hứa."
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Laisse-moi y réfléchir.",
        "En anglais, c'est un vrai peut-être : on attendra votre réponse. Si vous savez déjà que c'est non, dites-le gentiment.",
        "— Tu veux rejoindre l'équipe ? — Laisse-moi y réfléchir. Je te dis ça lundi."
+      ],
+      "hi": [
+       "मुझे सोचने दीजिए।",
+       "अंग्रेज़ी में यह सचमुच का “शायद” है: वे आपके जवाब का इंतज़ार करेंगे। अगर आपको पहले से पता है कि जवाब ना है, तो नरमी से कह दीजिए।",
+       "— क्या आप टीम में शामिल होना चाहेंगे? — मुझे सोचने दीजिए। मैं सोमवार को बताऊँगा।"
+      ],
+      "vi": [
+       "Để tôi suy nghĩ đã.",
+       "Trong tiếng Anh, đây là một câu “có thể” thật sự: họ sẽ chờ câu trả lời của bạn. Nếu đã biết là không, hãy nói ra một cách nhẹ nhàng.",
+       "— Bạn có muốn vào đội không? — Để mình suy nghĩ đã. Thứ Hai mình trả lời nhé."
       ]
      }
     ]
@@ -516,6 +770,14 @@
     "fr": [
      "Dire non au travail",
      "Des réponses honnêtes pour les supérieurs, les collègues et les clients. Un non clair maintenant vaut mieux qu'un oui non tenu plus tard."
+    ],
+    "hi": [
+     "काम पर ना कहना",
+     "बॉस, सहकर्मियों और ग्राहकों के लिए सच्चे जवाब। अभी की साफ़ ना, बाद में टूटी हुई हाँ से बेहतर है।"
+    ],
+    "vi": [
+     "Từ chối ở chỗ làm",
+     "Câu trả lời thẳng thắn cho sếp, đồng nghiệp và khách hàng. Một lời từ chối rõ ràng lúc này tốt hơn một lời hứa không giữ được về sau."
     ]
    }
   },
@@ -540,6 +802,16 @@
        "Non, merci. Ça ne m'intéresse pas.",
        "Pour les démarcheurs au téléphone ou à la porte. Vous pouvez le dire et raccrocher. Ce n'est pas impoli.",
        "Non, merci. Ça ne m'intéresse pas. Au revoir."
+      ],
+      "hi": [
+       "नहीं, शुक्रिया। मुझे दिलचस्पी नहीं है।",
+       "फ़ोन पर या दरवाज़े पर आए सेल्समैन के लिए। आप यह कहकर फ़ोन रख सकते हैं। यह बदतमीज़ी नहीं है।",
+       "नहीं, शुक्रिया। मुझे दिलचस्पी नहीं है। नमस्ते।"
+      ],
+      "vi": [
+       "Không, cảm ơn. Tôi không có nhu cầu.",
+       "Dành cho người chào hàng qua điện thoại hoặc trước cửa. Bạn có thể nói rồi cúp máy. Như vậy không hề thô lỗ.",
+       "Không, cảm ơn. Tôi không có nhu cầu. Chào anh."
       ]
      }
     ],
@@ -559,6 +831,16 @@
        "Je ne suis pas à l'aise avec ça.",
        "Un non calme et fort quand quelque chose vous semble anormal. Vous pouvez le dire au travail aussi : vous avez le droit de refuser.",
        "Désolé, je ne suis pas à l'aise avec ça. Je ne signerai pas."
+      ],
+      "hi": [
+       "मुझे यह ठीक नहीं लग रहा।",
+       "शांत और मज़बूत ना, जब कोई बात आपको सही न लगे। आप इसे काम पर भी कह सकते हैं: ना कहना आपका हक़ है।",
+       "माफ़ कीजिए, मुझे यह ठीक नहीं लग रहा। मैं इस पर हस्ताक्षर नहीं करूँगा।"
+      ],
+      "vi": [
+       "Tôi không thoải mái với việc đó.",
+       "Lời từ chối bình tĩnh mà mạnh mẽ khi bạn thấy có điều gì không ổn. Ở chỗ làm bạn cũng có thể nói vậy: bạn có quyền từ chối.",
+       "Xin lỗi, tôi không thoải mái với việc đó. Tôi sẽ không ký."
       ]
      }
     ],
@@ -578,6 +860,16 @@
        "J'ai déjà dit non.",
        "Quand quelqu'un insiste encore. Dites-le calmement. Répéter les mêmes mots est tout à fait acceptable.",
        "J'ai déjà dit non. S'il te plaît, ne me redemande pas."
+      ],
+      "hi": [
+       "मैं पहले ही मना कर चुका हूँ।",
+       "जब कोई ज़ोर देता ही जाए। शांत होकर कहिए। वही शब्द दोहराना ठीक है।",
+       "मैं पहले ही मना कर चुका हूँ। कृपया दोबारा मत पूछिए।"
+      ],
+      "vi": [
+       "Tôi đã nói không rồi.",
+       "Khi ai đó cứ nài mãi. Hãy nói thật bình tĩnh. Lặp lại đúng những lời đó cũng được.",
+       "Tôi đã nói không rồi. Xin đừng hỏi nữa."
       ]
      }
     ],
@@ -597,6 +889,16 @@
        "Arrêtez, s'il vous plaît.",
        "Clair et sérieux. Quand quelqu'un n'écoute pas, ou fait quelque chose que vous ne voulez pas.",
        "Arrêtez, s'il vous plaît. Je n'aime pas ça."
+      ],
+      "hi": [
+       "कृपया रुक जाइए।",
+       "साफ़ और गंभीर। जब कोई सुन न रहा हो, या ऐसा कुछ कर रहा हो जो आपको नहीं चाहिए।",
+       "कृपया रुक जाइए। मुझे यह पसंद नहीं।"
+      ],
+      "vi": [
+       "Xin hãy dừng lại.",
+       "Rõ ràng và nghiêm túc. Khi ai đó không chịu nghe, hoặc làm điều bạn không muốn.",
+       "Xin hãy dừng lại. Tôi không thích thế."
       ]
      }
     ]
@@ -609,6 +911,14 @@
     "fr": [
      "Un non ferme",
      "Pour les démarcheurs, la pression, et tout ce qui ne vous convient pas. Des mots polis, un sens clair."
+    ],
+    "hi": [
+     "पक्की ना",
+     "सेल्समैन, दबाव और हर उस चीज़ के लिए जो आपको मंज़ूर नहीं। शब्द विनम्र, मतलब साफ़।"
+    ],
+    "vi": [
+     "Lời từ chối dứt khoát",
+     "Dành cho người bán hàng, khi bị ép, và mọi việc bạn không đồng ý. Lời lẽ lịch sự, ý rõ ràng."
     ]
    }
   }

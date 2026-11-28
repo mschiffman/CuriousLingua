@@ -1,0 +1,336 @@
+{
+  "code": "S18",
+  "scene": 18,
+  "title": "En la farmacia",
+  "subtitle": "Asking for medicine and understanding how to take it",
+  "level": "a2",
+  "topic": "Health",
+  "type": "dialogue",
+  "register": "casual (tú) at home, polite (usted) at the counter, Mexican Spanish",
+  "review": "Notes, translations and questions written by Claude from Marissa's script. Check the English lines, the notes and the questions. The pharmacist (P) has no voice of her own: the course has two voices, and until a third is chosen she is read by Sp-Maria, who is also Emma. Choose a second woman's voice before recording.",
+  "intro": "Lucas has a gripa and is sure it is the end, so Emma goes to the pharmacy for him: four short scenes. Listen for how she asks for medicine with quisiera algo para…, for the pharmacist's questions with usted, and for how to say how often and how long to take something.",
+  "aud_dir": "spa/speaking/farmacia/",
+  "aud_ext": "mp3?v=2611280512",
+  "speakers": {
+    "E": "Emma",
+    "L": "Lucas",
+    "P": "Farmacéutica"
+  },
+  "voice": {
+    "E": "4qaUMumO0kUQd7YZ1NQS",
+    "L": "KI5S3fgy5fbTpczRhibw",
+    "P": "ub88W5aGAEQUq2qf21HC"
+  },
+  "support": ["en"],
+  "related": ["spa/expressions/health"],
+  "sections": [
+    {
+      "title": "Antes de salir",
+      "lines": [
+        {
+          "who": "L",
+          "text": "Emma… creo que este es el fin.",
+          "tr": {
+            "en": "Emma… I think this is the end."
+          },
+          "note": "Creo que…: I think that… He is being dramatic."
+        },
+        {
+          "who": "E",
+          "text": "Es una gripa, Lucas.",
+          "tr": {
+            "en": "It's a cold, Lucas."
+          },
+          "note": "La gripa: a cold, in Mexico. Elsewhere: la gripe or el resfriado."
+        },
+        {
+          "who": "L",
+          "text": "Me duele la garganta, me duele la cabeza, me duele todo.",
+          "tr": {
+            "en": "My throat hurts, my head hurts, everything hurts."
+          },
+          "note": "Me duele + the part of the body. Me duele todo: everything hurts."
+        },
+        {
+          "who": "E",
+          "text": "Voy a la farmacia. ¿Qué necesitas?",
+          "tr": {
+            "en": "I'm going to the pharmacy. What do you need?"
+          }
+        },
+        {
+          "who": "L",
+          "text": "Un milagro.",
+          "tr": {
+            "en": "A miracle."
+          }
+        },
+        {
+          "who": "E",
+          "text": "Voy a preguntar si lo venden sin receta.",
+          "tr": {
+            "en": "I'll ask if they sell one without a prescription."
+          },
+          "note": "La receta: a prescription (and a recipe). Sin receta: without one. Lo: it, the miracle."
+        }
+      ]
+    },
+    {
+      "title": "En el mostrador",
+      "lines": [
+        {
+          "who": "E",
+          "text": "Buenas tardes. Quisiera algo para la gripa, por favor.",
+          "tr": {
+            "en": "Good afternoon. I'd like something for a cold, please."
+          },
+          "note": "Quisiera: I would like, softer than quiero. Algo para + an illness: something for it."
+        },
+        {
+          "who": "P",
+          "text": "Buenas tardes. ¿Es para usted?",
+          "tr": {
+            "en": "Good afternoon. Is it for you?"
+          },
+          "note": "Usted: the polite you, for someone you don't know."
+        },
+        {
+          "who": "E",
+          "text": "No, es para mi esposo.",
+          "tr": {
+            "en": "No, it's for my husband."
+          },
+          "note": "Mi esposo: my husband. Also mi marido."
+        },
+        {
+          "who": "P",
+          "text": "¿Qué síntomas tiene?",
+          "tr": {
+            "en": "What symptoms does he have?"
+          },
+          "note": "Tiene: he has. With usted it would also mean you have."
+        },
+        {
+          "who": "E",
+          "text": "Le escurre la nariz, tiene tos y se queja mucho.",
+          "tr": {
+            "en": "His nose is running, he has a cough, and he complains a lot."
+          },
+          "note": "Le escurre la nariz: his nose is running (Mexico). Tener tos: to have a cough. Quejarse: to complain."
+        },
+        {
+          "who": "P",
+          "text": "¿Tiene fiebre?",
+          "tr": {
+            "en": "Does he have a fever?"
+          },
+          "note": "Tener fiebre: to have a fever."
+        },
+        {
+          "who": "E",
+          "text": "Treinta y siete dos. Dice que es grave.",
+          "tr": {
+            "en": "Thirty-seven point two. He says it's serious."
+          },
+          "note": "37.2 °C is said treinta y siete dos. Grave: serious."
+        },
+        {
+          "who": "P",
+          "text": "¿Es alérgico a algo?",
+          "tr": {
+            "en": "Is he allergic to anything?"
+          },
+          "note": "Ser alérgico a…: to be allergic to…"
+        },
+        {
+          "who": "E",
+          "text": "Al quehacer. Nada más.",
+          "tr": {
+            "en": "Housework. That's all."
+          },
+          "note": "El quehacer, los quehaceres: the housework. Al = a + el, from alérgico a. Nada más: that's all."
+        }
+      ]
+    },
+    {
+      "title": "El tratamiento",
+      "lines": [
+        {
+          "who": "P",
+          "text": "Bien. Este jarabe para la tos: una cucharada en la mañana y otra en la noche.",
+          "tr": {
+            "en": "All right. This cough syrup: one spoonful in the morning and another at night."
+          },
+          "note": "El jarabe: syrup. Una cucharada: a spoonful. En la mañana, en la noche: the Mexican way (por la mañana in Spain)."
+        },
+        {
+          "who": "E",
+          "text": "De acuerdo. ¿Y las pastillas?",
+          "tr": {
+            "en": "OK. And the pills?"
+          },
+          "note": "Una pastilla: a pill, a tablet."
+        },
+        {
+          "who": "P",
+          "text": "Una pastilla tres veces al día, con los alimentos.",
+          "tr": {
+            "en": "One pill three times a day, with meals."
+          },
+          "note": "Tres veces al día: three times a day. Con los alimentos: with food, the words on medicine boxes."
+        },
+        {
+          "who": "E",
+          "text": "¿Por cuánto tiempo?",
+          "tr": {
+            "en": "For how long?"
+          }
+        },
+        {
+          "who": "P",
+          "text": "Cinco días como máximo. Si no mejora, tiene que ir al médico.",
+          "tr": {
+            "en": "Five days at most. If he doesn't get better, he has to see a doctor."
+          },
+          "note": "Como máximo: at most. Mejorar: to get better. Tener que + infinitive: to have to."
+        },
+        {
+          "who": "E",
+          "text": "¿Necesito receta?",
+          "tr": {
+            "en": "Do I need a prescription?"
+          }
+        },
+        {
+          "who": "P",
+          "text": "No, es de venta libre. Son ciento veinte pesos.",
+          "tr": {
+            "en": "No, it's over the counter. That's a hundred and twenty pesos."
+          },
+          "note": "De venta libre: over the counter (word for word, of free sale). Son… pesos: that's… pesos."
+        },
+        {
+          "who": "E",
+          "text": "Con tarjeta, por favor.",
+          "tr": {
+            "en": "By card, please."
+          },
+          "note": "Con tarjeta, en efectivo: by card, in cash."
+        }
+      ]
+    },
+    {
+      "title": "De regreso",
+      "lines": [
+        {
+          "who": "L",
+          "text": "¿Y? ¿Qué te dijo?",
+          "tr": {
+            "en": "So? What did she say?"
+          },
+          "note": "¿Y? asks for the news. Dijo: the past of decir."
+        },
+        {
+          "who": "E",
+          "text": "Una pastilla tres veces al día, y jarabe en la mañana y en la noche.",
+          "tr": {
+            "en": "One pill three times a day, and syrup in the morning and at night."
+          }
+        },
+        {
+          "who": "L",
+          "text": "¿Y cuánto tiempo tengo que quedarme en cama?",
+          "tr": {
+            "en": "And how long do I have to stay in bed?"
+          },
+          "note": "Quedarse en cama: to stay in bed."
+        },
+        {
+          "who": "E",
+          "text": "Dijo que ya puedes lavar los trastes hoy en la noche.",
+          "tr": {
+            "en": "She said you can already do the dishes tonight."
+          },
+          "note": "Dijo que…: she said that… Lavar los trastes: to do the dishes (Mexico). Ya: already. Hoy en la noche: tonight."
+        },
+        {
+          "who": "L",
+          "text": "¿De veras dijo eso?",
+          "tr": {
+            "en": "She really said that?"
+          },
+          "note": "¿De veras?: really? Very common in Mexico."
+        },
+        {
+          "who": "E",
+          "text": "Viene en la caja.",
+          "tr": {
+            "en": "It says so on the box."
+          },
+          "note": "Viene en la caja: word for word, it comes on the box. She is joking."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Asking at the pharmacy: Quisiera algo para la gripa / la tos / el dolor de cabeza, por favor.",
+    "Symptoms: me duele la garganta, me duele la cabeza; le escurre la nariz; tiene tos; tiene fiebre.",
+    "The pharmacist's questions, with usted: ¿Es para usted? ¿Qué síntomas tiene? ¿Tiene fiebre? ¿Es alérgico a algo?",
+    "How to take it: una pastilla tres veces al día, con los alimentos; una cucharada en la mañana y otra en la noche; cinco días como máximo.",
+    "La receta: a prescription. Sin receta, de venta libre: over the counter.",
+    "Mexican words: la gripa, le escurre la nariz, el quehacer, los trastes, en la mañana, ¿de veras?",
+    "Dijo que…: she said that… Dijo que ya puedes lavar los trastes."
+  ],
+  "questions": [
+    {
+      "q": "How does Emma ask for medicine?",
+      "options": [
+        "Quisiera algo para la gripa.",
+        "Quisiera una gripa, por favor.",
+        "Me duele la farmacia."
+      ],
+      "answer": 0,
+      "why": "Quisiera algo para + an illness: the polite way to ask."
+    },
+    {
+      "q": "What are Lucas's symptoms?",
+      "options": [
+        "Le duele el brazo.",
+        "Le escurre la nariz, tiene tos y se queja mucho.",
+        "Tiene mucha fiebre y le duele el estómago."
+      ],
+      "answer": 1,
+      "why": "Le escurre la nariz, tiene tos y se queja mucho."
+    },
+    {
+      "q": "How does Lucas take the pills?",
+      "options": [
+        "En la mañana y en la noche",
+        "Tres veces al día, con los alimentos",
+        "Una vez al día, antes de dormir"
+      ],
+      "answer": 1,
+      "why": "The syrup is en la mañana y en la noche; the pills: una pastilla tres veces al día, con los alimentos."
+    },
+    {
+      "q": "What does de venta libre mean?",
+      "options": [
+        "You need a prescription.",
+        "It's free.",
+        "You can buy it without a prescription."
+      ],
+      "answer": 2,
+      "why": "No, es de venta libre: no prescription is needed."
+    },
+    {
+      "q": "Is Lucas really allergic to housework?",
+      "options": [
+        "Sí, le da tos.",
+        "No. Emma means he doesn't like doing it.",
+        "Sí, la farmacéutica lo dice."
+      ],
+      "answer": 1,
+      "why": "Emma is joking: Lucas doesn't like housework."
+    }
+  ]
+}

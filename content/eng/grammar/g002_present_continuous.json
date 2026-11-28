@@ -1,0 +1,857 @@
+{
+ "code": "G2",
+ "title": "Present Continuous",
+ "subtitle": "Things happening now",
+ "level": "a1",
+ "topic": "Grammar chapters",
+ "type": "game",
+ "order": 2,
+ "review": "Written by Claude. Check the Burmese, Spanish, Hindi and Vietnamese (explanations and scene translations) and the answers. No pictures or audio yet.",
+ "intro": "Lucas is working, the TV is helping and the rice is certainly not burning. Four short scenes, then the rule, the mistakes to watch for, practice and a quiz.",
+ "aud_dir": "eng/grammar/g002_present_continuous/",
+ "aud_ext": "mp3?v=2611280719",
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "related": [
+  "eng/grammar/present_continuous"
+ ],
+ "clips": [
+  "Hello? What are you doing?",
+  "I am working.",
+  "You are watching TV. I hear it.",
+  "I am working. The TV is helping.",
+  "Lucas! The rice is burning!",
+  "It is not burning. It is cooking.",
+  "Smoke is coming out.",
+  "It is cooking fast.",
+  "Take an umbrella. It is raining.",
+  "It isn't raining.",
+  "People are running.",
+  "They aren't running. They are walking fast.",
+  "Lucas, you are getting wet.",
+  "I'm not getting wet. I am washing my hair.",
+  "Are you sleeping?",
+  "Yes.",
+  "Are you really sleeping?",
+  "Yes. I am sleeping and talking.",
+  "What is the cat doing?",
+  "She is sleeping too. Learn from her.",
+  "working",
+  "running",
+  "he's cooking",
+  "they're walking",
+  "run",
+  "I am working.",
+  "The rice is burning!",
+  "They aren't running.",
+  "What are you doing?"
+ ],
+ "clip_who": [
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E"
+ ],
+ "chapter": {
+  "subtitle": {
+   "my": "အခု ဖြစ်နေသော၊ လုပ်နေသော အရာများ",
+   "en": "Things happening now",
+   "es": "Cosas que pasan ahora",
+   "vi": "Những việc đang xảy ra",
+   "hi": "जो अभी हो रहा है"
+  },
+  "langs": [
+   "my",
+   "en",
+   "es",
+   "hi",
+   "vi"
+  ],
+  "scenes": [
+   {
+    "title": "On the Phone",
+    "image_note": "Split view: Emma on her phone in an office; Lucas on the sofa at home with a laptop closed beside him and the TV on.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "Hello? What [[are]] you [[doing]]?",
+      "tr": {
+       "my": "ဟယ်လို။ ဘာလုပ်နေလဲ။",
+       "es": "¿Bueno? ¿Qué estás haciendo?",
+       "vi": "A lô? Anh đang làm gì đấy?",
+       "hi": "हेलो? तुम क्या कर रहे हो?"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[am working]].",
+      "tr": {
+       "my": "အလုပ်လုပ်နေတယ်။",
+       "es": "Estoy trabajando.",
+       "vi": "Anh đang làm việc.",
+       "hi": "मैं काम कर रहा हूँ।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "You [[are watching]] TV. I hear it.",
+      "tr": {
+       "my": "ရှင် တီဗီကြည့်နေတာ။ ကျွန်မ ကြားတယ်။",
+       "es": "Estás viendo la tele. La oigo.",
+       "vi": "Anh đang xem ti vi. Em nghe thấy mà.",
+       "hi": "तुम टीवी देख रहे हो। मुझे सुनाई दे रहा है।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[am working]]. The TV [[is helping]].",
+      "tr": {
+       "my": "အလုပ်လုပ်နေတာပါ။ တီဗီက ကူညီနေတာ။",
+       "es": "Estoy trabajando. La tele me está ayudando.",
+       "vi": "Anh đang làm việc. Ti vi đang giúp anh.",
+       "hi": "मैं काम कर रहा हूँ। टीवी मदद कर रहा है।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Rice",
+    "image_note": "Kitchen. Smoke rising from a rice pot; Emma alarmed in the doorway; Lucas calm, stirring.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "Lucas! The rice [[is burning]]!",
+      "tr": {
+       "my": "လူးကပ်စ်! ထမင်း တူးနေပြီ!",
+       "es": "¡Lucas! ¡El arroz se está quemando!",
+       "vi": "Lucas! Cơm đang cháy kìa!",
+       "hi": "लुकास! चावल जल रहे हैं!"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "It [[is not burning]]. It [[is cooking]].",
+      "tr": {
+       "my": "တူးနေတာ မဟုတ်ဘူး။ ကျက်နေတာ။",
+       "es": "No se está quemando. Se está cociendo.",
+       "vi": "Không phải đang cháy. Nó đang chín.",
+       "hi": "जल नहीं रहे। पक रहे हैं।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Smoke [[is coming]] out.",
+      "tr": {
+       "my": "မီးခိုးတွေ ထွက်နေတယ်။",
+       "es": "Está saliendo humo.",
+       "vi": "Khói đang bốc ra kìa.",
+       "hi": "धुआँ निकल रहा है।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "It [[is cooking]] fast.",
+      "tr": {
+       "my": "မြန်မြန် ကျက်နေတာ။",
+       "es": "Se está cociendo rápido.",
+       "vi": "Nó đang chín nhanh.",
+       "hi": "तेज़ी से पक रहे हैं।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Rain",
+    "image_note": "Front door, heavy rain outside, people hurrying past. Emma holds out an umbrella; Lucas stands outside, soaked, arms folded.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "Take an umbrella. It [[is raining]].",
+      "tr": {
+       "my": "ထီးယူသွား။ မိုးရွာနေတယ်။",
+       "es": "Llévate un paraguas. Está lloviendo.",
+       "vi": "Mang ô đi. Trời đang mưa.",
+       "hi": "छाता ले जाओ। बारिश हो रही है।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "It [[isn't raining]].",
+      "tr": {
+       "my": "မိုးမရွာပါဘူး။",
+       "es": "No está lloviendo.",
+       "vi": "Trời có mưa đâu.",
+       "hi": "बारिश नहीं हो रही।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "People [[are running]].",
+      "tr": {
+       "my": "လူတွေ ပြေးနေကြတယ်။",
+       "es": "La gente está corriendo.",
+       "vi": "Mọi người đang chạy kìa.",
+       "hi": "लोग भाग रहे हैं।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "They [[aren't running]]. They [[are walking]] fast.",
+      "tr": {
+       "my": "ပြေးနေတာ မဟုတ်ဘူး။ မြန်မြန် လျှောက်နေတာ။",
+       "es": "No están corriendo. Están caminando rápido.",
+       "vi": "Họ không chạy. Họ đang đi bộ nhanh.",
+       "hi": "भाग नहीं रहे। तेज़ चल रहे हैं।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Lucas, you [[are getting]] wet.",
+      "tr": {
+       "my": "လူးကပ်စ်၊ ရှင် ရေစိုနေပြီ။",
+       "es": "Lucas, te estás mojando.",
+       "vi": "Lucas, anh đang bị ướt đấy.",
+       "hi": "लुकास, तुम भीग रहे हो।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I[['m not getting]] wet. I [[am washing]] my hair.",
+      "tr": {
+       "my": "ရေစိုနေတာ မဟုတ်ဘူး။ ခေါင်းလျှော်နေတာ။",
+       "es": "No me estoy mojando. Me estoy lavando el pelo.",
+       "vi": "Anh không bị ướt. Anh đang gội đầu.",
+       "hi": "मैं भीग नहीं रहा। मैं बाल धो रहा हूँ।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Night",
+    "image_note": "Bedroom at night, lamp off. Lucas wide awake looking at Emma; Emma eyes shut; the cat asleep between them.",
+    "lines": [
+     {
+      "who": "Lucas",
+      "text": "[[Are]] you [[sleeping]]?",
+      "tr": {
+       "my": "အိပ်နေလား။",
+       "es": "¿Estás durmiendo?",
+       "vi": "Em đang ngủ à?",
+       "hi": "क्या तुम सो रही हो?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Yes.",
+      "tr": {
+       "my": "အိပ်နေတယ်။",
+       "es": "Sí.",
+       "vi": "Ừ.",
+       "hi": "हाँ।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "[[Are]] you really [[sleeping]]?",
+      "tr": {
+       "my": "တကယ် အိပ်နေတာလား။",
+       "es": "¿De verdad estás durmiendo?",
+       "vi": "Em đang ngủ thật à?",
+       "hi": "सच में सो रही हो?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Yes. I [[am sleeping]] and [[talking]].",
+      "tr": {
+       "my": "ဟုတ်တယ်။ အိပ်ရင်း စကားပြောနေတာ။",
+       "es": "Sí. Estoy durmiendo y hablando.",
+       "vi": "Ừ. Em đang ngủ và đang nói.",
+       "hi": "हाँ। मैं सो रही हूँ और बोल रही हूँ।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "What [[is]] the cat [[doing]]?",
+      "tr": {
+       "my": "ကြောင်က ဘာလုပ်နေလဲ။",
+       "es": "¿Qué está haciendo la gata?",
+       "vi": "Con mèo đang làm gì?",
+       "hi": "बिल्ली क्या कर रही है?"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "She [[is sleeping]] too. Learn from her.",
+      "tr": {
+       "my": "သူလည်း အိပ်နေတယ်။ သူ့ဆီက သင်ယူပါ။",
+       "es": "También está durmiendo. Aprende de ella.",
+       "vi": "Nó cũng đang ngủ. Học tập nó đi.",
+       "hi": "वह भी सो रही है। उससे सीखो।"
+      }
+     }
+    ]
+   }
+  ],
+  "notice": [
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၁ တွင် ကြိယာရှေ့၌ ဘာစကားလုံးများ ပါသလဲ။ ကြိယာအဆုံး၌ ဘာပါသလဲ။",
+     "en": "Scene 1: which small words come before the verb? What is on the end of the verb?",
+     "es": "Escena 1: ¿qué palabras pequeñas van antes del verbo? ¿Qué hay al final del verbo?",
+     "vi": "Cảnh 1: trước động từ có những từ nhỏ nào? Cuối động từ có gì?",
+     "hi": "दृश्य 1: क्रिया से पहले कौन से छोटे शब्द आते हैं? क्रिया के अंत में क्या है?"
+    },
+    "a": {
+     "my": "ရှေ့တွင် [[am]] / [[is]] / [[are]]၊ အဆုံးတွင် [[-ing]]။",
+     "en": "[[am]] / [[is]] / [[are]] before it, and [[-ing]] on the end.",
+     "es": "[[am]] / [[is]] / [[are]] antes, y [[-ing]] al final.",
+     "vi": "Trước là [[am]] / [[is]] / [[are]], cuối là [[-ing]].",
+     "hi": "पहले [[am]] / [[is]] / [[are]], और अंत में [[-ing]]."
+    }
+   },
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၃ တွင် 'မဟုတ်' ဟု ဘယ်လို ပြောသလဲ။",
+     "en": "Scene 3: how do they say 'not'?",
+     "es": "Escena 3: ¿cómo dicen 'no'?",
+     "vi": "Cảnh 3: họ nói 'không' như thế nào?",
+     "hi": "दृश्य 3: वे 'नहीं' कैसे कहते हैं?"
+    },
+    "a": {
+     "my": "[[isn't]]၊ [[aren't]]၊ [[I'm not]] + -ing။",
+     "en": "[[isn't]], [[aren't]], [[I'm not]] + -ing.",
+     "es": "[[isn't]], [[aren't]], [[I'm not]] + -ing.",
+     "vi": "[[isn't]], [[aren't]], [[I'm not]] + -ing.",
+     "hi": "[[isn't]], [[aren't]], [[I'm not]] + -ing."
+    }
+   },
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၄ ၏ မေးခွန်းများတွင် are / is သည် ဘယ်နေရာ ရောက်သွားသလဲ။",
+     "en": "Scene 4: where do are / is go in a question?",
+     "es": "Escena 4: ¿dónde van are / is en una pregunta?",
+     "vi": "Cảnh 4: trong câu hỏi, are / is đứng ở đâu?",
+     "hi": "दृश्य 4: प्रश्न में are / is कहाँ जाते हैं?"
+    },
+    "a": {
+     "my": "ကတ္တား၏ ရှေ့သို့ ရောက်သွားသည်။ [[Are]] you sleeping? What [[is]] the cat doing?",
+     "en": "Before the subject. [[Are]] you sleeping? What [[is]] the cat doing?",
+     "es": "Antes del sujeto. [[Are]] you sleeping? What [[is]] the cat doing?",
+     "vi": "Đứng trước chủ ngữ. [[Are]] you sleeping? What [[is]] the cat doing?",
+     "hi": "कर्ता से पहले। [[Are]] you sleeping? What [[is]] the cat doing?"
+    }
+   }
+  ],
+  "rule": {
+   "points": {
+    "my": [
+     "အခု ဖြစ်နေသော၊ လုပ်နေသော အရာအတွက် Present Continuous ကို သုံးသည်။",
+     "ပုံစံ − [[am / is / are]] + ကြိယာ[[-ing]]။",
+     "မြန်မာလို 'နေတယ်' နှင့် ဆင်တူသည်။ သို့သော် အင်္ဂလိပ်တွင် အပိုင်းနှစ်ပိုင်း လိုသည်။ [[am / is / are]] ကိုလည်း မဖြုတ်ရ၊ [[-ing]] ကိုလည်း မဖြုတ်ရ။",
+     "အငြင်း − [[am not]] / [[isn't]] / [[aren't]] + -ing။",
+     "မေးခွန်း − [[Am / Is / Are]] ကို ကတ္တား၏ ရှေ့သို့ ရွှေ့ပါ။",
+     "စာလုံးပေါင်း − make → mak[[ing]] (e ဖြုတ်)၊ run → run[[ning]]၊ get → get[[ting]] (ဗျည်း နှစ်ထပ်)။"
+    ],
+    "en": [
+     "Use the present continuous for things happening now.",
+     "Form: [[am / is / are]] + verb[[-ing]].",
+     "You need both parts. Do not drop [[am / is / are]], and do not drop [[-ing]].",
+     "Negative: [[am not]] / [[isn't]] / [[aren't]] + -ing.",
+     "Question: move [[Am / Is / Are]] in front of the subject.",
+     "Spelling: make → mak[[ing]] (drop e), run → run[[ning]], get → get[[ting]] (double the last letter)."
+    ],
+    "es": [
+     "Usa el present continuous para lo que está pasando ahora.",
+     "Forma: [[am / is / are]] + verbo[[-ing]].",
+     "Es como estar + -ando / -iendo: estoy trabajando = I [[am]] work[[ing]]. Pero el sujeto siempre se dice: [[It]] is raining.",
+     "Negación: [[am not]] / [[isn't]] / [[aren't]] + -ing.",
+     "Pregunta: [[Am / Is / Are]] va antes del sujeto.",
+     "Ortografía: make → mak[[ing]] (sin e), run → run[[ning]], get → get[[ting]] (doble consonante)."
+    ],
+    "vi": [
+     "Dùng thì hiện tại tiếp diễn cho việc đang xảy ra ngay bây giờ.",
+     "Cấu trúc: [[am / is / are]] + động từ[[-ing]].",
+     "Giống chữ 'đang' trong tiếng Việt, nhưng tiếng Anh cần cả hai phần. Đừng bỏ [[am / is / are]], và đừng bỏ [[-ing]].",
+     "Phủ định: [[am not]] / [[isn't]] / [[aren't]] + -ing.",
+     "Câu hỏi: đưa [[Am / Is / Are]] lên trước chủ ngữ.",
+     "Chính tả: make → mak[[ing]] (bỏ e), run → run[[ning]], get → get[[ting]] (gấp đôi phụ âm cuối)."
+    ],
+    "hi": [
+     "जो अभी हो रहा है, उसके लिए present continuous का प्रयोग करें।",
+     "रूप: [[am / is / are]] + क्रिया[[-ing]].",
+     "यह हिंदी के 'रहा है / रही है / रहे हैं' जैसा है: मैं काम कर रहा हूँ = I [[am]] work[[ing]]. दोनों हिस्से ज़रूरी हैं।",
+     "नकारात्मक: [[am not]] / [[isn't]] / [[aren't]] + -ing.",
+     "प्रश्न: [[Am / Is / Are]] को कर्ता से पहले रखें। What [[are you]] doing? (What you are doing नहीं)",
+     "वर्तनी: make → mak[[ing]] (e हटाएँ), run → run[[ning]], get → get[[ting]] (आख़िरी अक्षर दो बार)।"
+    ]
+   },
+   "tables": [
+    {
+     "title": "Positive",
+     "rows": [
+      [
+       "I",
+       "[[am]] work[[ing]]  (I'm working)"
+      ],
+      [
+       "he / she / it",
+       "[[is]] work[[ing]]  (she's working)"
+      ],
+      [
+       "you / we / they",
+       "[[are]] work[[ing]]  (they're working)"
+      ]
+     ]
+    },
+    {
+     "title": "Negative",
+     "rows": [
+      [
+       "I",
+       "[[am not]] working  (I'm not)"
+      ],
+      [
+       "he / she / it",
+       "[[isn't]] working"
+      ],
+      [
+       "you / we / they",
+       "[[aren't]] working"
+      ]
+     ]
+    },
+    {
+     "title": "Question",
+     "rows": [
+      [
+       "[[Am]] I",
+       "working?"
+      ],
+      [
+       "[[Is]] he / she / it",
+       "working?"
+      ],
+      [
+       "[[Are]] you / we / they",
+       "working?"
+      ]
+     ]
+    }
+   ]
+  },
+  "sounds": {
+   "intro": {
+    "my": "[[-ing]] နှင့် [['s]] / [['re]] ကို သေချာ အသံထွက်ပါ။ နှိပ်၍ နားထောင်ပါ။",
+    "en": "Say the [[-ing]] and the [['s]] / [['re]] clearly. Tap to listen.",
+    "es": "Pronuncia bien [[-ing]] y [['s]] / [['re]]. Toca para escuchar.",
+    "vi": "Đọc rõ [[-ing]] và [['s]] / [['re]]. Chạm để nghe.",
+    "hi": "[[-ing]] और [['s]] / [['re]] साफ़ बोलें। सुनने के लिए टैप करें।"
+   },
+   "items": [
+    {
+     "word": "working",
+     "ipa": "/ɪŋ/"
+    },
+    {
+     "word": "running",
+     "ipa": "/ɪŋ/"
+    },
+    {
+     "word": "he's cooking",
+     "ipa": "/z/ + /ɪŋ/"
+    },
+    {
+     "word": "they're walking",
+     "ipa": "/ə/ + /ɪŋ/"
+    }
+   ]
+  },
+  "mistakes": [
+   {
+    "langs": [
+     "es"
+    ],
+    "wrong": "Is raining.",
+    "right": "[[It]] is raining.",
+    "note": {
+     "es": "En inglés hace falta el sujeto: it."
+    }
+   },
+   {
+    "wrong": "She cooking now.",
+    "right": "She [[is]] cooking now.",
+    "note": {
+     "my": "is ကို မဖြုတ်ပါနှင့်။",
+     "en": "Do not drop is.",
+     "es": "No quites is.",
+     "vi": "Đừng bỏ is.",
+     "hi": "is न छोड़ें।"
+    }
+   },
+   {
+    "wrong": "I am cook dinner.",
+    "right": "I am cook[[ing]] dinner.",
+    "note": {
+     "my": "ကြိယာတွင် -ing ထည့်ပါ။",
+     "en": "Add -ing to the verb.",
+     "es": "Añade -ing al verbo.",
+     "vi": "Thêm -ing vào động từ.",
+     "hi": "क्रिया में -ing जोड़ें।"
+    }
+   },
+   {
+    "wrong": "They is running.",
+    "right": "They [[are]] running.",
+    "note": {
+     "my": "you / we / they နှင့် are ကို သုံးပါ။",
+     "en": "Use are with you / we / they.",
+     "es": "Con you / we / they se usa are.",
+     "vi": "Với you / we / they, dùng are.",
+     "hi": "you / we / they के साथ are लगाएँ।"
+    }
+   },
+   {
+    "wrong": "What you are doing?",
+    "right": "What [[are you]] doing?",
+    "note": {
+     "my": "မေးခွန်းတွင် are ကို you ၏ ရှေ့၌ ထားပါ။",
+     "en": "In a question, are comes before you.",
+     "es": "En la pregunta, are va antes de you.",
+     "vi": "Trong câu hỏi, are đứng trước you.",
+     "hi": "प्रश्न में are, you से पहले आता है।"
+    }
+   },
+   {
+    "wrong": "He isn't work today.",
+    "right": "He isn't work[[ing]] today.",
+    "note": {
+     "my": "isn't နောက်တွင်လည်း -ing လိုသည်။",
+     "en": "You still need -ing after isn't.",
+     "es": "Después de isn't también hace falta -ing.",
+     "vi": "Sau isn't vẫn cần -ing.",
+     "hi": "isn't के बाद भी -ing चाहिए।"
+    }
+   }
+  ],
+  "practice": [
+   {
+    "type": "sort",
+    "prompt": {
+     "my": "am, is, are − ဘယ်ဟာလဲ",
+     "en": "am, is or are?",
+     "es": "¿am, is o are?",
+     "vi": "am, is hay are?",
+     "hi": "am, is या are?"
+    },
+    "labels": [
+     "am",
+     "is",
+     "are"
+    ],
+    "items": [
+     {
+      "s": "I ___ working.",
+      "answer": 0
+     },
+     {
+      "s": "The rice ___ burning.",
+      "answer": 1
+     },
+     {
+      "s": "People ___ running.",
+      "answer": 2
+     },
+     {
+      "s": "You ___ getting wet.",
+      "answer": 2
+     },
+     {
+      "s": "She ___ sleeping.",
+      "answer": 1
+     },
+     {
+      "s": "Emma and Lucas ___ talking.",
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "type": "choose",
+    "items": [
+     {
+      "s": "Lucas is ___ TV.",
+      "options": [
+       "watch",
+       "watches",
+       "watching"
+      ],
+      "answer": 2
+     },
+     {
+      "s": "It ___ raining.",
+      "options": [
+       "isn't",
+       "aren't",
+       "don't"
+      ],
+      "answer": 0
+     },
+     {
+      "s": "___ you sleeping?",
+      "options": [
+       "Do",
+       "Is",
+       "Are"
+      ],
+      "answer": 2
+     },
+     {
+      "s": "The cat is ___ on the bed.",
+      "options": [
+       "siting",
+       "sitting",
+       "sit"
+      ],
+      "answer": 1
+     },
+     {
+      "s": "What ___ the cat doing?",
+      "options": [
+       "is",
+       "are",
+       "does"
+      ],
+      "answer": 0
+     },
+     {
+      "s": "I ___ not getting wet.",
+      "options": [
+       "is",
+       "are",
+       "am"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "type": "type",
+    "prompt": {
+     "my": "ကြိယာကို -ing ပုံစံဖြင့် ရိုက်ထည့်ပါ (ဥပမာ − is cooking)",
+     "en": "Type the verb with am / is / are + -ing",
+     "es": "Escribe el verbo con am / is / are + -ing",
+     "vi": "Gõ động từ với am / is / are + -ing",
+     "hi": "क्रिया को am / is / are + -ing के साथ लिखें"
+    },
+    "items": [
+     {
+      "s": "The rice ___ (cook).",
+      "answers": [
+       "is cooking",
+       "'s cooking"
+      ]
+     },
+     {
+      "s": "People ___ (run).",
+      "answers": [
+       "are running",
+       "'re running"
+      ]
+     },
+     {
+      "s": "I ___ (work).",
+      "answers": [
+       "am working",
+       "'m working"
+      ]
+     },
+     {
+      "s": "It ___ (not / rain).",
+      "answers": [
+       "isn't raining",
+       "is not raining",
+       "'s not raining"
+      ]
+     },
+     {
+      "s": "Emma ___ (make) dinner.",
+      "answers": [
+       "is making",
+       "'s making"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "fix",
+    "items": [
+     {
+      "s": "The cat sleeping.",
+      "answers": [
+       "The cat is sleeping.",
+       "The cat's sleeping."
+      ]
+     },
+     {
+      "s": "They is walking fast.",
+      "answers": [
+       "They are walking fast.",
+       "They're walking fast."
+      ]
+     },
+     {
+      "s": "What you are doing?",
+      "answers": [
+       "What are you doing?"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "hear",
+    "items": [
+     {
+      "say": "working",
+      "options": [
+       "work",
+       "working"
+      ],
+      "answer": 1
+     },
+     {
+      "say": "run",
+      "options": [
+       "run",
+       "running"
+      ],
+      "answer": 0
+     },
+     {
+      "say": "he's cooking",
+      "options": [
+       "he cooking",
+       "he's cooking"
+      ],
+      "answer": 1
+     },
+     {
+      "say": "they're walking",
+      "options": [
+       "they walking",
+       "they're walking"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  ],
+  "speak": [
+   "I [[am working]].",
+   "The rice [[is burning]]!",
+   "They [[aren't running]].",
+   "What [[are]] you [[doing]]?"
+  ],
+  "quiz": [
+   {
+    "s": "Emma ___ talking on the phone.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "Lucas is ___ his hair.",
+    "options": [
+     "wash",
+     "washes",
+     "washing"
+    ],
+    "answer": 2
+   },
+   {
+    "s": "They ___ running.",
+    "options": [
+     "isn't",
+     "aren't",
+     "don't"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "___ the rice burning?",
+    "options": [
+     "Is",
+     "Are",
+     "Does"
+    ],
+    "answer": 0
+   },
+   {
+    "s": "I ___ working now.",
+    "options": [
+     "am",
+     "is",
+     "be"
+    ],
+    "answer": 0
+   },
+   {
+    "s": "What ___ you doing?",
+    "options": [
+     "is",
+     "do",
+     "are"
+    ],
+    "answer": 2
+   },
+   {
+    "s": "Smoke is ___ out.",
+    "options": [
+     "comeing",
+     "coming",
+     "comming"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "Look! The cat ___ on your laptop.",
+    "options": [
+     "sitting",
+     "is sitting",
+     "are sitting"
+    ],
+    "answer": 1
+   }
+  ]
+ }
+}

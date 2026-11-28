@@ -1,0 +1,254 @@
+{
+  "code": "E18",
+  "scene": 18,
+  "title": "At the Pharmacy",
+  "subtitle": "Asking for medicine and understanding how to take it",
+  "level": "a2",
+  "topic": "Health",
+  "type": "dialogue",
+  "review": "Written by Claude from Marissa's script: check the notes and the questions. No Burmese yet. The pharmacist (P) has no voice of her own: until one is chosen she is read by the course voice, which is also Emma's. Choose a second woman's voice before recording.",
+  "intro": "Lucas has a cold and is sure it is the end, so Emma goes to the pharmacy for him: four short scenes. Listen for how she asks for medicine, the questions the pharmacist asks, and how to say how often and how long to take something.",
+  "aud_dir": "eng/speaking/pharmacy/",
+  "aud_ext": "mp3?v=2611280535",
+  "speakers": {
+    "E": "Emma",
+    "L": "Lucas",
+    "P": "Pharmacist"
+  },
+  "voice": {
+    "E": "MOAe6Ugu3k7GT4qGvdi6",
+    "L": "ZBsd5OXB9HVuWJ69YkCI",
+    "P": "TOWjK573x9w4MlmKG5BW"
+  },
+  "related": ["eng/expressions/health"],
+  "sections": [
+    {
+      "title": "Before Leaving",
+      "lines": [
+        {
+          "who": "L",
+          "text": "Emma… I think this is the end.",
+          "note": "He is joking: he feels so sick that he thinks he is dying."
+        },
+        {
+          "who": "E",
+          "text": "It's a cold, Lucas.",
+          "note": "A cold: a small illness with a runny nose and a sore throat."
+        },
+        {
+          "who": "L",
+          "text": "My throat hurts, my head hurts, everything hurts.",
+          "note": "My + part of the body + hurts. Everything hurts: all of me hurts."
+        },
+        {
+          "who": "E",
+          "text": "I'm going to the pharmacy. What do you need?",
+          "note": "A pharmacy sells medicine. Also a drugstore (American) or a chemist's (British)."
+        },
+        {
+          "who": "L",
+          "text": "A miracle.",
+          "note": "A miracle: something wonderful that cannot really happen."
+        },
+        {
+          "who": "E",
+          "text": "I'll ask if they have one without a prescription.",
+          "note": "A prescription: a paper from a doctor. You need one for some medicines. One = a miracle."
+        }
+      ]
+    },
+    {
+      "title": "At the Counter",
+      "lines": [
+        {
+          "who": "E",
+          "text": "Hi, I'd like something for a cold, please.",
+          "note": "I'd like…, please: the polite way to ask in a shop. Something for + an illness: medicine for it."
+        },
+        {
+          "who": "P",
+          "text": "Sure. Is it for you?",
+          "note": "Sure = yes, of course."
+        },
+        {
+          "who": "E",
+          "text": "No, it's for my husband."
+        },
+        {
+          "who": "P",
+          "text": "What are his symptoms?",
+          "note": "Symptoms: the signs of an illness, like a cough or a fever."
+        },
+        {
+          "who": "E",
+          "text": "He has a runny nose, he's coughing, and he complains a lot.",
+          "note": "A runny nose: water comes out of your nose. Complain: say again and again that something is bad."
+        },
+        {
+          "who": "P",
+          "text": "Does he have a fever?",
+          "note": "A fever: your body is hotter than normal."
+        },
+        {
+          "who": "E",
+          "text": "Ninety-nine. He says it's serious.",
+          "note": "99 degrees Fahrenheit is 37.2 °C: only a little warm. Serious: very bad."
+        },
+        {
+          "who": "P",
+          "text": "Is he allergic to anything?",
+          "note": "Allergic to…: something makes you sick, like nuts or cats."
+        },
+        {
+          "who": "E",
+          "text": "Housework. That's all.",
+          "note": "Housework: cleaning, cooking, washing the dishes. He is not really allergic: he doesn't like doing it."
+        }
+      ]
+    },
+    {
+      "title": "The Treatment",
+      "lines": [
+        {
+          "who": "P",
+          "text": "OK. This cough syrup: one spoonful in the morning and one at night.",
+          "note": "Cough syrup: thick medicine you drink for a cough. A spoonful: one spoon of it."
+        },
+        {
+          "who": "E",
+          "text": "Got it. And the tablets?",
+          "note": "Got it = I understand. Tablets: small pills you swallow."
+        },
+        {
+          "who": "P",
+          "text": "One tablet three times a day, with meals.",
+          "note": "Three times a day: morning, afternoon and evening. With meals: when you eat."
+        },
+        {
+          "who": "E",
+          "text": "For how long?"
+        },
+        {
+          "who": "P",
+          "text": "Five days at most. If he doesn't feel better, he should see a doctor.",
+          "note": "At most: not more than. He should… gives advice."
+        },
+        {
+          "who": "E",
+          "text": "Do I need a prescription?"
+        },
+        {
+          "who": "P",
+          "text": "No, it's over the counter. That'll be nine forty.",
+          "note": "Over the counter: you can buy it without a prescription. That'll be… gives the price: $9.40."
+        },
+        {
+          "who": "E",
+          "text": "By card, please.",
+          "note": "By card: with a bank card. In cash: with money."
+        }
+      ]
+    },
+    {
+      "title": "Back Home",
+      "lines": [
+        {
+          "who": "L",
+          "text": "So? What did she say?",
+          "note": "So? asks for the news. She: the pharmacist."
+        },
+        {
+          "who": "E",
+          "text": "One tablet three times a day, and syrup morning and night."
+        },
+        {
+          "who": "L",
+          "text": "And how long do I have to stay in bed?",
+          "note": "Have to: must. Stay in bed: not get up."
+        },
+        {
+          "who": "E",
+          "text": "She said you can do the dishes tonight.",
+          "note": "She said (that) + a sentence tells you someone's words. Do the dishes: wash the plates and cups."
+        },
+        {
+          "who": "L",
+          "text": "She really said that?",
+          "note": "A question made by the voice going up, with no do or did."
+        },
+        {
+          "who": "E",
+          "text": "It's written on the box.",
+          "note": "She is joking. The box says how to take the medicine, not who does the dishes."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Asking at the pharmacy: I'd like something for a cold / a cough / a headache, please.",
+    "Symptoms: a runny nose, a cough, a fever, a sore throat. He's coughing. My head hurts.",
+    "The pharmacist's questions: Is it for you? What are his symptoms? Does he have a fever? Is he allergic to anything?",
+    "How to take it: one tablet three times a day, with meals; one spoonful in the morning and one at night; five days at most.",
+    "A prescription: a paper from the doctor. Over the counter: no prescription needed.",
+    "Paying: That'll be nine forty. By card, please. In cash, please.",
+    "Fever in Fahrenheit: 98.6 °F is normal (37 °C). 99 °F is 37.2 °C."
+  ],
+  "questions": [
+    {
+      "q": "Emma wants medicine for Lucas. What does she say?",
+      "options": [
+        "I'd like something for a cold, please.",
+        "Give me a cold, please.",
+        "I'd like a cold for my husband."
+      ],
+      "answer": 0,
+      "why": "I'd like something for + an illness: the polite way to ask for medicine."
+    },
+    {
+      "q": "What are Lucas's symptoms?",
+      "options": [
+        "A broken arm and a headache",
+        "A runny nose, a cough and a lot of complaining",
+        "A high fever and a stomachache"
+      ],
+      "answer": 1,
+      "why": "He has a runny nose, he's coughing, and he complains a lot."
+    },
+    {
+      "q": "How does Lucas take the tablets?",
+      "options": [
+        "One in the morning and one at night",
+        "Once a day, before bed",
+        "Three times a day, with meals"
+      ],
+      "answer": 2,
+      "why": "The syrup is morning and night. The tablets: one tablet three times a day, with meals."
+    },
+    {
+      "q": "Does Emma need a prescription?",
+      "options": [
+        "Yes, from a doctor.",
+        "No, the medicine is over the counter.",
+        "Only for the syrup."
+      ],
+      "answer": 1,
+      "why": "Over the counter: you can buy it without a prescription."
+    },
+    {
+      "q": "What should Lucas do if he doesn't feel better after five days?",
+      "options": ["Take more tablets", "See a doctor", "Do the dishes"],
+      "answer": 1,
+      "why": "If he doesn't feel better, he should see a doctor."
+    },
+    {
+      "q": "Is Lucas really allergic to housework?",
+      "options": [
+        "Yes, it makes him cough.",
+        "No. Emma means he doesn't like doing it.",
+        "Yes, the pharmacist says so."
+      ],
+      "answer": 1,
+      "why": "Emma is joking: Lucas doesn't like housework."
+    }
+  ]
+}

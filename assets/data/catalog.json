@@ -840,6 +840,21 @@
   "quiz": true
  },
  {
+  "id": "fr/speaking/f018_pharmacy",
+  "url": "fr/speaking/f018_pharmacy.html",
+  "course": "fr",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Health",
+  "type": "dialogue",
+  "title": "À la pharmacie",
+  "clips": 29,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "fr/vocabulary/famille",
   "url": "fr/vocabulary/famille.html",
   "course": "fr",
@@ -3135,6 +3150,21 @@
   "quiz": true
  },
  {
+  "id": "eng/speaking/e018_pharmacy",
+  "url": "eng/speaking/e018_pharmacy.html",
+  "course": "eng",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Health",
+  "type": "dialogue",
+  "title": "At the Pharmacy",
+  "clips": 29,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
   "id": "eng/vocabulary/voc_animals_1",
   "url": "eng/vocabulary/voc_animals_1.html",
   "course": "eng",
@@ -3615,6 +3645,21 @@
   "quiz": false
  },
  {
+  "id": "eng/grammar/g001_present_simple",
+  "url": "eng/grammar/g001_present_simple.html",
+  "course": "eng",
+  "strand": "grammar",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Grammar chapters",
+  "type": "game",
+  "title": "Present Simple",
+  "clips": 31,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "eng/grammar/present_simple",
   "url": "eng/grammar/present_simple.html",
   "course": "eng",
@@ -3630,6 +3675,21 @@
   "quiz": false
  },
  {
+  "id": "eng/grammar/g002_present_continuous",
+  "url": "eng/grammar/g002_present_continuous.html",
+  "course": "eng",
+  "strand": "grammar",
+  "level": "a1",
+  "level_provisional": false,
+  "topic": "Grammar chapters",
+  "type": "game",
+  "title": "Present Continuous",
+  "clips": 29,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
   "id": "eng/grammar/present_continuous",
   "url": "eng/grammar/present_continuous.html",
   "course": "eng",
@@ -3640,6 +3700,21 @@
   "type": "grammar",
   "title": "The present continuous",
   "clips": 0,
+  "images": 0,
+  "audio": "wired",
+  "quiz": false
+ },
+ {
+  "id": "eng/grammar/g003_simple_or_continuous",
+  "url": "eng/grammar/g003_simple_or_continuous.html",
+  "course": "eng",
+  "strand": "grammar",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Grammar chapters",
+  "type": "game",
+  "title": "Simple or Continuous?",
+  "clips": 30,
   "images": 0,
   "audio": "wired",
   "quiz": false
@@ -4000,6 +4075,21 @@
   "type": "dialogue",
   "title": "What Do You Think?",
   "clips": 38,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "jap/speaking/j018_pharmacy",
+  "url": "jap/speaking/j018_pharmacy.html",
+  "course": "jap",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Health",
+  "type": "dialogue",
+  "title": "At the Pharmacy",
+  "clips": 29,
   "images": 0,
   "audio": "wired",
   "quiz": true
@@ -4690,6 +4780,21 @@
   "type": "dialogue",
   "title": "¿Qué opinas?",
   "clips": 44,
+  "images": 0,
+  "audio": "wired",
+  "quiz": true
+ },
+ {
+  "id": "spa/speaking/s018_pharmacy",
+  "url": "spa/speaking/s018_pharmacy.html",
+  "course": "spa",
+  "strand": "speaking",
+  "level": "a2",
+  "level_provisional": false,
+  "topic": "Health",
+  "type": "dialogue",
+  "title": "En la farmacia",
+  "clips": 29,
   "images": 0,
   "audio": "wired",
   "quiz": true

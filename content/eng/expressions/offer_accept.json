@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/offer_accept.html",
  "aud_dir": "eng/expressions/offer_accept/",
@@ -37,6 +39,16 @@
        "Voulez-vous du thé ?",
        "La façon polie d'offrir. Ce n'est pas la même chose que Do you like tea?, qui porte sur vos goûts en général. Avec un verbe : Would you like to sit down?",
        "— Voulez-vous une tasse de thé ? — Oui, s'il vous plaît."
+      ],
+      "hi": [
+       "क्या आप <span class=gray>चाय</span> लेंगे?",
+       "पेशकश करने का विनम्र तरीक़ा। यह Do you like tea? से अलग है, जो आपकी आम पसंद के बारे में पूछता है। क्रिया के साथ: Would you like to sit down?",
+       "— एक कप चाय लेंगे? — जी हाँ, ज़रूर।"
+      ],
+      "vi": [
+       "Bạn có muốn dùng <span class=gray>trà</span> không?",
+       "Cách mời lịch sự. Khác với Do you like tea?, vốn hỏi về sở thích nói chung của bạn. Với động từ: Would you like to sit down?",
+       "— Bạn có muốn dùng một tách trà không? — Vâng, cho tôi xin."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Tu veux un café ?",
        "Familier : en famille et entre amis. Avec des inconnus, Would you like…? est plus sûr.",
        "Tu veux du gâteau ?"
+      ],
+      "hi": [
+       "<span class=gray>कॉफ़ी</span> चाहिए?",
+       "अनौपचारिक: परिवार और दोस्तों के लिए। अजनबियों के साथ Would you like…? ज़्यादा ठीक है।",
+       "केक खाओगे?"
+      ],
+      "vi": [
+       "Bạn uống <span class=gray>cà phê</span> không?",
+       "Thân mật: dành cho gia đình và bạn bè. Với người lạ, Would you like…? an toàn hơn.",
+       "Bạn ăn bánh không?"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Et un peu d'eau ?",
        "Propose une idée ou un autre choix. Réponse : Sounds good! ou Maybe something else?",
        "Pas de café ? Et un jus de fruits ?"
+      ],
+      "hi": [
+       "<span class=gray>पानी</span> चलेगा?",
+       "कोई सुझाव या दूसरा विकल्प पेश करता है। जवाब: Sounds good! या Maybe something else?",
+       "कॉफ़ी नहीं? जूस चलेगा?"
+      ],
+      "vi": [
+       "Hay là <span class=gray>uống nước</span> nhé?",
+       "Đưa ra một gợi ý hoặc lựa chọn khác. Trả lời: Sounds good! hoặc Maybe something else?",
+       "Không uống cà phê à? Hay là nước ép nhé?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Je vous sers quelque chose ?",
        "Ce que disent les hôtes et le personnel. Répondez par ce que vous voulez, ou I'm fine, thanks.",
        "Entrez, asseyez-vous. Je vous sers quelque chose ?"
+      ],
+      "hi": [
+       "आपके लिए कुछ लाऊँ?",
+       "मेज़बान और कर्मचारी कहते हैं। जो चाहिए वह बता दीजिए, या कहिए I'm fine, thanks.",
+       "आइए, बैठिए। आपके लिए कुछ लाऊँ?"
+      ],
+      "vi": [
+       "Tôi lấy gì cho bạn nhé?",
+       "Chủ nhà và nhân viên hay nói. Hãy trả lời bạn muốn gì, hoặc I'm fine, thanks.",
+       "Vào đi, ngồi đi. Mình lấy gì cho bạn nhé?"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Sers-toi.",
        "Prenez ce que vous voulez, sans demander. L'hôte le pense vraiment : n'attendez pas qu'on vous repropose.",
        "Il y a à manger sur la table. Sers-toi !"
+      ],
+      "hi": [
+       "ख़ुद ले लीजिए।",
+       "जो चाहें, बिना पूछे ले लीजिए। मेज़बान सचमुच यही चाहता है: दोबारा कहे जाने का इंतज़ार मत कीजिए।",
+       "खाना मेज़ पर रखा है। ख़ुद ले लीजिए!"
+      ],
+      "vi": [
+       "Cứ tự nhiên nhé.",
+       "Muốn gì cứ lấy, không cần xin phép. Chủ nhà nói thật lòng: đừng chờ được mời thêm lần nữa.",
+       "Đồ ăn ở trên bàn. Cứ tự nhiên nhé!"
       ]
      }
     ],
@@ -132,6 +184,16 @@
        "Prends des fruits.",
        "Une offre chaleureuse et directe. Amical, entre personnes qui se connaissent.",
        "Reprends du riz. Il y en a beaucoup."
+      ],
+      "hi": [
+       "<span class=gray>फल</span> लीजिए।",
+       "अपनेपन भरी, सीधी पेशकश। दोस्ताना, जान-पहचान वालों के बीच।",
+       "थोड़े चावल और लो। बहुत हैं।"
+      ],
+      "vi": [
+       "Ăn <span class=gray>trái cây</span> đi.",
+       "Lời mời thân tình và trực tiếp. Thân thiện, giữa những người quen biết nhau.",
+       "Ăn thêm cơm đi. Còn nhiều lắm."
       ]
      }
     ]
@@ -144,6 +206,14 @@
     "fr": [
      "Offrir quelque chose",
      "Nourriture, boissons et autres choses : d'un would you like poli à un have some chaleureux."
+    ],
+    "hi": [
+     "चीज़ें पेश करना",
+     "खाना, पीना और दूसरी चीज़ें: विनम्र would you like से लेकर अपनेपन भरे have some तक।"
+    ],
+    "vi": [
+     "Mời ăn uống",
+     "Đồ ăn, đồ uống và những thứ khác: từ would you like lịch sự đến have some thân tình."
     ]
    }
   },
@@ -168,6 +238,16 @@
        "Je peux vous aider ?",
        "Ce que disent les vendeurs, et ce que vous pouvez dire à toute personne qui semble perdue. Dans un magasin, si vous regardez seulement : I'm just looking, thanks.",
        "— Je peux vous aider ? — Non, merci. Je regarde seulement."
+      ],
+      "hi": [
+       "मैं आपकी मदद करूँ?",
+       "दुकानों के कर्मचारी यही कहते हैं, और आप भी किसी भटके हुए दिखते व्यक्ति से कह सकते हैं। दुकान में, अगर आप बस देख रहे हैं: I'm just looking, thanks.",
+       "— मैं आपकी मदद करूँ? — नहीं, शुक्रिया। मैं बस देख रहा हूँ।"
+      ],
+      "vi": [
+       "Tôi giúp gì được ạ?",
+       "Câu nhân viên cửa hàng hay nói, và bạn cũng có thể nói với bất cứ ai trông có vẻ đang lạc đường. Trong cửa hàng, nếu bạn chỉ xem thôi: I'm just looking, thanks.",
+       "— Tôi giúp gì được ạ? — Không, cảm ơn. Tôi chỉ xem thôi."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Tu veux un coup de main ?",
        "A hand = de l'aide. Amical, quand quelqu'un porte, soulève ou répare quelque chose.",
        "Ce carton a l'air lourd. Tu veux un coup de main ?"
+      ],
+      "hi": [
+       "हाथ बँटाऊँ?",
+       "A hand = मदद। दोस्ताना, जब कोई कुछ ढो रहा हो, उठा रहा हो या ठीक कर रहा हो।",
+       "वह डिब्बा भारी लग रहा है। हाथ बँटाऊँ?"
+      ],
+      "vi": [
+       "Cần mình giúp một tay không?",
+       "A hand = sự giúp đỡ. Thân thiện, khi ai đó đang mang, nhấc hay sửa thứ gì.",
+       "Cái hộp đó trông nặng đấy. Cần mình giúp một tay không?"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Laisse-moi t'aider.",
        "On propose en commençant à aider tout de suite. Amical et rapide.",
        "Laisse-moi t'ouvrir la porte."
+      ],
+      "hi": [
+       "लाइए, मैं मदद करता हूँ।",
+       "तुरंत मदद शुरू करके पेशकश करता है। दोस्ताना और झटपट।",
+       "लाइए, मैं आपके लिए दरवाज़ा खोल देता हूँ।"
+      ],
+      "vi": [
+       "Để mình giúp.",
+       "Ngỏ ý bằng cách bắt tay vào giúp ngay. Thân thiện và nhanh gọn.",
+       "Để mình mở cửa cho bạn."
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Je le porte ?",
        "Demande si votre aide est souhaitée. Plus courant en anglais britannique. Les Américains disent souvent Should I…?",
        "Il fait froid. Je ferme la fenêtre ?"
+      ],
+      "hi": [
+       "मैं <span class=gray>इसे उठा</span> लूँ?",
+       "पूछता है कि उन्हें आपकी मदद चाहिए या नहीं। ब्रिटिश अंग्रेज़ी में ज़्यादा आम। अमेरिकी अक्सर Should I…? कहते हैं।",
+       "ठंड है। मैं खिड़की बंद कर दूँ?"
+      ],
+      "vi": [
+       "Để mình <span class=gray>xách</span> nhé?",
+       "Hỏi xem người kia có muốn bạn giúp không. Phổ biến hơn trong tiếng Anh Anh. Người Mỹ thường nói Should I…?",
+       "Trời lạnh. Để mình đóng cửa sổ nhé?"
       ]
      }
     ],
@@ -244,6 +354,16 @@
        "Tu veux que j'attende ?",
        "Courant et clair, surtout en anglais américain.",
        "Tu veux que j'appelle un taxi ?"
+      ],
+      "hi": [
+       "क्या आप चाहते हैं कि मैं <span class=gray>रुकूँ</span>?",
+       "रोज़मर्रा का और साफ़, ख़ासकर अमेरिकी अंग्रेज़ी में।",
+       "क्या आप चाहते हैं कि मैं टैक्सी बुला दूँ?"
+      ],
+      "vi": [
+       "Bạn có muốn mình <span class=gray>đợi</span> không?",
+       "Hằng ngày và rõ ràng, nhất là trong tiếng Anh Mỹ.",
+       "Bạn có muốn mình gọi taxi không?"
       ]
      }
     ],
@@ -263,6 +383,16 @@
        "Je peux conduire, si tu veux.",
        "Une offre douce : l'autre peut facilement dire non.",
        "Je peux te montrer le chemin, si tu veux."
+      ],
+      "hi": [
+       "आप चाहें तो मैं <span class=gray>गाड़ी चला</span> सकता हूँ।",
+       "नरम पेशकश: सामने वाले के लिए ना कहना आसान रहता है।",
+       "आप चाहें तो मैं रास्ता दिखा सकता हूँ।"
+      ],
+      "vi": [
+       "Mình <span class=gray>lái xe</span> cũng được, nếu bạn muốn.",
+       "Lời ngỏ ý nhẹ nhàng: người kia dễ từ chối.",
+       "Mình chỉ đường cho bạn cũng được, nếu bạn muốn."
       ]
      }
     ]
@@ -275,6 +405,14 @@
     "fr": [
      "Proposer de l'aide",
      "Demander si quelqu'un veut de l'aide, ou commencer à aider tout simplement."
+    ],
+    "hi": [
+     "मदद की पेशकश",
+     "पूछना कि किसी को मदद चाहिए या नहीं, या बस मदद शुरू कर देना।"
+    ],
+    "vi": [
+     "Ngỏ ý giúp đỡ",
+     "Hỏi xem ai đó có cần giúp không, hoặc cứ thế bắt tay vào giúp."
     ]
    }
   },
@@ -299,6 +437,16 @@
        "Ce serait super.",
        "Un oui chaleureux, surtout à une offre d'aide. On dit aussi : That would be lovely.",
        "— Je peux venir te chercher à la gare. — Ce serait super, merci !"
+      ],
+      "hi": [
+       "यह तो बहुत अच्छा रहेगा।",
+       "आत्मीय हाँ, ख़ासकर जब कोई मदद की पेशकश करे। यह भी: That would be lovely.",
+       "— मैं तुम्हें स्टेशन से ले लूँगा। — यह तो बहुत अच्छा रहेगा, शुक्रिया!"
+      ],
+      "vi": [
+       "Thế thì tốt quá.",
+       "Lời đồng ý ấm áp, nhất là khi có người ngỏ ý giúp. Cũng có: That would be lovely.",
+       "— Mình đón bạn ở ga được. — Thế thì tốt quá, cảm ơn nhé!"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Très volontiers.",
        "Un oui joyeux. Pour ce qui se compte : I'd love one. Pour la nourriture ou les boissons qui ne se comptent pas : I'd love some.",
        "— Voulez-vous un café ? — Oh, très volontiers !"
+      ],
+      "hi": [
+       "हाँ, ज़रूर लूँगा!",
+       "ख़ुशी भरी हाँ। गिनी जा सकने वाली चीज़ों के लिए: I'd love one. जो खाने-पीने की चीज़ें गिनी नहीं जातीं, उनके लिए: I'd love some.",
+       "— कॉफ़ी लेंगे? — अरे हाँ, ज़रूर लूँगा!"
+      ],
+      "vi": [
+       "Có chứ, mình thích lắm.",
+       "Lời đồng ý vui vẻ. Với thứ đếm được: I'd love one. Với đồ ăn, đồ uống không đếm được: I'd love some.",
+       "— Bạn uống cà phê không? — Ồ, có chứ, mình thích lắm!"
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Oui, pourquoi pas ?",
        "Un oui détendu et familier. Entre amis seulement.",
        "— On déjeune ensemble ? — Oui, pourquoi pas ?"
+      ],
+      "hi": [
+       "हाँ, क्यों नहीं?",
+       "बेफ़िक्र, अनौपचारिक हाँ। सिर्फ़ दोस्तों के साथ।",
+       "— साथ में लंच करें? — हाँ, क्यों नहीं?"
+      ],
+      "vi": [
+       "Ừ, sao lại không?",
+       "Lời đồng ý thoải mái, thân mật. Chỉ dùng với bạn bè.",
+       "— Đi ăn trưa cùng không? — Ừ, sao lại không?"
       ]
      }
     ],
@@ -356,6 +524,16 @@
        "Si ça ne vous dérange pas.",
        "Un oui poli qui montre que vous ne voulez pas déranger. Bien avec les personnes que vous connaissez peu.",
        "— Je vous ramène chez vous. — Oh, si ça ne vous dérange pas. Merci."
+      ],
+      "hi": [
+       "अगर आपको तकलीफ़ न हो तो।",
+       "विनम्र हाँ, जो दिखाती है कि आप तकलीफ़ नहीं देना चाहते। उन लोगों के साथ अच्छा, जिन्हें आप ठीक से नहीं जानते।",
+       "— मैं आपको घर छोड़ देता हूँ। — अगर आपको तकलीफ़ न हो तो। धन्यवाद।"
+      ],
+      "vi": [
+       "Nếu bạn không phiền.",
+       "Lời đồng ý lịch sự, cho thấy bạn không muốn làm phiền. Hợp với người bạn chưa quen thân.",
+       "— Để tôi chở bạn về. — Ồ, nếu anh không phiền. Cảm ơn anh."
       ]
      }
     ],
@@ -375,6 +553,16 @@
        "Juste un peu, s'il vous plaît.",
        "Un juste milieu poli : vous acceptez, mais une petite quantité. Utile quand on n'a pas très faim.",
        "— Encore de la soupe ? — Juste un peu, s'il vous plaît."
+      ],
+      "hi": [
+       "बस थोड़ा-सा।",
+       "विनम्र बीच का रास्ता: आप लेते हैं, पर थोड़ा ही। जब ज़्यादा भूख न हो तब काम का है।",
+       "— और सूप? — बस थोड़ा-सा।"
+      ],
+      "vi": [
+       "Cho mình một chút thôi.",
+       "Một cách dung hòa lịch sự: bạn nhận, nhưng chỉ một ít. Hữu ích khi bạn không đói lắm.",
+       "— Thêm canh nhé? — Cho mình một chút thôi."
       ]
      }
     ]
@@ -387,6 +575,14 @@
     "fr": [
      "Accepter",
      "Dire oui à une offre. Yes, please. est le plus simple ; celles-ci sont plus chaleureuses."
+    ],
+    "hi": [
+     "स्वीकार करना",
+     "पेशकश को हाँ कहना। Yes, please. सबसे सरल है; ये ज़्यादा आत्मीय हैं।"
+    ],
+    "vi": [
+     "Nhận lời",
+     "Đồng ý với một lời mời. Yes, please. là đơn giản nhất; những câu này ấm áp hơn."
     ]
    }
   },
@@ -411,6 +607,16 @@
        "Ça ira, merci.",
        "Familier et très américain. Cela veut dire Non, merci, pas Je suis content. Vous l'entendrez sans arrêt.",
        "— Encore du café ? — Ça ira, merci."
+      ],
+      "hi": [
+       "नहीं, बस, शुक्रिया।",
+       "अनौपचारिक और बहुत अमेरिकी। मतलब है “नहीं, शुक्रिया”, “मैं ख़ुश हूँ” नहीं। आप इसे हर समय सुनेंगे।",
+       "— और कॉफ़ी? — नहीं, बस, शुक्रिया।"
+      ],
+      "vi": [
+       "Mình đủ rồi, cảm ơn.",
+       "Thân mật và rất Mỹ. Nghĩa là “Không, cảm ơn”, không phải “Tôi đang vui”. Bạn sẽ nghe câu này suốt.",
+       "— Thêm cà phê nhé? — Mình đủ rồi, cảm ơn."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Pas pour l'instant, merci.",
        "Un non doux qui laisse la porte ouverte pour plus tard. On dit aussi : Maybe later.",
        "— Voulez-vous boire quelque chose ? — Pas pour l'instant, merci."
+      ],
+      "hi": [
+       "अभी नहीं, शुक्रिया।",
+       "नरम ना, जो बाद के लिए रास्ता खुला रखती है। यह भी: Maybe later.",
+       "— कुछ पीने को लेंगे? — अभी नहीं, शुक्रिया।"
+      ],
+      "vi": [
+       "Bây giờ thì chưa, cảm ơn.",
+       "Lời từ chối nhẹ nhàng, để ngỏ cho lần sau. Cũng có: Maybe later.",
+       "— Bạn uống gì không? — Bây giờ thì chưa, cảm ơn."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Je ne peux plus rien avaler !",
        "Un non amical quand on vous ressert. Cela dit aussi au cuisinier que c'était bon.",
        "Merci, c'était délicieux, mais je ne peux plus rien avaler !"
+      ],
+      "hi": [
+       "अब एक कौर भी नहीं खा सकता!",
+       "और खाने के लिए दोस्ताना ना। पकाने वाले को यह भी बता देता है कि खाना स्वादिष्ट था।",
+       "शुक्रिया, बहुत स्वादिष्ट था, पर अब एक कौर भी नहीं खा सकता!"
+      ],
+      "vi": [
+       "Mình no không ăn thêm nổi miếng nào nữa!",
+       "Lời từ chối thân thiện khi được mời ăn thêm. Cũng là cách nói với người nấu rằng món ăn rất ngon.",
+       "Cảm ơn, ngon lắm, nhưng mình no không ăn thêm nổi miếng nào nữa!"
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "Merci, mais je vais y arriver.",
        "Un non poli à une offre d'aide. Manage = se débrouiller seul.",
        "— Tu veux un coup de main avec ces sacs ? — Merci, mais je vais y arriver."
+      ],
+      "hi": [
+       "शुक्रिया, पर मैं कर लूँगा।",
+       "मदद की पेशकश पर विनम्र ना। Manage = ख़ुद कर लेना।",
+       "— इन थैलों में हाथ बँटाऊँ? — शुक्रिया, पर मैं कर लूँगा।"
+      ],
+      "vi": [
+       "Cảm ơn, nhưng mình tự làm được.",
+       "Lời từ chối lịch sự khi có người ngỏ ý giúp. Manage = tự mình xoay xở.",
+       "— Cần mình xách giúp mấy cái túi không? — Cảm ơn, nhưng mình tự làm được."
       ]
      }
     ],
@@ -487,6 +723,16 @@
        "C'est gentil, mais…",
        "Remercie d'abord, puis dit non avec une raison. Bien pour les offres plus importantes.",
        "C'est gentil, mais mon ami vient me chercher."
+      ],
+      "hi": [
+       "आपकी मेहरबानी है, पर…",
+       "पहले व्यक्ति को धन्यवाद देता है, फिर वजह के साथ ना कहता है। बड़ी पेशकशों के लिए अच्छा।",
+       "आपकी मेहरबानी है, पर मेरा दोस्त मुझे लेने आ रहा है।"
+      ],
+      "vi": [
+       "Bạn tốt quá, nhưng…",
+       "Cảm ơn người kia trước, rồi từ chối kèm lý do. Hợp với những lời mời lớn hơn.",
+       "Bạn tốt quá, nhưng bạn mình sắp đến đón rồi."
       ]
      }
     ],
@@ -506,6 +752,16 @@
        "Vraiment, ça va.",
        "Un non ferme et amical après une deuxième offre. Souriez en le disant.",
        "Vraiment, ça va. Merci."
+      ],
+      "hi": [
+       "सच में, रहने दीजिए।",
+       "दूसरी बार पूछे जाने पर पक्की पर दोस्ताना ना। मुस्कुराकर कहिए।",
+       "सच में, रहने दीजिए। धन्यवाद।"
+      ],
+      "vi": [
+       "Thật mà, mình không cần đâu.",
+       "Lời từ chối dứt khoát mà thân thiện sau khi được mời lần thứ hai. Hãy mỉm cười khi nói.",
+       "Thật mà, mình không cần đâu. Cảm ơn bạn."
       ]
      }
     ]
@@ -518,6 +774,14 @@
     "fr": [
      "Dire non gentiment",
      "Refuser sans paraître froid. À retenir : les anglophones prennent votre premier non au sérieux."
+    ],
+    "hi": [
+     "अच्छे ढंग से ना कहना",
+     "रूखे लगे बिना मना करना। याद रखिए: अंग्रेज़ी बोलने वाले आपकी पहली ना को सच मान लेते हैं।"
+    ],
+    "vi": [
+     "Từ chối cho khéo",
+     "Từ chối mà không nghe lạnh lùng. Nhớ rằng: người nói tiếng Anh tin lời từ chối đầu tiên của bạn."
     ]
    }
   },
@@ -542,6 +806,16 @@
        "Tu es sûr ?",
        "Les hôtes anglophones le demandent en général une fois. Si vous répondez Yes, I'm sure, ils cessent de proposer.",
        "— Non, merci. — Tu es sûr ? Il y en a plein."
+      ],
+      "hi": [
+       "पक्का?",
+       "अंग्रेज़ी बोलने वाले मेज़बान अक्सर एक बार यह पूछते हैं। अगर आप Yes, I'm sure कह दें, तो वे पूछना बंद कर देते हैं।",
+       "— नहीं, शुक्रिया। — पक्का? बहुत है।"
+      ],
+      "vi": [
+       "Bạn chắc chứ?",
+       "Chủ nhà nói tiếng Anh thường hỏi câu này một lần. Nếu bạn trả lời Yes, I'm sure, họ sẽ thôi không mời nữa.",
+       "— Không, cảm ơn. — Bạn chắc chứ? Còn nhiều lắm."
       ]
      }
     ],
@@ -561,6 +835,16 @@
        "Allez, reprends-en !",
        "Insister gentiment, une ou deux fois. Quand vous recevez, n'insistez pas trop : en anglais, cela peut être ressenti comme une pression.",
        "Allez, reprends-en un peu. Tu n'as presque rien mangé !"
+      ],
+      "hi": [
+       "अरे, थोड़ा और लो न!",
+       "प्यार से ज़ोर देना, एक-दो बार। जब आप मेज़बान हों, तो बार-बार ज़ोर मत दीजिए: अंग्रेज़ी में यह दबाव जैसा लग सकता है।",
+       "अरे, थोड़ा और लो न। तुमने तो कुछ खाया ही नहीं!"
+      ],
+      "vi": [
+       "Nào, ăn thêm đi!",
+       "Nài một cách thân tình, một hai lần. Khi bạn là chủ nhà, đừng nài nhiều lần: trong tiếng Anh, việc đó có thể bị coi là ép.",
+       "Nào, ăn thêm chút nữa đi. Bạn gần như chưa ăn gì!"
       ]
      }
     ],
@@ -580,6 +864,16 @@
        "Bon, si tu insistes !",
        "Un oui amusé après une nouvelle offre. Se dit avec le sourire.",
        "— Je t'en prie, prends la dernière part. — Bon, si tu insistes !"
+      ],
+      "hi": [
+       "अच्छा, आप इतना कह रहे हैं तो!",
+       "जब कोई दोबारा पेशकश करे, तब चुलबुली हाँ। मुस्कुराकर कही जाती है।",
+       "— लीजिए न, आख़िरी टुकड़ा ले लीजिए। — अच्छा, आप इतना कह रहे हैं तो!"
+      ],
+      "vi": [
+       "Thôi được, bạn đã nói vậy thì!",
+       "Lời đồng ý vui đùa sau khi được mời thêm lần nữa. Nói kèm một nụ cười.",
+       "— Nào, lấy miếng cuối cùng đi. — Thôi được, bạn đã nói vậy thì!"
       ]
      }
     ],
@@ -599,6 +893,16 @@
        "Ne sois pas timide !",
        "Se dit aux invités pour qu'ils se sentent libres de se servir.",
        "Ne sois pas timide ! Prends-en autant que tu veux."
+      ],
+      "hi": [
+       "संकोच मत कीजिए!",
+       "मेहमानों से कहा जाता है, ताकि वे जो चाहें बेझिझक लें।",
+       "संकोच मत कीजिए! जितना चाहें ले लीजिए।"
+      ],
+      "vi": [
+       "Đừng ngại!",
+       "Nói với khách để họ thoải mái lấy thứ mình muốn.",
+       "Đừng ngại! Cứ lấy bao nhiêu tùy thích."
       ]
      }
     ]
@@ -611,6 +915,14 @@
     "fr": [
      "Insister et céder",
      "Proposer une seconde fois, et changer d'avis. En anglais, une tentative de plus suffit en général."
+    ],
+    "hi": [
+     "ज़ोर देना और मान जाना",
+     "दोबारा पेशकश करना, और अपना मन बदल लेना। अंग्रेज़ी में आम तौर पर एक बार और पूछना काफ़ी है।"
+    ],
+    "vi": [
+     "Mời thêm và xiêu lòng",
+     "Mời lần thứ hai, và đổi ý. Trong tiếng Anh, thường chỉ cần mời thêm một lần là đủ."
     ]
    }
   },
@@ -635,6 +947,16 @@
        "C'est pour moi.",
        "Je paie pour tout le monde. On dit aussi : My treat! Familier et amical.",
        "Range ton argent. C'est pour moi."
+      ],
+      "hi": [
+       "आज मेरी तरफ़ से।",
+       "सबके पैसे मैं दूँगा। यह भी: My treat! अनौपचारिक और दोस्ताना।",
+       "पैसे अंदर रखो। आज मेरी तरफ़ से।"
+      ],
+      "vi": [
+       "Để mình mời.",
+       "Mình trả cho tất cả. Cũng có: My treat! Thân mật và thân thiện.",
+       "Cất tiền đi. Để mình mời."
       ]
      }
     ],
@@ -654,6 +976,16 @@
        "Laisse, c'est moi qui paie.",
        "Une offre polie de payer, souvent dite quand l'addition arrive. Plus doux que It's on me.",
        "Non, non, laisse, c'est moi qui paie. Tu as payé la dernière fois."
+      ],
+      "hi": [
+       "यह मैं देता हूँ।",
+       "पैसे देने की विनम्र पेशकश, अक्सर बिल आने पर। It's on me से नरम।",
+       "नहीं, नहीं, यह मैं देता हूँ। पिछली बार तुमने दिए थे।"
+      ],
+      "vi": [
+       "Để mình trả lần này.",
+       "Lời ngỏ ý trả tiền lịch sự, thường là lúc hóa đơn được mang ra. Nhẹ nhàng hơn It's on me.",
+       "Không, không, để mình trả lần này. Lần trước bạn trả rồi."
       ]
      }
     ],
@@ -673,6 +1005,16 @@
        "On partage.",
        "Chacun paie sa part. Entre amis et collègues dans les pays anglophones, c'est normal, pas impoli.",
        "Ça fait 40 dollars. On partage : 20 chacun."
+      ],
+      "hi": [
+       "आधा-आधा कर लेते हैं।",
+       "हर कोई अपना हिस्सा देता है। अंग्रेज़ी-भाषी देशों में दोस्तों और सहकर्मियों के बीच यह सामान्य है, बुरा नहीं माना जाता।",
+       "40 डॉलर हुए। आधा-आधा कर लेते हैं: 20-20।"
+      ],
+      "vi": [
+       "Mình chia đôi nhé.",
+       "Mỗi người trả phần của mình. Giữa bạn bè và đồng nghiệp ở các nước nói tiếng Anh, đây là chuyện bình thường, không hề bất lịch sự.",
+       "Hết 40 đô. Mình chia đôi nhé: mỗi người 20."
       ]
      }
     ],
@@ -692,6 +1034,16 @@
        "La prochaine fois, c'est pour moi.",
        "Accepte une invitation et promet de payer la fois suivante. Amical et équitable.",
        "Merci pour le déjeuner ! La prochaine fois, c'est pour moi."
+      ],
+      "hi": [
+       "अगली बार मैं दूँगा।",
+       "किसी की दावत स्वीकार करता है और अगली बार पैसे देने का वादा करता है। दोस्ताना और बराबरी का।",
+       "लंच के लिए शुक्रिया! अगली बार मैं दूँगा।"
+      ],
+      "vi": [
+       "Lần sau mình trả.",
+       "Nhận lời mời và hứa lần sau sẽ trả. Thân thiện và sòng phẳng.",
+       "Cảm ơn vì bữa trưa! Lần sau mình trả."
       ]
      }
     ]
@@ -704,6 +1056,14 @@
     "fr": [
      "Proposer de payer",
      "Qui paie ? Inviter, partager et rendre la pareille."
+    ],
+    "hi": [
+     "पैसे देने की पेशकश",
+     "पैसे कौन देगा? खिलाना-पिलाना, बाँटना और अगली बार चुकाना।"
+    ],
+    "vi": [
+     "Ngỏ ý trả tiền",
+     "Ai trả tiền? Mời, chia nhau và mời lại."
     ]
    }
   }

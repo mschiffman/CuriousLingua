@@ -28,11 +28,13 @@ Everything is run from the site folder, `G:\My Drive\LANGSITE`. The `.bat` files
 | `lesson_app.bat` | Take a `.md` file all the way to a lesson, in one window: lesson file, pictures, audio, upload, offline copy. Steps already done are skipped | `tools\from_md.py`, `convert.py`, `audio.py`, `offline.py` |
 | `1_images.bat` | Move the numbered PNGs from Downloads to `G:\My Drive\_YOUTUBE\<folder>` and convert them to JPG in `img\ytstory` | `tools\convert.py` |
 | `2_audio.bat` | Open the audio menu: lessons needing clips, make clips, new takes, Whisper check, upload | `tools\audio.py` |
-| `record_pending.bat` | Record, check and upload every card page and dialogue whose audio is still pending. It lists them and asks before using any characters | `tools\pending.py` |
+| `record_pending.bat` | Record, check and upload every card page, dialogue and grammar chapter whose audio is still pending. It lists them and asks before using any characters | `tools\pending.py` |
 | `record_scenes.bat` | Record a dialogue scene by scene (one ElevenLabs dialogue request per section), level each scene, cut it into the lesson's clips, check, offer to upload. Also saves each whole scene with an `.srt` for the video, in `G:\My Drive\_VIDEO\<course>-<slug>\` | `tools\scene.py` |
 | `pitch.bat` | Check the pitch of a Japanese lesson's clips: draws each clip's pitch curve beside the same line read by AivisSpeech (open it first), marks the lines to listen to, and opens the report | `tools\pitch.py` |
-| `3_offline.bat` | Build single-file offline lessons in `<course>\single\` | `tools\offline.py` |
+| `3_offline.bat` | Build single-file offline lessons in `<course>\single\`. For grammar chapters, run it before `5_publish.bat`: their copies are published | `tools\offline.py` |
 | `4_check.bat` | Write and open the status report | `tools\check.py` |
+| `grammar_video.bat` | Write a grammar chapter's reel files (scene audio joined from its clips, captions, script) into `G:\My Drive\_VIDEO`, ready for `make_video.bat` | `tools\chapter_video.py` |
+| `7_grammar.bat` | Write the page of each grammar chapter (`eng\grammar\g001_present_simple.html` …) from its lesson file. Run it after editing a chapter (an audio upload rewrites the page itself) | `tools\grammar_chapter.py` |
 | `6_transcripts.bat` | Make the printable transcripts (PDF) of the speaking lessons that are missing or out of date, then rebuild the pages | `tools\transcript.py` |
 | `5_publish.bat` | Rebuild every page; commit and push when the folder is a git repository | `tools\build.py`, then git |
 | `SETUP.bat` | Run once on a new computer: unpack the site and copy `img\` and `media\` from the old LANGUAGES folder | `tools\build.py`, `tools\check.py` |
@@ -101,7 +103,7 @@ A lesson is written `course/strand/slug`, for example `fr/listening/home_pantry_
 | `python -E tools\audio.py trim <lesson>` | Cut the silence after the speech from clips made before the tool did it itself (`trim all` for every lesson, `--dry` only lists). New clips are trimmed when they are made. Old clips are moved to the raw-takes folder (`_untrimmed_…`). Then `upload` | no |
 | `python -E tools\audio.py upload <lesson>` | Send new or changed clips to R2, set the `?v=` tag, rebuild | no |
 | `python -E tools\audio.py balance` | Characters left. Fails with "401" if the API key cannot read the subscription | no |
-| `python -E tools\pending.py` | All pending card pages and dialogues in one go: list, ask, make the missing clips, wait for Enter, upload (same as `record_pending.bat`) | **yes**, after asking |
+| `python -E tools\pending.py` | All pending card pages, dialogues and grammar chapters in one go: list, ask, make the missing clips, wait for Enter, upload (same as `record_pending.bat`) | **yes**, after asking |
 | `python -E tools\pending.py --list` | Only list them | no |
 | `python -E tools\scene.py <lesson>` | Every scene of a dialogue, recorded as scenes and cut into clips. Replaces the clips of those scenes; the old ones go to `_replaced_<date>` beside the raw takes | **yes** |
 | `python -E tools\scene.py <lesson> --only 1 3` | Only scenes 1 and 3 | **yes** |
@@ -166,9 +168,23 @@ Finds every chunk inside its clip and writes its `"t": [start, end]`, then rebui
 - New takes are saved with their timings. Clips recorded before November 2026 are timed by Whisper the first time, which is a little less exact.
 - After a `--redo` of a dialogue clip, run `chunks` again for its shadowing lesson: the timings of the new take are different.
 
+### Make or change a grammar chapter
+
+A grammar chapter (`content\eng\grammar\g001_present_simple.json`; `README.md`, "Grammar chapters") has its own page tool. In this order:
+
+1. Edit the lesson file (or copy one to start a new chapter). Pictures, if any, go in the chapter's picture folder as `1.jpg` … one per scene.
+2. `7_grammar.bat`: writes the page, and adds any new lines to the lesson's list of clips.
+3. `record_pending.bat`: records the missing clips (Emma's and Lucas's lines each in their own voice), waits for you to listen, uploads, and rewrites the page so it plays the recordings. One chapter alone: `python -E tools\audio.py make eng/grammar/g001_present_simple`, then `upload`.
+4. `3_offline.bat`: the one-file copy, `eng\single\grammar__g001_present_simple.html`, with all five languages, the pictures and the clips inside.
+5. `5_publish.bat`: puts the page **and** its one-file copy online. The page's "Download for offline use" button appears once the copy is there.
+
+6. For the reel: `grammar_video.bat` joins each scene's recorded clips and writes the scene audio, captions and script into `G:\My Drive\_VIDEO\eng-g001_present_simple\` (no ElevenLabs characters). Put the tall (9:16) pictures in the folder `g001_present_simple` inside it, as `1.png` … `4.png`, then `make_video.bat`: tick the four parts, Stitch. The video shows `curiouslingua.com/g1` in the corner and "Free quiz + offline lesson" on its end card.
+
+A page that reads every line in one voice is still using the device's own voice: its audio has not been uploaded, or the page was not rewritten since (run `7_grammar.bat`), or the browser is showing a saved copy (Ctrl+F5).
+
 ## Offline copies
 
-Offline copies are handed out through the Google Drive shared drive, never downloaded from the website: the site has no download buttons and no "Offline lessons" page, and `<course>\single\` is not in GitHub. After building them, copy the files you want to the shared drive.
+Offline copies are handed out through the Google Drive shared drive, never downloaded from the website: the site has no download buttons and no "Offline lessons" page, and `<course>\single\` is not in GitHub. After building them, copy the files you want to the shared drive. The one exception is the grammar chapters: each chapter page has a Download button for its own copy, and those copies (`<course>\single\grammar__g…html`) are in GitHub and on the website.
 
 Double-click `3_offline.bat`, or:
 

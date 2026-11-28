@@ -3,7 +3,7 @@
     python -E tools/pending.py            list, ask, record the missing clips, wait, upload
     python -E tools/pending.py --list     only list what is pending
 
-Card pages and dialogues only. Word lists, reading texts and picture stories have their own commands: use 2_audio.bat.
+Card pages, dialogues and grammar chapters only. Word lists, reading texts and picture stories have their own commands: use 2_audio.bat.
 A lesson counts as soon as its file says "aud_ext": "mp3?v=pending", whether or not you have read it yet."""
 import os
 import sys
@@ -16,10 +16,10 @@ HANDLED = ("cards", "dialogue")
 
 def main():
     rows = audio.status(show=False)
-    todo = [r for r in rows if r[0].get("type") in HANDLED and not r[0].get("audio_file")]
+    todo = [r for r in rows if (r[0].get("type") in HANDLED or r[0].get("chapter")) and not r[0].get("audio_file")]   # "chapter": a grammar chapter
     other = [r[0]["id"] for r in rows if r not in todo]
     if not todo:
-        print("No card page or dialogue is waiting for audio.")
+        print("No card page, dialogue or grammar chapter is waiting for audio.")
     for L, total, miss, chars in todo:
         state = "ready to upload" if not miss else f"{len(miss)} of {total} clips to record"
         print(f"  {L['id']:<44} {state:<28} {chars:>6,} characters")

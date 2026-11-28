@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/classroom.html",
  "aud_dir": "eng/expressions/classroom/",
@@ -37,6 +39,16 @@
        "Puis-je entrer ?",
        "Poli, à la porte de la classe, surtout si le cours a commencé.",
        "Désolé d'être en retard. Puis-je entrer ?"
+      ],
+      "hi": [
+       "क्या मैं अंदर आ सकता हूँ?",
+       "विनम्र, कक्षा के दरवाज़े पर, ख़ासकर जब कक्षा शुरू हो चुकी हो।",
+       "माफ़ कीजिए, मुझे देर हो गई। क्या मैं अंदर आ सकता हूँ?"
+      ],
+      "vi": [
+       "Em vào lớp được không ạ?",
+       "Lịch sự, ở cửa lớp, nhất là khi giờ học đã bắt đầu.",
+       "Em xin lỗi, em đến muộn. Em vào lớp được không ạ?"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Présent !",
        "La réponse quand le professeur lit votre nom sur la liste. On dit aussi : Present!",
        "— Aung Aung ? — Présent !"
+      ],
+      "hi": [
+       "उपस्थित!",
+       "जब शिक्षक सूची से आपका नाम पुकारे, तब का जवाब। यह भी: Present!",
+       "— Aung Aung? — उपस्थित!"
+      ],
+      "vi": [
+       "Có ạ!",
+       "Câu trả lời khi thầy cô đọc tên bạn trong danh sách. Cũng có: Present!",
+       "— Aung Aung? — Có ạ!"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Je peux m'asseoir à côté de May ?",
        "Next to = à côté de.",
        "Je peux m'asseoir à côté de la fenêtre ?"
+      ],
+      "hi": [
+       "क्या मैं <span class=gray>May</span> के पास बैठ सकता हूँ?",
+       "Next to = के बग़ल में।",
+       "क्या मैं खिड़की के पास बैठ सकता हूँ?"
+      ],
+      "vi": [
+       "Em ngồi cạnh <span class=gray>May</span> được không ạ?",
+       "Next to = bên cạnh.",
+       "Em ngồi cạnh cửa sổ được không ạ?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "C'est la récréation ?",
        "Break = la courte pause entre les cours. En anglais américain : recess.",
        "C'est bientôt la récréation ? J'ai faim !"
+      ],
+      "hi": [
+       "क्या छुट्टी का समय हो गया?",
+       "Break = कक्षाओं के बीच की छोटी छुट्टी। अमेरिकी अंग्रेज़ी में: recess.",
+       "क्या छुट्टी का समय हो गया? मुझे भूख लगी है!"
+      ],
+      "vi": [
+       "Đến giờ ra chơi chưa ạ?",
+       "Break = giờ nghỉ ngắn giữa các tiết. Trong tiếng Anh Mỹ: recess.",
+       "Đến giờ ra chơi chưa ạ? Em đói rồi!"
       ]
      }
     ]
@@ -106,6 +148,14 @@
     "fr": [
      "En entrant en classe",
      "Des phrases courtes pour le début du cours."
+    ],
+    "hi": [
+     "कक्षा में आना",
+     "पाठ की शुरुआत के लिए छोटे वाक्य।"
+    ],
+    "vi": [
+     "Vào lớp",
+     "Những câu ngắn cho đầu giờ học."
     ]
    }
   },
@@ -130,6 +180,16 @@
        "Je peux aller aux toilettes ?",
        "Assez poli pour la classe. Plus poli : May I go to the toilet, please? En anglais américain : bathroom.",
        "Excusez-moi, monsieur. Je peux aller aux toilettes ?"
+      ],
+      "hi": [
+       "क्या मैं शौचालय जा सकता हूँ?",
+       "कक्षा के लिए काफ़ी विनम्र। ज़्यादा विनम्र: May I go to the toilet, please? अमेरिकी अंग्रेज़ी में: bathroom.",
+       "सुनिए, टीचर। क्या मैं शौचालय जा सकता हूँ?"
+      ],
+      "vi": [
+       "Em đi vệ sinh được không ạ?",
+       "Đủ lịch sự trong lớp học. Lịch sự hơn: May I go to the toilet, please? Trong tiếng Anh Mỹ: bathroom.",
+       "Thưa cô, em đi vệ sinh được không ạ?"
       ]
      }
     ],
@@ -149,6 +209,16 @@
        "Je n'ai pas de crayon.",
        "Dit au professeur ce qui vous manque.",
        "Désolé, je n'ai pas de règle."
+      ],
+      "hi": [
+       "मेरे पास <span class=gray>पेंसिल</span> नहीं है।",
+       "शिक्षक को बताता है कि आपके पास क्या नहीं है।",
+       "माफ़ कीजिए, मेरे पास स्केल नहीं है।"
+      ],
+      "vi": [
+       "Em không có <span class=gray>bút chì</span>.",
+       "Cho thầy cô biết bạn thiếu thứ gì.",
+       "Em xin lỗi, em không có thước."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Je peux emprunter une gomme ?",
        "Borrow = prendre et rendre. L'anglais britannique dit aussi a rubber.",
        "Je peux emprunter un stylo ? Je te le rends."
+      ],
+      "hi": [
+       "क्या मैं <span class=gray>रबर</span> ले सकता हूँ?",
+       "Borrow = लेना और लौटा देना। ब्रिटिश अंग्रेज़ी में a rubber भी कहते हैं।",
+       "क्या मैं एक पेन ले सकता हूँ? मैं लौटा दूँगा।"
+      ],
+      "vi": [
+       "Cho mình mượn <span class=gray>cục tẩy</span> được không?",
+       "Borrow = mượn rồi trả. Trong tiếng Anh Anh còn nói a rubber.",
+       "Cho mình mượn cái bút được không? Mình sẽ trả lại."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Quelle page ?",
        "Quand vous avez manqué le numéro de page. On dit aussi : What page are we on?",
        "Pardon, quelle page ?"
+      ],
+      "hi": [
+       "कौन-सा पन्ना?",
+       "जब आपने पन्ने का नंबर न सुना हो। यह भी: What page are we on?",
+       "माफ़ कीजिए, कौन-सा पन्ना?"
+      ],
+      "vi": [
+       "Trang nào ạ?",
+       "Khi bạn không nghe được số trang. Cũng có: What page are we on?",
+       "Em xin lỗi, trang nào ạ?"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "C'est juste ?",
        "Demande au professeur de vérifier votre réponse. On dit aussi : Is this correct?",
        "J'ai écrit cat avec un k. C'est juste ?"
+      ],
+      "hi": [
+       "क्या यह सही है?",
+       "शिक्षक से अपना जवाब जाँचने को कहता है। यह भी: Is this correct?",
+       "मैंने cat को k से लिखा है। क्या यह सही है?"
+      ],
+      "vi": [
+       "Thế này đúng chưa ạ?",
+       "Nhờ thầy cô kiểm tra câu trả lời của bạn. Cũng có: Is this correct?",
+       "Em viết cat bằng chữ k. Thế này đúng chưa ạ?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Pouvez-vous m'aider, s'il vous plaît ?",
        "Levez d'abord la main, puis demandez.",
        "Je bloque sur le numéro trois. Pouvez-vous m'aider, s'il vous plaît ?"
+      ],
+      "hi": [
+       "क्या आप मेरी मदद कर सकते हैं?",
+       "पहले हाथ उठाइए, फिर पूछिए।",
+       "मैं तीसरे सवाल पर अटक गया हूँ। क्या आप मेरी मदद कर सकते हैं?"
+      ],
+      "vi": [
+       "Cô giúp em được không ạ?",
+       "Giơ tay trước rồi mới hỏi.",
+       "Em bị kẹt ở câu ba. Cô giúp em được không ạ?"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Demander au professeur",
      "Demander la permission ou de l'aide pendant le cours."
+    ],
+    "hi": [
+     "शिक्षक से पूछना",
+     "पाठ के दौरान इजाज़त या मदद माँगना।"
+    ],
+    "vi": [
+     "Hỏi thầy cô",
+     "Xin phép hoặc nhờ giúp trong giờ học."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "J'ai fini.",
        "Dit au professeur que votre travail est terminé. Pas : I finish.",
        "Monsieur, j'ai fini. Qu'est-ce que je fais maintenant ?"
+      ],
+      "hi": [
+       "मेरा काम हो गया।",
+       "शिक्षक को बताता है कि आपने काम पूरा कर लिया। ग़लत: I finish.",
+       "टीचर, मेरा काम हो गया। अब मैं क्या करूँ?"
+      ],
+      "vi": [
+       "Em làm xong rồi ạ.",
+       "Báo cho thầy cô biết bạn đã làm xong bài. Không nói: I finish.",
+       "Thưa cô, em làm xong rồi ạ. Giờ em làm gì ạ?"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "On peut travailler ensemble ?",
        "Demande à un camarade ou au professeur de travailler à deux ou en groupe.",
        "C'est difficile. On peut travailler ensemble ?"
+      ],
+      "hi": [
+       "क्या हम साथ मिलकर काम कर सकते हैं?",
+       "किसी सहपाठी या शिक्षक से जोड़ी या टोली में काम करने के लिए कहता है।",
+       "यह मुश्किल है। क्या हम साथ मिलकर कर सकते हैं?"
+      ],
+      "vi": [
+       "Bọn mình làm chung được không?",
+       "Rủ một bạn, hoặc xin thầy cô, làm theo cặp hoặc theo nhóm.",
+       "Bài này khó quá. Bọn mình làm chung được không?"
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "C'est mon tour.",
        "Dans un jeu ou une file. On dit aussi : It's your turn.",
        "Tu as déjà joué. C'est mon tour maintenant !"
+      ],
+      "hi": [
+       "अब मेरी बारी है।",
+       "खेल में या क़तार में। यह भी: It's your turn.",
+       "तुम खेल चुके। अब मेरी बारी है!"
+      ],
+      "vi": [
+       "Đến lượt mình.",
+       "Trong trò chơi hoặc khi xếp hàng. Cũng có: It's your turn.",
+       "Bạn chơi rồi. Giờ đến lượt mình!"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "C'est à qui le tour ?",
        "Whose = à qui.",
        "C'est à qui le tour de nettoyer le tableau ?"
+      ],
+      "hi": [
+       "किसकी बारी है?",
+       "Whose = किसका।",
+       "बोर्ड साफ़ करने की बारी किसकी है?"
+      ],
+      "vi": [
+       "Đến lượt ai?",
+       "Whose = của ai.",
+       "Đến lượt ai lau bảng?"
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "J'ai besoin de plus de temps.",
        "Quand le professeur annonce la fin du temps et que vous n'avez pas fini.",
        "Je peux avoir cinq minutes de plus ? J'ai besoin de plus de temps."
+      ],
+      "hi": [
+       "मुझे और समय चाहिए।",
+       "जब शिक्षक कहें कि समय ख़त्म हो गया और आपका काम पूरा न हुआ हो।",
+       "क्या मुझे पाँच मिनट और मिल सकते हैं? मुझे और समय चाहिए।"
+      ],
+      "vi": [
+       "Em cần thêm thời gian.",
+       "Khi thầy cô nói hết giờ mà bạn chưa làm xong.",
+       "Cho em thêm năm phút được không ạ? Em cần thêm thời gian."
       ]
      }
     ]
@@ -349,6 +517,14 @@
     "fr": [
      "Travailler ensemble",
      "Parler avec ses camarades pendant le travail de groupe et les jeux."
+    ],
+    "hi": [
+     "साथ मिलकर काम करना",
+     "समूह के काम और खेलों के दौरान सहपाठियों से बात करना।"
+    ],
+    "vi": [
+     "Làm việc cùng nhau",
+     "Nói chuyện với bạn cùng lớp khi làm việc nhóm và chơi trò chơi."
     ]
    }
   },
@@ -373,6 +549,16 @@
        "Ouvrez vos livres.",
        "Souvent avec une page : Open your books at page ten. Le contraire : Close your books.",
        "Bonjour à tous. Ouvrez vos livres à la page douze."
+      ],
+      "hi": [
+       "अपनी किताबें खोलो।",
+       "अक्सर पन्ने के साथ: Open your books at page ten. उलटा: Close your books.",
+       "सुप्रभात, बच्चो। अपनी किताबें पन्ना बारह पर खोलो।"
+      ],
+      "vi": [
+       "Mở sách ra.",
+       "Thường kèm số trang: Open your books at page ten. Ngược lại: Close your books.",
+       "Chào cả lớp. Mở sách ra, trang mười hai."
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Écoutez bien.",
        "Avant quelque chose d'important, ou avant un enregistrement.",
        "Écoutez bien et répétez après moi."
+      ],
+      "hi": [
+       "ध्यान से सुनो।",
+       "किसी ज़रूरी बात से पहले, या ऑडियो चलाने से पहले।",
+       "ध्यान से सुनो और मेरे पीछे-पीछे दोहराओ।"
+      ],
+      "vi": [
+       "Nghe cho kỹ.",
+       "Trước một điều quan trọng, hoặc trước khi nghe băng.",
+       "Nghe cho kỹ và nhắc lại theo cô."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Travaillez par deux.",
        "A pair = deux personnes. In groups = trois ou plus.",
        "Travaillez par deux. Posez les questions à votre voisin."
+      ],
+      "hi": [
+       "जोड़ियों में काम करो।",
+       "A pair = दो लोग। In groups = तीन या ज़्यादा।",
+       "जोड़ियों में काम करो। अपने साथी से सवाल पूछो।"
+      ],
+      "vi": [
+       "Làm việc theo cặp.",
+       "A pair = hai người. In groups = ba người trở lên.",
+       "Làm việc theo cặp. Hỏi bạn cùng cặp các câu hỏi."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Levez la main.",
        "Levez la main avant de parler. On dit aussi : Hands up!",
        "Si vous connaissez la réponse, levez la main."
+      ],
+      "hi": [
+       "हाथ उठाओ।",
+       "बोलने से पहले हाथ उठाओ। यह भी: Hands up!",
+       "जिसे जवाब आता है, वह हाथ उठाए।"
+      ],
+      "vi": [
+       "Giơ tay lên.",
+       "Giơ tay trước khi nói. Cũng có: Hands up!",
+       "Ai biết câu trả lời thì giơ tay lên."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Silence, s'il vous plaît.",
        "La classe fait trop de bruit.",
        "Silence, s'il vous plaît. Je n'entends pas Mia."
+      ],
+      "hi": [
+       "कृपया चुप रहो।",
+       "कक्षा बहुत शोर कर रही है।",
+       "कृपया चुप रहो। मुझे Mia की आवाज़ नहीं आ रही।"
+      ],
+      "vi": [
+       "Trật tự nào.",
+       "Cả lớp đang quá ồn.",
+       "Trật tự nào. Cô không nghe được bạn Mia nói."
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "Bon travail, tout le monde !",
        "Des félicitations pour toute la classe à la fin d'une activité.",
        "Bon travail, tout le monde ! À demain."
+      ],
+      "hi": [
+       "शाबाश, सब लोग!",
+       "किसी गतिविधि के अंत में पूरी कक्षा की तारीफ़।",
+       "शाबाश, सब लोग! कल मिलते हैं।"
+      ],
+      "vi": [
+       "Cả lớp làm tốt lắm!",
+       "Lời khen cho cả lớp khi kết thúc một hoạt động.",
+       "Cả lớp làm tốt lắm! Mai gặp lại nhé."
       ]
      }
     ]
@@ -480,6 +716,14 @@
     "fr": [
      "Ce que dit le professeur",
      "Des consignes que vous entendrez à chaque cours d'anglais."
+    ],
+    "hi": [
+     "शिक्षक क्या कहते हैं",
+     "वे निर्देश जो आपको अंग्रेज़ी की हर कक्षा में सुनाई देंगे।"
+    ],
+    "vi": [
+     "Thầy cô nói gì",
+     "Những lời hướng dẫn bạn sẽ nghe trong mọi giờ tiếng Anh."
     ]
    }
   },
@@ -504,6 +748,16 @@
        "Quels sont les devoirs ?",
        "Homework ne prend pas de s : some homework, pas a homework.",
        "J'étais absent hier. Quels sont les devoirs ?"
+      ],
+      "hi": [
+       "होमवर्क क्या है?",
+       "Homework में s नहीं लगता: some homework, a homework नहीं।",
+       "मैं कल नहीं आया था। होमवर्क क्या है?"
+      ],
+      "vi": [
+       "Bài tập về nhà là gì ạ?",
+       "Homework không thêm s: some homework, không nói a homework.",
+       "Hôm qua em nghỉ học. Bài tập về nhà là gì ạ?"
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "J'ai oublié mes devoirs.",
        "Vous les avez faits mais laissés à la maison, ou vous avez oublié de les faire. Excusez-vous d'abord.",
        "Désolé, monsieur, j'ai oublié mes devoirs. Je peux les apporter demain ?"
+      ],
+      "hi": [
+       "मैं अपना होमवर्क भूल गया।",
+       "आपने किया पर घर पर छोड़ आए, या करना ही भूल गए। पहले माफ़ी माँगिए।",
+       "माफ़ कीजिए, टीचर, मैं अपना होमवर्क भूल गया। क्या मैं कल ला सकता हूँ?"
+      ],
+      "vi": [
+       "Em quên bài tập về nhà rồi.",
+       "Bạn đã làm nhưng để quên ở nhà, hoặc quên làm. Hãy xin lỗi trước.",
+       "Em xin lỗi cô, em quên bài tập về nhà rồi. Mai em mang được không ạ?"
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "C'est quand, le contrôle ?",
        "Un test est petit ; un exam est grand et important.",
        "C'est quand, le contrôle d'orthographe ?"
+      ],
+      "hi": [
+       "टेस्ट कब है?",
+       "Test छोटा होता है; exam बड़ा और अहम।",
+       "स्पेलिंग टेस्ट कब है?"
+      ],
+      "vi": [
+       "Khi nào kiểm tra ạ?",
+       "Test là bài nhỏ; exam là kỳ thi lớn và quan trọng.",
+       "Khi nào kiểm tra chính tả ạ?"
       ]
      }
     ],
@@ -561,6 +835,16 @@
        "Je peux vérifier mes réponses ?",
        "Avant de rendre votre travail, ou après la correction du professeur.",
        "Je peux vérifier mes réponses avant de vous le rendre ?"
+      ],
+      "hi": [
+       "क्या मैं अपने जवाब जाँच सकता हूँ?",
+       "अपना काम जमा करने से पहले, या शिक्षक के जाँचने के बाद।",
+       "आपको देने से पहले क्या मैं अपने जवाब जाँच सकता हूँ?"
+      ],
+      "vi": [
+       "Em kiểm tra lại bài được không ạ?",
+       "Trước khi nộp bài, hoặc sau khi thầy cô chấm.",
+       "Em kiểm tra lại bài trước khi nộp cho cô được không ạ?"
       ]
      }
     ]
@@ -573,6 +857,14 @@
     "fr": [
      "Devoirs et contrôles",
      "Demander les devoirs, et dire quand il y a un problème."
+    ],
+    "hi": [
+     "होमवर्क और टेस्ट",
+     "होमवर्क के बारे में पूछना, और कोई दिक़्क़त हो तो बताना।"
+    ],
+    "vi": [
+     "Bài tập về nhà và bài kiểm tra",
+     "Hỏi về bài tập về nhà, và nói khi có vấn đề."
     ]
    }
   }

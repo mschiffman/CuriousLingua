@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/likes_dislikes.html",
  "aud_dir": "eng/expressions/likes_dislikes/",
@@ -37,6 +39,16 @@
        "J'aime la cuisine birmane.",
        "Pour les goûts généraux, employez le pluriel : I like cats. I like movies. Pour ce qui ne se compte pas, pas de pluriel : I like rice. I like coffee.",
        "J'aime les chats, mais je n'en ai pas."
+      ],
+      "hi": [
+       "मुझे <span class=gray>बर्मी खाना</span> पसंद है।",
+       "आम पसंद के लिए बहुवचन लगाइए: I like cats. I like movies. जो चीज़ें गिनी नहीं जातीं, वहाँ बहुवचन नहीं: I like rice. I like coffee.",
+       "मुझे बिल्लियाँ पसंद हैं, पर मेरे पास एक भी नहीं है।"
+      ],
+      "vi": [
+       "Mình thích <span class=gray>món ăn Myanmar</span>.",
+       "Với sở thích nói chung, dùng số nhiều: I like cats. I like movies. Với thứ không đếm được thì không có số nhiều: I like rice. I like coffee.",
+       "Mình thích mèo, nhưng mình không nuôi con nào."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "J'adore les nouilles.",
        "Plus fort que like. L'anglais emploie love pour la nourriture, la musique, les lieux et les loisirs, pas seulement pour les personnes. Ici, c'est adorer, pas aimer d'amour.",
        "J'adore le mohinga. J'en mange tous les dimanches."
+      ],
+      "hi": [
+       "मुझे <span class=gray>नूडल्स</span> बहुत पसंद हैं।",
+       "like से ज़्यादा ज़ोरदार। अंग्रेज़ी में love खाने, संगीत, जगहों और शौक़ के लिए भी आता है, सिर्फ़ लोगों के लिए नहीं। यहाँ मतलब “बहुत पसंद है” है, “प्यार करता हूँ” नहीं।",
+       "मुझे मोहिंगा बहुत पसंद है। मैं हर रविवार खाता हूँ।"
+      ],
+      "vi": [
+       "Mình rất thích <span class=gray>mì</span>.",
+       "Mạnh hơn like. Tiếng Anh dùng love cho đồ ăn, âm nhạc, nơi chốn và sở thích, không chỉ cho con người. Ở đây nghĩa là “rất thích”, không phải “yêu”.",
+       "Mình rất thích mohinga. Chủ nhật nào mình cũng ăn."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "J'aime bien lire.",
        "Enjoy est suivi de -ing ou d'un nom : I enjoy cooking. I enjoy the music. Pas : I enjoy to cook.",
        "J'aime bien marcher le soir."
+      ],
+      "hi": [
+       "मुझे <span class=gray>पढ़ने</span> में मज़ा आता है।",
+       "Enjoy के बाद -ing या संज्ञा आती है: I enjoy cooking. I enjoy the music. ग़लत: I enjoy to cook.",
+       "मुझे शाम को टहलने में मज़ा आता है।"
+      ],
+      "vi": [
+       "Mình thích <span class=gray>đọc sách</span>.",
+       "Sau enjoy là -ing hoặc danh từ: I enjoy cooking. I enjoy the music. Không nói: I enjoy to cook.",
+       "Mình thích đi bộ vào buổi tối."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Je suis à fond dans le foot.",
        "Familier : un loisir ou un intérêt que vous adorez en ce moment. Courant chez les jeunes.",
        "Je suis à fond dans les séries coréennes en ce moment."
+      ],
+      "hi": [
+       "मुझे <span class=gray>फ़ुटबॉल</span> का बड़ा शौक़ है।",
+       "अनौपचारिक: कोई शौक़ या रुचि जो इन दिनों आपको बहुत भा रही है। युवाओं के बीच आम।",
+       "आजकल मुझे कोरियाई ड्रामे का बड़ा शौक़ है।"
+      ],
+      "vi": [
+       "Mình đang mê <span class=gray>bóng đá</span>.",
+       "Thân mật: một thú vui hay mối quan tâm bạn đang rất thích lúc này. Phổ biến trong giới trẻ.",
+       "Dạo này mình đang mê phim Hàn."
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Ma couleur préférée est le bleu.",
        "Votre numéro un. Orthographe britannique : favourite.",
        "Mon plat préféré est la salade de feuilles de thé."
+      ],
+      "hi": [
+       "मेरा पसंदीदा <span class=gray>रंग</span> <span class=gray>नीला</span> है।",
+       "आपकी पहली पसंद। ब्रिटिश वर्तनी: favourite.",
+       "मेरा पसंदीदा खाना चाय की पत्तियों का सलाद है।"
+      ],
+      "vi": [
+       "<span class=gray>Màu</span> mình thích nhất là <span class=gray>màu xanh</span>.",
+       "Thứ bạn thích số một. Cách viết kiểu Anh: favourite.",
+       "Món mình thích nhất là gỏi lá trà."
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Dire que l'on aime",
      "D'un simple like à un grand love."
+    ],
+    "hi": [
+     "कहना कि कुछ पसंद है",
+     "सीधे-सादे like से लेकर ज़ोरदार love तक।"
+    ],
+    "vi": [
+     "Nói rằng bạn thích",
+     "Từ like đơn giản đến love thật mạnh."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Je n'aime pas le froid.",
        "Clair et simple. Convient pour le temps, le bruit ou la nourriture en général.",
        "Je n'aime pas les jours de pluie."
+      ],
+      "hi": [
+       "मुझे <span class=gray>ठंडा मौसम</span> पसंद नहीं।",
+       "साफ़ और सीधा। मौसम, शोर या आम तौर पर खाने जैसी चीज़ों के लिए ठीक है।",
+       "मुझे बारिश वाले दिन पसंद नहीं।"
+      ],
+      "vi": [
+       "Mình không thích <span class=gray>trời lạnh</span>.",
+       "Rõ ràng và đơn giản. Dùng được cho những thứ như thời tiết, tiếng ồn hay đồ ăn nói chung.",
+       "Mình không thích những ngày mưa."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Je n'aime pas trop les films d'horreur.",
        "Plus doux. L'ordre des mots compte : I don't really like it est doux, mais I really don't like it est fort !",
        "Je n'aime pas trop la cuisine épicée."
+      ],
+      "hi": [
+       "मुझे <span class=gray>डरावनी फ़िल्में</span> कुछ ख़ास पसंद नहीं।",
+       "ज़्यादा नरम। शब्दों का क्रम मायने रखता है: I don't really like it नरम है, पर I really don't like it कड़ा है!",
+       "मुझे तीखा खाना कुछ ख़ास पसंद नहीं।"
+      ],
+      "vi": [
+       "Mình không thích <span class=gray>phim kinh dị</span> lắm.",
+       "Nhẹ nhàng hơn. Trật tự từ rất quan trọng: I don't really like it thì nhẹ, còn I really don't like it thì mạnh!",
+       "Mình không thích đồ cay lắm."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Je ne suis pas très fan de sport.",
        "Une façon amicale et douce de dire que l'on n'aime pas. Bien pour un plat que quelqu'un a préparé ou le loisir d'un ami.",
        "Je ne suis pas très fan du durian. L'odeur est trop forte pour moi."
+      ],
+      "hi": [
+       "मैं <span class=gray>खेलों</span> का कोई बड़ा शौक़ीन नहीं हूँ।",
+       "यह कहने का दोस्ताना, नरम तरीक़ा कि कोई चीज़ आपको पसंद नहीं। किसी के बनाए खाने या दोस्त के शौक़ के लिए अच्छा।",
+       "मैं डूरियन का कोई बड़ा शौक़ीन नहीं हूँ। उसकी गंध मेरे लिए बहुत तेज़ है।"
+      ],
+      "vi": [
+       "Mình không mê <span class=gray>thể thao</span> lắm.",
+       "Cách nói thân thiện, nhẹ nhàng rằng bạn không thích thứ gì đó. Hợp khi nói về món ăn ai đó nấu hoặc sở thích của bạn bè.",
+       "Mình không mê sầu riêng lắm. Mùi nặng quá với mình."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Le shopping, ce n'est pas trop mon truc.",
        "Familier : c'est très bien pour les autres, mais pas pour moi. Sans critique.",
        "La danse, ce n'est pas trop mon truc."
+      ],
+      "hi": [
+       "<span class=gray>ख़रीदारी</span> मेरे बस की बात नहीं।",
+       "अनौपचारिक: दूसरों के लिए ठीक है, पर मेरे लिए नहीं। बिना बुराई किए।",
+       "नाचना मेरे बस की बात नहीं।"
+      ],
+      "vi": [
+       "<span class=gray>Mua sắm</span> không hợp với mình lắm.",
+       "Thân mật: người khác thích thì được, còn mình thì không. Không chê bai.",
+       "Nhảy múa không hợp với mình lắm."
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Je déteste les embouteillages.",
        "Très fort. On dit aussi : I can't stand it. Convient pour les bouchons ou les moustiques, jamais pour un plat que l'on vous a cuisiné.",
        "Je déteste les moustiques !"
+      ],
+      "hi": [
+       "मुझे <span class=gray>ट्रैफ़िक जाम</span> से नफ़रत है।",
+       "बहुत कड़ा। यह भी: I can't stand it. ट्रैफ़िक या मच्छरों के लिए ठीक है, पर उस खाने के लिए कभी नहीं जो किसी ने आपके लिए पकाया हो।",
+       "मुझे मच्छरों से नफ़रत है!"
+      ],
+      "vi": [
+       "Mình ghét <span class=gray>kẹt xe</span>.",
+       "Rất mạnh. Cũng có: I can't stand it. Dùng cho kẹt xe hay muỗi thì được, nhưng đừng bao giờ dùng cho món ăn người khác nấu cho bạn.",
+       "Mình ghét muỗi!"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Dire que l'on n'aime pas",
      "Du plus doux au plus fort. Pour ce qui appartient aux autres, la douceur est plus aimable."
+    ],
+    "hi": [
+     "कहना कि कुछ पसंद नहीं",
+     "नरम से कड़े तक। दूसरों की चीज़ों के बारे में नरम कहना ज़्यादा भला है।"
+    ],
+    "vi": [
+     "Nói rằng bạn không thích",
+     "Từ nhẹ đến mạnh. Khi nói về thứ của người khác, nhẹ nhàng thì tử tế hơn."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "C'est pas mal.",
        "Attention : d'une voix plate, It's OK veut dire moyen, pas bon. Pour faire un compliment, dites It's great!",
        "— Il est comment, le nouveau restaurant ? — C'est pas mal. Rien de spécial."
+      ],
+      "hi": [
+       "ठीक-ठाक है।",
+       "ध्यान रहे: सपाट लहजे में It's OK का मतलब है बस ठीक-ठाक, अच्छा नहीं। किसी चीज़ की तारीफ़ के लिए कहिए It's great!",
+       "— नया रेस्तराँ कैसा है? — ठीक-ठाक है। कुछ ख़ास नहीं।"
+      ],
+      "vi": [
+       "Cũng được.",
+       "Cẩn thận: nói bằng giọng đều đều thì It's OK nghĩa là tàm tạm, không phải là ngon hay tốt. Muốn khen thì nói It's great!",
+       "— Nhà hàng mới thế nào? — Cũng được. Không có gì đặc biệt."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "La pluie ne me dérange pas.",
        "Ça me va, je ne me plaindrai pas. Avec un verbe, on met -ing : I don't mind waiting.",
        "Ça ne me dérange pas de travailler le samedi."
+      ],
+      "hi": [
+       "मुझे <span class=gray>बारिश</span> से कोई दिक़्क़त नहीं।",
+       "मेरे लिए ठीक है, मैं शिकायत नहीं करूँगा। क्रिया के साथ -ing लगाइए: I don't mind waiting.",
+       "मुझे शनिवार को काम करने से कोई दिक़्क़त नहीं।"
+      ],
+      "vi": [
+       "Mình không ngại <span class=gray>trời mưa</span>.",
+       "Với mình thì không sao, mình không phàn nàn gì. Với động từ thì dùng -ing: I don't mind waiting.",
+       "Mình không ngại làm việc vào thứ Bảy."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Ça dépend.",
        "Votre réponse change selon la situation. Expliquez ensuite : It depends on the weather.",
        "— Tu aimes marcher ? — Ça dépend. Pas en plein soleil !"
+      ],
+      "hi": [
+       "यह निर्भर करता है।",
+       "आपका जवाब हालात के हिसाब से बदलता है। फिर समझाइए: It depends on the weather.",
+       "— क्या तुम्हें पैदल चलना पसंद है? — यह निर्भर करता है। तेज़ धूप में तो नहीं!"
+      ],
+      "vi": [
+       "Còn tùy.",
+       "Câu trả lời của bạn thay đổi theo tình huống. Sau đó giải thích: It depends on the weather.",
+       "— Bạn có thích đi bộ không? — Còn tùy. Trời nắng gắt thì không!"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Je peux m'en passer.",
        "Vous n'avez pas d'avis tranché : avec ou sans, cela vous va.",
        "— Tu aimes le chocolat ? — Je peux m'en passer."
+      ],
+      "hi": [
+       "हो तो ठीक, न हो तो भी ठीक।",
+       "आपकी कोई पक्की राय नहीं: उसके साथ भी ठीक, उसके बिना भी।",
+       "— क्या तुम्हें चॉकलेट पसंद है? — हो तो ठीक, न हो तो भी ठीक।"
+      ],
+      "vi": [
+       "Có cũng được, không có cũng chẳng sao.",
+       "Bạn không có ý kiến rõ rệt: có hay không đều được.",
+       "— Bạn có thích sô-cô-la không? — Có cũng được, không có cũng chẳng sao."
       ]
      }
     ]
@@ -330,6 +488,14 @@
     "fr": [
      "Entre les deux",
      "Quand on n'adore pas et que l'on ne déteste pas."
+    ],
+    "hi": [
+     "बीच का",
+     "जब आपको न बहुत पसंद हो, न नापसंद।"
+    ],
+    "vi": [
+     "Lưng chừng",
+     "Khi bạn không mê mà cũng không ghét."
     ]
    }
   },
@@ -354,6 +520,16 @@
        "Tu aimes le thé ?",
        "La question de base. Réponse : Yes, I do. ou No, I don't. Ce n'est pas la même chose que Would you like some tea?, qui est une offre.",
        "— Tu aimes nager ? — Oui, j'aime ça !"
+      ],
+      "hi": [
+       "क्या आपको <span class=gray>चाय</span> पसंद है?",
+       "बुनियादी सवाल। जवाब: Yes, I do. या No, I don't. यह Would you like some tea? से अलग है, जो एक पेशकश है।",
+       "— क्या तुम्हें तैरना पसंद है? — हाँ, बहुत!"
+      ],
+      "vi": [
+       "Bạn có thích <span class=gray>trà</span> không?",
+       "Câu hỏi cơ bản. Trả lời: Yes, I do. hoặc No, I don't. Khác với Would you like some tea?, vốn là một lời mời.",
+       "— Bạn có thích bơi không? — Có chứ!"
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Quel genre de cuisine aimes-tu ?",
        "Demande des détails et entretient la conversation.",
        "Quel genre de musique aimes-tu ?"
+      ],
+      "hi": [
+       "आपको किस तरह का <span class=gray>खाना</span> पसंद है?",
+       "ब्योरा पूछता है और बातचीत को चलाए रखता है।",
+       "तुम्हें किस तरह का संगीत पसंद है?"
+      ],
+      "vi": [
+       "Bạn thích loại <span class=gray>đồ ăn</span> nào?",
+       "Hỏi chi tiết và giữ cho cuộc trò chuyện tiếp tục.",
+       "Bạn thích loại nhạc nào?"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Quel est ton film préféré ?",
        "Une question amusante et facile pour de nouveaux amis.",
        "Quelle est ta chanson préférée en ce moment ?"
+      ],
+      "hi": [
+       "आपकी पसंदीदा <span class=gray>फ़िल्म</span> कौन-सी है?",
+       "नए दोस्तों के लिए मज़ेदार और आसान सवाल।",
+       "आजकल तुम्हारा पसंदीदा गाना कौन-सा है?"
+      ],
+      "vi": [
+       "<span class=gray>Bộ phim</span> bạn thích nhất là gì?",
+       "Một câu hỏi vui và dễ cho những người bạn mới.",
+       "Dạo này bài hát bạn thích nhất là gì?"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Qu'est-ce que tu aimes faire pendant ton temps libre ?",
        "Une question amicale sur les loisirs. On dit aussi : What do you do for fun?",
        "— Qu'est-ce que tu aimes faire pendant ton temps libre ? — J'aime lire et jouer au chinlone."
+      ],
+      "hi": [
+       "ख़ाली समय में आपको क्या करना पसंद है?",
+       "शौक़ के बारे में दोस्ताना सवाल। यह भी: What do you do for fun?",
+       "— ख़ाली समय में तुम्हें क्या करना पसंद है? — मुझे पढ़ना और चिनलोन खेलना पसंद है।"
+      ],
+      "vi": [
+       "Lúc rảnh bạn thích làm gì?",
+       "Một câu hỏi thân thiện về sở thích. Cũng có: What do you do for fun?",
+       "— Lúc rảnh bạn thích làm gì? — Mình thích đọc sách và chơi chinlone."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Tu t'intéresses à la musique ?",
        "Familier : Are you interested in music? Courant chez les jeunes.",
        "Tu t'intéresses à la photo ?"
+      ],
+      "hi": [
+       "क्या आपको <span class=gray>संगीत</span> का शौक़ है?",
+       "अनौपचारिक: Are you interested in music? युवाओं के बीच आम।",
+       "क्या तुम्हें फ़ोटोग्राफ़ी का शौक़ है?"
+      ],
+      "vi": [
+       "Bạn có mê <span class=gray>âm nhạc</span> không?",
+       "Thân mật: Are you interested in music? Phổ biến trong giới trẻ.",
+       "Bạn có mê chụp ảnh không?"
       ]
      }
     ]
@@ -442,6 +658,14 @@
     "fr": [
      "Demander les goûts",
      "De bonnes questions pour bavarder et faire connaissance."
+    ],
+    "hi": [
+     "पसंद के बारे में पूछना",
+     "हल्की-फुल्की बातचीत और जान-पहचान के लिए अच्छे सवाल।"
+    ],
+    "vi": [
+     "Hỏi về sở thích",
+     "Những câu hỏi hay để trò chuyện và làm quen."
     ]
    }
   },
@@ -466,6 +690,16 @@
        "Moi aussi.",
        "Approuve une phrase affirmative : I like tea. — Me too. Plus formel : So do I.",
        "— J'adore la saison des pluies. — Moi aussi !"
+      ],
+      "hi": [
+       "मुझे भी।",
+       "हाँ वाले वाक्य से सहमति: I like tea. — Me too. ज़्यादा औपचारिक: So do I.",
+       "— मुझे बरसात का मौसम बहुत पसंद है। — मुझे भी!"
+      ],
+      "vi": [
+       "Mình cũng vậy.",
+       "Đồng tình với một câu khẳng định: I like tea. — Me too. Trang trọng hơn: So do I.",
+       "— Mình rất thích mùa mưa. — Mình cũng vậy!"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Moi non plus.",
        "Approuve une phrase négative. Pas : I don't like it. — Me too. Correct : Me neither. Plus formel : Neither do I.",
        "— Je n'aime pas les films d'horreur. — Moi non plus."
+      ],
+      "hi": [
+       "मुझे भी नहीं।",
+       "ना वाले वाक्य से सहमति। ग़लत: I don't like it. — Me too. सही: Me neither. ज़्यादा औपचारिक: Neither do I.",
+       "— मुझे डरावनी फ़िल्में पसंद नहीं। — मुझे भी नहीं।"
+      ],
+      "vi": [
+       "Mình cũng không.",
+       "Đồng tình với một câu phủ định. Không nói: I don't like it. — Me too. Câu đúng: Me neither. Trang trọng hơn: Neither do I.",
+       "— Mình không thích phim kinh dị. — Mình cũng không."
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Ah bon ? Moi, j'adore !",
        "Exprime un désaccord amical quand quelqu'un n'aime pas quelque chose. Souriez et ajoutez une raison.",
        "— Je n'aime pas le durian. — Ah bon ? Moi, j'adore ! C'est mon fruit préféré."
+      ],
+      "hi": [
+       "सच में? मुझे तो बहुत पसंद है!",
+       "जब किसी को कोई चीज़ पसंद न हो, तब दोस्ताना ढंग से असहमति। मुस्कुराइए और वजह जोड़िए।",
+       "— मुझे डूरियन पसंद नहीं। — सच में? मुझे तो बहुत पसंद है! यह मेरा पसंदीदा फल है।"
+      ],
+      "vi": [
+       "Thật à? Mình thì thích lắm!",
+       "Không đồng tình một cách thân thiện, khi ai đó không thích thứ gì. Hãy mỉm cười và thêm một lý do.",
+       "— Mình không thích sầu riêng. — Thật à? Mình thì thích lắm! Đó là loại quả mình thích nhất."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Pas moi.",
        "Exprime un désaccord avec une phrase affirmative, de façon familière. Plus gentil avec une raison.",
        "— J'adore le thé sucré. — Pas moi. C'est trop sucré."
+      ],
+      "hi": [
+       "मुझे नहीं।",
+       "हाँ वाले वाक्य से अनौपचारिक असहमति। वजह के साथ ज़्यादा भला लगता है।",
+       "— मुझे मीठी चाय बहुत पसंद है। — मुझे नहीं। बहुत ज़्यादा मीठी होती है।"
+      ],
+      "vi": [
+       "Mình thì không.",
+       "Không đồng tình với một câu khẳng định, theo cách thân mật. Thêm lý do thì dễ nghe hơn.",
+       "— Mình rất thích trà ngọt. — Mình thì không. Ngọt quá."
       ]
      }
     ]
@@ -535,6 +799,14 @@
     "fr": [
      "Pareil ou différent",
      "Répondre quand quelqu'un vous dit ce qu'il aime ou n'aime pas."
+    ],
+    "hi": [
+     "एक जैसा या अलग",
+     "जब कोई बताए कि उसे क्या पसंद या नापसंद है, तब जवाब देना।"
+    ],
+    "vi": [
+     "Giống hay khác",
+     "Đáp lại khi ai đó nói họ thích hay không thích gì."
     ]
    }
   },
@@ -559,6 +831,16 @@
        "Je préfère le riz au pain.",
        "Prefer A to B, pas than. Avec than, on dit : I like A more than B.",
        "Je préfère le thé au café."
+      ],
+      "hi": [
+       "मुझे <span class=gray>रोटी</span> से ज़्यादा <span class=gray>चावल</span> पसंद है।",
+       "Prefer A to B, than नहीं। than के साथ कहते हैं: I like A more than B.",
+       "मुझे कॉफ़ी से ज़्यादा चाय पसंद है।"
+      ],
+      "vi": [
+       "Mình thích <span class=gray>cơm</span> hơn <span class=gray>bánh mì</span>.",
+       "Prefer A to B, không dùng than. Với than thì nói: I like A more than B.",
+       "Mình thích trà hơn cà phê."
       ]
      }
     ],
@@ -578,6 +860,16 @@
        "Je préfère rester à la maison.",
        "I'd rather = I would rather. Employez la base verbale : I'd rather walk. Pas : I'd rather to walk.",
        "— On prend un taxi ? — Je préfère marcher. Ce n'est pas loin."
+      ],
+      "hi": [
+       "मैं तो <span class=gray>घर पर ही रहना</span> चाहूँगा।",
+       "I'd rather = I would rather. क्रिया का मूल रूप लगाइए: I'd rather walk. ग़लत: I'd rather to walk.",
+       "— टैक्सी ले लें? — मैं तो पैदल चलना चाहूँगा। दूर नहीं है।"
+      ],
+      "vi": [
+       "Mình muốn <span class=gray>ở nhà</span> hơn.",
+       "I'd rather = I would rather. Dùng động từ nguyên mẫu: I'd rather walk. Không nói: I'd rather to walk.",
+       "— Mình đi taxi nhé? — Mình muốn đi bộ hơn. Không xa đâu."
       ]
      }
     ],
@@ -597,6 +889,16 @@
        "J'aime les deux.",
        "Quand on n'arrive pas à choisir. On dit aussi : I like them both.",
        "— Chats ou chiens ? — J'aime les deux !"
+      ],
+      "hi": [
+       "मुझे दोनों पसंद हैं।",
+       "जब आप चुन न पाएँ। यह भी: I like them both.",
+       "— बिल्लियाँ या कुत्ते? — मुझे दोनों पसंद हैं!"
+      ],
+      "vi": [
+       "Mình thích cả hai.",
+       "Khi bạn không chọn được. Cũng có: I like them both.",
+       "— Mèo hay chó? — Mình thích cả hai!"
       ]
      }
     ],
@@ -616,6 +918,16 @@
        "L'un ou l'autre, ça me va.",
        "Quand cela vous est vraiment égal. Si vous avez une petite préférence, dites-la : les hôtes aiment la connaître.",
        "— Thé ou café ? — L'un ou l'autre, ça me va, merci."
+      ],
+      "hi": [
+       "कोई भी चलेगा।",
+       "जब आपको सचमुच फ़र्क़ न पड़ता हो। अगर थोड़ी-सी भी पसंद है, तो बता दीजिए: मेज़बानों को जानना अच्छा लगता है।",
+       "— चाय या कॉफ़ी? — कोई भी चलेगा, शुक्रिया।"
+      ],
+      "vi": [
+       "Cái nào cũng được.",
+       "Khi bạn thật sự thấy thế nào cũng được. Nếu hơi thích một bên hơn thì cứ nói: chủ nhà muốn biết điều đó.",
+       "— Trà hay cà phê? — Cái nào cũng được, cảm ơn."
       ]
      }
     ]
@@ -628,6 +940,14 @@
     "fr": [
      "Les préférences",
      "Choisir entre deux choses."
+    ],
+    "hi": [
+     "पसंद की तुलना",
+     "दो चीज़ों में से चुनना।"
+    ],
+    "vi": [
+     "Thích cái nào hơn",
+     "Chọn giữa hai thứ."
     ]
    }
   }

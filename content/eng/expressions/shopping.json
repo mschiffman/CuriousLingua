@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/shopping.html",
  "aud_dir": "eng/expressions/shopping/",
@@ -37,6 +39,16 @@
        "Je regarde seulement, merci.",
        "La réponse polie quand un vendeur demande Can I help you? et que vous n'avez pas encore besoin d'aide.",
        "— Je peux vous aider ? — Je regarde seulement, merci."
+      ],
+      "hi": [
+       "मैं बस देख रहा हूँ, शुक्रिया।",
+       "विनम्र जवाब, जब दुकानदार पूछे Can I help you? और आपको अभी मदद न चाहिए।",
+       "— मैं आपकी मदद करूँ? — मैं बस देख रहा हूँ, शुक्रिया।"
+      ],
+      "vi": [
+       "Tôi chỉ xem thôi, cảm ơn.",
+       "Câu trả lời lịch sự khi người bán hỏi Can I help you? mà bạn chưa cần giúp.",
+       "— Tôi giúp gì được ạ? — Tôi chỉ xem thôi, cảm ơn."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Vous avez ça en bleu ?",
        "Pour demander une autre couleur ou une autre taille du même article.",
        "J'aime bien cette chemise. Vous l'avez en vert ?"
+      ],
+      "hi": [
+       "क्या आपके पास <span class=gray>यह नीले रंग में</span> है?",
+       "उसी चीज़ का दूसरा रंग या साइज़ माँगने के लिए।",
+       "मुझे यह क़मीज़ पसंद है। क्या यह हरे रंग में है?"
+      ],
+      "vi": [
+       "Ở đây có <span class=gray>cái này màu xanh</span> không?",
+       "Để hỏi màu khác hoặc cỡ khác của cùng một món.",
+       "Tôi thích cái áo này. Có màu xanh lá không?"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Où puis-je trouver le riz ?",
        "Dans un grand magasin ou un supermarché.",
        "Excusez-moi, où puis-je trouver les œufs ?"
+      ],
+      "hi": [
+       "<span class=gray>चावल</span> कहाँ मिलेगा?",
+       "किसी बड़ी दुकान या सुपरमार्केट में।",
+       "सुनिए, अंडे कहाँ मिलेंगे?"
+      ],
+      "vi": [
+       "<span class=gray>Gạo</span> ở chỗ nào ạ?",
+       "Trong một cửa hàng lớn hoặc siêu thị.",
+       "Xin lỗi, trứng ở chỗ nào ạ?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Vous vendez des piles ?",
        "Quand on n'est pas sûr que le magasin en ait.",
        "Vous vendez des chargeurs de téléphone ?"
+      ],
+      "hi": [
+       "क्या आप <span class=gray>बैटरी</span> बेचते हैं?",
+       "जब आपको पक्का न हो कि दुकान में वह चीज़ मिलती है।",
+       "क्या आप फ़ोन के चार्जर बेचते हैं?"
+      ],
+      "vi": [
+       "Ở đây có bán <span class=gray>pin</span> không?",
+       "Khi bạn không chắc cửa hàng có món đó.",
+       "Ở đây có bán sạc điện thoại không?"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Je peux l'essayer ?",
        "Pour les vêtements et les chaussures. Try on = mettre pour voir si la taille convient.",
        "J'aime bien ce pantalon. Je peux l'essayer ?"
+      ],
+      "hi": [
+       "क्या मैं इसे पहनकर देख सकता हूँ?",
+       "कपड़ों और जूतों के लिए। Try on = पहनकर देखना कि ठीक आता है या नहीं।",
+       "मुझे यह पतलून पसंद है। क्या मैं इसे पहनकर देख सकता हूँ?"
+      ],
+      "vi": [
+       "Tôi mặc thử được không?",
+       "Dùng cho quần áo và giày dép. Try on = mặc thử xem có vừa không.",
+       "Tôi thích cái quần này. Tôi mặc thử được không?"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Regarder et demander",
      "Faire le tour du magasin et demander ce que l'on veut."
+    ],
+    "hi": [
+     "देखना और पूछना",
+     "दुकान में घूमकर देखना, और जो चाहिए वह माँगना।"
+    ],
+    "vi": [
+     "Xem và hỏi",
+     "Đi xem quanh cửa hàng, và hỏi thứ bạn cần."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Combien ça coûte ?",
        "Pour un seul article. Montrez-le en posant la question.",
        "Excusez-moi, combien coûte ce sac ?"
+      ],
+      "hi": [
+       "यह कितने का है?",
+       "एक चीज़ के लिए। पूछते समय उसकी ओर इशारा कीजिए।",
+       "सुनिए, यह बैग कितने का है?"
+      ],
+      "vi": [
+       "Cái này bao nhiêu tiền?",
+       "Cho một món. Chỉ vào nó khi hỏi.",
+       "Xin lỗi, cái túi này bao nhiêu tiền?"
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Combien coûtent ceux-ci ?",
        "Pour plusieurs articles : these, those, the apples.",
        "Combien coûtent les mangues ?"
+      ],
+      "hi": [
+       "ये कितने के हैं?",
+       "एक से ज़्यादा चीज़ों के लिए: these, those, the apples.",
+       "आम कितने के हैं?"
+      ],
+      "vi": [
+       "Mấy cái này bao nhiêu tiền?",
+       "Cho nhiều món: these, those, the apples.",
+       "Xoài bao nhiêu tiền?"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "C'est trop cher.",
        "Assez poli, mais plus doux : It's a bit expensive for me.",
        "Dix mille ? C'est trop cher."
+      ],
+      "hi": [
+       "यह बहुत महँगा है।",
+       "काफ़ी हद तक विनम्र है, पर इससे नरम: It's a bit expensive for me.",
+       "दस हज़ार? यह बहुत महँगा है।"
+      ],
+      "vi": [
+       "Đắt quá.",
+       "Câu này khá lịch sự, nhưng nhẹ nhàng hơn là: It's a bit expensive for me.",
+       "Mười nghìn à? Đắt quá."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Il y a une réduction ?",
        "Demande si le prix est plus bas aujourd'hui, pour les étudiants ou si l'on en achète deux.",
        "Il y a une réduction si j'en prends trois ?"
+      ],
+      "hi": [
+       "कोई छूट है?",
+       "पूछता है कि क्या आज, विद्यार्थियों के लिए या दो लेने पर दाम कम है।",
+       "अगर मैं तीन लूँ तो कोई छूट है?"
+      ],
+      "vi": [
+       "Có giảm giá không?",
+       "Hỏi xem hôm nay, cho học sinh sinh viên, hoặc khi mua hai món thì giá có thấp hơn không.",
+       "Tôi mua ba cái thì có giảm giá không?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Vous pouvez me faire un meilleur prix ?",
        "Pour marchander, comme au marché. Dans les magasins britanniques ou américains, les prix sont en général fixes.",
        "C'est joli, mais vous pouvez me faire un meilleur prix ?"
+      ],
+      "hi": [
+       "थोड़ा कम कर दीजिए?",
+       "मोलभाव के लिए, जैसे बाज़ार में। ब्रिटेन या अमेरिका की दुकानों में दाम आम तौर पर तय होते हैं।",
+       "अच्छा है, पर थोड़ा कम कर दीजिए?"
+      ],
+      "vi": [
+       "Bớt chút được không?",
+       "Để mặc cả, như ở chợ. Ở các cửa hàng tại Anh hay Mỹ, giá thường cố định.",
+       "Đẹp đấy, nhưng bớt chút được không?"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Les prix",
      "Demander combien ça coûte et parler du prix."
+    ],
+    "hi": [
+     "दाम",
+     "पूछना कि कितने का है, और दाम पर बात करना।"
+    ],
+    "vi": [
+     "Giá cả",
+     "Hỏi giá, và nói về giá."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Vous avez une taille plus petite ?",
        "Ou bien a bigger size, a larger size.",
        "Ces chaussures sont trop grandes. Vous avez une taille plus petite ?"
+      ],
+      "hi": [
+       "इससे छोटा साइज़ है?",
+       "या फिर a bigger size, a larger size.",
+       "ये जूते बहुत बड़े हैं। इससे छोटा साइज़ है?"
+      ],
+      "vi": [
+       "Có cỡ nhỏ hơn không?",
+       "Hoặc a bigger size, a larger size.",
+       "Đôi giày này to quá. Có cỡ nhỏ hơn không?"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "C'est trop grand.",
        "Too + adjectif : too small, too long, too tight.",
        "La veste est trop grande pour moi."
+      ],
+      "hi": [
+       "यह बहुत बड़ा है।",
+       "Too + विशेषण: too small, too long, too tight.",
+       "जैकेट मेरे लिए बहुत बड़ी है।"
+      ],
+      "vi": [
+       "To quá.",
+       "Too + tính từ: too small, too long, too tight.",
+       "Cái áo khoác to quá so với tôi."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "C'est exactement ma taille.",
        "Fit concerne la taille. Suit concerne le style ou la couleur.",
        "Je prends cette robe. C'est exactement ma taille."
+      ],
+      "hi": [
+       "यह एकदम ठीक आता है।",
+       "Fit साइज़ के बारे में है। Suit स्टाइल या रंग के बारे में।",
+       "मैं यह ड्रेस ले लूँगी। एकदम ठीक आती है।"
+      ],
+      "vi": [
+       "Vừa như in.",
+       "Fit là nói về kích cỡ. Suit là nói về kiểu dáng hoặc màu sắc.",
+       "Tôi sẽ mua cái váy này. Vừa như in."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Je le prends.",
        "Vous avez décidé d'acheter. Pour plusieurs articles : I'll take them.",
        "D'accord, je le prends. Et celui-ci aussi."
+      ],
+      "hi": [
+       "मैं यह ले लूँगा।",
+       "आपने ख़रीदने का फ़ैसला कर लिया। कई चीज़ों के लिए: I'll take them.",
+       "ठीक है, मैं यह ले लूँगा। और यह वाला भी।"
+      ],
+      "vi": [
+       "Tôi lấy cái này.",
+       "Bạn đã quyết định mua. Với nhiều món: I'll take them.",
+       "Được, tôi lấy cái này. Và cả cái này nữa."
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Je vais laisser, merci.",
        "Une façon polie de dire que vous n'achetez pas.",
        "Hmm, je vais laisser, merci. Une prochaine fois, peut-être."
+      ],
+      "hi": [
+       "रहने दीजिए, शुक्रिया।",
+       "यह कहने का विनम्र तरीक़ा कि आप नहीं ख़रीदेंगे।",
+       "हम्म, रहने दीजिए, शुक्रिया। शायद अगली बार।"
+      ],
+      "vi": [
+       "Thôi, tôi không lấy, cảm ơn.",
+       "Một cách lịch sự để nói bạn sẽ không mua.",
+       "Ừm, thôi, tôi không lấy, cảm ơn. Có lẽ để lần sau."
       ]
      }
     ]
@@ -349,6 +517,14 @@
     "fr": [
      "Tailles et choix",
      "Vérifier que c'est la bonne taille, puis décider."
+    ],
+    "hi": [
+     "साइज़ और चुनाव",
+     "देखना कि ठीक आता है, फिर तय करना।"
+    ],
+    "vi": [
+     "Kích cỡ và lựa chọn",
+     "Xem có vừa không, rồi quyết định."
     ]
    }
   },
@@ -373,6 +549,16 @@
        "Vous prenez la carte ?",
        "Demande si l'on peut payer par carte. On dit aussi : Can I pay by card?",
        "Vous prenez la carte, ou seulement les espèces ?"
+      ],
+      "hi": [
+       "क्या आप कार्ड लेते हैं?",
+       "पूछता है कि कार्ड से भुगतान हो सकता है या नहीं। यह भी: Can I pay by card?",
+       "क्या आप कार्ड लेते हैं, या सिर्फ़ नक़द?"
+      ],
+      "vi": [
+       "Ở đây có nhận thẻ không?",
+       "Hỏi xem có trả bằng thẻ được không. Cũng có: Can I pay by card?",
+       "Ở đây có nhận thẻ không, hay chỉ tiền mặt?"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Je peux payer en espèces ?",
        "In cash, by card. Ou avec le téléphone : Can I pay with KBZPay?",
        "Je peux payer en espèces ? Je n'ai pas de carte."
+      ],
+      "hi": [
+       "क्या मैं नक़द दे सकता हूँ?",
+       "In cash, by card. या फ़ोन से: Can I pay with KBZPay?",
+       "क्या मैं नक़द दे सकता हूँ? मेरे पास कार्ड नहीं है।"
+      ],
+      "vi": [
+       "Tôi trả tiền mặt được không?",
+       "In cash, by card. Hoặc bằng điện thoại: Can I pay with KBZPay?",
+       "Tôi trả tiền mặt được không? Tôi không có thẻ."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Je peux avoir un sac, s'il vous plaît ?",
        "Certains magasins font payer les sacs ou n'en donnent que si on le demande.",
        "Je peux avoir un sac, s'il vous plaît ? J'ai beaucoup de choses."
+      ],
+      "hi": [
+       "एक थैला मिलेगा?",
+       "कुछ दुकानें थैले के पैसे लेती हैं या बिना माँगे नहीं देतीं।",
+       "एक थैला मिलेगा? मेरे पास बहुत सामान है।"
+      ],
+      "vi": [
+       "Cho tôi xin một cái túi.",
+       "Một số cửa hàng tính tiền túi, hoặc không đưa nếu bạn không hỏi.",
+       "Cho tôi xin một cái túi. Tôi có nhiều đồ quá."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Je peux avoir le ticket de caisse ?",
        "Gardez le ticket au cas où vous devriez rapporter l'article.",
        "Je peux avoir le ticket de caisse, s'il vous plaît ?"
+      ],
+      "hi": [
+       "रसीद मिलेगी?",
+       "रसीद सँभालकर रखिए, कहीं कुछ लौटाना पड़े।",
+       "रसीद मिलेगी?"
+      ],
+      "vi": [
+       "Cho tôi xin hóa đơn.",
+       "Giữ hóa đơn phòng khi phải trả lại hàng.",
+       "Cho tôi xin hóa đơn."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Gardez la monnaie.",
        "Vous ne voulez pas récupérer la différence. Courant avec les chauffeurs de taxi.",
        "Voici dix dollars. Gardez la monnaie."
+      ],
+      "hi": [
+       "खुले पैसे रख लीजिए।",
+       "आप बचे हुए पैसे वापस नहीं चाहते। टैक्सी वालों के साथ आम है।",
+       "ये लीजिए दस डॉलर। खुले पैसे रख लीजिए।"
+      ],
+      "vi": [
+       "Khỏi thối lại.",
+       "Bạn không muốn nhận lại tiền thừa. Hay nói với tài xế taxi.",
+       "Mười đô đây. Khỏi thối lại."
       ]
      }
     ]
@@ -461,6 +687,14 @@
     "fr": [
      "Payer",
      "À la caisse : carte ou espèces, un sac, le ticket."
+    ],
+    "hi": [
+     "पैसे देना",
+     "काउंटर पर: कार्ड या नक़द, थैला, रसीद।"
+    ],
+    "vi": [
+     "Thanh toán",
+     "Ở quầy thu ngân: thẻ hay tiền mặt, túi, hóa đơn."
     ]
    }
   },
@@ -485,6 +719,16 @@
        "Autre chose ?",
        "On répond : No, that's all, thanks. Ou l'on nomme l'article suivant.",
        "— Autre chose ? — Non, c'est tout, merci."
+      ],
+      "hi": [
+       "और कुछ?",
+       "जवाब: No, that's all, thanks. या अगली चीज़ बता दीजिए जो चाहिए।",
+       "— और कुछ? — नहीं, बस इतना ही, शुक्रिया।"
+      ],
+      "vi": [
+       "Còn gì nữa không ạ?",
+       "Trả lời: No, that's all, thanks. Hoặc nói món tiếp theo bạn muốn.",
+       "— Còn gì nữa không ạ? — Không, thế thôi, cảm ơn."
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Ça fait cinq mille kyats.",
        "Annonce le total. On dit aussi : That'll be five thousand kyats.",
        "Deux cafés ? Ça fait cinq mille kyats, s'il vous plaît."
+      ],
+      "hi": [
+       "पाँच हज़ार क्यात हुए।",
+       "आपको कुल रक़म बताता है। यह भी: That'll be five thousand kyats.",
+       "दो कॉफ़ी? पाँच हज़ार क्यात हुए।"
+      ],
+      "vi": [
+       "Của anh chị năm nghìn kyat.",
+       "Cho bạn biết tổng số tiền. Cũng có: That'll be five thousand kyats.",
+       "Hai cà phê ạ? Của anh chị năm nghìn kyat."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Espèces ou carte ?",
        "Demande comment vous voulez payer. On répond : Cash, please. / Card, please.",
        "— Espèces ou carte ? — Carte, s'il vous plaît."
+      ],
+      "hi": [
+       "नक़द या कार्ड?",
+       "पूछता है कि आप कैसे भुगतान करेंगे। जवाब: Cash, please. / Card, please.",
+       "— नक़द या कार्ड? — कार्ड।"
+      ],
+      "vi": [
+       "Tiền mặt hay thẻ ạ?",
+       "Hỏi bạn muốn trả bằng gì. Trả lời: Cash, please. / Card, please.",
+       "— Tiền mặt hay thẻ ạ? — Thẻ."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Vous voulez un sac ?",
        "On répond : Yes, please. / No, thanks, I have one.",
        "— Vous voulez un sac ? — Non, merci. J'en ai un."
+      ],
+      "hi": [
+       "थैला चाहिए?",
+       "जवाब: Yes, please. / No, thanks, I have one.",
+       "— थैला चाहिए? — नहीं, शुक्रिया। मेरे पास है।"
+      ],
+      "vi": [
+       "Anh chị có lấy túi không?",
+       "Trả lời: Yes, please. / No, thanks, I have one.",
+       "— Anh chị có lấy túi không? — Không, cảm ơn. Tôi có rồi."
       ]
      }
     ],
@@ -561,6 +835,16 @@
        "Voici votre monnaie.",
        "L'argent que l'on vous rend. Comptez-le et dites Thank you.",
        "Voici votre monnaie, et votre ticket."
+      ],
+      "hi": [
+       "ये रहे आपके खुले पैसे।",
+       "जो पैसे आपको वापस मिलते हैं। गिन लीजिए और Thank you कहिए।",
+       "ये रहे आपके खुले पैसे, और आपकी रसीद।"
+      ],
+      "vi": [
+       "Tiền thừa của anh chị đây.",
+       "Số tiền bạn được trả lại. Hãy đếm lại và nói Thank you.",
+       "Tiền thừa của anh chị đây, và hóa đơn ạ."
       ]
      }
     ]
@@ -573,6 +857,14 @@
     "fr": [
      "Ce que dit le vendeur",
      "Des phrases que vous entendrez à la caisse, pour pouvoir répondre."
+    ],
+    "hi": [
+     "दुकानदार क्या कहता है",
+     "काउंटर पर सुनाई देने वाले वाक्य, ताकि आप जवाब दे सकें।"
+    ],
+    "vi": [
+     "Người bán nói gì",
+     "Những câu bạn sẽ nghe ở quầy thu ngân, để biết cách trả lời."
     ]
    }
   }

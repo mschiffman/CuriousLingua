@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/invitations.html",
  "aud_dir": "eng/expressions/invitations/",
@@ -37,6 +39,16 @@
        "Tu es libre samedi ?",
        "Une première étape amicale avant d'inviter. Cela laisse à l'autre une façon facile de dire non.",
        "Tu es libre samedi ? On fait un pique-nique."
+      ],
+      "hi": [
+       "क्या आप <span class=gray>शनिवार</span> को ख़ाली हैं?",
+       "किसी को बुलाने से पहले का दोस्ताना पहला क़दम। उसे ना कहने का आसान रास्ता दे देता है।",
+       "क्या तुम शनिवार को ख़ाली हो? हम पिकनिक कर रहे हैं।"
+      ],
+      "vi": [
+       "<span class=gray>Thứ Bảy</span> bạn rảnh không?",
+       "Bước đầu thân thiện trước khi mời ai đó. Cho họ một lối dễ dàng để từ chối.",
+       "Thứ Bảy bạn rảnh không? Bọn mình đi dã ngoại."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Voudrais-tu venir à ma fête ?",
        "La façon polie d'inviter : convient à tout le monde. Would you like to + verbe.",
        "Voudrais-tu venir à ma fête d'anniversaire dimanche ?"
+      ],
+      "hi": [
+       "क्या आप <span class=gray>मेरी पार्टी</span> में आना चाहेंगे?",
+       "न्योता देने का विनम्र तरीक़ा: किसी के भी साथ ठीक। Would you like to + क्रिया।",
+       "क्या आप रविवार को मेरी जन्मदिन की पार्टी में आना चाहेंगे?"
+      ],
+      "vi": [
+       "Bạn có muốn đến <span class=gray>bữa tiệc của mình</span> không?",
+       "Cách mời lịch sự: dùng với ai cũng được. Would you like to + động từ.",
+       "Chủ nhật bạn có muốn đến dự tiệc sinh nhật của mình không?"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Tu veux voir un film ?",
        "Plus familier : entre amis et en famille.",
        "Tu veux jouer au foot après l'école ?"
+      ],
+      "hi": [
+       "<span class=gray>फ़िल्म देखने</span> चलोगे?",
+       "ज़्यादा अनौपचारिक: दोस्तों और परिवार के साथ।",
+       "स्कूल के बाद फ़ुटबॉल खेलोगे?"
+      ],
+      "vi": [
+       "Bạn muốn <span class=gray>đi xem phim</span> không?",
+       "Thân mật hơn: với bạn bè và gia đình.",
+       "Tan học bạn muốn chơi bóng đá không?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Allons au marché !",
        "Une proposition pour vous et l'autre ensemble. Let's + verbe, sans to.",
        "Il fait beau. Allons à la plage !"
+      ],
+      "hi": [
+       "चलो <span class=gray>बाज़ार चलते हैं</span>!",
+       "आप दोनों के साथ मिलकर कुछ करने का सुझाव। Let's + क्रिया, बिना to के।",
+       "धूप निकली है। चलो समुद्र-तट चलते हैं!"
+      ],
+      "vi": [
+       "Mình <span class=gray>đi chợ</span> đi!",
+       "Một lời rủ cho bạn và người kia cùng làm. Let's + động từ, không có to.",
+       "Trời nắng đẹp. Mình đi biển đi!"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Pourquoi tu ne passes pas à la maison ?",
        "Une invitation chaleureuse chez vous. Come over veut dire viens chez moi.",
        "Je fais des nouilles ce soir. Pourquoi tu ne passes pas à la maison ?"
+      ],
+      "hi": [
+       "घर क्यों नहीं आ जाते?",
+       "अपने घर आने का अपनेपन भरा न्योता। Come over का मतलब है मेरे घर आओ।",
+       "आज रात मैं नूडल्स बना रहा हूँ। घर क्यों नहीं आ जाते?"
+      ],
+      "vi": [
+       "Sao bạn không qua nhà mình chơi?",
+       "Lời mời thân tình đến nhà bạn. Come over nghĩa là đến nhà mình.",
+       "Tối nay mình nấu mì. Sao bạn không qua nhà mình chơi?"
       ]
      }
     ],
@@ -132,6 +184,16 @@
        "Tu es le bienvenu si tu veux te joindre à nous.",
        "Une invitation ouverte et polie, sans pression.",
        "On va déjeuner. Tu es le bienvenu si tu veux te joindre à nous."
+      ],
+      "hi": [
+       "आप भी हमारे साथ आ सकते हैं।",
+       "खुला और विनम्र न्योता, बिना किसी दबाव के।",
+       "हम लंच के लिए जा रहे हैं। आप भी हमारे साथ आ सकते हैं।"
+      ],
+      "vi": [
+       "Bạn cứ đi cùng bọn mình nhé.",
+       "Lời mời cởi mở và lịch sự, không gây áp lực.",
+       "Bọn mình đi ăn trưa. Bạn cứ đi cùng bọn mình nhé."
       ]
      }
     ]
@@ -144,6 +206,14 @@
     "fr": [
      "Inviter",
      "Proposer à quelqu'un de venir ou de faire quelque chose avec vous."
+    ],
+    "hi": [
+     "न्योता देना",
+     "किसी से साथ चलने या साथ कुछ करने को कहना।"
+    ],
+    "vi": [
+     "Mời",
+     "Rủ ai đó đi cùng hoặc cùng làm việc gì."
     ]
    }
   },
@@ -168,6 +238,16 @@
        "Avec grand plaisir !",
        "Le oui le plus chaleureux. I'd love to = I would love to.",
        "— Voudrais-tu venir au festival ? — Avec grand plaisir !"
+      ],
+      "hi": [
+       "ज़रूर, बड़ी ख़ुशी से!",
+       "सबसे आत्मीय हाँ। I'd love to = I would love to.",
+       "— क्या आप उत्सव में आना चाहेंगे? — ज़रूर, बड़ी ख़ुशी से!"
+      ],
+      "vi": [
+       "Mình rất muốn!",
+       "Lời nhận lời ấm áp nhất. I'd love to = I would love to.",
+       "— Bạn có muốn đi lễ hội không? — Mình rất muốn!"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Super idée !",
        "Familier et joyeux. On dit aussi : Sounds good!",
        "— Dînons chez moi. — Super idée !"
+      ],
+      "hi": [
+       "बढ़िया रहेगा!",
+       "अनौपचारिक और ख़ुशी भरा। यह भी: Sounds good!",
+       "— चलो मेरे घर डिनर करते हैं। — बढ़िया रहेगा!"
+      ],
+      "vi": [
+       "Nghe tuyệt đấy!",
+       "Thân mật và vui vẻ. Cũng có: Sounds good!",
+       "— Mình ăn tối ở nhà mình nhé. — Nghe tuyệt đấy!"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "J'en suis !",
        "Familier : ajoutez-moi au groupe. Le contraire est Count me out.",
        "— On joue au foot dimanche. — J'en suis !"
+      ],
+      "hi": [
+       "मुझे भी गिन लो!",
+       "अनौपचारिक: मुझे भी टोली में शामिल कर लो। उलटा है Count me out.",
+       "— हम रविवार को फ़ुटबॉल खेल रहे हैं। — मुझे भी गिन लो!"
+      ],
+      "vi": [
+       "Tính cả mình nữa nhé!",
+       "Thân mật: cho mình tham gia với. Trái nghĩa là Count me out.",
+       "— Chủ nhật bọn mình đá bóng. — Tính cả mình nữa nhé!"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Bien sûr, à quelle heure ?",
        "Dit oui et passe directement à l'organisation.",
        "— Tu veux qu'on révise ensemble ? — Bien sûr, à quelle heure ?"
+      ],
+      "hi": [
+       "ज़रूर, कितने बजे?",
+       "हाँ कहता है और सीधे योजना पर आ जाता है।",
+       "— साथ में पढ़ाई करोगे? — ज़रूर, कितने बजे?"
+      ],
+      "vi": [
+       "Được, mấy giờ?",
+       "Đồng ý rồi vào thẳng kế hoạch.",
+       "— Bạn muốn học chung không? — Được, mấy giờ?"
       ]
      }
     ],
@@ -244,6 +354,16 @@
        "J'y serai.",
        "Une promesse de venir.",
        "— La fête commence à sept heures. — Parfait, j'y serai."
+      ],
+      "hi": [
+       "मैं पहुँच जाऊँगा।",
+       "वादा कि आप आएँगे।",
+       "— पार्टी सात बजे शुरू होगी। — बढ़िया, मैं पहुँच जाऊँगा।"
+      ],
+      "vi": [
+       "Mình sẽ đến.",
+       "Lời hứa rằng bạn sẽ có mặt.",
+       "— Bữa tiệc bắt đầu lúc bảy giờ. — Tuyệt, mình sẽ đến."
       ]
      }
     ]
@@ -256,6 +376,14 @@
     "fr": [
      "Dire oui",
      "Des façons joyeuses d'accepter une invitation."
+    ],
+    "hi": [
+     "हाँ कहना",
+     "न्योता स्वीकार करने के ख़ुशी भरे तरीक़े।"
+    ],
+    "vi": [
+     "Nhận lời",
+     "Những cách vui vẻ để nhận lời mời."
     ]
    }
   },
@@ -280,6 +408,16 @@
        "Quelle heure t'arrange ?",
        "Laisse l'autre choisir. Poli et amical.",
        "Voyons-nous demain. Quelle heure t'arrange ?"
+      ],
+      "hi": [
+       "आपके लिए कौन-सा समय ठीक रहेगा?",
+       "सामने वाले को चुनने देता है। विनम्र और दोस्ताना।",
+       "चलो कल मिलते हैं। तुम्हारे लिए कौन-सा समय ठीक रहेगा?"
+      ],
+      "vi": [
+       "Mấy giờ thì tiện cho bạn?",
+       "Để người kia chọn. Lịch sự và thân thiện.",
+       "Mai mình gặp nhau nhé. Mấy giờ thì tiện cho bạn?"
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "On se retrouve où ?",
        "Demande le lieu. On dit aussi : Where should we meet?",
        "— Allons au cinéma. — D'accord. On se retrouve où ?"
+      ],
+      "hi": [
+       "हम कहाँ मिलें?",
+       "जगह पूछता है। यह भी: Where should we meet?",
+       "— चलो सिनेमा चलते हैं। — ठीक है। हम कहाँ मिलें?"
+      ],
+      "vi": [
+       "Mình gặp nhau ở đâu?",
+       "Hỏi địa điểm. Cũng có: Where should we meet?",
+       "— Mình đi xem phim đi. — Được. Mình gặp nhau ở đâu?"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Et si on disait 6 heures ?",
        "Propose une heure ou un lieu. How about + heure, lieu ou -ing.",
        "— On y va quand ? — Et si on disait après le déjeuner ?"
+      ],
+      "hi": [
+       "<span class=gray>6 बजे</span> कैसा रहेगा?",
+       "कोई समय या जगह सुझाता है। How about + समय, जगह या -ing.",
+       "— हम कब चलें? — लंच के बाद कैसा रहेगा?"
+      ],
+      "vi": [
+       "<span class=gray>6 giờ</span> được không?",
+       "Đề nghị một giờ hoặc một địa điểm. How about + giờ, địa điểm hoặc -ing.",
+       "— Khi nào mình đi? — Sau bữa trưa được không?"
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Retrouvons-nous à l'arrêt de bus.",
        "Fixe le lieu. At + lieu : at the gate, at the market, at my house.",
        "Retrouvons-nous à quatre heures devant le portail de l'école."
+      ],
+      "hi": [
+       "चलो <span class=gray>बस स्टॉप</span> पर मिलते हैं।",
+       "जगह पक्की करता है। At + जगह: at the gate, at the market, at my house.",
+       "चलो चार बजे स्कूल के गेट पर मिलते हैं।"
+      ],
+      "vi": [
+       "Mình gặp nhau ở <span class=gray>trạm xe buýt</span> nhé.",
+       "Chốt địa điểm. At + địa điểm: at the gate, at the market, at my house.",
+       "Bốn giờ mình gặp nhau ở cổng trường nhé."
       ]
      }
     ],
@@ -356,6 +524,16 @@
        "Vendredi, ça te va ?",
        "Demande si un jour ou une heure convient. Work for you veut dire te convenir.",
        "Vendredi, ça te va, ou samedi c'est mieux ?"
+      ],
+      "hi": [
+       "क्या <span class=gray>शुक्रवार</span> आपके लिए ठीक रहेगा?",
+       "पूछता है कि कोई दिन या समय ठीक है या नहीं। Work for you का मतलब है आपके लिए सुविधाजनक होना।",
+       "क्या शुक्रवार तुम्हारे लिए ठीक रहेगा, या शनिवार बेहतर है?"
+      ],
+      "vi": [
+       "<span class=gray>Thứ Sáu</span> có tiện cho bạn không?",
+       "Hỏi xem một ngày hay một giờ nào đó có được không. Work for you nghĩa là tiện cho bạn.",
+       "Thứ Sáu có tiện cho bạn không, hay thứ Bảy thì hơn?"
       ]
      }
     ],
@@ -375,6 +553,16 @@
        "Je passe te prendre ?",
        "Propose de venir chercher quelqu'un, en voiture, à moto ou à vélo.",
        "C'est loin. Je passe te prendre à six heures ?"
+      ],
+      "hi": [
+       "मैं आपको लेने आ जाऊँ?",
+       "किसी को लेने जाने की पेशकश, कार, बाइक या साइकिल से।",
+       "रास्ता लंबा है। मैं छह बजे तुम्हें लेने आ जाऊँ?"
+      ],
+      "vi": [
+       "Mình qua đón bạn nhé?",
+       "Ngỏ ý đến đón ai đó, bằng ô tô, xe máy hoặc xe đạp.",
+       "Đường xa đấy. Sáu giờ mình qua đón bạn nhé?"
       ]
      }
     ]
@@ -387,6 +575,14 @@
     "fr": [
      "Organiser",
      "Se mettre d'accord sur l'heure et le lieu."
+    ],
+    "hi": [
+     "योजना बनाना",
+     "समय और जगह तय करना।"
+    ],
+    "vi": [
+     "Lên kế hoạch",
+     "Thống nhất giờ và địa điểm."
     ]
    }
   },
@@ -411,6 +607,16 @@
        "Je peux te dire ça plus tard ?",
        "Poli : il vous faut du temps avant de répondre.",
        "— Tu viens au mariage ? — Je peux te dire ça plus tard ?"
+      ],
+      "hi": [
+       "क्या मैं आपको बाद में बता सकता हूँ?",
+       "विनम्र: जवाब देने से पहले आपको समय चाहिए।",
+       "— क्या तुम शादी में आ रहे हो? — क्या मैं तुम्हें बाद में बता सकता हूँ?"
+      ],
+      "vi": [
+       "Mình báo lại bạn sau được không?",
+       "Lịch sự: bạn cần thời gian trước khi trả lời.",
+       "— Bạn có đi đám cưới không? — Mình báo lại bạn sau được không?"
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Je te redis ça.",
        "Une promesse de répondre bientôt. Courant aussi au travail.",
        "Je vois avec ma famille et je te redis ça."
+      ],
+      "hi": [
+       "मैं आपको बताता हूँ।",
+       "जल्द जवाब देने का वादा। काम पर भी आम।",
+       "मैं घरवालों से पूछकर तुम्हें बताता हूँ।"
+      ],
+      "vi": [
+       "Mình sẽ báo lại cho bạn.",
+       "Lời hứa sẽ sớm trả lời. Ở chỗ làm cũng hay dùng.",
+       "Để mình hỏi gia đình rồi báo lại cho bạn."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Je dois demander à mes parents.",
        "Ce que disent les enfants et les jeunes avant d'accepter un projet.",
        "— Tu peux venir au zoo avec nous ? — Je dois demander à mes parents."
+      ],
+      "hi": [
+       "मुझे अपने माता-पिता से पूछना होगा।",
+       "बच्चे और किशोर किसी योजना के लिए हाँ कहने से पहले यह कहते हैं।",
+       "— क्या तुम हमारे साथ चिड़ियाघर चल सकते हो? — मुझे अपने माता-पिता से पूछना होगा।"
+      ],
+      "vi": [
+       "Mình phải hỏi bố mẹ đã.",
+       "Câu trẻ em và thanh thiếu niên nói trước khi nhận lời.",
+       "— Bạn đi sở thú với bọn mình được không? — Mình phải hỏi bố mẹ đã."
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "Je regarde mon agenda.",
        "Pour voir si vous êtes libre ce jour-là. Les gens regardent souvent leur téléphone.",
        "Mardi prochain ? Je regarde mon agenda."
+      ],
+      "hi": [
+       "ज़रा अपना कैलेंडर देख लूँ।",
+       "यह देखने के लिए कि आप उस दिन ख़ाली हैं या नहीं। लोग अक्सर अपना फ़ोन देखते हैं।",
+       "अगले मंगलवार? ज़रा अपना कैलेंडर देख लूँ।"
+      ],
+      "vi": [
+       "Để mình xem lịch đã.",
+       "Để xem hôm đó bạn có rảnh không. Người ta thường xem điện thoại.",
+       "Thứ Ba tuần sau à? Để mình xem lịch đã."
       ]
      }
     ]
@@ -480,6 +716,14 @@
     "fr": [
      "Pas encore sûr",
      "Quand on ne peut pas dire oui ou non tout de suite."
+    ],
+    "hi": [
+     "अभी पक्का नहीं",
+     "जब आप तुरंत हाँ या ना न कह सकें।"
+    ],
+    "vi": [
+     "Chưa chắc",
+     "Khi bạn chưa thể trả lời có hay không ngay."
     ]
    }
   },
@@ -504,6 +748,16 @@
        "Ça tient toujours pour ce soir ?",
        "Vérifie que le programme n'a pas changé.",
        "Salut ! Ça tient toujours pour ce soir ?"
+      ],
+      "hi": [
+       "<span class=gray>आज रात</span> का प्रोग्राम पक्का है न?",
+       "जाँचता है कि योजना बदली तो नहीं।",
+       "हाय! आज रात का प्रोग्राम पक्का है न?"
+      ],
+      "vi": [
+       "<span class=gray>Tối nay</span> mình vẫn gặp chứ?",
+       "Kiểm tra xem kế hoạch có thay đổi không.",
+       "Chào bạn! Tối nay mình vẫn gặp chứ?"
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "J'ai un peu de retard.",
        "Prévient l'autre avant qu'il commence à attendre. Dites de combien : I'll be ten minutes late.",
        "Désolé, j'ai un peu de retard. À dix, alors."
+      ],
+      "hi": [
+       "मुझे थोड़ी देर हो रही है।",
+       "सामने वाले को इंतज़ार शुरू करने से पहले ही बता देता है। कितनी देर, यह भी बताइए: I'll be ten minutes late.",
+       "माफ़ करना, मुझे थोड़ी देर हो रही है। दस मिनट में मिलता हूँ।"
+      ],
+      "vi": [
+       "Mình đến muộn một chút.",
+       "Báo cho người kia trước khi họ bắt đầu chờ. Nói rõ muộn bao lâu: I'll be ten minutes late.",
+       "Xin lỗi, mình đến muộn một chút. Mười phút nữa gặp nhé."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "J'ai un imprévu.",
        "Il s'est passé quelque chose d'inattendu, donc vous ne pouvez pas venir. Inutile d'expliquer.",
        "Je suis vraiment désolé, j'ai un imprévu. On se voit la semaine prochaine ?"
+      ],
+      "hi": [
+       "अचानक कुछ काम आ गया है।",
+       "कुछ ऐसा हो गया जिसकी उम्मीद नहीं थी, इसलिए आप नहीं आ सकते। समझाना ज़रूरी नहीं।",
+       "बहुत माफ़ी चाहता हूँ, अचानक कुछ काम आ गया है। क्या हम अगले हफ़्ते मिल सकते हैं?"
+      ],
+      "vi": [
+       "Mình có việc đột xuất.",
+       "Có chuyện bất ngờ xảy ra nên bạn không đi được. Không cần giải thích.",
+       "Xin lỗi nhiều, mình có việc đột xuất. Tuần sau mình gặp được không?"
       ]
      }
     ],
@@ -561,6 +835,16 @@
        "Désolé, je dois annuler.",
        "Direct mais poli. Donnez une raison courte et proposez un autre jour.",
        "Désolé, je dois annuler. Mon petit frère est malade."
+      ],
+      "hi": [
+       "माफ़ कीजिए, मुझे रद्द करना पड़ेगा।",
+       "सीधा पर विनम्र। छोटी-सी वजह बताइए और कोई और दिन सुझाइए।",
+       "माफ़ करना, मुझे रद्द करना पड़ेगा। मेरा छोटा भाई बीमार है।"
+      ],
+      "vi": [
+       "Xin lỗi, mình phải hủy hẹn.",
+       "Thẳng nhưng lịch sự. Nêu một lý do ngắn và đề nghị ngày khác.",
+       "Xin lỗi, mình phải hủy hẹn. Em trai mình bị ốm."
       ]
      }
     ],
@@ -580,6 +864,16 @@
        "On peut faire ça un peu plus tard ?",
        "Déplace l'heure, pas le jour. Le contraire : Can we make it earlier?",
        "On peut faire ça un peu plus tard ? Sept heures au lieu de six ?"
+      ],
+      "hi": [
+       "क्या हम थोड़ा बाद का समय रख सकते हैं?",
+       "समय बदलता है, दिन नहीं। उलटा: Can we make it earlier?",
+       "क्या हम थोड़ा बाद का समय रख सकते हैं? छह की जगह सात?"
+      ],
+      "vi": [
+       "Mình lùi lại muộn hơn một chút được không?",
+       "Đổi giờ, không đổi ngày. Trái nghĩa: Can we make it earlier?",
+       "Mình lùi lại muộn hơn một chút được không? Bảy giờ thay vì sáu giờ?"
       ]
      }
     ]
@@ -592,6 +886,14 @@
     "fr": [
      "Changer de programme",
      "Vérifier, être en retard ou annuler."
+    ],
+    "hi": [
+     "योजना बदलना",
+     "पक्का करना, देर होना, या रद्द करना।"
+    ],
+    "vi": [
+     "Đổi kế hoạch",
+     "Hỏi lại, đến muộn, hoặc hủy."
     ]
    }
   },
@@ -616,6 +918,16 @@
        "On se voit là-bas !",
        "Quand vous vous retrouverez sur place, pas avant.",
        "D'accord, au parc à quatre heures. On se voit là-bas !"
+      ],
+      "hi": [
+       "वहीं मिलते हैं!",
+       "जब आप उसी जगह मिलने वाले हों, उससे पहले नहीं।",
+       "ठीक है, चार बजे पार्क में। वहीं मिलते हैं!"
+      ],
+      "vi": [
+       "Hẹn gặp ở đó nhé!",
+       "Khi hai người sẽ gặp nhau tại chỗ, không gặp trước.",
+       "Được, bốn giờ ở công viên. Hẹn gặp ở đó nhé!"
       ]
      }
     ],
@@ -635,6 +947,16 @@
        "Ne sois pas en retard !",
        "Amical entre amis et en famille. Avec des adultes que vous connaissez peu, cela peut sembler autoritaire.",
        "Le bus part à huit heures. Ne sois pas en retard !"
+      ],
+      "hi": [
+       "देर मत करना!",
+       "दोस्तों और परिवार के साथ दोस्ताना। जिन बड़ों को आप ठीक से नहीं जानते, उनके साथ हुक्म जैसा लग सकता है।",
+       "बस आठ बजे निकलती है। देर मत करना!"
+      ],
+      "vi": [
+       "Đừng đến muộn nhé!",
+       "Thân thiện với bạn bè và gia đình. Với người lớn bạn chưa quen thân, câu này có thể nghe như ra lệnh.",
+       "Xe buýt chạy lúc tám giờ. Đừng đến muộn nhé!"
       ]
      }
     ],
@@ -654,6 +976,16 @@
        "Merci de m'avoir invité.",
        "Se dit en acceptant, puis à nouveau en partant.",
        "Merci de m'avoir invité. J'ai passé un très bon moment."
+      ],
+      "hi": [
+       "बुलाने के लिए शुक्रिया।",
+       "न्योता स्वीकार करते समय कहा जाता है, और जाते समय फिर।",
+       "बुलाने के लिए शुक्रिया। मुझे बहुत अच्छा लगा।"
+      ],
+      "vi": [
+       "Cảm ơn bạn đã mời mình.",
+       "Nói khi nhận lời, và nói lần nữa lúc ra về.",
+       "Cảm ơn bạn đã mời mình. Mình đã rất vui."
       ]
      }
     ],
@@ -673,6 +1005,16 @@
        "J'ai passé un super moment !",
        "Se dit à la fin, ou dans un message le lendemain. Had, parce que c'est terminé.",
        "Merci pour la fête. J'ai passé un super moment !"
+      ],
+      "hi": [
+       "मुझे बहुत मज़ा आया!",
+       "अंत में कहा जाता है, या अगले दिन संदेश में। Had, क्योंकि बात हो चुकी है।",
+       "पार्टी के लिए शुक्रिया। मुझे बहुत मज़ा आया!"
+      ],
+      "vi": [
+       "Mình đã rất vui!",
+       "Nói lúc cuối buổi, hoặc trong tin nhắn ngày hôm sau. Dùng had vì chuyện đã qua.",
+       "Cảm ơn vì bữa tiệc. Mình đã rất vui!"
       ]
      }
     ],
@@ -692,6 +1034,16 @@
        "Il faut qu'on refasse ça !",
        "Une façon chaleureuse de conclure : vous aimeriez vous revoir.",
        "C'était vraiment sympa. Il faut qu'on refasse ça !"
+      ],
+      "hi": [
+       "हमें यह फिर करना चाहिए!",
+       "बात ख़त्म करने का आत्मीय तरीक़ा: आप फिर मिलना चाहेंगे।",
+       "बहुत मज़ा आया। हमें यह फिर करना चाहिए!"
+      ],
+      "vi": [
+       "Hôm nào mình làm lại nhé!",
+       "Một cách kết thúc ấm áp: bạn muốn gặp lại nhau.",
+       "Vui quá. Hôm nào mình làm lại nhé!"
       ]
      }
     ]
@@ -704,6 +1056,14 @@
     "fr": [
      "Avant et après",
      "Conclure l'organisation, et remercier ensuite."
+    ],
+    "hi": [
+     "पहले और बाद में",
+     "योजना पूरी करना, और बाद में धन्यवाद कहना।"
+    ],
+    "vi": [
+     "Trước và sau",
+     "Chốt kế hoạch, và cảm ơn sau đó."
     ]
    }
   }

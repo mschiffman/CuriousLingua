@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/ask.html",
  "aud_dir": "eng/expressions/ask/",
@@ -37,6 +39,16 @@
        "L'addition, s'il vous plaît.",
        "La demande polie la plus courte : nommez la chose et ajoutez please. Give me ___ peut sembler impoli en anglais. Dites ___, please. ou Can I have ___?",
        "Un café, s'il vous plaît."
+      ],
+      "hi": [
+       "<span class=gray>बिल</span> दीजिए।",
+       "सबसे छोटा विनम्र अनुरोध: चीज़ का नाम लीजिए और please जोड़ दीजिए। अंग्रेज़ी में Give me ___ रूखा लग सकता है। ___, please. या Can I have ___? कहिए।",
+       "एक कॉफ़ी दीजिए।"
+      ],
+      "vi": [
+       "Cho tôi xin <span class=gray>hóa đơn</span>.",
+       "Lời đề nghị lịch sự ngắn nhất: nói tên thứ bạn cần rồi thêm please. Give me ___ có thể nghe thô lỗ trong tiếng Anh. Hãy dùng ___, please. hoặc Can I have ___?",
+       "Cho tôi một ly cà phê."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Je peux en avoir un de plus ?",
        "Poli et quotidien : magasins, restaurants, à la maison. Ajoutez please à la fin.",
        "Je peux avoir un verre d'eau, s'il vous plaît ?"
+      ],
+      "hi": [
+       "क्या मुझे <span class=gray>एक और</span> मिल सकता है?",
+       "विनम्र और रोज़मर्रा का: दुकान, रेस्तराँ, घर। अंत में please जोड़िए।",
+       "क्या मुझे एक गिलास पानी मिल सकता है?"
+      ],
+      "vi": [
+       "Cho tôi xin <span class=gray>một cái nữa</span> được không?",
+       "Lịch sự và dùng hằng ngày: cửa hàng, nhà hàng, ở nhà. Thêm please ở cuối.",
+       "Cho tôi xin một ly nước được không?"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Pourrais-je avoir une boule de glace ?",
        "Un peu plus poli que Can I. Bien avec les inconnus, le personnel et les personnes âgées.",
        "Pourrais-je avoir un reçu, s'il vous plaît ?"
+      ],
+      "hi": [
+       "क्या मुझे <span class=gray>एक स्कूप आइसक्रीम</span> मिल सकती है?",
+       "Can I से थोड़ा ज़्यादा विनम्र। अजनबियों, कर्मचारियों और बड़ों के साथ अच्छा है।",
+       "क्या मुझे रसीद मिल सकती है?"
+      ],
+      "vi": [
+       "Tôi có thể xin <span class=gray>một viên kem</span> được không ạ?",
+       "Lịch sự hơn Can I một chút. Hợp với người lạ, nhân viên và người lớn tuổi.",
+       "Tôi có thể xin hóa đơn được không ạ?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Je voudrais un kilo.",
        "I'd like = I would like. Poli dans les magasins et les restaurants. I want ___ peut sembler exigeant.",
        "Je voudrais deux billets pour la séance de six heures."
+      ],
+      "hi": [
+       "मुझे <span class=gray>एक किलो</span> चाहिए।",
+       "I'd like = I would like. दुकानों और रेस्तराँ में विनम्र। I want ___ हुक्म जैसा लग सकता है।",
+       "मुझे छह बजे के शो के दो टिकट चाहिए।"
+      ],
+      "vi": [
+       "Tôi muốn lấy <span class=gray>một ký</span>.",
+       "I'd like = I would like. Lịch sự ở cửa hàng và nhà hàng. I want ___ có thể nghe như ra lệnh.",
+       "Tôi muốn lấy hai vé cho suất sáu giờ."
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Vous avez du sucre ?",
        "Demande si un magasin a quelque chose. Réponse : Yes, we do. ou Sorry, we don't.",
        "Vous avez ça dans une taille plus grande ?"
+      ],
+      "hi": [
+       "क्या आपके पास <span class=gray>चीनी</span> है?",
+       "पूछता है कि दुकान में कोई चीज़ है या नहीं। जवाब: Yes, we do. या Sorry, we don't.",
+       "क्या आपके पास यह बड़े साइज़ में है?"
+      ],
+      "vi": [
+       "Ở đây có <span class=gray>đường</span> không?",
+       "Hỏi xem cửa hàng có món gì đó không. Trả lời: Yes, we do. hoặc Sorry, we don't.",
+       "Ở đây có cái này cỡ lớn hơn không?"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Demander quelque chose",
      "Dans les magasins, les cafés et à table : les bases de la politesse."
+    ],
+    "hi": [
+     "चीज़ें माँगना",
+     "दुकानों, कैफ़े और खाने की मेज़ पर: विनम्रता की बुनियादी बातें।"
+    ],
+    "vi": [
+     "Xin một thứ gì đó",
+     "Ở cửa hàng, quán cà phê và trên bàn ăn: những câu lịch sự cơ bản."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Tu peux fermer la porte ?",
        "Quotidien et amical : famille, amis, collègues. Ajoutez please.",
        "Tu peux ouvrir la fenêtre, s'il te plaît ?"
+      ],
+      "hi": [
+       "क्या तुम <span class=gray>दरवाज़ा बंद</span> कर सकते हो?",
+       "रोज़मर्रा का और दोस्ताना: परिवार, दोस्त, सहकर्मी। please जोड़िए।",
+       "ज़रा खिड़की खोल दोगे?"
+      ],
+      "vi": [
+       "Bạn <span class=gray>đóng cửa</span> giúp được không?",
+       "Hằng ngày và thân thiện: gia đình, bạn bè, đồng nghiệp. Thêm please.",
+       "Bạn mở cửa sổ giúp được không?"
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Pourriez-vous appeler un taxi ?",
        "Plus poli que Can you. Sûr avec presque tout le monde : inconnus, supérieurs, clients.",
        "Pourriez-vous m'aider avec ce formulaire ?"
+      ],
+      "hi": [
+       "क्या आप <span class=gray>टैक्सी बुला</span> सकते हैं?",
+       "Can you से ज़्यादा विनम्र। लगभग सबके साथ ठीक: अजनबी, बॉस, ग्राहक।",
+       "क्या आप इस फ़ॉर्म में मेरी मदद कर सकते हैं?"
+      ],
+      "vi": [
+       "Anh có thể <span class=gray>gọi taxi</span> giúp được không ạ?",
+       "Lịch sự hơn Can you. An toàn với hầu hết mọi người: người lạ, sếp, khách hàng.",
+       "Anh có thể giúp tôi điền mẫu đơn này được không ạ?"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Voudriez-vous signer ici ?",
        "Poli et doux. Le personnel l'emploie souvent avec les clients. En général avec please.",
        "Voudriez-vous attendre ici un instant, s'il vous plaît ?"
+      ],
+      "hi": [
+       "क्या आप <span class=gray>यहाँ हस्ताक्षर</span> करेंगे?",
+       "विनम्र और नरम। कर्मचारी ग्राहकों से अक्सर ऐसे कहते हैं। आम तौर पर please के साथ।",
+       "क्या आप एक पल यहाँ रुकेंगे?"
+      ],
+      "vi": [
+       "Anh vui lòng <span class=gray>ký vào đây</span> nhé?",
+       "Lịch sự và nhẹ nhàng. Nhân viên hay dùng với khách hàng. Thường đi với please.",
+       "Anh vui lòng chờ ở đây một lát nhé?"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Ça vous dérangerait de déplacer votre sac ?",
        "Très poli. Le verbe prend -ing : Would you mind waiting? Pour dire oui, on répond No, not at all.",
        "Ça vous dérangerait de baisser la musique ?"
+      ],
+      "hi": [
+       "क्या आप <span class=gray>अपना बैग हटाने</span> की कृपा करेंगे?",
+       "बहुत विनम्र। क्रिया में -ing लगता है: Would you mind waiting? हाँ कहने के लिए जवाब है No, not at all.",
+       "क्या आप संगीत धीमा करने की कृपा करेंगे?"
+      ],
+      "vi": [
+       "Anh có phiền <span class=gray>dời cái túi</span> không ạ?",
+       "Rất lịch sự. Động từ thêm -ing: Would you mind waiting? Muốn đồng ý thì trả lời No, not at all.",
+       "Anh có phiền vặn nhỏ nhạc xuống không ạ?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Veuillez enlever vos chaussures.",
        "Une consigne, pas une question. Normal de la part d'un professeur, d'un médecin ou sur un panneau. Entre égaux, une question est plus douce : Could you…?",
        "Veuillez vous asseoir."
+      ],
+      "hi": [
+       "कृपया <span class=gray>जूते उतार दीजिए</span>।",
+       "यह निर्देश है, सवाल नहीं। शिक्षकों, डॉक्टरों और सूचना-पट्टों की ओर से ठीक है। बराबर वालों के बीच सवाल ज़्यादा नरम है: Could you…?",
+       "कृपया बैठिए।"
+      ],
+      "vi": [
+       "Xin vui lòng <span class=gray>cởi giày</span>.",
+       "Đây là lời hướng dẫn, không phải câu hỏi. Thầy cô, bác sĩ hay biển báo dùng thì được. Giữa những người ngang hàng, một câu hỏi sẽ nhẹ nhàng hơn: Could you…?",
+       "Xin mời ngồi."
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Demander à quelqu'un de faire quelque chose",
      "D'un can you familier à un would you mind très poli."
+    ],
+    "hi": [
+     "किसी से कुछ करने को कहना",
+     "बेतकल्लुफ़ can you से लेकर बहुत विनम्र would you mind तक।"
+    ],
+    "vi": [
+     "Nhờ ai đó làm việc gì",
+     "Từ can you thân mật đến would you mind rất lịch sự."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Tu pourrais me rendre un service ?",
        "Prépare la personne à une demande. Orthographe britannique : favour.",
        "Tu pourrais me rendre un service ? Tu peux nourrir mon chat ce week-end ?"
+      ],
+      "hi": [
+       "क्या आप मेरा एक काम कर देंगे?",
+       "सामने वाले को अनुरोध के लिए तैयार करता है। ब्रिटिश वर्तनी: favour.",
+       "क्या तुम मेरा एक काम कर दोगे? इस वीकेंड मेरी बिल्ली को खाना खिला दोगे?"
+      ],
+      "vi": [
+       "Bạn giúp mình một việc được không?",
+       "Chuẩn bị tinh thần cho người kia trước một lời nhờ. Cách viết kiểu Anh: favour.",
+       "Bạn giúp mình một việc được không? Cuối tuần này cho mèo của mình ăn giúp nhé?"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Je me demandais si tu pourrais m'aider à déménager.",
        "Très poli et indirect : bien au travail et pour les grandes demandes. On dirait une affirmation, mais c'est une question.",
        "Je me demandais si vous pourriez m'écrire une lettre de recommandation."
+      ],
+      "hi": [
+       "मैं सोच रहा था कि क्या आप <span class=gray>घर बदलने में मेरी मदद</span> कर सकेंगे।",
+       "बहुत विनम्र और घुमा-फिराकर कहा गया: काम पर और बड़े अनुरोधों के लिए अच्छा। सुनने में कथन लगता है, पर है सवाल।",
+       "मैं सोच रहा था कि क्या आप मेरे लिए सिफ़ारिशी पत्र लिख सकेंगे।"
+      ],
+      "vi": [
+       "Không biết bạn có thể <span class=gray>giúp mình chuyển nhà</span> không.",
+       "Rất lịch sự và gián tiếp: hợp ở chỗ làm và cho những lời nhờ lớn. Nghe như câu khẳng định, nhưng là câu hỏi.",
+       "Không biết anh có thể viết cho tôi một thư giới thiệu không."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Serait-il possible de payer par carte ?",
        "Formel : pour les bureaux, les règlements et les réservations. On interroge la situation, pas la personne.",
        "Serait-il possible de changer mon rendez-vous ?"
+      ],
+      "hi": [
+       "क्या <span class=gray>कार्ड से भुगतान</span> करना संभव होगा?",
+       "औपचारिक: दफ़्तरों, नियमों और बुकिंग के लिए। आप स्थिति के बारे में पूछ रहे हैं, व्यक्ति के बारे में नहीं।",
+       "क्या मेरी अपॉइंटमेंट बदलना संभव होगा?"
+      ],
+      "vi": [
+       "Liệu có thể <span class=gray>trả bằng thẻ</span> được không ạ?",
+       "Trang trọng: dùng ở văn phòng, khi hỏi về quy định và đặt chỗ. Bạn hỏi về tình huống, không hỏi về người đối diện.",
+       "Liệu có thể đổi lịch hẹn của tôi được không ạ?"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Tu crois que tu pourrais réparer mon vélo ?",
        "Poli et amical, pour une demande qui prend du temps ou des efforts.",
        "Tu crois que tu pourrais me conduire à la gare demain ?"
+      ],
+      "hi": [
+       "क्या आप <span class=gray>मेरी साइकिल ठीक</span> कर पाएँगे?",
+       "विनम्र और दोस्ताना, ऐसे अनुरोध के लिए जिसमें समय या मेहनत लगे।",
+       "क्या तुम कल मुझे स्टेशन तक छोड़ पाओगे?"
+      ],
+      "vi": [
+       "Bạn xem có <span class=gray>sửa xe đạp giúp mình</span> được không?",
+       "Lịch sự và thân thiện, cho một lời nhờ tốn thời gian hay công sức.",
+       "Bạn xem mai có chở mình ra ga được không?"
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Si ça ne vous dérange pas trop…",
        "Ajoute de la politesse à une demande, quand on est gêné de demander.",
        "Si ça ne vous dérange pas trop, pourriez-vous vérifier encore une fois ?"
+      ],
+      "hi": [
+       "अगर ज़्यादा तकलीफ़ न हो तो…",
+       "अनुरोध में विनम्रता जोड़ता है, जब आपको माँगने में संकोच हो।",
+       "अगर ज़्यादा तकलीफ़ न हो, तो क्या आप इसे एक बार फिर देख लेंगे?"
+      ],
+      "vi": [
+       "Nếu không phiền quá thì…",
+       "Thêm phần lịch sự cho lời nhờ, khi bạn ngại phải nhờ.",
+       "Nếu không phiền quá thì anh kiểm tra lại giúp một lần nữa được không?"
       ]
      }
     ]
@@ -349,6 +517,14 @@
     "fr": [
      "Les grands services",
      "Quand on demande beaucoup : plus de mots adoucissent la demande."
+    ],
+    "hi": [
+     "बड़े एहसान",
+     "जब आप बहुत कुछ माँग रहे हों: ज़्यादा शब्द बात को नरम कर देते हैं।"
+    ],
+    "vi": [
+     "Nhờ việc lớn",
+     "Khi bạn nhờ nhiều: càng nhiều lời thì càng nhẹ nhàng."
     ]
    }
   },
@@ -373,6 +549,16 @@
        "Je peux prendre une photo ?",
        "La permission de tous les jours : Can I sit here? Can I use your pen?",
        "Je peux m'asseoir ici ?"
+      ],
+      "hi": [
+       "क्या मैं <span class=gray>फ़ोटो ले</span> सकता हूँ?",
+       "रोज़मर्रा की इजाज़त: Can I sit here? Can I use your pen?",
+       "क्या मैं यहाँ बैठ सकता हूँ?"
+      ],
+      "vi": [
+       "Mình <span class=gray>chụp ảnh</span> được không?",
+       "Xin phép hằng ngày: Can I sit here? Can I use your pen?",
+       "Mình ngồi đây được không?"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Puis-je poser une question ?",
        "Très poli et un peu formel : avec les professeurs, en entretien, dans les bureaux.",
        "Puis-je entrer ?"
+      ],
+      "hi": [
+       "क्या मैं <span class=gray>एक सवाल पूछ</span> सकता हूँ?",
+       "बहुत विनम्र और थोड़ा औपचारिक: शिक्षकों के साथ, इंटरव्यू में, दफ़्तरों में।",
+       "क्या मैं अंदर आ सकता हूँ?"
+      ],
+      "vi": [
+       "Em xin phép <span class=gray>hỏi một câu</span> được không ạ?",
+       "Rất lịch sự và hơi trang trọng: với thầy cô, trong phỏng vấn, ở văn phòng.",
+       "Em xin phép vào được không ạ?"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Ça va si je me gare ici ?",
        "Amical et clair. Fonctionne presque partout.",
        "Ça va si je pars un peu plus tôt aujourd'hui ?"
+      ],
+      "hi": [
+       "अगर मैं <span class=gray>यहाँ गाड़ी खड़ी करूँ</span> तो ठीक है?",
+       "दोस्ताना और साफ़। लगभग हर जगह चलता है।",
+       "अगर मैं आज थोड़ा जल्दी निकल जाऊँ तो ठीक है?"
+      ],
+      "vi": [
+       "Mình <span class=gray>đỗ xe ở đây</span> có được không?",
+       "Thân thiện và rõ ràng. Dùng được gần như ở mọi nơi.",
+       "Hôm nay mình về sớm một chút có được không?"
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Ça vous dérange si j'allume le ventilateur ?",
        "Attention : pour dire oui, on répond No ! No, not at all veut dire Allez-y. Comme Ça vous dérange ? — Non, pas du tout.",
        "— Ça vous dérange si j'ouvre la fenêtre ? — Non, pas du tout."
+      ],
+      "hi": [
+       "अगर मैं <span class=gray>पंखा चला दूँ</span> तो आपको एतराज़ तो नहीं?",
+       "ध्यान रहे: हाँ कहने के लिए जवाब No है! No, not at all का मतलब है: ज़रूर, कीजिए। ठीक वैसे ही जैसे “एतराज़ तो नहीं?” — “नहीं, बिलकुल नहीं।”",
+       "— अगर मैं खिड़की खोल दूँ तो आपको एतराज़ तो नहीं? — नहीं, बिलकुल नहीं।"
+      ],
+      "vi": [
+       "Mình <span class=gray>bật quạt</span> có phiền bạn không?",
+       "Cẩn thận: muốn đồng ý thì phải trả lời No! No, not at all nghĩa là: cứ tự nhiên. Giống như “Có phiền không?” — “Không, không sao đâu.”",
+       "— Mình mở cửa sổ có phiền bạn không? — Không, không sao đâu."
       ]
      }
     ]
@@ -442,6 +658,14 @@
     "fr": [
      "Demander la permission",
      "Quand on veut faire quelque chose : de can I à do you mind if I."
+    ],
+    "hi": [
+     "इजाज़त माँगना",
+     "जब आप कुछ करना चाहें: can I से लेकर do you mind if I तक।"
+    ],
+    "vi": [
+     "Xin phép",
+     "Khi bạn muốn làm việc gì đó: từ can I đến do you mind if I."
     ]
    }
   },
@@ -466,6 +690,16 @@
        "Je peux emprunter ton parapluie ?",
        "Borrow = prendre et rendre. Pas : Can you borrow me ___? Ça, c'est lend : Can you lend me ___?",
        "Je peux emprunter ton chargeur ?"
+      ],
+      "hi": [
+       "क्या मैं <span class=gray>तुम्हारा छाता</span> ले सकता हूँ?",
+       "Borrow = लेना और लौटा देना। ग़लत: Can you borrow me ___? वह lend है: Can you lend me ___?",
+       "क्या मैं तुम्हारा चार्जर ले सकता हूँ?"
+      ],
+      "vi": [
+       "Cho mình mượn <span class=gray>cái ô</span> được không?",
+       "Borrow = mượn rồi trả. Không nói: Can you borrow me ___? Đó phải là lend: Can you lend me ___?",
+       "Cho mình mượn cục sạc được không?"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Passe-moi les ciseaux, tu veux ?",
        "À table ou au travail. Would you? à la fin rend la phrase amicale. On dit aussi : Could you pass the ___?",
        "Passe-moi le sel, tu veux ?"
+      ],
+      "hi": [
+       "ज़रा <span class=gray>कैंची</span> पकड़ाना।",
+       "खाने की मेज़ पर या काम पर। अंत का would you? इसे दोस्ताना बना देता है। यह भी: Could you pass the ___?",
+       "ज़रा नमक पकड़ाना।"
+      ],
+      "vi": [
+       "Đưa giúp mình <span class=gray>cái kéo</span> với.",
+       "Trên bàn ăn hoặc ở chỗ làm. Would you? ở cuối làm câu nghe thân thiện. Cũng có: Could you pass the ___?",
+       "Đưa giúp mình lọ muối với."
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "T'as un mouchoir ?",
        "Un Do you have a ___? très familier. Entre amis seulement.",
        "T'as un stylo ? Le mien ne marche plus."
+      ],
+      "hi": [
+       "<span class=gray>टिशू</span> है?",
+       "Do you have a ___? का बहुत अनौपचारिक रूप। सिर्फ़ दोस्तों के साथ।",
+       "पेन है? मेरा चलना बंद हो गया।"
+      ],
+      "vi": [
+       "Có <span class=gray>khăn giấy</span> không?",
+       "Một câu Do you have a ___? rất suồng sã. Chỉ dùng với bạn bè.",
+       "Có bút không? Bút mình hết mực rồi."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Ça te dérange si je prends cette chaise ?",
        "Forme courte de Do you mind if I…? Même réponse : No, go ahead.",
        "Ça vous dérange si je me joins à vous ?"
+      ],
+      "hi": [
+       "मैं <span class=gray>यह कुर्सी ले लूँ</span>?",
+       "Do you mind if I…? का छोटा रूप। जवाब वही: No, go ahead.",
+       "मैं भी आ जाऊँ?"
+      ],
+      "vi": [
+       "Mình <span class=gray>lấy cái ghế này</span> nhé?",
+       "Dạng rút gọn của Do you mind if I…? Trả lời như cũ: No, go ahead.",
+       "Mình ngồi cùng nhé?"
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Tu peux me prendre un café ?",
        "Grab = attraper vite fait. Entre amis et collègues seulement.",
        "Tu sors ? Tu peux me prendre du pain ?"
+      ],
+      "hi": [
+       "मेरे लिए <span class=gray>एक कॉफ़ी</span> ले आओगे?",
+       "Grab = झटपट ले आना। सिर्फ़ दोस्तों और सहकर्मियों के साथ।",
+       "बाहर जा रहे हो? मेरे लिए थोड़ी ब्रेड ले आओगे?"
+      ],
+      "vi": [
+       "Mua giúp mình <span class=gray>ly cà phê</span> nhé?",
+       "Grab = lấy nhanh, mua nhanh. Chỉ dùng với bạn bè và đồng nghiệp.",
+       "Bạn ra ngoài à? Mua giúp mình ít bánh mì nhé?"
       ]
      }
     ]
@@ -554,6 +828,14 @@
     "fr": [
      "Familier, entre amis",
      "Des demandes courtes et détendues pour les personnes que l'on connaît bien."
+    ],
+    "hi": [
+     "दोस्तों के बीच",
+     "जिन्हें आप अच्छी तरह जानते हैं, उनसे छोटे, बेतकल्लुफ़ अनुरोध।"
+    ],
+    "vi": [
+     "Thân mật với bạn bè",
+     "Những lời nhờ ngắn gọn, thoải mái với người bạn quen thân."
     ]
    }
   },
@@ -578,6 +860,16 @@
        "Bien sûr.",
        "Un oui familier. On dit aussi : Sure thing! ou Yeah, of course.",
        "— Je peux utiliser ton téléphone ? — Bien sûr."
+      ],
+      "hi": [
+       "हाँ, ज़रूर।",
+       "अनौपचारिक हाँ। यह भी: Sure thing! या Yeah, of course.",
+       "— क्या मैं तुम्हारा फ़ोन इस्तेमाल कर सकता हूँ? — हाँ, ज़रूर।"
+      ],
+      "vi": [
+       "Được chứ.",
+       "Một lời đồng ý thân mật. Cũng có: Sure thing! hoặc Yeah, of course.",
+       "— Mình dùng điện thoại của bạn được không? — Được chứ."
       ]
      }
     ],
@@ -597,6 +889,16 @@
        "Bien entendu.",
        "Chaleureux et poli : parfait pour les demandes. En réponse à une question (Is the shop open? — Of course!), on peut laisser entendre que la question était bête.",
        "— Pourriez-vous m'aider ? — Bien entendu."
+      ],
+      "hi": [
+       "बिलकुल।",
+       "आत्मीय और विनम्र: अनुरोधों के लिए एकदम ठीक। किसी सवाल के जवाब में (Is the shop open? — Of course!) ऐसा लग सकता है कि सवाल बेवक़ूफ़ी भरा था।",
+       "— क्या आप मेरी मदद कर सकते हैं? — बिलकुल।"
+      ],
+      "vi": [
+       "Tất nhiên rồi.",
+       "Ấm áp và lịch sự: rất hợp để đáp lại lời nhờ. Khi trả lời một câu hỏi (Is the shop open? — Of course!) thì có thể nghe như câu hỏi đó ngớ ngẩn.",
+       "— Bạn giúp mình được không? — Tất nhiên rồi."
       ]
      }
     ],
@@ -616,6 +918,16 @@
        "Tiens, voilà.",
        "Se dit en tendant quelque chose à quelqu'un. On dit aussi : Here you are.",
        "— Je peux avoir le sel ? — Tiens, voilà."
+      ],
+      "hi": [
+       "यह लीजिए।",
+       "किसी को कोई चीज़ पकड़ाते समय कहा जाता है। यह भी: Here you are.",
+       "— नमक देंगे? — यह लीजिए।"
+      ],
+      "vi": [
+       "Của bạn đây.",
+       "Nói khi đưa thứ gì đó cho ai. Cũng có: Here you are.",
+       "— Cho mình xin lọ muối? — Của bạn đây."
       ]
      }
     ],
@@ -635,6 +947,16 @@
        "Allez-y.",
        "Un oui à une demande de permission : faites, je vous en prie.",
        "— Je peux m'asseoir ici ? — Bien sûr, allez-y."
+      ],
+      "hi": [
+       "हाँ, कीजिए।",
+       "इजाज़त के सवाल पर हाँ: बेझिझक कीजिए।",
+       "— क्या मैं यहाँ बैठ सकता हूँ? — हाँ, बैठिए।"
+      ],
+      "vi": [
+       "Cứ tự nhiên.",
+       "Lời đồng ý cho một câu xin phép: bạn cứ làm đi.",
+       "— Mình ngồi đây được không? — Được, cứ tự nhiên."
       ]
      }
     ],
@@ -654,6 +976,16 @@
        "Désolé, je ne peux pas.",
        "Un non poli. Ajoutez une raison courte si possible.",
        "— Tu peux travailler samedi ? — Désolé, je ne peux pas. J'ai une réunion de famille."
+      ],
+      "hi": [
+       "माफ़ कीजिए, नहीं हो पाएगा।",
+       "विनम्र ना। हो सके तो छोटी-सी वजह जोड़िए।",
+       "— क्या आप शनिवार को काम कर सकते हैं? — माफ़ कीजिए, नहीं हो पाएगा। घर में एक कार्यक्रम है।"
+      ],
+      "vi": [
+       "Xin lỗi, mình không thể.",
+       "Lời từ chối lịch sự. Nếu được, hãy thêm một lý do ngắn.",
+       "— Thứ Bảy bạn đi làm được không? — Xin lỗi, mình không thể. Nhà mình có việc."
       ]
      }
     ]
@@ -666,6 +998,14 @@
     "fr": [
      "Répondre à une demande",
      "Dire oui, tendre quelque chose, et dire non gentiment."
+    ],
+    "hi": [
+     "अनुरोध का जवाब देना",
+     "हाँ कहना, चीज़ पकड़ाना, और अच्छे ढंग से ना कहना।"
+    ],
+    "vi": [
+     "Đáp lại lời nhờ",
+     "Đồng ý, đưa đồ, và từ chối cho khéo."
     ]
    }
   }

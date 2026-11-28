@@ -1,0 +1,401 @@
+{
+ "code": "J18",
+ "scene": 18,
+ "title": "At the Pharmacy",
+ "subtitle": "でかけるまえに・カウンターで・くすりののみかた・ただいま",
+ "level": "a2",
+ "topic": "Health",
+ "type": "dialogue",
+ "register": "casual at home, polite (desu/masu) at the counter",
+ "review": "Kana, kanji (say), translations, notes and questions written by Claude from Marissa's romaji script. The Japanese has not been checked by a Japanese speaker. English support only: no Burmese lines yet. The pharmacist is read by Jap-yuyu (r4qMc0xxpfgMQciUmPHW), a man's voice, as the course has no second woman's voice; the English lines say 'they' for the pharmacist.",
+ "intro": "Riku has a cold and is sure it is the end, so Emi goes to the pharmacy for him: four short scenes. Listen for how she asks for medicine with … ga hoshii n desu ga, for the pharmacist's polite questions, and for how to say how often and how long to take something.",
+ "aud_dir": "jap/speaking/pharmacy/",
+ "aud_ext": "mp3?v=2611280524",
+ "speakers": {
+  "E": "Emi",
+  "R": "Riku",
+  "P": "Yakuzaishi"
+ },
+ "voice": {
+  "E": "ilBjLtdEW3SkjRXakAkO",
+  "R": "v91rKRL5eccBa78cK3jT",
+  "P": "r4qMc0xxpfgMQciUmPHW"
+ },
+ "support": [
+  "en"
+ ],
+ "related": [
+  "jap/expressions/health"
+ ],
+ "sections": [
+  {
+   "title": "Dekakeru mae ni",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Emi… boku wa mō dame da.",
+     "kana": "エミ…ぼくはもうだめだ。",
+     "say": "エミ…僕はもうだめだ。",
+     "tr": {
+      "en": "Emi… I'm done for."
+     },
+     "note": "Mō dame da: it's all over. Boku: I, used by men and boys."
+    },
+    {
+     "who": "E",
+     "romaji": "Tada no kaze desho.",
+     "kana": "ただのかぜでしょ。",
+     "say": "ただの風邪でしょ。",
+     "tr": {
+      "en": "It's just a cold."
+     },
+     "note": "Tada no: just an ordinary… Kaze: a cold. Desho: surely, right?"
+    },
+    {
+     "who": "R",
+     "romaji": "Nodo ga itai. Atama mo itai. Zenbu itai.",
+     "kana": "のどがいたい。あたまもいたい。ぜんぶいたい。",
+     "say": "喉が痛い。頭も痛い。全部痛い。",
+     "tr": {
+      "en": "My throat hurts. My head hurts too. Everything hurts."
+     },
+     "note": "Part of the body + ga itai: it hurts. Mo: too. Zenbu: all of it."
+    },
+    {
+     "who": "E",
+     "romaji": "Yakkyoku ni itte kuru ne. Nani ga iru?",
+     "kana": "やっきょくにいってくるね。なにがいる？",
+     "say": "薬局に行ってくるね。何がいる？",
+     "tr": {
+      "en": "I'll go to the pharmacy. What do you need?"
+     },
+     "note": "Yakkyoku: a pharmacy. Itte kuru: to go and come back. Iru: to need; what you need takes ga."
+    },
+    {
+     "who": "R",
+     "romaji": "Kiseki.",
+     "kana": "きせき。",
+     "say": "奇跡。",
+     "tr": {
+      "en": "A miracle."
+     },
+     "note": "Kiseki: a miracle."
+    },
+    {
+     "who": "E",
+     "romaji": "Shohōsen nashi de kaeru ka, kiite miru.",
+     "kana": "しょほうせんなしでかえるか、きいてみる。",
+     "say": "処方箋なしで買えるか、聞いてみる。",
+     "tr": {
+      "en": "I'll ask if you can get one without a prescription."
+     },
+     "note": "Shohōsen: a prescription. Nashi de: without. Kaeru: can buy. Kiite miru: to try asking."
+    }
+   ]
+  },
+  {
+   "title": "Kauntā de",
+   "lines": [
+    {
+     "who": "E",
+     "romaji": "Sumimasen, kazegusuri ga hoshii n desu ga.",
+     "kana": "すみません、かぜぐすりがほしいんですが。",
+     "say": "すみません、風邪薬が欲しいんですが。",
+     "tr": {
+      "en": "Excuse me, I'd like some cold medicine."
+     },
+     "note": "Kazegusuri: cold medicine (kaze + kusuri). … ga hoshii n desu ga: I'd like…; the ga at the end leaves the request soft and open."
+    },
+    {
+     "who": "P",
+     "romaji": "Hai. Donata ga nomaremasu ka?",
+     "kana": "はい。どなたがのまれますか？",
+     "say": "はい。どなたが飲まれますか？",
+     "tr": {
+      "en": "Of course. Who will be taking it?"
+     },
+     "note": "Donata: who, polite. Nomaremasu: the respectful form of nomu. In Japanese, medicine is drunk: kusuri o nomu."
+    },
+    {
+     "who": "E",
+     "romaji": "Otto desu.",
+     "kana": "おっとです。",
+     "say": "夫です。",
+     "tr": {
+      "en": "My husband."
+     },
+     "note": "Otto: my husband. Someone else's husband: goshujin."
+    },
+    {
+     "who": "P",
+     "romaji": "Donna shōjō desu ka?",
+     "kana": "どんなしょうじょうですか？",
+     "say": "どんな症状ですか？",
+     "tr": {
+      "en": "What are his symptoms?"
+     },
+     "note": "Shōjō: symptoms. Donna: what kind of."
+    },
+    {
+     "who": "E",
+     "romaji": "Hanamizu to seki ga dete, monku mo ōi desu.",
+     "kana": "はなみずとせきがでて、もんくもおおいです。",
+     "say": "鼻水と咳が出て、文句も多いです。",
+     "tr": {
+      "en": "He has a runny nose and a cough, and a lot of complaints."
+     },
+     "note": "Hanamizu: a runny nose. Seki: a cough. … ga deru: it comes out. Monku: complaints. Ōi: many."
+    },
+    {
+     "who": "P",
+     "romaji": "Netsu wa arimasu ka?",
+     "kana": "ねつはありますか？",
+     "say": "熱はありますか？",
+     "tr": {
+      "en": "Does he have a fever?"
+     },
+     "note": "Netsu: a fever. … wa arimasu ka: is there…?, do you have…?"
+    },
+    {
+     "who": "E",
+     "romaji": "Sanjūnana-do ni-bu desu. Honnin wa jūshō da to itte imasu.",
+     "kana": "さんじゅうななどにぶです。ほんにんはじゅうしょうだといっています。",
+     "say": "さんじゅうななどにぶです。本人は重症だと言っています。",
+     "tr": {
+      "en": "Thirty-seven point two. He says it's serious."
+     },
+     "note": "37.2 is sanjūnana-do ni-bu: degrees (do) and tenths (bu). Honnin: the person himself. Jūshō: a serious case. … to itte imasu: he says that…"
+    },
+    {
+     "who": "P",
+     "romaji": "Arerugī wa arimasu ka?",
+     "kana": "アレルギーはありますか？",
+     "tr": {
+      "en": "Does he have any allergies?"
+     },
+     "note": "Arerugī: an allergy, from the German Allergie."
+    },
+    {
+     "who": "E",
+     "romaji": "Kaji dake desu.",
+     "kana": "かじだけです。",
+     "say": "家事だけです。",
+     "tr": {
+      "en": "Only to housework."
+     },
+     "note": "Kaji: housework. Dake: only. He is not really allergic: he doesn't like doing it."
+    }
+   ]
+  },
+  {
+   "title": "Kusuri no nomikata",
+   "lines": [
+    {
+     "who": "P",
+     "romaji": "Kono sekidome wa, asa to yoru ni nonde kudasai.",
+     "kana": "このせきどめは、あさとよるにのんでください。",
+     "say": "この咳止めは、朝と夜に飲んでください。",
+     "tr": {
+      "en": "Take this cough medicine in the morning and at night."
+     },
+     "note": "Sekidome: cough medicine (seki + tomeru, to stop). Nonde kudasai: please take it."
+    },
+    {
+     "who": "E",
+     "romaji": "Wakarimashita. Jōzai wa?",
+     "kana": "わかりました。じょうざいは？",
+     "say": "わかりました。錠剤は？",
+     "tr": {
+      "en": "I see. And the tablets?"
+     },
+     "note": "Jōzai: tablets. … wa? with a rising voice: and…?"
+    },
+    {
+     "who": "P",
+     "romaji": "Ichi-nichi san-kai, shokugo ni ichi-jō desu.",
+     "kana": "いちにちさんかい、しょくごにいちじょうです。",
+     "say": "いちにちさんかい、食後にいちじょうです。",
+     "tr": {
+      "en": "One tablet three times a day, after meals."
+     },
+     "note": "Ichi-nichi san-kai: three times a day. Shokugo: after meals; shokuzen: before meals. Jō counts tablets."
+    },
+    {
+     "who": "E",
+     "romaji": "Nan-nichi kurai nomimasu ka?",
+     "kana": "なんにちくらいのみますか？",
+     "say": "なんにちくらい飲みますか？",
+     "tr": {
+      "en": "For about how many days?"
+     },
+     "note": "Nan-nichi: how many days. Kurai: about."
+    },
+    {
+     "who": "P",
+     "romaji": "Itsuka-kan made desu. Yoku naranakereba, byōin ni itte kudasai.",
+     "kana": "いつかかんまでです。よくならなければ、びょういんにいってください。",
+     "say": "いつかかんまでです。良くならなければ、病院に行ってください。",
+     "tr": {
+      "en": "Up to five days. If he doesn't get better, he should go to the doctor."
+     },
+     "note": "Itsuka-kan: five days. Made: up to. Yoku naranakereba: if he doesn't get better. Byōin: a hospital or a doctor's office."
+    },
+    {
+     "who": "E",
+     "romaji": "Shohōsen wa irimasu ka?",
+     "kana": "しょほうせんはいりますか？",
+     "say": "処方箋はいりますか？",
+     "tr": {
+      "en": "Do I need a prescription?"
+     },
+     "note": "Irimasu: is needed. Irimasen: is not needed."
+    },
+    {
+     "who": "P",
+     "romaji": "Iie, irimasen. Sen nihyaku en desu.",
+     "kana": "いいえ、いりません。せんにひゃくえんです。",
+     "tr": {
+      "en": "No, you don't. That's 1,200 yen."
+     },
+     "note": "Sen nihyaku en: 1,200 yen."
+    },
+    {
+     "who": "E",
+     "romaji": "Kādo de onegai shimasu.",
+     "kana": "カードでおねがいします。",
+     "say": "カードでお願いします。",
+     "tr": {
+      "en": "By card, please."
+     },
+     "note": "… de onegai shimasu: with…, please. In cash: genkin de."
+    }
+   ]
+  },
+  {
+   "title": "Tadaima",
+   "lines": [
+    {
+     "who": "R",
+     "romaji": "Dō datta? Nan te itteta?",
+     "kana": "どうだった？なんていってた？",
+     "say": "どうだった？何て言ってた？",
+     "tr": {
+      "en": "How did it go? What did they say?"
+     },
+     "note": "Dō datta?: how was it? Nan te itteta?: the casual form of nan to itte imashita ka."
+    },
+    {
+     "who": "E",
+     "romaji": "Jōzai wa ichi-nichi san-kai, sekidome wa asa to yoru.",
+     "kana": "じょうざいはいちにちさんかい、せきどめはあさとよる。",
+     "say": "錠剤はいちにちさんかい、咳止めは朝と夜。",
+     "tr": {
+      "en": "The tablets three times a day, the cough medicine morning and night."
+     },
+     "note": "Wa marks each topic: as for the tablets…, as for the cough medicine…"
+    },
+    {
+     "who": "R",
+     "romaji": "Itsu made nete ireba ii?",
+     "kana": "いつまでねていればいい？",
+     "say": "いつまで寝ていればいい？",
+     "tr": {
+      "en": "How long should I stay in bed?"
+     },
+     "note": "Itsu made: until when. Nete iru: to be lying down. … ba ii?: should I…?"
+    },
+    {
+     "who": "E",
+     "romaji": "Konban kara sara-arai shite ii tte.",
+     "kana": "こんばんからさらあらいしていいって。",
+     "say": "今晩から皿洗いしていいって。",
+     "tr": {
+      "en": "They said you can do the dishes from tonight."
+     },
+     "note": "Konban kara: from tonight. Sara-arai: washing the dishes. Shite ii: you may do it. Tte: they said, a casual quotation."
+    },
+    {
+     "who": "R",
+     "romaji": "Hontō ni sō itta no?",
+     "kana": "ほんとうにそういったの？",
+     "say": "本当にそう言ったの？",
+     "tr": {
+      "en": "They really said that?"
+     },
+     "note": "Hontō ni: really. Sō itta: said so."
+    },
+    {
+     "who": "E",
+     "romaji": "Hako ni kaite aru yo.",
+     "kana": "はこにかいてあるよ。",
+     "say": "箱に書いてあるよ。",
+     "tr": {
+      "en": "It's written on the box."
+     },
+     "note": "Hako: a box. Kaite aru: it is written. She is joking."
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Asking at the pharmacy: kazegusuri ga hoshii n desu ga (I'd like some cold medicine).",
+  "Symptoms: nodo ga itai, atama ga itai; hanamizu ga deru, seki ga deru; netsu ga aru.",
+  "The pharmacist's polite questions: Donata ga nomaremasu ka? Donna shōjō desu ka? Netsu wa arimasu ka? Arerugī wa arimasu ka?",
+  "Medicine is drunk: kusuri o nomu. Ichi-nichi san-kai, shokugo ni ichi-jō: one tablet three times a day, after meals. Asa to yoru: morning and night.",
+  "Shohōsen: a prescription. Irimasu ka? (is it needed?) Iie, irimasen (no, it isn't).",
+  "Numbers: 37.2 is sanjūnana-do ni-bu; 1,200 yen is sen nihyaku en. Paying: kādo de, genkin de.",
+  "Reporting words: … to itte imasu (he says that…), casual … tte (they said…)."
+ ],
+ "questions": [
+  {
+   "q": "How does Emi ask for cold medicine?",
+   "options": [
+    "Kazegusuri ga hoshii n desu ga.",
+    "Kaze ga hoshii n desu ga.",
+    "Kazegusuri wa irimasen."
+   ],
+   "answer": 0,
+   "why": "Kazegusuri: cold medicine. … ga hoshii n desu ga: I'd like…"
+  },
+  {
+   "q": "What does Emi say about Riku's symptoms?",
+   "options": [
+    "Atama dake ga itai.",
+    "Hanamizu to seki ga dete, monku mo ōi.",
+    "Netsu wa arimasen."
+   ],
+   "answer": 1,
+   "why": "A runny nose and a cough, and a lot of complaints."
+  },
+  {
+   "q": "How does Riku take the tablets?",
+   "options": [
+    "Asa to yoru",
+    "Ichi-nichi san-kai, shokugo ni",
+    "Ichi-nichi ik-kai, shokuzen ni"
+   ],
+   "answer": 1,
+   "why": "The cough medicine is asa to yoru; the tablets: ichi-nichi san-kai, shokugo ni ichi-jō."
+  },
+  {
+   "q": "Does Emi need a prescription?",
+   "options": [
+    "Hai, irimasu.",
+    "Iie, irimasen.",
+    "Byōin de moraimasu."
+   ],
+   "answer": 1,
+   "why": "Iie, irimasen: no, it isn't needed."
+  },
+  {
+   "q": "Is Riku really allergic to housework?",
+   "options": [
+    "Yes: kaji o suru to seki ga deru.",
+    "No. Emi means he doesn't like doing it.",
+    "Yes: the pharmacist says so."
+   ],
+   "answer": 1,
+   "why": "Kaji dake desu: Emi is joking."
+  }
+ ]
+}

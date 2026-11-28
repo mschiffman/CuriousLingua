@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/compliments.html",
  "aud_dir": "eng/expressions/compliments/",
@@ -37,6 +39,16 @@
        "Tu es superbe !",
        "Amical et sans risque. On dit aussi : You look nice today!",
        "Tu es superbe ! C'est une nouvelle chemise ?"
+      ],
+      "hi": [
+       "आप बहुत अच्छे लग रहे हैं!",
+       "दोस्ताना और सुरक्षित। यह भी: You look nice today!",
+       "तुम बहुत अच्छे लग रहे हो! यह नई क़मीज़ है?"
+      ],
+      "vi": [
+       "Trông bạn tuyệt lắm!",
+       "Thân thiện và an toàn. Cũng có: You look nice today!",
+       "Trông bạn tuyệt lắm! Áo mới à?"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "J'adore ta robe !",
        "Love veut dire ici j'aime beaucoup. Très courant pour les vêtements, les sacs, les chaussures.",
        "J'adore ton sac ! Il est très joli."
+      ],
+      "hi": [
+       "मुझे आपकी <span class=gray>ड्रेस</span> बहुत पसंद आई!",
+       "यहाँ love का मतलब है बहुत पसंद आना। कपड़ों, बैग और जूतों के लिए बहुत आम।",
+       "मुझे तुम्हारा बैग बहुत पसंद आया! कितना सुंदर है।"
+      ],
+      "vi": [
+       "Mình thích <span class=gray>cái váy</span> của bạn quá!",
+       "Love ở đây nghĩa là rất thích. Rất hay dùng cho quần áo, túi xách, giày dép.",
+       "Mình thích cái túi của bạn quá! Xinh thật."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Cette couleur te va vraiment bien.",
        "Suits you veut dire te va bien. Orthographe américaine : color.",
        "Le bleu te va vraiment bien."
+      ],
+      "hi": [
+       "यह रंग आप पर बहुत जँचता है।",
+       "Suits you का मतलब है आप पर जँचता है। अमेरिकी वर्तनी: color.",
+       "नीला रंग तुम पर बहुत जँचता है।"
+      ],
+      "vi": [
+       "Màu đó rất hợp với bạn.",
+       "Suits you nghĩa là hợp với bạn. Cách viết kiểu Mỹ: color.",
+       "Màu xanh rất hợp với bạn."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Jolie coupe !",
        "Court et amical. Les gens remarquent une nouvelle coupe et le disent.",
        "Jolie coupe ! Tu l'as faite quand ?"
+      ],
+      "hi": [
+       "बाल अच्छे कटे हैं!",
+       "छोटा और दोस्ताना। लोग नया हेयरकट देखते हैं और कह देते हैं।",
+       "बाल अच्छे कटे हैं! कब कटवाए?"
+      ],
+      "vi": [
+       "Tóc mới đẹp đấy!",
+       "Ngắn gọn và thân thiện. Mọi người để ý thấy kiểu tóc mới và nói ra.",
+       "Tóc mới đẹp đấy! Bạn cắt hôm nào thế?"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Tu l'as trouvé où ?",
        "Un compliment sous forme de question : il me plaît tant que j'en veux un aussi.",
        "Ta montre est magnifique. Tu l'as trouvée où ?"
+      ],
+      "hi": [
+       "यह कहाँ से लिया?",
+       "सवाल के रूप में तारीफ़: मुझे इतना पसंद आया कि मैं भी ऐसा ही लेना चाहता हूँ।",
+       "तुम्हारी घड़ी बहुत सुंदर है। कहाँ से ली?"
+      ],
+      "vi": [
+       "Bạn mua ở đâu thế?",
+       "Một lời khen dưới dạng câu hỏi: mình thích đến mức muốn có một cái y như vậy.",
+       "Đồng hồ của bạn đẹp quá. Bạn mua ở đâu thế?"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Allure et vêtements",
      "Dire quelque chose de gentil sur l'allure de quelqu'un ou sur ce qu'il porte."
+    ],
+    "hi": [
+     "रूप और कपड़े",
+     "किसी के दिखने या पहनावे के बारे में कुछ अच्छा कहना।"
+    ],
+    "vi": [
+     "Ngoại hình và quần áo",
+     "Nói điều dễ thương về vẻ ngoài hay trang phục của ai đó."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Bravo !",
        "Après que quelqu'un a bien fait quelque chose. On dit aussi : Good job! Nice work!",
        "Tu as nettoyé toute la pièce ? Bravo !"
+      ],
+      "hi": [
+       "बहुत बढ़िया काम!",
+       "जब कोई कुछ अच्छा कर ले, उसके बाद। यह भी: Good job! Nice work!",
+       "तुमने पूरा कमरा साफ़ कर दिया? बहुत बढ़िया काम!"
+      ],
+      "vi": [
+       "Làm tốt lắm!",
+       "Sau khi ai đó làm tốt việc gì. Cũng có: Good job! Nice work!",
+       "Bạn dọn cả căn phòng rồi à? Làm tốt lắm!"
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Tu es tellement doué en dessin !",
        "Good at + nom ou -ing : good at maths, good at singing.",
        "Tu es tellement doué au foot !"
+      ],
+      "hi": [
+       "तुम <span class=gray>चित्र बनाने</span> में बहुत अच्छे हो!",
+       "Good at + संज्ञा या -ing: good at maths, good at singing.",
+       "तुम फ़ुटबॉल में बहुत अच्छे हो!"
+      ],
+      "vi": [
+       "Bạn <span class=gray>vẽ</span> giỏi quá!",
+       "Good at + danh từ hoặc -ing: good at maths, good at singing.",
+       "Bạn đá bóng giỏi quá!"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Tu apprends vite.",
        "Félicite quelqu'un pour sa rapidité à apprendre du nouveau.",
        "Tu sais déjà faire du vélo ? Tu apprends vite !"
+      ],
+      "hi": [
+       "तुम जल्दी सीख लेते हो।",
+       "इस बात की तारीफ़ कि कोई नई चीज़ कितनी जल्दी सीख लेता है।",
+       "तुम साइकिल चलाना सीख भी गए? तुम जल्दी सीख लेते हो!"
+      ],
+      "vi": [
+       "Bạn học nhanh thật.",
+       "Khen ai đó học điều mới rất nhanh.",
+       "Bạn đi được xe đạp rồi à? Bạn học nhanh thật!"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Ton anglais est vraiment bon !",
        "Vous l'entendrez peut-être souvent. La meilleure réponse est un simple Thank you!",
        "Ton anglais est vraiment bon ! Où l'as-tu appris ?"
+      ],
+      "hi": [
+       "आपकी अंग्रेज़ी सच में अच्छी है!",
+       "शायद आप इसे अक्सर सुनें। सबसे अच्छा जवाब सीधा-सा Thank you! है।",
+       "आपकी अंग्रेज़ी सच में अच्छी है! आपने कहाँ सीखी?"
+      ],
+      "vi": [
+       "Tiếng Anh của bạn giỏi thật đấy!",
+       "Có thể bạn sẽ nghe câu này nhiều. Câu trả lời hay nhất là một tiếng Thank you! đơn giản.",
+       "Tiếng Anh của bạn giỏi thật đấy! Bạn học ở đâu vậy?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Comment as-tu fait ça ?",
        "Dit avec surprise, c'est un compliment : c'était incroyable.",
        "Ouah, quel beau dessin. Comment as-tu fait ça ?"
+      ],
+      "hi": [
+       "यह तुमने कैसे किया?",
+       "हैरानी से कहने पर यह तारीफ़ है: यह तो कमाल था।",
+       "वाह, कितना सुंदर चित्र है। यह तुमने कैसे बनाया?"
+      ],
+      "vi": [
+       "Bạn làm thế nào vậy?",
+       "Nói với vẻ ngạc nhiên thì đây là một lời khen: giỏi quá đi mất.",
+       "Chà, bức tranh đẹp quá. Bạn làm thế nào vậy?"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Talents et travail",
      "Complimenter ce que quelqu'un sait faire ou a réalisé."
+    ],
+    "hi": [
+     "हुनर और काम",
+     "किसी के हुनर या उसकी बनाई चीज़ की तारीफ़।"
+    ],
+    "vi": [
+     "Tài năng và công việc",
+     "Khen điều ai đó làm được hoặc làm ra."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "C'est délicieux !",
        "Ce qu'un invité peut dire de mieux sur un plat. On dit aussi : This is so good!",
        "Mmm, ce curry est délicieux !"
+      ],
+      "hi": [
+       "यह बहुत स्वादिष्ट है!",
+       "खाने के बारे में मेहमान की सबसे अच्छी बात। यह भी: This is so good!",
+       "म्म्म, यह करी बहुत स्वादिष्ट है!"
+      ],
+      "vi": [
+       "Ngon tuyệt!",
+       "Điều tuyệt nhất một vị khách có thể nói về món ăn. Cũng có: This is so good!",
+       "Ừm, món cà ri này ngon tuyệt!"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Tu cuisines vraiment bien !",
        "Complimente la personne, pas seulement le plat.",
        "Merci pour le dîner. Tu cuisines vraiment bien !"
+      ],
+      "hi": [
+       "आप बहुत अच्छा खाना बनाते हैं!",
+       "सिर्फ़ खाने की नहीं, व्यक्ति की तारीफ़।",
+       "डिनर के लिए धन्यवाद। आप बहुत अच्छा खाना बनाते हैं!"
+      ],
+      "vi": [
+       "Bạn nấu ăn giỏi quá!",
+       "Khen người nấu, không chỉ khen món ăn.",
+       "Cảm ơn vì bữa tối. Bạn nấu ăn giỏi quá!"
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Quelle jolie maison !",
        "Les premiers mots d'un invité en arrivant. What a + adjectif + nom.",
        "Merci de nous avoir invités. Quelle jolie maison !"
+      ],
+      "hi": [
+       "कितना प्यारा घर है!",
+       "पहुँचते ही मेहमान के पहले शब्द। What a + विशेषण + संज्ञा।",
+       "हमें बुलाने के लिए धन्यवाद। कितना प्यारा घर है!"
+      ],
+      "vi": [
+       "Nhà đẹp quá!",
+       "Những lời đầu tiên của khách khi đến nơi. What a + tính từ + danh từ.",
+       "Cảm ơn đã mời bọn mình. Nhà đẹp quá!"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Ton jardin est magnifique.",
        "Pour un jardin, des fleurs, des plantes. On dit aussi : Your flowers are beautiful!",
        "Ton jardin est magnifique. C'est toi qui as tout planté ?"
+      ],
+      "hi": [
+       "आपका बग़ीचा बहुत सुंदर है।",
+       "बग़ीचे, फूलों और पौधों के लिए। यह भी: Your flowers are beautiful!",
+       "आपका बग़ीचा बहुत सुंदर है। ये सब आपने लगाए हैं?"
+      ],
+      "vi": [
+       "Vườn nhà bạn đẹp quá.",
+       "Dùng cho khu vườn, hoa, cây cối. Cũng có: Your flowers are beautiful!",
+       "Vườn nhà bạn đẹp quá. Bạn tự trồng hết à?"
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Belle photo !",
        "Courant dans les messages et en ligne. On dit aussi : Great picture!",
        "Belle photo ! Elle a été prise où ?"
+      ],
+      "hi": [
+       "बढ़िया फ़ोटो!",
+       "संदेशों और इंटरनेट पर आम। यह भी: Great picture!",
+       "बढ़िया फ़ोटो! कहाँ खींची गई?"
+      ],
+      "vi": [
+       "Ảnh đẹp đấy!",
+       "Hay gặp trong tin nhắn và trên mạng. Cũng có: Great picture!",
+       "Ảnh đẹp đấy! Chụp ở đâu vậy?"
       ]
      }
     ]
@@ -349,6 +517,14 @@
     "fr": [
      "Cuisine, maisons et objets",
      "Ce que disent les invités à propos d'un plat, d'une maison ou d'un objet fait main."
+    ],
+    "hi": [
+     "खाना, घर और चीज़ें",
+     "मेहमान खाने, घर या किसी की बनाई चीज़ के बारे में क्या कहते हैं।"
+    ],
+    "vi": [
+     "Đồ ăn, nhà cửa và đồ vật",
+     "Những câu khách hay nói về món ăn, ngôi nhà, hoặc thứ ai đó làm ra."
     ]
    }
   },
@@ -373,6 +549,16 @@
        "Tu es tellement gentil.",
        "Quand quelqu'un fait quelque chose de bien pour vous ou pour d'autres.",
        "Tu as aidé ce vieux monsieur avec ses sacs. Tu es tellement gentil."
+      ],
+      "hi": [
+       "आप बहुत भले हैं।",
+       "जब कोई आपके लिए या दूसरों के लिए कुछ अच्छा करे।",
+       "तुमने उन बुज़ुर्ग के थैले उठाने में मदद की। तुम बहुत भले हो।"
+      ],
+      "vi": [
+       "Bạn tốt bụng quá.",
+       "Khi ai đó làm điều tốt cho bạn hoặc cho người khác.",
+       "Bạn đã giúp ông cụ xách túi. Bạn tốt bụng quá."
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Tu es vraiment drôle !",
        "Vous faites rire les gens. Funny veut dire qui fait rire ; fun veut dire amusant, agréable.",
        "Ha ha ! Tu es vraiment drôle !"
+      ],
+      "hi": [
+       "तुम सच में बहुत मज़ाक़िया हो!",
+       "आप लोगों को हँसाते हैं। Funny का मतलब है हँसाने वाला; fun का मतलब है मज़ेदार, जिसके साथ अच्छा लगे।",
+       "हा हा! तुम सच में बहुत मज़ाक़िया हो!"
+      ],
+      "vi": [
+       "Bạn hài hước thật!",
+       "Bạn làm mọi người cười. Funny là gây cười; fun là vui, dễ chịu.",
+       "Ha ha! Bạn hài hước thật!"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Tu es un bon ami.",
        "Remercie quelqu'un d'être là pour vous.",
        "Merci de m'avoir écouté. Tu es un bon ami."
+      ],
+      "hi": [
+       "तुम एक अच्छे दोस्त हो।",
+       "किसी को इस बात का धन्यवाद कि वह आपके साथ खड़ा रहता है।",
+       "मेरी बात सुनने के लिए शुक्रिया। तुम एक अच्छे दोस्त हो।"
+      ],
+      "vi": [
+       "Bạn là một người bạn tốt.",
+       "Cảm ơn ai đó vì đã luôn ở bên bạn.",
+       "Cảm ơn đã lắng nghe. Bạn là một người bạn tốt."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Tu me fais toujours sourire.",
        "Chaleureux et personnel : pour la famille et les amis proches.",
        "Merci pour la carte. Tu me fais toujours sourire."
+      ],
+      "hi": [
+       "तुम हमेशा मेरे चेहरे पर मुस्कान ले आते हो।",
+       "आत्मीय और निजी: परिवार और क़रीबी दोस्तों के लिए।",
+       "कार्ड के लिए शुक्रिया। तुम हमेशा मेरे चेहरे पर मुस्कान ले आते हो।"
+      ],
+      "vi": [
+       "Bạn luôn làm mình mỉm cười.",
+       "Ấm áp và thân tình: dành cho gia đình và bạn thân.",
+       "Cảm ơn vì tấm thiệp. Bạn luôn làm mình mỉm cười."
       ]
      }
     ]
@@ -442,6 +658,14 @@
     "fr": [
      "La personne elle-même",
      "Les plus beaux compliments portent sur la personne, pas sur ses affaires."
+    ],
+    "hi": [
+     "इंसान कैसा है",
+     "सबसे प्यारी तारीफ़ें व्यक्ति के बारे में होती हैं, उसकी चीज़ों के बारे में नहीं।"
+    ],
+    "vi": [
+     "Con người",
+     "Lời khen dễ thương nhất là về con người, không phải về đồ đạc của họ."
     ]
    }
   },
@@ -466,6 +690,16 @@
        "Merci, c'est gentil de dire ça.",
        "Une façon chaleureuse et modeste d'accepter un compliment.",
        "— Ton discours était excellent. — Merci, c'est gentil de dire ça."
+      ],
+      "hi": [
+       "शुक्रिया, आपने कहा तो अच्छा लगा।",
+       "तारीफ़ स्वीकार करने का आत्मीय और विनम्र तरीक़ा।",
+       "— आपका भाषण बहुत बढ़िया था। — शुक्रिया, आपने कहा तो अच्छा लगा।"
+      ],
+      "vi": [
+       "Cảm ơn, bạn nói vậy mình vui lắm.",
+       "Một cách ấm áp và khiêm tốn để nhận lời khen.",
+       "— Bài phát biểu của bạn xuất sắc. — Cảm ơn, bạn nói vậy mình vui lắm."
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Je suis content que ça te plaise.",
        "Quand quelqu'un complimente ce que vous avez fabriqué, cuisiné ou offert.",
        "— Ce gâteau est incroyable ! — Je suis content que ça te plaise."
+      ],
+      "hi": [
+       "ख़ुशी है कि आपको पसंद आया।",
+       "जब कोई उस चीज़ की तारीफ़ करे जो आपने बनाई, पकाई या तोहफ़े में दी।",
+       "— यह केक लाजवाब है! — ख़ुशी है कि आपको पसंद आया।"
+      ],
+      "vi": [
+       "Mình mừng là bạn thích.",
+       "Khi ai đó khen thứ bạn làm, nấu hoặc tặng.",
+       "— Bánh này ngon tuyệt! — Mình mừng là bạn thích."
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "Vous êtes trop aimable.",
        "Modeste et un peu formel : vous êtes très généreux avec moi.",
        "— Vous êtes le meilleur professeur de l'école. — Oh, vous êtes trop aimable."
+      ],
+      "hi": [
+       "यह तो आपका बड़प्पन है।",
+       "विनम्र और थोड़ा औपचारिक: आप मेरे साथ बहुत उदार हो रहे हैं।",
+       "— आप स्कूल के सबसे अच्छे शिक्षक हैं। — अरे, यह तो आपका बड़प्पन है।"
+      ],
+      "vi": [
+       "Bạn quá khen rồi.",
+       "Khiêm tốn và hơi trang trọng: bạn đang quá rộng rãi với tôi.",
+       "— Thầy là giáo viên giỏi nhất trường. — Ồ, em quá khen rồi."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Merci ! J'aime bien les tiennes aussi.",
        "Retourne le compliment, s'il est sincère.",
        "— Jolies chaussures ! — Merci ! J'aime bien les tiennes aussi."
+      ],
+      "hi": [
+       "शुक्रिया! मुझे आपके भी पसंद हैं।",
+       "तारीफ़ लौटा देता है, अगर सच्ची हो।",
+       "— जूते अच्छे हैं! — शुक्रिया! मुझे तुम्हारे भी पसंद हैं।"
+      ],
+      "vi": [
+       "Cảm ơn! Mình cũng thích của bạn.",
+       "Khen lại, nếu thật lòng.",
+       "— Giày đẹp đấy! — Cảm ơn! Mình cũng thích giày của bạn."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Oh, ça n'a rien de spécial.",
        "Attention : refuser un compliment par politesse peut, en anglais, donner l'impression que vous n'êtes pas d'accord. Un simple Thank you! vaut en général mieux.",
        "— Ta maison est magnifique ! — Merci ! (Mieux que : Oh, it's nothing special.)"
+      ],
+      "hi": [
+       "अरे, इसमें कुछ ख़ास नहीं।",
+       "ध्यान रहे: शिष्टाचार में तारीफ़ को टाल देना अंग्रेज़ी में ऐसा लग सकता है कि आप उनसे सहमत नहीं हैं। सीधा-सा Thank you! अक्सर बेहतर है।",
+       "— आपका घर कितना सुंदर है! — धन्यवाद! (यह Oh, it's nothing special. से बेहतर है।)"
+      ],
+      "vi": [
+       "Ôi, có gì đặc biệt đâu.",
+       "Cẩn thận: từ chối lời khen cho phải phép thì, trong tiếng Anh, có thể nghe như bạn không đồng ý với họ. Một tiếng Thank you! đơn giản thường tốt hơn.",
+       "— Nhà bạn đẹp quá! — Cảm ơn! (Tốt hơn là nói: Oh, it's nothing special.)"
       ]
      }
     ]
@@ -554,6 +828,14 @@
     "fr": [
      "Répondre à un compliment",
      "En anglais, on répond d'ordinaire à un compliment en l'acceptant avec un merci."
+    ],
+    "hi": [
+     "तारीफ़ का जवाब",
+     "अंग्रेज़ी में तारीफ़ का आम जवाब है उसे धन्यवाद के साथ स्वीकार कर लेना।"
+    ],
+    "vi": [
+     "Đáp lại lời khen",
+     "Trong tiếng Anh, cách đáp lại lời khen thông thường là nhận nó với một lời cảm ơn."
     ]
    }
   }

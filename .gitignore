@@ -1,7 +1,9 @@
 # audio lives on R2; media/ is the local copy
 media/
 # generated offline copies and caches
-*/single/
+*/single/*
+# ...but a grammar chapter's one-file copy is published: its page has a Download button for it
+!*/single/grammar__g[0-9]*.html
 .build_cache/
 __pycache__/
 # working folders

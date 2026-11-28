@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/opinion.html",
  "aud_dir": "eng/expressions/opinion/",
@@ -37,6 +39,16 @@
        "Je trouve que c'est bien.",
        "La façon courante de donner un avis : courte et douce. Aussi pour les suppositions : I think it's going to rain.",
        "Je trouve que le bleu rend mieux."
+      ],
+      "hi": [
+       "मुझे लगता है <span class=gray>यह अच्छा है</span>।",
+       "राय देने का रोज़मर्रा का तरीक़ा: छोटा और नरम। अंदाज़ों के लिए भी: I think it's going to rain.",
+       "मुझे लगता है नीला वाला ज़्यादा अच्छा लग रहा है।"
+      ],
+      "vi": [
+       "Mình nghĩ <span class=gray>nó tốt</span>.",
+       "Cách nêu ý kiến hằng ngày: ngắn gọn và nhẹ nhàng. Cũng dùng để phỏng đoán: I think it's going to rain.",
+       "Mình nghĩ cái màu xanh trông đẹp hơn."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "À mon avis, c'est trop long.",
        "Plus formel : bien pour l'école, les réunions et l'écrit. Dans la conversation courante, I think est plus naturel.",
        "À mon avis, les enfants devraient commencer l'anglais tôt."
+      ],
+      "hi": [
+       "मेरी राय में, <span class=gray>यह बहुत लंबा है</span>।",
+       "ज़्यादा औपचारिक: स्कूल, बैठकों और लिखने के लिए अच्छा। रोज़ की बोलचाल में I think ज़्यादा सहज है।",
+       "मेरी राय में, बच्चों को अंग्रेज़ी जल्दी सीखना शुरू कर देना चाहिए।"
+      ],
+      "vi": [
+       "Theo ý tôi, <span class=gray>nó dài quá</span>.",
+       "Trang trọng hơn: hợp với trường học, cuộc họp và bài viết. Trong lời nói hằng ngày, I think tự nhiên hơn.",
+       "Theo ý tôi, trẻ em nên bắt đầu học tiếng Anh sớm."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Pour moi, c'est trop épicé.",
        "Dit que c'est vrai pour vous, peut-être pas pour les autres. Employez For me ou I think, pas les deux : For me, I think… le dit deux fois.",
        "Pour moi, le matin est le meilleur moment pour étudier."
+      ],
+      "hi": [
+       "मेरे लिए, <span class=gray>यह बहुत तीखा है</span>।",
+       "कहता है कि यह आपके लिए सच है, शायद दूसरों के लिए नहीं। For me या I think में से एक लगाइए, दोनों नहीं: For me, I think… में बात दो बार कही जाती है।",
+       "मेरे लिए, पढ़ने का सबसे अच्छा समय सुबह है।"
+      ],
+      "vi": [
+       "Với mình, <span class=gray>nó cay quá</span>.",
+       "Nói rằng điều đó đúng với bạn, có thể không đúng với người khác. Dùng For me hoặc I think, đừng dùng cả hai: For me, I think… là nói hai lần.",
+       "Với mình, buổi sáng là lúc học tốt nhất."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "J'ai le sentiment qu'on devrait attendre.",
        "Un avis doux et personnel, souvent sur des personnes ou des situations. Délicat au travail.",
        "J'ai le sentiment qu'il nous faut plus de temps."
+      ],
+      "hi": [
+       "मुझे लगता है <span class=gray>हमें रुकना चाहिए</span>।",
+       "नरम, निजी राय, अक्सर लोगों या हालात के बारे में। काम पर सलीक़े वाली।",
+       "मुझे लगता है हमें और समय चाहिए।"
+      ],
+      "vi": [
+       "Mình cảm thấy <span class=gray>chúng ta nên đợi</span>.",
+       "Một ý kiến nhẹ nhàng, mang tính cá nhân, thường về con người hoặc tình huống. Tế nhị ở chỗ làm.",
+       "Mình cảm thấy chúng ta cần thêm thời gian."
       ]
      }
     ]
@@ -106,6 +148,14 @@
     "fr": [
      "Donner son avis",
      "Des façons simples de dire ce que l'on pense."
+    ],
+    "hi": [
+     "अपनी राय देना",
+     "जो आप सोचते हैं, उसे कहने के सरल तरीक़े।"
+    ],
+    "vi": [
+     "Nêu ý kiến",
+     "Những cách đơn giản để nói điều bạn nghĩ."
     ]
    }
   },
@@ -130,6 +180,16 @@
        "Je ne pense pas qu'il vienne.",
        "Mettez le not sur think : I don't think it's a good idea. C'est plus naturel et plus doux que I think it's not a good idea.",
        "Je ne pense pas que le magasin soit ouvert le dimanche."
+      ],
+      "hi": [
+       "मुझे नहीं लगता कि <span class=gray>वह आएगा</span>।",
+       "not को think के साथ रखिए: I don't think it's a good idea. यह I think it's not a good idea से ज़्यादा सहज और नरम लगता है।",
+       "मुझे नहीं लगता कि दुकान रविवार को खुली रहती है।"
+      ],
+      "vi": [
+       "Mình không nghĩ là <span class=gray>anh ấy sẽ đến</span>.",
+       "Đặt not vào think: I don't think it's a good idea. Nghe tự nhiên và nhẹ nhàng hơn I think it's not a good idea.",
+       "Mình không nghĩ là cửa hàng mở cửa vào Chủ nhật."
       ]
      }
     ],
@@ -149,6 +209,16 @@
        "C'est un peu loin.",
        "A bit fait paraître un problème plus petit. À employer avec des mots négatifs : a bit expensive, a bit far. Pas : a bit good.",
        "C'est joli, mais c'est un peu cher."
+      ],
+      "hi": [
+       "यह थोड़ा <span class=gray>दूर</span> है।",
+       "A bit समस्या को छोटा दिखाता है। नकारात्मक शब्दों के साथ लगाइए: a bit expensive, a bit far. ग़लत: a bit good.",
+       "अच्छा है, पर थोड़ा महँगा है।"
+      ],
+      "vi": [
+       "Hơi <span class=gray>xa</span> một chút.",
+       "A bit làm vấn đề nghe nhỏ đi. Dùng với từ mang nghĩa tiêu cực: a bit expensive, a bit far. Không nói: a bit good.",
+       "Đẹp đấy, nhưng hơi đắt một chút."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Ce n'est pas très bon.",
        "Une façon polie de dire que quelque chose est mauvais : not very good au lieu de bad, not very clean au lieu de dirty.",
        "L'hôtel était correct, mais la chambre n'était pas très propre."
+      ],
+      "hi": [
+       "यह बहुत <span class=gray>अच्छा</span> नहीं है।",
+       "यह कहने का विनम्र तरीक़ा कि कुछ ख़राब है: bad की जगह not very good, dirty की जगह not very clean.",
+       "होटल ठीक था, पर कमरा बहुत साफ़ नहीं था।"
+      ],
+      "vi": [
+       "Không <span class=gray>ngon</span> lắm.",
+       "Cách nói lịch sự rằng thứ gì đó tệ: not very good thay cho bad, not very clean thay cho dirty.",
+       "Khách sạn thì tạm được, nhưng phòng không sạch lắm."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Je ne suis pas sûr que ce soit une bonne idée.",
        "Une façon douce de s'opposer à un projet. Donnez ensuite votre raison.",
        "Je ne suis pas sûr que ce soit une bonne idée. La nuit tombe."
+      ],
+      "hi": [
+       "मुझे नहीं लगता कि यह अच्छा विचार है।",
+       "किसी योजना से असहमत होने का नरम तरीक़ा। फिर अपनी वजह बताइए।",
+       "मुझे नहीं लगता कि यह अच्छा विचार है। अँधेरा हो रहा है।"
+      ],
+      "vi": [
+       "Mình không chắc đó là ý hay.",
+       "Cách nhẹ nhàng để không đồng tình với một kế hoạch. Sau đó nêu lý do của bạn.",
+       "Mình không chắc đó là ý hay. Trời sắp tối rồi."
       ]
      }
     ]
@@ -199,6 +289,14 @@
     "fr": [
      "Avis négatifs adoucis",
      "Dire que quelque chose n'est pas bien, sans paraître impoli."
+    ],
+    "hi": [
+     "नरम नकारात्मक राय",
+     "कहना कि कुछ अच्छा नहीं है, पर रूखे लगे बिना।"
+    ],
+    "vi": [
+     "Ý kiến chê nhẹ nhàng",
+     "Nói rằng thứ gì đó không tốt mà không nghe thô lỗ."
     ]
    }
   },
@@ -223,6 +321,16 @@
        "Je crois que oui.",
        "Un oui adouci. Pas : I think yes.",
        "— Le magasin est ouvert aujourd'hui ? — Je crois que oui."
+      ],
+      "hi": [
+       "मुझे ऐसा लगता है।",
+       "नरम हाँ। ग़लत: I think yes.",
+       "— क्या दुकान आज खुली है? — मुझे ऐसा लगता है।"
+      ],
+      "vi": [
+       "Mình nghĩ là có.",
+       "Một lời “có” nhẹ nhàng. Không nói: I think yes.",
+       "— Hôm nay cửa hàng có mở không? — Mình nghĩ là có."
       ]
      }
     ],
@@ -242,6 +350,16 @@
        "Je ne crois pas.",
        "Un non adouci. Pas : I think no.",
        "— Aung vient ce soir ? — Je ne crois pas. Il travaille."
+      ],
+      "hi": [
+       "मुझे नहीं लगता।",
+       "नरम ना। ग़लत: I think no.",
+       "— क्या Aung आज रात आ रहा है? — मुझे नहीं लगता। उसे काम है।"
+      ],
+      "vi": [
+       "Mình nghĩ là không.",
+       "Một lời “không” nhẹ nhàng. Không nói: I think no.",
+       "— Tối nay Aung có đến không? — Mình nghĩ là không. Bạn ấy phải đi làm."
       ]
      }
     ],
@@ -261,6 +379,16 @@
        "Pas vraiment.",
        "Un non doux et poli. Plus gentil qu'un simple No.",
        "— Tu as aimé le film ? — Pas vraiment. Il était trop long."
+      ],
+      "hi": [
+       "कुछ ख़ास नहीं।",
+       "नरम और विनम्र ना। अकेले No से ज़्यादा भला।",
+       "— तुम्हें फ़िल्म पसंद आई? — कुछ ख़ास नहीं। बहुत लंबी थी।"
+      ],
+      "vi": [
+       "Không hẳn.",
+       "Một lời “không” nhẹ nhàng và lịch sự. Dễ nghe hơn chỉ nói No.",
+       "— Bạn có thích bộ phim không? — Không hẳn. Phim dài quá."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "J'imagine que oui.",
        "Un oui faible : sans enthousiasme, ou sans certitude. Dit lentement, on peut y entendre de la réticence.",
        "— On part maintenant ? — J'imagine que oui. Il se fait tard."
+      ],
+      "hi": [
+       "शायद हाँ।",
+       "कमज़ोर हाँ: बिना जोश के, या पूरा यक़ीन न होने पर। धीरे-धीरे कहने पर बेमन का लग सकता है।",
+       "— क्या हमें अब निकलना चाहिए? — शायद हाँ। देर हो रही है।"
+      ],
+      "vi": [
+       "Chắc vậy.",
+       "Một lời “có” yếu: không hào hứng, hoặc không chắc hẳn. Nói chậm thì có thể nghe như miễn cưỡng.",
+       "— Mình đi bây giờ nhé? — Chắc vậy. Muộn rồi."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Absolument !",
        "Un oui fort et joyeux. On dit aussi : Absolutely!",
        "— Tu viendras à mon mariage ? — Absolument !"
+      ],
+      "hi": [
+       "बिलकुल!",
+       "ज़ोरदार, ख़ुशी भरी हाँ। यह भी: Absolutely!",
+       "— तुम मेरी शादी में आओगे? — बिलकुल!"
+      ],
+      "vi": [
+       "Chắc chắn rồi!",
+       "Một lời “có” mạnh mẽ, vui vẻ. Cũng có: Absolutely!",
+       "— Bạn sẽ đến dự đám cưới của mình chứ? — Chắc chắn rồi!"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Probablement.",
        "Probably, c'est sûr à environ 80 %. Maybe, à environ 50 %.",
        "— Tu rentres chez toi pour Thingyan ? — Probablement."
+      ],
+      "hi": [
+       "शायद, लगभग पक्का।",
+       "Probably का मतलब क़रीब 80% यक़ीन है। Maybe क़रीब 50% है।",
+       "— क्या तुम थिंगयान पर घर जा रहे हो? — शायद, लगभग पक्का।"
+      ],
+      "vi": [
+       "Nhiều khả năng là có.",
+       "Probably là chắc khoảng 80%. Maybe là khoảng 50%.",
+       "— Thingyan này bạn có về quê không? — Nhiều khả năng là có."
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "J'espère que oui.",
        "Vous voulez que la réponse soit oui.",
        "— Il fera beau demain ? — J'espère que oui !"
+      ],
+      "hi": [
+       "उम्मीद तो है।",
+       "आप चाहते हैं कि जवाब हाँ हो।",
+       "— क्या कल धूप निकलेगी? — उम्मीद तो है!"
+      ],
+      "vi": [
+       "Mình hy vọng là có.",
+       "Bạn mong câu trả lời là có.",
+       "— Mai trời có nắng không? — Mình hy vọng là có!"
       ]
      }
     ],
@@ -356,6 +524,16 @@
        "J'espère que non.",
        "Vous voulez que la réponse soit non. Pas : I don't hope so.",
        "— Le contrôle est difficile ? — J'espère que non !"
+      ],
+      "hi": [
+       "उम्मीद है कि नहीं।",
+       "आप चाहते हैं कि जवाब ना हो। ग़लत: I don't hope so.",
+       "— क्या टेस्ट मुश्किल है? — उम्मीद है कि नहीं!"
+      ],
+      "vi": [
+       "Mình hy vọng là không.",
+       "Bạn mong câu trả lời là không. Không nói: I don't hope so.",
+       "— Bài kiểm tra có khó không? — Mình hy vọng là không!"
       ]
      }
     ]
@@ -368,6 +546,14 @@
     "fr": [
      "Réponses courtes",
      "Des réponses rapides aux questions fermées, de definitely à I hope not."
+    ],
+    "hi": [
+     "छोटे जवाब",
+     "हाँ/ना वाले सवालों के झटपट जवाब, definitely से लेकर I hope not तक।"
+    ],
+    "vi": [
+     "Câu trả lời ngắn",
+     "Trả lời nhanh cho câu hỏi có/không, từ definitely đến I hope not."
     ]
    }
   },
@@ -392,6 +578,16 @@
        "Je ne suis pas sûr.",
        "Honnête et poli. Mieux que de deviner quand c'est important.",
        "— À quelle heure ferme la banque ? — Je ne suis pas sûr. Quatre heures, peut-être ?"
+      ],
+      "hi": [
+       "पक्का नहीं कह सकता।",
+       "ईमानदार और विनम्र। जब बात ज़रूरी हो, तो अंदाज़ा लगाने से बेहतर।",
+       "— बैंक कितने बजे बंद होता है? — पक्का नहीं कह सकता। शायद चार बजे?"
+      ],
+      "vi": [
+       "Mình không chắc.",
+       "Thật lòng và lịch sự. Tốt hơn là đoán bừa khi chuyện quan trọng.",
+       "— Mấy giờ ngân hàng đóng cửa? — Mình không chắc. Có lẽ bốn giờ?"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Peut-être.",
        "Une chance sur deux. Attention : en réponse à une invitation, Maybe peut passer pour un non adouci.",
        "— Tu viens à la fête ? — Peut-être. Je te dis ça demain."
+      ],
+      "hi": [
+       "शायद।",
+       "आधा-आधा। ध्यान रहे: निमंत्रण के जवाब में Maybe नरम ना जैसा लग सकता है।",
+       "— क्या तुम पार्टी में आ रहे हो? — शायद। कल बताता हूँ।"
+      ],
+      "vi": [
+       "Có thể.",
+       "Năm mươi năm mươi. Cẩn thận: khi đáp lại một lời mời, Maybe có thể nghe như một lời từ chối khéo.",
+       "— Bạn có đến bữa tiệc không? — Có thể. Mai mình trả lời nhé."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "C'est difficile à dire.",
        "La réponse n'est pas encore claire, ou la question est compliquée.",
        "— Qui va gagner ? — C'est difficile à dire. Les deux équipes sont bonnes."
+      ],
+      "hi": [
+       "कहना मुश्किल है।",
+       "जवाब अभी साफ़ नहीं है, या सवाल पेचीदा है।",
+       "— कौन जीतेगा? — कहना मुश्किल है। दोनों टीमें अच्छी हैं।"
+      ],
+      "vi": [
+       "Khó nói lắm.",
+       "Câu trả lời chưa rõ, hoặc câu hỏi phức tạp.",
+       "— Ai sẽ thắng? — Khó nói lắm. Cả hai đội đều giỏi."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Je n'en ai aucune idée.",
        "Je ne sais pas du tout. Familier et fort : avec un supérieur ou un client, I'm not sure est plus doux.",
        "— Où sont mes clés ? — Je n'en ai aucune idée !"
+      ],
+      "hi": [
+       "मुझे बिलकुल नहीं पता।",
+       "मुझे कुछ भी नहीं मालूम। अनौपचारिक और ज़ोरदार: बॉस या ग्राहक के सामने I'm not sure ज़्यादा नरम है।",
+       "— मेरी चाबियाँ कहाँ हैं? — मुझे बिलकुल नहीं पता!"
+      ],
+      "vi": [
+       "Mình chịu, không biết.",
+       "Mình hoàn toàn không biết gì. Thân mật và mạnh: với sếp hay khách hàng, I'm not sure nhẹ nhàng hơn.",
+       "— Chìa khóa của mình đâu rồi? — Mình chịu, không biết!"
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "Je ne m'y connais pas beaucoup en football.",
        "Dit poliment que vous ne pouvez pas donner un avis éclairé.",
        "Je ne m'y connais pas beaucoup en voitures, désolé."
+      ],
+      "hi": [
+       "मुझे <span class=gray>फ़ुटबॉल</span> की ज़्यादा जानकारी नहीं है।",
+       "विनम्रता से कहता है कि आप कोई ठीक राय नहीं दे सकते।",
+       "माफ़ कीजिए, मुझे गाड़ियों की ज़्यादा जानकारी नहीं है।"
+      ],
+      "vi": [
+       "Mình không rành về <span class=gray>bóng đá</span> lắm.",
+       "Nói một cách lịch sự rằng bạn không thể đưa ra ý kiến xác đáng.",
+       "Xin lỗi, mình không rành về ô tô lắm."
       ]
      }
     ]
@@ -480,6 +716,14 @@
     "fr": [
      "Quand on n'est pas sûr",
      "Des réponses honnêtes quand on ne sait pas, ou que l'on n'arrive pas à se décider."
+    ],
+    "hi": [
+     "जब आपको पक्का न पता हो",
+     "सच्चे जवाब, जब आप जानते न हों या तय न कर पा रहे हों।"
+    ],
+    "vi": [
+     "Khi bạn không chắc",
+     "Câu trả lời thật lòng khi bạn không biết, hoặc chưa quyết được."
     ]
    }
   },
@@ -504,6 +748,16 @@
        "Qu'en penses-tu ?",
        "Demande l'avis de quelqu'un. Pas : How do you think? En anglais, c'est What.",
        "Je veux peindre la pièce en vert. Qu'en penses-tu ?"
+      ],
+      "hi": [
+       "आपको क्या लगता है?",
+       "किसी की राय पूछता है। ग़लत: How do you think? अंग्रेज़ी में What आता है।",
+       "मैं कमरे को हरा रँगना चाहता हूँ। तुम्हें क्या लगता है?"
+      ],
+      "vi": [
+       "Bạn nghĩ sao?",
+       "Hỏi ý kiến của ai đó. Không nói: How do you think? Tiếng Anh dùng What.",
+       "Mình muốn sơn phòng màu xanh lá. Bạn nghĩ sao?"
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Que penses-tu de cette chanson ?",
        "Porte sur une chose précise. Of et about conviennent tous les deux : What do you think about my idea?",
        "Que penses-tu de ma nouvelle coupe de cheveux ?"
+      ],
+      "hi": [
+       "<span class=gray>यह गाना</span> आपको कैसा लगा?",
+       "किसी एक चीज़ के बारे में पूछता है। of और about दोनों चलते हैं: What do you think about my idea?",
+       "मेरा नया हेयरकट तुम्हें कैसा लगा?"
+      ],
+      "vi": [
+       "Bạn thấy <span class=gray>bài hát này</span> thế nào?",
+       "Hỏi về một thứ cụ thể. Dùng of hay about đều được: What do you think about my idea?",
+       "Bạn thấy kiểu tóc mới của mình thế nào?"
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Tu penses qu'il est trop tard ?",
        "Après Do you think, gardez l'ordre normal des mots : Do you think it will rain? Pas : Do you think will it rain?",
        "Tu penses que le magasin est encore ouvert ?"
+      ],
+      "hi": [
+       "क्या आपको लगता है कि <span class=gray>बहुत देर हो गई है</span>?",
+       "Do you think के बाद शब्दों का सामान्य क्रम रखिए: Do you think it will rain? ग़लत: Do you think will it rain?",
+       "क्या तुम्हें लगता है कि दुकान अब भी खुली होगी?"
+      ],
+      "vi": [
+       "Bạn có nghĩ là <span class=gray>muộn quá rồi</span> không?",
+       "Sau Do you think, dùng trật tự từ bình thường: Do you think it will rain? Không nói: Do you think will it rain?",
+       "Bạn có nghĩ là cửa hàng vẫn còn mở không?"
       ]
      }
     ],
@@ -561,6 +835,16 @@
        "C'était comment, le film ?",
        "Porte sur une expérience passée : un voyage, un film, un repas. Ici, How est correct.",
        "C'était comment, ton voyage à Bagan ?"
+      ],
+      "hi": [
+       "<span class=gray>फ़िल्म</span> कैसी थी?",
+       "बीते हुए किसी अनुभव के बारे में पूछता है: सफ़र, फ़िल्म, खाना। यहाँ How ही आता है।",
+       "तुम्हारी बागान की यात्रा कैसी रही?"
+      ],
+      "vi": [
+       "<span class=gray>Bộ phim</span> thế nào?",
+       "Hỏi về một trải nghiệm đã qua: chuyến đi, bộ phim, bữa ăn. Ở đây thì đúng là dùng How.",
+       "Chuyến đi Bagan của bạn thế nào?"
       ]
      }
     ],
@@ -580,6 +864,16 @@
        "C'est bien ?",
        "Familier : Is it good? Pour un film, un livre, un restaurant.",
        "Je veux lire ce livre. C'est bien ?"
+      ],
+      "hi": [
+       "कुछ अच्छा है क्या?",
+       "अनौपचारिक: Is it good? किसी फ़िल्म, किताब या रेस्तराँ के लिए।",
+       "मैं वह किताब पढ़ना चाहता हूँ। कुछ अच्छी है क्या?"
+      ],
+      "vi": [
+       "Có hay không?",
+       "Thân mật: Is it good? Dùng cho phim, sách, nhà hàng.",
+       "Mình muốn đọc cuốn sách đó. Có hay không?"
       ]
      }
     ]
@@ -592,6 +886,14 @@
     "fr": [
      "Demander un avis",
      "Demander ce que pensent les autres."
+    ],
+    "hi": [
+     "राय पूछना",
+     "पूछना कि दूसरे लोग क्या सोचते हैं।"
+    ],
+    "vi": [
+     "Hỏi ý kiến",
+     "Hỏi xem người khác nghĩ gì."
     ]
    }
   },
@@ -616,6 +918,16 @@
        "C'est vraiment bon.",
        "Un compliment simple. Plus fort : It's excellent! ou It's amazing!",
        "Goûte cette soupe. Elle est vraiment bonne."
+      ],
+      "hi": [
+       "यह सच में अच्छा है।",
+       "सीधी-सादी तारीफ़। ज़्यादा ज़ोरदार: It's excellent! या It's amazing!",
+       "यह सूप चखो। सच में अच्छा है।"
+      ],
+      "vi": [
+       "Ngon thật đấy.",
+       "Một lời khen đơn giản. Mạnh hơn: It's excellent! hoặc It's amazing!",
+       "Thử món canh này đi. Ngon thật đấy."
       ]
      }
     ],
@@ -635,6 +947,16 @@
        "C'est trop petit.",
        "Too veut dire plus que ce que l'on veut : c'est un problème. Pas : This dress is too beautiful. Pour un compliment, employez very ou really.",
        "Je ne peux pas encore le boire. C'est trop chaud."
+      ],
+      "hi": [
+       "यह बहुत ज़्यादा <span class=gray>छोटा</span> है।",
+       "Too का मतलब है जितना आप चाहते हैं उससे ज़्यादा: यानी यह एक समस्या है। ग़लत: This dress is too beautiful. तारीफ़ के लिए very या really लगाइए।",
+       "मैं इसे अभी नहीं पी सकता। बहुत ज़्यादा गरम है।"
+      ],
+      "vi": [
+       "<span class=gray>Nhỏ</span> quá.",
+       "Too nghĩa là nhiều hơn mức bạn muốn: đó là một vấn đề. Không nói: This dress is too beautiful. Muốn khen thì dùng very hoặc really.",
+       "Mình chưa uống được. Nóng quá."
       ]
      }
     ],
@@ -654,6 +976,16 @@
        "Ce n'est pas assez chaud.",
        "Moins que ce qu'il faut. Enough se place après le mot : big enough. Pas : enough big.",
        "Ce sac n'est pas assez grand pour toutes mes affaires."
+      ],
+      "hi": [
+       "यह उतना <span class=gray>गरम</span> नहीं है जितना चाहिए।",
+       "जितना चाहिए उससे कम। Enough शब्द के बाद आता है: big enough. ग़लत: enough big.",
+       "यह बैग मेरे सारे सामान के लिए काफ़ी बड़ा नहीं है।"
+      ],
+      "vi": [
+       "Chưa đủ <span class=gray>ấm</span>.",
+       "Ít hơn mức bạn cần. Enough đứng sau tính từ: big enough. Không nói: enough big.",
+       "Cái túi này không đủ to để đựng hết đồ của mình."
       ]
      }
     ],
@@ -673,6 +1005,16 @@
        "C'est mieux qu'avant.",
        "Better, pas more good. Le contraire : worse than.",
        "Le nouveau téléphone est meilleur que l'ancien."
+      ],
+      "hi": [
+       "यह <span class=gray>पहले</span> से बेहतर है।",
+       "Better, more good नहीं। उलटा: worse than.",
+       "नया फ़ोन मेरे पुराने वाले से बेहतर है।"
+      ],
+      "vi": [
+       "Tốt hơn <span class=gray>trước</span>.",
+       "Better, không phải more good. Trái nghĩa: worse than.",
+       "Điện thoại mới tốt hơn cái cũ của mình."
       ]
      }
     ],
@@ -692,6 +1034,16 @@
        "Ça vaut le coup.",
        "Cela mérite l'argent, le temps ou l'effort.",
        "Le billet est cher, mais ça vaut le coup."
+      ],
+      "hi": [
+       "यह इसके लायक़ है।",
+       "पैसे, समय या मेहनत के हिसाब से ठीक सौदा।",
+       "टिकट महँगा है, पर इसके लायक़ है।"
+      ],
+      "vi": [
+       "Đáng lắm.",
+       "Xứng với tiền bạc, thời gian hay công sức bỏ ra.",
+       "Vé đắt, nhưng đáng lắm."
       ]
      }
     ],
@@ -711,6 +1063,16 @@
        "Ça ne vaut pas le coup.",
        "Cela ne le mérite pas : trop d'argent, de temps ou d'effort pour ce que l'on obtient.",
        "Ne prends pas de taxi. Ça ne vaut pas le coup, la gare est tout près."
+      ],
+      "hi": [
+       "यह इसके लायक़ नहीं है।",
+       "फ़ायदे का सौदा नहीं: जो मिलता है उसके मुक़ाबले पैसा, समय या मेहनत बहुत ज़्यादा।",
+       "टैक्सी मत लो। इसके लायक़ नहीं है, स्टेशन पास ही है।"
+      ],
+      "vi": [
+       "Không đáng đâu.",
+       "Không bõ: tốn quá nhiều tiền, thời gian hay công sức so với thứ nhận được.",
+       "Đừng đi taxi. Không đáng đâu, nhà ga gần lắm."
       ]
      }
     ]
@@ -723,6 +1085,14 @@
     "fr": [
      "Jugements simples",
      "De courtes phrases pour dire si quelque chose est bon ou mauvais."
+    ],
+    "hi": [
+     "सीधे-सादे फ़ैसले",
+     "कोई चीज़ कितनी अच्छी या बुरी है, यह बताने के छोटे वाक्य।"
+    ],
+    "vi": [
+     "Nhận xét đơn giản",
+     "Những câu ngắn để nói thứ gì đó tốt hay tệ đến đâu."
     ]
    }
   }

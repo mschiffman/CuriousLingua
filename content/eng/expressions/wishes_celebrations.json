@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/wishes_celebrations.html",
  "aud_dir": "eng/expressions/wishes_celebrations/",
@@ -37,6 +39,16 @@
        "Joyeux anniversaire !",
        "Le vœu d'anniversaire de tous les jours, dit ou écrit. Ajoutez un prénom : Happy birthday, Mia!",
        "Joyeux anniversaire, mamie ! C'est pour toi."
+      ],
+      "hi": [
+       "जन्मदिन मुबारक!",
+       "जन्मदिन की जानी-पहचानी शुभकामना, बोलकर या लिखकर। नाम जोड़ दीजिए: Happy birthday, Mia!",
+       "जन्मदिन मुबारक, दादी! यह आपके लिए है।"
+      ],
+      "vi": [
+       "Chúc mừng sinh nhật!",
+       "Lời chúc sinh nhật quen thuộc, nói hoặc viết. Thêm tên vào: Happy birthday, Mia!",
+       "Chúc mừng sinh nhật bà! Cái này cháu tặng bà ạ."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Et beaucoup d'autres encore !",
        "Un vœu d'anniversaire plus ancien et chaleureux : puissiez-vous en fêter encore beaucoup. Plus courant en anglais britannique.",
        "Joyeux anniversaire, et beaucoup d'autres encore !"
+      ],
+      "hi": [
+       "यह दिन बार-बार आए!",
+       "जन्मदिन की पुरानी, अपनेपन भरी शुभकामना: आपके ऐसे बहुत-से ख़ुशहाल जन्मदिन आएँ। ब्रिटिश अंग्रेज़ी में ज़्यादा आम।",
+       "जन्मदिन मुबारक, और यह दिन बार-बार आए!"
+      ],
+      "vi": [
+       "Chúc bạn thêm nhiều sinh nhật vui!",
+       "Một lời chúc sinh nhật kiểu cũ và ấm áp: chúc bạn còn nhiều sinh nhật hạnh phúc nữa. Phổ biến hơn trong tiếng Anh Anh.",
+       "Chúc mừng sinh nhật, và chúc bạn thêm nhiều sinh nhật vui!"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Fais un vœu !",
        "Se dit avant que la personne fêtée souffle les bougies du gâteau. Le vœu reste secret.",
        "Voici ton gâteau. Fais un vœu !"
+      ],
+      "hi": [
+       "कोई मुराद माँगो!",
+       "केक की मोमबत्तियाँ बुझाने से ठीक पहले कहा जाता है। मुराद राज़ रखी जाती है।",
+       "यह रहा तुम्हारा केक। कोई मुराद माँगो!"
+      ],
+      "vi": [
+       "Ước đi!",
+       "Nói trước khi người được mừng sinh nhật thổi nến trên bánh. Điều ước phải giữ bí mật.",
+       "Bánh của bạn đây. Ước đi!"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Joyeux anniversaire en retard !",
        "Quand vous avez oublié, ou n'avez pas pu le dire le jour même. Belated veut dire tardif.",
        "Joyeux anniversaire en retard ! Désolé de l'avoir manqué."
+      ],
+      "hi": [
+       "देर से ही सही, जन्मदिन मुबारक!",
+       "जब आप भूल गए हों, या उस दिन कह न पाए हों। Belated का मतलब है देर से आया हुआ।",
+       "देर से ही सही, जन्मदिन मुबारक! माफ़ करना, मुझसे छूट गया।"
+      ],
+      "vi": [
+       "Chúc mừng sinh nhật muộn!",
+       "Khi bạn quên, hoặc không nói được vào đúng ngày. Belated nghĩa là muộn.",
+       "Chúc mừng sinh nhật muộn! Xin lỗi mình lỡ mất."
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Merci pour vos vœux d'anniversaire !",
        "Ce que l'on dit ou publie après avoir reçu des vœux d'anniversaire.",
        "Merci à tous pour vos vœux d'anniversaire !"
+      ],
+      "hi": [
+       "जन्मदिन की शुभकामनाओं के लिए शुक्रिया!",
+       "जन्मदिन की बधाइयाँ मिलने के बाद आप यह कहते या पोस्ट करते हैं।",
+       "जन्मदिन की शुभकामनाओं के लिए आप सबका शुक्रिया!"
+      ],
+      "vi": [
+       "Cảm ơn những lời chúc sinh nhật!",
+       "Câu bạn nói hoặc đăng sau khi được mọi người chúc mừng sinh nhật.",
+       "Cảm ơn mọi người vì những lời chúc sinh nhật!"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Anniversaires",
      "Des vœux pour l'anniversaire de quelqu'un, le jour même ou un peu en retard."
+    ],
+    "hi": [
+     "जन्मदिन",
+     "किसी के जन्मदिन की शुभकामनाएँ, उसी दिन या थोड़ी देर से।"
+    ],
+    "vi": [
+     "Sinh nhật",
+     "Lời chúc sinh nhật, đúng ngày hoặc muộn một chút."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Bonne année !",
        "Se dit autour du 1er janvier, des derniers jours de décembre à la première semaine de janvier.",
        "Bonne année ! J'espère qu'elle sera excellente."
+      ],
+      "hi": [
+       "नया साल मुबारक!",
+       "1 जनवरी के आसपास कहा जाता है, दिसंबर के आख़िरी दिनों से जनवरी के पहले हफ़्ते तक।",
+       "नया साल मुबारक! उम्मीद है यह साल बढ़िया रहेगा।"
+      ],
+      "vi": [
+       "Chúc mừng năm mới!",
+       "Nói quanh ngày 1 tháng 1, từ những ngày cuối tháng 12 đến tuần đầu tháng 1.",
+       "Chúc mừng năm mới! Mong đây là một năm tuyệt vời."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Joyeux Noël !",
        "Se dit les jours qui précèdent Noël et le 25 décembre. Merry ne s'emploie que dans cette formule.",
        "Joyeux Noël et bonne année !"
+      ],
+      "hi": [
+       "क्रिसमस मुबारक!",
+       "क्रिसमस से पहले के दिनों में और 25 दिसंबर को कहा जाता है। Merry सिर्फ़ इसी शुभकामना में आता है।",
+       "क्रिसमस और नया साल मुबारक!"
+      ],
+      "vi": [
+       "Giáng sinh vui vẻ!",
+       "Nói trong những ngày trước Giáng sinh và vào ngày 25 tháng 12. Merry chỉ dùng trong lời chúc này.",
+       "Giáng sinh vui vẻ và chúc mừng năm mới!"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Joyeuses fêtes !",
        "Une formule de décembre pour tout le monde, quelle que soit la fête célébrée.",
        "Joyeuses fêtes ! On se voit en janvier."
+      ],
+      "hi": [
+       "छुट्टियाँ मुबारक!",
+       "दिसंबर की शुभकामना, सबके लिए, चाहे वे कोई भी त्योहार मनाते हों।",
+       "छुट्टियाँ मुबारक! जनवरी में मिलते हैं।"
+      ],
+      "vi": [
+       "Chúc mùa lễ vui vẻ!",
+       "Lời chúc tháng 12 dành cho tất cả mọi người, dù họ mừng lễ nào.",
+       "Chúc mùa lễ vui vẻ! Tháng 1 gặp lại nhé."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Joyeux Thingyan !",
        "L'anglais emploie Happy + le nom de la fête : Happy Thingyan, Happy Diwali, Happy Eid. On dit aussi : Happy Myanmar New Year!",
        "Joyeux Thingyan ! Ne te fais pas trop mouiller !"
+      ],
+      "hi": [
+       "थिंगयान मुबारक!",
+       "अंग्रेज़ी में Happy + त्योहार का नाम लगता है: Happy Thingyan, Happy Diwali, Happy Eid. यह भी: Happy Myanmar New Year!",
+       "थिंगयान मुबारक! ज़्यादा मत भीगना!"
+      ],
+      "vi": [
+       "Chúc mừng Thingyan!",
+       "Tiếng Anh dùng Happy + tên lễ hội: Happy Thingyan, Happy Diwali, Happy Eid, Happy Lunar New Year. Cũng có: Happy Myanmar New Year!",
+       "Chúc mừng Thingyan! Đừng để ướt quá nhé!"
       ]
      }
     ]
@@ -218,6 +318,14 @@
     "fr": [
      "Fêtes et festivals",
      "Des formules pour le Nouvel An et les autres fêtes."
+    ],
+    "hi": [
+     "छुट्टियाँ और त्योहार",
+     "नए साल और दूसरे त्योहारों की शुभकामनाएँ।"
+    ],
+    "vi": [
+     "Ngày lễ và lễ hội",
+     "Lời chúc năm mới và các lễ hội khác."
     ]
    }
   },
@@ -242,6 +350,16 @@
        "Félicitations pour ton nouveau travail !",
        "Congratulations on + la bonne nouvelle : on your wedding, on your new baby, on passing your exam.",
        "Félicitations pour ton mariage ! Tu es superbe."
+      ],
+      "hi": [
+       "<span class=gray>नई नौकरी</span> की बधाई!",
+       "Congratulations on + अच्छी ख़बर: on your wedding, on your new baby, on passing your exam.",
+       "शादी की बधाई! आप बहुत सुंदर लग रही हैं।"
+      ],
+      "vi": [
+       "Chúc mừng bạn có <span class=gray>việc mới</span>!",
+       "Congratulations on + tin vui: on your wedding, on your new baby, on passing your exam.",
+       "Chúc mừng đám cưới của bạn! Trông bạn tuyệt lắm."
       ]
      }
     ],
@@ -261,6 +379,16 @@
        "Je suis tellement content pour toi !",
        "Montre que vous partagez sa joie. Chaleureux et personnel.",
        "— Je suis admis à l'université ! — Je suis tellement content pour toi !"
+      ],
+      "hi": [
+       "मैं तुम्हारे लिए बहुत ख़ुश हूँ!",
+       "दिखाता है कि आप उनकी ख़ुशी में शामिल हैं। आत्मीय और निजी।",
+       "— मेरा यूनिवर्सिटी में दाख़िला हो गया! — मैं तुम्हारे लिए बहुत ख़ुश हूँ!"
+      ],
+      "vi": [
+       "Mình mừng cho bạn lắm!",
+       "Cho thấy bạn chia sẻ niềm vui với họ. Ấm áp và thân tình.",
+       "— Mình đỗ đại học rồi! — Mình mừng cho bạn lắm!"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Tu le mérites !",
        "Dit qu'ils ont travaillé dur pour cette belle chose.",
        "— J'ai gagné le prix ! — Eh bien, tu le mérites !"
+      ],
+      "hi": [
+       "तुम इसके हक़दार हो!",
+       "कहता है कि उन्होंने इसे पाने के लिए कड़ी मेहनत की।",
+       "— मैंने इनाम जीत लिया! — तुम इसके हक़दार हो!"
+      ],
+      "vi": [
+       "Bạn xứng đáng mà!",
+       "Nói rằng họ đã nỗ lực nhiều để có được điều này.",
+       "— Mình trúng giải rồi! — Bạn xứng đáng mà!"
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Joyeux anniversaire de mariage !",
        "Pour le jour où quelqu'un s'est marié, ou a commencé un travail ou une entreprise, il y a des années.",
        "Joyeux anniversaire de mariage ! Vingt ans ensemble !"
+      ],
+      "hi": [
+       "सालगिरह मुबारक!",
+       "उस दिन के लिए, जब बरसों पहले किसी की शादी हुई थी, या किसी ने नौकरी या कारोबार शुरू किया था।",
+       "सालगिरह मुबारक! बीस साल साथ-साथ!"
+      ],
+      "vi": [
+       "Chúc mừng ngày kỷ niệm!",
+       "Cho ngày mà nhiều năm trước ai đó kết hôn, hoặc bắt đầu một công việc hay việc kinh doanh.",
+       "Chúc mừng ngày kỷ niệm! Hai mươi năm bên nhau rồi!"
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Tous mes vœux !",
        "Un vœu chaleureux pour l'avenir : pour quelqu'un qui part, qui commence quelque chose, ou à la fin d'une carte.",
        "Bonne chance dans ta nouvelle école. Tous mes vœux !"
+      ],
+      "hi": [
+       "ढेरों शुभकामनाएँ!",
+       "आगे के लिए आत्मीय शुभकामना: उसके लिए जो जा रहा है, कुछ नया शुरू कर रहा है, या कार्ड के अंत में।",
+       "नए स्कूल के लिए शुभकामनाएँ। सब अच्छा हो!"
+      ],
+      "vi": [
+       "Chúc mọi điều tốt đẹp!",
+       "Lời chúc ấm áp cho tương lai: dành cho người sắp đi xa, sắp bắt đầu điều gì mới, hoặc viết ở cuối tấm thiệp.",
+       "Chúc bạn may mắn ở trường mới. Chúc mọi điều tốt đẹp!"
       ]
      }
     ]
@@ -330,6 +488,14 @@
     "fr": [
      "Grands jours et bonnes nouvelles",
      "Mariages, nouveaux emplois, naissances, examens : partager la joie de quelqu'un."
+    ],
+    "hi": [
+     "बड़े दिन और अच्छी ख़बर",
+     "शादी, नई नौकरी, बच्चा, परीक्षा: किसी की ख़ुशी में शामिल होना।"
+    ],
+    "vi": [
+     "Ngày trọng đại và tin vui",
+     "Đám cưới, việc làm mới, em bé, kỳ thi: chia vui cùng người khác."
     ]
    }
   },
@@ -354,6 +520,16 @@
        "Bon voyage !",
        "Se dit à quelqu'un qui part en voyage. On dit aussi : Safe travels!",
        "Bon voyage ! Appelle-moi quand tu arrives."
+      ],
+      "hi": [
+       "आपकी यात्रा शुभ हो!",
+       "सफ़र पर निकल रहे व्यक्ति से कहा जाता है। यह भी: Safe travels!",
+       "यात्रा शुभ हो! पहुँचकर फ़ोन करना।"
+      ],
+      "vi": [
+       "Chúc thượng lộ bình an!",
+       "Nói với người sắp lên đường. Cũng có: Safe travels!",
+       "Chúc thượng lộ bình an! Đến nơi gọi cho mình nhé."
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Bon appétit !",
        "Ce que dit un serveur, un cuisinier ou un hôte quand le plat arrive.",
        "Voici votre soupe. Bon appétit !"
+      ],
+      "hi": [
+       "खाने का आनंद लीजिए!",
+       "खाना आने पर वेटर, रसोइया या मेज़बान कहता है।",
+       "यह रहा आपका सूप। खाने का आनंद लीजिए!"
+      ],
+      "vi": [
+       "Chúc ngon miệng!",
+       "Câu người phục vụ, đầu bếp hoặc chủ nhà nói khi món ăn được dọn ra.",
+       "Canh của anh đây. Chúc ngon miệng!"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Amuse-toi bien !",
        "Se dit à quelqu'un qui va à une fête, en voyage ou à un match.",
        "— Je vais au zoo aujourd'hui ! — Amuse-toi bien !"
+      ],
+      "hi": [
+       "मज़े करना!",
+       "पार्टी, सैर या मैच पर जा रहे व्यक्ति से कहा जाता है।",
+       "— मैं आज चिड़ियाघर जा रहा हूँ! — मज़े करना!"
+      ],
+      "vi": [
+       "Chơi vui nhé!",
+       "Nói với người sắp đi dự tiệc, đi chơi hay đi xem trận đấu.",
+       "— Hôm nay mình đi sở thú! — Chơi vui nhé!"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Bonnes vacances !",
        "Se dit à quelqu'un qui part ou prend des congés. L'anglais américain dit souvent vacation.",
        "Bonnes vacances ! Envoie-nous une photo."
+      ],
+      "hi": [
+       "छुट्टियों का मज़ा लेना!",
+       "उससे कहा जाता है जो घूमने जा रहा हो या कुछ दिन की छुट्टी ले रहा हो। अमेरिकी अंग्रेज़ी में अक्सर vacation कहते हैं।",
+       "छुट्टियों का मज़ा लेना! हमें एक फ़ोटो भेजना।"
+      ],
+      "vi": [
+       "Đi nghỉ vui vẻ nhé!",
+       "Nói với người sắp đi du lịch hoặc nghỉ vài ngày. Tiếng Anh Mỹ thường nói vacation.",
+       "Đi nghỉ vui vẻ nhé! Gửi ảnh cho bọn mình nhé."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Dors bien !",
        "Se dit au coucher, après Good night. Aux enfants : Sweet dreams!",
        "Bonne nuit, dors bien !"
+      ],
+      "hi": [
+       "अच्छी नींद आए!",
+       "सोने के समय, Good night के बाद कहा जाता है। बच्चों से: Sweet dreams!",
+       "शुभ रात्रि, अच्छी नींद आए!"
+      ],
+      "vi": [
+       "Ngủ ngon nhé!",
+       "Nói lúc đi ngủ, sau Good night. Với trẻ em: Sweet dreams!",
+       "Chúc ngủ ngon, ngủ ngon nhé!"
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Je croise les doigts !",
        "On espère que quelque chose se passera bien. Les gens croisent souvent deux doigts en le disant.",
        "— Mes résultats d'examen sortent demain. — Je croise les doigts !"
+      ],
+      "hi": [
+       "ईश्वर करे सब ठीक हो!",
+       "आप उम्मीद करते हैं कि कुछ अच्छा हो जाए। लोग इसे कहते हुए अक्सर दो उँगलियाँ एक-दूसरे पर चढ़ा लेते हैं।",
+       "— कल मेरी परीक्षा का नतीजा आ रहा है। — ईश्वर करे सब ठीक हो!"
+      ],
+      "vi": [
+       "Cầu mong mọi việc suôn sẻ!",
+       "Bạn mong một việc gì đó diễn ra tốt đẹp. Người ta thường bắt chéo hai ngón tay khi nói câu này.",
+       "— Mai có kết quả thi của mình. — Cầu mong mọi việc suôn sẻ!"
       ]
      }
     ]
@@ -461,6 +687,14 @@
     "fr": [
      "Bons vœux pour la suite",
      "Des vœux pour un voyage, un repas, une nuit de sommeil ou un grand moment."
+    ],
+    "hi": [
+     "आगे के लिए शुभकामनाएँ",
+     "सफ़र, खाने, रात की नींद या किसी बड़े मौक़े के लिए शुभकामनाएँ।"
+    ],
+    "vi": [
+     "Lời chúc cho điều sắp tới",
+     "Lời chúc cho một chuyến đi, một bữa ăn, một giấc ngủ hay một dịp quan trọng."
     ]
    }
   },
@@ -485,6 +719,16 @@
        "Bon rétablissement !",
        "Le vœu habituel pour quelqu'un de malade ou d'hospitalisé. S'écrit aussi sur les cartes.",
        "J'ai appris que tu es à l'hôpital. Bon rétablissement !"
+      ],
+      "hi": [
+       "जल्दी ठीक हो जाइए!",
+       "बीमार या अस्पताल में भर्ती व्यक्ति के लिए आम शुभकामना। कार्डों पर भी लिखी जाती है।",
+       "सुना है आप अस्पताल में हैं। जल्दी ठीक हो जाइए!"
+      ],
+      "vi": [
+       "Chóng khỏe nhé!",
+       "Lời chúc thông thường cho người ốm hoặc đang nằm viện. Cũng được viết trên thiệp.",
+       "Mình nghe nói bạn đang nằm viện. Chóng khỏe nhé!"
       ]
      }
     ],
@@ -504,6 +748,16 @@
        "J'espère que tu iras mieux bientôt.",
        "Plus doux et un peu plus long. Bien pour un rhume, un mal de tête, une mauvaise journée.",
        "Désolé que tu aies un rhume. J'espère que tu iras mieux bientôt."
+      ],
+      "hi": [
+       "उम्मीद है आप जल्द बेहतर महसूस करेंगे।",
+       "ज़्यादा नरम और थोड़ा लंबा। ज़ुकाम, सिरदर्द या बुरे दिन के लिए अच्छा।",
+       "अफ़सोस, तुम्हें ज़ुकाम हो गया। उम्मीद है तुम जल्द बेहतर महसूस करोगे।"
+      ],
+      "vi": [
+       "Mong bạn sớm thấy khá hơn.",
+       "Nhẹ nhàng hơn và dài hơn một chút. Hợp khi ai đó bị cảm, đau đầu, hoặc có một ngày tồi tệ.",
+       "Tội bạn bị cảm. Mong bạn sớm thấy khá hơn."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Ménage-toi.",
        "Reposez-vous et ne travaillez pas trop. C'est aussi un au revoir familier.",
        "Reste au lit aujourd'hui et ménage-toi."
+      ],
+      "hi": [
+       "आराम कीजिए।",
+       "आराम कीजिए और ज़्यादा काम मत कीजिए। यह अनौपचारिक विदा भी है।",
+       "आज बिस्तर पर ही रहो और आराम करो।"
+      ],
+      "vi": [
+       "Nghỉ ngơi cho khỏe nhé.",
+       "Hãy nghỉ ngơi và đừng làm việc quá sức. Cũng là một lời tạm biệt thân mật.",
+       "Hôm nay cứ nằm nghỉ, đừng làm gì nhiều nhé."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Je pense à toi.",
        "Pour quelqu'un qui traverse un moment difficile : il compte pour vous, même de loin.",
        "Je pense à toi. Appelle-moi si tu as besoin de quoi que ce soit."
+      ],
+      "hi": [
+       "मैं तुम्हारे बारे में सोच रहा हूँ।",
+       "उसके लिए जो मुश्किल दौर से गुज़र रहा हो: आपको उसकी परवाह है, भले ही आप दूर हों।",
+       "मैं तुम्हारे बारे में सोच रहा हूँ। कुछ चाहिए हो तो फ़ोन करना।"
+      ],
+      "vi": [
+       "Mình luôn nghĩ đến bạn.",
+       "Dành cho người đang trải qua lúc khó khăn: bạn quan tâm đến họ, dù ở xa.",
+       "Mình luôn nghĩ đến bạn. Cần gì cứ gọi cho mình nhé."
       ]
      }
     ]
@@ -554,6 +828,14 @@
     "fr": [
      "Quand quelqu'un est malade",
      "Des mots gentils pour quelqu'un de malade ou qui traverse un moment difficile."
+    ],
+    "hi": [
+     "जब कोई बीमार हो",
+     "बीमार या मुश्किल समय से गुज़र रहे व्यक्ति के लिए नरम शब्द।"
+    ],
+    "vi": [
+     "Khi ai đó bị ốm",
+     "Những lời tử tế dành cho người đang ốm hoặc đang gặp khó khăn."
     ]
    }
   },
@@ -578,6 +860,16 @@
        "À toi aussi !",
        "Renvoie le même vœu. Bien pour Happy New Year! et Merry Christmas! Pas pour Happy birthday!",
        "— Bonne année ! — Merci, à toi aussi !"
+      ],
+      "hi": [
+       "आपको भी वही शुभकामनाएँ!",
+       "वही शुभकामना लौटाता है। Happy New Year! और Merry Christmas! के लिए अच्छा। Happy birthday! के लिए नहीं।",
+       "— नया साल मुबारक! — शुक्रिया, आपको भी!"
+      ],
+      "vi": [
+       "Bạn cũng vậy nhé!",
+       "Chúc lại đúng lời chúc đó. Hợp với Happy New Year! và Merry Christmas! Không dùng cho Happy birthday!",
+       "— Chúc mừng năm mới! — Cảm ơn, bạn cũng vậy nhé!"
       ]
      }
     ],
@@ -597,6 +889,16 @@
        "Toi aussi !",
        "Court et amical. Très courant après Have a nice day! ou Have a good weekend!",
        "— Passe un excellent week-end ! — Toi aussi !"
+      ],
+      "hi": [
+       "आपको भी!",
+       "छोटा और दोस्ताना। Have a nice day! या Have a good weekend! के बाद बहुत आम।",
+       "— वीकेंड बढ़िया बीते! — तुम्हारा भी!"
+      ],
+      "vi": [
+       "Bạn cũng thế nhé!",
+       "Ngắn gọn và thân thiện. Rất hay dùng sau Have a nice day! hoặc Have a good weekend!",
+       "— Cuối tuần vui vẻ nhé! — Bạn cũng thế nhé!"
       ]
      }
     ],
@@ -616,6 +918,16 @@
        "Merci, je n'y manquerai pas !",
        "La réponse à Have fun! ou Enjoy your holiday!",
        "— Amuse-toi bien à la fête ! — Merci, je n'y manquerai pas !"
+      ],
+      "hi": [
+       "शुक्रिया, ज़रूर!",
+       "Have fun! या Enjoy your holiday! का जवाब।",
+       "— पार्टी में मज़े करना! — शुक्रिया, ज़रूर!"
+      ],
+      "vi": [
+       "Cảm ơn, nhất định rồi!",
+       "Câu đáp lại Have fun! hoặc Enjoy your holiday!",
+       "— Dự tiệc vui nhé! — Cảm ơn, nhất định rồi!"
       ]
      }
     ],
@@ -635,6 +947,16 @@
        "Merci, ça me touche beaucoup.",
        "Quand les mots gentils de quelqu'un vous touchent vraiment.",
        "— Je suis tellement fier de toi. — Merci, ça me touche beaucoup."
+      ],
+      "hi": [
+       "शुक्रिया, यह मेरे लिए बहुत मायने रखता है।",
+       "जब किसी के भले शब्द सचमुच आपके दिल को छू जाएँ।",
+       "— मुझे तुम पर बहुत गर्व है। — शुक्रिया, यह मेरे लिए बहुत मायने रखता है।"
+      ],
+      "vi": [
+       "Cảm ơn, điều đó rất có ý nghĩa với mình.",
+       "Khi những lời tử tế của ai đó thật sự chạm đến bạn.",
+       "— Mình rất tự hào về bạn. — Cảm ơn, điều đó rất có ý nghĩa với mình."
       ]
      }
     ]
@@ -647,6 +969,14 @@
     "fr": [
      "Répondre aux bons vœux",
      "Que répondre quand on vous souhaite quelque chose de bon."
+    ],
+    "hi": [
+     "शुभकामनाओं का जवाब",
+     "जब कोई आपको शुभकामना दे, तो जवाब में क्या कहें।"
+    ],
+    "vi": [
+     "Đáp lại lời chúc",
+     "Nói gì khi có người chúc bạn."
     ]
    }
   }

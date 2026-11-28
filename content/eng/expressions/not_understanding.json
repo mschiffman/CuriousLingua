@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/not_understanding.html",
  "aud_dir": "eng/expressions/not_understanding/",
@@ -37,6 +39,16 @@
        "Pardon ?",
        "La façon polie la plus rapide de faire répéter. Laissez la voix monter. What? tout seul peut sembler impoli.",
        "— La réunion est à trois heures. — Pardon ? — La réunion est à trois heures pile."
+      ],
+      "hi": [
+       "माफ़ कीजिए?",
+       "दोबारा कहलवाने का सबसे छोटा विनम्र तरीक़ा। आवाज़ ऊपर उठने दीजिए। सिर्फ़ What? कहना रूखा लग सकता है।",
+       "— मीटिंग तीन बजे है। — माफ़ कीजिए? — मीटिंग तीन बजे है।"
+      ],
+      "vi": [
+       "Xin lỗi?",
+       "Cách lịch sự và nhanh nhất để nhờ nhắc lại. Để giọng lên cao. Chỉ nói What? có thể nghe thô lỗ.",
+       "— Cuộc họp lúc ba giờ. — Xin lỗi? — Cuộc họp lúc ba giờ."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Comment ?",
        "Poli et un peu formel. Les Américains disent aussi Pardon me?",
        "— Votre numéro, s'il vous plaît ? — Comment ? — Votre numéro de téléphone, s'il vous plaît."
+      ],
+      "hi": [
+       "जी?",
+       "विनम्र और थोड़ा औपचारिक। अमेरिकी Pardon me? भी कहते हैं।",
+       "— आपका नंबर बताइए? — जी? — आपका फ़ोन नंबर बताइए।"
+      ],
+      "vi": [
+       "Dạ, sao ạ?",
+       "Lịch sự và hơi trang trọng. Người Mỹ cũng nói Pardon me?",
+       "— Xin cho biết số của anh? — Dạ, sao ạ? — Số điện thoại của anh ạ."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Tu peux répéter ?",
        "Clair et poli. Plus poli : Could you say that again, please? On dit aussi : Can you repeat that?",
        "Pardon, tu peux répéter ? Le train fait beaucoup de bruit."
+      ],
+      "hi": [
+       "क्या आप फिर से कह सकते हैं?",
+       "साफ़ और विनम्र। ज़्यादा विनम्र: Could you say that again, please? यह भी: Can you repeat that?",
+       "माफ़ कीजिए, क्या आप फिर से कह सकते हैं? ट्रेन का शोर बहुत है।"
+      ],
+      "vi": [
+       "Bạn nói lại được không?",
+       "Rõ ràng và lịch sự. Lịch sự hơn: Could you say that again, please? Cũng có: Can you repeat that?",
+       "Xin lỗi, bạn nói lại được không? Tàu ồn quá."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Pardon, je n'ai pas bien saisi.",
        "Catch veut dire ici entendre clairement. Naturel et poli, et très courant au téléphone.",
        "Pardon, je n'ai pas bien saisi votre nom."
+      ],
+      "hi": [
+       "माफ़ कीजिए, मैं सुन नहीं पाया।",
+       "यहाँ catch का मतलब है साफ़ सुन पाना। सहज और विनम्र, और फ़ोन पर बहुत आम।",
+       "माफ़ कीजिए, मैं आपका नाम सुन नहीं पाया।"
+      ],
+      "vi": [
+       "Xin lỗi, mình nghe không kịp.",
+       "Catch ở đây nghĩa là nghe rõ. Tự nhiên và lịch sự, rất hay dùng khi nói điện thoại.",
+       "Xin lỗi, tôi nghe không kịp tên anh."
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Qu'est-ce que tu as dit ?",
        "Bien entre amis. Avec des inconnus, commencez par Sorry : Sorry, what did you say? Dit sèchement, cela peut sembler fâché.",
        "Pardon, qu'est-ce que tu as dit ? La musique est trop forte."
+      ],
+      "hi": [
+       "आपने क्या कहा?",
+       "दोस्तों के साथ ठीक है। अजनबियों के साथ Sorry से शुरू कीजिए: Sorry, what did you say? तीखे लहजे में कहने पर ग़ुस्से जैसा लग सकता है।",
+       "माफ़ कीजिए, आपने क्या कहा? संगीत बहुत तेज़ है।"
+      ],
+      "vi": [
+       "Bạn vừa nói gì?",
+       "Dùng với bạn bè thì được. Với người lạ, hãy mở đầu bằng Sorry: Sorry, what did you say? Nói cộc lốc thì có thể nghe như đang giận.",
+       "Xin lỗi, bạn vừa nói gì? Nhạc to quá."
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Faire répéter",
      "Quand on n'a pas entendu ou pas saisi les mots."
+    ],
+    "hi": [
+     "दोबारा कहने को कहना",
+     "जब आपने सुना नहीं या शब्द पकड़ में नहीं आए।"
+    ],
+    "vi": [
+     "Nhờ nhắc lại",
+     "Khi bạn không nghe thấy hoặc không nghe kịp."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Pouvez-vous parler plus lentement, s'il vous plaît ?",
        "Les locuteurs natifs oublient souvent de ralentir. Il est normal de le demander, et la plupart des gens aident volontiers. En bref : Slowly, please.",
        "Pardon, pouvez-vous parler plus lentement, s'il vous plaît ?"
+      ],
+      "hi": [
+       "क्या आप ज़रा धीरे बोल सकते हैं?",
+       "जिनकी मातृभाषा अंग्रेज़ी है, वे अक्सर धीरे बोलना भूल जाते हैं। यह कहना सामान्य है, और लगभग सभी ख़ुशी से मदद करते हैं। छोटा रूप: Slowly, please.",
+       "माफ़ कीजिए, क्या आप ज़रा धीरे बोल सकते हैं?"
+      ],
+      "vi": [
+       "Bạn nói chậm hơn được không?",
+       "Người bản ngữ hay quên nói chậm lại. Nhờ như vậy là bình thường, và hầu như ai cũng vui lòng giúp. Ngắn gọn: Slowly, please.",
+       "Xin lỗi, bạn nói chậm hơn được không?"
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Pouvez-vous parler un peu plus fort ?",
        "Speak up veut dire parler plus fort. On dit aussi : Can you speak a little louder?",
        "Pardon, pouvez-vous parler un peu plus fort ? Je ne vous entends pas."
+      ],
+      "hi": [
+       "क्या आप थोड़ा ज़ोर से बोल सकते हैं?",
+       "Speak up का मतलब है ज़ोर से बोलना। यह भी: Can you speak a little louder?",
+       "माफ़ कीजिए, क्या आप थोड़ा ज़ोर से बोल सकते हैं? मुझे सुनाई नहीं दे रहा।"
+      ],
+      "vi": [
+       "Bạn nói to hơn một chút được không?",
+       "Speak up nghĩa là nói to hơn. Cũng có: Can you speak a little louder?",
+       "Xin lỗi, bạn nói to hơn một chút được không? Mình không nghe thấy."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Pouvez-vous l'épeler, s'il vous plaît ?",
        "Pour les noms, les rues et les adresses électroniques. Connaître le nom des lettres en anglais aide beaucoup ici.",
        "— Mon nom de famille est Kowalski. — Pouvez-vous l'épeler, s'il vous plaît ?"
+      ],
+      "hi": [
+       "क्या आप इसकी स्पेलिंग बता सकते हैं?",
+       "नामों, सड़कों और ईमेल पतों के लिए। यहाँ अंग्रेज़ी अक्षरों के नाम जानना बहुत काम आता है।",
+       "— मेरा उपनाम Kowalski है। — क्या आप इसकी स्पेलिंग बता सकते हैं?"
+      ],
+      "vi": [
+       "Bạn đánh vần giúp được không?",
+       "Dùng cho tên người, tên đường và địa chỉ email. Biết tên các chữ cái tiếng Anh sẽ giúp ích rất nhiều ở đây.",
+       "— Họ của tôi là Kowalski. — Anh đánh vần giúp được không?"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Pouvez-vous l'écrire, s'il vous plaît ?",
        "Quand un mot ou un nombre est difficile à entendre : adresses, prix, heures. On dit aussi : Can you type it for me?",
        "Cette adresse est difficile pour moi. Pouvez-vous l'écrire, s'il vous plaît ?"
+      ],
+      "hi": [
+       "क्या आप इसे लिखकर दे सकते हैं?",
+       "जब कोई शब्द या संख्या सुनने में मुश्किल हो: पते, दाम, समय। यह भी: Can you type it for me?",
+       "यह पता मेरे लिए मुश्किल है। क्या आप इसे लिखकर दे सकते हैं?"
+      ],
+      "vi": [
+       "Bạn viết ra giúp được không?",
+       "Khi một từ hay con số khó nghe: địa chỉ, giá tiền, giờ giấc. Cũng có: Can you type it for me?",
+       "Địa chỉ này khó với tôi quá. Bạn viết ra giúp được không?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Pouvez-vous me montrer ?",
        "Quand montrer est plus simple que parler : sur une carte, un téléphone, un menu.",
        "Je ne connais pas cette rue. Pouvez-vous me la montrer sur la carte ?"
+      ],
+      "hi": [
+       "क्या आप मुझे दिखा सकते हैं?",
+       "जब समझाने से दिखाना आसान हो: नक़्शे पर, फ़ोन पर, मेन्यू में।",
+       "मैं वह सड़क नहीं जानता। क्या आप मुझे नक़्शे पर दिखा सकते हैं?"
+      ],
+      "vi": [
+       "Bạn chỉ cho mình được không?",
+       "Khi chỉ thì dễ hơn giải thích: trên bản đồ, trên điện thoại, trong thực đơn.",
+       "Mình không biết đường đó. Bạn chỉ cho mình trên bản đồ được không?"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Plus lentement, plus fort, plus clairement",
      "Demander aux gens de vous aider à les comprendre."
+    ],
+    "hi": [
+     "धीरे, ज़ोर से, साफ़",
+     "लोगों से कहना कि वे आपको समझने में मदद करें।"
+    ],
+    "vi": [
+     "Chậm hơn, to hơn, rõ hơn",
+     "Nhờ người khác giúp bạn hiểu họ."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Pardon, je ne comprends pas.",
        "Dites-le ! Hocher la tête sans comprendre crée de plus gros problèmes ensuite. En anglais, le dire est normal, pas impoli. Ce n'est pas la même chose que I don't know, qui concerne les faits.",
        "Pardon, je ne comprends pas. Pouvez-vous réexpliquer ?"
+      ],
+      "hi": [
+       "माफ़ कीजिए, मुझे समझ नहीं आया।",
+       "कह दीजिए! बिना समझे सिर हिलाने से बाद में बड़ी दिक़्क़तें होती हैं। अंग्रेज़ी में यह कहना सामान्य है, बदतमीज़ी नहीं। यह I don't know से अलग है, जो जानकारी के बारे में है।",
+       "माफ़ कीजिए, मुझे समझ नहीं आया। क्या आप फिर से समझा सकते हैं?"
+      ],
+      "vi": [
+       "Xin lỗi, mình không hiểu.",
+       "Hãy nói ra! Gật đầu khi không hiểu sẽ gây rắc rối lớn hơn về sau. Trong tiếng Anh, nói vậy là bình thường, không hề thô lỗ. Câu này khác I don't know, vốn dùng để nói về thông tin, sự việc.",
+       "Xin lỗi, mình không hiểu. Bạn giải thích lại được không?"
       ]
      }
     ],
@@ -284,6 +412,18 @@
        "Familier et très courant. Get veut dire ici comprendre. À employer pour une idée, une règle ou une blague, pas pour des mots que vous n'avez pas entendus. Le contraire de Got it.",
        "Je ne pige pas. Ça n'a pas de sens.",
        "Désolé, je ne comprends pas la blague."
+      ],
+      "hi": [
+       "मेरे पल्ले नहीं पड़ा।",
+       "अनौपचारिक और बहुत आम। यहाँ get का मतलब है समझना। किसी विचार, नियम या चुटकुले के लिए, उन शब्दों के लिए नहीं जो सुनाई नहीं दिए। Got it. का उलटा।",
+       "मेरे पल्ले नहीं पड़ा। इसका कोई तुक नहीं बनता।",
+       "माफ़ करना, चुटकुला मेरे पल्ले नहीं पड़ा।"
+      ],
+      "vi": [
+       "Mình chịu, không hiểu.",
+       "Thân mật và rất phổ biến. Get ở đây nghĩa là hiểu. Dùng cho một ý, một quy tắc hay một câu đùa, không dùng cho những từ bạn không nghe thấy. Trái nghĩa với Got it.",
+       "Mình không hiểu. Chẳng hợp lý gì cả.",
+       "Xin lỗi, mình không hiểu câu đùa đó."
       ]
      }
     ],
@@ -303,6 +443,16 @@
        "Qu'est-ce que ça veut dire ?",
        "Pour demander le sens d'un mot. Pas : What is mean ___? Correct : What does it mean?",
        "Que veut dire deadline ?"
+      ],
+      "hi": [
+       "<span class=gray>इस</span>का क्या मतलब है?",
+       "किसी शब्द के बारे में पूछने के लिए। ग़लत: What is mean ___? सही: What does it mean?",
+       "deadline का क्या मतलब है?"
+      ],
+      "vi": [
+       "<span class=gray>Nó</span> nghĩa là gì?",
+       "Để hỏi về một từ. Không nói: What is mean ___? Câu đúng: What does it mean?",
+       "Deadline nghĩa là gì?"
       ]
      }
     ],
@@ -322,6 +472,16 @@
        "Qu'est-ce que tu veux dire ?",
        "Vous connaissez les mots, mais pas l'idée. Attention au ton : dit sèchement, on croirait une dispute.",
        "— Apporte quelque chose pour la fête. — Qu'est-ce que tu veux dire ? À manger ou à boire ?"
+      ],
+      "hi": [
+       "आपका क्या मतलब है?",
+       "शब्द आप जानते हैं, पर बात समझ नहीं आई। आवाज़ का ध्यान रखिए: तीखे लहजे में यह बहस जैसा लगता है।",
+       "— पार्टी के लिए कुछ ले आना। — क्या मतलब? खाना या पीने की चीज़ें?"
+      ],
+      "vi": [
+       "Ý bạn là sao?",
+       "Bạn hiểu từng từ, nhưng không hiểu ý. Chú ý giọng nói: nói cộc lốc thì nghe như cãi nhau.",
+       "— Mang gì đó đến bữa tiệc nhé. — Ý bạn là sao? Đồ ăn hay đồ uống?"
       ]
      }
     ],
@@ -341,6 +501,16 @@
        "Je ne suis pas sûr de comprendre.",
        "Un What do you mean? plus doux et plus poli. Bien au travail.",
        "Pardon, je ne suis pas sûr de comprendre. Vous en avez besoin aujourd'hui ou demain ?"
+      ],
+      "hi": [
+       "मैं ठीक से समझा नहीं कि आपका मतलब क्या है।",
+       "What do you mean? का नरम और ज़्यादा विनम्र रूप। काम पर अच्छा है।",
+       "माफ़ कीजिए, मैं ठीक से समझा नहीं। आपको यह आज चाहिए या कल?"
+      ],
+      "vi": [
+       "Mình chưa rõ ý bạn lắm.",
+       "Một câu What do you mean? nhẹ nhàng và lịch sự hơn. Hợp với nơi làm việc.",
+       "Xin lỗi, tôi chưa rõ ý anh lắm. Anh cần hôm nay hay ngày mai?"
       ]
      }
     ],
@@ -360,6 +530,16 @@
        "Pouvez-vous m'expliquer ?",
        "Pour une idée plus longue ou des consignes. Plus doux : Could you explain that another way?",
        "Pouvez-vous m'expliquer ? Je n'ai jamais utilisé cette machine."
+      ],
+      "hi": [
+       "क्या आप यह समझा सकते हैं?",
+       "किसी लंबी बात या निर्देशों के लिए। ज़्यादा नरम: Could you explain that another way?",
+       "क्या आप यह समझा सकते हैं? मैंने यह मशीन पहले कभी नहीं चलाई।"
+      ],
+      "vi": [
+       "Bạn giải thích giúp được không?",
+       "Dùng cho một ý dài hơn hoặc một lời hướng dẫn. Nhẹ nhàng hơn: Could you explain that another way?",
+       "Bạn giải thích giúp được không? Mình chưa dùng máy này bao giờ."
       ]
      }
     ]
@@ -372,6 +552,14 @@
     "fr": [
      "Je ne comprends pas",
      "Quand on entend les mots sans en saisir le sens."
+    ],
+    "hi": [
+     "मुझे समझ नहीं आया",
+     "जब शब्द तो सुनाई दें, पर मतलब समझ न आए।"
+    ],
+    "vi": [
+     "Mình không hiểu",
+     "Khi bạn nghe được từ nhưng không hiểu nghĩa."
     ]
    }
   },
@@ -396,6 +584,16 @@
        "Vous voulez dire des oranges ?",
        "Vérifiez un détail en disant ce que vous pensez. Bien plus sûr que de deviner.",
        "— Retrouvez-moi au portail. — Vous voulez dire le portail principal ?"
+      ],
+      "hi": [
+       "आपका मतलब <span class=gray>संतरे</span> है?",
+       "जो आप समझे, उसे कहकर किसी ब्योरे की जाँच कर लेता है। अंदाज़ा लगाने से कहीं ज़्यादा सुरक्षित।",
+       "— मुझे गेट पर मिलना। — आपका मतलब सामने वाला गेट?"
+      ],
+      "vi": [
+       "Ý bạn là <span class=gray>cam</span> à?",
+       "Kiểm tra một chi tiết bằng cách nói ra điều bạn nghĩ. An toàn hơn đoán mò rất nhiều.",
+       "— Gặp mình ở cổng nhé. — Ý bạn là cổng trước à?"
       ]
      }
     ],
@@ -415,6 +613,16 @@
        "Donc, 2 heures. C'est bien ça ?",
        "Répétez l'essentiel : heures, nombres, lieux. Les gens apprécient, car cela évite les erreurs.",
        "Donc, porte 12 à 9 h 30. C'est bien ça ?"
+      ],
+      "hi": [
+       "तो, <span class=gray>2 बजे</span>। ठीक है न?",
+       "ज़रूरी हिस्सा दोहराइए: समय, संख्याएँ, जगहें। लोगों को यह अच्छा लगता है, क्योंकि इससे ग़लतियाँ नहीं होतीं।",
+       "तो, गेट 12, साढ़े नौ बजे। ठीक है न?"
+      ],
+      "vi": [
+       "Vậy là <span class=gray>2 giờ</span>. Đúng không?",
+       "Nhắc lại phần quan trọng: giờ giấc, con số, địa điểm. Mọi người thích vậy, vì tránh được nhầm lẫn.",
+       "Vậy là Cổng 12 lúc 9 giờ 30. Đúng không?"
       ]
      }
     ],
@@ -434,6 +642,16 @@
        "Vous avez dit mardi ou jeudi ?",
        "Pour les nombres et les mots qui se ressemblent à l'oreille. Fifteen or fifty? est le grand classique.",
        "Pardon, vous avez dit quinze ou cinquante ?"
+      ],
+      "hi": [
+       "आपने <span class=gray>मंगलवार</span> कहा या <span class=gray>गुरुवार</span>?",
+       "उन संख्याओं और शब्दों के लिए जो लगभग एक जैसे सुनाई देते हैं। Fifteen or fifty? इसका जाना-माना उदाहरण है।",
+       "माफ़ कीजिए, आपने fifteen कहा या fifty?"
+      ],
+      "vi": [
+       "Bạn nói <span class=gray>thứ Ba</span> hay <span class=gray>thứ Năm</span>?",
+       "Dùng cho những con số và từ nghe gần giống nhau. Fifteen or fifty? là trường hợp kinh điển.",
+       "Xin lỗi, bạn nói fifteen hay fifty?"
       ]
      }
     ],
@@ -453,6 +671,16 @@
        "Laissez-moi vérifier que j'ai compris.",
        "Avant de répéter des consignes plus longues : chez le médecin, au travail, à la banque.",
        "Laissez-moi vérifier que j'ai compris. Deux comprimés par jour, après les repas ?"
+      ],
+      "hi": [
+       "ज़रा देख लूँ कि मैंने ठीक समझा।",
+       "लंबे निर्देश दोहराने से पहले: डॉक्टर के यहाँ, काम पर, बैंक में।",
+       "ज़रा देख लूँ कि मैंने ठीक समझा। दिन में दो गोलियाँ, खाने के बाद?"
+      ],
+      "vi": [
+       "Để mình xem mình hiểu đúng chưa.",
+       "Trước khi nhắc lại một lời dặn dài: ở phòng khám, ở chỗ làm, ở ngân hàng.",
+       "Để tôi xem tôi hiểu đúng chưa. Hai viên một ngày, sau bữa ăn?"
       ]
      }
     ]
@@ -465,6 +693,14 @@
     "fr": [
      "Vérifier que l'on a compris",
      "Redire ce que l'on a entendu, pour être sûr d'avoir bien compris."
+    ],
+    "hi": [
+     "जाँचना कि आप समझ गए",
+     "जो सुना उसे दोहराना, ताकि पक्का हो कि आपने सही समझा।"
+    ],
+    "vi": [
+     "Kiểm tra xem mình hiểu đúng chưa",
+     "Nhắc lại điều bạn nghe được, để biết chắc mình hiểu đúng."
     ]
    }
   },
@@ -489,6 +725,16 @@
        "Comment dit-on လ en anglais ?",
        "La question la plus utile pour un apprenant. Posez la question complète. Pas : How to say ___?",
        "— Comment dit-on ထမင်းချိုင့် en anglais ? — Lunch box."
+      ],
+      "hi": [
+       "<span class=gray>…</span> को अंग्रेज़ी में क्या कहते हैं?",
+       "सीखने वाले के लिए सबसे काम का सवाल। पूरा सवाल पूछिए। ग़लत: How to say ___?",
+       "— ထမင်းချိုင့် को अंग्रेज़ी में क्या कहते हैं? — Lunch box."
+      ],
+      "vi": [
+       "<span class=gray>…</span> tiếng Anh nói thế nào?",
+       "Câu hỏi hữu ích nhất cho người học. Hãy hỏi cả câu. Không nói: How to say ___?",
+       "— ထမင်းချိုင့် tiếng Anh nói thế nào? — Lunch box."
       ]
      }
     ],
@@ -508,6 +754,16 @@
        "Comment ça s'appelle ?",
        "Montrez un objet dont vous ignorez le nom. Pour plusieurs : What are these called?",
        "— Comment ça s'appelle ? — C'est une louche."
+      ],
+      "hi": [
+       "<span class=gray>इसे</span> क्या कहते हैं?",
+       "जब किसी चीज़ का नाम न पता हो, तो उसकी ओर इशारा कीजिए। एक से ज़्यादा चीज़ों के लिए: What are these called?",
+       "— इसे क्या कहते हैं? — यह ladle (करछुल) है।"
+      ],
+      "vi": [
+       "<span class=gray>Cái này</span> gọi là gì?",
+       "Chỉ vào một vật khi bạn không biết tên của nó. Với nhiều vật: What are these called?",
+       "— Cái này gọi là gì? — Đó là ladle (cái muôi)."
       ]
      }
     ],
@@ -527,6 +783,16 @@
        "Comment s'écrit rainbow ?",
        "Pour écrire un mot que vous avez entendu. L'orthographe anglaise est difficile pour tout le monde, même pour les natifs !",
        "Comment s'écrit Wednesday ?"
+      ],
+      "hi": [
+       "<span class=gray>rainbow</span> की स्पेलिंग क्या है?",
+       "सुने हुए शब्द को लिखने के लिए। अंग्रेज़ी की स्पेलिंग सबके लिए मुश्किल है, उनके लिए भी जिनकी यह मातृभाषा है!",
+       "Wednesday की स्पेलिंग क्या है?"
+      ],
+      "vi": [
+       "<span class=gray>Rainbow</span> đánh vần thế nào?",
+       "Để viết ra một từ bạn nghe được. Chính tả tiếng Anh khó với tất cả mọi người, kể cả người bản ngữ!",
+       "Wednesday đánh vần thế nào?"
       ]
      }
     ],
@@ -546,6 +812,16 @@
        "Comment ça se prononce ?",
        "Pour un mot que vous savez lire mais pas dire. Montrez le mot.",
        "Comment se prononce ce mot ? R-E-C-I-P-E."
+      ],
+      "hi": [
+       "<span class=gray>इसे</span> कैसे बोलते हैं?",
+       "उस शब्द के लिए जिसे आप पढ़ सकते हैं पर बोल नहीं पाते। शब्द की ओर इशारा कीजिए।",
+       "इस शब्द को कैसे बोलते हैं? R-E-C-I-P-E."
+      ],
+      "vi": [
+       "<span class=gray>Từ này</span> phát âm thế nào?",
+       "Dùng cho một từ bạn đọc được nhưng không biết nói. Hãy chỉ vào từ đó.",
+       "Từ này phát âm thế nào? R-E-C-I-P-E."
       ]
      }
     ]
@@ -558,6 +834,14 @@
     "fr": [
      "Demander des mots",
      "Apprendre de nouveaux mots auprès des gens qui vous entourent."
+    ],
+    "hi": [
+     "शब्द पूछना",
+     "अपने आसपास के लोगों से नए शब्द सीखना।"
+    ],
+    "vi": [
+     "Hỏi từ",
+     "Học từ mới từ những người xung quanh."
     ]
    }
   },
@@ -582,6 +866,16 @@
        "Un instant.",
        "Quand il vous faut un peu de temps pour réfléchir ou chercher quelque chose. On dit aussi : Just a second. ou Hang on.",
        "Un instant, je vais retrouver le papier."
+      ],
+      "hi": [
+       "एक मिनट।",
+       "जब सोचने या कुछ ढूँढने के लिए थोड़ा समय चाहिए। यह भी: Just a second. या Hang on.",
+       "एक मिनट, मैं वह काग़ज़ ढूँढता हूँ।"
+      ],
+      "vi": [
+       "Chờ một chút.",
+       "Khi bạn cần chút thời gian để nghĩ hoặc tìm thứ gì đó. Cũng có: Just a second. hoặc Hang on.",
+       "Chờ một chút, để mình tìm tờ giấy."
       ]
      }
     ],
@@ -601,6 +895,16 @@
        "Laisse-moi réfléchir.",
        "Montre que vous cherchez une réponse, que vous n'ignorez pas la question. On dit aussi : Hmm, let me see.",
        "— Quel jour t'arrange le mieux ? — Laisse-moi réfléchir… vendredi."
+      ],
+      "hi": [
+       "सोचने दीजिए।",
+       "दिखाता है कि आप जवाब ढूँढ रहे हैं, सवाल को अनसुना नहीं कर रहे। यह भी: Hmm, let me see.",
+       "— आपके लिए कौन-सा दिन सबसे ठीक है? — सोचने दीजिए… शुक्रवार।"
+      ],
+      "vi": [
+       "Để mình nghĩ đã.",
+       "Cho thấy bạn đang tìm câu trả lời chứ không phải lờ câu hỏi đi. Cũng có: Hmm, let me see.",
+       "— Ngày nào tiện cho bạn nhất? — Để mình nghĩ đã… Thứ Sáu."
       ]
      }
     ],
@@ -620,6 +924,16 @@
        "Comment dit-on, déjà… ?",
        "Le dire à voix haute quand un mot vous échappe est normal. Décrivez la chose, et l'autre vous aidera souvent.",
        "C'est un… comment dit-on, déjà… un truc pour ouvrir les bouteilles."
+      ],
+      "hi": [
+       "वह क्या कहते हैं…?",
+       "शब्द न सूझने पर इसे ज़ोर से कह देना सामान्य है। चीज़ का वर्णन कीजिए; सामने वाला अक्सर मदद कर देता है।",
+       "वह एक… क्या कहते हैं… बोतल खोलने वाली चीज़ है।"
+      ],
+      "vi": [
+       "Từ đó là gì nhỉ…?",
+       "Nói to câu này khi không tìm ra từ là chuyện bình thường. Hãy tả vật đó, người kia thường sẽ giúp bạn.",
+       "Đó là cái… gọi là gì nhỉ… cái để mở chai ấy."
       ]
      }
     ],
@@ -639,6 +953,16 @@
        "J'apprends encore l'anglais.",
        "Invite les gens à être patients et à parler simplement. Inutile de dire Sorry for my bad English : les gens sont en général bienveillants.",
        "J'apprends encore l'anglais, alors parlez lentement, s'il vous plaît."
+      ],
+      "hi": [
+       "मैं अभी अंग्रेज़ी सीख रहा हूँ।",
+       "धैर्य माँगता है और यह भी कि आपसे सरल ढंग से बात की जाए। Sorry for my bad English कहने की ज़रूरत नहीं: लोग आम तौर पर अच्छे से पेश आते हैं।",
+       "मैं अभी अंग्रेज़ी सीख रहा हूँ, इसलिए कृपया धीरे बोलिए।"
+      ],
+      "vi": [
+       "Mình vẫn đang học tiếng Anh.",
+       "Xin người kia kiên nhẫn và nói đơn giản với bạn. Không cần nói Sorry for my bad English: mọi người thường rất tử tế.",
+       "Mình vẫn đang học tiếng Anh, nên bạn nói chậm giúp nhé."
       ]
      }
     ]
@@ -651,6 +975,14 @@
     "fr": [
      "Gagner du temps",
      "Quand il vous faut un instant, ou que le mot vous échappe."
+    ],
+    "hi": [
+     "थोड़ा समय लेना",
+     "जब आपको एक पल चाहिए, या शब्द नहीं सूझ रहा।"
+    ],
+    "vi": [
+     "Câu giờ",
+     "Khi bạn cần một chút thời gian, hoặc chưa tìm ra từ."
     ]
    }
   },
@@ -675,6 +1007,16 @@
        "Je vois.",
        "Montre que vous comprenez et que vous écoutez. En anglais, Yes peut vouloir dire Je comprends ou Je suis d'accord : ne le dites que si c'est vrai.",
        "— Tournez à gauche après la banque. — Je vois. Merci."
+      ],
+      "hi": [
+       "अच्छा, समझा।",
+       "दिखाता है कि आप समझ रहे हैं और सुन रहे हैं। अंग्रेज़ी में Yes का मतलब “समझ गया” भी लग सकता है और “सहमत हूँ” भी, इसलिए तभी कहिए जब यह सच हो।",
+       "— बैंक के बाद बाएँ मुड़िए। — अच्छा, समझा। धन्यवाद।"
+      ],
+      "vi": [
+       "À, ra vậy.",
+       "Cho thấy bạn hiểu và đang lắng nghe. Trong tiếng Anh, Yes có thể được hiểu là “Tôi hiểu” hoặc “Tôi đồng ý”, nên chỉ nói khi đúng là như vậy.",
+       "— Rẽ trái sau ngân hàng. — À, ra vậy. Cảm ơn."
       ]
      }
     ],
@@ -694,6 +1036,16 @@
        "Compris.",
        "Familier : je comprends. Très courant au travail. On dit aussi : Got it, thanks!",
        "— Appuie sur le bouton vert, puis attends. — Compris."
+      ],
+      "hi": [
+       "समझ गया।",
+       "अनौपचारिक: मैं समझ गया। काम पर बहुत आम। यह भी: Got it, thanks!",
+       "— हरा बटन दबाइए, फिर रुकिए। — समझ गया।"
+      ],
+      "vi": [
+       "Hiểu rồi.",
+       "Thân mật: mình hiểu rồi. Rất phổ biến ở chỗ làm. Cũng có: Got it, thanks!",
+       "— Bấm nút xanh, rồi chờ. — Hiểu rồi."
       ]
      }
     ],
@@ -713,6 +1065,16 @@
        "Ah, maintenant je comprends.",
        "Après une explication réussie. Cela dit à la personne que son aide a été utile.",
        "Ah, maintenant je comprends. Merci de m'avoir expliqué."
+      ],
+      "hi": [
+       "अच्छा, अब समझ आया।",
+       "जब समझाना काम कर गया। सामने वाले को बताता है कि उसकी मदद काम आई।",
+       "अच्छा, अब समझ आया। समझाने के लिए धन्यवाद।"
+      ],
+      "vi": [
+       "À, giờ thì mình hiểu rồi.",
+       "Khi lời giải thích có tác dụng. Cho người kia biết họ đã giúp được bạn.",
+       "À, giờ thì mình hiểu rồi. Cảm ơn bạn đã giải thích."
       ]
      }
     ],
@@ -732,6 +1094,16 @@
        "C'est logique.",
        "Je comprends, et cela me paraît juste et logique.",
        "— On commence tôt parce qu'il fait plus frais. — Ah, c'est logique."
+      ],
+      "hi": [
+       "यह बात ठीक लगती है।",
+       "मैं समझ गया, और मुझे यह सही और तर्कसंगत लगता है।",
+       "— हम जल्दी शुरू करते हैं क्योंकि तब ठंडक रहती है। — अच्छा, यह बात ठीक लगती है।"
+      ],
+      "vi": [
+       "Nghe hợp lý đấy.",
+       "Mình hiểu, và thấy điều đó đúng, hợp lý.",
+       "— Bọn mình bắt đầu sớm vì lúc đó mát hơn. — À, nghe hợp lý đấy."
       ]
      }
     ]
@@ -744,6 +1116,14 @@
     "fr": [
      "Quand on comprend",
      "Montrer que le message est passé."
+    ],
+    "hi": [
+     "जब समझ आ जाए",
+     "दिखाना कि बात आप तक पहुँच गई।"
+    ],
+    "vi": [
+     "Khi bạn đã hiểu",
+     "Cho thấy bạn đã nắm được ý."
     ]
    }
   }

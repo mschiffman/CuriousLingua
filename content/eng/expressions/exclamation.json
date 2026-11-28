@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/exclamation.html",
  "aud_dir": "eng/expressions/exclamation/",
@@ -37,6 +39,16 @@
        "Ouah !",
        "Grande surprise ou admiration. Dites-le long et aigu : Woooow! On dit aussi : Wow, that's amazing!",
        "Ouah ! Ton jardin est magnifique."
+      ],
+      "hi": [
+       "वाह!",
+       "बड़ी हैरानी या तारीफ़। लंबा खींचकर और ऊँचे सुर में कहिए: Woooow! यह भी: Wow, that's amazing!",
+       "वाह! तुम्हारा बग़ीचा बहुत सुंदर है।"
+      ],
+      "vi": [
+       "Chà!",
+       "Rất ngạc nhiên hoặc thán phục. Kéo dài và lên cao giọng: Woooow! Cũng có: Wow, that's amazing!",
+       "Chà! Vườn nhà bạn đẹp quá."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Vraiment ?",
        "Surprise ou intérêt. Laissez la voix monter à la fin. Dit d'une voix plate, on peut croire que vous doutez.",
        "— J'ai trouvé un travail en Thaïlande. — Vraiment ? Tu commences quand ?"
+      ],
+      "hi": [
+       "सच में?",
+       "हैरानी या दिलचस्पी। अंत में आवाज़ ऊपर उठने दीजिए। सपाट लहजे में कहने पर लग सकता है कि आपको उनकी बात पर यक़ीन नहीं।",
+       "— मुझे थाईलैंड में नौकरी मिल गई। — सच में? कब से शुरू है?"
+      ],
+      "vi": [
+       "Thật à?",
+       "Ngạc nhiên hoặc quan tâm. Để giọng lên cao ở cuối. Nói bằng giọng đều đều thì có thể nghe như bạn không tin họ.",
+       "— Mình có việc ở Thái Lan rồi. — Thật à? Bao giờ bạn bắt đầu?"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "C'est pas vrai !",
        "Deux sens. Avec un visage joyeux et surpris : je n'y crois pas ! En réponse à une demande : pas question !",
        "— J'ai gagné le prix ! — C'est pas vrai ! Félicitations !"
+      ],
+      "hi": [
+       "हो ही नहीं सकता!",
+       "दो मतलब। ख़ुश और हैरान चेहरे के साथ: यक़ीन नहीं होता! किसी अनुरोध के जवाब में: बिलकुल नहीं!",
+       "— मैंने इनाम जीत लिया! — हो ही नहीं सकता! बधाई हो!"
+      ],
+      "vi": [
+       "Không thể nào!",
+       "Hai nghĩa. Với vẻ mặt vui và ngạc nhiên: không thể tin được! Khi đáp lại một lời nhờ: không đời nào!",
+       "— Mình trúng giải rồi! — Không thể nào! Chúc mừng nhé!"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Oh mon Dieu !",
        "Choc ou excitation. Vous entendrez aussi Oh my God! et OMG dans les messages, mais certains n'aiment pas que God soit employé ainsi. Oh my gosh! passe partout.",
        "Oh mon Dieu ! C'est un serpent ?"
+      ],
+      "hi": [
+       "हे भगवान!",
+       "डर या रोमांच। आप Oh my God! और संदेशों में OMG भी सुनेंगे, पर कुछ लोगों को God का ऐसा इस्तेमाल पसंद नहीं। Oh my gosh! हर जगह ठीक है।",
+       "हे भगवान! वह साँप है क्या?"
+      ],
+      "vi": [
+       "Ôi trời ơi!",
+       "Giật mình hoặc phấn khích. Bạn cũng sẽ nghe Oh my God! và OMG trong tin nhắn, nhưng có người không thích dùng từ God như vậy. Oh my gosh! thì dùng ở đâu cũng an toàn.",
+       "Ôi trời ơi! Con rắn đấy à?"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Tu plaisantes !",
        "Kidding veut dire plaisanter. Sens : c'est si surprenant, est-ce vrai ? On dit aussi : Are you serious?",
        "— Le bus est gratuit aujourd'hui. — Tu plaisantes !"
+      ],
+      "hi": [
+       "मज़ाक़ कर रहे हो!",
+       "Kidding का मतलब है मज़ाक़ करना। यानी: कमाल है, क्या यह सच है? यह भी: Are you serious?",
+       "— आज बस मुफ़्त है। — मज़ाक़ कर रहे हो!"
+      ],
+      "vi": [
+       "Bạn đùa à!",
+       "Kidding nghĩa là nói đùa. Ý là: bất ngờ quá, thật thế à? Cũng có: Are you serious?",
+       "— Hôm nay xe buýt miễn phí. — Bạn đùa à!"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "La surprise",
      "Quand quelque chose vous surprend, en bien ou en mal."
+    ],
+    "hi": [
+     "हैरानी",
+     "जब कोई बात आपको चौंका दे, अच्छी हो या बुरी।"
+    ],
+    "vi": [
+     "Ngạc nhiên",
+     "Khi có điều gì làm bạn bất ngờ, dù tốt hay xấu."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Super !",
        "La réponse joyeuse passe-partout. Plus fort : That's wonderful! ou Fantastic!",
        "— J'ai réussi le contrôle ! — Super ! Bravo !"
+      ],
+      "hi": [
+       "बहुत बढ़िया!",
+       "हर बात के लिए ख़ुशी भरा जवाब। ज़्यादा ज़ोरदार: That's wonderful! या Fantastic!",
+       "— मैं टेस्ट में पास हो गया! — बहुत बढ़िया! शाबाश!"
+      ],
+      "vi": [
+       "Tuyệt quá!",
+       "Câu đáp vui vẻ cho mọi chuyện. Mạnh hơn: That's wonderful! hoặc Fantastic!",
+       "— Mình thi đỗ rồi! — Tuyệt quá! Giỏi lắm!"
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Cool !",
        "Familier : ça me plaît, c'est intéressant. Très courant chez les jeunes.",
        "— J'ai un nouveau téléphone. — Cool ! Je peux voir ?"
+      ],
+      "hi": [
+       "मस्त!",
+       "अनौपचारिक: मुझे पसंद आया, दिलचस्प है। युवाओं के बीच बहुत आम।",
+       "— मैंने नया फ़ोन लिया है। — मस्त! दिखाओ ज़रा?"
+      ],
+      "vi": [
+       "Hay đấy!",
+       "Thân mật: mình thích, thú vị đấy. Rất phổ biến trong giới trẻ.",
+       "— Mình có điện thoại mới. — Hay đấy! Cho mình xem với?"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Génial !",
        "Familier et très américain : formidable, excellent. Les Américains le disent même pour de petites choses : Awesome, thanks!",
        "— Le dîner est prêt. — Génial ! J'ai tellement faim."
+      ],
+      "hi": [
+       "ज़बरदस्त!",
+       "अनौपचारिक और बहुत अमेरिकी: बहुत अच्छा, शानदार। अमेरिकी इसे छोटी बातों पर भी कहते हैं: Awesome, thanks!",
+       "— खाना तैयार है। — ज़बरदस्त! बहुत भूख लगी है।"
+      ],
+      "vi": [
+       "Tuyệt vời!",
+       "Thân mật và rất Mỹ: rất tốt, xuất sắc. Người Mỹ nói cả với những chuyện nhỏ: Awesome, thanks!",
+       "— Cơm tối xong rồi. — Tuyệt vời! Mình đói lắm rồi."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Tu en as de la chance !",
        "Quand il arrive quelque chose de bien à quelqu'un d'autre. Amical, parfois avec une pointe de jalousie gentille.",
        "— Je pars une semaine à la plage. — Tu en as de la chance !"
+      ],
+      "hi": [
+       "क़िस्मत वाले हो!",
+       "जब किसी और के साथ कुछ अच्छा हो। दोस्ताना, कभी-कभी हल्की-सी मीठी जलन के साथ।",
+       "— मैं एक हफ़्ते के लिए समुद्र-तट पर जा रहा हूँ। — क़िस्मत वाले हो!"
+      ],
+      "vi": [
+       "Sướng thế!",
+       "Khi chuyện tốt đến với người khác. Thân thiện, đôi khi pha chút ghen tị dễ thương.",
+       "— Mình sắp đi biển một tuần. — Sướng thế!"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Youpi !",
        "Du bonheur pur, comme un enfant. Les adultes le disent aussi quand ils sont très contents.",
        "Youpi ! Pas d'école demain !"
+      ],
+      "hi": [
+       "याहू!",
+       "निखालिस ख़ुशी, बच्चों जैसी। बड़े भी बहुत ख़ुश होने पर कहते हैं।",
+       "याहू! कल स्कूल की छुट्टी है!"
+      ],
+      "vi": [
+       "Hoan hô!",
+       "Niềm vui thuần túy, như của trẻ con. Người lớn cũng nói khi rất vui.",
+       "Hoan hô! Mai được nghỉ học!"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "Les bonnes nouvelles",
      "Des réactions joyeuses, d'un great tranquille à un yay plein de joie."
+    ],
+    "hi": [
+     "अच्छी ख़बर",
+     "ख़ुशी की प्रतिक्रियाएँ, शांत great से लेकर उछलते हुए yay तक।"
+    ],
+    "vi": [
+     "Tin vui",
+     "Những phản ứng vui mừng, từ một tiếng great điềm đạm đến tiếng yay reo vui."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Oups !",
        "Un petit accident ou une petite erreur : vous faites tomber quelque chose ou appuyez sur le mauvais bouton. On dit aussi : Whoops!",
        "Oups ! J'ai fait tomber mes clés."
+      ],
+      "hi": [
+       "ओहो!",
+       "छोटी-सी दुर्घटना या ग़लती: हाथ से कुछ गिर गया या ग़लत बटन दब गया। यह भी: Whoops!",
+       "ओहो! मेरी चाबियाँ गिर गईं।"
+      ],
+      "vi": [
+       "Ối!",
+       "Một tai nạn hay lỗi nhỏ: bạn đánh rơi thứ gì đó hoặc bấm nhầm nút. Cũng có: Whoops!",
+       "Ối! Mình làm rơi chìa khóa rồi."
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Aïe aïe aïe.",
        "Vous voyez les ennuis arriver. Dites-le lentement, la voix qui descend.",
        "Aïe aïe aïe. Je crois que j'ai laissé mon portefeuille à la maison."
+      ],
+      "hi": [
+       "अरे रे।",
+       "आपको कोई मुसीबत आती दिख रही है। धीरे-धीरे कहिए, आवाज़ नीचे गिराते हुए।",
+       "अरे रे। लगता है मैं बटुआ घर पर भूल आया।"
+      ],
+      "vi": [
+       "Thôi chết.",
+       "Bạn thấy rắc rối sắp đến. Nói chậm, xuống giọng.",
+       "Thôi chết. Hình như mình để quên ví ở nhà rồi."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Aïe !",
        "Douleur soudaine. Plus court : Ow! Aussi pour une nouvelle qui fait mal : The ticket is $200? Ouch!",
        "Aïe ! Je me suis cogné la tête."
+      ],
+      "hi": [
+       "आह!",
+       "अचानक उठा दर्द। छोटा रूप: Ow! चुभने वाली ख़बर के लिए भी: The ticket is $200? Ouch!",
+       "आह! मेरा सिर टकरा गया।"
+      ],
+      "vi": [
+       "Ái!",
+       "Đau đột ngột. Ngắn hơn: Ow! Cũng dùng cho tin làm bạn xót: The ticket is $200? Ouch!",
+       "Ái! Mình bị cộc đầu."
       ]
      }
     ]
@@ -311,6 +459,14 @@
     "fr": [
      "Maladresses et douleur",
      "Petits accidents, erreurs et douleur."
+    ],
+    "hi": [
+     "Oops और ouch",
+     "छोटी दुर्घटनाएँ, ग़लतियाँ और दर्द।"
+    ],
+    "vi": [
+     "Oops và ouch",
+     "Tai nạn nhỏ, lỗi nhỏ và cơn đau."
     ]
    }
   },
@@ -335,6 +491,16 @@
        "Oh non !",
        "Quelque chose de fâcheux vient d'arriver, ou vous venez de vous rappeler quelque chose. Très courant.",
        "Oh non ! J'ai oublié mes devoirs !"
+      ],
+      "hi": [
+       "अरे नहीं!",
+       "अभी-अभी कुछ बुरा हुआ है, या आपको अभी कुछ याद आया है। बहुत आम।",
+       "अरे नहीं! मैं अपना होमवर्क भूल गया!"
+      ],
+      "vi": [
+       "Ôi không!",
+       "Chuyện xấu vừa xảy ra, hoặc bạn vừa sực nhớ ra điều gì. Rất phổ biến.",
+       "Ôi không! Mình quên bài tập về nhà rồi!"
       ]
      }
     ],
@@ -354,6 +520,16 @@
        "Quel dommage !",
        "Sens : c'est triste, c'est décevant. Rien à voir avec la honte. On dit aussi : What a pity!",
        "— Je ne peux pas venir à ta fête. — Oh, quel dommage !"
+      ],
+      "hi": [
+       "कितने अफ़सोस की बात है!",
+       "मतलब: कितना दुखद, कितनी निराशा। इसका शर्मिंदगी से कोई संबंध नहीं। यह भी: What a pity!",
+       "— मैं तुम्हारी पार्टी में नहीं आ पाऊँगा। — ओह, कितने अफ़सोस की बात है!"
+      ],
+      "vi": [
+       "Tiếc quá!",
+       "Nghĩa là: buồn quá, đáng tiếc quá. Không liên quan gì đến xấu hổ. Cũng có: What a pity!",
+       "— Mình không đến dự tiệc của bạn được. — Ôi, tiếc quá!"
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Tant pis.",
        "On accepte quelque chose de fâcheux que l'on ne peut pas changer. Calme, avec un petit haussement d'épaules.",
        "Il pleut. Tant pis, on reste à la maison et on cuisine."
+      ],
+      "hi": [
+       "चलो, कोई बात नहीं।",
+       "आप किसी ऐसी बुरी बात को मान लेते हैं जिसे बदल नहीं सकते। शांत भाव से, कंधे ज़रा उचकाकर।",
+       "बारिश हो रही है। चलो, कोई बात नहीं, घर पर रहकर खाना बना लेते हैं।"
+      ],
+      "vi": [
+       "Thôi vậy.",
+       "Bạn chấp nhận một chuyện không hay mà mình không thay đổi được. Bình thản, hơi nhún vai.",
+       "Trời mưa rồi. Thôi vậy, mình ở nhà nấu ăn cũng được."
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Pff !",
        "Agacement ou dégoût. Familier : entre amis, ou pour soi-même.",
        "Pff ! Internet est encore en panne."
+      ],
+      "hi": [
+       "उफ़!",
+       "झुँझलाहट या घिन। अनौपचारिक: दोस्तों के साथ, या अपने-आप से।",
+       "उफ़! इंटरनेट फिर बंद हो गया।"
+      ],
+      "vi": [
+       "Chán thật!",
+       "Bực bội hoặc ghê sợ. Thân mật: với bạn bè, hoặc nói một mình.",
+       "Chán thật! Mạng lại rớt rồi."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Allez !",
        "Deux emplois. Agacé : Oh, come on! veut dire ce n'est pas juste ou dépêche-toi ! Pour encourager : Come on, you can do it!",
        "Allez ! On va être en retard !"
+      ],
+      "hi": [
+       "अरे, चलो भी!",
+       "दो इस्तेमाल। झुँझलाकर: Oh, come on! का मतलब है यह ठीक नहीं या जल्दी करो! हौसला बढ़ाने के लिए: Come on, you can do it!",
+       "चलो भी! हमें देर हो जाएगी!"
+      ],
+      "vi": [
+       "Thôi nào!",
+       "Hai cách dùng. Khi bực: Oh, come on! nghĩa là thế là không công bằng hoặc nhanh lên! Để cổ vũ: Come on, you can do it!",
+       "Nhanh lên nào! Mình muộn mất!"
       ]
      }
     ]
@@ -423,6 +629,14 @@
     "fr": [
      "Mauvaises nouvelles et agacement",
      "Quand les choses tournent mal, un peu ou beaucoup."
+    ],
+    "hi": [
+     "बुरी ख़बर और झुँझलाहट",
+     "जब कुछ गड़बड़ हो जाए, बड़ा या छोटा।"
+    ],
+    "vi": [
+     "Tin xấu và bực mình",
+     "Khi mọi việc không suôn sẻ, dù lớn hay nhỏ."
     ]
    }
   },
@@ -447,6 +661,16 @@
        "Ouf !",
        "Le bruit du souffle que l'on relâche après une inquiétude. Dites-le comme une longue expiration.",
        "Ouf ! J'ai retrouvé mon passeport."
+      ],
+      "hi": [
+       "उफ़्फ़!",
+       "चिंता के बाद साँस छोड़ने की आवाज़। लंबी साँस की तरह कहिए।",
+       "उफ़्फ़! मेरा पासपोर्ट मिल गया।"
+      ],
+      "vi": [
+       "Phù!",
+       "Tiếng thở phào sau một nỗi lo. Nói như một hơi thở dài.",
+       "Phù! Mình tìm thấy hộ chiếu rồi."
       ]
      }
     ],
@@ -466,6 +690,16 @@
        "Dieu merci !",
        "Quelque chose de fâcheux n'est pas arrivé. Vous entendrez aussi Thank God!",
        "Dieu merci, tu es sain et sauf !"
+      ],
+      "hi": [
+       "शुक्र है!",
+       "कुछ बुरा होते-होते रह गया। आप Thank God! भी सुनेंगे।",
+       "शुक्र है तुम सही-सलामत हो!"
+      ],
+      "vi": [
+       "Ơn trời!",
+       "Chuyện xấu đã không xảy ra. Bạn cũng sẽ nghe Thank God!",
+       "Ơn trời, bạn không sao!"
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Quel soulagement !",
        "Quand une longue inquiétude prend fin : de bons résultats d'analyses, une arrivée sans encombre.",
        "— Le médecin dit que ce n'est rien de grave. — Quel soulagement !"
+      ],
+      "hi": [
+       "जान में जान आई!",
+       "जब कोई लंबी चिंता ख़त्म हो: परीक्षा के अच्छे नतीजे, किसी का सही-सलामत पहुँचना।",
+       "— डॉक्टर कहते हैं कि कोई गंभीर बात नहीं है। — जान में जान आई!"
+      ],
+      "vi": [
+       "Nhẹ cả người!",
+       "Khi một nỗi lo kéo dài kết thúc: kết quả thi tốt, ai đó đến nơi bình an.",
+       "— Bác sĩ nói không có gì nghiêm trọng. — Nhẹ cả người!"
       ]
      }
     ]
@@ -497,6 +741,14 @@
     "fr": [
      "Le soulagement",
      "Quand le danger ou l'inquiétude est passé."
+    ],
+    "hi": [
+     "राहत",
+     "जब ख़तरा या चिंता टल जाए।"
+    ],
+    "vi": [
+     "Nhẹ nhõm",
+     "Khi nguy hiểm hay nỗi lo đã qua."
     ]
    }
   },
@@ -521,6 +773,16 @@
        "Attention !",
        "Danger immédiat : une voiture, quelque chose qui tombe. On dit aussi : Watch out!",
        "Attention ! Une voiture arrive !"
+      ],
+      "hi": [
+       "बचो!",
+       "ठीक इसी पल का ख़तरा: कोई गाड़ी, कोई गिरती हुई चीज़। यह भी: Watch out!",
+       "बचो! गाड़ी आ रही है!"
+      ],
+      "vi": [
+       "Coi chừng!",
+       "Nguy hiểm ngay lúc này: một chiếc xe, một vật đang rơi. Cũng có: Watch out!",
+       "Coi chừng! Có xe đang tới!"
       ]
      }
     ],
@@ -540,6 +802,16 @@
        "Doucement !",
        "Moins urgent : faites attention, allez lentement. On dit aussi : Be careful!",
        "Doucement ! Le sol est mouillé."
+      ],
+      "hi": [
+       "सँभलकर!",
+       "कम जल्दी वाला: ध्यान से, धीरे चलिए। यह भी: Be careful!",
+       "सँभलकर! फ़र्श गीला है।"
+      ],
+      "vi": [
+       "Cẩn thận!",
+       "Ít khẩn cấp hơn: hãy chú ý, đi chậm thôi. Cũng có: Be careful!",
+       "Cẩn thận! Sàn ướt đấy."
       ]
      }
     ],
@@ -559,6 +831,16 @@
        "Au secours !",
        "Criez-le quand vous êtes vraiment en danger. Pour une aide ordinaire, dites Can you help me, please?",
        "Au secours ! Quelqu'un est tombé dans la rivière !"
+      ],
+      "hi": [
+       "बचाओ!",
+       "जब आप सचमुच ख़तरे में हों, तब चिल्लाइए। रोज़मर्रा की मदद के लिए कहिए: Can you help me, please?",
+       "बचाओ! कोई नदी में गिर गया!"
+      ],
+      "vi": [
+       "Cứu với!",
+       "Hét lên khi bạn thật sự gặp nguy hiểm. Muốn nhờ giúp việc thường ngày thì nói Can you help me, please?",
+       "Cứu với! Có người ngã xuống sông!"
       ]
      }
     ],
@@ -578,6 +860,16 @@
        "Stop !",
        "Pour arrêter quelqu'un sur-le-champ : un danger, ou quelque chose qui ne doit pas arriver.",
        "Stop ! Ne touche pas à ça, c'est chaud !"
+      ],
+      "hi": [
+       "रुको!",
+       "किसी को तुरंत रोकने के लिए: ख़तरा हो, या कुछ ऐसा जो नहीं होना चाहिए।",
+       "रुको! उसे मत छुओ, गरम है!"
+      ],
+      "vi": [
+       "Dừng lại!",
+       "Để ngăn ai đó ngay lập tức: có nguy hiểm, hoặc một việc không được phép xảy ra.",
+       "Dừng lại! Đừng chạm vào, nóng đấy!"
       ]
      }
     ]
@@ -590,6 +882,14 @@
     "fr": [
      "Les avertissements",
      "Courts et sonores : quand quelqu'un est en danger."
+    ],
+    "hi": [
+     "चेतावनी",
+     "छोटी और ज़ोर से: जब कोई ख़तरे में हो।"
+    ],
+    "vi": [
+     "Cảnh báo",
+     "Ngắn và to: khi có người gặp nguy hiểm."
     ]
    }
   },
@@ -614,6 +914,16 @@
        "Félicitations !",
        "Pour les bonnes nouvelles : un nouveau travail, un mariage, un bébé, un examen réussi. Familier : Congrats!",
        "— On va se marier ! — Félicitations !"
+      ],
+      "hi": [
+       "बधाई हो!",
+       "अच्छी ख़बर पर: नई नौकरी, शादी, बच्चा, परीक्षा में पास होना। अनौपचारिक: Congrats!",
+       "— हम शादी कर रहे हैं! — बधाई हो!"
+      ],
+      "vi": [
+       "Chúc mừng!",
+       "Cho tin vui: việc làm mới, đám cưới, em bé, thi đỗ. Thân mật: Congrats!",
+       "— Bọn mình sắp cưới! — Chúc mừng!"
       ]
      }
     ],
@@ -633,6 +943,16 @@
        "Bravo !",
        "Un compliment pour quelque chose de bien fait. Les Américains disent souvent Good job!, surtout aux enfants et aux élèves.",
        "Tu as fini la course ? Bravo !"
+      ],
+      "hi": [
+       "शाबाश!",
+       "किसी के अच्छे काम की तारीफ़। अमेरिकी अक्सर Good job! कहते हैं, ख़ासकर बच्चों और विद्यार्थियों से।",
+       "तुमने दौड़ पूरी कर ली? शाबाश!"
+      ],
+      "vi": [
+       "Giỏi lắm!",
+       "Lời khen khi ai đó làm tốt một việc. Người Mỹ hay nói Good job!, nhất là với trẻ em và học sinh.",
+       "Bạn chạy hết chặng đua rồi à? Giỏi lắm!"
       ]
      }
     ],
@@ -652,6 +972,16 @@
        "Bien joué !",
        "Familier et enthousiaste, surtout en anglais américain : pour les amis, les coéquipiers et les enfants qui viennent de réussir quelque chose. Attention au ton : dit d'une voix plate, c'est ironique et veut dire tu as tout raté.",
        "Tu as eu ton permis de conduire ? Bien joué !"
+      ],
+      "hi": [
+       "बहुत ख़ूब!",
+       "अनौपचारिक और हौसला बढ़ाने वाला, ख़ासकर अमेरिकी अंग्रेज़ी में: दोस्तों, टीम के साथियों और बच्चों के लिए, जब उन्होंने अभी कुछ अच्छा किया हो। आवाज़ का ध्यान रखिए: सपाट लहजे में यह ताना है और मतलब है तुमने गड़बड़ कर दी।",
+       "तुमने ड्राइविंग टेस्ट पास कर लिया? बहुत ख़ूब!"
+      ],
+      "vi": [
+       "Cừ lắm!",
+       "Thân mật và mang tính cổ vũ, nhất là trong tiếng Anh Mỹ: dành cho bạn bè, đồng đội và trẻ em vừa làm được điều gì tốt. Chú ý giọng nói: nói bằng giọng đều đều thì thành mỉa mai, nghĩa là bạn làm hỏng việc rồi.",
+       "Bạn thi đỗ bằng lái rồi à? Cừ lắm!"
       ]
      }
     ],
@@ -671,6 +1001,16 @@
        "Bonne chance !",
        "Avant un examen, un entretien, un match. Réponse : Thanks! On dit aussi : Best of luck!",
        "Bonne chance pour ton entretien de demain !"
+      ],
+      "hi": [
+       "शुभकामनाएँ!",
+       "परीक्षा, इंटरव्यू या मैच से पहले। जवाब: Thanks! यह भी: Best of luck!",
+       "कल के इंटरव्यू के लिए शुभकामनाएँ!"
+      ],
+      "vi": [
+       "Chúc may mắn!",
+       "Trước kỳ thi, buổi phỏng vấn, trận đấu. Trả lời: Thanks! Cũng có: Best of luck!",
+       "Chúc bạn may mắn trong buổi phỏng vấn ngày mai!"
       ]
      }
     ],
@@ -690,6 +1030,16 @@
        "À tes souhaits !",
        "À dire quand quelqu'un éternue. Les anglophones s'y attendent, et l'on répond Thank you.",
        "— Atchoum ! — À tes souhaits ! — Merci."
+      ],
+      "hi": [
+       "जीते रहो! (छींक आने पर)",
+       "जब कोई छींके तब कहिए। अंग्रेज़ी बोलने वाले इसकी उम्मीद करते हैं, और जवाब है Thank you.",
+       "— आछीं! — Bless you! — शुक्रिया।"
+      ],
+      "vi": [
+       "Sức khỏe nhé! (khi ai đó hắt hơi)",
+       "Nói khi có người hắt hơi. Người nói tiếng Anh chờ đợi câu này, và câu đáp là Thank you.",
+       "— Hắt xì! — Bless you! — Cảm ơn."
       ]
      }
     ],
@@ -709,6 +1059,16 @@
        "Santé !",
        "Quand on lève son verre ensemble avant de boire. En anglais britannique, cela veut dire aussi merci ou salut.",
        "À notre nouvelle maison. Santé !"
+      ],
+      "hi": [
+       "चियर्स!",
+       "जब पीने से पहले सब मिलकर गिलास उठाते हैं। ब्रिटिश अंग्रेज़ी में इसका मतलब धन्यवाद या अलविदा भी है।",
+       "हमारे नए घर के नाम। चियर्स!"
+      ],
+      "vi": [
+       "Cạn ly!",
+       "Khi mọi người cùng nâng ly trước khi uống. Trong tiếng Anh Anh, nó còn có nghĩa là cảm ơn hoặc tạm biệt.",
+       "Mừng nhà mới của chúng ta. Cạn ly!"
       ]
      }
     ]
@@ -721,6 +1081,14 @@
     "fr": [
      "Pour les autres",
      "Des mots rapides pour les grands et les petits moments des autres."
+    ],
+    "hi": [
+     "दूसरों के लिए",
+     "दूसरों के बड़े और छोटे पलों के लिए छोटे-छोटे शब्द।"
+    ],
+    "vi": [
+     "Dành cho người khác",
+     "Những lời ngắn cho khoảnh khắc lớn nhỏ của người khác."
     ]
    }
   }
@@ -781,6 +1149,22 @@
       "Oops!": "Oops! est pour une petite erreur, une fois qu'elle est faite.",
       "Help!": "Help! est pour quand vous êtes vous-même en danger."
      }
+    },
+    "hi": {
+     "my": "एक गाड़ी बहुत तेज़ आ रही है। आपका दोस्त सड़क पर क़दम रख देता है।",
+     "wrong": {
+      "Careful!": "Careful! धीरे चलने के लिए है। गाड़ी इसी पल आ रही है: चिल्लाइए Look out!",
+      "Oops!": "Oops! छोटी ग़लती के लिए है, उसके हो जाने के बाद।",
+      "Help!": "Help! तब के लिए है जब आप ख़ुद ख़तरे में हों।"
+     }
+    },
+    "vi": {
+     "my": "Một chiếc ô tô đang lao tới rất nhanh. Bạn của bạn bước xuống lòng đường.",
+     "wrong": {
+      "Careful!": "Careful! là để nhắc đi chậm. Xe đang tới ngay lúc này: hãy hét Look out!",
+      "Oops!": "Oops! dành cho một lỗi nhỏ, sau khi nó đã xảy ra.",
+      "Help!": "Help! là khi chính bạn gặp nguy hiểm."
+     }
     }
    }
   },
@@ -814,6 +1198,20 @@
       "Good luck!": "Good luck! se dit avant l'examen. Après une bonne nouvelle, dites Congratulations!",
       "Bless you!": "Bless you! se dit seulement quand quelqu'un éternue."
      }
+    },
+    "hi": {
+     "my": "आपकी दोस्त परीक्षा में पास हो गई।",
+     "wrong": {
+      "Good luck!": "Good luck! परीक्षा से पहले कहा जाता है। अच्छी ख़बर के बाद Congratulations! कहिए।",
+      "Bless you!": "Bless you! सिर्फ़ तब, जब कोई छींके।"
+     }
+    },
+    "vi": {
+     "my": "Bạn của bạn vừa thi đỗ.",
+     "wrong": {
+      "Good luck!": "Good luck! nói trước kỳ thi. Sau tin vui, hãy nói Congratulations!",
+      "Bless you!": "Bless you! chỉ dùng khi có người hắt hơi."
+     }
     }
    }
   },
@@ -830,6 +1228,12 @@
     },
     "fr": {
      "my": "Votre supérieur vous annonce qu'il a décroché le nouveau contrat."
+    },
+    "hi": {
+     "my": "आपके बॉस बताते हैं कि उन्हें नया कॉन्ट्रैक्ट मिल गया।"
+    },
+    "vi": {
+     "my": "Sếp bảo bạn rằng ông ấy đã giành được hợp đồng mới."
     }
    }
   },
@@ -868,6 +1272,22 @@
       "Well done!": "Well done! est un compliment après que quelqu'un a bien fait quelque chose.",
       "Cheers!": "Cheers! se dit en levant son verre avant de boire."
      }
+    },
+    "hi": {
+     "my": "कल आपकी दोस्त का नौकरी का इंटरव्यू है।",
+     "wrong": {
+      "Congratulations!": "Congratulations! अच्छी ख़बर के बाद के लिए है। उसका इंटरव्यू अभी हुआ ही नहीं।",
+      "Well done!": "Well done! तारीफ़ है, जब कोई कुछ अच्छा कर चुका हो।",
+      "Cheers!": "Cheers! पीने से पहले गिलास उठाते समय कहा जाता है।"
+     }
+    },
+    "vi": {
+     "my": "Ngày mai bạn của bạn có buổi phỏng vấn xin việc.",
+     "wrong": {
+      "Congratulations!": "Congratulations! dùng sau tin vui. Bạn ấy còn chưa phỏng vấn.",
+      "Well done!": "Well done! là lời khen sau khi ai đó làm tốt một việc.",
+      "Cheers!": "Cheers! dùng khi nâng ly trước khi uống."
+     }
     }
    }
   },
@@ -890,6 +1310,16 @@
     "fr": {
      "decoys": {
       "an": "What a relief! Relief commence par le son r, donc c'est a, pas an."
+     }
+    },
+    "hi": {
+     "decoys": {
+      "an": "What a relief! Relief की शुरुआत r की आवाज़ से होती है, इसलिए a लगता है, an नहीं।"
+     }
+    },
+    "vi": {
+     "decoys": {
+      "an": "What a relief! Relief bắt đầu bằng âm r, nên dùng a, không dùng an."
      }
     }
    }
@@ -929,6 +1359,22 @@
       "Good luck!": "Good luck! se dit avant un examen, un entretien ou un match.",
       "Oh my gosh!": "Un éternuement n'est pas un choc. Les anglophones disent Bless you!"
      }
+    },
+    "hi": {
+     "my": "बस में आपके बग़ल में बैठी महिला छींकती हैं।",
+     "wrong": {
+      "Cheers!": "Cheers! पीने से पहले गिलास उठाते समय कहा जाता है।",
+      "Good luck!": "Good luck! परीक्षा, इंटरव्यू या मैच से पहले कहा जाता है।",
+      "Oh my gosh!": "छींक कोई डरने की बात नहीं। अंग्रेज़ी बोलने वाले Bless you! कहते हैं।"
+     }
+    },
+    "vi": {
+     "my": "Người phụ nữ ngồi cạnh bạn trên xe buýt hắt hơi.",
+     "wrong": {
+      "Cheers!": "Cheers! dùng khi nâng ly trước khi uống.",
+      "Good luck!": "Good luck! nói trước kỳ thi, buổi phỏng vấn hay trận đấu.",
+      "Oh my gosh!": "Hắt hơi không phải chuyện giật mình. Người nói tiếng Anh nói Bless you!"
+     }
     }
    }
   },
@@ -948,6 +1394,14 @@
     "fr": {
      "my": "Votre amie vous dit que sa grand-mère est très malade.",
      "note": "Oh well. donne l'impression que cela vous est égal. C'est pour les petites choses de votre propre vie que vous ne pouvez pas changer. Devant la mauvaise nouvelle d'un ami, dites Oh no! ou I'm so sorry."
+    },
+    "hi": {
+     "my": "आपकी दोस्त बताती है कि उसकी दादी बहुत बीमार हैं।",
+     "note": "Oh well. से लगता है कि आपको परवाह नहीं। यह आपकी अपनी ज़िंदगी की उन छोटी बातों के लिए है जिन्हें आप बदल नहीं सकते। दोस्त की बुरी ख़बर पर Oh no! या I'm so sorry कहिए।"
+    },
+    "vi": {
+     "my": "Bạn của bạn kể rằng bà của bạn ấy ốm nặng.",
+     "note": "Oh well. nghe như bạn không quan tâm. Câu này dành cho những chuyện nhỏ trong cuộc sống của chính bạn mà bạn không thay đổi được. Trước tin buồn của bạn bè, hãy nói Oh no! hoặc I'm so sorry."
     }
    }
   },
@@ -986,6 +1440,22 @@
       "Help!": "Help! est pour un vrai danger, pas pour un peu de thé renversé.",
       "Yay!": "Yay! exprime la joie."
      }
+    },
+    "hi": {
+     "my": "आपसे कप लुढ़क जाता है और मेज़ पर थोड़ी चाय गिर जाती है।",
+     "wrong": {
+      "Ouch!": "Ouch! दर्द के लिए है। आपको कहीं चोट नहीं लगी: यह छोटी-सी दुर्घटना है।",
+      "Help!": "Help! असली ख़तरे के लिए है, थोड़ी-सी गिरी चाय के लिए नहीं।",
+      "Yay!": "Yay! ख़ुशी के लिए है।"
+     }
+    },
+    "vi": {
+     "my": "Bạn làm đổ cốc và một ít trà tràn ra bàn.",
+     "wrong": {
+      "Ouch!": "Ouch! dành cho cơn đau. Bạn không đau ở đâu cả: đây chỉ là một tai nạn nhỏ.",
+      "Help!": "Help! dành cho nguy hiểm thật sự, không phải cho một ít trà bị đổ.",
+      "Yay!": "Yay! dành cho niềm vui."
+     }
     }
    }
   },
@@ -1008,6 +1478,16 @@
     "fr": {
      "decoys": {
       "are": "You're contient déjà are : You're kidding!"
+     }
+    },
+    "hi": {
+     "decoys": {
+      "are": "You're में are पहले से शामिल है: You're kidding!"
+     }
+    },
+    "vi": {
+     "decoys": {
+      "are": "Trong You're đã có are rồi: You're kidding!"
      }
     }
    }
@@ -1047,6 +1527,22 @@
       "Oh well.": "Oh well. accepte quelque chose de fâcheux que l'on ne peut pas changer.",
       "Uh-oh.": "Uh-oh. est pour des ennuis que l'on voit venir."
      }
+    },
+    "hi": {
+     "my": "डॉक्टर कहते हैं कि आपकी माँ की जाँच के नतीजे ठीक आए हैं। आप पूरे हफ़्ते चिंता में थे।",
+     "wrong": {
+      "What a shame!": "What a shame! दुखद या निराश करने वाली ख़बर के लिए है। यह तो लंबी चिंता के बाद अच्छी ख़बर है।",
+      "Oh well.": "Oh well. किसी ऐसी बुरी बात को मान लेता है जिसे आप बदल नहीं सकते।",
+      "Uh-oh.": "Uh-oh. उस मुसीबत के लिए है जो आपको आती दिख रही हो।"
+     }
+    },
+    "vi": {
+     "my": "Bác sĩ nói kết quả xét nghiệm của mẹ bạn tốt. Bạn đã lo lắng suốt cả tuần.",
+     "wrong": {
+      "What a shame!": "What a shame! dành cho tin buồn hoặc đáng thất vọng. Đây là tin vui sau một thời gian dài lo lắng.",
+      "Oh well.": "Oh well. là chấp nhận một chuyện không hay mà bạn không thay đổi được.",
+      "Uh-oh.": "Uh-oh. dành cho rắc rối mà bạn thấy sắp đến."
+     }
     }
    }
   },
@@ -1063,6 +1559,12 @@
     },
     "fr": {
      "my": "Vous dînez avec des amis. Tout le monde lève son verre."
+    },
+    "hi": {
+     "my": "आप दोस्तों के साथ खाना खा रहे हैं। सब अपना गिलास उठाते हैं।"
+    },
+    "vi": {
+     "my": "Bạn đang ăn tối với bạn bè. Mọi người cùng nâng ly."
     }
    }
   },
@@ -1101,6 +1603,22 @@
       "Thank goodness!": "Thank goodness! est pour quand quelque chose de fâcheux n'est pas arrivé.",
       "Awesome!": "Awesome! est pour les bonnes nouvelles."
      }
+    },
+    "hi": {
+     "my": "बारिश हो रही है। आपका दोस्त कहता है कि पिकनिक रद्द हो गई।",
+     "wrong": {
+      "Shame on you!": "What a shame! का शर्मिंदगी से कोई संबंध नहीं। Shame on you! सामने वाले को दोष देता है। दुखद ख़बर पर What a shame! कहिए।",
+      "Thank goodness!": "Thank goodness! तब के लिए है जब कुछ बुरा होते-होते रह गया हो।",
+      "Awesome!": "Awesome! अच्छी ख़बर के लिए है।"
+     }
+    },
+    "vi": {
+     "my": "Trời đang mưa. Bạn của bạn nói buổi dã ngoại bị hủy.",
+     "wrong": {
+      "Shame on you!": "What a shame! không liên quan gì đến xấu hổ. Shame on you! là trách móc người kia. Trước một tin buồn, hãy nói What a shame!",
+      "Thank goodness!": "Thank goodness! dùng khi chuyện xấu đã không xảy ra.",
+      "Awesome!": "Awesome! dành cho tin vui."
+     }
     }
    }
   },
@@ -1120,6 +1638,14 @@
     "fr": {
      "my": "Votre professeure donne beaucoup de devoirs à la classe. Vous lui répondez.",
      "note": "Ugh! est familier : entre amis, ou pour soi-même. Dit à une professeure, c'est impoli."
+    },
+    "hi": {
+     "my": "आपकी शिक्षिका कक्षा को बहुत सारा होमवर्क देती हैं। आप उन्हें जवाब देते हैं।",
+     "note": "Ugh! अनौपचारिक है: दोस्तों के साथ, या अपने-आप से। शिक्षिका से कहना बदतमीज़ी है।"
+    },
+    "vi": {
+     "my": "Cô giáo giao cho cả lớp rất nhiều bài tập. Bạn đáp lại cô.",
+     "note": "Ugh! là thân mật: với bạn bè, hoặc nói một mình. Nói với cô giáo là vô lễ."
     }
    }
   },
@@ -1142,6 +1668,16 @@
     "fr": {
      "decoys": {
       "thanks": "C'est Thank goodness!, sans s."
+     }
+    },
+    "hi": {
+     "decoys": {
+      "thanks": "सही रूप Thank goodness! है, बिना s के।"
+     }
+    },
+    "vi": {
+     "decoys": {
+      "thanks": "Phải là Thank goodness!, không có s."
      }
     }
    }
@@ -1181,6 +1717,22 @@
       "Look out!": "Look out! est un avertissement de danger.",
       "Oh well.": "Oh well. accepte quelque chose de fâcheux."
      }
+    },
+    "hi": {
+     "my": "आपकी दोस्त बताती है कि उसने बागान की मुफ़्त यात्रा जीती है।",
+     "wrong": {
+      "What a shame!": "What a shame! दुखद या निराश करने वाली ख़बर के लिए है।",
+      "Look out!": "Look out! ख़तरे की चेतावनी है।",
+      "Oh well.": "Oh well. किसी बुरी बात को मान लेता है।"
+     }
+    },
+    "vi": {
+     "my": "Bạn của bạn kể rằng bạn ấy trúng một chuyến du lịch miễn phí đến Bagan.",
+     "wrong": {
+      "What a shame!": "What a shame! dành cho tin buồn hoặc đáng thất vọng.",
+      "Look out!": "Look out! là lời cảnh báo nguy hiểm.",
+      "Oh well.": "Oh well. là chấp nhận một chuyện không hay."
+     }
     }
    }
   },
@@ -1197,6 +1749,12 @@
     },
     "fr": {
      "my": "Un petit garçon vous montre le dessin qu'il a fait."
+    },
+    "hi": {
+     "my": "एक छोटा बच्चा आपको अपना बनाया हुआ चित्र दिखाता है।"
+    },
+    "vi": {
+     "my": "Một cậu bé cho bạn xem bức tranh cậu vừa vẽ."
     }
    }
   }
@@ -1205,17 +1763,23 @@
   "feeling": {
    "my": "Match the feeling: surprise, happiness, pain, bad news or relief.",
    "es": "Elige según el sentimiento: sorpresa, alegría, dolor, mala noticia o alivio.",
-   "fr": "Choisissez selon l'émotion : surprise, joie, douleur, mauvaise nouvelle ou soulagement."
+   "fr": "Choisissez selon l'émotion : surprise, joie, douleur, mauvaise nouvelle ou soulagement.",
+   "hi": "भावना के हिसाब से चुनिए: हैरानी, ख़ुशी, दर्द, बुरी ख़बर या राहत।",
+   "vi": "Chọn theo cảm xúc: ngạc nhiên, vui mừng, đau, tin xấu hay nhẹ nhõm."
   },
   "danger": {
    "my": "How urgent is it? Look out! and Stop! are for danger right now.",
    "es": "¿Qué tan urgente es? Look out! y Stop! son para un peligro en este instante.",
-   "fr": "Est-ce urgent ? Look out! et Stop! sont pour un danger immédiat."
+   "fr": "Est-ce urgent ? Look out! et Stop! sont pour un danger immédiat.",
+   "hi": "बात कितनी जल्दी की है? Look out! और Stop! ठीक इसी पल के ख़तरे के लिए हैं।",
+   "vi": "Khẩn cấp đến mức nào? Look out! và Stop! dành cho nguy hiểm ngay lúc này."
   },
   "moment": {
    "my": "Check the moment: before it happens (Good luck!) or after (Congratulations! Well done!).",
    "es": "Revisa el momento: antes de que pase (Good luck!) o después (Congratulations! Well done!).",
-   "fr": "Vérifiez le moment : avant que cela arrive (Good luck!) ou après (Congratulations! Well done!)."
+   "fr": "Vérifiez le moment : avant que cela arrive (Good luck!) ou après (Congratulations! Well done!).",
+   "hi": "मौक़ा देखिए: होने से पहले (Good luck!) या होने के बाद (Congratulations! Well done!)।",
+   "vi": "Xem lại thời điểm: trước khi việc xảy ra (Good luck!) hay sau đó (Congratulations! Well done!)."
   }
  }
 }

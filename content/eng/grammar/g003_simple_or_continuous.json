@@ -1,0 +1,842 @@
+{
+ "code": "G3",
+ "title": "Simple or Continuous?",
+ "subtitle": "Every day, or now?",
+ "level": "a2",
+ "topic": "Grammar chapters",
+ "type": "game",
+ "order": 3,
+ "review": "Written by Claude. Check the Burmese, Spanish, Hindi and Vietnamese (explanations and scene translations) and the answers. No pictures or audio yet.",
+ "intro": "Lucas cooks dinner, or is cooking dinner: Emma would like to know which. Four short scenes, then the rule, the mistakes to watch for, practice and a quiz.",
+ "aud_dir": "eng/grammar/g003_simple_or_continuous/",
+ "aud_ext": "mp3?v=2611280721",
+ "voice": {
+  "E": "MOAe6Ugu3k7GT4qGvdi6",
+  "L": "ZBsd5OXB9HVuWJ69YkCI"
+ },
+ "clips": [
+  "What are you doing?",
+  "I cook dinner.",
+  "You cook dinner? Every day? Since when?",
+  "No. Now. I am cooking dinner now.",
+  "Ah. And every day?",
+  "Every day, I eat dinner.",
+  "Lucas, the cat is sitting on your laptop.",
+  "She sits there every day.",
+  "She is typing now.",
+  "She types every day too.",
+  "She is sending an email to your boss.",
+  "Good. He likes her emails.",
+  "I am thinking.",
+  "What do you want?",
+  "I want coffee. I need coffee. I love coffee.",
+  "I know. You are drinking my coffee.",
+  "You usually walk to work.",
+  "Yes. I walk every day.",
+  "Why are you taking the car today?",
+  "Because it is raining.",
+  "It isn't raining.",
+  "It is raining somewhere.",
+  "I'm cooking",
+  "she types",
+  "he's walking",
+  "she sits",
+  "She sits there every day.",
+  "She is sitting there now.",
+  "I want coffee.",
+  "You are drinking my coffee."
+ ],
+ "clip_who": [
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "L",
+  "E",
+  "L",
+  "E",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "L",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E"
+ ],
+ "chapter": {
+  "subtitle": {
+   "my": "နေ့တိုင်းလား၊ အခုလား",
+   "en": "Every day, or now?",
+   "es": "¿Todos los días o ahora?",
+   "vi": "Hằng ngày, hay bây giờ?",
+   "hi": "रोज़, या अभी?"
+  },
+  "langs": [
+   "my",
+   "en",
+   "es",
+   "hi",
+   "vi"
+  ],
+  "scenes": [
+   {
+    "title": "On the Phone",
+    "image_note": "Split view: Emma on the phone looking amazed; Lucas in the kitchen in an apron, phone on his shoulder, stirring a pot.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "What [[are]] you [[doing]]?",
+      "tr": {
+       "my": "ဘာလုပ်နေလဲ။",
+       "es": "¿Qué estás haciendo?",
+       "vi": "Anh đang làm gì đấy?",
+       "hi": "तुम क्या कर रहे हो?"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[cook]] dinner.",
+      "tr": {
+       "my": "ညစာ ချက်တယ်။",
+       "es": "Hago la cena.",
+       "vi": "Anh nấu bữa tối.",
+       "hi": "मैं रात का खाना बनाता हूँ।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "You [[cook]] dinner? Every day? Since when?",
+      "tr": {
+       "my": "ရှင်က ညစာချက်တယ်ပေါ့။ နေ့တိုင်းလား။ ဘယ်တုန်းက စတာလဲ။",
+       "es": "¿Tú haces la cena? ¿Todos los días? ¿Desde cuándo?",
+       "vi": "Anh nấu bữa tối á? Ngày nào cũng nấu? Từ bao giờ thế?",
+       "hi": "तुम खाना बनाते हो? रोज़? कब से?"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "No. Now. I [[am cooking]] dinner now.",
+      "tr": {
+       "my": "မဟုတ်ဘူး။ အခု။ အခု ညစာ ချက်နေတာ။",
+       "es": "No. Ahora. Estoy haciendo la cena ahora.",
+       "vi": "Không. Bây giờ. Bây giờ anh đang nấu bữa tối.",
+       "hi": "नहीं। अभी। मैं अभी खाना बना रहा हूँ।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Ah. And every day?",
+      "tr": {
+       "my": "ဪ။ နေ့တိုင်းကျတော့ရော။",
+       "es": "Ah. ¿Y todos los días?",
+       "vi": "À. Thế còn hằng ngày?",
+       "hi": "अच्छा। और रोज़?"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "Every day, I [[eat]] dinner.",
+      "tr": {
+       "my": "နေ့တိုင်းကတော့ ညစာ စားတယ်။",
+       "es": "Todos los días, ceno.",
+       "vi": "Hằng ngày thì anh ăn bữa tối.",
+       "hi": "रोज़ तो मैं खाना खाता हूँ।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Cat",
+    "image_note": "Home desk. The cat sitting on an open laptop, one paw on the keys; Emma pointing; Lucas unbothered with a mug.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "Lucas, the cat [[is sitting]] on your laptop.",
+      "tr": {
+       "my": "လူးကပ်စ်၊ ကြောင်က ရှင့်လက်ပ်တော့ပေါ် ထိုင်နေတယ်။",
+       "es": "Lucas, la gata está sentada en tu laptop.",
+       "vi": "Lucas, con mèo đang ngồi trên laptop của anh.",
+       "hi": "लुकास, बिल्ली तुम्हारे लैपटॉप पर बैठी है।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "She [[sits]] there every day.",
+      "tr": {
+       "my": "သူ အဲဒီမှာ နေ့တိုင်း ထိုင်တယ်။",
+       "es": "Se sienta ahí todos los días.",
+       "vi": "Ngày nào nó cũng ngồi đó.",
+       "hi": "वह रोज़ वहीं बैठती है।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "She [[is typing]] now.",
+      "tr": {
+       "my": "အခု သူ စာရိုက်နေတယ်။",
+       "es": "Ahora está escribiendo.",
+       "vi": "Bây giờ nó đang gõ phím.",
+       "hi": "अभी वह टाइप कर रही है।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "She [[types]] every day too.",
+      "tr": {
+       "my": "နေ့တိုင်းလည်း စာရိုက်တယ်။",
+       "es": "También escribe todos los días.",
+       "vi": "Ngày nào nó cũng gõ.",
+       "hi": "वह रोज़ टाइप भी करती है।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "She [[is sending]] an email to your boss.",
+      "tr": {
+       "my": "ရှင့်အထက်လူကြီးဆီ အီးမေးလ် ပို့နေတယ်။",
+       "es": "Le está mandando un correo a tu jefe.",
+       "vi": "Nó đang gửi email cho sếp anh.",
+       "hi": "वह तुम्हारे बॉस को ईमेल भेज रही है।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "Good. He [[likes]] her emails.",
+      "tr": {
+       "my": "ကောင်းတယ်။ သူက ကြောင်ရဲ့ အီးမေးလ်တွေကို ကြိုက်တယ်။",
+       "es": "Qué bien. A él le gustan sus correos.",
+       "vi": "Tốt. Sếp thích email của nó.",
+       "hi": "बढ़िया। उन्हें उसके ईमेल पसंद हैं।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Coffee",
+    "image_note": "Kitchen counter, morning. Lucas staring into space holding a cup; Emma looking at her own empty saucer.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "What [[are]] you [[doing]]?",
+      "tr": {
+       "my": "ဘာလုပ်နေလဲ။",
+       "es": "¿Qué estás haciendo?",
+       "vi": "Anh đang làm gì đấy?",
+       "hi": "तुम क्या कर रहे हो?"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[am thinking]].",
+      "tr": {
+       "my": "စဉ်းစားနေတယ်။",
+       "es": "Estoy pensando.",
+       "vi": "Anh đang suy nghĩ.",
+       "hi": "मैं सोच रहा हूँ।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "What [[do]] you [[want]]?",
+      "tr": {
+       "my": "ဘာလိုချင်လဲ။",
+       "es": "¿Qué quieres?",
+       "vi": "Anh muốn gì?",
+       "hi": "तुम्हें क्या चाहिए?"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "I [[want]] coffee. I [[need]] coffee. I [[love]] coffee.",
+      "tr": {
+       "my": "ကော်ဖီ လိုချင်တယ်။ ကော်ဖီ လိုအပ်တယ်။ ကော်ဖီ ချစ်တယ်။",
+       "es": "Quiero café. Necesito café. Amo el café.",
+       "vi": "Anh muốn cà phê. Anh cần cà phê. Anh yêu cà phê.",
+       "hi": "मुझे कॉफ़ी चाहिए। मुझे कॉफ़ी की ज़रूरत है। मुझे कॉफ़ी से प्यार है।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "I [[know]]. You [[are drinking]] my coffee.",
+      "tr": {
+       "my": "သိတယ်။ ရှင် သောက်နေတာ ကျွန်မ ကော်ဖီ။",
+       "es": "Ya sé. Te estás tomando mi café.",
+       "vi": "Em biết. Anh đang uống cà phê của em.",
+       "hi": "पता है। तुम मेरी कॉफ़ी पी रहे हो।"
+      }
+     }
+    ]
+   },
+   {
+    "title": "The Car",
+    "image_note": "Sunny street outside the house. Lucas holding car keys, pointing at a clear blue sky; Emma with arms folded.",
+    "lines": [
+     {
+      "who": "Emma",
+      "text": "You usually [[walk]] to work.",
+      "tr": {
+       "my": "ရှင် ပုံမှန်ဆို အလုပ်ကို လမ်းလျှောက်သွားတယ်။",
+       "es": "Normalmente vas caminando al trabajo.",
+       "vi": "Bình thường anh đi bộ đi làm mà.",
+       "hi": "तुम आम तौर पर पैदल दफ़्तर जाते हो।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "Yes. I [[walk]] every day.",
+      "tr": {
+       "my": "ဟုတ်တယ်။ နေ့တိုင်း လမ်းလျှောက်တယ်။",
+       "es": "Sí. Camino todos los días.",
+       "vi": "Ừ. Ngày nào anh cũng đi bộ.",
+       "hi": "हाँ। मैं रोज़ पैदल जाता हूँ।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "Why [[are]] you [[taking]] the car today?",
+      "tr": {
+       "my": "ဒီနေ့ ဘာလို့ ကားယူသွားတာလဲ။",
+       "es": "¿Por qué te llevas el coche hoy?",
+       "vi": "Sao hôm nay anh lại lấy xe?",
+       "hi": "आज गाड़ी क्यों ले जा रहे हो?"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "Because it [[is raining]].",
+      "tr": {
+       "my": "မိုးရွာနေလို့။",
+       "es": "Porque está lloviendo.",
+       "vi": "Vì trời đang mưa.",
+       "hi": "क्योंकि बारिश हो रही है।"
+      }
+     },
+     {
+      "who": "Emma",
+      "text": "It [[isn't raining]].",
+      "tr": {
+       "my": "မိုးမရွာပါဘူး။",
+       "es": "No está lloviendo.",
+       "vi": "Trời có mưa đâu.",
+       "hi": "बारिश नहीं हो रही।"
+      }
+     },
+     {
+      "who": "Lucas",
+      "text": "It [[is raining]] somewhere.",
+      "tr": {
+       "my": "တစ်နေရာရာမှာတော့ ရွာနေတယ်။",
+       "es": "Está lloviendo en algún lado.",
+       "vi": "Ở đâu đó trời đang mưa.",
+       "hi": "कहीं तो हो रही है।"
+      }
+     }
+    ]
+   }
+  ],
+  "notice": [
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၁ တွင် Emma ဘာကြောင့် အံ့ဩသွားသလဲ။",
+     "en": "Scene 1: why is Emma surprised?",
+     "es": "Escena 1: ¿por qué se sorprende Emma?",
+     "vi": "Cảnh 1: vì sao Emma ngạc nhiên?",
+     "hi": "दृश्य 1: एम्मा हैरान क्यों है?"
+    },
+    "a": {
+     "my": "I [[cook]] dinner ဟုဆိုလျှင် 'နေ့တိုင်း ချက်တယ်' ဟု အဓိပ္ပာယ်ရသည်။ အခုအတွက် I [[am cooking]] ဟု ပြောရသည်။",
+     "en": "I [[cook]] dinner means every day. For now, he needs I [[am cooking]].",
+     "es": "I [[cook]] dinner significa todos los días. Para ahora hace falta I [[am cooking]].",
+     "vi": "I [[cook]] dinner nghĩa là ngày nào cũng nấu. Nói về bây giờ thì phải dùng I [[am cooking]].",
+     "hi": "I [[cook]] dinner का मतलब है रोज़। अभी के लिए I [[am cooking]] चाहिए।"
+    }
+   },
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၂ တွင် every day နှင့် ဘယ်ပုံစံ တွဲသလဲ။ now နှင့်ရော။",
+     "en": "Scene 2: which form goes with every day? Which goes with now?",
+     "es": "Escena 2: ¿qué forma va con every day? ¿Y con now?",
+     "vi": "Cảnh 2: dạng nào đi với every day? Dạng nào đi với now?",
+     "hi": "दृश्य 2: every day के साथ कौन सा रूप है? now के साथ कौन सा?"
+    },
+    "a": {
+     "my": "every day → [[sits]], [[types]]။ now → [[is sitting]], [[is typing]]။",
+     "en": "every day → [[sits]], [[types]]. now → [[is sitting]], [[is typing]].",
+     "es": "every day → [[sits]], [[types]]. now → [[is sitting]], [[is typing]].",
+     "vi": "every day → [[sits]], [[types]]. now → [[is sitting]], [[is typing]].",
+     "hi": "every day → [[sits]], [[types]]. now → [[is sitting]], [[is typing]]."
+    }
+   },
+   {
+    "q": {
+     "my": "ဇာတ်ကွက် ၃ တွင် Lucas သည် အခု ကော်ဖီလိုချင်နေသည်။ I am wanting ဟု ပြောသလား။",
+     "en": "Scene 3: Lucas wants coffee right now. Does he say I am wanting?",
+     "es": "Escena 3: Lucas quiere café ahora mismo. ¿Dice I am wanting?",
+     "vi": "Cảnh 3: Lucas đang muốn uống cà phê ngay lúc này. Anh ấy có nói I am wanting không?",
+     "hi": "दृश्य 3: लुकास को अभी कॉफ़ी चाहिए। क्या वह I am wanting कहता है?"
+    },
+    "a": {
+     "my": "မပြောပါ။ I [[want]]၊ I [[need]]၊ I [[love]]၊ I [[know]]။ ဤကြိယာများကို -ing ဖြင့် မသုံးပါ။",
+     "en": "No. I [[want]], I [[need]], I [[love]], I [[know]]. These verbs do not take -ing.",
+     "es": "No. I [[want]], I [[need]], I [[love]], I [[know]]. Estos verbos no llevan -ing.",
+     "vi": "Không. I [[want]], I [[need]], I [[love]], I [[know]]. Những động từ này không thêm -ing.",
+     "hi": "नहीं। I [[want]], I [[need]], I [[love]], I [[know]]. इन क्रियाओं में -ing नहीं लगता।"
+    }
+   }
+  ],
+  "rule": {
+   "points": {
+    "my": [
+     "Present Simple − နေ့တိုင်း၊ အမြဲ၊ ပုံမှန် လုပ်သောအရာ။ အချက်ပြစကားလုံး − [[every day]], [[usually]], [[always]]။",
+     "Present Continuous − အခု၊ ဒီနေ့၊ ယာယီ ဖြစ်နေသောအရာ။ အချက်ပြစကားလုံး − [[now]], [[today]], [[Look!]]",
+     "မြန်မာလို 'ချက်တယ်' နှင့် 'ချက်နေတယ်' ကွာသကဲ့သို့ အင်္ဂလိပ်တွင် I cook နှင့် I am cooking ကွာသည်။",
+     "[[want, need, like, love, know]] စသော ကြိယာများကို -ing ပုံစံဖြင့် မသုံးပါ။ အခုအတွက်ပင် I [[want]] ဟု ပြောသည်။"
+    ],
+    "en": [
+     "Present simple: every day, always, usually. Signal words: [[every day]], [[usually]], [[always]].",
+     "Present continuous: now, today, for a short time. Signal words: [[now]], [[today]], [[Look!]]",
+     "I cook = it is my habit. I am cooking = I am in the middle of it.",
+     "Some verbs do not take -ing: [[want, need, like, love, know]]. Even for now, say I [[want]]."
+    ],
+    "es": [
+     "Present simple: todos los días, siempre, normalmente. Palabras clave: [[every day]], [[usually]], [[always]].",
+     "Present continuous: ahora, hoy, por poco tiempo. Palabras clave: [[now]], [[today]], [[Look!]]",
+     "En español ¿Qué haces? sirve para ahora. En inglés no: para ahora se dice What [[are]] you [[doing]]?",
+     "Algunos verbos no llevan -ing: [[want, need, like, love, know]]. Aunque sea ahora, di I [[want]]."
+    ],
+    "vi": [
+     "Hiện tại đơn: hằng ngày, luôn luôn, thường xuyên. Từ nhận biết: [[every day]], [[usually]], [[always]].",
+     "Hiện tại tiếp diễn: bây giờ, hôm nay, tạm thời. Từ nhận biết: [[now]], [[today]], [[Look!]]",
+     "Tiếng Việt có thể bỏ chữ 'đang'. Tiếng Anh thì không: nói về bây giờ phải dùng am / is / are + -ing.",
+     "Một số động từ không thêm -ing: [[want, need, like, love, know]]. Dù là bây giờ, vẫn nói I [[want]]."
+    ],
+    "hi": [
+     "Present simple: रोज़, हमेशा, आम तौर पर। संकेत शब्द: [[every day]], [[usually]], [[always]].",
+     "Present continuous: अभी, आज, थोड़े समय के लिए। संकेत शब्द: [[now]], [[today]], [[Look!]]",
+     "'बनाता हूँ' और 'बना रहा हूँ' में जो फ़र्क है, वही I cook और I am cooking में है।",
+     "कुछ क्रियाओं में -ing नहीं लगता: [[want, need, like, love, know]]. अभी के लिए भी I [[want]] कहें, I am wanting नहीं।"
+    ]
+   },
+   "tables": [
+    {
+     "title": "Compare",
+     "rows": [
+      [
+       "She [[sits]] there every day.",
+       "She [[is sitting]] there now."
+      ],
+      [
+       "I [[walk]] to work.",
+       "Today I [[am taking]] the car."
+      ],
+      [
+       "I [[drink]] coffee every morning.",
+       "I [[am drinking]] your coffee."
+      ]
+     ]
+    },
+    {
+     "title": "No -ing",
+     "rows": [
+      [
+       "want · need",
+       "I [[want]] coffee."
+      ],
+      [
+       "like · love",
+       "She [[loves]] the cat."
+      ],
+      [
+       "know",
+       "I [[know]]."
+      ]
+     ]
+    }
+   ]
+  },
+  "mistakes": [
+   {
+    "langs": [
+     "es"
+    ],
+    "wrong": "What do you do now?",
+    "right": "What [[are]] you [[doing]] now?",
+    "note": {
+     "es": "¿Qué haces? para ahora = What are you doing?"
+    }
+   },
+   {
+    "langs": [
+     "hi"
+    ],
+    "wrong": "I am having a car.",
+    "right": "I [[have]] a car.",
+    "note": {
+     "hi": "अपनी चीज़ बताने के लिए have, am having नहीं।"
+    }
+   },
+   {
+    "langs": [
+     "hi"
+    ],
+    "wrong": "I am understanding.",
+    "right": "I [[understand]].",
+    "note": {
+     "hi": "understand में -ing नहीं लगता।"
+    }
+   },
+   {
+    "wrong": "I cook dinner now.",
+    "right": "I [[am cooking]] dinner now.",
+    "note": {
+     "my": "now ပါလျှင် am / is / are + -ing။",
+     "en": "With now, use am / is / are + -ing.",
+     "es": "Con now: am / is / are + -ing.",
+     "vi": "Có now: dùng am / is / are + -ing.",
+     "hi": "now के साथ am / is / are + -ing."
+    }
+   },
+   {
+    "wrong": "She is going to school every day.",
+    "right": "She [[goes]] to school every day.",
+    "note": {
+     "my": "every day ပါလျှင် Present Simple။",
+     "en": "With every day, use the present simple.",
+     "es": "Con every day: present simple.",
+     "vi": "Có every day: dùng hiện tại đơn.",
+     "hi": "every day के साथ present simple."
+    }
+   },
+   {
+    "wrong": "I am wanting coffee.",
+    "right": "I [[want]] coffee.",
+    "note": {
+     "my": "want ကို -ing ဖြင့် မသုံးပါ။",
+     "en": "want does not take -ing.",
+     "es": "want no lleva -ing.",
+     "vi": "want không thêm -ing.",
+     "hi": "want में -ing नहीं लगता।"
+    }
+   },
+   {
+    "wrong": "I am knowing him.",
+    "right": "I [[know]] him.",
+    "note": {
+     "my": "know ကို -ing ဖြင့် မသုံးပါ။",
+     "en": "know does not take -ing.",
+     "es": "know no lleva -ing.",
+     "vi": "know không thêm -ing.",
+     "hi": "know में -ing नहीं लगता।"
+    }
+   },
+   {
+    "wrong": "He is usually walking to work.",
+    "right": "He usually [[walks]] to work.",
+    "note": {
+     "my": "usually ပါလျှင် Present Simple။ -s ကိုလည်း မမေ့ပါနှင့်။",
+     "en": "With usually, use the present simple, and remember the -s.",
+     "es": "Con usually: present simple, y no olvides la -s.",
+     "vi": "Có usually: dùng hiện tại đơn, và nhớ thêm -s.",
+     "hi": "usually के साथ present simple, और -s न भूलें।"
+    }
+   }
+  ],
+  "practice": [
+   {
+    "type": "sort",
+    "prompt": {
+     "my": "နေ့တိုင်းလား၊ အခုလား",
+     "en": "Every day, or now?",
+     "es": "¿Todos los días o ahora?",
+     "vi": "Hằng ngày, hay bây giờ?",
+     "hi": "रोज़, या अभी?"
+    },
+    "labels": [
+     "every day",
+     "now"
+    ],
+    "items": [
+     {
+      "s": "The cat is sitting on the laptop.",
+      "answer": 1
+     },
+     {
+      "s": "The cat sits on the laptop.",
+      "answer": 0
+     },
+     {
+      "s": "Lucas walks to work.",
+      "answer": 0
+     },
+     {
+      "s": "Lucas is taking the car.",
+      "answer": 1
+     },
+     {
+      "s": "Emma drinks coffee.",
+      "answer": 0
+     },
+     {
+      "s": "Lucas is drinking Emma's coffee.",
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "type": "choose",
+    "items": [
+     {
+      "s": "Look! The cat ___ an email.",
+      "options": [
+       "sends",
+       "is sending"
+      ],
+      "answer": 1
+     },
+     {
+      "s": "She ___ there every day.",
+      "options": [
+       "sits",
+       "is sitting"
+      ],
+      "answer": 0
+     },
+     {
+      "s": "I ___ coffee now.",
+      "options": [
+       "want",
+       "am wanting"
+      ],
+      "answer": 0
+     },
+     {
+      "s": "Lucas usually ___ to work.",
+      "options": [
+       "walks",
+       "is walking"
+      ],
+      "answer": 0
+     },
+     {
+      "s": "Why ___ the car today?",
+      "options": [
+       "do you take",
+       "are you taking"
+      ],
+      "answer": 1
+     },
+     {
+      "s": "I ___. You don't like Mr. Tan.",
+      "options": [
+       "know",
+       "am knowing"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "type": "type",
+    "prompt": {
+     "my": "မှန်သောပုံစံဖြင့် ရိုက်ထည့်ပါ",
+     "en": "Type the correct form",
+     "es": "Escribe la forma correcta",
+     "vi": "Gõ dạng đúng",
+     "hi": "सही रूप लिखें"
+    },
+    "items": [
+     {
+      "s": "Every day, Lucas ___ (eat) dinner.",
+      "answers": [
+       "eats"
+      ]
+     },
+     {
+      "s": "Now he ___ (cook) dinner.",
+      "answers": [
+       "is cooking",
+       "'s cooking"
+      ]
+     },
+     {
+      "s": "The cat ___ (type) now.",
+      "answers": [
+       "is typing",
+       "'s typing"
+      ]
+     },
+     {
+      "s": "Emma ___ (love) coffee.",
+      "answers": [
+       "loves"
+      ]
+     },
+     {
+      "s": "It ___ (not / rain) today.",
+      "answers": [
+       "isn't raining",
+       "is not raining",
+       "'s not raining"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "fix",
+    "items": [
+     {
+      "s": "I cook dinner now.",
+      "answers": [
+       "I am cooking dinner now.",
+       "I'm cooking dinner now."
+      ]
+     },
+     {
+      "s": "I am needing coffee.",
+      "answers": [
+       "I need coffee."
+      ]
+     },
+     {
+      "s": "She is typing every day.",
+      "answers": [
+       "She types every day."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "hear",
+    "items": [
+     {
+      "say": "I'm cooking",
+      "options": [
+       "I cook",
+       "I'm cooking"
+      ],
+      "answer": 1
+     },
+     {
+      "say": "she types",
+      "options": [
+       "she types",
+       "she's typing"
+      ],
+      "answer": 0
+     },
+     {
+      "say": "he's walking",
+      "options": [
+       "he walks",
+       "he's walking"
+      ],
+      "answer": 1
+     },
+     {
+      "say": "she sits",
+      "options": [
+       "she sits",
+       "she's sitting"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ],
+  "speak": [
+   "She [[sits]] there every day.",
+   "She [[is sitting]] there now.",
+   "I [[want]] coffee.",
+   "You [[are drinking]] my coffee."
+  ],
+  "quiz": [
+   {
+    "s": "Lucas ___ dinner every day.",
+    "options": [
+     "eats",
+     "is eating",
+     "eat"
+    ],
+    "answer": 0
+   },
+   {
+    "s": "Quiet! I ___.",
+    "options": [
+     "think",
+     "am thinking",
+     "thinking"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "Emma ___ coffee. She drinks it every morning.",
+    "options": [
+     "is loving",
+     "love",
+     "loves"
+    ],
+    "answer": 2
+   },
+   {
+    "s": "Look! It ___.",
+    "options": [
+     "rains",
+     "is raining",
+     "raining"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "He usually ___ to work.",
+    "options": [
+     "walks",
+     "is walking",
+     "walk"
+    ],
+    "answer": 0
+   },
+   {
+    "s": "What ___ you doing now?",
+    "options": [
+     "do",
+     "are",
+     "is"
+    ],
+    "answer": 1
+   },
+   {
+    "s": "I ___ a new phone.",
+    "options": [
+     "am needing",
+     "needs",
+     "need"
+    ],
+    "answer": 2
+   },
+   {
+    "s": "Today Lucas ___ the car.",
+    "options": [
+     "takes",
+     "is taking",
+     "take"
+    ],
+    "answer": 1
+   }
+  ]
+ }
+}

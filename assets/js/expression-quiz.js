@@ -60,7 +60,7 @@
    shown, its clip plays. Options can be played before choosing only when
    every option is a card; otherwise the missing 🔊 would give it away.
 
-   Explanation languages. On a page with  langs = ["my", "es", "fr"]  (see
+   Explanation languages. On a page with  langs = ["my", "es", "fr", "hi", "vi"]  (see
    expression-flash.js) the quiz follows the language chosen in the cards'
    menu: the cards' meanings and notes, the second line of each instruction
    and the tips come out in that language. What a question says itself is
@@ -141,6 +141,24 @@
       meaning: "Apprenez le sens de chaque phrase : reprenez les cartes.",
       words: "Vérifiez l'ordre des mots et la forme de chacun.",
     },
+    hi: {
+      time: "दिन के समय पर ध्यान दीजिए।",
+      moment: "मौक़ा देखिए: आप आ रहे हैं या जा रहे हैं? पहली बार मिल रहे हैं, या दोबारा?",
+      register: "सोचिए कि आप किससे बात कर रहे हैं: दोस्त, शिक्षक, ग्राहक या अजनबी।",
+      literal: "शब्द-दर-शब्द अनुवाद मत कीजिए: अंग्रेज़ी इसे अपने ढंग से कहती है।",
+      reply: "सामने वाले ने जो कहा, उसका जवाब दीजिए।",
+      meaning: "हर वाक्य का मतलब सीखिए: कार्ड एक बार फिर देखिए।",
+      words: "शब्दों का क्रम और हर शब्द का रूप जाँचिए।",
+    },
+    vi: {
+      time: "Chú ý thời điểm trong ngày.",
+      moment: "Xem lại tình huống: bạn đến hay đi? Gặp lần đầu, hay gặp lại?",
+      register: "Nghĩ xem bạn đang nói với ai: bạn bè, thầy cô, khách hàng hay người lạ.",
+      literal: "Đừng dịch từng chữ một: tiếng Anh có cách nói riêng.",
+      reply: "Hãy trả lời đúng điều người kia vừa nói.",
+      meaning: "Học nghĩa của từng câu: xem lại các thẻ.",
+      words: "Kiểm tra trật tự từ và dạng của từng từ.",
+    },
   };
   /* the tips in the chosen language: the built-in ones, then the page's quizTags */
   function tagsNow() {
@@ -187,6 +205,30 @@
       ok: "On peut le dire",
       no: "À éviter",
       name: "French",
+    },
+    hi: {
+      say: "आप क्या कहेंगे?",
+      reply: "आप जवाब में क्या कहेंगे?",
+      build: "शब्दों को सही क्रम में लगाइए।",
+      judge: "क्या ऐसा कहना ठीक है?",
+      match: "अंग्रेज़ी को हिंदी से मिलाइए।",
+      matchReply: "हर वाक्य को उसके जवाब से मिलाइए।",
+      launch: "ख़ुद को परखिए",
+      ok: "कह सकते हैं",
+      no: "न कहें तो बेहतर",
+      name: "Hindi",
+    },
+    vi: {
+      say: "Bạn nói gì?",
+      reply: "Bạn đáp lại thế nào?",
+      build: "Xếp các từ theo đúng thứ tự.",
+      judge: "Nói thế này có ổn không?",
+      match: "Ghép tiếng Anh với tiếng Việt.",
+      matchReply: "Ghép mỗi câu với câu đáp phù hợp.",
+      launch: "Tự kiểm tra",
+      ok: "Nói được",
+      no: "Không nên nói",
+      name: "Vietnamese",
     },
   };
   const sub = () => SUB[lang] || SUB.my;

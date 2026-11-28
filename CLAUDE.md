@@ -28,7 +28,7 @@ A free language-learning site, curiouslingua.com, with five courses (French, Eng
 | `assets\data\voices.json` | The voice, model and loudness of each course |
 | `media\` | Local copy of the audio; the live copy is on R2 (`media_base` in `site.json`). Not in git |
 | `img\` | Pictures. `img\ytstory\<name>\` holds a picture story's `1.jpg`, `2.jpg` … |
-| `<course>\single\` | Offline single-file lessons. Not in git; shared on Google Drive |
+| `<course>\single\` | Offline single-file lessons. Not in git; shared on Google Drive. Only the grammar chapters' copies are in git and on the site (their pages have a Download button) |
 | `workflows\` | Standards for voices and pictures |
 | `G:\My Drive\_VIDEO` | Where the videos are made: `make_video.bat`, with its own `README.md` |
 | `G:\My Drive\_YOUTUBE\<folder>` | The original pictures (PNG), moved there by `1_images.bat` |
@@ -41,6 +41,7 @@ Everything in this folder that is in git is public. Keys stay in the system envi
 |---|---|
 | Lesson files and their formats, lesson types, the audio wire, renaming, publishing, changing the design | `README.md` |
 | What to run for each task | `COMMANDS.md` |
+| Grammar chapters (`g001_present_simple`: scenes, rule, practice, quiz, five explanation languages) | `README.md`, "Grammar chapters" |
 | Speaking lesson names, numbers, short addresses, old addresses | `README.md`, "Speaking lessons: numbers and short addresses" |
 | Search box, "Goes with this lesson", other languages | `README.md`, "What the numbers do on the pages" |
 | Printable transcripts (PDF) | `README.md`, "Transcripts" |

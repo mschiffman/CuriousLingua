@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/apology.html",
  "aud_dir": "eng/expressions/apology/",
@@ -37,6 +39,16 @@
        "Pardon !",
        "Rapide et quotidien : vous bousculez quelqu'un, marchez sur un pied ou faites une petite erreur. Les anglophones le disent sans arrêt, même quand ce n'est pas vraiment leur faute.",
        "Oups, pardon ! C'était ton pied ?"
+      ],
+      "hi": [
+       "सॉरी!",
+       "झटपट और रोज़ का: किसी से टकरा गए, पैर पर पैर पड़ गया या कोई छोटी ग़लती हो गई। अंग्रेज़ी बोलने वाले इसे हर समय कहते हैं, तब भी जब ग़लती असल में उनकी न हो।",
+       "ओह, सॉरी! वह आपका पैर था क्या?"
+      ],
+      "vi": [
+       "Xin lỗi!",
+       "Nhanh gọn và dùng hằng ngày: bạn va vào ai đó, giẫm phải chân người ta hoặc mắc một lỗi nhỏ. Người nói tiếng Anh nói câu này suốt, kể cả khi không hẳn là lỗi của họ.",
+       "Ối, xin lỗi! Đó là chân bạn à?"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Je suis désolé.",
        "La phrase complète : un peu plus sérieuse que Sorry! Ajoutez la raison : I'm sorry about the noise. I'm sorry I forgot.",
        "Je suis désolé pour le bruit d'hier soir."
+      ],
+      "hi": [
+       "मुझे माफ़ कीजिए।",
+       "पूरा वाक्य: Sorry! से थोड़ा ज़्यादा गंभीर। वजह भी जोड़िए: I'm sorry about the noise. I'm sorry I forgot.",
+       "कल रात के शोर के लिए मुझे माफ़ कीजिए।"
+      ],
+      "vi": [
+       "Tôi xin lỗi.",
+       "Câu đầy đủ: nghiêm túc hơn Sorry! một chút. Thêm lý do: I'm sorry about the noise. I'm sorry I forgot.",
+       "Tôi xin lỗi vì tiếng ồn tối qua."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Je vous présente mes excuses.",
        "Formel : au travail, avec les clients, dans les courriels. Entre amis, on le dit rarement. Orthographe britannique : apologise.",
        "Je vous présente mes excuses pour l'erreur sur votre facture."
+      ],
+      "hi": [
+       "मैं क्षमा चाहता हूँ।",
+       "औपचारिक: काम पर, ग्राहकों के साथ, ईमेल में। दोस्त आपस में लगभग कभी नहीं कहते। ब्रिटिश वर्तनी: apologise.",
+       "आपके बिल में हुई ग़लती के लिए मैं क्षमा चाहता हूँ।"
+      ],
+      "vi": [
+       "Tôi thành thật xin lỗi.",
+       "Trang trọng: ở chỗ làm, với khách hàng, trong email. Bạn bè hầu như không bao giờ nói. Cách viết kiểu Anh: apologise.",
+       "Tôi thành thật xin lỗi vì sai sót trong hóa đơn của anh chị."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "C'est mon erreur.",
        "Rapide et honnête, pour une petite erreur. On dit aussi : My fault.",
        "Oh, c'est ton sac, pas le mien. C'est mon erreur !"
+      ],
+      "hi": [
+       "मेरी ग़लती।",
+       "झटपट और सच्चा, किसी छोटी ग़लती के लिए। यह भी: My fault.",
+       "अरे, यह आपका बैग है, मेरा नहीं। मेरी ग़लती!"
+      ],
+      "vi": [
+       "Lỗi của mình.",
+       "Nhanh và thật lòng, cho một lỗi nhỏ. Cũng có: My fault.",
+       "Ồ, đó là túi của bạn, không phải của mình. Lỗi của mình!"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Au temps pour moi.",
        "Très familier et très courant en anglais américain, surtout chez les jeunes. Seulement entre amis et pour de petites erreurs : pas avec un supérieur, ni pour quelque chose de grave.",
        "— Hé, c'est ma place. — Oh, au temps pour moi !"
+      ],
+      "hi": [
+       "ग़लती हो गई, यार।",
+       "बहुत अनौपचारिक और अमेरिकी अंग्रेज़ी में बहुत आम, ख़ासकर युवाओं के बीच। सिर्फ़ दोस्तों के साथ और छोटी ग़लतियों के लिए: बॉस के सामने या किसी गंभीर बात के लिए नहीं।",
+       "— अरे, यह मेरी सीट है। — ओह, ग़लती हो गई!"
+      ],
+      "vi": [
+       "Lỗi tại mình nhé.",
+       "Rất suồng sã và rất phổ biến trong tiếng Anh Mỹ, nhất là trong giới trẻ. Chỉ dùng với bạn bè và cho lỗi nhỏ: không dùng với sếp hay cho chuyện nghiêm trọng.",
+       "— Này, đó là chỗ của mình. — Ồ, lỗi tại mình!"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Dire pardon",
      "Des excuses rapides et quotidiennes pour de petites choses."
+    ],
+    "hi": [
+     "माफ़ी माँगना",
+     "छोटी-छोटी बातों के लिए झटपट, रोज़ की माफ़ी।"
+    ],
+    "vi": [
+     "Xin lỗi",
+     "Lời xin lỗi nhanh, hằng ngày cho những chuyện nhỏ."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Je suis vraiment désolé.",
        "Un pardon qui pèse. On dit aussi : I'm so sorry. De vraies excuses ont souvent trois parties : le pardon, ce que vous avez fait et une promesse.",
        "Je suis vraiment désolé. J'ai oublié ton anniversaire."
+      ],
+      "hi": [
+       "मुझे सच में बहुत अफ़सोस है।",
+       "वज़नदार माफ़ी। यह भी: I'm so sorry. एक मज़बूत माफ़ी के अक्सर तीन हिस्से होते हैं: माफ़ी, आपने क्या किया, और एक वादा।",
+       "मुझे सच में बहुत अफ़सोस है। मैं तुम्हारा जन्मदिन भूल गया।"
+      ],
+      "vi": [
+       "Mình thật sự xin lỗi.",
+       "Lời xin lỗi có sức nặng. Cũng có: I'm so sorry. Một lời xin lỗi mạnh thường có ba phần: lời xin lỗi, việc bạn đã làm và một lời hứa.",
+       "Mình thật sự xin lỗi. Mình quên sinh nhật của bạn."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "C'est ma faute.",
        "Dit clairement que vous avez eu tort. En anglais, le reconnaître vite renforce les excuses.",
        "On a raté le bus. C'est ma faute, j'ai été trop lent."
+      ],
+      "hi": [
+       "ग़लती मेरी है।",
+       "साफ़ कहता है कि ग़लती आपसे हुई। अंग्रेज़ी में इसे जल्दी मान लेने से माफ़ी और मज़बूत हो जाती है।",
+       "हमारी बस छूट गई। ग़लती मेरी है, मैं बहुत धीमा था।"
+      ],
+      "vi": [
+       "Đó là lỗi của mình.",
+       "Nói rõ rằng bạn đã sai. Trong tiếng Anh, nhận lỗi sớm làm lời xin lỗi mạnh hơn.",
+       "Chúng ta lỡ xe buýt rồi. Đó là lỗi của mình, mình chậm quá."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Je ne l'ai pas fait exprès.",
        "C'était un accident. Dites d'abord pardon, puis ceci. Dit seul, cela peut ressembler à une excuse.",
        "Désolé pour ta tasse. Je n'ai pas fait exprès de la casser."
+      ],
+      "hi": [
+       "मैंने जान-बूझकर नहीं किया।",
+       "यह अनजाने में हुआ। पहले माफ़ी माँगिए, फिर यह कहिए। अकेले कहने पर बहाना लग सकता है।",
+       "तुम्हारे कप के लिए सॉरी। मैंने जान-बूझकर नहीं तोड़ा।"
+      ],
+      "vi": [
+       "Mình không cố ý.",
+       "Đó là chuyện vô tình. Hãy xin lỗi trước rồi mới nói câu này. Nói riêng một mình nó thì nghe như bào chữa.",
+       "Xin lỗi về cái cốc của bạn. Mình không cố ý làm vỡ."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Ça ne se reproduira plus.",
        "La promesse à la fin d'excuses sérieuses, au travail ou à la maison.",
        "Désolé d'être encore en retard. Ça ne se reproduira plus."
+      ],
+      "hi": [
+       "ऐसा दोबारा नहीं होगा।",
+       "गंभीर माफ़ी के अंत का वादा, काम पर या घर में।",
+       "माफ़ कीजिए, मुझे फिर देर हो गई। ऐसा दोबारा नहीं होगा।"
+      ],
+      "vi": [
+       "Chuyện này sẽ không lặp lại nữa.",
+       "Lời hứa ở cuối một lời xin lỗi nghiêm túc, ở chỗ làm hoặc ở nhà.",
+       "Em xin lỗi vì lại đến muộn. Chuyện này sẽ không lặp lại nữa."
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Pardonne-moi, s'il te plaît.",
        "Très fort : pour quelque chose de grave ou de personnel. Pour de petites choses, c'est trop dramatique. Dites simplement Sorry.",
        "J'ai dit des choses terribles. Pardonne-moi, s'il te plaît."
+      ],
+      "hi": [
+       "कृपया मुझे माफ़ कर दीजिए।",
+       "बहुत ज़ोरदार: किसी गंभीर या निजी बात के लिए। छोटी बातों के लिए बहुत नाटकीय लगता है। वहाँ बस Sorry कहिए।",
+       "मैंने बहुत बुरी बातें कहीं। कृपया मुझे माफ़ कर दो।"
+      ],
+      "vi": [
+       "Xin hãy tha thứ cho mình.",
+       "Rất mạnh: cho chuyện nghiêm trọng hoặc riêng tư. Với chuyện nhỏ thì nghe quá bi kịch. Chỉ cần nói Sorry.",
+       "Mình đã nói những lời tệ quá. Xin hãy tha thứ cho mình."
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "De vraies excuses",
      "Quand c'est important : dire que c'était votre faute, et le penser."
+    ],
+    "hi": [
+     "सच्ची माफ़ी",
+     "जब बात बड़ी हो: मान लेना कि ग़लती आपकी थी, और दिल से कहना।"
+    ],
+    "vi": [
+     "Lời xin lỗi thật lòng",
+     "Khi chuyện quan trọng: nhận lỗi về mình và nói thật lòng."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Excusez-moi.",
        "Avant de demander quelque chose à un inconnu, ou pour attirer l'attention. Pour appeler un serveur, dites Excuse me! en levant la main. Crier Waiter! ou claquer des doigts est impoli.",
        "Excusez-moi, cette place est libre ?"
+      ],
+      "hi": [
+       "सुनिए।",
+       "किसी अजनबी से कुछ पूछने से पहले, या ध्यान खींचने के लिए। वेटर को बुलाने के लिए Excuse me! कहिए और हाथ उठाइए। Waiter! चिल्लाना या चुटकी बजाना बदतमीज़ी है।",
+       "सुनिए, क्या यह सीट ख़ाली है?"
+      ],
+      "vi": [
+       "Xin lỗi, cho hỏi.",
+       "Trước khi hỏi người lạ điều gì, hoặc để gây chú ý. Muốn gọi người phục vụ, hãy nói Excuse me! và giơ tay. Hét Waiter! hoặc búng tay là bất lịch sự.",
+       "Xin lỗi, chỗ này có ai ngồi chưa ạ?"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Excusez-moi, je peux passer ?",
        "Dans un bus ou un train bondé, ou dans une rangée de sièges pleine. Version courte : Excuse me… en passant.",
        "Excusez-moi, je peux passer ? C'est mon arrêt."
+      ],
+      "hi": [
+       "ज़रा रास्ता देंगे?",
+       "भरी हुई बस या ट्रेन में, या भरी हुई सीटों की क़तार में। छोटा रूप: निकलते हुए बस Excuse me…",
+       "ज़रा रास्ता देंगे? मेरा स्टॉप आ गया।"
+      ],
+      "vi": [
+       "Xin lỗi, cho tôi đi nhờ.",
+       "Trên xe buýt hay tàu đông, hoặc trong một hàng ghế kín người. Bản ngắn: Excuse me… trong lúc lách qua.",
+       "Xin lỗi, cho tôi đi nhờ. Tôi xuống trạm này."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Désolé de vous interrompre.",
        "Quand vous devez parler pendant que d'autres discutent. Dites ensuite pourquoi, rapidement.",
        "Désolé de vous interrompre, mais votre taxi est là."
+      ],
+      "hi": [
+       "बीच में बोलने के लिए माफ़ कीजिए।",
+       "जब दूसरे लोग बात कर रहे हों और आपको कुछ कहना ज़रूरी हो। फिर जल्दी से वजह बताइए।",
+       "बीच में बोलने के लिए माफ़ कीजिए, पर आपकी टैक्सी आ गई है।"
+      ],
+      "vi": [
+       "Xin lỗi vì ngắt lời.",
+       "Khi bạn cần nói trong lúc người khác đang trò chuyện. Sau đó nói nhanh lý do.",
+       "Xin lỗi vì ngắt lời, nhưng taxi của anh đến rồi."
       ]
      }
     ]
@@ -311,6 +459,14 @@
     "fr": [
      "Excusez-moi",
      "Excuse me avant, sorry après : attirer l'attention, passer, interrompre."
+    ],
+    "hi": [
+     "Excuse me",
+     "पहले Excuse me, बाद में sorry: ध्यान खींचना, रास्ता माँगना, बीच में बोलना।"
+    ],
+    "vi": [
+     "Excuse me",
+     "Excuse me nói trước, sorry nói sau: gây chú ý, xin đi qua, ngắt lời."
     ]
    }
   },
@@ -335,6 +491,16 @@
        "Désolé de vous déranger.",
        "Le début poli d'une demande, quand on est gêné de déranger quelqu'un.",
        "Désolé de vous déranger, auriez-vous un stylo ?"
+      ],
+      "hi": [
+       "आपको तकलीफ़ देने के लिए माफ़ कीजिए।",
+       "किसी अनुरोध की विनम्र शुरुआत, जब आपको किसी को परेशान करने में संकोच हो।",
+       "तकलीफ़ देने के लिए माफ़ कीजिए, पर क्या आपके पास पेन है?"
+      ],
+      "vi": [
+       "Xin lỗi đã làm phiền.",
+       "Cách mở đầu lịch sự cho một lời nhờ, khi bạn ngại làm phiền người khác.",
+       "Xin lỗi đã làm phiền, bạn có bút không?"
       ]
      }
     ],
@@ -354,6 +520,16 @@
        "Désolé d'être en retard.",
        "Dites d'abord pardon, puis une raison courte. Une longue histoire peut ressembler à une excuse.",
        "Désolé d'être en retard. La circulation était épouvantable."
+      ],
+      "hi": [
+       "माफ़ कीजिए, मुझे देर हो गई।",
+       "पहले माफ़ी माँगिए, फिर छोटी-सी वजह बताइए। लंबी कहानी बहाना लग सकती है।",
+       "माफ़ कीजिए, मुझे देर हो गई। ट्रैफ़िक बहुत ख़राब था।"
+      ],
+      "vi": [
+       "Xin lỗi, mình đến muộn.",
+       "Xin lỗi trước, rồi nêu một lý do ngắn. Kể lể dài dòng dễ nghe như bào chữa.",
+       "Xin lỗi, mình đến muộn. Đường tắc kinh khủng."
       ]
      }
     ],
@@ -373,6 +549,16 @@
        "Désolé de vous avoir fait attendre.",
        "Ce que dit le personnel après une attente. Plus court : Sorry for the wait.",
        "Désolé de vous avoir fait attendre. Comment puis-je vous aider ?"
+      ],
+      "hi": [
+       "इंतज़ार कराने के लिए माफ़ कीजिए।",
+       "इंतज़ार के बाद कर्मचारी यही कहते हैं। छोटा रूप: Sorry for the wait.",
+       "इंतज़ार कराने के लिए माफ़ कीजिए। बताइए, मैं क्या मदद करूँ?"
+      ],
+      "vi": [
+       "Xin lỗi đã để anh chị phải chờ.",
+       "Câu nhân viên nói sau khi khách phải chờ. Ngắn hơn: Sorry for the wait.",
+       "Xin lỗi đã để anh chị phải chờ. Tôi có thể giúp gì ạ?"
       ]
      }
     ],
@@ -392,6 +578,16 @@
        "Désolé pour la réponse tardive.",
        "La première ligne d'un message resté trop longtemps sans réponse.",
        "Désolé pour la réponse tardive. J'étais absent toute la semaine."
+      ],
+      "hi": [
+       "देर से जवाब देने के लिए माफ़ कीजिए।",
+       "उस संदेश की पहली पंक्ति, जिसका जवाब देने में आपने बहुत देर कर दी।",
+       "देर से जवाब देने के लिए माफ़ कीजिए। मैं पूरे हफ़्ते बाहर था।"
+      ],
+      "vi": [
+       "Xin lỗi vì trả lời muộn.",
+       "Dòng đầu tiên của một tin nhắn mà bạn để quá lâu mới trả lời.",
+       "Xin lỗi vì trả lời muộn. Mình đi vắng cả tuần."
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Veuillez nous excuser pour la gêne occasionnée.",
        "Formel : sur les panneaux, dans les magasins, de la part des entreprises. Vous le verrez souvent, mais vous en avez rarement besoin entre amis.",
        "Ce bureau est fermé aujourd'hui. Veuillez nous excuser pour la gêne occasionnée."
+      ],
+      "hi": [
+       "असुविधा के लिए खेद है।",
+       "औपचारिक: सूचना-पट्टों पर, दुकानों में, कंपनियों की ओर से। आपको बहुत दिखेगा, पर दोस्तों के साथ शायद ही कभी इसकी ज़रूरत पड़े।",
+       "यह दफ़्तर आज बंद है। असुविधा के लिए खेद है।"
+      ],
+      "vi": [
+       "Xin lỗi vì sự bất tiện này.",
+       "Trang trọng: trên biển báo, trong cửa hàng, từ phía các công ty. Bạn sẽ thấy rất nhiều, nhưng hầu như không cần dùng với bạn bè.",
+       "Hôm nay văn phòng đóng cửa. Xin lỗi vì sự bất tiện này."
       ]
      }
     ]
@@ -423,6 +629,14 @@
     "fr": [
      "Désolé du dérangement",
      "S'excuser avant de demander, ou pour une attente, un retard ou une réponse tardive."
+    ],
+    "hi": [
+     "तकलीफ़ के लिए माफ़ी",
+     "कुछ माँगने से पहले, या इंतज़ार, देरी या देर से दिए जवाब के लिए माफ़ी।"
+    ],
+    "vi": [
+     "Xin lỗi vì đã làm phiền",
+     "Xin lỗi trước khi nhờ, hoặc vì phải chờ, vì chậm trễ, vì trả lời muộn."
     ]
    }
   },
@@ -447,6 +661,16 @@
        "Je suis navré de l'apprendre.",
        "C'est de la compassion, pas des excuses : cela ne veut pas dire que c'était votre faute.",
        "— J'ai perdu mon travail. — Oh, je suis navré de l'apprendre."
+      ],
+      "hi": [
+       "यह सुनकर दुख हुआ।",
+       "यह सहानुभूति है, माफ़ी नहीं: इसका मतलब यह नहीं कि ग़लती आपकी थी।",
+       "— मेरी नौकरी चली गई। — ओह, यह सुनकर दुख हुआ।"
+      ],
+      "vi": [
+       "Mình rất tiếc khi nghe vậy.",
+       "Đây là sự cảm thông, không phải lời xin lỗi: không có nghĩa là lỗi của bạn.",
+       "— Mình mất việc rồi. — Ôi, mình rất tiếc khi nghe vậy."
       ]
      }
     ],
@@ -466,6 +690,16 @@
        "C'est dommage.",
        "Pour les petites déceptions : la pluie un jour de congé, un voyage annulé. Pour une nouvelle grave, dites I'm sorry to hear that.",
        "— Il pleut. On ne peut pas aller à la plage. — Oh, c'est dommage."
+      ],
+      "hi": [
+       "अरे, यह तो बुरा हुआ।",
+       "छोटी-मोटी निराशाओं के लिए: छुट्टी के दिन बारिश, कोई सफ़र जो नहीं हो पाएगा। गंभीर ख़बर पर I'm sorry to hear that कहिए।",
+       "— बारिश हो रही है। हम समुद्र-तट नहीं जा सकते। — अरे, यह तो बुरा हुआ।"
+      ],
+      "vi": [
+       "Tiếc quá nhỉ.",
+       "Cho những thất vọng nhỏ: trời mưa đúng ngày nghỉ, một chuyến đi không thành. Với tin nghiêm trọng, hãy nói I'm sorry to hear that.",
+       "— Trời mưa rồi. Mình không đi biển được. — Ôi, tiếc quá nhỉ."
       ]
      }
     ],
@@ -485,6 +719,16 @@
        "Toutes mes condoléances.",
        "Quand quelqu'un est décédé. Court, bienveillant et toujours approprié. Vous pouvez ajouter : If you need anything, please call me.",
        "Toutes mes condoléances. Si tu as besoin de quoi que ce soit, appelle-moi."
+      ],
+      "hi": [
+       "आपके दुख में मैं शामिल हूँ।",
+       "जब किसी की मृत्यु हुई हो। छोटा, नरम और हमेशा सही। आप जोड़ सकते हैं: If you need anything, please call me.",
+       "आपके दुख में मैं शामिल हूँ। किसी चीज़ की ज़रूरत हो तो मुझे फ़ोन कीजिएगा।"
+      ],
+      "vi": [
+       "Xin chia buồn với bạn.",
+       "Khi có người qua đời. Ngắn gọn, tử tế và luôn phù hợp. Bạn có thể thêm: If you need anything, please call me.",
+       "Xin chia buồn với bạn. Nếu cần gì, cứ gọi cho mình nhé."
       ]
      }
     ]
@@ -497,6 +741,14 @@
     "fr": [
      "Je suis navré",
      "Sorry pour la compassion, pas pour s'excuser : quand il arrive quelque chose de fâcheux à quelqu'un d'autre."
+    ],
+    "hi": [
+     "यह सुनकर दुख हुआ",
+     "सहानुभूति वाला sorry, माफ़ी वाला नहीं: जब किसी और के साथ कुछ बुरा हो।"
+    ],
+    "vi": [
+     "Rất tiếc khi nghe vậy",
+     "Sorry để chia sẻ, không phải để xin lỗi: khi chuyện không may xảy ra với người khác."
     ]
    }
   },
@@ -521,6 +773,16 @@
        "Ce n'est pas grave.",
        "La réponse de tous les jours. On dit aussi : That's all right.",
        "— Désolé du retard. — Ce n'est pas grave. On vient de commencer."
+      ],
+      "hi": [
+       "कोई बात नहीं।",
+       "रोज़ का जवाब। यह भी: That's all right.",
+       "— माफ़ कीजिए, मुझे देर हो गई। — कोई बात नहीं। हमने अभी शुरू ही किया है।"
+      ],
+      "vi": [
+       "Không sao.",
+       "Câu trả lời hằng ngày. Cũng có: That's all right.",
+       "— Xin lỗi, mình đến muộn. — Không sao. Bọn mình vừa mới bắt đầu."
       ]
      }
     ],
@@ -540,6 +802,16 @@
        "Ne t'en fais pas.",
        "Chaleureux et familier : ce n'est vraiment pas un problème. Plus court : Don't worry!",
        "— Désolé, j'ai oublié de te rappeler. — Ne t'en fais pas."
+      ],
+      "hi": [
+       "इसकी फ़िक्र मत करो।",
+       "आत्मीय और अनौपचारिक: सच में कोई दिक़्क़त नहीं। छोटा रूप: Don't worry!",
+       "— सॉरी, मैं तुम्हें वापस फ़ोन करना भूल गया। — इसकी फ़िक्र मत करो।"
+      ],
+      "vi": [
+       "Đừng bận tâm.",
+       "Ấm áp và thân mật: thật sự không có vấn đề gì. Ngắn hơn: Don't worry!",
+       "— Xin lỗi, mình quên gọi lại cho bạn. — Đừng bận tâm."
       ]
      }
     ],
@@ -559,6 +831,16 @@
        "Il n'y a pas de mal.",
        "Rien n'a été blessé ni cassé, donc aucun problème.",
        "— Oh, pardon, je t'ai bousculé ! — Il n'y a pas de mal."
+      ],
+      "hi": [
+       "कोई नुक़सान नहीं हुआ।",
+       "किसी को चोट नहीं लगी, कुछ टूटा नहीं, इसलिए कोई दिक़्क़त नहीं।",
+       "— ओह, सॉरी, मैं आपसे टकरा गया! — कोई नुक़सान नहीं हुआ।"
+      ],
+      "vi": [
+       "Không có gì hư hại cả.",
+       "Không ai bị đau, không có gì hỏng, nên không sao.",
+       "— Ôi, xin lỗi, mình va phải bạn! — Không có gì hư hại cả."
       ]
      }
     ],
@@ -578,6 +860,16 @@
        "Ça arrive.",
        "Met l'erreur sur le compte de la malchance. On dit aussi : It happens to everyone.",
        "— J'ai oublié notre rendez-vous. Je suis vraiment désolé. — Ça arrive. Voyons-nous demain."
+      ],
+      "hi": [
+       "ऐसा हो जाता है।",
+       "ग़लती को संयोग मान लेता है। यह भी: It happens to everyone.",
+       "— मैं हमारी मीटिंग भूल गया। बहुत सॉरी। — ऐसा हो जाता है। कल मिल लेते हैं।"
+      ],
+      "vi": [
+       "Chuyện thường mà.",
+       "Coi lỗi đó là chuyện xui rủi. Cũng có: It happens to everyone.",
+       "— Mình quên mất buổi hẹn. Xin lỗi nhiều. — Chuyện thường mà. Mai mình gặp nhé."
       ]
      }
     ],
@@ -597,6 +889,16 @@
        "Ce n'est pas ta faute.",
        "Quand quelqu'un s'excuse alors qu'il n'a pas causé le problème.",
        "— Désolé que le voyage ait été si raté. — Ce n'est pas ta faute. Le temps était affreux."
+      ],
+      "hi": [
+       "इसमें तुम्हारी ग़लती नहीं है।",
+       "जब कोई माफ़ी माँगे, पर गड़बड़ उसकी वजह से न हुई हो।",
+       "— सॉरी, सफ़र इतना ख़राब रहा। — इसमें तुम्हारी ग़लती नहीं है। मौसम ही बहुत ख़राब था।"
+      ],
+      "vi": [
+       "Không phải lỗi của bạn.",
+       "Khi ai đó xin lỗi nhưng họ không gây ra chuyện.",
+       "— Xin lỗi vì chuyến đi tệ quá. — Không phải lỗi của bạn. Thời tiết xấu quá mà."
       ]
      }
     ],
@@ -616,6 +918,16 @@
        "Excuses acceptées.",
        "Correct, mais froid et formel. On peut croire que vous êtes encore un peu fâché. Entre amis, That's OK est plus chaleureux.",
        "— Pardon pour ce que j'ai dit. — Excuses acceptées. Passons à autre chose."
+      ],
+      "hi": [
+       "माफ़ी मंज़ूर है।",
+       "सही है, पर रूखा और औपचारिक। ऐसा लग सकता है कि आप अब भी थोड़े नाराज़ हैं। दोस्तों के साथ That's OK ज़्यादा आत्मीय है।",
+       "— मैंने जो कहा, उसके लिए मुझे अफ़सोस है। — माफ़ी मंज़ूर है। चलो, आगे बढ़ते हैं।"
+      ],
+      "vi": [
+       "Mình nhận lời xin lỗi.",
+       "Đúng, nhưng lạnh lùng và trang trọng. Có thể nghe như bạn vẫn còn hơi giận. Với bạn bè, That's OK ấm áp hơn.",
+       "— Mình xin lỗi vì những gì đã nói. — Mình nhận lời xin lỗi. Cho qua nhé."
       ]
      }
     ]
@@ -628,6 +940,14 @@
     "fr": [
      "Accepter des excuses",
      "Dire gentiment à quelqu'un que ce n'est rien."
+    ],
+    "hi": [
+     "माफ़ी स्वीकार करना",
+     "नरमी से जता देना कि बात ख़त्म हुई।"
+    ],
+    "vi": [
+     "Nhận lời xin lỗi",
+     "Nhẹ nhàng cho người kia biết là không sao cả."
     ]
    }
   }

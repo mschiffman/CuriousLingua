@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/greet_goodbye.html",
  "aud_dir": "eng/expressions/greet_goodbye/",
@@ -37,6 +39,16 @@
        "Bonjour.",
        "S'emploie avec tout le monde. On répond aussi au téléphone par Hello?",
        "Allô ? Qui est à l'appareil, s'il vous plaît ?"
+      ],
+      "hi": [
+       "नमस्ते।",
+       "सबके साथ चलता है। फ़ोन उठाते समय भी Hello? कहते हैं।",
+       "हेलो? कौन बोल रहा है?"
+      ],
+      "vi": [
+       "Xin chào.",
+       "Dùng được với mọi người. Khi nhấc điện thoại cũng nói Hello?",
+       "A lô? Xin hỏi ai gọi đấy ạ?"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Salut !",
        "Amical. S'emploie tous les jours avec les amis, les camarades de classe et les collègues.",
        "Salut, Thida ! Je ne t'avais pas vue."
+      ],
+      "hi": [
+       "हाय!",
+       "दोस्ताना है। दोस्तों, सहपाठियों और सहकर्मियों के साथ रोज़ बोला जाता है।",
+       "हाय, Thida! मैंने तुम्हें देखा ही नहीं।"
+      ],
+      "vi": [
+       "Chào!",
+       "Thân thiện. Dùng hằng ngày với bạn bè, bạn học và đồng nghiệp.",
+       "Chào Thida! Mình không thấy bạn ở đó."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Bonjour. (le matin)",
        "Jusqu'à midi. Plus poli que hi : avec les professeurs, les patrons et les clients. Entre amis, on dit simplement Morning!",
        "Bonjour à tous. Asseyez-vous, je vous prie."
+      ],
+      "hi": [
+       "सुप्रभात।",
+       "दोपहर 12 बजे तक। hi से ज़्यादा विनम्र है: शिक्षकों, बॉस और ग्राहकों के साथ। दोस्तों के बीच बस Morning! कहते हैं।",
+       "सुप्रभात, सब लोग। कृपया बैठ जाइए।"
+      ],
+      "vi": [
+       "Chào buổi sáng.",
+       "Đến 12 giờ trưa. Lịch sự hơn hi: dùng với thầy cô, sếp và khách hàng. Bạn bè với nhau chỉ nói Morning!",
+       "Chào buổi sáng cả lớp. Mời các em ngồi."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Bonjour. (l'après-midi)",
        "De midi à 18 heures. Poli ; ne s'emploie pas entre amis.",
        "Bonjour. Je peux vous aider ?"
+      ],
+      "hi": [
+       "नमस्ते। (दोपहर में)",
+       "12 बजे से शाम 6 बजे तक। विनम्र है; दोस्तों के बीच नहीं बोला जाता।",
+       "नमस्ते। मैं आपकी क्या मदद कर सकता हूँ?"
+      ],
+      "vi": [
+       "Chào buổi chiều.",
+       "Từ 12 giờ trưa đến 6 giờ chiều. Lịch sự; bạn bè với nhau không dùng.",
+       "Chào anh chị. Tôi có thể giúp gì ạ?"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Bonsoir.",
        "Après 18 heures, pour saluer en arrivant. C'est un bonjour, pas un au revoir : pour prendre congé le soir, on dit Good night.",
        "Bonsoir. Une table pour deux, s'il vous plaît."
+      ],
+      "hi": [
+       "नमस्ते। (शाम को)",
+       "शाम 6 बजे के बाद, पहुँचने पर अभिवादन के लिए। यह मिलते समय का शब्द है, विदा का नहीं: रात को विदा लेते समय Good night कहते हैं।",
+       "नमस्ते। दो लोगों के लिए एक टेबल चाहिए।"
+      ],
+      "vi": [
+       "Chào buổi tối.",
+       "Sau 6 giờ chiều, để chào khi đến. Đây là lời chào gặp mặt, không phải lời tạm biệt: buổi tối muốn tạm biệt thì nói Good night.",
+       "Chào buổi tối. Cho tôi một bàn hai người."
       ]
      }
     ],
@@ -132,6 +184,16 @@
        "Hé ! / Salut !",
        "Avec des amis très proches. Crier Hey! à un inconnu est impoli : à un inconnu, on dit Excuse me.",
        "Hé, Aung ! Attends-moi !"
+      ],
+      "hi": [
+       "अरे!",
+       "बहुत क़रीबी दोस्तों के साथ। किसी अजनबी को Hey! कहकर पुकारना बदतमीज़ी है: अजनबियों से Excuse me कहते हैं।",
+       "अरे, Aung! मेरा इंतज़ार करो!"
+      ],
+      "vi": [
+       "Này!",
+       "Với bạn rất thân. Gọi to Hey! với người lạ là bất lịch sự: với người lạ thì nói Excuse me.",
+       "Này, Aung! Đợi mình với!"
       ]
      }
     ]
@@ -144,6 +206,14 @@
     "fr": [
      "Saluer",
      "Les premiers mots : pour les amis, pour les inconnus, à toute heure de la journée."
+    ],
+    "hi": [
+     "नमस्ते कहना",
+     "पहले शब्द: दोस्तों के लिए, अजनबियों के लिए, दिन के किसी भी समय।"
+    ],
+    "vi": [
+     "Chào hỏi",
+     "Những lời đầu tiên: với bạn bè, với người lạ, vào bất cứ lúc nào trong ngày."
     ]
    }
   },
@@ -168,6 +238,16 @@
        "Comment ça va ?",
        "C'est une salutation. On y répond en quelques mots.",
        "Salut, Tom. Comment ça va ?"
+      ],
+      "hi": [
+       "आप कैसे हैं?",
+       "मिलते समय का अभिवादन है। जवाब दो-चार शब्दों में दिया जाता है।",
+       "हाय, Tom। कैसे हो?"
+      ],
+      "vi": [
+       "Bạn khỏe không?",
+       "Là lời chào khi gặp nhau. Chỉ cần trả lời ngắn gọn.",
+       "Chào Tom. Bạn khỏe không?"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Bien, merci. Et toi ?",
        "C'est la réponse habituelle. I'm fine, thank you. est correct, mais fait très manuel scolaire. On renvoie toujours la question avec And you? ou You? ; sinon, cela paraît froid.",
        "— Comment ça va ? — Bien, merci. Et toi ?"
+      ],
+      "hi": [
+       "ठीक हूँ, शुक्रिया। और आप?",
+       "आम जवाब यही है। I'm fine, thank you. सही है, पर किताबी लगता है। And you? या You? कहकर सवाल हमेशा लौटाया जाता है; न लौटाना रूखा लगता है।",
+       "— कैसे हो? — ठीक हूँ, शुक्रिया। और तुम?"
+      ],
+      "vi": [
+       "Mình khỏe, cảm ơn. Còn bạn?",
+       "Đây là câu trả lời thông thường. I'm fine, thank you. cũng đúng, nhưng nghe như trong sách giáo khoa. Luôn hỏi lại bằng And you? hoặc You?; không hỏi lại nghe hơi lạnh nhạt.",
+       "— Bạn khỏe không? — Mình khỏe, cảm ơn. Còn bạn?"
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Ça va ? / Comment ça se passe ?",
        "Une façon amicale et décontractée de demander comment ça va. On répond Good, thanks. ou Not bad.",
        "Salut, Sarah ! Ça va ?"
+      ],
+      "hi": [
+       "कैसा चल रहा है?",
+       "हालचाल पूछने का दोस्ताना, अनौपचारिक तरीक़ा। जवाब: Good, thanks. या Not bad.",
+       "अरे, Sarah! कैसा चल रहा है?"
+      ],
+      "vi": [
+       "Dạo này thế nào?",
+       "Cách hỏi thăm thân mật, thoải mái. Trả lời Good, thanks. hoặc Not bad.",
+       "Này, Sarah! Dạo này thế nào?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Quoi de neuf ?",
        "Entre amis. Cela veut dire What's new?, quoi de neuf ? On répond Not much. You?",
        "— Quoi de neuf ? — Pas grand-chose. Et toi ?"
+      ],
+      "hi": [
+       "क्या हाल है?",
+       "दोस्तों के बीच। मतलब है What's new?, यानी नया क्या है? जवाब: Not much. You?",
+       "— क्या हाल है? — कुछ ख़ास नहीं। तुम बताओ?"
+      ],
+      "vi": [
+       "Có gì mới không?",
+       "Giữa bạn bè. Nghĩa là What's new?, có gì mới không? Trả lời Not much. You?",
+       "— Có gì mới không? — Không có gì nhiều. Còn bạn?"
       ]
      }
     ],
@@ -244,6 +354,16 @@
        "Pas mal.",
        "Cela veut dire que ça va bien. On peut dire aussi Pretty good.",
        "— C'était comment, ton week-end ? — Pas mal, merci."
+      ],
+      "hi": [
+       "बुरा नहीं।",
+       "मतलब सब ठीक चल रहा है। Pretty good. भी कह सकते हैं।",
+       "— वीकेंड कैसा रहा? — बुरा नहीं, शुक्रिया।"
+      ],
+      "vi": [
+       "Cũng ổn.",
+       "Nghĩa là mọi việc đều ổn. Cũng có thể nói Pretty good.",
+       "— Cuối tuần của bạn thế nào? — Cũng ổn, cảm ơn."
       ]
      }
     ],
@@ -263,6 +383,16 @@
        "Pas très bien.",
        "Une réponse franche, pour les amis et la famille ; ils demanderont aussitôt What's wrong?, qu'est-ce qui ne va pas ? Avec des inconnus, on dit simplement Fine.",
        "— Comment ça va ? — Pas très bien. J'ai un rhume."
+      ],
+      "hi": [
+       "कुछ ठीक नहीं।",
+       "सच्चा जवाब, दोस्तों और परिवार के लिए; लोग तुरंत पूछेंगे What's wrong?, यानी क्या हुआ? अजनबियों से बस Fine. कहते हैं।",
+       "— कैसे हो? — कुछ ठीक नहीं। मुझे ज़ुकाम है।"
+      ],
+      "vi": [
+       "Không khỏe lắm.",
+       "Câu trả lời thật lòng, dành cho bạn bè và gia đình; người ta sẽ hỏi ngay What's wrong?, có chuyện gì thế? Với người lạ thì chỉ nói Fine.",
+       "— Bạn khỏe không? — Không khỏe lắm. Mình bị cảm."
       ]
      }
     ]
@@ -275,6 +405,14 @@
     "fr": [
      "Comment ça va ?",
      "La question après bonjour. La plupart du temps, elle fait partie de la salutation ; ce n'est pas une vraie question."
+    ],
+    "hi": [
+     "आप कैसे हैं?",
+     "नमस्ते के बाद का सवाल। ज़्यादातर यह अभिवादन का ही हिस्सा होता है, सचमुच का सवाल नहीं।"
+    ],
+    "vi": [
+     "Bạn khỏe không?",
+     "Câu hỏi sau lời chào. Phần lớn nó chỉ là một phần của lời chào, không phải câu hỏi thật."
     ]
    }
   },
@@ -299,6 +437,16 @@
        "Enchanté(e).",
        "Seulement la première fois que l'on rencontre quelqu'un, souvent en serrant la main. Plus formel : Pleased to meet you.",
        "Bonjour, je m'appelle Thida. Enchantée."
+      ],
+      "hi": [
+       "आपसे मिलकर ख़ुशी हुई।",
+       "सिर्फ़ तब, जब किसी से पहली बार मिलें, अक्सर हाथ मिलाते हुए। ज़्यादा औपचारिक: Pleased to meet you.",
+       "हाय, मैं Thida हूँ। आपसे मिलकर ख़ुशी हुई।"
+      ],
+      "vi": [
+       "Rất vui được gặp bạn.",
+       "Chỉ dùng khi gặp ai đó lần đầu, thường là lúc bắt tay. Trang trọng hơn: Pleased to meet you.",
+       "Chào bạn, mình là Thida. Rất vui được gặp bạn."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Moi de même. / Enchanté(e) également.",
        "La réponse à Nice to meet you. Plus court : You too. On accentue YOU : Nice to meet YOU too.",
        "— Enchanté. — Moi de même."
+      ],
+      "hi": [
+       "मुझे भी आपसे मिलकर ख़ुशी हुई।",
+       "Nice to meet you. का जवाब। छोटा रूप: You too. ज़ोर YOU पर पड़ता है: Nice to meet YOU too.",
+       "— आपसे मिलकर ख़ुशी हुई। — मुझे भी आपसे मिलकर ख़ुशी हुई।"
+      ],
+      "vi": [
+       "Mình cũng rất vui được gặp bạn.",
+       "Câu đáp lại Nice to meet you. Ngắn hơn: You too. Nhấn vào YOU: Nice to meet YOU too.",
+       "— Rất vui được gặp bạn. — Mình cũng rất vui được gặp bạn."
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Content(e) de te voir.",
        "Pour quelqu'un que l'on connaît déjà. L'anglais distingue rencontrer (meet) et revoir (see) : dire Nice to meet you à un vieil ami donne l'impression qu'on ne le reconnaît pas.",
        "Bonjour, Aung ! Content de te revoir."
+      ],
+      "hi": [
+       "आपको देखकर अच्छा लगा।",
+       "उसके लिए जिसे आप पहले से जानते हैं। अंग्रेज़ी में पहली बार मिलना (meet) और दोबारा मिलना (see) अलग हैं: किसी पुराने दोस्त से Nice to meet you कहना ऐसा लगता है मानो आप उसे भूल गए हों।",
+       "हेलो, Aung! तुम्हें फिर देखकर अच्छा लगा।"
+      ],
+      "vi": [
+       "Gặp lại bạn vui quá.",
+       "Dành cho người bạn đã quen. Tiếng Anh phân biệt gặp lần đầu (meet) và gặp lại (see): nói Nice to meet you với bạn cũ nghe như thể bạn không nhớ họ.",
+       "Chào Aung! Gặp lại bạn vui quá."
       ]
      }
     ],
@@ -356,6 +524,16 @@
        "Ça fait longtemps !",
        "Chaleureux et familier, pour un ami que l'on n'a pas vu depuis des mois ou des années. La grammaire est bizarre, mais presque tout le monde le dit.",
        "Thida ! Ça fait longtemps !"
+      ],
+      "hi": [
+       "बहुत दिनों बाद मिले!",
+       "गर्मजोशी भरा और बेतकल्लुफ़, उस दोस्त के लिए जिससे आप महीनों या बरसों से नहीं मिले। व्याकरण अजीब है, पर लगभग सभी ऐसा कहते हैं।",
+       "Thida! बहुत दिनों बाद मिले!"
+      ],
+      "vi": [
+       "Lâu quá không gặp!",
+       "Thân mật và ấm áp, dành cho người bạn mà nhiều tháng hay nhiều năm rồi bạn chưa gặp. Ngữ pháp hơi lạ, nhưng hầu như ai cũng nói vậy.",
+       "Thida! Lâu quá không gặp!"
       ]
      }
     ],
@@ -375,6 +553,16 @@
        "Comment vas-tu depuis le temps ?",
        "C'est le How are you? pour quelqu'un que l'on n'a pas vu depuis longtemps. À l'oral, on abrège : How've you been? On peut répondre Good! Busy, but good.",
        "— Comment vas-tu depuis le temps ? — Débordé, mais ça va. Et toi ?"
+      ],
+      "hi": [
+       "इतने दिन कैसे रहे?",
+       "यह उसके लिए How are you? है जिससे आप काफ़ी समय से नहीं मिले। बोलते समय छोटा हो जाता है: How've you been? जवाब में कह सकते हैं: Good! Busy, but good.",
+       "— इतने दिन कैसे रहे? — व्यस्त, पर बढ़िया। और तुम?"
+      ],
+      "vi": [
+       "Dạo này bạn sao rồi?",
+       "Là câu How are you? dành cho người lâu rồi bạn không gặp. Khi nói thường rút gọn: How've you been? Có thể trả lời Good! Busy, but good.",
+       "— Dạo này bạn sao rồi? — Bận, nhưng ổn. Còn bạn?"
       ]
      }
     ]
@@ -387,6 +575,14 @@
     "fr": [
      "Faire connaissance",
      "Rencontrer quelqu'un pour la première fois, ou le revoir."
+    ],
+    "hi": [
+     "लोगों से मिलना",
+     "किसी से पहली बार मिलना, या दोबारा मिलना।"
+    ],
+    "vi": [
+     "Gặp gỡ",
+     "Gặp ai đó lần đầu, hoặc gặp lại."
     ]
    }
   },
@@ -411,6 +607,16 @@
        "Au revoir.",
        "Correct, mais un peu froid, comme si l'on n'allait plus se revoir. Au quotidien, on dit plutôt Bye! ou See you!",
        "Au revoir, et merci d'être venu."
+      ],
+      "hi": [
+       "अलविदा।",
+       "सही है, पर थोड़ा रूखा, मानो अब फिर मुलाक़ात नहीं होगी। रोज़मर्रा में Bye! या See you! कहते हैं।",
+       "अलविदा, और आने के लिए धन्यवाद।"
+      ],
+      "vi": [
+       "Tạm biệt.",
+       "Đúng, nhưng hơi lạnh, như thể sẽ không gặp lại nhau nữa. Hằng ngày người ta nói Bye! hoặc See you!",
+       "Tạm biệt, và cảm ơn bạn đã đến."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Salut ! / Ciao !",
        "L'au revoir de tous les jours : en quittant des amis, en sortant d'un magasin, en raccrochant. Bye-bye! est plus doux et plus affectueux ; on le dit aussi aux enfants.",
        "OK, salut ! À lundi."
+      ],
+      "hi": [
+       "बाय!",
+       "रोज़ की विदा: दोस्तों से अलग होते समय, दुकान से निकलते समय, फ़ोन रखते समय। Bye-bye! ज़्यादा नरम और प्यार भरा है; बच्चों से भी कहा जाता है।",
+       "ठीक है, बाय! सोमवार को मिलते हैं।"
+      ],
+      "vi": [
+       "Chào nhé!",
+       "Lời tạm biệt hằng ngày: khi chia tay bạn bè, khi ra khỏi cửa hàng, khi cúp máy. Bye-bye! nhẹ nhàng và trìu mến hơn; cũng hay nói với trẻ con.",
+       "Được rồi, chào nhé! Thứ Hai gặp lại."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "À plus tard.",
        "Un au revoir amical, même sans projet de se revoir. Plus court : See you! Dans les textos entre amis, on écrit aussi See ya!",
        "Je rentre chez moi. À plus tard !"
+      ],
+      "hi": [
+       "फिर मिलते हैं।",
+       "दोस्ताना विदा, भले ही दोबारा मिलने की कोई योजना न हो। छोटा रूप: See you! दोस्तों के संदेशों में See ya! भी लिखते हैं।",
+       "मैं अब घर जा रहा हूँ। फिर मिलते हैं!"
+      ],
+      "vi": [
+       "Hẹn gặp lại sau.",
+       "Lời tạm biệt thân thiện, kể cả khi chưa có hẹn gặp lại. Ngắn hơn: See you! Khi nhắn tin với bạn bè còn viết See ya!",
+       "Mình về nhà đây. Hẹn gặp lại sau!"
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "À demain.",
        "On peut changer le moment : See you on Friday. (À vendredi.) See you next week. (À la semaine prochaine.) See you soon. (À bientôt.)",
        "Merci pour aujourd'hui. À demain !"
+      ],
+      "hi": [
+       "कल मिलते हैं।",
+       "समय बदला जा सकता है: See you on Friday. (शुक्रवार को मिलते हैं।) See you next week. (अगले हफ़्ते मिलते हैं।) See you soon. (जल्दी मिलते हैं।)",
+       "आज के लिए शुक्रिया। कल मिलते हैं!"
+      ],
+      "vi": [
+       "Mai gặp nhé.",
+       "Có thể đổi thời điểm: See you on Friday. (Thứ Sáu gặp nhé.) See you next week. (Tuần sau gặp nhé.) See you soon. (Sớm gặp lại nhé.)",
+       "Cảm ơn vì hôm nay. Mai gặp nhé!"
       ]
      }
     ],
@@ -487,6 +723,16 @@
        "Bonne journée.",
        "Souvent dit par les vendeurs et les serveurs. On répond Thanks, you too! (Merci, vous aussi !) Autre formule : Have a good weekend. (Bon week-end.)",
        "— Voici votre monnaie. Bonne journée ! — Merci, vous aussi !"
+      ],
+      "hi": [
+       "आपका दिन शुभ हो।",
+       "दुकानों के कर्मचारी और वेटर अक्सर यह कहते हैं। जवाब: Thanks, you too! (शुक्रिया, आपका भी।) यह भी: Have a good weekend. (वीकेंड अच्छा बीते।)",
+       "— ये रहे आपके खुले पैसे। आपका दिन शुभ हो! — शुक्रिया, आपका भी!"
+      ],
+      "vi": [
+       "Chúc một ngày tốt lành.",
+       "Nhân viên cửa hàng và người phục vụ hay nói câu này. Trả lời Thanks, you too! (Cảm ơn, bạn cũng vậy nhé!) Cũng có: Have a good weekend. (Chúc cuối tuần vui vẻ.)",
+       "— Tiền thừa của anh đây. Chúc một ngày tốt lành! — Cảm ơn, bạn cũng vậy nhé!"
       ]
      }
     ],
@@ -506,6 +752,16 @@
        "Prends soin de toi.",
        "Un au revoir chaleureux pour la famille, les amis, une personne malade ou qui part en voyage. On répond You too! (Toi aussi !)",
        "Bon voyage. Prends soin de toi !"
+      ],
+      "hi": [
+       "अपना ख़याल रखना।",
+       "अपनेपन भरी विदा: परिवार, दोस्तों, किसी बीमार या सफ़र पर निकल रहे व्यक्ति के लिए। जवाब: You too! (तुम भी।)",
+       "सफ़र अच्छा रहे। अपना ख़याल रखना!"
+      ],
+      "vi": [
+       "Giữ gìn sức khỏe nhé.",
+       "Lời tạm biệt ấm áp dành cho gia đình, bạn bè, người đang ốm hoặc sắp đi xa. Trả lời You too! (Bạn cũng vậy nhé!)",
+       "Chúc thượng lộ bình an. Giữ gìn sức khỏe nhé!"
       ]
      }
     ],
@@ -525,6 +781,16 @@
        "Bonne nuit.",
        "Seulement pour se quitter le soir ou au moment d'aller se coucher ; pas pour saluer. Quand on retrouve quelqu'un le soir, on dit Good evening.",
        "Il est tard. Bonne nuit, tout le monde !"
+      ],
+      "hi": [
+       "शुभ रात्रि।",
+       "सिर्फ़ रात को विदा लेते समय या सोने जाते समय; मिलते समय नहीं बोला जाता। रात को किसी से मिलने पर Good evening कहते हैं।",
+       "देर हो गई है। शुभ रात्रि, सब लोग!"
+      ],
+      "vi": [
+       "Chúc ngủ ngon.",
+       "Chỉ dùng để tạm biệt vào buổi tối hoặc trước khi đi ngủ; không dùng để chào khi gặp. Buổi tối gặp ai thì nói Good evening.",
+       "Muộn rồi. Chúc cả nhà ngủ ngon!"
       ]
      }
     ]
@@ -537,6 +803,14 @@
     "fr": [
      "Dire au revoir",
      "Partir : d'un bye rapide à un take care chaleureux."
+    ],
+    "hi": [
+     "विदा लेना",
+     "जाते समय: झटपट bye से लेकर अपनेपन भरे take care तक।"
+    ],
+    "vi": [
+     "Tạm biệt",
+     "Lúc ra về: từ một tiếng bye nhanh gọn đến lời take care ấm áp."
     ]
    }
   },
@@ -561,6 +835,16 @@
        "Je dois y aller.",
        "Met fin à la conversation. Plus poli : Sorry, I have to go. ou I'd better go.",
        "Oh, il est trois heures ! Je dois y aller."
+      ],
+      "hi": [
+       "मुझे जाना है।",
+       "बातचीत ख़त्म करता है। ज़्यादा विनम्र: Sorry, I have to go. या I'd better go.",
+       "अरे, तीन बज गए! मुझे जाना है।"
+      ],
+      "vi": [
+       "Mình phải đi rồi.",
+       "Kết thúc cuộc trò chuyện. Lịch sự hơn: Sorry, I have to go. hoặc I'd better go.",
+       "Ôi, ba giờ rồi! Mình phải đi rồi."
       ]
      }
     ],
@@ -580,6 +864,16 @@
        "Ravi(e) d'avoir fait votre connaissance.",
        "Se dit en quittant une personne rencontrée pour la première fois. Au début de la rencontre, on dit Nice to meet you.",
        "Eh bien, ravi d'avoir fait votre connaissance. Au revoir !"
+      ],
+      "hi": [
+       "आपसे मिलकर अच्छा लगा।",
+       "उससे विदा लेते समय, जिससे आप अभी-अभी पहली बार मिले हैं। मुलाक़ात की शुरुआत में Nice to meet you कहते हैं।",
+       "अच्छा, आपसे मिलकर अच्छा लगा। बाय!"
+      ],
+      "vi": [
+       "Rất vui vì đã được gặp bạn.",
+       "Nói khi tạm biệt người bạn vừa mới quen. Lúc mới gặp thì nói Nice to meet you.",
+       "Thôi, rất vui vì đã được gặp bạn. Chào nhé!"
       ]
      }
     ],
@@ -599,6 +893,16 @@
        "Ça m'a fait plaisir de discuter avec toi.",
        "Se dit avant de partir, entre amis ou à quelqu'un que l'on vient de rencontrer.",
        "Ça m'a fait plaisir de discuter avec toi. Prends soin de toi !"
+      ],
+      "hi": [
+       "आपसे बात करके अच्छा लगा।",
+       "जाने से पहले कहा जाता है, दोस्तों से या किसी ऐसे व्यक्ति से जिससे अभी मिले हों।",
+       "तुमसे बात करके अच्छा लगा। अपना ख़याल रखना!"
+      ],
+      "vi": [
+       "Nói chuyện với bạn vui lắm.",
+       "Nói trước khi ra về, với bạn bè hoặc với người vừa mới quen.",
+       "Nói chuyện với bạn vui lắm. Giữ gìn sức khỏe nhé!"
       ]
      }
     ],
@@ -618,6 +922,16 @@
        "On se reparle plus tard.",
        "À la fin d'une conversation ou d'un appel. Dans les textos, on abrège en TTYL.",
        "Mon bus arrive. On se reparle plus tard !"
+      ],
+      "hi": [
+       "बाद में बात करते हैं।",
+       "बातचीत या फ़ोन कॉल ख़त्म करते समय। संदेशों में छोटा करके TTYL लिखते हैं।",
+       "मेरी बस आ गई। बाद में बात करते हैं!"
+      ],
+      "vi": [
+       "Nói chuyện sau nhé.",
+       "Khi kết thúc một cuộc trò chuyện hoặc cuộc gọi. Trong tin nhắn viết tắt là TTYL.",
+       "Xe buýt của mình đến rồi. Nói chuyện sau nhé!"
       ]
      }
     ],
@@ -637,6 +951,16 @@
        "Passe le bonjour à Aung de ma part.",
        "Pour demander à quelqu'un de saluer sa famille ou ses amis de votre part. On dit aussi : Say hi to ___ for me.",
        "Passe le bonjour à tes parents de ma part."
+      ],
+      "hi": [
+       "Aung को मेरा नमस्ते कहना।",
+       "किसी से कहने के लिए कि वह अपने परिवार या दोस्तों तक आपका अभिवादन पहुँचा दे। यह भी: Say hi to ___ for me.",
+       "अपने माता-पिता को मेरा नमस्ते कहना।"
+      ],
+      "vi": [
+       "Cho mình gửi lời hỏi thăm Aung nhé.",
+       "Để nhờ ai đó chuyển lời chào của bạn đến gia đình hoặc bạn bè của họ. Cũng có: Say hi to ___ for me.",
+       "Cho mình gửi lời hỏi thăm bố mẹ bạn nhé."
       ]
      }
     ]
@@ -649,6 +973,14 @@
     "fr": [
      "Mettre fin à une conversation",
      "Partir poliment, pour que l'au revoir ne paraisse pas brusque."
+    ],
+    "hi": [
+     "बातचीत ख़त्म करना",
+     "विनम्रता से जाना, ताकि विदा अचानक न लगे।"
+    ],
+    "vi": [
+     "Kết thúc cuộc trò chuyện",
+     "Ra về một cách lịch sự, để lời tạm biệt không bị đột ngột."
     ]
    }
   }
@@ -719,6 +1051,22 @@
       "Good evening.": "Good evening s'emploie après 18 heures. Avant midi, on dit Good morning.",
       "Good night.": "Good night est un au revoir, le soir ou avant d'aller dormir. Vous venez seulement d'arriver."
      }
+    },
+    "hi": {
+     "my": "सुबह 9 बजे। आप कक्षा में पहुँचते हैं और अपनी शिक्षिका का अभिवादन करते हैं।",
+     "wrong": {
+      "What's up?": "बहुत अनौपचारिक। सिर्फ़ दोस्तों के बीच बोलिए, शिक्षकों से नहीं।",
+      "Good evening.": "Good evening शाम 6 बजे के बाद कहा जाता है। दोपहर से पहले Good morning कहते हैं।",
+      "Good night.": "Good night विदा का शब्द है, रात को या सोने से पहले। आप तो अभी पहुँचे ही हैं।"
+     }
+    },
+    "vi": {
+     "my": "9 giờ sáng. Bạn vào lớp và chào cô giáo.",
+     "wrong": {
+      "What's up?": "Quá suồng sã. Chỉ dùng giữa bạn bè, không dùng với thầy cô.",
+      "Good evening.": "Good evening dùng sau 6 giờ chiều. Trước buổi trưa thì nói Good morning.",
+      "Good night.": "Good night là lời tạm biệt, vào buổi tối hoặc trước khi đi ngủ. Còn bạn thì vừa mới đến."
+     }
     }
    }
   },
@@ -735,6 +1083,12 @@
     },
     "fr": {
      "my": "14 heures. Un client entre dans votre magasin."
+    },
+    "hi": {
+     "my": "दोपहर 2 बजे। एक ग्राहक आपकी दुकान में आता है।"
+    },
+    "vi": {
+     "my": "2 giờ chiều. Một khách hàng bước vào cửa hàng của bạn."
     }
    }
   },
@@ -767,6 +1121,20 @@
      "wrong": {
       "Good afternoon.": "Good afternoon va de midi à 18 heures. À 20 heures, on dit Good evening.",
       "Hey!": "Trop familier pour un serveur. Hey! est réservé aux amis proches."
+     }
+    },
+    "hi": {
+     "my": "रात 8 बजे। आप एक रेस्तराँ में दाख़िल होते हैं।",
+     "wrong": {
+      "Good afternoon.": "Good afternoon दोपहर 12 से शाम 6 बजे तक चलता है। 8 बजे Good evening कहते हैं।",
+      "Hey!": "वेटर के लिए बहुत अनौपचारिक। Hey! सिर्फ़ क़रीबी दोस्तों के लिए है।"
+     }
+    },
+    "vi": {
+     "my": "8 giờ tối. Bạn bước vào một nhà hàng.",
+     "wrong": {
+      "Good afternoon.": "Good afternoon dùng từ 12 giờ trưa đến 6 giờ chiều. Lúc 8 giờ tối thì nói Good evening.",
+      "Hey!": "Quá suồng sã với người phục vụ. Hey! chỉ dành cho bạn thân."
      }
     }
    }
@@ -803,6 +1171,20 @@
       "Long time no see!": "Cela se dit aux amis que l'on n'a pas vus depuis longtemps. Vous venez de rencontrer cette personne.",
       "Good, thanks. And you?": "C'est la réponse à How are you?"
      }
+    },
+    "hi": {
+     "wrong": {
+      "Good to see you.": "Good to see you उन लोगों के लिए है जिन्हें आप पहले से जानते हैं। यह व्यक्ति अजनबी है: आप अभी-अभी मिले हैं।",
+      "Long time no see!": "यह उन दोस्तों के लिए है जिनसे आप बहुत समय से नहीं मिले। इस व्यक्ति से तो आप अभी मिले हैं।",
+      "Good, thanks. And you?": "यह How are you? का जवाब है।"
+     }
+    },
+    "vi": {
+     "wrong": {
+      "Good to see you.": "Good to see you dành cho người bạn đã quen. Người này là người lạ: bạn vừa mới gặp.",
+      "Long time no see!": "Câu này dành cho bạn bè lâu rồi không gặp. Còn người này bạn vừa mới quen.",
+      "Good, thanks. And you?": "Đó là câu trả lời cho How are you?"
+     }
     }
    }
   },
@@ -827,6 +1209,18 @@
      "cue": "👫 Vous n'avez pas vu votre ami depuis des mois.",
      "decoys": {
       "are": "S'emploie avec les gens que l'on n'a pas vus depuis longtemps : How have you been? (How are you been? est incorrect.)"
+     }
+    },
+    "hi": {
+     "cue": "आप अपने दोस्त से महीनों से नहीं मिले।",
+     "decoys": {
+      "are": "उन लोगों से कहा जाता है जिनसे आप बहुत समय से नहीं मिले: How have you been? (How are you been? ग़लत है।)"
+     }
+    },
+    "vi": {
+     "cue": "Mấy tháng rồi bạn chưa gặp bạn mình.",
+     "decoys": {
+      "are": "Dùng với người lâu rồi bạn không gặp: How have you been? (How are you been? là sai.)"
      }
     }
    }
@@ -860,6 +1254,20 @@
       "Nice to meet you.": "Se dit à la première rencontre. Pas avec de vieux amis.",
       "Have a nice day.": "C'est un au revoir. Vous venez tout juste de vous retrouver."
      }
+    },
+    "hi": {
+     "my": "सड़क पर आपको एक पुराना दोस्त मिल जाता है। आप दोनों 3 साल से नहीं मिले।",
+     "wrong": {
+      "Nice to meet you.": "यह किसी से पहली बार मिलने पर कहा जाता है। पुराने दोस्तों से नहीं कहते।",
+      "Have a nice day.": "यह विदा का वाक्य है। आप दोनों तो अभी मिले ही हैं।"
+     }
+    },
+    "vi": {
+     "my": "Bạn gặp một người bạn cũ ngoài đường. Hai người đã 3 năm không gặp nhau.",
+     "wrong": {
+      "Nice to meet you.": "Câu này nói khi gặp ai đó lần đầu. Không dùng với bạn cũ.",
+      "Have a nice day.": "Đó là lời tạm biệt. Hai bạn chỉ vừa mới gặp nhau."
+     }
     }
    }
   },
@@ -876,6 +1284,12 @@
     },
     "fr": {
      "my": "Vous rencontrez la mère de votre amie pour la première fois."
+    },
+    "hi": {
+     "my": "आप अपनी दोस्त की माँ से पहली बार मिलते हैं।"
+    },
+    "vi": {
+     "my": "Bạn gặp mẹ của bạn mình lần đầu tiên."
     }
    }
   },
@@ -904,6 +1318,18 @@
      "wrong": {
       "Nice to meet you.": "Cela se dit à quelqu'un que l'on rencontre pour la première fois.",
       "Not much. You?": "Not much répond à What's up? À How are you?, on répond Good, thanks. And you?"
+     }
+    },
+    "hi": {
+     "wrong": {
+      "Nice to meet you.": "यह उससे कहा जाता है जिससे आप पहली बार मिल रहे हों।",
+      "Not much. You?": "Not much, What's up? का जवाब है। How are you? का जवाब है Good, thanks. And you?"
+     }
+    },
+    "vi": {
+     "wrong": {
+      "Nice to meet you.": "Câu đó nói với người bạn gặp lần đầu.",
+      "Not much. You?": "Not much là câu trả lời cho What's up? Với How are you? thì trả lời Good, thanks. And you?"
      }
     }
    }
@@ -937,6 +1363,20 @@
       "Have you eaten?": "Dans certaines langues, demander si l'on a mangé est une salutation. En anglais, Have you eaten? demande vraiment si vous avez mangé. Dites How are you?",
       "Where are you going?": "Dans certaines langues, on salue en demandant où l'on va. En anglais, cette question paraît indiscrète. Dites How are you?"
      }
+    },
+    "hi": {
+     "my": "दफ़्तर में, सुबह, आपको एक सहकर्मी मिलती है। आप उसका हालचाल पूछना चाहते हैं।",
+     "wrong": {
+      "Have you eaten?": "कुछ भाषाओं में “खाना खाया?” पूछना अभिवादन है। अंग्रेज़ी में Have you eaten? सचमुच पूछता है कि आपने खाया या नहीं। How are you? कहिए।",
+      "Where are you going?": "कुछ भाषाओं में “कहाँ जा रहे हो?” पूछकर अभिवादन किया जाता है। अंग्रेज़ी में यह सवाल दख़लअंदाज़ी जैसा लगता है। How are you? कहिए।"
+     }
+    },
+    "vi": {
+     "my": "Buổi sáng ở chỗ làm, bạn gặp một chị đồng nghiệp. Bạn muốn hỏi thăm chị ấy.",
+     "wrong": {
+      "Have you eaten?": "Trong tiếng Việt, “Ăn cơm chưa?” là một lời chào. Trong tiếng Anh, Have you eaten? là hỏi thật xem bạn đã ăn chưa. Hãy nói How are you?",
+      "Where are you going?": "Trong tiếng Việt, người ta hay chào bằng câu “Đi đâu đấy?”. Trong tiếng Anh, câu hỏi này nghe như tò mò chuyện riêng. Hãy nói How are you?"
+     }
     }
    }
   },
@@ -962,6 +1402,18 @@
      "decoys": {
       "be": "En anglais, cet au revoir se dit avec have : Have a nice day."
      }
+    },
+    "hi": {
+     "cue": "ग्राहक अब जा रहा है।",
+     "decoys": {
+      "be": "अंग्रेज़ी में यह विदा have के साथ कही जाती है: Have a nice day."
+     }
+    },
+    "vi": {
+     "cue": "Khách hàng chuẩn bị ra về.",
+     "decoys": {
+      "be": "Trong tiếng Anh, lời tạm biệt này dùng với have: Have a nice day."
+     }
     }
    }
   },
@@ -981,6 +1433,14 @@
     "fr": {
      "my": "19 heures. Vous quittez le bureau et dites au revoir à votre supérieur.",
      "note": "Good evening est une salutation d'arrivée. En partant le soir, dites Good night ou Have a nice evening."
+    },
+    "hi": {
+     "my": "शाम 7 बजे। आप दफ़्तर से निकल रहे हैं और अपने बॉस से विदा लेते हैं।",
+     "note": "Good evening पहुँचने पर किया जाने वाला अभिवादन है। शाम या रात को जाते समय Good night या Have a nice evening कहिए।"
+    },
+    "vi": {
+     "my": "7 giờ tối. Bạn rời văn phòng và chào tạm biệt sếp.",
+     "note": "Good evening là lời chào khi đến. Nếu ra về vào buổi chiều tối, hãy nói Good night hoặc Have a nice evening."
     }
    }
   },
@@ -1019,6 +1479,22 @@
       "Long time no see!": "C'est une salutation pour des amis que l'on n'a pas vus depuis longtemps.",
       "Talk to you later.": "Se dit à la fin d'un appel ou d'une conversation avec un ami."
      }
+    },
+    "hi": {
+     "my": "एक दोस्त के घर आज आप उसके पिता से पहली बार मिले। अब आप जा रहे हैं।",
+     "wrong": {
+      "Nice to meet you.": "यह किसी से मिलते ही कहा जाता है। It was nice meeting you विदा लेते समय कहते हैं।",
+      "Long time no see!": "यह उन दोस्तों के लिए अभिवादन है जिनसे आप बहुत समय से नहीं मिले।",
+      "Talk to you later.": "यह किसी दोस्त के साथ फ़ोन कॉल या गपशप ख़त्म करते समय कहा जाता है।"
+     }
+    },
+    "vi": {
+     "my": "Ở nhà một người bạn, hôm nay bạn gặp bố bạn ấy lần đầu. Bây giờ bạn ra về.",
+     "wrong": {
+      "Nice to meet you.": "Câu này nói ngay lúc mới gặp. It was nice meeting you thì nói lúc tạm biệt.",
+      "Long time no see!": "Đây là lời chào dành cho bạn bè lâu rồi không gặp.",
+      "Talk to you later.": "Câu này nói khi kết thúc cuộc gọi hoặc cuộc trò chuyện với bạn bè."
+     }
     }
    }
   },
@@ -1054,6 +1530,20 @@
       "Nice to meet you too.": "C'est la réponse à Nice to meet you.",
       "Goodbye.": "C'est un au revoir. How's it going? demande comment ça va."
      }
+    },
+    "hi": {
+     "wrong": {
+      "I'm going to the market.": "How's it going? यह नहीं पूछता कि आप कहाँ जा रहे हैं। यह हालचाल पूछता है। जवाब: Not bad. या Good, thanks.",
+      "Nice to meet you too.": "यह Nice to meet you का जवाब है।",
+      "Goodbye.": "यह विदा का शब्द है। How's it going? हालचाल पूछता है।"
+     }
+    },
+    "vi": {
+     "wrong": {
+      "I'm going to the market.": "How's it going? không hỏi bạn đi đâu. Nó hỏi bạn dạo này thế nào. Trả lời: Not bad. hoặc Good, thanks.",
+      "Nice to meet you too.": "Đó là câu trả lời cho Nice to meet you.",
+      "Goodbye.": "Đó là lời tạm biệt. How's it going? là hỏi thăm bạn thế nào."
+     }
     }
    }
   },
@@ -1077,6 +1567,16 @@
      "decoys": {
       "talk": "Après nice, le verbe prend -ing. Exemple : It was nice talking to you."
      }
+    },
+    "hi": {
+     "decoys": {
+      "talk": "nice के बाद क्रिया में -ing लगता है। उदाहरण: It was nice talking to you."
+     }
+    },
+    "vi": {
+     "decoys": {
+      "talk": "Sau nice, động từ thêm -ing. Ví dụ: It was nice talking to you."
+     }
     }
    }
   },
@@ -1096,6 +1596,14 @@
     "fr": {
      "my": "Vous voyez votre professeure dans la rue.",
      "note": "Hey! est réservé aux amis. Avec les professeurs, dites Hello ou Good morning."
+    },
+    "hi": {
+     "my": "सड़क पर आपको अपनी शिक्षिका दिखती हैं।",
+     "note": "Hey! दोस्तों के लिए है। शिक्षकों से Hello या Good morning कहिए।"
+    },
+    "vi": {
+     "my": "Bạn thấy cô giáo của mình ngoài đường.",
+     "note": "Hey! dành cho bạn bè. Với thầy cô, hãy nói Hello hoặc Good morning."
     }
    }
   }

@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/agree_disagree.html",
  "aud_dir": "eng/expressions/agree_disagree/",
@@ -37,6 +39,16 @@
        "Je suis d'accord.",
        "Agree est un verbe, donc pas de am : I agree, I don't agree. Pas : I am agree.",
        "— Cette rue a besoin de plus d'éclairage. — Je suis d'accord."
+      ],
+      "hi": [
+       "मैं सहमत हूँ।",
+       "Agree क्रिया है, इसलिए am नहीं लगता: I agree, I don't agree. ग़लत: I am agree.",
+       "— इस सड़क पर और बत्तियों की ज़रूरत है। — मैं सहमत हूँ।"
+      ],
+      "vi": [
+       "Mình đồng ý.",
+       "Agree là động từ, nên không có am: I agree, I don't agree. Không nói: I am agree.",
+       "— Con đường này cần thêm đèn. — Mình đồng ý."
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Tu as raison.",
        "Dit que l'autre a raison. Chaleureux et simple.",
        "— On devrait partir tôt. Ça roule mal le vendredi. — Tu as raison."
+      ],
+      "hi": [
+       "आप ठीक कह रहे हैं।",
+       "कहता है कि सामने वाला सही है। आत्मीय और सरल।",
+       "— हमें जल्दी निकलना चाहिए। शुक्रवार को ट्रैफ़िक बहुत होता है। — तुम ठीक कह रहे हो।"
+      ],
+      "vi": [
+       "Bạn nói đúng.",
+       "Nói rằng người kia đúng. Ấm áp và đơn giản.",
+       "— Mình nên đi sớm. Thứ Sáu đường đông lắm. — Bạn nói đúng."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "C'est vrai.",
        "Approuve un fait plus qu'une opinion.",
        "— Les légumes sont moins chers au marché. — C'est vrai."
+      ],
+      "hi": [
+       "यह सच है।",
+       "राय से ज़्यादा किसी तथ्य को सही ठहराता है।",
+       "— बाज़ार में सब्ज़ियाँ सस्ती मिलती हैं। — यह सच है।"
+      ],
+      "vi": [
+       "Đúng vậy.",
+       "Tán thành một sự thật hơn là một ý kiến.",
+       "— Rau ở chợ rẻ hơn. — Đúng vậy."
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Exactement !",
        "Fort : c'est exactement ce que je veux dire. On dit aussi : Exactly right!",
        "— Donc il nous faut plus de temps, pas plus d'argent ? — Exactement !"
+      ],
+      "hi": [
+       "बिलकुल!",
+       "ज़ोरदार: मेरा मतलब ठीक यही है। यह भी: Exactly right!",
+       "— तो हमें ज़्यादा समय चाहिए, ज़्यादा पैसा नहीं? — बिलकुल!"
+      ],
+      "vi": [
+       "Chính xác!",
+       "Mạnh: đó đúng là điều mình muốn nói. Cũng có: Exactly right!",
+       "— Vậy là mình cần thêm thời gian, không phải thêm tiền? — Chính xác!"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Bien vu.",
        "Quand quelqu'un dit quelque chose d'utile auquel vous n'aviez pas pensé.",
        "— Si on y va dimanche, les magasins seront fermés. — Bien vu."
+      ],
+      "hi": [
+       "अच्छी बात कही।",
+       "जब कोई ऐसी काम की बात कहे जो आपको सूझी न हो।",
+       "— अगर हम रविवार को गए, तो दुकानें बंद मिलेंगी। — अच्छी बात कही।"
+      ],
+      "vi": [
+       "Ý hay đấy.",
+       "Khi ai đó nói một điều hữu ích mà bạn chưa nghĩ tới.",
+       "— Nếu đi Chủ nhật thì các cửa hàng đóng cửa. — Ý hay đấy."
       ]
      }
     ],
@@ -132,6 +184,16 @@
        "Moi aussi.",
        "Approuve une phrase affirmative. On reprend l'auxiliaire : I can swim → So can I. I'm tired → So am I. Me too est plus familier.",
        "— Je trouve que la nouvelle professeure est super. — Moi aussi."
+      ],
+      "hi": [
+       "मैं भी।",
+       "हाँ वाले वाक्य से सहमति। सहायक क्रिया वही दोहराइए: I can swim → So can I. I'm tired → So am I. Me too ज़्यादा अनौपचारिक है।",
+       "— मुझे लगता है नई शिक्षिका बहुत अच्छी हैं। — मुझे भी।"
+      ],
+      "vi": [
+       "Mình cũng vậy.",
+       "Đồng tình với một câu khẳng định. Lặp lại trợ động từ: I can swim → So can I. I'm tired → So am I. Me too thì thân mật hơn.",
+       "— Mình thấy cô giáo mới rất tuyệt. — Mình cũng vậy."
       ]
      }
     ],
@@ -151,6 +213,16 @@
        "Moi non plus.",
        "Approuve une phrase négative. Pas : So do I ni Me too après une négation. I can't swim → Neither can I. Me neither est plus familier.",
        "— Je ne pense pas que ce soit une bonne idée. — Moi non plus."
+      ],
+      "hi": [
+       "मैं भी नहीं।",
+       "ना वाले वाक्य से सहमति। ना के बाद So do I या Me too नहीं आता। I can't swim → Neither can I. Me neither ज़्यादा अनौपचारिक है।",
+       "— मुझे नहीं लगता कि यह अच्छा विचार है। — मुझे भी नहीं।"
+      ],
+      "vi": [
+       "Mình cũng không.",
+       "Đồng tình với một câu phủ định. Sau câu phủ định không dùng So do I hay Me too. I can't swim → Neither can I. Me neither thì thân mật hơn.",
+       "— Mình không nghĩ đó là ý hay. — Mình cũng không."
       ]
      }
     ]
@@ -163,6 +235,14 @@
     "fr": [
      "Être d'accord",
      "Des façons courantes de dire que l'on pense la même chose."
+    ],
+    "hi": [
+     "सहमत होना",
+     "यह कहने के रोज़मर्रा के तरीक़े कि आप भी ऐसा ही सोचते हैं।"
+    ],
+    "vi": [
+     "Đồng ý",
+     "Những cách hằng ngày để nói bạn cũng nghĩ như vậy."
     ]
    }
   },
@@ -187,6 +267,16 @@
        "Je suis tout à fait d'accord.",
        "Plus fort que I agree. On dit aussi : I completely agree.",
        "— Les enfants ont besoin de jouer dehors plus longtemps. — Je suis tout à fait d'accord."
+      ],
+      "hi": [
+       "मैं पूरी तरह सहमत हूँ।",
+       "I agree से ज़्यादा ज़ोरदार। यह भी: I completely agree.",
+       "— बच्चों को बाहर खेलने के लिए और समय चाहिए। — मैं पूरी तरह सहमत हूँ।"
+      ],
+      "vi": [
+       "Mình hoàn toàn đồng ý.",
+       "Mạnh hơn I agree. Cũng có: I completely agree.",
+       "— Trẻ con cần thêm thời gian chơi ngoài trời. — Mình hoàn toàn đồng ý."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Je ne pourrais pas être plus d'accord.",
        "La phrase paraît négative, mais c'est le oui le plus fort : je suis tellement d'accord que je ne pourrais pas l'être davantage.",
        "— C'était le meilleur voyage de tous. — Je ne pourrais pas être plus d'accord !"
+      ],
+      "hi": [
+       "इससे ज़्यादा सहमत हो ही नहीं सकता।",
+       "सुनने में नकारात्मक लगता है, पर यह सबसे ज़ोरदार हाँ है: मैं इतना सहमत हूँ कि इससे ज़्यादा हो ही नहीं सकता।",
+       "— यह अब तक का सबसे अच्छा सफ़र था। — इससे ज़्यादा सहमत हो ही नहीं सकता!"
+      ],
+      "vi": [
+       "Mình không thể đồng ý hơn được nữa.",
+       "Nghe như phủ định, nhưng là lời đồng ý mạnh nhất: mình đồng ý đến mức không thể hơn được nữa.",
+       "— Đó là chuyến đi tuyệt nhất từ trước tới giờ. — Mình không thể đồng ý hơn được nữa!"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Ça, tu peux le dire !",
        "Familier et amical. On ne vous demande pas de répéter : cela veut dire que vous avez tellement raison.",
        "— Qu'est-ce qu'il fait chaud aujourd'hui ! — Ça, tu peux le dire !"
+      ],
+      "hi": [
+       "बिलकुल सही कहा!",
+       "अनौपचारिक और दोस्ताना। यह आपसे कुछ दोहराने को नहीं कह रहा: मतलब है कि आप बिलकुल सही हैं।",
+       "— आज कितनी गरमी है! — बिलकुल सही कहा!"
+      ],
+      "vi": [
+       "Bạn nói quá đúng!",
+       "Thân mật và thân thiện. Không phải bảo bạn nhắc lại: nghĩa là bạn hoàn toàn đúng.",
+       "— Hôm nay nóng quá! — Bạn nói quá đúng!"
       ]
      }
     ],
@@ -244,6 +354,16 @@
        "À qui le dis-tu !",
        "Familier. On ne demande pas de détails : cela veut dire je sais très bien, il m'est arrivé la même chose. Surtout pour les problèmes partagés.",
        "— La circulation ce matin était épouvantable. — À qui le dis-tu ! J'ai eu une heure de retard."
+      ],
+      "hi": [
+       "अरे, मुझसे पूछो!",
+       "अनौपचारिक। यह और ब्योरा नहीं माँग रहा: मतलब है, मैं अच्छी तरह जानता हूँ, मेरे साथ भी यही हुआ। ख़ासकर साझा परेशानियों के लिए।",
+       "— आज सुबह ट्रैफ़िक बहुत बुरा था। — अरे, मुझसे पूछो! मैं एक घंटा देर से पहुँचा।"
+      ],
+      "vi": [
+       "Còn phải nói!",
+       "Thân mật. Không phải hỏi thêm chi tiết: nghĩa là mình biết quá rõ, mình cũng bị y như vậy. Nhất là với những rắc rối chung.",
+       "— Sáng nay đường kẹt kinh khủng. — Còn phải nói! Mình trễ cả tiếng đồng hồ."
       ]
      }
     ],
@@ -263,6 +383,16 @@
        "C'est exactement ce que je pense.",
        "Vous aviez la même idée avant qu'on la dise.",
        "— On devrait d'abord demander au professeur. — C'est exactement ce que je pense."
+      ],
+      "hi": [
+       "मैं भी ठीक यही सोचता हूँ।",
+       "उनके कहने से पहले ही आपके मन में वही बात थी।",
+       "— हमें पहले शिक्षक से पूछना चाहिए। — मैं भी ठीक यही सोचता हूँ।"
+      ],
+      "vi": [
+       "Mình cũng nghĩ y như vậy.",
+       "Bạn đã có cùng ý đó trước khi người kia nói ra.",
+       "— Mình nên hỏi thầy trước. — Mình cũng nghĩ y như vậy."
       ]
      }
     ]
@@ -275,6 +405,14 @@
     "fr": [
      "Tout à fait d'accord",
      "Quand on est entièrement d'accord, ou que l'on ressent la même chose."
+    ],
+    "hi": [
+     "पूरी सहमति",
+     "जब आप पूरी तरह सहमत हों, या वही महसूस करते हों।"
+    ],
+    "vi": [
+     "Hoàn toàn đồng ý",
+     "Khi bạn đồng ý hoàn toàn, hoặc có cùng cảm nhận."
     ]
    }
   },
@@ -299,6 +437,16 @@
        "C'est vrai, mais…",
        "La façon la plus courante d'exprimer gentiment un désaccord : approuver d'abord, puis donner l'autre point de vue.",
        "— Le grand téléphone a un meilleur appareil photo. — C'est vrai, mais il est très cher."
+      ],
+      "hi": [
+       "यह सच है, पर…",
+       "नरमी से असहमत होने का सबसे आम तरीक़ा: पहले बात मान लीजिए, फिर दूसरा पहलू कहिए।",
+       "— बड़े फ़ोन का कैमरा बेहतर है। — यह सच है, पर वह बहुत महँगा है।"
+      ],
+      "vi": [
+       "Đúng vậy, nhưng…",
+       "Cách phản đối nhẹ nhàng phổ biến nhất: công nhận trước, rồi nói mặt còn lại.",
+       "— Điện thoại to có máy ảnh tốt hơn. — Đúng vậy, nhưng nó đắt lắm."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Je vois ce que tu veux dire, mais…",
        "Montre que vous avez écouté avant de vous opposer. On dit aussi : I see your point, but…",
        "Je vois ce que tu veux dire, mais je pense toujours qu'on devrait attendre."
+      ],
+      "hi": [
+       "मैं आपकी बात समझता हूँ, पर…",
+       "दिखाता है कि असहमत होने से पहले आपने बात सुनी। यह भी: I see your point, but…",
+       "मैं तुम्हारी बात समझता हूँ, पर मुझे अब भी लगता है कि हमें रुकना चाहिए।"
+      ],
+      "vi": [
+       "Mình hiểu ý bạn, nhưng…",
+       "Cho thấy bạn đã lắng nghe trước khi phản đối. Cũng có: I see your point, but…",
+       "Mình hiểu ý bạn, nhưng mình vẫn nghĩ là nên đợi."
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Je suis d'accord jusqu'à un certain point.",
        "Vous approuvez une partie, pas tout. Un peu formel : bien en classe et en réunion. Faites suivre de but…",
        "— L'argent rend les gens heureux. — Je suis d'accord jusqu'à un certain point, mais la santé compte davantage."
+      ],
+      "hi": [
+       "मैं एक हद तक सहमत हूँ।",
+       "आप एक हिस्से से सहमत हैं, पूरी बात से नहीं। थोड़ा औपचारिक: कक्षा और बैठकों के लिए अच्छा। इसके बाद but… लगाइए।",
+       "— पैसा लोगों को ख़ुश करता है। — मैं एक हद तक सहमत हूँ, पर सेहत ज़्यादा ज़रूरी है।"
+      ],
+      "vi": [
+       "Mình đồng ý ở một mức nào đó.",
+       "Bạn đồng ý với một phần, không phải tất cả. Hơi trang trọng: hợp với lớp học và cuộc họp. Nối tiếp bằng but…",
+       "— Tiền làm con người hạnh phúc. — Mình đồng ý ở một mức nào đó, nhưng sức khỏe quan trọng hơn."
       ]
      }
     ],
@@ -356,6 +524,16 @@
        "Peut-être, mais…",
        "Admet que l'idée est possible, puis ajoute un autre point de vue.",
        "— Le bus est plus rapide. — Peut-être, mais le train est plus confortable."
+      ],
+      "hi": [
+       "हो सकता है, पर…",
+       "बात को संभव मान लेता है, फिर दूसरा नज़रिया जोड़ता है।",
+       "— बस ज़्यादा तेज़ है। — हो सकता है, पर ट्रेन ज़्यादा आरामदेह है।"
+      ],
+      "vi": [
+       "Có thể, nhưng…",
+       "Chấp nhận ý đó là có thể đúng, rồi thêm một góc nhìn khác.",
+       "— Xe buýt nhanh hơn. — Có thể, nhưng tàu hỏa thoải mái hơn."
       ]
      }
     ],
@@ -375,6 +553,16 @@
        "Ça se comprend.",
        "Vous acceptez la raison de quelqu'un, même si vous n'étiez pas d'accord au départ.",
        "— Je ne peux pas venir ce soir. J'ai un examen demain. — Ça se comprend."
+      ],
+      "hi": [
+       "चलो, ठीक है।",
+       "आप किसी की वजह मान लेते हैं, भले ही पहले सहमत न थे।",
+       "— मैं आज रात नहीं आ सकता। कल मेरी परीक्षा है। — चलो, ठीक है।"
+      ],
+      "vi": [
+       "Cũng phải.",
+       "Bạn chấp nhận lý do của người kia, dù lúc đầu không đồng ý.",
+       "— Tối nay mình không đến được. Mai mình thi. — Cũng phải."
       ]
      }
     ],
@@ -394,6 +582,16 @@
        "Tu as sans doute raison.",
        "Donner raison lentement, ou un peu à contrecœur.",
        "— On ne peut pas acheter une nouvelle voiture cette année. — Tu as sans doute raison."
+      ],
+      "hi": [
+       "शायद आप ठीक कह रहे हैं।",
+       "धीरे-धीरे, या थोड़े बेमन से बात मान लेना।",
+       "— इस साल हम नई गाड़ी नहीं ख़रीद सकते। — शायद तुम ठीक कह रहे हो।"
+      ],
+      "vi": [
+       "Chắc là bạn đúng.",
+       "Công nhận từ từ, hoặc hơi miễn cưỡng.",
+       "— Năm nay mình không mua xe mới được đâu. — Chắc là bạn đúng."
       ]
      }
     ]
@@ -406,6 +604,14 @@
     "fr": [
      "D'accord en partie",
      "Oui, mais… Approuver une partie avant d'ajouter son propre point de vue."
+    ],
+    "hi": [
+     "कुछ हद तक सहमत होना",
+     "हाँ, पर… अपनी बात जोड़ने से पहले एक हिस्से से सहमत होना।"
+    ],
+    "vi": [
+     "Đồng ý một phần",
+     "Đúng, nhưng… Đồng ý với một phần trước khi thêm quan điểm của mình."
     ]
    }
   },
@@ -430,6 +636,16 @@
        "Je n'en suis pas si sûr.",
        "La façon la plus douce d'exprimer un désaccord. Donnez ensuite votre raison.",
        "— Cette route est plus rapide. — Je n'en suis pas si sûr. Elle est très chargée à cette heure-ci."
+      ],
+      "hi": [
+       "मुझे इतना यक़ीन नहीं।",
+       "असहमत होने का सबसे नरम तरीक़ा। फिर अपनी वजह बताइए।",
+       "— यह रास्ता जल्दी पहुँचाता है। — मुझे इतना यक़ीन नहीं। इस समय यहाँ बहुत भीड़ रहती है।"
+      ],
+      "vi": [
+       "Mình không chắc lắm.",
+       "Cách phản đối nhẹ nhàng nhất. Sau đó nêu lý do của bạn.",
+       "— Đường này nhanh hơn. — Mình không chắc lắm. Giờ này đường đó đông lắm."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Je ne suis pas vraiment d'accord.",
        "Really rend la phrase plus douce que I don't agree. Pas : I'm not agree.",
        "— Les devoirs sont une perte de temps. — Je ne suis pas vraiment d'accord. Ça aide à s'entraîner."
+      ],
+      "hi": [
+       "मैं पूरी तरह सहमत नहीं हूँ।",
+       "Really इसे I don't agree से नरम बना देता है। ग़लत: I'm not agree.",
+       "— होमवर्क समय की बर्बादी है। — मैं पूरी तरह सहमत नहीं हूँ। उससे अभ्यास होता है।"
+      ],
+      "vi": [
+       "Mình không hẳn đồng ý.",
+       "Really làm câu nhẹ hơn I don't agree. Không nói: I'm not agree.",
+       "— Bài tập về nhà chỉ phí thời gian. — Mình không hẳn đồng ý. Nó giúp mình luyện tập."
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "Je vois les choses autrement.",
        "Calme et respectueux : vous avez un autre point de vue, pas un meilleur.",
        "Je vois les choses autrement. Pour moi, la ville est plus stimulante que le village."
+      ],
+      "hi": [
+       "मेरा नज़रिया अलग है।",
+       "शांत और सम्मान भरा: आपका नज़रिया अलग है, बेहतर नहीं।",
+       "मेरा नज़रिया अलग है। मेरे लिए शहर गाँव से ज़्यादा रोमांचक है।"
+      ],
+      "vi": [
+       "Mình nhìn nhận khác.",
+       "Bình tĩnh và tôn trọng: bạn có góc nhìn khác, không phải góc nhìn hay hơn.",
+       "Mình nhìn nhận khác. Với mình, thành phố thú vị hơn làng quê."
       ]
      }
     ],
@@ -487,6 +723,16 @@
        "En fait, je crois que…",
        "Corrige quelqu'un en douceur. Actually veut dire ici en fait, pas actuellement.",
        "— Le magasin ouvre à neuf heures. — En fait, je crois qu'il ouvre à dix heures."
+      ],
+      "hi": [
+       "असल में, मुझे लगता है…",
+       "किसी को नरमी से सुधारता है। यहाँ actually का मतलब है “असल में”।",
+       "— दुकान नौ बजे खुलती है। — असल में, मुझे लगता है दस बजे खुलती है।"
+      ],
+      "vi": [
+       "Thật ra, mình nghĩ…",
+       "Sửa lời ai đó một cách nhẹ nhàng. Actually ở đây nghĩa là “thật ra”.",
+       "— Cửa hàng mở lúc chín giờ. — Thật ra, mình nghĩ là mười giờ mới mở."
       ]
      }
     ],
@@ -506,6 +752,16 @@
        "Tu crois vraiment ?",
        "Montre en douceur que vous en doutez, et invite l'autre à s'expliquer.",
        "— C'est le meilleur restaurant de la ville. — Tu crois vraiment ? Je l'ai trouvé juste correct."
+      ],
+      "hi": [
+       "क्या आपको सच में ऐसा लगता है?",
+       "नरमी से जताता है कि आपको शक है, और सामने वाले को अपनी बात समझाने का मौक़ा देता है।",
+       "— यह शहर का सबसे अच्छा रेस्तराँ है। — तुम्हें सच में ऐसा लगता है? मुझे तो बस ठीक-ठाक लगा।"
+      ],
+      "vi": [
+       "Bạn thật sự nghĩ vậy à?",
+       "Nhẹ nhàng cho thấy bạn nghi ngờ, và mời người kia giải thích.",
+       "— Đây là nhà hàng ngon nhất thành phố. — Bạn thật sự nghĩ vậy à? Mình thấy chỉ tàm tạm thôi."
       ]
      }
     ],
@@ -525,6 +781,16 @@
        "Je crains de ne pas être d'accord.",
        "Poli et un peu formel : bien au travail et en réunion. I'm afraid adoucit.",
        "Je crains de ne pas être d'accord. Le prix est trop élevé pour nous."
+      ],
+      "hi": [
+       "माफ़ कीजिए, पर मैं असहमत हूँ।",
+       "विनम्र और थोड़ा औपचारिक: काम पर और बैठकों में अच्छा। I'm afraid इसे नरम बना देता है।",
+       "माफ़ कीजिए, पर मैं असहमत हूँ। यह दाम हमारे लिए बहुत ज़्यादा है।"
+      ],
+      "vi": [
+       "Tôi e là tôi không đồng ý.",
+       "Lịch sự và hơi trang trọng: hợp ở chỗ làm và trong cuộc họp. I'm afraid làm câu nhẹ đi.",
+       "Tôi e là tôi không đồng ý. Giá đó quá cao với chúng tôi."
       ]
      }
     ]
@@ -537,6 +803,14 @@
     "fr": [
      "Exprimer poliment son désaccord",
      "Dire que l'on pense autrement, sans déclencher une dispute."
+    ],
+    "hi": [
+     "विनम्रता से असहमत होना",
+     "कहना कि आप अलग सोचते हैं, पर बहस छेड़े बिना।"
+    ],
+    "vi": [
+     "Phản đối lịch sự",
+     "Nói rằng bạn nghĩ khác mà không gây tranh cãi."
     ]
    }
   },
@@ -561,6 +835,16 @@
        "Je ne suis pas du tout d'accord.",
        "Un non clair et fort. À employer quand le sujet vous tient à cœur.",
        "— Les filles n'ont pas besoin d'aller à l'université. — Je ne suis pas du tout d'accord !"
+      ],
+      "hi": [
+       "मैं बिलकुल सहमत नहीं हूँ।",
+       "साफ़ और ज़ोरदार ना। तब कहिए जब बात आपके लिए मायने रखती हो।",
+       "— लड़कियों को यूनिवर्सिटी जाने की ज़रूरत नहीं। — मैं बिलकुल सहमत नहीं हूँ!"
+      ],
+      "vi": [
+       "Mình hoàn toàn không đồng ý.",
+       "Một lời “không” rõ ràng và mạnh. Dùng khi chuyện đó quan trọng với bạn.",
+       "— Con gái không cần học đại học. — Mình hoàn toàn không đồng ý!"
       ]
      }
     ],
@@ -580,6 +864,16 @@
        "Ce n'est pas vrai.",
        "Dit qu'un fait est faux. Ajoutez une raison pour que cela ne ressemble pas à une attaque.",
        "— Tu n'aides jamais à la maison. — Ce n'est pas vrai ! J'ai fait le dîner hier."
+      ],
+      "hi": [
+       "यह सच नहीं है।",
+       "कहता है कि कोई तथ्य ग़लत है। वजह जोड़िए ताकि हमला न लगे।",
+       "— तुम घर में कभी मदद नहीं करते। — यह सच नहीं है! कल खाना मैंने बनाया था।"
+      ],
+      "vi": [
+       "Không đúng.",
+       "Nói rằng một sự việc là sai. Thêm lý do để không nghe như công kích.",
+       "— Bạn chẳng bao giờ giúp việc nhà. — Không đúng! Hôm qua mình nấu bữa tối mà."
       ]
      }
     ],
@@ -599,6 +893,16 @@
        "Tu te trompes.",
        "Très direct : cela peut sembler impoli. Plus doux : I don't think that's right.",
        "— Bangkok est la capitale du Vietnam. — Tu te trompes. C'est Hanoï."
+      ],
+      "hi": [
+       "आप ग़लत हैं।",
+       "बहुत सीधा: रूखा लग सकता है। ज़्यादा नरम: I don't think that's right.",
+       "— बैंकॉक वियतनाम की राजधानी है। — तुम ग़लत हो। वह हनोई है।"
+      ],
+      "vi": [
+       "Bạn sai rồi.",
+       "Rất thẳng: có thể nghe thô lỗ. Nhẹ nhàng hơn: I don't think that's right.",
+       "— Bangkok là thủ đô của Việt Nam. — Bạn sai rồi. Là Hà Nội."
       ]
      }
     ],
@@ -618,6 +922,16 @@
        "Bien sûr que non !",
        "Un non fort à une question. Souvent gentil : il dit à quelqu'un de ne pas s'inquiéter.",
        "— Tu trouves que je suis paresseux ? — Bien sûr que non !"
+      ],
+      "hi": [
+       "बिलकुल नहीं!",
+       "किसी सवाल पर ज़ोरदार ना। अक्सर भली होती है: सामने वाले को बताती है कि वह फ़िक्र न करे।",
+       "— क्या तुम्हें लगता है कि मैं आलसी हूँ? — बिलकुल नहीं!"
+      ],
+      "vi": [
+       "Tất nhiên là không!",
+       "Một lời “không” mạnh cho một câu hỏi. Thường là tử tế: bảo người kia đừng lo.",
+       "— Bạn có nghĩ mình lười không? — Tất nhiên là không!"
       ]
      }
     ]
@@ -630,6 +944,14 @@
     "fr": [
      "Désaccord marqué",
      "Direct et fort. Convient entre amis ou quand c'est vraiment important ; prudence avec les personnes âgées et au travail."
+    ],
+    "hi": [
+     "कड़ी असहमति",
+     "सीधी और ज़ोरदार। दोस्तों के साथ या जब बात सचमुच ज़रूरी हो तब ठीक; बड़ों के साथ और काम पर सँभलकर।"
+    ],
+    "vi": [
+     "Phản đối mạnh",
+     "Thẳng và mạnh. Dùng với bạn bè hoặc khi chuyện thật sự quan trọng thì được; cẩn thận với người lớn tuổi và ở chỗ làm."
     ]
    }
   },
@@ -654,6 +976,16 @@
        "Restons-en là, chacun son avis.",
        "Chacun garde son opinion, et l'on reste amis.",
        "On soutient des équipes de foot différentes. Restons-en là, chacun son avis !"
+      ],
+      "hi": [
+       "चलो मान लेते हैं कि हमारी राय अलग है।",
+       "हर कोई अपनी राय पर क़ायम रहता है, और हम दोस्त बने रहते हैं।",
+       "हमें अलग-अलग फ़ुटबॉल टीमें पसंद हैं। चलो मान लेते हैं कि हमारी राय अलग है!"
+      ],
+      "vi": [
+       "Thôi, mỗi người một ý vậy.",
+       "Ai giữ ý người nấy, và chúng ta vẫn là bạn.",
+       "Bọn mình thích hai đội bóng khác nhau. Thôi, mỗi người một ý vậy!"
       ]
      }
     ],
@@ -673,6 +1005,16 @@
        "Tu as peut-être raison.",
        "Admet que l'autre pourrait avoir raison. Calme et poli.",
        "— Je crois qu'il va pleuvoir plus tard. — Tu as peut-être raison. Prenons un parapluie."
+      ],
+      "hi": [
+       "हो सकता है आप सही हों।",
+       "मान लेता है कि सामने वाला सही हो सकता है। शांत और विनम्र।",
+       "— मुझे लगता है बाद में बारिश होगी। — हो सकता है तुम सही हो। छाता ले लेते हैं।"
+      ],
+      "vi": [
+       "Có thể bạn đúng.",
+       "Chấp nhận rằng người kia có thể đúng. Bình tĩnh và lịch sự.",
+       "— Mình nghĩ lát nữa trời sẽ mưa. — Có thể bạn đúng. Mang ô đi nhé."
       ]
      }
     ],
@@ -692,6 +1034,16 @@
        "Je n'y avais pas pensé.",
        "Vous entendez une idée nouvelle et commencez à changer d'avis.",
        "— Si on part à cinq heures, on évite les bouchons. — Oh, je n'y avais pas pensé."
+      ],
+      "hi": [
+       "यह तो मैंने सोचा ही नहीं था।",
+       "आप कोई नई बात सुनते हैं और आपका मन बदलने लगता है।",
+       "— अगर हम पाँच बजे निकलें, तो ट्रैफ़िक से बच जाएँगे। — अरे, यह तो मैंने सोचा ही नहीं था।"
+      ],
+      "vi": [
+       "Mình chưa nghĩ đến điều đó.",
+       "Bạn nghe một ý mới và bắt đầu đổi ý.",
+       "— Nếu đi lúc năm giờ thì mình tránh được kẹt xe. — Ồ, mình chưa nghĩ đến điều đó."
       ]
      }
     ],
@@ -711,6 +1063,16 @@
        "D'accord, tu as gagné !",
        "Amusé : céder avec le sourire. Seulement entre amis et en famille.",
        "— Pizza ou nouilles ? Allez, pizza ! — D'accord, tu as gagné !"
+      ],
+      "hi": [
+       "ठीक है, तुम जीते!",
+       "चुलबुला: मुस्कुराकर हार मान लेना। सिर्फ़ दोस्तों और परिवार के साथ।",
+       "— पिज़्ज़ा या नूडल्स? चलो न, पिज़्ज़ा! — ठीक है, तुम जीते!"
+      ],
+      "vi": [
+       "Thôi được, bạn thắng!",
+       "Vui đùa: chịu thua với một nụ cười. Chỉ dùng với bạn bè và gia đình.",
+       "— Pizza hay mì? Nào, pizza đi! — Thôi được, bạn thắng!"
       ]
      }
     ],
@@ -730,6 +1092,16 @@
        "On en reparle plus tard.",
        "Arrête une dispute avant qu'elle n'empire.",
        "On est fatigués tous les deux. On en reparle plus tard."
+      ],
+      "hi": [
+       "इस पर बाद में बात करते हैं।",
+       "बहस को बिगड़ने से पहले रोक देता है।",
+       "हम दोनों थके हुए हैं। इस पर बाद में बात करते हैं।"
+      ],
+      "vi": [
+       "Để sau mình nói chuyện này nhé.",
+       "Dừng cuộc tranh cãi trước khi nó tệ hơn.",
+       "Cả hai đứa mình đều mệt rồi. Để sau mình nói chuyện này nhé."
       ]
      }
     ]
@@ -742,6 +1114,14 @@
     "fr": [
      "Clore un désaccord",
      "Passer à autre chose calmement quand on n'est pas d'accord, ou quand on change d'avis."
+    ],
+    "hi": [
+     "असहमति ख़त्म करना",
+     "जब आप सहमत न हों या आपका मन बदल जाए, तब शांति से आगे बढ़ना।"
+    ],
+    "vi": [
+     "Kết thúc bất đồng",
+     "Bình tĩnh cho qua khi không đồng ý, hoặc khi bạn đổi ý."
     ]
    }
   }

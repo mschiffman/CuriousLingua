@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/small_talk.html",
  "aud_dir": "eng/expressions/small_talk/",
@@ -37,6 +39,16 @@
        "Belle journée, n'est-ce pas ?",
        "Isn't it? à la fin fonctionne comme n'est-ce pas : on invite l'autre à approuver. Répondez simplement : Yes, it is! ou It really is!",
        "— Belle journée, n'est-ce pas ? — Oui, vraiment !"
+      ],
+      "hi": [
+       "अच्छा दिन है, है न?",
+       "अंत का isn't it? “है न?” का काम करता है: सामने वाले को सहमत होने का न्योता देता है। बस जवाब दीजिए: Yes, it is! या It really is!",
+       "— अच्छा दिन है, है न? — सच में!"
+      ],
+      "vi": [
+       "Trời đẹp nhỉ?",
+       "Isn't it? ở cuối giống như “nhỉ?”: mời người kia đồng tình. Chỉ cần trả lời: Yes, it is! hoặc It really is!",
+       "— Trời đẹp nhỉ? — Đẹp thật!"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Comment se passe ta journée ?",
        "Une question amicale pour les collègues ou les commerçants que vous connaissez. Réponse courte : Pretty good, thanks. You?",
        "— Comment se passe ta journée ? — Pas mal ! C'est presque vendredi."
+      ],
+      "hi": [
+       "आपका दिन कैसा जा रहा है?",
+       "सहकर्मियों या जान-पहचान के दुकानदारों के लिए दोस्ताना सवाल। छोटा जवाब: Pretty good, thanks. You?",
+       "— दिन कैसा जा रहा है? — बुरा नहीं! शुक्रवार आने ही वाला है।"
+      ],
+      "vi": [
+       "Hôm nay của bạn thế nào?",
+       "Câu hỏi thân thiện dành cho đồng nghiệp hoặc nhân viên cửa hàng bạn quen. Trả lời ngắn: Pretty good, thanks. You?",
+       "— Hôm nay của bạn thế nào? — Cũng ổn! Sắp đến thứ Sáu rồi."
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Grosse journée ?",
        "Court et familier, au travail ou dans un magasin. Montre que vous prêtez attention à l'autre.",
        "— Grosse journée ? — Oui, c'est la folie !"
+      ],
+      "hi": [
+       "आज बहुत काम है?",
+       "छोटा और अनौपचारिक, काम पर या दुकान में। दिखाता है कि आपका ध्यान सामने वाले पर है।",
+       "— आज बहुत काम है? — हाँ, आज तो हद ही हो गई!"
+      ],
+      "vi": [
+       "Hôm nay bận à?",
+       "Ngắn gọn và thân mật, ở chỗ làm hoặc trong cửa hàng. Cho thấy bạn để ý đến người kia.",
+       "— Hôm nay bận à? — Ừ, bận điên lên được!"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "Vous êtes déjà venu ici ?",
        "Bien dans un café, à un événement ou dans tout lieu nouveau. Facile à répondre pour l'autre.",
        "Vous êtes déjà venu ici ? Les nouilles sont excellentes."
+      ],
+      "hi": [
+       "आप यहाँ पहले आए हैं?",
+       "किसी कैफ़े, कार्यक्रम या नई जगह पर अच्छा। सामने वाले के लिए जवाब देना आसान है।",
+       "आप यहाँ पहले आए हैं? यहाँ के नूडल्स बहुत बढ़िया हैं।"
+      ],
+      "vi": [
+       "Bạn đến đây bao giờ chưa?",
+       "Hợp ở quán cà phê, sự kiện hoặc bất cứ chỗ nào mới. Người kia dễ trả lời.",
+       "Bạn đến đây bao giờ chưa? Mì ở đây ngon lắm."
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Vous attendez le bus aussi ?",
        "Une façon naturelle d'engager la conversation avec quelqu'un qui attend à côté de vous.",
        "Vous attendez le bus 12 aussi ? Il est encore en retard."
+      ],
+      "hi": [
+       "क्या आप भी बस का इंतज़ार कर रहे हैं?",
+       "अपने पास इंतज़ार कर रहे व्यक्ति से बात शुरू करने का सहज तरीक़ा।",
+       "क्या आप भी 12 नंबर की बस का इंतज़ार कर रहे हैं? आज फिर देर से है।"
+      ],
+      "vi": [
+       "Bạn cũng đang chờ xe buýt à?",
+       "Cách tự nhiên để bắt chuyện với người đang chờ cạnh bạn.",
+       "Bạn cũng đang chờ xe buýt số 12 à? Xe lại trễ nữa rồi."
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Engager la conversation",
      "Des premières phrases faciles pour les voisins, les collègues et les personnes qui attendent à côté de vous."
+    ],
+    "hi": [
+     "बातचीत शुरू करना",
+     "पड़ोसियों, सहकर्मियों और आपके पास इंतज़ार कर रहे लोगों के लिए आसान पहली पंक्तियाँ।"
+    ],
+    "vi": [
+     "Bắt chuyện",
+     "Những câu mở đầu dễ nói với hàng xóm, đồng nghiệp và người đang chờ bên cạnh bạn."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Qu'est-ce qu'il fait chaud aujourd'hui !",
        "Facile à dire, facile à approuver. On dit aussi : It's boiling!",
        "Qu'est-ce qu'il fait chaud aujourd'hui ! Il me faut une boisson fraîche."
+      ],
+      "hi": [
+       "आज कितनी गरमी है!",
+       "कहना आसान, और हामी भरना भी आसान। यह भी: It's boiling!",
+       "आज कितनी गरमी है! मुझे कुछ ठंडा पीना है।"
+      ],
+      "vi": [
+       "Hôm nay nóng quá!",
+       "Dễ nói và dễ được đồng tình. Cũng có: It's boiling!",
+       "Hôm nay nóng quá! Mình cần một ly nước mát."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "On dirait qu'il va pleuvoir.",
        "Le ciel est sombre et la pluie arrive. On dit aussi : It's going to rain.",
        "On dirait qu'il va pleuvoir. Tu as un parapluie ?"
+      ],
+      "hi": [
+       "लगता है बारिश होगी।",
+       "आसमान काला है और बारिश आने वाली है। यह भी: It's going to rain.",
+       "लगता है बारिश होगी। आपके पास छाता है?"
+      ],
+      "vi": [
+       "Trời sắp mưa thì phải.",
+       "Trời tối sầm và mưa sắp đến. Cũng có: It's going to rain.",
+       "Trời sắp mưa thì phải. Bạn có ô không?"
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Quelle belle journée !",
        "Une remarque joyeuse sur un temps ensoleillé et agréable. Lovely est très courant en anglais britannique.",
        "Quelle belle journée ! Mangeons dehors."
+      ],
+      "hi": [
+       "कितना सुहाना दिन है!",
+       "धूप वाले, ख़ुशनुमा मौसम पर ख़ुशी भरी टिप्पणी। Lovely ब्रिटिश अंग्रेज़ी में बहुत आम है।",
+       "कितना सुहाना दिन है! चलो बाहर बैठकर खाते हैं।"
+      ],
+      "vi": [
+       "Hôm nay trời đẹp quá!",
+       "Lời nhận xét vui vẻ về thời tiết nắng đẹp, dễ chịu. Lovely rất phổ biến trong tiếng Anh Anh.",
+       "Hôm nay trời đẹp quá! Mình ăn ngoài trời đi."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "On gèle !",
        "Très froid. Les gens le disent même quand il ne fait qu'un peu froid.",
        "On gèle dans ce bureau ! On peut éteindre la climatisation ?"
+      ],
+      "hi": [
+       "कड़ाके की ठंड है!",
+       "बहुत ठंड। लोग हल्की-सी ठंड में भी यह कह देते हैं।",
+       "इस दफ़्तर में कड़ाके की ठंड है! क्या हम एसी बंद कर सकते हैं?"
+      ],
+      "vi": [
+       "Lạnh cóng!",
+       "Rất lạnh. Người ta nói vậy ngay cả khi chỉ hơi lạnh.",
+       "Văn phòng này lạnh cóng! Mình tắt máy lạnh được không?"
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Il va pleuvoir toute la semaine ?",
        "Les questions sur la météo entretiennent la conversation. On dit aussi : What's the weather like tomorrow?",
        "— Il va pleuvoir toute la semaine ? — J'espère que non. Mon linge ne séchera jamais !"
+      ],
+      "hi": [
+       "क्या पूरे हफ़्ते बारिश होगी?",
+       "मौसम के सवाल बातचीत को चलाए रखते हैं। यह भी: What's the weather like tomorrow?",
+       "— क्या पूरे हफ़्ते बारिश होगी? — उम्मीद है कि नहीं। मेरे कपड़े नहीं सूखेंगे!"
+      ],
+      "vi": [
+       "Trời sẽ mưa cả tuần à?",
+       "Những câu hỏi về thời tiết giữ cho cuộc trò chuyện tiếp tục. Cũng có: What's the weather like tomorrow?",
+       "— Trời sẽ mưa cả tuần à? — Mong là không. Quần áo mình không khô được!"
       ]
      }
     ]
@@ -237,6 +347,14 @@
     "fr": [
      "La météo",
      "Le sujet le plus sûr pour bavarder en anglais. Tout le monde a quelque chose à dire sur le temps."
+    ],
+    "hi": [
+     "मौसम",
+     "अंग्रेज़ी में हल्की-फुल्की बातचीत का सबसे सुरक्षित विषय। मौसम पर कहने को हर किसी के पास कुछ होता है।"
+    ],
+    "vi": [
+     "Thời tiết",
+     "Đề tài chuyện phiếm an toàn nhất trong tiếng Anh. Ai cũng có điều gì đó để nói về thời tiết."
     ]
    }
   },
@@ -261,6 +379,16 @@
        "Tu as passé un bon week-end ?",
        "La question du lundi matin. Répondez brièvement, puis renvoyez la question : Good, thanks. How was yours?",
        "— Tu as passé un bon week-end ? — Oui, merci. Et toi ?"
+      ],
+      "hi": [
+       "आपका वीकेंड कैसा रहा?",
+       "सोमवार सुबह का सवाल। छोटा जवाब दीजिए और सवाल लौटा दीजिए: Good, thanks. How was yours?",
+       "— वीकेंड कैसा रहा? — अच्छा, शुक्रिया। और तुम्हारा?"
+      ],
+      "vi": [
+       "Cuối tuần của bạn thế nào?",
+       "Câu hỏi của sáng thứ Hai. Trả lời ngắn rồi hỏi lại: Good, thanks. How was yours?",
+       "— Cuối tuần của bạn thế nào? — Vui, cảm ơn. Còn bạn?"
       ]
      }
     ],
@@ -280,6 +408,16 @@
        "Tu as fait quelque chose de sympa ?",
        "Une question pour relancer. Une réponse courte suffit : une ou deux phrases.",
        "— Tu as fait quelque chose de sympa ? — On est allés à la plage."
+      ],
+      "hi": [
+       "कुछ अच्छा किया?",
+       "आगे का सवाल। छोटा जवाब काफ़ी है: एक-दो वाक्य।",
+       "— कुछ अच्छा किया? — हम समुद्र-तट पर गए थे।"
+      ],
+      "vi": [
+       "Bạn có làm gì vui không?",
+       "Câu hỏi tiếp theo. Trả lời ngắn là đủ: một hai câu.",
+       "— Bạn có làm gì vui không? — Bọn mình đi biển."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "Des projets pour le week-end ?",
        "La question du vendredi. Forme courte de Do you have any plans for the weekend?",
        "— Des projets pour le week-end ? — Je vais voir ma tante."
+      ],
+      "hi": [
+       "वीकेंड की कोई योजना?",
+       "शुक्रवार का सवाल। Do you have any plans for the weekend? का छोटा रूप।",
+       "— वीकेंड की कोई योजना? — मैं अपनी मौसी से मिलने जा रहा हूँ।"
+      ],
+      "vi": [
+       "Cuối tuần có dự định gì không?",
+       "Câu hỏi của thứ Sáu. Dạng rút gọn của Do you have any plans for the weekend?",
+       "— Cuối tuần có dự định gì không? — Mình đi thăm dì."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "Prêt pour le week-end ?",
        "Une autre question du vendredi au travail. Elle veut dire : content que le week-end arrive ? Réponse : So ready! ou Definitely!",
        "— Prêt pour le week-end ? — Plus que prêt ! La semaine a été longue."
+      ],
+      "hi": [
+       "वीकेंड के लिए तैयार?",
+       "काम पर शुक्रवार का एक और सवाल। मतलब: ख़ुश हो कि वीकेंड आने ही वाला है? जवाब: So ready! या Definitely!",
+       "— वीकेंड के लिए तैयार? — एकदम तैयार! यह हफ़्ता बहुत लंबा रहा।"
+      ],
+      "vi": [
+       "Sẵn sàng cho cuối tuần chưa?",
+       "Một câu hỏi thứ Sáu khác ở chỗ làm. Nghĩa là: bạn có mừng vì sắp đến cuối tuần không? Trả lời: So ready! hoặc Definitely!",
+       "— Sẵn sàng cho cuối tuần chưa? — Quá sẵn sàng! Tuần này dài thật."
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "Juste me reposer à la maison.",
        "Une réponse parfaite, même si votre week-end est calme. On dit aussi : Nothing much.",
        "— Tu fais quoi ce week-end ? — Juste me reposer à la maison."
+      ],
+      "hi": [
+       "बस घर पर आराम।",
+       "बिलकुल ठीक जवाब, भले ही आपका वीकेंड शांत हो। यह भी: Nothing much.",
+       "— इस वीकेंड क्या कर रहे हो? — बस घर पर आराम।"
+      ],
+      "vi": [
+       "Chỉ ở nhà nghỉ ngơi thôi.",
+       "Một câu trả lời hoàn hảo, dù cuối tuần của bạn rất bình lặng. Cũng có: Nothing much.",
+       "— Cuối tuần này bạn làm gì? — Chỉ ở nhà nghỉ ngơi thôi."
       ]
      }
     ],
@@ -356,6 +524,16 @@
        "Bon week-end !",
        "L'au revoir du vendredi. Réponse : You too!",
        "À lundi. Bon week-end !"
+      ],
+      "hi": [
+       "वीकेंड अच्छा बीते!",
+       "शुक्रवार की विदा। जवाब: You too!",
+       "सोमवार को मिलते हैं। वीकेंड अच्छा बीते!"
+      ],
+      "vi": [
+       "Cuối tuần vui vẻ nhé!",
+       "Lời tạm biệt của thứ Sáu. Trả lời: You too!",
+       "Thứ Hai gặp lại. Cuối tuần vui vẻ nhé!"
       ]
      }
     ]
@@ -368,6 +546,14 @@
     "fr": [
      "Week-ends et projets",
      "Les questions du lundi et du vendredi, au travail et entre amis."
+    ],
+    "hi": [
+     "वीकेंड और योजनाएँ",
+     "सोमवार और शुक्रवार के सवाल, काम पर और दोस्तों के साथ।"
+    ],
+    "vi": [
+     "Cuối tuần và dự định",
+     "Câu hỏi của thứ Hai và thứ Sáu, ở chỗ làm và với bạn bè."
     ]
    }
   },
@@ -392,6 +578,16 @@
        "Ça a l'air délicieux !",
        "Un compliment avant de manger. Les hôtes et les cuisiniers adorent l'entendre.",
        "Ouah, ça a l'air délicieux ! C'est toi qui l'as fait ?"
+      ],
+      "hi": [
+       "यह तो बहुत स्वादिष्ट लग रहा है!",
+       "खाने से पहले की तारीफ़। मेज़बानों और खाना बनाने वालों को यह सुनना बहुत अच्छा लगता है।",
+       "वाह, यह तो बहुत स्वादिष्ट लग रहा है! आपने बनाया है?"
+      ],
+      "vi": [
+       "Trông ngon quá!",
+       "Lời khen trước khi ăn. Chủ nhà và người nấu rất thích nghe câu này.",
+       "Chà, trông ngon quá! Bạn tự làm à?"
       ]
      }
     ],
@@ -411,6 +607,16 @@
        "Tu as déjà goûté le mohinga ?",
        "Bien pour parler de la cuisine locale. Tried = mangé ou bu pour la première fois.",
        "— Tu as déjà goûté le mohinga ? — Non, c'est quoi ? — Une soupe de nouilles au poisson. Tu vas adorer !"
+      ],
+      "hi": [
+       "क्या आपने मोहिंगा चखा है?",
+       "यहाँ के खाने पर बात करने के लिए अच्छा। Tried = पहली बार खाया या पिया।",
+       "— क्या आपने मोहिंगा चखा है? — नहीं, वह क्या है? — मछली वाला नूडल सूप। आपको बहुत पसंद आएगा!"
+      ],
+      "vi": [
+       "Bạn đã thử mohinga chưa?",
+       "Hợp để nói về món ăn địa phương. Tried = ăn hoặc uống lần đầu.",
+       "— Bạn đã thử mohinga chưa? — Chưa, đó là gì vậy? — Là món bún cá. Bạn sẽ thích cho xem!"
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "Qu'est-ce qui est bon ici ?",
        "À demander à un ami ou à un serveur dans un nouveau restaurant.",
        "C'est la première fois que je viens. Qu'est-ce qui est bon ?"
+      ],
+      "hi": [
+       "यहाँ क्या अच्छा मिलता है?",
+       "नए रेस्तराँ में किसी दोस्त या वेटर से पूछिए।",
+       "मैं यहाँ पहली बार आया हूँ। यहाँ क्या अच्छा मिलता है?"
+      ],
+      "vi": [
+       "Ở đây có món gì ngon?",
+       "Hỏi bạn bè hoặc người phục vụ ở một nhà hàng mới.",
+       "Mình đến đây lần đầu. Có món gì ngon?"
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "Tu as déjà déjeuné ?",
        "En anglais, ce n'est pas une salutation. Mais vers midi, c'est une vraie question amicale, souvent avant une invitation.",
        "Tu as déjà déjeuné ? Tu veux venir avec nous ?"
+      ],
+      "hi": [
+       "आपने लंच कर लिया?",
+       "अंग्रेज़ी में यह अभिवादन की तरह नहीं बोला जाता। पर खाने के समय के आसपास यह सचमुच का, दोस्ताना सवाल है, अक्सर किसी न्योते से पहले।",
+       "तुमने लंच कर लिया? हमारे साथ चलोगे?"
+      ],
+      "vi": [
+       "Bạn ăn trưa chưa?",
+       "Trong tiếng Anh, câu này không dùng làm lời chào. Nhưng gần giờ ăn thì đó là một câu hỏi thật, thân thiện, thường đi trước một lời mời.",
+       "Bạn ăn trưa chưa? Đi cùng bọn mình không?"
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "Je meurs de faim !",
        "Très faim. Familier, et pas à prendre au pied de la lettre.",
        "Je meurs de faim ! Allons manger quelque chose."
+      ],
+      "hi": [
+       "भूख से जान निकल रही है!",
+       "बहुत भूख लगी है। अनौपचारिक, और इसे शब्दशः नहीं लिया जाता।",
+       "भूख से जान निकल रही है! चलो कुछ खाते हैं।"
+      ],
+      "vi": [
+       "Mình đói muốn chết!",
+       "Rất đói. Thân mật, và không hiểu theo nghĩa đen.",
+       "Mình đói muốn chết! Đi kiếm gì ăn đi."
       ]
      }
     ]
@@ -480,6 +716,14 @@
     "fr": [
      "La nourriture",
      "Tout le monde mange, donc la nourriture est un sujet facile."
+    ],
+    "hi": [
+     "खाना",
+     "खाते सभी हैं, इसलिए खाने पर बात करना आसान है।"
+    ],
+    "vi": [
+     "Đồ ăn",
+     "Ai cũng ăn, nên chuyện ăn uống rất dễ nói."
     ]
    }
   },
@@ -504,6 +748,16 @@
        "Comment ça se passe au travail ?",
        "Une façon amicale de dire How's work? Réponse : Not bad, thanks. ou Can't complain.",
        "— Comment ça se passe au travail ? — Je ne me plains pas. Chargé, mais bien."
+      ],
+      "hi": [
+       "काम कैसा चल रहा है?",
+       "How's work? कहने का दोस्ताना तरीक़ा। जवाब: Not bad, thanks. या Can't complain.",
+       "— काम कैसा चल रहा है? — शिकायत नहीं कर सकता। व्यस्त हूँ, पर ठीक है।"
+      ],
+      "vi": [
+       "Công việc dạo này thế nào?",
+       "Một cách thân thiện để hỏi How's work? Trả lời: Not bad, thanks. hoặc Can't complain.",
+       "— Công việc dạo này thế nào? — Không có gì để phàn nàn. Bận, nhưng ổn."
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Que fais-tu pour décompresser ?",
        "Unwind = se détendre après le travail ou une journée chargée. Une façon chaleureuse de s'intéresser aux loisirs de quelqu'un.",
        "— Que fais-tu pour décompresser ? — Je vais marcher ou je cuisine quelque chose."
+      ],
+      "hi": [
+       "थकान उतारने के लिए आप क्या करते हैं?",
+       "Unwind = काम या भारी दिन के बाद सुस्ताना। किसी के शौक़ पूछने का आत्मीय तरीक़ा।",
+       "— थकान उतारने के लिए तुम क्या करते हो? — मैं टहलने निकल जाता हूँ या कुछ पका लेता हूँ।"
+      ],
+      "vi": [
+       "Bạn làm gì để thư giãn?",
+       "Unwind = thư giãn sau giờ làm hoặc sau một ngày mệt. Một cách ấm áp để hỏi về sở thích của ai đó.",
+       "— Bạn làm gì để thư giãn? — Mình đi dạo hoặc nấu món gì đó."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "De nouveaux passe-temps ?",
        "Forme courte de Have you picked up any new hobbies? Pick up a hobby = se mettre à un nouveau loisir.",
        "— De nouveaux passe-temps ? — Oui, je me suis mis au badminton."
+      ],
+      "hi": [
+       "कोई नया शौक़ शुरू किया?",
+       "Have you picked up any new hobbies? का छोटा रूप। Pick up a hobby = नया शौक़ शुरू करना।",
+       "— कोई नया शौक़ शुरू किया? — हाँ, मैंने बैडमिंटन खेलना शुरू किया है।"
+      ],
+      "vi": [
+       "Có sở thích gì mới không?",
+       "Dạng rút gọn của Have you picked up any new hobbies? Pick up a hobby = bắt đầu một sở thích mới.",
+       "— Có sở thích gì mới không? — Có, mình mới bắt đầu chơi cầu lông."
       ]
      }
     ],
@@ -561,6 +835,16 @@
        "Tu regardes quelque chose de bien ?",
        "À propos des émissions et des séries. Les questions familières omettent souvent les premiers mots : (Are you) watching anything good?",
        "— Tu regardes quelque chose de bien ? — Oui, une super série coréenne."
+      ],
+      "hi": [
+       "कुछ अच्छा देख रहे हो?",
+       "टीवी कार्यक्रमों और सीरीज़ के बारे में। अनौपचारिक सवालों में अक्सर शुरू के शब्द छूट जाते हैं: (Are you) watching anything good?",
+       "— कुछ अच्छा देख रहे हो? — हाँ, एक बढ़िया कोरियाई ड्रामा।"
+      ],
+      "vi": [
+       "Đang xem gì hay không?",
+       "Về các chương trình và phim truyền hình. Câu hỏi thân mật thường bỏ mấy từ đầu: (Are you) watching anything good?",
+       "— Đang xem gì hay không? — Có, một bộ phim Hàn rất hay."
       ]
      }
     ],
@@ -580,6 +864,16 @@
        "Tu as lu de bons livres dernièrement ?",
        "Forme courte de Have you read...? Lately = récemment. Changez le nom : Seen any good movies lately?",
        "— Tu as lu de bons livres dernièrement ? — Pas vraiment. Je n'ai pas le temps !"
+      ],
+      "hi": [
+       "इधर कोई अच्छी किताब पढ़ी?",
+       "Have you read...? का छोटा रूप। Lately = हाल में। संज्ञा बदल दीजिए: Seen any good movies lately?",
+       "— इधर कोई अच्छी किताब पढ़ी? — कुछ ख़ास नहीं। समय ही नहीं मिलता!"
+      ],
+      "vi": [
+       "Dạo này có đọc cuốn nào hay không?",
+       "Dạng rút gọn của Have you read...? Lately = gần đây. Đổi danh từ: Seen any good movies lately?",
+       "— Dạo này có đọc cuốn nào hay không? — Không hẳn. Mình chẳng có thời gian!"
       ]
      }
     ]
@@ -592,6 +886,14 @@
     "fr": [
      "Travail et temps libre",
      "Des questions faciles sur le travail de quelqu'un, ses loisirs, et ce qu'il regarde ou lit."
+    ],
+    "hi": [
+     "काम और ख़ाली समय",
+     "किसी के काम, शौक़ और वे क्या देख या पढ़ रहे हैं, इस पर आसान सवाल।"
+    ],
+    "vi": [
+     "Công việc và thời gian rảnh",
+     "Những câu hỏi dễ về công việc, sở thích, và người kia đang xem gì, đọc gì."
     ]
    }
   },
@@ -616,6 +918,16 @@
        "Et toi ?",
        "Renvoie la question. Sans cela, la conversation s'arrête. On dit aussi : How about you?",
        "— J'habite ici depuis trois ans. Et toi ? — Seulement six mois."
+      ],
+      "hi": [
+       "और आप?",
+       "सवाल लौटा देता है। इसके बिना बातचीत ख़त्म हो जाती है। यह भी: How about you?",
+       "— मैं यहाँ तीन साल से रह रहा हूँ। और आप? — बस छह महीने से।"
+      ],
+      "vi": [
+       "Còn bạn thì sao?",
+       "Hỏi lại người kia. Không có nó, câu chuyện sẽ tắt. Cũng có: How about you?",
+       "— Mình sống ở đây ba năm rồi. Còn bạn thì sao? — Mới sáu tháng thôi."
       ]
      }
     ],
@@ -635,6 +947,16 @@
        "Ah bon ?",
        "Montre de l'intérêt et invite la personne à en dire plus. Laissez la voix monter.",
        "— J'étais infirmière avant. — Ah bon ? Où travaillais-tu ?"
+      ],
+      "hi": [
+       "अच्छा, सच में?",
+       "दिलचस्पी दिखाता है और सामने वाले को और बताने का न्योता देता है। आवाज़ ऊपर उठने दीजिए।",
+       "— मैं पहले नर्स थी। — अच्छा, सच में? आप कहाँ काम करती थीं?"
+      ],
+      "vi": [
+       "Ồ, thật à?",
+       "Tỏ ra quan tâm và mời người kia kể thêm. Để giọng lên cao.",
+       "— Trước đây mình làm y tá. — Ồ, thật à? Bạn làm ở đâu?"
       ]
      }
     ],
@@ -654,6 +976,16 @@
        "Ça a l'air sympa !",
        "Une réaction chaleureuse aux projets ou au récit de quelqu'un. On dit aussi : That sounds great!",
        "— On part camper ce week-end. — Ça a l'air sympa !"
+      ],
+      "hi": [
+       "सुनकर मज़ेदार लग रहा है!",
+       "किसी की योजना या क़िस्से पर आत्मीय प्रतिक्रिया। यह भी: That sounds great!",
+       "— इस वीकेंड हम कैंपिंग पर जा रहे हैं। — सुनकर मज़ेदार लग रहा है!"
+      ],
+      "vi": [
+       "Nghe vui đấy!",
+       "Một phản ứng ấm áp trước dự định hay câu chuyện của ai đó. Cũng có: That sounds great!",
+       "— Cuối tuần này bọn mình đi cắm trại. — Nghe vui đấy!"
       ]
      }
     ],
@@ -673,6 +1005,16 @@
        "Depuis combien de temps habites-tu ici ?",
        "Une excellente question pour relancer sur la vie de quelqu'un. On dit aussi : How long have you worked here?",
        "— Depuis combien de temps habites-tu ici ? — Environ cinq ans."
+      ],
+      "hi": [
+       "आप यहाँ कब से रह रहे हैं?",
+       "किसी की ज़िंदगी के बारे में आगे पूछने का बढ़िया सवाल। यह भी: How long have you worked here?",
+       "— आप यहाँ कब से रह रहे हैं? — क़रीब पाँच साल से।"
+      ],
+      "vi": [
+       "Bạn sống ở đây bao lâu rồi?",
+       "Một câu hỏi tiếp rất hay về cuộc sống của ai đó. Cũng có: How long have you worked here?",
+       "— Bạn sống ở đây bao lâu rồi? — Khoảng năm năm."
       ]
      }
     ],
@@ -692,6 +1034,16 @@
        "Oh, super !",
        "Une réaction courte et joyeuse qui garde l'ambiance amicale. On dit aussi : Oh, cool!",
        "— Je viens de commencer un cours de cuisine. — Oh, super ! Qu'est-ce que tu prépares ?"
+      ],
+      "hi": [
+       "अरे, बढ़िया!",
+       "छोटी, ख़ुशी भरी प्रतिक्रिया जो माहौल अच्छा बनाए रखती है। यह भी: Oh, cool!",
+       "— मैंने अभी-अभी कुकिंग क्लास शुरू की है। — अरे, बढ़िया! क्या बना रहे हो?"
+      ],
+      "vi": [
+       "Ồ, hay quá!",
+       "Một phản ứng ngắn, vui vẻ, giữ cho không khí dễ chịu. Cũng có: Oh, cool!",
+       "— Mình mới bắt đầu một lớp nấu ăn. — Ồ, hay quá! Bạn đang nấu món gì?"
       ]
      }
     ]
@@ -704,6 +1056,14 @@
     "fr": [
      "Entretenir la conversation",
      "Bavarder, c'est comme un jeu de balle : on l'attrape, puis on la renvoie."
+    ],
+    "hi": [
+     "बातचीत को आगे बढ़ाना",
+     "हल्की-फुल्की बातचीत गेंद के खेल जैसी है: पकड़िए, फिर वापस फेंकिए।"
+    ],
+    "vi": [
+     "Giữ cho cuộc trò chuyện tiếp tục",
+     "Chuyện phiếm giống như chơi bóng: bắt lấy, rồi ném lại."
     ]
    }
   },
@@ -728,6 +1088,16 @@
        "Quel âge as-tu ?",
        "En anglais, les adultes le demandent rarement à quelqu'un qu'ils viennent de rencontrer. Attendez d'être amis.",
        "— Quel âge as-tu ? — Ha, c'est un secret !"
+      ],
+      "hi": [
+       "आपकी उम्र क्या है?",
+       "अंग्रेज़ी में बड़े लोग यह सवाल उससे लगभग कभी नहीं पूछते जिससे वे अभी मिले हों। दोस्ती हो जाने तक रुकिए।",
+       "— आपकी उम्र क्या है? — हा, यह तो राज़ है!"
+      ],
+      "vi": [
+       "Bạn bao nhiêu tuổi?",
+       "Trong tiếng Anh, người lớn hầu như không bao giờ hỏi câu này với người vừa mới quen. Hãy chờ đến khi thành bạn.",
+       "— Bạn bao nhiêu tuổi? — Ha, bí mật đấy!"
       ]
      }
     ],
@@ -747,6 +1117,16 @@
        "C'est un peu personnel.",
        "Une façon polie de ne pas répondre à une question personnelle. Souriez, puis changez de sujet.",
        "— Combien as-tu payé ta maison ? — Oh, c'est un peu personnel ! Alors, et le travail ?"
+      ],
+      "hi": [
+       "यह थोड़ा निजी सवाल है।",
+       "निजी सवाल का जवाब न देने का विनम्र तरीक़ा। मुस्कुराइए और बात बदल दीजिए।",
+       "— आपने अपना घर कितने में ख़रीदा? — अरे, यह थोड़ा निजी सवाल है! तो, काम कैसा चल रहा है?"
+      ],
+      "vi": [
+       "Câu đó hơi riêng tư.",
+       "Một cách lịch sự để không trả lời câu hỏi riêng tư. Mỉm cười rồi đổi đề tài.",
+       "— Bạn mua nhà hết bao nhiêu tiền? — Ôi, câu đó hơi riêng tư! Thế, công việc dạo này thế nào?"
       ]
      }
     ]
@@ -759,6 +1139,14 @@
     "fr": [
      "Attention : trop personnel",
      "Des questions amicales dans d'autres cultures peuvent paraître trop personnelles en anglais, surtout avec des gens que l'on vient de rencontrer."
+    ],
+    "hi": [
+     "सावधान: बहुत निजी",
+     "जो सवाल अपने यहाँ दोस्ताना माने जाते हैं, वे अंग्रेज़ी में बहुत निजी लग सकते हैं, ख़ासकर उन लोगों के साथ जिनसे आप अभी मिले हैं।"
+    ],
+    "vi": [
+     "Cẩn thận: quá riêng tư",
+     "Những câu hỏi thân tình ở quê mình có thể bị coi là quá riêng tư trong tiếng Anh, nhất là với người bạn vừa mới gặp."
     ]
    }
   }

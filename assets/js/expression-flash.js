@@ -52,7 +52,7 @@
 
   // Explanation languages: the page's `langs`, the visitor's last choice for this course, else the first.
   const LANGS = typeof langs !== "undefined" && Array.isArray(langs) ? langs : [];
-  const NAMES = { my: "မြန်မာ", en: "English", es: "Español", fr: "Français" };
+  const NAMES = { my: "မြန်မာ", en: "English", es: "Español", fr: "Français", hi: "हिन्दी", vi: "Tiếng Việt" };
   const KEY = "explain:" + (typeof COURSE !== "undefined" ? COURSE : "");
   let lang = LANGS[0] || "";
   try {

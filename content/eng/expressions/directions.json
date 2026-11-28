@@ -10,7 +10,9 @@
  "langs": [
   "my",
   "es",
-  "fr"
+  "fr",
+  "hi",
+  "vi"
  ],
  "legacy": "eng/expressions/directions.html",
  "aud_dir": "eng/expressions/directions/",
@@ -37,6 +39,16 @@
        "Excusez-moi, où est la banque ?",
        "Excuse me, en premier, attire poliment l'attention d'un inconnu. Where's = where is.",
        "Excusez-moi, où est la gare routière ?"
+      ],
+      "hi": [
+       "सुनिए, <span class=gray>बैंक</span> कहाँ है?",
+       "शुरू का Excuse me किसी अजनबी का ध्यान विनम्रता से खींचता है। Where's = where is.",
+       "सुनिए, बस अड्डा कहाँ है?"
+      ],
+      "vi": [
+       "Xin lỗi, <span class=gray>ngân hàng</span> ở đâu ạ?",
+       "Excuse me ở đầu câu để gây chú ý với người lạ một cách lịch sự. Where's = where is.",
+       "Xin lỗi, bến xe buýt ở đâu ạ?"
       ]
      }
     ],
@@ -56,6 +68,16 @@
        "Comment je vais à la gare ?",
        "Demande le chemin, pas seulement l'endroit. Get to = arriver à.",
        "Excusez-moi, comment je vais à l'hôpital ?"
+      ],
+      "hi": [
+       "<span class=gray>स्टेशन</span> कैसे पहुँचूँ?",
+       "सिर्फ़ जगह नहीं, रास्ता पूछता है। Get to = पहुँचना।",
+       "सुनिए, अस्पताल कैसे पहुँचूँ?"
+      ],
+      "vi": [
+       "Đi đến <span class=gray>nhà ga</span> thế nào ạ?",
+       "Hỏi đường đi, không chỉ hỏi địa điểm. Get to = đi đến.",
+       "Xin lỗi, đi đến bệnh viện thế nào ạ?"
       ]
      }
     ],
@@ -75,6 +97,16 @@
        "Il y a une pharmacie près d'ici ?",
        "Quand on cherche n'importe quel commerce de ce genre, pas un en particulier.",
        "Il y a des toilettes près d'ici ?"
+      ],
+      "hi": [
+       "क्या यहाँ पास में कोई <span class=gray>दवा की दुकान</span> है?",
+       "जब आपको उस तरह की कोई भी दुकान चाहिए, कोई ख़ास दुकान नहीं।",
+       "क्या यहाँ पास में कोई शौचालय है?"
+      ],
+      "vi": [
+       "Gần đây có <span class=gray>hiệu thuốc</span> nào không?",
+       "Khi bạn cần bất cứ cửa hàng nào thuộc loại đó, không phải một cửa hàng cụ thể.",
+       "Gần đây có nhà vệ sinh nào không?"
       ]
      }
     ],
@@ -94,6 +126,16 @@
        "C'est loin ?",
        "Demande la distance. On dit aussi : How far is it?",
        "— Le temple est en haut de la colline. — C'est loin ?"
+      ],
+      "hi": [
+       "क्या वह दूर है?",
+       "दूरी पूछता है। यह भी: How far is it?",
+       "— मंदिर पहाड़ी के ऊपर है। — क्या वह दूर है?"
+      ],
+      "vi": [
+       "Có xa không?",
+       "Hỏi về khoảng cách. Cũng có: How far is it?",
+       "— Ngôi chùa ở trên đồi. — Có xa không?"
       ]
      }
     ],
@@ -113,6 +155,16 @@
        "Vous pouvez me montrer sur la carte ?",
        "Utile quand les indications sont difficiles à suivre. Tendez votre téléphone ou votre plan.",
        "Désolé, je ne comprends pas. Vous pouvez me montrer sur la carte ?"
+      ],
+      "hi": [
+       "क्या आप मुझे नक़्शे पर दिखा सकते हैं?",
+       "तब काम का, जब रास्ता समझना मुश्किल हो। अपना फ़ोन या नक़्शा दिखाइए।",
+       "माफ़ कीजिए, मुझे समझ नहीं आया। क्या आप मुझे नक़्शे पर दिखा सकते हैं?"
+      ],
+      "vi": [
+       "Bạn chỉ cho tôi trên bản đồ được không?",
+       "Hữu ích khi lời chỉ đường khó theo. Hãy đưa điện thoại hoặc bản đồ của bạn ra.",
+       "Xin lỗi, tôi không hiểu. Bạn chỉ cho tôi trên bản đồ được không?"
       ]
      }
     ]
@@ -125,6 +177,14 @@
     "fr": [
      "Demander son chemin",
      "Commencez par Excuse me, puis posez votre question."
+    ],
+    "hi": [
+     "रास्ता पूछना",
+     "Excuse me से शुरू कीजिए, फिर अपना सवाल पूछिए।"
+    ],
+    "vi": [
+     "Hỏi đường",
+     "Mở đầu bằng Excuse me, rồi hỏi."
     ]
    }
   },
@@ -149,6 +209,16 @@
        "Allez tout droit.",
        "Continuez devant vous. En anglais américain : Go straight ahead.",
        "Allez tout droit sur deux cents mètres environ."
+      ],
+      "hi": [
+       "सीधे चलते जाइए।",
+       "आगे की ओर चलते रहिए। अमेरिकी अंग्रेज़ी में: Go straight ahead.",
+       "क़रीब दो सौ मीटर सीधे चलते जाइए।"
+      ],
+      "vi": [
+       "Đi thẳng.",
+       "Cứ đi về phía trước. Trong tiếng Anh Mỹ: Go straight ahead.",
+       "Đi thẳng khoảng hai trăm mét."
       ]
      }
     ],
@@ -168,6 +238,16 @@
        "Tournez à gauche.",
        "Left et right se comptent du point de vue de celui qui marche, pas du vôtre. Montrez du doigt pour aider.",
        "Tournez à gauche après le pont."
+      ],
+      "hi": [
+       "बाएँ मुड़िए।",
+       "Left और right चलने वाले के हिसाब से होते हैं, आपके हिसाब से नहीं। मदद के लिए इशारा कीजिए।",
+       "पुल के बाद बाएँ मुड़िए।"
+      ],
+      "vi": [
+       "Rẽ trái.",
+       "Left và right tính theo phía người đang đi, không theo phía bạn. Hãy chỉ tay để giúp họ.",
+       "Qua cầu thì rẽ trái."
       ]
      }
     ],
@@ -187,6 +267,16 @@
        "Tournez à droite aux feux.",
        "At + un point de repère indique où tourner.",
        "Tournez à droite au grand arbre."
+      ],
+      "hi": [
+       "<span class=gray>ट्रैफ़िक लाइट</span> से दाएँ मुड़िए।",
+       "At + कोई पहचान की जगह बताता है कि कहाँ मुड़ना है।",
+       "बड़े पेड़ के पास से दाएँ मुड़िए।"
+      ],
+      "vi": [
+       "Rẽ phải ở <span class=gray>đèn giao thông</span>.",
+       "At + một điểm mốc cho biết rẽ ở đâu.",
+       "Rẽ phải ở chỗ cái cây to."
       ]
      }
     ],
@@ -206,6 +296,16 @@
        "Prenez la deuxième rue à gauche.",
        "Comptez les rues : first, second, third.",
        "Prenez la première rue à droite. Le magasin est là."
+      ],
+      "hi": [
+       "बाईं ओर की दूसरी गली में जाइए।",
+       "गलियाँ गिनिए: first, second, third.",
+       "दाईं ओर की पहली गली में जाइए। दुकान वहीं है।"
+      ],
+      "vi": [
+       "Rẽ vào đường thứ hai bên trái.",
+       "Đếm các con đường: first, second, third.",
+       "Rẽ vào đường thứ nhất bên phải. Cửa hàng ở đó."
       ]
      }
     ],
@@ -225,6 +325,16 @@
        "Traversez la rue.",
        "Passez de l'autre côté. Regardez d'abord des deux côtés !",
        "Traversez la rue au passage piéton."
+      ],
+      "hi": [
+       "सड़क पार कीजिए।",
+       "दूसरी तरफ़ जाइए। पहले दोनों ओर देख लीजिए!",
+       "ज़ेब्रा क्रॉसिंग से सड़क पार कीजिए।"
+      ],
+      "vi": [
+       "Băng qua đường.",
+       "Sang phía bên kia. Nhớ nhìn cả hai phía trước đã!",
+       "Băng qua đường ở vạch dành cho người đi bộ."
       ]
      }
     ],
@@ -244,6 +354,16 @@
        "Passez devant l'école.",
        "Passer à côté sans s'arrêter.",
        "Passez devant le marché et tournez à gauche."
+      ],
+      "hi": [
+       "<span class=gray>स्कूल</span> के आगे निकल जाइए।",
+       "बिना रुके सामने से गुज़र जाना।",
+       "बाज़ार के आगे निकल जाइए और बाएँ मुड़िए।"
+      ],
+      "vi": [
+       "Đi qua <span class=gray>trường học</span>.",
+       "Đi ngang qua mà không dừng lại.",
+       "Đi qua chợ rồi rẽ trái."
       ]
      }
     ]
@@ -256,6 +376,14 @@
     "fr": [
      "Indiquer le chemin",
      "De courtes consignes qui indiquent la direction à prendre."
+    ],
+    "hi": [
+     "रास्ता बताना",
+     "छोटे-छोटे निर्देश, जो बताते हैं कि किस ओर जाना है।"
+    ],
+    "vi": [
+     "Chỉ đường",
+     "Những câu lệnh ngắn cho người khác biết đi hướng nào."
     ]
    }
   },
@@ -280,6 +408,16 @@
        "C'est sur votre droite.",
        "On your left / on your right : de quel côté on le verra.",
        "Marchez deux minutes. La bibliothèque est sur votre droite."
+      ],
+      "hi": [
+       "वह आपके दाईं ओर है।",
+       "On your left / on your right: वह किस तरफ़ दिखेगा।",
+       "दो मिनट चलिए। पुस्तकालय आपके दाईं ओर है।"
+      ],
+      "vi": [
+       "Nó ở bên phải của bạn.",
+       "On your left / on your right: họ sẽ thấy nó ở phía nào.",
+       "Đi bộ hai phút. Thư viện ở bên phải của bạn."
       ]
      }
     ],
@@ -299,6 +437,16 @@
        "C'est à côté de la poste.",
        "Next to = à côté de, tout près de.",
        "La boulangerie est à côté de la banque."
+      ],
+      "hi": [
+       "वह <span class=gray>डाकघर</span> के बग़ल में है।",
+       "Next to = बग़ल में, सटा हुआ।",
+       "बेकरी बैंक के बग़ल में है।"
+      ],
+      "vi": [
+       "Nó ở cạnh <span class=gray>bưu điện</span>.",
+       "Next to = bên cạnh, sát bên.",
+       "Tiệm bánh ở cạnh ngân hàng."
       ]
      }
     ],
@@ -318,6 +466,16 @@
        "C'est en face du marché.",
        "De l'autre côté de la rue, en vis-à-vis. L'anglais américain dit aussi across from.",
        "Le dispensaire est en face de l'école."
+      ],
+      "hi": [
+       "वह <span class=gray>बाज़ार</span> के सामने है।",
+       "सड़क के उस पार, ठीक सामने। अमेरिकी अंग्रेज़ी में across from भी कहते हैं।",
+       "क्लिनिक स्कूल के सामने है।"
+      ],
+      "vi": [
+       "Nó ở đối diện <span class=gray>chợ</span>.",
+       "Ở bên kia đường, ngay trước mặt. Trong tiếng Anh Mỹ còn nói across from.",
+       "Phòng khám ở đối diện trường học."
       ]
      }
     ],
@@ -337,6 +495,16 @@
        "C'est entre la banque et le café.",
        "Between + deux lieux, reliés par and.",
        "Le magasin de chaussures est entre la pharmacie et la librairie."
+      ],
+      "hi": [
+       "वह <span class=gray>बैंक और कैफ़े</span> के बीच में है।",
+       "Between + दो जगहें, and से जुड़ी हुई।",
+       "जूतों की दुकान दवा की दुकान और किताबों की दुकान के बीच में है।"
+      ],
+      "vi": [
+       "Nó ở giữa <span class=gray>ngân hàng và quán cà phê</span>.",
+       "Between + hai địa điểm, nối bằng and.",
+       "Cửa hàng giày ở giữa hiệu thuốc và hiệu sách."
       ]
      }
     ],
@@ -356,6 +524,16 @@
        "C'est au bout de la rue.",
        "Là où la rue s'arrête.",
        "Notre maison est au bout de la rue, avec un portail rouge."
+      ],
+      "hi": [
+       "वह गली के आख़िर में है।",
+       "जहाँ गली ख़त्म होती है।",
+       "हमारा घर गली के आख़िर में है, लाल गेट वाला।"
+      ],
+      "vi": [
+       "Nó ở cuối đường.",
+       "Chỗ con đường kết thúc.",
+       "Nhà bọn mình ở cuối đường, có cổng màu đỏ."
       ]
      }
     ],
@@ -375,6 +553,16 @@
        "Vous ne pouvez pas le manquer.",
        "C'est très facile à voir. Une formule aimable à la fin des explications.",
        "C'est un grand bâtiment jaune. Vous ne pouvez pas le manquer."
+      ],
+      "hi": [
+       "वह आपसे छूट ही नहीं सकता।",
+       "वह बहुत आसानी से दिख जाता है। रास्ता बताने के अंत में कहा जाने वाला भला वाक्य।",
+       "वह एक बड़ी पीली इमारत है। आपसे छूट ही नहीं सकती।"
+      ],
+      "vi": [
+       "Bạn không thể không thấy đâu.",
+       "Rất dễ nhìn thấy. Một câu dễ thương để kết thúc lời chỉ đường.",
+       "Đó là một tòa nhà lớn màu vàng. Bạn không thể không thấy đâu."
       ]
      }
     ]
@@ -387,6 +575,14 @@
     "fr": [
      "Où c'est",
      "Décrire l'endroit quand on s'en approche."
+    ],
+    "hi": [
+     "वह कहाँ है",
+     "जब वे पास पहुँच जाएँ, तब जगह का बयान करना।"
+    ],
+    "vi": [
+     "Nó ở đâu",
+     "Tả địa điểm khi họ đã đến gần."
     ]
    }
   },
@@ -411,6 +607,16 @@
        "C'est juste au coin de la rue.",
        "Tout près, peut-être juste après le prochain tournant.",
        "— Le magasin est loin ? — Non, c'est juste au coin de la rue."
+      ],
+      "hi": [
+       "वह बस मोड़ पर ही है।",
+       "बहुत पास, शायद अगले मोड़ के ठीक बाद।",
+       "— क्या दुकान दूर है? — नहीं, बस मोड़ पर ही है।"
+      ],
+      "vi": [
+       "Nó ở ngay góc đường thôi.",
+       "Rất gần, có thể ngay sau chỗ rẽ tiếp theo.",
+       "— Cửa hàng có xa không? — Không, ở ngay góc đường thôi."
       ]
      }
     ],
@@ -430,6 +636,16 @@
        "C'est à environ cinq minutes à pied.",
        "On foot = en marchant. By car, by bus, by bike pour les autres moyens.",
        "La plage est à environ dix minutes à vélo."
+      ],
+      "hi": [
+       "पैदल क़रीब पाँच मिनट लगते हैं।",
+       "On foot = पैदल। दूसरे साधनों के लिए by car, by bus, by bike.",
+       "समुद्र-तट साइकिल से क़रीब दस मिनट दूर है।"
+      ],
+      "vi": [
+       "Đi bộ mất khoảng năm phút.",
+       "On foot = đi bộ. Với các phương tiện khác thì dùng by car, by bus, by bike.",
+       "Bãi biển cách khoảng mười phút đạp xe."
       ]
      }
     ],
@@ -449,6 +665,16 @@
        "C'est loin.",
        "Trop loin pour y aller facilement à pied.",
        "C'est loin. Vous devriez prendre un bus."
+      ],
+      "hi": [
+       "वह काफ़ी दूर है।",
+       "इतना दूर कि आराम से पैदल नहीं जाया जा सकता।",
+       "वह काफ़ी दूर है। आपको बस ले लेनी चाहिए।"
+      ],
+      "vi": [
+       "Xa lắm đấy.",
+       "Quá xa để đi bộ cho thoải mái.",
+       "Xa lắm đấy. Bạn nên đi xe buýt."
       ]
      }
     ],
@@ -468,6 +694,16 @@
        "Vous pouvez y aller à pied.",
        "C'est assez près pour marcher.",
        "Le musée est tout près. Vous pouvez y aller à pied."
+      ],
+      "hi": [
+       "आप वहाँ पैदल जा सकते हैं।",
+       "इतना पास है कि पैदल पहुँचा जा सकता है।",
+       "संग्रहालय पास ही है। आप वहाँ पैदल जा सकते हैं।"
+      ],
+      "vi": [
+       "Bạn đi bộ đến đó được.",
+       "Đủ gần để đi bộ.",
+       "Bảo tàng gần đây thôi. Bạn đi bộ đến đó được."
       ]
      }
     ]
@@ -480,6 +716,14 @@
     "fr": [
      "À quelle distance",
      "Dire si c'est près ou loin, et combien de temps il faut."
+    ],
+    "hi": [
+     "कितनी दूर",
+     "बताना कि कितना पास या दूर है, और कितना समय लगता है।"
+    ],
+    "vi": [
+     "Bao xa",
+     "Nói gần hay xa, và đi mất bao lâu."
     ]
    }
   },
@@ -504,6 +748,16 @@
        "Je suis perdu.",
        "Vous ne savez pas où vous êtes. Demandez de l'aide : I'm lost. Can you help me?",
        "Excusez-moi, je suis perdu. Où est la rue principale ?"
+      ],
+      "hi": [
+       "मैं रास्ता भटक गया हूँ।",
+       "आपको नहीं पता कि आप कहाँ हैं। मदद माँगिए: I'm lost. Can you help me?",
+       "सुनिए, मैं रास्ता भटक गया हूँ। मुख्य सड़क किधर है?"
+      ],
+      "vi": [
+       "Tôi bị lạc.",
+       "Bạn không biết mình đang ở đâu. Hãy nhờ giúp: I'm lost. Can you help me?",
+       "Xin lỗi, tôi bị lạc. Đường lớn ở phía nào ạ?"
       ]
      }
     ],
@@ -523,6 +777,16 @@
        "Je ne suis pas d'ici.",
        "Explique pourquoi vous ne connaissez pas le chemin, ou pourquoi vous demandez.",
        "Désolé, je ne suis pas d'ici. Demandez plutôt au magasin."
+      ],
+      "hi": [
+       "मैं यहाँ का नहीं हूँ।",
+       "बताता है कि आपको रास्ता क्यों नहीं पता, या आप क्यों पूछ रहे हैं।",
+       "माफ़ कीजिए, मैं यहाँ का नहीं हूँ। उस दुकान पर पूछकर देखिए।"
+      ],
+      "vi": [
+       "Tôi không phải người ở đây.",
+       "Giải thích vì sao bạn không biết đường, hoặc vì sao bạn hỏi.",
+       "Xin lỗi, tôi không phải người ở đây. Bạn thử hỏi ở cửa hàng xem."
       ]
      }
     ],
@@ -542,6 +806,16 @@
        "Désolé, je ne sais pas.",
        "Honnête et poli quand on vous demande le chemin et que vous ne pouvez pas aider.",
        "— Où est la poste ? — Désolé, je ne sais pas."
+      ],
+      "hi": [
+       "माफ़ कीजिए, मुझे नहीं पता।",
+       "ईमानदार और विनम्र, जब कोई आपसे रास्ता पूछे और आप मदद न कर सकें।",
+       "— डाकघर कहाँ है? — माफ़ कीजिए, मुझे नहीं पता।"
+      ],
+      "vi": [
+       "Xin lỗi, tôi không biết.",
+       "Thật lòng và lịch sự khi có người hỏi đường mà bạn không giúp được.",
+       "— Bưu điện ở đâu ạ? — Xin lỗi, tôi không biết."
       ]
      }
     ]
@@ -554,6 +828,14 @@
     "fr": [
      "Perdu ou pas sûr",
      "Quand on est perdu, ou quand on ne peut pas aider."
+    ],
+    "hi": [
+     "भटक गए या पक्का नहीं पता",
+     "जब आप रास्ता भटक गए हों, या जब आप मदद न कर सकें।"
+    ],
+    "vi": [
+     "Lạc đường hoặc không chắc",
+     "Khi bạn bị lạc, hoặc khi bạn không giúp được."
     ]
    }
   }
